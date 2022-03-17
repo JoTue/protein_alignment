@@ -1,0 +1,3280 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:33
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/UBX7_YEAST.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/UBX7_YEAST.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/UBX7_YEAST.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      40/188 (21.3%)
+# Similarity:    67/188 (35.6%)
+# Gaps:          61/188 (32.4%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        43 DDVSLDTLAEHSIWLRLVKD-----TEQFQLFEQVFPNVVVPSIYLI-RA     86
+                     ||::|        :.:|:||     :|......|:|.:......|:. .|
+PUR7_VIBVU       210 DDIAL--------YEKLLKDGFGVISEALANVGQIFVDTKFEFGYVTDAA    251
+
+UBX7_YEAST        87 GKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRD    136
+                     |..:||...|           :|..|      |||..:   |:|.::.:.
+PUR7_VIBVU       252 GNEKLIYMDE-----------VGTPD------SSRIWD---AQEYQAGKI    281
+
+UBX7_YEAST       137 VHRKNARERIAETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKAL    186
+                     |  :|::|...:..|.......:...|....|||.:.|            
+PUR7_VIBVU       282 V--ENSKEGFRQFLLNYFPDPDILLNKDRMPEREALAR------------    317
+
+UBX7_YEAST       187 DETHHRTLDDDKPLDV-----HDYIKDAQKLHSSKCVL    219
+                             |::.|.:.     ..||..|:|:..|..||
+PUR7_VIBVU       318 --------DNELPEEALMAVSRTYINIAEKITGSAIVL    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      15/71 (21.1%)
+# Similarity:    25/71 (35.2%)
+# Gaps:          23/71 (32.4%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       328 PEVTSQREETSKPNRHEV------RSSTPLSGAASSSCFQYNNVREPVQS    371
+                     |..:.:.|:|:.|...|:      :....|.||.          ||.:..
+Y075_NITWN         3 PPHSDRPEDTADPKLLEILVCPVTKGPLELDGAR----------RELISR     42
+
+UBX7_YEAST       372 SAHAS-------PMLTPSGTR    385
+                     ||..:       |::.|...|
+Y075_NITWN        43 SAKLAYPIRDGIPIMLPEEAR     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      16/52 (30.8%)
+# Similarity:    22/52 (42.3%)
+# Gaps:          15/52 (28.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       335 EETSKPNRHEVRSSTPLSGAASSSCFQYNNVREPVQSSAHASPML--TPS    382
+                     |.|::.....||.:||| |.|..:.|            |.|.|:|  .|.
+Y3584_PSEAB        5 ETTNEGAAEPVRLTTPL-GQAIGNLF------------ARALPLLDGNPP     41
+
+UBX7_YEAST       383 GT    384
+                     |:
+Y3584_PSEAB       42 GS     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 192
+# Identity:      39/192 (20.3%)
+# Similarity:    72/192 (37.5%)
+# Gaps:          69/192 (35.9%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        27 YNTARDDQWLKSWFKGDDVSLDTLAEHSIWLRLVK-DTEQFQLFEQ----     71
+                     :|..|..:  ::|.:..|:        ::.||..: :.|.|.|:::    
+BPT_HAHCH         77 FNRTRSQE--RTWKRNSDL--------TVRLRSAQFEQEHFALYQRYISA    116
+
+UBX7_YEAST        72 ------VFPNVVVPSI-----YLIRAGKIELIIQGEDDRHWEKLLACIGI    110
+                           ::|    |::     :|:.|....|.|:...|   .|||| |.:
+BPT_HAHCH        117 RHQDGDMYP----PTLDQYESFLLEARSETLFIEFRKD---SKLLA-IAV    158
+
+UBX7_YEAST       111 KDKKAGESSSRETNPGLA--------REEKSSRDVHRKNARERIAETTLE    152
+                     .|:         |..||:        .|:|.:..|:              
+BPT_HAHCH        159 TDR---------TTDGLSAIYTFFDPNEDKRALGVY--------------    185
+
+UBX7_YEAST       153 IQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTL    194
+                         ..|.|.:.|.|:|...:.|....|..||...:|::|.:
+BPT_HAHCH        186 ----AILWQLQFAREQRLPYLYLGYWIRGCRKMSYKTNYRPI    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      29/149 (19.5%)
+# Similarity:    51/149 (34.2%)
+# Gaps:          54/149 (36.2%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       285 RSALLLKPLETQNSG----LSVTGME---------------------GPS    309
+                     |.||:...|.|...|    |:|||:.                     |.:
+KDPC_CAUVN         6 RPALVSMGLFTVLLGLAYPLAVTGVAQAAFPNQANGSLIRDADGKVVGSA     55
+
+UBX7_YEAST       310 LLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRSSTPLSG--AASS    357
+                     |:|:::                      :||.....|.|...:|  |::|
+KDPC_CAUVN        56 LIGQVF----------------------AKPEYFHGRPSAAGAGYDASAS     83
+
+UBX7_YEAST       358 SCFQYNNVREP----VQSSAHASPMLTPSGTRYPSETNLTTSRSVSPNV    402
+                     |......:.|.    :::.|.|.....| |...|::...|:...:.|::
+KDPC_CAUVN        84 SGSNMGPLNETLIARLKTDAAALRAENP-GVAIPADAVTTSGSGLDPDI    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      21/79 (26.6%)
+# Similarity:    31/79 (39.2%)
+# Gaps:          15/79 (19.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       277 LETLELTPR----SALLLKPLETQNSGLSVTGMEGPSLLGRLYKGFSTWW    322
+                     :..|.|.|.    :.|.|:.|..|     |:|.:...:||.|   |..|.
+LPXH_XYLFM         6 ISDLHLDPLRPVVTELFLRFLREQ-----VSGADALYILGDL---FEVWI     47
+
+UBX7_YEAST       323 HNDKDPEVTSQREETSKPNRHEVRSSTPL    351
+                     .:|...||.   :..:...|....:.|||
+LPXH_XYLFM        48 GDDMPSEVA---DMVAAALRTYADAGTPL     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           3/26 (11.5%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       290 LKPLETQNSGLSVTGMEGPSLLGRLY    315
+                     :|||.:.....:.||:   ||:|.::
+YERI_SCHPO         1 MKPLVSPGLAKACTGL---SLIGIVF     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      44/167 (26.3%)
+# Similarity:    63/167 (37.7%)
+# Gaps:          60/167 (35.9%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        16 DSIKEGVVLAVYNTARDDQWLKSWFKGDDVSLD-TLAEHSIWLRLVKDTE     64
+                     |||..|:|           :|....|||.|.|| ::|.:...|::     
+RBSA_RUEST       328 DSIDAGIV-----------YLSEDRKGDGVFLDMSIASNVSALKV-----    361
+
+UBX7_YEAST        65 QFQLFEQVFPNVVVPSIYLIRAGK-IELIIQGEDDRHWEKL-LACIGIKD    112
+                          ||     |..::.||:.|: ||     :.||...|| |.|..::|
+RBSA_RUEST       362 -----EQ-----VASALGLIQPGREIE-----QADRLGRKLNLKCGTLQD    396
+
+UBX7_YEAST       113 ----------KKAGESSSRETNPGLAREEKSSR--DVHRKNARERIAETT    150
+                               :|...:.....||.|...::.:|  ||..|....||.   
+RBSA_RUEST       397 PVSSLSGGNQQKVALAKMLSVNPRLIFLDEPTRGVDVGAKAEIYRIL---    443
+
+UBX7_YEAST       151 LEIQRREQLKQRKLAEE    167
+                                |.||||
+RBSA_RUEST       444 -----------RDLAEE    449
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       311 LGRLYKGF    318
+                     ||..|.||
+KR195_HUMAN       11 LGYGYGGF     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    13/24 (54.2%)
+# Gaps:           3/24 (12.5%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        20 EGVVLAVYNTARD-DQWLKSWFKG     42
+                     |..||..:  |:| .:.|..||:|
+UPPP_CORDI        60 EAAVLVYF--AKDIAKILTGWFRG     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      24/110 (21.8%)
+# Similarity:    40/110 (36.4%)
+# Gaps:          36/110 (32.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       157 EQLKQ--RKLAEEERERIIRLVR-----ADRAERKALDETHHRTLDDDKP    199
+                     |:|||  ..|..|||..:.:.|.     .||:|.........|..:.|: 
+GREB_ECO57        12 EKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLREIDR-     60
+
+UBX7_YEAST       200 LDVHDYIKDAQKLHSSKCVLQIRMTD------GKTLKHEFNSSETLNDVR    243
+                               :..:.:||:..:::.|      ||..   |.:        
+GREB_ECO57        61 ----------RVRYLTKCMENLKIVDYSPQQEGKVF---FGA--------     89
+
+UBX7_YEAST       244 KWVDVNRTDG    253
+                      ||::...||
+GREB_ECO57        90 -WVEIENDDG     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      16/60 (26.7%)
+# Similarity:    26/60 (43.3%)
+# Gaps:           6/60 (10.0%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       379 LTPSGTRYPSETN---LTTSRSVSPNVFQFVNND--HQEDPEDPTTFNGN    423
+                     ::..|.|:.|..|   |..:..||..:...:|:|  .|.|...|......
+TGT_LEPCP        105 ISEEGVRFASPVNGDKLFLTPEVSMQIQTVLNSDIVMQFDECTPYWQGAK    154
+
+UBX7_YEAST       424 NV-HLEKKKD    432
+                     || |:..:|:
+TGT_LEPCP        155 NVGHITTEKE    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      16/53 (30.2%)
+# Similarity:    24/53 (45.3%)
+# Gaps:          12/53 (22.6%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       289 LLKPLE-----TQNSGLSV-----TGMEGPSLLGRLYKGFSTWWHNDKDP    328
+                     ||:||.     :...|..:     .|:.|.|||..|||.|  ::|:....
+CBPQ_HUMAN       391 LLQPLNITQVLSHGEGTDINFWIQAGVPGASLLDDLYKYF--FFHHSHGD    438
+
+UBX7_YEAST       329 EVT    331
+                     .:|
+CBPQ_HUMAN       439 TMT    441
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 165
+# Identity:      36/165 (21.8%)
+# Similarity:    66/165 (40.0%)
+# Gaps:          35/165 (21.2%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        42 GDDVSLDTLAEHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGKIEL     91
+                     |.::.:|.||:   |:     .::.|::.|        ..|:...|.:.:
+PSA6_SOYBN       106 GYEMPVDVLAK---WI-----ADKSQVYTQ--------HAYMRPLGVVAM    139
+
+UBX7_YEAST        92 IIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEK-SSRDVHRK    140
+                     :: |.||.:..:|..|    |........:.|:.||..:|. :..:...|
+PSA6_SOYBN       140 VL-GIDDEYGPQLYKC----DPAGHYFGHKATSAGLKDQEAINFLEKKMK    184
+
+UBX7_YEAST       141 NARERIAETTLE--IQRREQLKQRKLAEEERERIIRLVRADRAERKALDE    188
+                     |......|.|::  |...:.:.|......|.|  :.:||.|..|.:.|  
+PSA6_SOYBN       185 NDPSFTYEETVQTAISALQSVLQEDFKATEIE--VGVVRKDNPEFRVL--    230
+
+UBX7_YEAST       189 THHRTLDDDKPLDVH    203
+                         |.|:   :|.|
+PSA6_SOYBN       231 ----TTDE---IDEH    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 191
+# Identity:      42/191 (22.0%)
+# Similarity:    73/191 (38.2%)
+# Gaps:          61/191 (31.9%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+UBX7_YEAST         1 MLEALFRDSVEEAINDSIKEGVVLAVYNTARDDQWL----------KSWF     40
+                     |::::|.|: |.|:  ..|:||..|.......|||:          :...
+SCL34_ARATH      116 MVKSMFSDA-ESAL--QFKKGVEEASKFLPNSDQWVINLDIERSERRDSV    162
+
+UBX7_YEAST        41 KGDDVSLDTL---AEHSIWLRLVKDTEQF----------QLFEQVFPNVV     77
+                     | :::.||.|   ..|......|:.::||          .:|::|     
+SCL34_ARATH      163 K-EEMGLDQLRVKKNHERDFEEVRSSKQFASNVEDSKVTDMFDKV-----    206
+
+UBX7_YEAST        78 VPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGL    127
+                                  |::.||.|.  :.||.    .:.:|..||......|.
+SCL34_ARATH      207 -------------LLLDGECDP--QTLLD----SEIQAIRSSKNIGEKGK    237
+
+UBX7_YEAST       128 AREEKSSRDVHRKNARERIAE--------TTLE--IQRREQ    158
+                     .:::|.|:.|..:......|:        |.||  :|.|:|
+SCL34_ARATH      238 KKKKKKSQVVDFRTLLTHCAQAISTGDKTTALEFLLQIRQQ    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      19/91 (20.9%)
+# Similarity:    32/91 (35.2%)
+# Gaps:          36/91 (39.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        46 SLDTLAEHSIWLR-------LVKDTEQFQLFEQVFPNVVVPSIYLIRAGK     88
+                     |.|.|.||.|.|:       |||..:...:...|:..:.|     ::.|:
+NDKA_CANLF        44 SEDLLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNV-----VKTGR     88
+
+UBX7_YEAST        89 IELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAR    129
+                     :.|                        ||::..::.||..|
+NDKA_CANLF        89 VML------------------------GETNPADSKPGTIR    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      46/184 (25.0%)
+# Similarity:    72/184 (39.1%)
+# Gaps:          63/184 (34.2%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       100 HWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARERIAET    149
+                     ||        :.||..|..:.| .|||          .|:  .||.:   
+RS4_CAEEL         16 HW--------MLDKLGGVFAVR-PNPG----------PHK--LRESL---     41
+
+UBX7_YEAST       150 TLEIQRREQLKQRKLAEEERERII--RLVRADRAERK------------A    185
+                     .|.:..|.:||. .|...|.::|:  |:||.|...|.            |
+RS4_CAEEL         42 PLSLFLRNRLKY-ALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVA     90
+
+UBX7_YEAST       186 LDET--HHRTLDDDKPLDVHDYIKDAQ------KLHS----SKCVLQIRM    223
+                     ::.|  :.|.|.|.|...|...|:.|:      |:.|    :|.|..:..
+RS4_CAEEL         91 IERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTT    140
+
+UBX7_YEAST       224 TDGKTLKHE-----------FN-SSETLNDVRKW    245
+                     |||:|:::.           || |::.:.|..|:
+RS4_CAEEL        141 TDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKF    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      26/111 (23.4%)
+# Similarity:    42/111 (37.8%)
+# Gaps:          35/111 (31.5%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       117 ESSSRETNPGLAREEKSSRDVH------RKNARERIAETTLEI-------    153
+                     |:..||..|.||..::|.|..|      |:...:.|||...::       
+G45IP_CHLAE       86 EAEEREWYPSLATMQESLRVKHLAEEQKRREREQHIAECMAKMPQMIVNW    135
+
+UBX7_YEAST       154 --QRREQLKQRKLAEEERERIIR--------------------LVRADRA    181
+                       |:||:.::.:..:|.|.|:..                    |...::.
+G45IP_CHLAE      136 QQQQRERWEKAQADKERRARLQAEAQELLGYQVNPKSARFQELLQDLEKK    185
+
+UBX7_YEAST       182 ERKALDETHHR    192
+                     |||.|.|...|
+G45IP_CHLAE      186 ERKRLKEEKQR    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      22/94 (23.4%)
+# Similarity:    39/94 (41.5%)
+# Gaps:          11/94 (11.7%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        10 VEEAINDSIK-EGVVLAVYNTARD--DQWLKSWFKGDDVSLDTLAE---H     53
+                     |:.||.::.: ||.:.:....|.|  ...|....||.::|.|...:   .
+DAPEL_OCEIH      234 VQNAIAETARLEGTIRSTDADAIDMIKSKLNRLMKGFEISYDCTIKVDYG    283
+
+UBX7_YEAST        54 SIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGKIELIIQGED     97
+                     :.:.::|.|....|.||.     |:.....|...:.:..:.|||
+DAPEL_OCEIH      284 ANYYQVVNDATYVQQFEN-----VINQTQTITYQQADAAMTGED    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      25/107 (23.4%)
+# Similarity:    42/107 (39.3%)
+# Gaps:          23/107 (21.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       297 NSGLSVTG-----MEGPSLLGRLYK--------GFSTWWHNDKDPEVTSQ    333
+                     :.|||::.     ::..:|:||:.|        |.:.  ..|..|||..|
+KAD_METRJ        102 SKGLSLSAVVELKVDENALVGRIEKRAAETLARGQAV--RKDDTPEVFKQ    149
+
+UBX7_YEAST       334 REETSKPNRHEVRSSTPLSG-AASSSCFQYNNVREPVQS-SAHASPMLTP    381
+                     |.|..:      ..:.|||. .|.....:..:..:|:.. :|....:|.|
+KAD_METRJ        150 RLEAYR------AQTAPLSAYYAQKGTLETVDGMQPIDKVTADLMAVLEP    193
+
+UBX7_YEAST       382 SGTRYPS    388
+                     ...|..|
+KAD_METRJ        194 HEERVAS    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      20/68 (29.4%)
+# Similarity:    26/68 (38.2%)
+# Gaps:           6/68 ( 8.8%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       253 GDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSV    302
+                     |..|.:...|:|...|.....|..|....|.|.    :||.:....||..
+ELN_BOVIN         27 GGVPGAVPGGVPGGVFFPGAGLGGLGVGGLGPG----VKPAKPGVGGLVG     72
+
+UBX7_YEAST       303 TGM--EGPSLLGRLYKGF    318
+                     .|:  ||.:|.|....||
+ELN_BOVIN         73 PGLGAEGSALPGAFPGGF     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:      53/289 (18.3%)
+# Similarity:    94/289 (32.5%)
+# Gaps:          94/289 (32.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         9 SVEEAINDSIKEGV-VLAVYN--TARDDQWLKSWFKGDDVSLDTLAEHSI     55
+                     |::...|.|...|: .:.||.  |.|...|..: |.|           |:
+ASIC2_MOUSE       16 SIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVA-FVG-----------SL     53
+
+UBX7_YEAST        56 WLRLVKDTEQFQLF----------EQVFPNVVVPSIYLIRAGKIELI-IQ     94
+                     .|.||:.:|:...:          |.|..::|.|::.|......... :.
+ASIC2_MOUSE       54 GLLLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLT    103
+
+UBX7_YEAST        95 GEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARE    144
+                     ..|..|..:|||.:                           ||:.:....
+ASIC2_MOUSE      104 TNDLYHAGELLALL---------------------------DVNLQIPDP    126
+
+UBX7_YEAST       145 RIAETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTL    194
+                     .:|:.|:    .|.|:|:...:..:.:...::           |..||..
+ASIC2_MOUSE      127 HLADPTV----LEALRQKANFKHYKPKQFSML-----------EFLHRVG    161
+
+UBX7_YEAST       195 DDDKPLDVHDYIKDAQKLHS---------SKCVLQIRMTDGKTLKHEF--    233
+                     .|.|.:.::...|..:..|.         .||.:.....|||.|....  
+ASIC2_MOUSE      162 HDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKG    211
+
+UBX7_YEAST       234 ---NSSETLNDVRK------WVDVNRTDGDCPYSFHRGI    263
+                        |..|.:.|:::      |.:...|      :|..|:
+ASIC2_MOUSE      212 GTGNGLEIMLDIQQDEYLPIWGETEET------TFEAGV    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:       8/34 (23.5%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           0/34 ( 0.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       231 HEFNSSETLNDVRKWVDVNRTDGDCPYSFHRGIP    264
+                     ::.|.:...|:...|...|:.|.:......||:|
+DOXA1_XENTR      116 YQLNETINYNEEFAWESANQFDKNYKDGLERGLP    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    16/31 (51.6%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       113 KKAGESSSRETNPGLAREEKSSRDVHRKNAR    143
+                     :.|..|..:..:.||..:.|:|||..|..|:
+RS20_STRPB        50 RAASSSIDKAESKGLIHKNKASRDKARLAAK     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      26/134 (19.4%)
+# Similarity:    60/134 (44.8%)
+# Gaps:          40/134 (29.9%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       117 ESSSRETNPGLAREEKSSRDVHRKNARERIAETTLEI-QRREQLKQRKLA    165
+                     |::.:::.....|.||:..:|  ::.:::|.:...|: |.:|||.|....
+TPM_HAELO         23 ETAEQQSRDAALRAEKAEEEV--RSLQKKIQQIENELDQVQEQLSQANSK     70
+
+UBX7_YEAST       166 EEERERIIRLVRA----------------DRAERK-------------AL    186
+                     .||:::.::...|                :|:|.:             |.
+TPM_HAELO         71 LEEKDKALQAAEAEVAAHNRRIQLLEEDLERSEERLKIATQKLEEASQAA    120
+
+UBX7_YEAST       187 DET-------HHRTLDDDKPLD-VHDYIKDAQKL    212
+                     ||:       .||::.|::.:| :...:|:|:.:
+TPM_HAELO        121 DESERMRKMLEHRSITDEERMDGLEGQLKEARTM    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      43/217 (19.8%)
+# Similarity:    82/217 (37.8%)
+# Gaps:          60/217 (27.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         2 LEALFRDSVEEAINDSIKEGVVLAVYNTARDDQWLKSWFKGDDVS---LD     48
+                     :.||..:......|.||:.|..:.:  .|.|::.: ::.||...:   .|
+LEUC_XANOM       214 IRALSMEGRMTICNMSIEAGARVGM--VAVDEKTI-AYVKGRPFAPKGAD    260
+
+UBX7_YEAST        49 TLAEHSIWLRLVKDTE-QFQLFEQVFPNVVVPSIYLIRAGKIELIIQGED     97
+                     ..|..::|..||.|.: .|....::....:.|.:....:.::.|.|    
+LEUC_XANOM       261 WDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAI----    306
+
+UBX7_YEAST        98 DRH---------------WEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+                     |:|               .|:.|..:|:|..:|                 
+LEUC_XANOM       307 DQHVPDPATEQDPTKRNSIERALKYMGLKANQA-----------------    339
+
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEIQRREQL-------KQRKLAEEERERII--    173
+                      ..|:.    .:|:...:....|.|.|       |.||:|...::.::  
+LEUC_XANOM       340 -ITDIR----LDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVP    384
+
+UBX7_YEAST       174 --RLVRADRAERKALDE    188
+                       .||:| :||.:.||:
+LEUC_XANOM       385 GSGLVKA-QAEAEGLDK    400
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       3/10 (30.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       390 TNLTTSRSVS    399
+                     |.:||:.:::
+LPT_ESCF3          6 TTITTTITIT     15
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      16/63 (25.4%)
+# Similarity:    29/63 (46.0%)
+# Gaps:          14/63 (22.2%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       130 EEKSSRDVHRKNA--------RERIAETTLEIQRREQLKQR------KLA    165
+                     |||:..||..|.|        :|..|.|.|.::..:.|.::      .::
+RL7_THET8         55 EEKTEFDVILKEAGAKKLEVIKELRAITGLGLKEAKDLAEKGGPVKEGVS    104
+
+UBX7_YEAST       166 EEERERIIRLVRA    178
+                     ::|.|.|.:.:.|
+RL7_THET8        105 KQEAEEIKKKLEA    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      32/171 (18.7%)
+# Similarity:    62/171 (36.3%)
+# Gaps:          38/171 (22.2%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        36 LKSWFKGDDVSLDTLAEHSIWLRLVKDTEQFQLFEQVFPNVVVPS----I     81
+                     |.:.|.|..:||:.|.:|     |.|            .:::|.|    :
+HEM1_METCA       220 LANQFGGFAISLEELPKH-----LAK------------ADIIVASTGSPL    252
+
+UBX7_YEAST        82 YLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREE    131
+                     .::..|..|..::..  ||....:..:.:         .|:..|    |.
+HEM1_METCA       253 PILGKGSFESALRSR--RHKPMFIVDLAV---------PRDIEP----EV    287
+
+UBX7_YEAST       132 KSSRDV--HRKNARERIAETTLEIQRREQLKQRKLAEEERERIIRLVRAD    179
+                     :..:||  :..:..:...|..|:.::...|:..::.:.|.|..:..:||.
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQ    337
+
+UBX7_YEAST       180 RAERKALDETHHRTLDDDKPL    200
+                     .|.....|......|..|..|
+HEM1_METCA       338 AATETIRDVRRQAELHRDAAL    358
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      32/167 (19.2%)
+# Similarity:    66/167 (39.5%)
+# Gaps:          19/167 (11.4%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        23 VLAVYNTARDDQ---WLKSWFKGDDVSLDTLAEHSIWLRLVKDTEQFQLF     69
+                     ::|...||.:..   |...:..|:....:......::..|.......:|.
+XYLB_KLEPN       313 LIAAAQTADESAGPVWFLPYLSGERTPHNNPQAKGVFFGLTHQHGPAELA    362
+
+UBX7_YEAST        70 EQVFPNV---VVPSIYLIRAGKIE----LIIQGEDDRHWEKLLACI-GIK    111
+                     ..|...|   :...:.::.|..|:    .:|.|...|:|.::||.| |::
+XYLB_KLEPN       363 RAVLEGVGYALADGMDVVHACAIKPEAITLIGGGRARYWRQMLADISGLQ    412
+
+UBX7_YEAST       112 -DKKAGESSSRETNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLK    160
+                      |.:.|    .:..|.|.....:...||.:..|..:.: .|.:::..:..
+XYLB_KLEPN       413 LDYRTG----GDVGPALGAARLAHVAVHDEADRPGLLK-PLPLEQAHRPD    457
+
+UBX7_YEAST       161 QRKLAE--EERERIIRL    175
+                     .|::|.  .:||...|:
+XYLB_KLEPN       458 DRRVAHYAPQREIFARI    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       9/19 (47.4%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           5/19 (26.3%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       282 LTPRSA-----LLLKPLET    295
+                     |.||||     .|:|..||
+RECR_NOVAD        19 LGPRSARRAVLWLIKRRET     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      35/155 (22.6%)
+# Similarity:    59/155 (38.1%)
+# Gaps:          25/155 (16.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        20 EGVVLAVYNTARDDQWLKSWFKGD--DVSLDTLAEHSIWLRLVKDTEQFQ     67
+                     ||.:|.|.:.|..    :::..|.  :|...|.|||.  .|.::...:..
+SURE_METNO       113 EGTILGVRSIALS----QAYGVGGRANVKWHTAAEHG--ARTIRRILEAG    156
+
+UBX7_YEAST        68 LFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGE    117
+                     :...:..||..|.........|.::.||..:   ::|||   |.::..|.
+SURE_METNO       157 IEPGILVNVNFPDCEPEAVEGIAVVAQGMRN---QQLLA---IDERLDGR    200
+
+UBX7_YEAST       118 SSSRETNP------GLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQ    161
+                     .     ||      ..||.|.......:..|..|||.|.|.:...::...
+SURE_METNO       201 G-----NPYFWLAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPTL    245
+
+UBX7_YEAST       162 RKLAE    166
+                     .:.|:
+SURE_METNO       246 TRFAQ    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    15/35 (42.9%)
+# Gaps:          12/35 (34.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       289 LLKPLETQNSGLSVTGMEGPSLLGRLYKGFSTWWH    323
+                     |||.:.:     |...:..||.|       |:||:
+CYB_ARTIO         10 LLKIINS-----SFVDLPAPSSL-------SSWWN     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      24/123 (19.5%)
+# Similarity:    43/123 (35.0%)
+# Gaps:          42/123 (34.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        98 DRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARERIA    147
+                     :..||||...:....|.|              :||....|:..:....: 
+IOLE_BACHK       131 EEEWEKLADGLHHLGKLA--------------QEKGLHIVYHHHMGTGV-    165
+
+UBX7_YEAST       148 ETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDD    197
+                     :||.||:        ||.:.....::.|          |.:|.|.....:
+IOLE_BACHK       166 QTTTEIE--------KLMDMTDPALVSL----------LFDTGHLVFSGE    197
+
+UBX7_YEAST       198 KPLDV---------HDYIKDAQK    211
+                     :||.:         |.::||.::
+IOLE_BACHK       198 EPLYILKKYLPRIKHVHLKDIRQ    220
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      31/135 (23.0%)
+# Similarity:    44/135 (32.6%)
+# Gaps:          48/135 (35.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       163 KLAEEERERIIRLVRADRAERKALDET---------HHRTLDDDKP-LDV    202
+                     ::.|||      ||.....||..|.::         ..:|:.|.|. ::.
+ACKA_STAAT        21 RMPEEE------LVTKGLVERIGLKDSIFTIEVNGEKVKTVQDIKDHVEA     64
+
+UBX7_YEAST       203 HDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTD    252
+                     .|.:.||.|.|:                       .:|      |:|..|
+ACKA_STAAT        65 VDIMLDAFKAHN-----------------------IIN------DINDID     85
+
+UBX7_YEAST       253 GDCPYSFHRG--IPR-VTFKDSDELKTLETLELTP    284
+                     |......|.|  .|. |...|..|.:..|..||.|
+ACKA_STAAT        86 GTGHRVVHGGEKFPESVAITDEVEKEIEELSELAP    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      21/71 (29.6%)
+# Similarity:    33/71 (46.5%)
+# Gaps:          22/71 (31.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       145 RIAE---TTLEIQRREQLK-----QRKLA------EEERERIIR--LVRA    178
+                     |:||   .|.|.|.|.::.     ::|||      :...::|.|  ||..
+HIS7_BURTA         2 RVAEVVRNTSETQIRVKIDLDGTGRQKLATGVPFLDHMLDQIARHGLVDL     51
+
+UBX7_YEAST       179 DRAERKALDETH---HRTLDD    196
+                     |   .:|..:||   |.|::|
+HIS7_BURTA        52 D---IEAHGDTHIDDHHTVED     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      15/74 (20.3%)
+# Similarity:    30/74 (40.5%)
+# Gaps:          15/74 (20.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       297 NSGL----SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNR    342
+                     |:|.    .:..:||.|::.:.:.|.:..|      |...:|....||  
+PTH_GEOLS         22 NAGFLFLDRIAQLEGLSIVRKQFGGLTAEW------ERKGKRLVLLKP--     63
+
+UBX7_YEAST       343 HEVRSSTPLSGAASSSCFQYNNVR    366
+                        ::...|||.:.....|:..::
+PTH_GEOLS         64 ---QTFMNLSGRSVMPALQFYKLK     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 297
+# Identity:      54/297 (18.2%)
+# Similarity:   102/297 (34.3%)
+# Gaps:         118/297 (39.7%)
+# Score: 92.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       151 LEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDDKPL    200
+                     :|::::.:.:||...:::::::       :.:.::.|:...|:.|.:|  
+TAF3_XENLA       448 VELKKKTKKEQRAKKKKDKDKL-------KDKERSKDKNKDRSKDKEK--    488
+
+UBX7_YEAST       201 DVHDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNR    250
+                        |..||..|             |||.|               |.|.|:
+TAF3_XENLA       489 ---DKEKDGTK-------------DGKVL---------------WKDSNK    507
+
+UBX7_YEAST       251 TDGDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGL    300
+                      |.|..      :.|...||.:|:.:              |..:.:|.|.
+TAF3_XENLA       508 -DEDSE------LHRFKLKDFNEIDS--------------KSKQKENCGK    536
+
+UBX7_YEAST       301 SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRS---    347
+                     .                 ....|.||..:....:::..|..:.:.:.   
+TAF3_XENLA       537 K-----------------DKEKHKDKKKDKEKGKKDKDKKGKDKTKEEKM    569
+
+UBX7_YEAST       348 ---STPLSGAASSSCFQYNNVREPVQSSAHASPML-TPSGTRYPSETNLT    393
+                        |||:.                :.|...|.||: ||:..|.||..:  
+TAF3_XENLA       570 KSPSTPIM----------------LSSKDIALPMISTPNTVRLPSLLS--    601
+
+UBX7_YEAST       394 TSRSVSP----NVFQFVNNDHQEDPEDPTTFNGNNVHLEKKKDEDKK    436
+                        |:||    .:|:......::|.:....        ||||.:||:
+TAF3_XENLA       602 ---SMSPLLPEKLFEEKEKSKEKDKKKDKK--------EKKKKKDKE    637
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 367
+# Identity:      74/367 (20.2%)
+# Similarity:   115/367 (31.3%)
+# Gaps:         125/367 (34.1%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+UBX7_YEAST         9 SVEEAIN-DSIKEGVVLAVYNTARDDQWLKSWFKGDDVSLDTLAEHSIWL     57
+                     |:|.|.| :.:|          |.:.:|.:|:.|.:..|::.:.|..|..
+DNLJ_CROS5        84 SLENAFNLEELK----------AWEKRWQRSYEKEEFTSVEYVCELKIDG    123
+
+UBX7_YEAST        58 RLVKDTEQFQLF------------EQVFPNVVV-------------PSIY     82
+                     ..:..|.:..||            |::..||..             |.|.
+DNLJ_CROS5       124 SALALTYENGLFVRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIV    173
+
+UBX7_YEAST        83 LIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+                     .:| |:..|.:...|..:.|                          ||||
+DNLJ_CROS5       174 EVR-GEAFLPLDEFDRINQE--------------------------REEK    196
+
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEI------QRREQLKQRKLAEEERERIIRLV    176
+                     .  |....|.|...|.|..::      |||.|.....|..||.|...:..
+DNLJ_CROS5       197 G--DALFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWE    244
+
+UBX7_YEAST       177 RADRAERKALDETHHRT----LDDDKPLDVHDYIKDAQKLHSSKCVLQIR    222
+                     ..:..|........||.    ||     :|..|.|..:........    
+DNLJ_CROS5       245 SLNYLENSGFLVNPHRKLCQFLD-----EVEAYFKQWETARKDLPY----    285
+
+UBX7_YEAST       223 MTDGKTLK-HEFNSSETLNDVRK---W-------------------VDVN    249
+                     ||||..:| :.::..:.|...:|   |                   |:|.
+DNLJ_CROS5       286 MTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVG    335
+
+UBX7_YEAST       250 RTDGDCPYS----FHRG---IPRVTFKDSDELKTLETL-----------E    281
+                     ||....|.:    .|..   :.:.|..:||.:..|:..           |
+DNLJ_CROS5       336 RTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGE    385
+
+UBX7_YEAST       282 LTPRSALLLKPLETQNS    298
+                     :.|....:||.|...|:
+DNLJ_CROS5       386 IIPEVVRVLKELRPPNT    402
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 510
+# Identity:     109/510 (21.4%)
+# Similarity:   169/510 (33.1%)
+# Gaps:         166/510 (32.5%)
+# Score: 85.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         2 LEALFRDSV---------EEAINDSIKEGVVLAVYNTARDDQWLKSWFKG     42
+                     ::||..||:         |....|::|...:|.:..|||.        ||
+MUTS_MYXXD        23 VKALHPDSLLFFRLGDFYEMFFEDAVKASEILQITLTARS--------KG     64
+
+UBX7_YEAST        43 -DDVSLDTLAEHSIWL---RLVKDTEQFQLFEQV-----FPNVVVPSI-Y     82
+                      |.|.:..:..|:...   |||.:..:..:.|||     .|.:|...: .
+MUTS_MYXXD        65 ADKVPMCGVPYHAARRYIGRLVSEGLKVAICEQVEEPGNGPGIVRREVTR    114
+
+UBX7_YEAST        83 LIRAGKI--ELIIQGEDDRHWEKLLACIGIKDKKAG----ESSSRE----    122
+                     :|..|.:  |.:::.:.    ...||.:...||..|    |:|:.|    
+MUTS_MYXXD       115 VITPGMVLDEEVLEPQA----SNFLAAVSWNDKGWGAALLEASTGEFMAL    160
+
+UBX7_YEAST       123 TNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQL--KQRKLAEEERE    170
+                     ..||:|                .:||:...::.||.|  ..::.|.|..:
+MUTS_MYXXD       161 EAPGIA----------------ELAESLSRVEPRELLVPDGKRDAPEVAQ    194
+
+UBX7_YEAST       171 RIIRLVRAD---RAERKALDETH-------HRTLD-------DDKPLDVH    203
+                     .:.||||..   ..|..:.:.|.       |..:.       ||.||...
+MUTS_MYXXD       195 LLARLVRTPAVAEGEAASFEPTRAAGYLRSHFAVQSLSAFGLDDAPLAAG    244
+
+UBX7_YEAST       204 ------DYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVD    247
+                           .|:||.||..::......|...|..|..:.:|...|..:|...|
+MUTS_MYXXD       245 AAGAALRYLKDTQKTAAAHVDRLSRQERGGNLLMDESSRANLEVLRSLRD    294
+
+UBX7_YEAST       248 VNRTDGDCPYSFHRGIPRVTFKDS-----DELKTLETLELTPRSALLLKP    292
+                     ..|                  |.|     |  ||:.:|.....:..|..|
+MUTS_MYXXD       295 GGR------------------KGSLLGVLD--KTVTSLGARKLARWLASP    324
+
+UBX7_YEAST       293 LETQNSGLSVTGMEGPSLLGRL-----YKGFSTWWHNDKDPEVTSQREET    337
+                     |.:.           |.:..||     ..|.|.|            |||.
+MUTS_MYXXD       325 LGSL-----------PEIHARLDAVEELSGRSVW------------REEL    351
+
+UBX7_YEAST       338 SKPNRHEVRSSTPLSGAASSSCFQYNNVREPVQSSAH-----------AS    376
+                     :...: ||.....|.|..|.......::|....|.|.           .|
+MUTS_MYXXD       352 AGILK-EVGDLERLCGRLSLGAGNARDLRALGLSLAQLPRVVAVLARCES    400
+
+UBX7_YEAST       377 PMLTPSGTRYPSETNLTTSRSVSPNVFQFVNNDHQEDPEDPTTFN-----    421
+                     |:|          .:||...|..|.:.:.::....|:|  |.|..     
+MUTS_MYXXD       401 PLL----------KSLTGPLSALPELAELLSRAVAEEP--PVTLKDGGMI    438
+
+UBX7_YEAST       422 --GNNVHLEK    429
+                       |.:..|:|
+MUTS_MYXXD       439 RAGFHAELDK    448
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      30/154 (19.5%)
+# Similarity:    53/154 (34.4%)
+# Gaps:          44/154 (28.6%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       192 RTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLND    241
+                     |...||...::.:.:.||.:..:.|             .:.||....|  
+NOSO_STAAC       234 RNFIDDYRYNLLEKVADAFEFDTLK-------------NNSFNKDRAL--    268
+
+UBX7_YEAST       242 VRKWVDVNRTDGDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLK    291
+                         |::|       |:.:....:......|.|...:..||..|:     
+NOSO_STAAC       269 ----VELN-------YAVYHSFKKEGVSIVDHLTAAKQFELFERN-----    302
+
+UBX7_YEAST       292 PLETQNSGLSVTGM-------EGPSLLGRLYKGFSTWWHNDKDPEVTSQR    334
+                       |.| .|..|||.       ..|:|....:.|:.   :..|||....::
+NOSO_STAAC       303 --EAQ-QGRQVTGKWSWLAPPLSPTLTSNYHHGYD---NTVKDPNFFYKK    346
+
+UBX7_YEAST       335 EETS    338
+                     :|::
+NOSO_STAAC       347 KESN    350
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      34/145 (23.4%)
+# Similarity:    54/145 (37.2%)
+# Gaps:          38/145 (26.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       200 LDVH-----DYIKDA---QKLHSSKCVLQIRMTDGKTLKHEFNSSE-TLN    240
+                     ||:|     |:..|.   :.:|..|...:.|...|      |.|.| :..
+RBM8A_MOUSE        5 LDLHEAGGEDFAMDEDGDESIHKLKEKAKKRKGRG------FGSEEGSRA     48
+
+UBX7_YEAST       241 DVRKWVDVNRTDGDCP---------YSFHRGIPRVT--------FKDSDE    273
+                     .:|:..|....|||.|         ..|..|:....        |.:..|
+RBM8A_MOUSE       49 RMREDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGE     98
+
+UBX7_YEAST       274 LKTLETLELTPRSALL----LKPLET-QNSGLSVTGMEGPSLLGR    313
+                     :|.:. |.|..|:..|    |...|| :.:..::.|:.|..|:|:
+RBM8A_MOUSE       99 IKNIH-LNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQ    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     5/10 (50.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       383 GTRYPSETNL    392
+                     ||.|....||
+NU4LM_ARCPU       86 GTDYVQNLNL     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    27/72 (37.5%)
+# Gaps:          18/72 (25.0%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       199 PLDVH---------DYIKDAQKL----HSSKCVLQIRMTDGKTLKHEFN-    234
+                     ||..|         ..|:|...|    |:...:|...:.  |||:...| 
+NANK_ECOLI        51 PLQAHAQRVAIASTGIIRDGSLLALNPHNLGGLLHFPLV--KTLEQLTNL     98
+
+UBX7_YEAST       235 SSETLNDVR--KWVDVNRTDGD    254
+                     .:..:||.:  .|.:....|||
+NANK_ECOLI        99 PTIAINDAQAAAWAEFQALDGD    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      32/155 (20.6%)
+# Similarity:    57/155 (36.8%)
+# Gaps:          36/155 (23.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       187 DETHHRTLDDDKPLDVHDYIK--DAQKLHSSKCVLQIRMTDG--KTLKHE    232
+                     |||..:.:  ::|:.:.|||.  |..:.:...|.:...:..|  ...|.:
+MIAB_MYCPE       321 DETILKKM--NRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETKEQ    368
+
+UBX7_YEAST       233 FNSSETLNDVRKWVDVNRTDGDCPYSFHRG---------IPRVTFKDSDE    273
+                     ||.:..|        ..|.:.|..::|...         ||       ||
+MIAB_MYCPE       369 FNKTLEL--------YKRIEFDNAFTFIYSKRDGTVAAIIP-------DE    403
+
+UBX7_YEAST       274 LKTLETLELTPRSALLLKPLETQNSGLSVTG-----MEGPSLLGR-LYKG    317
+                     :...|..|.......::|....:|:...|..     ::|||...: :..|
+MIAB_MYCPE       404 IPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISG    453
+
+UBX7_YEAST       318 FSTWW    322
+                     :|..|
+MIAB_MYCPE       454 YSPQW    458
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      51/254 (20.1%)
+# Similarity:    91/254 (35.8%)
+# Gaps:          76/254 (29.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        10 VEEAINDSI-----KEGVVLAVYNTARDDQWLKSWFKGDDVSLDT--LAE     52
+                     ||::.|..|     .:|.:|..::     |:.....|...|.:.|  |..
+NADK_STAES        30 VEDSENPEIVISVGGDGTLLQAFH-----QYSHMLSKVAFVGIHTGHLGF     74
+
+UBX7_YEAST        53 HSIWL-----RLVKD--TEQFQLFEQVFPNVVVPSIYLIRAGKIELIIQG     95
+                     ::.||     :|:.:  ..:||:.|  :|             .:|||::.
+NADK_STAES        75 YADWLPHEVEKLIIEINNSEFQVIE--YP-------------LLELIVRY    109
+
+UBX7_YEAST        96 EDDRHWEKLLAC----------------IGIKDKKAGESSSRETNPGLAR    129
+                     .|:.:..:.||.                :.|:    |:...|....||..
+NADK_STAES       110 NDNGYETRYLALNEATMKTENGSTLVVDVNIR----GKHFERFRGDGLCI    155
+
+UBX7_YEAST       130 EEKSSRDVHRKNARERIAETTLEIQRREQLKQRKLAE--EERERIIRLVR    177
+                     ...|....:.|.....:...:||..        ::||  ....|:.|.|.
+NADK_STAES       156 STPSGSTAYNKALGGALIHPSLEAM--------QIAEIASINNRVFRTVG    197
+
+UBX7_YEAST       178 ADRAERKALDETHHRTLDDDKPLDVHDYIK---DAQKL-HSSKCVLQIRM    223
+                     :.....|     ||..|  ..|:: ||.|:   |...: |.:...:|.|:
+NADK_STAES       198 SPLVLPK-----HHTCL--ITPVN-HDTIRTTIDHVSIKHKNVNAIQYRV    239
+
+UBX7_YEAST       224 TDGK    227
+                     .:.|
+NADK_STAES       240 ANEK    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 464
+# Identity:      95/464 (20.5%)
+# Similarity:   164/464 (35.3%)
+# Gaps:         122/464 (26.3%)
+# Score: 111.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        22 VVLAVYNTARDDQWLKSWFKGDDVSLDTLAEHSIWLRLVKDTEQFQLFEQ     71
+                     :::|::|...|        ..|::|      ..|||        ||.::|
+TRPG_CAEEL      1550 MLIAIFNHIFD--------ATDEMS------QQIWL--------FQRYKQ   1577
+
+UBX7_YEAST        72 V--------FPNVVVPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDK    113
+                     |        .|..:.|..:.:      ||:|....|     |:|      
+TRPG_CAEEL      1578 VMEYESTPFLPPPLTPLYHGV------LILQFVRTR-----LSC------   1610
+
+UBX7_YEAST       114 KAGESSSRETNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQRK    163
+                         |.|:|.||......|...|..:........|..:|...|::|.::.
+TRPG_CAEEL      1611 ----SKSQERNPMFDFSLKLFLDNDQIEKLHDFEEDCMEDLARQKLNEKN   1656
+
+UBX7_YEAST       164 LAEEERERIIRL-VRADRAERKALDETHHRTLDDDKPLDVHDYIKDAQKL    212
+                     .:.|  :||:|. :|.|:...:.:|.....::..|...||...:...:|.
+TRPG_CAEEL      1657 TSNE--QRILRADIRTDQILNRLIDLQAKESMGRDVINDVESRLASVEKA   1704
+
+UBX7_YEAST       213 HSS--KCVLQIRMTDGKTLKHEFN-----------SSETLNDVRKWVDVN    249
+                     .:.  :||        :.|.::.|           |.:.|.:.     .|
+TRPG_CAEEL      1705 QNEILECV--------RALLNQNNAPTAIGRCFSPSPDPLVET-----AN   1741
+
+UBX7_YEAST       250 RTDGDCPYSFHRGIPRVTFKDSDELKTLETLE-----------------L    282
+                     .|.|..........|.:..||.|..:...:|.                 .
+TRPG_CAEEL      1742 GTPGPLLLKLPGTDPILEEKDHDSGENSNSLPPGRIRRNRTATICGGYVS   1791
+
+UBX7_YEAST       283 TPRSALLLKPLETQNSG------LSVTGMEG-PSLLGRLYKGFSTWWHND    325
+                     ..|:.:||.|..:..||      :|||.|:. |..|.:|    ||.....
+TRPG_CAEEL      1792 EERNMMLLSPKPSDVSGIPQQRLMSVTSMDPLPLPLAKL----STMSIRR   1837
+
+UBX7_YEAST       326 KDPEVTSQREETS--KPNRHEVRSSTPLSGAASSSCFQY---NNVREPVQ    370
+                     :..|.||..:..:  .|.| .:|::...|.....|....   .||....:
+TRPG_CAEEL      1838 RHEEYTSITDSIAIRHPER-RIRNNRSNSSEHDESAVDSEGGGNVTSSPR   1886
+
+UBX7_YEAST       371 SSAHASPMLTPSGTRYPSETNLTTSRSVSPNVFQFVNNDHQEDPEDPTTF    420
+                     ..:.....:|||     |:...:|||.   .:|:..:.:|:||.......
+TRPG_CAEEL      1887 KRSTRDLRMTPS-----SQVEESTSRD---QIFEIDHPEHEEDEAQADCE   1928
+
+UBX7_YEAST       421 NGNNVHLEKKKDED    434
+                     ..:.:..|:.::||
+TRPG_CAEEL      1929 LTDVITEEEDEEED   1942
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      21/93 (22.6%)
+# Similarity:    33/93 (35.5%)
+# Gaps:          30/93 (32.3%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        19 KEGVVLAVYNTA------RDDQWLKSWFKGDDVSLDTLA-----EHSIWL     57
+                     :.|:..|:...|      |:..|...          |||     ..::.|
+MSHD_MYCMM        88 RRGIATAMVRAALAKTGGRNQFWAHG----------TLAPAQATASALGL    127
+
+UBX7_YEAST        58 RLVKDTEQFQLFEQVFPNVVVPSIYLIR--AGKIELIIQGEDD     98
+                     ..|::..|.:...:..|..|:|:...||  ||.       |||
+MSHD_MYCMM       128 TPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGT-------EDD    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      11/53 (20.8%)
+# Similarity:    21/53 (39.6%)
+# Gaps:           7/53 (13.2%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       329 EVTSQREETSKPNRHEVRSSTPLSGAASSSCFQYNNVREPVQSSAHASPM    378
+                     ::|.....|.:|:...|.::..:....       :::.|||..|...|..
+PAND_THEFY        92 QLTEAERATHRPHVVHVDANNRIVALG-------DDLAEPVPGSDQKSGA    134
+
+UBX7_YEAST       379 LTP    381
+                     |.|
+PAND_THEFY       135 LLP    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      20/79 (25.3%)
+# Similarity:    34/79 (43.0%)
+# Gaps:          14/79 (17.7%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       354 AASSS--CFQYNNVR--------EPVQSSAHASPMLTPSGTRYPS----E    389
+                     |||::  .|.|::.|        .|:....:|:...:||.|..|:    .
+LIPA_ASPOR         2 AASTNRLRFLYSSARTVPQTGSITPISRRTYATTEPSPSATGAPATARKR     51
+
+UBX7_YEAST       390 TNLTTSRSVSPNVFQFVNNDHQEDPEDPT    418
+                     ||.|...:..|:...||:......|.:|:
+LIPA_ASPOR        52 TNFTDKLNAGPSFADFVSGGEDNAPLEPS     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      14/39 (35.9%)
+# Similarity:    23/39 (59.0%)
+# Gaps:           6/39 (15.4%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       274 LKTLETLELTPRSALLLKPLETQNSGLSVTGMEGPSLLG    312
+                     |.||.||.:||.||..::.|      :::.|:.|.:|:|
+FLGI_PECAS        10 LLTLLTLNITPASAERIRDL------VNIQGVRGNALIG     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      10/55 (18.2%)
+# Similarity:    25/55 (45.5%)
+# Gaps:          15/55 (27.3%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        41 KGDDVSLDTLAEHSIWLRLVKDTEQFQLFEQVFPNVV---VPSIYLIRAG     87
+                     |..:..||.:.::|            ::|:.:..|||   ...|::|.:.
+LDH_BORAP         86 KPGETRLDLVGKNS------------KIFKDIITNVVSSGFDGIFVIASN    123
+
+UBX7_YEAST        88 KIELI     92
+                     .::::
+LDH_BORAP        124 PVDIM    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      18/65 (27.7%)
+# Similarity:    30/65 (46.2%)
+# Gaps:          11/65 (16.9%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       365 VREPVQSSAHASPMLTPSGTRYPSE----TNLTTSRSVSPNVFQFVNNDH    410
+                     |.||||::..||.|:   .:.|||.    .|..:|..::.|.:..:...:
+EXGB_EMENI       226 VNEPVQNADQASSMI---NSYYPSAFTRIRNTESSLGITSNNYLHIQMMN    272
+
+UBX7_YEAST       411 QE----DPEDPTTFN    421
+                     ::    ||....|.|
+EXGB_EMENI       273 EKWGSGDPTQSLTDN    287
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 209
+# Identity:      49/209 (23.4%)
+# Similarity:    72/209 (34.4%)
+# Gaps:          78/209 (37.3%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       123 TNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQRK-----LAEE    167
+                     |..|:....||::.|..|.        .|:.:.||.|..|:     :||:
+KTHY_CHLP8         4 TFEGIDGAGKSTQVVKLKR--------HLQERGREVLTLREPGGTPVAEQ     45
+
+UBX7_YEAST       168 ERERIIR------------LVRADRAERKALDETHHRTLDDDKPLDVHDY    205
+                     .||.::.            |..|.|||  .:::.....|:|.     .|.
+KTHY_CHLP8        46 IRELLLESHNDITSIAELLLFSASRAE--LMEKIIVPALEDG-----CDV     88
+
+UBX7_YEAST       206 IKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDC    255
+                     |.|             |..|..|....:.....|:.:   .::||     
+KTHY_CHLP8        89 ILD-------------RFFDSTTAYQGYGRGLNLDML---AEINR-----    117
+
+UBX7_YEAST       256 PYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLK------PL------    293
+                      .:.|...|.:||          .|:|||..|||.|      ||      
+KTHY_CHLP8       118 -IASHGIRPDITF----------YLDLTPEDALLRKFSEKSLPLAFESEE    156
+
+UBX7_YEAST       294 --ETQNSGL    300
+                       ..:||||
+KTHY_CHLP8       157 LDRMENSGL    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      35/113 (31.0%)
+# Similarity:    46/113 (40.7%)
+# Gaps:          33/113 (29.2%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       137 VHRKN-------ARERIAETTLEIQRREQLKQRKLAEEERERIIR---LV    176
+                     |.|:|       |||.:||  |..:|.|:|.. |::||..|.|.|   |.
+SECA2_MYCTO      657 VERRNTLLRTVTAREELAE--LAPKRYEELSD-KVSEERLETICRQIMLY    703
+
+UBX7_YEAST       177 RADR--AERKAL-----DETHHRTLDDDKPLD-------------VHDYI    206
+                     ..||  |:..|.     :..|.|.|....|||             ..|.|
+SECA2_MYCTO      704 HLDRGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAADAI    753
+
+UBX7_YEAST       207 KDAQKLHSSKCVL    219
+                     :.||:...:..||
+SECA2_MYCTO      754 EAAQQTFETANVL    766
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           1/24 ( 4.2%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       233 FNSSETLNDVRKWVDV-NRTDGDC    255
+                     |..|:.|....|:.:: .|.:|.|
+DB108_HUMAN       12 FFMSQVLPAKGKFKEICERPNGSC     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      20/71 (28.2%)
+# Similarity:    25/71 (35.2%)
+# Gaps:          27/71 (38.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        82 YLIRAGK-IELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAR-    129
+                     :|.|.|| :..:..|.|.|.|..:               ||.|.|.||| 
+LCMT1_CRYNB      130 FLQRGGKQVVSLGAGSDTRFWRLM---------------SRATPPDLARY    164
+
+UBX7_YEAST       130 ---------EEKSSRDV-HRK    140
+                              ..|:.|.. |||
+LCMT1_CRYNB      165 VEIDFPHLTSPKAQRIARHRK    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      26/122 (21.3%)
+# Similarity:    43/122 (35.2%)
+# Gaps:          28/122 (23.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       263 IPRVTFK-----DSDELKTLETLELTPRSALLLKPLET-------QNSGL    300
+                     :|.|.|.     |...:|......:.|....:.|..||       .:||:
+PTGA_SALTY        37 VPDVVFAEKIVGDGIAIKPTGNKMVAPVDGTIGKIFETNHAFSIESDSGI     86
+
+UBX7_YEAST       301 SV---TGMEGPSLLGRLYKGFSTWWHNDK--DPEVTSQ---REETSK---    339
+                     .:   .|::...|.|..:|..:......|  ||.:...   .||.:|   
+PTGA_SALTY        87 ELFVHFGIDTVELKGEGFKRIAEEGQRVKVGDPVIEFDLPLLEEKAKSTL    136
+
+UBX7_YEAST       340 -----PNRHEVRSSTPLSGAAS    356
+                          .|..|::....|||:.:
+PTGA_SALTY       137 TPVVISNMDEIKELIKLSGSVT    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      34/166 (20.5%)
+# Similarity:    55/166 (33.1%)
+# Gaps:          68/166 (41.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       156 REQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDDKPLDVHDY    205
+                     |:.|.||:..::..||...|:|  ::.:|.:.|.  .:|||  .||::  
+RR14_CRYJA         3 RKSLIQREKKKQRLERKYNLLR--QSLKKEMSEV--SSLDD--KLDIY--     44
+
+UBX7_YEAST       206 IKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDC    255
+                      :..|.|..:....::|....||                           
+RR14_CRYJA        45 -RKLQSLPRNSAPTRLRRRCLKT---------------------------     66
+
+UBX7_YEAST       256 PYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGM    305
+                           |.||..::|         .||               ||..:..|
+RR14_CRYJA        67 ------GRPRANYRD---------FEL---------------SGYIIREM     86
+
+UBX7_YEAST       306 EGPSLLGRLYKGFSTW    321
+                     ....||..:.|  |:|
+RR14_CRYJA        87 AHACLLAGVTK--SSW    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      32/164 (19.5%)
+# Similarity:    54/164 (32.9%)
+# Gaps:          60/164 (36.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       143 RERIAETTLEIQRREQ--------LKQRKLAEEERERIIRLVRADRAERK    184
+                     ||...:|.|:..|.|:        ::|...::.|..::        .|:.
+DCUP_BACVZ         4 REAFNDTFLKAARGEKTNHVPVWYMRQAGRSQPEYRKL--------KEKY     45
+
+UBX7_YEAST       185 ALDETHHRTLDDDKP--------LDVHDYIKDAQKLHSSKCV--------    218
+                     .|.|..|      :|        |.|..|..||..|:.....        
+DCUP_BACVZ        46 GLVEITH------QPELCAYVTRLPVEQYGVDAAILYKDIMTPLPYIGVD     89
+
+UBX7_YEAST       219 LQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDCPYSFHRGIPRVTF    268
+                     ::|:...|..:.....|:.   |:.|..::| .:.|.||           
+DCUP_BACVZ        90 VEIKNGIGPVIDQPVRSAA---DIEKLGELN-PEQDVPY-----------    124
+
+UBX7_YEAST       269 KDSDELKTLETLEL    282
+                            .|||:.|
+DCUP_BACVZ       125 -------VLETIRL    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      68/365 (18.6%)
+# Similarity:   123/365 (33.7%)
+# Gaps:         137/365 (37.5%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       105 LACIGIKDKKAGESSSRETNPGLAREEKSSRDVH-RKNARERIAETTLEI    153
+                     :|||.:          .||:..:...|:....|: ||:.::...:..:| 
+GTF2I_MOUSE       44 VACIAV----------YETDVFVVGTERGRAFVNTRKDFQKDFVKYCVE-     82
+
+UBX7_YEAST       154 QRREQLKQRKLAEEERERIIRLVRADRAERKALD----ETHHRTLDD---    196
+                                .||:...:.::....:|.|.::|    ||..:|::|   
+GTF2I_MOUSE       83 -----------EEEKAAEMHKMKSTTQANRMSVDAVEIETLRKTVEDYFC    121
+
+UBX7_YEAST       197 -----------DKPLDVHDYIKDAQKLHSSKCVLQIRMTDGKTLKH-EFN    234
+                                ..|:.....::|     .|..|:| .:.:|...|| |..
+GTF2I_MOUSE      122 FCYGKALGKSTVVPVPYEKMLRD-----QSAVVVQ-GLPEGVAFKHPEHY    165
+
+UBX7_YEAST       235 SSETLNDVRKWVDVNRTDGDCPYSF-----------HRGIPRVTFKDSDE    273
+                     ...||    ||:..|:..    .||           |.| .||...::  
+GTF2I_MOUSE      166 DLATL----KWILENKAG----ISFIIKRPFLEPKKHLG-GRVLAAEA--    204
+
+UBX7_YEAST       274 LKTLETLELTPRSA---LLLKPLETQNSGLSVTGMEGPSLLGRLYKGFST    320
+                         |...|:|..:   :.:|...|::||:|:                  
+GTF2I_MOUSE      205 ----ERSMLSPSGSCGPIKVKTEPTEDSGISL------------------    232
+
+UBX7_YEAST       321 WWHNDKDPEVTSQREETSKPNRHE-----------VRSSTPLSGAASSSC    359
+                           :....:.:||:..|:.::           |....|||.|     
+GTF2I_MOUSE      233 ------EMAAVTVKEESEDPDYYQYNIQGPSETDGVDEKLPLSKA-----    271
+
+UBX7_YEAST       360 FQYNNVREPVQSSAHASPMLTPSGTRYPSETNLTTSRSVSPNVFQFVNND    409
+                              :|.|.|:|.....:....|:|.:.           |.|.::
+GTF2I_MOUSE      272 ---------LQGSHHSSEGNEGTEVEVPAEDST-----------QHVPSE    301
+
+UBX7_YEAST       410 HQEDPEDPTTFNGNN    424
+                     ..||||...|...::
+GTF2I_MOUSE      302 TSEDPEVEVTIEDDD    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    25/64 (39.1%)
+# Gaps:          16/64 (25.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       345 VRSSTPLSGAASSS--CFQYNNVREPVQS--------------SAHASPM    378
+                     :||..||.......  |:...|.::.|:|              ::..|..
+ISPH_ACIF5       179 LRSRFPLIEGPKKDDICYATQNRQDAVKSLAPDVDILLVVGAPNSSNSSR    228
+
+UBX7_YEAST       379 LTPSGTRYPSETNL    392
+                     |...|||..::|:|
+ISPH_ACIF5       229 LAELGTRLGTQTHL    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:       9/42 (21.4%)
+# Similarity:    16/42 (38.1%)
+# Gaps:          11/42 (26.2%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        71 QVFPNVVVPSIYLIRAGKIELIIQ-----GEDDR------HW    101
+                     ::.|.:.|..:.|:..|.....|.     |::.|      ||
+NDUA1_HUMAN        4 EILPGLSVMGVCLLIPGLATAYIHRFTNGGKEKRVAHFGYHW     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      49/220 (22.3%)
+# Similarity:    82/220 (37.3%)
+# Gaps:          68/220 (30.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       172 IIRLVRADRAERKALDET--HHRTLDDDKPLDVHDYIKDAQKLHSSKCVL    219
+                     |::.:.|...:...||.|  .||| ....|.:::.|  ||:       :.
+PSRP_SALTI        92 IVQALVAPLQQEMKLDPTPIAHRT-HGLNPGNLNKY--DAR-------IA    131
+
+UBX7_YEAST       220 QIRMT----DGKTLKHEFNSSETLNDVRKWVDVNRTDGDCPYSFHR----    261
+                     .|..|    ||.:|::...:...|      :.|:|. |..|.|.:.    
+PSRP_SALTI       132 AIDYTLAHDDGISLRNLDQAQVIL------LGVSRC-GKTPTSLYLAMQF    174
+
+UBX7_YEAST       262 GIPRVTF----KDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEG    307
+                     ||....:    .|.|.| ||.|         .||||:.:..||::     
+PSRP_SALTI       175 GIRAANYPFIADDMDNL-TLPT---------SLKPLQHKLFGLTI-----    209
+
+UBX7_YEAST       308 PSLLGRLYKGFSTWWHNDKDPE-VTSQREETSKPNRHEVRSSTPLSGAAS    356
+                                        ||| :.:.|||..:.:|:.......:..|..
+PSRP_SALTI       210 -------------------DPERLAAIREERRENSRYASLRQCRMEVAEV    240
+
+UBX7_YEAST       357 SSCFQYNNVREPVQSSAHAS    376
+                     .:.::.|.:  |..:|.:.|
+PSRP_SALTI       241 EALYRKNQI--PCLNSTNYS    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      25/97 (25.8%)
+# Similarity:    39/97 (40.2%)
+# Gaps:          28/97 (28.9%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        95 GEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRD-VHRKNAR    143
+                     |..|...||:     :||.:|.           |..:|..|: |..||..
+DNAK_CHESB       501 GLSDAEIEKM-----VKDAEAN-----------AEADKKRRETVEVKNQA    534
+
+UBX7_YEAST       144 ERIAETTLEIQRREQLKQ--RKLAEEERERIIRLVRADRAERKALDE    188
+                     |.:..:|     .:.||.  .|::|::|:.|...:    ||.|...|
+DNAK_CHESB       535 EALIHST-----EKSLKDYGDKVSEDDRKAIENAI----AELKTATE    572
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 366
+# Identity:      67/366 (18.3%)
+# Similarity:   118/366 (32.2%)
+# Gaps:         135/366 (36.9%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         3 EALFRDSVEEAINDSIKEGV--------VLAVYNTARDDQWLKSWFK---     41
+                     |.:..||..:.:....|||.        :|::.|...::: |:.|.:   
+DNLJ_ACIC5        53 ELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEE-LRDWERRVR    101
+
+UBX7_YEAST        42 ---GDDVSLDTLAEHSI-WLRLVKDTEQFQLF-----------EQVFPNV     76
+                        |.:..::.:.|:.: .|.:.......||.           |.|..||
+DNLJ_ACIC5       102 EQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNV    151
+
+UBX7_YEAST        77 -VVPSIYL-IRAGKIE-------LIIQGE------------DDRHWEKLL    105
+                      .:.|:.| |..||::       ..::||            ::|..:.|.
+DNLJ_ACIC5       152 RTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLA    201
+
+UBX7_YEAST       106 ACIGIKDKKAGESSSRETNPGLAR-------------------EEKSSRD    136
+                     .....::..||...:.|.|....|                   |::.:.|
+DNLJ_ACIC5       202 PAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALD    251
+
+UBX7_YEAST       137 V----------HRKNARERIAETTLEIQRREQLKQRKLAEEERERIIRLV    176
+                     .          ||..|:.  .||.:|...|        |||.|.|:    
+DNLJ_ACIC5       252 ALATLGFRVNQHRHAAKS--IETVVEFVNR--------AEEHRSRL----    287
+
+UBX7_YEAST       177 RADRAERKALDETHHRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMTDG    226
+                                                .|..|...:..:..|||.|:  |
+DNLJ_ACIC5       288 ---------------------------GYEIDGVVVKVNSAVLQRRL--G    308
+
+UBX7_YEAST       227 KT-------LKHEFNSSETLNDVRK-WVDVNRTDGDCPYSF-------HR    261
+                     .|       :.::|.:...:..|.. .|.|.||....|.::       ..
+DNLJ_ACIC5       309 YTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGT    358
+
+UBX7_YEAST       262 GIPRVTFKDSDELKTL    277
+                     .:.|.|..::||::.|
+DNLJ_ACIC5       359 TVTRATLHNADEIERL    374
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:      34/137 (24.8%)
+# Similarity:    49/137 (35.8%)
+# Gaps:          53/137 (38.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       262 GIPRV---TFKDSDELKTLETLELTPRSALLLKPLETQNSGL--------    300
+                     |.|.:   ||..|:..|...|.     :::.|||.:......        
+CAPSD_CMVO        49 GRPTINHPTFVGSERCKPGYTF-----TSITLKPPKIDRGSYYGKRLLLP     93
+
+UBX7_YEAST       301 -SVTGMEGPSLLGR-------LYKGFSTWWHNDKDPEVTSQREETSKPNR    342
+                      |||..: ..|:.|       |.|..||.|       ||.::        
+CAPSD_CMVO        94 DSVTEYD-KKLVSRIQIRVNPLPKFDSTVW-------VTVRK--------    127
+
+UBX7_YEAST       343 HEVRSSTPLSGAASSSCFQYNNVREPVQSSAHASPML    379
+                       |.:|:.||.||.|:.|           :..|||:|
+CAPSD_CMVO       128 --VPASSDLSVAAISAMF-----------ADGASPVL    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      24/105 (22.9%)
+# Similarity:    42/105 (40.0%)
+# Gaps:          18/105 (17.1%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       138 HRKNARERIAETTLEIQRREQ-----LKQRKLAEEERERIIRLVRADRAE    182
+                     :|.|.:.|:.|..:..|...|     ::.|::||:....:|.:.......
+IF3_CHLL2         15 YRVNEQIRVPEVRIVFQDGTQQVMKTIEARRMAEDRNLDLIEVQPNAEPP     64
+
+UBX7_YEAST       183 RKALDETHHRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRM---TDGKTL    229
+                     ...||.........||    .|  ||.:|...:..:.::|.   ||    
+IF3_CHLL2         65 VCKLDNLGKLLFKMDK----RD--KDLKKKQKTTTLKELRFHPNTD----    104
+
+UBX7_YEAST       230 KHEFN    234
+                     ||:|:
+IF3_CHLL2        105 KHDFD    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      15/52 (28.8%)
+# Similarity:    19/52 (36.5%)
+# Gaps:          12/52 (23.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       110 IKDKKAGES------------SSRETNPGLAREEKSSRDVHRKNARERIA    147
+                     |..:|.|||            |.|.....|..|......|||:...:||.
+CSRA_HAEI8         3 ILTRKVGESVLIGDDISITVLSVRGNQVKLGVEAPKEVSVHREEIYQRIK     52
+
+UBX7_YEAST       148 ET    149
+                     :|
+CSRA_HAEI8        53 QT     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      35/159 (22.0%)
+# Similarity:    57/159 (35.8%)
+# Gaps:          47/159 (29.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        13 AINDSIKEGVVLAVYNTA-------RDDQWLKSWF-KGDDVSLDTLAEHS     54
+                     |.::..|:.:::..:.||       ::..:|.... .|..:|.|.|.:.:
+COAX_CLOBL       116 AAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKA    165
+
+UBX7_YEAST        55 IWL---RLVKDTEQFQLFEQVFPNVV----VPSI-------------YLI     84
+                     ..|   .|||.           |.|:    |.||             |::
+COAX_CLOBL       166 AKLPRVELVKT-----------PGVICKNTVASIQSGIIYGYAGQVDYIV    204
+
+UBX7_YEAST        85 RAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSR--ETNPGLAREEK    132
+                     ...|.|::..||:    |..:...|...|...|.|..  |.|..|..|  
+COAX_CLOBL       205 SKMKKEMMDLGEE----EPFVVATGGFAKLISEESKSIDEINAILTLE--    248
+
+UBX7_YEAST       133 SSRDVHRKN    141
+                     ..|.::.||
+COAX_CLOBL       249 GLRVIYEKN    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      16/65 (24.6%)
+# Similarity:    27/65 (41.5%)
+# Gaps:           6/65 ( 9.2%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       120 SRETNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQRKLAEEER    169
+                     |.||..|...::....:.:.....:....|||.:...|    ..|:|||.
+HOP_BOVIN          2 STETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAE----AGLSEEET     47
+
+UBX7_YEAST       170 ERII--RLVRADRAE    182
+                     ::..  ||.:..|:|
+HOP_BOVIN         48 QKWFKQRLAQWRRSE     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      45/236 (19.1%)
+# Similarity:    85/236 (36.0%)
+# Gaps:          91/236 (38.6%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        45 VSLD---TLAEHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAG----     87
+                     :|:|   .:||      ::::.|..|:      .||:..::: |||    
+THII_VIBA3       240 ISIDFEPVVAE------ILENVEDGQM------GVVLKRMFM-RAGGMVA    276
+
+UBX7_YEAST        88 ---KIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRE-TN---------    124
+                        .||.::.||                 ..|:.||:. ||         
+THII_VIBA3       277 ERFGIEALVTGE-----------------ALGQVSSQTLTNLRHIDNVTD    309
+
+UBX7_YEAST       125 -----PGLAREEKSSRDVHRKNARERIAETTLE----IQRREQLKQRKLA    165
+                          |.:..:::...|:.||...|..|:...|    |.::..:|.:|  
+THII_VIBA3       310 TLILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAKK--    357
+
+UBX7_YEAST       166 EEERERIIRLVRADRAERKALDETHHRTLDDDKPLDVHDYIKDAQK----    211
+                               .:.:..|.|...|...:.:::.:.:|:.|..|::|:    
+THII_VIBA3       358 ----------GKLEAEEAKFNFEVLEQVIENARIMDIRDIEKESQEQAPE    397
+
+UBX7_YEAST       212 ------LHSSKCVLQIRM----------TDGKTLKH    231
+                           :.....||.||.          .||..:||
+THII_VIBA3       398 VEQVQAVAEHAVVLDIRSPDEEDESPLEIDGVEIKH    433
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    21/46 (45.7%)
+# Gaps:           7/46 (15.2%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        95 GEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRK    140
+                     |..:.::|||:|       ||.|........|:..:....||::||
+RL13_PSEPG        83 GIKEINFEKLIA-------KAPERVIETAVKGMLPKNPLGRDMYRK    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      23/74 (31.1%)
+# Similarity:    32/74 (43.2%)
+# Gaps:          18/74 (24.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       268 FKD-SDELKTLETLELTPRSALLLK----PLETQNSGLS-VTGMEGPSLL    311
+                     |:| ..|.||.....|..|.|.:||    .|||...|:. :||:  |.::
+RR2_ARATH        118 FRDLRTEQKTEGFNRLPKRDAAVLKRQLSRLETYLGGIKYMTGL--PDIV    165
+
+UBX7_YEAST       312 GRLYKGFSTWWHNDKDPEVTSQRE    335
+                     ..|          |:..|.|:.||
+RR2_ARATH        166 IIL----------DQQEEYTALRE    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      48/253 (19.0%)
+# Similarity:    77/253 (30.4%)
+# Gaps:          96/253 (37.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       156 REQLKQRKLAEE---ERERIIRLVRADRAERKALD----ETHHRTLDDDK    198
+                     :.||.:..:|.|   ..|.:||  :..||.:..:|    .|||   |.|.
+Y1710_SYNP2       33 KNQLNRLGIAAEYDLRAETVIR--QGQRATKVFVDLKTKATHH---DHDH     77
+
+UBX7_YEAST       199 PLDV--HDYIKDAQKLHSSKCVLQIR------------------------    222
+                     ..|.  |.:...|...|..:....|:                        
+Y1710_SYNP2       78 SQDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQNLAIAEA    127
+
+UBX7_YEAST       223 MTDGKTLK----HEFNSSETLNDV------RKWVDVNR-------TDGDC    255
+                     ...|.|.:    ||..:::.|.|:      ..|::::.       |.|..
+Y1710_SYNP2      128 TVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGT    177
+
+UBX7_YEAST       256 PYSFH----------------RGIPRVTFKDSDELKTLETLELTPRSALL    289
+                     ..:.|                |.:|..:.....||       :||..|.:
+Y1710_SYNP2      178 VKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKEL-------VTPTGAAI    220
+
+UBX7_YEAST       290 LKPLETQ------------NSGLSVTGMEGPSLLGRLYKGFSTWWHNDKD    327
+                     ...|.|.            ..|.....:..|:|| ||:.|     |..:.
+Y1710_SYNP2      221 ATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLL-RLWIG-----HQPET    264
+
+UBX7_YEAST       328 PEV    330
+                     |.:
+Y1710_SYNP2      265 PHL    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 173
+# Identity:      35/173 (20.2%)
+# Similarity:    53/173 (30.6%)
+# Gaps:          56/173 (32.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       280 LELTPRSALLLKP---LETQNSGLSVTGME--------------------    306
+                     |.:.|...||.:|   |:.|..|..:..|:                    
+WTPC_THEKO       146 LAVEPELLLLDEPFANLDVQTRGRLINEMKRWRKELGFTALHVTHSFEEA    195
+
+UBX7_YEAST       307 -------GPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRS--    347
+                            |..|.|||.             :|...||..|:|...||..  
+WTPC_THEKO       196 VSLGDRVGVMLNGRLV-------------QVGPVREVFSRPASEEVAKFL    232
+
+UBX7_YEAST       348 --STPLSGAASSSCFQYNN--VREPVQSSAHASPMLTPSGTRYPSETNLT    393
+                       ...:.|.|.....:.|.  :..|:::|......:.|.......|...:
+WTPC_THEKO       233 GFENIVEGLAEGRILRANGLVIELPIEASGRIRVGIRPEDIVLSDEPLKS    282
+
+UBX7_YEAST       394 TSRSVSPNVFQFVNNDHQEDPED    416
+                     :.|    |.||   .:.|.|.|:
+WTPC_THEKO       283 SMR----NTFQ---AEVQADVEE    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 473
+# Identity:      92/473 (19.5%)
+# Similarity:   154/473 (32.6%)
+# Gaps:         134/473 (28.3%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         7 RDS-----VEEAINDSIKEGVVLAVYNTAR--------------DDQWLK     37
+                     |||     |:....|.....|.:|...|||              |:.|  
+GRB7_RAT          95 RDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENW--    142
+
+UBX7_YEAST        38 SWFKGDDVSLDTLAEHSIWLRL---VKDTEQFQLFEQVFPNVVVPSIYLI     84
+                                .|.|...:|.|   ::|.|.....::.:| |...|.::.
+GRB7_RAT         143 -----------GLVECHPYLALERGLEDHESVVEVQEAWP-VGGDSRFIF    180
+
+UBX7_YEAST        85 RA--GKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+                     |.  .|.||..........||::            ||..:|..|::.|:.
+GRB7_RAT         181 RKNFAKYELFKSPPHTLFPEKMV------------SSCLDTPTGISHEDL    218
+
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEIQRREQLK------QRKLAEEERERIIRLV    176
+                     ....::        |.:..|||...||:      .|||    .:|....:
+GRB7_RAT         219 IQNFLN--------AGSFPEIQGFLQLRGSGRGSGRKL----WKRFFCFL    256
+
+UBX7_YEAST       177 RADRAERKALDETHHRTLDDDKPL----DVHD----YIKDAQKLHS----    214
+                     |     |..|..:...|..|.:.|    |:::    .:...:||:.    
+GRB7_RAT         257 R-----RSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTD    301
+
+UBX7_YEAST       215 -SKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDCPYSFHRGI    263
+                      ..||...::.:|....|.| .||.......|:...|.       |..|:
+GRB7_RAT         302 FGFCVKPNKLRNGHKGLHIF-CSEDEQSRTCWLSAFRL-------FKYGV    343
+
+UBX7_YEAST       264 PRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEGPSLLGR    313
+                     .  .:|:..:.::...     |.:.|..|.....|..::..|:.....||
+GRB7_RAT         344 Q--LYKNYQQAQSRHL-----RLSYLGSPPLRSVSDNTLVAMDFSGHAGR    386
+
+UBX7_YEAST       314 LYKGFSTWWHNDKDPE-----VTSQREETSKPNRHEVRSSTPLSGAASSS    358
+                     :.          ::|:     .|.:.:...|...|.:...||.||.:.|:
+GRB7_RAT         387 VI----------ENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGLSLSA    426
+
+UBX7_YEAST       359 CFQYNNVREPVQSSAHASPMLTPSGTRYPSETNLTTSRSVSPNVFQFVNN    408
+                     ...            ...|......:|..|: .|...:.:...||..   
+GRB7_RAT         427 AIH------------RTQPWFHGRISREESQ-RLIGQQGLVDGVFLV---    460
+
+UBX7_YEAST       409 DHQEDPEDPTTFNGNNVHLEKKK    431
+                       :|...:|..|..:..||:|.|
+GRB7_RAT         461 --RESQRNPQGFVLSLCHLQKVK    481
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      39/179 (21.8%)
+# Similarity:    67/179 (37.4%)
+# Gaps:          45/179 (25.1%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        76 VVVPSIYLIRAGKIELIIQ-------GEDDRHWEKLLACIGI------KD    112
+                     ||.|:     .|::.:::|       |..|:...::...:.:      :.
+PSD_RHOPS         68 VVAPA-----DGRVSMVVQMIPPPALGLGDKPLPRVSIFMSVFNCHVNRS    112
+
+UBX7_YEAST       113 KKAGESSSRETNPGL---AREEKSSRDVHRKNARERIAETTLEIQRREQL    159
+                     ..||.......:||.   |..:|:|.|    |.|..:..:|    ...|:
+PSD_RHOPS        113 PVAGRVERIIYSPGKFINAELDKASED----NERNSMVIST----PAGQI    154
+
+UBX7_YEAST       160 KQRKLAEEERERIIRLVRADR----AERKALDETHHRTLDDDKPLDVHDY    205
+                     ...::|.....||:..||..:    .||..|.....|       |||  |
+PSD_RHOPS        155 GVVQIAGLVARRIVSFVREGQTLAPGERFGLIRFGSR-------LDV--Y    195
+
+UBX7_YEAST       206 IKDAQKLHSSKCVLQIRMTDGKTLKHEFN    234
+                     :.:..|...|:....|.   |:|:..:||
+PSD_RHOPS        196 LPEGAKPLVSEGQTAIA---GETVLADFN    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 397
+# Identity:      73/397 (18.4%)
+# Similarity:   136/397 (34.3%)
+# Gaps:         132/397 (33.2%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         2 LEALFRDSVEEAINDSIKEGV-------VLAVYNTARDDQWLKSWFKGDD     44
+                     |:.|.::...||:...:||.|       .:..|:|.     :|::.|..|
+PP156_ARATH      387 LKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYHTL-----IKAYLKVGD    431
+
+UBX7_YEAST        45 VS---------------LDTLAEHSIWLRLVKDTEQFQ------------     67
+                     :|               ::|:..::|...|.|:.:..:            
+PP156_ARATH      432 LSGALEMMREMGQKGIKMNTITLNTILDALCKERKLDEAHNLLNSAHKRG    481
+
+UBX7_YEAST        68 -LFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAG    116
+                      :.::|....::...:  |..|:|..::..|:....|:...:...:...|
+PP156_ARATH      482 FIVDEVTYGTLIMGFF--REEKVEKALEMWDEMKKVKITPTVSTFNSLIG    529
+
+UBX7_YEAST       117 ESSSRETNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQRKLAE    166
+                              ||....|                |.|.:::.::|.:..|..
+PP156_ARATH      530 ---------GLCHHGK----------------TELAMEKFDELAESGLLP    554
+
+UBX7_YEAST       167 EE---RERIIRLVRADRAERKALDETHHRTLDDDKPLDVHDYIKDAQKLH    213
+                     ::   ...|:...:..|.| ||.:             ..::.||.:.|..
+PP156_ARATH      555 DDSTFNSIILGYCKEGRVE-KAFE-------------FYNESIKHSFKPD    590
+
+UBX7_YEAST       214 SSKC--VLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDCPYSFHR    261
+                     :..|  :|.....:|.|.| ..|...||.:.|:                 
+PP156_ARATH      591 NYTCNILLNGLCKEGMTEK-ALNFFNTLIEERE-----------------    622
+
+UBX7_YEAST       262 GIPRVTF--------KDSDELKTLETLELTPRSALLLKPLE----TQNSG    299
+                      :..||:        ||.   |..|..:|.  |.:..|.||    |.||.
+PP156_ARATH      623 -VDTVTYNTMISAFCKDK---KLKEAYDLL--SEMEEKGLEPDRFTYNSF    666
+
+UBX7_YEAST       300 LSVTGMEGP-SLLGRLYKGFSTWW---------HNDKDPEVTSQREE    336
+                     :|:...:|. |....|.|.||..:         ..:|:|..:..:||
+PP156_ARATH      667 ISLLMEDGKLSETDELLKKFSGKFGSMKRDLQVETEKNPATSESKEE    713
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      14/47 (29.8%)
+# Similarity:    23/47 (48.9%)
+# Gaps:           6/47 (12.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       113 KKAGESSSRETNPGLAREEKSSRDVH--RKNA----RERIAETTLEI    153
+                     :|..:|..|..:|.|.:.|:..|..|  |:::    :|..|..||.|
+ADRB2_MESAU      231 QKIDKSEGRFHSPNLGQVEQDGRSGHGLRRSSKFCLKEHKALKTLGI    277
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       7/12 (58.3%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       400 PNVFQFVNNDHQ    411
+                     |.|.||||.|.:
+ID5B_ADEPA        25 PLVVQFVNADRE     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:      50/256 (19.5%)
+# Similarity:    93/256 (36.3%)
+# Gaps:          74/256 (28.9%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBX7_YEAST        72 VFPNVVVPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSR    121
+                     |:.|.:...:.::||.....|..||.||..:..|....:...|  |..:.
+GPA7_CAEEL        73 VYSNCIHSMLSILRAMFHLQIEYGEPDRVRDSQLVFATVHANK--EELTE    120
+
+UBX7_YEAST       122 ETNPGLAR--EEKSSRDVHRKNARERIAETTL----EIQR----------    155
+                     |....:.|  .:...|:.:|::...:|.::..    .:.|          
+GPA7_CAEEL       121 ELAAAMQRLWHDPGVRECYRRSNEYQIDDSAKYFLDNLPRLSSPNYVPSE    170
+
+UBX7_YEAST       156 ----REQLKQRKLAEEERE------RIIRLVRADRAERK-----------    184
+                         |.::|...:.|...|      |:|. |...|:|||           
+GPA7_CAEEL       171 QDLLRTRIKTTGITEVLFELKGLTFRVID-VGGQRSERKKWIHCFDNVNA    219
+
+UBX7_YEAST       185 -----ALDETHHRTLDDDKPLDVHDYIKDAQKLHSSKC-------VLQIR    222
+                          :|.| :.:||.:|   :..:.::::.||..|.|       :..|.
+GPA7_CAEEL       220 IIFISSLSE-YDQTLRED---NCTNRMQESLKLFDSICNSPWFADIHFIL    265
+
+UBX7_YEAST       223 MTDGKTL-----------------KHEFNSSETLNDVR-KWVDVNRTDGD    254
+                     ..:.|.|                 |.:.|.:|.:|.:: |:..:||:...
+GPA7_CAEEL       266 FLNKKDLFAEKIVRSPLTVCFPEYKGQQNQTECINYIQWKFEQLNRSSQR    315
+
+UBX7_YEAST       255 CPYSFH    260
+                     ..|..|
+GPA7_CAEEL       316 EIYCHH    321
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    15/27 (55.6%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       313 RLYKGFSTWWHNDKDPEVTSQREETSK    339
+                     ||:..||:|..|.|...:.::|..:.|
+IDI_ECO24         30 RLHLAFSSWLFNAKGQLLVTRRALSKK     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:      48/223 (21.5%)
+# Similarity:    82/223 (36.8%)
+# Gaps:          53/223 (23.8%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       163 KLAEEERERIIRLVRADRAERKALDET--HHRTLDDDKPLDVHDYIKDAQ    210
+                     |:::|||..|:..:...|||..|.::|  .||. :..:|:. .....|||
+YHJA_ECOLI       138 KVSDEERAEILAWIAKQRAEYYASNDTAPEHRN-EPVQPIP-QKLPTDAQ    185
+
+UBX7_YEAST       211 KL-------HSSKCVLQIRMTDGKTLK----HEFNSSETLNDVRKW-VDV    248
+                     |:       |..      |::...|:.    |..|:...  |.||. :.|
+YHJA_ECOLI       186 KVALGFALYHDP------RLSADSTISCAHCHALNAGGV--DGRKTSIGV    227
+
+UBX7_YEAST       249 NRTDG--DCPYSFHRGI--------PRVTFKDSDELKTLETLELTPRS--    286
+                     ....|  :.|..|:...        ...|.:|......|..:|:..:|  
+YHJA_ECOLI       228 GGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMASKSWD    277
+
+UBX7_YEAST       287 ---ALLLK--PLETQNSGLSVTGMEGPSLLGRLYK----------GFSTW    321
+                        |.|.|  .|:||...:...|..|.::...:.:          .|..|
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPDSPFDKW    327
+
+UBX7_YEAST       322 WHNDKDPEVTSQRE--ETSKPNR    342
+                     ...|::.....|::  :..|.|:
+YHJA_ECOLI       328 LRGDENALTAQQKKGYQLFKDNK    350
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      24/103 (23.3%)
+# Similarity:    34/103 (33.0%)
+# Gaps:          38/103 (36.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       179 DRAERKALDETH----HRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMT    224
+                     ||..:|..|.|.    ...:...||||.....:..  ||:         .
+RIMP_BURPS        73 DRPLKKLADFTRFAGSEAVITLKKPLDGRKTYRGI--LHA---------P    111
+
+UBX7_YEAST       225 DGKTLKHEFNSSE--------TLNDVRKWVDVNRTDGDCPYSFHRGIPRV    266
+                     :|:|:..||...:        ||.|:.|               .|.||.|
+RIMP_BURPS       112 NGETIGLEFERKKGEAAMLDFTLADIDK---------------ARLIPHV    146
+
+UBX7_YEAST       267 TFK    269
+                     .|:
+RIMP_BURPS       147 DFR    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:       9/34 (26.5%)
+# Similarity:    17/34 (50.0%)
+# Gaps:           4/34 (11.8%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         8 DSVEEAINDSIK----EGVVLAVYNTARDDQWLK     37
+                     |:....||.::|    ||.:|.:....|:.:.|:
+RS28_OSTOS        33 DNGNRTINRNVKGPVREGDILTLLEAEREARRLR     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           3/17 (17.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       420 FNGNNVHLEKKKDEDKK    436
+                     |:.|:.||   |:..||
+HBAC_LITCT        49 FHANSAHL---KNHGKK     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      31/141 (22.0%)
+# Similarity:    44/141 (31.2%)
+# Gaps:          55/141 (39.0%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       180 RAERKALDETHHRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMTDGKTL    229
+                     |.|.:||.||...|  .....|..:|:..|::            ...|.|
+RPOA_PRRSS      3555 RGEPQALPETLVST--GRIATDCREYLDAAEE------------EAAKEL   3590
+
+UBX7_YEAST       230 KHEFNSSETLNDVRKWVDVNRTDGDCPYSFHRGIPRVTFKDSDELKTLET    279
+                     .|.|     :.||:     ..|.|.|.:...:.:||...|||        
+RPOA_PRRSS      3591 PHAF-----IGDVK-----GTTVGGCHHITSKYLPRTLPKDS--------   3622
+
+UBX7_YEAST       280 LELTPRSALLLKPLETQNSGLSVTGMEGPSLLGRLYKGFST    320
+                                         ::|.|:..|   ||..|...|
+RPOA_PRRSS      3623 --------------------VAVVGVSSP---GRAAKAMCT   3640
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      20/80 (25.0%)
+# Similarity:    29/80 (36.2%)
+# Gaps:          16/80 (20.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       262 GIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEGPS--    309
+                     |:..||.||......|..|:  |...||:......:|.|.....:..|  
+UBIE_PSEAE       147 GLRNVTHKDEAIRSMLRVLK--PGGRLLVLEFSKPSSNLLSKAYDAYSFS    194
+
+UBX7_YEAST       310 ---LLGRL---------YKGFSTWWHNDKD    327
+                        |:|:|         |...|...|.|::
+UBIE_PSEAE       195 LLPLMGKLVTNDSESYRYLAESIRMHPDQE    224
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      57/235 (24.3%)
+# Similarity:    84/235 (35.7%)
+# Gaps:          68/235 (28.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       218 VLQIRMTDGKTLKHEFNSSETLND-VRKWVDV--NRTDGDCPYSFHRGIP    264
+                     |..:|..|...||:|..|::|.|. |.|.||.  |..||.          
+FLII_AQUAE        80 VFGLRKGDKVLLKNELVSTKTGNGVVGKVVDPFGNPLDGG----------    119
+
+UBX7_YEAST       265 RVTFKDSDELKTLETLELTP--------------RSALLLKPL-ETQNSG    299
+                        |....|.|.||..::.|              ||...|..| :.|..|
+FLII_AQUAE       120 ---FIGFVEEKGLELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIG    166
+
+UBX7_YEAST       300 L-SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTS---QREETSKPNRHEV    345
+                     : :..|:...:|||.:.:      |:..|..|.:   :|....|....||
+FLII_AQUAE       167 IFAGAGVGKSTLLGMITR------HSKADVVVLALIGERGREVKEFLEEV    210
+
+UBX7_YEAST       346 -------RSSTPLSGAASSSCFQYNNVREPVQSSAHASP---------ML    379
+                            :|...:|.|..|...:   |:..:.:..||..         :|
+FLII_AQUAE       211 LGEEGLKKSVVVVSTADQSPILK---VKGAISAVVHAHHFASQGKDVLLL    257
+
+UBX7_YEAST       380 TPSGTRY---PSETNLT-----TSRSVSPNVFQFV    406
+                     ..|.||.   ..|..|.     |.:..:|:|||.:
+FLII_AQUAE       258 MDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLL    292
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      58/319 (18.2%)
+# Similarity:   115/319 (36.1%)
+# Gaps:          68/319 (21.3%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       141 NARERIAETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETH    190
+                     |.:::.....:::....:..|:...:.:::.:.::.:..:.:::||.:  
+MSS11_VANPO      493 NIQQQYMSMMMQMMMLSKNNQQIPQQMQQQMMQQMQQLQQQQQQALQQ--    540
+
+UBX7_YEAST       191 HRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMTDG---KTLKHEFNSSE    237
+                         :..||...|.::.....        |:..|.|   .:.:.:.|:..
+MSS11_VANPO      541 ----NTGKPQLSHQFVVPVNN--------QVVTTPGGSSTSARTKSNARS    578
+
+UBX7_YEAST       238 TLNDVRKWVDVN-----RTDGDCPYSFHRGIPRVTFKDSDELKTLETLEL    282
+                     |..:.:|...|:     |:|.:.|.:.   :|..|...||. ..:.:.:.
+MSS11_VANPO      579 TNTNKKKMETVSKKNNKRSDINSPATI---VPISTPTSSDG-NIISSTQG    624
+
+UBX7_YEAST       283 TPRSALLLKPLETQNSGLSVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTS    332
+                     |....:.|....|..|.....|..|               .|.|     .
+MSS11_VANPO      625 TNFPIVNLSQAPTPTSKAEGDGEAG---------------QNKK-----R    654
+
+UBX7_YEAST       333 QREETSKPNRHEVRSSTPLSG-AASSSCFQYNNVREPVQSSAHASPMLTP    381
+                     :|::...||.: |.:|||.:| .|:|:....:.|...|..||     .|.
+MSS11_VANPO      655 RRKKPKTPNTN-VSASTPTAGNTANSTPVTTSGVNSSVVGSA-----TTS    698
+
+UBX7_YEAST       382 SGTRYPSETNLTTSRSVSPNVFQF---------------VNNDHQEDPED    416
+                     :..|.||.|......|:..||.:.               .||::..:..:
+MSS11_VANPO      699 NDKRTPSNTVANNDGSMQTNVNELDIGLGMNTNSNNNNNNNNNNNNNNNN    748
+
+UBX7_YEAST       417 PTTFNGNNVHLEKKKDEDK    435
+                     ....|.||.:.......||
+MSS11_VANPO      749 NNNNNNNNNNNPNSNSRDK    767
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      20/86 (23.3%)
+# Similarity:    39/86 (45.3%)
+# Gaps:          19/86 (22.1%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       113 KKAGESSSRETNPGLAREEKS---SRDVHRKNARERIAETTLEIQRREQL    159
+                     ::|.||.:.::.....|..:|   |:....||.:         ::||||.
+SPB4_ASPFU       536 QEAAESGATQSTSNKRRATESVAWSQQAESKNKK---------LKRREQK    576
+
+UBX7_YEAST       160 KQR-------KLAEEERERIIRLVRADRAERKALDE    188
+                     |.:       |:.|||:::::...:.....||..:|
+SPB4_ASPFU       577 KSKQEKARWEKMTEEEKQKVLETEKMVEELRKKNEE    612
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      19/95 (20.0%)
+# Similarity:    40/95 (42.1%)
+# Gaps:          28/95 (29.5%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+UBX7_YEAST         7 RDSVEEAIN--------DSIKE-----GVVLAVYNTARDDQWLKSWFKGD     43
+                     |:.|..||:        |.|::     |.|.||...|||:       ..:
+ASSY_MYCTO        28 REVVAVAIDLGQGGEHMDVIRQRALDCGAVEAVVVDARDE-------FAE     70
+
+UBX7_YEAST        44 DVSLDTLAEHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGK     88
+                     ...|.|:..:::::      :::.|...:...::|.  :|:.|.:
+ASSY_MYCTO        71 GYCLPTVLNNALYM------DRYPLVSAISRPLIVK--HLVAAAR    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      44/220 (20.0%)
+# Similarity:    81/220 (36.8%)
+# Gaps:          42/220 (19.1%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       206 IKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDC    255
+                     ::....|.|::.||      |.........||.||.:.|...:...  ..
+ECCB1_MYCS2       95 LRPVYNLTSARLVL------GNASNPVAVKSEELNRISKGQSIGIP--GA    136
+
+UBX7_YEAST       256 PYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGM    305
+                     ||:...|.|...:...|.:...::......:::|::.|.. :||:.....
+ECCB1_MYCS2      137 PYATPTGTPASQWTLCDTVAKPDSSAPKVETSILIRTLAI-DSGVGPIRA    185
+
+UBX7_YEAST       306 EGPSLLGRLYKGFSTWWHND--------KDPEVT--------------SQ    333
+                     :...|:.  |:| :.|...:        .|..||              ||
+ECCB1_MYCS2      186 DQGMLVS--YEG-ANWLITEGGRHSIDLADRAVTSAVGIPVTAKPTPISQ    232
+
+UBX7_YEAST       334 REETSKPNRHEVR-SSTPLSGAASSSCFQYNNVREPV-QSSAHASP---M    378
+                     ....:.|||...: ...|.:||.:|.....|.|...| :::..:.|   :
+ECCB1_MYCS2      233 GLFNALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYV    282
+
+UBX7_YEAST       379 LTPSGTRYPSETNLTTSRSV    398
+                     :.|.|.   :..|.||:.::
+ECCB1_MYCS2      283 VLPDGV---ARVNNTTAAAL    299
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 118
+# Identity:      26/118 (22.0%)
+# Similarity:    39/118 (33.1%)
+# Gaps:          34/118 (28.8%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+UBX7_YEAST       262 GIPRVTFKDSDELKTLETL-ELTPRSALLLKPLETQNSGLSVTGMEGPSL    310
+                     |.||    :.:.....|.: ::||...|.....|.:        || ..|
+KCY4_ORYSJ       111 GFPR----NEENRAAFENVTKITPAFVLFFDCSEEE--------ME-RRL    147
+
+UBX7_YEAST       311 LGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRSSTPLSGAASSSCF    360
+                     |||            ....|....|...|..:..|.||.|:        .
+KCY4_ORYSJ       148 LGR------------NQGRVDDNIETIRKRFKVFVESSLPV--------I    177
+
+UBX7_YEAST       361 QYNNVREPVQSSAHASPM    378
+                     :|.|.::.|:....|.|:
+KCY4_ORYSJ       178 EYYNAKDKVKKIDAAKPI    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      33/176 (18.8%)
+# Similarity:    50/176 (28.4%)
+# Gaps:          71/176 (40.3%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       220 QIRMTDGKTLKHEFNSSETLN-DVRKW------------------VDVNR    250
+                     |.::..||.|:.||.|....| |:...                  :::|:
+HCP_TRIV2        120 QKQIQQGKDLEFEFISQSAKNVDIFSLKLTLLYGLKGVAAYAFHALELNQ    169
+
+UBX7_YEAST       251 TDGDCPYSFHRGIPRVTFKDSD--------------ELKTLETLEL----    282
+                     .|......||..:..:..:|..              .||.:|.|:.    
+HCP_TRIV2        170 HDESLYIFFHEVLANLDAQDKSLQDWLDLTLKVGQMNLKAMELLDAGNTE    219
+
+UBX7_YEAST       283 -----TPRSA-----------------LLLKPLETQNSGLSVTGMEGPSL    310
+                          ||.:.                 |.||.:..|.||..:.......|
+HCP_TRIV2        220 TFGHPTPTTVPLGHTVGKAILVSGHDLLALKAVLEQTSGTGIKVYTHGEL    269
+
+UBX7_YEAST       311 L------------GRLYKGFSTWWHN    324
+                     |            ..||..:.|.|.|
+HCP_TRIV2        270 LPAHGYPKLKQTHPHLYGHYGTAWQN    295
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 436
+# Identity:     436/436 (100.0%)
+# Similarity:   436/436 (100.0%)
+# Gaps:           0/436 ( 0.0%)
+# Score: 2273.0
+# 
+#
+#=======================================
+
+UBX7_YEAST         1 MLEALFRDSVEEAINDSIKEGVVLAVYNTARDDQWLKSWFKGDDVSLDTL     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST         1 MLEALFRDSVEEAINDSIKEGVVLAVYNTARDDQWLKSWFKGDDVSLDTL     50
+
+UBX7_YEAST        51 AEHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRH    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST        51 AEHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRH    100
+
+UBX7_YEAST       101 WEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARERIAETT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       101 WEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARERIAETT    150
+
+UBX7_YEAST       151 LEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDDKPL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       151 LEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDDKPL    200
+
+UBX7_YEAST       201 DVHDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNR    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       201 DVHDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNR    250
+
+UBX7_YEAST       251 TDGDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGL    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       251 TDGDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGL    300
+
+UBX7_YEAST       301 SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRSSTP    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       301 SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRSSTP    350
+
+UBX7_YEAST       351 LSGAASSSCFQYNNVREPVQSSAHASPMLTPSGTRYPSETNLTTSRSVSP    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       351 LSGAASSSCFQYNNVREPVQSSAHASPMLTPSGTRYPSETNLTTSRSVSP    400
+
+UBX7_YEAST       401 NVFQFVNNDHQEDPEDPTTFNGNNVHLEKKKDEDKK    436
+                     ||||||||||||||||||||||||||||||||||||
+UBX7_YEAST       401 NVFQFVNNDHQEDPEDPTTFNGNNVHLEKKKDEDKK    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      38/162 (23.5%)
+# Similarity:    69/162 (42.6%)
+# Gaps:          32/162 (19.8%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       217 CVLQIRMTDGKTLKHEFNSSETLNDVRKWVD--VNRTDGDCPY------S    258
+                     |.|.    ||.||..||    |:...|.:|.  .||.: |.|.      |
+RPOA_ACICJ       141 CTLD----DGATLGMEF----TVESGRGYVPAAANRPE-DAPIGLIPVDS    181
+
+UBX7_YEAST       259 FHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEGP    308
+                     .:..:.||:::    ::.....::|....|:|. :||..   :||..:..
+RPOA_ACICJ       182 IYSPVRRVSYR----VEPTRVGQVTDYDRLILN-IETNG---AVTPEDAV    223
+
+UBX7_YEAST       309 SLLGRLYKGFSTWWHNDKDPEVTSQREETSKP----NRHEVRSSTPLS-G    353
+                     :|..|:.:.....:.|.::|:  ..|.|..:|    |.:.:|....|. .
+RPOA_ACICJ       224 ALAARILQDQLGMFINFEEPQ--RLRAEEPRPELPFNPNLLRKVDELELS    271
+
+UBX7_YEAST       354 AASSSCFQYNNV    365
+                     ..|::|.:.:|:
+RPOA_ACICJ       272 VRSANCLKNDNI    283
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      40/162 (24.7%)
+# Similarity:    64/162 (39.5%)
+# Gaps:          34/162 (21.0%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBX7_YEAST       163 KLAEEERERII-RLVRADRAERKA--LDETHH---RTLDDDKPLDVHDYI    206
+                     :|.|.|....| |.|..|::|::.  |:.:.:   |.||:..|..|.: :
+YXAD_BACSU         8 ELIEYELTTFIRRAVYLDQSEKRTGNLERSSYLLLRQLDEFGPARVKE-L     56
+
+UBX7_YEAST       207 KDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDCP    256
+                     .::.||..|....|....:.|.|.:.|:              :.:||...
+YXAD_BACSU        57 AESFKLDISTLSRQAAALEAKELIYRFS--------------DPSDGRVS     92
+
+UBX7_YEAST       257 YSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGME    306
+                     ......:.:...| :|:.|.||..|      .:||...||..     .|.
+YXAD_BACSU        93 LFTITKLGKQLLK-ADQQKRLERYE------QMLKEWSTQEK-----EMF    130
+
+UBX7_YEAST       307 GPSLLGRLYKGF    318
+                     | .||.|:.|.|
+YXAD_BACSU       131 G-ELLQRMNKAF    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBX7_YEAST
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:      50/289 (17.3%)
+# Similarity:    91/289 (31.5%)
+# Gaps:         129/289 (44.6%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBX7_YEAST        52 EHSIWLRLVKDTEQFQLFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRHW    101
+                     ||..:::|.| |:..:....:|.|              :.:::|      
+FADB_SHESR       273 EHQAFIKLAK-TDVAKALIGIFLN--------------DQLVKG------    301
+
+UBX7_YEAST       102 EKLLACIGIKDKKAGESSSRETNPGLAREEKSSR---------DVHRKNA    142
+                              |.||||:         ||::.||:.         .:..::|
+FADB_SHESR       302 ---------KAKKAGK---------LAKDVKSAAVLGAGIMGGGIAYQSA    333
+
+UBX7_YEAST       143 -------RERIAETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKA    185
+                            .:.||:..|::...|..|              |:.|..|..::
+FADB_SHESR       334 SKGTPIVMKDIAQPALDLGLGEAAK--------------LLSAQVARGRS    369
+
+UBX7_YEAST       186 LDETHHRTLDDDKP----------------------------LDVHDYIK    207
+                     ..|...:.|::..|                            .:|..|:.
+FADB_SHESR       370 TPEKMAKVLNNITPALDYAPVNHADVVVEAVVEHPKVKAQVLAEVEQYVS    419
+
+UBX7_YEAST       208 DAQKLHSSKCVLQIRMTDGKTLK--------HEFN---------------    234
+                     :...:.|:...:.|.:. .|::|        |.||               
+FADB_SHESR       420 EDAIIASNTSTISINLL-AKSMKKPERFCGMHFFNPVHKMPLVEVIRGEH    468
+
+UBX7_YEAST       235 -SSETLNDVRKWVD-VNRTD---GDCPYSFHRGIPRVTF    268
+                      |.||:..|..:.. :.:|.   .|||..|   :.||.|
+FADB_SHESR       469 SSEETIASVVAYASKMGKTPIVVNDCPGFF---VNRVLF    504
+
+
+#---------------------------------------
+#---------------------------------------

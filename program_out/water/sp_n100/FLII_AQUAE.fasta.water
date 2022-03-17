@@ -1,0 +1,3652 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:20
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/FLII_AQUAE.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/FLII_AQUAE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/FLII_AQUAE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 416
+# Identity:      83/416 (20.0%)
+# Similarity:   147/416 (35.3%)
+# Gaps:         114/416 (27.4%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        87 DKVLLKNELVSTKTGNGV-VGKVVDPFGNPLDGGFIGFVEEKGLELPQIN    135
+                     |:||..|:.:..:|...| .|||...:....:.. ...::|||..:....
+PUR7_VIBVU         5 DQVLAVNDDLPIRTDKPVHSGKVRSVYWLTEEDS-ARLIKEKGYNVAPDA     53
+
+FLII_AQUAE       136 PL----YRERIREVFDT---GVRSVNALFTLGKGQKI--------GIFAG    170
+                     ||    ..:|| ..||.   |...:|.:  .|||..:        |:|..
+PUR7_VIBVU        54 PLAIMVISDRI-SAFDCIWHGEHGLNGV--PGKGAALNAISNHWFGLFKE    100
+
+FLII_AQUAE       171 AGVGKSTLLGM----ITRHSKADVVVLALI---------------GER--    199
+                     .|:..|.:|.:    :....||..|.:..|               |||  
+PUR7_VIBVU       101 NGLADSHILDIPHPFVWIVQKAKPVKIEAICRKYITGSMWRAYEKGEREF    150
+
+FLII_AQUAE       200 -------GREVKEFLEEVL---GEEGLKKSVVVVSTADQSPILKVKGAIS    239
+                            |.|..:.|.::|   ..:|:.|.:..|..||...|.:..  |:
+PUR7_VIBVU       151 CGIQLPEGLEKDKALPDLLMTPSTKGILKGIPGVPEADDVNITRQN--IA    198
+
+FLII_AQUAE       240 AVVHAHHFASQGKDVL---LLMDSITRLALAQREIGLAAGEPPTLKGFTP    286
+                     ....|.:|:|.....|   ||.|....::.|...:|         :.|..
+PUR7_VIBVU       199 DNFAAFNFSSADDIALYEKLLKDGFGVISEALANVG---------QIFVD    239
+
+FLII_AQUAE       287 SVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLD--    334
+                     :.|: ...:.::.|..|          |:..|::. .|.:..:....:  
+PUR7_VIBVU       240 TKFE-FGYVTDAAGNEK----------LIYMDEVG-TPDSSRIWDAQEYQ    277
+
+FLII_AQUAE       335 -GHIILSRKRAVR----GLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKE    379
+                      |.|:.:.|...|    ..||..|.:.:..| ||:             :|
+PUR7_VIBVU       278 AGKIVENSKEGFRQFLLNYFPDPDILLNKDR-MPE-------------RE    313
+
+FLII_AQUAE       380 VLSKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVES---FFKQKPEEKV    426
+                     .|::..::.|...:.:.:        ..||..||:..   .....|::::
+PUR7_VIBVU       314 ALARDNELPEEALMAVSR--------TYINIAEKITGSAIVLSDNPKQEI    355
+
+FLII_AQUAE       427 NFEESLKALDEIYSLL    442
+                          :..|...|.|:
+PUR7_VIBVU       356 -----IDILGREYGLI    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        81 FGLRKGDKVLLKNE     94
+                     :.:|.|..::|..|
+Y075_NITWN        48 YPIRDGIPIMLPEE     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      44/178 (24.7%)
+# Similarity:    73/178 (41.0%)
+# Gaps:          54/178 (30.3%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        88 KVLLKNELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQ----    133
+                     :||.|:|:::..|              |.:|...|...:..:.|.|    
+Y3584_PSEAB       74 RVLRKDEIMAVYT--------------PPEGYEDGDGRDLQVYLDQNYTN    109
+
+FLII_AQUAE       134 -INPL---YRERI--REVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKS-    176
+                      :.||   ||||.  .|.|:            |: |.:.||..|||..: 
+Y3584_PSEAB      110 ALGPLHEDYRERAIPMEGFE------------GE-QPLHIFVAAGVDLAI    146
+
+FLII_AQUAE       177 TLLGMITRHSKADVVVLALIGERGR-EVKEFLEEVLGEEGLKKSVVVVST    225
+                     :.||..|.:.:.|:..|.   |.|| :|.:|:  .|..|.:..:|     
+Y3584_PSEAB      147 SKLGRFTENDQYDIEQLI---ECGRVDVGQFV--TLATEAIDYAV-----    186
+
+FLII_AQUAE       226 ADQSPILKVKGAISAVVHAHHFASQGKD    253
+                     .::|.:|   |.:..|:  ..:...|:|
+Y3584_PSEAB      187 GNRSAML---GCLKLVI--AKYLEDGRD    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      16/80 (20.0%)
+# Similarity:    31/80 (38.8%)
+# Gaps:          17/80 (21.2%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       363 PKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGSNPLVDKVINNLE    412
+                     |.|...|.|:.....:.:..:|....:|:.|.        :.|:..:.|.
+BPT_HAHCH        126 PTLDQYESFLLEARSETLFIEFRKDSKLLAIA--------VTDRTTDGLS    167
+
+FLII_AQUAE       413 KVESFFKQKPEEKVNFEESLKALDEIYSLL    442
+                     .:.:||..        .|..:||. :|::|
+BPT_HAHCH        168 AIYTFFDP--------NEDKRALG-VYAIL    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      15/49 (30.6%)
+# Similarity:    22/49 (44.9%)
+# Gaps:           9/49 (18.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       156 LFT--LGKGQKIGIFAGAGVGKSTL----LGMITRHSKADVVVLALIGE    198
+                     |||  ||....:.:   .||.::..    .|.:.|.:...||..||||:
+KDPC_CAUVN        14 LFTVLLGLAYPLAV---TGVAQAAFPNQANGSLIRDADGKVVGSALIGQ     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      24/108 (22.2%)
+# Similarity:    47/108 (43.5%)
+# Gaps:          26/108 (24.1%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        17 SEMYLRGLK--VSGEIVSAKGIYLEAILPFANIGNEV-----EIQSNSRR     59
+                     :|::||.|:  |||    |..:|:...|....||:::     ::.:.:.|
+LPXH_XYLFM        19 TELFLRFLREQVSG----ADALYILGDLFEVWIGDDMPSEVADMVAAALR     64
+
+FLII_AQUAE        60 IRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGK--    107
+                     ...:    :|..:..||         |::..|.....:.:.|..::..  
+LPXH_XYLFM        65 TYAD----AGTPLYFMP---------GNRDFLVGADYAARAGFRILPDPC    101
+
+FLII_AQUAE       108 VVDPFGNP    115
+                     |||.:|.|
+LPXH_XYLFM       102 VVDLYGEP    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      12/38 (31.6%)
+# Similarity:    21/38 (55.3%)
+# Gaps:           9/38 (23.7%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        72 VLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKVV    109
+                     :||:.|  :|.:   :...|.::||    |:|:.||.|
+YERI_SCHPO        24 LLVLSY--LFSI---EAETLMHDLV----GSGLTGKQV     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 463
+# Identity:      87/463 (18.8%)
+# Similarity:   164/463 (35.4%)
+# Gaps:         157/463 (33.9%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         2 KGIRRNLQKSYLKRCS---EMYLRGLKVSGE--IVSAKGIYLEAILPFAN     46
+                     |||....::.:.:..|   .:.:|.|.:|.:  :..||.:.|:.      
+RBSA_RUEST       118 KGIEAKAREVFAQLSSIDPSVLVRDLSISNQQLVEIAKALTLDC------    161
+
+FLII_AQUAE        47 IGNEVEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGD-KVLLKNEL     95
+                                             :||::. ||...|.:.: :||.|   
+RBSA_RUEST       162 ------------------------RVLILD-EPTAALTEAEAQVLFK---    183
+
+FLII_AQUAE        96 VSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREV    145
+                             ::.::.|                :|:.|..|:    .|:.|:
+RBSA_RUEST       184 --------IMRRLAD----------------QGISLIYIS----HRMVEI    205
+
+FLII_AQUAE       146 FDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLAL    195
+                     ||             ...::.:|..   |:......:.:.:.|| ||.|:
+RBSA_RUEST       206 FD-------------NCDRVSVFRD---GRYVTTQDVAKITPAD-VVRAM    238
+
+FLII_AQUAE       196 IGERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAH    245
+                     :   |||:.:...|       |:.....||.:   :|:|:.    :..|.
+RBSA_RUEST       239 V---GREIGDLYPE-------KQRPEACSTTE---VLRVEN----LCEAE    271
+
+FLII_AQUAE       246 HFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRI    295
+                     .|    .||               ...|..||   :.||...:....:.|
+RBSA_RUEST       272 RF----HDV---------------SFSLHKGE---ILGFAGLIGAGRSEI    299
+
+FLII_AQUAE       296 AESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRAV    345
+                     |:...|. :|.:||  .:.:.|:.::|....||:..   |.:.||..|..
+RBSA_RUEST       300 AKGVCAL-EGQVTG--RLWLNGEPLALRDYQDSIDA---GIVYLSEDRKG    343
+
+FLII_AQUAE       346 RGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGL    395
+                     .|:|..:....::|.|..:.|:..        ..::....::|:..|:|.
+RBSA_RUEST       344 DGVFLDMSIASNVSALKVEQVASA--------LGLIQPGREIEQADRLGR    385
+
+FLII_AQUAE       396 ---YKGGS--NPLVDKVINNLEKV----------ESFFKQKPEEKVNFEE    430
+                        .|.|:  :|:......|.:||          ...|..:|...|:   
+RBSA_RUEST       386 KLNLKCGTLQDPVSSLSGGNQQKVALAKMLSVNPRLIFLDEPTRGVD---    432
+
+FLII_AQUAE       431 SLKALDEIYSLLK    443
+                      :.|..|||.:|:
+RBSA_RUEST       433 -VGAKAEIYRILR    444
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       3/6 (50.0%)
+# Similarity:     6/6 (100.0%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       299 CGAFKK    304
+                     ||:|::
+KR195_HUMAN       29 CGSFRR     34
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      20/99 (20.2%)
+# Similarity:    33/99 (33.3%)
+# Gaps:          27/99 (27.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       251 GKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCG    300
+                     |||......::.:|..          |...|..|...:.::||       
+UPPP_CORDI        44 GKDAGASFTAVVQLGT----------EAAVLVYFAKDIAKILT-------     76
+
+FLII_AQUAE       301 AFKKGSITGIFTVLVEGDD------ISLDPIADSLMGVLDGHIILSRKR    343
+                         |...|:|.....|.|      :.:..:..|::|:|...||....|
+UPPP_CORDI        77 ----GWFRGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLR    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 182
+# Identity:      41/182 (22.5%)
+# Similarity:    58/182 (31.9%)
+# Gaps:          70/182 (38.5%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       124 VEEKGLE--LPQINPLYRERIREV-------FDTGVRSVNALFTLGKGQK    164
+                     |..:|.|  ..::|.|:||...||       ...|.||.||.:...|   
+GREB_ECO57         6 VTREGYEKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNK---     52
+
+FLII_AQUAE       165 IGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEE    214
+                                                      :|.||:...:..     
+GREB_ECO57        53 ---------------------------------KRLREIDRRVRY-----     64
+
+FLII_AQUAE       215 GLKKSVVVVSTADQSPILKVKGAISAVVH-------AHHFASQGKDVL--    255
+                      |.|.:..:...|.||..:.|....|.|.       .|.|...|.|.:  
+GREB_ECO57        65 -LTKCMENLKIVDYSPQQEGKVFFGAWVEIENDDGVTHRFRIVGYDEIFG    113
+
+FLII_AQUAE       256 ----LLMDSITRLALAQREIG-LA-----AGE    277
+                         :.:||....||.::|:| ||     |||
+GREB_ECO57       114 RKDYISIDSPMARALLKKEVGDLAVVNTPAGE    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      43/205 (21.0%)
+# Similarity:    74/205 (36.1%)
+# Gaps:          61/205 (29.8%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       245 HHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTR    294
+                     |.:...|:||:.....:.|.....|.|...:|      ||  .|:.|   
+TGT_LEPCP         61 HLWMRPGQDVMAQFGGLHRFENWTRPILTDSG------GF--QVWSL---     99
+
+FLII_AQUAE       295 IAESCGAFKKGSITGI-FTVLVEGDDISLDP-IADSLMGVLDGHIILSRK    342
+                          |..:|.|..|: |...|.||.:.|.| ::..:..||:..|::.  
+TGT_LEPCP        100 -----GEMRKISEEGVRFASPVNGDKLFLTPEVSMQIQTVLNSDIVMQ--    142
+
+FLII_AQUAE       343 RAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKF--EDVEEL    390
+                           |....|....::.:..:.:|:   :|....|:..::  ....|.
+TGT_LEPCP        143 ------FDECTPYWQGAKNVGHITTEK---EARVSMELSLRWAARSKAEF    183
+
+FLII_AQUAE       391 VRI-------GLYKGGSNPLVDKVINNLEKVESFFKQKPEEKVNFEESLK    433
+                     .|:       |:.:||       :..:|.                ||||.
+TGT_LEPCP        184 ARLGNPNALFGIVQGG-------MFESLR----------------EESLN    210
+
+FLII_AQUAE       434 ALDEI    438
+                     ||.|:
+TGT_LEPCP        211 ALVEL    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      59/301 (19.6%)
+# Similarity:   113/301 (37.5%)
+# Gaps:          76/301 (25.2%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       198 ERGREVKEFLE------EVLG--------EEGLKKSVVVVSTAD--QSPI    231
+                     |||.|....||      .:||        .||:...|:||::.|  |...
+CBPQ_HUMAN       114 ERGEESAVMLEPRIHKIAILGLGSSIGTPPEGITAEVLVVTSFDELQRRA    163
+
+FLII_AQUAE       232 LKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTL    281
+                     .:.:|.|  ||:...:.:..:.|    ...|:.|:...::|..|....::
+CBPQ_HUMAN       164 SEARGKI--VVYNQPYINYSRTV----QYRTQGAVEAAKVGALASLIRSV    207
+
+FLII_AQUAE       282 KGFTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMG    331
+                     ..|  |::...|.|.|    ::.| :..|.|..:..:|.       .:|.
+CBPQ_HUMAN       208 ASF--SIYSPHTGIQE----YQDG-VPKIPTACITVEDA-------EMMS    243
+
+FLII_AQUAE       332 VLDGH---IILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFK    378
+                     .:..|   |::..|...: .:|..|...:::.:......|:..:.:....
+CBPQ_HUMAN       244 RMASHGIKIVIQLKMGAK-TYPDTDSFNTVAEITGSKYPEQVVLVSGHLD    292
+
+FLII_AQUAE       379 -------------------EVLSKFEDV----EELVRIGLY----KGGSN    401
+                                        |.||..:|:    :..:|:.|:    :||..
+CBPQ_HUMAN       293 SWDVGQGAMDDGGGAFISWEALSLIKDLGLRPKRTLRLVLWTAEEQGGVG    342
+
+FLII_AQUAE       402 PL----VDKV-INN----LEKVESFFKQKPEEKVNFEESLKALDEIYSLL    442
+                     ..    :.|| |:|    :|.....|.....:....|::...::|:.|||
+CBPQ_HUMAN       343 AFQYYQLHKVNISNYSLVMESDAGTFLPTGLQFTGSEKARAIMEEVMSLL    392
+
+FLII_AQUAE       443 K    443
+                     :
+CBPQ_HUMAN       393 Q    393
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:      47/218 (21.6%)
+# Similarity:    77/218 (35.3%)
+# Gaps:          60/218 (27.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       234 VKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKG    283
+                     |:|..|..|..|   .:..|.||...|:|.|....:.:||.|      .|
+PSA6_SOYBN        42 VRGKDSICVVTH---KKVPDKLLDNTSVTHLFPITKYLGLLA------TG     82
+
+FLII_AQUAE       284 FTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMG--    331
+                     .|.....|:.:.......|:       ||.   |.::.:|.:|..:..  
+PSA6_SOYBN        83 MTADARTLVQQARNEAAEFR-------FTY---GYEMPVDVLAKWIADKS    122
+
+FLII_AQUAE       332 -VLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEE---HFMKANFF    377
+                      |...|..: |...|..:...:|     ....|:|...:   |:..    
+PSA6_SOYBN       123 QVYTQHAYM-RPLGVVAMVLGID-----DEYGPQLYKCDPAGHYFG----    162
+
+FLII_AQUAE       378 KEVLSKFEDVEELVRIGLYKGGSNPLVD-KVINNLEKVESFFKQKPEEKV    426
+                                       :|..|..|.| :.||.|||     |.|.:...
+PSA6_SOYBN       163 ------------------HKATSAGLKDQEAINFLEK-----KMKNDPSF    189
+
+FLII_AQUAE       427 NFEESLK-ALDEIYSLLK    443
+                     .:||::: |:..:.|:|:
+PSA6_SOYBN       190 TYEETVQTAISALQSVLQ    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 133
+# Identity:      33/133 (24.8%)
+# Similarity:    52/133 (39.1%)
+# Gaps:          19/133 (14.3%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       128 GLELPQINPLYRERIREVFDTGVRSVN--ALFTLGKGQKIGIFAGAGVGK    175
+                     |:||||......|||.|   ||.|...  ..|.:....|    |.|....
+SCL34_ARATH      396 GIELPQCGFRPAERIEE---TGRRLAEYCKRFNVPFEYK----AIASQNW    438
+
+FLII_AQUAE       176 STLLGMITRHSKADV---VVLALIGERGREVKEFLEEVLGEEGLKKSVVV    222
+                     .|:     |....|:   .|||:  ..|..:|...:|...||...:..|:
+SCL34_ARATH      439 ETI-----RIEDLDIRPNEVLAV--NAGLRLKNLQDETGSEENCPRDAVL    481
+
+FLII_AQUAE       223 VSTADQSPILKVKGAISAVVHAHHFASQGKDVL    255
+                     ....:.:|.:.:...::...:|..|.|:.|:.:
+SCL34_ARATH      482 KLIRNMNPDVFIHAIVNGSFNAPFFISRFKEAV    514
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      38/176 (21.6%)
+# Similarity:    64/176 (36.4%)
+# Gaps:          69/176 (39.2%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       104 VVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGVRSV    153
+                     :||:::..|            |:||..|                ..::.:
+NDKA_CANLF        20 LVGEIIKRF------------EQKGFRL----------------IAMKLI     41
+
+FLII_AQUAE       154 NALFTLGKGQKIGI-----FAGAGVGKSTLLGMITRHSKADVVVLALIGE    198
+                     .|...|.|...|.:     |||           :.::.::..|| |::.|
+NDKA_CANLF        42 QASEDLLKEHYIDLKDRPFFAG-----------LVKYMQSGPVV-AMVWE     79
+
+FLII_AQUAE       199 RGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFA    248
+                      |..|.:....:|||         .:.||..|     |.|..     .|.
+NDKA_CANLF        80 -GLNVVKTGRVMLGE---------TNPADSKP-----GTIRG-----DFC    109
+
+FLII_AQUAE       249 SQ-GKDVLLLMDSITRLALAQREIGL    273
+                     .| |::::...||:..   |::||||
+NDKA_CANLF       110 IQVGRNIIHGSDSVES---AEKEIGL    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      22/78 (28.2%)
+# Similarity:    33/78 (42.3%)
+# Gaps:          21/78 (26.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       100 TGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPL--YRERIREVFD    147
+                     ||...||:|          |.||..|    .||..:.:  .::.....|.
+RS4_CAEEL        183 TGGRNVGRV----------GIIGHRE----RLPGASDIIHIKDSAGHSFA    218
+
+FLII_AQUAE       148 TGVRSVNALFTLGKGQK--IGIFAGAGV    173
+                     |.:.:|   |.:|||.|  :.:..|||:
+RS4_CAEEL        219 TRISNV---FVIGKGNKALVSLPTGAGI    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      19/80 (23.8%)
+# Similarity:    38/80 (47.5%)
+# Gaps:          11/80 (13.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       362 MPKLV------SEEHFMKANFFKEVLSKFE-DVEELVRIGLYKGGSNPLV    404
+                     ||:::      ..|.:.||...||..::.: :.:||  :|......:...
+G45IP_CHLAE      128 MPQMIVNWQQQQRERWEKAQADKERRARLQAEAQEL--LGYQVNPKSARF    175
+
+FLII_AQUAE       405 DKVINNLEKVESFFKQKPEEKVNFEESLKA    434
+                     .:::.:|||.|.  |:..|||...::..:|
+G45IP_CHLAE      176 QELLQDLEKKER--KRLKEEKQRQKQEARA    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      59/310 (19.0%)
+# Similarity:   118/310 (38.1%)
+# Gaps:          68/310 (21.9%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       121 IGFVEEK--GLELPQINPLYRERIR-EVFDTGVRSVNALFTLGK--GQKI    165
+                     :||.|.|  ...|.:||.:..|.:. :.:.||:    .::..||  .:||
+DAPEL_OCEIH       18 LGFQEFKTQAYLLERINEIATENVEIKKWSTGI----LVYVHGKSPARKI     63
+
+FLII_AQUAE       166 GIFA---GAGVGKSTLLGMITRHSKA------DVVVLALIGERGREVKEF    206
+                     |..|   |..:.:.|.|...:.|...      |:.:...:|    .:::.
+DAPEL_OCEIH       64 GFRADIDGLPILEQTNLPYASLHEGRMHACGHDLHMTIALG----ALEKL    109
+
+FLII_AQUAE       207 LEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQGKDVLL    256
+                     :::.:.::    .:.|...|::.|     |....::.:..|.....|::.
+DAPEL_OCEIH      110 IQDPINDD----VIFVFQPAEEGP-----GGAKPMLESEEFQQWKPDMMF    150
+
+FLII_AQUAE       257 LMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCGAFKKGS    306
+                     .:.....|     .:|..:.:...|...|..:|.....:.   |......
+DAPEL_OCEIH      151 ALHIAPEL-----PVGTVSSKAGLLFANTSELFIDFEGVG---GHAAYPH    192
+
+FLII_AQUAE       307 ITGIFTVLVEGDDISLDPIADSLMGVLDGHII-------------LSRKR    343
+                     :|...||......:.|..|....:..|||.:|             ::...
+DAPEL_OCEIH      193 LTKDMTVAASNFVVQLQQIVSRGLNPLDGSVITIGKMESGYVQNAIAETA    242
+
+FLII_AQUAE       344 AVRGLF-----PAVDPVRS-LSRLMPKL-VSEEHFMK----ANFFKEV--    380
+                     .:.|..     .|:|.::| |:|||... :|.:..:|    ||:::.|  
+DAPEL_OCEIH      243 RLEGTIRSTDADAIDMIKSKLNRLMKGFEISYDCTIKVDYGANYYQVVND    292
+
+FLII_AQUAE       381 ---LSKFEDV    387
+                        :.:||:|
+DAPEL_OCEIH      293 ATYVQQFENV    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      48/220 (21.8%)
+# Similarity:    80/220 (36.4%)
+# Gaps:          66/220 (30.0%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       140 ERIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKAD    189
+                     |||.:.|  |:..::.    |...:..:.||..||......|.:....:|
+KAD_METRJ         18 ERIVQRF--GIPQLST----GDMLRAAVAAGTPVGLEAKAVMESGGLVSD     61
+
+FLII_AQUAE       190 VVVLALIGERGRE-----------------VKEFLEEVLGEEGLKKSVVV    222
+                     .:|:.::.:|..|                 ..|.|.|:|..:||..|.||
+KAD_METRJ         62 RIVVGIVADRIEEPDARRGFILDGFPRTVAQAEALGEMLASKGLSLSAVV    111
+
+FLII_AQUAE       223 VSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIG    272
+                     ....|::.:                             :.|:.....|. 
+KAD_METRJ        112 ELKVDENAL-----------------------------VGRIEKRAAET-    131
+
+FLII_AQUAE       273 LAAGEPPTLKGFTPSVF--QLLTRIAESC--GAF--KKGSITGIFTVLVE    316
+                     ||.|: ...|..||.||  :|....|::.  .|:  :||::.     .|:
+KAD_METRJ        132 LARGQ-AVRKDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLE-----TVD    175
+
+FLII_AQUAE       317 GDDISLDPIADSLMGVLDGH    336
+                     |.. .:|.:...||.||:.|
+KAD_METRJ        176 GMQ-PIDKVTADLMAVLEPH    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      41/175 (23.4%)
+# Similarity:    57/175 (32.6%)
+# Gaps:          58/175 (33.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        25 KVSGEIVSAKGIYLEAILP-----FANIG------NEVEIQSNSRRIRGE     63
+                     ||.|  |...|:|...:||     |..||      ....::..::...|.
+ELN_BOVIN        149 KVPG--VGLPGVYPGGVLPGAGARFPGIGVLPGVPTGAGVKPKAQVGAGA    196
+
+FLII_AQUAE        64 VIGFSGDKVLVMPY---EPVFGLRKGDKVLLKNELVSTKTGNGV---VGK    107
+                     ..|..|    |.|:   :|  ||..|..:    :......|.|:   .||
+ELN_BOVIN        197 FAGIPG----VGPFGGQQP--GLPLGYPI----KAPKLPAGYGLPYKTGK    236
+
+FLII_AQUAE       108 VVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTG--------    149
+                     :...||   .||..|...:.|                 :.||        
+ELN_BOVIN        237 LPYGFG---PGGVAGSAGKAG-----------------YPTGTGVGPQAA    266
+
+FLII_AQUAE       150 VRSVNALFTLGKGQKIGIFAGAGVG    174
+                     ..:..|...||.| ..|:..|.|||
+ELN_BOVIN        267 AAAAKAAAKLGAG-GAGVLPGVGVG    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 342
+# Identity:      61/342 (17.8%)
+# Similarity:   115/342 (33.6%)
+# Gaps:         104/342 (30.4%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       168 FAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEEGLK    217
+                     |.|...|......:.|::.|      ..:...|.:.|..|..|.|  |..
+ASIC2_MOUSE      173 FKGQECGHQDFTTVFTKYGK------CYMFNSGEDGKPLLTTVKG--GTG    214
+
+FLII_AQUAE       218 KSVVVVSTADQSPILKVKG---------AISAVVHAHHFASQGKDVLLLM    258
+                     ..:.::....|...|.:.|         .:...:|     ||.:...:  
+ASIC2_MOUSE      215 NGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIH-----SQSEPPFI--    257
+
+FLII_AQUAE       259 DSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAE---SCGAFKKG    305
+                               :|:|.  |..|..:.|..:..|.||.:..   .|.:.:.|
+ASIC2_MOUSE      258 ----------QELGF--GVAPGFQTFVATQEQRLTYLPPPWGECRSSEMG    295
+
+FLII_AQUAE       306 -------SITGI-----FTVLVE----------GDDISLDP-----IADS    328
+                            |||..     ...:||          ||.....|     .|:.
+ASIC2_MOUSE      296 LDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEP    345
+
+FLII_AQUAE       329 LMGVL---DGHIILSR-----KRAVRGLFPAVDPVRSLSRLMPKLVSE--    368
+                     .:|:|   |.:..|.|     .|..:.|.....|.::.::.:.|..::  
+ASIC2_MOUSE      346 ALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSE    395
+
+FLII_AQUAE       369 ----EHFMKANFFKEVLSKFEDVEELV-------------RIGLYKGGSN    401
+                         |:.:..:.|.|.|: :|.:|:..             ::||:.|.| 
+ASIC2_MOUSE      396 KYISENILVLDIFFEALN-YETIEQKKAYEVAALLGDIGGQMGLFIGAS-    443
+
+FLII_AQUAE       402 PLVDKVINNLEKVESFFKQ-------KPEEKVNFEESLKALD    436
+                       :..::...:.:....|:       |.||:.:.:|::...|
+ASIC2_MOUSE      444 --ILTILELFDYIYELIKEKLLDLLGKEEEEGSHDENMSTCD    483
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      49/252 (19.4%)
+# Similarity:    89/252 (35.3%)
+# Gaps:          64/252 (25.4%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       238 ISAVVHAHHFASQGKDVLLLMDSITRL---ALAQREIGLAAGEPPTLKGF    284
+                     |.||:.|.:|.|..:..::...::.:.   ::....|||..|    |||.
+DOXA1_XENTR       61 IGAVILAVNFTSDWETGIVTATTVYKSFSHSMLNASIGLWIG----LKGV    106
+
+FLII_AQUAE       285 TPS-----VFQLLTRIA-------ESCGAFKKGSITGI-----FTVLVEG    317
+                     ..:     |:||...|.       ||...|.|....|:     :.:|...
+DOXA1_XENTR      107 NITLIGNPVYQLNETINYNEEFAWESANQFDKNYKDGLERGLPYPILYVA    156
+
+FLII_AQUAE       318 DDISLDP-------------IADSLMGVLDG-----HIILSRKRAVRGL-    348
+                     :..:::.             .:..:|.|..|     :::.|....:.|: 
+DOXA1_XENTR      157 EKFTINSPCGLFQQYCISTYYSSEIMWVAFGSWILYNVLFSMPVILYGIC    206
+
+FLII_AQUAE       349 ---------------FPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSK    383
+                                    |.:|......:......|.:.||..:.:...|...
+DOXA1_XENTR      207 MMFVTAICMLVSLISFASVRQAPVCNIHFGNAVLKTHFGVSYWLSLVTGL    256
+
+FLII_AQUAE       384 FEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPEEKVNFEESLK    433
+                     |..:..||.:.|||  :.|.|.::|.:..:.|..    .::..|.||...
+DOXA1_XENTR      257 FCLIVSLVLLFLYK--TQPKVIRLIFSYGEEEDL----SDKSENEEEHSS    300
+
+FLII_AQUAE       434 AL    435
+                     ||
+DOXA1_XENTR      301 AL    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      14/65 (21.5%)
+# Similarity:    28/65 (43.1%)
+# Gaps:           9/65 (13.8%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       355 VRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGSNP--    402
+                     |::|:.:...:...|..:|||      .|....:..:|..:....:||  
+RS20_STRPB         3 VKTLANIKSAIKRAELNVKAN------EKNSAQKSAMRTAIKAFEANPSE     46
+
+FLII_AQUAE       403 -LVDKVINNLEKVES    416
+                      |.....::::|.||
+RS20_STRPB        47 ELFRAASSSIDKAES     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      26/104 (25.0%)
+# Similarity:    48/104 (46.2%)
+# Gaps:          16/104 (15.4%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       340 SRKRAVRGLFPAVDPVRSLSRLMPKLVSE-----EHFMKANFFKEVLSKF    384
+                     ||..|:|. ..|.:.||||.:.:.::.:|     |...:||      ||.
+TPM_HAELO         29 SRDAALRA-EKAEEEVRSLQKKIQQIENELDQVQEQLSQAN------SKL     71
+
+FLII_AQUAE       385 EDVEELVRIGLYK-GGSNPLVDKVINNLEKVESFFKQKPEEKVNFEESLK    433
+                     |:.::.::....: ...|..:..:..:||:.|...|...::   .||:.:
+TPM_HAELO         72 EEKDKALQAAEAEVAAHNRRIQLLEEDLERSEERLKIATQK---LEEASQ    118
+
+FLII_AQUAE       434 ALDE    437
+                     |.||
+TPM_HAELO        119 AADE    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      21/83 (25.3%)
+# Similarity:    29/83 (34.9%)
+# Gaps:          31/83 (37.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       191 VVLALIGERGR-----EVKEFLEEVLG---------------EEGLKKSV    220
+                     :|||:||:.|.     ...||....:.               |.|.:..:
+LEUC_XANOM       189 IVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGM    238
+
+FLII_AQUAE       221 VVVSTADQSPILKVKGAISAVVHAHHFASQGKD    253
+                     |.|   |:..|..|||        ..||.:|.|
+LEUC_XANOM       239 VAV---DEKTIAYVKG--------RPFAPKGAD    260
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     6/8 (75.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        96 VSTKTGNG    103
+                     ::..||||
+LPT_ESCF3         12 ITITTGNG     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      18/62 (29.0%)
+# Similarity:    27/62 (43.5%)
+# Gaps:          11/62 (17.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       191 VVLALIGERGREVKEFLEEVLGEEGLKKSVVV----------VSTADQSP    230
+                     |:|...|.:..||.:.|..:.| .|||::..:          ||..:...
+RL7_THET8         62 VILKEAGAKKLEVIKELRAITG-LGLKEAKDLAEKGGPVKEGVSKQEAEE    110
+
+FLII_AQUAE       231 ILKVKGAISAVV    242
+                     |.|...|:.|||
+RL7_THET8        111 IKKKLEAVGAVV    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      23/94 (24.5%)
+# Similarity:    37/94 (39.4%)
+# Gaps:          17/94 (18.1%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       162 GQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERGRE-----VKEF    206
+                     |....|..|||    ..:.:..||...:.:...:|..|..:     ..:|
+HEM1_METCA       179 GDLTAILVGAG----ETIELTARHLTENRIGHLIIANRTFDRAHTLANQF    224
+
+FLII_AQUAE       207 ------LEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHA    244
+                           ||| |.:...|..::|.||....|||. ||:..:.:.:
+HEM1_METCA       225 GGFAISLEE-LPKHLAKADIIVASTGSPLPILG-KGSFESALRS    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 334
+# Identity:      73/334 (21.9%)
+# Similarity:   125/334 (37.4%)
+# Gaps:          82/334 (24.6%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        20 YLRGLKVSGEIVSAKGI--YLEAILPFANIGNE----VEIQ------SNS     57
+                     :::||.::|::..|..:  .|:.:.| |.:.|:    .|.|      |.|
+XYLB_KLEPN        67 HVKGLGIAGQMHGATLLDKSLQVLRP-AILWNDGRCAEECQLLEDKVSAS    115
+
+FLII_AQUAE        58 RRIRGEVI--GFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVV    105
+                     |:|.|.::  ||:..|:|.:.........:.|||||..:.:..:....:.
+XYLB_KLEPN       116 RQITGNLMMPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLRMTGELA    165
+
+FLII_AQUAE       106 GKVVDPFGNP-LDGGFIGFVEEKGLELPQINPLYRERIREVFD----TG-    149
+                     ..:.|..|.. ||.....:.:    |:.....|.|:.:..:|:    || 
+XYLB_KLEPN       166 SDMSDAAGTMWLDVARRDWSD----EMLAACDLSRDAMPALFEGSDVTGQ    211
+
+FLII_AQUAE       150 -----VRSVN---ALFTLGKGQK----IGI-FAGAG-----VGKSTLLGM    181
+                          .::.|   ||...|.|..    :|| .|.||     :|.|.:...
+XYLB_KLEPN       212 LRPEVAQAWNMPPALVVGGGGDNAAGAVGIGMADAGQAMLSLGTSGVYFA    261
+
+FLII_AQUAE       182 ITRH--SKADVVVLALIGE-RGR-----------EVKEFLEEVLGEEGLK    217
+                     ::..  ||.:..|.:.... |||           ...::..::.|...:.
+XYLB_KLEPN       262 VSEGFLSKPESAVHSFCHACRGRWHLMSVMLSAASCLDWAAKLTGLASVP    311
+
+FLII_AQUAE       218 KSVVVVSTADQS-------PIL----------KVKGAISAVVHAHHFASQ    250
+                     ..:....|||:|       |.|          :.||....:.|.|..|..
+XYLB_KLEPN       312 ALIAAAQTADESAGPVWFLPYLSGERTPHNNPQAKGVFFGLTHQHGPAEL    361
+
+FLII_AQUAE       251 GKDVL------LL--MDSITRLALAQREIGLAAG    276
+                     .:.||      |.  ||.:...|:....|.|..|
+XYLB_KLEPN       362 ARAVLEGVGYALADGMDVVHACAIKPEAITLIGG    395
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      30/139 (21.6%)
+# Similarity:    50/139 (36.0%)
+# Gaps:          32/139 (23.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       142 IREVFDTGVRSVNALFTLGK----GQKIGIFAGAGVGKSTLLGMITRHSK    187
+                     :.||.|........||| ||    |.::....|......|:..::.|.::
+RECR_NOVAD        84 VEEVADLWALDRARLFT-GKYHVLGGRLSALEGVRPEDLTIGSLLDRVAQ    132
+
+FLII_AQUAE       188 A--DVVVLALIGE-RGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKV    234
+                     .  |.||||:... .|:....::.|                       ::
+RECR_NOVAD       133 GGIDEVVLAMNATLEGQTTAHYIAE-----------------------RL    159
+
+FLII_AQUAE       235 KGAISAVVHAHHFASQGKDVLLLMDSITRLAL-AQREIG    272
+                     :||...|....|....|.::..|.:.....|| |:|.:|
+RECR_NOVAD       160 EGAAVRVTQLAHGLPVGGELDYLDEGTLAQALRARRPVG    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      50/213 (23.5%)
+# Similarity:    79/213 (37.1%)
+# Gaps:          83/213 (39.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       135 NPLYRERIREVFDT--------------GVRSV-------NALFTLGKGQ    163
+                     :||   |:|.|.:|              |||.:       ..|..:.:||
+SURE_METNO        50 DPL---RLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQ     96
+
+FLII_AQUAE       164 KIG---IFAG--AGVGKSTLLGM----------------ITRHSKADVVV    192
+                     .:.   .::|  ||..:.|:||:                :..|:.|    
+SURE_METNO        97 NVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAA----    142
+
+FLII_AQUAE       193 LALIGERG-REVKEFLEEVLGEEGLKKSVVV-VSTADQSPILKVKGAISA    240
+                          |.| |.::..|     |.|::..::| |:..|..| ..|:|.  |
+SURE_METNO       143 -----EHGARTIRRIL-----EAGIEPGILVNVNFPDCEP-EAVEGI--A    179
+
+FLII_AQUAE       241 VVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQ    290
+                     ||      :||      |.:...||:.:|..|  .|.|.....|..:.|:
+SURE_METNO       180 VV------AQG------MRNQQLLAIDERLDG--RGNPYFWLAFAKARFE    215
+
+FLII_AQUAE       291 L-----LTRIAES    298
+                     .     |..|||:
+SURE_METNO       216 PGHGTDLKAIAEN    228
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      34/163 (20.9%)
+# Similarity:    53/163 (32.5%)
+# Gaps:          40/163 (24.5%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       167 IFAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEEGL    216
+                     |:.|..|.|:||......|.....:|.||:      :...|  .|.|.|.
+CYB_ARTIO        164 IWGGFSVDKATLTRFFAFHFLLPFIVTALV------MVHLL--FLHETGS    205
+
+FLII_AQUAE       217 KKSVVVVSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLAL    266
+                     .....:.|..|..|.           |.::..   ||:|..:..:|.||.
+CYB_ARTIO        206 NNPTGIPSDPDMIPF-----------HPYYTI---KDILGFLMMLTALAT    241
+
+FLII_AQUAE       267 AQREIGLAAGEP----PTLKGFTPS----------VFQLLTRIAESCGAF    302
+                     .........|:|    |.....||.          .:.:|..|....|  
+CYB_ARTIO        242 LVLFSPYLLGDPDNYIPANPLITPPHIKPEWYFLFAYAILRSIPNKLG--    289
+
+FLII_AQUAE       303 KKGSITGIFTVLV    315
+                       |.:..:.::|:
+CYB_ARTIO        290 --GVLALVMSILI    300
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:      53/262 (20.2%)
+# Similarity:    95/262 (36.3%)
+# Gaps:          82/262 (31.3%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       201 REVKEFLEEVLGE----EGLKKSVVVVSTADQSPILKVKGAISAVVHAHH    246
+                     :.::|.:||.:..    .|:...|:|||                      
+IOLE_BACHK        81 KPIEETVEEFIKHRDFLHGMGAKVIVVS----------------------    108
+
+FLII_AQUAE       247 FASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLT---    293
+                       .||..:..|||           :.|...:|.    ||...::.|.   
+IOLE_BACHK       109 --EQGHSIQGLMD-----------VPLFKNKPV----FTEEEWEKLADGL    141
+
+FLII_AQUAE       294 ----RIAESCG---AFKKGSITGIFTVL-VEGDDISLDPIADSLMGVLD-    334
+                         ::|:..|   .:.....||:.|.. :|......||...||:  .| 
+IOLE_BACHK       142 HHLGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLL--FDT    189
+
+FLII_AQUAE       335 GHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKF    384
+                     ||::          |...:|:..|.:.:|::   :|....:..:||:...
+IOLE_BACHK       190 GHLV----------FSGEEPLYILKKYLPRI---KHVHLKDIRQEVVDVV    226
+
+FLII_AQUAE       385 EDVE----ELVRIGLY--KGGSNPLVDKVINNL--EKVESFF----KQKP    422
+                     ::.|    :.|:.|.:  .|....:.|:|...|  ...:.:|    :|.|
+IOLE_BACHK       227 KEKELSFLQAVKNGAFTVPGDGVIVFDEVFTILANSNYQGWFVVEAEQDP    276
+
+FLII_AQUAE       423 EEKVNFEESLKA    434
+                     .....||.:|||
+IOLE_BACHK       277 ALANPFEYALKA    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 243
+# Identity:      56/243 (23.0%)
+# Similarity:    83/243 (34.2%)
+# Gaps:          98/243 (40.3%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        75 MPYE--PVFGLRKG------------------DKVLLKNELVSTKTGNGV    104
+                     :||.  ..:|:||.                  ||.:....::|...|||.
+ACKA_STAAT       163 LPYHYYKDYGIRKYGFHGTSHKFVSQRAAEMLDKPIEDLRIISCHIGNGA    212
+
+FLII_AQUAE       105 V------GKVVD------PF---------GNPLDGGFIGFVEEK-GLELP    132
+                     .      ||.:|      |.         || :|...|.|:.|| |....
+ACKA_STAAT       213 SIAAIDGGKSIDTSMGFTPLAGVTMGTRSGN-IDPALIPFIMEKTGKTAE    261
+
+FLII_AQUAE       133 QINPLYRER---------------IREVFDTG-VRSVNAL--FTLGKGQK    164
+                     |:..:..:.               :.|..::| .||..||  |.....:.
+ACKA_STAAT       262 QVLEILNKESGLLGLSGTSSDLRDLSEEAESGKARSQMALDVFASKIHKY    311
+
+FLII_AQUAE       165 IGIFAGAGVGKSTLLGMITRHSKADVVVL-ALIGERGREVK-------EF    206
+                     ||.:|             .|....||:|. |.|||...|::       ||
+ACKA_STAAT       312 IGSYA-------------ARMHGVDVIVFTAGIGENSVEIRAKVLEGLEF    348
+
+FLII_AQUAE       207 L---------EEVL-GEEGL------KKSVVVVSTADQSPILK    233
+                     :         |.:| |:||.      ...|||:.|.::|.|.:
+ACKA_STAAT       349 MGVYWDPKKNENLLRGKEGFINYPHSPVKVVVIPTDEESMIAR    391
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      15/42 (35.7%)
+# Similarity:    21/42 (50.0%)
+# Gaps:           5/42 (11.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       242 VHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKG    283
+                     |:|||   |.:.|........|:|:...|  .|||:.|:.||
+HIS7_BURTA       157 VNAHH---QLETVFKAFGRALRMAVELDE--RAAGQIPSTKG    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 224
+# Identity:      47/224 (21.0%)
+# Similarity:    77/224 (34.4%)
+# Gaps:          87/224 (38.8%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       189 DVVVLALIGERGREVK--------EFLEEVLGEEGLKKSVVVVSTADQSP    230
+                     |.:|:|.:|..|.:.:        .||:.:...|||            |.
+PTH_GEOLS          2 DTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGL------------SI     39
+
+FLII_AQUAE       231 ILKVKGAISAVVHAHHFASQGKDVLLL-------------MDSI------    261
+                     :.|..|.::|     .:..:||.::||             |.::      
+PTH_GEOLS         40 VRKQFGGLTA-----EWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLK     84
+
+FLII_AQUAE       262 -TRLALAQREIGLAAGEPPTLKG-------FTPSVFQLL-----TRIAES    298
+                      .:|.:...||.||.|.....:|       ...|:.:||     .|:...
+PTH_GEOLS         85 PDQLIVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLG    134
+
+FLII_AQUAE       299 CGAFKKGSIT----GIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRA    344
+                     .|....|.:|    |:||          .|..:....||||         
+PTH_GEOLS        135 IGRPPHGDVTNHVLGVFT----------PPEMEIFARVLDG---------    165
+
+FLII_AQUAE       345 VRGLFPAVDPVR-SLSRLMPKLVS    367
+                           |:|.:. :|...:||.:|
+PTH_GEOLS        166 ------ALDMLETALDEGVPKAMS    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      30/105 (28.6%)
+# Similarity:    46/105 (43.8%)
+# Gaps:          16/105 (15.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       337 IILSRKRAVRGLFPAVDPVR------SLSRLMPKLVSEEHFMKANFFKEV    380
+                     |:||.|.....:....:.||      |:|.|:|:.:.||        || 
+TAF3_XENLA       576 IMLSSKDIALPMISTPNTVRLPSLLSSMSPLLPEKLFEE--------KE-    616
+
+FLII_AQUAE       381 LSKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPE-EKVNFE    429
+                     .||.:|.::..:....|.....:.:|.....||.:...|:|.| |||..|
+TAF3_XENLA       617 KSKEKDKKKDKKEKKKKKDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKAE    666
+
+FLII_AQUAE       430 ESLKA    434
+                     .|:.|
+TAF3_XENLA       667 LSIPA    671
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:      99/576 (17.2%)
+# Similarity:   180/576 (31.2%)
+# Gaps:         214/576 (37.2%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         1 MKGIRRNLQKSYLKR--CSEMYLRGLKVSGEIVS---AKGIYLEAILPFA     45
+                     :|...:..|:||.|.  .|..|:..||:.|..::   ..|:::..:....
+DNLJ_CROS5        94 LKAWEKRWQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGD    143
+
+FLII_AQUAE        46 NIGNEVEIQSNSRRIRGEVIGFSGDK---VLVMPYEPVFGLRKGDKVLLK     92
+                     ....| ||..|.|.||...:..:.|.   ::.:..|....|.:.|::..:
+DNLJ_CROS5       144 GTTGE-EITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQE    192
+
+FLII_AQUAE        93 NELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERI    142
+                     .|    :.|:.:       |.||.:..        ...|.|::|...::.
+DNLJ_CROS5       193 RE----EKGDAL-------FANPRNAA--------AGTLRQLDPKIVDQR    223
+
+FLII_AQUAE       143 REVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVV    192
+                     |..|......:.......:.:.:.....:|.       ::..|       
+DNLJ_CROS5       224 RLQFFAYTLHLEEAEISSQWESLNYLENSGF-------LVNPH-------    259
+
+FLII_AQUAE       193 LALIGERGREVKEFLEEV------------------------LGEEGLKK    218
+                             |::.:||:||                        :....|:|
+DNLJ_CROS5       260 --------RKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQK    301
+
+FLII_AQUAE       219 -----------SVVVVSTADQSPILKVK---------GAIS--AVVHAHH    246
+                                ::.:...|:::|.| ||         ||::  ||:...|
+DNLJ_CROS5       302 ALGFTQKFPRWAIALKYPAEEAPTL-VKNIVVNVGRTGAVTPMAVMEPVH    350
+
+FLII_AQUAE       247 FASQGKDVLLLMDSITRLALAQREIG-----LAAGE-------------P    278
+                     .|........|.:| .|:|.....:|     ..|||             |
+DNLJ_CROS5       351 LAGTTVQKATLHNS-DRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRP    399
+
+FLII_AQUAE       279 PTLKGF--------------TPSVFQLLTRIAESCGAFKKGSIT------    308
+                     |..:.:              .||...::..:..||.|..:||:.      
+DNLJ_CROS5       400 PNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRD    449
+
+FLII_AQUAE       309 ---------GIFTVLVE-------GDDISLDP------------IADSLM    330
+                              .|..:|:|       .|...|.|            .||:|:
+DNLJ_CROS5       450 ALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLI    499
+
+FLII_AQUAE       331 GVLDGHIILSRKRAVRGL----------------FPAVDPVRSLSRLMPK    364
+                     ..::|.......|.:.||                ||::|.:...|     
+DNLJ_CROS5       500 KAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQAS-----    544
+
+FLII_AQUAE       365 LVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGSNPLVD--------K    406
+                                 |..:.|.:...||:         :..::|        .
+DNLJ_CROS5       545 ------------FASLSSVYGVGEEI---------AQSIIDWFSIEKNCD    573
+
+FLII_AQUAE       407 VINNLEKVESFFKQKPEEKVNFEESL    432
+                     :|..|:||....:....|::..|.||
+DNLJ_CROS5       574 LIKQLKKVGLQLETTSSEQITVEPSL    599
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 357
+# Identity:      76/357 (21.3%)
+# Similarity:   133/357 (37.3%)
+# Gaps:          95/357 (26.6%)
+# Score: 79.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       159 LGKGQKIGIFA-------GAGVGKSTLLGMITRHSKADVVVLALIGERGR    201
+                     :.:|.|:.|..       |.|:.:..:..:||.....|..||.      .
+MUTS_MYXXD        86 VSEGLKVAICEQVEEPGNGPGIVRREVTRVITPGMVLDEEVLE------P    129
+
+FLII_AQUAE       202 EVKEFLEEV-LGEEGLKKSVVVVSTAD----QSP-ILKVKGAISAVVHAH    245
+                     :...||..| ..::|...:::..||.:    ::| |.::..::|.|....
+MUTS_MYXXD       130 QASNFLAAVSWNDKGWGAALLEASTGEFMALEAPGIAELAESLSRVEPRE    179
+
+FLII_AQUAE       246 HFASQGK----DVLLLMDSITRL-ALAQREIGLAAGEPPTLKGFTPSVFQ    290
+                     .....||    :|..|:..:.|. |:|:.|  .|:.||....|:..|.|.
+MUTS_MYXXD       180 LLVPDGKRDAPEVAQLLARLVRTPAVAEGE--AASFEPTRAAGYLRSHFA    227
+
+FLII_AQUAE       291 LLTRIAESCGAF-------KKGSITGIFTVLVE-----------------    316
+                     :     :|..||       ..|:.......|.:                 
+MUTS_MYXXD       228 V-----QSLSAFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQER    272
+
+FLII_AQUAE       317 GDDISLDPIA----------------DSLMGVLDGHII-LSRKRAVRGLF    349
+                     |.::.:|..:                .||:||||..:. |..::..|.| 
+MUTS_MYXXD       273 GGNLLMDESSRANLEVLRSLRDGGRKGSLLGVLDKTVTSLGARKLARWL-    321
+
+FLII_AQUAE       350 PAVDPVRSLSRLMPKLVSEEHFMKANFFKE----VLSKFEDVEELV-RIG    394
+                       ..|:.||..:..:|.:.|.....:.::|    :|.:..|:|.|. |:.
+MUTS_MYXXD       322 --ASPLGSLPEIHARLDAVEELSGRSVWREELAGILKEVGDLERLCGRLS    369
+
+FLII_AQUAE       395 LYKGGSNPL---------VDKVINNLEKVESFFKQKPEEKVNFEESLKAL    435
+                     |..|.:..|         :.:|:..|.:.||     |..| :....|.||
+MUTS_MYXXD       370 LGAGNARDLRALGLSLAQLPRVVAVLARCES-----PLLK-SLTGPLSAL    413
+
+FLII_AQUAE       436 DEIYSLL    442
+                     .|:..||
+MUTS_MYXXD       414 PELAELL    420
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      14/53 (26.4%)
+# Similarity:    20/53 (37.7%)
+# Gaps:          11/53 (20.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       389 ELVRIGLYKGGSNPL---VDKVINNLE--------KVESFFKQKPEEKVN    427
+                     :|:|...|....:|.   |.::.|:|.        .|.....|.|.|.|.
+NOSO_STAAC       121 QLIRYAGYDNCGDPAEKEVTRLANHLGWKGKGTNFDVLPLIYQLPNESVK    170
+
+FLII_AQUAE       428 FEE    430
+                     |.|
+NOSO_STAAC       171 FYE    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      36/145 (24.8%)
+# Similarity:    52/145 (35.9%)
+# Gaps:          52/145 (35.9%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       147 DTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALI    196
+                     :.|..|::.|....|.:|     |.|.|..       ..|:|        
+RBM8A_MOUSE       19 EDGDESIHKLKEKAKKRK-----GRGFGSE-------EGSRA--------     48
+
+FLII_AQUAE       197 GERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKG----AISAVV    242
+                       |.||..:.:|:...|.|.::||       :..||.|.|    |....:
+RBM8A_MOUSE       49 --RMREDYDSVEQDGDEPGPQRSV-------EGWILFVTGVHEEATEEDI     89
+
+FLII_AQUAE       243 HAHHFASQG--KDVLLLMDSITRLALAQREIGLAAGEPPTLKGFT    285
+                     | ..||..|  |::.|.:|         |..|.       |||:|
+RBM8A_MOUSE       90 H-DKFAEYGEIKNIHLNLD---------RRTGY-------LKGYT    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      20/88 (22.7%)
+# Similarity:    33/88 (37.5%)
+# Gaps:           5/88 ( 5.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       328 SLMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFF    377
+                     |.||:|     :.|...:..|......:.||..:|...:...||..|:..
+NU4LM_ARCPU       15 SFMGLL-----MYRSHLMSSLLCLEGMMLSLFVMMSMTILSNHFTLASMA     59
+
+FLII_AQUAE       378 KEVLSKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVE    415
+                     ..:|..|...|..:.:.|....||......:.||..::
+NU4LM_ARCPU       60 PIILLVFAACEAALGLSLLVMVSNTYGTDYVQNLNLLQ     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      26/123 (21.1%)
+# Similarity:    35/123 (28.5%)
+# Gaps:          51/123 (41.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        96 VSTKTGNGVVG-----------------KVVDPFGNPLDGGFIGFVEEKG    128
+                     |||..|.|||.                 .:.||.|.....|..|.||   
+NANK_ECOLI       129 VSTGVGGGVVSGCKLLTGPGGLAGHIGHTLADPHGPVCGCGRTGCVE---    175
+
+FLII_AQUAE       129 LELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIG-----IFAGAGV    173
+                                         .:.|...:....:|:..|     ||..||.
+NANK_ECOLI       176 --------------------AIASGRGIAAAAQGELAGADAKTIFTRAGQ    205
+
+FLII_AQUAE       174 GKSTLLGMITRHSK------ADV    190
+                     |......:|.|.::      ||:
+NANK_ECOLI       206 GDEQAQQLIHRSARTLARLIADI    228
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:      66/303 (21.8%)
+# Similarity:   105/303 (34.7%)
+# Gaps:          82/303 (27.1%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         4 IRRNLQKSYLKRCSEMYLRGLK---VSGEIVSAKGI-------YLEAILP     43
+                     ||...::..|....:|...|.|   :.|:.|::.||       ||     
+MIAB_MYCPE       225 IRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGENYL-----    269
+
+FLII_AQUAE        44 FANIGNEVE---------IQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLR     84
+                     |.|:..:|.         ..||.......::........:||:..: .::
+MIAB_MYCPE       270 FNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHL-PIQ    318
+
+FLII_AQUAE        85 KGDKVLLKNELVSTKTGNGVVGKVVD------PFGNPLDGGFIGFVEEKG    128
+                     .||:.:||......|.|:.:  .:||      |..:......:||..|..
+MIAB_MYCPE       319 SGDETILKKMNRPMKIGDYI--DLVDYIRANIPNCSITTDLIVGFPNETK    366
+
+FLII_AQUAE       129 LELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTL    178
+                     .:..:...||:   |..||      || ||.                   
+MIAB_MYCPE       367 EQFNKTLELYK---RIEFD------NA-FTF-------------------    387
+
+FLII_AQUAE       179 LGMITRHSKADVVVLALI---------GERGREVKEFLEEVLGEEGLKKS    219
+                          .:||.|..|.|:|         .||.:|:.|.::....:...|..
+MIAB_MYCPE       388 -----IYSKRDGTVAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYV    432
+
+FLII_AQUAE       220 VVVVSTADQSPILKVKGAISA------VVHAHHFASQGKDVLLLMDSITR    263
+                     ..|:......|..|.|..||.      ||:....|..|:.|.:|:.|.:|
+MIAB_MYCPE       433 NKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASR    482
+
+FLII_AQUAE       264 LAL    266
+                     ..|
+MIAB_MYCPE       483 FTL    485
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      18/87 (20.7%)
+# Similarity:    33/87 (37.9%)
+# Gaps:          15/87 (17.2%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        85 KGDKVLLKNELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEK-------    127
+                     :||.:.:.....||.....:.|.::.|....:....|..:..:       
+NADK_STAES       149 RGDGLCISTPSGSTAYNKALGGALIHPSLEAMQIAEIASINNRVFRTVGS    198
+
+FLII_AQUAE       128 GLELPQ-----INPLYRERIREVFD---TGVRSVNAL    156
+                     .|.||:     |.|:..:.||...|   ...::|||:
+NADK_STAES       199 PLVLPKHHTCLITPVNHDTIRTTIDHVSIKHKNVNAI    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 433
+# Identity:      83/433 (19.2%)
+# Similarity:   144/433 (33.3%)
+# Gaps:         141/433 (32.6%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        60 IRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKVV    109
+                     ::|:.:..:....|.:.:..| .:.:.|...:.:|.......|.::..::
+TRPG_CAEEL       685 LKGQNLSAADQLALALAWNRV-DIARSDVFAMGHEWPQAALHNAMMEALI    733
+
+FLII_AQUAE       110 DPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGVRSVNALFTL    159
+                     .   :.:|  |:..:.|:|:.:.:.  |...|:.|:::|.....|.||.:
+TRPG_CAEEL       734 H---DRVD--FVRLLLEQGINMQKF--LTISRLDELYNTDKGPPNTLFYI    776
+
+FLII_AQUAE       160 GKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEF---    206
+                     .:                           |||       |.|:...|   
+TRPG_CAEEL       777 VR---------------------------DVV-------RVRQGYRFKLP    792
+
+FLII_AQUAE       207 -----LEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQG    251
+                          :|:::| ...:.|.......|     |.|..:..|.||.   .:.
+TRPG_CAEEL       793 DIGLVIEKLMG-NSYQCSYTTSEFRD-----KYKQRMKRVKHAQ---KKA    833
+
+FLII_AQUAE       252 KDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCGA    301
+                     ..|.....|.|...:|.|:                        ..|..|.
+TRPG_CAEEL       834 MGVFSSRPSRTGSGIASRQ------------------------STEGMGG    859
+
+FLII_AQUAE       302 FKKG-SITGIFTVLVEGDDISLDPIAD--SLMG--VLDGHIILSRKRAVR    346
+                     ...| |:.|:|.......|..|||..:  :|.|  .|..||:.  :.|.|
+TRPG_CAEEL       860 VGGGSSVAGVFGNSFGNQDPPLDPHVNRSALSGSRALSNHILW--RSAFR    907
+
+FLII_AQUAE       347 GLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKE-----------------    379
+                     |.||| :|:|      |..:.:.....:.|.:|                 
+TRPG_CAEEL       908 GNFPA-NPMR------PPNLGDSRDCGSEFDEELSLTSASDGSQTEPDFR    950
+
+FLII_AQUAE       380 ----------VLSKFEDV--------EE-----LVRIGLYKGGSNPLVDK    406
+                               ||:|.:|:        ||     ||...|||..:....:.
+TRPG_CAEEL       951 YPYSELMIWAVLTKRQDMAMCMWQHGEEAMAKALVACRLYKSLATEAAED   1000
+
+FLII_AQUAE       407 VINNLEKVESFFKQKPEEKVNFEESLKALDEIY    439
+                     .: .:|..|...|...|.::   .||:.||..|
+TRPG_CAEEL      1001 YL-EVEICEELKKYAEEFRI---LSLELLDHCY   1029
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      32/136 (23.5%)
+# Similarity:    49/136 (36.0%)
+# Gaps:          34/136 (25.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       201 REVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQ    250
+                     |.:::..|.|: ..||:.. ....|.|.:.:|:|..|    ..|:| ..|
+MSHD_MYCMM       138 RSLRQLPEPVI-PNGLQIR-TYAGTEDDAELLRVNNA----AFAYH-PEQ    180
+
+FLII_AQUAE       251 GKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCG    300
+                     |        ..|...||:|.     |||    .|.|:...|....:|...
+MSHD_MYCMM       181 G--------GWTEADLAERR-----GEP----WFDPAGLFLALEGSEGAE    213
+
+FLII_AQUAE       301 AFKKGS--ITGIFTVLVEGDD--------ISLDPIA    326
+                     ...:|.  :.|.....:..||        :.:||.|
+MSHD_MYCMM       214 DSPRGQPRLLGFHWTKIHLDDPGLGEVYVLGVDPAA    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      27/135 (20.0%)
+# Similarity:    52/135 (38.5%)
+# Gaps:          41/135 (30.4%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        20 YLRGLKVSGEIVSAKGIYLEAILPFANI--GNEVEIQ--SNSRRI-----     60
+                     |:..:.:..:::.|           ||:  |.:|.:.  :|..|:     
+PAND_THEFY        22 YVGSITIDADLMDA-----------ANLVDGEQVHVVNITNGHRLVTYVL     60
+
+FLII_AQUAE        61 ---RGE-VIGFS---------GDKVLVMPYEPVFGLRKGDKVLLKNELVS     97
+                        ||. |||.:         ||.|:::.|   ..|.:.::...:..:|.
+PAND_THEFY        61 TGERGSGVIGINGAAARLVAPGDLVIIISY---VQLTEAERATHRPHVVH    107
+
+FLII_AQUAE        98 TKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELP    132
+                     ....|.:|. :.|....|:.|.    .::.|..||
+PAND_THEFY       108 VDANNRIVA-LGDDLAEPVPGS----DQKSGALLP    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      57/310 (18.4%)
+# Similarity:   102/310 (32.9%)
+# Gaps:          88/310 (28.4%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       148 TGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIG    197
+                     |..:..|....|..|.....|...|...:.|     ..|:|..:..|::|
+LIPA_ASPOR        47 TARKRTNFTDKLNAGPSFADFVSGGEDNAPL-----EPSEAYALKTAMVG     91
+
+FLII_AQUAE       198 ERGRE---------VKEFLEEVLGEEGLKK-----SVVVVSTADQSPIL-    232
+                     ..||:         :|..:.:....:.|||     ::..|....:.|.: 
+LIPA_ASPOR        92 PAGRKKEMTRLPSWLKTPIPDSKNYQRLKKDLRGLNLHTVCEEARCPNIS    141
+
+FLII_AQUAE       233 -----KVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAG-    276
+                          ..|.|.:|.            ::|:.|:.||   ..|...:... 
+LIPA_ASPOR       142 DCWGGSDKSAATAT------------IMLMGDTCTR---GCRFCSVKTNR    176
+
+FLII_AQUAE       277 EPPTLKGFTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIA    326
+                     .||.|....|.         .:..|..:.|:..:....|:.||::     
+LIPA_ASPOR       177 RPPPLDPHEPE---------NTAEAISRWSLGYVVLTSVDRDDLA-----    212
+
+FLII_AQUAE       327 DSLMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANF    376
+                            ||           |.....:.|..:.:..|.::.|      ..
+LIPA_ASPOR       213 -------DG-----------GARHFAETVIKIKQKKPSMLVE------CL    238
+
+FLII_AQUAE       377 FKEVLSKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPEEKV    426
+                     ..:.|...|.|:.:.|.||         |...:|:|.||:......:.:.
+LIPA_ASPOR       239 TGDYLGDLEMVKLVARSGL---------DVYAHNVETVEALTPFVRDRRA    279
+
+FLII_AQUAE       427 NFEESLKALD    436
+                     .|::||:.|:
+LIPA_ASPOR       280 TFQQSLRVLE    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      56/211 (26.5%)
+# Similarity:    90/211 (42.7%)
+# Gaps:          35/211 (16.6%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       134 INPLYRERIREVFD-TGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMI    182
+                     |.|...||||::.: .|||. |||  :|.|..:|:   .|.|..|:....
+FLGI_PECAS        18 ITPASAERIRDLVNIQGVRG-NAL--IGYGLVVGL---DGSGDQTMQTPF     61
+
+FLII_AQUAE       183 TRHSKADVV-VLALIGERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPI    231
+                     |..|..::: .|.:....|..::           ||....|:.||:..|.
+FLGI_PECAS        62 TTQSLTNMLSQLGITVPAGTNMQ-----------LKNVAAVMVTAELPPF    100
+
+FLII_AQUAE       232 LKVKGAISAVVHAHHFASQGKDVLLLMDSITRL-----ALAQREIGLAAG    276
+                     .:....|..||.:...|...:...|||..:..:     ||||..: |..|
+FLGI_PECAS       101 GRTGQNIDIVVSSLGNAKSLRGGTLLMTPLKGVDNQVYALAQGNV-LVGG    149
+
+FLII_AQUAE       277 EPPTLKGFTPSVFQLL-TRIAESCGAFKKGSITGIF----TVLVE--GDD    319
+                     ...:..|.:..|.||. .||  |.||..:..:...|    |::::  .||
+FLGI_PECAS       150 AGASAGGSSVQVNQLAGGRI--SNGAVIERELPSTFGTSNTIMLQLKNDD    197
+
+FLII_AQUAE       320 ISL-DPIADSL    329
+                     .|: ..::|::
+FLGI_PECAS       198 FSMAQKVSDAI    208
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:      75/364 (20.6%)
+# Similarity:   121/364 (33.2%)
+# Gaps:         114/364 (31.3%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        85 KGDKVLLKNELVSTKTGNGVVGKVVDPFGNPLDGG------FIGFVEEKG    128
+                     |.:||:|        .|.|.||... .:...:|..      .|...|:|.
+LDH_BORAP          3 KSNKVVL--------IGAGGVGSSF-AYALTIDNSLVHELVIIDVNEDKA     43
+
+FLII_AQUAE       129 ----LELPQINPLYRERIREVFDTGVRSVNA-----------------LF    157
+                         ::|.......::.|..:|.|....|||                 |.
+LDH_BORAP         44 KGEVMDLNHGQMFLKKNINVLFGTYKDCVNADIVVITAGLNQKPGETRLD     93
+
+FLII_AQUAE       158 TLGKGQKI--------------GIFAGAGVGKSTLLGMITRHSK---ADV    190
+                     .:||..||              |||..|......:..:..::||   ..|
+LDH_BORAP         94 LVGKNSKIFKDIITNVVSSGFDGIFVIASNPVDIMTYVTMKYSKFPIHKV    143
+
+FLII_AQUAE       191 VVLALIGERGREVKEFLEE------------VLGEEGLKKSVVVVSTADQ    228
+                     :....|.:..| ::.||.:            |:||.|....|    |.|:
+LDH_BORAP        144 IGTGTILDTSR-LRYFLSDRFNVNTQNIHSYVMGEHGDSSFV----TWDE    188
+
+FLII_AQUAE       229 SPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEP    278
+                     :.|        |:.....:.|:||...|.:|.|      .:::..||.|.
+LDH_BORAP        189 TKI--------AMKPLSEYLSEGKITELELDEI------HKKVVNAAYEV    224
+
+FLII_AQUAE       279 PTLKGFTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADS    328
+                     ..|||.|.....|              .|..|...:: ||...:.||:..
+LDH_BORAP        225 IKLKGATYYAIGL--------------GIKNIVNAII-GDQNIILPISSY    259
+
+FLII_AQUAE       329 LMGVLDGHIILSRKRAVRGLF---PAVDPVRSLSRLMPKLVSEEHFMK--    373
+                     :.|...|        .::.::   ||:.....:..::...:|.:...|  
+LDH_BORAP        260 INGQYGG--------LIKDIYIGAPAIVCKEGVKEVLNFKISPKELEKFN    301
+
+FLII_AQUAE       374 --ANFFKEVLSKFE    385
+                       ||..|..:.|.|
+LDH_BORAP        302 NSANQLKSYIDKIE    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    18/46 (39.1%)
+# Gaps:          14/46 (30.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        26 VSGEIVSAKGIYLEAILPFANIGNEVEIQSN-----SRRIRGEVIG     66
+                     :..:|.||.|         .||.|.....|.     |::|||..:|
+EXGB_EMENI        21 IDKDIYSAAG---------TNIFNVTSASSKRWLPASKKIRGVNLG     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      37/161 (23.0%)
+# Similarity:    52/161 (32.3%)
+# Gaps:          78/161 (48.4%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       172 GVGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEEGLKKSVV    221
+                     |.||||.:..:.||          :.||||||.     .|.|.|      
+KTHY_CHLP8        10 GAGKSTQVVKLKRH----------LQERGREVL-----TLREPG------     38
+
+FLII_AQUAE       222 VVSTADQSPILKVKGAISAVVHAHHFASQGKDVLLL----MDSITRLALA    267
+                           .:|:                |.|.:::||.    :.||..|.| 
+KTHY_CHLP8        39 ------GTPV----------------AEQIRELLLESHNDITSIAELLL-     65
+
+FLII_AQUAE       268 QREIGLAAGEPPTLKGFTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEG    317
+                                     |:.|..:|:.:|              |...|.:|
+KTHY_CHLP8        66 ----------------FSASRAELMEKI--------------IVPALEDG     85
+
+FLII_AQUAE       318 DDISLDPIADS    328
+                     .|:.||...||
+KTHY_CHLP8        86 CDVILDRFFDS     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      42/176 (23.9%)
+# Similarity:    67/176 (38.1%)
+# Gaps:          50/176 (28.4%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       119 GFIGFVEEK-GLELPQINPLYRERIREVFDTGVRSVNALF----------    157
+                     |....||.| |:|..:..        ||.||  .:|.||.          
+SECA2_MYCTO      375 GLQAAVEAKEGIETTETG--------EVLDT--ITVQALINRYATVCGMT    414
+
+FLII_AQUAE       158 --TLGKGQKIGIFAGAGV-----GKSTLLG------MITRHSKADVVV--    192
+                       .|..|:::..|...||     .|..:..      .||..:|.|.:|  
+SECA2_MYCTO      415 GTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEH    464
+
+FLII_AQUAE       193 LALIGERG-------REVKEFLEEVLGEEGLKKSVVVV-----STADQSP    230
+                     :..:.:||       |:|.|  .|.|.|..:::.|..|     :.|:::.
+SECA2_MYCTO      465 ITEVHQRGQPVLVGTRDVAE--SEELHERLVRRGVPAVVLNAKNDAEEAR    512
+
+FLII_AQUAE       231 ILKVKGAISAVVHAHHFASQGKDVLL    256
+                     ::...|...||..:...|.:|.|:.|
+SECA2_MYCTO      513 VIAEAGKYGAVTVSTQMAGRGTDIRL    538
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    20/58 (34.5%)
+# Gaps:           2/58 ( 3.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       229 SPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEP    278
+                     |.:|..||....:....:  ...:|..|..:......|..|...|..|..
+DB108_HUMAN       15 SQVLPAKGKFKEICERPN--GSCRDFCLETEIHVGRCLNSRPCCLPLGHQ     62
+
+FLII_AQUAE       279 PTLKGFTP    286
+                     |.::..||
+DB108_HUMAN       63 PRIESTTP     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:      63/311 (20.3%)
+# Similarity:    94/311 (30.2%)
+# Gaps:         131/311 (42.1%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       223 VSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIG    272
+                     |..|.:.|::.|         ..|..:.|.|  .|:|...:.. .::.:.
+LCMT1_CRYNB      103 VGRARKPPLINV---------GTHHRTWGID--RLVDRFLQRG-GKQVVS    140
+
+FLII_AQUAE       273 LAAGE------------PPTLKGFTPSVFQLLT-----RIAESCGAFK--    303
+                     |.||.            ||.|..:....|..||     |||.....::  
+LCMT1_CRYNB      141 LGAGSDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYL    190
+
+FLII_AQUAE       304 KGSITGI------FTVLVEGDDIS-----LDPI---------ADSLMGVL    333
+                     ..|.|.:      :||...|..:|     |.|:         |.|:..:|
+LCMT1_CRYNB      191 GPSSTAMPPPGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAIL    240
+
+FLII_AQUAE       334 DGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSK    383
+                     ..|::           |.:||      .:|.|          |..|.|..
+LCMT1_CRYNB      241 SHHVL-----------PQLDP------RLPTL----------FLAECLFP    263
+
+FLII_AQUAE       384 F---EDVEELVR----------------IGLYKGGSNPLV-DKVINNLEK    413
+                     :   ||..|:::                :||.....|.:. :..:.||..
+LCMT1_CRYNB      264 YMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSI    313
+
+FLII_AQUAE       414 VESFFK----------------------------QKPEEKVNFEE-----    430
+                     ..|.|.                            |..||.|..||     
+LCMT1_CRYNB      314 PGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVGPEELQRIS    363
+
+FLII_AQUAE       431 SLKALDEIYSL    441
+                     .|:.||||..|
+LCMT1_CRYNB      364 KLEILDEIEEL    374
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      39/170 (22.9%)
+# Similarity:    64/170 (37.6%)
+# Gaps:          59/170 (34.7%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        91 LKNELVSTKTGNGVV--------GKVVDPFGN----PLDGGFIGFVEEKG    128
+                     |..|:|:.:....||        |..:.|.||    |:||          
+PTGA_SALTY        27 LSGEIVNIEDVPDVVFAEKIVGDGIAIKPTGNKMVAPVDG----------     66
+
+FLII_AQUAE       129 LELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTL    178
+                                 .|.::|:|     |..|::.....|.:|...|:....|
+PTGA_SALTY        67 ------------TIGKIFET-----NHAFSIESDSGIELFVHFGIDTVEL     99
+
+FLII_AQUAE       179 LGMITRHSKADVVVLALIGERGREVK------EFLEEVLGEEGLKKSV--    220
+                     .|...:.          |.|.|:.||      || :..|.||..|.::  
+PTGA_SALTY       100 KGEGFKR----------IAEEGQRVKVGDPVIEF-DLPLLEEKAKSTLTP    138
+
+FLII_AQUAE       221 VVVSTADQ-SPILKVKGAIS    239
+                     ||:|..|: ..::|:.|:::
+PTGA_SALTY       139 VVISNMDEIKELIKLSGSVT    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      11/25 (44.0%)
+# Similarity:    15/25 (60.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       419 KQKPEEKVN-FEESL-KALDEIYSL    441
+                     ||:.|.|.| ..:|| |.:.|:.||
+RR14_CRYJA        13 KQRLERKYNLLRQSLKKEMSEVSSL     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 367
+# Identity:      76/367 (20.7%)
+# Similarity:   134/367 (36.5%)
+# Gaps:         114/367 (31.1%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        20 YLRGLKVSGEIVSAKGIYLEAILPFANIGNEVEIQSNSRRIRGEVIGFSG     69
+                     |:..|.|....|.|..:|.:.:.|...||.:|||::.        ||   
+DCUP_BACVZ        59 YVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIKNG--------IG---     97
+
+FLII_AQUAE        70 DKVLVMPYEPVFGLRKGDKV--------------LLKNELVSTKTGNGVV    105
+                      .|:..|......:.|..::              ||.||.::..    ::
+DCUP_BACVZ        98 -PVIDQPVRSAADIEKLGELNPEQDVPYVLETIRLLVNEQLNVP----LI    142
+
+FLII_AQUAE       106 GKVVDPF---GNPLDGG-FIGFVEEKGL--ELPQINPLYRERIREVFDTG    149
+                     |....||   ...::|| ...:.:.|..  .:||...:..:::.::    
+DCUP_BACVZ       143 GFSGAPFTLASYMIEGGPSKNYNKTKAFMHSMPQAWKMLMDKLADM----    188
+
+FLII_AQUAE       150 VRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGER    199
+                           :....|.|   |.|||               ||..:..:.:|..
+DCUP_BACVZ       189 ------IIVYAKAQ---INAGA---------------KAIQIFDSWVGAL    214
+
+FLII_AQUAE       200 GRE-VKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFA    248
+                     .|| .::|::.|:..      :....:|:|.|:      |...|.|.|.|
+DCUP_BACVZ       215 NREDYRQFIKPVMDR------IFRELSAEQVPL------IMFGVGASHLA    252
+
+FLII_AQUAE       249 SQGKDVLLLMDSIT-RLAL--AQREIGLAAGEPPTLKG-FTPSVFQLLTR    294
+                     ....|:.|.:..:. ||.:  |:::     |...|::| ..||:......
+DCUP_BACVZ       253 GDWHDLPLDVVGLDWRLGIDDARKQ-----GITKTVQGNLDPSLLLAPWE    297
+
+FLII_AQUAE       295 IAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRA    344
+                     :.|     ||..     .:|.:|  :..|....:|     ||        
+DCUP_BACVZ       298 VIE-----KKAK-----AILDQG--MKTDGFIFNL-----GH--------    322
+
+FLII_AQUAE       345 VRGLFPAVDPVRSLSRL    361
+                       |:||.|:| .:|.:|
+DCUP_BACVZ       323 --GVFPDVNP-ETLKKL    336
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      57/277 (20.6%)
+# Similarity:    99/277 (35.7%)
+# Gaps:          82/277 (29.6%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         5 RRNLQKSYLKRCSEMYLRGLKV--SGEIVSAKGIYLEAILPFANIGNEVE     52
+                     |::.||.::|.|.|...:..::  ......|..:.::|          ||
+GTF2I_MOUSE       69 RKDFQKDFVKYCVEEEEKAAEMHKMKSTTQANRMSVDA----------VE    108
+
+FLII_AQUAE        53 IQSNSRRIR-------GEVIGFSGDKVLVMPYEP---------VFGLRKG     86
+                     |::..:.:.       |:.:|.|  .|:.:|||.         |.||.:|
+GTF2I_MOUSE      109 IETLRKTVEDYFCFCYGKALGKS--TVVPVPYEKMLRDQSAVVVQGLPEG    156
+
+FLII_AQUAE        87 ---------DKVLLKNELVSTKTGNGVVGKVVDPFGNP---LDGGFIGFV    124
+                              |...|| .::..|.|...:  :..||..|   |.|..:...
+GTF2I_MOUSE      157 VAFKHPEHYDLATLK-WILENKAGISFI--IKRPFLEPKKHLGGRVLAAE    203
+
+FLII_AQUAE       125 EEKGLELP--QINPLYRERIREVFDTGVRSVNALFTL-------------    159
+                     .|:.:..|  ...|: :.:.....|:|:....|..|:             
+GTF2I_MOUSE      204 AERSMLSPSGSCGPI-KVKTEPTEDSGISLEMAAVTVKEESEDPDYYQYN    252
+
+FLII_AQUAE       160 --GKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEFL    207
+                       |..:..|:.....:.|: |.|  :.||..        |..|.||    
+GTF2I_MOUSE      253 IQGPSETDGVDEKLPLSKA-LQG--SHHSSE--------GNEGTEV----    287
+
+FLII_AQUAE       208 EEVLGEEGLKKSVVVVSTADQSPILKV    234
+                      ||..|:..:.   |.|...:.|.::|
+GTF2I_MOUSE      288 -EVPAEDSTQH---VPSETSEDPEVEV    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 318
+# Identity:      61/318 (19.2%)
+# Similarity:   117/318 (36.8%)
+# Gaps:         135/318 (42.5%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       215 GLKKSVVVVSTADQ---SPI---------------LKVKGAI--------    238
+                     |:.:::.:|..|.:   :||               |:.:|||        
+ISPH_ACIF5        14 GVNRAIQIVDRALELFGAPIYVRHEVVHNRHVVEDLRARGAIFVEELDEV     63
+
+FLII_AQUAE       239 ----SAVVHAH--------HFASQGKDVLLLMDS----ITRLALAQRE--    270
+                         :.:..||        |.|::|   |.:.|:    :|::.:..::  
+ISPH_ACIF5        64 PDAATVIFSAHGVPIAVREHAAARG---LSVFDATCPLVTKVHMEVKKYS    110
+
+FLII_AQUAE       271 --------IGLAAGEPPTLKGFTPSVFQLLTRIAESCGAFKKG------S    306
+                             || .||.|               .:..:.|..::|      :
+ISPH_ACIF5       111 RDGMEMVLIG-HAGHP---------------EVEGTMGQVEEGMMYLVSN    144
+
+FLII_AQUAE       307 ITGIFTVLVEGDD---------ISLDPIADSLMG------VLDG------    335
+                     ::.:.|:.....|         :|:|..|:.::.      :::|      
+ISPH_ACIF5       145 VSDVATLAPRNPDKLAYITQTTLSMDDTAEVIVALRSRFPLIEGPKKDDI    194
+
+FLII_AQUAE       336 -HIILSRKRAVRGLFPAVD-------PVRS----LSRLMPKLVSEEHFMK    373
+                      :...:|:.||:.|.|.||       |..|    |:.|..:|.::.|.: 
+ISPH_ACIF5       195 CYATQNRQDAVKSLAPDVDILLVVGAPNSSNSSRLAELGTRLGTQTHLI-    243
+
+FLII_AQUAE       374 ANFFKEVLSKFEDVEELVR--------IGLYKGGSNP--LVDKVINNLEK    413
+                                ||.::|.|        ||:..|.|.|  ||.::::.|..
+ISPH_ACIF5       244 -----------EDAQQLRREWFEGVGKIGISAGASAPESLVQEIMDTLRG    282
+
+FLII_AQUAE       414 VESFFKQK---PEEKVNF    428
+                     ..:...|:   .||||.|
+ISPH_ACIF5       283 WGARVPQEMPGVEEKVTF    300
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      15/51 (29.4%)
+# Similarity:    18/51 (35.3%)
+# Gaps:           9/51 (17.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        21 LRGLKVSGEIVSAKGIYLEAILPFANIGNEVEI---------QSNSRRIR     61
+                     |.||.|.|..:...|:....|..|.|.|.|..:         ....|||.
+NDUA1_HUMAN        6 LPGLSVMGVCLLIPGLATAYIHRFTNGGKEKRVAHFGYHWSLMERDRRIS     55
+
+FLII_AQUAE        62 G     62
+                     |
+NDUA1_HUMAN       56 G     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      35/155 (22.6%)
+# Similarity:    49/155 (31.6%)
+# Gaps:          48/155 (31.0%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       209 EVLGEEGLKKSVVVVST------ADQSPILKVKGAISAVVHAHHFASQGK    252
+                     ||||...:.:..|.:|:      .::|....||..|.|:     :...|.
+PSRP_SALTI        21 EVLGHAVMSQFPVTISSITLPFVENESRARAVKDQIDAI-----YQQTGV     65
+
+FLII_AQUAE       253 DVLLLMDSI---TRLALAQREIGLAAGEPPTLKGFTPSVFQLL-------    292
+                     ..|:....:   .|..:.|.|            ||...:.|.|       
+PSRP_SALTI        66 RPLVFYSIVLPEIRAIILQSE------------GFCQDIVQALVAPLQQE    103
+
+FLII_AQUAE       293 -----TRIAESCGAFKKGS-------ITGIFTVLVEGDDIS---LDPIAD    327
+                          |.||........|:       |..|...|...|.||   ||....
+PSRP_SALTI       104 MKLDPTPIAHRTHGLNPGNLNKYDARIAAIDYTLAHDDGISLRNLDQAQV    153
+
+FLII_AQUAE       328 SLMGV    332
+                     .|:||
+PSRP_SALTI       154 ILLGV    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 521
+# Identity:     106/521 (20.3%)
+# Similarity:   184/521 (35.3%)
+# Gaps:         182/521 (34.9%)
+# Score: 104.0
+# 
+#
+#=======================================
+
+FLII_AQUAE         8 LQKSYLKRCSEMYLRGLKVSGEIVSAKGIYLEAILPFANIGNEVEIQSNS     57
+                     |||  :|..:|.|| |.||...:::....:.:|             |..:
+DNAK_CHESB       120 LQK--MKETAESYL-GEKVEKAVITVPAYFNDA-------------QRQA    153
+
+FLII_AQUAE        58 RRIRGEVIGFSGDKVLVMPYEP-----VFGL-RKGDKVLLKNEL------     95
+                     .:..|::.|.   :||.:..||     .:|| :|..|.:...:|      
+DNAK_CHESB       154 TKDAGKIAGL---EVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFD    200
+
+FLII_AQUAE        96 VS-TKTGNGVVGKVVDPFGNPLDGG---------FIG--FVEEKGLELPQ    133
+                     :| .:.|:||. :|....|:...||         ::.  |.:|:|::|..
+DNAK_CHESB       201 ISILEIGDGVF-EVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKN    249
+
+FLII_AQUAE       134 INPLYRERIREVFD-----------------------TGVRSVNALFTLG    160
+                      :.|..:|::|..:                       ||.:.:....|..
+DNAK_CHESB       250 -DKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRA    298
+
+FLII_AQUAE       161 KGQKI-------------------GIFAGAGVGKSTLLGMITRHSKADVV    191
+                     |.:.:                   |:.||. :.:..|:|.:||..|    
+DNAK_CHESB       299 KFESLVEDLVTRTIEPCRAALKDAGLSAGE-IDEVVLVGGMTRMPK----    343
+
+FLII_AQUAE       192 VLALIGERGREVKEFLEEVLGEE---GLKKSVVVVSTADQSPILKVKGAI    238
+                                |:|.::...|:|   |:....||              |:
+DNAK_CHESB       344 -----------VQETVKNFFGKEPHKGVNPDEVV--------------AM    368
+
+FLII_AQUAE       239 SAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSV    288
+                     .|.:.|.......||||||  .:|.|:|....:|                
+DNAK_CHESB       369 GAAIQAGVLQGDVKDVLLL--DVTPLSLGIETLG----------------    400
+
+FLII_AQUAE       289 FQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADS----------    328
+                                         |:||.|:  |..:..|...|          
+DNAK_CHESB       401 --------------------GVFTRLI--DRNTTIPTKKSQVFSTAEDNQ    428
+
+FLII_AQUAE       329 ---LMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHF-MKA    374
+                        .:.|..|...::....:.|.|..|. :....|.||::  |..| :.|
+DNAK_CHESB       429 NAVTIRVFQGEREMAADNKLLGQFDLVG-IPPAPRGMPQI--EVTFDIDA    475
+
+FLII_AQUAE       375 NFFKEVLSKFEDV--EELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKP    422
+                     |....|.:|.:..  |:.:||....|.|:..::|::.:.| ..:...:|.
+DNAK_CHESB       476 NGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAE-ANAEADKKR    524
+
+FLII_AQUAE       423 EEKVNFEESLKALDEIYSLLK    443
+                     .|.|..:...:||  |:|..|
+DNAK_CHESB       525 RETVEVKNQAEAL--IHSTEK    543
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 239
+# Identity:      56/239 (23.4%)
+# Similarity:    89/239 (37.2%)
+# Gaps:          56/239 (23.4%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        39 EAILPFANIGNEVEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDK     88
+                     |::|.||:.| .:.|:.....|..:::|    :.||.....::.|.  ::
+DNLJ_ACIC5       445 ESLLHFASRG-VMNIEGMGEAIVMQLLG----RGLVKTVSDIYSLT--EE    487
+
+FLII_AQUAE        89 VLLKNELVSTKTGNGVVGKVVDPFGNPLDG-------GFIG------FVE    125
+                     .|:..|.:..|:...::|::......|||.       .|:|      ..|
+DNLJ_ACIC5       488 QLVSLERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAE    537
+
+FLII_AQUAE       126 EKGL----------ELPQIN---PLYRERIREVFD--------TGVRSVN    154
+                     |.|.          ||.::|   |...|.|||.||        ..:|...
+DNLJ_ACIC5       538 EYGSMDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAG    587
+
+FLII_AQUAE       155 ALFTLGKGQKIGIFAG-AGVGKSTLLGMITRHSKADVVVLALIGERGREV    203
+                     ..||..|.:|....|| ..|...||.|:....:|..      |...|..|
+DNLJ_ACIC5       588 LRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGK------IENAGGHV    631
+
+FLII_AQUAE       204 KEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVV    242
+                     ...:.        ||:..||:.||....|:...::...|
+DNLJ_ACIC5       632 SGSVS--------KKTNYVVAGADAGSKLEKANSLGVPV    662
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      25/132 (18.9%)
+# Similarity:    52/132 (39.4%)
+# Gaps:          28/132 (21.2%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        66 GFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKV---VDPF    112
+                     |::...:.:.|.:...|...|.::||.:.:  |:....:|.::   |:| 
+CAPSD_CMVO        67 GYTFTSITLKPPKIDRGSYYGKRLLLPDSV--TEYDKKLVSRIQIRVNP-    113
+
+FLII_AQUAE       113 GNPLDGGFIGFVEEKGLELPQINPLYRERIREV---FDTGVRSVNALFTL    159
+                                       ||:.:......:|:|   .|..|.:::|:|..
+CAPSD_CMVO       114 ------------------LPKFDSTVWVTVRKVPASSDLSVAAISAMFAD    145
+
+FLII_AQUAE       160 GKGQKIGI-FAGAGVGKSTLLGMITRHSKADV    190
+                     |....:.. :|..||..:..|.......:||:
+CAPSD_CMVO       146 GASPVLVYQYAAFGVQANNKLLYDLSAMRADI    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      21/94 (22.3%)
+# Similarity:    31/94 (33.0%)
+# Gaps:          46/94 (48.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        80 VFGLRKGDKVLLKNELVST--------------------------KTGNG    103
+                     :|.:.|.||.|.|.:..:|                          :.||.
+IF3_CHLL2         75 LFKMDKRDKDLKKKQKTTTLKELRFHPNTDKHDFDFKTAHLEEFLRKGNR    124
+
+FLII_AQUAE       104 VVGKVVDPFGNPLDGGFIG---FVEEKGLELPQINPLYRERIRE    144
+                     |...:|          |:|   ..::|||||       .||:.|
+IF3_CHLL2        125 VRATIV----------FLGRSIIYKDKGLEL-------AERLTE    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      14/46 (30.4%)
+# Similarity:    22/46 (47.8%)
+# Gaps:          14/46 (30.4%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       173 VGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEEGLKK    218
+                     ||:|.|:|        |.:.:.::..||.:||      ||.|..|:
+CSRA_HAEI8         8 VGESVLIG--------DDISITVLSVRGNQVK------LGVEAPKE     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      32/142 (22.5%)
+# Similarity:    55/142 (38.7%)
+# Gaps:          26/142 (18.3%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        31 VSAKGIYLE--AILPFANIGNEVEIQSNSRRIRGEV---IGFSGDKVLVM     75
+                     |:|..||.:  .|:.|........:...:..:.|.:   |..|.|.:...
+COAX_CLOBL       115 VAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDK    164
+
+FLII_AQUAE        76 PYE-PVFGLRKGDKVLLKNELVSTKTG--NGVVGKV--------------    108
+                     ..: |...|.|...|:.||.:.|.::|  .|..|:|              
+COAX_CLOBL       165 AAKLPRVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDL    214
+
+FLII_AQUAE       109 --VDPFGNPLDGGFIGFVEEKGLELPQINP-LYRERIREVFD    147
+                       .:|| ....|||...:.|:...:.:||. |..|.:|.:::
+COAX_CLOBL       215 GEEEPF-VVATGGFAKLISEESKSIDEINAILTLEGLRVIYE    255
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    23/72 (31.9%)
+# Gaps:          26/72 (36.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       350 PAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGG    399
+                     |..|.|..|         |.:|.|.|       |..|...|..|....|.
+HOP_BOVIN          9 PTEDQVEIL---------EYNFNKVN-------KHPDPTTLCLIAAEAGL     42
+
+FLII_AQUAE       400 SNPLVDKVINNLEKVESFFKQK    421
+                     |.          |:.:.:|||:
+HOP_BOVIN         43 SE----------EETQKWFKQR     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 456
+# Identity:      89/456 (19.5%)
+# Similarity:   161/456 (35.3%)
+# Gaps:         142/456 (31.1%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         3 GIRRNL--QKSYLKRCSEMYLRGLKVSGEIVSAKGIYLEAILPFANIGNE     50
+                     ||..:|  |:|..|....:|.:.|:.||.::..|...:.|.....:....
+THII_VIBA3        72 GIHHSLEVQQSEFKDLHNIYEQVLERSGALIEGKTFSVRAKRRGKHDFTS    121
+
+FLII_AQUAE        51 VEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLR---KGDKVLLKNELVS     97
+                     :|::   |.:.|                   ||.   :..||.|||..::
+THII_VIBA3       122 IELE---RYVGG-------------------GLNQAVESAKVKLKNPDIT    149
+
+FLII_AQUAE        98 TK--TGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREV    145
+                     .|  ..|..:.:|::.....  |||....:|..|.|          |...
+THII_VIBA3       150 VKVEVENDKLNQVIERHKGL--GGFPLGTQEDLLSL----------ISGG    187
+
+FLII_AQUAE       146 FDTGVRSVNALFTLGKGQKIG-IFAGAGVGKSTLLGMITRHSKADVVVLA    194
+                     ||:||.|   ...:.:|.|:. .|...| |.:..:|:             
+THII_VIBA3       188 FDSGVSS---YLHIKRGSKVHYCFFNLG-GPAHEIGV-------------    220
+
+FLII_AQUAE       195 LIGERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPIL-----KVKGAIS    239
+                           ::|..:|.:..|.....|.:.:    |..|::     .|:....
+THII_VIBA3       221 ------KQVSHYLWDKYGSSAKVKFISI----DFEPVVAEILENVEDGQM    260
+
+FLII_AQUAE       240 AVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVF    289
+                     .||....|...|             .:.....|:.|              
+THII_VIBA3       261 GVVLKRMFMRAG-------------GMVAERFGIEA--------------    283
+
+FLII_AQUAE       290 QLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIAD-SLMGVLDGHII    338
+                      |:|  .|:.|.....::|.:..:....|.:.|.|:.: ....::|    
+THII_VIBA3       284 -LVT--GEALGQVSSQTLTNLRHIDNVTDTLILRPLINWDKEDIID----    326
+
+FLII_AQUAE       339 LSRKRAVRGLFPAVDPVRSLSRLMPK---LVSEEHFMKANFFK----EVL    381
+                     ||||..          ....:::||:   ::|::..:||...|    |..
+THII_VIBA3       327 LSRKIG----------TEDFAKVMPEYCGVISKKPTVKAKKGKLEAEEAK    366
+
+FLII_AQUAE       382 SKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPEEKVNFEES    431
+                     ..||.:|:::.       :..::|  |.::||...  :|.||     .|.
+THII_VIBA3       367 FNFEVLEQVIE-------NARIMD--IRDIEKESQ--EQAPE-----VEQ    400
+
+FLII_AQUAE       432 LKALDE    437
+                     ::|:.|
+THII_VIBA3       401 VQAVAE    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      23/108 (21.3%)
+# Similarity:    41/108 (38.0%)
+# Gaps:          33/108 (30.6%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        68 SGDKVLVMPYEP--VFGLRKGDKVLLKNELVSTKTGNGVVGKVVDPFGNP    115
+                     :||.::|:..|.  |.|.:..||:...:                      
+RL13_PSEPG        50 TGDYIVVINAEQVRVTGAKSSDKMYYSH----------------------     77
+
+FLII_AQUAE       116 LDGGFIGFVEEKGLELPQINPLYRERIREVFDTGVRSVNALFTLGKG--Q    163
+                       .||.|.::|...|     .|..:....|.:|.|:.:.....||:.  :
+RL13_PSEPG        78 --SGFPGGIKEINFE-----KLIAKAPERVIETAVKGMLPKNPLGRDMYR    120
+
+FLII_AQUAE       164 KIGIFAGA    171
+                     |:.::|||
+RL13_PSEPG       121 KLKVYAGA    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      34/159 (21.4%)
+# Similarity:    51/159 (32.1%)
+# Gaps:          47/159 (29.6%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       114 NPLDGGFIGFVEEKGLELPQINPLYR---ERIREVFDTGVRSVNALFTLG    160
+                     ||....:|. .:.||:.:..:....|   |....|||...|....|....
+RR2_ARATH         28 NPRMAPYIS-AKRKGIHIINLTRTARFLSEACDLVFDAASRGKQFLIVGT     76
+
+FLII_AQUAE       161 KGQKIGIFAGAG-------VGKSTLLGMITRHS-----------------    186
+                     |.:...:.:.|.       |.|..|.||:|..|                 
+RR2_ARATH         77 KNKAADLVSRAAIRARCHYVNKKWLGGMLTNWSTTEKRLHKFRDLRTEQK    126
+
+FLII_AQUAE       187 --------KADVVVLALIGERGREVKEFLEEVLG----EEGLKKSVVVVS    224
+                             |.|..||.      |::.. ||..||    ..||...|:::.
+RR2_ARATH        127 TEGFNRLPKRDAAVLK------RQLSR-LETYLGGIKYMTGLPDIVIILD    169
+
+FLII_AQUAE       225 TADQSPILK    233
+                     ..::...|:
+RR2_ARATH        170 QQEEYTALR    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      51/230 (22.2%)
+# Similarity:    82/230 (35.7%)
+# Gaps:          61/230 (26.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       217 KKSVVVVSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLAL    266
+                     ::.|.|.|...:..::...||..|...|..|.......|      .::||
+Y1710_SYNP2      198 QRQVPVYSNGIEKELVTPTGAAIATTLATDFCQPPAMTL------AKIAL    241
+
+FLII_AQUAE       267 AQREIGLAAGEPPTLK---GFTPSVFQLLTRIAESCGAFKKGSITGIFTV    313
+                     ....|.|..  |..|:   |..|....|.|                |.|:
+Y1710_SYNP2      242 GSGTIDLPL--PNLLRLWIGHQPETPHLET----------------IVTL    273
+
+FLII_AQUAE       314 LVEGDDISLDPIA---DSLM--GVLDGHI--ILSRKRAVRGLFPAVDPVR    356
+                     ..:.||::...||   :.|.  |.||...  |..:|..:..|...:.|| 
+Y1710_SYNP2      274 ETQIDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVICPV-    322
+
+FLII_AQUAE       357 SLSRLMPKLVSEE--------HFMKANFFKEVLSKFEDV-----EELVRI    393
+                     :|..:..:::..|        |....:..:.   :||.|     |..::|
+Y1710_SYNP2      323 ALVEICEEILFTETSTLGIRRHTQTRSILQR---RFETVATPAGEIQLKI    369
+
+FLII_AQUAE       394 GLYKGGSNPLVDKVIN---NLEKVESFFKQ    420
+                     | |:|      ||:.|   ..|.|::..:|
+Y1710_SYNP2      370 G-YRG------DKIYNVQPEYEDVKAIAQQ    392
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 328
+# Identity:      68/328 (20.7%)
+# Similarity:   111/328 (33.8%)
+# Gaps:         107/328 (32.6%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       138 YRE-RIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHS    186
+                     ||| .:|:|          .|::.||:...|...:|.||:.||.:|....
+WTPC_THEKO        12 YREFHLRDV----------TFSVEKGEHFIILGPSGAGKTVLLEVIAGII     51
+
+FLII_AQUAE       187 KADVVVLALIGER-------------------------------------    199
+                     :.|...:.|.||.                                     
+WTPC_THEKO        52 EPDSGRIFLNGEDITDLPPEKRGLAYIPQNYALFPNMSVFDNIAFGLKVR    101
+
+FLII_AQUAE       200 -------GREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVV    242
+                            ||:|:| |.||||...|.|         :.|.....|.:..|.
+WTPC_THEKO       102 KVPKAEIGRKVRE-LSEVLGISHLLK---------RKPKTLSGGEMQRVA    141
+
+FLII_AQUAE       243 HAHHFASQGKDVLLLMDS-------------ITRLALAQREIGLAAGEPP    279
+                     .|...|.:.:  |||:|.             |..:...::|:|.      
+WTPC_THEKO       142 IARALAVEPE--LLLLDEPFANLDVQTRGRLINEMKRWRKELGF------    183
+
+FLII_AQUAE       280 TLKGFTPSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSL    329
+                     |....|.| |:....:.:..|....|.:..:..|    .::...|.::.:
+WTPC_THEKO       184 TALHVTHS-FEEAVSLGDRVGVMLNGRLVQVGPV----REVFSRPASEEV    228
+
+FLII_AQUAE       330 M----------GVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEE    369
+                     .          |:.:|.|:.:....:.....|...:|...|....::|:|
+WTPC_THEKO       229 AKFLGFENIVEGLAEGRILRANGLVIELPIEASGRIRVGIRPEDIVLSDE    278
+
+FLII_AQUAE       370 HF---MKANFFKEVLSKFEDVEELVRIG    394
+                     ..   |:..|..||.:   |||||..:|
+WTPC_THEKO       279 PLKSSMRNTFQAEVQA---DVEELGELG    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    29/58 (50.0%)
+# Gaps:           8/58 (13.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       200 GREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVH----AH    245
+                     ||..:|..:.::|::||...|.:|..:.::|    :|.:.::.|    .|
+GRB7_RAT         437 GRISREESQRLIGQQGLVDGVFLVRESQRNP----QGFVLSLCHLQKVKH    482
+
+FLII_AQUAE       246 HFASQGKD    253
+                     :.....:|
+GRB7_RAT         483 YLILPSED    490
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      21/101 (20.8%)
+# Similarity:    45/101 (44.6%)
+# Gaps:          20/101 (19.8%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       159 LGKGQK----IGIFA---GAGVGKSTLLGMITRHSKADVVVLALIGERGR    201
+                     ||.|.|    :.||.   ...|.:|.:.|.:.|          :|...|:
+PSD_RHOPS         88 LGLGDKPLPRVSIFMSVFNCHVNRSPVAGRVER----------IIYSPGK    127
+
+FLII_AQUAE       202 EVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQG    251
+                     .:...|::. .|:..:.|:|:.:.|.|..::::.|.::..:.:  |..:|
+PSD_RHOPS        128 FINAELDKA-SEDNERNSMVISTPAGQIGVVQIAGLVARRIVS--FVREG    174
+
+FLII_AQUAE       252 K    252
+                     :
+PSD_RHOPS        175 Q    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 353
+# Identity:      73/353 (20.7%)
+# Similarity:   134/353 (38.0%)
+# Gaps:          86/353 (24.4%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       143 REVFDTGVR-----SVNALFTLGKGQKIGIFAGAGVGK-STLLGMITRH-    185
+                     |||||..|:     :|.....|..|..:       .|| ...|||:.|. 
+PP156_ARATH      189 REVFDDMVKIGVSLNVQTFNVLVNGYCL-------EGKLEDALGMLERMV    231
+
+FLII_AQUAE       186 SKADV--------VVLALIGERGR--EVKEFLEEV---------------    210
+                     |:..|        .:|..:.::||  ::||.|.::               
+PP156_ARATH      232 SEFKVNPDNVTYNTILKAMSKKGRLSDLKELLLDMKKNGLVPNRVTYNNL    281
+
+FLII_AQUAE       211 ------LGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQGKDV    254
+                           ||  .||::..:|....|:.:|......:.:::....|...::.
+PP156_ARATH      282 VYGYCKLG--SLKEAFQIVELMKQTNVLPDLCTYNILINGLCNAGSMREG    329
+
+FLII_AQUAE       255 LLLMDSITRLALAQR------------EIGLAAGEPPTLK-----GFTPS    287
+                     |.|||::..|.|...            |:||:......::     |...:
+PP156_ARATH      330 LELMDAMKSLKLQPDVVTYNTLIDGCFELGLSLEARKLMEQMENDGVKAN    379
+
+FLII_AQUAE       288 VFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHI    337
+                     .......:...|...|:.::|.....||:....|.|        ::..|.
+PP156_ARATH      380 QVTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPD--------IVTYHT    421
+
+FLII_AQUAE       338 ILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDV    387
+                     ::.....|..|..|::.:|.:.:...|:    :.:..|...:.|.|...:
+PP156_ARATH      422 LIKAYLKVGDLSGALEMMREMGQKGIKM----NTITLNTILDALCKERKL    467
+
+FLII_AQUAE       388 EELVRI--GLYKGGSNPLVDKVINNLEKVESFFKQKPEEKVNFEESLKAL    435
+                     :|...:  ..:|.|.  :||:|... ..:..||:   ||||  |::|:..
+PP156_ARATH      468 DEAHNLLNSAHKRGF--IVDEVTYG-TLIMGFFR---EEKV--EKALEMW    509
+
+FLII_AQUAE       436 DEI    438
+                     ||:
+PP156_ARATH      510 DEM    512
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 165
+# Identity:      39/165 (23.6%)
+# Similarity:    59/165 (35.8%)
+# Gaps:          43/165 (26.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       288 VFQL----LTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVL    333
+                     |||:    |.:|.:|.|.|...::.     .||.|..|...:..|....|
+ADRB2_MESAU      222 VFQVAKRQLQKIDKSEGRFHSPNLG-----QVEQDGRSGHGLRRSSKFCL    266
+
+FLII_AQUAE       334 DGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFF-KEVLS    382
+                     ..|..|.....:.|.|       :|..|...:|:..|.::.|.. |||..
+ADRB2_MESAU      267 KEHKALKTLGIIMGTF-------TLCWLPFFIVNIVHVIQDNLIPKEVYI    309
+
+FLII_AQUAE       383 KFEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPEEKVNFEE--    430
+                     .      |..:|......|||:             :.:.|:.::.|:|  
+ADRB2_MESAU      310 L------LNWLGYVNSAFNPLI-------------YCRSPDFRIAFQELL    340
+
+FLII_AQUAE       431 -----SLKALDEIYS    440
+                          |.||....||
+ADRB2_MESAU      341 CLRRSSSKAYGNGYS    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           5/27 (18.5%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       252 KDVLLLMDSITRLALAQREIGLAAGEP    278
+                     ||:.:.:|......||.:|     |:|
+ID5B_ADEPA         4 KDLGISIDDDNNRRLAVKE-----GDP     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    22/47 (46.8%)
+# Gaps:          10/47 (21.3%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       133 QINPLYRERIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLL    179
+                     ::|....|:|::.....:|.:. |..||.|:.         ||||:|
+GPA7_CAEEL        14 RLNRRIDEQIKKDQSMSLRIIK-LLLLGAGES---------GKSTIL     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      24/98 (24.5%)
+# Similarity:    35/98 (35.7%)
+# Gaps:          34/98 (34.7%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        24 LKVSGEIVSAK---GIYLEAILPFANIGNEVEIQSNS----RRIRGEVIG     66
+                     |.|:...:|.|   |::..::.....:|     :||.    ||.|.|:  
+IDI_ECO24         46 LLVTRRALSKKAWPGVWTNSVCGHPQLG-----ESNEDAVIRRCRYEL--     88
+
+FLII_AQUAE        67 FSGDKVLVMPYE---PVFGLRKGDKVLLKNELVSTKTGNGVVGKVVDP    111
+                         .|.:.|.|   |.|..|..|.             ||:|...|.|
+IDI_ECO24         89 ----GVEITPPESIYPDFRYRATDP-------------NGIVENEVCP    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      26/111 (23.4%)
+# Similarity:    45/111 (40.5%)
+# Gaps:          26/111 (23.4%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        66 GFSG----------DKVLVMPYEPVFGLRKGDK-----------VLLKNE     94
+                     ||||          :|.|:.|..|.....:||:           .|.|:.
+YHJA_ECOLI       300 GFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDN    349
+
+FLII_AQUAE        95 LVSTKTGNGVV--GKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERI    142
+                     ..:|..| |::  |:..:|.|...|..| |.:....:....:....|:::
+YHJA_ECOLI       350 KCATCHG-GIILGGRSFEPLGLKKDFNF-GEITAADIGRMNVTKEERDKL    397
+
+FLII_AQUAE       143 REVFDTGVRSV    153
+                     |:.. .|:|:|
+YHJA_ECOLI       398 RQKV-PGLRNV    407
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:      11/26 (42.3%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        94 ELVS-TKTGNGVVGKVVD-PFGNPLD    117
+                     |||. .:||.|:|...:| |.|..:|
+RIMP_BURPS        17 ELVDLERTGRGMVCVYIDQPAGITID     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    23/47 (48.9%)
+# Gaps:           5/47 (10.6%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        46 NIGNEVEIQSNSRRIRGEVIGFSGDKVLVMPYE-PVFGLRKGDKVLL     91
+                     ||| ....|....::|.|.:..:|::.:....: ||   |:||.:.|
+RS28_OSTOS        13 NIG-RTGSQGQCTQVRVEFMDDNGNRTINRNVKGPV---REGDILTL     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 112
+# Identity:      25/112 (22.3%)
+# Similarity:    42/112 (37.5%)
+# Gaps:          30/112 (26.8%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       243 HAH--HFASQGKDVL-LLMDSITRLALAQREIGLAAGEPPTLKGFT----    285
+                     ||:  |..:.||.|: .|.|::..|...:..:...:    .|..||    
+HBAC_LITCT        50 HANSAHLKNHGKKVMNALTDAVKHLDHPEASLSSLS----DLHAFTLRVD     95
+
+FLII_AQUAE       286 PSVFQLLTRIAESCGAFKKGSITGIFTVLV--EGDDISLD--PIADSLMG    331
+                     |..|.||:              ..|..|:.  ..|.:|.:  ...|..:.
+HBAC_LITCT        96 PGNFALLS--------------NNILVVVAVHHSDKLSYETHQALDKFLN    131
+
+FLII_AQUAE       332 VLDGHIILSRKR    343
+                     |:.| ::.|:.|
+HBAC_LITCT       132 VVSG-LLTSKYR    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 387
+# Identity:      76/387 (19.6%)
+# Similarity:   123/387 (31.8%)
+# Gaps:         136/387 (35.1%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        70 DKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKVVDPFGNPLDGG    119
+                     ||:|..|.....|.....|:||  |:|..|.|             ..:|.
+RPOA_PRRSS       574 DKMLTSPSPERSGFSSLYKLLL--EVVPQKCG-------------ATEGA    608
+
+FLII_AQUAE       120 FIGFVE---------EKGLEL-----------PQIN--------------    135
+                     |:..||         |:.:.|           |.::              
+RPOA_PRRSS       609 FVYAVERMLKDCPSPEQAMALLAKIKVPSSKAPSVSLDECFPAGVPADFE    658
+
+FLII_AQUAE       136 PLYRERIR----------------------EVFDTGVRSVNALFTLGKG-    162
+                     |.::||.|                      |..::|.::|:|: .|.:| 
+RPOA_PRRSS       659 PAFQERPRSPGAAVALCSPDAKGFEGTASEEAQESGHKAVHAV-PLAEGP    707
+
+FLII_AQUAE       163 --QKIGIFAG-----AGVGKSTLLGMITRHSK------------------    187
+                       :::.:.||     .|.|.:......:..||                  
+RPOA_PRRSS       708 NNEQVQVVAGEQLELGGCGLAIGSAQSSSDSKRENMHNSREDEPLDLSHP    757
+
+FLII_AQUAE       188 ADVVVLALIGERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGA    237
+                     |......|:||:       ..:..|.:.....:.|.......|||:    
+RPOA_PRRSS       758 APAATTTLVGEQ-------TPDNPGSDASALPIAVRGFVPTGPILR----    796
+
+FLII_AQUAE       238 ISAVVHAHHFASQGKD--------VLLLMDSITRLALAQREIGLAAGEPP    279
+                          |..|..::..|        ....:|....|:||...:...|.:|.
+RPOA_PRRSS       797 -----HVEHCGTESGDSSSPLDLSFAQTLDQPLDLSLAAWPVKATASDPG    841
+
+FLII_AQUAE       280 TLKGFTPSVFQLLTRIAESCG--AFKKGSITGIFTVLVEGDDISLDPIAD    327
+                     .::|....|| |..|.|.|.|  |.:.|.::...:|      |..|...|
+RPOA_PRRSS       842 WVRGRCEPVF-LKPRKAFSDGDSALQFGELSESSSV------IEFDQTKD    884
+
+FLII_AQUAE       328 SLMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPK    364
+                     :|  |.|..:.|:.....   ..||||...:....|:
+RPOA_PRRSS       885 TL--VADAPVDLTTSNEA---LSAVDPSEFVELRRPR    916
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      36/178 (20.2%)
+# Similarity:    71/178 (39.9%)
+# Gaps:          55/178 (30.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       294 RIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHII-LSRK    342
+                     |:.:..|.  .|.:|..|:.||       .|..:.::..::..:: :.|.
+UBIE_PSEAE        71 RVLDIAGG--TGDLTRQFSRLV-------GPTGEVVLADINASMLKVGRD    111
+
+FLII_AQUAE       343 RAV-RGLFPAVDPVRSLSRLMPKLVSEEHF---MKANFFKEVLSKFEDVE    388
+                     :.: :|:...|..|::.:..:|  ..:.||   ..|...:.|..|.|.:.
+UBIE_PSEAE       112 KLLDKGVSGNVSFVQADAEKLP--FPDNHFDCVTIAFGLRNVTHKDEAIR    159
+
+FLII_AQUAE       389 ELVRIGLYKGG-----------SN--------------PLVDKVINNLEK    413
+                     .::|: |..||           ||              ||:.|::.|  .
+UBIE_PSEAE       160 SMLRV-LKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTN--D    206
+
+FLII_AQUAE       414 VESF------FKQKPEEKVNFEESLKAL    435
+                     .||:      .:..|:     :|:|||:
+UBIE_PSEAE       207 SESYRYLAESIRMHPD-----QETLKAM    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 443
+# Identity:     443/443 (100.0%)
+# Similarity:   443/443 (100.0%)
+# Gaps:           0/443 ( 0.0%)
+# Score: 2207.0
+# 
+#
+#=======================================
+
+FLII_AQUAE         1 MKGIRRNLQKSYLKRCSEMYLRGLKVSGEIVSAKGIYLEAILPFANIGNE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE         1 MKGIRRNLQKSYLKRCSEMYLRGLKVSGEIVSAKGIYLEAILPFANIGNE     50
+
+FLII_AQUAE        51 VEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKT    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE        51 VEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKT    100
+
+FLII_AQUAE       101 GNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       101 GNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGV    150
+
+FLII_AQUAE       151 RSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       151 RSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERG    200
+
+FLII_AQUAE       201 REVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQ    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       201 REVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFASQ    250
+
+FLII_AQUAE       251 GKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       251 GKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCG    300
+
+FLII_AQUAE       301 AFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRAVRGLFP    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       301 AFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRAVRGLFP    350
+
+FLII_AQUAE       351 AVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGS    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       351 AVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGS    400
+
+FLII_AQUAE       401 NPLVDKVINNLEKVESFFKQKPEEKVNFEESLKALDEIYSLLK    443
+                     |||||||||||||||||||||||||||||||||||||||||||
+FLII_AQUAE       401 NPLVDKVINNLEKVESFFKQKPEEKVNFEESLKALDEIYSLLK    443
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      23/123 (18.7%)
+# Similarity:    44/123 (35.8%)
+# Gaps:          24/123 (19.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        79 PVFGLRKGDKVLLKNELVSTKTGNGVVGKVVDP-----------------    111
+                     |:......|.|.:||...:|.:.|.:..:.:.|                 
+MSS11_VANPO       90 PLLTGNNNDDVAVKNPTAATLSQNDLNPRELLPTKMLMNANDTFLLEWWE    139
+
+FLII_AQUAE       112 -FGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGVRSVNALFTLG    160
+                      |.:..|     ||:...|...|.|...::||..:..|..:.....::..
+MSS11_VANPO      140 YFSSVYD-----FVDTSDLSALQNNDFLQDRIFPILPTSNKVPTQRYSRQ    184
+
+FLII_AQUAE       161 KGQKIGIFAGAGVGKSTLLGMIT    183
+                     :..::.:...: .|.|:..||.|
+MSS11_VANPO      185 QSDQVQMNQNS-TGNSSRSGMGT    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      75/316 (23.7%)
+# Similarity:   110/316 (34.8%)
+# Gaps:         115/316 (36.4%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE       189 DVVVLALIGERGREVKEFL----EEVLG-EEGLKKSVVVVSTADQSPILK    233
+                     ||||.|:.|. |:.: .||    |::|. ||.:||..|            
+SPB4_ASPFU        53 DVVVEAVTGS-GKTL-SFLIPVVEKLLRLEEPIKKHHV------------     88
+
+FLII_AQUAE       234 VKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKG    283
+                       ||| .:......|||..:||               ..|.|..||:...
+SPB4_ASPFU        89 --GAI-IISPTRELASQIYNVL---------------SSLLAFHPPSAAA    120
+
+FLII_AQUAE       284 FTPS-----------------VFQLL----TRIAESCGAFKKGSITGIFT    312
+                     ..||                 |.|||    |..||....|.|.|.    .
+SPB4_ASPFU       121 INPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSP----N    166
+
+FLII_AQUAE       313 VLVEGDDISLD---------PIADSLMGVLDGHIILSRKRAVRGL-FPAV    352
+                     |||......|:         |.:...|.|||        .|.|.| ....
+SPB4_ASPFU       167 VLVSTPGRLLELLSSPHVHCPQSSFEMLVLD--------EADRLLDLGFK    208
+
+FLII_AQUAE       353 DPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGL-------    395
+                     :.::::.|.:||.      .:...|...:|  |.|:::||:||       
+SPB4_ASPFU       209 ETLQNILRRLPKQ------RRTGLFSASVS--EAVDQIVRVGLRNPVKVM    250
+
+FLII_AQUAE       396 --YKGGSNPLVDK-----------------VINNLEKVESFFKQKPEEKV    426
+                       .||||. :.||                 ....|:::.|..:..|.:.:
+SPB4_ASPFU       251 VKVKGGSG-VDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTI    299
+
+FLII_AQUAE       427 NFEESLKALDEIYSLL    442
+                     .|..:...:|.:.::|
+SPB4_ASPFU       300 FFVSTCSGVDYLSAIL    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      55/267 (20.6%)
+# Similarity:    92/267 (34.5%)
+# Gaps:         103/267 (38.6%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        44 FANIGNEVEIQSNSRR---IRGEVIGFSGDKVLVMPYEPVFGLRKGDKVL     90
+                     ||::..::|:.:..|.   .|.:.|.|:.:..:     |:...::....:
+ASSY_MYCTO       132 FASLAPDLEVLAPVRDYAWTREKAIAFAEENAI-----PINVTKRSPFSI    176
+
+FLII_AQUAE        91 LKNELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEE------KGL----E    130
+                     .:|          |.|:.|:          .||:|.      |.:    |
+ASSY_MYCTO       177 DQN----------VWGRAVE----------TGFLEHLWNAPTKDIYAYTE    206
+
+FLII_AQUAE       131 LPQINPLYRERIREVFDTGV------RSVNALFTLGKGQKIGIFAGA-GV    173
+                     .|.||....:.:...|:.||      :.|:.|..:   :::...||| ||
+ASSY_MYCTO       207 DPTINWGVPDEVIVGFERGVPVSVDGKPVSMLAAI---EELNRRAGAQGV    253
+
+FLII_AQUAE       174 GKSTLLGMITRHSKADVVVLALIGERGREVKE-----------------F    206
+                     |            :.|||...|:|.:.||:.|                 .
+ASSY_MYCTO       254 G------------RLDVVEDRLVGIKSREIYEAPGAMVLITAHTELEHVT    291
+
+FLII_AQUAE       207 LEEVLGE--------------EGLKKS-------VVVVSTADQSPILKVK    235
+                     ||..||.              :||..|       ..|..|.:.     |.
+ASSY_MYCTO       292 LERELGRFKRQTDQRWAELVYDGLWYSPLKAALEAFVAKTQEH-----VS    336
+
+FLII_AQUAE       236 GAISAVVHAHHFASQGK    252
+                     |.:..|:|..|.|..|:
+ASSY_MYCTO       337 GEVRLVLHGGHIAVNGR    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 346
+# Identity:      81/346 (23.4%)
+# Similarity:   114/346 (32.9%)
+# Gaps:          86/346 (24.9%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+FLII_AQUAE        40 AILPFANIGNEVEIQSN--SRRIRGEVIGFSGDKVLVMPYEPVFG-----     82
+                     |.|...|..|.|.::|.  :|..:|:.||..|     .||....|     
+ECCB1_MYCS2      104 ARLVLGNASNPVAVKSEELNRISKGQSIGIPG-----APYATPTGTPASQ    148
+
+FLII_AQUAE        83 ------LRKGDKVLLKNE---LVSTKTGNGVVGKVVDPFGNPLDGGFIGF    123
+                           :.|.|....|.|   |:.|...:..||.:      ..|.|.:  
+ECCB1_MYCS2      149 WTLCDTVAKPDSSAPKVETSILIRTLAIDSGVGPI------RADQGML--    190
+
+FLII_AQUAE       124 VEEKGLELPQINPLYRERIREVFDTGVRSV--------------------    153
+                     |..:|     .|.|..|..|...|...|:|                    
+ECCB1_MYCS2      191 VSYEG-----ANWLITEGGRHSIDLADRAVTSAVGIPVTAKPTPISQGLF    235
+
+FLII_AQUAE       154 NALFTLGKGQKIGI-FAGA----GVGKSTLLGMITR-HSKADVVVLALIG    197
+                     |||...|..|...| .|||    |:.::.::|.:.| .:::|.....::.
+ECCB1_MYCS2      236 NALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYVVLP    285
+
+FLII_AQUAE       198 ERGREVKEFLEEVL---GEEGLKKSVVVVSTADQSPILKVKGAISAVVHA    244
+                     :....|.......|   ...||.:...|.::        |...|...|:.
+ECCB1_MYCS2      286 DGVARVNNTTAAALRATNSYGLMQPPAVEAS--------VVAKIPEQVYV    327
+
+FLII_AQUAE       245 HHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTR    294
+                     .....|..||||..||.......|||.|..|.:...:.|         .|
+ECCB1_MYCS2      328 SPLPDQPLDVLLRQDSPVLCWSWQREPGDQAPKTTVIAG---------RR    368
+
+FLII_AQUAE       295 IAESCGAFKKG--SITGIFTVLVEGDDI----SLDPIADSLMGVLD    334
+                     :.....|...|  .|.|..||.:||...    |.||.....|..:|
+ECCB1_MYCS2      369 LPLPANAIGTGIDQIGGDSTVYIEGGQFVRLQSPDPRVGESMYYID    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:      53/262 (20.2%)
+# Similarity:    85/262 (32.4%)
+# Gaps:          87/262 (33.2%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       144 EVFDT--GVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRH------    185
+                     ||.|.  |.:.|..:|.||         |.|.||.|....|..|      
+KCY4_ORYSJ        16 EVTDNMLGDKKVTVVFVLG---------GPGSGKGTQCANIVEHFGFIHL     56
+
+FLII_AQUAE       186 SKADVVVLALIGERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVK    235
+                     |..|::...:  :.|.|....:|.::.|..:..|.|.:....::.|    
+KCY4_ORYSJ        57 SAGDLLRAEI--KSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMI----    100
+
+FLII_AQUAE       236 GAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFT    285
+                                  ..|.|..|                        :.|| 
+KCY4_ORYSJ       101 -------------KSGNDKFL------------------------IDGF-    112
+
+FLII_AQUAE       286 PSVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLM----G    331
+                            .|..|:..||:  ::|.|....|...|.|.:.:...|:    |
+KCY4_ORYSJ       113 -------PRNEENRAAFE--NVTKITPAFVLFFDCSEEEMERRLLGRNQG    153
+
+FLII_AQUAE       332 VLDGHIILSRKR---AVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFK    378
+                     .:|.:|...|||   .|....|.::...          :::...|.:..|
+KCY4_ORYSJ       154 RVDDNIETIRKRFKVFVESSLPVIEYYN----------AKDKVKKIDAAK    193
+
+FLII_AQUAE       379 EVLSKFEDVEEL    390
+                     .:...||||:.:
+KCY4_ORYSJ       194 PIPEVFEDVKAI    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 321
+# Identity:      69/321 (21.5%)
+# Similarity:   117/321 (36.4%)
+# Gaps:         106/321 (33.0%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        23 GLKV--SGEIVSAKGI-YLEAILP--FANIGNEVEIQSNS-RRIRGEVIG     66
+                     |:||  .||::.|.|. .|:...|  :.:.|...:.|::. .|..|.:: 
+HCP_TRIV2        260 GIKVYTHGELLPAHGYPKLKQTHPHLYGHYGTAWQNQTHEFERFPGAIV-    308
+
+FLII_AQUAE        67 FSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKVVDPFGNPL    116
+                      .....|:.|:|..     .|||.                 .:.|.|.| 
+HCP_TRIV2        309 -MTTNCLMPPHETY-----KDKVF-----------------TLGPVGYP-    334
+
+FLII_AQUAE       117 DGGF-------IGFVEEKGLELPQINP----------LYRERIREVFDTG    149
+                       |.       |..|.:|.||||....          ..|..:..|.||.
+HCP_TRIV2        335 --GLQHISIHDISLVIQKALELPGFTEDSEQKTVTTGFARNAVLGVADTV    382
+
+FLII_AQUAE       150 VRSVNALFTLGKGQ-----KIGIFAGAGVGKSTLLGMITRHSKADVVVLA    194
+                     :.:|.      :|.     .:|...||..|::....::.:... |.|||.
+HCP_TRIV2        383 INAVK------QGDIRHFFLVGGCDGAKPGRNYYSDLVEKIPN-DCVVLT    425
+
+FLII_AQUAE       195 LIGERGREVKEFLEEVLGEEG-----------------LKKSVVVVST--    225
+                     |    |.....|.::.||:.|                 ::.:|.:.:|  
+HCP_TRIV2        426 L----GCGKFRFFDQNLGDIGGIPRLLDLGQCNDAYSAIQIAVALANTFE    471
+
+FLII_AQUAE       226 --ADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGL    273
+                       .:|.|       :|.::..:    :.|.:.:|: ::..|.:....|| 
+HCP_TRIV2        472 VNVNQLP-------LSMILSWY----EQKAIAVLL-TLLYLGIQNIRIG-    508
+
+FLII_AQUAE       274 AAGEPPTLKGF-TPSVFQLLT    293
+                          |||..| ||:|.:||:
+HCP_TRIV2        509 -----PTLPAFLTPNVVKLLS    524
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      57/235 (24.3%)
+# Similarity:    84/235 (35.7%)
+# Gaps:          68/235 (28.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        80 VFGLRKGDKVLLKNELVSTKTGNGVVGKVVDPFGNPLDGG----------    119
+                     |..:|..|...||:|..|::|.|. |.|.||.  |..||.          
+UBX7_YEAST       218 VLQIRMTDGKTLKHEFNSSETLND-VRKWVDV--NRTDGDCPYSFHRGIP    264
+
+FLII_AQUAE       120 ---FIGFVEEKGLELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIG    166
+                        |....|.|.||..::.|              ||...|..| :.|..|
+UBX7_YEAST       265 RVTFKDSDELKTLETLELTP--------------RSALLLKPL-ETQNSG    299
+
+FLII_AQUAE       167 IFAGAGVGKSTLLGMITR------HSKADVVVLALIGERGREVKEFLEEV    210
+                     : :..|:...:|||.:.:      |:..|..|.:   :|....|....||
+UBX7_YEAST       300 L-SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTS---QREETSKPNRHEV    345
+
+FLII_AQUAE       211 LGEEGLKKSVVVVSTADQSPILK---VKGAISAVVHAHHFASQGKDVLLL    257
+                            :|...:|.|..|...:   |:..:.:..||..         :|
+UBX7_YEAST       346 -------RSSTPLSGAASSSCFQYNNVREPVQSSAHASP---------ML    379
+
+FLII_AQUAE       258 MDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLL    292
+                     ..|.||.   ..|..|.     |.:..:|:|||.:
+UBX7_YEAST       380 TPSGTRY---PSETNLT-----TSRSVSPNVFQFV    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 210
+# Identity:      50/210 (23.8%)
+# Similarity:    73/210 (34.8%)
+# Gaps:          62/210 (29.5%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+FLII_AQUAE        45 ANIGNEVEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNE     94
+                     |.:|.|..::|.    ||.|...:.     .|.:...||...|.:.....
+RPOA_ACICJ       147 ATLGMEFTVESG----RGYVPAAAN-----RPEDAPIGLIPVDSIYSPVR    187
+
+FLII_AQUAE        95 LVSTKTGNGVVGKVVD-----------PFGNPLD-------------GGF    120
+                     .||.:.....||:|.|           ....|.|             |.|
+RPOA_ACICJ       188 RVSYRVEPTRVGQVTDYDRLILNIETNGAVTPEDAVALAARILQDQLGMF    237
+
+FLII_AQUAE       121 IGFVEEKGL-------ELPQINPLYRERIREVFDTGVRSVNALFTLGKGQ    163
+                     |.|.|.:.|       ||| .||....::.|: :..|||.|.|    |..
+RPOA_ACICJ       238 INFEEPQRLRAEEPRPELP-FNPNLLRKVDEL-ELSVRSANCL----KND    281
+
+FLII_AQUAE       164 KIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERG-REVKEFLEEVLG    212
+                     .|           ..:|.:.:.|:.:::.....|.:. .|:|    |||.
+RPOA_ACICJ       282 NI-----------VYIGDLVQKSEQEMLRTPNFGRKSLNEIK----EVLS    316
+
+FLII_AQUAE       213 EEGLKKSVVV    222
+                     ..||...:||
+RPOA_ACICJ       317 AMGLGLGMVV    326
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      18/66 (27.3%)
+# Similarity:    32/66 (48.5%)
+# Gaps:           5/66 ( 7.6%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+FLII_AQUAE       378 KEVLSKFEDVEELVRIGLY---KGGSNPLVDKVINNLEKVESFFKQ-KPE    423
+                     ||::.:|.|..: .|:.|:   |.|...|.......||:.|...|: ..:
+YXAD_BACSU        77 KELIYRFSDPSD-GRVSLFTITKLGKQLLKADQQKRLERYEQMLKEWSTQ    125
+
+FLII_AQUAE       424 EKVNFEESLKALDEIY    439
+                     ||..|.|.|:.:::.:
+YXAD_BACSU       126 EKEMFGELLQRMNKAF    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: FLII_AQUAE
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 492
+# Identity:      94/492 (19.1%)
+# Similarity:   169/492 (34.3%)
+# Gaps:         146/492 (29.7%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+FLII_AQUAE         7 NLQKSYLKRCSEMYLRGLKVSGEIVSAKGIYLE---AILPFANIGNEV--     51
+                     |:|...|....:.::    |..:|....|::.:   .:|.:....|.|  
+FADB_SHESR        51 NIQALVLTSGKDTFI----VGADITEFLGLFAQDDAVLLSWVEQANAVFN     96
+
+FLII_AQUAE        52 EIQS----NSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDKVLLKNELVS     97
+                     :::.    .:..|:|..:|...:.:|...:      |..| ...|..|..
+FADB_SHESR        97 KLEDLPFPTASAIKGFALGGGCETILATDF------RIAD-TTAKIGLPE    139
+
+FLII_AQUAE        98 TKTGNGVVGKVVDPFG------------------------NPLDGGFIGF    123
+                     ||.|      ::..||                        .|.|...:|.
+FADB_SHESR       140 TKLG------IIPGFGGTVRLPRVIGADNALEWITTGKDQRPEDALKVGA    183
+
+FLII_AQUAE       124 VE----EKGLELPQINPLYRERIREVFDTGVR-----------SVNAL--    156
+                     |:    .:.||...|..| ::.:.|..|...|           .:.|:  
+FADB_SHESR       184 VDAVVAPEALEAAAIQML-KDAVAEKLDWQARRHRKMSPLTLPKLEAMMS    232
+
+FLII_AQUAE       157 FTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGE---RGR--    201
+                     ||..||.   :||.||           :|..|.:..::::.:   :||  
+FADB_SHESR       233 FTTAKGM---VFAVAG-----------KHYPAPMAAVSVVEQAATKGRSD    268
+
+FLII_AQUAE       202 ----EVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGA-------ISA    240
+                         |.:.|::  |.:..:.|:::.:...||....|.|.|       .||
+FADB_SHESR       269 ALQIEHQAFIK--LAKTDVAKALIGIFLNDQLVKGKAKKAGKLAKDVKSA    316
+
+FLII_AQUAE       241 VV---------HAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTL    281
+                     .|         .|:..||:|..:::       ..:||..:.|..||...|
+FADB_SHESR       317 AVLGAGIMGGGIAYQSASKGTPIVM-------KDIAQPALDLGLGEAAKL    359
+
+FLII_AQUAE       282 ------KG-FTP-SVFQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLD    323
+                           :| .|| .:.::|..|..:...........:...:||...:...
+FADB_SHESR       360 LSAQVARGRSTPEKMAKVLNNITPALDYAPVNHADVVVEAVVEHPKVKAQ    409
+
+FLII_AQUAE       324 PIADSLMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMK    373
+                     .:|:....|.:..||.|....:           |::.|...:...|.|..
+FADB_SHESR       410 VLAEVEQYVSEDAIIASNTSTI-----------SINLLAKSMKKPERFCG    448
+
+FLII_AQUAE       374 ANFFK--------EVL-SKFEDVEELVRIGLY--KGGSNPLV    404
+                     .:||.        ||: .:....|.:..:..|  |.|..|:|
+FADB_SHESR       449 MHFFNPVHKMPLVEVIRGEHSSEETIASVVAYASKMGKTPIV    490
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,342 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/RPOA_STAAN.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/RPOA_STAAN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/RPOA_STAAN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      23/145 (15.9%)
+# Similarity:    53/145 (36.6%)
+# Gaps:          39/145 (26.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+RPOA_STAAN         1 MIEIEKPRIETIEISEDAKFGKFVVEPL-ERGYGTTLGNSLRRILLSSLP     49
+                     |:|: :..::.:.:|.....|..|..|. ...|..:.|..:   |..|:|
+NADK_ACIET       166 MVEL-RVEVDGVFVSNQRADGLIVASPTGSTAYALSAGGPM---LHPSIP    211
+
+RPOA_STAAN        50 GAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYSEEDKTLEI     99
+                     |    ::.:....|..|....|:.|.:       ::|:::....|.:...
+NADK_ACIET       212 G----WVLVPIAPHTLSNRPIVLSDAT-------EVAIEVAGGRDISANF    250
+
+RPOA_STAAN       100 DVRDEGEVTASDITHDSDVEILNPELKIATVSKGGHLKIRLVANK    144
+                     |::                       .:|::..|..:.:|..|::
+NADK_ACIET       251 DMQ-----------------------SLASLQHGDRILVRRSAHR    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      13/49 (26.5%)
+# Similarity:    22/49 (44.9%)
+# Gaps:           9/49 (18.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RPOA_STAAN       256 LDLSVRSYNCLKRAGINSVQELAD------KSEADMMKVRNLGRKSLEE    298
+                     |.:|..::|.   .|.|..|.:.|      .:.||::...|||.:.:.|
+PSBA_ANGEV       288 LGISTMAFNL---NGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHE    333
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      30/120 (25.0%)
+# Similarity:    47/120 (39.2%)
+# Gaps:          31/120 (25.8%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+RPOA_STAAN       194 LTLDVWTNGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIE----    239
+                     |:|..:.| |.|...|...|||            |::....:|:.:    
+Y128_RICFE        13 LSLSCFAN-STTSDGSKKDAAK------------TNDGTTQKIIDDFSAY     49
+
+RPOA_STAAN       240 ----KEEDQKEKVLEMSIEELDLSVRSYNCLKRAGINSVQELADKSEADM    285
+                         |.|.:|| :.|..:|.:|:     |..||...||:.:.|....|:.
+Y128_RICFE        50 AGTIKPEVRKE-IQEYRVEIVDI-----NKKKRELYNSLSKEAQNFLAEQ     93
+
+RPOA_STAAN       286 MKVRNLGRKSLEEVKYKLED    305
+                     .|.    ::.|...|...||
+Y128_RICFE        94 QKY----KQKLSISKLPTED    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:     314/314 (100.0%)
+# Similarity:   314/314 (100.0%)
+# Gaps:           0/314 ( 0.0%)
+# Score: 1557.0
+# 
+#
+#=======================================
+
+RPOA_STAAN         1 MIEIEKPRIETIEISEDAKFGKFVVEPLERGYGTTLGNSLRRILLSSLPG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN         1 MIEIEKPRIETIEISEDAKFGKFVVEPLERGYGTTLGNSLRRILLSSLPG     50
+
+RPOA_STAAN        51 AAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYSEEDKTLEID    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN        51 AAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYSEEDKTLEID    100
+
+RPOA_STAAN       101 VRDEGEVTASDITHDSDVEILNPELKIATVSKGGHLKIRLVANKGRGYAL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN       101 VRDEGEVTASDITHDSDVEILNPELKIATVSKGGHLKIRLVANKGRGYAL    150
+
+RPOA_STAAN       151 AEQNNTSDLPIGVIPVDSLYSPVERVNYTVENTRVGQSSDFDKLTLDVWT    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN       151 AEQNNTSDLPIGVIPVDSLYSPVERVNYTVENTRVGQSSDFDKLTLDVWT    200
+
+RPOA_STAAN       201 NGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIEKEEDQKEKVLE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN       201 NGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIEKEEDQKEKVLE    250
+
+RPOA_STAAN       251 MSIEELDLSVRSYNCLKRAGINSVQELADKSEADMMKVRNLGRKSLEEVK    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPOA_STAAN       251 MSIEELDLSVRSYNCLKRAGINSVQELADKSEADMMKVRNLGRKSLEEVK    300
+
+RPOA_STAAN       301 YKLEDLGLGLRKED    314
+                     ||||||||||||||
+RPOA_STAAN       301 YKLEDLGLGLRKED    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    22/45 (48.9%)
+# Gaps:           3/45 ( 6.7%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+RPOA_STAAN        32 YGTTLGNSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVS     76
+                     :|:.||..|...:|:.| ..|:.|  .......||:|.::..||:
+CYB_PLEAU         33 FGSLLGICLALQILTGL-FLAMHY--TSDTTTAFSSVTHICRDVN     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      24/128 (18.8%)
+# Similarity:    46/128 (35.9%)
+# Gaps:          28/128 (21.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+RPOA_STAAN        38 NSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLAL     87
+                     ||:.|   .||...::.::........|..:|::                
+RPO8_SACSH        16 NSIER---GSLKNLSIIHMSCNDFNISFDIIDSI----------------     46
+
+RPOA_STAAN        88 KIYSEEDKTLEIDVRDEGEVTASD-------ITHDSDVEILNPELKIATV    130
+                     .|:|:::|......::....|..|       :|...|....|....|..:
+RPO8_SACSH        47 NIFSQKEKVKAFISKNRLSYTNDDFCGHGYIVTELKDSSSNNGNRYITII     96
+
+RPOA_STAAN       131 SKGGHLKIRLVANKGRGYALAEQNNTSD    158
+                     |..| |.:::::|| ..:....|.|..|
+RPO8_SACSH        97 SLFG-LLVKIISNK-ESFLKIHQLNVMD    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      55/301 (18.3%)
+# Similarity:   106/301 (35.2%)
+# Gaps:          76/301 (25.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+RPOA_STAAN        31 GYGTTLGNSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIM     80
+                     ||| |:|..:...:|.. |.     :.:.||.......:..:.....|.:
+G3P_SULIN          8 GYG-TIGKRVADAILKQ-PD-----MRLVGVAKTSPNYEAFIAHRKGIKI     50
+
+RPOA_STAAN        81 NIKQLALKIYSEEDKTLEIDVRDEGEVTASDITHDSDVEILNPELKIA--    128
+                     .:.|.::|.:  |:..:.:....|..|.||||..|:....:..:.|..  
+G3P_SULIN         51 YVPQQSIKKF--EESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQ     98
+
+RPOA_STAAN       129 -----TVSKGGH------LKIRLVAN----KGRGYALAEQNNTSDLPIGV    163
+                          .:.:||.      :....:.|    .|:.|......||:.|...:
+G3P_SULIN         99 QFQRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRTI    148
+
+RPOA_STAAN       164 IPVDSLYSPVERVNYTVENTRVGQ----------------------SSDF    191
+                     ..::.: :.||:|..|:......|                      :.|.
+G3P_SULIN        149 CTINKV-TKVEKVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDV    197
+
+RPOA_STAAN       192 DKL--TLDVWTNGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIE    239
+                     :.:  .||:.|...|.|       ..:|..|   |:.:|          .
+G3P_SULIN        198 NSVIKNLDIVTMAVIAP-------TTLMHMH---FINIT----------L    227
+
+RPOA_STAAN       240 KEEDQKEKVLEMSIEELDLSVRSYNCLKRAGINSVQELADKSEADMMKVR    289
+                     |::.:|:.||.:    |:.:.|......:....:..||.:.:. |:.:.|
+G3P_SULIN        228 KDKVEKKDVLSV----LENTPRIVLISSKYDAEATAELVEVAR-DLKRER    272
+
+RPOA_STAAN       290 N    290
+                     |
+G3P_SULIN        273 N    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      46/206 (22.3%)
+# Similarity:    74/206 (35.9%)
+# Gaps:          62/206 (30.1%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+RPOA_STAAN         9 IETIEISEDAKFGKFVVEPLERGYGTTLGNSLRRILLSSLPGAAVKYIEI     58
+                     ::.||:|..|:.|..|::.....|....||  :|..|:|    ..|.|..
+BLP1_PSEAI        29 VKAIEVSLSARIGVSVLDTQNGEYWDYNGN--QRFPLTS----TFKTIAC     72
+
+RPOA_STAAN        59 EGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYS-----EEDKTLEIDVRD    103
+                     ..:|::  |....|...||:  .||:..|..||     :..:.:.:|...
+BLP1_PSEAI        73 AKLLYD--AEQGKVNPNSTV--EIKKADLVTYSPVIEKQVGQAITLDDAC    118
+
+RPOA_STAAN       104 EGEVTASDIT------------------------HDSDVEILNPELKIAT    129
+                     ...:|.||.|                        .::.::.:.|:|   .
+BLP1_PSEAI       119 FATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDL---N    165
+
+RPOA_STAAN       130 VSKGGHLK-------IRLVANKGR-GYALAEQNN------------TSDL    159
+                     ..|.|.|:       |....||.. |.||:|.|.            |.:|
+BLP1_PSEAI       166 EGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQKKLESWMVNNQVTGNL    215
+
+RPOA_STAAN       160 PIGVIP    165
+                     ...|:|
+BLP1_PSEAI       216 LRSVLP    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     7/15 (46.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+RPOA_STAAN        28 LERGYGTTLGNSLRR     42
+                     |:.|:.....|..||
+PA2AA_ACAAN        3 LQFGFMIRCANKRRR     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPOA_STAAN
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      27/126 (21.4%)
+# Similarity:    48/126 (38.1%)
+# Gaps:          38/126 (30.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+RPOA_STAAN         3 EIEKPRIETIE-----------ISEDAKFGKFVVEPLERGYGTTLGNSLR     41
+                     :|:.|.|..::           |.:....|:.....:|:|:.|....|  
+KCC1A_MOUSE       72 KIKHPNIVALDDIYESGGHLYLIMQLVSGGELFDRIVEKGFYTERDAS--    119
+
+RPOA_STAAN        42 RILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYS     91
+                     |::...|.  ||||:...|::|.                ::|...|..||
+KCC1A_MOUSE      120 RLIFQVLD--AVKYLHDLGIVHR----------------DLKPENLLYYS    151
+
+RPOA_STAAN        92 -EEDKTLEID------VRDEGEVTAS    110
+                      :||..:.|.      :.|.|.|.::
+KCC1A_MOUSE      152 LDEDSKIMISDFGLSKMEDPGSVLST    177
+
+
+#---------------------------------------
+#---------------------------------------

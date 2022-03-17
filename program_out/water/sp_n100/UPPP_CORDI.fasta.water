@@ -1,0 +1,2900 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:08
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/UPPP_CORDI.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/UPPP_CORDI.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/UPPP_CORDI.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      43/186 (23.1%)
+# Similarity:    65/186 (34.9%)
+# Gaps:          46/186 (24.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        78 WF-----RGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLRN    122
+                     ||     .||.|.......:...| ::....||.|..:..|         
+PUR7_VIBVU        94 WFGLFKENGLADSHILDIPHPFVW-IVQKAKPVKIEAICRK---------    133
+
+UPPP_CORDI       123 MWITASVLIAF-----SFVFIAAEKWGSKRRSFDQLTMRDA---VIMGCA    164
+                      :||.|:..|:     .|..|...:...|.::...|.|..:   ::.|  
+PUR7_VIBVU       134 -YITGSMWRAYEKGEREFCGIQLPEGLEKDKALPDLLMTPSTKGILKG--    180
+
+UPPP_CORDI       165 QCLALIPGVSRSGGTVSAGLFVGLDRE-VA---TRFSFLLAIPAVLASGL    210
+                          ||||..:..       |.:.|: :|   ..|:|..|....|...|
+PUR7_VIBVU       181 -----IPGVPEADD-------VNITRQNIADNFAAFNFSSADDIALYEKL    218
+
+UPPP_CORDI       211 FSLPDAFAPDAGQAASGMQLAVGTGIAFALGYASIA    246
+                       |.|.|...:...|:..|:.|.|  .|..||.:.|
+PUR7_VIBVU       219 --LKDGFGVISEALANVGQIFVDT--KFEFGYVTDA    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      11/30 (36.7%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           4/30 (13.3%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       187 GLDREVATRFSFLLAIPAVLASGL-FSLPD    215
+                     |..||:.:| |..||.|  :..|: ..||:
+Y075_NITWN        34 GARRELISR-SAKLAYP--IRDGIPIMLPE     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      15/55 (27.3%)
+# Similarity:    20/55 (36.4%)
+# Gaps:          13/55 (23.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       178 GTVSAGLFV-----GLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAG    222
+                     |.|..|.||     .:|..|..|.:.|..:..|:|.        :..|..
+Y3584_PSEAB      167 GRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAK--------YLEDGR    208
+
+UPPP_CORDI       223 QAASG    227
+                     .|.||
+Y3584_PSEAB      209 DATSG    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      26/108 (24.1%)
+# Similarity:    38/108 (35.2%)
+# Gaps:          37/108 (34.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       181 SAGLFVGLDREVATRFSFLLAIPAV--LASGLFSLPDAFAPDAGQAASGM    228
+                     |..||:...::     |.||||...  ...||.::...|.|:..:.    
+BPT_HAHCH        140 SETLFIEFRKD-----SKLLAIAVTDRTTDGLSAIYTFFDPNEDKR----    180
+
+UPPP_CORDI       229 QLAVGTGIAFALGYASIAWLLKFV---------------GSHSFSWFAAY    263
+                               |||..:|.|.|:|.               |....|:...|
+BPT_HAHCH        181 ----------ALGVYAILWQLQFAREQRLPYLYLGYWIRGCRKMSYKTNY    220
+
+UPPP_CORDI       264 RIPVGLLV    271
+                     | |:.:||
+BPT_HAHCH        221 R-PIQVLV    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      17/79 (21.5%)
+# Similarity:    33/79 (41.8%)
+# Gaps:          12/79 (15.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       159 VIMGCAQCLALIPGVSRSG--GTVSAGLFVGLDREVATRFSFLLAIPAVL    206
+                     |::|.|..|| :.||:::.  ...:..|....|.:|         :.:.|
+KDPC_CAUVN        17 VLLGLAYPLA-VTGVAQAAFPNQANGSLIRDADGKV---------VGSAL     56
+
+UPPP_CORDI       207 ASGLFSLPDAFAPDAGQAASGMQLAVGTG    235
+                     ...:|:.|:.|......|.:|...:..:|
+KDPC_CAUVN        57 IGQVFAKPEYFHGRPSAAGAGYDASASSG     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      43/184 (23.4%)
+# Similarity:    67/184 (36.4%)
+# Gaps:          52/184 (28.3%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        29 ISSSGHLRIVSELF--W-GKDAGAS----FTAVVQLGTEAAVLVYFAKDI     71
+                     :|.:..|.|:.:||  | |.|..:.    ..|.::...:|...:||....
+LPXH_XYLFM        30 VSGADALYILGDLFEVWIGDDMPSEVADMVAAALRTYADAGTPLYFMPGN     79
+
+UPPP_CORDI        72 AKILTGWFRGLFDKKQRGFDY--RMGWMVIVGTLPVSIVG---------L    110
+                     ...|.            |.||  |.|:.::.....|.:.|         |
+LPXH_XYLFM        80 RDFLV------------GADYAARAGFRILPDPCVVDLYGEPTLLLHGDL    117
+
+UPPP_CORDI       111 LAKDII-----RDNLRN-------MWITASVLIAFS---FVFIAAEKWGS    145
+                     |..|.|     |...|:       :..|.|..:|||   .:...|.:.|.
+LPXH_XYLFM       118 LCTDDIAYQAFRAQTRDPEFIAQFLTQTLSARLAFSQQARLASHAHQSGL    167
+
+UPPP_CORDI       146 KRRS----FDQLTMRDAVIMGCAQCLALIPGVSR    175
+                     |:.:    |:::|  |.|....|...|.. ||:|
+LPXH_XYLFM       168 KQENDSTQFEKIT--DVVPADVAAMFACY-GVNR    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      23/93 (24.7%)
+# Similarity:    39/93 (41.9%)
+# Gaps:          19/93 (20.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       180 VSAGLFVGLDREVATRFSFLLAIPAVLASGLFSL-PDAFAPD-AGQAASG    227
+                     ||.||     .:..|..|.:..:..::.|.|||: .:....| .|...:|
+YERI_SCHPO         5 VSPGL-----AKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTG     49
+
+UPPP_CORDI       228 MQLA---VGTGIAFALGYASIAWLLKFVGSHSFSWFAAYRIPV    267
+                     .|:|   :|..:.:|:.:.       |.||...  .:.|:.||
+YERI_SCHPO        50 KQVAKTCLGAVVIYAVFFL-------FCGSQVI--VSRYQKPV     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      28/129 (21.7%)
+# Similarity:    52/129 (40.3%)
+# Gaps:          36/129 (27.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         3 QDPSSQISW--SQTIVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGAS     50
+                     |||.|.:|.  .|.:.|:.:        :|.:..|..:.|...|.|.||.
+RBSA_RUEST       395 QDPVSSLSGGNQQKVALAKM--------LSVNPRLIFLDEPTRGVDVGAK    436
+
+UPPP_CORDI        51 ---FTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWM     97
+                        :..:..|..|.|.:|..:.::.:::     ||.|:            
+RBSA_RUEST       437 AEIYRILRDLAEEGAGIVVISSELPELI-----GLCDR------------    469
+
+UPPP_CORDI        98 VIV---GTLPVSIVGLLAKDIIRDNLRNM    123
+                     |:|   |.|...:.|   .|:..:|:.::
+RBSA_RUEST       470 VLVIHEGCLSGEVSG---PDMTEENIMHL    495
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       9/28 (32.1%)
+# Similarity:    11/28 (39.3%)
+# Gaps:           1/28 ( 3.6%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       233 GTGIAFALGYASIAWLLKFVGSHSFSWF    260
+                     |.|..|. ||...:......|.:.||.|
+KR195_HUMAN       45 GYGSGFG-GYGYRSCRPSCYGGYGFSGF     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 282
+# Identity:     282/282 (100.0%)
+# Similarity:   282/282 (100.0%)
+# Gaps:           0/282 ( 0.0%)
+# Score: 1420.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         1 MTQDPSSQISWSQTIVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGAS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UPPP_CORDI         1 MTQDPSSQISWSQTIVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGAS     50
+
+UPPP_CORDI        51 FTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UPPP_CORDI        51 FTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIV    100
+
+UPPP_CORDI       101 GTLPVSIVGLLAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UPPP_CORDI       101 GTLPVSIVGLLAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSF    150
+
+UPPP_CORDI       151 DQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDREVATRFSFLL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UPPP_CORDI       151 DQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDREVATRFSFLL    200
+
+UPPP_CORDI       201 AIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGIAFALGYASIAWLLK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UPPP_CORDI       201 AIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGIAFALGYASIAWLLK    250
+
+UPPP_CORDI       251 FVGSHSFSWFAAYRIPVGLLVMALLATGMLTA    282
+                     ||||||||||||||||||||||||||||||||
+UPPP_CORDI       251 FVGSHSFSWFAAYRIPVGLLVMALLATGMLTA    282
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      25/135 (18.5%)
+# Similarity:    48/135 (35.6%)
+# Gaps:          31/135 (23.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       116 IRDNLRNMW------ITASVLIAFSFVFIAAEKWGSKRRSFD--------    151
+                     ::..|..:|      :|..|..|.|.        |.:..:.|        
+GREB_ECO57        14 LKQELNYLWREERPEVTKKVTWAASL--------GDRSENADYQYNKKRL     55
+
+UPPP_CORDI       152 -QLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDRE--VATRFSF    198
+                      ::..|...:..|.:.|.::....:..|.|..|.:|.::.:  |..||..
+GREB_ECO57        56 REIDRRVRYLTKCMENLKIVDYSPQQEGKVFFGAWVEIENDDGVTHRFRI    105
+
+UPPP_CORDI       199 LLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVG    233
+                           |....:|...|..:.|:..|.:.::..||
+GREB_ECO57       106 ------VGYDEIFGRKDYISIDSPMARALLKKEVG    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      22/76 (28.9%)
+# Similarity:    32/76 (42.1%)
+# Gaps:          19/76 (25.0%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         1 MTQDPSSQISWSQTIVLS-IVQGLTEFLP----ISSSGHL------RIVS     39
+                     :|.:.|.||   ||::.| ||....|..|    ..:.||:      |:..
+TGT_LEPCP        123 LTPEVSMQI---QTVLNSDIVMQFDECTPYWQGAKNVGHITTEKEARVSM    169
+
+UPPP_CORDI        40 ELF--WGKDAGASFTAVVQLGTEAAV     63
+                     ||.  |...:.|.|   .:||...|:
+TGT_LEPCP        170 ELSLRWAARSKAEF---ARLGNPNAL    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      24/93 (25.8%)
+# Similarity:    33/93 (35.5%)
+# Gaps:          37/93 (39.8%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       125 ITASVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQCLALI----    170
+                     |||.||:.               .|||:|..|.:...|     .::    
+CBPQ_HUMAN       146 ITAEVLVV---------------TSFDELQRRASEARG-----KIVVYNQ    175
+
+UPPP_CORDI       171 PGVS-------RSGGTVSA---GLFVGLDREVATRFSFLLAIP    203
+                     |.::       |:.|.|.|   |....|.|.||   ||.:..|
+CBPQ_HUMAN       176 PYINYSRTVQYRTQGAVEAAKVGALASLIRSVA---SFSIYSP    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      31/145 (21.4%)
+# Similarity:    46/145 (31.7%)
+# Gaps:          54/145 (37.2%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       176 SGGTVSAGLFVGLDREV------ATRFSFLLAIPAVLASGLFSL------    213
+                     |||        |.:|.:      ...|....|..||.|:|:.|:      
+PSA6_SOYBN         5 SGG--------GYNRHITIFSPEGRLFQVEYAFKAVKAAGITSIGVRGKD     46
+
+UPPP_CORDI       214 ----------PDAFAPDA------------GQAASGMQLAVGTGI-----    236
+                               ||....:.            |..|:||.....|.:     
+PSA6_SOYBN        47 SICVVTHKKVPDKLLDNTSVTHLFPITKYLGLLATGMTADARTLVQQARN     96
+
+UPPP_CORDI       237 -----AFALGY-ASIAWLLKFVGSHSFSWFA-AYRIPVGLLVMAL    274
+                          .|..|| ..:..|.|::...|..:.. ||..|:|::.|.|
+PSA6_SOYBN        97 EAAEFRFTYGYEMPVDVLAKWIADKSQVYTQHAYMRPLGVVAMVL    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      28/134 (20.9%)
+# Similarity:    43/134 (32.1%)
+# Gaps:          43/134 (32.1%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       141 EKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDR    190
+                     ||...|::...|:.....::..|||             .:|.|     |:
+SCL34_ARATH      234 EKGKKKKKKKSQVVDFRTLLTHCAQ-------------AISTG-----DK    265
+
+UPPP_CORDI       191 EVATRFSFLLAIPAVLASGLFSLPDAFAP--DAGQA-------ASGMQLA    231
+                     ..|..|             |..:....:|  ||||.       |...:|.
+SCL34_ARATH      266 TTALEF-------------LLQIRQQSSPLGDAGQRLAHCFANALEARLQ    302
+
+UPPP_CORDI       232 VGTGIAFALGYASIAWLLKFVGSHSFSWFAAYRI    265
+                     ..||......|.::...||...:.:   ..|||:
+SCL34_ARATH      303 GSTGPMIQTYYNALTSSLKDTAADT---IRAYRV    333
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      15/47 (31.9%)
+# Similarity:    21/47 (44.7%)
+# Gaps:          16/47 (34.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       167 LALIP-GVSRSGGTVSAGLFVGLDREVATRFS----FLLAIPAVLAS    208
+                     :|:.| ||.||        .||   |:..||.    .|:|:..:.||
+NDKA_CANLF         9 IAIKPDGVQRS--------LVG---EIIKRFEQKGFRLIAMKLIQAS     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      25/102 (24.5%)
+# Similarity:    38/102 (37.3%)
+# Gaps:          36/102 (35.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         5 PSSQISWSQTIVLSI-VQGLTE---FLP--------------ISSSGH--     34
+                     |...:..:.|||.:| .|.:|:   |.|              :...||  
+RS4_CAEEL        149 PDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRE    198
+
+UPPP_CORDI        35 -LRIVSELFWGKD-AGASFT--------------AVVQLGTEAAVLVYFA     68
+                      |...|::...|| ||.||.              |:|.|.|.|.:.:..|
+RS4_CAEEL        199 RLPGASDIIHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRLSIA    248
+
+UPPP_CORDI        69 KD     70
+                     ::
+RS4_CAEEL        249 EE    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    12/26 (46.2%)
+# Gaps:           9/26 (34.6%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       146 KRRSFDQLTMRDAVIMGCAQCLALIP    171
+                     |||..:|         ..|:|:|.:|
+G45IP_CHLAE      113 KRREREQ---------HIAECMAKMP    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      16/60 (26.7%)
+# Similarity:    24/60 (40.0%)
+# Gaps:          12/60 (20.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        46 DAGASFTAVVQLGT----------EAAVLVYFAKDIAKILTGWFRGLFDK     85
+                     |.||::..||...|          :...:.|...|.|  :||...|...|
+DAPEL_OCEIH      281 DYGANYYQVVNDATYVQQFENVINQTQTITYQQADAA--MTGEDFGDMLK    328
+
+UPPP_CORDI        86 KQRGFDYRMG     95
+                     :..||.:.:|
+DAPEL_OCEIH      329 EIPGFMFWLG    338
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      27/102 (26.5%)
+# Similarity:    39/102 (38.2%)
+# Gaps:          23/102 (22.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       146 KRRSFDQLT----MRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGL--D    189
+                     :|....||:    :|.||..|....|. ...|..|||.||..:.||:  |
+KAD_METRJ         22 QRFGIPQLSTGDMLRAAVAAGTPVGLE-AKAVMESGGLVSDRIVVGIVAD     70
+
+UPPP_CORDI       190 R--EVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGIA    237
+                     |  |...|..|:|              |.|.....||.:..::....|::
+KAD_METRJ         71 RIEEPDARRGFIL--------------DGFPRTVAQAEALGEMLASKGLS    106
+
+UPPP_CORDI       238 FA    239
+                     .:
+KAD_METRJ        107 LS    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      26/100 (26.0%)
+# Similarity:    36/100 (36.0%)
+# Gaps:          20/100 (20.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       167 LALIPGVSRSGGT-----VSAGLFVGL-------DREVATRFSFLLAIPA    204
+                     :.::|||....|.     |.||.|.|:       .::......:.:..|.
+ELN_BOVIN        174 IGVLPGVPTGAGVKPKAQVGAGAFAGIPGVGPFGGQQPGLPLGYPIKAPK    223
+
+UPPP_CORDI       205 VLAS-GL----FSLPDAFAPD--AGQAA-SGMQLAVGTGIAFALGYASIA    246
+                     :.|. ||    ..||..|.|.  ||.|. :|.....|.|...|...|..|
+ELN_BOVIN        224 LPAGYGLPYKTGKLPYGFGPGGVAGSAGKAGYPTGTGVGPQAAAAAAKAA    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    30/88 (34.1%)
+# Gaps:          32/88 (36.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        15 IVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGASFTAVVQLGTEAAVL     64
+                     |:|.|.|  .|:|||             ||:....:|.|.|::...:...
+ASIC2_MOUSE      219 IMLDIQQ--DEYLPI-------------WGETEETTFEAGVKVQIHSQSE    253
+
+UPPP_CORDI        65 VYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGT    102
+                     ..|.:::                 ||....|:...|.|
+ASIC2_MOUSE      254 PPFIQEL-----------------GFGVAPGFQTFVAT    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      37/207 (17.9%)
+# Similarity:    66/207 (31.9%)
+# Gaps:          71/207 (34.3%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       116 IRDNLRNMWI--------TASVLIAFSFVFIAAEKWGSKRRSFDQLTMRD    157
+                     ||...|::|:        ..:|::|.:|    ...|.:            
+DOXA1_XENTR       43 IRGKSRSIWLFRILTSLFIGAVILAVNF----TSDWET------------     76
+
+UPPP_CORDI       158 AVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDREVATRFSFLLAIPAVLA    207
+                         |......:....|.|....|.||::||.....|    |:..|....
+DOXA1_XENTR       77 ----GIVTATTVYKSFSHSMLNASIGLWIGLKGVNIT----LIGNPVYQL    118
+
+UPPP_CORDI       208 SGLFSLPDAFA-PDAGQAASGMQLAVGTGIAFALGY--------------    242
+                     :...:..:.|| ..|.|.....:..:..|:.:.:.|              
+DOXA1_XENTR      119 NETINYNEEFAWESANQFDKNYKDGLERGLPYPILYVAEKFTINSPCGLF    168
+
+UPPP_CORDI       243 ----------ASIAWLLKFVGSHSF-SWF---AAYRIPV---GLLVMALL    275
+                               :.|.|:       :| ||.   ..:.:||   |:.:|.:.
+DOXA1_XENTR      169 QQYCISTYYSSEIMWV-------AFGSWILYNVLFSMPVILYGICMMFVT    211
+
+UPPP_CORDI       276 ATGMLTA    282
+                     |..||.:
+DOXA1_XENTR      212 AICMLVS    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       145 SKRRSFDQLTMRDAV    159
+                     :::.|..:..||.|:
+RS20_STRPB        23 NEKNSAQKSAMRTAI     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:       8/46 (17.4%)
+# Similarity:    20/46 (43.5%)
+# Gaps:          17/46 (37.0%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       115 IIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFD----QLTMR    156
+                     ::.:||:::             .::.||...|..:::    |:|.|
+TPM_HAELO        199 VVGNNLKSL-------------EVSEEKALQKEETYEGQIRQMTSR    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      49/232 (21.1%)
+# Similarity:    82/232 (35.3%)
+# Gaps:          78/232 (33.6%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         3 QDPSSQISW--SQTIVLSIVQGL----TEFLPISSSGHLRIVSELFWGKD     46
+                     :|...|:||  |..:||:|.|.:    ||..|...:...|.:.  :.|..
+LEUC_XANOM       288 EDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALK--YMGLK    335
+
+UPPP_CORDI        47 AGASFTAV----VQLGT---------EAAVLVYFAKDIAKILTGWFRGLF     83
+                     |..:.|.:    |.:|:         .||..|...:.:|..:        
+LEUC_XANOM       336 ANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTI--------    377
+
+UPPP_CORDI        84 DKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLRNMWITASVLIAF    133
+                       ||.        :|:.|:      ||:......:.|..:::.|..    
+LEUC_XANOM       378 --KQA--------LVVPGS------GLVKAQAEAEGLDKVFLDAGF----    407
+
+UPPP_CORDI       134 SFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSG---GTV    180
+                             :|...               ||:.|||:.|....||   .:.
+LEUC_XANOM       408 --------EWREP---------------GCSMCLAMNPDKLGSGEHCAST    434
+
+UPPP_CORDI       181 SAGLFVGLDREVATRFSFLLAIPAVLASGLFS    212
+                     |...|.|  |:.|...:.|:: ||:.|:...|
+LEUC_XANOM       435 SNRNFEG--RQGAGGRTHLVS-PAMAAAAAVS    463
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         8 QISWSQTIVLSIVQG     22
+                     :||.:.|..::|..|
+LPT_ESCF3          3 RISTTITTTITITTG     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      25/110 (22.7%)
+# Similarity:    45/110 (40.9%)
+# Gaps:          24/110 (21.8%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       113 KDIIRDNLRNMW-ITASVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVI-    160
+                     |.:| |.|:..| :||:..:|.:    ||...|:.....::.|..|.:: 
+RL7_THET8         21 KQLI-DALKEAWGVTAAAPVAVA----AAPAAGAAAAPAEEKTEFDVILK     65
+
+UPPP_CORDI       161 ------MGCAQCLALIPG--------VSRSGGTVSAGLFVGLDREVATRF    196
+                           :...:.|..|.|        ::..||.|..|:......|:..: 
+RL7_THET8         66 EAGAKKLEVIKELRAITGLGLKEAKDLAEKGGPVKEGVSKQEAEEIKKK-    114
+
+UPPP_CORDI       197 SFLLAIPAVL    206
+                       |.|:.||:
+RL7_THET8        115 --LEAVGAVV    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      24/104 (23.1%)
+# Similarity:    36/104 (34.6%)
+# Gaps:          40/104 (38.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        68 AKDIAKILTGWFRGLF--DKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDI    115
+                     |..:.||||..|...|  .||.|       ....:|..|||         
+HEM1_METCA       129 AGTVGKILTKLFHRTFAAAKKVR-------TDTAIGCSPVS---------    162
+
+UPPP_CORDI       116 IRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQ    165
+                                    :||:.:.:|       :|.||.|....|:::|..:
+HEM1_METCA       163 ---------------VAFAAIRLA-------QRIFDDLGDLTAILVGAGE    190
+
+UPPP_CORDI       166 CLAL    169
+                     .:.|
+HEM1_METCA       191 TIEL    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      56/251 (22.3%)
+# Similarity:    76/251 (30.3%)
+# Gaps:         114/251 (45.4%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        46 DAGASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMG     95
+                     |||   .|::.|||..   ||||..         .|...|          
+XYLB_KLEPN       245 DAG---QAMLSLGTSG---VYFAVS---------EGFLSK----------    269
+
+UPPP_CORDI        96 WMVIVGTLPVSIVGLLAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGS    145
+                             |.|.|....     ...|..|...||:::.:    :...|.:
+XYLB_KLEPN       270 --------PESAVHSFC-----HACRGRWHLMSVMLSAA----SCLDWAA    302
+
+UPPP_CORDI       146 KRRSFDQLTMRDAVIMGCAQCLALIPG---VSRSGGTV------------    180
+                     |             :.|.|...|||..   ...|.|.|            
+XYLB_KLEPN       303 K-------------LTGLASVPALIAAAQTADESAGPVWFLPYLSGERTP    339
+
+UPPP_CORDI       181 -----SAGLFVGLDREVATRFSFLLAIPAVLASGL-----FSLPD-----    215
+                          :.|:|.||..:..         ||.||..:     ::|.|     
+XYLB_KLEPN       340 HNNPQAKGVFFGLTHQHG---------PAELARAVLEGVGYALADGMDVV    380
+
+UPPP_CORDI       216 ---AFAPDA------GQA---------ASGMQLAVGTG--IAFALGYASI    245
+                        |..|:|      |:|         .||:||...||  :..|||.|.:
+XYLB_KLEPN       381 HACAIKPEAITLIGGGRARYWRQMLADISGLQLDYRTGGDVGPALGAARL    430
+
+UPPP_CORDI       246 A    246
+                     |
+XYLB_KLEPN       431 A    431
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      36/180 (20.0%)
+# Similarity:    50/180 (27.8%)
+# Gaps:          65/180 (36.1%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       143 WGSKRRS------FDQLTMRDAVIMGCAQC--------------------    166
+                     |..|||.      .:.||....:::.|..|                    
+RECR_NOVAD        30 WLIKRRETALPQLLNALTQVQELLVECGVCGNVDTSNPCGICTDHRRDQR     79
+
+UPPP_CORDI       167 -LALIPGVSRSGGTVSAGLFVGLDREVATRFSFLLAI-PAVLASGLFSLP    214
+                      :.::..|:.......|.||.|....:..|.|.|..: |..|..|  ||.
+RECR_NOVAD        80 SICVVEEVADLWALDRARLFTGKYHVLGGRLSALEGVRPEDLTIG--SLL    127
+
+UPPP_CORDI       215 DAFAPDA--------------------------GQAASGMQLAVGTGIAF    238
+                     |..|...                          |.|....|||.|..:..
+RECR_NOVAD       128 DRVAQGGIDEVVLAMNATLEGQTTAHYIAERLEGAAVRVTQLAHGLPVGG    177
+
+UPPP_CORDI       239 ALGYASIAWLLKFVGSHSFSWFAAYRIPVG    268
+                     .|.|.....|.:.:.:         |.|||
+RECR_NOVAD       178 ELDYLDEGTLAQALRA---------RRPVG    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      34/146 (23.3%)
+# Similarity:    52/146 (35.6%)
+# Gaps:          62/146 (42.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       154 TMRDAVIMGCAQCL------ALIPGVSRS---------GGTVSA---GLF    185
+                     |..|.||||....|      .::.||:|.         .|||:.   |..
+SURE_METNO        67 TPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTI    116
+
+UPPP_CORDI       186 VGLDREVATRFSF-----------------LLAIPAVLASGL-------F    211
+                     :|: |.:|...::                 ...|..:|.:|:       .
+SURE_METNO       117 LGV-RSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNV    165
+
+UPPP_CORDI       212 SLPDAFAPDAGQ----AASGMQ----LAV-----GTG-----IAFA    239
+                     :.||. .|:|.:    .|.||:    ||:     |.|     :|||
+SURE_METNO       166 NFPDC-EPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFA    210
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      19/90 (21.1%)
+# Similarity:    34/90 (37.8%)
+# Gaps:          38/90 (42.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       227 GMQLAVGTGIAFALGYAS-----------------IAWLLKFVGSHSFS-    258
+                     |:|:.  ||:..|:.|.|                 ..|||:::.::..| 
+CYB_ARTIO         42 GVQIL--TGLFLAMHYTSDTATAFNSVTHICRDVNYGWLLRYLLANGASM     89
+
+UPPP_CORDI       259 WFAAYRIPVG------------------LLVMALLATGML    280
+                     :|....:.||                  ||:.|::||..:
+CYB_ARTIO         90 FFICLYLHVGRGLYYGSYMYSETWNIGILLLFAVMATAFM    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      20/81 (24.7%)
+# Similarity:    29/81 (35.8%)
+# Gaps:          26/81 (32.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        38 VSEL----FWGKDAGASF---TAVVQLGTEAAVLVYFAKDIAKILTGWFR     80
+                     :||:    |.|.:.|..:   |.|::...|...|        :|.:.||.
+IOLE_BACHK        34 ISEMALAGFNGSEVGNKYPRNTVVLKKSLELRNL--------EIASAWFS     75
+
+UPPP_CORDI        81 GLFDK-----------KQRGFDYRMGWMVIV    100
+                     .....           |.|.|.:.||..|||
+IOLE_BACHK        76 TFLTTKPIEETVEEFIKHRDFLHGMGAKVIV    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      30/130 (23.1%)
+# Similarity:    53/130 (40.8%)
+# Gaps:          36/130 (27.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       128 SVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGV-SRS    176
+                     |:..:..|..:|....|::..:.|.               ||||.: .::
+ACKA_STAAT       222 SIDTSMGFTPLAGVTMGTRSGNIDP---------------ALIPFIMEKT    256
+
+UPPP_CORDI       177 GGTVSAGLFVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAAS    226
+                     |.|....|      |:..:.|.||.:... :|.|..|.:  ..::|:|.|
+ACKA_STAAT       257 GKTAEQVL------EILNKESGLLGLSGT-SSDLRDLSE--EAESGKARS    297
+
+UPPP_CORDI       227 GMQLAVGTGIAFALGYASIAWLLKFVGSHS    256
+                     .|.|.|     ||      :.:.|::||::
+ACKA_STAAT       298 QMALDV-----FA------SKIHKYIGSYA    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       4/12 (33.3%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       230 LAVGTGIAFALG    241
+                     :.:|..:|.|:|
+HIS7_BURTA        72 ITLGQAVAKAVG     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    15/38 (39.5%)
+# Gaps:          17/38 (44.7%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         4 DPSSQISW-------------SQTIVLSIVQ----GLT     24
+                     :|.|:..|             :|...||||:    |||
+PTH_GEOLS         11 NPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLT     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      29/113 (25.7%)
+# Similarity:    44/113 (38.9%)
+# Gaps:          31/113 (27.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       145 SKRRSFDQLTMRDAVIMGCAQ-CLALIPG-VSRSGGTVSAGLFVGLDREV    192
+                     ||:.|....|:.|::....|: |....|. ...|.|:.|.|       ||
+TAF3_XENLA       305 SKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESEG-------EV    347
+
+UPPP_CORDI       193 ATRFSFL----LAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGIAF    238
+                     .|....|    |..|.|.|||:         :.|:.:|       |.:..
+TAF3_XENLA       348 FTSPKRLNISELTTPKVSASGI---------NPGKTSS-------TSVPA    381
+
+UPPP_CORDI       239 ALGYAS--IAWLL    249
+                     :.|.:|  |:|.:
+TAF3_XENLA       382 SGGTSSSDISWTM    394
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:      43/237 (18.1%)
+# Similarity:    92/237 (38.8%)
+# Gaps:          76/237 (32.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         7 SQISWSQTIVLSIVQGLTEFLPI--SSSGHLRIVSELFWGKDAGASFTAV     54
+                     |.:.|:....|.| :||.|.:.:  ..:|.:..:::|::  ....:...:
+DNLJ_CROS5       441 SLVHWASRDALDI-RGLGEKIVVLLIENGLVNSIADLYY--LTPETIANL    487
+
+UPPP_CORDI        55 VQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGTLP    104
+                     .::|:::      |.::.|.:.|       .||:.|.     .|:.| |.
+DNLJ_CROS5       488 ERMGSKS------ADNLIKAIEG-------SKQQPFS-----RVLYG-LG    518
+
+UPPP_CORDI       105 VSIVGLLAKDIIRDNLRNM-WITASVLIAFSFVFIAAEK-------WGSK    146
+                     :..||.:..:::.:|..:: .::.:...:.|.|:...|:       |.|.
+DNLJ_CROS5       519 IRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSI    568
+
+UPPP_CORDI       147 RRSFD------------------QLTMRDA---------VIMGCAQCL--    167
+                     .::.|                  |:|:..:         ||.|....|  
+DNLJ_CROS5       569 EKNCDLIKQLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLPTLTR    618
+
+UPPP_CORDI       168 ----ALIPGVSRSGGTVSAGLFVGLDREVATRFSFLL    200
+                         |||   .::||.|:.        .|:.:..:||
+DNLJ_CROS5       619 NEAKALI---EQAGGKVTG--------SVSKKTDYLL    644
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 210
+# Identity:      48/210 (22.9%)
+# Similarity:    75/210 (35.7%)
+# Gaps:          48/210 (22.9%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        68 AKDIAKI-LTGWFRGLFDKKQRGFDYR-----MGWMVIVGTLPVSIV---    108
+                     |.:|.:| ||...:|.......|..|.     :|.:|..| |.|:|.   
+MUTS_MYXXD        50 ASEILQITLTARSKGADKVPMCGVPYHAARRYIGRLVSEG-LKVAICEQV     98
+
+UPPP_CORDI       109 -------GLLAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGSK-----    146
+                            |::.:::.|.....|.:...||...:..|:||..|..|     
+MUTS_MYXXD        99 EEPGNGPGIVRREVTRVITPGMVLDEEVLEPQASNFLAAVSWNDKGWGAA    148
+
+UPPP_CORDI       147 ---RRSFDQLTMRDAVIMGCAQCLA-------LIPGVSRSGGTVSAGLFV    186
+                        ..:.:.:.:....|...|:.|:       |:|...|..         
+MUTS_MYXXD       149 LLEASTGEFMALEAPGIAELAESLSRVEPRELLVPDGKRDA---------    189
+
+UPPP_CORDI       187 GLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGI    236
+                        .|||...:.|:..||| |.|..:   :|.|...........||.:..
+MUTS_MYXXD       190 ---PEVAQLLARLVRTPAV-AEGEAA---SFEPTRAAGYLRSHFAVQSLS    232
+
+UPPP_CORDI       237 AFALGYASIA    246
+                     ||.|..|.:|
+MUTS_MYXXD       233 AFGLDDAPLA    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      16/57 (28.1%)
+# Similarity:    21/57 (36.8%)
+# Gaps:          18/57 (31.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        36 RIVSELFWGK----DA-----GASFTA-----VVQLGTEAA----VLVYF     67
+                     |.:..|||..    ||     .|||.:     :.|...|..    :.:|.
+NOSO_STAAC        61 RCIGRLFWDSLNVIDARDVTDEASFLSSITYHITQATNEGKLKPYITIYA    110
+
+UPPP_CORDI        68 AKDIAKI     74
+                     .||..||
+NOSO_STAAC       111 PKDGPKI    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      13/50 (26.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:          13/50 (26.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        46 DAGASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMG     95
+                     :||....|:.:.|.|:   ::..|:.||          .:|.|||....|
+RBM8A_MOUSE        9 EAGGEDFAMDEDGDES---IHKLKEKAK----------KRKGRGFGSEEG     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      19/80 (23.8%)
+# Similarity:    36/80 (45.0%)
+# Gaps:          11/80 (13.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       105 VSIVGLLAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLT    154
+                     ||.:|||   :.|.:|.:..:....::...||.::.....:   .|...:
+NU4LM_ARCPU       14 VSFMGLL---MYRSHLMSSLLCLEGMMLSLFVMMSMTILSN---HFTLAS     57
+
+UPPP_CORDI       155 MRDAVIMGCAQC-----LALIPGVSRSGGT    179
+                     |...:::..|.|     |:|:..||.:.||
+NU4LM_ARCPU       58 MAPIILLVFAACEAALGLSLLVMVSNTYGT     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      53/247 (21.5%)
+# Similarity:    74/247 (30.0%)
+# Gaps:          93/247 (37.7%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       108 VGLLAKDIIRD------NLRNMWITASVLIAFSFVFIAAEKWGSKRRSFD    151
+                     |.:.:..||||      |..|:    ..|:.|..|           ::.:
+NANK_ECOLI        59 VAIASTGIIRDGSLLALNPHNL----GGLLHFPLV-----------KTLE     93
+
+UPPP_CORDI       152 QLTMRDAVIMGCAQCLA------------------LIPGVSRSGGTVSAG    183
+                     |||....:.:..||..|                  :..||  .||.||..
+NANK_ECOLI        94 QLTNLPTIAINDAQAAAWAEFQALDGDITDMVFITVSTGV--GGGVVSGC    141
+
+UPPP_CORDI       184 LFVGLDREVATRFSFLLAIP--AVLASGLFSLPDAFAPDAGQAASGM-QL    230
+                     ..:.....:|......||.|  .|...|.....:|.|...|.||:.. :|
+NANK_ECOLI       142 KLLTGPGGLAGHIGHTLADPHGPVCGCGRTGCVEAIASGRGIAAAAQGEL    191
+
+UPPP_CORDI       231 A----------------------------------------------VGT    234
+                     |                                              ||.
+NANK_ECOLI       192 AGADAKTIFTRAGQGDEQAQQLIHRSARTLARLIADIKATTDCQCVVVGG    241
+
+UPPP_CORDI       235 GIAFALGYASI--AWLLKFVGSHSFSWFAA-YRIPVGLLVMALLATG    278
+                     .:..|.||.::  .:|.:...:......|| ||...|||..||||.|
+NANK_ECOLI       242 SVGLAEGYLALVETYLAQEPAAFHVDLLAAHYRHDAGLLGAALLAQG    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      12/54 (22.2%)
+# Similarity:    21/54 (38.9%)
+# Gaps:          22/54 (40.7%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       114 DIIRDNLRNMWITASVLIAF----------------------SFVFIAAE    141
+                     |.||.|:.|..||..:::.|                      :|.||.::
+MIAB_MYCPE       342 DYIRANIPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSK    391
+
+UPPP_CORDI       142 KWGS    145
+                     :.|:
+MIAB_MYCPE       392 RDGT    395
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       242 YASIAWLLKFVGSHS    256
+                     |:.:...:.|||.|:
+NADK_STAES        55 YSHMLSKVAFVGIHT     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      22/87 (25.3%)
+# Similarity:    36/87 (41.4%)
+# Gaps:          25/87 (28.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        17 LSIVQGLT--EFLPISSSGHLRIVSELFWGKDAGASFTAVVQLGTEAAVL     64
+                     |.:.||:.  :||.||.      :.||: ..|.|...|           |
+TRPG_CAEEL       742 LLLEQGINMQKFLTISR------LDELY-NTDKGPPNT-----------L    773
+
+UPPP_CORDI        65 VYFAKDIAKILTGW-FR----GLFDKKQRGFDYRMGW     96
+                     .|..:|:.::..|: |:    ||..:|..|..|:..:
+TRPG_CAEEL       774 FYIVRDVVRVRQGYRFKLPDIGLVIEKLMGNSYQCSY    810
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      38/146 (26.0%)
+# Similarity:    53/146 (36.3%)
+# Gaps:          30/146 (20.5%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       138 IAAEKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVG    187
+                     :.|.:|.|......|..:||.|     .....:.||:..|..|.      
+MSHD_MYCMM         1 MTAVQWRSHLTDDQQRQVRDLV-----TAATQVDGVAPVGEQVL------     39
+
+UPPP_CORDI       188 LDREVATRFSFLLAI----PAVLASGLFSLPDAFAPDAGQAASGMQLAV-    232
+                       ||:|.:.:..|.:    |...|.|..:|..|...||..|    :|.| 
+MSHD_MYCMM        40 --RELAQQRTEHLLVEDQSPGKSAIGYLNLSPAHGADAAMA----ELVVH     83
+
+UPPP_CORDI       233 ----GTGIAFALGYASIAWLLKFVGSHSFSWFAAYRIPVGLLVMAL    274
+                         ..|||.|:..|::|   |..|.:.| |......|......||
+MSHD_MYCMM        84 PQARRRGIATAMVRAALA---KTGGRNQF-WAHGTLAPAQATASAL    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      14/62 (22.6%)
+# Similarity:    28/62 (45.2%)
+# Gaps:          16/62 (25.8%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         4 DPSSQISWSQTIVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGASFTA     53
+                     |.::.:...|..|::|           ::|| |:|:.:..|:..    :.
+PAND_THEFY        34 DAANLVDGEQVHVVNI-----------TNGH-RLVTYVLTGERG----SG     67
+
+UPPP_CORDI        54 VVQLGTEAAVLV     65
+                     |:.:...||.||
+PAND_THEFY        68 VIGINGAAARLV     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    10/27 (37.0%)
+# Gaps:           3/27 (11.1%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       143 WGSKRRSFDQLT---MRDAVIMGCAQC    166
+                     ||...:|....|   |.|....||..|
+LIPA_ASPOR       144 WGGSDKSAATATIMLMGDTCTRGCRFC    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      17/59 (28.8%)
+# Similarity:    23/59 (39.0%)
+# Gaps:          16/59 (27.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       174 SRSGGTVSAGLFVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQ    223
+                     |..|||:......|:|.:|     :.||...||..|           ||.
+FLGI_PECAS       119 SLRGGTLLMTPLKGVDNQV-----YALAQGNVLVGG-----------AGA    152
+
+UPPP_CORDI       224 AASGMQLAV    232
+                     :|.|..:.|
+FLGI_PECAS       153 SAGGSSVQV    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      21/97 (21.6%)
+# Similarity:    42/97 (43.3%)
+# Gaps:          30/97 (30.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         6 SSQISWSQTIVLSIVQGLTEFLPISSSG----------HLRIVSELFWG-     44
+                     ||.::|.:|.:  .::.|:|:|   |.|          |.::|:..:.. 
+LDH_BORAP        181 SSFVTWDETKI--AMKPLSEYL---SEGKITELELDEIHKKVVNAAYEVI    225
+
+UPPP_CORDI        45 KDAGASFTAV---------VQLGTEAAVLVYFAKDIAKILTGWFRGL     82
+                     |..||::.|:         ..:|.:..:|     .|:..:.|.:.||
+LDH_BORAP        226 KLKGATYYAIGLGIKNIVNAIIGDQNIIL-----PISSYINGQYGGL    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      39/194 (20.1%)
+# Similarity:    69/194 (35.6%)
+# Gaps:          71/194 (36.6%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         1 MTQDPSSQI-------------SWSQTIVLSIVQGLTEFLPISSSGHLRI     37
+                     :|||..:|:             .|.:.   .:|...:|..|....|:|..
+EXGB_EMENI       106 ITQDDINQMVQYGLNTIRIPVGYWLKE---DLVYADSEHFPKGGIGYLED    152
+
+UPPP_CORDI        38 VSELFWGKDAGASFTAVVQL-GTEAAVLVYFAKDIAKILTGWFR---GLF     83
+                     |..  |..|||  ...::.| |...      |:...:..||.:.   |.:
+EXGB_EMENI       153 VCG--WASDAG--MYIIIDLHGAPG------AQQPKQPFTGQYAPNPGFY    192
+
+UPPP_CORDI        84 DKKQ--RGFDYRMGWMVIVGTLPVSI--------VGLLAKDIIRDNLRNM    123
+                     ...|  |..:: :.||.      .||        ||:|  :|:.:.::|.
+EXGB_EMENI       193 QDYQYDRALEF-LEWMT------TSIHQNNKFRNVGML--EIVNEPVQNA    233
+
+UPPP_CORDI       124 WITASVLIAF--------------------SFVFIAA--EKWGS    145
+                     ...:|::.::                    :::.|..  |||||
+EXGB_EMENI       234 DQASSMINSYYPSAFTRIRNTESSLGITSNNYLHIQMMNEKWGS    277
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        42 FWGKDAGASFTAVVQL     57
+                     |.|.|.....|.||:|
+KTHY_CHLP8         5 FEGIDGAGKSTQVVKL     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      26/104 (25.0%)
+# Similarity:    38/104 (36.5%)
+# Gaps:          17/104 (16.3%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       185 FVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGT    234
+                     |:.:.||.|.|.:.|......|...|..|    |.|..:.|:|....:..
+SECA2_MYCTO      104 FLAIAREAAERRTGLRPFDVQLLGALRML----AGDVIEMATGEGKTLAG    149
+
+UPPP_CORDI       235 GIAFALGYA------SIAWLLKFVGSHSFSWFAAYRIPVGLLVMALLATG    278
+                     .|| |.|||      .:..:..::......|.......:||.|      |
+SECA2_MYCTO      150 AIA-AAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTV------G    192
+
+UPPP_CORDI       279 MLTA    282
+                     .:||
+SECA2_MYCTO      193 WITA    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       6/20 (30.0%)
+# Similarity:     8/20 (40.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       204 AVLASGLFSLPDAFAPDAGQ    223
+                     |||...:|.......|..|:
+DB108_HUMAN        4 AVLFFTIFFFMSQVLPAKGK     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      11/22 (50.0%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           1/22 ( 4.5%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       214 PDAFAPDA-GQAASGMQLAVGT    234
+                     |.||||.| |:|.....:.|||
+LCMT1_CRYNB       95 PGAFAPQAVGRARKPPLINVGT    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      15/68 (22.1%)
+# Similarity:    32/68 (47.1%)
+# Gaps:           8/68 (11.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        38 VSELFWGKDAGASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQ     87
+                     :.::|   :...:|:.....|.|  :.|:|..|..::....|:.:.::.|
+PTGA_SALTY        68 IGKIF---ETNHAFSIESDSGIE--LFVHFGIDTVELKGEGFKRIAEEGQ    112
+
+UPPP_CORDI        88 RGFDYRMGWMVIVGTLPV    105
+                     |   .::|..||...||:
+PTGA_SALTY       113 R---VKVGDPVIEFDLPL    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       9/35 (25.7%)
+# Similarity:    16/35 (45.7%)
+# Gaps:           1/35 ( 2.9%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       142 KWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRS    176
+                     |.|..|.::....:...:|...|.. .|:.||::|
+RR14_CRYJA        65 KTGRPRANYRDFELSGYIIREMAHA-CLLAGVTKS     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      24/130 (18.5%)
+# Similarity:    46/130 (35.4%)
+# Gaps:          31/130 (23.8%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        37 IVSELFWGKDAGASFTAVVQLGTEAAVLVYFAKDIAKILTG--WFRGLFD     84
+                     ::..:|  ::..|....::..|..|:.|.....|:...:.|  |..|:.|
+DCUP_BACVZ       226 VMDRIF--RELSAEQVPLIMFGVGASHLAGDWHDLPLDVVGLDWRLGIDD    273
+
+UPPP_CORDI        85 KKQRGFDYRMGWMVIVGTL-------PVSIVGLLAKDIIRDNLRNMWI--    125
+                     .:::|..     ..:.|.|       |..::...||.|:...::....  
+DCUP_BACVZ       274 ARKQGIT-----KTVQGNLDPSLLLAPWEVIEKKAKAILDQGMKTDGFIF    318
+
+UPPP_CORDI       126 -------------TASVLIAFSFVFIAAEK    142
+                                  |...|.||...:.||:|
+DCUP_BACVZ       319 NLGHGVFPDVNPETLKKLTAFVHEYSAAKK    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      15/49 (30.6%)
+# Similarity:    22/49 (44.9%)
+# Gaps:           5/49 (10.2%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         5 PSSQISWSQTIVLSIVQGLTEFLPISSSGHLRIVSELFW--GKDAGASF     51
+                     |..::...|:.|  :||||.|.:......|..:.: |.|  ...||.||
+GTF2I_MOUSE      137 PYEKMLRDQSAV--VVQGLPEGVAFKHPEHYDLAT-LKWILENKAGISF    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      15/84 (17.9%)
+# Similarity:    30/84 (35.7%)
+# Gaps:          22/84 (26.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        44 GKDAGASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYR     93
+                     |....::.:.:.:|||......:..:|..::...||.|            
+ISPH_ACIF5       219 GAPNSSNSSRLAELGTRLGTQTHLIEDAQQLRREWFEG------------    256
+
+UPPP_CORDI        94 MGWMVIVGTLPVSIVGLLAKDIIR---DNLRNMW    124
+                           ||.:.:|......:.:::   |.||. |
+ISPH_ACIF5       257 ------VGKIGISAGASAPESLVQEIMDTLRG-W    283
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:      12/26 (46.2%)
+# Similarity:    13/26 (50.0%)
+# Gaps:           5/26 (19.2%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       259 WFAAYRIPVGLLVM--ALLATGMLTA    282
+                     ||   .|..||.||  .||..|:.||
+NDUA1_HUMAN        2 WF---EILPGLSVMGVCLLIPGLATA     24
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      19/70 (27.1%)
+# Similarity:    30/70 (42.9%)
+# Gaps:          21/70 (30.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       144 GSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVGLDREV-    192
+                     |...|:.||           ||.:.|  ||||.|.|.:: |::.:...: 
+PSRP_SALTI       142 GISLRNLDQ-----------AQVILL--GVSRCGKTPTS-LYLAMQFGIR    177
+
+UPPP_CORDI       193 ATRFSFL------LAIPAVL    206
+                     |..:.|:      |.:|..|
+PSRP_SALTI       178 AANYPFIADDMDNLTLPTSL    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      38/184 (20.7%)
+# Similarity:    64/184 (34.8%)
+# Gaps:          45/184 (24.5%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        44 GKDAGASFTAVVQLGTEAAVLVYFAKDIAKILT------GWF--------     79
+                     ||.||.....::...|.||:.....|...|.:.      |.|        
+DNAK_CHESB       158 GKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIG    207
+
+UPPP_CORDI        80 RGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRD---NLRN----    122
+                     .|:|:.|....|..:|.    ....:.:|..||.:..::   :|:|    
+DNAK_CHESB       208 DGVFEVKSTNGDTFLGG----EDFDMRLVNYLADEFKKEQGIDLKNDKLA    253
+
+UPPP_CORDI       123 ------------MWITASVLIAFSFVFIAAEKWGSK-------RRSFDQL    153
+                                 :.:::|.....:..||.|::.|.|       |..|:.|
+DNAK_CHESB       254 LQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESL    303
+
+UPPP_CORDI       154 TMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVG    187
+                      :.|.|......|.|.:.....|.|.:...:.||
+DNAK_CHESB       304 -VEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVG    336
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      23/90 (25.6%)
+# Similarity:    32/90 (35.6%)
+# Gaps:          30/90 (33.3%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       144 GSKRRSFDQLTMRDAVIMGCAQCLALIPGVSR---------SGGTVS---    181
+                     |.||:...||.....|:.|      .:||:||         :||.||   
+DNLJ_ACIC5       592 GEKRKKTSQLAGLTFVLTG------TLPGLSRDEAKGKIENAGGHVSGSV    635
+
+UPPP_CORDI       182 --------AGLFVGLDREVATRFSFLLAIPAVLASGLFSL    213
+                             ||...|...|.|..    |.:|.:..:.|..:
+DNLJ_ACIC5       636 SKKTNYVVAGADAGSKLEKANS----LGVPVIDEAALIKM    671
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      34/153 (22.2%)
+# Similarity:    52/153 (34.0%)
+# Gaps:          34/153 (22.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       144 GSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAG-------LFV    186
+                     |..||...:...|.|.....|....|...:||...|::||       .||
+CAPSD_CMVO        10 GRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFV     59
+
+UPPP_CORDI       187 GLDR-EVATRFSFLLAIPAVLASGLF-----SLPDAFAPDAGQAASGMQL    230
+                     |.:| :....|:.:...|..:..|.:     .|||:......:..|.:|:
+CAPSD_CMVO        60 GSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQI    109
+
+UPPP_CORDI       231 AVGTGIAFALGYASIAWLLKFVGSHSFSWFAAYRIPVG-----LLVMALL    275
+                     .|..             |.||   .|..|....::|..     ..:.|:.
+CAPSD_CMVO       110 RVNP-------------LPKF---DSTVWVTVRKVPASSDLSVAAISAMF    143
+
+UPPP_CORDI       276 ATG    278
+                     |.|
+CAPSD_CMVO       144 ADG    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    19/58 (32.8%)
+# Gaps:          19/58 (32.8%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        17 LSIVQGLTEFLPISSSGHLRIVSELFWGKDAGASFTAVVQLGTEAAVLVY     66
+                     |.:.:.|||.|...|:            :|....|..       ..:.||
+IF3_CHLL2        143 LELAERLTERLSCVSN------------RDGDPKFEG-------KKLFVY    173
+
+UPPP_CORDI        67 FAKDIAKI     74
+                     |..|..||
+IF3_CHLL2        174 FEPDKKKI    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    11/22 (50.0%)
+# Gaps:           4/22 (18.2%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        44 GKDAGASFTAV----VQLGTEA     61
+                     |.|...:..:|    |:||.||
+CSRA_HAEI8        15 GDDISITVLSVRGNQVKLGVEA     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      16/67 (23.9%)
+# Similarity:    24/67 (35.8%)
+# Gaps:          16/67 (23.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       177 GGTVSAGLFVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAAS    226
+                     |||:..|:.:..|    ..|.....:|.|   .|...|       |....
+COAX_CLOBL       147 GGTICPGIKISSD----ALFDKAAKLPRV---ELVKTP-------GVICK    182
+
+UPPP_CORDI       227 GMQLAVGTGIAFALGYA    243
+                     ....::.:||.:  |||
+COAX_CLOBL       183 NTVASIQSGIIY--GYA    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:     8/19 (42.1%)
+# Gaps:           9/19 (47.4%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       138 IAAE---------KWGSKR    147
+                     ||||         ||..:|
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQR     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      22/88 (25.0%)
+# Similarity:    38/88 (43.2%)
+# Gaps:          24/88 (27.3%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         1 MTQDPSSQISWSQTIV-LSIVQGLTEFLPISSSGHLRIVSELF-WGKDAG     48
+                     :|.:...|:| |||:. |..:..:|:.|         |:..|. |.|:..
+THII_VIBA3       285 VTGEALGQVS-SQTLTNLRHIDNVTDTL---------ILRPLINWDKEDI    324
+
+UPPP_CORDI        49 ASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKK     86
+                     ...:.  ::|||         |.||::.. :.|:..||
+THII_VIBA3       325 IDLSR--KIGTE---------DFAKVMPE-YCGVISKK    350
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      11/34 (32.4%)
+# Similarity:    16/34 (47.1%)
+# Gaps:           5/34 (14.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        65 VYFAKDIAK----ILTGWFRGLFDKKQRGFD-YR     93
+                     :.|.|.|||    ::....:|:..|...|.| ||
+RL13_PSEPG        87 INFEKLIAKAPERVIETAVKGMLPKNPLGRDMYR    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      31/140 (22.1%)
+# Similarity:    56/140 (40.0%)
+# Gaps:          28/140 (20.0%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        82 LFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDN---LRNMWITAS    128
+                     :||...||..:     :|||| ......|:::..||..   :...|: ..
+RR2_ARATH         61 VFDAASRGKQF-----LIVGT-KNKAADLVSRAAIRARCHYVNKKWL-GG    103
+
+UPPP_CORDI       129 VLIAFS--------FVFIAAEKWGSKRRSFDQLTMRDAVIM--GCAQCLA    168
+                     :|..:|        |..:..|:   |...|::|..|||.::  ..::...
+RR2_ARATH        104 MLTNWSTTEKRLHKFRDLRTEQ---KTEGFNRLPKRDAAVLKRQLSRLET    150
+
+UPPP_CORDI       169 LIPGVSRSGGTVSAGLFVGLDRE---VATRFSFLLAIPAV    205
+                     .:.|:....|.  ..:.:.||::   .|.|....|.||.:
+RR2_ARATH        151 YLGGIKYMTGL--PDIVIILDQQEEYTALRECITLGIPTI    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      25/117 (21.4%)
+# Similarity:    40/117 (34.2%)
+# Gaps:          42/117 (35.9%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       150 FDQLTMRDAVIMGCAQCLAL---------IPGVSRSGGTVSAGLFV----    186
+                     |.::...||::.....||.|         ...:...||||.|...:    
+Y1710_SYNP2      139 FHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVP    188
+
+UPPP_CORDI       187 ------------------GLDREVATRFSFLLAIPAVLASGLFSLPDAFA    218
+                                       |:::|:.|...  .||...||:      |...
+Y1710_SYNP2      189 VPAVLQLWQQRQVPVYSNGIEKELVTPTG--AAIATTLAT------DFCQ    230
+
+UPPP_CORDI       219 PDAGQAASGMQLAVGTG    235
+                     |.|...|   ::|:|:|
+Y1710_SYNP2      231 PPAMTLA---KIALGSG    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      30/131 (22.9%)
+# Similarity:    53/131 (40.5%)
+# Gaps:          41/131 (31.3%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        27 LPISSSGHLRIVSEL-FWGKDAG-------ASFTAVVQLGTEAAVLV---     65
+                     |.:.:.|  |:::|: .|.|:.|       .||...|.||....|::   
+WTPC_THEKO       162 LDVQTRG--RLINEMKRWRKELGFTALHVTHSFEEAVSLGDRVGVMLNGR    209
+
+UPPP_CORDI        66 ---------YFAK----DIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGT    102
+                              .|::    ::||.|  .|..:.:....|...|...:||  .
+WTPC_THEKO       210 LVQVGPVREVFSRPASEEVAKFL--GFENIVEGLAEGRILRANGLVI--E    255
+
+UPPP_CORDI       103 LPVSI-----VGLLAKDII------RDNLRN    122
+                     ||:..     ||:..:||:      :.::||
+WTPC_THEKO       256 LPIEASGRIRVGIRPEDIVLSDEPLKSSMRN    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    24/48 (50.0%)
+# Gaps:           7/48 (14.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        13 QTIVLSI--VQGLTEFLPISSSGHLRIVSELFWGKDAGAS-FTAVVQL     57
+                     |..|||:  :|.:..:|.:.|...    ..|::..|.|.: ||.::||
+GRB7_RAT         468 QGFVLSLCHLQKVKHYLILPSEDE----GCLYFSMDDGQTRFTDLLQL    511
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:      56/256 (21.9%)
+# Similarity:    85/256 (33.2%)
+# Gaps:          64/256 (25.0%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        17 LSIVQGL-TEFLPISSSGHLRIVSELFWGKDAGASFTAVVQLGTEAAVLV     65
+                     :|:|:.: .:..||...|:               .|.....|.|....|:
+PSD_RHOPS          1 MSVVKSIRAQIPPIHREGY---------------PFIGAFALATLVLFLI     35
+
+UPPP_CORDI        66 YFAKD-IAKILTGWFRGLFDKKQRGFDYRMGWMV---------IVGTLPV    105
+                     :.... |..:||.|....|....|....|.|.:|         :|..:|.
+PSD_RHOPS         36 WAPLGWIGTVLTIWCALFFRDPVRVTPVREGLVVAPADGRVSMVVQMIPP     85
+
+UPPP_CORDI       106 SIVGLLAKDIIRDNL----RNMWITASVL------IAFS---FVFIAAEK    142
+                     ..:||..|.:.|.::    .|..:..|.:      |.:|   |:....:|
+PSD_RHOPS         86 PALGLGDKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPGKFINAELDK    135
+
+UPPP_CORDI       143 WGSKRRSFDQLTMRDAVIMGCAQCLAL----IPGVSRSGGTVSAGLFVGL    188
+                     ..........:....|..:|..|...|    |....|.|.|::.|...||
+PSD_RHOPS        136 ASEDNERNSMVISTPAGQIGVVQIAGLVARRIVSFVREGQTLAPGERFGL    185
+
+UPPP_CORDI       189 DREVATRFSFLLAIPAVLASGLFSLPDAFAP--DAGQAASGMQLAVGTGI    236
+                          .||...|.:         .||:...|  ..||.|    :|..|.:
+PSD_RHOPS        186 -----IRFGSRLDV---------YLPEGAKPLVSEGQTA----IAGETVL    217
+
+UPPP_CORDI       237 A-FALG    241
+                     | |.||
+PSD_RHOPS        218 ADFNLG    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      33/170 (19.4%)
+# Similarity:    59/170 (34.7%)
+# Gaps:          68/170 (40.0%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        86 KQRGFD---------YRMGWMVIVGTLPVSIVGLLAKDIIR------DNL    120
+                     |:|..|         ::.|::|...|....|:|...::.:.      |.:
+PP156_ARATH      463 KERKLDEAHNLLNSAHKRGFIVDEVTYGTLIMGFFREEKVEKALEMWDEM    512
+
+UPPP_CORDI       121 RNMWITASVLIAFSFV---------FIAAEKWGSKRRSFDQL--------    153
+                     :.:.||.:|....|.:         .:|.||       ||:|        
+PP156_ARATH      513 KKVKITPTVSTFNSLIGGLCHHGKTELAMEK-------FDELAESGLLPD    555
+
+UPPP_CORDI       154 -TMRDAVIMG-CAQ------------------------CLALIPGVSRSG    177
+                      :..:::|:| |.:                        |..|:.|:.:.|
+PP156_ARATH      556 DSTFNSIILGYCKEGRVEKAFEFYNESIKHSFKPDNYTCNILLNGLCKEG    605
+
+UPPP_CORDI       178 GTVSAGLFVGL---DREVAT    194
+                     .|..|..|...   :|||.|
+PP156_ARATH      606 MTEKALNFFNTLIEEREVDT    625
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      33/151 (21.9%)
+# Similarity:    57/151 (37.7%)
+# Gaps:          48/151 (31.8%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        15 IVLSIVQGLTEFLPIS----SSGHLRIVSEL-------FWGKDAGASFTA     53
+                     :::.||.|||.||||.    .:.|.:.:...       |:...|.|..::
+ADRB2_MESAU      155 LMVWIVSGLTSFLPIQMHWYRATHQKAIDCYHKETCCDFFTNQAYAIASS    204
+
+UPPP_CORDI        54 VVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGF----------DYR     93
+                     :|.......|:|:....:.::.....:.: ||.:..|          |.|
+ADRB2_MESAU      205 IVSFYVPLVVMVFVYSRVFQVAKRQLQKI-DKSEGRFHSPNLGQVEQDGR    253
+
+UPPP_CORDI        94 MG-------------------WMVIVGT-----LPVSIVGLLAKDIIRDN    119
+                     .|                   ..:|:||     ||..||.::  .:|:||
+ADRB2_MESAU      254 SGHGLRRSSKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIV--HVIQDN    301
+
+UPPP_CORDI       120 L    120
+                     |
+ADRB2_MESAU      302 L    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       5/7 (71.4%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       185 FVGLDRE    191
+                     ||..|||
+ID5B_ADEPA        30 FVNADRE     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      11/56 (19.6%)
+# Similarity:    27/56 (48.2%)
+# Gaps:          13/56 (23.2%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       113 KDIIRDNLRNMWITASVL----IAFSFVFIAAEKWGSKRRS----FDQLT    154
+                     :|::|..::...||..:.    :.|..:.:..::  |:|:.    ||.: 
+GPA7_CAEEL       171 QDLLRTRIKTTGITEVLFELKGLTFRVIDVGGQR--SERKKWIHCFDNV-    217
+
+UPPP_CORDI       155 MRDAVI    160
+                       :|:|
+GPA7_CAEEL       218 --NAII    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      14/51 (27.5%)
+# Similarity:    22/51 (43.1%)
+# Gaps:           9/51 (17.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        49 ASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMV     98
+                     |..|:.:|:..: .|:.|...|:|.:|.|     .|.....|.   .|||
+IDI_ECO24        123 ARTTSALQINDD-EVMDYQWCDLADVLHG-----IDATPWAFS---PWMV    163
+
+UPPP_CORDI        99 I     99
+                     :
+IDI_ECO24        164 M    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    21/46 (45.7%)
+# Gaps:           2/46 ( 4.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       190 REVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTG    235
+                     ::||..|: |...|.:.|....|.....|.:|| ...|.:.::|.|
+YHJA_ECOLI       185 QKVALGFA-LYHDPRLSADSTISCAHCHALNAG-GVDGRKTSIGVG    228
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      24/101 (23.8%)
+# Similarity:    41/101 (40.6%)
+# Gaps:          29/101 (28.7%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         1 MTQDPSSQISWSQTIVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGAS     50
+                     :|.|...:::.....||::.....|.|.:||.|..|.:.:|       |.
+RIMP_BURPS        39 ITIDDCEKVTRQLQHVLTVENIDYERLEVSSPGLDRPLKKL-------AD     81
+
+UPPP_CORDI        51 FTAVVQLGTEAAVLVYFAKDIAKILTG--WFRGL------------FDKK     86
+                     ||...  |:||.:      .:.|.|.|  .:||:            |::|
+RIMP_BURPS        82 FTRFA--GSEAVI------TLKKPLDGRKTYRGILHAPNGETIGLEFERK    123
+
+UPPP_CORDI        87 Q     87
+                     :
+RIMP_BURPS       124 K    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       148 RSFDQLTMRDA    158
+                     |..|.||:.:|
+RS28_OSTOS        48 REGDILTLLEA     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:       9/40 (22.5%)
+# Similarity:    15/40 (37.5%)
+# Gaps:          12/40 (30.0%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+UPPP_CORDI         4 DPSSQISWSQTIVLSIV------------QGLTEFLPISS     31
+                     ||.:....|..|::.:.            |.|.:||.:.|
+HBAC_LITCT        95 DPGNFALLSNNILVVVAVHHSDKLSYETHQALDKFLNVVS    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:      67/311 (21.5%)
+# Similarity:    92/311 (29.6%)
+# Gaps:         121/311 (38.9%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         5 PSSQISWSQTI---VLSIVQGLTEFL---PISSSG----HLRIVSELFWG     44
+                     |...|..|..|   |.||...|...|   |:...|    .|..|..|.| 
+RPOA_PRRSS      1847 PLGDIKLSPAIVPDVTSIPSDLASLLASVPVMEGGLSTVQLLCVFFLLW-   1895
+
+UPPP_CORDI        45 KDAGASFTAVVQLG------TEAAVLVYFAKDIAKILTGWFRGLFDKKQR     88
+                     :..|.::|.:|.:|      ...||||......|..:..|          
+RPOA_PRRSS      1896 RMMGHAWTPIVAVGFFLLNEILPAVLVRAVFSFALFILAW----------   1935
+
+UPPP_CORDI        89 GFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLRNMWITASVLIAFSFVFI    138
+                         ...|     :..|.::.||...:.|:.|             |..|.
+RPOA_PRRSS      1936 ----ATPW-----SAQVLMIRLLTASLNRNKL-------------SLAFY   1963
+
+UPPP_CORDI       139 AAEKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTV----SAGL    184
+                     |.                                    ||.|    ..|.
+RPOA_PRRSS      1964 AL------------------------------------GGVVGLAAEIGA   1977
+
+UPPP_CORDI       185 FVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGT    234
+                     |.|...|::...|....:|.|||                .||.:.:.:..
+RPOA_PRRSS      1978 FAGRLPELSQALSTYCFLPRVLA----------------MASYVPIIIIG   2011
+
+UPPP_CORDI       235 GIAFALGYASIAWLLKF-------VGSHSFS------WFAAYRIPVGLLV    271
+                     |: .|||.  |.||.|:       ||..|||      :||...:..|:..
+RPOA_PRRSS      2012 GL-HALGV--ILWLFKYRCLHNMLVGDGSFSSAFFLRYFAEGNLRKGVSQ   2058
+
+UPPP_CORDI       272 MALLATGMLTA    282
+                     ...::...|||
+RPOA_PRRSS      2059 SCGMSNESLTA   2069
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      13/39 (33.3%)
+# Similarity:    19/39 (48.7%)
+# Gaps:           4/39 (10.3%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       117 RDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTM    155
+                     ||.|.:..::.:|    |||...|||.......||.:|:
+UBIE_PSEAE       110 RDKLLDKGVSGNV----SFVQADAEKLPFPDNHFDCVTI    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      20/99 (20.2%)
+# Similarity:    33/99 (33.3%)
+# Gaps:          27/99 (27.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        44 GKDAGASFTAVVQLGT----------EAAVLVYFAKDIAKILT-------     76
+                     |||......::.:|..          |...|..|...:.::||       
+FLII_AQUAE       251 GKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAESCG    300
+
+UPPP_CORDI        77 ----GWFRGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLR    121
+                         |...|:|.....|.|      :.:..:..|::|:|...||....|
+FLII_AQUAE       301 AFKKGSITGIFTVLVEGDD------ISLDPIADSLMGVLDGHIILSRKR    343
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         3 QDPSSQISWSQ     13
+                     |.|.|:::|::
+MSS11_VANPO      343 QFPISKMNWNR    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      43/216 (19.9%)
+# Similarity:    66/216 (30.6%)
+# Gaps:          75/216 (34.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        22 GLTEFLPISSS------GHLRIVSELFWGKDAGASFTAVVQLGTEAAVLV     65
+                     |.|...|:.:|      .|..:|.|...|.....||...|     ...|:
+SPB4_ASPFU        33 GFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKTLSFLIPV-----VEKLL     77
+
+UPPP_CORDI        66 YFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDI    115
+                     ...:.|.|                  :.:|.::|..|             
+SPB4_ASPFU        78 RLEEPIKK------------------HHVGAIIISPT-------------     96
+
+UPPP_CORDI       116 IRDNLRNMWITASVLIAFSFVFIAA----EKWGSKRRSFDQLTMRDAVIM    161
+                      |:....::...|.|:||.....||    |...:.|..|...|::     
+SPB4_ASPFU        97 -RELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTLK-----    140
+
+UPPP_CORDI       162 GCAQCLALIPGVSRSGGTVSAGLFVGLDREVATRFSFLLAIPAVLAS---    208
+                            ::|.:...|.|..|       .:::|   ||...|.||.|   
+SPB4_ASPFU       141 -------VVPQLLLGGSTTPA-------EDLST---FLKRSPNVLVSTPG    173
+
+UPPP_CORDI       209 ---GLFSLPDAFAPDA    221
+                        .|.|.|....|.:
+SPB4_ASPFU       174 RLLELLSSPHVHCPQS    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      15/52 (28.8%)
+# Similarity:    25/52 (48.1%)
+# Gaps:          10/52 (19.2%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+UPPP_CORDI         2 TQDPSSQISWSQTIVLSIVQGLTEFLPISSSGH----LRIVSELFWGKDA     47
+                     |:||:  |:|.  :...::.|....:|:|..|.    |..:.||  .:.|
+ASSY_MYCTO       205 TEDPT--INWG--VPDEVIVGFERGVPVSVDGKPVSMLAAIEEL--NRRA    248
+
+UPPP_CORDI        48 GA     49
+                     ||
+ASSY_MYCTO       249 GA    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      40/184 (21.7%)
+# Similarity:    62/184 (33.7%)
+# Gaps:          50/184 (27.2%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       125 ITASVLIAFSFVFIA----AEKWGSKRRSFDQLTMRDAVIMGCAQCLALI    170
+                     :..||||......:|    ..|.||.:...|:.|         .|...::
+ECCB1_MYCS2       49 VVVSVLICLGAALMAYFKPLGKQGSDQLLVDRTT---------NQLYVML     89
+
+UPPP_CORDI       171 PGVSRSG---GTVSAGLFVG-LDREVATRFSFL---------------LA    201
+                     ||.::..   ...||.|.:| ....||.:...|               .|
+ECCB1_MYCS2       90 PGSNQLRPVYNLTSARLVLGNASNPVAVKSEELNRISKGQSIGIPGAPYA    139
+
+UPPP_CORDI       202 IPAVLASGLFSL------PDAFAPDAGQAASGMQLAVGTGI-------AF    238
+                     .|....:..::|      ||:.||....:.....||:.:|:       ..
+ECCB1_MYCS2      140 TPTGTPASQWTLCDTVAKPDSSAPKVETSILIRTLAIDSGVGPIRADQGM    189
+
+UPPP_CORDI       239 ALGYASIAWLLKFVGSHSF-----SWFAAYRIPV    267
+                     .:.|....||:...|.||.     :..:|..|||
+ECCB1_MYCS2      190 LVSYEGANWLITEGGRHSIDLADRAVTSAVGIPV    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      16/80 (20.0%)
+# Similarity:    34/80 (42.5%)
+# Gaps:          10/80 (12.5%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       127 ASVLIAFSFVFIAAE-------KWGSKRRSFDQLTMRDAVIMGCAQCLAL    169
+                     |:::..|.|:.::|.       |.||:..:..:..:::..|:.....:.|
+KCY4_ORYSJ        45 ANIVEHFGFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKL     94
+
+UPPP_CORDI       170 I-PGVSRSGGTVSAGLFVGLDREVATRFSF    198
+                     : ..:.:||.  ...|..|..|....|.:|
+KCY4_ORYSJ        95 LQEAMIKSGN--DKFLIDGFPRNEENRAAF    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      33/159 (20.8%)
+# Similarity:    57/159 (35.8%)
+# Gaps:          39/159 (24.5%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UPPP_CORDI       114 DIIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVIMGC    163
+                     |.::|      :....|...|.|.:.|:..|...|..|:.|        |
+HCP_TRIV2         28 DALQD------LLVHCLRGLSQVALQAKSLGLATRETDEFT--------C     63
+
+UPPP_CORDI       164 AQCLALIPGVSRSGGTVSAGLFVG-LDREVATRFSFLLAIPAVLASGLFS    212
+                     ....:.:..|:     .|...|:. ::|.:|.|.|..|.|.|...:.:.|
+HCP_TRIV2         64 EMLFSTLTNVN-----FSTSDFISFVNRAIALRESLKLQIQATGNAVIQS    108
+
+UPPP_CORDI       213 LPDAFAPDAGQAASGMQLAVGTGIAFALGYAS--------------IAWL    248
+                     ..::|.|     ||..|..:..|......:.|              :.:.
+HCP_TRIV2        109 AINSFQP-----ASDTQKQIQQGKDLEFEFISQSAKNVDIFSLKLTLLYG    153
+
+UPPP_CORDI       249 LKFVGSHSF    257
+                     ||.|.:::|
+HCP_TRIV2        154 LKGVAAYAF    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    13/24 (54.2%)
+# Gaps:           3/24 (12.5%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+UPPP_CORDI        60 EAAVLVYF--AKDIAKILTGWFRG     81
+                     |..||..:  |:| .:.|..||:|
+UBX7_YEAST        20 EGVVLAVYNTARD-DQWLKSWFKG     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      22/76 (28.9%)
+# Similarity:    29/76 (38.2%)
+# Gaps:          24/76 (31.6%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       173 VSRSGG-TVSAGLF-VGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPD    220
+                     ||.:|. .|:||:. .|.|.||..        |.::...|         |
+RPOA_ACICJ       112 VSATGPCEVTAGMIQTGHDIEVMN--------PELVICTL---------D    144
+
+UPPP_CORDI       221 AGQAASGMQLAVGTGIAFALGYASIA    246
+                     .| |..||:..|.:|    .||...|
+RPOA_ACICJ       145 DG-ATLGMEFTVESG----RGYVPAA    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UPPP_CORDI       100 VGTLPVSIVGLLAKDII    116
+                     :.||......|.||::|
+YXAD_BACSU        64 ISTLSRQAAALEAKELI     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UPPP_CORDI
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      37/156 (23.7%)
+# Similarity:    52/156 (33.3%)
+# Gaps:          66/156 (42.3%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+UPPP_CORDI        44 GKD---AGASFTAVVQLGTEAAVLVYFAKDIAKILTGWF---RGLFDKKQ     87
+                     |||   .||..|..:.|         ||:|.| :|..|.   ..:|:|.:
+FADB_SHESR        60 GKDTFIVGADITEFLGL---------FAQDDA-VLLSWVEQANAVFNKLE     99
+
+UPPP_CORDI        88 ----------RGFDYRMGWMVIVGT------------LPVSIVGL-----    110
+                               :||....|...|:.|            ||.:.:|:     
+FADB_SHESR       100 DLPFPTASAIKGFALGGGCETILATDFRIADTTAKIGLPETKLGIIPGFG    149
+
+UPPP_CORDI       111 ----LAKDIIRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTMR    156
+                         |.:.|..||... |||.                |..:|..|.|.:.
+FADB_SHESR       150 GTVRLPRVIGADNALE-WITT----------------GKDQRPEDALKVG    182
+
+UPPP_CORDI       157 --DAVI    160
+                       |||:
+FADB_SHESR       183 AVDAVV    188
+
+
+#---------------------------------------
+#---------------------------------------

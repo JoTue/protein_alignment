@@ -1,0 +1,3484 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:23
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/GRB7_RAT.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/GRB7_RAT.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/GRB7_RAT.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 430
+# Identity:      84/430 (19.5%)
+# Similarity:   147/430 (34.2%)
+# Gaps:         132/430 (30.7%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+GRB7_RAT          78 SQKPILGGS-SGARGLLPRDSSRLCVVKVYS-EDGACRSVEVAAGATARH    125
+                     :.||:..|. .....|...||:||...|.|: ...|..::.|.:...:..
+PUR7_VIBVU        18 TDKPVHSGKVRSVYWLTEEDSARLIKEKGYNVAPDAPLAIMVISDRISAF     67
+
+GRB7_RAT         126 VCEMLVQRA-----------HALSDENWGLVECHPYLALERGLED-----    159
+                     .|....:..           :|:|:..:||.:       |.||.|     
+PUR7_VIBVU        68 DCIWHGEHGLNGVPGKGAALNAISNHWFGLFK-------ENGLADSHILD    110
+
+GRB7_RAT         160 --HESVVEVQEAWPVGGDS---RFIFRKNFAKYELFKSP------PHTLF    198
+                       |..|..||:|.||..::   ::|....:..||..:..      |..|.
+PUR7_VIBVU       111 IPHPFVWIVQKAKPVKIEAICRKYITGSMWRAYEKGEREFCGIQLPEGLE    160
+
+GRB7_RAT         199 PEKMVSSCLDTPT-----------------GISHEDLIQNF--LNAGSFP    229
+                     .:|.:...|.||:                 .|:.:::..||  .|..|..
+PUR7_VIBVU       161 KDKALPDLLMTPSTKGILKGIPGVPEADDVNITRQNIADNFAAFNFSSAD    210
+
+GRB7_RAT         230 EIQGFLQLRGSGRGSGRKLWKRFFCFLRRSG-LYYSTKGTSKDPRHLQYV    278
+                     :|..:.:|...|.|...:.       |...| ::..||      ....||
+PUR7_VIBVU       211 DIALYEKLLKDGFGVISEA-------LANVGQIFVDTK------FEFGYV    247
+
+GRB7_RAT         279 ADI--NESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGLHIFCSEDE    326
+                     .|.  ||..:|:...|              .|:..|       |:.:::.
+PUR7_VIBVU       248 TDAAGNEKLIYMDEVG--------------TPDSSR-------IWDAQEY    276
+
+GRB7_RAT         327 QSRTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSPPLRSVSDNTLV    376
+                     |:.              ::.:|.::. .|...|:|...|.:....|.   
+PUR7_VIBVU       277 QAG--------------KIVENSKEG-FRQFLLNYFPDPDILLNKDR---    308
+
+GRB7_RAT         377 AMDFSGHAGRVIENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGLSLSA    426
+                      |.......|..|.|:|||.|.:..          .:::....:|   ||
+PUR7_VIBVU       309 -MPEREALARDNELPEEALMAVSRT----------YINIAEKITG---SA    344
+
+GRB7_RAT         427 AIHRTQPWFHGRISREESQRLIGQQ-GLVD    455
+                     .:....|       ::|...::|:: ||:|
+PUR7_VIBVU       345 IVLSDNP-------KQEIIDILGREYGLID    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      21/78 (26.9%)
+# Similarity:    26/78 (33.3%)
+# Gaps:          28/78 (35.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+GRB7_RAT           5 LSPSHLSSSPED----------VCPTPGTPPETPPPPDNPPPGDVKRSQP     44
+                     ::|.| |..|||          |||....|.|.    |......:.||..
+Y075_NITWN         1 MTPPH-SDRPEDTADPKLLEILVCPVTKGPLEL----DGARRELISRSAK     45
+
+GRB7_RAT          45 LPIPSSRKLREEEFQATSLPSIPNPFPE     72
+                     |..|    :|:         .||...||
+Y075_NITWN        46 LAYP----IRD---------GIPIMLPE     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      13/54 (24.1%)
+# Similarity:    18/54 (33.3%)
+# Gaps:          18/54 (33.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+GRB7_RAT          29 PPPDNPPPGDVK------------------RSQPLPIPSSRKLREEEFQA     60
+                     |..|..|||.:|                  ......|.::|.||::|..|
+Y3584_PSEAB       34 PLLDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMA     83
+
+GRB7_RAT          61 TSLP     64
+                     ...|
+Y3584_PSEAB       84 VYTP     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      20/108 (18.5%)
+# Similarity:    31/108 (28.7%)
+# Gaps:          33/108 (30.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+GRB7_RAT         121 ATARHVCEMLVQR------AHALSDENWGLVE------------------    146
+                     ||..|.|..|..|      ....:|.|..|..                  
+BPT_HAHCH         11 ATPEHPCSYLDDRLATTMFVDPKADINLDLYTRLSQLGFRRSGNHYYKPR     60
+
+GRB7_RAT         147 ---CHPYLALERGLEDHESVVEVQEAWPVGGD------SRFIFRKNFAKY    187
+                        |:..:|:....|:.......:..|....|      |....:::||.|
+BPT_HAHCH         61 CNGCNACIAVRIPTEEFNRTRSQERTWKRNSDLTVRLRSAQFEQEHFALY    110
+
+GRB7_RAT         188 ELFKSPPH    195
+                     :.:.|..|
+BPT_HAHCH        111 QRYISARH    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      17/71 (23.9%)
+# Similarity:    26/71 (36.6%)
+# Gaps:          18/71 (25.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+GRB7_RAT          14 PEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLREEEFQATSL     63
+                     |.|...|.|:..:    ||..|..  .|.|...:..:|.:.|::..|   
+KDPC_CAUVN       116 PADAVTTSGSGLD----PDISPAN--ARFQAPRVAGARGVPEKDVTA---    156
+
+GRB7_RAT          64 PSIPNPFPELCSPPSQKPILG     84
+                              |.....|:|:||
+KDPC_CAUVN       157 ---------LIDAQVQQPLLG    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      36/162 (22.2%)
+# Similarity:    55/162 (34.0%)
+# Gaps:          43/162 (26.5%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+GRB7_RAT         174 GDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDLI----    219
+                     |:..|:...::|....|:     :.|:..|......||.:.|.||:    
+LPXH_XYLFM        78 GNRDFLVGADYAARAGFR-----ILPDPCVVDLYGEPTLLLHGDLLCTDD    122
+
+GRB7_RAT         220 ---QNFLNAGSFPE-IQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYST    265
+                        |.|......|| |..||....|.|                  |.:|.
+LPXH_XYLFM       123 IAYQAFRAQTRDPEFIAQFLTQTLSAR------------------LAFSQ    154
+
+GRB7_RAT         266 KGTSKDPRHLQYVADINESNVYVVTQGRKLYG-IPTDFG---FCVKPNKL    311
+                     :.......|...:...|:|     ||..|:.. :|.|..   .|...|::
+LPXH_XYLFM       155 QARLASHAHQSGLKQENDS-----TQFEKITDVVPADVAAMFACYGVNRM    199
+
+GRB7_RAT         312 RNGH---KGLHI    320
+                     .:||   ..||:
+LPXH_XYLFM       200 IHGHTHRPALHM    211
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       6/10 (60.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+GRB7_RAT         415 LPTPCSGLSL    424
+                     |...|:||||
+YERI_SCHPO         9 LAKACTGLSL     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 532
+# Identity:     111/532 (20.9%)
+# Similarity:   179/532 (33.6%)
+# Gaps:         179/532 (33.6%)
+# Score: 84.0
+# 
+#
+#=======================================
+
+GRB7_RAT          22 GTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLREEEFQATSLPS------     65
+                     |||.|.|.|......|.....|.:.:.....:.|..|.|.:..|      
+RBSA_RUEST        67 GTPVEIPSPAAAQKMGIGFVHQEIALCPDVSVAENIFMAATNSSRSFLMD    116
+
+GRB7_RAT          66 -------IPNPFPELCS-PPSQKPILGGSSGARGLLPRDSS-----RLCV    102
+                            ....|.:|.| .||             :|.||.|     .:.:
+RBSA_RUEST       117 YKGIEAKAREVFAQLSSIDPS-------------VLVRDLSISNQQLVEI    153
+
+GRB7_RAT         103 VKVYSEDGACRSV---EVAAGATARHVCEMLVQRAHALSDENWGLVECHP    149
+                     .|..:.|  ||.:   |..|..|... .::|.:....|:|:...|:    
+RBSA_RUEST       154 AKALTLD--CRVLILDEPTAALTEAE-AQVLFKIMRRLADQGISLI----    196
+
+GRB7_RAT         150 YLALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHT---    196
+                     |:: .|.:|..::...|.    |..|.|::..::.||.    :|...   
+RBSA_RUEST       197 YIS-HRMVEIFDNCDRVS----VFRDGRYVTTQDVAKI----TPADVVRA    237
+
+GRB7_RAT         197 --------LFPEKMVSSCLDTPTGISHEDLIQ-------NF-LNAGSFPE    230
+                             |:|||.......|...:..|:|.:       :| |:.|   |
+RBSA_RUEST       238 MVGREIGDLYPEKQRPEACSTTEVLRVENLCEAERFHDVSFSLHKG---E    284
+
+GRB7_RAT         231 IQGFLQLRGSGRG-------------SGRKLWKRFFCFLRRSGLYYSTKG    267
+                     |.||..|.|:||.             :|| ||                  
+RBSA_RUEST       285 ILGFAGLIGAGRSEIAKGVCALEGQVTGR-LW------------------    315
+
+GRB7_RAT         268 TSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKG    317
+                     .:.:|..|:...|..::.:..:::.||..|:..|.......:.|:     
+RBSA_RUEST       316 LNGEPLALRDYQDSIDAGIVYLSEDRKGDGVFLDMSIASNVSALK-----    360
+
+GRB7_RAT         318 LHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQQAQ--SRHLRLSYLGSP    365
+                            .||.    .||..|.:.|    :..:||.  .|.|.|.     
+RBSA_RUEST       361 -------VEQV----ASALGLIQPG----REIEQADRLGRKLNLK-----    390
+
+GRB7_RAT         366 PLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATEEAQAWRK--KTNHRL    413
+                                       .| .:::|..:||...::..|..|  ..|.||
+RBSA_RUEST       391 ------------------CG-TLQDPVSSLSGGNQQKVALAKMLSVNPRL    421
+
+GRB7_RAT         414 -SLPTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQQGLVDGVFLVRE    462
+                      .|..|..|:.:.|   :.:.:   ||.|:.::         :|..:|..
+RBSA_RUEST       422 IFLDEPTRGVDVGA---KAEIY---RILRDLAE---------EGAGIVVI    456
+
+GRB7_RAT         463 SQRNPQGFVLSLCHLQKVKHYLILPSEDEGCL    494
+                     |...|:  ::.||....|.|        ||||
+RBSA_RUEST       457 SSELPE--LIGLCDRVLVIH--------EGCL    478
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    13/24 (54.2%)
+# Gaps:           5/24 (20.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+GRB7_RAT         226 GSFPEI-QGFLQLRGSGRGSGRKL    248
+                     |.|.:: .|:    |.|.||.|:|
+KR195_HUMAN       16 GGFDDLGYGY----GCGCGSFRRL     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    24/48 (50.0%)
+# Gaps:           7/48 (14.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+GRB7_RAT         468 QGFVLSLCHLQKVKHYLILPSEDE----GCLYFSMDDGQTRFTDLLQL    511
+                     |..|||:  :|.:..:|.:.|...    ..|::..|.|.: ||.::||
+UPPP_CORDI        13 QTIVLSI--VQGLTEFLPISSSGHLRIVSELFWGKDAGAS-FTAVVQL     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           7/24 (29.2%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+GRB7_RAT         489 EDEGCLYFSM------DDGQT-RF    505
+                     :.||.::|..      |||.| ||
+GREB_ECO57        80 QQEGKVFFGAWVEIENDDGVTHRF    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      64/301 (21.3%)
+# Similarity:    97/301 (32.2%)
+# Gaps:         104/301 (34.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+GRB7_RAT          79 QKPI---LGGSSGARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGAT---    122
+                     :.||   :|.....:|::|||...:         ||    ::..|.|   
+TGT_LEPCP         26 ETPIFMPVGTYGTVKGVMPRDLETM---------GA----QIILGNTFHL     62
+
+GRB7_RAT         123 -ARHVCEMLVQRAHALSDENWGLVECHPYLALERG-----LEDHESVVE-    165
+                      .|...:::.|.......|||    ..|.|....|     |.:...:.| 
+TGT_LEPCP         63 WMRPGQDVMAQFGGLHRFENW----TRPILTDSGGFQVWSLGEMRKISEE    108
+
+GRB7_RAT         166 -VQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGIS    214
+                      |:.|.||.||..|                  |.||  ||..:.|   :.
+TGT_LEPCP        109 GVRFASPVNGDKLF------------------LTPE--VSMQIQT---VL    135
+
+GRB7_RAT         215 HEDLIQNF----------LNAGSF-----PEIQGFLQLRGSGR-------    242
+                     :.|::..|          .|.|..     ..:...|.||.:.|       
+TGT_LEPCP        136 NSDIVMQFDECTPYWQGAKNVGHITTEKEARVSMELSLRWAARSKAEFAR    185
+
+GRB7_RAT         243 -GSGRKLW----KRFFCFLRRSGLY---------YSTKGTSKDPRHLQYV    278
+                      |:...|:    ...|..||...|.         |:..|.|......:.:
+TGT_LEPCP        186 LGNPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGVSVGEPKDEML    235
+
+GRB7_RAT         279 ADINES-NVYVVTQGRKLYGIPT------------DFGFCVKPNK-LRNG    314
+                     ..:|.: ::....:.|.|.|:.|            |...||.|.: .|||
+TGT_LEPCP        236 RIMNHTPHLLPADKPRYLMGVGTPEDLVDGVACGVDMFDCVMPTRNARNG    285
+
+GRB7_RAT         315 H    315
+                     |
+TGT_LEPCP        286 H    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 351
+# Identity:      67/351 (19.1%)
+# Similarity:   114/351 (32.5%)
+# Gaps:         111/351 (31.6%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+GRB7_RAT          22 GTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLREEEFQATSLPSIPNP--     69
+                     |||||.            ..::.|.:.|..:|:....:|.....:.|.  
+CBPQ_HUMAN       140 GTPPEG------------ITAEVLVVTSFDELQRRASEARGKIVVYNQPY    177
+
+GRB7_RAT          70 --FPELCSPPSQKPILGGSSGARGLLPRDSSRLCVVKVYS-----EDG--    110
+                       :.......:|..:.....||...|.|..:...:...::     :||  
+CBPQ_HUMAN       178 INYSRTVQYRTQGAVEAAKVGALASLIRSVASFSIYSPHTGIQEYQDGVP    227
+
+GRB7_RAT         111 ----ACRSVEVA--AGATARHVCEMLVQRAHALSDENWGLVECHPYLALE    154
+                         ||.:||.|  ....|.|..::::|.  .:..:.:...:....:|..
+CBPQ_HUMAN       228 KIPTACITVEDAEMMSRMASHGIKIVIQL--KMGAKTYPDTDSFNTVAEI    275
+
+GRB7_RAT         155 RGLEDHESVVEVQ---EAWPVG------GDSRFIFRKNFAKYELFKS---    192
+                     .|.:..|.||.|.   ::|.||      |...||   ::....|.|.   
+CBPQ_HUMAN       276 TGSKYPEQVVLVSGHLDSWDVGQGAMDDGGGAFI---SWEALSLIKDLGL    322
+
+GRB7_RAT         193 -PPHTLFPEKMVSSCLDTPTGIS-------HEDLIQNF-----LNAGSF-    228
+                      |..||   ::|....:...|:.       |:..|.|:     .:||:| 
+CBPQ_HUMAN       323 RPKRTL---RLVLWTAEEQGGVGAFQYYQLHKVNISNYSLVMESDAGTFL    369
+
+GRB7_RAT         229 ----------------PEIQGFL------QLRGSGRGSGRKLW-------    249
+                                     .|:...|      |:...|.|:....|       
+CBPQ_HUMAN       370 PTGLQFTGSEKARAIMEEVMSLLQPLNITQVLSHGEGTDINFWIQAGVPG    419
+
+GRB7_RAT         250 --------KRFFCFLRRSGLYYSTKG---TSKDPRHLQYVADINESNVYV    288
+                             |.||        ::.:.|   |..||:.:...|.:.....||
+CBPQ_HUMAN       420 ASLLDDLYKYFF--------FHHSHGDTMTVMDPKQMNVAAAVWAVVSYV    461
+
+GRB7_RAT         289 V    289
+                     |
+CBPQ_HUMAN       462 V    462
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      19/96 (19.8%)
+# Similarity:    34/96 (35.4%)
+# Gaps:          29/96 (30.2%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+GRB7_RAT         139 DENWG--LVECHP------YLALERGLEDHESVVEVQEAWPVGGDSRFIF    180
+                     |:.:|  |.:|.|      :.|...||:|.|::                 
+PSA6_SOYBN       144 DDEYGPQLYKCDPAGHYFGHKATSAGLKDQEAI-----------------    176
+
+GRB7_RAT         181 RKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDLIQNFLNAG    226
+                       ||.:.::...|..|.  |:.|.:.:.....:..||.....:..|
+PSA6_SOYBN       177 --NFLEKKMKNDPSFTY--EETVQTAISALQSVLQEDFKATEIEVG    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:      38/197 (19.3%)
+# Similarity:    63/197 (32.0%)
+# Gaps:          57/197 (28.9%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+GRB7_RAT           4 DLSPSHLSSSPEDVCPTPGTPPETPPPPD-----------NPPPGDVKRS     42
+                     |.:|:.|:...||         :.|||.|           ....||.|:|
+SCL34_ARATH       16 DGNPNLLTDPMED---------QYPPPSDTLLKYVSEILMEESNGDYKQS     56
+
+GRB7_RAT          43 QPLPIPSSRKLREEEFQATSLPSIPNPFPELCSPPSQKPILGGSSGARGL     92
+                     ......:.|| .||..|.....|....|.                     
+SCL34_ARATH       57 MFYDSLALRK-TEEMLQQVITDSQNQSFS---------------------     84
+
+GRB7_RAT          93 LPRDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENW    142
+                      |.||   .:...:...|:..  |.|..|..:.|.|::|:...:      
+SCL34_ARATH       85 -PADS---LITNSWDASGSID--ESAYSADPQPVNEIMVKSMFS------    122
+
+GRB7_RAT         143 GLVECHPYLALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYEL    189
+                        :....|..::|:|:....:...:.|.:..|.....|::..|.|:
+SCL34_ARATH      123 ---DAESALQFKKGVEEASKFLPNSDQWVINLDIERSERRDSVKEEM    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+GRB7_RAT         379 DFSGHAGRVIENPQEALSAATEEAQAW    405
+                     ||....||.|.:..:::.:|.:|...|
+NDKA_CANLF       107 DFCIQVGRNIIHGSDSVESAEKEIGLW    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      34/208 (16.3%)
+# Similarity:    68/208 (32.7%)
+# Gaps:          77/208 (37.0%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+GRB7_RAT         124 RHVCEMLVQRAHALSDENWGLVECHPYLALERGLEDHESVVEVQEAWPVG    173
+                     :|: :.|...:|.:.|:..|:....|          :....:::|:.|:.
+RS4_CAEEL          6 KHL-KRLAAPSHWMLDKLGGVFAVRP----------NPGPHKLRESLPLS     44
+
+GRB7_RAT         174 GDSRFIFRKNFAKYELFKSPPHTLFPEKM------VSSCLDTPTGISHED    217
+                          :|.:|..||.|..:....:..:::      |.:|...|||     
+RS4_CAEEL         45 -----LFLRNRLKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTG-----     84
+
+GRB7_RAT         218 LIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKG    267
+                         |::..:......:.:                        :.|.|||
+RS4_CAEEL         85 ----FMDVVAIERTNEYFR------------------------MLYDTKG    106
+
+GRB7_RAT         268 TSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKG    317
+                     .                  |||   .::.....||..| |...:|..:||
+RS4_CAEEL        107 R------------------YVV---HRIQAAEADFKLC-KVKSVRTVNKG    134
+
+GRB7_RAT         318 LHIFCSED    325
+                     :.:..:.|
+RS4_CAEEL        135 VPVLTTTD    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      23/126 (18.3%)
+# Similarity:    45/126 (35.7%)
+# Gaps:          35/126 (27.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+GRB7_RAT         416 PTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQQGLVDGVFLVRESQR    465
+                     |:|.....|.|   ..:.|:....:.:||.|:         ..|..|.:|
+G45IP_CHLAE       77 PSPEQLRELEA---EEREWYPSLATMQESLRV---------KHLAEEQKR    114
+
+GRB7_RAT         466 NPQGFVLSLCHLQKVKHYLI----------------------LPSEDEGC    493
+                     ..:...::.| :.|:...::                      |.:|.:..
+G45IP_CHLAE      115 REREQHIAEC-MAKMPQMIVNWQQQQRERWEKAQADKERRARLQAEAQEL    163
+
+GRB7_RAT         494 LYFSMDDGQTRFTDLLQLVEFHQLNR    519
+                     |.:.::....||.:|||.:|..:..|
+G45IP_CHLAE      164 LGYQVNPKSARFQELLQDLEKKERKR    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      14/36 (38.9%)
+# Similarity:    19/36 (52.8%)
+# Gaps:           5/36 (13.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+GRB7_RAT          89 ARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGATAR    124
+                     :|||.|.|.|.:.:.|:  |.|   .|:.|...|||
+DAPEL_OCEIH      213 SRGLNPLDGSVITIGKM--ESG---YVQNAIAETAR    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      28/120 (23.3%)
+# Similarity:    44/120 (36.7%)
+# Gaps:          29/120 (24.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+GRB7_RAT         109 DGACRSVEVAAGATARHVCEMLVQRAHALS-------DEN--WGLVECHP    149
+                     ||..|:|     |.|..:.|||..:..:||       |||  .|.:|...
+KAD_METRJ         84 DGFPRTV-----AQAEALGEMLASKGLSLSAVVELKVDENALVGRIEKRA    128
+
+GRB7_RAT         150 YLALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFP    199
+                     ...|.||....:.            |:..:|::....|....:|....:.
+KAD_METRJ        129 AETLARGQAVRKD------------DTPEVFKQRLEAYRAQTAPLSAYYA    166
+
+GRB7_RAT         200 EKMVSSCLDTPTGISHEDLI    219
+                     :|   ..|:|..|:...|.:
+KAD_METRJ        167 QK---GTLETVDGMQPIDKV    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:      10/28 (35.7%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           8/28 (28.6%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+GRB7_RAT         465 RNPQGFVLSLCHLQKVKHYLILPSEDEG    492
+                     |.|:..:|.||.||        ||:..|
+ELN_BOVIN          9 RRPEVLLLLLCILQ--------PSQPGG     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 350
+# Identity:      70/350 (20.0%)
+# Similarity:   114/350 (32.6%)
+# Gaps:          95/350 (27.1%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+GRB7_RAT          38 DVKRSQPLPIPSSRKLREEEFQ----ATSLPSIPNPFPELCSPPSQKPIL     83
+                     |:|.|     ||...|:....|    .::|..|.:.|  :..|.:.:.:|
+ASIC2_MOUSE        2 DLKES-----PSEGSLQPSSIQIFANTSTLHGIRHIF--VYGPLTIRRVL     44
+
+GRB7_RAT          84 GGSS--GARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGATA--------    123
+                     ...:  |:.|||..:||.. |...:|.....:..||.|.:..        
+ASIC2_MOUSE       45 WAVAFVGSLGLLLVESSER-VSYYFSYQHVTKVDEVVAQSLVFPAVTLCN     93
+
+GRB7_RAT         124 --------------RHVCEMLVQRAHALSDENWGLVECHPYLALERGLED    159
+                                   .|..|:|     ||.|.|..:.:  |:||....||.
+ASIC2_MOUSE       94 LNGFRFSRLTTNDLYHAGELL-----ALLDVNLQIPD--PHLADPTVLEA    136
+
+GRB7_RAT         160 HESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDT    209
+                     .......:...|          |.|:..|......|.|  :.|:..|...
+ASIC2_MOUSE      137 LRQKANFKHYKP----------KQFSMLEFLHRVGHDL--KDMMLYCKFK    174
+
+GRB7_RAT         210 PTGISHEDLIQNFLNAG------SFPEIQGFLQLRGSGRGSGRK------    247
+                     .....|:|....|...|      |..:.:..|.....|.|:|.:      
+ASIC2_MOUSE      175 GQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQ    224
+
+GRB7_RAT         248 ------LWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADINES-----NV    286
+                           :|.........:|:.......|:.|    ::.::...     ..
+ASIC2_MOUSE      225 QDEYLPIWGETEETTFEAGVKVQIHSQSEPP----FIQELGFGVAPGFQT    270
+
+GRB7_RAT         287 YVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGLHIF-------CSEDEQSR    329
+                     :|.||.::|..:|..:|.|      |:...||..|       |..|.::|
+ASIC2_MOUSE      271 FVATQEQRLTYLPPPWGEC------RSSEMGLDFFPVYSITACRIDCETR    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      14/59 (23.7%)
+# Similarity:    27/59 (45.8%)
+# Gaps:          10/59 (16.9%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+GRB7_RAT         169 AWPVGGDSRFIFRKNFAKYELFKSPPHTLF--PEKMVSSCLDTPTGISHE    216
+                     ||    :|...|.||: |..|.:..|:.:.  .||..   :::|.|:..:
+DOXA1_XENTR      129 AW----ESANQFDKNY-KDGLERGLPYPILYVAEKFT---INSPCGLFQQ    170
+
+GRB7_RAT         217 DLIQNFLNA    225
+                     ..|..:.::
+DOXA1_XENTR      171 YCISTYYSS    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    16/34 (47.1%)
+# Gaps:          10/34 (29.4%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+GRB7_RAT          77 PSQKPILGGSSG-----ARGLL-----PRDSSRL    100
+                     ||::.....||.     ::||:     .||.:||
+RS20_STRPB        44 PSEELFRAASSSIDKAESKGLIHKNKASRDKARL     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      27/110 (24.5%)
+# Similarity:    42/110 (38.2%)
+# Gaps:          24/110 (21.8%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+GRB7_RAT         325 DEQSRTCWLSAFRLFKYGVQLYKNYQQAQSR----HLRLSYLGSPPLRSV    370
+                     ::|||...|.|.:..:....|.|..||.::.    ..:||...|.  ...
+TPM_HAELO         26 EQQSRDAALRAEKAEEEVRSLQKKIQQIENELDQVQEQLSQANSK--LEE     73
+
+GRB7_RAT         371 SDNTLVA--MDFSGHAGRV------IENPQEALSAAT----------EEA    402
+                     .|..|.|  .:.:.|..|:      :|..:|.|..||          :|:
+TPM_HAELO         74 KDKALQAAEAEVAAHNRRIQLLEEDLERSEERLKIATQKLEEASQAADES    123
+
+GRB7_RAT         403 QAWRKKTNHR    412
+                     :..||...||
+TPM_HAELO        124 ERMRKMLEHR    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      18/68 (26.5%)
+# Similarity:    31/68 (45.6%)
+# Gaps:          12/68 (17.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+GRB7_RAT         359 LSYLGSPPLRSVSDNTLVAMD--FSGHA--GRVIENPQEALSAATEEAQA    404
+                     |.|:|....::::|   :.:|  |.|..  .|:     |.|.||...|:.
+LEUC_XANOM       329 LKYMGLKANQAITD---IRLDRVFIGSCTNSRI-----EDLRAAAAVAKG    370
+
+GRB7_RAT         405 WRKKTNHRLSLPTPCSGL    422
+                     .:..:..:.:|..|.|||
+LEUC_XANOM       371 RKVASTIKQALVVPGSGL    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       3/6 (50.0%)
+# Similarity:     5/6 (83.3%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+GRB7_RAT         240 SGRGSG    245
+                     :|.|:|
+LPT_ESCF3         16 TGNGAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      13/68 (19.1%)
+# Similarity:    27/68 (39.7%)
+# Gaps:           2/68 ( 2.9%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+GRB7_RAT          52 KLREEEFQAT--SLPSIPNPFPELCSPPSQKPILGGSSGARGLLPRDSSR     99
+                     :::||..|||  .|..:.:...|.....:..|:...::.|.|.....:..
+RL7_THET8          7 RIKEELSQATVLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAAAPAEE     56
+
+GRB7_RAT         100 LCVVKVYSEDGACRSVEV    117
+                     .....|..::...:.:||
+RL7_THET8         57 KTEFDVILKEAGAKKLEV     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      40/194 (20.6%)
+# Similarity:    69/194 (35.6%)
+# Gaps:          46/194 (23.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+GRB7_RAT         320 IFC---SEDEQSRTCWLSAFRLF------KYGVQLYKNYQQAQSRHL-RL    359
+                     ::|   ..|::....|:...|.|      :|   ||.::.....||: |:
+HEM1_METCA        55 VYCELDGRDQRPIVDWMCDQRQFDDQDISQY---LYSHFDAGTIRHMFRV    101
+
+GRB7_RAT         360 S------YLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATEEAQ    403
+                     :      .||.|.:.........|...:|..|:::........||.::. 
+HEM1_METCA       102 ACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKV-    150
+
+GRB7_RAT         404 AWRKKTNHRLSLPTPCSGLSLS-AAIHRTQPWFH--GRI-----------    439
+                             |......||.:|:: |||...|..|.  |.:           
+HEM1_METCA       151 --------RTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETI    192
+
+GRB7_RAT         440 ---SREESQRLIGQQGLVDGVFLVRESQRNP-QGFVLSLCHLQK    479
+                        :|..::..||...:.:..|....:..|. .||.:||..|.|
+HEM1_METCA       193 ELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPK    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 419
+# Identity:      81/419 (19.3%)
+# Similarity:   130/419 (31.0%)
+# Gaps:         156/419 (37.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+GRB7_RAT          85 GSSGARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRA    134
+                     |:||.:.:|            .:|.|     ||.|.    |..::.|.|.
+XYLB_KLEPN         8 GTSGVKAIL------------LNEQG-----EVVAS----HTEKLTVSRP     36
+
+GRB7_RAT         135 HAL----SDENWGLVECHPYLALE---RGLEDHESVVEVQEAWPVG----    173
+                     |.|    ..|.|       :||.:   :.|..|:|:..|:.....|    
+XYLB_KLEPN        37 HPLWSEQDPEQW-------WLATDTAMKALGAHDSLRHVKGLGIAGQMHG     79
+
+GRB7_RAT         174 ----GDSRFIFRKNFAKYELFKSPPHTLFPE-KMVSSCLDTPTGISHEDL    218
+                         ..|..:.|            |..|:.: :....|          .|
+XYLB_KLEPN        80 ATLLDKSLQVLR------------PAILWNDGRCAEEC----------QL    107
+
+GRB7_RAT         219 IQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKGT    268
+                     :::.::|..  :|.|.|.:  .|..:.:.||.:                 
+XYLB_KLEPN       108 LEDKVSASR--QITGNLMM--PGFTAPKLLWVQ-----------------    136
+
+GRB7_RAT         269 SKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGL    318
+                         ||        |:.|:  :|..|:. :|.|:        ||....| 
+XYLB_KLEPN       137 ----RH--------EAAVF--SQVDKVL-LPKDY--------LRLRMTG-    162
+
+GRB7_RAT         319 HIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSPPLR    368
+                     .:.....:.:.|.||...|                              |
+XYLB_KLEPN       163 ELASDMSDAAGTMWLDVAR------------------------------R    182
+
+GRB7_RAT         369 SVSDNTLVAMDFSGHA-GRVIENPQEALSAATEEAQAWRKKTNHRLSLPT    417
+                     ..||..|.|.|.|..| ..:.|..........|.||||    |...:|..
+XYLB_KLEPN       183 DWSDEMLAACDLSRDAMPALFEGSDVTGQLRPEVAQAW----NMPPALVV    228
+
+GRB7_RAT         418 PCSGLSLSAAIHRTQPWFHGRISREESQRLIGQQGLVDGVFLVRES-QRN    466
+                     ...|.:.:.|:.      .|.....::...:|..|:   .|.|.|. ...
+XYLB_KLEPN       229 GGGGDNAAGAVG------IGMADAGQAMLSLGTSGV---YFAVSEGFLSK    269
+
+GRB7_RAT         467 PQGFVLSLCHLQKVKHYLI    485
+                     |:..|.|.||..:.:.:|:
+XYLB_KLEPN       270 PESAVHSFCHACRGRWHLM    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      30/138 (21.7%)
+# Similarity:    43/138 (31.2%)
+# Gaps:          48/138 (34.8%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+GRB7_RAT         111 ACRSVEVAAGA----------TARHVCEMLVQR--------AHALSDENW    142
+                     |.:.:|..:||          :||.....|::|        .:||:....
+RECR_NOVAD         2 ASQEIEALSGALARLPGLGPRSARRAVLWLIKRRETALPQLLNALTQVQE     51
+
+GRB7_RAT         143 GLVEC---------HPYLALERGLEDHES---VVEVQEAWPVGGDSRFIF    180
+                     .||||         :|.........|..|   |.||.:.|.:.       
+RECR_NOVAD        52 LLVECGVCGNVDTSNPCGICTDHRRDQRSICVVEEVADLWALD-------     94
+
+GRB7_RAT         181 RKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDL    218
+                          :..||....|.|      ...|....|:..|||
+RECR_NOVAD        95 -----RARLFTGKYHVL------GGRLSALEGVRPEDL    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      17/65 (26.2%)
+# Similarity:    26/65 (40.0%)
+# Gaps:          17/65 (26.2%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+GRB7_RAT         454 VDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSEDEGCLYFSMDDGQT    503
+                     |:|:.:|.:..||.|        |..:...|    :..|..||.:...:.
+SURE_METNO       175 VEGIAVVAQGMRNQQ--------LLAIDERL----DGRGNPYFWLAFAKA    212
+
+GRB7_RAT         504 RF-----TDLLQLVE    513
+                     ||     |||..:.|
+SURE_METNO       213 RFEPGHGTDLKAIAE    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:      51/274 (18.6%)
+# Similarity:    84/274 (30.7%)
+# Gaps:         115/274 (42.0%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+GRB7_RAT          38 DVKRSQPLPIPSSRKLREEEFQATSLPSIPNPFPELCSPPSQK------P     81
+                     :::::.||                 |..|.:.|.:|.:|.|..      .
+CYB_ARTIO          3 NIRKTHPL-----------------LKIINSSFVDLPAPSSLSSWWNFGS     35
+
+GRB7_RAT          82 ILGGSSGARGLLPRDSSRLCVVKVYSEDGA---------CRSVE------    116
+                     :||...|.:.|     :.|.:...|:.|.|         ||.|.      
+CYB_ARTIO         36 LLGVCLGVQIL-----TGLFLAMHYTSDTATAFNSVTHICRDVNYGWLLR     80
+
+GRB7_RAT         117 --VAAGATARHVCEML-----VQRAHALSDENW-----------------    142
+                       :|.||:...:|..|     :.....:..|.|                 
+CYB_ARTIO         81 YLLANGASMFFICLYLHVGRGLYYGSYMYSETWNIGILLLFAVMATAFMG    130
+
+GRB7_RAT         143 -----------------GLVECHPYLALERGLEDHESVVEVQEAWPVGGD    175
+                                      .|:...||:..:.          ||..|  ||.
+CYB_ARTIO        131 YVLPWGQMSFWGATVITNLLSAIPYIETDL----------VQWIW--GGF    168
+
+GRB7_RAT         176 SRFIFRKNFAKYELFKSPPHTLFPEKMVSSCL-----------DTPTGI-    213
+                     |  :.:....::..|    |.|.|..:.:..:           :.|||| 
+CYB_ARTIO        169 S--VDKATLTRFFAF----HFLLPFIVTALVMVHLLFLHETGSNNPTGIP    212
+
+GRB7_RAT         214 SHEDLIQNFLNAGSFPEIQGFLQL    237
+                     |..|:|. |....:..:|.|||.:
+CYB_ARTIO        213 SDPDMIP-FHPYYTIKDILGFLMM    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      36/160 (22.5%)
+# Similarity:    62/160 (38.8%)
+# Gaps:          41/160 (25.6%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+GRB7_RAT         197 LFPEKMVSSCLDTPTGISHEDLIQNFLNA-GSFPEIQGFLQLRG-SGRGS    244
+                     :|.|..:...: .|...:::|:.:  |.| .:|.:....:.|.| :|...
+IOLE_BACHK         1 MFKENTIKLGI-APIAWTNDDMPE--LGAENTFEQCISEMALAGFNGSEV     47
+
+GRB7_RAT         245 GRKLWKRFFCFLRRS---------GLYYSTKGTSKDP---------RHLQ    276
+                     |.| :.|....|::|         ..::||..|:| |         :|..
+IOLE_BACHK        48 GNK-YPRNTVVLKKSLELRNLEIASAWFSTFLTTK-PIEETVEEFIKHRD     95
+
+GRB7_RAT         277 YVADINESNVYVVTQGRKLYGIPTDFGFCVKP-------NKLRNG-----    314
+                     ::..:....:.|..||..:.|:.....|..||       .||.:|     
+IOLE_BACHK        96 FLHGMGAKVIVVSEQGHSIQGLMDVPLFKNKPVFTEEEWEKLADGLHHLG    145
+
+GRB7_RAT         315 ----HKGLHI    320
+                         .|||||
+IOLE_BACHK       146 KLAQEKGLHI    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      42/220 (19.1%)
+# Similarity:    63/220 (28.6%)
+# Gaps:          83/220 (37.7%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+GRB7_RAT         158 EDHESVVEVQEAWPVGGDSRFI----FRK---NFAKYELFKSPPHTLFPE    200
+                     |..:.:.|:.|..|:...:..:    |||   |.....:|.:..|...||
+ACKA_STAAT       107 EVEKEIEELSELAPLHNPANLMGIRAFRKLLPNIPHVAIFDTAFHQTMPE    156
+
+GRB7_RAT         201 K-------------------------------MVSSCLDTPTGISHEDL-    218
+                     |                               ..:..||.|.    ||| 
+ACKA_STAAT       157 KAYLYSLPYHYYKDYGIRKYGFHGTSHKFVSQRAAEMLDKPI----EDLR    202
+
+GRB7_RAT         219 -IQNFLNAG----------SFPEIQGFLQLRG--SGRGSGR---------    246
+                      |...:..|          |.....||..|.|  .|..||.         
+ACKA_STAAT       203 IISCHIGNGASIAAIDGGKSIDTSMGFTPLAGVTMGTRSGNIDPALIPFI    252
+
+GRB7_RAT         247 -----KLWKRFFCFLRRSGLYYSTKGTSKDPRHL-----------QYVAD    280
+                          |..::....|.:........|||.|.|.|           |...|
+ACKA_STAAT       253 MEKTGKTAEQVLEILNKESGLLGLSGTSSDLRDLSEEAESGKARSQMALD    302
+
+GRB7_RAT         281 INESNV--YVVTQGRKLYGI    298
+                     :..|.:  |:.:...:::|:
+ACKA_STAAT       303 VFASKIHKYIGSYAARMHGV    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 187
+# Identity:      42/187 (22.5%)
+# Similarity:    67/187 (35.8%)
+# Gaps:          41/187 (21.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+GRB7_RAT         109 DGACRSVEVAAGAT-ARHVCEMLVQRAHALSDENWGLVECHPYLALERGL    157
+                     ||..|. ::|.|.. ..|:.:.:.:  |.|.|.:   :|.|.    :..:
+HIS7_BURTA        22 DGTGRQ-KLATGVPFLDHMLDQIAR--HGLVDLD---IEAHG----DTHI     61
+
+GRB7_RAT         158 EDHESVVEV-----QEAWPVGGDSRFIFRKNFAKYEL----------FKS    192
+                     :||.:|.:|     |......||.:.|.|...:...|          |..
+HIS7_BURTA        62 DDHHTVEDVGITLGQAVAKAVGDKKGIRRYGHSYVPLDEALSRVVIDFSG    111
+
+GRB7_RAT         193 PP----HTLFPEKMVSSCLDTPTGISHEDLIQNFLN-AG------SFPEI    231
+                     .|    |..|....:.: .|....|   :..:.|:| ||      :...:
+HIS7_BURTA       112 RPGLEFHVPFTRARIGT-FDVDLSI---EFFRGFVNHAGVTLHIDNLRGV    157
+
+GRB7_RAT         232 QGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKGT    268
+                     ....||....:..||.|........|.:|...||||:
+HIS7_BURTA       158 NAHHQLETVFKAFGRALRMAVELDERAAGQIPSTKGS    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    23/50 (46.0%)
+# Gaps:           9/50 (18.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+GRB7_RAT         357 LRLSYLGSPPLRSVSDNTL-----VAMDFSGHAGRVIENPQEALSAATEE    401
+                     |||. :|.||...|:::.|     ..|:.   ..||::...:.|..|.:|
+PTH_GEOLS        131 LRLG-IGRPPHGDVTNHVLGVFTPPEMEI---FARVLDGALDMLETALDE    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      25/81 (30.9%)
+# Similarity:    35/81 (43.2%)
+# Gaps:          18/81 (22.2%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+GRB7_RAT           8 SHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLREEE     57
+                     |.:.|:||.....|.:.|::|||..:|.|..|     |.:|.        
+TAF3_XENLA       693 SKVVSAPESKAVPPPSLPKSPPPTPSPAPAPV-----LVVPP--------    729
+
+GRB7_RAT          58 FQATSLPSIPNPFPELCSP-PSQKPILGGSS     87
+                      ||...|:..:|.|   :| ||......|||
+TAF3_XENLA       730 -QAPPAPAAASPAP---TPAPSALTSNAGSS    756
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      55/267 (20.6%)
+# Similarity:    95/267 (35.6%)
+# Gaps:          67/267 (25.1%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+GRB7_RAT         193 PPHTLFPEKMVSSC--LDTPTGISHEDLIQNFLNAGSFPEIQG-------    233
+                     ||:|. |.:|...|  .|:|......:.:...:|......::|       
+DNLJ_CROS5       399 PPNTQ-PYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWAS    447
+
+GRB7_RAT         234 --FLQLRGSGRGSGRKLWKRFFCFLRRSG-------LYYSTKGTSKDPRH    274
+                       .|.:||.|        ::....|..:|       |||.|..|.   .:
+DNLJ_CROS5       448 RDALDIRGLG--------EKIVVLLIENGLVNSIADLYYLTPETI---AN    486
+
+GRB7_RAT         275 LQYVADINESNVYVVTQGRK-------LYGIPTDFGFCVKPNKLRNGHKG    317
+                     |:.:...:..|:....:|.|       |||:...:...|..|.|      
+DNLJ_CROS5       487 LERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLL------    530
+
+GRB7_RAT         318 LHIFCSEDEQSRTCWLSAFRLFKYGVQLYKN-------------YQQAQS    354
+                     :..|.|.|:.|:..:.|...::..|.::.::             .:|.:.
+DNLJ_CROS5       531 VENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQLKK    580
+
+GRB7_RAT         355 RHLRLSYLGS------PPLRSVSDNTLVAMDFSGHAGRVIENPQEAL--S    396
+                     ..|:|....|      |.|...|..|.|   .:|....:..|..:||  .
+DNLJ_CROS5       581 VGLQLETTSSEQITVEPSLTPFSGKTFV---ITGTLPTLTRNEAKALIEQ    627
+
+GRB7_RAT         397 AATEEAQAWRKKTNHRL    413
+                     |..:...:..|||::.|
+DNLJ_CROS5       628 AGGKVTGSVSKKTDYLL    644
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+GRB7_RAT         226 GSFPEIQGFLQLRGSGRGSGRKLWK    250
+                     ||.|||..  :|......|||.:|:
+MUTS_MYXXD       326 GSLPEIHA--RLDAVEELSGRSVWR    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      21/116 (18.1%)
+# Similarity:    42/116 (36.2%)
+# Gaps:          38/116 (32.8%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+GRB7_RAT         228 FPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQY    277
+                     |.|.|.|::          .::|.  |       :|.|:..:|....:: 
+NOSO_STAAC         3 FKEAQAFIE----------NMYKE--C-------HYETQIINKRLHDIE-     32
+
+GRB7_RAT         278 VADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHK--------GLH    319
+                      .:|.|:..|..|:...:||....:         ||.::        .|:
+NOSO_STAAC        33 -LEIKETGTYTHTEEELIYGAKMAW---------RNSNRCIGRLFWDSLN     72
+
+GRB7_RAT         320 IFCSEDEQSRTCWLSA    335
+                     :..:.|......:||:
+NOSO_STAAC        73 VIDARDVTDEASFLSS     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      13/50 (26.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:           6/50 (12.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+GRB7_RAT         316 KGLHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSP    365
+                     |.:|:    :...||.:|..:.|.:|  :.||..|.|.........:|.|
+RBM8A_MOUSE      100 KNIHL----NLDRRTGYLKGYTLVEY--ETYKEAQAAMEGLNGQDLMGQP    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+GRB7_RAT         129 MLVQRAHALS    138
+                     :|:.|:|.:|
+NU4LM_ARCPU       19 LLMYRSHLMS     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      31/116 (26.7%)
+# Similarity:    42/116 (36.2%)
+# Gaps:          35/116 (30.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+GRB7_RAT         374 TLVAMDFSGHAGRVIENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGL-    422
+                     |.:|:|..|          ..|:||...|..   :...|..||||.|.. 
+NANK_ECOLI         2 TTLAIDIGG----------TKLAAALIGADG---QIRDRRELPTPASQTP     38
+
+GRB7_RAT         423 -----SLSAAIHRTQPWFHGRISREESQRL-IGQQGLV-DGVFLVRESQR    465
+                          :|||.:...|         ..:||: |...|:: ||..|.    .
+NANK_ECOLI        39 EALRDALSALVSPLQ---------AHAQRVAIASTGIIRDGSLLA----L     75
+
+GRB7_RAT         466 NPQGFVLSLCHLQKVK    481
+                     ||.. :..|.|...||
+NANK_ECOLI        76 NPHN-LGGLLHFPLVK     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      43/199 (21.6%)
+# Similarity:    67/199 (33.7%)
+# Gaps:          72/199 (36.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+GRB7_RAT         370 VSDNTLVAMDFSGHAGRVIEN-PQEALSAATEEAQAWRKKTNHR---LSL    415
+                     :.:..||...:| |.|.|||| |.              |:||:.   :::
+MIAB_MYCPE       171 IFEKNLVVEVWS-HEGNVIENLPS--------------KRTNNLKGFVNV    205
+
+GRB7_RAT         416 PTPCSGLSLSAAIHRTQPWFHGRI-SREESQ----------------RLI    448
+                     ...|........:    |...|:| ||.:..                .||
+MIAB_MYCPE       206 MYGCDKFCTYCIV----PMTRGKIRSRRKEDILDEVHQMISEGYKEVTLI    251
+
+GRB7_RAT         449 GQ-----------------QGLVD-----GVFLVRESQRNPQGFVLSLCH    476
+                     ||                 ..|::     |:..||.:..||..|..|:..
+MIAB_MYCPE       252 GQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVD    301
+
+GRB7_RAT         477 LQKVKHYLILP-------SEDEGCLYFSMDDGQTRFTDLLQLVEFHQLN    518
+                     ..| |:..|:|       |.||..|  ...:...:..|.:.||::.:.|
+MIAB_MYCPE       302 TMK-KYPNIMPHIHLPIQSGDETIL--KKMNRPMKIGDYIDLVDYIRAN    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      27/124 (21.8%)
+# Similarity:    39/124 (31.5%)
+# Gaps:          47/124 (37.9%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+GRB7_RAT         109 DGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECHPYLALERGLE    158
+                     ||.|  :...:|:||.:         .||     |....||.|       
+NADK_STAES       151 DGLC--ISTPSGSTAYN---------KAL-----GGALIHPSL-------    177
+
+GRB7_RAT         159 DHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLD    208
+                           |..:...:...:..:||...:...|   |.|        .:||.
+NADK_STAES       178 ------EAMQIAEIASINNRVFRTVGSPLVL---PKH--------HTCLI    210
+
+GRB7_RAT         209 TP-------TGISHEDLIQNFLNA    225
+                     ||       |.|.|..:....:||
+NADK_STAES       211 TPVNHDTIRTTIDHVSIKHKNVNA    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 607
+# Identity:     119/607 (19.6%)
+# Similarity:   191/607 (31.5%)
+# Gaps:         264/607 (43.5%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+GRB7_RAT          84 GGSSGARGLL------PRDSSRLCVVKVYSEDGACRSVEVAAGATARHVC    127
+                     |||...|.:|      ||....:|       ||:.|:.::.|.| .::|.
+TRPG_CAEEL       577 GGSCTIRSVLDYVTNVPRVPVVVC-------DGSGRAADLLAFA-HQNVT    618
+
+GRB7_RAT         128 E-------------MLVQ--------RAHALSDENWGLVECHPYLAL---    153
+                     |             :||:        .||.|..|   |..|..:..|   
+TRPG_CAEEL       619 EDGLLPDDIRRQVLLLVETTFGCSEAAAHRLLHE---LTVCAQHKNLLTI    665
+
+GRB7_RAT         154 ----ERGLEDHESVV----------------EVQEAWPVGGDSRFIFRKN    183
+                         |:|..|.:..:                .:..||.         |.:
+TRPG_CAEEL       666 FRLGEQGEHDVDHAILTALLKGQNLSAADQLALALAWN---------RVD    706
+
+GRB7_RAT         184 FAKYELF-------KSPPHTLFPEKMVSSCLDTPTGISHE--DLIQNFLN    224
+                     .|:.::|       ::..|....|.::           |:  |.::..|.
+TRPG_CAEEL       707 IARSDVFAMGHEWPQAALHNAMMEALI-----------HDRVDFVRLLLE    745
+
+GRB7_RAT         225 AGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRH    274
+                     .|.  .:|.||.:.                  |...||.:.||   .|..
+TRPG_CAEEL       746 QGI--NMQKFLTIS------------------RLDELYNTDKG---PPNT    772
+
+GRB7_RAT         275 LQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGLHIFCSE    324
+                     |.|:.    .:|..|.||.: :.:| |.|..:: ..:.|.::     ||.
+TRPG_CAEEL       773 LFYIV----RDVVRVRQGYR-FKLP-DIGLVIE-KLMGNSYQ-----CSY    810
+
+GRB7_RAT         325 DEQSRTCWLSAFRLFKYGVQLYKNYQQAQSRHL-----RLSYLGS-----    364
+                     .       .|.|| .|| .|..|..:.||.:.:     |.|..||     
+TRPG_CAEEL       811 T-------TSEFR-DKY-KQRMKRVKHAQKKAMGVFSSRPSRTGSGIASR    851
+
+GRB7_RAT         365 ---------------------------PPL------------RSVSDNTL    375
+                                                |||            |::|::.|
+TRPG_CAEEL       852 QSTEGMGGVGGGSSVAGVFGNSFGNQDPPLDPHVNRSALSGSRALSNHIL    901
+
+GRB7_RAT         376 VAMDFSGHAGRVIENPQE------------------ALSAATEEAQAWRK    407
+                     ....|.|:   ...||..                  :|::|::.:|.   
+TRPG_CAEEL       902 WRSAFRGN---FPANPMRPPNLGDSRDCGSEFDEELSLTSASDGSQT---    945
+
+GRB7_RAT         408 KTNHRLSLPTPCSGLSLSAAIHRTQP-----WFHGRISREESQ-------    445
+                     :.:.|.    |.|.|.:.|.:.:.|.     |.||    ||:.       
+TRPG_CAEEL       946 EPDFRY----PYSELMIWAVLTKRQDMAMCMWQHG----EEAMAKALVAC    987
+
+GRB7_RAT         446 ---RLIGQQGLVD--GVFLVRESQRNPQGF-VLSLCHLQKVKHYLILPSE    489
+                        :.:..:...|  .|.:..|.::..:.| :|||..|....|       
+TRPG_CAEEL       988 RLYKSLATEAAEDYLEVEICEELKKYAEEFRILSLELLDHCYH-------   1030
+
+GRB7_RAT         490 DEGCLYFSMDDGQTRFTDLLQLVEFHQLNRGILPCL-----------LRH    528
+                             :||.||     |||:.:...|.....||           |.|
+TRPG_CAEEL      1031 --------VDDAQT-----LQLLTYELSNWSNETCLALAVIVNNKHFLAH   1067
+
+GRB7_RAT         529 CCARVAL    535
+                     .|.::.|
+TRPG_CAEEL      1068 PCCQILL   1074
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      25/101 (24.8%)
+# Similarity:    39/101 (38.6%)
+# Gaps:          20/101 (19.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+GRB7_RAT         442 EESQR----LIGQQGLVDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILP    487
+                     ::.||    |:.....||||..|.|.       ||.....|:.:|.|:  
+MSHD_MYCMM        12 DDQQRQVRDLVTAATQVDGVAPVGEQ-------VLRELAQQRTEHLLV--     52
+
+GRB7_RAT         488 SEDE-----GCLYFSMDDGQTRFTDLLQLVEFHQL-NRGILPCLLRHCCA    531
+                      ||:     ...|.::.........:.:||...|. .|||...::|...|
+MSHD_MYCMM        53 -EDQSPGKSAIGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAALA    101
+
+GRB7_RAT         532 R    532
+                     :
+MSHD_MYCMM       102 K    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      22/102 (21.6%)
+# Similarity:    41/102 (40.2%)
+# Gaps:          22/102 (21.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+GRB7_RAT         424 LSAAIHR---TQPWFH--GRISREESQRLIGQQGLVDGVFLVRESQRNPQ    468
+                     |:..|||   |....|  |.|:.:..  |:....||||          .|
+PAND_THEFY         6 LNGKIHRATVTHADLHYVGSITIDAD--LMDAANLVDG----------EQ     43
+
+GRB7_RAT         469 GFVLSLCHLQKVKHYLILPSEDEGCLYFSMDDGQTRFT---DLLQLVEFH    515
+                     ..|:::.:..::..|::......|.:  .::....|..   ||:.::.:.
+PAND_THEFY        44 VHVVNITNGHRLVTYVLTGERGSGVI--GINGAAARLVAPGDLVIIISYV     91
+
+GRB7_RAT         516 QL    517
+                     ||
+PAND_THEFY        92 QL     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 448
+# Identity:      89/448 (19.9%)
+# Similarity:   138/448 (30.8%)
+# Gaps:         186/448 (41.5%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+GRB7_RAT          32 DNPP--PGDVKRSQPLPI-PSSRKLREEEFQATSLPS-IPNPFPE-----     72
+                     ||.|  |.:....:...: |:.||.     :.|.||| :..|.|:     
+LIPA_ASPOR        73 DNAPLEPSEAYALKTAMVGPAGRKK-----EMTRLPSWLKTPIPDSKNYQ    117
+
+GRB7_RAT          73 -------------LCSP---PSQKPILGGS----SGARGLLPRDS----S     98
+                                  :|..   |:.....|||    :.|..:|..|:    .
+LIPA_ASPOR       118 RLKKDLRGLNLHTVCEEARCPNISDCWGGSDKSAATATIMLMGDTCTRGC    167
+
+GRB7_RAT          99 RLCVVKV---------YSEDGACRSV----------------EVAAGATA    123
+                     |.|.||.         :..:....::                ::|.|. |
+LIPA_ASPOR       168 RFCSVKTNRRPPPLDPHEPENTAEAISRWSLGYVVLTSVDRDDLADGG-A    216
+
+GRB7_RAT         124 RHVCEMLV---QRAHALSDENWGLVEC--HPYLA-LE-------RGLEDH    160
+                     ||..|.::   |:..::      ||||  ..||. ||       .||:.:
+LIPA_ASPOR       217 RHFAETVIKIKQKKPSM------LVECLTGDYLGDLEMVKLVARSGLDVY    260
+
+GRB7_RAT         161 ESVVEVQEA-WPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDT    209
+                     ...||..|| .|...|.|..|:::....|..|.                 
+LIPA_ASPOR       261 AHNVETVEALTPFVRDRRATFQQSLRVLEAAKQ-----------------    293
+
+GRB7_RAT         210 PTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRS    259
+                         :..|||........|.|.:             .:||...       
+LIPA_ASPOR       294 ----ARPDLITKTSLMLGFGETE-------------EQLWDAL-------    319
+
+GRB7_RAT         260 GLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPN    309
+                                  |.|:.|      .|.|||           ||..::|.
+LIPA_ASPOR       320 -------------RQLRSV------GVDVVT-----------FGQYMRPT    339
+
+GRB7_RAT         310 KLRNGHKGLHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQQAQSRHLRL    359
+                     |   .|..:|.:.:.|:         |.|::         |:|..  :..
+LIPA_ASPOR       340 K---RHMPVHEYVTPDQ---------FELWR---------QRALD--MGF    366
+
+GRB7_RAT         360 SYLGSPPL--------RSVSDNTLVAMDFSGHAGRVIENPQEALSAAT    399
+                     .|..|.||        .:..:|.|.....:|.||..:.:.:.|:..||
+LIPA_ASPOR       367 LYCASGPLVRSSYKAGEAFIENVLKKRRAAGTAGESVTDSKAAVDEAT    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      11/34 (32.4%)
+# Similarity:    17/34 (50.0%)
+# Gaps:           2/34 ( 5.9%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+GRB7_RAT         283 ESNVYVVTQGRKLYG--IPTDFGFCVKPNKLRNG    314
+                     ::.||.:.||..|.|  ..:..|..|:.|:|..|
+FLGI_PECAS       134 DNQVYALAQGNVLVGGAGASAGGSSVQVNQLAGG    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      56/285 (19.6%)
+# Similarity:    94/285 (33.0%)
+# Gaps:          97/285 (34.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+GRB7_RAT         151 LALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPE    200
+                     |.::..|.....:::|.|              :.||.|:.......:|.:
+LDH_BORAP         23 LTIDNSLVHELVIIDVNE--------------DKAKGEVMDLNHGQMFLK     58
+
+GRB7_RAT         201 KMVSSCLDTPTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGR----GSGR    246
+                     |.::....|     ::|.:    ||.......|..|..|..|    |...
+LDH_BORAP         59 KNINVLFGT-----YKDCV----NADIVVITAGLNQKPGETRLDLVGKNS     99
+
+GRB7_RAT         247 KLWKRFFCFLRRSG--------------LYYSTKGTSKDPRH--------    274
+                     |::|.....:..||              :.|.|...||.|.|        
+LDH_BORAP        100 KIFKDIITNVVSSGFDGIFVIASNPVDIMTYVTMKYSKFPIHKVIGTGTI    149
+
+GRB7_RAT         275 -----LQYVA----DINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGH    315
+                          |:|..    ::|..|::....|.  :|   |..| |..::.:...
+LDH_BORAP        150 LDTSRLRYFLSDRFNVNTQNIHSYVMGE--HG---DSSF-VTWDETKIAM    193
+
+GRB7_RAT         316 KGLHIFCSE--------DEQSRTCWLSAFRLFK------YGVQL-YKNYQ    350
+                     |.|..:.||        ||..:....:|:.:.|      |.:.| .||..
+LDH_BORAP        194 KPLSEYLSEGKITELELDEIHKKVVNAAYEVIKLKGATYYAIGLGIKNIV    243
+
+GRB7_RAT         351 QA----QSRHLRLS--------------YLGSPPL    367
+                     .|    |:..|.:|              |:|:|.:
+LDH_BORAP        244 NAIIGDQNIILPISSYINGQYGGLIKDIYIGAPAI    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:      41/197 (20.8%)
+# Similarity:    65/197 (33.0%)
+# Gaps:          62/197 (31.5%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+GRB7_RAT          15 EDVC---------------PTPGTPPETPPPPDN----PPPGDVKRSQPL     45
+                     ||||               ..||.  :.|..|..    |.||..:..|  
+EXGB_EMENI       151 EDVCGWASDAGMYIIIDLHGAPGA--QQPKQPFTGQYAPNPGFYQDYQ--    196
+
+GRB7_RAT          46 PIPSSRKLREEEFQATSLPSIPNPFP-----ELCSPPSQKPILGGSSGAR     90
+                        ..|.|...|:..||:.. .|.|.     |:.:.|.|... ..||...
+EXGB_EMENI       197 ---YDRALEFLEWMTTSIHQ-NNKFRNVGMLEIVNEPVQNAD-QASSMIN    241
+
+GRB7_RAT          91 GLLPRDSSRLCVVKVYSEDGACRSVEVAAGATAR---HVCEMLVQR----    133
+                     ...|...:|:            |:.|.:.|.|:.   |: :|:.::    
+EXGB_EMENI       242 SYYPSAFTRI------------RNTESSLGITSNNYLHI-QMMNEKWGSG    278
+
+GRB7_RAT         134 --AHALSDENWGLVECHPYLALERGLE-DHESVVEVQ------EAWP    171
+                       ..:|:|..:...:.|.|:..:..:. |.||.:...      ..||
+EXGB_EMENI       279 DPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYISASCVDDRGGNWP    325
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      13/49 (26.5%)
+# Similarity:    24/49 (49.0%)
+# Gaps:           9/49 (18.4%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+GRB7_RAT         484 LILPSEDEGC-----LYFSMD---DGQTRFTDLLQLVEFHQL-NRGILP    523
+                     :|:|:.::||     .:|...   .|..|..:|..|.|.::: :.||.|
+KTHY_CHLP8        77 IIVPALEDGCDVILDRFFDSTTAYQGYGRGLNLDMLAEINRIASHGIRP    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      15/45 (33.3%)
+# Similarity:    25/45 (55.6%)
+# Gaps:           4/45 ( 8.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+GRB7_RAT         250 KRFFCFLRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRK    294
+                     :|.....|:..||:..:|.:.   ||.|:|||.|| :::...||:
+SECA2_MYCTO      691 ERLETICRQIMLYHLDRGWAD---HLAYLADIRES-IHLRALGRQ    731
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      12/37 (32.4%)
+# Similarity:    14/37 (37.8%)
+# Gaps:          15/37 (40.5%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+GRB7_RAT         305 CVKPN-KLRNGHKGLHIFCSEDE-------QSRTCWL    333
+                     |.:|| ..|:       ||.|.|       .||.|.|
+DB108_HUMAN       28 CERPNGSCRD-------FCLETEIHVGRCLNSRPCCL     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      64/284 (22.5%)
+# Similarity:    90/284 (31.7%)
+# Gaps:         123/284 (43.3%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+GRB7_RAT          70 FPELCSPPSQK--------PILGGSSGA-----------RG---------     91
+                     ||.|.||.:|:        ..||.||.|           :|         
+LCMT1_CRYNB      169 FPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLY    218
+
+GRB7_RAT          92 -LLPRDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDE    140
+                      |||.|...       |......|:   :...:.||...|..|...|.  
+LCMT1_CRYNB      219 TLLPLDLRP-------SPSEPASSI---SAILSHHVLPQLDPRLPTLF--    256
+
+GRB7_RAT         141 NWGLVEC-HPYLALERGLEDHESVVEVQEAW--------------PVGGD    175
+                        |.|| .||::    .||...:::    |              .||.|
+LCMT1_CRYNB      257 ---LAECLFPYMS----PEDSREIIK----WFGETFCSCMGVVYEMVGLD    295
+
+GRB7_RAT         176 SRF--IFRKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDLIQNFL    223
+                     ..|  :.::|.|...|  |.|.::|         .||..           
+LCMT1_CRYNB      296 DSFGNVMKRNLAVRNL--SIPGSIF---------STPES-----------    323
+
+GRB7_RAT         224 NAGSF--PEIQGFLQLRGSGRGSGRK-LWKRFFCFLRRSGLYYSTKGTSK    270
+                     .||.|  |.:||     |....:|.| ||:     :|...:         
+LCMT1_CRYNB      324 QAGRFTSPMLQG-----GKFDSAGAKTLWQ-----IREEDV---------    354
+
+GRB7_RAT         271 DPRHLQYVA------DINESNV----YVVTQGRK    294
+                     .|..||.::      :|.|..:    ||:..|.|
+LCMT1_CRYNB      355 GPEELQRISKLEILDEIEELRLVLEHYVIAWGTK    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      25/110 (22.7%)
+# Similarity:    42/110 (38.2%)
+# Gaps:          33/110 (30.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+GRB7_RAT         135 HALSDENWGLVECHPYLALE----RGLEDHESVVEVQEAWPVGGDSRFIF    180
+                     ||.|.|:...:|...:..::    :| |..:.:.|..:...||..     
+PTGA_SALTY        76 HAFSIESDSGIELFVHFGIDTVELKG-EGFKRIAEEGQRVKVGDP-----    119
+
+GRB7_RAT         181 RKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDLIQNFLNAGSFPE    230
+                        ..:::|      .|..||..|:.  ||..||:.|            |
+PTGA_SALTY       120 ---VIEFDL------PLLEEKAKSTL--TPVVISNMD------------E    146
+
+GRB7_RAT         231 IQGFLQLRGS    240
+                     |:..::|.||
+PTGA_SALTY       147 IKELIKLSGS    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      15/60 (25.0%)
+# Similarity:    22/60 (36.7%)
+# Gaps:          13/60 (21.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+GRB7_RAT         150 YLALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFP    199
+                     |..|.:.|:...|.|...:      |...|:||       .:|.|....|
+RR14_CRYJA        20 YNLLRQSLKKEMSEVSSLD------DKLDIYRK-------LQSLPRNSAP     56
+
+GRB7_RAT         200 EKMVSSCLDT    209
+                     .::...||.|
+RR14_CRYJA        57 TRLRRRCLKT     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 358
+# Identity:      77/358 (21.5%)
+# Similarity:   117/358 (32.7%)
+# Gaps:         108/358 (30.2%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+GRB7_RAT          41 RSQPLPIPSSRKLREEEFQATSLPSIPNPFPELCSPPSQKPILGGSSGAR     90
+                     |||    |..|||:|:    ..|..|.:. ||||:..::.|         
+DCUP_BACVZ        33 RSQ----PEYRKLKEK----YGLVEITHQ-PELCAYVTRLP---------     64
+
+GRB7_RAT          91 GLLPRDSSRLCVVKVYSEDGACR-------------SVEVAAGATARHVC    127
+                                 |:.|..|.|..             .||:..|     :.
+DCUP_BACVZ        65 ------------VEQYGVDAAILYKDIMTPLPYIGVDVEIKNG-----IG     97
+
+GRB7_RAT         128 EMLVQRAHALSD-ENWGLVECHPYLALERGLEDHESVVEVQEAWPVGGDS    176
+                     .::.|...:.:| |..|  |.:|...:...||....:|..|...|:.|.|
+DCUP_BACVZ        98 PVIDQPVRSAADIEKLG--ELNPEQDVPYVLETIRLLVNEQLNVPLIGFS    145
+
+GRB7_RAT         177 RFIF-----------RKNFAKYELF-KSPPHT--LFPEKMVSSCL-----    207
+                     ...|           .||:.|.:.| .|.|..  :..:|:....:     
+DCUP_BACVZ       146 GAPFTLASYMIEGGPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIVYAKA    195
+
+GRB7_RAT         208 ------------DTPTG-ISHEDLIQ----------NFLNAGSFPEIQ--    232
+                                 |:..| ::.||..|          ..|:|...|.|.  
+DCUP_BACVZ       196 QINAGAKAIQIFDSWVGALNREDYRQFIKPVMDRIFRELSAEQVPLIMFG    245
+
+GRB7_RAT         233 -GFLQLRGSGRGSGRKL----WKRFFCFLRRSGLYYSTKGTSKDPRHLQY    277
+                      |...|.|........:    |:......|:.|:..:.:| :.||..|..
+DCUP_BACVZ       246 VGASHLAGDWHDLPLDVVGLDWRLGIDDARKQGITKTVQG-NLDPSLLLA    294
+
+GRB7_RAT         278 VADINESNV-YVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGLHIFCSE--    324
+                     ..::.|... .::.||.|..|...:.|..|.|:......|.|..|..|  
+DCUP_BACVZ       295 PWEVIEKKAKAILDQGMKTDGFIFNLGHGVFPDVNPETLKKLTAFVHEYS    344
+
+GRB7_RAT         325 ----DEQS    328
+                         .|||
+DCUP_BACVZ       345 AAKKTEQS    352
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 646
+# Identity:     120/646 (18.6%)
+# Similarity:   194/646 (30.0%)
+# Gaps:         238/646 (36.8%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+GRB7_RAT           7 PSHLSSSPE--------DVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIP     48
+                     ||..|..||        |..|.......|.||   |||       |:|.|
+GTF2I_MOUSE      299 PSETSEDPEVEVTIEDDDYSPPTKRLKSTEPP---PPP-------PVPEP    338
+
+GRB7_RAT          49 SS---RKLREEEFQ--------------------------ATSLPSIPNP     69
+                     ::   ||:||..|:                          |....:||.|
+GTF2I_MOUSE      339 ANAGKRKVREFNFEKWNARITDLRKQVEELFERKYAQAIKAKGPVTIPYP    388
+
+GRB7_RAT          70 -------------FPELCSPPSQKPILGG---------------------     85
+                                  .||  ..|.::|...|                     
+GTF2I_MOUSE      389 LFQSHVEDLYVEGLPE--GIPFRRPSTYGIPRLERILLAKERIRFVIKKH    436
+
+GRB7_RAT          86 ------------SSGARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGATA    123
+                                 ...|.|:.....:|:..::...:...|:....|.|:| 
+GTF2I_MOUSE      437 ELLNSTREDLQLDKPASGVKEEWYARITKLRKMVDQLFCKKFAEALGST-    485
+
+GRB7_RAT         124 RHVCEMLVQRAHALSDENWGLVECHPYLALERGLEDH-------------    160
+                              .|.|:..:.:   |.||......||.::             
+GTF2I_MOUSE      486 ---------EAKAVPYQKF---EAHPNDLYVEGLPENIPFRSPSWYGIPR    523
+
+GRB7_RAT         161 -ESVVE------------------------------VQEAWPVGGDSRF-    178
+                      |.:::                              |:|.|.|    |. 
+GTF2I_MOUSE      524 LEKIIQVGNRIKFVIKRPELLTHSTTEVTQPRTNTPVKEDWNV----RIT    569
+
+GRB7_RAT         179 --------IFRKNFAK-----------YELFKSPPHTLFPEKMVSSC-LD    208
+                             ||...||:           |.:|:|.|..|:.|.:.... ..
+GTF2I_MOUSE      570 KLRKQVEEIFNLKFAQALGLTEAVKVPYPVFESNPEFLYVEGLPEGIPFR    619
+
+GRB7_RAT         209 TPTG-------------------ISHEDLIQNFLNAGSFPEIQ-GFLQ--    236
+                     :||.                   :...:|:.::|..|...:|. ..||  
+GTF2I_MOUSE      620 SPTWFGIPRLERIVRGSNKIKFVVKKPELVVSYLPPGMASKINTKALQSP    669
+
+GRB7_RAT         237 LRGSGRGSGRKLWKRFFCFLRRSGLYYSTKG---TSKDPRHLQYVADINE    283
+                     .|....||..|:          ..:..:.:|   :|.....::.....|.
+GTF2I_MOUSE      670 KRPRSPGSNSKV----------PEIEVTVEGPNNSSPQTSAVRTPTQTNG    709
+
+GRB7_RAT         284 SNVYVVTQGRKLYGIPTDFGFCVKPNKLRN-GHKGLHIF---CSEDEQSR    329
+                     |||....:||       :|.|.....|:.: ..|..::|   |.|....:
+GTF2I_MOUSE      710 SNVPFKPRGR-------EFSFEAWNAKITDLKQKVENLFNEKCGEALGLK    752
+
+GRB7_RAT         330 TCWLSAFRLFK-YGVQLYKNYQQAQSRHLRLSYLGSPPLRSVSDNTLVAM    378
+                     ......|.||: :....|...........|.|..|.|.|..:..|. ..:
+GTF2I_MOUSE      753 QAVKVPFALFESFPEDFYVEGLPEGVPFRRPSTFGIPRLEKILRNK-AKI    801
+
+GRB7_RAT         379 DFSGHAGRVIENPQEALSAATEEAQAWR---KKTNHRLSLPTPCSGLSLS    425
+                     .|      :|:.| |....|.:|:.:.:   :|.|...::.|..||:...
+GTF2I_MOUSE      802 KF------IIKKP-EMFETAIKESTSSKSPPRKINSSPNVNTTASGVEDL    844
+
+GRB7_RAT         426 AAIHRTQP-WFHGRISREESQRLIGQQGLVDGVFLVRESQRNPQGF    470
+                     ..|..|.| ..:.|:|:.|..|.:.:|  |:.:|..:..:....||
+GTF2I_MOUSE      845 NIIQVTIPDDDNERLSKVEKARQLREQ--VNDLFSRKFGEAIGMGF    888
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      16/55 (29.1%)
+# Similarity:    21/55 (38.2%)
+# Gaps:          16/55 (29.1%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+GRB7_RAT          72 ELCSPPSQKPILGGSSG----------ARGLLPRDSSRLCVVKV------    105
+                     ||...|....::..:.|          ||||...|::...|.||      
+ISPH_ACIF5        59 ELDEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATCPLVTKVHMEVKK    108
+
+GRB7_RAT         106 YSEDG    110
+                     ||.||
+ISPH_ACIF5       109 YSRDG    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      15/51 (29.4%)
+# Similarity:    19/51 (37.3%)
+# Gaps:          13/51 (25.5%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+GRB7_RAT         219 IQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGL--YYSTK    266
+                     |..|.|.|....:..|        |....|.:|   ..|.||:  ||.:|
+NDUA1_HUMAN       26 IHRFTNGGKEKRVAHF--------GYHWSLMER---DRRISGVDRYYVSK     64
+
+GRB7_RAT         267 G    267
+                     |
+NDUA1_HUMAN       65 G     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      42/204 (20.6%)
+# Similarity:    70/204 (34.3%)
+# Gaps:          66/204 (32.4%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+GRB7_RAT         329 RTCWLSAFRLFKY---------------GVQLYKNYQQAQSRHLRLSYLG    363
+                     ||..|:...|.||               |:.| :|..|||...|.:|..|
+PSRP_SALTI       114 RTHGLNPGNLNKYDARIAAIDYTLAHDDGISL-RNLDQAQVILLGVSRCG    162
+
+GRB7_RAT         364 SPPLRSVSDNTLVAMDFSGHAGR--VIENPQEALSAATEEAQAWRKKTNH    411
+                     ..|     .:..:||.|...|..  .|.:..:.|:..|.     .|...|
+PSRP_SALTI       163 KTP-----TSLYLAMQFGIRAANYPFIADDMDNLTLPTS-----LKPLQH    202
+
+GRB7_RAT         412 RLSLPTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQQGLVDGVFLVR    461
+                     :|      .||::                  :.:||..          :|
+PSRP_SALTI       203 KL------FGLTI------------------DPERLAA----------IR    218
+
+GRB7_RAT         462 ESQR-NPQGFVLSLCHLQKVKHYLILPSEDEGCL---YFSMDDGQTRFTD    507
+                     |.:| |.:...|..|.::..:...:.......||   .:|:::..|:..|
+PSRP_SALTI       219 EERRENSRYASLRQCRMEVAEVEALYRKNQIPCLNSTNYSVEEIATKILD    268
+
+GRB7_RAT         508 LLQL    511
+                     ::.|
+PSRP_SALTI       269 IMGL    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      23/106 (21.7%)
+# Similarity:    45/106 (42.5%)
+# Gaps:          11/106 (10.4%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+GRB7_RAT         360 SYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEA-------LSAATEE-    401
+                     ::.|..|.:.|:.:.:|||..:..||.:..:.::.       ||...|. 
+DNAK_CHESB       350 NFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETL    399
+
+GRB7_RAT         402 AQAWRKKTNHRLSLPTPCSGLSLSAAIHR---TQPWFHGRISREESQRLI    448
+                     ...:.:..:...::||..|.:..:|..::   |...|.|........:|:
+DNAK_CHESB       400 GGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLL    449
+
+GRB7_RAT         449 GQQGLV    454
+                     ||..||
+DNAK_CHESB       450 GQFDLV    455
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      52/222 (23.4%)
+# Similarity:    81/222 (36.5%)
+# Gaps:          61/222 (27.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+GRB7_RAT         256 LRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQ--GRKLYGIPTDFG    303
+                     ||.|.|:::::|          |.:|......:|.|  ||.|....:|. 
+DNLJ_ACIC5       443 LRESLLHFASRG----------VMNIEGMGEAIVMQLLGRGLVKTVSDI-    481
+
+GRB7_RAT         304 FCVKPNKL----RNGHKGLHIFCSEDEQSRTCWLSAFRLFKYGVQ-----    344
+                     :.:...:|    |.|.|.......|.::||...|... ||..|::     
+DNLJ_ACIC5       482 YSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRV-LFGLGIRFVGER    530
+
+GRB7_RAT         345 ----LYKNY------QQAQSRHL-RLSYLG---SPPLRSVSDNTLVAMDF    380
+                         |.:.|      .||....| |::.:|   |..:|...|..      
+DNLJ_ACIC5       531 TAQALAEEYGSMDALMQASREELERVNDVGPRVSEAIREFFDEP------    574
+
+GRB7_RAT         381 SGHAGRVIENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGLSLSAAIHR    430
+                       ....::|..:||....|.|.   ||||:....|....:|         
+DNLJ_ACIC5       575 --RNRDLVERLREAGLRFTGEK---RKKTSQLAGLTFVLTG---------    610
+
+GRB7_RAT         431 TQPWFHGRISREESQRLIGQQG    452
+                     |.|    .:||:|::..|...|
+DNLJ_ACIC5       611 TLP----GLSRDEAKGKIENAG    628
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      28/125 (22.4%)
+# Similarity:    40/125 (32.0%)
+# Gaps:          40/125 (32.0%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+GRB7_RAT          31 PDNPPPGDVK-------RSQPLP------------IPSSRKLREEEFQAT     61
+                     ||:....|.|       |..|||            :|:|..|        
+CAPSD_CMVO        93 PDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDL--------    134
+
+GRB7_RAT          62 SLPSIPNPFPELCSP-----------PSQKPILGGSSGARGLLPRDSSRL    100
+                     |:.:|...|.:..||           .:...:|...|..|..:  ...|.
+CAPSD_CMVO       135 SVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMRADI--GDMRK    182
+
+GRB7_RAT         101 CVVKVYSEDGACRSVEVAAGATARH    125
+                     ..|.|||:|.|..:.|:.......|
+CAPSD_CMVO       183 YAVLVYSKDDALETDELVLHVDIEH    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      38/214 (17.8%)
+# Similarity:    65/214 (30.4%)
+# Gaps:          80/214 (37.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+GRB7_RAT          99 RLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECH    148
+                     |:..|::..:||   :.:|.....||.:.|          |.|..|:|..
+IF3_CHLL2         22 RVPEVRIVFQDG---TQQVMKTIEARRMAE----------DRNLDLIEVQ     58
+
+GRB7_RAT         149 PYLALERGLEDHESVVEVQEAWP----VGGDSRFIFRKNFAKYELFKSPP    194
+                     |                  .|.|    :....:.:|:.:....:|.|...
+IF3_CHLL2         59 P------------------NAEPPVCKLDNLGKLLFKMDKRDKDLKKKQK     90
+
+GRB7_RAT         195 HTLFPEKMVSSCLDTPTGISHE-DL----IQNFLNAGSFPEIQGFLQLRG    239
+                     .|...|....     |....|: |.    ::.||..|:  .::..:...|
+IF3_CHLL2         91 TTTLKELRFH-----PNTDKHDFDFKTAHLEEFLRKGN--RVRATIVFLG    133
+
+GRB7_RAT         240 -------SGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADIN    282
+                            .|.....:|.:|..|...|.|          ||:.        
+IF3_CHLL2        134 RSIIYKDKGLELAERLTERLSCVSNRDG----------DPKF--------    165
+
+GRB7_RAT         283 ESNVYVVTQGRKLY    296
+                             :|:||:
+IF3_CHLL2        166 --------EGKKLF    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    24/50 (48.0%)
+# Gaps:           9/50 (18.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+GRB7_RAT         368 RSVSDNTLVAMDFS-------GHAGRV-IENPQEALSAATEEAQAWRKKT    409
+                     |.|.::.|:..|.|       |:..:: :|.|:| :|...||.....|:|
+CSRA_HAEI8         6 RKVGESVLIGDDISITVLSVRGNQVKLGVEAPKE-VSVHREEIYQRIKQT     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      26/135 (19.3%)
+# Similarity:    46/135 (34.1%)
+# Gaps:          39/135 (28.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+GRB7_RAT          74 CSPPSQKPILGGSSGARGLLPRDSSRLCV-VKVYSE---DGACRSVEVAA    119
+                     |:...:...|||:             :|. :|:.|:   |.|.:...|..
+COAX_CLOBL       137 CAVTKEANYLGGT-------------ICPGIKISSDALFDKAAKLPRVEL    173
+
+GRB7_RAT         120 GATARHVCEMLVQRAHA----------------LSDENWGLVECHPYLAL    153
+                     ..|...:|:..|....:                :..|...|.|..|::..
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVA    223
+
+GRB7_RAT         154 ERGL-----EDHESVVEVQEAWPVGGDSRFIFRKN    183
+                     ..|.     |:.:|:.|:.....:.| .|.|:.||
+COAX_CLOBL       224 TGGFAKLISEESKSIDEINAILTLEG-LRVIYEKN    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      21/87 (24.1%)
+# Similarity:    34/87 (39.1%)
+# Gaps:          29/87 (33.3%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+GRB7_RAT         114 SVEVAAGATARHVCEMLVQRAHALSDENWGLVECHP------YLALERGL    157
+                     |.|.|:|.|...| |:|        :.|:..|..||      .:|.|.||
+HOP_BOVIN          2 STETASGPTEDQV-EIL--------EYNFNKVNKHPDPTTLCLIAAEAGL     42
+
+GRB7_RAT         158 EDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPP    194
+                     .:.|:     :.|         |::..|::...:..|
+HOP_BOVIN         43 SEEET-----QKW---------FKQRLAQWRRSEGLP     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 513
+# Identity:     100/513 (19.5%)
+# Similarity:   181/513 (35.3%)
+# Gaps:         162/513 (31.6%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+GRB7_RAT          90 RGLLPRDSSRLCV------VKVYSED---------------GACRSVEVA    118
+                     |.:|.|.:..:.|      ::|.||.               |...|:||.
+THII_VIBA3        31 RTILQRRTESVAVFNRRDHIEVTSESDKYFKETLEVLTQTPGIHHSLEVQ     80
+
+GRB7_RAT         119 AG--ATARHVCEMLVQRAHALSDENWGLVECHPYLALERGLEDHESVVEV    166
+                     ..  ....::.|.:::|:.||.:.....|.     |..||..|..| :|:
+THII_VIBA3        81 QSEFKDLHNIYEQVLERSGALIEGKTFSVR-----AKRRGKHDFTS-IEL    124
+
+GRB7_RAT         167 QEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPE---KMVSSCLDTPTGI    213
+                      |.:..||.::.:   ..||.:| |:|..|:..|   ..::..::...|:
+THII_VIBA3       125 -ERYVGGGLNQAV---ESAKVKL-KNPDITVKVEVENDKLNQVIERHKGL    169
+
+GRB7_RAT         214 ------SHEDLIQNFLNAGSFPE-IQGFLQLRGSGRGSGRKLWKRFFCFL    256
+                           :.|||:.  |.:|.|.. :..:|.::   |||     |..:||.
+THII_VIBA3       170 GGFPLGTQEDLLS--LISGGFDSGVSSYLHIK---RGS-----KVHYCFF    209
+
+GRB7_RAT         257 RRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCV    306
+                     ...|           |.|...|..::...........|:..|..||...|
+THII_VIBA3       210 NLGG-----------PAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVV    248
+
+GRB7_RAT         307 KP--NKLRNGHKGLHIFCSEDEQSRTCWLSAFRLF---------KYGVQL    345
+                     ..  ..:.:|..|:.:               .|:|         ::|:: 
+THII_VIBA3       249 AEILENVEDGQMGVVL---------------KRMFMRAGGMVAERFGIE-    282
+
+GRB7_RAT         346 YKNYQQAQSRHLRLSYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEAL    395
+                                   :.:....|..||..||..:       |.|:|..:.|
+THII_VIBA3       283 --------------ALVTGEALGQVSSQTLTNL-------RHIDNVTDTL    311
+
+GRB7_RAT         396 SAATEEAQAWRKKTNHRLS-----------LPTPCSGLSLSAAIHRTQPW    434
+                       .......|.|:....||           :|..|..:|....:...:  
+THII_VIBA3       312 --ILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAKK--    357
+
+GRB7_RAT         435 FHGRISREES-------QRLIGQQGLVDGVFLVRESQRNPQGFVLSLCHL    477
+                       |::..||:       :::|....::|    :|:.::..|.....:..:
+THII_VIBA3       358 --GKLEAEEAKFNFEVLEQVIENARIMD----IRDIEKESQEQAPEVEQV    401
+
+GRB7_RAT         478 QKV-KHYLIL-----PSEDEGCL-----------YFSMDDGQTRFTDLLQ    510
+                     |.| :|.::|     ..|||..|           :|.:   .|:|.||.|
+THII_VIBA3       402 QAVAEHAVVLDIRSPDEEDESPLEIDGVEIKHIPFFKL---STQFGDLDQ    448
+
+GRB7_RAT         511 LVEF-HQLNRGIL    522
+                     ..|: ...:||::
+THII_VIBA3       449 SKEYLLYCDRGVM    461
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    26/64 (40.6%)
+# Gaps:          22/64 (34.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+GRB7_RAT          70 FPELCSPPSQKPILGGSSGARGLLP-----RDSSRLCVVKVYSEDGACRS    114
+                     |.:|.:...::.|   .:..:|:||     ||        :|      |.
+RL13_PSEPG        89 FEKLIAKAPERVI---ETAVKGMLPKNPLGRD--------MY------RK    121
+
+GRB7_RAT         115 VEVAAGATARHVCE    128
+                     ::|.|||...|..:
+RL13_PSEPG       122 LKVYAGAAHPHTAQ    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      10/49 (20.4%)
+# Similarity:    24/49 (49.0%)
+# Gaps:           3/49 ( 6.1%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+GRB7_RAT         246 RKLWKRFFCFLRRSGLYYSTKGTSK-DPRHLQYVADINESNVYVVTQGR    293
+                     ::.|......:.|:|:::. .||.| :||...|:: .....::::...|
+RR2_ARATH          3 KRYWNIDLEEMMRAGVHFG-HGTRKWNPRMAPYIS-AKRKGIHIINLTR     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      18/80 (22.5%)
+# Similarity:    28/80 (35.0%)
+# Gaps:          30/80 (37.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+GRB7_RAT          34 PPP---GDVKRSQ---PLPIPSSRKLREEEFQATSLPSIPNPF-------     70
+                     |.|   |.||.:.   |:|:|:..:|    :|...:|...|..       
+Y1710_SYNP2      170 PMPTGGGTVKAAHGILPVPVPAVLQL----WQQRQVPVYSNGIEKELVTP    215
+
+GRB7_RAT          71 ----------PELCSPPSQ---KPILGGSS     87
+                               .:.|.||:.   |..||..:
+Y1710_SYNP2      216 TGAAIATTLATDFCQPPAMTLAKIALGSGT    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      56/277 (20.2%)
+# Similarity:    89/277 (32.1%)
+# Gaps:          94/277 (33.9%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+GRB7_RAT         266 KGTSKDPR--HLQYVADINESNVYVVTQGRKLYGIPTDFGFCV-------    306
+                     :|.|||.|  ||:.|....|...:.:..|      |:..|..|       
+WTPC_THEKO         6 EGISKDYREFHLRDVTFSVEKGEHFIILG------PSGAGKTVLLEVIAG     49
+
+GRB7_RAT         307 --KPNKLRNGHKGLHIFCSEDEQSRTCW----------LSAFRLFKYGVQ    344
+                       :|:..|....|..|.....|:....:          :|.|....:|::
+WTPC_THEKO        50 IIEPDSGRIFLNGEDITDLPPEKRGLAYIPQNYALFPNMSVFDNIAFGLK     99
+
+GRB7_RAT         345 LYKNYQQAQSRHLR-LS-YLGSPPLRSVSDNTLVAMDFSGHAGRV-----    387
+                     :.|..:....|.:| || .||...|......||    ..|...||     
+WTPC_THEKO       100 VRKVPKAEIGRKVRELSEVLGISHLLKRKPKTL----SGGEMQRVAIARA    145
+
+GRB7_RAT         388 ---------IENPQEALSAAT-----EEAQAWRKKTNHRLSLPTPCSGLS    423
+                              ::.|...|...|     .|.:.|||:...            
+WTPC_THEKO       146 LAVEPELLLLDEPFANLDVQTRGRLINEMKRWRKELGF------------    183
+
+GRB7_RAT         424 LSAAIHRTQPW-------------FHGRI-------------SREESQRL    447
+                       .|:|.|..:             .:||:             :.||..:.
+WTPC_THEKO       184 --TALHVTHSFEEAVSLGDRVGVMLNGRLVQVGPVREVFSRPASEEVAKF    231
+
+GRB7_RAT         448 IGQQGLVDGVFLVRESQRNPQGFVLSL    474
+                     :|.:.:|:|:...|..:.|  |.|:.|
+WTPC_THEKO       232 LGFENIVEGLAEGRILRAN--GLVIEL    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 535
+# Identity:     535/535 (100.0%)
+# Similarity:   535/535 (100.0%)
+# Gaps:           0/535 ( 0.0%)
+# Score: 2865.0
+# 
+#
+#=======================================
+
+GRB7_RAT           1 MELDLSPSHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT           1 MELDLSPSHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSS     50
+
+GRB7_RAT          51 RKLREEEFQATSLPSIPNPFPELCSPPSQKPILGGSSGARGLLPRDSSRL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT          51 RKLREEEFQATSLPSIPNPFPELCSPPSQKPILGGSSGARGLLPRDSSRL    100
+
+GRB7_RAT         101 CVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECHPY    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         101 CVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECHPY    150
+
+GRB7_RAT         151 LALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPE    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         151 LALERGLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPE    200
+
+GRB7_RAT         201 KMVSSCLDTPTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         201 KMVSSCLDTPTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWK    250
+
+GRB7_RAT         251 RFFCFLRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPT    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         251 RFFCFLRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPT    300
+
+GRB7_RAT         301 DFGFCVKPNKLRNGHKGLHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQ    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         301 DFGFCVKPNKLRNGHKGLHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQ    350
+
+GRB7_RAT         351 QAQSRHLRLSYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATE    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         351 QAQSRHLRLSYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATE    400
+
+GRB7_RAT         401 EAQAWRKKTNHRLSLPTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQ    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         401 EAQAWRKKTNHRLSLPTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQ    450
+
+GRB7_RAT         451 QGLVDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSEDEGCLYFSMDD    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+GRB7_RAT         451 QGLVDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSEDEGCLYFSMDD    500
+
+GRB7_RAT         501 GQTRFTDLLQLVEFHQLNRGILPCLLRHCCARVAL    535
+                     |||||||||||||||||||||||||||||||||||
+GRB7_RAT         501 GQTRFTDLLQLVEFHQLNRGILPCLLRHCCARVAL    535
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      34/178 (19.1%)
+# Similarity:    58/178 (32.6%)
+# Gaps:          70/178 (39.3%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+GRB7_RAT         362 LGSPPLRSVS----------DNTLVAMDFSGHAGRVIENPQEALSAATEE    401
+                     ||..||..||          :.:.||    |...|:|.:|.:.::|..::
+PSD_RHOPS         90 LGDKPLPRVSIFMSVFNCHVNRSPVA----GRVERIIYSPGKFINAELDK    135
+
+GRB7_RAT         402 AQAWRKKTNHRLSLPTPCSGLSLSAAIHRTQPWFHGRISREESQRLIGQQ    451
+                     |....::.:..:|.|....|:...|          |.::|    |::.  
+PSD_RHOPS        136 ASEDNERNSMVISTPAGQIGVVQIA----------GLVAR----RIVS--    169
+
+GRB7_RAT         452 GLVDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSEDEGCLYFS----    497
+                            .|||.|                   .:.|.|..|.:.|.    
+PSD_RHOPS        170 -------FVREGQ-------------------TLAPGERFGLIRFGSRLD    193
+
+GRB7_RAT         498 ----------MDDGQTRFTDLLQLVEFH    515
+                               :.:|||.......|.:|:
+PSD_RHOPS        194 VYLPEGAKPLVSEGQTAIAGETVLADFN    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:      59/290 (20.3%)
+# Similarity:   100/290 (34.5%)
+# Gaps:          66/290 (22.8%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+GRB7_RAT          42 SQP-----LPIPSSRKLREE--EFQATSLPSIPNPFPELCSPPSQKPILG     84
+                     :||     |..||..|..|.  .|...:..|||..||.    .|..|:: 
+PP156_ARATH       38 TQPLLTSLLSSPSLAKKPETLVSFFQWAQTSIPEAFPS----DSPLPLI-     82
+
+GRB7_RAT          85 GSSGARGLLPR----DSSRLCVVKVYSEDGA---CRSV------------    115
+                       |..|.||..    |:..|.|..:.:.|.:   |.|:            
+PP156_ARATH       83 --SVVRSLLSHHKFADAKSLLVSYIRTSDASLSLCNSLLHPNLHLSPPPS    130
+
+GRB7_RAT         116 ----EVAAGATAR----HVCEMLVQRAHALSDENWGLVECHPYLALERGL    157
+                         ::|..|...    ||...:.|:...|..:. .|:.|:..|.   ||
+PP156_ARATH      131 KALFDIALSAYLHEGKPHVALQIFQKMIRLKLKP-NLLTCNTLLI---GL    176
+
+GRB7_RAT         158 EDHESVVEVQEAWPVGGDS-RFIFRKNFAKYELF--------KSPPHTLF    198
+                     ..:.|...:..|..|..|. :.....|...:.:.        |.......
+PP156_ARATH      177 VRYPSSFSISSAREVFDDMVKIGVSLNVQTFNVLVNGYCLEGKLEDALGM    226
+
+GRB7_RAT         199 PEKMVSSCLDTPTGISHEDLIQNFLNAGSFPEIQG-FLQLRGSGRGSGRK    247
+                     .|:|||.....|..:::..:::.....|...:::. .|.::.:|....|.
+PP156_ARATH      227 LERMVSEFKVNPDNVTYNTILKAMSKKGRLSDLKELLLDMKKNGLVPNRV    276
+
+GRB7_RAT         248 LWKRFFCFLRRSGLY-YSTKGTSKDPRHLQYVADINESNV    286
+                     .:...        :| |...|:.|:.  .|.|..:.::||
+PP156_ARATH      277 TYNNL--------VYGYCKLGSLKEA--FQIVELMKQTNV    306
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 471
+# Identity:      84/471 (17.8%)
+# Similarity:   120/471 (25.5%)
+# Gaps:         216/471 (45.9%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+GRB7_RAT         159 DHESVVEVQEAWPVG--------------GDSRFIFRKNFAKYELFKSPP    194
+                     ||:...|..|||.||              |:...|  ...||:|..::..
+ADRB2_MESAU       21 DHDVTEERDEAWVVGMAILMSVIVLAIVFGNVLVI--TAIAKFERLQTVT     68
+
+GRB7_RAT         195 H----TLFPEKMVSSCLDTPTGISHEDLIQNFLNAGSFPEIQGFLQLRGS    240
+                     :    :|....:|......|.|.||  ::....|.|:|            
+ADRB2_MESAU       69 NYFITSLACADLVMGLAVVPFGASH--ILMKMWNFGNF------------    104
+
+GRB7_RAT         241 GRGSGRKLWKRFF---------------CFLR------------------    257
+                             |..|:               |.:.                  
+ADRB2_MESAU      105 --------WCEFWTSIDVLCVTASIETLCVIAVDRYIAITSPFKYQSLLT    146
+
+GRB7_RAT         258 -------------RSGL----------YYSTKGTSKDPRHLQYVADINES    284
+                                  .|||          |.:|...:.|..|.:...|...:
+ADRB2_MESAU      147 KNKARMVILMVWIVSGLTSFLPIQMHWYRATHQKAIDCYHKETCCDFFTN    196
+
+GRB7_RAT         285 NVYVVTQG-----------------------RKLYGIPTDFGFCVKPN--    309
+                     ..|.:...                       |:|..|....|....||  
+ADRB2_MESAU      197 QAYAIASSIVSFYVPLVVMVFVYSRVFQVAKRQLQKIDKSEGRFHSPNLG    246
+
+GRB7_RAT         310 ----KLRNGHKGLH---IFCSEDEQS-----------RTCWLSAF-----    336
+                         ..|:|| ||.   .||.::.::           ..|||..|     
+ADRB2_MESAU      247 QVEQDGRSGH-GLRRSSKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIV    295
+
+GRB7_RAT         337 -----RLFKYGVQLYKNY-QQAQSRHLRLSYLGSPPLRSVSDNTLVAMDF    380
+                          .|....|.:..|: ....|....|.|..||..|       :|.  
+ADRB2_MESAU      296 HVIQDNLIPKEVYILLNWLGYVNSAFNPLIYCRSPDFR-------IAF--    336
+
+GRB7_RAT         381 SGHAGRVIENPQEAL----SAATEEAQAWRKKTNHRLSLPTPCSGLSLSA    426
+                                ||.|    |::......:...:|.:.......||..|. 
+ADRB2_MESAU      337 -----------QELLCLRRSSSKAYGNGYSSNSNGKTDYMGEASGCQLG-    374
+
+GRB7_RAT         427 AIHRTQPWFHGRISREESQRLI----GQQGLVDGVFLVRESQRNPQGFVL    472
+                                  ..:||:||.    |.:..|           |.||.|.
+ADRB2_MESAU      375 -------------QEKESERLCEDPPGTESFV-----------NCQGTVP    400
+
+GRB7_RAT         473 SLCHLQKVKHYLILPSEDEGC    493
+                     ||.          |.|:...|
+ADRB2_MESAU      401 SLS----------LDSQGRNC    411
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      10/33 (30.3%)
+# Similarity:    13/33 (39.4%)
+# Gaps:          15/33 (45.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+GRB7_RAT         206 CLDTPTGISHED-------------LIQNFLNA    225
+                     |.|  .|||.:|             |:..|:||
+ID5B_ADEPA         3 CKD--LGISIDDDNNRRLAVKEGDPLVVQFVNA     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      25/106 (23.6%)
+# Similarity:    40/106 (37.7%)
+# Gaps:          23/106 (21.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+GRB7_RAT         161 ESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTL--FPEKMVSSCLD    208
+                     |....:|..|...|......|.|  :|::..|..:.|  .|.      |.
+GPA7_CAEEL       121 ELAAAMQRLWHDPGVRECYRRSN--EYQIDDSAKYFLDNLPR------LS    162
+
+GRB7_RAT         209 TPTGI-SHEDLIQNFLNAGSFPEIQGFLQLRG--------SGRGSGRKLW    249
+                     :|..: |.:||::..:......|:  ..:|:|        .|:.|.||.|
+GPA7_CAEEL       163 SPNYVPSEQDLLRTRIKTTGITEV--LFELKGLTFRVIDVGGQRSERKKW    210
+
+GRB7_RAT         250 KRFFCF    255
+                       ..||
+GPA7_CAEEL       211 --IHCF    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      26/102 (25.5%)
+# Similarity:    40/102 (39.2%)
+# Gaps:          32/102 (31.4%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+GRB7_RAT         128 EMLVQRAHALSDENWGLV----EC-HPYLALERGLEDHESVVEVQEAWPV    172
+                     ::||.| .|||.:.|..|    .| ||.|.     |.:|..|        
+IDI_ECO24         45 QLLVTR-RALSKKAWPGVWTNSVCGHPQLG-----ESNEDAV--------     80
+
+GRB7_RAT         173 GGDSRFIFRKNFAKYELFK--SPPHTLFPEKMVSSCLDTPTGISHEDLIQ    220
+                            .|:  .:|||..  :||.:::|:....:  ..|.||...::..
+IDI_ECO24         81 -------IRR--CRYELGVEITPPESIYPDFRYRA--TDPNGIVENEVCP    119
+
+GRB7_RAT         221 NF    222
+                     .|
+IDI_ECO24        120 VF    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      43/205 (21.0%)
+# Similarity:    76/205 (37.1%)
+# Gaps:          57/205 (27.8%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+GRB7_RAT         254 CFLRRSG-LYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDF    302
+                     |:|..|| ::|.....||.       ||:..|   .|::..|:.|...:.
+YHJA_ECOLI        18 CYLGLSGYVWYHDNKRSKQ-------ADVQAS---AVSENNKVLGFLREK     57
+
+GRB7_RAT         303 G--FCVKPNKLRNGHKGLHIFCSEDEQSRTCWL-SAFRLFKYGVQLYKNY    349
+                     |  :|..|:.               |.....:: .|.:|..|.::|  .|
+YHJA_ECOLI        58 GCDYCHTPSA---------------ELPAYYYIPGAKQLMDYDIKL--GY     90
+
+GRB7_RAT         350 QQAQSRHLRLSYLGSPPLRSVSD----------NTLVAMDFSG-H-AGRV    387
+                     :......:|.:.|...|: |.||          .|:....::. | ||:|
+YHJA_ECOLI        91 KSFNLEAVRAALLADKPV-SQSDLNKIEWVMQYETMPPTRYTALHWAGKV    139
+
+GRB7_RAT         388 IENPQEALSA--ATEEAQAWRKK---TNHR--------LSLPTPCSGLSL    424
+                     .:..:..:.|  |.:.|:.:...   ..||        ..|||....::|
+YHJA_ECOLI       140 SDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVAL    189
+
+GRB7_RAT         425 SAAIH    429
+                     ..|::
+YHJA_ECOLI       190 GFALY    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 114
+# Identity:      28/114 (24.6%)
+# Similarity:    41/114 (36.0%)
+# Gaps:          35/114 (30.7%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+GRB7_RAT         202 MVSSCLDTPTGISHEDL------IQNFLNAGSFPEIQGFLQLRGSGRGSG    245
+                     ||...:|.|.||:.:|.      :|:.|..    |...:.:|..|..|..
+RIMP_BURPS        28 MVCVYIDQPAGITIDDCEKVTRQLQHVLTV----ENIDYERLEVSSPGLD     73
+
+GRB7_RAT         246 RKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKL    295
+                     |.| |:...|.|.:|                     :|:   |:|..:.|
+RIMP_BURPS        74 RPL-KKLADFTRFAG---------------------SEA---VITLKKPL     98
+
+GRB7_RAT         296 YGIPTDFGFCVKPN    309
+                     .|..|..|....||
+RIMP_BURPS        99 DGRKTYRGILHAPN    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    21/56 (37.5%)
+# Gaps:           9/56 (16.1%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+GRB7_RAT         351 QAQSRHLRLSYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATE    400
+                     |.|...:|:.::.....|:::.|.         .|.|.|.....|..|..
+RS28_OSTOS        20 QGQCTQVRVEFMDDNGNRTINRNV---------KGPVREGDILTLLEAER     60
+
+GRB7_RAT         401 EAQAWR    406
+                     ||:..|
+RS28_OSTOS        61 EARRLR     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      28/159 (17.6%)
+# Similarity:    56/159 (35.2%)
+# Gaps:          50/159 (31.4%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+GRB7_RAT         322 CSEDEQSRTCW-LSAFRLFKYGVQ--------------LYKNYQ-QAQSR    355
+                     |.:....|..| ..|....:||.:              .:.|:. .|.|.
+HBAC_LITCT         5 CDDKAHIRAIWPCLASHAEQYGAEALHRMFLCHPQTKTYFPNFDFHANSA     54
+
+GRB7_RAT         356 HLRLSYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATEEAQAW    405
+                     ||:..  |...:.:::|           |.:.:::|:.:||:.::     
+HBAC_LITCT        55 HLKNH--GKKVMNALTD-----------AVKHLDHPEASLSSLSD-----     86
+
+GRB7_RAT         406 RKKTNHRLSLPTPCSGLSLSA-------AIHRTQPWFHGRISREESQRLI    448
+                         .|..:|.......:|.:       |:|.:.     ::|.|..|.|.
+HBAC_LITCT        87 ----LHAFTLRVDPGNFALLSNNILVVVAVHHSD-----KLSYETHQALD    127
+
+GRB7_RAT         449 GQQGLVDGV    457
+                     ....:|.|:
+HBAC_LITCT       128 KFLNVVSGL    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 338
+# Identity:      66/338 (19.5%)
+# Similarity:   100/338 (29.6%)
+# Gaps:         134/338 (39.6%)
+# Score: 74.0
+# 
+#
+#=======================================
+
+GRB7_RAT          89 ARG----LLPRDSSRLCVVKVYS--------EDGACRSVEVAAGATARHV    126
+                     :||    :|..|::...|.|...        .|..|:|:..|..|:....
+RPOA_PRRSS      3415 SRGDDLVVLSADNAVTTVAKALGTGPSRFRVSDPRCKSLLAACSASLEGS   3464
+
+GRB7_RAT         127 CEMLVQRAHALSDENWGLV---ECHPYLALERGLEDHESVVEVQ--EAWP    171
+                     |..|.|.||     |.|..   :...:..|.:.|..|..||..|  .|||
+RPOA_PRRSS      3465 CMPLPQVAH-----NLGFYFSPDSPAFAPLPKELAPHWPVVTHQNNRAWP   3509
+
+GRB7_RAT         172 -----------------------VGGDSRFIFRKNFAKYEL---FKSPPH    195
+                                            |.|.|.|:.......|.|   .:..|.
+RPOA_PRRSS      3510 DRLVASMRPIDARYSKPMVGAGYVVGPSTFLGTPGVVSYYLTLYIRGEPQ   3559
+
+GRB7_RAT         196 TLFPEKMVSS------C---LDTPTGISHEDLIQNFL------NAGS---    227
+                     .| ||.:||:      |   ||.....:.::|...|:      ..|.   
+RPOA_PRRSS      3560 AL-PETLVSTGRIATDCREYLDAAEEEAAKELPHAFIGDVKGTTVGGCHH   3608
+
+GRB7_RAT         228 -------------------------------------FPEIQGFLQ----    236
+                                                          .||::.:||    
+RPOA_PRRSS      3609 ITSKYLPRTLPKDSVAVVGVSSPGRAAKAMCTLTDVYLPELRPYLQPETA   3658
+
+GRB7_RAT         237 -----LRGSGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADI    281
+                          |:...|.....:||....:.:..||.:|..     |.:.:::...
+RPOA_PRRSS      3659 SKCWKLKLDFRDVRLMVWKGATAYFQLEGLTWSAL-----PDYARFIQLP   3703
+
+GRB7_RAT         282 NESNVYV------VTQGRK----------LYGIPTDFG    303
+                     .::.||:      .|..||          |...|.|:|
+RPOA_PRRSS      3704 KDAVVYIDPCIGPATANRKVVRTTDWRADLAVTPYDYG   3741
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      70/320 (21.9%)
+# Similarity:    95/320 (29.7%)
+# Gaps:         134/320 (41.9%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+GRB7_RAT         160 HESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDT    209
+                     :::|.|.|:|..|..    :|....|||:|.                   
+UBIE_PSEAE        18 YQNVPESQKAKKVAE----VFHSVAAKYDLM-------------------     44
+
+GRB7_RAT         210 PTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLR--    257
+                           .||:.                      |...:|||||...|.  
+UBIE_PSEAE        45 ------NDLMS----------------------GGIHRLWKRFTIELSGV     66
+
+GRB7_RAT         258 RSG--LYYSTKGTSKDPRHLQ---------YVADINES------------    284
+                     |||  :.....||....|...         .:||||.|            
+UBIE_PSEAE        67 RSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLDK    116
+
+GRB7_RAT         285 ----NVYVVTQGRKLYGIPTDFGFCVK-PNKLRN-GHKGLHIFCSEDEQS    328
+                         ||..|....:....|.:...||. ...||| .||        ||..
+UBIE_PSEAE       117 GVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHK--------DEAI    158
+
+GRB7_RAT         329 RTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSPPLRSVSDNTLVAM    378
+                     |    |..|:.|.|           .|.|.|.:  |.|..::......|.
+UBIE_PSEAE       159 R----SMLRVLKPG-----------GRLLVLEF--SKPSSNLLSKAYDAY    191
+
+GRB7_RAT         379 DFS--GHAGRVIEN----------------PQEALSAATEEAQAWRKKTN    410
+                     .||  ...|:::.|                .||.|.|...|| .:.:.|.
+UBIE_PSEAE       192 SFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEA-GFDRVTY    240
+
+GRB7_RAT         411 HRLSLPTPCSGLSLSAAIHR    430
+                     |.::     .|:   .|:||
+UBIE_PSEAE       241 HNMT-----GGI---VALHR    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    29/58 (50.0%)
+# Gaps:           8/58 (13.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+GRB7_RAT         437 GRISREESQRLIGQQGLVDGVFLVRESQRNP----QGFVLSLCHLQKVKH    482
+                     ||..:|..:.::|::||...|.:|..:.::|    :|.:.::.|    .|
+FLII_AQUAE       200 GREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVH----AH    245
+
+GRB7_RAT         483 YLILPSED    490
+                     :.....:|
+FLII_AQUAE       246 HFASQGKD    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      22/96 (22.9%)
+# Similarity:    42/96 (43.8%)
+# Gaps:           5/96 ( 5.2%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+GRB7_RAT         118 AAGATARHVCEMLVQRAHALSDENWGLVECHPYLALERGLEDHESVVEVQ    167
+                     ||.|..::...::|..|.|.:.:.......:.||...:.||..:..::..
+MSS11_VANPO       38 AANAQPKYNFNIMVSDAMAKTSKQLLYAHIYNYLLHNKHLETAKQFLKEA     87
+
+GRB7_RAT         168 EAWPV--GGDSRFIFRKNFAKYELFKSP--PHTLFPEKMVSSCLDT    209
+                     :. |:  |.::..:..||.....|.::.  |..|.|.||:.:..||
+MSS11_VANPO       88 DV-PLLTGNNNDDVAVKNPTAATLSQNDLNPRELLPTKMLMNANDT    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:     111/576 (19.3%)
+# Similarity:   193/576 (33.5%)
+# Gaps:         194/576 (33.7%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+GRB7_RAT           6 SPSHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLRE     55
+                     |.:.::.|.:|..|.|..|..|           :|....|.:..|....|
+SPB4_ASPFU       117 SAAAINPSEDDDAPRPKFPSST-----------LKVVPQLLLGGSTTPAE    155
+
+GRB7_RAT          56 EEFQATSLPSIPNPFPELCSPPSQKPILGGSSGARGLLPRDSSRLCVVKV    105
+                     :  .:|.|...||   .|.|.|.:  :|...|......|:.|..:.|:  
+SPB4_ASPFU       156 D--LSTFLKRSPN---VLVSTPGR--LLELLSSPHVHCPQSSFEMLVL--    196
+
+GRB7_RAT         106 YSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECHPYLALER    155
+                        |.|.|.:::....|.:::...|.::...      ||.......|:::
+SPB4_ASPFU       197 ---DEADRLLDLGFKETLQNILRRLPKQRRT------GLFSASVSEAVDQ    237
+
+GRB7_RAT         156 ----GLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYEL--FKSPPHTLFP    199
+                         ||.:...|:.     .|.|.|....::..|..::  ..:||...|.
+SPB4_ASPFU       238 IVRVGLRNPVKVMV-----KVKGGSGVDDKRTPASLQMTYLTTPPSHKFA    282
+
+GRB7_RAT         200 --EKMVSSCLDTP----------TGISHEDLIQNFLNAGSFPEIQGFLQL    237
+                       :::|||...||          :|:.:...|...|....|.    .:.|
+SPB4_ASPFU       283 ALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFL----LIPL    328
+
+GRB7_RAT         238 RGSGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADI-----N    282
+                     .|..:.:.|:  |.|..|:           .|.||..| ...|:     :
+SPB4_ASPFU       329 HGKHQANVRQ--KNFNRFI-----------NSHDPAIL-LTTDVAARGLD    364
+
+GRB7_RAT         283 ESNVYVVTQGRKLYGIPTDFGFCVKPNKL--------RNGHKGLHI----    320
+                     ..:|.:|.|    ...|:|      |...        |.|.:||.:    
+SPB4_ASPFU       365 IPSVDLVVQ----IDPPSD------PKSFIHRCGRAGRAGRRGLSVVLLH    404
+
+GRB7_RAT         321 --------------------------FCSEDEQSRTCW-----LSAFRLF    339
+                                               |...|..:.|..     |:...|.
+SPB4_ASPFU       405 PGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALH    454
+
+GRB7_RAT         340 KYGVQLYKNYQQAQSRH-----LRLSYLG---------------SPPLRS    369
+                     ..|.:.:.::.::.|:|     .|:|.|.               .|.|::
+SPB4_ASPFU       455 DRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMPELKN    504
+
+GRB7_RAT         370 -VSDNTL-VAMDFSGHA-------GRVIENPQEAL-SAATE---------    400
+                      ..|.|| :::|:..:|       .|..|..|||. |.||:         
+SPB4_ASPFU       505 FTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRAT    554
+
+GRB7_RAT         401 EAQAWRKKT---NHRLSLPTPCSGLSLSAAIHRTQP--------WFHGRI    439
+                     |:.||.::.   |.:|.              .|.|.        |  .::
+SPB4_ASPFU       555 ESVAWSQQAESKNKKLK--------------RREQKKSKQEKARW--EKM    588
+
+GRB7_RAT         440 SREESQRLIGQQGLVDGVFLVRESQR    465
+                     :.||.|:::..:.:|:.:....|.:|
+SPB4_ASPFU       589 TEEEKQKVLETEKMVEELRKKNEEER    614
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      33/120 (27.5%)
+# Similarity:    47/120 (39.2%)
+# Gaps:          30/120 (25.0%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+GRB7_RAT          80 KPI--------LGGSSGARGLLPRD--SSRLCVVK---VYSEDGACRSVE    116
+                     ||:        |...:||:|:...|  ..||..:|   :|...||  .|.
+ASSY_MYCTO       233 KPVSMLAAIEELNRRAGAQGVGRLDVVEDRLVGIKSREIYEAPGA--MVL    280
+
+GRB7_RAT         117 VAAGATARHV-CEMLVQRAHALSDENW------GLVECHPYLALERGLED    159
+                     :.|.....|| .|..:.|....:|:.|      ||.    |..|:..|| 
+ASSY_MYCTO       281 ITAHTELEHVTLERELGRFKRQTDQRWAELVYDGLW----YSPLKAALE-    325
+
+GRB7_RAT         160 HESVVEVQEAWPVGGDSRFI    179
+                      ..|.:.||  .|.|:.|.:
+ASSY_MYCTO       326 -AFVAKTQE--HVSGEVRLV    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      19/73 (26.0%)
+# Similarity:    29/73 (39.7%)
+# Gaps:          15/73 (20.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+GRB7_RAT         416 PTPCSGLSLSAAIHRTQPWFHGRISREESQRLIG-QQGLVDGVFLVRESQ    464
+                     |||.| ..|..|:....||...:|....:...:| .:.||.|......::
+ECCB1_MYCS2      227 PTPIS-QGLFNALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATE    275
+
+GRB7_RAT         465 RNPQGFVLSLCHLQKVKHYLILP    487
+                     .:||             ||::||
+ECCB1_MYCS2      276 SDPQ-------------HYVVLP    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      40/213 (18.8%)
+# Similarity:    69/213 (32.4%)
+# Gaps:          81/213 (38.0%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+GRB7_RAT          82 ILGGSSGARGLLPRDSSRLC--VVK----VYSEDGACRSVEVAAGATARH    125
+                     :|||....:|       ..|  :|:    ::...|.....|:.:|:....
+KCY4_ORYSJ        32 VLGGPGSGKG-------TQCANIVEHFGFIHLSAGDLLRAEIKSGSENGT     74
+
+GRB7_RAT         126 VCEMLVQRAHALSDENWGLVECHPYLALERGLEDHESVVEVQEAWPVGGD    175
+                     :.|.:::....:..|                    .::..:|||....|:
+KCY4_ORYSJ        75 MIENMIKEGKIVPSE--------------------VTIKLLQEAMIKSGN    104
+
+GRB7_RAT         176 SRFI---FRKNFAKYELFK-----SPPHTLFPEKMVSSCLDTPTGISHED    217
+                     .:|:   |.:|......|:     :|...||     ..|       |.|:
+KCY4_ORYSJ       105 DKFLIDGFPRNEENRAAFENVTKITPAFVLF-----FDC-------SEEE    142
+
+GRB7_RAT         218 LIQNFLNAGSFPEIQGFLQLRGSGRGSGR------KLWKRFFCFLRRSGL    261
+                     :.:..|                 ||..||      .:.|||..|: .|.|
+KCY4_ORYSJ       143 MERRLL-----------------GRNQGRVDDNIETIRKRFKVFV-ESSL    174
+
+GRB7_RAT         262 ----YYSTKGTSK    270
+                         ||:.|...|
+KCY4_ORYSJ       175 PVIEYYNAKDKVK    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      28/109 (25.7%)
+# Similarity:    43/109 (39.4%)
+# Gaps:          22/109 (20.2%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+GRB7_RAT         424 LSAAIHRTQPWFHGRISREESQRLIGQQGLVDGVFLVRESQRNPQGFVLS    473
+                     :.:||:..||       ..::|:.| |||.......:.:|.:|...|.|.
+HCP_TRIV2        106 IQSAINSFQP-------ASDTQKQI-QQGKDLEFEFISQSAKNVDIFSLK    147
+
+GRB7_RAT         474 LCHLQKVK-------HYLILPSEDEGCLYF------SMDDGQTRFTDLLQ    510
+                     |..|..:|       |.|.|...||....|      ::|.......|.|.
+HCP_TRIV2        148 LTLLYGLKGVAAYAFHALELNQHDESLYIFFHEVLANLDAQDKSLQDWLD    197
+
+GRB7_RAT         511 L-VEFHQLN    518
+                     | ::..|:|
+HCP_TRIV2        198 LTLKVGQMN    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 473
+# Identity:      92/473 (19.5%)
+# Similarity:   154/473 (32.6%)
+# Gaps:         134/473 (28.3%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+GRB7_RAT          95 RDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENW--    142
+                     |||     |:....|.....|.:|...|||              |:.|  
+UBX7_YEAST         7 RDS-----VEEAINDSIKEGVVLAVYNTAR--------------DDQWLK     37
+
+GRB7_RAT         143 -----------GLVECHPYLALERGLEDHESVVEVQEAWP-VGGDSRFIF    180
+                                .|.|...:|.|   ::|.|.....::.:| |...|.::.
+UBX7_YEAST        38 SWFKGDDVSLDTLAEHSIWLRL---VKDTEQFQLFEQVFPNVVVPSIYLI     84
+
+GRB7_RAT         181 RKNFAKYELFKSPPHTLFPEKMV------------SSCLDTPTGISHEDL    218
+                     |.  .|.||..........||::            ||..:|..|::.|:.
+UBX7_YEAST        85 RA--GKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+
+GRB7_RAT         219 IQNFLN--------AGSFPEIQGFLQLRGSGRGSGRKL----WKRFFCFL    256
+                     ....::        |.:..|||...||:      .|||    .:|....:
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEIQRREQLK------QRKLAEEERERIIRLV    176
+
+GRB7_RAT         257 R-----RSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTD    301
+                     |     |..|..:...|..|.:.|    |:::    .:...:||:.    
+UBX7_YEAST       177 RADRAERKALDETHHRTLDDDKPL----DVHD----YIKDAQKLHS----    214
+
+GRB7_RAT         302 FGFCVKPNKLRNGHKGLHIF-CSEDEQSRTCWLSAFRL-------FKYGV    343
+                      ..||...::.:|....|.| .||.......|:...|.       |..|:
+UBX7_YEAST       215 -SKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNRTDGDCPYSFHRGI    263
+
+GRB7_RAT         344 Q--LYKNYQQAQSRHL-----RLSYLGSPPLRSVSDNTLVAMDFSGHAGR    386
+                     .  .:|:..:.::...     |.:.|..|.....|..::..|:.....||
+UBX7_YEAST       264 PRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEGPSLLGR    313
+
+GRB7_RAT         387 VI----------ENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGLSLSA    426
+                     :.          ::|:     .|.:.:...|...|.:...||.||.:.|:
+UBX7_YEAST       314 LYKGFSTWWHNDKDPE-----VTSQREETSKPNRHEVRSSTPLSGAASSS    358
+
+GRB7_RAT         427 AIH------------RTQPWFHGRISREESQ-RLIGQQGLVDGVFLV---    460
+                     ...            ...|......:|..|: .|...:.:...||..   
+UBX7_YEAST       359 CFQYNNVREPVQSSAHASPMLTPSGTRYPSETNLTTSRSVSPNVFQFVNN    408
+
+GRB7_RAT         461 --RESQRNPQGFVLSLCHLQKVK    481
+                       :|...:|..|..:..||:|.|
+UBX7_YEAST       409 DHQEDPEDPTTFNGNNVHLEKKK    431
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      40/177 (22.6%)
+# Similarity:    61/177 (34.5%)
+# Gaps:          48/177 (27.1%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+GRB7_RAT         369 SVSDNTLVAMDFSGHAGR---------------------VIENPQEALSA    397
+                     ::.|...:.|:|:..:||                     .|.:|...:|.
+RPOA_ACICJ       142 TLDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSIYSPVRRVSY    191
+
+GRB7_RAT         398 ATEEAQAWRKKTNHRLSL-------PTPCSGLSLSAAIHRTQPWFHGRIS    440
+                     ..|..:..:.....||.|       .||...::|:|.|.:.|....  |:
+RPOA_ACICJ       192 RVEPTRVGQVTDYDRLILNIETNGAVTPEDAVALAARILQDQLGMF--IN    239
+
+GRB7_RAT         441 REESQRLIGQQGLVDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSED    490
+                     .||.|||..::...:..|       ||.       .|:||.. |.|....
+RPOA_ACICJ       240 FEEPQRLRAEEPRPELPF-------NPN-------LLRKVDE-LELSVRS    274
+
+GRB7_RAT         491 EGCLYFSMDDGQTRFTDLLQLVEFHQL    517
+                     ..||   .:|......||:|..|...|
+RPOA_ACICJ       275 ANCL---KNDNIVYIGDLVQKSEQEML    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       9/19 (47.4%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+GRB7_RAT         333 LSAFRLFKYGVQLYKNYQQ    351
+                     :|.|.:.|.|.||.|..||
+YXAD_BACSU        91 VSLFTITKLGKQLLKADQQ    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: GRB7_RAT
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      34/138 (24.6%)
+# Similarity:    63/138 (45.7%)
+# Gaps:          22/138 (15.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+GRB7_RAT         334 SAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSPPLRS-VSDNTLVAMDFSG    382
+                     :|.::.|..|....::|  ..||.::|.|..|.|.: :|..|...|.|: 
+FADB_SHESR       196 AAIQMLKDAVAEKLDWQ--ARRHRKMSPLTLPKLEAMMSFTTAKGMVFA-    242
+
+GRB7_RAT         383 HAGRVIENPQEALS----AATE--------EAQAWRK--KTNHRLSLPTP    418
+                     .||:....|..|:|    |||:        |.||:.|  ||:...:|   
+FADB_SHESR       243 VAGKHYPAPMAAVSVVEQAATKGRSDALQIEHQAFIKLAKTDVAKAL---    289
+
+GRB7_RAT         419 CSGLSLSAAIHRTQPWFHGRISREESQRLIGQQGLVDG    456
+                      .|:.|:..:.:.:....|:::::.....:...|::.|
+FADB_SHESR       290 -IGIFLNDQLVKGKAKKAGKLAKDVKSAAVLGAGIMGG    326
+
+
+#---------------------------------------
+#---------------------------------------

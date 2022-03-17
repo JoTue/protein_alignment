@@ -1,0 +1,282 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/RPO8_SACSH.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/RPO8_SACSH.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/RPO8_SACSH.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:       9/45 (20.0%)
+# Similarity:    20/45 (44.4%)
+# Gaps:           3/45 ( 6.7%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+RPO8_SACSH        35 DFNISFDIIDSINIFSQKEKVKAFISKNRLSYTNDDFCGHGYIVT     79
+                     |.:.:|| :.|:......:::....|.:|:.:.:..  |..|..|
+NADK_ACIET       245 DISANFD-MQSLASLQHGDRILVRRSAHRVCFLHPR--GWSYFAT    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      12/51 (23.5%)
+# Similarity:    22/51 (43.1%)
+# Gaps:          12/51 (23.5%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RPO8_SACSH        74 HGYIVTE------LKDSSSNNGNRY------ITIISLFGLLVKIISNKES    111
+                     ||.:||.      .::.|:|.|.::      ..|::..|...::|....|
+PSBA_ANGEV       215 HGSLVTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYAS    264
+
+RPO8_SACSH       112 F    112
+                     |
+PSBA_ANGEV       265 F    265
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    15/24 (62.5%)
+# Gaps:           1/24 ( 4.2%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RPO8_SACSH        47 NIFSQKEKVKAFISKNRLSYTNDD     70
+                     |..::::|.|..:|.::|. |.||
+Y128_RICFE        88 NFLAEQQKYKQKLSISKLP-TEDD    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      24/128 (18.8%)
+# Similarity:    46/128 (35.9%)
+# Gaps:          28/128 (21.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+RPO8_SACSH        16 NSIER---GSLKNLSIIHMSCNDFNISFDIIDSI----------------     46
+                     ||:.|   .||...::.::........|..:|::                
+RPOA_STAAN        38 NSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLAL     87
+
+RPO8_SACSH        47 NIFSQKEKVKAFISKNRLSYTNDDFCGHGYIVTELKDSSSNNGNRYITII     96
+                     .|:|:::|......::....|..|       :|...|....|....|..:
+RPOA_STAAN        88 KIYSEEDKTLEIDVRDEGEVTASD-------ITHDSDVEILNPELKIATV    130
+
+RPO8_SACSH        97 SLFG-LLVKIISNK-ESFLKIHQLNVMD    122
+                     |..| |.:::::|| ..:....|.|..|
+RPOA_STAAN       131 SKGGHLKIRLVANKGRGYALAEQNNTSD    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      19/75 (25.3%)
+# Similarity:    29/75 (38.7%)
+# Gaps:          29/75 (38.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+RPO8_SACSH        81 LKDSSSNNG------------NRYITIISLFGLLVKIIS-----------    107
+                     |.::.|||.            :.|.||..:.||||.|:|           
+CYB_PLEAU        200 LHETGSNNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDM    249
+
+RPO8_SACSH       108 --NKESFLKIHQLNVMDHI----YF    126
+                       :.:::...:.||...||    ||
+CYB_PLEAU        250 LGDPDNYSPANPLNTPPHIKPEWYF    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:     132/132 (100.0%)
+# Similarity:   132/132 (100.0%)
+# Gaps:           0/132 ( 0.0%)
+# Score: 675.0
+# 
+#
+#=======================================
+
+RPO8_SACSH         1 MMESKAQEIILSCEINSIERGSLKNLSIIHMSCNDFNISFDIIDSINIFS     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPO8_SACSH         1 MMESKAQEIILSCEINSIERGSLKNLSIIHMSCNDFNISFDIIDSINIFS     50
+
+RPO8_SACSH        51 QKEKVKAFISKNRLSYTNDDFCGHGYIVTELKDSSSNNGNRYITIISLFG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RPO8_SACSH        51 QKEKVKAFISKNRLSYTNDDFCGHGYIVTELKDSSSNNGNRYITIISLFG    100
+
+RPO8_SACSH       101 LLVKIISNKESFLKIHQLNVMDHIYFCVKKNT    132
+                     ||||||||||||||||||||||||||||||||
+RPO8_SACSH       101 LLVKIISNKESFLKIHQLNVMDHIYFCVKKNT    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      16/57 (28.1%)
+# Similarity:    28/57 (49.1%)
+# Gaps:           3/57 ( 5.3%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RPO8_SACSH         3 ESKAQEIILSCEINSIERGSLKNLSIIHMSCNDFNISFDIIDSINIFSQK     52
+                     :::..:|..|...|..|....|.:.::  |||...: ...|.:||..::.
+G3P_SULIN        111 KAEVADISFSALCNYDEALGKKYIRVV--SCNTTAL-LRTICTINKVTKV    157
+
+RPO8_SACSH        53 EKVKAFI     59
+                     |||:|.|
+G3P_SULIN        158 EKVRATI    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      17/91 (18.7%)
+# Similarity:    33/91 (36.3%)
+# Gaps:          29/91 (31.9%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+RPO8_SACSH        36 FNISFDIIDSINIFSQKEK-------VKAF-------ISKNRLSYTNDDF     71
+                     |.::|.::....:|:...|       |||.       |..:.|...|.::
+BLP1_PSEAI         3 FLLAFSLLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEY     52
+
+RPO8_SACSH        72 CGHGYIVTELKDSSSNNGNRYITIISLFGLL--VKIISNKE    110
+                     ..:             |||:...:.|.|..:  .|::.:.|
+BLP1_PSEAI        53 WDY-------------NGNQRFPLTSTFKTIACAKLLYDAE     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     8/11 (72.7%)
+# Gaps:           1/11 ( 9.1%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+RPO8_SACSH        99 FGLLVKIISNK    109
+                     ||.::: .:||
+PA2AA_ACAAN        5 FGFMIR-CANK     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RPO8_SACSH
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      18/66 (27.3%)
+# Similarity:    25/66 (37.9%)
+# Gaps:          15/66 (22.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+RPO8_SACSH        23 LKNLSIIHMSCNDFNISFDIIDSINIFSQKEKVKAFISKNRLSYTND---     69
+                     |.:|.|:|......|:.:        :|..|..|..||...||...|   
+KCC1A_MOUSE      132 LHDLGIVHRDLKPENLLY--------YSLDEDSKIMISDFGLSKMEDPGS    173
+
+RPO8_SACSH        70 ---DFCG-HGYIVTEL     81
+                        ..|| .||:..|:
+KCC1A_MOUSE      174 VLSTACGTPGYVAPEV    189
+
+
+#---------------------------------------
+#---------------------------------------

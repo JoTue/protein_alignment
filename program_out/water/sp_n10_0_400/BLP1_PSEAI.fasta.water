@@ -1,0 +1,306 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/BLP1_PSEAI.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/BLP1_PSEAI.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/BLP1_PSEAI.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      20/89 (22.5%)
+# Similarity:    33/89 (37.1%)
+# Gaps:          25/89 (28.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+BLP1_PSEAI       104 IEKQVGQAITLDDACFATMTTSDNTAANIILS------------------    135
+                     |.:.:.|.:|..|   ..:|....|||:..|:                  
+NADK_ACIET        29 IIESIAQFVTQQD---CELTLEAETAAHTGLTQYHTLDVEGIGRQCDLCL     75
+
+BLP1_PSEAI       136 AVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRD    174
+                     .|||...:....|::....|.|    ..:|:|:||.:.|
+NADK_ACIET        76 VVGGDGTMLGVGRRLAGYGTPL----VGINQGRLGFITD    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       8/35 (22.9%)
+# Similarity:    17/35 (48.6%)
+# Gaps:           2/35 ( 5.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+BLP1_PSEAI       181 IASTLNKFLFGSALSEMNQKKLESW--MVNNQVTG    213
+                     :|..||.|.|..::.:...:.:.:|  ::|....|
+PSBA_ANGEV       293 MAFNLNGFNFNQSVVDSQGRVINTWADIINRANLG    327
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      25/75 (33.3%)
+# Similarity:    37/75 (49.3%)
+# Gaps:           9/75 (12.0%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+BLP1_PSEAI       103 VIEKQV-GQAITLDDACFATMTTSDNTAANIILSAVG-GPKGVTDFLRQI    150
+                     :|:|.: |.||.|..:|||..||||.:..:...:..| ..|.:.||....
+Y128_RICFE         1 MIKKIIFGIAILLSLSCFANSTTSDGSKKDAAKTNDGTTQKIIDDFSAYA     50
+
+BLP1_PSEAI       151 GD------KETRLDRIE-PDLNEGK    168
+                     |.      ||.:..|:| .|:|:.|
+Y128_RICFE        51 GTIKPEVRKEIQEYRVEIVDINKKK     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      46/206 (22.3%)
+# Similarity:    74/206 (35.9%)
+# Gaps:          62/206 (30.1%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+BLP1_PSEAI        29 VKAIEVSLSARIGVSVLDTQNGEYWDYNGN--QRFPLTS----TFKTIAC     72
+                     ::.||:|..|:.|..|::.....|....||  :|..|:|    ..|.|..
+RPOA_STAAN         9 IETIEISEDAKFGKFVVEPLERGYGTTLGNSLRRILLSSLPGAAVKYIEI     58
+
+BLP1_PSEAI        73 AKLLYD--AEQGKVNPNSTV--EIKKADLVTYSPVIEKQVGQAITLDDAC    118
+                     ..:|::  |....|...||:  .||:..|..||     :..:.:.:|...
+RPOA_STAAN        59 EGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYS-----EEDKTLEIDVRD    103
+
+BLP1_PSEAI       119 FATMTTSDNTAANIILSAVGGPKGVTDFLRQIGDKETRLDRIEPDL---N    165
+                     ...:|.||.|                        .::.::.:.|:|   .
+RPOA_STAAN       104 EGEVTASDIT------------------------HDSDVEILNPELKIAT    129
+
+BLP1_PSEAI       166 EGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQKKLESWMVNNQVTGNL    215
+                     ..|.|.|:       |....||.. |.||:|.|.            |.:|
+RPOA_STAAN       130 VSKGGHLK-------IRLVANKGR-GYALAEQNN------------TSDL    159
+
+BLP1_PSEAI       216 LRSVLP    221
+                     ...|:|
+RPOA_STAAN       160 PIGVIP    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    28/72 (38.9%)
+# Gaps:          19/72 (26.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+BLP1_PSEAI       211 VTGNLLRSVLPAGWNIADRSGAGGFGA--RSITAVVWSEHQAPIIVSIYL    258
+                     |..|||.::...|.|:.:... |||..  .::|.........|.|:|   
+CYB_PLEAU        145 VITNLLSAIPYVGTNLVEWIW-GGFSVDKATLTRFFAFHFLFPFIIS---    190
+
+BLP1_PSEAI       259 AQTQASMAERNDAIVKIGHSIF    280
+                                 |:| :||.:|
+CYB_PLEAU        191 ------------AMV-MGHLLF    199
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      17/91 (18.7%)
+# Similarity:    33/91 (36.3%)
+# Gaps:          29/91 (31.9%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+BLP1_PSEAI         3 FLLAFSLLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNGEY     52
+                     |.::|.::....:|:...|       |||.       |..:.|...|.::
+RPO8_SACSH        36 FNISFDIIDSINIFSQKEK-------VKAF-------ISKNRLSYTNDDF     71
+
+BLP1_PSEAI        53 WDY-------------NGNQRFPLTSTFKTIACAKLLYDAE     80
+                     ..:             |||:...:.|.|..:  .|::.:.|
+RPO8_SACSH        72 CGHGYIVTELKDSSSNNGNRYITIISLFGLL--VKIISNKE    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      28/143 (19.6%)
+# Similarity:    51/143 (35.7%)
+# Gaps:          35/143 (24.5%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+BLP1_PSEAI        80 EQGKVNPNSTVE--IKKADLVT----------YSPVIEK-------QVGQ    110
+                     |:..:....|:|  :|.:|:|.          |.|:.::       |.|:
+G3P_SULIN         61 EESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQQFQRNAIFQGGE    110
+
+BLP1_PSEAI       111 AITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIG--DKETRLD    158
+                     ...:.|..|:.:...|.......:..|.  ...|..||.|.  :|.|:::
+G3P_SULIN        111 KAEVADISFSALCNYDEALGKKYIRVVS--CNTTALLRTICTINKVTKVE    158
+
+BLP1_PSEAI       159 RIE-------PDLNEGKLGDLRD-----TTTPKAIASTLNKFL    189
+                     ::.       .|..|.|.|.:..     .|.|...|..:|..:
+G3P_SULIN        159 KVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDVNSVI    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 288
+# Identity:     288/288 (100.0%)
+# Similarity:   288/288 (100.0%)
+# Gaps:           0/288 ( 0.0%)
+# Score: 1451.0
+# 
+#
+#=======================================
+
+BLP1_PSEAI         1 MKFLLAFSLLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI         1 MKFLLAFSLLIPSVVFASSSKFQQVEQDVKAIEVSLSARIGVSVLDTQNG     50
+
+BLP1_PSEAI        51 EYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI        51 EYWDYNGNQRFPLTSTFKTIACAKLLYDAEQGKVNPNSTVEIKKADLVTY    100
+
+BLP1_PSEAI       101 SPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI       101 SPVIEKQVGQAITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQI    150
+
+BLP1_PSEAI       151 GDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI       151 GDKETRLDRIEPDLNEGKLGDLRDTTTPKAIASTLNKFLFGSALSEMNQK    200
+
+BLP1_PSEAI       201 KLESWMVNNQVTGNLLRSVLPAGWNIADRSGAGGFGARSITAVVWSEHQA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI       201 KLESWMVNNQVTGNLLRSVLPAGWNIADRSGAGGFGARSITAVVWSEHQA    250
+
+BLP1_PSEAI       251 PIIVSIYLAQTQASMAERNDAIVKIGHSIFDVYTSQSR    288
+                     ||||||||||||||||||||||||||||||||||||||
+BLP1_PSEAI       251 PIIVSIYLAQTQASMAERNDAIVKIGHSIFDVYTSQSR    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       5/20 (25.0%)
+# Similarity:     9/20 (45.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+BLP1_PSEAI       186 NKFLFGSALSEMNQKKLESW    205
+                     |...||..:...|:::...|
+PA2AA_ACAAN        1 NLLQFGFMIRCANKRRRPVW     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: BLP1_PSEAI
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       9/29 (31.0%)
+# Similarity:    10/29 (34.5%)
+# Gaps:           6/29 (20.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+BLP1_PSEAI        26 EQDVKAIEVSLSARIGVSVLDTQNGEYWD     54
+                     |.|.|..|..|.|....      :..|||
+KCC1A_MOUSE      221 ENDAKLFEQILKAEYEF------DSPYWD    243
+
+
+#---------------------------------------
+#---------------------------------------

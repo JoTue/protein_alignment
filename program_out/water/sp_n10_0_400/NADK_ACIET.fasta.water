@@ -1,0 +1,326 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:14
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/NADK_ACIET.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/NADK_ACIET.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/NADK_ACIET.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:     298/298 (100.0%)
+# Similarity:   298/298 (100.0%)
+# Gaps:           0/298 ( 0.0%)
+# Score: 1548.0
+# 
+#
+#=======================================
+
+NADK_ACIET         1 MKPIFRRVAVIGKYPGPGAVSASDSARQIIESIAQFVTQQDCELTLEAET     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET         1 MKPIFRRVAVIGKYPGPGAVSASDSARQIIESIAQFVTQQDCELTLEAET     50
+
+NADK_ACIET        51 AAHTGLTQYHTLDVEGIGRQCDLCLVVGGDGTMLGVGRRLAGYGTPLVGI    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET        51 AAHTGLTQYHTLDVEGIGRQCDLCLVVGGDGTMLGVGRRLAGYGTPLVGI    100
+
+NADK_ACIET       101 NQGRLGFITDIPLEGYQDALTPILHGDYEEDVRPLMQACVMRGGECVFEA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET       101 NQGRLGFITDIPLEGYQDALTPILHGDYEEDVRPLMQACVMRGGECVFEA    150
+
+NADK_ACIET       151 LALNDVVVNRGSTSGMVELRVEVDGVFVSNQRADGLIVASPTGSTAYALS    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET       151 LALNDVVVNRGSTSGMVELRVEVDGVFVSNQRADGLIVASPTGSTAYALS    200
+
+NADK_ACIET       201 AGGPMLHPSIPGWVLVPIAPHTLSNRPIVLSDATEVAIEVAGGRDISANF    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET       201 AGGPMLHPSIPGWVLVPIAPHTLSNRPIVLSDATEVAIEVAGGRDISANF    250
+
+NADK_ACIET       251 DMQSLASLQHGDRILVRRSAHRVCFLHPRGWSYFATLRKKLGWYEGGS    298
+                     ||||||||||||||||||||||||||||||||||||||||||||||||
+NADK_ACIET       251 DMQSLASLQHGDRILVRRSAHRVCFLHPRGWSYFATLRKKLGWYEGGS    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 243
+# Identity:      51/243 (21.0%)
+# Similarity:    82/243 (33.7%)
+# Gaps:          70/243 (28.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+NADK_ACIET        67 IGRQCDLCLVVGGDGTMLGVGRRLA-GYGTPLVG---------INQGRLG    106
+                     :||:.:|..       .||:...:| .|..|:..         |.||  .
+PSBA_ANGEV       127 MGREWELSF-------RLGMRPWIAVAYSAPVAAAAAVFLIYPIGQG--S    167
+
+NADK_ACIET       107 FITDIPLEGYQDALTPILHGDYEEDVRPLMQACVMRG-----GECVFEAL    151
+                     |...:|| |.......::....|.::  ||....|.|     |..:|.|:
+PSBA_ANGEV       168 FSDGMPL-GISGTFNFMIVFQAEHNI--LMHPFHMLGVAGVFGGSLFSAM    214
+
+NADK_ACIET       152 ALNDVVVNRGS--TSGMVELRVEVDGV---FVSNQRADGLIVASPTGSTA    196
+                             .||  ||.::....|.:..   :...|..:...:.:..|...
+PSBA_ANGEV       215 --------HGSLVTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFG    256
+
+NADK_ACIET       197 -----YALSAGGPMLHPSIPGWVLVPIAPHTLS-------------NRPI    228
+                          ||.......||..:..|.:|.|....|.             |:.:
+PSBA_ANGEV       257 RLIFQYASFNNSRSLHFFLAAWPVVGIWFTALGISTMAFNLNGFNFNQSV    306
+
+NADK_ACIET       229 VLSDATEVAIEVAGGRDISANFDMQSLASLQHGDRILVRRSAH    271
+                     |.|.          ||.|:...|:.:.|:|  |..::..|:||
+PSBA_ANGEV       307 VDSQ----------GRVINTWADIINRANL--GMEVMHERNAH    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       5/17 (29.4%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+NADK_ACIET        86 VGRRLAGYGTPLVGINQ    102
+                     |.:.:..|...:|.||:
+Y128_RICFE        57 VRKEIQEYRVEIVDINK     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      23/145 (15.9%)
+# Similarity:    53/145 (36.6%)
+# Gaps:          39/145 (26.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+NADK_ACIET       166 MVEL-RVEVDGVFVSNQRADGLIVASPTGSTAYALSAGGPM---LHPSIP    211
+                     |:|: :..::.:.:|.....|..|..|. ...|..:.|..:   |..|:|
+RPOA_STAAN         1 MIEIEKPRIETIEISEDAKFGKFVVEPL-ERGYGTTLGNSLRRILLSSLP     49
+
+NADK_ACIET       212 G----WVLVPIAPHTLSNRPIVLSDAT-------EVAIEVAGGRDISANF    250
+                     |    ::.:....|..|....|:.|.:       ::|:::....|.:...
+RPOA_STAAN        50 GAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYSEEDKTLEI     99
+
+NADK_ACIET       251 DMQ-----------------------SLASLQHGDRILVRRSAHR    272
+                     |::                       .:|::..|..:.:|..|::
+RPOA_STAAN       100 DVRDEGEVTASDITHDSDVEILNPELKIATVSKGGHLKIRLVANK    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      12/41 (29.3%)
+# Similarity:    18/41 (43.9%)
+# Gaps:          15/41 (36.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+NADK_ACIET       120 LTPILHGDYEEDV--RPLMQACVMRGGECVF-----EALAL    153
+                     :.|:||...:..:  |||.|        |:|     :.|||
+CYB_PLEAU        303 IIPLLHTSKQRSMTFRPLSQ--------CMFWLLVADLLAL    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:       9/45 (20.0%)
+# Similarity:    20/45 (44.4%)
+# Gaps:           3/45 ( 6.7%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+NADK_ACIET       245 DISANFD-MQSLASLQHGDRILVRRSAHRVCFLHPR--GWSYFAT    286
+                     |.:.:|| :.|:......:::....|.:|:.:.:..  |..|..|
+RPO8_SACSH        35 DFNISFDIIDSINIFSQKEKVKAFISKNRLSYTNDDFCGHGYIVT     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      56/286 (19.6%)
+# Similarity:    94/286 (32.9%)
+# Gaps:         108/286 (37.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+NADK_ACIET        73 LCLVVGGDGTMLGVGRRLAGY-----GTPLVGINQ----------GRLGF    107
+                     :.:.|.|.||   :|:|:|..     ...|||:.:          .|.|.
+G3P_SULIN          2 ISVAVNGYGT---IGKRVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGI     48
+
+NADK_ACIET       108 ITDIP---LEGYQDALTPILHGDYEEDV------------------RPLM    136
+                     ...:|   ::.::::..|:. |..|:.|                  :|:.
+G3P_SULIN         49 KIYVPQQSIKKFEESGIPVA-GTIEDLVKASDIVVDTTPNGVGAQYKPIY     97
+
+NADK_ACIET       137 QA----CVMRGGE------------CVF-EALALNDVVVNRGSTSGMVE-    168
+                     |.    .:.:|||            |.: |||....:.|...:|:.::. 
+G3P_SULIN         98 QQFQRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRT    147
+
+NADK_ACIET       169 -------LRVEVDGVFVSNQRADGLIVASPTGSTAYALSAGGPMLHPSIP    211
+                            .:||.....:..:.||...|..            || ::..:|
+G3P_SULIN        148 ICTINKVTKVEKVRATIVRRAADQKEVKK------------GP-INSLVP    184
+
+NADK_ACIET       212 GWVLVP---------------------IAPHTLSNR---PIVLSDATEV-    236
+                     ....||                     |||.||.:.   .|.|.|..|. 
+G3P_SULIN        185 DPATVPSHHAKDVNSVIKNLDIVTMAVIAPTTLMHMHFINITLKDKVEKK    234
+
+NADK_ACIET       237 -AIEVAGGRD----ISANFDMQSLASLQHGDRILVR    267
+                      .:.|.....    ||:.:|.::.|.|....|.|.|
+G3P_SULIN        235 DVLSVLENTPRIVLISSKYDAEATAELVEVARDLKR    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      20/89 (22.5%)
+# Similarity:    33/89 (37.1%)
+# Gaps:          25/89 (28.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+NADK_ACIET        29 IIESIAQFVTQQD---CELTLEAETAAHTGLTQYHTLDVEGIGRQCDLCL     75
+                     |.:.:.|.:|..|   ..:|....|||:..|:                  
+BLP1_PSEAI       104 IEKQVGQAITLDDACFATMTTSDNTAANIILS------------------    135
+
+NADK_ACIET        76 VVGGDGTMLGVGRRLAGYGTPL----VGINQGRLGFITD    110
+                     .|||...:....|::....|.|    ..:|:|:||.:.|
+BLP1_PSEAI       136 AVGGPKGVTDFLRQIGDKETRLDRIEPDLNEGKLGDLRD    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           1/12 ( 8.3%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+NADK_ACIET       285 ATLRKKLGW-YE    295
+                     |..|::..| ||
+PA2AA_ACAAN       12 ANKRRRPVWPYE     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NADK_ACIET
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      42/199 (21.1%)
+# Similarity:    66/199 (33.2%)
+# Gaps:          76/199 (38.2%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+NADK_ACIET         8 VAVIGKYPGPGAVSASD---------------SARQIIESIAQ--FVTQQ     40
+                     :||:.|...|..|:..|               |..::.:.|.:  |.|::
+KCC1A_MOUSE       67 IAVLHKIKHPNIVALDDIYESGGHLYLIMQLVSGGELFDRIVEKGFYTER    116
+
+NADK_ACIET        41 DCE----LTLEAETAAH-TGLTQ---------YHTLDVE--------GIG     68
+                     |..    ..|:|....| .|:..         |::||.:        |:.
+KCC1A_MOUSE      117 DASRLIFQVLDAVKYLHDLGIVHRDLKPENLLYYSLDEDSKIMISDFGLS    166
+
+NADK_ACIET        69 RQCDLCLVVGGDGTMLGVGRRLAGYGTPLV--------GINQGRLGFITD    110
+                     :..|       .|::|.......||..|.|        .::...:|.|..
+KCC1A_MOUSE      167 KMED-------PGSVLSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAY    209
+
+NADK_ACIET       111 IPLEGY------QDA--LTPILHGDYEED--------------VRPLMQ    137
+                     |.|.||      .||  ...||..:||.|              :|.||:
+KCC1A_MOUSE      210 ILLCGYPPFYDENDAKLFEQILKAEYEFDSPYWDDISDSAKDFIRHLME    258
+
+
+#---------------------------------------
+#---------------------------------------

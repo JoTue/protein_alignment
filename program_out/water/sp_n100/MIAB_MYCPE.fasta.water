@@ -1,0 +1,3424 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:17
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/MIAB_MYCPE.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/MIAB_MYCPE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/MIAB_MYCPE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      21/89 (23.6%)
+# Similarity:    36/89 (40.4%)
+# Gaps:          16/89 (18.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE         5 IMDSKSTKKRDLSKYFL-PDIRQARKRIKKADIIKDGFEIP--------A     45
+                     :.:||...::.|..||. |||...:.|:.:.:.:....|:|        .
+PUR7_VIBVU       282 VENSKEGFRQFLLNYFPDPDILLNKDRMPEREALARDNELPEEALMAVSR    331
+
+MIAB_MYCPE        46 NIINYGEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEY     84
+                     ..||..|      |..|....|.|.. ...:::::|.||
+PUR7_VIBVU       332 TYINIAE------KITGSAIVLSDNP-KQEIIDILGREY    363
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    27/61 (44.3%)
+# Gaps:          11/61 (18.0%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       362 PNETKEQFNKTLELY------KRIEFDNAFTFIYSKRDGTVAAIIPDEIP    405
+                     |.:|.:.  |.||:.      ..:|.|.|...:.| |...:|..|.|.||
+Y075_NITWN         9 PEDTADP--KLLEILVCPVTKGPLELDGARRELIS-RSAKLAYPIRDGIP     55
+
+MIAB_MYCPE       406 --LSEKKERLQ    414
+                       |.|:..:::
+Y075_NITWN        56 IMLPEEARKIE     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      38/200 (19.0%)
+# Similarity:    66/200 (33.0%)
+# Gaps:          70/200 (35.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       185 GNVIENLPSKR--------TNNLKGFVNVMYGCDKFCTYCIVPMTRGK--    224
+                     |..|.||.::.        ..:||.||   :|   .|...::...||.  
+Y3584_PSEAB       22 GQAIGNLFARALPLLDGNPPGSLKVFV---FG---GCAVHLLTHARGSAD     65
+
+MIAB_MYCPE       225 -------IRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGEN    267
+                            .|..||::|: .|:.. .|||::..  |:::..|   .|....
+Y3584_PSEAB       66 IDAEIEAARVLRKDEIM-AVYTP-PEGYEDGD--GRDLQVY---LDQNYT    108
+
+MIAB_MYCPE       268 YLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPI    317
+                     .....|.||..:..|....|....|                    :|:.:
+Y3584_PSEAB      109 NALGPLHEDYRERAIPMEGFEGEQP--------------------LHIFV    138
+
+MIAB_MYCPE       318 QSGDETILKKMNR----------------PMKIGDYIDL----VDYIRAN    347
+                     .:|.:..:.|:.|                .:.:|.::.|    :||...|
+Y3584_PSEAB      139 AAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGN    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      28/99 (28.3%)
+# Similarity:    40/99 (40.4%)
+# Gaps:          22/99 (22.2%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       340 LVDYIRANIPNCS-----ITTDLIVGFPNETKEQFNKTLELYKRIE---F    381
+                     ||.|.....| ||     :.|.:.|    :.|...|  |:||.|:.   |
+BPT_HAHCH          7 LVFYATPEHP-CSYLDDRLATTMFV----DPKADIN--LDLYTRLSQLGF     49
+
+MIAB_MYCPE       382 DNAFTFIYSKRDGTVAAIIPDEIPLSE-KKERLQELNEMVKTFSKKNNE    429
+                     ..:....|..|.....|.|...||..| .:.|.||     :|: |:|::
+BPT_HAHCH         50 RRSGNHYYKPRCNGCNACIAVRIPTEEFNRTRSQE-----RTW-KRNSD     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       9/21 (42.9%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        65 SNLRDTEVMMGMLE-LIGYEY     84
+                     |:||...|.||:.. |:|..|
+KDPC_CAUVN         3 SHLRPALVSMGLFTVLLGLAY     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      42/213 (19.7%)
+# Similarity:    73/213 (34.3%)
+# Gaps:          54/213 (25.4%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE         1 MKSHIMDSKSTKKRDLSK-----YFLPDIRQARKRIKKAD-IIKDGFEI-     43
+                     |.|.:.|..:...|..:.     ||:|..|..   :..|| ..:.||.| 
+LPXH_XYLFM        51 MPSEVADMVAAALRTYADAGTPLYFMPGNRDF---LVGADYAARAGFRIL     97
+
+MIAB_MYCPE        44 --PANIINYGEGK---------TYHIKTFGCQSNLRDTEVMMGMLELIGY     82
+                       |..:..|||..         |..|.....::..||.|.:.        
+LPXH_XYLFM        98 PDPCVVDLYGEPTLLLHGDLLCTDDIAYQAFRAQTRDPEFIA--------    139
+
+MIAB_MYCPE        83 EYNEDVNTSDLVLLNTCAVREHAES---KVFADIGILDRIKKSNPNFIFG    129
+                     ::.....::.|.......:..||..   |...|....::|....|..:..
+LPXH_XYLFM       140 QFLTQTLSARLAFSQQARLASHAHQSGLKQENDSTQFEKITDVVPADVAA    189
+
+MIAB_MYCPE       130 VCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHR-ILNLLEQVIFE---KN    175
+                     :..|..     |||::..           :.|| .|::|:  :.|   ..
+LPXH_XYLFM       190 MFACYG-----VNRMIHG-----------HTHRPALHMLQ--VAECACTR    221
+
+MIAB_MYCPE       176 LVVEVWSHEGNVI    188
+                     :|:..|..:|:|:
+LPXH_XYLFM       222 VVLGDWYQQGSVL    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       320 GDETILKKMNRPMKI    334
+                     |.:.|:.:..:|::|
+YERI_SCHPO        71 GSQVIVSRYQKPVRI     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      53/260 (20.4%)
+# Similarity:    93/260 (35.8%)
+# Gaps:          68/260 (26.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       185 GNVIENLPSKRTNNLKGF--VNVMYGCDKFCTYCIVPMTRGKIRS-----    227
+                     |:||..:    :|..|.|  |..:.|.|       ..:.||:|.:     
+RBSA_RUEST         3 GDVILQI----SNLTKSFGPVKALKGVD-------FELRRGEIHAIAGEN     41
+
+MIAB_MYCPE       228 -RRKEDILDEVHQMISEGYKEVTLIGQNV--------NSYGIDFDNGENY    268
+                      ..|..:::.:..::.....|:.|.|..|        ...||.|.:.|  
+RBSA_RUEST        42 GAGKSTLMNIIDGILQPDSGEIRLDGTPVEIPSPAAAQKMGIGFVHQE--     89
+
+MIAB_MYCPE       269 LFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQ    318
+                       ..|..||:..  |.:....:|.   :||.:...|........:...:.
+RBSA_RUEST        90 --IALCPDVSVA--ENIFMAATNS---SRSFLMDYKGIEAKAREVFAQLS    132
+
+MIAB_MYCPE       319 SGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNE--TK    366
+                     |.|.::|.   |.:.|.:. .||:..:|...:|.:   ||:..|..  |:
+RBSA_RUEST       133 SIDPSVLV---RDLSISNQ-QLVEIAKALTLDCRV---LILDEPTAALTE    175
+
+MIAB_MYCPE       367 EQFNKTLELYKRIEFDNAFTFIYSK----------------RDG------    394
+                     .:.....::.:|:. |...:.||..                |||      
+RBSA_RUEST       176 AEAQVLFKIMRRLA-DQGISLIYISHRMVEIFDNCDRVSVFRDGRYVTTQ    224
+
+MIAB_MYCPE       395 TVAAIIPDEI    404
+                     .||.|.|.::
+RBSA_RUEST       225 DVAKITPADV    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:    10/24 (41.7%)
+# Gaps:          12/24 (50.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       110 FADIGILDRIKKSNPNFIFGVCGC    133
+                     |.|:|           :.:| |||
+KR195_HUMAN       18 FDDLG-----------YGYG-CGC     29
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      12/54 (22.2%)
+# Similarity:    21/54 (38.9%)
+# Gaps:          22/54 (40.7%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       342 DYIRANIPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSK    391
+                     |.||.|:.|..||..:::.|                      :|.||.::
+UPPP_CORDI       114 DIIRDNLRNMWITASVLIAF----------------------SFVFIAAE    141
+
+MIAB_MYCPE       392 RDGT    395
+                     :.|:
+UPPP_CORDI       142 KWGS    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      21/119 (17.6%)
+# Similarity:    50/119 (42.0%)
+# Gaps:          23/119 (19.3%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE         2 KSHIMDSKSTKKRDLSKYFLPDIRQARKRIKKADIIKDGFEIPANIINYG     51
+                     :|...|.:..|||         :|:..:|::......:..:    |::|.
+GREB_ECO57        42 RSENADYQYNKKR---------LREIDRRVRYLTKCMENLK----IVDYS     78
+
+MIAB_MYCPE        52 ---EGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNT     98
+                        |||.:    ||....:.:.:.:.....::||:  |.....|.:.:::
+GREB_ECO57        79 PQQEGKVF----FGAWVEIENDDGVTHRFRIVGYD--EIFGRKDYISIDS    122
+
+MIAB_MYCPE        99 CAVREHAESKVFADIGILD    117
+                     ...|...:.:| .|:.:::
+GREB_ECO57       123 PMARALLKKEV-GDLAVVN    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      54/247 (21.9%)
+# Similarity:    89/247 (36.0%)
+# Gaps:          84/247 (34.0%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        18 KYFL-PDIRQARKRIKKADIIKDGFEIPANIINYGEGKTYHIKTFGCQSN     66
+                     |.|| |::....:.:..:||:....|...    |.:|    .|..|..:.
+TGT_LEPCP        120 KLFLTPEVSMQIQTVLNSDIVMQFDECTP----YWQG----AKNVGHITT    161
+
+MIAB_MYCPE        67 LRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKV-FADIGI    115
+                     .::..|.|.:                       ::|..|.||. ||.:| 
+TGT_LEPCP        162 EKEARVSMEL-----------------------SLRWAARSKAEFARLG-    187
+
+MIAB_MYCPE       116 LDRIKKSNPNFIFGVC-GCMAQ--EEAVVNRILKSNFNVDFIFGTHNVHR    162
+                            |||.:||:. |.|.:  .|..:|.:::.:|....:.|.     
+TGT_LEPCP        188 -------NPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGV-----    225
+
+MIAB_MYCPE       163 ILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKG-------FVNV    205
+                           .|...|:.::.:.:|..::   ||:.:...|.|       ...|
+TGT_LEPCP        226 ------SVGEPKDEMLRIMNHTPHL---LPADKPRYLMGVGTPEDLVDGV    266
+
+MIAB_MYCPE       206 MYGCDKFCTYCIVPMTRG-------------KIRSRR---KEDILDE    236
+                     ..|.|.|  .|::| ||.             |||:.|   .|..|||
+TGT_LEPCP        267 ACGVDMF--DCVMP-TRNARNGHLFTRYGDLKIRNARHKADERPLDE    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      10/37 (27.0%)
+# Similarity:    22/37 (59.5%)
+# Gaps:           2/37 ( 5.4%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       323 TILKKMN--RPMKIGDYIDLVDYIRANIPNCSITTDL    357
+                     ::|:.:|  :.:..|:..|:..:|:|.:|..|:..||
+CBPQ_HUMAN       390 SLLQPLNITQVLSHGEGTDINFWIQAGVPGASLLDDL    426
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      29/131 (22.1%)
+# Similarity:    48/131 (36.6%)
+# Gaps:          43/131 (32.8%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        40 GFEIPANII-----NYGEGKTYH--IKTFGCQSNLRDTEVMMGMLELIGY     82
+                     |:|:|.:::     :..:..|.|  ::..|          ::.|:..|..
+PSA6_SOYBN       106 GYEMPVDVLAKWIADKSQVYTQHAYMRPLG----------VVAMVLGIDD    145
+
+MIAB_MYCPE        83 EYNEDVNTSDLVLLNTCAVREH-----AESKVFAD---IGILDRIKKSNP    124
+                     ||...        |..|....|     |.|....|   |..|::..|::|
+PSA6_SOYBN       146 EYGPQ--------LYKCDPAGHYFGHKATSAGLKDQEAINFLEKKMKNDP    187
+
+MIAB_MYCPE       125 NFIFGVCGCMAQEEAVVNRI--LKSNFNVDF    153
+                     :|.:        ||.|...|  |:|....||
+PSA6_SOYBN       188 SFTY--------EETVQTAISALQSVLQEDF    210
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 525
+# Identity:     104/525 (19.8%)
+# Similarity:   175/525 (33.3%)
+# Gaps:         188/525 (35.8%)
+# Score: 88.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        67 LRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTC----AVREHAES-----    107
+                     ||.||.|  :.::|....|:..:.:|.::.|:.    ::.|.|.|     
+SCL34_ARATH       64 LRKTEEM--LQQVITDSQNQSFSPADSLITNSWDASGSIDESAYSADPQP    111
+
+MIAB_MYCPE       108 -------KVFADI--------GILDRIKKSNPNFIFGVCGCMAQEEAVVN    142
+                            .:|:|.        |: :...|..||          .::.|:|
+SCL34_ARATH      112 VNEIMVKSMFSDAESALQFKKGV-EEASKFLPN----------SDQWVIN    150
+
+MIAB_MYCPE       143 RILKSNFNVDFI---FGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVIE    189
+                     ..::.:...|.:   .|          |:|:..:||       ||.:..|
+SCL34_ARATH      151 LDIERSERRDSVKEEMG----------LDQLRVKKN-------HERDFEE    183
+
+MIAB_MYCPE       190 ---------NLPSKRTNNLKGFVNVMYG-CDKFCTYCIVPMT--------    221
+                              |:...:..::...|.::.| ||        |.|        
+SCL34_ARATH      184 VRSSKQFASNVEDSKVTDMFDKVLLLDGECD--------PQTLLDSEIQA    225
+
+MIAB_MYCPE       222 ---------RGKIRSRRKEDILD------EVHQMISEGYKEVTL-----I    251
+                              :||.:.::|..::|      ...|.||.|.|...|     |
+SCL34_ARATH      226 IRSSKNIGEKGKKKKKKKSQVVDFRTLLTHCAQAISTGDKTTALEFLLQI    275
+
+MIAB_MYCPE       252 GQNVNSYGIDFDNGEN--YLFNNLLE-----------------------D    276
+                     .|..:..|   |.|:.  :.|.|.||                       |
+SCL34_ARATH      276 RQQSSPLG---DAGQRLAHCFANALEARLQGSTGPMIQTYYNALTSSLKD    322
+
+MIAB_MYCPE       277 VAKTGIERVR-FTTSNP----------WNFTRSIVDTMKKYPNIMPHIHL    315
+                     .|...|...| :.:|:|          |    .|:|..|..|.:  ||  
+SCL34_ARATH      323 TAADTIRAYRVYLSSSPFVTLMYFFSIW----MILDVAKDAPVL--HI--    364
+
+MIAB_MYCPE       316 PIQSGDETILKKMNRPMKIGDYIDLVDYIR------ANIPNCSITTDLIV    359
+                         .|..||.....||.|....|..|..|      ..:|.|        
+SCL34_ARATH      365 ----VDFGILYGFQWPMFIQSISDRKDVPRKLRITGIELPQC--------    402
+
+MIAB_MYCPE       360 GF-PNETKEQFNKTLELY-KRIEFDNAFTFIYSKRDGTVAA----IIPDE    403
+                     || |.|..|:..:.|..| ||......:..|.|:...|:..    |.|:|
+SCL34_ARATH      403 GFRPAERIEETGRRLAEYCKRFNVPFEYKAIASQNWETIRIEDLDIRPNE    452
+
+MIAB_MYCPE       404 IPLSEKKERLQELNE------------MVKTFSKKNNEKYVNKVLDVLVD    441
+                     :.......||:.|.:            ::|.....|.:.:::.:::...:
+SCL34_ARATH      453 VLAVNAGLRLKNLQDETGSEENCPRDAVLKLIRNMNPDVFIHAIVNGSFN    502
+
+MIAB_MYCPE       442 GP--SKKDKTVISGYSPQWKVVNFT    464
+                     .|  ..:.|..:..||..:.:.:.|
+SCL34_ARATH      503 APFFISRFKEAVYHYSALFDMFDST    527
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      22/105 (21.0%)
+# Similarity:    39/105 (37.1%)
+# Gaps:          37/105 (35.2%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       386 TFIYSKRDGTVAAIIPDEIPLSEKK-------ERLQELNEMVKTFSKKNN    428
+                     |||..|.||...:::.:.|...|:|       :.:|...:::|       
+NDKA_CANLF         7 TFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLK-------     49
+
+MIAB_MYCPE       429 EKYVNKVLDVLVDGPSKKDKTVISG----------YSPQWKVVNF--TGS    466
+                     |.|::           .||:...:|          .:..|:.:|.  ||.
+NDKA_CANLF        50 EHYID-----------LKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGR     88
+
+MIAB_MYCPE       467 AKSGE    471
+                     ...||
+NDKA_CANLF        89 VMLGE     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      35/163 (21.5%)
+# Similarity:    65/163 (39.9%)
+# Gaps:          42/163 (25.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       189 ENLPSK--RTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDE    236
+                     |:||..  ..|.||..:|.. ...|..|..:|.:. ||:|:..|      
+RS4_CAEEL         39 ESLPLSLFLRNRLKYALNYT-EAKKILTQRVVRVD-GKVRTCHK------     80
+
+MIAB_MYCPE       237 VHQMISEGYKEVTLIGQNVNSYGIDFDNGENYLFNNLL---EDVAKTGIE    283
+                         ...|:.:|..|.:....:.:.:|....|:.:.:.   .|.....::
+RS4_CAEEL         81 ----FPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVK    126
+
+MIAB_MYCPE       284 RVR--------FTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETIL    325
+                     .||        .||::    .|:|     :||:  ||:.:     ::||:
+RS4_CAEEL        127 SVRTVNKGVPVLTTTD----GRTI-----RYPD--PHVKV-----NDTIV    160
+
+MIAB_MYCPE       326 KKMNRPMKIGDYI    338
+                     ..:: ..||.|.:
+RS4_CAEEL        161 FNIS-TQKITDSV    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      21/129 (16.3%)
+# Similarity:    44/129 (34.1%)
+# Gaps:          51/129 (39.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE         4 HIMDSKSTKKRD------LSKYFLPDI-----RQARKRIKKADIIKDGFE     42
+                     |:.:.:..::|:      ::|  :|.:     :|.|:|.:||...|:   
+G45IP_CHLAE      107 HLAEEQKRREREQHIAECMAK--MPQMIVNWQQQQRERWEKAQADKE---    151
+
+MIAB_MYCPE        43 IPANIINYGEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYN-------     85
+                                              |...:.....||:||:.|       
+G45IP_CHLAE      152 -------------------------RRARLQAEAQELLGYQVNPKSARFQ    176
+
+MIAB_MYCPE        86 ---EDVNTSDLVLLNTCAVREHAESKVFA    111
+                        :|:...:...|.....|:..|::..|
+G45IP_CHLAE      177 ELLQDLEKKERKRLKEEKQRQKQEARAAA    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 350
+# Identity:      68/350 (19.4%)
+# Similarity:   112/350 (32.0%)
+# Gaps:         136/350 (38.9%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        27 ARKRIKKADIIKDGFEI--PANI--INYGEGKTYHIKTFGCQSNLRDTEV     72
+                     |||...:|||  ||..|  ..|:  .:..||:.:     .|..:|..| :
+DAPEL_OCEIH       60 ARKIGFRADI--DGLPILEQTNLPYASLHEGRMH-----ACGHDLHMT-I    101
+
+MIAB_MYCPE        73 MMGMLE-LIGYEYNEDV---------------------------------     88
+                     .:|.|| ||....|:||                                 
+DAPEL_OCEIH      102 ALGALEKLIQDPINDDVIFVFQPAEEGPGGAKPMLESEEFQQWKPDMMFA    151
+
+MIAB_MYCPE        89 -------------NTSDLVLLNTCAVREHAESKVFADIGILDRIKKSNPN    125
+                                  :.:.|:..||        |::|.|..           
+DAPEL_OCEIH      152 LHIAPELPVGTVSSKAGLLFANT--------SELFIDFE-----------    182
+
+MIAB_MYCPE       126 FIFGVCGCMAQEEAVVN-RILKSNFNVDFIFGTHNVHRILNLLEQVI---    171
+                        ||.|..|......: .:..|||.|..   ...|.|.||.|:..:   
+DAPEL_OCEIH      183 ---GVGGHAAYPHLTKDMTVAASNFVVQL---QQIVSRGLNPLDGSVITI    226
+
+MIAB_MYCPE       172 ------FEKNLVVEVWSHEGNV-------IENLPSKRTNNLKGF------    202
+                           :.:|.:.|....||.:       |:.:.||....:|||      
+DAPEL_OCEIH      227 GKMESGYVQNAIAETARLEGTIRSTDADAIDMIKSKLNRLMKGFEISYDC    276
+
+MIAB_MYCPE       203 -VNVMYGCDKF-----CTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYK    246
+                      :.|.||.:.:     .||.           ::.|:::::. |.|:....
+DAPEL_OCEIH      277 TIKVDYGANYYQVVNDATYV-----------QQFENVINQT-QTITYQQA    314
+
+MIAB_MYCPE       247 EVTLIGQNVNS-----------YGIDFDNGENYLFNNLLEDVAKTGIERV    285
+                     :..:.|::...           .|:|...|.:....|..|:....|:..|
+DAPEL_OCEIH      315 DAAMTGEDFGDMLKEIPGFMFWLGVDSSYGLHNARLNPKEEAIDVGVNAV    364
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      27/106 (25.5%)
+# Similarity:    38/106 (35.8%)
+# Gaps:          19/106 (17.9%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       357 LIVGFPNETKEQ-------FNKTLELYKRIEF---DNAFTFIYSKRDG-T    395
+                     ::.|||....:.       .:|.|.|...:|.   :||......||.. |
+KAD_METRJ         82 ILDGFPRTVAQAEALGEMLASKGLSLSAVVELKVDENALVGRIEKRAAET    131
+
+MIAB_MYCPE       396 VA---AIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDG    442
+                     :|   |:..|:.| ...|:||:.........|    ..|..|.....|||
+KAD_METRJ        132 LARGQAVRKDDTP-EVFKQRLEAYRAQTAPLS----AYYAQKGTLETVDG    176
+
+MIAB_MYCPE       443 PSKKDK    448
+                     ....||
+KAD_METRJ        177 MQPIDK    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     6/8 (75.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       394 GTVAAIIP    401
+                     |.||.::|
+ELN_BOVIN        631 GGVAGVVP    638
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      52/245 (21.2%)
+# Similarity:    87/245 (35.5%)
+# Gaps:          59/245 (24.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       168 EQVIFEKNLVVEVWSH-EGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYC    216
+                     |:..||..:.|::.|. |...|:.|........:.||...   ::..|| 
+ASIC2_MOUSE      236 EETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQ---EQRLTY-    281
+
+MIAB_MYCPE       217 IVPMTRGKIRSRRKEDILD--EVHQMISEGYK-EVTLIGQNVNSYGIDFD    263
+                      :|...|:.||  .|..||  .|:.:.:.... |...|.:|.|...:...
+ASIC2_MOUSE      282 -LPPPWGECRS--SEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMP    328
+
+MIAB_MYCPE       264 NGENYLFNNLLEDVAKTGIERVRFTTSN------PWNFTRSIVDTMKKYP    307
+                     ....:......::.|:..:..:....||      |.|.||        |.
+ASIC2_MOUSE      329 GDAPFCTPEQHKECAEPALGLLAEKDSNYCLCRTPCNLTR--------YN    370
+
+MIAB_MYCPE       308 NIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDL    357
+                     ..:..:.:|.::..:.:.||.|:..|         ||..||    :..|:
+ASIC2_MOUSE      371 KELSMVKIPSKTSAKYLEKKFNKSEK---------YISENI----LVLDI    407
+
+MIAB_MYCPE       358 IVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPD    402
+                     ..       |..|     |:.||...|:         .|||::.|
+ASIC2_MOUSE      408 FF-------EALN-----YETIEQKKAY---------EVAALLGD    431
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      35/164 (21.3%)
+# Similarity:    56/164 (34.1%)
+# Gaps:          56/164 (34.1%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       184 EGNVIENLPSKRTN---NLKGFVNVMYGC-DKFCTYCIV-PMTRGKIRSR    228
+                     :.|:....|..||:   :.| .:.::..| ...||:.|: |..|||.||.
+DOXA1_XENTR        2 QANIFPFYPQPRTSFKFDTK-IIEIIIICIVTACTFIIILPGIRGKSRSI     50
+
+MIAB_MYCPE       229 RKEDILDEV------------------------------HQMISE-----    243
+                     ....||..:                              |.|::.     
+DOXA1_XENTR       51 WLFRILTSLFIGAVILAVNFTSDWETGIVTATTVYKSFSHSMLNASIGLW    100
+
+MIAB_MYCPE       244 -GYK--EVTLIGQNVNSYGIDFDNGENYLFN--NLLEDVAKTGIER----    284
+                      |.|  .:||||..|.......:..|.:.:.  |..:...|.|:||    
+DOXA1_XENTR      101 IGLKGVNITLIGNPVYQLNETINYNEEFAWESANQFDKNYKDGLERGLPY    150
+
+MIAB_MYCPE       285 ------VRFTTSNP    292
+                           .:||.::|
+DOXA1_XENTR      151 PILYVAEKFTINSP    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      21/104 (20.2%)
+# Similarity:    36/104 (34.6%)
+# Gaps:          40/104 (38.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        21 LPDIRQARKRIKKADIIKDGFEIPANIINYGEGKTYH--IKTFGCQSNLR     68
+                     |.:|:.|   ||:|::     .:.||..|..:.....  ||.|       
+RS20_STRPB         6 LANIKSA---IKRAEL-----NVKANEKNSAQKSAMRTAIKAF-------     40
+
+MIAB_MYCPE        69 DTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKVFADIGILDR    118
+                                       :.|.|:.:.....:..:.||||     |::.:
+RS20_STRPB        41 ------------------EANPSEELFRAASSSIDKAESK-----GLIHK     67
+
+MIAB_MYCPE       119 IKKS    122
+                     .|.|
+RS20_STRPB        68 NKAS     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:      46/256 (18.0%)
+# Similarity:   100/256 (39.1%)
+# Gaps:          71/256 (27.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       224 KIRSRRK-----EDILDEVHQMISEGYK--------------EVTLIGQN    254
+                     ::||.:|     |:.||:|.:.:|:...              ||....:.
+TPM_HAELO         42 EVRSLQKKIQQIENELDQVQEQLSQANSKLEEKDKALQAAEAEVAAHNRR     91
+
+MIAB_MYCPE       255 VNSYGIDFDNGENYL--FNNLLEDVAKTG--IERVRFTTSNPWNFTRSIV    300
+                     :.....|.:..|..|  ....||:.::..  .||:|....:     |||.
+TPM_HAELO         92 IQLLEEDLERSEERLKIATQKLEEASQAADESERMRKMLEH-----RSIT    136
+
+MIAB_MYCPE       301 D---------------TM-----KKYPNIMPHIHLPIQSGDETILKKMNR    330
+                     |               ||     :||..:...:.:.     |..|::...
+TPM_HAELO        137 DEERMDGLEGQLKEARTMAEDADRKYDEVARKLAMV-----EADLERAEE    181
+
+MIAB_MYCPE       331 PMKIGD--YIDLVDYIRA---NIPNCSITTDLIV----GFPNETKEQFNK    371
+                     ..:.|:  .::|.:.:|.   |:.:..::.:..:    .:..:.::..::
+TPM_HAELO        182 RAETGETKIVELEEELRVVGNNLKSLEVSEEKALQKEETYEGQIRQMTSR    231
+
+MIAB_MYCPE       372 TLELYKRIEF-DNAFTFIYSKRDGTVAAIIPDEIPLSEKKERLQEL-NEM    419
+                     ..|...|.|| :.:...:..:.|.     :.||  |.::||:.:.: :|:
+TPM_HAELO        232 LQEAEARAEFAERSVQKLQKEVDR-----LEDE--LVQEKEKYKAISDEL    274
+
+MIAB_MYCPE       420 VKTFSK    425
+                     .:|||:
+TPM_HAELO        275 DQTFSE    280
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      18/76 (23.7%)
+# Similarity:    33/76 (43.4%)
+# Gaps:          17/76 (22.4%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       263 DNGEN--YLFNNLLEDV-AKTGIERVRFTTSNPWNFTRSIVDTMKKYPNI    309
+                     |:|.:  |:..::|.:| :....|.:|....|||....:|.         
+LEUC_XANOM        20 DDGSSLIYIDRHILHEVTSPQAFEGLRLAGRNPWRIDANIA---------     60
+
+MIAB_MYCPE       310 MPHIHLPI-----QSGDETILKKMNR    330
+                     .|..::|.     |.|.|:|..:::|
+LEUC_XANOM        61 TPDHNVPTTRAERQGGLESISDEVSR     86
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       4/18 (22.2%)
+# Similarity:     9/18 (50.0%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       274 LEDVAKTGIERVRFTTSN    291
+                     ::.::.|....:..||.|
+LPT_ESCF3          1 MKRISTTITTTITITTGN     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      20/86 (23.3%)
+# Similarity:    30/86 (34.9%)
+# Gaps:          28/86 (32.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       362 PNETKEQFN--------KTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDE    403
+                     |.|.|.:|:        |.||:.|.:   .|.|                .
+RL7_THET8         53 PAEEKTEFDVILKEAGAKKLEVIKEL---RAIT----------------G     83
+
+MIAB_MYCPE       404 IPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVL    439
+                     :.|.|.|: |.|....||....|...:.:.|.|:.:
+RL7_THET8         84 LGLKEAKD-LAEKGGPVKEGVSKQEAEEIKKKLEAV    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      41/189 (21.7%)
+# Similarity:    62/189 (32.8%)
+# Gaps:          62/189 (32.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       283 ERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMNR--    330
+                     ||:.|......:..|.::|             || |.|:..||...||  
+HEM1_METCA        19 ERLAFPAEQLQSALRDLID-------------LP-QVGEAAILSTCNRTE     54
+
+MIAB_MYCPE       331 ---PMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETKEQFNKTLELYK    377
+                        .:...|...:||::      |.             :.||:.      
+HEM1_METCA        55 VYCELDGRDQRPIVDWM------CD-------------QRQFDD------     79
+
+MIAB_MYCPE       378 RIEFDNAFTFIYSKRD-GTV-----AAIIPDEIPLSEKKERLQELNEMVK    421
+                         .:...::||..| ||:     .|...|.:.|.|.    |.|.:|..
+HEM1_METCA        80 ----QDISQYLYSHFDAGTIRHMFRVACGLDSMILGEP----QILGQMKT    121
+
+MIAB_MYCPE       422 TFSKKNNEKYVNKVLDVLVD---GPSKKDKT-VISGYSP    456
+                     .:........|.|:|..|..   ..:||.:| ...|.||
+HEM1_METCA       122 AYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSP    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      10/45 (22.2%)
+# Similarity:    21/45 (46.7%)
+# Gaps:           5/45 (11.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        61 FGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHA    105
+                     ||........|:...:||.:||...:.::     :::.||::..|
+XYLB_KLEPN       350 FGLTHQHGPAELARAVLEGVGYALADGMD-----VVHACAIKPEA    389
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      29/131 (22.1%)
+# Similarity:    51/131 (38.9%)
+# Gaps:          40/131 (30.5%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       162 RILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCDK    211
+                     ::||.|.||   :.|:||. ...|||..:.|                   
+RECR_NOVAD        41 QLLNALTQV---QELLVEC-GVCGNVDTSNP-------------------     67
+
+MIAB_MYCPE       212 FCTYCIVPMTRGKIRSRRKEDILDEVHQM-------ISEGYKEVTLIGQN    254
+                      |..|     ....|.:|...:::||..:       :..|...|  :|..
+RECR_NOVAD        68 -CGIC-----TDHRRDQRSICVVEEVADLWALDRARLFTGKYHV--LGGR    109
+
+MIAB_MYCPE       255 VNSYGIDFDNGENYLFNNLLEDVAKTGIERV    285
+                     :::  ::....|:....:||:.||:.||:.|
+RECR_NOVAD       110 LSA--LEGVRPEDLTIGSLLDRVAQGGIDEV    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 182
+# Identity:      38/182 (20.9%)
+# Similarity:    67/182 (36.8%)
+# Gaps:          43/182 (23.6%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       143 RILKSNFNVDFIFGTHNVHRILNLLEQVIFEKNLVVEVW-----SHEGNV    187
+                     |||.:|.:     |.|...  |.:||::  .:.|..:||     :.:..|
+SURE_METNO         2 RILVTNDD-----GIHAPG--LKVLEEI--ARELSDDVWVVAPETDQSGV     42
+
+MIAB_MYCPE       188 IENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEV    237
+                     ..:|.......|:......:......:.|::...|..::.|..:.:|..|
+SURE_METNO        43 SHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGV     92
+
+MIAB_MYCPE       238 H--QMISE---------GYKEVTLIGQN----VNSYGIDFDNGENYLFNN    272
+                     :  |.::|         |..|.|::|..    ..:||:  ....|..::.
+SURE_METNO        93 NRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGV--GGRANVKWHT    140
+
+MIAB_MYCPE       273 LLEDVAKT-------GIE-----RVRFTTSNP    292
+                     ..|..|:|       |||     .|.|....|
+SURE_METNO       141 AAEHGARTIRRILEAGIEPGILVNVNFPDCEP    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    23/54 (42.6%)
+# Gaps:           6/54 (11.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       245 YKEVTLIGQNVNSYG----IDFDNGENYLFNNLLEDVAKTGIERVRFTTS    290
+                     :..||.|.::|| ||    ....||.:..|..|...|.: |:....:..|
+CYB_ARTIO         63 FNSVTHICRDVN-YGWLLRYLLANGASMFFICLYLHVGR-GLYYGSYMYS    110
+
+MIAB_MYCPE       291 NPWN    294
+                     ..||
+CYB_ARTIO        111 ETWN    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      26/95 (27.4%)
+# Similarity:    42/95 (44.2%)
+# Gaps:          18/95 (18.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       361 FPNETKEQFNKTLELYKRIEFDNAF--TFIYSKR-DGTVAAIIPDE----    403
+                     :|..| ....|:||| :.:|..:|:  ||:.:|. :.||...|...    
+IOLE_BACHK        51 YPRNT-VVLKKSLEL-RNLEIASAWFSTFLTTKPIEETVEEFIKHRDFLH     98
+
+MIAB_MYCPE       404 ------IPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDG    442
+                           |.:||:...:|.|.: |..|  ||...:..:..:.|.||
+IOLE_BACHK        99 GMGAKVIVVSEQGHSIQGLMD-VPLF--KNKPVFTEEEWEKLADG    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      35/181 (19.3%)
+# Similarity:    58/181 (32.0%)
+# Gaps:          58/181 (32.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       114 GILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFN-VDFIFGTHNVHR    162
+                     |:::||...:..|...|.|    |:....:.:|.:.. ||.:......|.
+ACKA_STAAT        31 GLVERIGLKDSIFTIEVNG----EKVKTVQDIKDHVEAVDIMLDAFKAHN     76
+
+MIAB_MYCPE       163 ILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVN-VMYGCDK    211
+                     |:|.:                             |::.|..: |::|.:|
+ACKA_STAAT        77 IINDI-----------------------------NDIDGTGHRVVHGGEK     97
+
+MIAB_MYCPE       212 FCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGID    261
+                     |               .....|.|||.:.|.| ..|:..:....|..|| 
+ACKA_STAAT        98 F---------------PESVAITDEVEKEIEE-LSELAPLHNPANLMGI-    130
+
+MIAB_MYCPE       262 FDNGENYLFNNLLEDVAKTGIERVRFTTSNP    292
+                           ..|..||.::....|....|..:.|
+ACKA_STAAT       131 ------RAFRKLLPNIPHVAIFDTAFHQTMP    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      26/135 (19.3%)
+# Similarity:    56/135 (41.5%)
+# Gaps:          23/135 (17.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       234 LDEVHQM----ISEGYKEVTLIG--QNVNSYGIDFDNGENYLFNNLLEDV    277
+                     :|:.|.:    |:.|......:|  :.:..||..:...:..|...:::..
+HIS7_BURTA        61 IDDHHTVEDVGITLGQAVAKAVGDKKGIRRYGHSYVPLDEALSRVVIDFS    110
+
+MIAB_MYCPE       278 AKTGIE-RVRFTTSNPWNFTRSIVD-TMKKYPNIMPH----IHLPIQSGD    321
+                     .:.|:| .|.||.:....|.   || :::.:...:.|    :|:....|.
+HIS7_BURTA       111 GRPGLEFHVPFTRARIGTFD---VDLSIEFFRGFVNHAGVTLHIDNLRGV    157
+
+MIAB_MYCPE       322 ------ETILKKMNRPMKIGDYIDLVDYIRANIPN    350
+                           ||:.|...|.:::.  ::|.:.....||:
+HIS7_BURTA       158 NAHHQLETVFKAFGRALRMA--VELDERAAGQIPS    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      32/157 (20.4%)
+# Similarity:    59/157 (37.6%)
+# Gaps:          49/157 (31.2%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       286 RFTTSNPWNFT----RSIVDTMKKY---PNIMPHIHLPI-----------    317
+                     |.....|..|.    ||::..::.|   |:.:..:|..|           
+PTH_GEOLS         57 RLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQ    106
+
+MIAB_MYCPE       318 ------QSGDETILKKMNRPMKIGDYIDLVDYIRANI---PNCSITTDLI    358
+                           |:|..:|::.:.:    ||::.|    |..|   |:..:|..::
+PTH_GEOLS        107 GGGHGGQNGLRSIMELLGK----GDFVRL----RLGIGRPPHGDVTNHVL    148
+
+MIAB_MYCPE       359 VGF-PNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPLS    407
+                     ..| |.|        :|::.|: .|.|...:.:..|..|    |..:.|.
+PTH_GEOLS        149 GVFTPPE--------MEIFARV-LDGALDMLETALDEGV----PKAMSLF    185
+
+MIAB_MYCPE       408 EKKERLQ    414
+                     ..|..|:
+PTH_GEOLS        186 NNKSYLE    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      41/215 (19.1%)
+# Similarity:    75/215 (34.9%)
+# Gaps:          77/215 (35.8%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       259 GIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPN    308
+                     |::....|:|:.|          ||.|.|                   |:
+TAF3_XENLA         2 GVNIHELEDYIHN----------IEPVTF-------------------PH     22
+
+MIAB_MYCPE       309 IMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDLI    358
+                     .:|  ..|:...:.....    |....|..|..:||...:|       ||
+TAF3_XENLA        23 QIP--SFPVSKNNALQFP----PPGSKDAEDRKEYIPDYLP-------LI     59
+
+MIAB_MYCPE       359 VGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPLSE    408
+                     :....|.:|:         ::..|.          ||.|..:  ::||.|
+TAF3_XENLA        60 ISSQEEEEEE---------QVPTDG----------GTSAEAM--QVPLEE     88
+
+MIAB_MYCPE       409 KKERLQ-ELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISGYSPQ    457
+                     ::|..: |.:|.|      |:|.|::|       .|....:|:...::.:
+TAF3_XENLA        89 EEEEGEMEDDETV------NDENYLSK-------RPLDSPETMEMPFAKR    125
+
+MIAB_MYCPE       458 WKVVNFTGSAKSGEI    472
+                     .:::|..|....|.:
+TAF3_XENLA       126 IRLMNNKGDILDGSL    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:      70/404 (17.3%)
+# Similarity:   127/404 (31.4%)
+# Gaps:         149/404 (36.9%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       116 LDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNV-----    160
+                     ||.::|.:|..|        ..::...|:.....: .|:..|||:     
+DNLJ_CROS5        45 LDSLEKEHPQLI--------TPDSPTQRVGDQPAS-QFVSVTHNIPLYSL     85
+
+MIAB_MYCPE       161 HRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCD    210
+                     ....||.|...:||.     |            :|:...:.|.:|.|.| 
+DNLJ_CROS5        86 ENAFNLEELKAWEKR-----W------------QRSYEKEEFTSVEYVC-    117
+
+MIAB_MYCPE       211 KFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGI    260
+                                                         |:.:.|   ::..:
+DNLJ_CROS5       118 ------------------------------------ELKIDG---SALAL    128
+
+MIAB_MYCPE       261 DFDNGENYLF-NNLLEDVAKTGIE---RVRFTTSNPWNFTRSIVDTMKKY    306
+                     .::||   || ..:......||.|   .||...|.|....   :|.....
+DNLJ_CROS5       129 TYENG---LFVRGVTRGDGTTGEEITQNVRTIRSIPLKLN---IDNPPPI    172
+
+MIAB_MYCPE       307 PNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTD    356
+                     ..:.....||:...|     ::|:..:     :..|.:.||..|.:.   
+DNLJ_CROS5       173 VEVRGEAFLPLDEFD-----RINQERE-----EKGDALFANPRNAAA---    209
+
+MIAB_MYCPE       357 LIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPL    406
+                            .|..|.:..:...:|::|     |.|:        :..:|..:
+DNLJ_CROS5       210 -------GTLRQLDPKIVDQRRLQF-----FAYT--------LHLEEAEI    239
+
+MIAB_MYCPE       407 SEKKERL-----------------QELNEMVKTFSKKNNEKYVNKVLDVL    439
+                     |.:.|.|                 |.|:|:...|.:....:   |.|..:
+DNLJ_CROS5       240 SSQWESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWETAR---KDLPYM    286
+
+MIAB_MYCPE       440 VDGPSKKDKTVISGYS-----------PQWKVVNFTGSAKSGEIVKVLIT    478
+                     .||...|    |:.||           |:|.:.....:.::..:||.::.
+DNLJ_CROS5       287 TDGVVVK----INNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVV    332
+
+MIAB_MYCPE       479 SASR    482
+                     :..|
+DNLJ_CROS5       333 NVGR    336
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      24/95 (25.3%)
+# Similarity:    37/95 (38.9%)
+# Gaps:          12/95 (12.6%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        95 LLNTCAVREHAESKVFADIGILDRIKKSNPNFI-FGVCGCMAQEEAVVNR    143
+                     :..|..:..||.:|   .:.|||.|.:....|. ..:...:|:.      
+MUTS_MYXXD       691 MTETSHILHHATNK---SLIILDEIGRGTSTFDGLSIAWAVAEH------    731
+
+MIAB_MYCPE       144 ILKSNFNVDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVI    188
+                      |........:|.|| .|.:::|..:....|||.|.|....|.||
+MUTS_MYXXD       732 -LHDTVGARALFATH-YHELVDLARERPRVKNLCVAVKEQNGKVI    774
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      43/204 (21.1%)
+# Similarity:    72/204 (35.3%)
+# Gaps:          68/204 (33.3%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       246 KEVTLIGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNF    295
+                     ||||.:..::...|    .|.|:   ::|..:.:...|.|:|     :.:
+NOSO_STAAC       137 KEVTRLANHLGWKG----KGTNF---DVLPLIYQLPNESVKF-----YEY    174
+
+MIAB_MYCPE       296 TRSIVDTMKKYPNIMPHIHLPIQSGDETILKKM-----------NRPMKI    334
+                     ..|::   |:.|  :.|.|.|       .|:|:           |..:||
+NOSO_STAAC       175 PTSLI---KEVP--IEHNHYP-------KLRKLNLKWYAVPIISNMDLKI    212
+
+MIAB_MYCPE       335 GDYIDLVDYIRANIPNCSITTDLIVGFPNETKE-QFNKTLELYKRIEFD-    382
+                     |..:    |..|......:.|:  :|..|...: ::|...::....||| 
+NOSO_STAAC       213 GGIV----YPTAPFNGWYMVTE--IGVRNFIDDYRYNLLEKVADAFEFDT    256
+
+MIAB_MYCPE       383 ---NAFTFIYSKRDGTVAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNE    429
+                        |:|                      .|...|.|||..|....||...
+NOSO_STAAC       257 LKNNSF----------------------NKDRALVELNYAVYHSFKKEGV    284
+
+MIAB_MYCPE       430 KYVN    433
+                     ..|:
+NOSO_STAAC       285 SIVD    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      23/79 (29.1%)
+# Similarity:    32/79 (40.5%)
+# Gaps:          20/79 (25.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        42 EIPANIINYGEGKTYHIKTFGCQSNL-RDTEVMMGMLELIGYE-YN----     85
+                     :|......|||.|..|:       || |.|..:.| ..|:.|| |.    
+RBM8A_MOUSE       88 DIHDKFAEYGEIKNIHL-------NLDRRTGYLKG-YTLVEYETYKEAQA    129
+
+MIAB_MYCPE        86 --EDVNTSDL----VLLNTCAVREHAESK    108
+                       |.:|..||    :.::.|.||...:.|
+RBM8A_MOUSE      130 AMEGLNGQDLMGQPISVDWCFVRGPPKGK    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       256 NSYGIDFDNGENYL    269
+                     |:||.|:....|.|
+NU4LM_ARCPU       83 NTYGTDYVQNLNLL     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    16/31 (51.6%)
+# Gaps:           6/31 (19.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       392 RDGTVAAIIPDEI------PLSEKKERLQEL    416
+                     |||::.|:.|..:      ||.:..|:|..|
+NANK_ECOLI        68 RDGSLLALNPHNLGGLLHFPLVKTLEQLTNL     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 491
+# Identity:     491/491 (100.0%)
+# Similarity:   491/491 (100.0%)
+# Gaps:           0/491 ( 0.0%)
+# Score: 2560.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE         1 MKSHIMDSKSTKKRDLSKYFLPDIRQARKRIKKADIIKDGFEIPANIINY     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE         1 MKSHIMDSKSTKKRDLSKYFLPDIRQARKRIKKADIIKDGFEIPANIINY     50
+
+MIAB_MYCPE        51 GEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE        51 GEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCA    100
+
+MIAB_MYCPE       101 VREHAESKVFADIGILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       101 VREHAESKVFADIGILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFN    150
+
+MIAB_MYCPE       151 VDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       151 VDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLK    200
+
+MIAB_MYCPE       201 GFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       201 GFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTL    250
+
+MIAB_MYCPE       251 IGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIV    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       251 IGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIV    300
+
+MIAB_MYCPE       301 DTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPN    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       301 DTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPN    350
+
+MIAB_MYCPE       351 CSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAII    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       351 CSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAII    400
+
+MIAB_MYCPE       401 PDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTV    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       401 PDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTV    450
+
+MIAB_MYCPE       451 ISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNGKMID    491
+                     |||||||||||||||||||||||||||||||||||||||||
+MIAB_MYCPE       451 ISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNGKMID    491
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      47/251 (18.7%)
+# Similarity:    78/251 (31.1%)
+# Gaps:          88/251 (35.1%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        76 MLELIGYEYNEDVNTSDLVLLNTCAVREHAESKVFADIGI----LDRIKK    121
+                     :|||| ..||::...:..:.||...::....|.:..|:.|    .:|.:.
+NADK_STAES       102 LLELI-VRYNDNGYETRYLALNEATMKTENGSTLVVDVNIRGKHFERFRG    150
+
+MIAB_MYCPE       122 SNPNFIFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHRILNLLEQVI    171
+                     .      |:|..........|:.|          |...:|..|..::   
+NADK_STAES       151 D------GLCISTPSGSTAYNKAL----------GGALIHPSLEAMQ---    181
+
+MIAB_MYCPE       172 FEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMT    221
+                          :.|:.|....|...:.|...            ..|..|..|.|:.
+NADK_STAES       182 -----IAEIASINNRVFRTVGSPLV------------LPKHHTCLITPVN    214
+
+MIAB_MYCPE       222 RGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGENYLFN    271
+                     ...||:     .:|           .|::..:|||:.        .|...
+NADK_STAES       215 HDTIRT-----TID-----------HVSIKHKNVNAI--------QYRVA    240
+
+MIAB_MYCPE       272 NLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGD    321
+                     |          |:|||....|:.|.:.:.|:.             |.|.|
+NADK_STAES       241 N----------EKVRFARFRPFPFWKRVHDSF-------------ISSDD    267
+
+MIAB_MYCPE       322 E    322
+                     |
+NADK_STAES       268 E    268
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 391
+# Identity:      66/391 (16.9%)
+# Similarity:   125/391 (32.0%)
+# Gaps:         138/391 (35.3%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        35 DIIKDGFEIPANIINYGEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEY     84
+                     |.:.:...:|. ::..|.|:...:..|..|:...|     |:|.      
+TRPG_CAEEL       587 DYVTNVPRVPV-VVCDGSGRAADLLAFAHQNVTED-----GLLP------    624
+
+MIAB_MYCPE        85 NEDVNTSDLVLLNT---CAVREHAESKVFADIGILDRIKKSNPNFIFGVC    131
+                      :|:....|:|:.|   |:  |.|..::..::.:..:.|.....|..|..
+TRPG_CAEEL       625 -DDIRRQVLLLVETTFGCS--EAAAHRLLHELTVCAQHKNLLTIFRLGEQ    671
+
+MIAB_MYCPE       132 GCMAQEEAVVNRILKSN-------------FN-VD------FIFG-----    156
+                     |....:.|::..:||..             :| ||      |..|     
+TRPG_CAEEL       672 GEHDVDHAILTALLKGQNLSAADQLALALAWNRVDIARSDVFAMGHEWPQ    721
+
+MIAB_MYCPE       157 --THNVHRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVN    204
+                       .||.     ::|.:|.::...|.:...:|           .|::.|:.
+TRPG_CAEEL       722 AALHNA-----MMEALIHDRVDFVRLLLEQG-----------INMQKFLT    755
+
+MIAB_MYCPE       205 V-----MYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYK---    246
+                     :     :|..||.....:..:.|..:|.|              :||:   
+TRPG_CAEEL       756 ISRLDELYNTDKGPPNTLFYIVRDVVRVR--------------QGYRFKL    791
+
+MIAB_MYCPE       247 -EVTLIGQNV--NSYGIDFDNGENYLFNNLLEDVAKTGIERVRFT-----    288
+                      ::.|:.:.:  |||...:...|       ..|..|..::||:..     
+TRPG_CAEEL       792 PDIGLVIEKLMGNSYQCSYTTSE-------FRDKYKQRMKRVKHAQKKAM    834
+
+MIAB_MYCPE       289 ---TSNPWNFTRSIVDTM-----------------------KKYPNIMPH    312
+                        :|.|......|....                       .:.|.:.||
+TRPG_CAEEL       835 GVFSSRPSRTGSGIASRQSTEGMGGVGGGSSVAGVFGNSFGNQDPPLDPH    884
+
+MIAB_MYCPE       313 IHLPIQSGDETILKKM--------------NRPMKIGDYID    339
+                     ::....||...:...:              .||..:||..|
+TRPG_CAEEL       885 VNRSALSGSRALSNHILWRSAFRGNFPANPMRPPNLGDSRD    925
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      26/117 (22.2%)
+# Similarity:    45/117 (38.5%)
+# Gaps:          20/117 (17.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        26 QARKR-----IKKADIIKDGFE---------IPANIINYGEGKTYHIKTF     61
+                     |||:|     :.:|.:.|.|..         .||.......|.|...:..
+MSHD_MYCMM        85 QARRRGIATAMVRAALAKTGGRNQFWAHGTLAPAQATASALGLTPVRELV    134
+
+MIAB_MYCPE        62 GCQSNLRD--TEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKV    109
+                     ..:.:||.  ..|:...|::..|...||  .::|:.:|..|...|.|...
+MSHD_MYCMM       135 QMRRSLRQLPEPVIPNGLQIRTYAGTED--DAELLRVNNAAFAYHPEQGG    182
+
+MIAB_MYCPE       110 FADIGILDRIKKSNPNF    126
+                     :.:..:.:|  :..|.|
+MSHD_MYCMM       183 WTEADLAER--RGEPWF    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      11/52 (21.2%)
+# Similarity:    24/52 (46.2%)
+# Gaps:           4/52 ( 7.7%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       439 LVDGPSKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNGK    488
+                     ||||.......:.:|:    ::|.:..:.:.|..|..:..:|:|....|.
+PAND_THEFY        38 LVDGEQVHVVNITNGH----RLVTYVLTGERGSGVIGINGAAARLVAPGD     83
+
+MIAB_MYCPE       489 MI    490
+                     ::
+PAND_THEFY        84 LV     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:      50/272 (18.4%)
+# Similarity:    93/272 (34.2%)
+# Gaps:          88/272 (32.4%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       209 CDKFCTYCIVPMTRGKIRSRRKEDILD--------EVHQMISEGYKEVTL    250
+                     |.:.|.:|       .:::.|:...||        |.....|.||..:|.
+LIPA_ASPOR       163 CTRGCRFC-------SVKTNRRPPPLDPHEPENTAEAISRWSLGYVVLTS    205
+
+MIAB_MYCPE       251 IGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIV    300
+                     :.:                     :|:|..|..          :|..:::
+LIPA_ASPOR       206 VDR---------------------DDLADGGAR----------HFAETVI    224
+
+MIAB_MYCPE       301 DTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANI--    348
+                     ...:|.|:::.........||..::|.:.| ..:..|...|:.:.|..  
+LIPA_ASPOR       225 KIKQKKPSMLVECLTGDYLGDLEMVKLVAR-SGLDVYAHNVETVEALTPF    273
+
+MIAB_MYCPE       349 ----------------------PNCSITTDLIVGFPNETKEQFNKTLELY    376
+                                           |:....|.|::|| .||:||....|...
+LIPA_ASPOR       274 VRDRRATFQQSLRVLEAAKQARPDLITKTSLMLGF-GETEEQLWDALRQL    322
+
+MIAB_MYCPE       377 KRIEFDNAFTFIY----SKRDGTV-AAIIPDEIPLSEKKERLQEL-----    416
+                     :.:..| ..||..    :||...| ..:.||:..|  .::|..::     
+LIPA_ASPOR       323 RSVGVD-VVTFGQYMRPTKRHMPVHEYVTPDQFEL--WRQRALDMGFLYC    369
+
+MIAB_MYCPE       417 --NEMVKTFSKKNNEKYVNKVL    436
+                       ..:|:: |.|..|.::..||
+LIPA_ASPOR       370 ASGPLVRS-SYKAGEAFIENVL    390
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      32/136 (23.5%)
+# Similarity:    53/136 (39.0%)
+# Gaps:          31/136 (22.8%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        65 SNLRDTEVMMGMLE---LIGYEYNEDVNTSDLVLLNTCAVREHAESKVFA    111
+                     :::::.||.:|:.:   :|.......|...| |.|::||:.:...|    
+FLGI_PECAS       241 ADVQNIEVNVGIQDAKVVINSRTGSVVMNRD-VTLDSCAIAQGNLS----    285
+
+MIAB_MYCPE       112 DIGILDRIKKSNPNFIFGVCG-----------CMAQEEAVVNRILKS-NF    149
+                      :.|..:...|.||..||  |           .:.|...|:.|:..| |.
+FLGI_PECAS       286 -VTINQQANVSQPNTPFG--GGQTVVTPQTEISVQQTGGVLQRVNSSANL    332
+
+MIAB_MYCPE       150 NVDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEG    185
+                     |        ||.|.||.|.....|...:::.....|
+FLGI_PECAS       333 N--------NVVRALNSLGATPMELMSILQAMQSAG    360
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:      64/303 (21.1%)
+# Similarity:   105/303 (34.7%)
+# Gaps:          91/303 (30.0%)
+# Score: 90.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       199 LKGFVNVMYGCDKFCTYC-IVPMTRGKIRSRRKEDILDEVHQMISEGYKE    247
+                     ||..:||::|..|.|... ||.:|.| :..:..|..||            
+LDH_BORAP         57 LKKNINVLFGTYKDCVNADIVVITAG-LNQKPGETRLD------------     93
+
+MIAB_MYCPE       248 VTLIGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTR    297
+                       |:|:|            :.:|.:::.:|..:|.:.:....|||.:...
+LDH_BORAP         94 --LVGKN------------SKIFKDIITNVVSSGFDGIFVIASNPVDIMT    129
+
+MIAB_MYCPE       298 SIVDTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYI-----DLVD    342
+                     .:.....|:|     ||..|.:|  |||........:.|..     ::..
+LDH_BORAP        130 YVTMKYSKFP-----IHKVIGTG--TILDTSRLRYFLSDRFNVNTQNIHS    172
+
+MIAB_MYCPE       343 YIRANIPNCSITTDLIVGFPNETKEQFNKTLELY------KRIEFD----    382
+                     |:.....:.|..|      .:|||... |.|..|      ..:|.|    
+LDH_BORAP        173 YVMGEHGDSSFVT------WDETKIAM-KPLSEYLSEGKITELELDEIHK    215
+
+MIAB_MYCPE       383 ---NAFTFIYSKRDGT-----------VAAIIPDEIPLSEKKERLQELNE    418
+                        ||...:...:..|           |.|||.|:              .
+LDH_BORAP        216 KVVNAAYEVIKLKGATYYAIGLGIKNIVNAIIGDQ--------------N    251
+
+MIAB_MYCPE       419 MVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTGSAK    468
+                     ::...|...|.:|...:.|:.:..|:...|..:.      :|:||..|.|
+LDH_BORAP        252 IILPISSYINGQYGGLIKDIYIGAPAIVCKEGVK------EVLNFKISPK    295
+
+MIAB_MYCPE       469 SGE    471
+                     ..|
+LDH_BORAP        296 ELE    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 334
+# Identity:      57/334 (17.1%)
+# Similarity:   100/334 (29.9%)
+# Gaps:         137/334 (41.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        17 SKYFLPDIRQARKRIKKADIIKDGFEIPANIINYGEGKTYHIK-------     59
+                     ||.:||    |.|:|:..::                |..:.|:       
+EXGB_EMENI        41 SKRWLP----ASKKIRGVNL----------------GSHFVIEPWMASMA     70
+
+MIAB_MYCPE        60 --TFGCQSNLRDTEVMMGMLELIGYE--------------YNEDVNTSDL     93
+                       ..||.....:.:.:|.    :|.|              ..:|:|....
+EXGB_EMENI        71 WSNMGCSGQRSEFDCVMA----LGQETADQAFADHWGSWITQDDINQMVQ    116
+
+MIAB_MYCPE        94 VLLNTCAVREH---AESKVFADIGILDRIKKSNPNFIFGVCGCMAQEEAV    140
+                     ..|||..:...   .|..|:||   .:...|....::..|||..:  :|.
+EXGB_EMENI       117 YGLNTIRIPVGYWLKEDLVYAD---SEHFPKGGIGYLEDVCGWAS--DAG    161
+
+MIAB_MYCPE       141 VNRIL-----------KSNFNVDF-----IFGTHNVHRILNLLEQVIFEK    174
+                     :..|:           |..|...:     .:..:...|.|..||      
+EXGB_EMENI       162 MYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLE------    205
+
+MIAB_MYCPE       175 NLVVEVWS----HEGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPM    220
+                           |.    |:.|...|:         |.:.::              
+EXGB_EMENI       206 ------WMTTSIHQNNKFRNV---------GMLEIV--------------    226
+
+MIAB_MYCPE       221 TRGKIRSRRKEDI--LDEVHQMISEGYKEV-TLIGQNVNSYGIDFDNGEN    267
+                              .|.:  .|:...||:..|... |.|....:|.||   ...|
+EXGB_EMENI       227 ---------NEPVQNADQASSMINSYYPSAFTRIRNTESSLGI---TSNN    264
+
+MIAB_MYCPE       268 YLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVD    301
+                     ||...::.:         ::.:.:|   |:|:.|
+EXGB_EMENI       265 YLHIQMMNE---------KWGSGDP---TQSLTD    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      40/163 (24.5%)
+# Similarity:    64/163 (39.3%)
+# Gaps:          33/163 (20.2%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        51 GEGKT-------YHIKTFGCQ-SNLRD---TEVMMGMLELIGYEYNEDVN     89
+                     |.||:       .|::..|.: ..||:   |.|...:.||:...:|:..:
+KTHY_CHLP8        10 GAGKSTQVVKLKRHLQERGREVLTLREPGGTPVAEQIRELLLESHNDITS     59
+
+MIAB_MYCPE        90 TSDLVLLNTCAVREHAESKVF-------ADIGILDRIKKSNPNFIFGVCG    132
+                     .::|:|.:  |.|.....|:.       .|: ||||...|...:.....|
+KTHY_CHLP8        60 IAELLLFS--ASRAELMEKIIVPALEDGCDV-ILDRFFDSTTAYQGYGRG    106
+
+MIAB_MYCPE       133 CMAQEEAVVNRILKSNFNVDFIFGTHNVHRILNL-----LEQVIFEKNLV    177
+                     ......|.:|||.......|..|       .|:|     |.:...||:|.
+KTHY_CHLP8       107 LNLDMLAEINRIASHGIRPDITF-------YLDLTPEDALLRKFSEKSLP    149
+
+MIAB_MYCPE       178 VEVWSHEGNVIEN    190
+                     :...|.|.:.:||
+KTHY_CHLP8       150 LAFESEELDRMEN    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 416
+# Identity:      71/416 (17.1%)
+# Similarity:   128/416 (30.8%)
+# Gaps:         159/416 (38.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        51 GEGKT----------------YHIKTFGCQSNLRDTEVMMGMLELIGY--     82
+                     |||||                .|:.|.......||.|.|..:|:.:|.  
+SECA2_MYCTO      142 GEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTV    191
+
+MIAB_MYCPE        83 --------------EYNEDVNTSDLVLLNTCAVREHAESKVFADIGILDR    118
+                                   .|:.||..:.:..:....:|:...:.|       :.
+SECA2_MYCTO      192 GWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDV-------ND    234
+
+MIAB_MYCPE       119 IKKSNPNF-IFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHR-----    162
+                     :...||:. :......:..:||:|..:|.         ||  .||     
+SECA2_MYCTO      235 LVSPNPDVALIDEADSVLVDEALVPLVLA---------GT--THRETPRL    273
+
+MIAB_MYCPE       163 -ILNLLEQVIFEK-----------NLVVEVWSHEGNVIENLPSKRTNNLK    200
+                      |:.|:.:::.:|           |..|.:..|....:|           
+SECA2_MYCTO      274 EIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVE-----------    312
+
+MIAB_MYCPE       201 GFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTL    250
+                        ..:.|.|                             :.||.:...||
+SECA2_MYCTO      313 ---KALGGID-----------------------------LYSEEHVGTTL    330
+
+MIAB_MYCPE       251 IGQNVNSYG-IDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSI    299
+                     ...||..:. :......:|:               ||....:..|.:|..
+SECA2_MYCTO      331 TEVNVALHAHVLLQRDVHYI---------------VRDDAVHLINASRGR    365
+
+MIAB_MYCPE       300 VDTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIP    349
+                     :..::::|:.: ...:..:.|.||        .:.|:.:|.:. ::|.|.
+SECA2_MYCTO      366 IAQLQRWPDGL-QAAVEAKEGIET--------TETGEVLDTIT-VQALIN    405
+
+MIAB_MYCPE       350 N----CSIT-TDLIVGFPNETKEQFNKTLEL-----------YKRIEFDN    383
+                     .    |.:| |.|..|      ||..:..:|           .:..|.|.
+SECA2_MYCTO      406 RYATVCGMTGTALAAG------EQLRQFYQLGVSPIPPNKPNIREDEADR    449
+
+MIAB_MYCPE       384 AFTFIYSKRDGTVAAI    399
+                     .:....:|.||.|..|
+SECA2_MYCTO      450 VYITTAAKNDGIVEHI    465
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       4/13 (30.8%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        63 CQSNLRDTEVMMG     75
+                     |:....:||:.:|
+DB108_HUMAN       35 CRDFCLETEIHVG     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      30/139 (21.6%)
+# Similarity:    47/139 (33.8%)
+# Gaps:          47/139 (33.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       128 FG--VCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHRILNLLEQVIFEKN    175
+                     ||  .|.||.        ::.....:|..||.             :.::|
+LCMT1_CRYNB      277 FGETFCSCMG--------VVYEMVGLDDSFGN-------------VMKRN    305
+
+MIAB_MYCPE       176 LVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKI    225
+                     |.|...|..|::. :.|..:...   |.:.|....||.:  ....|..:|
+LCMT1_CRYNB      306 LAVRNLSIPGSIF-STPESQAGR---FTSPMLQGGKFDS--AGAKTLWQI    349
+
+MIAB_MYCPE       226 RSR----------RKEDILDEV--------HQMISEGYK    246
+                     |..          .|.:||||:        |.:|:.|.|
+LCMT1_CRYNB      350 REEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTK    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      45/227 (19.8%)
+# Similarity:    71/227 (31.3%)
+# Gaps:         100/227 (44.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        64 QSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKVFAD-    112
+                     :|.:.|.:...|.:|::.....|.||..|:            ...|||: 
+PTGA_SALTY         8 KSLVSDDKKDTGTIEIVAPLSGEIVNIEDV------------PDVVFAEK     45
+
+MIAB_MYCPE       113 -IGILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNVH    161
+                      :|....||.:....:..|.|.:.:                 ||.|::..
+PTGA_SALTY        46 IVGDGIAIKPTGNKMVAPVDGTIGK-----------------IFETNHAF     78
+
+MIAB_MYCPE       162 RILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCDK    211
+                     .|         |.:..:|::.|.|  |:      |..|||          
+PTGA_SALTY        79 SI---------ESDSGIELFVHFG--ID------TVELKG----------    101
+
+MIAB_MYCPE       212 FCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYG--    259
+                                                    ||:|.:...||.| ..|  
+PTGA_SALTY       102 -------------------------------EGFKRIAEEGQRV-KVGDP    119
+
+MIAB_MYCPE       260 -IDFDNGENYLFNNLLEDVAKTGIERV    285
+                      |:||       ..|||:.||:.:..|
+PTGA_SALTY       120 VIEFD-------LPLLEEKAKSTLTPV    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      21/98 (21.4%)
+# Similarity:    38/98 (38.8%)
+# Gaps:          28/98 (28.6%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE         2 KSHIMDSKSTKKRDLSKYFLPDIRQA-RKRIKKADIIKDGFEI-------     43
+                     :..::..:..|:|...||.|  :||: :|.:.:...:.|..:|       
+RR14_CRYJA         3 RKSLIQREKKKQRLERKYNL--LRQSLKKEMSEVSSLDDKLDIYRKLQSL     50
+
+MIAB_MYCPE        44 -----PANIINYGEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYNE     86
+                          |..:      :...:||...::|.||       .||.||...|
+RR14_CRYJA        51 PRNSAPTRL------RRRCLKTGRPRANYRD-------FELSGYIIRE     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 276
+# Identity:      50/276 (18.1%)
+# Similarity:    86/276 (31.2%)
+# Gaps:         112/276 (40.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       187 VIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDE    236
+                     :||..|||..|..|.|::.|            |.....:..:..:.|:..
+DCUP_BACVZ       155 MIEGGPSKNYNKTKAFMHSM------------PQAWKMLMDKLADMIIVY    192
+
+MIAB_MYCPE       237 VHQMISEGYKEVTLIGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVR    286
+                     ....|:.|.|.:.:....|.:.     |.|:|.                 
+DCUP_BACVZ       193 AKAQINAGAKAIQIFDSWVGAL-----NREDYR-----------------    220
+
+MIAB_MYCPE       287 FTTSNPWNFTRSIVD------TMKKYPNIMPHI---HLPIQSGDETILKK    327
+                            .|.:.::|      :.::.|.||..:   ||            
+DCUP_BACVZ       221 -------QFIKPVMDRIFRELSAEQVPLIMFGVGASHL------------    251
+
+MIAB_MYCPE       328 MNRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETKEQFNKTLE---    374
+                           .||:.||        |...:..|..:|..:..|:...||::   
+DCUP_BACVZ       252 ------AGDWHDL--------PLDVVGLDWRLGIDDARKQGITKTVQGNL    287
+
+MIAB_MYCPE       375 -------------------LYKRIEFDNAFTFIYSKRDGTVAAIIPDEIP    405
+                                        |.:.::.|.   ||::...|    :.||..|
+DCUP_BACVZ       288 DPSLLLAPWEVIEKKAKAILDQGMKTDG---FIFNLGHG----VFPDVNP    330
+
+MIAB_MYCPE       406 LSEKKERLQELNEMVKTFS--KKNNE    429
+                          |.|::|...|..:|  ||..:
+DCUP_BACVZ       331 -----ETLKKLTAFVHEYSAAKKTEQ    351
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 436
+# Identity:      85/436 (19.5%)
+# Similarity:   157/436 (36.0%)
+# Gaps:          90/436 (20.6%)
+# Score: 93.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        44 PANIINYGEGKTYHIKTFGCQS-NLRDTEVMMGMLELIGYEYNEDVNTSD     92
+                     |||.   |:.|   ::.|..:. |.|.|::...:.||...:|.:.:....
+GTF2I_MOUSE      338 PANA---GKRK---VREFNFEKWNARITDLRKQVEELFERKYAQAIKAKG    381
+
+MIAB_MYCPE        93 LVLLNTCAVREHAESKVFADIGILDRIKKSNPNFIFGVCGCMAQEEAVVN    142
+                     .|.:.....:.|.|. ::.: |:.:.|....|: .:|:        ..:.
+GTF2I_MOUSE      382 PVTIPYPLFQSHVED-LYVE-GLPEGIPFRRPS-TYGI--------PRLE    420
+
+MIAB_MYCPE       143 RILKSNFNVDFIFGTHNVHRILN-LLEQVIFEK--NLVVEVWSHEGNVIE    189
+                     |||.:...:.|:.   ..|.:|| ..|.:..:|  :.|.|.|        
+GTF2I_MOUSE      421 RILLAKERIRFVI---KKHELLNSTREDLQLDKPASGVKEEW--------    459
+
+MIAB_MYCPE       190 NLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVH-    238
+                        ..|...|:..|:.:: |.||..  .:..|..|....:|    .|.| 
+GTF2I_MOUSE      460 ---YARITKLRKMVDQLF-CKKFAE--ALGSTEAKAVPYQK----FEAHP    499
+
+MIAB_MYCPE       239 -QMISEGYKEVTLIGQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRF    287
+                      .:..||..| .:..::.:.|||.           .||.:.:.| .|::|
+GTF2I_MOUSE      500 NDLYVEGLPE-NIPFRSPSWYGIP-----------RLEKIIQVG-NRIKF    536
+
+MIAB_MYCPE       288 TTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMNRP------    331
+                     ....|...|.|..:..:      |..:.|::......:.|:.:.      
+GTF2I_MOUSE      537 VIKRPELLTHSTTEVTQ------PRTNTPVKEDWNVRITKLRKQVEEIFN    580
+
+MIAB_MYCPE       332 MKIGDYIDLVDYIRANIPNCSITTDLIV------GFPNETKEQFNKTLEL    375
+                     :|....:.|.:.::...|......:.:.      |.|..:...|. ...|
+GTF2I_MOUSE      581 LKFAQALGLTEAVKVPYPVFESNPEFLYVEGLPEGIPFRSPTWFG-IPRL    629
+
+MIAB_MYCPE       376 YKRIEFDNAFTFIYSKRDGTVAAIIPDEIPLSEKKERLQELNEMVKTFSK    425
+                     .:.:...|...|:..|.: .|.:.:|   |....|...:.|....:..|.
+GTF2I_MOUSE      630 ERIVRGSNKIKFVVKKPE-LVVSYLP---PGMASKINTKALQSPKRPRSP    675
+
+MIAB_MYCPE       426 KNNEKYVNKVLDVLVDGPSKKDKTVISGYSPQWKVV    461
+                     .:|.|...  ::|.|:||:..        |||...|
+GTF2I_MOUSE      676 GSNSKVPE--IEVTVEGPNNS--------SPQTSAV    701
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:      71/364 (19.5%)
+# Similarity:   130/364 (35.7%)
+# Gaps:         101/364 (27.7%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       122 SNPNFIFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHRILNLLEQVI    171
+                     :||.   |.|       |.|||.::.            |.|.|.|....|
+ISPH_ACIF5         6 ANPR---GFC-------AGVNRAIQI------------VDRALELFGAPI     33
+
+MIAB_MYCPE       172 FEKNLVVEVWSHEGNVIENLPSK------RTNNLKGFVNVMYGCDKFCTY    215
+                     :.::.||    |..:|:|:|.::      ..:.:.....|::....    
+ISPH_ACIF5        34 YVRHEVV----HNRHVVEDLRARGAIFVEELDEVPDAATVIFSAHG----     75
+
+MIAB_MYCPE       216 CIVPMTRGKIRSRRKEDILD-------EVHQMI---SEGYKEVTLIGQ--    253
+                       ||:...:..:.|...:.|       :||..:   |....|:.|||.  
+ISPH_ACIF5        76 --VPIAVREHAAARGLSVFDATCPLVTKVHMEVKKYSRDGMEMVLIGHAG    123
+
+MIAB_MYCPE       254 --NVNSYGIDFDNGENYLFNNL--LEDVAKTGIERVRFTTSNPWNFTRSI    299
+                       .|.......:.|..||.:|:  :..:|....:::.:.|..    |.|:
+ISPH_ACIF5       124 HPEVEGTMGQVEEGMMYLVSNVSDVATLAPRNPDKLAYITQT----TLSM    169
+
+MIAB_MYCPE       300 VDTMKKYPNIMPHIHLPIQSG---DETILKKMNRPMKIGDYIDLVDYIRA    346
+                     .||.:..  :......|:..|   |:......||.          |.:::
+ISPH_ACIF5       170 DDTAEVI--VALRSRFPLIEGPKKDDICYATQNRQ----------DAVKS    207
+
+MIAB_MYCPE       347 NIPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTV    396
+                     ..|:..|.  |:||.||.:..  ::..||..|:              ||.
+ISPH_ACIF5       208 LAPDVDIL--LVVGAPNSSNS--SRLAELGTRL--------------GTQ    239
+
+MIAB_MYCPE       397 AAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVL-------    439
+                     ..:|.|...|  ::|..:.:.::..:......|..|.:::|.|       
+ISPH_ACIF5       240 THLIEDAQQL--RREWFEGVGKIGISAGASAPESLVQEIMDTLRGWGARV    287
+
+MIAB_MYCPE       440 -VDGPSKKDKTVIS    452
+                      .:.|..::|...|
+ISPH_ACIF5       288 PQEMPGVEEKVTFS    301
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       5/7 (71.4%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       482 RFTLNGK    488
+                     |||..||
+NDUA1_HUMAN       28 RFTNGGK     34
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      41/247 (16.6%)
+# Similarity:    74/247 (30.0%)
+# Gaps:          88/247 (35.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       218 VPMTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGEN    267
+                     :|....:.|:|..:|.:|.::|  ..|.:.:                   
+PSRP_SALTI        40 LPFVENESRARAVKDQIDAIYQ--QTGVRPL-------------------     68
+
+MIAB_MYCPE       268 YLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDT--------MKKYPNI    309
+                      :|.:::       :..:|........|.:.||..        ||..|..
+PSRP_SALTI        69 -VFYSIV-------LPEIRAIILQSEGFCQDIVQALVAPLQQEMKLDPTP    110
+
+MIAB_MYCPE       310 MPHIHLPIQSGDETILKKMNRPMKIGDY------------IDLVDYIRAN    347
+                     :.|....:..|:   |.|.:..:...||            :|....|...
+PSRP_SALTI       111 IAHRTHGLNPGN---LNKYDARIAAIDYTLAHDDGISLRNLDQAQVILLG    157
+
+MIAB_MYCPE       348 IPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFD---NAFTFIYSKRDG    394
+                     :..|..|                 ...||..::|.   ..:.||....|.
+PSRP_SALTI       158 VSRCGKT-----------------PTSLYLAMQFGIRAANYPFIADDMDN    190
+
+MIAB_MYCPE       395 TVAAIIPDEI-PLSEK-------KERLQELNEMVKTFSKKNNEKYVN    433
+                     ..   :|..: ||..|       .|||..:.|     .::.|.:|.:
+PSRP_SALTI       191 LT---LPTSLKPLQHKLFGLTIDPERLAAIRE-----ERRENSRYAS    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 501
+# Identity:      96/501 (19.2%)
+# Similarity:   166/501 (33.1%)
+# Gaps:         178/501 (35.5%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        76 MLELIGYEYNEDVNTSDLVLLNTC-AVREHAESKVFAD----------IG    114
+                     |.::||.         ||...|:| ||.:..::||..:          :.
+DNAK_CHESB         1 MAKVIGI---------DLGTTNSCVAVMDGKDAKVIENAEGARTTPSIVA     41
+
+MIAB_MYCPE       115 ILD-----------RIKKSNP-NFIFGVCGCMAQ--EEAVVN--------    142
+                     ..|           |...:|| |..|.:...:.:  |:.:|.        
+DNAK_CHESB        42 FTDSDERLVGQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPY     91
+
+MIAB_MYCPE       143 RILKSNFNVDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVIE---    189
+                     :|:|:: |.|....:|......:.:..:|.:| :.....|:.|..:|   
+DNAK_CHESB        92 KIVKAD-NGDAWVESHGTKYSPSQISAMILQK-MKETAESYLGEKVEKAV    139
+
+MIAB_MYCPE       190 -NLP----------SKRTNNLKG-----FVN------VMYGCDKFCTYCI    217
+                      .:|          :|....:.|     .:|      :.||.||      
+DNAK_CHESB       140 ITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLDK------    183
+
+MIAB_MYCPE       218 VPMTRGKIRSRRKEDILDEVHQM-----------ISEGYKEV------TL    250
+                                 ||.....|:.:           |.:|..||      |.
+DNAK_CHESB       184 ------------KEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTF    221
+
+MIAB_MYCPE       251 IGQNVNSYGIDFD-NGENYLFNNLLEDVA------KTGIERVRFTTSNPW    293
+                     :|      |.||| ...|||.:...::..      |..::|::...... 
+DNAK_CHESB       222 LG------GEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKA-    264
+
+MIAB_MYCPE       294 NFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDY    343
+                             .::...:....|:||..:.|:|..|.:           .:..
+DNAK_CHESB       265 --------KIELSSSSQTEINLPFITADQTGPKHL-----------AIKL    295
+
+MIAB_MYCPE       344 IRANIPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRD    393
+                     .||...  |:..||:           .:|:|..:.           :.:|
+DNAK_CHESB       296 TRAKFE--SLVEDLV-----------TRTIEPCRA-----------ALKD    321
+
+MIAB_MYCPE       394 GTVAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGP    443
+                     ..::|...||:.|.....|:.::.|.||.|..|...|.||          
+DNAK_CHESB       322 AGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVN----------    361
+
+MIAB_MYCPE       444 SKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNG---KMI    490
+                       .|:.|..|.:.|..|:.  |..|...::.|...|....||.|   ::|
+DNAK_CHESB       362 --PDEVVAMGAAIQAGVLQ--GDVKDVLLLDVTPLSLGIETLGGVFTRLI    407
+
+MIAB_MYCPE       491 D    491
+                     |
+DNAK_CHESB       408 D    408
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      26/135 (19.3%)
+# Similarity:    52/135 (38.5%)
+# Gaps:          45/135 (33.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       394 GTVAAIIPDEI-----------PLSEKKE----RLQELNEMVKTFSKKNN    428
+                     ||:..:.|:.:           .|:||.|    ..:|..:.:.|...:.|
+DNLJ_ACIC5       212 GTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVN    261
+
+MIAB_MYCPE       429 E------------KYVNKV------LDVLVDGPSKKDKTVI-------SG    453
+                     :            ::||:.      |...:||...|..:.:       :|
+DNLJ_ACIC5       262 QHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTG    311
+
+MIAB_MYCPE       454 YSPQWKVVNFTGSAKSG----EIVKVLITSASRFT    484
+                     .:|:|.|. :..:|:||    |.::|.:....:.|
+DNLJ_ACIC5       312 RAPRWAVA-YKFAARSGVTQVEDIQVQVGRTGKLT    345
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      14/49 (28.6%)
+# Similarity:    21/49 (42.9%)
+# Gaps:           9/49 (18.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        56 YHIKTFGCQSN---LRDTEVM------MGMLELIGYEYNEDVNTSDLVL     95
+                     |....||.|:|   |.|...|      |....::.|..::.:.|.:|||
+CAPSD_CMVO       153 YQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVL    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      46/214 (21.5%)
+# Similarity:    85/214 (39.7%)
+# Gaps:          57/214 (26.6%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       282 IERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMN-R    330
+                     :::.:.||..| ..|..:.:.::     :|.:.:..|.|.:.::|.:. |
+IF3_CHLL2          1 MKKQKTTTQKP-KLTYRVNEQIR-----VPEVRIVFQDGTQQVMKTIEAR     44
+
+MIAB_MYCPE       331 PMKIGDYIDLVDYIRANI--PNCSI----------------------TTD    356
+                     .|.....:||:: ::.|.  |.|.:                      ||.
+IF3_CHLL2         45 RMAEDRNLDLIE-VQPNAEPPVCKLDNLGKLLFKMDKRDKDLKKKQKTTT     93
+
+MIAB_MYCPE       357 L--IVGFPNETKEQFN-KTLELYKRIEFDNAF--TFIYSKRDGTVAAIIP    401
+                     |  :...||..|..|: ||..|.:.:...|..  |.::..|    :.|..
+IF3_CHLL2         94 LKELRFHPNTDKHDFDFKTAHLEEFLRKGNRVRATIVFLGR----SIIYK    139
+
+MIAB_MYCPE       402 DE-IPLSEKKERLQELNEMVKTFSKKNNE-KYVNKVLDVLVDGPSKKD--    447
+                     |: :.|:|:      |.|.:...|.::.: |:..|.|.|..: |.||.  
+IF3_CHLL2        140 DKGLELAER------LTERLSCVSNRDGDPKFEGKKLFVYFE-PDKKKID    182
+
+MIAB_MYCPE       448 -----KTVISGYSP    456
+                          |...||.:|
+IF3_CHLL2        183 AFERIKAKTSGPAP    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    24/58 (41.4%)
+# Gaps:          10/58 (17.2%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       324 ILKKMNRPMKIGDYIDL-VDYIRANIPNCSITTDLIVGFPNETKEQFNKT    372
+                     :.:|:...:.|||.|.: |..:|.|.....:.....|....|        
+CSRA_HAEI8         4 LTRKVGESVLIGDDISITVLSVRGNQVKLGVEAPKEVSVHRE--------     45
+
+MIAB_MYCPE       373 LELYKRIE    380
+                      |:|:||:
+CSRA_HAEI8        46 -EIYQRIK     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      55/212 (25.9%)
+# Similarity:    85/212 (40.1%)
+# Gaps:          61/212 (28.8%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       233 ILDEVHQMISEG-YKEVTLIG---------QNVNSYGIDFDNGENYLFNN    272
+                     :||..:..|..| ||...||.         :..:.|||...  |.:..||
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVI--ELFSHNN     51
+
+MIAB_MYCPE       273 LLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLP-IQSGD    321
+                     |    :.:.||.|..::..| |...|:...:.||.||.|.|..| :::| 
+COAX_CLOBL        52 L----SFSDIEGVIISSVVP-NIMYSLEHMISKYFNIKPIIVGPGVKTG-     95
+
+MIAB_MYCPE       322 ETILKKMNRPMKIG-DYIDLVDYIRANIPNCSITTDLIVGFPNETKEQFN    370
+                       |..|.:.|.::| |.|  |:.:.|:                       
+COAX_CLOBL        96 --INIKYDNPKEVGADRI--VNAVAAH-----------------------    118
+
+MIAB_MYCPE       371 KTLELYKR----IEFDNAFTFIYSKRD-----GTVA-AIIPDEIPLSEKK    410
+                        |:||:    |:|..|.||....::     ||:. .|......|.:|.
+COAX_CLOBL       119 ---EIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKA    165
+
+MIAB_MYCPE       411 ERLQELNEMVKT    422
+                     .:|..: |:|||
+COAX_CLOBL       166 AKLPRV-ELVKT    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    20/43 (46.5%)
+# Gaps:           8/43 (18.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       379 IEFDNAFTFIYSKRDGTVAAIIPDEIPLSEK------KERLQE    415
+                     :|::  |..:....|.|...:|..|..|||:      |:||.:
+HOP_BOVIN         17 LEYN--FNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQ     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:      42/219 (19.2%)
+# Similarity:    88/219 (40.2%)
+# Gaps:          29/219 (13.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       230 KEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGE--NYLFNNLLEDV    277
+                     :||:|    .:||.|:      ...|:|| :....|.  :|.|.||....
+THII_VIBA3       177 QEDLL----SLISGGF------DSGVSSY-LHIKRGSKVHYCFFNLGGPA    215
+
+MIAB_MYCPE       278 AKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGD-ETILK    326
+                     .:.|:::|.....:.:..:..:......:..::..|...::.|. ..:||
+THII_VIBA3       216 HEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEILENVEDGQMGVVLK    265
+
+MIAB_MYCPE       327 KMNRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETK------EQFN    370
+                     :|.  |:.|..:.....|.|     .:|.:.:....::|.      :...
+THII_VIBA3       266 RMF--MRAGGMVAERFGIEA-----LVTGEALGQVSSQTLTNLRHIDNVT    308
+
+MIAB_MYCPE       371 KTLELYKRIEFDNAFTFIYSKRDGT--VAAIIPDEIPLSEKKERLQELNE    418
+                     .||.|...|.:|.......|::.||  .|.::|:...:..||..::....
+THII_VIBA3       309 DTLILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAKKG    358
+
+MIAB_MYCPE       419 MVKTFSKKNNEKYVNKVLD    437
+                     .::....|.|.:.:.:|::
+THII_VIBA3       359 KLEAEEAKFNFEVLEQVIE    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      15/74 (20.3%)
+# Similarity:    24/74 (32.4%)
+# Gaps:          23/74 (31.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       304 KKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSI    353
+                     |..|...||:                   ..||||.:::..:..:.....
+RL13_PSEPG        39 KHKPEYTPHV-------------------DTGDYIVVINAEQVRVTGAKS     69
+
+MIAB_MYCPE       354 TTDLIV---GFPNETKE-QFNKTL    373
+                     :..:..   |||...|| .|.|.:
+RL13_PSEPG        70 SDKMYYSHSGFPGGIKEINFEKLI     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:       9/48 (18.8%)
+# Similarity:    26/48 (54.2%)
+# Gaps:           7/48 (14.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       406 LSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISG    453
+                     :|.|::.:..:| :.:|      .:::::..|::.|..|:..:.:|.|
+RR2_ARATH         35 ISAKRKGIHIIN-LTRT------ARFLSEACDLVFDAASRGKQFLIVG     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       393 DGTVAAIIPDEIPLSEKKERLQEL    416
+                     |..:.|:|...:||...|.:|..|
+Y1710_SYNP2       16 DMCLGALIDGGVPLEYLKNQLNRL     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      17/70 (24.3%)
+# Similarity:    27/70 (38.6%)
+# Gaps:          26/70 (37.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       422 TFSKKNNEKYVNKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTGSAKSGE    471
+                     |||.:..|.::       :.|||...|||:.                  |
+WTPC_THEKO        21 TFSVEKGEHFI-------ILGPSGAGKTVLL------------------E     45
+
+MIAB_MYCPE       472 IVKVLI-TSASRFTLNGKMI    490
+                     ::..:| ..:.|..|||:.|
+WTPC_THEKO        46 VIAGIIEPDSGRIFLNGEDI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      43/199 (21.6%)
+# Similarity:    67/199 (33.7%)
+# Gaps:          72/199 (36.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       171 IFEKNLVVEVWS-HEGNVIENLPS--------------KRTNNLKGFVNV    205
+                     :.:..||...:| |.|.|||| |.              |:||:.   :::
+GRB7_RAT         370 VSDNTLVAMDFSGHAGRVIEN-PQEALSAATEEAQAWRKKTNHR---LSL    415
+
+MIAB_MYCPE       206 MYGCDKFCTYCIV----PMTRGKIRSRRKEDILDEVHQMISEGYKEVTLI    251
+                     ...|........:    |...|:| ||.:..                .||
+GRB7_RAT         416 PTPCSGLSLSAAIHRTQPWFHGRI-SREESQ----------------RLI    448
+
+MIAB_MYCPE       252 GQNVNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVD    301
+                     ||                 ..|::     |:..||.:..||..|..|:..
+GRB7_RAT         449 GQ-----------------QGLVD-----GVFLVRESQRNPQGFVLSLCH    476
+
+MIAB_MYCPE       302 TMK-KYPNIMPHIHLPIQSGDETIL--KKMNRPMKIGDYIDLVDYIRAN    347
+                     ..| |:..|:|       |.||..|  ...:...:..|.:.||::.:.|
+GRB7_RAT         477 LQKVKHYLILP-------SEDEGCLYFSMDDGQTRFTDLLQLVEFHQLN    518
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      20/97 (20.6%)
+# Similarity:    39/97 (40.2%)
+# Gaps:          22/97 (22.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       388 IYSKRDGTVAAII----PDEIPLSEKKERLQELNEMVKTFSKKNNE----    429
+                     :.:..||.|:.::    |..:.|.:|.  |..::..:..|:...|.    
+PSD_RHOPS         68 VVAPADGRVSMVVQMIPPPALGLGDKP--LPRVSIFMSVFNCHVNRSPVA    115
+
+MIAB_MYCPE       430 -----------KYVNKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTG    465
+                                |::|..||...: .::::..|||..:.|..||...|
+PSD_RHOPS        116 GRVERIIYSPGKFINAELDKASE-DNERNSMVISTPAGQIGVVQIAG    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 567
+# Identity:     106/567 (18.7%)
+# Similarity:   193/567 (34.0%)
+# Gaps:         174/567 (30.7%)
+# Score: 94.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE         5 IMDSKSTKKRDLSKYFLPDIRQARKRIKKADIIKDGFEIPANIINYGEGK     54
+                     |:.:.|.|.|      |.|:::....:||..::.:  .:..|.:.||..|
+PP156_ARATH      246 ILKAMSKKGR------LSDLKELLLDMKKNGLVPN--RVTYNNLVYGYCK    287
+
+MIAB_MYCPE        55 TYHIK-TFGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVRE    103
+                     ...:| .|.....::.|.|:..:.     .||..:|.    |.|..::||
+PP156_ARATH      288 LGSLKEAFQIVELMKQTNVLPDLC-----TYNILING----LCNAGSMRE    328
+
+MIAB_MYCPE       104 HAESKVFADIGILDRIK--KSNPNFIFG---VCGCMAQEEAVVNRILKSN    148
+                     ..|        ::|.:|  |..|:.:..   :.||.....::..|.|...
+PP156_ARATH      329 GLE--------LMDAMKSLKLQPDVVTYNTLIDGCFELGLSLEARKLMEQ    370
+
+MIAB_MYCPE       149 FNVDFIFG---THNV---------------HRILNLLEQVIFEKNLV---    177
+                     ...|.:..   |||:               .::..|::...|..::|   
+PP156_ARATH      371 MENDGVKANQVTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYH    420
+
+MIAB_MYCPE       178 --VEVWSHEGNVIENLPSKRTNNLKGF------VNVMYGCDKFCTYCIVP    219
+                       ::.:...|::...|...|....||.      :|.:  .|..|      
+PP156_ARATH      421 TLIKAYLKVGDLSGALEMMREMGQKGIKMNTITLNTI--LDALC------    462
+
+MIAB_MYCPE       220 MTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGENYL    269
+                               ||..|||.|.:::..:|...::.:  .:||       ..:
+PP156_ARATH      463 ----------KERKLDEAHNLLNSAHKRGFIVDE--VTYG-------TLI    493
+
+MIAB_MYCPE       270 FNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIH-----    314
+                     .....|:..:..:|.        |       |.|||. .|.|.:.     
+PP156_ARATH      494 MGFFREEKVEKALEM--------W-------DEMKKV-KITPTVSTFNSL    527
+
+MIAB_MYCPE       315 ---LPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDLIVGF    361
+                        |......|..::|.:...:.|           .:|:.|....:|:|:
+PP156_ARATH      528 IGGLCHHGKTELAMEKFDELAESG-----------LLPDDSTFNSIILGY    566
+
+MIAB_MYCPE       362 PNETKEQFNKTLELY-----------------------------KRIEFD    382
+                     ..|.:.:  |..|.|                             |.:.|.
+PP156_ARATH      567 CKEGRVE--KAFEFYNESIKHSFKPDNYTCNILLNGLCKEGMTEKALNFF    614
+
+MIAB_MYCPE       383 NAFTFIYSKRDGTV------AAIIPDEIPLSEKKERLQELNEMVKTFSKK    426
+                     |  |.|..:...||      :|...|:    :.||....|:||.:...:.
+PP156_ARATH      615 N--TLIEEREVDTVTYNTMISAFCKDK----KLKEAYDLLSEMEEKGLEP    658
+
+MIAB_MYCPE       427 NNEKYVNKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTGSAKSG---EIV    473
+                     :...|.:.:..::.||...:...::..:|.::      ||.|..   |..
+PP156_ARATH      659 DRFTYNSFISLLMEDGKLSETDELLKKFSGKF------GSMKRDLQVETE    702
+
+MIAB_MYCPE       474 KVLITSASRFTLNGKMI    490
+                     |...||.|:..||.:.|
+PP156_ARATH      703 KNPATSESKEELNTEAI    719
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      21/72 (29.2%)
+# Similarity:    30/72 (41.7%)
+# Gaps:          17/72 (23.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        14 RDLSKYFLPDIRQARKRIKKADIIKDGFE---IPANIINYGEGKTYHIKT     60
+                     |..||:.|.:    .|.:|...||...|.   :|..|:|     ..|:  
+ADRB2_MESAU      259 RRSSKFCLKE----HKALKTLGIIMGTFTLCWLPFFIVN-----IVHV--    297
+
+MIAB_MYCPE        61 FGCQSNLRDTEVMMGMLELIGY     82
+                       .|.||...||.: :|..:||
+ADRB2_MESAU      298 --IQDNLIPKEVYI-LLNWLGY    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       315 LPIQSGDETILKKMN    329
+                     |.::.||..:::.:|
+ID5B_ADEPA        18 LAVKEGDPLVVQFVN     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      44/212 (20.8%)
+# Similarity:    74/212 (34.9%)
+# Gaps:          64/212 (30.2%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE        15 DLSKYFLPDIRQ-------------ARKRIKKADIIKDGFEIPA---NII     48
+                     |.:||||.::.:             .|.|||...|.:..||:..   .:|
+GPA7_CAEEL       149 DSAKYFLDNLPRLSSPNYVPSEQDLLRTRIKTTGITEVLFELKGLTFRVI    198
+
+MIAB_MYCPE        49 NYGEGKTYHIKTFGCQSNLRDTEVMMGMLELIGYEYNEDVNTSDLVLLNT     98
+                     :.|..::...|...|..|: :..:.:..|.    ||::.:..      :.
+GPA7_CAEEL       199 DVGGQRSERKKWIHCFDNV-NAIIFISSLS----EYDQTLRE------DN    237
+
+MIAB_MYCPE        99 CAVREHAESKV---------FADIGILDRIKKSNPNFIFG---------V    130
+                     |..|.....|:         ||||..:..:.|.:   :|.         |
+GPA7_CAEEL       238 CTNRMQESLKLFDSICNSPWFADIHFILFLNKKD---LFAEKIVRSPLTV    284
+
+MIAB_MYCPE       131 C-----GCMAQEEAV---------VNRILKSNFNVDFIFG--THNVHRIL    164
+                     |     |...|.|.:         :||..:..........  |:||..:|
+GPA7_CAEEL       285 CFPEYKGQQNQTECINYIQWKFEQLNRSSQREIYCHHTCATDTNNVQFVL    334
+
+MIAB_MYCPE       165 NLLEQVIFEKNL    176
+                     :....:|..|||
+GPA7_CAEEL       335 DACLDMIIAKNL    346
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      26/130 (20.0%)
+# Similarity:    49/130 (37.7%)
+# Gaps:          32/130 (24.6%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       255 VNSYGIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNF--------T    296
+                     :|:.|:.....|.|        .|.|...|:....|: |.|        |
+IDI_ECO24          9 LNAQGVPTGTLEKY--------AAHTADTRLHLAFSS-WLFNAKGQLLVT     49
+
+MIAB_MYCPE       297 RSIVDTMKKYP-----NIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLV    341
+                     |..: :.|.:|     ::..|..|. :|.::.::::..  .::|..|...
+IDI_ECO24         50 RRAL-SKKAWPGVWTNSVCGHPQLG-ESNEDAVIRRCR--YELGVEITPP     95
+
+MIAB_MYCPE       342 DYI------RANIPNCSITTDLIVGFPNET    365
+                     :.|      ||..||..:..::...|...|
+IDI_ECO24         96 ESIYPDFRYRATDPNGIVENEVCPVFAART    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    19/50 (38.0%)
+# Gaps:          20/50 (40.0%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       180 VWSHEGNVIENLPSKR----------TNNLKGFVNVMYGCDKFCTYCIVP    219
+                     ||.|     :|..||:          .|.:.||:.     :|.|.||..|
+YHJA_ECOLI        26 VWYH-----DNKRSKQADVQASAVSENNKVLGFLR-----EKGCDYCHTP     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      19/76 (25.0%)
+# Similarity:    32/76 (42.1%)
+# Gaps:          13/76 (17.1%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       274 LEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGD--    321
+                     |.|:.:||...|......|...|   :|..:|....:.|: |.:::.|  
+RIMP_BURPS        18 LVDLERTGRGMVCVYIDQPAGIT---IDDCEKVTRQLQHV-LTVENIDYE     63
+
+MIAB_MYCPE       322 --ETILKKMNRPMKIGDYIDLVDYIR    345
+                       |.....::||:|     .|.|:.|
+RIMP_BURPS        64 RLEVSSPGLDRPLK-----KLADFTR     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:    16/24 (66.7%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       319 SGDETILKKMNRPMKIGDYIDLVD    342
+                     :|:.||.:.:..|::.||.:.|::
+RS28_OSTOS        34 NGNRTINRNVKGPVREGDILTLLE     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    17/38 (44.7%)
+# Gaps:           3/38 ( 7.9%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       171 IFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYG    208
+                     :...|::|.|..|..   :.|..:....|..|:||:.|
+HBAC_LITCT       101 LLSNNILVVVAVHHS---DKLSYETHQALDKFLNVVSG    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:      63/290 (21.7%)
+# Similarity:   106/290 (36.6%)
+# Gaps:          68/290 (23.4%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       223 GKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGENYLFNN    272
+                     |.:|. |.|.:..:..:..|:|...:.....:.:|..|:||..::.|   
+RPOA_PRRSS       841 GWVRG-RCEPVFLKPRKAFSDGDSALQFGELSESSSVIEFDQTKDTL---    886
+
+MIAB_MYCPE       273 LLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDE    322
+                         ||...::   .||||.   ..|.||     |:....:..|..|...
+RPOA_PRRSS       887 ----VADAPVD---LTTSNE---ALSAVD-----PSEFVELRRPRHSAQA    921
+
+MIAB_MYCPE       323 TILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNE-----TKE    367
+                     .|    :|...:.|       :.|.|.|......|....|..     |:|
+RPOA_PRRSS       922 LI----DRGGPLAD-------VHAKIKNRVYEQCLQACEPGSRATPATRE    960
+
+MIAB_MYCPE       368 QFNKTLELYKRIEFDNAFTFIYSKRDGTVAA---IIPDEI----PLSEKK    410
+                     ..:|   ::.|::. ..:......:.|.:.|   .:||.|    |...:|
+RPOA_PRRSS       961 WLDK---MWDRVDM-KTWRCTSQFQAGRILASLKFLPDMIQDTPPPVPRK   1006
+
+MIAB_MYCPE       411 ERLQE---LNEMVKTFSKKNN----EKYVNKVLDVLVDGPS---KKDKTV    450
+                     .|..:   |.::|..:.||.:    .|....|||..|..|:   ::|.|.
+RPOA_PRRSS      1007 NRASDNAGLKQLVARWDKKLSVTPPPKSAGLVLDQTVPPPTDIQQEDATP   1056
+
+MIAB_MYCPE       451 ISGYSP------------QWKVVNFTGSAKSGEIVKVLIT    478
+                     ..|.|.            .||.:..:|:..:|...:.|:|
+RPOA_PRRSS      1057 SDGLSHASDFSSRVSTSWSWKGLMLSGTRLAGSAGQRLMT   1096
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 257
+# Identity:      49/257 (19.1%)
+# Similarity:    99/257 (38.5%)
+# Gaps:          66/257 (25.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE        21 LPDIRQARKRIKKADIIKDGFEIPANIINYG---EGKTYHIKTFGCQSNL     67
+                     :|:.::|:|..:....:...:::..::::.|   ..|.:.|:..|.:|..
+UBIE_PSEAE        21 VPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVRSGN     70
+
+MIAB_MYCPE        68 RDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKVFADIG---    114
+                     |       :|::.|       .|.||....:..|....| .|.|||.   
+UBIE_PSEAE        71 R-------VLDIAG-------GTGDLTRQFSRLVGPTGE-VVLADINASM    105
+
+MIAB_MYCPE       115 -------ILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFN-VDFIFG    156
+                            :||:....|.:|:        |.:|.......::|: |...||
+UBIE_PSEAE       106 LKVGRDKLLDKGVSGNVSFV--------QADAEKLPFPDNHFDCVTIAFG    147
+
+MIAB_MYCPE       157 THNV-HRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNV    205
+                     ..|| |:     ::.|   ..::.|....|.::....||.::||......
+UBIE_PSEAE       148 LRNVTHK-----DEAI---RSMLRVLKPGGRLLVLEFSKPSSNLLSKAYD    189
+
+MIAB_MYCPE       206 MYGCDKFCTYCIVPMTRGKIRSRRKED---ILDEVH----------QMIS    242
+                     .|      ::.::|: .||:.:...|.   :.:.:.          .|:.
+UBIE_PSEAE       190 AY------SFSLLPL-MGKLVTNDSESYRYLAESIRMHPDQETLKAMMVE    232
+
+MIAB_MYCPE       243 EGYKEVT    249
+                     .|:..||
+UBIE_PSEAE       233 AGFDRVT    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:      66/303 (21.8%)
+# Similarity:   105/303 (34.7%)
+# Gaps:          82/303 (27.1%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       225 IRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGENYL-----    269
+                     ||...::..|....:|...|.|   :.|:.|::.||       ||     
+FLII_AQUAE         4 IRRNLQKSYLKRCSEMYLRGLK---VSGEIVSAKGI-------YLEAILP     43
+
+MIAB_MYCPE       270 FNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHL-PIQ    318
+                     |.|:..:|.         ..||.......::........:||:..: .::
+FLII_AQUAE        44 FANIGNEVE---------IQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLR     84
+
+MIAB_MYCPE       319 SGDETILKKMNRPMKIGDYI--DLVDYIRANIPNCSITTDLIVGFPNETK    366
+                     .||:.:||......|.|:.:  .:||      |..:......:||..|..
+FLII_AQUAE        85 KGDKVLLKNELVSTKTGNGVVGKVVD------PFGNPLDGGFIGFVEEKG    128
+
+MIAB_MYCPE       367 EQFNKTLELYK---RIEFD------NA-FTF-------------------    387
+                     .:..:...||:   |..||      || ||.                   
+FLII_AQUAE       129 LELPQINPLYRERIREVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTL    178
+
+MIAB_MYCPE       388 -----IYSKRDGTVAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYV    432
+                          .:||.|..|.|:|         .||.:|:.|.::....:...|..
+FLII_AQUAE       179 LGMITRHSKADVVVLALI---------GERGREVKEFLEEVLGEEGLKKS    219
+
+MIAB_MYCPE       433 NKVLDVLVDGPSKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASR    482
+                     ..|:......|..|.|..||.      ||:....|..|:.|.:|:.|.:|
+FLII_AQUAE       220 VVVVSTADQSPILKVKGAISA------VVHAHHFASQGKDVLLLMDSITR    263
+
+MIAB_MYCPE       483 FTL    485
+                     ..|
+FLII_AQUAE       264 LAL    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      15/65 (23.1%)
+# Similarity:    31/65 (47.7%)
+# Gaps:          13/65 (20.0%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       420 VKTFSKKNNEKY-VNKVLDVL-VDGPSKKDKTVISG-YSPQWKVVNFT--    464
+                     ::|.|||||::. :|....:: :..|:..|..:||. ....:.:||.:  
+MSS11_VANPO      586 METVSKKNNKRSDINSPATIVPISTPTSSDGNIISSTQGTNFPIVNLSQA    635
+
+MIAB_MYCPE       465 --------GSAKSGE    471
+                             |..::|:
+MSS11_VANPO      636 PTPTSKAEGDGEAGQ    650
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      20/89 (22.5%)
+# Similarity:    36/89 (40.4%)
+# Gaps:          26/89 (29.2%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       303 MKKYPNIM-------------PHIHLPIQSGDETILKKMNRPMKIGDYID    339
+                     :|:.||::             ||:|.|..|.:..:|.:.:|.:.:| :.:
+SPB4_ASPFU       161 LKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLG-FKE    209
+
+MIAB_MYCPE       340 LVDYIRANIP----------NCSITTDLI--VGFPNETK    366
+                     .:..|...:|          :.|...|.|  ||..|..|
+SPB4_ASPFU       210 TLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVK    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      47/245 (19.2%)
+# Similarity:    83/245 (33.9%)
+# Gaps:          66/245 (26.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       274 LEDVAKTGIERVRFTTSN--PWNFTRSIVDTMKKYP-----NIMPHIHLP    316
+                     :.|.|.|..:.:.|...|  |.|.|       |:.|     |:...   .
+ASSY_MYCTO       145 VRDYAWTREKAIAFAEENAIPINVT-------KRSPFSIDQNVWGR---A    184
+
+MIAB_MYCPE       317 IQSGDETILKKM-NRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNET    365
+                     :::|   .|:.: |.|.|     |:..|......|..:..::||||....
+ASSY_MYCTO       185 VETG---FLEHLWNAPTK-----DIYAYTEDPTINWGVPDEVIVGFERGV    226
+
+MIAB_MYCPE       366 KEQFN-KTLELYKRIEFDNAFTFIYSKRDGTVAA----IIPDEIPLSEKK    410
+                     ....: |.:.:...||..|       :|.|....    ::.|.:...:.:
+ASSY_MYCTO       227 PVSVDGKPVSMLAAIEELN-------RRAGAQGVGRLDVVEDRLVGIKSR    269
+
+MIAB_MYCPE       411 ERLQELNEMV-----------------KTFSKKNNEKYVNKVLDVLVDGP    443
+                     |..:....||                 ..|.::.::::...|.|.|...|
+ASSY_MYCTO       270 EIYEAPGAMVLITAHTELEHVTLERELGRFKRQTDQRWAELVYDGLWYSP    319
+
+MIAB_MYCPE       444 SKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNGK    488
+                     .   |..:..:      |..|....|||:  .|:.......:||:
+ASSY_MYCTO       320 L---KAALEAF------VAKTQEHVSGEV--RLVLHGGHIAVNGR    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      31/135 (23.0%)
+# Similarity:    52/135 (38.5%)
+# Gaps:          35/135 (25.9%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       358 IVGFPNETKEQFNKTLELYKRIE----------FDNAFTFIYSKR--DGT    395
+                     :.||...||.|.:....|.:|:|          ||:...| ||:.  .|.
+ECCB1_MYCS2        1 MAGFRLTTKVQVSGWRFLLRRVEHAIVRRDTRMFDDPLQF-YSRAVFAGV     49
+
+MIAB_MYCPE       396 VAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSK    445
+                     |.:::   |.|.      ..|....|...|:.:::       :|||..:.
+ECCB1_MYCS2       50 VVSVL---ICLG------AALMAYFKPLGKQGSDQ-------LLVDRTTN     83
+
+MIAB_MYCPE       446 KDKTVISGYSPQWKVVNFT------GSAKSGEIVK    474
+                     :...::.|.:....|.|.|      |:|.:...||
+ECCB1_MYCS2       84 QLYVMLPGSNQLRPVYNLTSARLVLGNASNPVAVK    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      35/157 (22.3%)
+# Similarity:    57/157 (36.3%)
+# Gaps:          39/157 (24.8%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       124 PNFIFGVCGCMAQEEAVVNRILKSNFNVDFIF---GTHNVHRILNLLEQV    170
+                     |..:.|      |||...|.:......|.|:.   |:....:..|::|..
+KCY4_ORYSJ         8 PTVVAG------QEEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEHF     51
+
+MIAB_MYCPE       171 IF----EKNLV---VEVWSHEGNVIENL-------PSKRTNNLKGFVNVM    206
+                     .|    ..:|:   ::..|..|.:|||:       ||:.|..|.....:.
+KCY4_ORYSJ        52 GFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIK    101
+
+MIAB_MYCPE       207 YGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQM---------ISEGYKE    247
+                     .|.|||       :..|..|:.......:.|.::         .||...|
+KCY4_ORYSJ       102 SGNDKF-------LIDGFPRNEENRAAFENVTKITPAFVLFFDCSEEEME    144
+
+MIAB_MYCPE       248 VTLIGQN    254
+                     ..|:|:|
+KCY4_ORYSJ       145 RRLLGRN    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:      36/190 (18.9%)
+# Similarity:    66/190 (34.7%)
+# Gaps:          40/190 (21.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       212 FCTYCIVPMTRGKIRSR----RKEDILDEVHQMISEGYKEVTLIGQNVNS    257
+                     ||..| ...|||.:..:    .|...:|.:..::....:.::.:.....|
+HCP_TRIV2          2 FCNQC-EQTTRGDVCHQWGACGKSPEVDALQDLLVHCLRGLSQVALQAKS     50
+
+MIAB_MYCPE       258 YGIDFDNGENY----LFNNLLEDVAKTGIERVRFTTSNPWNF-TRSIVDT    302
+                     .|:.....:.:    ||:.|         ..|.|:||:..:| .|:|.  
+HCP_TRIV2         51 LGLATRETDEFTCEMLFSTL---------TNVNFSTSDFISFVNRAIA--     89
+
+MIAB_MYCPE       303 MKKYPNIMPHIHLPIQ-SGDETILKKMNRPMKIGD-----------YIDL    340
+                           :...:.|.|| :|:..|...:|......|           ..:.
+HCP_TRIV2         90 ------LRESLKLQIQATGNAVIQSAINSFQPASDTQKQIQQGKDLEFEF    133
+
+MIAB_MYCPE       341 VDYIRANIPNCSITTDLIVGFPNETKEQFNKTLELYKRIE    380
+                     :.....|:...|:...|:.|........|: .|||.:..|
+HCP_TRIV2        134 ISQSAKNVDIFSLKLTLLYGLKGVAAYAFH-ALELNQHDE    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      32/155 (20.6%)
+# Similarity:    57/155 (36.8%)
+# Gaps:          36/155 (23.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       321 DETILKKM--NRPMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETKEQ    368
+                     |||..:.:  ::|:.:.|||.  |..:.:...|.:...:..|  ...|.:
+UBX7_YEAST       187 DETHHRTLDDDKPLDVHDYIK--DAQKLHSSKCVLQIRMTDG--KTLKHE    232
+
+MIAB_MYCPE       369 FNKTLEL--------YKRIEFDNAFTFIYSKRDGTVAAIIP-------DE    403
+                     ||.:..|        ..|.:.|..::|...         ||       ||
+UBX7_YEAST       233 FNSSETLNDVRKWVDVNRTDGDCPYSFHRG---------IPRVTFKDSDE    273
+
+MIAB_MYCPE       404 IPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISG    453
+                     :...|..|.......::|....:|:...|..     ::|||...: :..|
+UBX7_YEAST       274 LKTLETLELTPRSALLLKPLETQNSGLSVTG-----MEGPSLLGR-LYKG    317
+
+MIAB_MYCPE       454 YSPQW    458
+                     :|..|
+UBX7_YEAST       318 FSTWW    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      58/260 (22.3%)
+# Similarity:    94/260 (36.2%)
+# Gaps:          79/260 (30.4%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+MIAB_MYCPE       230 KEDILDEV-------HQMISEGYKEVTL---------IGQNVNSYGIDFD    263
+                     :||:.|.|       .:|..:|.|.:|:         .|.....:.|:..
+RPOA_ACICJ        85 REDVTDIVLNIKQIAVRMHGDGPKRMTVSATGPCEVTAGMIQTGHDIEVM    134
+
+MIAB_MYCPE       264 NGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHI    313
+                     |.|  |....|:|.|..|:|   ||..:    .|..|......|...|..
+RPOA_ACICJ       135 NPE--LVICTLDDGATLGME---FTVES----GRGYVPAAANRPEDAPIG    175
+
+MIAB_MYCPE       314 HLPIQSGDETILKKMNR--PMKIGDYIDLVDYIRANI-PNCSITTD----    356
+                     .:|:.|....:.:...|  |.::|...| .|.:..|| .|.::|.:    
+RPOA_ACICJ       176 LIPVDSIYSPVRRVSYRVEPTRVGQVTD-YDRLILNIETNGAVTPEDAVA    224
+
+MIAB_MYCPE       357 -----------LIVGF--PNETKEQ-------FNKTL-----ELYKRIEF    381
+                                :.:.|  |...:.:       ||..|     ||...:..
+RPOA_ACICJ       225 LAARILQDQLGMFINFEEPQRLRAEEPRPELPFNPNLLRKVDELELSVRS    274
+
+MIAB_MYCPE       382 DNAFTFIYSKRDGTVAAIIPDEIPLSEKKERLQELNEMVKT--FSKKNNE    429
+                     .|..     |.|..|  .|.|.:..||:        ||::|  |.:|:  
+RPOA_ACICJ       275 ANCL-----KNDNIV--YIGDLVQKSEQ--------EMLRTPNFGRKS--    307
+
+MIAB_MYCPE       430 KYVNKVLDVL    439
+                       :|::.:||
+RPOA_ACICJ       308 --LNEIKEVL    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    24/43 (55.8%)
+# Gaps:           4/43 ( 9.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       393 DGTVAAI----IPDEIPLSEKKERLQELNEMVKTFSKKNNEKY    431
+                     ||.|:..    :..::..:::::||:...:|:|.:|.:..|.:
+YXAD_BACSU        88 DGRVSLFTITKLGKQLLKADQQKRLERYEQMLKEWSTQEKEMF    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: MIAB_MYCPE
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      44/188 (23.4%)
+# Similarity:    69/188 (36.7%)
+# Gaps:          65/188 (34.6%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+MIAB_MYCPE       273 LLEDVAKTGIERVRFTTSNPWN-FTR-------SIVDTMKKYPNIMPHIH    314
+                     ||||    .|.::.|......| |.|       :.:|::|:..||..   
+FADB_SHESR        12 LLED----NIAKLCFNAPGSVNKFDRETLASLDAALDSIKQQSNIQA---     54
+
+MIAB_MYCPE       315 LPIQSGDETILKKMNRPMKIG----DYIDLVDYI-RAN----------IP    349
+                     |.:.||.:|.:...:....:|    |...|:.:: :||          .|
+FADB_SHESR        55 LVLTSGKDTFIVGADITEFLGLFAQDDAVLLSWVEQANAVFNKLEDLPFP    104
+
+MIAB_MYCPE       350 NCS--------------ITTDL-------IVGFPNETK----EQFNKTLE    374
+                     ..|              :.||.       .:|.| |||    ..|..|:.
+FADB_SHESR       105 TASAIKGFALGGGCETILATDFRIADTTAKIGLP-ETKLGIIPGFGGTVR    153
+
+MIAB_MYCPE       375 LYKRIEFDNAFTFIYSKRD---------GTVAAIIPDE    403
+                     |.:.|..|||..:|.:.:|         |.|.|::..|
+FADB_SHESR       154 LPRVIGADNALEWITTGKDQRPEDALKVGAVDAVVAPE    191
+
+
+#---------------------------------------
+#---------------------------------------

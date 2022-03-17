@@ -1,0 +1,322 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:04
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/CBPD_LOPSP.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/CBPD_LOPSP.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/CBPD_LOPSP.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       5/31 (16.1%)
+# Similarity:    14/31 (45.2%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP       200 KSPDDAVFQQLALSYSKENKKMYQGSPCKDL    230
+                     :.||:.::..:....::...:..:|...|.|
+Y3545_CROS8       10 RCPDNRLYTGITTDVARRFAQHQRGKGAKAL     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      10/36 (27.8%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           5/36 (13.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP        20 LRRYANEYPSITRLYSVGKSVELRELYVMEISDNPG     55
+                     :|....::.|:|     |.:..|.:..|:..|.|||
+KDPB_SALNS       166 IRESGGDFASVT-----GGTRILSDWLVIACSVNPG    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    24/54 (44.4%)
+# Gaps:          14/54 (25.9%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP        20 LRRYANEYPSITRLYSVGKSVELRELYVMEISDNPGIHEAGEPEFKYIGN     69
+                     |.||::|:  :.:|.|     ||  |.|:|....|     .:.....:||
+YEJL_SALNS         4 LSRYSDEH--VEQLLS-----EL--LSVLEKHKAP-----TDLSLMVLGN     39
+
+CBPD_LOPSP        70 MHGN     73
+                     |..|
+YEJL_SALNS        40 MVTN     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      29/146 (19.9%)
+# Similarity:    50/146 (34.2%)
+# Gaps:          36/146 (24.7%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+CBPD_LOPSP       233 TEYFPHGITNGAQWYNVPGGMQDWNYLNTNCFEVTIELGCVKYPKAEELP    282
+                     ||:.|...|.   ...:.|.:..:|...:..|::.|:...:       |.
+UPPP_AROAE        19 TEFLPISSTG---HLIIIGDLLGYNDATSKVFKIVIQFAAI-------LA     58
+
+CBPD_LOPSP       283 KYWEQNRRSLLQFIKQVHRGIW--------------GFVLDATDGRGILN    318
+                     ..|:...|     :.:|..|:.              ||:..|..|. :.:
+UPPP_AROAE        59 VCWDYRER-----LARVAAGVGSEPAAQRFVGLLFIGFLPAAVLGL-MFH    102
+
+CBPD_LOPSP       319 ATISVADINHPVTTYKDGDYWRLLVQGTYKVTASARGYDPVTKTVE    364
+                     :||.....| |:|...     .|:|.|...:....|.|.|....|:
+UPPP_AROAE       103 STIKSLLFN-PLTVAT-----ALVVGGVLILWLERRAYHPRINAVD    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 380
+# Identity:     380/380 (100.0%)
+# Similarity:   380/380 (100.0%)
+# Gaps:           0/380 ( 0.0%)
+# Score: 2054.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP         1 QAVQPVDFRHHHFSDMEIFLRRYANEYPSITRLYSVGKSVELRELYVMEI     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP         1 QAVQPVDFRHHHFSDMEIFLRRYANEYPSITRLYSVGKSVELRELYVMEI     50
+
+CBPD_LOPSP        51 SDNPGIHEAGEPEFKYIGNMHGNEVVGRELLLNLIEYLCKNFGTDPEVTD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP        51 SDNPGIHEAGEPEFKYIGNMHGNEVVGRELLLNLIEYLCKNFGTDPEVTD    100
+
+CBPD_LOPSP       101 LVQSTRIHIMPSMNPDGYEKSQEGDRGGTVGRNNSNNYDLNRNFPDQFFQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP       101 LVQSTRIHIMPSMNPDGYEKSQEGDRGGTVGRNNSNNYDLNRNFPDQFFQ    150
+
+CBPD_LOPSP       151 VTDPPQPETLAVMSWLKTYPFVLSANLHGGSLVVNYPFDDDEQGIAIYSK    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP       151 VTDPPQPETLAVMSWLKTYPFVLSANLHGGSLVVNYPFDDDEQGIAIYSK    200
+
+CBPD_LOPSP       201 SPDDAVFQQLALSYSKENKKMYQGSPCKDLYPTEYFPHGITNGAQWYNVP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP       201 SPDDAVFQQLALSYSKENKKMYQGSPCKDLYPTEYFPHGITNGAQWYNVP    250
+
+CBPD_LOPSP       251 GGMQDWNYLNTNCFEVTIELGCVKYPKAEELPKYWEQNRRSLLQFIKQVH    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP       251 GGMQDWNYLNTNCFEVTIELGCVKYPKAEELPKYWEQNRRSLLQFIKQVH    300
+
+CBPD_LOPSP       301 RGIWGFVLDATDGRGILNATISVADINHPVTTYKDGDYWRLLVQGTYKVT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CBPD_LOPSP       301 RGIWGFVLDATDGRGILNATISVADINHPVTTYKDGDYWRLLVQGTYKVT    350
+
+CBPD_LOPSP       351 ASARGYDPVTKTVEVDSKGGVQVNFTLSRT    380
+                     ||||||||||||||||||||||||||||||
+CBPD_LOPSP       351 ASARGYDPVTKTVEVDSKGGVQVNFTLSRT    380
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      18/81 (22.2%)
+# Similarity:    31/81 (38.3%)
+# Gaps:          17/81 (21.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+CBPD_LOPSP       115 PDGYEKSQEGDRGGTVGRNNSNNYD---LNRNFPDQFFQVTDPPQPETLA    161
+                     |...:|.::||.........||:.:   .:.|.|:..||    ...|.|.
+NDHO_PROM1        15 PKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQ----GPGEVLL     60
+
+CBPD_LOPSP       162 V------MSWLKTYPFVLSANLHGGSLVVNY    186
+                     :      :.|.:..|.|...:.|    :|:|
+NDHO_PROM1        61 IKGDYCQVRWRRPVPDVWMNSDH----IVSY     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       9/22 (40.9%)
+# Similarity:     9/22 (40.9%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP       334 KDGDYWRLLVQGTYKVTASARG    355
+                     |||.|.........||.|..||
+DAPD_SHIBS       241 KDGKYSLYCAVIVKKVDAKTRG    262
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      19/78 (24.4%)
+# Similarity:    32/78 (41.0%)
+# Gaps:          28/78 (35.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+CBPD_LOPSP       108 HIMPSMNPD------------GYEKSQEGDRGGTVGRNNSNNYDLNRNFP    145
+                     |::||:.||            .| :.:|..|.|         |.:|..:.
+ASF1_CRYNJ        80 HLLPSVEPDEILGVTVIIITASY-REKEFVRVG---------YYVNTYYE    119
+
+CBPD_LOPSP       146 DQFFQVTDPPQPETLAVMSWLKTYPFVL    173
+                     |:..: .:||     :|:.|.|.:..||
+ASF1_CRYNJ       120 DEELK-ENPP-----SVVQWDKLHRNVL    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:      43/196 (21.9%)
+# Similarity:    66/196 (33.7%)
+# Gaps:          75/196 (38.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+CBPD_LOPSP       191 DEQGIAIYSKSPDDAVFQQLALSYSKENKKMYQGSPCKDLYPTEYFPHGI    240
+                     |::||     .||.   |:|..:    .|::..|....|           
+UBQ10_ARATH       32 DKEGI-----PPDQ---QRLIFA----GKQLEDGRTLAD-----------     58
+
+CBPD_LOPSP       241 TNGAQWYNVP------------GGMQDWNYL---NTNCFEV----TIELG    271
+                           ||:.            ||||.:...   .|...||    ||:..
+UBQ10_ARATH       59 ------YNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNV    102
+
+CBPD_LOPSP       272 CVKYPKAEELPKYWEQNRRSLLQFIKQVHRGIWGFVLDATDGRGILNATI    321
+                     ..|....|.:|.  :|.|  |:...||:.           |||.:.:..|
+UBQ10_ARATH      103 KAKIQDKEGIPP--DQQR--LIFAGKQLE-----------DGRTLADYNI    137
+
+CBPD_LOPSP       322 SVADINHPVTTYKDGDYWRLLVQGTYKVTASARGYDPVTKTVEVDS    367
+                     ......|.|...:.|  .::.|:     |.:.:     |.|:||:|
+UBQ10_ARATH      138 QKESTLHLVLRLRGG--MQIFVK-----TLTGK-----TITLEVES    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CBPD_LOPSP
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      50/245 (20.4%)
+# Similarity:    84/245 (34.3%)
+# Gaps:          60/245 (24.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+CBPD_LOPSP        31 TRLYSVGKSVELRELYVME-ISDNPGIHE--AGEPEFKYIGNMHGNEVVG     77
+                     |..|...|.|::    |:| :::||.:.|  ..|.|    .|:..|.::.
+FADB_ACIBS       386 TLSYEEFKEVDI----VIEAVTENPKVKEIVLAETE----KNVRENTIIA    427
+
+CBPD_LOPSP        78 RELLLNLIEYLCKNFGTDPEVTDLVQSTRIHIMPSMNPDGYEKSQEGDRG    127
+                     .......|..|.|..........:.....:|:||.:.....||:.|....
+FADB_ACIBS       428 SNTSTISITRLAKALQRPENFVGMHFFNPVHMMPLVEVIRGEKTSEEAIA    477
+
+CBPD_LOPSP       128 GTV------GR-----NNSNNYDLNRNFPDQF------------FQVTDP    154
+                     .||      |:     |:...:.:||.....|            ||..| 
+FADB_ACIBS       478 TTVVLAQKMGKTPIVVNDCPGFLVNRVLFPYFGAFDLLVKDGADFQQID-    526
+
+CBPD_LOPSP       155 PQPETLAVMSWLKTYPFV-----LSANLHGGSLVV-NYP--FDDDEQGI-    195
+                        ..::...|.....::     :...:||..::. .:|  ...|.:|. 
+FADB_ACIBS       527 ---NVMSKFGWPMGPAYLIDVVGIDTGVHGAEVMAEGFPDRMKPDYKGAI    573
+
+CBPD_LOPSP       196 -AIYSK----SPDDAVFQQLALSYSKENKKMYQGSPCKDLYPTEY    235
+                      |:|..    ..:|..|.:..|     :||   |...|.:.||.|
+FADB_ACIBS       574 EAMYEAKRLGQKNDVGFYKYEL-----DKK---GKKAKTVDPTAY    610
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,3984 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:47
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/DNAK_CHESB.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/DNAK_CHESB.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/DNAK_CHESB.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 338
+# Identity:      64/338 (18.9%)
+# Similarity:   110/338 (32.5%)
+# Gaps:          95/338 (28.1%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        10 GTTNSCVAVMDGKDAKVIENAEGARTTP----SIVAFTD----------S     45
+                     |...|...:.:...|::|:. :|....|    :|:..:|          .
+PUR7_VIBVU        25 GKVRSVYWLTEEDSARLIKE-KGYNVAPDAPLAIMVISDRISAFDCIWHG     73
+
+DNAK_CHESB        46 DERLVGQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPYKIVK     95
+                     :..|.|.|.|..|:....|.:|.:.:      |:.:.:.....:|:..| 
+PUR7_VIBVU        74 EHGLNGVPGKGAALNAISNHWFGLFK------ENGLADSHILDIPHPFV-    116
+
+DNAK_CHESB        96 ADNGDAWVESHGTKYSPSQISAMILQKM------------KETAESYLGE    133
+                           |:..   |..|.:|.|:..:.:            :|.....|.|
+PUR7_VIBVU       117 ------WIVQ---KAKPVKIEAICRKYITGSMWRAYEKGEREFCGIQLPE    157
+
+DNAK_CHESB       134 KVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLDK    183
+                     .:||...........:.:...|....:...:.:.|..:..|...| ..:.
+PUR7_VIBVU       158 GLEKDKALPDLLMTPSTKGILKGIPGVPEADDVNITRQNIADNFA-AFNF    206
+
+DNAK_CHESB       184 KEGKTIAVYDL----GGGTFDISILEIG----DGVFE---VKSTNGDTFL    222
+                     .....||:|:.    |.|....::..:|    |..||   |....|:..|
+PUR7_VIBVU       207 SSADDIALYEKLLKDGFGVISEALANVGQIFVDTKFEFGYVTDAAGNEKL    256
+
+DNAK_CHESB       223 ----------------------------GGEDFDMRLVNYLADEFKKEQG    244
+                                                 ..|.|...|:||..|     ..
+PUR7_VIBVU       257 IYMDEVGTPDSSRIWDAQEYQAGKIVENSKEGFRQFLLNYFPD-----PD    301
+
+DNAK_CHESB       245 IDLKNDKL----ALQRLKEAAEKAKIELSSSSQTEINL    278
+                     |.|..|::    ||.|..|..|:|   |.:.|:|.||:
+PUR7_VIBVU       302 ILLNKDRMPEREALARDNELPEEA---LMAVSRTYINI    336
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           2/36 ( 5.6%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       380 DVKDVLLLD--VTPLSLGIETLGGVFTRLIDRNTTI    413
+                     |..|..||:  |.|::.|...|.|....||.|:..:
+Y075_NITWN        11 DTADPKLLEILVCPVTKGPLELDGARRELISRSAKL     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      54/250 (21.6%)
+# Similarity:    86/250 (34.4%)
+# Gaps:          89/250 (35.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       378 QGDVKDVLLLDVTPLSLGIETLGGVFTR---LIDRNTTIPTKKSQVFSTA    424
+                     :|..:.|.|  .|||.   :.:|.:|.|   |:|.|   |....:||   
+Y3584_PSEAB        9 EGAAEPVRL--TTPLG---QAIGNLFARALPLLDGN---PPGSLKVF---     47
+
+DNAK_CHESB       425 EDNQNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFDID    474
+                               ||.|              ..|.:....||      :.|||
+Y3584_PSEAB       48 ----------VFGG--------------CAVHLLTHARG------SADID     67
+
+DNAK_CHESB       475 ANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKR    524
+                     |                   .|:|:..|...||..:....|...:.|.:.
+Y3584_PSEAB       68 A-------------------EIEAARVLRKDEIMAVYTPPEGYEDGDGRD     98
+
+DNAK_CHESB       525 RETVEVKNQAEAL--IHSTEKSLKDYGDKV-----SEDDR-------KAI    560
+                     .:....:|...||  :|      :||.::.     .|.::       ..:
+Y3584_PSEAB       99 LQVYLDQNYTNALGPLH------EDYRERAIPMEGFEGEQPLHIFVAAGV    142
+
+DNAK_CHESB       561 ENAIAELKTATEGEDADAIRAKTTALAEAS-MKLGQAVYEASQAENAAGG    609
+                     :.||::|...||.:..|     ...|.|.. :.:||.|..|::|.:.|.|
+Y3584_PSEAB      143 DLAISKLGRFTENDQYD-----IEQLIECGRVDVGQFVTLATEAIDYAVG    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      26/104 (25.0%)
+# Similarity:    42/104 (40.4%)
+# Gaps:          37/104 (35.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        22 KDAKVIENAEGARTT---PSIVAFTD--SDERLVGQPAKRQAVTNPENTF     66
+                     ||:|::..|...|||   .:|..|.|  .|:|.:|              .
+BPT_HAHCH        149 KDSKLLAIAVTDRTTDGLSAIYTFFDPNEDKRALG--------------V    184
+
+DNAK_CHESB        67 FAIKRLIGRRFEDPMVEKDKKLVPYKIVKADNGDAWVE-----SHGTKYS    111
+                     :||  |...:|     .::::| ||..:     ..|:.     |:.|.|.
+BPT_HAHCH        185 YAI--LWQLQF-----AREQRL-PYLYL-----GYWIRGCRKMSYKTNYR    221
+
+DNAK_CHESB       112 PSQI    115
+                     |.|:
+BPT_HAHCH        222 PIQV    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      20/80 (25.0%)
+# Similarity:    33/80 (41.2%)
+# Gaps:          21/80 (26.2%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       561 ENAIAELKTATEGEDADAIRAKTTALA-------------EASMKLGQAV    597
+                     |..||.|||     ||.|:||:...:|             :..:....|.
+KDPC_CAUVN        93 ETLIARLKT-----DAAALRAENPGVAIPADAVTTSGSGLDPDISPANAR    137
+
+DNAK_CHESB       598 YEASQAENAAGGTEETGGAKDDVVDADFEE    627
+                     ::|.:...|.|..|:...|   ::||..::
+KDPC_CAUVN       138 FQAPRVAGARGVPEKDVTA---LIDAQVQQ    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      21/89 (23.6%)
+# Similarity:    31/89 (34.8%)
+# Gaps:          15/89 (16.9%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       542 EKSLKDYGDKVSEDDRKAIENAIAELKTATEGEDADAIRAKTTALAEASM    591
+                     |.:|..:||.:..||       ||......:..|.:.|....|....|.:
+LPXH_XYLFM       108 EPTLLLHGDLLCTDD-------IAYQAFRAQTRDPEFIAQFLTQTLSARL    150
+
+DNAK_CHESB       592 KLGQAVYEASQAENAAGGTEETGGAKDDVVDADFEEIDE    630
+                     ...|....||.|..:        |.|.:.....||:|.:
+LPXH_XYLFM       151 AFSQQARLASHAHQS--------GLKQENDSTQFEKITD    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           5/23 (21.7%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       124 KETAESYLGEKVEKAVITVPAYF    146
+                     |:.|::.||     ||:....:|
+YERI_SCHPO        50 KQVAKTCLG-----AVVIYAVFF     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 454
+# Identity:      94/454 (20.7%)
+# Similarity:   172/454 (37.9%)
+# Gaps:         144/454 (31.7%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+DNAK_CHESB         7 IDLGTTNSCVA-VMD--GKDAKVIE-NAEGARTTPSIVA--FTDSDERLV     50
+                     |.:..|||..: :||  |.:||..| .|:.:...||::.  .:.|:::||
+RBSA_RUEST       102 IFMAATNSSRSFLMDYKGIEAKAREVFAQLSSIDPSVLVRDLSISNQQLV    151
+
+DNAK_CHESB        51 GQPAKRQAVTNPENTFFAIKRLIGRRFEDP---MVEKDKKLVPYKIVK--     95
+                      :.||  |:|      ...:.||   .::|   :.|.:.::: :||::  
+RBSA_RUEST       152 -EIAK--ALT------LDCRVLI---LDEPTAALTEAEAQVL-FKIMRRL    188
+
+DNAK_CHESB        96 ADNGDAWVESHGTKYSPSQISAMILQKMKETAESYLGEKVEKAVITVPAY    145
+                     ||.|.:.:              .|..:|.|..::.  ::|        :.
+RBSA_RUEST       189 ADQGISLI--------------YISHRMVEIFDNC--DRV--------SV    214
+
+DNAK_CHESB       146 FNDAQRQATKDAGKIAGLEVLRII------------NEPTAAA-------    176
+                     |.|.:...|:|..||...:|:|.:            ..|.|.:       
+RBSA_RUEST       215 FRDGRYVTTQDVAKITPADVVRAMVGREIGDLYPEKQRPEACSTTEVLRV    264
+
+DNAK_CHESB       177 -----------LAYGLDKKEGKTIAVYDLG-GGTFDISILEIGDGVFEVK    214
+                                :::.|.|.|       .|| .|.......||..||..::
+RBSA_RUEST       265 ENLCEAERFHDVSFSLHKGE-------ILGFAGLIGAGRSEIAKGVCALE    307
+
+DNAK_CHESB       215 -STNGDTFLGGEDFDMR--------LVNYLADEFKKEQGIDLKNDKLALQ    255
+                      ...|..:|.||...:|        .:.||::: :|..|:.|        
+RBSA_RUEST       308 GQVTGRLWLNGEPLALRDYQDSIDAGIVYLSED-RKGDGVFL--------    348
+
+DNAK_CHESB       256 RLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLVE    305
+                                ::|.:|    |:..:..:|...   |:.|.:...|....
+RBSA_RUEST       349 -----------DMSIAS----NVSALKVEQVAS---ALGLIQPGREIEQA    380
+
+DNAK_CHESB       306 DLVTRTIEPCRAALKD--AGLSAGEIDEVVLVGGMTRMPKVQETVKNFFG    353
+                     |.:.|.:......|:|  :.||.|...:|.|...::..|::      .|.
+RBSA_RUEST       381 DRLGRKLNLKCGTLQDPVSSLSGGNQQKVALAKMLSVNPRL------IFL    424
+
+DNAK_CHESB       354 KEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETLGGVF    403
+                     .||.:||:      :||  :|.:.:      :|.|:.....||..:....
+RBSA_RUEST       425 DEPTRGVD------VGA--KAEIYR------ILRDLAEEGAGIVVISSEL    460
+
+DNAK_CHESB       404 TRLI    407
+                     ..||
+RBSA_RUEST       461 PELI    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:     8/23 (34.8%)
+# Gaps:          11/23 (47.8%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       177 LAYGLDKKEGKTIAVYDLGGGTF    199
+                     |.||           |..|.|:|
+KR195_HUMAN       21 LGYG-----------YGCGCGSF     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      38/184 (20.7%)
+# Similarity:    64/184 (34.8%)
+# Gaps:          45/184 (24.5%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       158 GKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIG    207
+                     ||.||.....::...|.||:.....|...|.:.      |.|        
+UPPP_CORDI        44 GKDAGASFTAVVQLGTEAAVLVYFAKDIAKILT------GWF--------     79
+
+DNAK_CHESB       208 DGVFEVKSTNGDTFLGG----EDFDMRLVNYLADEFKKEQGIDLKNDKLA    253
+                     .|:|:.|....|..:|.    ....:.:|..||.:..::   :|:|    
+UPPP_CORDI        80 RGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRD---NLRN----    122
+
+DNAK_CHESB       254 LQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESL    303
+                                 :.:::|.....:..||.|::.|.|       |..|:.|
+UPPP_CORDI       123 ------------MWITASVLIAFSFVFIAAEKWGSK-------RRSFDQL    153
+
+DNAK_CHESB       304 -VEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVG    336
+                      :.|.|......|.|.:.....|.|.:...:.||
+UPPP_CORDI       154 TMRDAVIMGCAQCLALIPGVSRSGGTVSAGLFVG    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      33/139 (23.7%)
+# Similarity:    56/139 (40.3%)
+# Gaps:          44/139 (31.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       295 LTRAKFESLVEDL----------VTRTIEPCRAALKDAGLSAG-------    327
+                     :||..:|.|.::|          ||:.: ...|:|.|...:|.       
+GREB_ECO57         6 VTREGYEKLKQELNYLWREERPEVTKKV-TWAASLGDRSENADYQYNKKR     54
+
+DNAK_CHESB       328 --EIDEVV--LVGGMTRMPKV----QETVKNFFGK----EPHKGVNP---    362
+                       |||..|  |...|..:..|    |:..|.|||.    |...||..   
+GREB_ECO57        55 LREIDRRVRYLTKCMENLKIVDYSPQQEGKVFFGAWVEIENDDGVTHRFR    104
+
+DNAK_CHESB       363 ----DEV------VAMGAAIQAGVLQGDVKDVLLLDVTP    391
+                         ||:      :::.:.:...:|:.:|.|:.::: ||
+GREB_ECO57       105 IVGYDEIFGRKDYISIDSPMARALLKKEVGDLAVVN-TP    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      50/206 (24.3%)
+# Similarity:    76/206 (36.9%)
+# Gaps:          78/206 (37.9%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       316 RAALKDAG----LSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVN    361
+                     |..|.|:|    .|.||            |.|:.|....|...     ||
+TGT_LEPCP         85 RPILTDSGGFQVWSLGE------------MRKISEEGVRFASP-----VN    117
+
+DNAK_CHESB       362 PDEV-----VAMGAAIQAGVLQGDVKDVLLLD-VTPLSLGIETLGGVFTR    405
+                     .|::     |:|  .||. ||..|:  |:..| .||...|.:.:|.:.|.
+TGT_LEPCP        118 GDKLFLTPEVSM--QIQT-VLNSDI--VMQFDECTPYWQGAKNVGHITTE    162
+
+DNAK_CHESB       406 LIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLGQFDLV    455
+                               |:::|       ...:::|       .||.:|  .:|..:
+TGT_LEPCP        163 ----------KEARV-------SMELSLR-------WAARSK--AEFARL    186
+
+DNAK_CHESB       456 GIPPAPRGMPQ---------------IEVTFDIDANGIVNVSAKDKGTGK    490
+                     |.|.|..|:.|               :|:.|...|.|.|:|     |..|
+TGT_LEPCP        187 GNPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGVSV-----GEPK    231
+
+DNAK_CHESB       491 EQQIRI    496
+                     ::.:||
+TGT_LEPCP        232 DEMLRI    237
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      21/92 (22.8%)
+# Similarity:    39/92 (42.4%)
+# Gaps:          27/92 (29.3%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        88 LVPYKIVKADNGDAWVESHGTKYSPSQISAMILQ-KMKETAESYLGEKVE    136
+                     |.|.:|...:.|:.              ||::|: ::.:.|...||..:.
+CBPQ_HUMAN       105 LEPVRIPHWERGEE--------------SAVMLEPRIHKIAILGLGSSIG    140
+
+DNAK_CHESB       137 ------KAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEP    172
+                           .|.:.|...|::.||:|::..|||.      :.|:|
+CBPQ_HUMAN       141 TPPEGITAEVLVVTSFDELQRRASEARGKIV------VYNQP    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      51/245 (20.8%)
+# Similarity:    84/245 (34.3%)
+# Gaps:          47/245 (19.2%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        63 ENTFFAIKRL----IGRRFEDPMVEKDKKLVPYKIVKADNGDAWVESHGT    108
+                     |..|.|:|..    ||.|.:|.:.....|.||.|::  ||.........|
+PSA6_SOYBN        26 EYAFKAVKAAGITSIGVRGKDSICVVTHKKVPDKLL--DNTSVTHLFPIT     73
+
+DNAK_CHESB       109 KY-------SPSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQR    151
+                     ||       ..:....::.|...|.||.......|..|..:..:..|..:
+PSA6_SOYBN        74 KYLGLLATGMTADARTLVQQARNEAAEFRFTYGYEMPVDVLAKWIADKSQ    123
+
+DNAK_CHESB       152 QATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDI    201
+                     ..|:.|       .:|.:.   ..|:..|:|.:.|..:...|..|..|..
+PSA6_SOYBN       124 VYTQHA-------YMRPLG---VVAMVLGIDDEYGPQLYKCDPAGHYFGH    163
+
+DNAK_CHESB       202 SILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGI----DL    247
+                     .....|     :|             |...:|:|..:.|.:...    .:
+PSA6_SOYBN       164 KATSAG-----LK-------------DQEAINFLEKKMKNDPSFTYEETV    195
+
+DNAK_CHESB       248 KNDKLALQR-LKEAAEKAKIELSSSSQTEINLPFITADQTGPKHL    291
+                     :....|||. |:|..:..:||:....:.......:|.|:. .:||
+PSA6_SOYBN       196 QTAISALQSVLQEDFKATEIEVGVVRKDNPEFRVLTTDEI-DEHL    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 391
+# Identity:      84/391 (21.5%)
+# Similarity:   136/391 (34.8%)
+# Gaps:         114/391 (29.2%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        79 DPMVEKDK-------KLVPYKIVKADNGDAWVESHGTKYSPSQI-SAMIL    120
+                     |||.::..       |.|...:::..|||         |..|.. .::.|
+SCL34_ARATH       24 DPMEDQYPPPSDTLLKYVSEILMEESNGD---------YKQSMFYDSLAL     64
+
+DNAK_CHESB       121 QKMKETAESYLGEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIIN    170
+                     :|.:|..:.         |||      |:|.|:...|..:       |.|
+SCL34_ARATH       65 RKTEEMLQQ---------VIT------DSQNQSFSPADSL-------ITN     92
+
+DNAK_CHESB       171 EPTAAA----LAYGLDKKEGKTIAVYDLGGGTFDISILEIGDGVFEVKS-    215
+                     ...|:.    .||..|.:....|.|..:....  .|.|:...||.|... 
+SCL34_ARATH       93 SWDASGSIDESAYSADPQPVNEIMVKSMFSDA--ESALQFKKGVEEASKF    140
+
+DNAK_CHESB       216 -TNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKA    264
+                      .|.|.::...|.:.   :...|..|:|.|:|       ..|:|:..|:.
+SCL34_ARATH      141 LPNSDQWVINLDIER---SERRDSVKEEMGLD-------QLRVKKNHERD    180
+
+DNAK_CHESB       265 KIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEP    314
+                     ..|:.||.|...|:.                     :|.|.|:..:.:  
+SCL34_ARATH      181 FEEVRSSKQFASNVE---------------------DSKVTDMFDKVL--    207
+
+DNAK_CHESB       315 CRAALKDAGLSAGEIDEVVLVGGMTRMPKVQ--ETVKNFFGKEPHKGVNP    362
+                              |..||.|...|:..     ::|  .:.||...|...|....
+SCL34_ARATH      208 ---------LLDGECDPQTLLDS-----EIQAIRSSKNIGEKGKKKKKKK    243
+
+DNAK_CHESB       363 DEVVAMGAAI----QAGVLQGDVKDVL--LLDV----TPLSLGIETLGGV    402
+                     .:||.....:    || :..||....|  ||.:    :||....:.|...
+SCL34_ARATH      244 SQVVDFRTLLTHCAQA-ISTGDKTTALEFLLQIRQQSSPLGDAGQRLAHC    292
+
+DNAK_CHESB       403 FTRLID---RNTT---IPTKKSQVFSTAEDNQNAVTIRVFQ    437
+                     |...::   :.:|   |.|..:.:.|:.:|.. |.|||.::
+SCL34_ARATH      293 FANALEARLQGSTGPMIQTYYNALTSSLKDTA-ADTIRAYR    332
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      33/144 (22.9%)
+# Similarity:    54/144 (37.5%)
+# Gaps:          57/144 (39.6%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        59 VTNPENTFFAIK------RLIG---RRFEDPMVEKDKKLVPYKIVKADNG     99
+                     :.|.|.||.|||      .|:|   :|||    :|..:|:..|:::|  .
+NDKA_CANLF         1 MANSERTFIAIKPDGVQRSLVGEIIKRFE----QKGFRLIAMKLIQA--S     44
+
+DNAK_CHESB       100 DAWVESHG------------TKYSPS-QISAMILQKMK--ETAESYLGEK    134
+                     :..::.|.            .||..| .:.||:.:.:.  :|....||| 
+NDKA_CANLF        45 EDLLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGE-     93
+
+DNAK_CHESB       135 VEKAVITVPA--------------------YFNDAQRQATKDAG    158
+                           |.||                    :.:|:...|.|:.|
+NDKA_CANLF        94 ------TNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIG    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      34/200 (17.0%)
+# Similarity:    65/200 (32.5%)
+# Gaps:          58/200 (29.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       156 DAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILE    205
+                     :|.||....|:|:                :||....:....|..|:..:|
+RS4_CAEEL         59 EAKKILTQRVVRV----------------DGKVRTCHKFPTGFMDVVAIE     92
+
+DNAK_CHESB       206 IGDGVFE-VKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLAL    254
+                     ..:..|. :..|.|              .|:....:..:. |.|..|:..
+RS4_CAEEL         93 RTNEYFRMLYDTKG--------------RYVVHRIQAAEA-DFKLCKVKS    127
+
+DNAK_CHESB       255 QRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLV    304
+                     .|   ...|....|:::....|..|        ..|:.:.      :::|
+RS4_CAEEL        128 VR---TVNKGVPVLTTTDGRTIRYP--------DPHVKVN------DTIV    160
+
+DNAK_CHESB       305 EDLVTRTI------EPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETV    348
+                     .::.|:.|      ||...|....|.:.|.:.   ::|...|:|...:.:
+RS4_CAEEL        161 FNISTQKITDSVKFEPGNLAYVTGGRNVGRVG---IIGHRERLPGASDII    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      25/99 (25.3%)
+# Similarity:    45/99 (45.5%)
+# Gaps:          20/99 (20.2%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       232 VNYLADEFK---KEQGID---LKNDKLAL---QRLKEAAEKAKIELSSSS    272
+                     |.:||:|.|   :||.|.   .|..::.:   |:.:|..|||:.:....:
+G45IP_CHLAE      105 VKHLAEEQKRREREQHIAECMAKMPQMIVNWQQQQRERWEKAQADKERRA    154
+
+DNAK_CHESB       273 QTEINLPFITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKD    321
+                     :.:.....:...|..||       .|:|:.|::||..:.    |..||:
+G45IP_CHLAE      155 RLQAEAQELLGYQVNPK-------SARFQELLQDLEKKE----RKRLKE    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 414
+# Identity:      73/414 (17.6%)
+# Similarity:   138/414 (33.3%)
+# Gaps:         122/414 (29.5%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       117 AMILQKMKETAESYLGEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVL    166
+                     |.:|:::.|.|...:..|.....|.|..:.....|:....| .|.||.:|
+DAPEL_OCEIH       27 AYLLERINEIATENVEIKKWSTGILVYVHGKSPARKIGFRA-DIDGLPIL     75
+
+DNAK_CHESB       167 RIINEPTAAALAYGLDKKEGKTIAV-YDLGGGTFDISILE------IGDG    209
+                     ...|.|.|:.       .||:..|. :|| ..|..:..||      |.|.
+DAPEL_OCEIH       76 EQTNLPYASL-------HEGRMHACGHDL-HMTIALGALEKLIQDPINDD    117
+
+DNAK_CHESB       210 VF------EVKSTNGDTFLGGEDF-----DMRLVNYLADEFKKEQGIDLK    248
+                     |.      |.........|..|:|     ||....::|.|..        
+DAPEL_OCEIH      118 VIFVFQPAEEGPGGAKPMLESEEFQQWKPDMMFALHIAPELP--------    159
+
+DNAK_CHESB       249 NDKLALQRLKEAAEKAKIELSSSSQTEINL---------PFITADQTGPK    289
+                             :...:.||.:..:::|:..|:.         |.:|.|.|   
+DAPEL_OCEIH      160 --------VGTVSSKAGLLFANTSELFIDFEGVGGHAAYPHLTKDMT---    198
+
+DNAK_CHESB       290 HLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMT    339
+                          :..:.|...::.:|:|.:.|    |..:.::.|:::...:...:.
+DAPEL_OCEIH      199 -----VAASNFVVQLQQIVSRGLNP----LDGSVITIGKMESGYVQNAIA    239
+
+DNAK_CHESB       340 RMPKVQETVKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDV    389
+                     ...:::.|:::                          ...|..|::...:
+DAPEL_OCEIH      240 ETARLEGTIRS--------------------------TDADAIDMIKSKL    263
+
+DNAK_CHESB       390 TPLSLGIE----------------------TLGGVFTRLIDRNTTIPTKK    417
+                     ..|..|.|                      |....|..:|::..||..::
+DAPEL_OCEIH      264 NRLMKGFEISYDCTIKVDYGANYYQVVNDATYVQQFENVINQTQTITYQQ    313
+
+DNAK_CHESB       418 SQVFSTAEDNQNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQI    467
+                     :....|.||..:.:        :|:......||.....|:..| |..|: 
+DAPEL_OCEIH      314 ADAAMTGEDFGDML--------KEIPGFMFWLGVDSSYGLHNA-RLNPK-    353
+
+DNAK_CHESB       468 EVTFDIDANGIVNV    481
+                     |...|:..|.::::
+DAPEL_OCEIH      354 EEAIDVGVNAVISM    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      55/215 (25.6%)
+# Similarity:    83/215 (38.6%)
+# Gaps:          65/215 (30.2%)
+# Score: 71.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       454 LVGIPPAPRGMPQIEVTFDIDANGIVNVSAKD-------KGT--GKEQQI    494
+                     |:|.|.|.:|.....:   :...||..:|..|       .||  |.|.:.
+KAD_METRJ          5 LLGPPGAGKGTQSERI---VQRFGIPQLSTGDMLRAAVAAGTPVGLEAKA     51
+
+DNAK_CHESB       495 RIQASGGLSDAEIEKMVKDAEANAEADKKR-------RETVEVKNQAEAL    537
+                     .:::.|.:||..:..:|  |:...|.|.:|       ..||.   |||||
+KAD_METRJ         52 VMESGGLVSDRIVVGIV--ADRIEEPDARRGFILDGFPRTVA---QAEAL     96
+
+DNAK_CHESB       538 IHSTEKSLKDYGDKVSEDDRKAIE-NAIAELKTATEGEDADAIRAKTTAL    586
+                                |:.::.   |.:. :|:.|||.     |.:|:..:....
+KAD_METRJ         97 -----------GEMLAS---KGLSLSAVVELKV-----DENALVGRIEKR    127
+
+DNAK_CHESB       587 AEASMKLGQAV------------YEASQAEN-------AAGGTEET--GG    615
+                     |..::..||||            .||.:|:.       |..||.||  |.
+KAD_METRJ        128 AAETLARGQAVRKDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLETVDGM    177
+
+DNAK_CHESB       616 AKDDVVDADFEEIDE    630
+                     ...|.|.||...:.|
+KAD_METRJ        178 QPIDKVTADLMAVLE    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      32/101 (31.7%)
+# Similarity:    38/101 (37.6%)
+# Gaps:          35/101 (34.7%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       316 RAALK--DAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVNPD    363
+                     :||.|  .|||..|.|..   |||:                    ||:..
+ELN_BOVIN        105 KAAAKAGAAGLGVGGIGG---VGGL--------------------GVSTG    131
+
+DNAK_CHESB       364 EVV-AMGAAIQAGVLQGDVKDVLLLDVTPLSL---------GIETLGGVF    403
+                     .|| .:||.:.|||..|.|..|.|..|.|..:         ||..|.||.
+ELN_BOVIN        132 AVVPQLGAGVGAGVKPGKVPGVGLPGVYPGGVLPGAGARFPGIGVLPGVP    181
+
+DNAK_CHESB       404 T    404
+                     |
+ELN_BOVIN        182 T    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      40/203 (19.7%)
+# Similarity:    68/203 (33.5%)
+# Gaps:          93/203 (45.8%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       108 TKYS--------PSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDA    149
+                     |:|:        ||:.||..|:|....:|.|:.|.    ::.:..:|.  
+ASIC2_MOUSE      367 TRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISEN----ILVLDIFFE--    410
+
+DNAK_CHESB       150 QRQATKDAGKIAGLEVLRIINEPTAAALAY-GLDKKEGKTIAVY--DLGG    196
+                                               ||.| .:::|:...:|..  |:||
+ASIC2_MOUSE      411 --------------------------ALNYETIEQKKAYEVAALLGDIGG    434
+
+DNAK_CHESB       197 ------GTFDISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFK    240
+                           |...::|||:.|.::|:                          .
+ASIC2_MOUSE      435 QMGLFIGASILTILELFDYIYEL--------------------------I    458
+
+DNAK_CHESB       241 KEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQT----------EINLPF    280
+                     ||:.:||..        ||..|.:..|..|:..|          .:|:|.
+ASIC2_MOUSE      459 KEKLLDLLG--------KEEEEGSHDENMSTCDTMPNHSETISHTVNVPL    500
+
+DNAK_CHESB       281 ITA    283
+                     .||
+ASIC2_MOUSE      501 QTA    503
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      20/76 (26.3%)
+# Similarity:    30/76 (39.5%)
+# Gaps:          22/76 (28.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       197 GTFDISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGID    246
+                     |...::|..||:.|:::..|               :|| .:||..|....
+DOXA1_XENTR      102 GLKGVNITLIGNPVYQLNET---------------INY-NEEFAWESANQ    135
+
+DNAK_CHESB       247 L-KNDKLALQR-----LKEAAEKAKI    266
+                     . ||.|..|:|     :...|||..|
+DOXA1_XENTR      136 FDKNYKDGLERGLPYPILYVAEKFTI    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      25/92 (27.2%)
+# Similarity:    40/92 (43.5%)
+# Gaps:          18/92 (19.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       505 AEIEKMVKDAEANAEADKKRRETVEVKNQAEALIHSTEKSLKDYGDKVSE    554
+                     |.|:..:|.||.|.:|::        ||.|:.....|  ::|.:....||
+RS20_STRPB         7 ANIKSAIKRAELNVKANE--------KNSAQKSAMRT--AIKAFEANPSE     46
+
+DNAK_CHESB       555 DDRKAIENAI--AELKTATEGEDADAIRAKTTALAEASMKLG    594
+                     :..:|..::|  ||.|.......|...:|:..|      |||
+RS20_STRPB        47 ELFRAASSSIDKAESKGLIHKNKASRDKARLAA------KLG     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      52/220 (23.6%)
+# Similarity:    82/220 (37.3%)
+# Gaps:          63/220 (28.6%)
+# Score: 82.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       423 TAEDNQNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFD    472
+                     |||.......:|..:.|.|:.:..|.:               .|||...|
+TPM_HAELO         24 TAEQQSRDAALRAEKAEEEVRSLQKKI---------------QQIENELD     58
+
+DNAK_CHESB       473 IDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADK    522
+                                      :.|:...||:..|.  |.:|.::.|||...|..
+TPM_HAELO         59 -----------------QVQEQLSQANSKLE--EKDKALQAAEAEVAAHN     89
+
+DNAK_CHESB       523 KRRETVE--VKNQAEALIHSTEKSLKDYGDKVSEDD--RKAIENAI----    564
+                     :|.:.:|  ::...|.|..:|:| |::......|.:  ||.:|:..    
+TPM_HAELO         90 RRIQLLEEDLERSEERLKIATQK-LEEASQAADESERMRKMLEHRSITDE    138
+
+DNAK_CHESB       565 -------AELKTA-TEGEDADAIRAKTTALAEASMKLGQAVYEASQAENA    606
+                            .:||.| |..||||      ....|.:.||.....:..:||..
+TPM_HAELO        139 ERMDGLEGQLKEARTMAEDAD------RKYDEVARKLAMVEADLERAEER    182
+
+DNAK_CHESB       607 AGGTEETGGAKDDVVDADFE    626
+                     |    |||..|  :|:.:.|
+TPM_HAELO        183 A----ETGETK--IVELEEE    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 426
+# Identity:      92/426 (21.6%)
+# Similarity:   147/426 (34.5%)
+# Gaps:         124/426 (29.1%)
+# Score: 75.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       281 ITADQTGPKHLAIKLTRAK----FESLVEDLVTRTIEPCRAALKDAGLSA    326
+                     |.|:...|.| .:..|||:    .||:.:::....::.......|.|:..
+LEUC_XANOM        55 IDANIATPDH-NVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFGILE    103
+
+DNAK_CHESB       327 GEIDE-----VVLVG--------GMTRMPKVQET-VKNFFGKEPHKGVNP    362
+                     .::::     |.:||        |||.:.....| ....||...| |:..
+LEUC_XANOM       104 FKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAH-GIGT    152
+
+DNAK_CHESB       363 DE---VVAMGAAIQAGV--LQGDVKDVLLLDVTPLSLGIETLGGVFTRLI    407
+                     .|   |:|....|...:  ||..|:..|...||...:.:..:|.:     
+LEUC_XANOM       153 SEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKI-----    197
+
+DNAK_CHESB       408 DRNTTIPTKKSQVFSTAEDNQNAV-----TIRVFQGEREM----------    442
+                                   .||..|.:|:     .||....|..|          
+LEUC_XANOM       198 --------------GTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAG    233
+
+DNAK_CHESB       443 ------AADNKLLGQFDLVGIPPAPRGMP-------QIEVTFDIDA--NG    477
+                           |.|.|.:..  :.|.|.||:|..       ...:..|.||  :.
+LEUC_XANOM       234 ARVGMVAVDEKTIAY--VKGRPFAPKGADWDAAVALWSTLVSDPDAHFDT    281
+
+DNAK_CHESB       478 IVNVSAKDKGTGKEQQIRIQASGGLSD---AEIEKMVKDAEANAEADKKR    524
+                     :|.:.|:|        |:.|.|.|.|.   ..|::.|.|..  .|.|..:
+LEUC_XANOM       282 VVELHAED--------IKPQVSWGTSPEMVLAIDQHVPDPA--TEQDPTK    321
+
+DNAK_CHESB       525 RETVE--------VKNQA-------EALIHS-TEKSLKDY--------GD    550
+                     |.::|        ..|||       ...|.| |...::|.        |.
+LEUC_XANOM       322 RNSIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGR    371
+
+DNAK_CHESB       551 KVSEDDRKAI---ENAIAELKTATEGEDADAIRAK--------TTALAEA    589
+                     ||:...::|:   .:.:.:.:...||.|...:.|.        :..||..
+LEUC_XANOM       372 KVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMN    421
+
+DNAK_CHESB       590 SMKLGQAVYEASQAENAAGGTEETGG    615
+                     ..|||...:.||.:.....|.:..||
+LEUC_XANOM       422 PDKLGSGEHCASTSNRNFEGRQGAGG    447
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:     7/19 (36.8%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       558 KAIENAIAELKTATEGEDA    576
+                     |.|...|....|.|.|..|
+LPT_ESCF3          2 KRISTTITTTITITTGNGA     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      28/154 (18.2%)
+# Similarity:    51/154 (33.1%)
+# Gaps:          49/154 (31.8%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       117 AMILQKMKETAESYLGEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVL    166
+                     |:.::::||       |..:..|:.:....:     |.|:|..:.....:
+RL7_THET8          2 ALDIERIKE-------ELSQATVLELKQLID-----ALKEAWGVTAAAPV     39
+
+DNAK_CHESB       167 RIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIGDGVFEVKST    216
+                     .:...|.|.|.|...::|.            .||:.:.|.|....||   
+RL7_THET8         40 AVAAAPAAGAAAAPAEEKT------------EFDVILKEAGAKKLEV---     74
+
+DNAK_CHESB       217 NGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQR---LKEAAEK    263
+                                        ..|.:...|:.||..|...::   :||...|
+RL7_THET8         75 -------------------IKELRAITGLGLKEAKDLAEKGGPVKEGVSK    105
+
+DNAK_CHESB       264 AKIE    267
+                     .:.|
+RL7_THET8        106 QEAE    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      50/235 (21.3%)
+# Similarity:    91/235 (38.7%)
+# Gaps:          55/235 (23.4%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       152 QATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEG-KTIAVY--------    192
+                     ||.::||.: |..:.::.:...|||.....|...| ..::|.        
+HEM1_METCA       124 QAAREAGTV-GKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQ    172
+
+DNAK_CHESB       193 ----DLGGGTFDISILEIGDG-VFEVKSTN------GDTFLGGEDFDMRL    231
+                         |||    |::.:.:|.| ..|:.:.:      |...:....||.  
+HEM1_METCA       173 RIFDDLG----DLTAILVGAGETIELTARHLTENRIGHLIIANRTFDR--    216
+
+DNAK_CHESB       232 VNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFI    281
+                     .:.||::|        ....::|:.|.:...||.|.::|:...   ||.:
+HEM1_METCA       217 AHTLANQF--------GGFAISLEELPKHLAKADIIVASTGSP---LPIL    255
+
+DNAK_CHESB       282 TADQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDE    331
+                        ..|....|::..|.|...:|:..|.|.|||....|:|..|..  :|:
+HEM1_METCA       256 ---GKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYT--VDD    300
+
+DNAK_CHESB       332 VVLVGGMTRMPKVQETVKNFFGKEPHKGVNPDEVV    366
+                                 :|.||:..........:..:|::
+HEM1_METCA       301 ------------LQHTVEENLKTRQEAALQAEEII    323
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 508
+# Identity:     100/508 (19.7%)
+# Similarity:   160/508 (31.5%)
+# Gaps:         199/508 (39.2%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+DNAK_CHESB         5 IGIDLGTTNSCVAVMDGKDAKVIENAEGARTTPSIVAFTDSDERLVGQPA     54
+                     |||||||:        |..| ::.|.:|     .:|| :.:::..|.:|.
+XYLB_KLEPN         3 IGIDLGTS--------GVKA-ILLNEQG-----EVVA-SHTEKLTVSRPH     37
+
+DNAK_CHESB        55 KRQAVTNPENTFFA----------------IKRL--IGRRFEDPMVEKDK     86
+                     ...:..:||..:.|                :|.|  .|:.....:::|..
+XYLB_KLEPN        38 PLWSEQDPEQWWLATDTAMKALGAHDSLRHVKGLGIAGQMHGATLLDKSL     87
+
+DNAK_CHESB        87 KLVPYKIVKADNGDA-------------------------------WVES    105
+                     :::...|:..|...|                               ||:.
+XYLB_KLEPN        88 QVLRPAILWNDGRCAEECQLLEDKVSASRQITGNLMMPGFTAPKLLWVQR    137
+
+DNAK_CHESB       106 HGTKYSPSQISAMILQK----MKETAESYLGEKVEKAVITVPAYFNDAQR    151
+                     |..... ||:..::|.|    ::.|.|  |...:..|..|:  :.:.|:|
+XYLB_KLEPN       138 HEAAVF-SQVDKVLLPKDYLRLRMTGE--LASDMSDAAGTM--WLDVARR    182
+
+DNAK_CHESB       152 ----------QATKDA-------GKIAGL---EVLRIINEPTAAALAYGL    181
+                               ..::||       ..:.|.   ||.:..|.|.|..:..|.
+XYLB_KLEPN       183 DWSDEMLAACDLSRDAMPALFEGSDVTGQLRPEVAQAWNMPPALVVGGGG    232
+
+DNAK_CHESB       182 DKKEGKT-IAVYDLGGGTFDISILEIGDGVFEVKSTNGDTFLGGEDFDMR    230
+                     |...|.. |.:.|.|.     ::|.:|        |:|..|...|.|   
+XYLB_KLEPN       233 DNAAGAVGIGMADAGQ-----AMLSLG--------TSGVYFAVSEGF---    266
+
+DNAK_CHESB       231 LVNYLADEFKKEQGIDLKNDKLALQRLKEAA----EKAKIELSSSSQTEI    276
+                                     |...:.|:.....|.    ....:.||::|..: 
+XYLB_KLEPN       267 ----------------LSKPESAVHSFCHACRGRWHLMSVMLSAASCLD-    299
+
+DNAK_CHESB       277 NLPFITADQTGPKHLAIKLT-RAKFESLVEDLVTRTIEPCRAALKDAGLS    325
+                                   .|.||| .|...:|:            ||.:.|..|
+XYLB_KLEPN       300 --------------WAAKLTGLASVPALI------------AAAQTADES    323
+
+DNAK_CHESB       326 AGEIDEVVLVGGMTRMPKVQETVKN-FFGKEPHKGVNPDEVVAMGAAIQA    374
+                     ||.:..:..:.| .|.|......|. |||.....|         .|.:..
+XYLB_KLEPN       324 AGPVWFLPYLSG-ERTPHNNPQAKGVFFGLTHQHG---------PAELAR    363
+
+DNAK_CHESB       375 GVLQG------DVKDV------------------------LLLDVTPLSL    394
+                     .||:|      |..||                        :|.|::.|.|
+XYLB_KLEPN       364 AVLEGVGYALADGMDVVHACAIKPEAITLIGGGRARYWRQMLADISGLQL    413
+
+DNAK_CHESB       395 GIETLGGV    402
+                     ...|.|.|
+XYLB_KLEPN       414 DYRTGGDV    421
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      37/158 (23.4%)
+# Similarity:    61/158 (38.6%)
+# Gaps:          53/158 (33.5%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       253 ALQRL----KEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRA    298
+                     ||.||    ..:|.:|.:.|....:|.  ||          .|...||:.
+RECR_NOVAD        12 ALARLPGLGPRSARRAVLWLIKRRETA--LP----------QLLNALTQV     49
+
+DNAK_CHESB       299 KFESLVEDLVTRTIE---PCRAALKDAGL---------SAGEIDEVVLVG    336
+                     : |.|||..|...::   ||       |:         |...::||..:.
+RECR_NOVAD        50 Q-ELLVECGVCGNVDTSNPC-------GICTDHRRDQRSICVVEEVADLW     91
+
+DNAK_CHESB       337 GMTRMPKVQETVKNFFGK--------EPHKGVNPDEVVAMGAAIQAGVLQ    378
+                     .:.|       .:.|.||        ...:||.|:: :.:|:.:.. |.|
+RECR_NOVAD        92 ALDR-------ARLFTGKYHVLGGRLSALEGVRPED-LTIGSLLDR-VAQ    132
+
+DNAK_CHESB       379 GDVKDVLL    386
+                     |.:.:|:|
+RECR_NOVAD       133 GGIDEVVL    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      42/221 (19.0%)
+# Similarity:    71/221 (32.1%)
+# Gaps:          82/221 (37.1%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       284 DQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVV    333
+                     ||:|..|..         ||.:.|..|.:...|.|:|      |...:.|
+SURE_METNO        38 DQSGVSHSL---------SLNDPLRLRRVAETRFAVK------GTPSDCV     72
+
+DNAK_CHESB       334 LVGGMTRMPKVQETVKNFFGKEP-------HKGVNPDEVVAMGAAIQAGV    376
+                     ::|       |:..:|.   :.|       ::|.|..|.|.....: ||.
+SURE_METNO        73 IMG-------VRHILKE---RGPDLVLSGVNRGQNVAEDVTYSGTV-AGA    111
+
+DNAK_CHESB       377 LQGDVKDVLLLDVTP--------------------------LSLGIETLG    400
+                     ::|.:..|..:.::.                          |..|||.  
+SURE_METNO       112 MEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEP--    159
+
+DNAK_CHESB       401 GVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLG    450
+                     |:..     |...|..:.:.....     ||..:..:.::.:|.|.:|.|
+SURE_METNO       160 GILV-----NVNFPDCEPEAVEGI-----AVVAQGMRNQQLLAIDERLDG    199
+
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIEVTF    471
+                                ||.|...:.|
+SURE_METNO       200 -----------RGNPYFWLAF    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       394 LGIETLGGVF    403
+                     ||::.|.|:|
+CYB_ARTIO         41 LGVQILTGLF     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 224
+# Identity:      53/224 (23.7%)
+# Similarity:    75/224 (33.5%)
+# Gaps:          82/224 (36.6%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       289 KHLAIKLTRAKFESLVEDL----VTRTIEPCRAALKDAGLSAGEI-----    329
+                     |...|||..|......:|:    ...|.|.|.:.:..||.:..|:     
+IOLE_BACHK         3 KENTIKLGIAPIAWTNDDMPELGAENTFEQCISEMALAGFNGSEVGNKYP     52
+
+DNAK_CHESB       330 -DEVVLVGG----------------MTRMPKVQETVKNFFGKEPHKGVNP    362
+                      :.|||...                :|..| ::|||:.|.   .|:    
+IOLE_BACHK        53 RNTVVLKKSLELRNLEIASAWFSTFLTTKP-IEETVEEFI---KHR----     94
+
+DNAK_CHESB       363 DEVVAMGAAI-----QAGVLQGDVKDVLLLDVTP---------LSLGIET    398
+                     |.:..|||.:     |...:|| :.||.|....|         |:.|:..
+IOLE_BACHK        95 DFLHGMGAKVIVVSEQGHSIQG-LMDVPLFKNKPVFTEEEWEKLADGLHH    143
+
+DNAK_CHESB       399 LG------------------GVFT-----RLIDRNTTIPTKKSQVFSTAE    425
+                     ||                  ||.|     :|:|  .|.|...|.:|.|..
+IOLE_BACHK       144 LGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMD--MTDPALVSLLFDTGH    191
+
+DNAK_CHESB       426 DNQNAVTIRVFQGEREMAADNKLL    449
+                             .||.||..:....|.|
+IOLE_BACHK       192 --------LVFSGEEPLYILKKYL    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 425
+# Identity:      94/425 (22.1%)
+# Similarity:   151/425 (35.5%)
+# Gaps:         150/425 (35.3%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        19 MDGKDAKVIENAEGARTTPSIVAFTDSDERLVGQPAKRQAVTNPENT--F     66
+                     :||...:|:   .|....|..||.||..|:.:.:.::...:.||.|.  .
+ACKA_STAAT        84 IDGTGHRVV---HGGEKFPESVAITDEVEKEIEELSELAPLHNPANLMGI    130
+
+DNAK_CHESB        67 FAIKRLI---------GRRFEDPMVEKDKKL-VPYKIVKADNGDAWVESH    106
+                     .|.::|:         ...|...|.||.... :||...| |.|......|
+ACKA_STAAT       131 RAFRKLLPNIPHVAIFDTAFHQTMPEKAYLYSLPYHYYK-DYGIRKYGFH    179
+
+DNAK_CHESB       107 GTKYS-PSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQRQATK    155
+                     ||.:. .||.:|.:|.|                                 
+ACKA_STAAT       180 GTSHKFVSQRAAEMLDK---------------------------------    196
+
+DNAK_CHESB       156 DAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILE    205
+                           .:|.||||:          .....|.:||..| ||.:.|.|:  
+ACKA_STAAT       197 ------PIEDLRIIS----------CHIGNGASIAAID-GGKSIDTSM--    227
+
+DNAK_CHESB       206 IGDGVFEVKSTNGDTFLGG-------EDFDMRLVNYLADEFKK--EQGID    246
+                                 |.|.|.|       .:.|..|:.::.::..|  ||.::
+ACKA_STAAT       228 ------------GFTPLAGVTMGTRSGNIDPALIPFIMEKTGKTAEQVLE    265
+
+DNAK_CHESB       247 LKNDKLAL-------QRLKEAAEKAKIELSSSSQTEINLPFITADQTGPK    289
+                     :.|.:..|       ..|::.:|:|:   |..:::::.|     |....|
+ACKA_STAAT       266 ILNKESGLLGLSGTSSDLRDLSEEAE---SGKARSQMAL-----DVFASK    307
+
+DNAK_CHESB       290 -HLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGL--SAGEIDEVVLVG    336
+                      |..|....|:...:  |::..|          ||:  ::.||...||.|
+ACKA_STAAT       308 IHKYIGSYAARMHGV--DVIVFT----------AGIGENSVEIRAKVLEG    345
+
+DNAK_CHESB       337 ----GMTRMPKVQETVKNFFGKE-----PHKGVNPDEVVAMGAAIQAGVL    377
+                         |:...||..|.:..  |||     ||   :|.:||         |:
+ACKA_STAAT       346 LEFMGVYWDPKKNENLLR--GKEGFINYPH---SPVKVV---------VI    381
+
+DNAK_CHESB       378 QGDVKDVLLLDVTPLSLGIETLGGV    402
+                     ..|.:.::..||.       |.||:
+ACKA_STAAT       382 PTDEESMIARDVM-------TFGGL    399
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 182
+# Identity:      45/182 (24.7%)
+# Similarity:    66/182 (36.3%)
+# Gaps:          54/182 (29.7%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       197 GTFDISILEIGDGVFEVKSTNGDTFLGG----EDFDMRLVNYLADEFKKE    242
+                     |..|:.|           ..:|||.:..    ||..:.|...:|    |.
+HIS7_BURTA        47 GLVDLDI-----------EAHGDTHIDDHHTVEDVGITLGQAVA----KA     81
+
+DNAK_CHESB       243 QGIDLKNDKLALQR-------LKEAAEKAKIELSSSSQTEINLPFITADQ    285
+                     .|     ||..::|       |.||..:..|:.|.....|.::||     
+HIS7_BURTA        82 VG-----DKKGIRRYGHSYVPLDEALSRVVIDFSGRPGLEFHVPF-----    121
+
+DNAK_CHESB       286 TGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLV    335
+                               |||:..:...||   :||..|..:..||::. .||.:..|
+HIS7_BURTA       122 ----------TRARIGTFDVDL---SIEFFRGFVNHAGVTL-HIDNLRGV    157
+
+DNAK_CHESB       336 GGMTRMPKVQETVKNFFGKEPHKGVNPDEVVA    367
+                     ....::    |||...||:.....|..||..|
+HIS7_BURTA       158 NAHHQL----ETVFKAFGRALRMAVELDERAA    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      31/134 (23.1%)
+# Similarity:    49/134 (36.6%)
+# Gaps:          28/134 (20.9%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        29 NAEGARTTPS-----------IVAFTDSDERLVGQPAKRQAVTNPENTFF     67
+                     |..|....|:           ||...:.|..|.....|:......:|...
+PTH_GEOLS         68 NLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGGHGGQNGLR    117
+
+DNAK_CHESB        68 AIKRLIGRRFEDPMVEKDKKLVPYKIVKADNGDAWVESH--GTKYSPS-Q    114
+                     :|..|:|:        .|...:...|.:..:||  |.:|  |....|. :
+PTH_GEOLS        118 SIMELLGK--------GDFVRLRLGIGRPPHGD--VTNHVLGVFTPPEME    157
+
+DNAK_CHESB       115 ISAMILQKMKETAESYLGEKVEKAVITVPAYFND    148
+                     |.|.:|....:..|:.|.|.|.||:    :.||:
+PTH_GEOLS        158 IFARVLDGALDMLETALDEGVPKAM----SLFNN    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:     100/514 (19.5%)
+# Similarity:   172/514 (33.5%)
+# Gaps:         147/514 (28.6%)
+# Score: 103.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       214 KSTNGDTFLGGEDFD------------MRLVNYLAD----EFKKEQGIDL    247
+                     ::.|.:.:|.....|            :||:|...|    ..:..:.:..
+TAF3_XENLA        99 ETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSS    148
+
+DNAK_CHESB       248 KNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTR    297
+                     .|.:.....|..|.:....:|..|...:|.|..::..|..|         
+TAF3_XENLA       149 INSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPP---------    189
+
+DNAK_CHESB       298 AKFESLVEDLVTRTIEPCRAALKDAGLSAGE---------IDEVVLVGGM    338
+                        .|..:.|:.:|        |..|.|.|:         |..|  :|..
+TAF3_XENLA       190 ---PSESKSLIPKT--------KSKGGSPGQKIKSPKATPISTV--IGSP    226
+
+DNAK_CHESB       339 TRMPK--VQETVKNFFGKEPHKGVNPD-EVVAMGAAIQAGVLQGDVKDVL    385
+                     .|.||  .:|.......|.|....:|. .:.|...||:...         
+TAF3_XENLA       227 IRSPKSGPKERKSPGCAKSPKSPKSPKVPLAAPPPAIKTET---------    267
+
+DNAK_CHESB       386 LLDVTPLSLGIETLGGVFTRL------IDR---NTTIPTKKSQVF-STAE    425
+                      .:.|||:...|.:|....::      :|.   |..||:||..:. :|.|
+TAF3_XENLA       268 -PNRTPLATLSEKIGRENIQIKQNQTPLDSDQLNVEIPSKKPSIADNTIE    316
+
+DNAK_CHESB       426 DNQNAVTIRVFQGER----EMAADNKLLGQFDLVGIPPAPRGMPQIEVTF    471
+                     |:.:||..|....:.    |.::.::..|:     :..:|:.:...|:| 
+TAF3_XENLA       317 DSIDAVIARACAEQEPDPFEFSSGSESEGE-----VFTSPKRLNISELT-    360
+
+DNAK_CHESB       472 DIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAE------------IEK    509
+                           ...|||.....||.....:.||||.|.::            |.|
+TAF3_XENLA       361 ------TPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINEVIRK    404
+
+DNAK_CHESB       510 MVKDAEANAEA------------------------DK-KRRETVEVKNQA    534
+                     :.::...|..|                        || |....||:|.:.
+TAF3_XENLA       405 VSQETPTNTPANNPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVELKKKT    454
+
+DNAK_CHESB       535 EALIHSTEKSLKD---------------YGDKVSEDDRKAIENAIAELKT    569
+                     :....:.:|..||               ..||..:.::...::.....|.
+TAF3_XENLA       455 KKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKVLWKD    504
+
+DNAK_CHESB       570 ATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETGGAKDD    619
+                     :.:.||::..|.|.....|...|       :.|.||.  |.::....||.
+TAF3_XENLA       505 SNKDEDSELHRFKLKDFNEIDSK-------SKQKENC--GKKDKEKHKDK    545
+
+DNAK_CHESB       620 VVDADFEEIDEDDK    633
+                     ..|.:..:.|:|.|
+TAF3_XENLA       546 KKDKEKGKKDKDKK    559
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      49/202 (24.3%)
+# Similarity:    76/202 (37.6%)
+# Gaps:          44/202 (21.8%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       385 LLLDVTPLSLGIETLGGVFTRLIDRNTTIPTKKSQVFSTAED-NQNAVTI    433
+                     |.:|.:.|:|..|  .|:|.|.:.|...         :|.|: .||..||
+DNLJ_CROS5       119 LKIDGSALALTYE--NGLFVRGVTRGDG---------TTGEEITQNVRTI    157
+
+DNAK_CHESB       434 RVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVT----FDIDANGIV    479
+                     |..  ..::..||           ||     |.:||.    ..:|....:
+DNLJ_CROS5       158 RSI--PLKLNIDN-----------PP-----PIVEVRGEAFLPLDEFDRI    189
+
+DNAK_CHESB       480 NVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKRRETVE    529
+                     |...::||.......|..|:|.|...: .|:|........|.....|..|
+DNLJ_CROS5       190 NQEREEKGDALFANPRNAAAGTLRQLD-PKIVDQRRLQFFAYTLHLEEAE    238
+
+DNAK_CHESB       530 VKNQAEAL--------IHSTEKSLKDYGDKVSEDDRKAIENAIAELKTAT    571
+                     :.:|.|:|        :.:..:.|..:.|:| |...|..|.|..:|...|
+DNLJ_CROS5       239 ISSQWESLNYLENSGFLVNPHRKLCQFLDEV-EAYFKQWETARKDLPYMT    287
+
+DNAK_CHESB       572 EG    573
+                     :|
+DNLJ_CROS5       288 DG    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 804
+# Identity:     153/804 (19.0%)
+# Similarity:   266/804 (33.1%)
+# Gaps:         288/804 (35.8%)
+# Score: 113.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        48 RLVGQPAK---RQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPYKIV     94
+                     |||.:..|   .:.|..|.|....::|.:.|.....||..::.|.|    
+MUTS_MYXXD        84 RLVSEGLKVAICEQVEEPGNGPGIVRREVTRVITPGMVLDEEVLEP----    129
+
+DNAK_CHESB        95 KADN------------GDAWVESHGTKYSPSQISAMILQKMKETAESYLG    132
+                     :|.|            |.|.:|:     |..:..|:....:.|.|||.  
+MUTS_MYXXD       130 QASNFLAAVSWNDKGWGAALLEA-----STGEFMALEAPGIAELAESL--    172
+
+DNAK_CHESB       133 EKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAA---ALAY    179
+                     .:||...:.||    |.:|    ||.::|.| :.|::..|..|   |.::
+MUTS_MYXXD       173 SRVEPRELLVP----DGKR----DAPEVAQL-LARLVRTPAVAEGEAASF    213
+
+DNAK_CHESB       180 GLDKKEG---KTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTFLGGED    226
+                     ...:..|   ...||..|.....|.:.|..|.....::            
+MUTS_MYXXD       214 EPTRAAGYLRSHFAVQSLSAFGLDDAPLAAGAAGAALR------------    251
+
+DNAK_CHESB       227 FDMRLVNYLADEFK-----------KEQGIDLKNDKLA------LQRLKE    259
+                            ||.|..|           :|:|.:|..|:.:      |:.|::
+MUTS_MYXXD       252 -------YLKDTQKTAAAHVDRLSRQERGGNLLMDESSRANLEVLRSLRD    294
+
+DNAK_CHESB       260 AAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLT---------RAKF    300
+                     ...|..: |....:|..:|        |.:.||..|.         .|:.
+MUTS_MYXXD       295 GGRKGSL-LGVLDKTVTSL--------GARKLARWLASPLGSLPEIHARL    335
+
+DNAK_CHESB       301 ESLVEDLVTRTI--EPCRAALKDA-----------------------GLS    325
+                     :: ||:|..|::  |.....||:.                       |||
+MUTS_MYXXD       336 DA-VEELSGRSVWREELAGILKEVGDLERLCGRLSLGAGNARDLRALGLS    384
+
+DNAK_CHESB       326 AGEIDEVV-------------LVGGMTRMPKVQETVKNFFGKEPHKGVNP    362
+                     ..::..||             |.|.::.:|::.|.:.....:|      |
+MUTS_MYXXD       385 LAQLPRVVAVLARCESPLLKSLTGPLSALPELAELLSRAVAEE------P    428
+
+DNAK_CHESB       363 DEVVAMGAAIQAG---------VLQGDVKDVLL---------LDVTPLSL    394
+                     ...:..|..|:||         .|....||:||         ..::.|.:
+MUTS_MYXXD       429 PVTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIEQREKERTGISSLKV    478
+
+DNAK_CHESB       395 GIETLGGVFTRL------------IDRNTTIPTKK----------SQVFS    422
+                     ....:.|.:..:            |.:.||:.:::          .||. 
+MUTS_MYXXD       479 RYNKVFGYYLEVTKSNLDRVPKDYIRKQTTVNSERFVTPELKEYEEQVL-    527
+
+DNAK_CHESB       423 TAEDNQNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFD    472
+                     |||:.:.|:.|::|:   |:.|        .:|...|..|...:...|.|
+MUTS_MYXXD       528 TAEERRCALEIQLFE---ELRA--------QVVSAAPRIRSAAEAVATGD    566
+
+DNAK_CHESB       473 ------------------IDANGIVNVSA-------KDKGTGKE------    491
+                                       :||:..::::|       :..|.|..      
+MUTS_MYXXD       567 ALLSFARCAAEYGYTRPEVDASVALSITAGRHPVVERMLGAGDSFVPNDV    616
+
+DNAK_CHESB       492 -------------------------QQIRIQA----SGGLSDAEIEKM--    510
+                                              :|:.:.|    :|....|:..::  
+MUTS_MYXXD       617 RLDPAEDAQLMVITGPNMAGKSTVMRQVALTALMAQAGSFVPAKAARIGL    666
+
+DNAK_CHESB       511 -----VKDAEANAEADKKRRETVEVKNQAEALIHSTEKS---LKDYGDKV    552
+                          .:...|:..|..:....||:...:..|.|:|.||   |.:.|...
+MUTS_MYXXD       667 CDRIFTRVGAADNLARGQSTFMVEMTETSHILHHATNKSLIILDEIGRGT    716
+
+DNAK_CHESB       553 SEDDRKAIENAIAELKTATEG----------EDADAIRAK------TTAL    586
+                     |..|..:|..|:||....|.|          |..|..|.:      ..|:
+MUTS_MYXXD       717 STFDGLSIAWAVAEHLHDTVGARALFATHYHELVDLARERPRVKNLCVAV    766
+
+DNAK_CHESB       587 AEASMKL----------GQAVYEASQAENAAGGTEETGGAKDDVVDADFE    626
+                     .|.:.|:          ....|....|:.|....|..|.|::.:.:.:..
+MUTS_MYXXD       767 KEQNGKVIFLRKLVPGGASRSYGIEVAKLAGLPPEVVGRARELLQNLESG    816
+
+DNAK_CHESB       627 EIDE    630
+                     |:|:
+MUTS_MYXXD       817 ELDD    820
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:      57/273 (20.9%)
+# Similarity:   101/273 (37.0%)
+# Gaps:          86/273 (31.5%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        42 FTDSDERLV--GQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKK--     87
+                     :|.::|.|:  .:.|.|.:           .|.|||.|.|.:...|.:  
+NOSO_STAAC        41 YTHTEEELIYGAKMAWRNS-----------NRCIGRLFWDSLNVIDARDV     79
+
+DNAK_CHESB        88 --------LVPYKIVKADNGDAWVESHGTKYSPSQISAMILQKMKETAES    129
+                             .:.|.|.:|.| :..::.:.|.|:|..               
+NOSO_STAAC        80 TDEASFLSSITYHITQATN-EGKLKPYITIYAPKD---------------    113
+
+DNAK_CHESB       130 YLGEKV-EKAVITVPAYFN---DAQRQATKDA------GKIAGLEVLRII    169
+                       |.|: ...:|....|.|   .|:::.|:.|      ||....:||.:|
+NOSO_STAAC       114 --GPKIFNNQLIRYAGYDNCGDPAEKEVTRLANHLGWKGKGTNFDVLPLI    161
+
+DNAK_CHESB       170 ----NE-------PTAAALAYGLDKKEGKTIAVYDLGGGTFDISI-----    203
+                         ||       ||:......::......:...:|  ..:.:.|     
+NOSO_STAAC       162 YQLPNESVKFYEYPTSLIKEVPIEHNHYPKLRKLNL--KWYAVPIISNMD    209
+
+DNAK_CHESB       204 LEIGDGVFEVKSTNG---DTFLGG----EDFDMRLVNYLADEFKKEQGID    246
+                     |:||..|:.....||   .|.:|.    :|:...|:..:||.|:.:   .
+NOSO_STAAC       210 LKIGGIVYPTAPFNGWYMVTEIGVRNFIDDYRYNLLEKVADAFEFD---T    256
+
+DNAK_CHESB       247 LKNDKLALQRLKEAAEKAKIELS    269
+                     |||:..       ..::|.:||:
+NOSO_STAAC       257 LKNNSF-------NKDRALVELN    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      33/177 (18.6%)
+# Similarity:    66/177 (37.3%)
+# Gaps:          48/177 (27.1%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       223 GGEDFDM-----RLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIE    267
+                     |||||.|     ..::.|.::.||.:|....:::.:..|::|..:..:.:
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+
+DNAK_CHESB       268 LSSSSQTEINLPFITADQTGPKHLA----IKLTRAKFESLVEDLVTRTIE    313
+                                    .|:.||:...    :.:|....|:..||       
+RBM8A_MOUSE       61 ---------------GDEPGPQRSVEGWILFVTGVHEEATEED-------     88
+
+DNAK_CHESB       314 PCRAALKDAGLSAGEIDEVVL--------VGGMTRMPKVQETVKNFFGKE    355
+                          :.|.....|||..:.|        :.|.|.:.  .||.|.  .:.
+RBM8A_MOUSE       89 -----IHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVE--YETYKE--AQA    129
+
+DNAK_CHESB       356 PHKGVNPDEVVAMGAAIQAGVLQGDVK    382
+                     ..:|:|..:::....::....::|..|
+RBM8A_MOUSE      130 AMEGLNGQDLMGQPISVDWCFVRGPPK    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       7/11 (63.6%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           3/11 (27.3%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       315 CRAALKDAGLS    325
+                     |.|||   |||
+NU4LM_ARCPU       69 CEAAL---GLS     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:      76/360 (21.1%)
+# Similarity:   114/360 (31.7%)
+# Gaps:         124/360 (34.4%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       245 IDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIK    294
+                     ||:...|||         .|.|......:....|| ..|.|| |:.|   
+NANK_ECOLI         6 IDIGGTKLA---------AALIGADGQIRDRRELP-TPASQT-PEAL---     41
+
+DNAK_CHESB       295 LTRAKFESLVEDLVTRTIEPCRA-ALKDAGLSAGEIDEVVL-------VG    336
+                               .|.::..:.|.:| |.:.|..|.|.|.:..|       :|
+NANK_ECOLI        42 ----------RDALSALVSPLQAHAQRVAIASTGIIRDGSLLALNPHNLG     81
+
+DNAK_CHESB       337 GMTRMP--KVQETVKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDV    384
+                     |:...|  |..|.:.|.    |...:| |...|..|..||  |.||:.|:
+NANK_ECOLI        82 GLLHFPLVKTLEQLTNL----PTIAIN-DAQAAAWAEFQA--LDGDITDM    124
+
+DNAK_CHESB       385 LLLDVTPLSLGIETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIR    434
+                     :.:.|   |.|:.  |||.:                              
+NANK_ECOLI       125 VFITV---STGVG--GGVVS------------------------------    139
+
+DNAK_CHESB       435 VFQGEREMAADNKLLGQF-DLVGIPPAPRGMPQIEVTFDIDANGIVNVSA    483
+                        |.:.:.....|.|.. ..:..|..|        .......|.|...|
+NANK_ECOLI       140 ---GCKLLTGPGGLAGHIGHTLADPHGP--------VCGCGRTGCVEAIA    178
+
+DNAK_CHESB       484 KDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKRRETVEVKNQ    533
+                     ..:|      |...|.|.|:.|:.:.:...|....|             |
+NANK_ECOLI       179 SGRG------IAAAAQGELAGADAKTIFTRAGQGDE-------------Q    209
+
+DNAK_CHESB       534 AEALIHSTEKSLKDYGDKVSEDDRKAIENAIAELKTATEGEDADAIRAKT    583
+                     |:.|||.:.::|               ...||::|..|:.:  ..:...:
+NANK_ECOLI       210 AQQLIHRSARTL---------------ARLIADIKATTDCQ--CVVVGGS    242
+
+DNAK_CHESB       584 TALAEASMKL    593
+                     ..|||..:.|
+NANK_ECOLI       243 VGLAEGYLAL    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 501
+# Identity:      96/501 (19.2%)
+# Similarity:   166/501 (33.1%)
+# Gaps:         178/501 (35.5%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+DNAK_CHESB         1 MAKVIGI---------DLGTTNSCVAVMDGKDAKVIENAEGARTTPSIVA     41
+                     |.::||.         ||...|:| ||.:..::||..:          :.
+MIAB_MYCPE        76 MLELIGYEYNEDVNTSDLVLLNTC-AVREHAESKVFAD----------IG    114
+
+DNAK_CHESB        42 FTDSDERLVGQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPY     91
+                     ..|           |...:|| |..|.:...:.:  |:.:|.        
+MIAB_MYCPE       115 ILD-----------RIKKSNP-NFIFGVCGCMAQ--EEAVVN--------    142
+
+DNAK_CHESB        92 KIVKAD-NGDAWVESHGTKYSPSQISAMILQK-MKETAESYLGEKVEKAV    139
+                     :|:|:: |.|....:|......:.:..:|.:| :.....|:.|..:|   
+MIAB_MYCPE       143 RILKSNFNVDFIFGTHNVHRILNLLEQVIFEKNLVVEVWSHEGNVIE---    189
+
+DNAK_CHESB       140 ITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLDK------    183
+                      .:|          :|....:.|     .:|      :.||.||      
+MIAB_MYCPE       190 -NLP----------SKRTNNLKG-----FVN------VMYGCDKFCTYCI    217
+
+DNAK_CHESB       184 ------------KEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTF    221
+                                 ||.....|:.:           |.:|..||      |.
+MIAB_MYCPE       218 VPMTRGKIRSRRKEDILDEVHQM-----------ISEGYKEV------TL    250
+
+DNAK_CHESB       222 LG------GEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKA-    264
+                     :|      |.||| ...|||.:...::..      |..::|::...... 
+MIAB_MYCPE       251 IGQNVNSYGIDFD-NGENYLFNNLLEDVA------KTGIERVRFTTSNPW    293
+
+DNAK_CHESB       265 --------KIELSSSSQTEINLPFITADQTGPKHL-----------AIKL    295
+                             .::...:....|:||..:.|:|..|.:           .:..
+MIAB_MYCPE       294 NFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDY    343
+
+DNAK_CHESB       296 TRAKFE--SLVEDLV-----------TRTIEPCRA-----------ALKD    321
+                     .||...  |:..||:           .:|:|..:.           :.:|
+MIAB_MYCPE       344 IRANIPNCSITTDLIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRD    393
+
+DNAK_CHESB       322 AGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVN----------    361
+                     ..::|...||:.|.....|:.::.|.||.|..|...|.||          
+MIAB_MYCPE       394 GTVAAIIPDEIPLSEKKERLQELNEMVKTFSKKNNEKYVNKVLDVLVDGP    443
+
+DNAK_CHESB       362 --PDEVVAMGAAIQAGVLQ--GDVKDVLLLDVTPLSLGIETLGGVFTRLI    407
+                       .|:.|..|.:.|..|:.  |..|...::.|...|....||.|   ::|
+MIAB_MYCPE       444 SKKDKTVISGYSPQWKVVNFTGSAKSGEIVKVLITSASRFTLNG---KMI    490
+
+DNAK_CHESB       408 D    408
+                     |
+MIAB_MYCPE       491 D    491
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      40/178 (22.5%)
+# Similarity:    58/178 (32.6%)
+# Gaps:          63/178 (35.4%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       257 LKEAAEKAKIELSSSSQTEINLP----FITADQTG--PKHLAIKLTRAKF    300
+                     |....||..||:::|....|..|    .:..:..|  .::||:.....|.
+NADK_STAES        79 LPHEVEKLIIEINNSEFQVIEYPLLELIVRYNDNGYETRYLALNEATMKT    128
+
+DNAK_CHESB       301 E---SLVEDLVTR--TIEPCR--------------------AALKDAGLS    325
+                     |   :||.|:..|  ..|..|                    .||....|.
+NADK_STAES       129 ENGSTLVVDVNIRGKHFERFRGDGLCISTPSGSTAYNKALGGALIHPSLE    178
+
+DNAK_CHESB       326 AGEIDEVV--------LVGGMTRMPK-------------VQETVKNFFGK    354
+                     |.:|.|:.        .||....:||             ::.|:.:...|
+NADK_STAES       179 AMQIAEIASINNRVFRTVGSPLVLPKHHTCLITPVNHDTIRTTIDHVSIK    228
+
+DNAK_CHESB       355 EPHKGVNPDEVVAMGAAIQAGVLQGDVK    382
+                       ||.||         |||..|....|:
+NADK_STAES       229 --HKNVN---------AIQYRVANEKVR    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 445
+# Identity:      80/445 (18.0%)
+# Similarity:   147/445 (33.0%)
+# Gaps:         130/445 (29.2%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       212 EVKSTNGDTFLGGEDFDMRLVNYLAD-EFKKEQGIDLKND---KLALQRL    257
+                     |..::|....|..:....:::|.|.| :.|:..|.|:.||   :||    
+TRPG_CAEEL      1654 EKNTSNEQRILRADIRTDQILNRLIDLQAKESMGRDVINDVESRLA----   1699
+
+DNAK_CHESB       258 KEAAEKAKIELSSSSQTEINL----------------PFITADQTGPKHL    291
+                       :.|||:.|:....:..:|.                |.:......|..|
+TRPG_CAEEL      1700 --SVEKAQNEILECVRALLNQNNAPTAIGRCFSPSPDPLVETANGTPGPL   1747
+
+DNAK_CHESB       292 AIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRM    341
+                     .:||...  :.::|:             ||.  .:|| :...|..|..|.
+TRPG_CAEEL      1748 LLKLPGT--DPILEE-------------KDH--DSGE-NSNSLPPGRIRR   1779
+
+DNAK_CHESB       342 PKVQETVKNFFGKEPHK---GVNPDEVVAMGAAIQAGVLQGDVKDVLLLD    388
+                     .:.......:..:|.:.   ...|.:|        :|:.|..:..|..:|
+TRPG_CAEEL      1780 NRTATICGGYVSEERNMMLLSPKPSDV--------SGIPQQRLMSVTSMD   1821
+
+DNAK_CHESB       389 VTPLSLGIETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQG    438
+                       ||.|.:..|..:..|          ::.:.:::..|     :|.:...
+TRPG_CAEEL      1822 --PLPLPLAKLSTMSIR----------RRHEEYTSITD-----SIAIRHP   1854
+
+DNAK_CHESB       439 EREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAK----    484
+                     ||.:..:.....:.|              |...|.:..|.|..|.:    
+TRPG_CAEEL      1855 ERRIRNNRSNSSEHD--------------ESAVDSEGGGNVTSSPRKRST   1890
+
+DNAK_CHESB       485 -----------DKGTGKEQQIRI-----QASGGLSDAEIEKMVKDAEANA    518
+                                ::.|.::|...|     :.....:|.|:..::.:.|...
+TRPG_CAEEL      1891 RDLRMTPSSQVEESTSRDQIFEIDHPEHEEDEAQADCELTDVITEEEDEE   1940
+
+DNAK_CHESB       519 EADKKRRETVEVKNQAEALIHSTEKSLKDYGDKVSEDDRKAIENAIAELK    568
+                     |.|:      |..:.....||...||        |..:|:.......:| 
+TRPG_CAEEL      1941 EDDE------EDDSHERHHIHPRRKS--------SRQNRQPSHTLETDL-   1975
+
+DNAK_CHESB       569 TATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEET    613
+                       :|||:.|       .|....||....:::....|..||....|
+TRPG_CAEEL      1976 --SEGEEVD-------PLDVLKMKELPIIHQILNEEEQAGAPHST   2011
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      43/186 (23.1%)
+# Similarity:    73/186 (39.2%)
+# Gaps:          49/186 (26.3%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       449 LGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNV---SAKDKGTGKEQQIR    495
+                     :|..:|.....|...|.::.|.......||...   :|..|..|:.|   
+MSHD_MYCMM        62 IGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAALAKTGGRNQ---    108
+
+DNAK_CHESB       496 IQASGGLSDAEIEKMVKDAEANAEADKKRRETVEVKNQAEALIHSTEKSL    545
+                     ..|.|.|:.|:       |.|:|......||.|:::           :||
+MSHD_MYCMM       109 FWAHGTLAPAQ-------ATASALGLTPVRELVQMR-----------RSL    140
+
+DNAK_CHESB       546 KDYGDKVSEDDRKAIENAIAELKT--ATEGEDADAIRAKTTALA------    587
+                     :...:.|       |.|.: :::|  .|| :||:.:|....|.|      
+MSHD_MYCMM       141 RQLPEPV-------IPNGL-QIRTYAGTE-DDAELLRVNNAAFAYHPEQG    181
+
+DNAK_CHESB       588 ---EASM--KLGQAVYEASQAENAAGGTEETGGAKD    618
+                        ||.:  :.|:..::.:....|..|:|   ||:|
+MSHD_MYCMM       182 GWTEADLAERRGEPWFDPAGLFLALEGSE---GAED    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      16/56 (28.6%)
+# Similarity:    22/56 (39.3%)
+# Gaps:          18/56 (32.1%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       188 TIAVYDL---GGGTFDISILEI-----GDGVFEVKSTNGDTFLGGEDFDM    229
+                     |:...||   |..|.|..:::.     |:.|..|..|||.          
+PAND_THEFY        14 TVTHADLHYVGSITIDADLMDAANLVDGEQVHVVNITNGH----------     53
+
+DNAK_CHESB       230 RLVNYL    235
+                     |||.|:
+PAND_THEFY        54 RLVTYV     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 402
+# Identity:      85/402 (21.1%)
+# Similarity:   131/402 (32.6%)
+# Gaps:         123/402 (30.6%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       298 AKFESLVEDLVTRTIEPCRA-ALKDAGLS-AGEIDEVVLVGGMTRMPKVQ    345
+                     |.|.|..||  ...:||..| |||.|.:. ||...|      |||:|...
+LIPA_ASPOR        65 ADFVSGGED--NAPLEPSEAYALKTAMVGPAGRKKE------MTRLPSWL    106
+
+DNAK_CHESB       346 ET----VKNFFG-KEPHKGVNPDEVVA---------------MGAAIQAG    375
+                     :|    .||:.. |:..:|:|...|..               ..||....
+LIPA_ASPOR       107 KTPIPDSKNYQRLKKDLRGLNLHTVCEEARCPNISDCWGGSDKSAATATI    156
+
+DNAK_CHESB       376 VLQGD----------VK--------DVLLLDVTPLSLGIETLGGVFTRLI    407
+                     :|.||          ||        |....:.|..::...:||.|....:
+LIPA_ASPOR       157 MLMGDTCTRGCRFCSVKTNRRPPPLDPHEPENTAEAISRWSLGYVVLTSV    206
+
+DNAK_CHESB       408 DRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAAD---NKLLGQFDL    454
+                     ||:............|        .|::.|.:..|..:   ...||..::
+LIPA_ASPOR       207 DRDDLADGGARHFAET--------VIKIKQKKPSMLVECLTGDYLGDLEM    248
+
+DNAK_CHESB       455 VGIPPAPRGMPQIEVTFDIDANGIVNVSA-----KDKGTGKEQQIRIQAS    499
+                     |.: .|..|:       |:.|:.:..|.|     :|:....:|.:|:   
+LIPA_ASPOR       249 VKL-VARSGL-------DVYAHNVETVEALTPFVRDRRATFQQSLRV---    287
+
+DNAK_CHESB       500 GGLSDAEIEKMVKDAEANAEADKKRRETVEVKNQAEALIHSTEKSLKD--    547
+                                       .||.|:.|..:..|.........||:.|.|  
+LIPA_ASPOR       288 ------------------LEAAKQARPDLITKTSLMLGFGETEEQLWDAL    319
+
+DNAK_CHESB       548 ------------YGDKVSEDDRKAIENAIAELKTATEGE-------DADA    578
+                                 :|..:....|   ...:.|..|..:.|       |...
+LIPA_ASPOR       320 RQLRSVGVDVVTFGQYMRPTKR---HMPVHEYVTPDQFELWRQRALDMGF    366
+
+DNAK_CHESB       579 IRAKTTALAEASMKLGQAVYEASQAENAAGGTEETGGAKDDVVDADFEEI    628
+                     :...:..|..:|.|.|:|..|....:..|.||     |.:.|.|:. ..:
+LIPA_ASPOR       367 LYCASGPLVRSSYKAGEAFIENVLKKRRAAGT-----AGESVTDSK-AAV    410
+
+DNAK_CHESB       629 DE    630
+                     ||
+LIPA_ASPOR       411 DE    412
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 376
+# Identity:      80/376 (21.3%)
+# Similarity:   125/376 (33.2%)
+# Gaps:         116/376 (30.9%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       266 IELSSSSQTEINLPFITADQTGP-KHLAIKL---TRAKFESLVEDLVTRT    311
+                     :.|..|....:..||.|...|.. ..|.|.:   |..:.:::...:||..
+FLGI_PECAS        47 VGLDGSGDQTMQTPFTTQSLTNMLSQLGITVPAGTNMQLKNVAAVMVTAE     96
+
+DNAK_CHESB       312 IEPCRAALKDAGLSAGEIDEVV--------LVGGMTRMPKVQETVKNFFG    353
+                     :.|       .|.:...||.||        |.||...|            
+FLGI_PECAS        97 LPP-------FGRTGQNIDIVVSSLGNAKSLRGGTLLM------------    127
+
+DNAK_CHESB       354 KEPHKGVNPDEVVAM--------GAAIQAGVLQGDVKDVLLLDVTPLSLG    395
+                      .|.|||: ::|.|:        ||...||...        :.|..|:.|
+FLGI_PECAS       128 -TPLKGVD-NQVYALAQGNVLVGGAGASAGGSS--------VQVNQLAGG    167
+
+DNAK_CHESB       396 IETLGGVFTRLI-----DRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGER    440
+                     ..:.|.|..|.:     ..||.:...|:..||.|:...:|:. |...|..
+FLGI_PECAS       168 RISNGAVIERELPSTFGTSNTIMLQLKNDDFSMAQKVSDAIN-RSGYGGT    216
+
+DNAK_CHESB       441 EMAADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGI-VNVSAKDKGTG    489
+                     ....|::.:...       ||.|... :|.|..|...| |||        
+FLGI_PECAS       217 ASPLDSRTIQVL-------APHGNSS-QVRFLADVQNIEVNV--------    250
+
+DNAK_CHESB       490 KEQQIRIQASGGLSDAEI--------EKMVKDAEANAEADKKRRETVEVK    531
+                                |:.||::        ..|.:|...::.|..:...:|.:.
+FLGI_PECAS       251 -----------GIQDAKVVINSRTGSVVMNRDVTLDSCAIAQGNLSVTIN    289
+
+DNAK_CHESB       532 NQAE-------------ALIHSTEKSLKDYGDKVSEDDRKA-IENAIAEL    567
+                     .||.             .:...||.|::..|..:...:..| :.|.:..|
+FLGI_PECAS       290 QQANVSQPNTPFGGGQTVVTPQTEISVQQTGGVLQRVNSSANLNNVVRAL    339
+
+DNAK_CHESB       568 KT--ATEGE---------DADAIRAK    582
+                     .:  ||..|         .|..:|||
+FLGI_PECAS       340 NSLGATPMELMSILQAMQSAGCLRAK    365
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      64/285 (22.5%)
+# Similarity:   105/285 (36.8%)
+# Gaps:          71/285 (24.9%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       115 ISAMILQKMKETAESYLGE--KVEKAVITVPAYFNDAQRQATKDAGKIAG    162
+                     |:|.:.||..||....:|:  |:.|.:||     |...          :|
+LDH_BORAP         79 ITAGLNQKPGETRLDLVGKNSKIFKDIIT-----NVVS----------SG    113
+
+DNAK_CHESB       163 LEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGT-FDISILE--IGDG    209
+                     .:.:.:|.......:.| :..|..|......:|.|| .|.|.|.  :.|.
+LDH_BORAP        114 FDGIFVIASNPVDIMTY-VTMKYSKFPIHKVIGTGTILDTSRLRYFLSDR    162
+
+DNAK_CHESB       210 VFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKE    259
+                      |.|.:.|..:::.||..|...|.:  ||           .|:|::.|.|
+LDH_BORAP        163 -FNVNTQNIHSYVMGEHGDSSFVTW--DE-----------TKIAMKPLSE    198
+
+DNAK_CHESB       260 AAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLVEDLVT    309
+                     ...:.||       ||:.|..|........:..|||..|.:.::      
+LDH_BORAP        199 YLSEGKI-------TELELDEIHKKVVNAAYEVIKLKGATYYAI------    235
+
+DNAK_CHESB       310 RTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKG    359
+                                  ||....|...: :|....:..:...:...:|     |
+LDH_BORAP        236 -------------GLGIKNIVNAI-IGDQNIILPISSYINGQYG-----G    266
+
+DNAK_CHESB       360 VNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSL    394
+                     :..|  :.:||  .|.|.:..||:||...::|..|
+LDH_BORAP        267 LIKD--IYIGA--PAIVCKEGVKEVLNFKISPKEL    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      42/229 (18.3%)
+# Similarity:    71/229 (31.0%)
+# Gaps:          83/229 (36.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       172 PTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTF    221
+                     |.|.|...|:||.      :|...           |..:|.|.|.:...:
+EXGB_EMENI        12 PVALAWLPGIDKD------IYSAA-----------GTNIFNVTSASSKRW     44
+
+DNAK_CHESB       222 LGGEDFDMRLVNYLADEFKKEQGIDLKND--------KLALQRLKEAAEK    263
+                     |...              ||.:|::|.:.        .:|...:..:.::
+EXGB_EMENI        45 LPAS--------------KKIRGVNLGSHFVIEPWMASMAWSNMGCSGQR     80
+
+DNAK_CHESB       264 AKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLV---------    304
+                     ::.:...:...|      ||||....|....:|:.....:|         
+EXGB_EMENI        81 SEFDCVMALGQE------TADQAFADHWGSWITQDDINQMVQYGLNTIRI    124
+
+DNAK_CHESB       305 -------EDLVTRTIE------------PCRAALKDAGLSAGEIDEVVLV    335
+                            ||||....|            .|..| .|||:        .::
+EXGB_EMENI       125 PVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWA-SDAGM--------YII    165
+
+DNAK_CHESB       336 GGMTRMPKVQETVKNFFGK-EPHKGVNPD    363
+                     ..:...|..|:..:.|.|: .|:.|...|
+EXGB_EMENI       166 IDLHGAPGAQQPKQPFTGQYAPNPGFYQD    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      20/95 (21.1%)
+# Similarity:    36/95 (37.9%)
+# Gaps:          27/95 (28.4%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       245 IDLKNDKLALQRLKE-----AAEKAKIELSSSSQTEINLPFITADQTGPK    289
+                     :||..:...|::..|     |.|..:::...:|..|.             
+KTHY_CHLP8       131 LDLTPEDALLRKFSEKSLPLAFESEELDRMENSGLEF-------------    167
+
+DNAK_CHESB       290 HLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVL    334
+                        .:..||.:.:::|      .||.|..:.||.|:..||...:|
+KTHY_CHLP8       168 ---YQRVRAGYHAILE------AEPQRIIMIDALLTPQEIHRKIL    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 668
+# Identity:     137/668 (20.5%)
+# Similarity:   207/668 (31.0%)
+# Gaps:         238/668 (35.6%)
+# Score: 98.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       102 WVESHGTKYSPSQISAMILQKMKETAESYLGEKVEK------AVITVPA-    144
+                     |.....|:..|.::|:...:        .||...||      |.:|..| 
+SECA2_MYCTO       29 WFVPKTTRAQPGRLSSRFWR--------LLGASTEKNRSRSLADVTASAE     70
+
+DNAK_CHESB       145 YFNDAQRQATKDAGKIAGLEVLRIINEPT--AAALAYGLDKKEGKTIAVY    192
+                     |..:|...:.:...|.|||..|..:.|..  ...||...:..|.:|    
+SECA2_MYCTO       71 YDKEAADLSDEKLRKAAGLLNLDDLAESADIPQFLAIAREAAERRT----    116
+
+DNAK_CHESB       193 DLGGGTFDISILE-----IGDGVFEVKSTNGDTFLG----------GEDF    227
+                       |...||:.:|.     .|| |.|:.:..|.|..|          |...
+SECA2_MYCTO      117 --GLRPFDVQLLGALRMLAGD-VIEMATGEGKTLAGAIAAAGYALAGRHV    163
+
+DNAK_CHESB       228 DMRLVN-YLA---------------------------DEFK---------    240
+                     .:..:| |||                           ||.:         
+SECA2_MYCTO      164 HVVTINDYLARRDAEWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTY    213
+
+DNAK_CHESB       241 ---KEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQT----EINLPFITA    283
+                        .|.|.|:..|:|........:....:.|...:.:    |..:|.:.|
+SECA2_MYCTO      214 ASVNEIGFDVLRDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLA    263
+
+DNAK_CHESB       284 DQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVV    333
+                     ..|..:...:::.|     ||.:||         ..|||       ||..
+SECA2_MYCTO      264 GTTHRETPRLEIIR-----LVAELV---------GDKDA-------DEYF    292
+
+DNAK_CHESB       334 LVGGMTRMPKVQE----TVKNFFG-----KEPHKGVNPDEV-VAMGAAIQ    373
+                     ......|...:.|    .|:...|     .|.|.|....|| ||:.|.: 
+SECA2_MYCTO      293 ATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHAHV-    341
+
+DNAK_CHESB       374 AGVLQGDVKDVLLLDVT------------------PLSLGIETLGGVFTR    405
+                       :||.||..::..|..                  .|...:|...|:.| 
+SECA2_MYCTO      342 --LLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIET-    388
+
+DNAK_CHESB       406 LIDRNTTIPTKKSQVFST----AEDNQNAVTIRVFQGEREMAADNKLLGQ    451
+                              |:..:|..|    |..|:.| |:....|....|.:.  |.|
+SECA2_MYCTO      389 ---------TETGEVLDTITVQALINRYA-TVCGMTGTALAAGEQ--LRQ    426
+
+DNAK_CHESB       452 FDLVGIPPAPRGMPQIE--------VTFDIDANGIVN-------------    480
+                     |..:|:.|.|...|.|.        :|.....:|||.             
+SECA2_MYCTO      427 FYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEHITEVHQRGQPVL    476
+
+DNAK_CHESB       481 VSAKDKGTGKEQQIRIQASG-------GLSDAEIEKMVKDAEANAEADKK    523
+                     |..:|....:|...|:...|       ..:|||      :|...|||.|.
+SECA2_MYCTO      477 VGTRDVAESEELHERLVRRGVPAVVLNAKNDAE------EARVIAEAGKY    520
+
+DNAK_CHESB       524 RRETVEVKNQAEALIHSTEKSLKDYGDKVSEDDRKAIENAIAEL------    567
+                     ...||           ||:.:.:....::...| :|..:.:|||      
+SECA2_MYCTO      521 GAVTV-----------STQMAGRGTDIRLGGSD-EADHDRVAELGGLHVV    558
+
+DNAK_CHESB       568 ---KTATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETG    614
+                        :..||..|                         :|....||...:.|
+SECA2_MYCTO      559 GTGRHHTERLD-------------------------NQLRGRAGRQGDPG    583
+
+DNAK_CHESB       615 GA------KDDVVDADFE    626
+                     .:      :||||.|:.:
+SECA2_MYCTO      584 SSVFFSSWEDDVVAANLD    601
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       4/13 (30.8%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        21 GKDAKVIENAEGA     33
+                     ||..::.|...|:
+DB108_HUMAN       22 GKFKEICERPNGS     34
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      61/285 (21.4%)
+# Similarity:   103/285 (36.1%)
+# Gaps:          88/285 (30.9%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       244 GIDLKNDKLALQRLKEAAEKAKIELSSSSQT------------------E    275
+                     |||...|:. |||    ..|..:.|.:.|.|                  |
+LCMT1_CRYNB      122 GIDRLVDRF-LQR----GGKQVVSLGAGSDTRFWRLMSRATPPDLARYVE    166
+
+DNAK_CHESB       276 INLPFITADQT-------------GPKHLAI--------------KLTRA    298
+                     |:.|.:|:.:.             ||...|:              :|:..
+LCMT1_CRYNB      167 IDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSP    216
+
+DNAK_CHESB       299 KFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETV    348
+                     .:..|..||.....||.      :.:||.....|        :|::...:
+LCMT1_CRYNB      217 LYTLLPLDLRPSPSEPA------SSISAILSHHV--------LPQLDPRL    252
+
+DNAK_CHESB       349 KNFFGKE---PHKGVNPD---EVVAMGAAIQAGVLQGDVKDVLLLDVTPL    392
+                     ...|..|   |:  ::|:   |::..........: |.|.:::.||    
+LCMT1_CRYNB      253 PTLFLAECLFPY--MSPEDSREIIKWFGETFCSCM-GVVYEMVGLD----    295
+
+DNAK_CHESB       393 SLGIETLGGVFTR-LIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGERE    441
+                         ::.|.|..| |..||.:||   ..:|||.|......|..:.||.:.
+LCMT1_CRYNB      296 ----DSFGNVMKRNLAVRNLSIP---GSIFSTPESQAGRFTSPMLQGGKF    338
+
+DNAK_CHESB       442 MAADNKLLGQF--DLVGIPPAPRGMPQIEVTFDID    474
+                     .:|..|.|.|.  :.|| |...:.:.::|:..:|:
+LCMT1_CRYNB      339 DSAGAKTLWQIREEDVG-PEELQRISKLEILDEIE    372
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      30/136 (22.1%)
+# Similarity:    48/136 (35.3%)
+# Gaps:          41/136 (30.1%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+DNAK_CHESB         3 KVIGIDLG---TTNSCVAVMDGKDAKVIE-----NAEGARTTPSIVAFTD     44
+                     |::|..:.   |.|..||.:||...|:.|     :.|........|.|..
+PTGA_SALTY        45 KIVGDGIAIKPTGNKMVAPVDGTIGKIFETNHAFSIESDSGIELFVHFGI     94
+
+DNAK_CHESB        45 SDERLVGQPAKRQAVTNPENTFFAIKRLIGRRFE--DPMVEKDKKLVPYK     92
+                     ....|.|:..||.|..             |:|.:  ||::|.|..|:..|
+PTGA_SALTY        95 DTVELKGEGFKRIAEE-------------GQRVKVGDPVIEFDLPLLEEK    131
+
+DNAK_CHESB        93 IVKADNGDAWVESHGTKYSPSQISAMILQKMKETAE    128
+                                       :.|.::.:::..|.|..|
+PTGA_SALTY       132 ------------------AKSTLTPVVISNMDEIKE    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      30/104 (28.8%)
+# Similarity:    47/104 (45.2%)
+# Gaps:          20/104 (19.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       240 KKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPK    289
+                     ||:|.::.|.: |..|.||:       |:|..|..:..|......|:.|:
+RR14_CRYJA        11 KKKQRLERKYN-LLRQSLKK-------EMSEVSSLDDKLDIYRKLQSLPR     52
+
+DNAK_CHESB       290 HLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVV---LVG    336
+                     :.|  .||.:...|      :|..| ||..:|..||...|.|:.   |:.
+RR14_CRYJA        53 NSA--PTRLRRRCL------KTGRP-RANYRDFELSGYIIREMAHACLLA     93
+
+DNAK_CHESB       337 GMTR    340
+                     |:|:
+RR14_CRYJA        94 GVTK     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 322
+# Identity:      74/322 (23.0%)
+# Similarity:   121/322 (37.6%)
+# Gaps:          94/322 (29.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       120 LQKMKETAESYL----GEKVEKAVITVPAYFNDAQRQATKDAGKIAGLE-    164
+                     :.|.:...:::|    |||...    ||.::   .|||.:...:...|: 
+DCUP_BACVZ         1 MSKREAFNDTFLKAARGEKTNH----VPVWY---MRQAGRSQPEYRKLKE     43
+
+DNAK_CHESB       165 ---VLRIINEPTAAALA-------YGLDK----KEGKTIAVYDLGGGTFD    200
+                        ::.|.::|...|..       ||:|.    |:..|...|        
+DCUP_BACVZ        44 KYGLVEITHQPELCAYVTRLPVEQYGVDAAILYKDIMTPLPY--------     85
+
+DNAK_CHESB       201 ISI-LEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLAD-----EFKKEQG    244
+                     |.: :||.:|:             |...| :.|...||     |...||.
+DCUP_BACVZ        86 IGVDVEIKNGI-------------GPVID-QPVRSAADIEKLGELNPEQD    121
+
+DNAK_CHESB       245 ID--LKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITAD---QTGPK    289
+                     :.  |:..:|.:.      |:..:.|...|    ..||..|.   :.||.
+DCUP_BACVZ       122 VPYVLETIRLLVN------EQLNVPLIGFS----GAPFTLASYMIEGGPS    161
+
+DNAK_CHESB       290 HLAIKLTRAKFES-------LVEDLVTRTIEPCRAALKDAGLSAGEIDEV    332
+                     ....| |:|...|       |::.|....|...:|.: :||..|.:|.: 
+DCUP_BACVZ       162 KNYNK-TKAFMHSMPQAWKMLMDKLADMIIVYAKAQI-NAGAKAIQIFD-    208
+
+DNAK_CHESB       333 VLVGGMTRMPKVQETVKNFFGKEP-----HKGVNPDEVVAMGAAIQAGVL    377
+                     ..||.:.|     |..:.|.  :|     .:.::.::|..:...:.|..|
+DCUP_BACVZ       209 SWVGALNR-----EDYRQFI--KPVMDRIFRELSAEQVPLIMFGVGASHL    251
+
+DNAK_CHESB       378 QGDVKDVLLLDVTPLS--LGIE    397
+                     .||..| |.|||..|.  |||:
+DCUP_BACVZ       252 AGDWHD-LPLDVVGLDWRLGID    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 624
+# Identity:     114/624 (18.3%)
+# Similarity:   211/624 (33.8%)
+# Gaps:         145/624 (23.2%)
+# Score: 88.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        18 VMDGKDAKVIENAEGARTTPSIVAFTDS-DERLVGQPAKRQAVTNPENTF     66
+                     ||....|:..|::|.......:::..:| .:.|....|:...:...|...
+GTF2I_MOUSE        5 VMSALPAEDEESSESRMVVTFLMSALESMCKELAKSKAEVACIAVYETDV     54
+
+DNAK_CHESB        67 FAIKRLIGRRFEDPMVEKDKKLVPYKIVKADNGDAWVESHGTKYSPSQ--    114
+                     |.:....||.|.:...:..|..|.|.:.:.:..   .|.|..| |.:|  
+GTF2I_MOUSE       55 FVVGTERGRAFVNTRKDFQKDFVKYCVEEEEKA---AEMHKMK-STTQAN    100
+
+DNAK_CHESB       115 ---ISAMILQKMKETAESYL----GEKVEKAVITVPAYFNDAQRQATKDA    157
+                        :.|:.::.:::|.|.|.    |:.:.|:.: ||..:....|.  :.|
+GTF2I_MOUSE      101 RMSVDAVEIETLRKTVEDYFCFCYGKALGKSTV-VPVPYEKMLRD--QSA    147
+
+DNAK_CHESB       158 GKIAGLEVLRIINEP---TAAALAYGLDKKEGKTIAV--------YDLGG    196
+                     ..:.||........|   ..|.|.:.|:.|.|.:..:        ..|||
+GTF2I_MOUSE      148 VVVQGLPEGVAFKHPEHYDLATLKWILENKAGISFIIKRPFLEPKKHLGG    197
+
+DNAK_CHESB       197 GTF----DISILEIGDGVFEVKSTNGDTFLGGEDFDMRLV----------    232
+                     ...    :.|:|........:|.....|...|...:|..|          
+GTF2I_MOUSE      198 RVLAAEAERSMLSPSGSCGPIKVKTEPTEDSGISLEMAAVTVKEESEDPD    247
+
+DNAK_CHESB       233 --NYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPF    280
+                       .|......:..|:|   :||.|.:..:.:..:.   ..:..||:.:|.
+GTF2I_MOUSE      248 YYQYNIQGPSETDGVD---EKLPLSKALQGSHHSS---EGNEGTEVEVPA    291
+
+DNAK_CHESB       281 ITADQTGPKHLAIKLTRAKFESLVED---------LVTRTIEPCRAALKD    321
+                     ..:.|..|...:   ...:.|..:||         |.:....|.....:.
+GTF2I_MOUSE      292 EDSTQHVPSETS---EDPEVEVTIEDDDYSPPTKRLKSTEPPPPPPVPEP    338
+
+DNAK_CHESB       322 AGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVNPDEVVAMG-A    370
+                     |.....::.|........|:..:::.|:..|.::..:.:.     |.| .
+GTF2I_MOUSE      339 ANAGKRKVREFNFEKWNARITDLRKQVEELFERKYAQAIK-----AKGPV    383
+
+DNAK_CHESB       371 AIQAGVLQGDVKDVLLLDV-------TPLSLGIETLGGVFTRLIDRNTTI    413
+                     .|...:.|..|:|:.:..:       .|.:.||..|..:.  |.......
+GTF2I_MOUSE      384 TIPYPLFQSHVEDLYVEGLPEGIPFRRPSTYGIPRLERIL--LAKERIRF    431
+
+DNAK_CHESB       414 PTKKSQVF-STAEDNQ----------------------------------    428
+                     ..||.::. ||.||.|                                  
+GTF2I_MOUSE      432 VIKKHELLNSTREDLQLDKPASGVKEEWYARITKLRKMVDQLFCKKFAEA    481
+
+DNAK_CHESB       429 ------NAVTIRVFQGEREMAADNKLLGQFDLVGIP-------PAPRGMP    465
+                           .||..:.|:     |..|.|.    :.|:|       |:..|:|
+GTF2I_MOUSE      482 LGSTEAKAVPYQKFE-----AHPNDLY----VEGLPENIPFRSPSWYGIP    522
+
+DNAK_CHESB       466 QIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAE    515
+                     ::|        .|:.|..:.|...|..::...::..::.......||: :
+GTF2I_MOUSE      523 RLE--------KIIQVGNRIKFVIKRPELLTHSTTEVTQPRTNTPVKE-D    563
+
+DNAK_CHESB       516 ANAEADKKRRETVEVKNQ--AEAL    537
+                     .|....|.|::..|:.|.  |:||
+GTF2I_MOUSE      564 WNVRITKLRKQVEEIFNLKFAQAL    587
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:      64/348 (18.4%)
+# Similarity:   122/348 (35.1%)
+# Gaps:         117/348 (33.6%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       254 LQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESL    303
+                     ::.|.|..:.|.:..|:.     .:|....:....:.|::      |::.
+ISPH_ACIF5        57 VEELDEVPDAATVIFSAH-----GVPIAVREHAAARGLSV------FDAT     95
+
+DNAK_CHESB       304 VEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFG    353
+                     . .|||:.....:...:| |:      |:||:|                 
+ISPH_ACIF5        96 C-PLVTKVHMEVKKYSRD-GM------EMVLIG-----------------    120
+
+DNAK_CHESB       354 KEPHKGVNPDEVVAMGAAIQAGV--LQGDVKDVLLLD---------VTPL    392
+                        |.| :|:....|| .::.|:  |..:|.||..|.         :|..
+ISPH_ACIF5       121 ---HAG-HPEVEGTMG-QVEEGMMYLVSNVSDVATLAPRNPDKLAYITQT    165
+
+DNAK_CHESB       393 SLGIETLGGVFTRLIDRNTTIP-TKKSQVFSTAEDNQNAVTIRVFQGERE    441
+                     :|.::....|...|..|...|. .||..:....::.|:||        :.
+ISPH_ACIF5       166 TLSMDDTAEVIVALRSRFPLIEGPKKDDICYATQNRQDAV--------KS    207
+
+DNAK_CHESB       442 MAADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKE    491
+                     :|.|..:|   .:||.|.:.......|:                 ||...
+ISPH_ACIF5       208 LAPDVDIL---LVVGAPNSSNSSRLAEL-----------------GTRLG    237
+
+DNAK_CHESB       492 QQIRIQASGGLSDAEIEKMVKDAEANAEADKKRRETVE---------VKN    532
+                     .|..              :::||:      :.|||..|         ..:
+ISPH_ACIF5       238 TQTH--------------LIEDAQ------QLRREWFEGVGKIGISAGAS    267
+
+DNAK_CHESB       533 QAEALIHSTEKSLKDYGDKVSED----DRK---AIENAIAELKTATEG    573
+                     ..|:|:.....:|:.:|.:|.::    :.|   ::..|:.:.:|..||
+ISPH_ACIF5       268 APESLVQEIMDTLRGWGARVPQEMPGVEEKVTFSLPLALIQAQTRREG    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    18/47 (38.3%)
+# Gaps:          18/47 (38.3%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       534 AEALIH-----STEKSLKDYG---------DKVSEDDR----KAIEN    562
+                     |.|.||     ..||.:..:|         .::|..||    |.:||
+NDUA1_HUMAN       22 ATAYIHRFTNGGKEKRVAHFGYHWSLMERDRRISGVDRYYVSKGLEN     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      41/208 (19.7%)
+# Similarity:    70/208 (33.7%)
+# Gaps:          72/208 (34.6%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       274 TEINLPFITAD---------------QTGPKHLA--------IKLTRAKF    300
+                     :.|.|||:..:               |||.:.|.        |:....:.
+PSRP_SALTI        36 SSITLPFVENESRARAVKDQIDAIYQQTGVRPLVFYSIVLPEIRAIILQS     85
+
+DNAK_CHESB       301 ESLVEDLVTRTIEPCRAALK---------DAGLSAGEIDEVVLVGGMTRM    341
+                     |...:|:|...:.|.:..:|         ..||:.|.:::.     ..|:
+PSRP_SALTI        86 EGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNPGNLNKY-----DARI    130
+
+DNAK_CHESB       342 PKVQETVKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDV--    389
+                     ..:..|:.:            |:.:::....||        .|:||.|  
+PSRP_SALTI       131 AAIDYTLAH------------DDGISLRNLDQA--------QVILLGVSR    160
+
+DNAK_CHESB       390 ---TPLSL------GIETLGGVFTRLIDRNTTIPTK----KSQVFSTAED    426
+                        ||.||      ||......|......|.|:||.    :.::|....|
+PSRP_SALTI       161 CGKTPTSLYLAMQFGIRAANYPFIADDMDNLTLPTSLKPLQHKLFGLTID    210
+
+DNAK_CHESB       427 NQNAVTIR    434
+                     .:....||
+PSRP_SALTI       211 PERLAAIR    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 636
+# Identity:     636/636 (100.0%)
+# Similarity:   636/636 (100.0%)
+# Gaps:           0/636 ( 0.0%)
+# Score: 3175.0
+# 
+#
+#=======================================
+
+DNAK_CHESB         1 MAKVIGIDLGTTNSCVAVMDGKDAKVIENAEGARTTPSIVAFTDSDERLV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB         1 MAKVIGIDLGTTNSCVAVMDGKDAKVIENAEGARTTPSIVAFTDSDERLV     50
+
+DNAK_CHESB        51 GQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPYKIVKADNGD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB        51 GQPAKRQAVTNPENTFFAIKRLIGRRFEDPMVEKDKKLVPYKIVKADNGD    100
+
+DNAK_CHESB       101 AWVESHGTKYSPSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       101 AWVESHGTKYSPSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQ    150
+
+DNAK_CHESB       151 RQATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       151 RQATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFD    200
+
+DNAK_CHESB       201 ISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKND    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       201 ISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKND    250
+
+DNAK_CHESB       251 KLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       251 KLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKF    300
+
+DNAK_CHESB       301 ESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKN    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       301 ESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKN    350
+
+DNAK_CHESB       351 FFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETLG    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       351 FFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETLG    400
+
+DNAK_CHESB       401 GVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       401 GVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLG    450
+
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASG    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASG    500
+
+DNAK_CHESB       501 GLSDAEIEKMVKDAEANAEADKKRRETVEVKNQAEALIHSTEKSLKDYGD    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       501 GLSDAEIEKMVKDAEANAEADKKRRETVEVKNQAEALIHSTEKSLKDYGD    550
+
+DNAK_CHESB       551 KVSEDDRKAIENAIAELKTATEGEDADAIRAKTTALAEASMKLGQAVYEA    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       551 KVSEDDRKAIENAIAELKTATEGEDADAIRAKTTALAEASMKLGQAVYEA    600
+
+DNAK_CHESB       601 SQAENAAGGTEETGGAKDDVVDADFEEIDEDDKKSA    636
+                     ||||||||||||||||||||||||||||||||||||
+DNAK_CHESB       601 SQAENAAGGTEETGGAKDDVVDADFEEIDEDDKKSA    636
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 593
+# Identity:     118/593 (19.9%)
+# Similarity:   199/593 (33.6%)
+# Gaps:         183/593 (30.9%)
+# Score: 110.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       148 DAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGG    197
+                     |.:|:..:.||:.|.:|   .:.|.....|:..|..::|:.......|.|
+DNLJ_ACIC5        95 DWERRVREQAGQNAEIE---YVCEYKLDGLSMALHYRDGQLARGLTRGDG    141
+
+DNAK_CHESB       198 TFDISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDL    247
+                            |||:.|    :||..|.                   :...:.:
+DNLJ_ACIC5       142 -------EIGEDV----TTNVRTI-------------------RSVPLSI    161
+
+DNAK_CHESB       248 KNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTR    297
+                     .:.||         ::||:..:...:.|:.:||...::...:..|..|..
+DNLJ_ACIC5       162 ADGKL---------QQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAP    202
+
+DNAK_CHESB       298 AKFESLVEDLVTRTIEP-----------CRAALKDAGLSA-GEIDEVV--    333
+                     |...........||:||           ...||.:.|..| ||.:|.:  
+DNLJ_ACIC5       203 AANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDA    252
+
+DNAK_CHESB       334 ------LVGGMTRMPKVQETVKNFFGK-EPHK------------------    358
+                           .|.......|..|||..|..: |.|:                  
+DNLJ_ACIC5       253 LATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAV    302
+
+DNAK_CHESB       359 --------GVNPDEVVAMGAAIQAGVLQGDVKDVL-----------LLDV    389
+                             |..|...||...|.::||.|  |:|:.           :..:
+DNLJ_ACIC5       303 LQRRLGYTGRAPRWAVAYKFAARSGVTQ--VEDIQVQVGRTGKLTPVAWL    350
+
+DNAK_CHESB       390 TPLSLG--------------IETLG---GVFTRLIDRNTTIPTKKSQVFS    422
+                     .|:.:|              ||.||   |.|.| |:|...:..|..:|..
+DNLJ_ACIC5       351 APVQVGGTTVTRATLHNADEIERLGLRIGDFVR-IERGGDVIPKVVEVVD    399
+
+DNAK_CHESB       423 TAEDNQ--------------NAVTIRVFQGEREMAADN--------KLLG    450
+                     .||..:              .:..:|. .||.:....|        :.|.
+DNLJ_ACIC5       400 DAEHPRGTKHFHFPHACPACGSEVVRT-PGEADYRCVNTDCPARLRESLL    448
+
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIE-----VTFDIDANGIVNVSAKDKGTGKEQQIR    495
+                     .|       |.||:..||     :...:...|:|...:......:||.:.
+DNLJ_ACIC5       449 HF-------ASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVS    491
+
+DNAK_CHESB       496 IQASGGLS------------DAEIEKMVKDAEANAEADKKRRETVEVKNQ    533
+                     ::..|..|            .|.:::::.........::..:...|....
+DNLJ_ACIC5       492 LERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGS    541
+
+DNAK_CHESB       534 AEALIHSTEKSLK---DYGDKVSEDDRKAIE-----NAIAELKTA---TE    572
+                     .:||:.::.:.|:   |.|.:|||..|:..:     :.:..|:.|   ..
+DNLJ_ACIC5       542 MDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFT    591
+
+DNAK_CHESB       573 GEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETGG    615
+                     ||.    |.||:.||..:..|...:...|:.| |.|..|..||
+DNLJ_ACIC5       592 GEK----RKKTSQLAGLTFVLTGTLPGLSRDE-AKGKIENAGG    629
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      30/129 (23.3%)
+# Similarity:    45/129 (34.9%)
+# Gaps:          48/129 (37.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNAK_CHESB        32 GARTTPSIVAFTDSDERLVGQPAKRQAVT-------------------NP     62
+                     |:|:.||   ..|::.|::.|...|...|                   .|
+CAPSD_CMVO        20 GSRSAPS---SADANFRVLSQQLSRLNKTLAAGRPTINHPTFVGSERCKP     66
+
+DNAK_CHESB        63 ENTFFAI--------------KRLIGRRFEDPMVEKDKKLVPYKIVKAD-     97
+                     ..||.:|              |||:   ..|.:.|.|||||....::.: 
+CAPSD_CMVO        67 GYTFTSITLKPPKIDRGSYYGKRLL---LPDSVTEYDKKLVSRIQIRVNP    113
+
+DNAK_CHESB        98 ----NGDAWVESH----GTKYSPSQISAM    118
+                         :...||...    .:..|.:.||||
+CAPSD_CMVO       114 LPKFDSTVWVTVRKVPASSDLSVAAISAM    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      40/171 (23.4%)
+# Similarity:    63/171 (36.8%)
+# Gaps:          38/171 (22.2%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       492 QQIRIQASGGLSDAEIEKMVKDAEANAEADKKRRETVEVKNQAE------    535
+                     :|||:.....:.....::::|..||...|:.:..:.:||:..||      
+IF3_CHLL2         19 EQIRVPEVRIVFQDGTQQVMKTIEARRMAEDRNLDLIEVQPNAEPPVCKL     68
+
+DNAK_CHESB       536 ----ALIHSTEKSLKDYGDKVSEDDRKAIENAIAELK--TATEGEDADAI    579
+                         .|:...:|..||.       .:|.....:.||:  ..|:..|.|  
+IF3_CHLL2         69 DNLGKLLFKMDKRDKDL-------KKKQKTTTLKELRFHPNTDKHDFD--    109
+
+DNAK_CHESB       580 RAKTTALAEASMK----------LGQA-VYEASQAENAAGGTEETGGAKD    618
+                      .||..|.|...|          ||:: :|:....|.|...||......:
+IF3_CHLL2        110 -FKTAHLEEFLRKGNRVRATIVFLGRSIIYKDKGLELAERLTERLSCVSN    158
+
+DNAK_CHESB       619 DVVDADFE-----EIDEDDKK    634
+                     ...|..||     ...|.|||
+IF3_CHLL2        159 RDGDPKFEGKKLFVYFEPDKK    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:      10/26 (38.5%)
+# Similarity:    16/26 (61.5%)
+# Gaps:           4/26 (15.4%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       111 SPSQISA---MILQKMKETA-ESYLG    132
+                     :|.::|.   .|.|::|:|. |.|||
+CSRA_HAEI8        36 APKEVSVHREEIYQRIKQTKDEPYLG     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 304
+# Identity:      56/304 (18.4%)
+# Similarity:   110/304 (36.2%)
+# Gaps:          89/304 (29.3%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+DNAK_CHESB         4 VIGIDLGTTNSCVAVMDGKDAKVIEN----AEGARTTPSI----------     39
+                     ::.:|:|.||..:.:.  |:.::|.|    .:..||....          
+COAX_CLOBL         2 ILVLDVGNTNIVLGIY--KNKELIANWRLATDNKRTADEYGIQVIELFSH     49
+
+DNAK_CHESB        40 --VAFTDSDERLVGQPAKRQAVTNPENTFFAIKRLIGRRFE-DPMV----     82
+                       ::|:|.:..::....        .|..::::.:|.:.|. .|::    
+COAX_CLOBL        50 NNLSFSDIEGVIISSVV--------PNIMYSLEHMISKYFNIKPIIVGPG     91
+
+DNAK_CHESB        83 ---------EKDKKLVPYKIVKADNGDAWVESHGTKYSPSQI-----SAM    118
+                              :..|::...:||.|      |.:|.....|..|     :..
+COAX_CLOBL        92 VKTGINIKYDNPKEVGADRIVNA------VAAHEIYKKPLIIIDFGTATT    135
+
+DNAK_CHESB       119 ILQKMKETAESYLGEKVEKAV-ITVPAYFNDAQRQATKDAGKIAGLEVLR    167
+                     .....||.  :|||..:...: |:..|.|:.|.:....:..|..|     
+COAX_CLOBL       136 FCAVTKEA--NYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG-----    178
+
+DNAK_CHESB       168 IINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDI------SILEIGDGVF    211
+                     :|.:.|.|::..|:         :|...|....|      .::::|:...
+COAX_CLOBL       179 VICKNTVASIQSGI---------IYGYAGQVDYIVSKMKKEMMDLGEEEP    219
+
+DNAK_CHESB       212 EVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAA    261
+                     .|.:|.|            ....:::|.|   .||..|..|.|:.|:...
+COAX_CLOBL       220 FVVATGG------------FAKLISEESK---SIDEINAILTLEGLRVIY    254
+
+DNAK_CHESB       262 EKAK    265
+                     ||.|
+COAX_CLOBL       255 EKNK    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       496 IQASGGLSDAEIEKMVK    512
+                     |.|..|||:.|.:|..|
+HOP_BOVIN         36 IAAEAGLSEEETQKWFK     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 437
+# Identity:      82/437 (18.8%)
+# Similarity:   152/437 (34.8%)
+# Gaps:         110/437 (25.2%)
+# Score: 75.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       248 KNDKLALQRLKEAA----EKAKIELSSSSQTEINLPFITADQTGPKHLAI    293
+                     :|.:..|||..|:.    .:..||::|.|............||...|.::
+THII_VIBA3        28 RNIRTILQRRTESVAVFNRRDHIEVTSESDKYFKETLEVLTQTPGIHHSL     77
+
+DNAK_CHESB       294 KLTRAKFESLVEDLVTRTIEPCRAALKDAGLSA-----GEID------EV    332
+                     ::.:::|:.| .::..:.:|...|.::....|.     |:.|      |.
+THII_VIBA3        78 EVQQSEFKDL-HNIYEQVLERSGALIEGKTFSVRAKRRGKHDFTSIELER    126
+
+DNAK_CHESB       333 VLVGGMT----------RMPKVQETVKNFFGK-----EPHKGVNPDEVVA    367
+                     .:.||:.          :.|.:...|:....|     |.|||:       
+THII_VIBA3       127 YVGGGLNQAVESAKVKLKNPDITVKVEVENDKLNQVIERHKGL-------    169
+
+DNAK_CHESB       368 MGAAIQAGVLQGDVKDVLLLDVTPLSLGIET----------------LGG    401
+                           .|...|..:|:|.|.......|:.:                |||
+THII_VIBA3       170 ------GGFPLGTQEDLLSLISGGFDSGVSSYLHIKRGSKVHYCFFNLGG    213
+
+DNAK_CHESB       402 ---------VFTRLIDRNTTIPTKK----------SQVFSTAEDNQNAVT    432
+                              |...|.|:..:....|          :::....||.|..|.
+THII_VIBA3       214 PAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEILENVEDGQMGVV    263
+
+DNAK_CHESB       433 I-RVFQGEREMAAD---------NKLLGQFD---LVGIPPAPRGMPQIEV    469
+                     : |:|.....|.|:         .:.|||..   |..:    |.:..:..
+THII_VIBA3       264 LKRMFMRAGGMVAERFGIEALVTGEALGQVSSQTLTNL----RHIDNVTD    309
+
+DNAK_CHESB       470 TFDI------DANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKD    513
+                     |..:      |...|:::|.| .||....::..:..|.:|.....| .|.
+THII_VIBA3       310 TLILRPLINWDKEDIIDLSRK-IGTEDFAKVMPEYCGVISKKPTVK-AKK    357
+
+DNAK_CHESB       514 AEANAEADKKRRETVE--VKNQAEALIHSTEKSLKDYGDKVSEDDRKAIE    561
+                     .:..||..|...|.:|  ::|.....|...||..::...:|.:....|..
+THII_VIBA3       358 GKLEAEEAKFNFEVLEQVIENARIMDIRDIEKESQEQAPEVEQVQAVAEH    407
+
+DNAK_CHESB       562 NAIAELKTATEGEDA----DAIRAKTTALAEASMKLG    594
+                     ..:.::::..|.:::    |.:..|.....:.|.:.|
+THII_VIBA3       408 AVVLDIRSPDEEDESPLEIDGVEIKHIPFFKLSTQFG    444
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      19/73 (26.0%)
+# Similarity:    35/73 (47.9%)
+# Gaps:          13/73 (17.8%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       462 RGMPQIEVTFDIDANG-IVNVSAKD-KGTGKEQQIRIQAS-----GGLSD    504
+                     ||..:.|.|..:|... ||.::|:. :.||.:...::..|     ||:.:
+RL13_PSEPG        37 RGKHKPEYTPHVDTGDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKE     86
+
+DNAK_CHESB       505 AEIEKMVKDAEANAEADKKRRET    527
+                     ...||::      |:|.::..||
+RL13_PSEPG        87 INFEKLI------AKAPERVIET    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      36/175 (20.6%)
+# Similarity:    59/175 (33.7%)
+# Gaps:          65/175 (37.1%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       481 VSAKDKGTGKEQQIRI----QASGGLSDAEIEKMVKDAEANAEADKKRRE    526
+                     :|||.||      |.|    :.:..||:|      .|...:|.:..|:..
+RR2_ARATH         35 ISAKRKG------IHIINLTRTARFLSEA------CDLVFDAASRGKQFL     72
+
+DNAK_CHESB       527 TVEVKNQAEALI------------------------HSTEKSLKDYGDKV    552
+                     .|..||:|..|:                        .:|||.|..:.|  
+RR2_ARATH         73 IVGTKNKAADLVSRAAIRARCHYVNKKWLGGMLTNWSTTEKRLHKFRD--    120
+
+DNAK_CHESB       553 SEDDRKAIENAIAELKTATEGEDADAIRAKTTALAEASMKLGQAVYEASQ    602
+                                   |:|..:.|..:.:..:..|:.:..:         |:
+RR2_ARATH        121 --------------LRTEQKTEGFNRLPKRDAAVLKRQL---------SR    147
+
+DNAK_CHESB       603 AENAAGGTEETGGAKDDVVDADFEE    627
+                     .|...||.:...|..|.|:..|.:|
+RR2_ARATH        148 LETYLGGIKYMTGLPDIVIILDQQE    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      28/129 (21.7%)
+# Similarity:    54/129 (41.9%)
+# Gaps:          35/129 (27.1%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       142 VPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLD----KKEGK    187
+                     ||.|.|..:::                :..||.||:|..|.    :....
+Y1710_SYNP2      201 VPVYSNGIEKE----------------LVTPTGAAIATTLATDFCQPPAM    234
+
+DNAK_CHESB       188 TIAVYDLGGGTFDI---SILEIGDGVFEVKSTNGDTFLGGE----DFDMR    230
+                     |:|...||.||.|:   ::|.:..| .:.::.:.:|.:..|    |.:.:
+Y1710_SYNP2      235 TLAKIALGSGTIDLPLPNLLRLWIG-HQPETPHLETIVTLETQIDDLNPQ    283
+
+DNAK_CHESB       231 LVNYLADEFKK-------EQGIDLKNDKL    252
+                     .:.|..::.:.       .|||.:|.::|
+Y1710_SYNP2      284 AIAYACEKLQAAGALDVFTQGITMKKNRL    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 391
+# Identity:      73/391 (18.7%)
+# Similarity:   131/391 (33.5%)
+# Gaps:         161/391 (41.2%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       177 LAYGLDKKE----------GKTIAVYDLGGGTFDISILEIGDGVFEVKST    216
+                     :.:.::|.|          |||:             :||:..|:.|..| 
+WTPC_THEKO        20 VTFSVEKGEHFIILGPSGAGKTV-------------LLEVIAGIIEPDS-     55
+
+DNAK_CHESB       217 NGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKI    266
+                      |..||.|||.                 .||..:|..|..:         
+WTPC_THEKO        56 -GRIFLNGEDI-----------------TDLPPEKRGLAYI---------     78
+
+DNAK_CHESB       267 ELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCR    316
+                                          |::.|:....:.|:::...|..|.:... 
+WTPC_THEKO        79 ---------------------PQNYALFPNMSVFDNIAFGLKVRKVPKA-    106
+
+DNAK_CHESB       317 AALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVNPDEVV    366
+                         :.|....|:.||:   |::.:  ::...|...|.|..:     ..:
+WTPC_THEKO       107 ----EIGRKVRELSEVL---GISHL--LKRKPKTLSGGEMQR-----VAI    142
+
+DNAK_CHESB       367 AMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETLGGVFTRLIDRNTTIPTK    416
+                     |...|::        .::||||....:|.::|.|    |||  |.....:
+WTPC_THEKO       143 ARALAVE--------PELLLLDEPFANLDVQTRG----RLI--NEMKRWR    178
+
+DNAK_CHESB       417 KSQVFS---TAEDNQNAVTI-------------------RVFQ--GEREM    442
+                     |...|:   .....:.||::                   .||.  ...|:
+WTPC_THEKO       179 KELGFTALHVTHSFEEAVSLGDRVGVMLNGRLVQVGPVREVFSRPASEEV    228
+
+DNAK_CHESB       443 AADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQ    492
+                     |   |.||..::|      .|:.:..:   :.|||:|            .
+WTPC_THEKO       229 A---KFLGFENIV------EGLAEGRI---LRANGLV------------I    254
+
+DNAK_CHESB       493 QIRIQASGG-----------LSDAEIEKMVKDA-EANAEAD    521
+                     ::.|:|||.           |||..::..:::. :|..:||
+WTPC_THEKO       255 ELPIEASGRIRVGIRPEDIVLSDEPLKSSMRNTFQAEVQAD    295
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      23/106 (21.7%)
+# Similarity:    45/106 (42.5%)
+# Gaps:          11/106 (10.4%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       350 NFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIETL    399
+                     ::.|..|.:.|:.:.:|||..:..||.:..:.::.       ||...|. 
+GRB7_RAT         360 SYLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEA-------LSAATEE-    401
+
+DNAK_CHESB       400 GGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLL    449
+                     ...:.:..:...::||..|.:..:|..::   |...|.|........:|:
+GRB7_RAT         402 AQAWRKKTNHRLSLPTPCSGLSLSAAIHR---TQPWFHGRISREESQRLI    448
+
+DNAK_CHESB       450 GQFDLV    455
+                     ||..||
+GRB7_RAT         449 GQQGLV    454
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      35/163 (21.5%)
+# Similarity:    63/163 (38.7%)
+# Gaps:          33/163 (20.2%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       457 IPPAPRG-----MPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASGG    501
+                     |||...|     :|::.:...: .|..||   :....|:.::| |.:.|.
+PSD_RHOPS         83 IPPPALGLGDKPLPRVSIFMSV-FNCHVN---RSPVAGRVERI-IYSPGK    127
+
+DNAK_CHESB       502 LSDAEIEKMVKDAEANAE--------------ADKKRRETVEVKNQAEAL    537
+                     ..:||::|..:|.|.|:.              |....|..|....:.:.|
+PSD_RHOPS        128 FINAELDKASEDNERNSMVISTPAGQIGVVQIAGLVARRIVSFVREGQTL    177
+
+DNAK_CHESB       538 IHSTEKSLKDYGDKVSEDDRKAIENAIAELKTATEGEDADAIRAKTTALA    587
+                     .......|..:|.::.....:..:..::|.:||..||         |.||
+PSD_RHOPS        178 APGERFGLIRFGSRLDVYLPEGAKPLVSEGQTAIAGE---------TVLA    218
+
+DNAK_CHESB       588 EASMKLGQAVYEA    600
+                     :.::..|...|.|
+PSD_RHOPS        219 DFNLGDGGRTYRA    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 395
+# Identity:      79/395 (20.0%)
+# Similarity:   138/395 (34.9%)
+# Gaps:         109/395 (27.6%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       288 PKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGG    337
+                     |...:|...|..|:.:|:..|:..::.....:....|. |::::.  :|.
+PP156_ARATH      180 PSSFSISSAREVFDDMVKIGVSLNVQTFNVLVNGYCLE-GKLEDA--LGM    226
+
+DNAK_CHESB       338 MTRMPKVQETVKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDV--L    385
+                     :.||      |..|       .||||. |.....::|...:|.:.|:  |
+PP156_ARATH      227 LERM------VSEF-------KVNPDN-VTYNTILKAMSKKGRLSDLKEL    262
+
+DNAK_CHESB       386 LLDVTPLSLGIETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTI-R    434
+                     |||                  :.:|..:|              |.||. .
+PP156_ARATH      263 LLD------------------MKKNGLVP--------------NRVTYNN    280
+
+DNAK_CHESB       435 VFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAK    484
+                     :..|..::.:   |...|.:|.:......:|.: .|::|..||:.|..:.
+PP156_ARATH      281 LVYGYCKLGS---LKEAFQIVELMKQTNVLPDL-CTYNILINGLCNAGSM    326
+
+DNAK_CHESB       485 DKG---TGKEQQIRIQASG-------------GLSDAEIEKMVKDAE---    515
+                     .:|   ....:.:::|...             ||| .|..|:::..|   
+PP156_ARATH      327 REGLELMDAMKSLKLQPDVVTYNTLIDGCFELGLS-LEARKLMEQMENDG    375
+
+DNAK_CHESB       516 --AN-----------AEADKKRRETVEVKNQAE--------ALIHSTEKS    544
+                       ||           .:.:|:...|.:||...:        ...|:..|:
+PP156_ARATH      376 VKANQVTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYHTLIKA    425
+
+DNAK_CHESB       545 LKDYGD------KVSEDDRKAIENAIAELKTATEGEDADAIRAKTTALAE    588
+                     ....||      .:.|..:|.|     ::.|.|.....||: .|...|.|
+PP156_ARATH      426 YLKVGDLSGALEMMREMGQKGI-----KMNTITLNTILDAL-CKERKLDE    469
+
+DNAK_CHESB       589 ASMKLGQAVYEASQAENAAGGTEETGGAKDDVVDADFEEIDEDDK    633
+                     |...|..|.......:....||...|..:::.|:...|..||..|
+PP156_ARATH      470 AHNLLNSAHKRGFIVDEVTYGTLIMGFFREEKVEKALEMWDEMKK    514
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       6/13 (46.2%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+DNAK_CHESB         3 KVIGIDLGTTNSC     15
+                     |.:||.:||...|
+ADRB2_MESAU      273 KTLGIIMGTFTLC    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      10/47 (21.3%)
+# Similarity:    18/47 (38.3%)
+# Gaps:          13/47 (27.7%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       241 KEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTG    287
+                     |:.||.:.:|......:||.             ..:.:.|:.||:.|
+ID5B_ADEPA         4 KDLGISIDDDNNRRLAVKEG-------------DPLVVQFVNADREG     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      53/270 (19.6%)
+# Similarity:    93/270 (34.4%)
+# Gaps:          75/270 (27.8%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       230 RLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELS--------SS    271
+                     ||...:.::.||:|.:.|:..||.|....|:.:...::..        |.
+GPA7_CAEEL        14 RLNRRIDEQIKKDQSMSLRIIKLLLLGAGESGKSTILKQMRILHKDGFSQ     63
+
+DNAK_CHESB       272 SQTEINLPFITADQTGPKHLAIKLTRAKFESLVE----------DLVTRT    311
+                     ...|:..|.:.::..   |..:.:.||.|...:|          .||..|
+GPA7_CAEEL        64 QDLEMIRPVVYSNCI---HSMLSILRAMFHLQIEYGEPDRVRDSQLVFAT    110
+
+DNAK_CHESB       312 IEPCRAALKDAGLSAGEIDEVVLVGGMTRM---PKVQE------------    346
+                     :...:..|.:.           |...|.|:   |.|:|            
+GPA7_CAEEL       111 VHANKEELTEE-----------LAAAMQRLWHDPGVRECYRRSNEYQIDD    149
+
+DNAK_CHESB       347 TVKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGI    396
+                     :.|.|....|... :|:.|.:....::..:....:.:||.          
+GPA7_CAEEL       150 SAKYFLDNLPRLS-SPNYVPSEQDLLRTRIKTTGITEVLF----------    188
+
+DNAK_CHESB       397 ETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVF--------QG    438
+                      .|.|:..|:||.......:|..:.  ..||.||:   :|        |.
+GPA7_CAEEL       189 -ELKGLTFRVIDVGGQRSERKKWIH--CFDNVNAI---IFISSLSEYDQT    232
+
+DNAK_CHESB       439 EREMAADNKL---LGQFDLV    455
+                     .||....|::   |..||.:
+GPA7_CAEEL       233 LREDNCTNRMQESLKLFDSI    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      20/65 (30.8%)
+# Similarity:    27/65 (41.5%)
+# Gaps:          13/65 (20.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       131 LGEKVEKAV-----------ITVP-AYFNDAQRQATKDAGKIAGLEVLRI    168
+                     |||..|.||           ||.| :.:.|.:.:|| |...|...||..:
+IDI_ECO24         72 LGESNEDAVIRRCRYELGVEITPPESIYPDFRYRAT-DPNGIVENEVCPV    120
+
+DNAK_CHESB       169 INEPTAAALAYGLDK    183
+                     ....|.:||....|:
+IDI_ECO24        121 FAARTTSALQINDDE    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 369
+# Identity:      73/369 (19.8%)
+# Similarity:   118/369 (32.0%)
+# Gaps:         124/369 (33.6%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       101 AWVESHGTKYSPSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQ    150
+                     ||:.....:|..|          .:||..:..|.|:.....:|   .|||
+YHJA_ECOLI       149 AWIAKQRAEYYAS----------NDTAPEHRNEPVQPIPQKLP---TDAQ    185
+
+DNAK_CHESB       151 RQA-----------------------TKDAGKIAGLE-------VLRIIN    170
+                     :.|                       ..:||.:.|.:       .:..||
+YHJA_ECOLI       186 KVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPIN    235
+
+DNAK_CHESB       171 EPTAAALAYGLDK-KEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGD    219
+                     .||.....:.::: .:|:...:.|..||. .::.:|:.       |.:.|
+YHJA_ECOLI       236 APTVFNSVFNVEQFWDGRAATLQDQAGGP-PLNPIEMA-------SKSWD    277
+
+DNAK_CHESB       220 TFLGGEDFDMRLVNYLADEFKKEQGIDLKN--DKLALQRLKEAAEKAKIE    267
+                     ..:...:.|.:|.....:.:  .||...:|  |.:|              
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVY--PQGFSGENITDAIA--------------    311
+
+DNAK_CHESB       268 LSSSSQTEINLPFITADQTGPKHL-----AIKLTRAKFESLVED------    306
+                            |.....||.|....|.|     |:...:.|...|.:|      
+YHJA_ECOLI       312 -------EFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATC    354
+
+DNAK_CHESB       307 -----LVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNF    351
+                          |..|:.||. ...||  .:.|||    ....:.||...:|.....
+YHJA_ECOLI       355 HGGIILGGRSFEPL-GLKKD--FNFGEI----TAADIGRMNVTKEERDKL    397
+
+DNAK_CHESB       352 FGKEP------------HKGVNP--DEVVAMGAAIQAG--VLQGDVKDVL    385
+                     ..|.|            |:|..|  |..|.:....|.|  :.|.||.|::
+YHJA_ECOLI       398 RQKVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKELPQEDVDDIV    447
+
+DNAK_CHESB       386 LLDVTPLSLGIETLGGVFT    404
+                     ..        :.:|.||:|
+YHJA_ECOLI       448 AF--------LHSLNGVYT    458
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      29/140 (20.7%)
+# Similarity:    56/140 (40.0%)
+# Gaps:          25/140 (17.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       452 FDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQI-------    494
+                     ::||.:....|||    |...||....:.:...:|.|.:.|.:       
+RIMP_BURPS        16 YELVDLERTGRGM----VCVYIDQPAGITIDDCEKVTRQLQHVLTVENID     61
+
+DNAK_CHESB       495 --RIQASGGLSDAEIEKMVKDAE-ANAEADKKRRETVEVKNQAEALIHST    541
+                       |::.|....|..::|:..... |.:||....::.::.:.....::|:.
+RIMP_BURPS        62 YERLEVSSPGLDRPLKKLADFTRFAGSEAVITLKKPLDGRKTYRGILHAP    111
+
+DNAK_CHESB       542 EKSLKDYGDKVS-EDDRKAIENAIAELKTATEGEDADAIR    580
+                     .      |:.:. |.:||..|.|:.:...|    |.|..|
+RIMP_BURPS       112 N------GETIGLEFERKKGEAAMLDFTLA----DIDKAR    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    15/30 (50.0%)
+# Gaps:           0/30 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       405 RLIDRNTTIPTKKSQVFSTAEDNQNAVTIR    434
+                     |.|:||...|.::..:.:..|..:.|..:|
+RS28_OSTOS        37 RTINRNVKGPVREGDILTLLEAEREARRLR     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      25/98 (25.5%)
+# Similarity:    37/98 (37.8%)
+# Gaps:          21/98 (21.4%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       127 AESYLGEKVEKAVITVP---AYFND----AQRQATKDAGKIAGLEVLRII    169
+                     ||.|..|.:.:..:..|   .||.:    |.....|:.||       :::
+HBAC_LITCT        22 AEQYGAEALHRMFLCHPQTKTYFPNFDFHANSAHLKNHGK-------KVM     64
+
+DNAK_CHESB       170 NEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTN    217
+                     |..|.|  ...||..|....::.||...|     |.:..|.|.:.|.|
+HBAC_LITCT        65 NALTDA--VKHLDHPEASLSSLSDLHAFT-----LRVDPGNFALLSNN    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 615
+# Identity:     117/615 (19.0%)
+# Similarity:   185/615 (30.1%)
+# Gaps:         203/615 (33.0%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+DNAK_CHESB        92 KIVKAD--------NGDAWVESHGTKYSPSQ-ISAMILQKMKETAESYLG    132
+                     |:.:||        |...:|.:...|.:..| |.|...:.:::...|.:.
+RPOA_PRRSS      2074 KLSQADLDFLSSLTNFKCFVSASNMKNAAGQYIEAAYAKALRQELASLVQ   2123
+
+DNAK_CHESB       133 EKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLD    182
+                     ....|.:::....|.:....:. |||.:    |:.:...|..:.|...:.
+RPOA_PRRSS      2124 VDKMKGILSKLEAFAETATPSL-DAGDV----VVLLGQHPHGSILDINVG   2168
+
+DNAK_CHESB       183 KKEGKTIAVYD---LGGGTFDISILEIGDGVFEVKSTNGDTFLGGEDFDM    229
+                      .|.||::|.:   |||..|.:..:        |.:|..|...|   ..:
+RPOA_PRRSS      2169 -TERKTVSVQETRSLGGSKFSVCTV--------VSNTPVDALTG---IPL   2206
+
+DNAK_CHESB       230 RLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEK-----------AKIEL    268
+                     :....|.:...:.:|   :.|.|.::|:|:....           .||..
+RPOA_PRRSS      2207 QTPTPLFENGPRHRG---EEDDLRVERMKKHCVSLGFHNINGKVYCKIWD   2253
+
+DNAK_CHESB       269 SSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAA    318
+                     .|:..|     |.|.|....:.||       |:....|...|..|..:.|
+RPOA_PRRSS      2254 KSTGDT-----FYTDDSRYTQDLA-------FQDRSADYRDRDYEGVQTA   2291
+
+DNAK_CHESB       319 LKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVNPDEVVAM    368
+                                                          |.:|.:|.....:
+RPOA_PRRSS      2292 -------------------------------------PQQGFDPKSETPI   2304
+
+DNAK_CHESB       369 GAAIQAGV------LQGDVKDVLL------LDVTPLSLGIETLGGVFTRL    406
+                     |..:..|:      ::|  |:||:      |:...|||. :.|.|:    
+RPOA_PRRSS      2305 GTVVIGGITYNRYLIKG--KEVLVPKPDNCLEAAKLSLE-QALAGM----   2347
+
+DNAK_CHESB       407 IDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLGQFDLVG    456
+                              .::...:.||..:....|...||.....|.|.||.      
+RPOA_PRRSS      2348 ---------GQTCDLTAAEVEKLRRIISQLQGLTTEQALNCLLA------   2382
+
+DNAK_CHESB       457 IPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAE    506
+                                       |:|:...                ..|||...|
+RPOA_PRRSS      2383 ------------------ASGLTRC----------------GRGGLVVTE   2398
+
+DNAK_CHESB       507 IE-KMVK-----------DAEANAEADKKRRETVEVKNQAE---------    535
+                     .. |:||           |.:..:||        |||...|         
+RPOA_PRRSS      2399 TAVKIVKYHSRTFTLGPLDLKVTSEA--------EVKKSTEQGHAVVANL   2440
+
+DNAK_CHESB       536 ----ALIHSTEKSLKDYGDKVSEDDRKAIENAIAELKTATEGEDADAIRA    581
+                         .|:.....||.|...|...|.:..|:..........:|...|...|
+RPOA_PRRSS      2441 CSGVILMRPHPPSLVDVLLKPGLDTKPGIQPGHGAGNMGVDGSTWDFETA   2490
+
+DNAK_CHESB       582 KTTALAEASMKLGQAV-YEASQAEN---------AAGGTEETGGAKDDVV    621
+                     .|.|..|.|.::.||. .....|.|         ..|..|..||...:..
+RPOA_PRRSS      2491 PTKAELELSKQIIQACEVRRGDAPNLQLPYKLYPVRGDPERHGGRLINTR   2540
+
+DNAK_CHESB       622 DADFEEIDEDDKKSA    636
+                     ..|.......|.|||
+RPOA_PRRSS      2541 FGDLSYKTPQDTKSA   2555
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      54/251 (21.5%)
+# Similarity:    86/251 (34.3%)
+# Gaps:          79/251 (31.5%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       132 GEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGL    181
+                     |.:....|:.:.....|..||.::..|. .|..||..||   |:.|..|.
+UBIE_PSEAE        65 GVRSGNRVLDIAGGTGDLTRQFSRLVGP-TGEVVLADIN---ASMLKVGR    110
+
+DNAK_CHESB       182 DKKEGKTIAVYDLGGGTF---DISILEIGDGVFEVKSTNGDTFLGGEDFD    228
+                     ||...|.::    |..:|   |...|...|..|:..:.         .|.
+UBIE_PSEAE       111 DKLLDKGVS----GNVSFVQADAEKLPFPDNHFDCVTI---------AFG    147
+
+DNAK_CHESB       229 MRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEIN-    277
+                     :|.|.:      |::.|     :..|:.||.......:|.|..|...:: 
+UBIE_PSEAE       148 LRNVTH------KDEAI-----RSMLRVLKPGGRLLVLEFSKPSSNLLSK    186
+
+DNAK_CHESB       278 ---------LP----FITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEP    314
+                              ||    .:|.|....::||        ||:       .:.|
+UBIE_PSEAE       187 AYDAYSFSLLPLMGKLVTNDSESYRYLA--------ESI-------RMHP    221
+
+DNAK_CHESB       315 CRAALKDAGLSAGEIDEVV---LVGGMTRMPKVQETVKNFFGKEPHKGVN    361
+                     .:..||...:.|| .|.|.   :.||:..:               |:|:.
+UBIE_PSEAE       222 DQETLKAMMVEAG-FDRVTYHNMTGGIVAL---------------HRGIK    255
+
+DNAK_CHESB       362 P    362
+                     |
+UBIE_PSEAE       256 P    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 521
+# Identity:     106/521 (20.3%)
+# Similarity:   184/521 (35.3%)
+# Gaps:         182/521 (34.9%)
+# Score: 104.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       120 LQK--MKETAESYL-GEKVEKAVITVPAYFNDA-------------QRQA    153
+                     |||  :|..:|.|| |.||...:::....:.:|             |..:
+FLII_AQUAE         8 LQKSYLKRCSEMYLRGLKVSGEIVSAKGIYLEAILPFANIGNEVEIQSNS     57
+
+DNAK_CHESB       154 TKDAGKIAGL---EVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFD    200
+                     .:..|::.|.   :||.:..||     .:|| :|..|.:...:|      
+FLII_AQUAE        58 RRIRGEVIGFSGDKVLVMPYEP-----VFGL-RKGDKVLLKNEL------     95
+
+DNAK_CHESB       201 ISILEIGDGVF-EVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKN    249
+                     :| .:.|:||. :|....|:...||         ::.  |.:|:|::|..
+FLII_AQUAE        96 VS-TKTGNGVVGKVVDPFGNPLDGG---------FIG--FVEEKGLELPQ    133
+
+DNAK_CHESB       250 -DKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRA    298
+                      :.|..:|::|..:                       ||.:.:....|..
+FLII_AQUAE       134 INPLYRERIREVFD-----------------------TGVRSVNALFTLG    160
+
+DNAK_CHESB       299 KFESLVEDLVTRTIEPCRAALKDAGLSAGE-IDEVVLVGGMTRMPK----    343
+                     |.:.:                   |:.||. :.:..|:|.:||..|    
+FLII_AQUAE       161 KGQKI-------------------GIFAGAGVGKSTLLGMITRHSKADVV    191
+
+DNAK_CHESB       344 -----------VQETVKNFFGKEPHKGVNPDEVV--------------AM    368
+                                |:|.::...|:|   |:....||              |:
+FLII_AQUAE       192 VLALIGERGREVKEFLEEVLGEE---GLKKSVVVVSTADQSPILKVKGAI    238
+
+DNAK_CHESB       369 GAAIQAGVLQGDVKDVLLL--DVTPLSLGIETLG----------------    400
+                     .|.:.|.......||||||  .:|.|:|....:|                
+FLII_AQUAE       239 SAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSV    288
+
+DNAK_CHESB       401 --------------------GVFTRLI--DRNTTIPTKKSQVFSTAEDNQ    428
+                                         |:||.|:  |..:..|...|          
+FLII_AQUAE       289 FQLLTRIAESCGAFKKGSITGIFTVLVEGDDISLDPIADS----------    328
+
+DNAK_CHESB       429 NAVTIRVFQGEREMAADNKLLGQFDLVG-IPPAPRGMPQI--EVTFDIDA    475
+                        .:.|..|...::....:.|.|..|. :....|.||::  |..| :.|
+FLII_AQUAE       329 ---LMGVLDGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHF-MKA    374
+
+DNAK_CHESB       476 NGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAE-ANAEADKKR    524
+                     |....|.:|.:..  |:.:||....|.|:..::|::.:.| ..:...:|.
+FLII_AQUAE       375 NFFKEVLSKFEDV--EELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKP    422
+
+DNAK_CHESB       525 RETVEVKNQAEAL--IHSTEK    543
+                     .|.|..:...:||  |:|..|
+FLII_AQUAE       423 EEKVNFEESLKALDEIYSLLK    443
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      35/155 (22.6%)
+# Similarity:    49/155 (31.6%)
+# Gaps:          45/155 (29.0%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       463 GMPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVK    512
+                     |.||:...|.:..|..|                :...||.|.:   ...|
+MSS11_VANPO      543 GKPQLSHQFVVPVNNQV----------------VTTPGGSSTS---ARTK    573
+
+DNAK_CHESB       513 DAEANAEADKKRRETVEVKNQAEALIHSTEKSLKDYGDKVSEDDRKAIEN    562
+                     ....:...:||:.|||..||...:.|:|..                    
+MSS11_VANPO      574 SNARSTNTNKKKMETVSKKNNKRSDINSPA--------------------    603
+
+DNAK_CHESB       563 AIAELKTATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEE    612
+                     .|..:.|.| ..|.:.| :.|.......:.|.||....|:||    |..|
+MSS11_VANPO      604 TIVPISTPT-SSDGNII-SSTQGTNFPIVNLSQAPTPTSKAE----GDGE    647
+
+DNAK_CHESB       613 TGGAK    617
+                     .|..|
+MSS11_VANPO      648 AGQNK    652
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      47/179 (26.3%)
+# Similarity:    74/179 (41.3%)
+# Gaps:          38/179 (21.2%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       445 DNKLLGQ-FDLVGIPPAPR-----GMPQIEVTFDIDANGIVNVSAKDKGT    488
+                     |.:.||: :.|:.:|..|.     |...:.::.|.|     |.:.|||..
+SPB4_ASPFU       483 DWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDWD-----NYAYKDKQR    527
+
+DNAK_CHESB       489 GKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKRR--ETVEVKNQAEA    536
+                     .|.::            |:.:...::.|......|||  |:|....||| 
+SPB4_ASPFU       528 EKRRK------------ELLQEAAESGATQSTSNKRRATESVAWSQQAE-    564
+
+DNAK_CHESB       537 LIHSTEKSLKDYGDKVSEDDRKAIENAIAELK---TATEGEDADAIRAKT    583
+                        |..|.||....|.|:.::...|....|.|   ..|| :..:.:|.|.
+SPB4_ASPFU       565 ---SKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETE-KMVEELRKKN    610
+
+DNAK_CHESB       584 TALAEASMKLGQAVYEASQAENAAGGTEE    612
+                         |...:|.:||.:|:.|: |.|..||
+SPB4_ASPFU       611 ----EEERRLRRAVAKAAGAK-ADGDDEE    634
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      45/233 (19.3%)
+# Similarity:    93/233 (39.9%)
+# Gaps:          46/233 (19.7%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       382 KDVLLLDVT---PLSLGIETLG-GVFTRLIDRNTTIPTKKSQVFSTAEDN    427
+                     ::.:.::||   |.|:.....| .|.|..::.....|||  .:::..|| 
+ASSY_MYCTO       161 ENAIPINVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTK--DIYAYTED-    207
+
+DNAK_CHESB       428 QNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQI------EVTF    471
+                        .||       .....::::..|:. |:|.:..|.|..      |:..
+ASSY_MYCTO       208 ---PTI-------NWGVPDEVIVGFER-GVPVSVDGKPVSMLAAIEELNR    246
+
+DNAK_CHESB       472 DIDANGIVNVS-AKDKGTGKEQQIRIQASGGL----SDAEIEKMVKDAEA    516
+                     ...|.|:..:. .:|:..|.:.:...:|.|.:    :..|:|.:..:.|.
+ASSY_MYCTO       247 RAGAQGVGRLDVVEDRLVGIKSREIYEAPGAMVLITAHTELEHVTLEREL    296
+
+DNAK_CHESB       517 ---NAEADKKRRETV-------EVKNQAEALIHSTEKSLKD------YGD    550
+                        ..:.|::..|.|       .:|...||.:..|::.:..      :|.
+ASSY_MYCTO       297 GRFKRQTDQRWAELVYDGLWYSPLKAALEAFVAKTQEHVSGEVRLVLHGG    346
+
+DNAK_CHESB       551 KVSEDDRKAIENAI-AELKTATEGEDADAIRAK    582
+                     .::.:.|::.|:.. ..|.|..||:..|...|:
+ASSY_MYCTO       347 HIAVNGRRSAESLYDFNLATYDEGDSFDQSAAR    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      46/214 (21.5%)
+# Similarity:    78/214 (36.4%)
+# Gaps:          69/214 (32.2%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       351 FFGKEPHKGVNPDEVVAMGAAIQAGV----LQGDVKDVLLLDVTPLSL--    394
+                     |:.:....||....::.:|||:.|..    .||  .|.||:|.|...|  
+ECCB1_MYCS2       40 FYSRAVFAGVVVSVLICLGAALMAYFKPLGKQG--SDQLLVDRTTNQLYV     87
+
+DNAK_CHESB       395 ---GIETLGGVF----TRLIDRNTTIPTK-KSQVFSTAEDNQNAVTIRVF    436
+                        |...|..|:    .||:..|.:.|.. ||:..:           |:.
+ECCB1_MYCS2       88 MLPGSNQLRPVYNLTSARLVLGNASNPVAVKSEELN-----------RIS    126
+
+DNAK_CHESB       437 QGEREMAADNKLLGQFDLVGIPPA----PRGMPQIEVTF-----------    471
+                     :|:.              :|||.|    |.|.|..:.|.           
+ECCB1_MYCS2      127 KGQS--------------IGIPGAPYATPTGTPASQWTLCDTVAKPDSSA    162
+
+DNAK_CHESB       472 -DIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEA    520
+                      .::.:.::...|.|.|.|.     |:|..|:       :|....||...
+ECCB1_MYCS2      163 PKVETSILIRTLAIDSGVGP-----IRADQGM-------LVSYEGANWLI    200
+
+DNAK_CHESB       521 DKKRRETVEVKNQA    534
+                     .:..|.::::.::|
+ECCB1_MYCS2      201 TEGGRHSIDLADRA    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      54/230 (23.5%)
+# Similarity:    88/230 (38.3%)
+# Gaps:          67/230 (29.1%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       435 VFQGERE----MAADNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVN    480
+                     |..|:.|    |..|.|:...| ::|.|.:.:|.....:   ::..|.::
+KCY4_ORYSJ        10 VVAGQEEVTDNMLGDKKVTVVF-VLGGPGSGKGTQCANI---VEHFGFIH     55
+
+DNAK_CHESB       481 VSAKDKGTGKEQQIRIQ-ASGGLSDAEIEKMVKDAEANAEADKKRRETVE    529
+                     :||.|       .:|.: .||..:...||.|:|:.       |.....|.
+KCY4_ORYSJ        56 LSAGD-------LLRAEIKSGSENGTMIENMIKEG-------KIVPSEVT     91
+
+DNAK_CHESB       530 VKNQAEALIHS-TEKSLKDYGDKVSEDDRKAIENAI--------------    564
+                     :|...||:|.| .:|.|.| |...:|::|.|.||..              
+KCY4_ORYSJ        92 IKLLQEAMIKSGNDKFLID-GFPRNEENRAAFENVTKITPAFVLFFDCSE    140
+
+DNAK_CHESB       565 AELKTATEG-------EDADAIRAKTTALAEASMKLGQAVYEASQAENAA    607
+                     .|::....|       ::.:.||.:.....|:|:.:              
+KCY4_ORYSJ       141 EEMERRLLGRNQGRVDDNIETIRKRFKVFVESSLPV--------------    176
+
+DNAK_CHESB       608 GGTEETGGAKDDV--VDA--DFEEIDEDDK    633
+                        .|...|||.|  :||  ...|:.||.|
+KCY4_ORYSJ       177 ---IEYYNAKDKVKKIDAAKPIPEVFEDVK    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      54/247 (21.9%)
+# Similarity:    81/247 (32.8%)
+# Gaps:          86/247 (34.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       249 NDKLALQRLKEAAEKAKIELSSSSQTEINLP---FITADQTGPKHL----    291
+                     :|.|||:.:.|......|::.:..:.   ||   :....||.| ||    
+HCP_TRIV2        244 HDLLALKAVLEQTSGTGIKVYTHGEL---LPAHGYPKLKQTHP-HLYGHY    289
+
+DNAK_CHESB       292 --AIKLTRAKFESLVEDLV--TRTIEPCRAALKD----------AGLSAG    327
+                       |.:....:||.....:|  |..:.|.....||          .||...
+HCP_TRIV2        290 GTAWQNQTHEFERFPGAIVMTTNCLMPPHETYKDKVFTLGPVGYPGLQHI    339
+
+DNAK_CHESB       328 EIDEVVLV-------GGMTRMPKVQETVKNFFGKEPHKGVNPDEVVAMGA    370
+                     .|.::.||       .|.|. ...|:||...|.:....|| .|.|:    
+HCP_TRIV2        340 SIHDISLVIQKALELPGFTE-DSEQKTVTTGFARNAVLGV-ADTVI----    383
+
+DNAK_CHESB       371 AIQAGVLQGDVKDVLLL----------------------DVTPLSLG---    395
+                        ..|.|||::...|:                      |...|:||   
+HCP_TRIV2        384 ---NAVKQGDIRHFFLVGGCDGAKPGRNYYSDLVEKIPNDCVVLTLGCGK    430
+
+DNAK_CHESB       396 -------IETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRV    435
+                            :..:||: .||:|            .....|..:|:.|.|
+HCP_TRIV2        431 FRFFDQNLGDIGGI-PRLLD------------LGQCNDAYSAIQIAV    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      25/97 (25.8%)
+# Similarity:    39/97 (40.2%)
+# Gaps:          28/97 (28.9%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       501 GLSDAEIEKM-----VKDAEAN-----------AEADKKRRETVEVKNQA    534
+                     |..|...||:     :||.:|.           |..:|..|: |..||..
+UBX7_YEAST        95 GEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRD-VHRKNAR    143
+
+DNAK_CHESB       535 EALIHST-----EKSLKDYGDKVSEDDRKAIENAI----AELKTATE    572
+                     |.:..:|     .:.||.  .|::|::|:.|...:    ||.|...|
+UBX7_YEAST       144 ERIAETTLEIQRREQLKQ--RKLAEEERERIIRLVRADRAERKALDE    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      43/207 (20.8%)
+# Similarity:    72/207 (34.8%)
+# Gaps:          62/207 (30.0%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+DNAK_CHESB       224 GEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRL------KEAAEKAKI-    266
+                     |.| |.|:...:|:..::..|:.|.|   ||:|:      ..|....:| 
+RPOA_ACICJ        27 GAD-DTRVATIIAEPLERGFGLTLGN---ALRRVLLSSLHGAAVTSVRID     72
+
+DNAK_CHESB       267 ----ELSS-----SSQTEINLPF--------------ITADQTGPKHLAI    293
+                         |.||     ...|:|.|..              :|...|||..:..
+RPOA_ACICJ        73 GVLHEFSSIAGVREDVTDIVLNIKQIAVRMHGDGPKRMTVSATGPCEVTA    122
+
+DNAK_CHESB       294 KL--TRAKFESLVEDLVTRTIE------------------PCRA-ALKDA    322
+                     .:  |....|.:..:||..|::                  |..| ..:||
+RPOA_ACICJ       123 GMIQTGHDIEVMNPELVICTLDDGATLGMEFTVESGRGYVPAAANRPEDA    172
+
+DNAK_CHESB       323 GLSAGEIDEVVLVGGM-------TRMPKVQETVKNFFGKEPHKGVNPDEV    365
+                     .:....:|.:......       ||:.:|.:..:.....|.:..|.|::.
+RPOA_ACICJ       173 PIGLIPVDSIYSPVRRVSYRVEPTRVGQVTDYDRLILNIETNGAVTPEDA    222
+
+DNAK_CHESB       366 VAMGAAI    372
+                     ||:.|.|
+RPOA_ACICJ       223 VALAARI    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      25/120 (20.8%)
+# Similarity:    47/120 (39.2%)
+# Gaps:          44/120 (36.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       229 MRLVNYLADEFKKEQGIDLKNDKLALQ--------RLKEAAEKAKIELSS    270
+                     :|...|| |:.:|..|...::..|.|:        |:||.||..|:::|:
+YXAD_BACSU        18 IRRAVYL-DQSEKRTGNLERSSYLLLRQLDEFGPARVKELAESFKLDIST     66
+
+DNAK_CHESB       271 SSQ---------------------------TEINLPFITADQTGPKHLAI    293
+                     .|:                           |::....:.|||  .|.|  
+YXAD_BACSU        67 LSRQAAALEAKELIYRFSDPSDGRVSLFTITKLGKQLLKADQ--QKRL--    112
+
+DNAK_CHESB       294 KLTRAKFESLVEDLVTRTIE    313
+                         .::|.::::..|:..|
+YXAD_BACSU       113 ----ERYEQMLKEWSTQEKE    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNAK_CHESB
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 528
+# Identity:      99/528 (18.8%)
+# Similarity:   164/528 (31.1%)
+# Gaps:         199/528 (37.7%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+DNAK_CHESB       131 LGEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYG    180
+                     |.:.:.|.....|...|...|:                    |.|:|...
+FADB_SHESR        13 LEDNIAKLCFNAPGSVNKFDRE--------------------TLASLDAA     42
+
+DNAK_CHESB       181 LDK-KEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTFLGGEDFDM    229
+                     ||. |:...|....|..|.                    |||:.|.|   
+FADB_SHESR        43 LDSIKQQSNIQALVLTSGK--------------------DTFIVGAD---     69
+
+DNAK_CHESB       230 RLVNYLADEFKKEQGIDLKNDKLALQRLKEA-AEKAKIELSSSSQTEINL    278
+                      :..:|        |:..::|.:.|..:::| |...|:|         :|
+FADB_SHESR        70 -ITEFL--------GLFAQDDAVLLSWVEQANAVFNKLE---------DL    101
+
+DNAK_CHESB       279 PFITADQTGPKHLAIK----------LTRAKFESLVEDLVTRTIEPCRAA    318
+                     ||.||.       |||          :....|.  :.|...:        
+FADB_SHESR       102 PFPTAS-------AIKGFALGGGCETILATDFR--IADTTAK--------    134
+
+DNAK_CHESB       319 LKDAGLSAGEIDEVVLVGGMTRMPKV------QETVKNFFGKEPHKGVNP    362
+                        .||...::..:...||..|:|:|      .|.:..  ||:.    .|
+FADB_SHESR       135 ---IGLPETKLGIIPGFGGTVRLPRVIGADNALEWITT--GKDQ----RP    175
+
+DNAK_CHESB       363 DEVVAMGA--------AIQAGVLQGDVKDVLL--LD--------VTPLSL    394
+                     ::.:.:||        |::|..:| .:||.:.  ||        ::||:|
+FADB_SHESR       176 EDALKVGAVDAVVAPEALEAAAIQ-MLKDAVAEKLDWQARRHRKMSPLTL    224
+
+DNAK_CHESB       395 GIETLGGVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAA    444
+                               ..::...:..|.|..||:.|..:.                
+FADB_SHESR       225 ----------PKLEAMMSFTTAKGMVFAVAGKHY----------------    248
+
+DNAK_CHESB       445 DNKLLGQFDLVGIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQI    494
+                                   |||  |..:.|.          ..|..||.....||
+FADB_SHESR       249 --------------PAP--MAAVSVV----------EQAATKGRSDALQI    272
+
+DNAK_CHESB       495 RIQASGGLSDAEIEK-----MVKDAEANAEADKKRRETVEVKNQA-----    534
+                     ..||...|:..::.|     .:.|.....:|.|..:...:||:.|     
+FADB_SHESR       273 EHQAFIKLAKTDVAKALIGIFLNDQLVKGKAKKAGKLAKDVKSAAVLGAG    322
+
+DNAK_CHESB       535 --------EALIHSTEKSLKDYGDKVSE----DDRKAIENAIAELKTATE    572
+                             ::....|...:||......:    :..|.:...:|..::..|
+FADB_SHESR       323 IMGGGIAYQSASKGTPIVMKDIAQPALDLGLGEAAKLLSAQVARGRSTPE    372
+
+DNAK_CHESB       573 GEDADAIRAKTTALAEASMKLGQAVYEA    600
+                      :.|..:...|.||..|.:.....|.||
+FADB_SHESR       373 -KMAKVLNNITPALDYAPVNHADVVVEA    399
+
+
+#---------------------------------------
+#---------------------------------------

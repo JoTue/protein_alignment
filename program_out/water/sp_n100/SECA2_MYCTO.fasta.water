@@ -1,0 +1,4060 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:13
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/SECA2_MYCTO.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/SECA2_MYCTO.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/SECA2_MYCTO.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 374
+# Identity:      77/374 (20.6%)
+# Similarity:   124/374 (33.2%)
+# Gaps:         116/374 (31.0%)
+# Score: 71.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      165 VVTINDYLARRDAEWMGPLLDAMGLTVGWITADST------------PD-    201
+                     |:.:||.|..|..:   |:......:|.|:|.:.:            || 
+PUR7_VIBVU         7 VLAVNDDLPIRTDK---PVHSGKVRSVYWLTEEDSARLIKEKGYNVAPDA     53
+
+SECA2_MYCTO      202 --------ERRTAYD--------------RDVTYASVNEIGFDVLRDQLV    229
+                             :|.:|:|              :.....:::...|.:.::..:
+PUR7_VIBVU        54 PLAIMVISDRISAFDCIWHGEHGLNGVPGKGAALNAISNHWFGLFKENGL    103
+
+SECA2_MYCTO      230 TDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEI----    275
+                     .|.:.|..|:|.|.::.:|..|.: ||:....:.|:..|...:.|.    
+PUR7_VIBVU       104 ADSHILDIPHPFVWIVQKAKPVKI-EAICRKYITGSMWRAYEKGEREFCG    152
+
+SECA2_MYCTO      276 IRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEH    325
+                     |:|...|..||...:...|.|           .:.:.|.:.|:    .|.
+PUR7_VIBVU       153 IQLPEGLEKDKALPDLLMTPS-----------TKGILKGIPGV----PEA    187
+
+SECA2_MYCTO      326 VGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQR-WPD    374
+                     ....:|..|:|                |:......:|...||..:: ..|
+PUR7_VIBVU       188 DDVNITRQNIA----------------DNFAAFNFSSADDIALYEKLLKD    221
+
+SECA2_MYCTO      375 GLQAAVEAKEG-----IETT-ETGEVLDTITVQALINRYATVCGMTGTA-    417
+                     |.....||...     ::|. |.|.|.|....:.||  |....|...:: 
+PUR7_VIBVU       222 GFGVISEALANVGQIFVDTKFEFGYVTDAAGNEKLI--YMDEVGTPDSSR    269
+
+SECA2_MYCTO      418 ------LAAG-------EQLRQFYQLGVSPIPP---NKPNIREDEA----    447
+                           ..||       |..|||. |...|.|.   ||..:.|.||    
+PUR7_VIBVU       270 IWDAQEYQAGKIVENSKEGFRQFL-LNYFPDPDILLNKDRMPEREALARD    318
+
+SECA2_MYCTO      448 -----------DRVYITTAAKNDG    460
+                                .|.||..|.|..|
+PUR7_VIBVU       319 NELPEEALMAVSRTYINIAEKITG    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      23/76 (30.3%)
+# Similarity:    30/76 (39.5%)
+# Gaps:          15/76 (19.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      237 SPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDK    286
+                     |..|:    |.||..|: |.||..|..|....:..|.|:|...|:|.   
+Y075_NITWN         6 SDRPE----DTADPKLL-EILVCPVTKGPLELDGARRELISRSAKLA---     47
+
+SECA2_MYCTO      287 DADEYFATDSDNRNVHLTEHGARKVE    312
+                           ....|...:.|.|. |||:|
+Y075_NITWN        48 ------YPIRDGIPIMLPEE-ARKIE     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      25/106 (23.6%)
+# Similarity:    43/106 (40.6%)
+# Gaps:          12/106 (11.3%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       42 LSSRFWRLLGASTEKNRSRSLADVTASAE-----YDKEAADLSDEKLRKA     86
+                     |...:...||...|..|.|::.......|     :.....||:..||.:.
+Y3584_PSEAB      103 LDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGRF    152
+
+SECA2_MYCTO       87 A--GLLNLDDLAE--SADIPQFLAIAREAAERRTGLRPFDVQLLGALRML    132
+                     .  ...:::.|.|  ..|:.||:.:|.||.:...|.|.   .:||.|:::
+Y3584_PSEAB      153 TENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRS---AMLGCLKLV    199
+
+SECA2_MYCTO      133 AGDVIE    138
+                     ....:|
+Y3584_PSEAB      200 IAKYLE    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      15/58 (25.9%)
+# Similarity:    29/58 (50.0%)
+# Gaps:           3/58 ( 5.2%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      642 TWRYN-QLIAQQRAIIVERRNTLL--RTVTAREELAELAPKRYEELSDKV    688
+                     ||:.| .|..:.|:...|:.:..|  |.::||.:..::.|...::....:
+BPT_HAHCH         86 TWKRNSDLTVRLRSAQFEQEHFALYQRYISARHQDGDMYPPTLDQYESFL    135
+
+SECA2_MYCTO      689 SEERLETI    696
+                     .|.|.||:
+BPT_HAHCH        136 LEARSETL    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      45/176 (25.6%)
+# Similarity:    62/176 (35.2%)
+# Gaps:          41/176 (23.3%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      118 LRPFDVQLLGALRMLAGDVIEMATGEGKTLAGAIAAAGYALAG--RHVHV    165
+                     |||..|. :|...:|.|            ||..:|..|.|.|.  ...:.
+KDPC_CAUVN         5 LRPALVS-MGLFTVLLG------------LAYPLAVTGVAQAAFPNQANG     41
+
+SECA2_MYCTO      166 VTINDYLARRDAEWMGPLLDAMGLTVGWITA-----DSTPDERRTAYDRD    210
+                     ..|.|    .|.:.:|..|      :|.:.|     ...|......||..
+KDPC_CAUVN        42 SLIRD----ADGKVVGSAL------IGQVFAKPEYFHGRPSAAGAGYDAS     81
+
+SECA2_MYCTO      211 VTYAS----VNEIGFDVLRDQLVTDVNDLVSPNPDVALIDEADSVLVD-E    255
+                     .:..|    :||    .|..:|.||...|.:.||.||:  .||:|... .
+KDPC_CAUVN        82 ASSGSNMGPLNE----TLIARLKTDAAALRAENPGVAI--PADAVTTSGS    125
+
+SECA2_MYCTO      256 ALVPLVLAGTTHRETPRLEIIRLVAE    281
+                     .|.|.:.......:.||:...|.|.|
+KDPC_CAUVN       126 GLDPDISPANARFQAPRVAGARGVPE    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      48/236 (20.3%)
+# Similarity:    76/236 (32.2%)
+# Gaps:          85/236 (36.0%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      104 FLAIAREAAERRTGLRPFDVQLLGALRM-LAGDVIEMATGEG--KTLAGA    150
+                     ||...||             |:.||..: :.||:.|:..|:.  ..:|..
+LPXH_XYLFM        22 FLRFLRE-------------QVSGADALYILGDLFEVWIGDDMPSEVADM     58
+
+SECA2_MYCTO      151 IAAA--GYALAGRHVHVVTIN-DYLARRDAEWMGPLLDAMGLTVGWITAD    197
+                     :|||  .||.||..::.:..| |:|...|                     
+LPXH_XYLFM        59 VAAALRTYADAGTPLYFMPGNRDFLVGAD---------------------     87
+
+SECA2_MYCTO      198 STPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDV---------NDLVSP    238
+                                    ||:  ..||.:|.|..|.|:         .||:..
+LPXH_XYLFM        88 ---------------YAA--RAGFRILPDPCVVDLYGEPTLLLHGDLLCT    120
+
+SECA2_MYCTO      239 NPDVAL----IDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVG    284
+                     : |:|.    ....|...:.:.|...:.|.....:..||......:.|..
+LPXH_XYLFM       121 D-DIAYQAFRAQTRDPEFIAQFLTQTLSARLAFSQQARLASHAHQSGLKQ    169
+
+SECA2_MYCTO      285 DKDADEY--------------FATDSDNRNVHLTEH    306
+                     :.|:.::              ||....||.:|...|
+LPXH_XYLFM       170 ENDSTQFEKITDVVPADVAAMFACYGVNRMIHGHTH    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    19/41 (46.3%)
+# Gaps:           2/41 ( 4.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      150 AIAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLT    190
+                     |.|..|.:|.|  :..:.:..||...:||.:...|...|||
+YERI_SCHPO        10 AKACTGLSLIG--IVFLLVLSYLFSIEAETLMHDLVGSGLT     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 490
+# Identity:      93/490 (19.0%)
+# Similarity:   170/490 (34.7%)
+# Gaps:         168/490 (34.3%)
+# Score: 86.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      345 RDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTETGEV    394
+                     :.|.:.:|...:|.|....|.         |....:...:||...::||:
+RBSA_RUEST        23 KGVDFELRRGEIHAIAGENGA---------GKSTLMNIIDGILQPDSGEI     63
+
+SECA2_MYCTO      395 -LDTITVQ------------ALINRYATVCGMTGTA----LAAGEQLRQF    427
+                      ||...|:            ..:::...:|.....|    :||....|.|
+RBSA_RUEST        64 RLDGTPVEIPSPAAAQKMGIGFVHQEIALCPDVSVAENIFMAATNSSRSF    113
+
+SECA2_MYCTO      428 ---YQLGVSPIPPNKPNIREDEADRVYITTAA------------KNDGIV    462
+                        |: |:           |.:|..|:...::            .|..:|
+RBSA_RUEST       114 LMDYK-GI-----------EAKAREVFAQLSSIDPSVLVRDLSISNQQLV    151
+
+SECA2_MYCTO      463 EHITEVHQRGQPVLV---GTRDVAESE-----ELHERLVRRGVPAVVLNA    504
+                     | |.:.......||:   .|..:.|:|     ::..||..:|:..:.::.
+RBSA_RUEST       152 E-IAKALTLDCRVLILDEPTAALTEAEAQVLFKIMRRLADQGISLIYISH    200
+
+SECA2_MYCTO      505 K-----NDAEEARVIAEAGKYGAVTVSTQ-------------MAGR----    532
+                     :     ::.:...|..: |:|    |:||             |.||    
+RBSA_RUEST       201 RMVEIFDNCDRVSVFRD-GRY----VTTQDVAKITPADVVRAMVGREIGD    245
+
+SECA2_MYCTO      533 ------------GTDI-RLGGSDEAD--HD------RVAELGGLHVVGTG    561
+                                 .|:: |:....||:  ||      :...||...::|.|
+RBSA_RUEST       246 LYPEKQRPEACSTTEVLRVENLCEAERFHDVSFSLHKGEILGFAGLIGAG    295
+
+SECA2_MYCTO      562 RHHTER----LDNQLRGRAGRQGDP----------------------GSS    585
+                     |....:    |:.|:.||....|:|                      |..
+RBSA_RUEST       296 RSEIAKGVCALEGQVTGRLWLNGEPLALRDYQDSIDAGIVYLSEDRKGDG    345
+
+SECA2_MYCTO      586 VFFSSWEDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRL    635
+                     ||.    |..:|:|:...|:.......| ::.|  |..::.|.|:  ||.
+RBSA_RUEST       346 VFL----DMSIASNVSALKVEQVASALG-LIQP--GREIEQADRL--GRK    386
+
+SECA2_MYCTO      636 LDVHANTWR---------YNQLIAQQRAIIVERRNTLLRTVT------AR    670
+                     |::...|.:         ..|.:|..:.:.|..|...|...|      |:
+RBSA_RUEST       387 LNLKCGTLQDPVSSLSGGNQQKVALAKMLSVNPRLIFLDEPTRGVDVGAK    436
+
+SECA2_MYCTO      671 EELAELAPKRYEE------LSDKVSEERLETICRQIMLYH    704
+                     .|:..:.....||      :|.::.|  |..:|.::::.|
+RBSA_RUEST       437 AEIYRILRDLAEEGAGIVVISSELPE--LIGLCDRVLVIH    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       6/22 (27.3%)
+# Similarity:     8/22 (36.4%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      512 RVIAEAGKYGAVTVSTQMAGRG    533
+                     |.:...|.||.....:...|.|
+KR195_HUMAN       33 RRLGYGGGYGGYGYGSGFGGYG     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      26/104 (25.0%)
+# Similarity:    38/104 (36.5%)
+# Gaps:          17/104 (16.3%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      104 FLAIAREAAERRTGLRPFDVQLLGALRML----AGDVIEMATGEGKTLAG    149
+                     |:.:.||.|.|.:.|......|...|..|    |.|..:.|:|....:..
+UPPP_CORDI       185 FVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGT    234
+
+SECA2_MYCTO      150 AIA-AAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTV------G    192
+                     .|| |.|||      .:..:..::......|.......:||.|      |
+UPPP_CORDI       235 GIAFALGYA------SIAWLLKFVGSHSFSWFAAYRIPVGLLVMALLATG    278
+
+SECA2_MYCTO      193 WITA    196
+                     .:||
+UPPP_CORDI       279 MLTA    282
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      13/35 (37.1%)
+# Similarity:    16/35 (45.7%)
+# Gaps:          12/35 (34.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      264 GTTHRETPRLEIIRLVA--ELVGDKDADEYFATDS    296
+                     |.|||       .|:|.  |:.|.||   |.:.||
+GREB_ECO57        98 GVTHR-------FRIVGYDEIFGRKD---YISIDS    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 299
+# Identity:      57/299 (19.1%)
+# Similarity:    86/299 (28.8%)
+# Gaps:          88/299 (29.4%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      494 RRGVPAVVLNAKNDAEEARVIAEAGKYGAV--TVSTQMAGRGTDIRLGGS    541
+                     |||  .:.||  :...|..:....|.||.|  .:...:...|..|.||.:
+TGT_LEPCP         14 RRG--RLTLN--HGVVETPIFMPVGTYGTVKGVMPRDLETMGAQIILGNT     59
+
+SECA2_MYCTO      542 ----DEADHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVF    587
+                         .....|.:|:.||||          |.:|..|......|.      
+TGT_LEPCP         60 FHLWMRPGQDVMAQFGGLH----------RFENWTRPILTDSGG------     93
+
+SECA2_MYCTO      588 FSSWEDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLD    637
+                     |..|         ...::...::|..|..||..|..|.....|:      
+TGT_LEPCP         94 FQVW---------SLGEMRKISEEGVRFASPVNGDKLFLTPEVS------    128
+
+SECA2_MYCTO      638 VHANTWRYNQLIAQQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDK    687
+                     :...|...:.::.|                     ..|..|  |.:.:..
+TGT_LEPCP        129 MQIQTVLNSDIVMQ---------------------FDECTP--YWQGAKN    155
+
+SECA2_MYCTO      688 VSEERLETICRQIMLYHLDRGWADHLAYLADIRESIHLRALGRQNPL---    734
+                     |.....|...|..|  .|...||        .|.......||..|.|   
+TGT_LEPCP        156 VGHITTEKEARVSM--ELSLRWA--------ARSKAEFARLGNPNALFGI    195
+
+SECA2_MYCTO      735 ------DEFHRMAVDA-----FASLAADAIEAAQQTFETANVLDHEPGL    772
+                           :.....:::|     |...|...:...:...|...:::|.|.|
+TGT_LEPCP        196 VQGGMFESLREESLNALVELDFPGYAVGGVSVGEPKDEMLRIMNHTPHL    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:      86/438 (19.6%)
+# Similarity:   147/438 (33.6%)
+# Gaps:         118/438 (26.9%)
+# Score: 74.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      253 VDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKDADEYFATDSDNRNVH    302
+                     |.:|::.|.:.|.....:  .|.:.|:.:.||.:.:              
+CBPQ_HUMAN        46 VAKAIINLAVYGKAQNRS--YERLALLVDTVGPRLS--------------     79
+
+SECA2_MYCTO      303 LTEHGARKVEKAL---------GGIDLYSEEHVGTTLTEVNVALHAHVLL    343
+                         |::.:|||:         .|::....|.|  .:........:.|:|
+CBPQ_HUMAN        80 ----GSKNLEKAIQIMYQNLQQDGLEKVHLEPV--RIPHWERGEESAVML    123
+
+SECA2_MYCTO      344 QRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTE--T    391
+                     :..:|.|    |:..:.:|.|..      |:|:.|.|......:..:  .
+CBPQ_HUMAN       124 EPRIHKI----AILGLGSSIGTP------PEGITAEVLVVTSFDELQRRA    163
+
+SECA2_MYCTO      392 GEVLDTITV--QALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNK    439
+                     .|....|.|  |..||...||...|..|:.|.:            :....
+CBPQ_HUMAN       164 SEARGKIVVYNQPYINYSRTVQYRTQGAVEAAK------------VGALA    201
+
+SECA2_MYCTO      440 PNIREDEADRVYITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELH    489
+                     ..||...:..:|    :.:.||.|     :|.|.|.:.......|..|:.
+CBPQ_HUMAN       202 SLIRSVASFSIY----SPHTGIQE-----YQDGVPKIPTACITVEDAEMM    242
+
+SECA2_MYCTO      490 ERLVRRGVPAVV---LNAKN--DAEEARVIAE--AGKYGAVTVSTQMAGR    532
+                     .|:...|:..|:   :.||.  |.:....:||  ..||....|.......
+CBPQ_HUMAN       243 SRMASHGIKIVIQLKMGAKTYPDTDSFNTVAEITGSKYPEQVVLVSGHLD    292
+
+SECA2_MYCTO      533 GTDIRLGGSDEADHDRVAELGGLHV----------VGTGRHHTERLDNQL    572
+                     ..|:..|..|:.        ||..:          :|.....|.||   :
+CBPQ_HUMAN       293 SWDVGQGAMDDG--------GGAFISWEALSLIKDLGLRPKRTLRL---V    331
+
+SECA2_MYCTO      573 RGRAGRQGDPGSSVFFSSWEDDVVAANLDHNKLPMATD------------    610
+                     ...|..||..|:..::     .:...|:.:..|.|.:|            
+CBPQ_HUMAN       332 LWTAEEQGGVGAFQYY-----QLHKVNISNYSLVMESDAGTFLPTGLQFT    376
+
+SECA2_MYCTO      611 --ENGRIVSPRTGSL---LDHAQRVAEGRLLDVHANTW    643
+                       |..|.:.....||   |:..|.::.|...|:  |.|
+CBPQ_HUMAN       377 GSEKARAIMEEVMSLLQPLNITQVLSHGEGTDI--NFW    412
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      44/213 (20.7%)
+# Similarity:    69/213 (32.4%)
+# Gaps:          61/213 (28.6%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      150 AIAAAGYALAGRH--------VHVVTINDYLARRDAEWMGPLLDAMGLTV    191
+                     |:.|||....|..        .|....:..|.......:.|:...:||..
+PSA6_SOYBN        31 AVKAAGITSIGVRGKDSICVVTHKKVPDKLLDNTSVTHLFPITKYLGLLA     80
+
+SECA2_MYCTO      192 GWITADS---TPDERRTAYDRDVTYASVNEIGFDVL------RDQLVTDV    232
+                     ..:|||:   ....|..|.:...||.  .|:..|||      :.|:.|. 
+PSA6_SOYBN        81 TGMTADARTLVQQARNEAAEFRFTYG--YEMPVDVLAKWIADKSQVYTQ-    127
+
+SECA2_MYCTO      233 NDLVSPNPDVALI----DE-------------------ADSVLVDEALVP    259
+                     :..:.|...||::    ||                   ..:.|.|:..:.
+PSA6_SOYBN       128 HAYMRPLGVVAMVLGIDDEYGPQLYKCDPAGHYFGHKATSAGLKDQEAIN    177
+
+SECA2_MYCTO      260 LVL------AGTTHRETPRLEIIRLVAELVGD------------KDADEY    291
+                     .:.      ...|:.||.:..|..|.:.|..|            ||..|:
+PSA6_SOYBN       178 FLEKKMKNDPSFTYEETVQTAISALQSVLQEDFKATEIEVGVVRKDNPEF    227
+
+SECA2_MYCTO      292 FATDSDNRNVHLT    304
+                     ....:|..:.|||
+PSA6_SOYBN       228 RVLTTDEIDEHLT    240
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:      64/364 (17.6%)
+# Similarity:   126/364 (34.6%)
+# Gaps:         100/364 (27.5%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      440 PNIREDEADRVYITTAAKNDGIVEHITEV---HQRG---QPVLVGTRDVA    483
+                     ||:..|..:..|   ...:|.::::::|:   ...|   |.:...:..:.
+SCL34_ARATH       19 PNLLTDPMEDQY---PPPSDTLLKYVSEILMEESNGDYKQSMFYDSLALR     65
+
+SECA2_MYCTO      484 ESEELHERLV-----RRGVPAVVL-----NAKNDAEEARVIAEAGKYGAV    523
+                     ::||:.::::     :...||..|     :|....:|:...|:......:
+SCL34_ARATH       66 KTEEMLQQVITDSQNQSFSPADSLITNSWDASGSIDESAYSADPQPVNEI    115
+
+SECA2_MYCTO      524 TVSTQMAGRGTDIRL-GGSDEADHDRVAELGGLHVVGTGRHHTERLD---    569
+                     .|.:..:...:.::. .|.:||  .:........|:......:||.|   
+SCL34_ARATH      116 MVKSMFSDAESALQFKKGVEEA--SKFLPNSDQWVINLDIERSERRDSVK    163
+
+SECA2_MYCTO      570 -----NQLRGRAGRQGD----PGSSVFFSSWEDDVVAANLDHNKLPMATD    610
+                          :|||.:...:.|    ..|..|.|:.||..|....|  |:.:...
+SCL34_ARATH      164 EEMGLDQLRVKKNHERDFEEVRSSKQFASNVEDSKVTDMFD--KVLLLDG    211
+
+SECA2_MYCTO      611 ENGRIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIAQQRAIIVERR    660
+                     |    ..|:|              |||                       
+SCL34_ARATH      212 E----CDPQT--------------LLD-----------------------    220
+
+SECA2_MYCTO      661 NTLLRTVTAREELAELAPKRYEELSDKVSEERLETICRQIMLYHLDRGWA    710
+                      :.::.:.:.:.:.|...|:.::.|..|....|.|.|.|.:... |:..|
+SCL34_ARATH      221 -SEIQAIRSSKNIGEKGKKKKKKKSQVVDFRTLLTHCAQAISTG-DKTTA    268
+
+SECA2_MYCTO      711 DHLAYLADIRE------------------SIHLRALGRQNP-LDEFHRMA    741
+                       |.:|..||:                  ::..|..|...| :..::...
+SCL34_ARATH      269 --LEFLLQIRQQSSPLGDAGQRLAHCFANALEARLQGSTGPMIQTYYNAL    316
+
+SECA2_MYCTO      742 VDAFASLAADAIEA    755
+                     ..:....|||.|.|
+SCL34_ARATH      317 TSSLKDTAADTIRA    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      34/152 (22.4%)
+# Similarity:    53/152 (34.9%)
+# Gaps:          46/152 (30.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      111 AAERRT--GLRPFDVQLLGALRMLAGDVIEMATGEG-KTLAGAIAAAGYA    157
+                     |...||  .::|..||     |.|.|::|:....:| :.:|..:..|...
+NDKA_CANLF         2 ANSERTFIAIKPDGVQ-----RSLVGEIIKRFEQKGFRLIAMKLIQASED     46
+
+SECA2_MYCTO      158 LAGRHVHVVTINDYLARRDAEWMGPLLDAM-----------GLTV---GW    193
+                     |...|        |:..:|..:...|:..|           ||.|   |.
+NDKA_CANLF        47 LLKEH--------YIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGR     88
+
+SECA2_MYCTO      194 I------TADSTPDE----------RRTAYDRDVTYASVNEIGFDVLRDQ    227
+                     :      .|||.|..          |...:..|...::..|||.....::
+NDKA_CANLF        89 VMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEE    138
+
+SECA2_MYCTO      228 LV    229
+                     ||
+NDKA_CANLF       139 LV    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      47/242 (19.4%)
+# Similarity:    69/242 (28.5%)
+# Gaps:          95/242 (39.3%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      341 VLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTE    390
+                     :|.||    :||.|         |::....::|.|.              
+RS4_CAEEL         63 ILTQR----VVRVD---------GKVRTCHKFPTGF--------------     85
+
+SECA2_MYCTO      391 TGEVLDTITVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKP    440
+                         :|.:.::                 ...|..|..|            
+RS4_CAEEL         86 ----MDVVAIE-----------------RTNEYFRMLY------------    102
+
+SECA2_MYCTO      441 NIREDEADR--VYITTAAKNDGIVEHITEVH--QRGQPVLVGTRDVAESE    486
+                         |...|  |:...||:.|..:..:..|.  .:|.|||..|       
+RS4_CAEEL        103 ----DTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTT-------    141
+
+SECA2_MYCTO      487 ELHERLVRRGVP------AVVLNAKNDAEEARVIAEAGKYGAVTVSTQMA    530
+                       ..|.:|...|      .:|.|.........|..|.|....|| ..:..
+RS4_CAEEL        142 --DGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVT-GGRNV    188
+
+SECA2_MYCTO      531 GR----GTDIRLGGS-------DEADHDRVAELGGLHVVGTG    561
+                     ||    |...||.|:       |.|.|.....:..:.|:|.|
+RS4_CAEEL        189 GRVGIIGHRERLPGASDIIHIKDSAGHSFATRISNVFVIGKG    230
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      36/157 (22.9%)
+# Similarity:    62/157 (39.5%)
+# Gaps:          29/157 (18.5%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      616 VSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIAQQRAIIVERRNTLLR    665
+                     |:|  |||....:::.|   |:.....| |..|...|.::.|:......:
+G45IP_CHLAE       70 VAP--GSLWPSPEQLRE---LEAEEREW-YPSLATMQESLRVKHLAEEQK    113
+
+SECA2_MYCTO      666 TVTAREELAELAPK--------------RYEEL-SDKVSEERLETICRQI    700
+                     .....:.:||...|              |:|:. :||....||:...:::
+G45IP_CHLAE      114 RREREQHIAECMAKMPQMIVNWQQQQRERWEKAQADKERRARLQAEAQEL    163
+
+SECA2_MYCTO      701 MLYHLDRGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAA    750
+                     :.|.::...|.....|.|:.:.      .|:...:|..|...:|.|  ||
+G45IP_CHLAE      164 LGYQVNPKSARFQELLQDLEKK------ERKRLKEEKQRQKQEARA--AA    205
+
+SECA2_MYCTO      751 DAIEAAQ    757
+                     .|..|||
+G45IP_CHLAE      206 LAAAAAQ    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 278
+# Identity:      56/278 (20.1%)
+# Similarity:    99/278 (35.6%)
+# Gaps:          75/278 (27.0%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      216 VNEIGFDVLRDQ--LVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLA    263
+                     :.|:||...:.|  |:..:|::.:.|.::........|.|          
+DAPEL_OCEIH       15 IPELGFQEFKTQAYLLERINEIATENVEIKKWSTGILVYV----------     54
+
+SECA2_MYCTO      264 GTTHRETPRLEIIRLVAELVGDKDADEYFATDSDN----RNVHLTEHGAR    309
+                        |.::|        |..:|       |..|.|.    ...:|......
+DAPEL_OCEIH       55 ---HGKSP--------ARKIG-------FRADIDGLPILEQTNLPYASLH     86
+
+SECA2_MYCTO      310 KVEKALGGIDLYSEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLI    359
+                     :......|.||:           :.:||.|   |::.:...:.||.:.:.
+DAPEL_OCEIH       87 EGRMHACGHDLH-----------MTIALGA---LEKLIQDPINDDVIFVF    122
+
+SECA2_MYCTO      360 N-ASRG--------RIAQLQRW-PD---GLQAAVEAKEGIETTETGEVLD    396
+                     . |..|        ...:.|:| ||   .|..|.|...|..:::.| :|.
+DAPEL_OCEIH      123 QPAEEGPGGAKPMLESEEFQQWKPDMMFALHIAPELPVGTVSSKAG-LLF    171
+
+SECA2_MYCTO      397 TITVQALINRYATVCG----------MTGTALAAGEQLRQFYQLGVSPIP    436
+                     ..|.:..|: :..|.|          ||..|.....||:|....|::|:.
+DAPEL_OCEIH      172 ANTSELFID-FEGVGGHAAYPHLTKDMTVAASNFVVQLQQIVSRGLNPLD    220
+
+SECA2_MYCTO      437 PNKPNIREDEADRVY--ITTAAKNDGIV    462
+                     .:...|.:.|:..|.  |...|:.:|.:
+DAPEL_OCEIH      221 GSVITIGKMESGYVQNAIAETARLEGTI    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      37/138 (26.8%)
+# Similarity:    60/138 (43.5%)
+# Gaps:          21/138 (15.2%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      418 LAAGEQLRQFYQLGVSPIPPNKPNIRED---EADRVYITTAAKNDGIV-E    463
+                     |:.|:.||.....| :|:......:.|.   .:||:.:       ||| :
+KAD_METRJ         29 LSTGDMLRAAVAAG-TPVGLEAKAVMESGGLVSDRIVV-------GIVAD     70
+
+SECA2_MYCTO      464 HITEVHQRGQPVLVG-TRDVAESEELHERLVRRGVP-AVVLNAKNDAEEA    511
+                     .|.|...|...:|.| .|.||::|.|.|.|..:|:. :.|:..|.|  |.
+KAD_METRJ         71 RIEEPDARRGFILDGFPRTVAQAEALGEMLASKGLSLSAVVELKVD--EN    118
+
+SECA2_MYCTO      512 RVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRV    549
+                     .::....|..|.|::     ||..:|...:.|....|:
+KAD_METRJ        119 ALVGRIEKRAAETLA-----RGQAVRKDDTPEVFKQRL    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      28/117 (23.9%)
+# Similarity:    36/117 (30.8%)
+# Gaps:          43/117 (36.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      496 GVPAV-VLNAKNDAEEARVIAEAGKYG-----------------------    521
+                     |||.| |..|.:.|..|:..|:|.|:|                       
+ELN_BOVIN        383 GVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLGPGGFPGI    432
+
+SECA2_MYCTO      522 --AVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVVGTGRHHTERLD    569
+                       |.......|.:...|..||        |..|||: |.|.        .
+ELN_BOVIN        433 GDAAAAPAAAAAKAAKIGAGG--------VGALGGV-VPGA--------P    465
+
+SECA2_MYCTO      570 NQLRGRAGRQGDPGSSV    586
+                     ..:.|..|..|.||..:
+ELN_BOVIN        466 GAIPGLPGVGGVPGVGI    482
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      41/181 (22.7%)
+# Similarity:    58/181 (32.0%)
+# Gaps:          52/181 (28.7%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      364 GRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGM    413
+                     |:........||.......|.|     ||..|: |.:....:.|..:.|.
+ASIC2_MOUSE      191 GKCYMFNSGEDGKPLLTTVKGG-----TGNGLE-IMLDIQQDEYLPIWGE    234
+
+SECA2_MYCTO      414 T-GTALAAGEQLR-------QFYQ---LGVSP---------------IPP    437
+                     | .|...||.:::       .|.|   .||:|               :||
+ASIC2_MOUSE      235 TEETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPP    284
+
+SECA2_MYCTO      438 NKPNIREDEAD----RVYITTAAKNDGIVEHITE------VHQRGQPVLV    477
+                     .....|..|..    .||..||.:.|....:|.|      ||..|.....
+ASIC2_MOUSE      285 PWGECRSSEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFC    334
+
+SECA2_MYCTO      478 GTRDVAESEELHERLVRRGVPAVVLNAKNDA    508
+                            :.|.|:....   ||:.|.|:.|:
+ASIC2_MOUSE      335 -------TPEQHKECAE---PALGLLAEKDS    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    11/24 (45.8%)
+# Gaps:           5/24 (20.8%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      587 FFSSWEDDVVAA-----NLDHNKL    605
+                     |.|.||..:|.|     :..|:.|
+DOXA1_XENTR       70 FTSDWETGIVTATTVYKSFSHSML     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      15/46 (32.6%)
+# Similarity:    24/46 (52.2%)
+# Gaps:           6/46 (13.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       53 STEKNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLDDLAES     98
+                     :.|||.::..|..||...::   |:.|:|..|.|:..:   |.|||
+RS20_STRPB        22 ANEKNSAQKSAMRTAIKAFE---ANPSEELFRAASSSI---DKAES     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 361
+# Identity:      70/361 (19.4%)
+# Similarity:   114/361 (31.6%)
+# Gaps:         121/361 (33.5%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      352 RDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQ    401
+                     :|:||     .|...|: |:..|....|.:|:|.:.:.:.       .:|
+TPM_HAELO         15 KDNAV-----DRAETAE-QQSRDAALRAEKAEEEVRSLQK-------KIQ     51
+
+SECA2_MYCTO      402 ALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIR------ED    445
+                     .:.|....|......|.:..|:..:..|...:.:..:...|:      |.
+TPM_HAELO         52 QIENELDQVQEQLSQANSKLEEKDKALQAAEAEVAAHNRRIQLLEEDLER    101
+
+SECA2_MYCTO      446 EADRVYITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRR    495
+                     ..:|:.|.|        :.:.|..|...          |||.:.:.|..|
+TPM_HAELO        102 SEERLKIAT--------QKLEEASQAAD----------ESERMRKMLEHR    133
+
+SECA2_MYCTO      496 GVPAVVLNAKNDAE----------EARVIAEAG--KYGAVTVSTQMAGRG    533
+                     .:        .|.|          |||.:||..  ||..|.....|.   
+TPM_HAELO        134 SI--------TDEERMDGLEGQLKEARTMAEDADRKYDEVARKLAMV---    172
+
+SECA2_MYCTO      534 TDIRLGGSDEADHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPG    583
+                              |||.:|..|.     ..||......|:.:||          
+TPM_HAELO        173 ---------EADLERAEER-----AETGETKIVELEEELR----------    198
+
+SECA2_MYCTO      584 SSVFFSSWEDDVVAANLDHNKLPMATDENGRIVSPRT--GSLLDHAQRVA    631
+                                ||..||.    .:...|...:....|  |.:.....|:.
+TPM_HAELO        199 -----------VVGNNLK----SLEVSEEKALQKEETYEGQIRQMTSRLQ    233
+
+SECA2_MYCTO      632 EGRLLDVHANTWRYNQLIAQQRAIIVERRNTLLRTVTAR--EELAELAPK    679
+                     |                 |:.||...||....|:....|  :||.: ..:
+TPM_HAELO        234 E-----------------AEARAEFAERSVQKLQKEVDRLEDELVQ-EKE    265
+
+SECA2_MYCTO      680 RYEELSDKVSE    690
+                     :|:.:||::.:
+TPM_HAELO        266 KYKAISDELDQ    276
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 418
+# Identity:      81/418 (19.4%)
+# Similarity:   130/418 (31.1%)
+# Gaps:         161/418 (38.5%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      114 RRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAG---AIAAAGYAL--    158
+                     |..|..||.|        .|.|::....|:..|..|   |:..||.|:  
+LEUC_XANOM       175 RVEGTLPFGV--------TAKDIVLAVIGKIGTAGGNGHALEFAGSAIRA    216
+
+SECA2_MYCTO      159 ---------------AGRHVHVVTIND----YL-----ARRDAEWMGPLL    184
+                                    ||..|.:|.:::    |:     |.:.|:|..   
+LEUC_XANOM       217 LSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDA---    263
+
+SECA2_MYCTO      185 DAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDVND    234
+                      |:.|   |.|..|.||..                 ||.:.:....|:..
+LEUC_XANOM       264 -AVAL---WSTLVSDPDAH-----------------FDTVVELHAEDIKP    292
+
+SECA2_MYCTO      235 LVS--PNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAEL    282
+                     .||  .:|:                  :|||...|...|..|        
+LEUC_XANOM       293 QVSWGTSPE------------------MVLAIDQHVPDPATE--------    316
+
+SECA2_MYCTO      283 VGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTE    332
+                                .|...||         .:|:||..:.|.:.:    .:|:
+LEUC_XANOM       317 -----------QDPTKRN---------SIERALKYMGLKANQ----AITD    342
+
+SECA2_MYCTO      333 VNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEA    382
+                                       :|.|.|.:.:.:..||       :.|:||...
+LEUC_XANOM       343 ------------------IRLDRVFIGSCTNSRI-------EDLRAAAAV    367
+
+SECA2_MYCTO      383 KEGIETTETGEVLDTITVQALINRYATVCGMTGTALAAGEQLRQ---FYQ    429
+                     .:|.:...|.:....:....|:...|...|:....|.||.:.|:   ...
+LEUC_XANOM       368 AKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMC    417
+
+SECA2_MYCTO      430 LGVSP---------IPPNKPNI--REDEADRVYITT-----AAKNDGIVE    463
+                     |.::|         ...:..|.  |:....|.::.:     ||...|   
+LEUC_XANOM       418 LAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTHLVSPAMAAAAAVSG---    464
+
+SECA2_MYCTO      464 HITEVHQRGQPVLVGTRD    481
+                     |..:|.:.|... ||.||
+LEUC_XANOM       465 HFVDVRELGDSG-VGIRD    481
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      137 IEMATGEG    144
+                     |.:.||.|
+LPT_ESCF3         12 ITITTGNG     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:      32/127 (25.2%)
+# Similarity:    53/127 (41.7%)
+# Gaps:          30/127 (23.6%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       81 EKLRKAAGLLNLDDLAE--------SADIPQFLAIAREA------AERRT    116
+                     |:|.:|. :|.|..|.:        :|..|..:|.|..|      ||.:|
+RL7_THET8         10 EELSQAT-VLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAAAPAEEKT     58
+
+SECA2_MYCTO      117 GLRPFDVQL--LGALRMLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVH    164
+                        .|||.|  .||.::.....:...||.|...|..:|..|         
+RL7_THET8         59 ---EFDVILKEAGAKKLEVIKELRAITGLGLKEAKDLAEKG---------     96
+
+SECA2_MYCTO      165 VVTINDYLARRDAEWMGPLLDAMGLTV    191
+                      ..:.:.:::::||.:...|:|:|..|
+RL7_THET8         97 -GPVKEGVSKQEAEEIKKKLEAVGAVV    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 398
+# Identity:      80/398 (20.1%)
+# Similarity:   130/398 (32.7%)
+# Gaps:         108/398 (27.1%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      385 GIETTETGE--VLDTITVQALINRYATVCGMTGTAL-----AAGEQLRQF    427
+                     |:::...||  :|..:.......|.|...|...|.|     ||.:::|..
+HEM1_METCA       104 GLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTD    153
+
+SECA2_MYCTO      428 YQLGVSPIPPNKPNIR------EDEADRVYITTAAKNDGIVEHITEVHQR    471
+                     ..:|.||:......||      :|..|...|...|               
+HEM1_METCA       154 TAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGA---------------    188
+
+SECA2_MYCTO      472 GQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGKYG    521
+                     |:.:.:..|.:.|:...|         .::.|...|    |....|.::|
+HEM1_METCA       189 GETIELTARHLTENRIGH---------LIIANRTFD----RAHTLANQFG    225
+
+SECA2_MYCTO      522 AVTVSTQMAGRGTDIRLGGSDEADHDRVAELGG-LHVVGTGRHHTERLDN    570
+                     ...:|.:...:    .|..:|..    ||..|. |.::|.|     ..::
+HEM1_METCA       226 GFAISLEELPK----HLAKADII----VASTGSPLPILGKG-----SFES    262
+
+SECA2_MYCTO      571 QLRGRAGRQGDPGSSVFFSSWEDDVVAANLDHNKLPMATDENGRIVSPRT    620
+                     .||.|.                         |..:.:......|.:.|..
+HEM1_METCA       263 ALRSRR-------------------------HKPMFIVDLAVPRDIEPEV    287
+
+SECA2_MYCTO      621 GSLLDHAQRVAEGRLLDVHANTWRYNQLIAQQRAII---VERRNTLLRTV    667
+                     ..|.|......:.....|..|.....:...|...||   ||...:.||..
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQ    337
+
+SECA2_MYCTO      668 TAREELAELAPKRYEELSDKVSEERLETICRQIMLYHLDRGWA--DHLAY    715
+                     .|.|.:.::  :|..||....:.:|        .|..|.||.:  |.|.:
+HEM1_METCA       338 AATETIRDV--RRQAELHRDAALQR--------ALRELRRGKSAEDTLRW    377
+
+SECA2_MYCTO      716 LAD--IRESIHLRALGRQNPLDEFHRMAVDAFASLAADAIEAAQQTFE    761
+                     |||  ..:.||.       |..:..:..|:.    .||.:.||::.|:
+HEM1_METCA       378 LADTLTNKIIHA-------PSSQIWQAGVNE----RADIVAAARELFQ    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      47/212 (22.2%)
+# Similarity:    62/212 (29.2%)
+# Gaps:          88/212 (41.5%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      496 GVPAVVLNAKNDAEEARVIAEAGKYGAVTVS-------------------    526
+                     ||.|::||     |:..|:|...:  .:|||                   
+XYLB_KLEPN        11 GVKAILLN-----EQGEVVASHTE--KLTVSRPHPLWSEQDPEQWWLATD     53
+
+SECA2_MYCTO      527 TQMAGRGTDIRLGGSDEADHDRVAELGGLHVVGTGRHHTERLDNQLR---    573
+                     |.|...|.           ||.:..:.||.:.|. .|....||..|:   
+XYLB_KLEPN        54 TAMKALGA-----------HDSLRHVKGLGIAGQ-MHGATLLDKSLQVLR     91
+
+SECA2_MYCTO      574 -------GR-------------AGRQ--GD---PGSSVFFSSW-------    591
+                            ||             |.||  |:   ||.:.....|       
+XYLB_KLEPN        92 PAILWNDGRCAEECQLLEDKVSASRQITGNLMMPGFTAPKLLWVQRHEAA    141
+
+SECA2_MYCTO      592 ---EDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLDV    638
+                        :.|.|....|:.:|.|            ||.|.......|....|||
+XYLB_KLEPN       142 VFSQVDKVLLPKDYLRLRM------------TGELASDMSDAAGTMWLDV    179
+
+SECA2_MYCTO      639 HANTWRYNQLIA    650
+                     ....|....|.|
+XYLB_KLEPN       180 ARRDWSDEMLAA    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      36/141 (25.5%)
+# Similarity:    55/141 (39.0%)
+# Gaps:          14/141 ( 9.9%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      492 LVRRGVPAV--VLNAKNDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLG    539
+                     |::|...|:  :|||....:|  ::.|.|..|.|..|.. .|..||.|..
+RECR_NOVAD        31 LIKRRETALPQLLNALTQVQE--LLVECGVCGNVDTSNP-CGICTDHRRD     77
+
+SECA2_MYCTO      540 GSDEADHDRVAELGGLH--VVGTGRHHTERLDNQLRGR-AGRQGDPGSSV    586
+                     .......:.||:|..|.  .:.||::|.      |.|| :..:|.....:
+RECR_NOVAD        78 QRSICVVEEVADLWALDRARLFTGKYHV------LGGRLSALEGVRPEDL    121
+
+SECA2_MYCTO      587 FFSSWEDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHA    627
+                     ...|..|.|....:|...|.|.....|:..:......|:.|
+RECR_NOVAD       122 TIGSLLDRVAQGGIDEVVLAMNATLEGQTTAHYIAERLEGA    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      43/200 (21.5%)
+# Similarity:    68/200 (34.0%)
+# Gaps:          77/200 (38.5%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      442 IREDEADRVYITTAAKNDGIVEHITEVHQ--------------RGQP---    474
+                     |..:.:|.|::.....:...|.|...::.              :|.|   
+SURE_METNO        22 IARELSDDVWVVAPETDQSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDC     71
+
+SECA2_MYCTO      475 VLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGKYGAVT    524
+                     |::|.|.:         |..|| |.:||:..|..:.   :||...|.. |
+SURE_METNO        72 VIMGVRHI---------LKERG-PDLVLSGVNRGQN---VAEDVTYSG-T    107
+
+SECA2_MYCTO      525 VSTQMAGRGTDIR---------LGG------SDEADHD-----RVAELG-    553
+                     |:..|.|....:|         :||      ...|:|.     |:.|.| 
+SURE_METNO       108 VAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGI    157
+
+SECA2_MYCTO      554 -------------------GLHVVGTGRHHTERL--DNQLRGRAGRQGDP    582
+                                        |:.||..|..:.:.|  |.:|.||    |:|
+SURE_METNO       158 EPGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGR----GNP    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    11/25 (44.0%)
+# Gaps:           4/25 (16.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      325 HVGTTLTEVNVALHAHVLLQRDVHY    349
+                     :...|.|..|...|    :.|||:|
+CYB_ARTIO         55 YTSDTATAFNSVTH----ICRDVNY     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      24/95 (25.3%)
+# Similarity:    38/95 (40.0%)
+# Gaps:          11/95 (11.6%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      399 TVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEAD    448
+                     ||:..|.....:.||....:...||......|...|:..|||...|:|.:
+IOLE_BACHK        86 TVEEFIKHRDFLHGMGAKVIVVSEQGHSIQGLMDVPLFKNKPVFTEEEWE    135
+
+SECA2_MYCTO      449 RV-----YITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEEL    488
+                     ::     ::...|:..|:  ||...|..|    .|.:...|.|:|
+IOLE_BACHK       136 KLADGLHHLGKLAQEKGL--HIVYHHHMG----TGVQTTTEIEKL    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 370
+# Identity:      74/370 (20.0%)
+# Similarity:   128/370 (34.6%)
+# Gaps:         109/370 (29.5%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      417 ALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEHIT    466
+                     |:.||....:| ||           ||..|.:.|       ..|:||.| 
+ACKA_STAAT         7 AINAGSSSLKF-QL-----------IRMPEEELV-------TKGLVERI-     36
+
+SECA2_MYCTO      467 EVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAE    516
+                                |.:|...:.|::...|:     .|.:.|:..|...::.:
+ACKA_STAAT        37 -----------GLKDSIFTIEVNGEKVK-----TVQDIKDHVEAVDIMLD     70
+
+SECA2_MYCTO      517 AGK-YGAVTVSTQMAGRGTDIRLGG---------SDEADH--DRVAELGG    554
+                     |.| :..:.....:.|.|..:..||         :||.:.  :.::||..
+ACKA_STAAT        71 AFKAHNIINDINDIDGTGHRVVHGGEKFPESVAITDEVEKEIEELSELAP    120
+
+SECA2_MYCTO      555 LHVVGTGRHHTERLDNQLRGRAGRQ---GDPGSSVFFSSWEDDVVAANLD    601
+                     ||          ...|.:..||.|:   ..|..::|.:::          
+ACKA_STAAT       121 LH----------NPANLMGIRAFRKLLPNIPHVAIFDTAF----------    150
+
+SECA2_MYCTO      602 HNKLPMAT---------------------DENGRIVSPRTGSLLDHAQRV    630
+                     |..:|...                     ..:.:.||.|...:||  :.:
+ACKA_STAAT       151 HQTMPEKAYLYSLPYHYYKDYGIRKYGFHGTSHKFVSQRAAEMLD--KPI    198
+
+SECA2_MYCTO      631 AEGRLLDVHANTWRYNQLIAQQRAIIVERRNTLLRTVTAREELAELAPKR    680
+                     .:.|::..|.........|...::|......|.|..||.......:.|..
+ACKA_STAAT       199 EDLRIISCHIGNGASIAAIDGGKSIDTSMGFTPLAGVTMGTRSGNIDPAL    248
+
+SECA2_MYCTO      681 YE---ELSDKVSEERLETICRQIMLYHLDRGWADHLAYLADIRESIHLRA    727
+                     ..   |.:.|.:|:.||.:.::..|..|. |.:..|..|::..||...|:
+ACKA_STAAT       249 IPFIMEKTGKTAEQVLEILNKESGLLGLS-GTSSDLRDLSEEAESGKARS    297
+
+SECA2_MYCTO      728 LGRQNPLDEFHRMAVDAFAS    747
+                                :||:|.|||
+ACKA_STAAT       298 -----------QMALDVFAS    306
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      48/213 (22.5%)
+# Similarity:    78/213 (36.6%)
+# Gaps:          48/213 (22.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      189 LTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSP    238
+                     :.|..:..:::..:.|...|.|.|.           |.:|.|.|     |
+HIS7_BURTA         1 MRVAEVVRNTSETQIRVKIDLDGTG-----------RQKLATGV-----P     34
+
+SECA2_MYCTO      239 NPDVALIDEADSVLVDEALVPLVLAGTTH------RETPRLEIIRLVAEL    282
+                     ..|..|...|...|||   :.:...|.||      .|...:.:.:.||:.
+HIS7_BURTA        35 FLDHMLDQIARHGLVD---LDIEAHGDTHIDDHHTVEDVGITLGQAVAKA     81
+
+SECA2_MYCTO      283 VGDKDADEYFATDSDNRNVHLTEHGARKVEKALG--GIDL---YSEEHVG    327
+                     ||||.....:.    :..|.|.|..:|.|....|  |::.   ::...:|
+HIS7_BURTA        82 VGDKKGIRRYG----HSYVPLDEALSRVVIDFSGRPGLEFHVPFTRARIG    127
+
+SECA2_MYCTO      328 TTLTEVNVAL------HAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQR    371
+                     |...::::..      ||.|.|    |.    |.:..:||........:.
+HIS7_BURTA       128 TFDVDLSIEFFRGFVNHAGVTL----HI----DNLRGVNAHHQLETVFKA    169
+
+SECA2_MYCTO      372 WPDGLQAAVEAKE    384
+                     :...|:.|||..|
+HIS7_BURTA       170 FGRALRMAVELDE    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      35/153 (22.9%)
+# Similarity:    56/153 (36.6%)
+# Gaps:          41/153 (26.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       21 GRPAFAYRWFVPKTTRAQPGRL-SSRFWRLLGASTEKNRSRSLADVTASA     69
+                     |.|...|:|     ||...|.| ..|..:|.|.|..:.:...|     :|
+PTH_GEOLS         10 GNPGSKYQW-----TRHNAGFLFLDRIAQLEGLSIVRKQFGGL-----TA     49
+
+SECA2_MYCTO       70 EYDKEAADLSDEKLRKAAGLLNLDDLAESADI------PQFLAIARE---    110
+                     |::::...|   .|.|....:||...:....:      |..|.:..:   
+PTH_GEOLS         50 EWERKGKRL---VLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEID     96
+
+SECA2_MYCTO      111 ---AAER---------RTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLA    148
+                        .|.|         :.|||.. ::|||     .||.:.:..|.|:...
+PTH_GEOLS         97 LALGAARLKQGGGHGGQNGLRSI-MELLG-----KGDFVRLRLGIGRPPH    140
+
+SECA2_MYCTO      149 GAI    151
+                     |.:
+PTH_GEOLS        141 GDV    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      27/119 (22.7%)
+# Similarity:    52/119 (43.7%)
+# Gaps:          21/119 (17.6%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      408 ATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPN---------IREDEAD    448
+                     :||.|....:..:|.:.|:......||..|..|.         |:.:..:
+TAF3_XENLA       220 STVIGSPIRSPKSGPKERKSPGCAKSPKSPKSPKVPLAAPPPAIKTETPN    269
+
+SECA2_MYCTO      449 RVYITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVP    498
+                     |..:.|.::..| .|:| ::.|...|:        :|::|:..:..: .|
+TAF3_XENLA       270 RTPLATLSEKIG-RENI-QIKQNQTPL--------DSDQLNVEIPSK-KP    308
+
+SECA2_MYCTO      499 AVVLNAKNDAEEARVIAEA    517
+                     ::..|...|:.:| |||.|
+TAF3_XENLA       309 SIADNTIEDSIDA-VIARA    326
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 695
+# Identity:     124/695 (17.8%)
+# Similarity:   211/695 (30.4%)
+# Gaps:         299/695 (43.0%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      222 DVLRDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETP    271
+                     |.:.|||..:::.|...:|.:...|                 ..|.|   
+DNLJ_CROS5        35 DAVYDQLYRELDSLEKEHPQLITPD-----------------SPTQR---     64
+
+SECA2_MYCTO      272 RLEIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLY    321
+                                |||:.|.::         |.:|.:           |.||
+DNLJ_CROS5        65 -----------VGDQPASQF---------VSVTHN-----------IPLY     83
+
+SECA2_MYCTO      322 SEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQR    371
+                     |.|                                   ||.  .:.:|:.
+DNLJ_CROS5        84 SLE-----------------------------------NAF--NLEELKA     96
+
+SECA2_MYCTO      372 WPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYAT---VCGMTGTAL    418
+                     |....|.:.|.:|........|:  .|...||...|..   |.|:|....
+DNLJ_CROS5        97 WEKRWQRSYEKEEFTSVEYVCEL--KIDGSALALTYENGLFVRGVTRGDG    144
+
+SECA2_MYCTO      419 AAGEQLRQFYQLGVSPIP-----PNKPNIRE---------DEADRVYITT    454
+                     ..||::.|..:. :..||     .|.|.|.|         ||.||:.   
+DNLJ_CROS5       145 TTGEEITQNVRT-IRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRIN---    190
+
+SECA2_MYCTO      455 AAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNA    504
+                                .|..::|..:....|:.|..      .:|:..|.:|   
+DNLJ_CROS5       191 -----------QEREEKGDALFANPRNAAAG------TLRQLDPKIV---    220
+
+SECA2_MYCTO      505 KNDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVAELGG    554
+                         ::.|:     ::.|.|:..:.|    :|    |.:.:.....|..|
+DNLJ_CROS5       221 ----DQRRL-----QFFAYTLHLEEA----EI----SSQWESLNYLENSG    253
+
+SECA2_MYCTO      555 LHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWE---------DDV    595
+                     . :|...|...:.||.             ...:|..||         .|.
+DNLJ_CROS5       254 F-LVNPHRKLCQFLDE-------------VEAYFKQWETARKDLPYMTDG    289
+
+SECA2_MYCTO      596 VAANLDHNKLPMA-----------------TDENGRIVS------PRTGS    622
+                     |...:::..|..|                 .:|...:|.      .|||:
+DNLJ_CROS5       290 VVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGA    339
+
+SECA2_MYCTO      623 L--------------------LDHAQRVAEGRLLDVHANTWRYNQLIAQQ    652
+                     :                    |.::.|:|:   ||:....          
+DNLJ_CROS5       340 VTPMAVMEPVHLAGTTVQKATLHNSDRIAQ---LDIRVGD----------    376
+
+SECA2_MYCTO      653 RAIIVERRNTLLRTVTAREELAELAPKRYE--ELSDKVSE----------    690
+                      .:|:.:...::..|.  ..|.||.|...:  |:.|:..|          
+DNLJ_CROS5       377 -TVIIRKAGEIIPEVV--RVLKELRPPNTQPYEMPDRCPECDSPLIRPSG    423
+
+SECA2_MYCTO      691 ----ERLETICRQIM---LYHLDRGWADHLAYLADIRESIHLRALGRQ--    731
+                         ..:...|..|:   |.|    ||.        |:::.:|.||.:  
+DNLJ_CROS5       424 EAVIRCMNLSCEAILRGSLVH----WAS--------RDALDIRGLGEKIV    461
+
+SECA2_MYCTO      732 ---------NPLDEFHRMAVDAFASL------AAD----AIEAA-QQTFE    761
+                              |.:.:.:.:..:..|:|      :||    |||.: ||.|.
+DNLJ_CROS5       462 VLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFS    511
+
+SECA2_MYCTO      762 --------------TANVL-DHEPGLD-LSKLARPTSTWTYMVND    790
+                                   |||:| ::.|.:| ||:.:..:.:..|.|.:
+DNLJ_CROS5       512 RVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGE    556
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 697
+# Identity:     144/697 (20.7%)
+# Similarity:   230/697 (33.0%)
+# Gaps:         222/697 (31.9%)
+# Score: 107.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       24 AFAYRWFVPKTTRAQPGRLS--SRFWRLLGASTEKNRS-----RSLADVT     66
+                     |..|.....||..|...|||  .|...||  ..|.:|:     |||.|..
+MUTS_MYXXD       249 ALRYLKDTQKTAAAHVDRLSRQERGGNLL--MDESSRANLEVLRSLRDGG    296
+
+SECA2_MYCTO       67 ASAE----YDKEAADLSDEKLRK--AAGLLNLDDLAESADIPQFLAIARE    110
+                     ....    .||....|...||.:  |:.|.:|.::....|          
+MUTS_MYXXD       297 RKGSLLGVLDKTVTSLGARKLARWLASPLGSLPEIHARLD----------    336
+
+SECA2_MYCTO      111 AAERRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAGA-----IAAAG    155
+                     |.|..:|...:..:|.|.|:.: ||:..:.   |:...||     :.|.|
+MUTS_MYXXD       337 AVEELSGRSVWREELAGILKEV-GDLERLC---GRLSLGAGNARDLRALG    382
+
+SECA2_MYCTO      156 YALAGRHVHVVTINDYLARRDAEWM----GPL--LDAMGLTVGWITADST    199
+                     .:|| :...||.:   |||.::..:    |||  |..:...:....|:..
+MUTS_MYXXD       383 LSLA-QLPRVVAV---LARCESPLLKSLTGPLSALPELAELLSRAVAEEP    428
+
+SECA2_MYCTO      200 P-------------------------------------DERRT-------    205
+                     |                                     ::.||       
+MUTS_MYXXD       429 PVTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIEQREKERTGISSLKV    478
+
+SECA2_MYCTO      206 ------AYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSPN----------    239
+                           .|..:||.::::.:..|.:|.|...:....|:|.          
+MUTS_MYXXD       479 RYNKVFGYYLEVTKSNLDRVPKDYIRKQTTVNSERFVTPELKEYEEQVLT    528
+
+SECA2_MYCTO      240 -------PDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAEL    282
+                            .::.|.:|..:.:|..|              ||   ||..||.
+MUTS_MYXXD       529 AEERRCALEIQLFEELRAQVVSAA--------------PR---IRSAAEA    561
+
+SECA2_MYCTO      283 VGDKD--------ADEYFATDSD-NRNVHLTEHGARK--VEKALGGIDLY    321
+                     |...|        |.||..|..: :.:|.|:....|.  ||:.||..|.:
+MUTS_MYXXD       562 VATGDALLSFARCAAEYGYTRPEVDASVALSITAGRHPVVERMLGAGDSF    611
+
+SECA2_MYCTO      322 ---------SEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINAS    362
+                              :|:.....:|..|:|..:.|:.|..:..::. .|...:.|.
+MUTS_MYXXD       612 VPNDVRLDPAEDAQLMVITGPNMAGKSTVMRQVALTALMA-QAGSFVPAK    660
+
+SECA2_MYCTO      363 RGRIAQLQRWPDGLQAAVEAKEG-----IETTETGEVLDTITVQALI---    404
+                     ..||....|....:.||.....|     :|.|||..:|...|.::||   
+MUTS_MYXXD       661 AARIGLCDRIFTRVGAADNLARGQSTFMVEMTETSHILHHATNKSLIILD    710
+
+SECA2_MYCTO      405 ---NRYATVCGMTGTALAAGEQLR-----------QFYQLGVSPIPPNKP    440
+                        ...:|..|:: .|.|..|.|.           .:::|  ..:...:|
+MUTS_MYXXD       711 EIGRGTSTFDGLS-IAWAVAEHLHDTVGARALFATHYHEL--VDLARERP    757
+
+SECA2_MYCTO      441 NIRE--------------------DEADRVYITTAAKNDGIVEHITEVHQ    470
+                     .::.                    ..|.|.|....||..|:         
+MUTS_MYXXD       758 RVKNLCVAVKEQNGKVIFLRKLVPGGASRSYGIEVAKLAGL---------    798
+
+SECA2_MYCTO      471 RGQPVLVG-TRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGK    519
+                       .|.:|| .|::.::.|..| |...|.|.|.:.............:.|.
+MUTS_MYXXD       799 --PPEVVGRARELLQNLESGE-LDDAGRPRVAVRQPQGGRRGASTGQLGL    845
+
+SECA2_MYCTO      520 YG--------AVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVV    558
+                     :|        .||.:.|.|       |.....|..||:..|..|:::
+MUTS_MYXXD       846 FGMEPAQGGTGVTPAQQKA-------LDALKGASIDRMTPLDALNLL    885
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:      52/249 (20.9%)
+# Similarity:    78/249 (31.3%)
+# Gaps:          84/249 (33.7%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       40 GRLSSRFWRLLGASTEKNRSRSLADVTASAEY------------------     71
+                     |||   ||..|.....:       |||..|.:                  
+NOSO_STAAC        64 GRL---FWDSLNVIDAR-------DVTDEASFLSSITYHITQATNEGKLK    103
+
+SECA2_MYCTO       72 -------DKEAADLSDEKLRKAAGLLNLDDLAESADIPQFLAIAREAAER    114
+                            .|:...:.:.:|.:.||..|..|.||.    :...:|.....:
+NOSO_STAAC       104 PYITIYAPKDGPKIFNNQLIRYAGYDNCGDPAEK----EVTRLANHLGWK    149
+
+SECA2_MYCTO      115 RTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVH    164
+                     ..|.. |||  |..:..|..:.::.                |......:.
+NOSO_STAAC       150 GKGTN-FDV--LPLIYQLPNESVKF----------------YEYPTSLIK    180
+
+SECA2_MYCTO      165 VVTI--NDY--LARRDAEWMG-PLLDAMGLTVGWITADSTPDERRTAYDR    209
+                     .|.|  |.|  |.:.:.:|.. |::..|.|.:|.|...:.|..       
+NOSO_STAAC       181 EVPIEHNHYPKLRKLNLKWYAVPIISNMDLKIGGIVYPTAPFN-------    223
+
+SECA2_MYCTO      210 DVTYASVNEIG----FDVLRDQLVTDVNDLV--------SPNPDVALID    246
+                       .:..|.|||    .|..|..|:..|.|..        |.|.|.||::
+NOSO_STAAC       224 --GWYMVTEIGVRNFIDDYRYNLLEKVADAFEFDTLKNNSFNKDRALVE    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      31/146 (21.2%)
+# Similarity:    46/146 (31.5%)
+# Gaps:          49/146 (33.6%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      539 GGSDEA-DHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVF    587
+                     ||.|.| |.|             |.....:|..:.:.|.||.        
+RBM8A_MOUSE       11 GGEDFAMDED-------------GDESIHKLKEKAKKRKGRG--------     39
+
+SECA2_MYCTO      588 FSSWEDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLL-    636
+                     |.|.|........|::.:....||.|             .||..||.:| 
+RBM8A_MOUSE       40 FGSEEGSRARMREDYDSVEQDGDEPG-------------PQRSVEGWILF     76
+
+SECA2_MYCTO      637 -----------DVHANTWRYNQLIAQQRAIIVERRNTLLRTVTARE    671
+                                |:|.....|.::  :...:.::||...|:..|..|
+RBM8A_MOUSE       77 VTGVHEEATEEDIHDKFAEYGEI--KNIHLNLDRRTGYLKGYTLVE    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      14/68 (20.6%)
+# Similarity:    24/68 (35.3%)
+# Gaps:          13/68 (19.1%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      117 GLRPFDVQLLGALRMLAGDVIEMATGEGKTLAG-------------AIAA    153
+                     ||..:...|:.:|..|.|.::.:......|:..             .:.|
+NU4LM_ARCPU       18 GLLMYRSHLMSSLLCLEGMMLSLFVMMSMTILSNHFTLASMAPIILLVFA     67
+
+SECA2_MYCTO      154 AGYALAGRHVHVVTINDY    171
+                     |..|..|..:.|:..|.|
+NU4LM_ARCPU       68 ACEAALGLSLLVMVSNTY     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      59/268 (22.0%)
+# Similarity:    89/268 (33.2%)
+# Gaps:          74/268 (27.6%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      415 GTALAAG-----EQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKND    459
+                     ||.|||.     .|:|...:|   |.|.::             |..|..|
+NANK_ECOLI        10 GTKLAAALIGADGQIRDRREL---PTPASQ-------------TPEALRD     43
+
+SECA2_MYCTO      460 GIVEHITEVHQRGQPVLVGTRDVAESEE------------LHERLVR---    494
+                     .:...::.:....|.|.:.:..:.....            ||..||:   
+NANK_ECOLI        44 ALSALVSPLQAHAQRVAIASTGIIRDGSLLALNPHNLGGLLHFPLVKTLE     93
+
+SECA2_MYCTO      495 --RGVPAVVLNAKNDAEEARVIAEAGKYG---AVTVSTQMAG---RGTDI    536
+                       ..:|.:.:|....|..|...|..|...   .:||||.:.|   .|..:
+NANK_ECOLI        94 QLTNLPTIAINDAQAAAWAEFQALDGDITDMVFITVSTGVGGGVVSGCKL    143
+
+SECA2_MYCTO      537 RLGGSDEADH--DRVAELGGLHVVGTGRHHTERLDNQLRGR---AGRQGD    581
+                     ..|....|.|  ..:|:..| .|.|.||  |..::....||   |..||:
+NANK_ECOLI       144 LTGPGGLAGHIGHTLADPHG-PVCGCGR--TGCVEAIASGRGIAAAAQGE    190
+
+SECA2_MYCTO      582 ----PGSSVFFSSWEDDVVAANLDHNK----------LPMATDENGRIVS    617
+                         ...::|..:.:.|..|..|.|..          :...||....:|.
+NANK_ECOLI       191 LAGADAKTIFTRAGQGDEQAQQLIHRSARTLARLIADIKATTDCQCVVVG    240
+
+SECA2_MYCTO      618 PRTGSLLDHAQRVAEGRL    635
+                     ...|        :|||.|
+NANK_ECOLI       241 GSVG--------LAEGYL    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 416
+# Identity:      71/416 (17.1%)
+# Similarity:   128/416 (30.8%)
+# Gaps:         159/416 (38.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      142 GEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTV    191
+                     |||||                .|:.|.......||.|.|..:|:.:|.  
+MIAB_MYCPE        51 GEGKT----------------YHIKTFGCQSNLRDTEVMMGMLELIGY--     82
+
+SECA2_MYCTO      192 GWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDV-------ND    234
+                                   .|:.||..:.:..:....:|:...:.|       :.
+MIAB_MYCPE        83 --------------EYNEDVNTSDLVLLNTCAVREHAESKVFADIGILDR    118
+
+SECA2_MYCTO      235 LVSPNPDVALIDEADSVLVDEALVPLVLA---------GT--THRETPRL    273
+                     :...||:. :......:..:||:|..:|.         ||  .||     
+MIAB_MYCPE       119 IKKSNPNF-IFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHR-----    162
+
+SECA2_MYCTO      274 EIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVE-----------    312
+                      |:.|:.:::.:|           |..|.:..|....:|           
+MIAB_MYCPE       163 -ILNLLEQVIFEK-----------NLVVEVWSHEGNVIENLPSKRTNNLK    200
+
+SECA2_MYCTO      313 ---KALGGID-----------------------------LYSEEHVGTTL    330
+                        ..:.|.|                             :.||.:...||
+MIAB_MYCPE       201 GFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTL    250
+
+SECA2_MYCTO      331 TEVNVALHAHVLLQRDVHYI---------------VRDDAVHLINASRGR    365
+                     ...||..:. :......:|:               ||....:..|.:|..
+MIAB_MYCPE       251 IGQNVNSYG-IDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSI    299
+
+SECA2_MYCTO      366 IAQLQRWPDGL-QAAVEAKEGIET--------TETGEVLDTIT-VQALIN    405
+                     :..::::|:.: ...:..:.|.||        .:.|:.:|.:. ::|.|.
+MIAB_MYCPE       300 VDTMKKYPNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIP    349
+
+SECA2_MYCTO      406 RYATVCGMTGTALAAG------EQLRQFYQLGVSPIPPNKPNIREDEADR    449
+                     .    |.:| |.|..|      ||..:..:|           .:..|.|.
+MIAB_MYCPE       350 N----CSIT-TDLIVGFPNETKEQFNKTLEL-----------YKRIEFDN    383
+
+SECA2_MYCTO      450 VYITTAAKNDGIVEHI    465
+                     .:....:|.||.|..|
+MIAB_MYCPE       384 AFTFIYSKRDGTVAAI    399
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      27/113 (23.9%)
+# Similarity:    43/113 (38.1%)
+# Gaps:          16/113 (14.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      603 NKLPMATDENGRIVSPRTGSLLDHAQRV-AEGRLLDVHANTWRYNQ----    647
+                     |:..|.| |||..:.........|.:|. .:|..:...:.:..||:    
+NADK_STAES       122 NEATMKT-ENGSTLVVDVNIRGKHFERFRGDGLCISTPSGSTAYNKALGG    170
+
+SECA2_MYCTO      648 ------LIAQQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEE    691
+                           |.|.|.|.|....|.:.|||.:...|    ||.:..|...|:.:
+NADK_STAES       171 ALIHPSLEAMQIAEIASINNRVFRTVGSPLVL----PKHHTCLITPVNHD    216
+
+SECA2_MYCTO      692 RLETICRQIMLYH    704
+                     .:.|....:.:.|
+NADK_STAES       217 TIRTTIDHVSIKH    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 615
+# Identity:     126/615 (20.5%)
+# Similarity:   192/615 (31.2%)
+# Gaps:         199/615 (32.4%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      295 DSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHAH----    340
+                     |..|.:|..|.:.|:.|...    .|:::    ...||.|::|:.|    
+TRPG_CAEEL       245 DRLNEDVSATANSAQLVLPT----PLFNQ----MRFTESNMSLNRHNWVR    286
+
+SECA2_MYCTO      341 -VLLQRDV-HYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIET    388
+                      ...:|:. .:|.....:|.....|.|.|. :..|:.....:..|..:..
+TRPG_CAEEL       287 ETFTRRECSRFIASSRDLHKCGCGRTRDAH-RNIPELTSEFLRQKRSVAA    335
+
+SECA2_MYCTO      389 TE----TGEVLDTITVQALINRYATVCGMTGTALAAGEQ--LRQF-----    427
+                     .|    ...|.|.|..|   |.|        |...|.|:  ||:.     
+TRPG_CAEEL       336 LEQQRSISNVNDDINTQ---NMY--------TKRGANEKWSLRKHTVSLA    374
+
+SECA2_MYCTO      428 --------YQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEHITEVH    469
+                             :|.|..|.......:..| .:..||.:      :.||:.:: 
+TRPG_CAEEL       375 TNAFGQVEFQGGPHPYKAQYVRVNFD-TEPAYIMS------LFEHVWQI-    416
+
+SECA2_MYCTO      470 QRGQPVLV-----GTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVI    514
+                       ..|.|:     ||.:.....:| .|:.|:|                ::
+TRPG_CAEEL       417 --SPPRLIITVHGGTSNFDLQPKL-ARVFRKG----------------LL    447
+
+SECA2_MYCTO      515 AEAGKYGAVTVSTQMAGRGTDI------RLGGSDEADHDRVAELG----G    554
+                     ..|...||..::   :|..|.:      .|.|:..|..:::..:|    |
+TRPG_CAEEL       448 KAASTTGAWIIT---SGCDTGVVKHVAAALEGAQSAQRNKIVCIGIAPWG    494
+
+SECA2_MYCTO      555 L-----------------------HVVGTGRHHTERL--DNQLRGRAGRQ    579
+                     |                       ...|....|:..|  ||   |..||.
+TRPG_CAEEL       495 LLKKREDFIGQDKTVPYYPSSSKGRFTGLNNRHSYFLLVDN---GTVGRY    541
+
+SECA2_MYCTO      580 G-------------DPGSSVFFSSWEDDVVAANLDHNKLPMATDENGRIV    616
+                     |             .....:|..:....||...|          |.|   
+TRPG_CAEEL       542 GAEVILRKRLEMYISQKQKIFGGTRSVPVVCVVL----------EGG---    578
+
+SECA2_MYCTO      617 SPRTGSLLDHAQRV---------AEGRLLDV----HANTWRYNQL---IA    650
+                     |....|:||:...|         ..||..|:    |.|......|   |.
+TRPG_CAEEL       579 SCTIRSVLDYVTNVPRVPVVVCDGSGRAADLLAFAHQNVTEDGLLPDDIR    628
+
+SECA2_MYCTO      651 QQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEERLETICR--    698
+                     :|..::||       |.....|.|  |.:...||:.....:.|.||.|  
+TRPG_CAEEL       629 RQVLLLVE-------TTFGCSEAA--AHRLLHELTVCAQHKNLLTIFRLG    669
+
+SECA2_MYCTO      699 --------QIMLYHLDRGW----ADHLAYL-----ADIRESIHLRALGRQ    731
+                             ..:|..|.:|.    ||.||..     .||..| .:.|:|.:
+TRPG_CAEEL       670 EQGEHDVDHAILTALLKGQNLSAADQLALALAWNRVDIARS-DVFAMGHE    718
+
+SECA2_MYCTO      732 NPLDEFHRMAVDAFASLAADAIEAA------QQTFETANVLDHEPGLDLS    775
+                     .|....|...::|......|.:...      .|.|.|.:.||.....|..
+TRPG_CAEEL       719 WPQAALHNAMMEALIHDRVDFVRLLLEQGINMQKFLTISRLDELYNTDKG    768
+
+SECA2_MYCTO      776 KLARPTSTWTYMVND    790
+                         |.:|..|:|.|
+TRPG_CAEEL       769 ----PPNTLFYIVRD    779
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 389
+# Identity:      77/389 (19.8%)
+# Similarity:   123/389 (31.6%)
+# Gaps:         124/389 (31.9%)
+# Score: 74.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      199 TPDERRTAYDRDVTYAS----VNEIGFDVLRD--QLVTD---VNDLVSPN    239
+                     |.|::|...|. ||.|:    |..:|..|||:  |..|:   |.|.....
+MSHD_MYCMM        11 TDDQQRQVRDL-VTAATQVDGVAPVGEQVLRELAQQRTEHLLVEDQSPGK     59
+
+SECA2_MYCTO      240 PDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKDAD    289
+                     ..:..::.:.:...|.|:..||:.....|......::|......|.:  :
+MSHD_MYCMM        60 SAIGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAALAKTGGR--N    107
+
+SECA2_MYCTO      290 EYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHA    339
+                     :::|        |.|...|:....|||             ||.|...   
+MSHD_MYCMM       108 QFWA--------HGTLAPAQATASALG-------------LTPVREL---    133
+
+SECA2_MYCTO      340 HVLLQRDVH---------------YIVRDDAVHLINASRGRIA-------    367
+                      |.::|.:.               |...:|...|:..:....|       
+MSHD_MYCMM       134 -VQMRRSLRQLPEPVIPNGLQIRTYAGTEDDAELLRVNNAAFAYHPEQGG    182
+
+SECA2_MYCTO      368 ---------QLQRW--PDGLQAAVEAKEGIETTETGEVLDTITVQALINR    406
+                              :.:.|  |.||..|:|..||.|.:..|:             
+MSHD_MYCMM       183 WTEADLAERRGEPWFDPAGLFLALEGSEGAEDSPRGQ-------------    219
+
+SECA2_MYCTO      407 YATVCGMTGTALAAGEQ-LRQFYQLGVSPIPPNKPNIREDEADRVYITTA    455
+                      ..:.|...|.:...:. |.:.|.|||.|                    |
+MSHD_MYCMM       220 -PRLLGFHWTKIHLDDPGLGEVYVLGVDP--------------------A    248
+
+SECA2_MYCTO      456 AKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNAK    505
+                     |:..|:...:|.:..|.....:|.||:....            .|:|..:
+MSHD_MYCMM       249 AQGRGLGRTLTMIGLRSLAQRLGDRDLGRES------------TVMLYVE    286
+
+SECA2_MYCTO      506 NDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEA    544
+                     :|.     ||....|..:..||...  .|...|...|.|
+MSHD_MYCMM       287 SDN-----IAAVRTYQGLGFSTHSV--DTAYALAAPDAA    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      31/167 (18.6%)
+# Similarity:    60/167 (35.9%)
+# Gaps:          55/167 (32.9%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      331 TEVNVALHAHVLLQRDVHYI---------------VRDDAVHLINASRG-    364
+                     |.:|..:|...:...|:||:               |..:.||::|.:.| 
+PAND_THEFY         4 TMLNGKIHRATVTHADLHYVGSITIDADLMDAANLVDGEQVHVVNITNGH     53
+
+SECA2_MYCTO      365 RIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMT    414
+                     |:                   :....|||            |.:.|.|:.
+PAND_THEFY        54 RL-------------------VTYVLTGE------------RGSGVIGIN     72
+
+SECA2_MYCTO      415 GTA---LAAGEQ--LRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKND    459
+                     |.|   :|.|:.  :..:.||..:....::|::...:|:...:   |..|
+PAND_THEFY        73 GAAARLVAPGDLVIIISYVQLTEAERATHRPHVVHVDANNRIV---ALGD    119
+
+SECA2_MYCTO      460 GIVEHITEVHQRGQPVL    476
+                     .:.|.:....|:...:|
+PAND_THEFY       120 DLAEPVPGSDQKSGALL    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 248
+# Identity:      47/248 (19.0%)
+# Similarity:    92/248 (37.1%)
+# Gaps:          54/248 (21.8%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      364 GRIAQLQRWPDGLQAAVEAKEGIETTE---TGEVLDTITVQALINRYATV    410
+                     ||..::.|.|..|:..:...:..:..:   .|..|.|:..:|.....:..
+LIPA_ASPOR        94 GRKKEMTRLPSWLKTPIPDSKNYQRLKKDLRGLNLHTVCEEARCPNISDC    143
+
+SECA2_MYCTO      411 CG------MTGTALAAGEQLR---QFYQLGVS----PIPPNKPNIREDEA    447
+                     .|      .|.|.:..|:...   :|..:..:    |:.|::|....:..
+LIPA_ASPOR       144 WGGSDKSAATATIMLMGDTCTRGCRFCSVKTNRRPPPLDPHEPENTAEAI    193
+
+SECA2_MYCTO      448 DR-----VYITTAAKN---DGIVEHITE----VHQRGQPVLVG--TRDVA    483
+                     .|     |.:|:..::   ||...|..|    :.|:...:||.  |.|..
+LIPA_ASPOR       194 SRWSLGYVVLTSVDRDDLADGGARHFAETVIKIKQKKPSMLVECLTGDYL    243
+
+SECA2_MYCTO      484 ESEELHERLVRRGVPAVVLNAKN-------------DAEEARVIAEAGKY    520
+                     ...|:.:.:.|.|:.....|.:.             ..:::..:.||.|.
+LIPA_ASPOR       244 GDLEMVKLVARSGLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAAKQ    293
+
+SECA2_MYCTO      521 G---AVTVSTQMAGRGTDIRLGGSDEADHDRVAELG--GLHVVGTGRH    563
+                     .   .:|.::.|.|      .|.::|...|.:.:|.  |:.||..|::
+LIPA_ASPOR       294 ARPDLITKTSLMLG------FGETEEQLWDALRQLRSVGVDVVTFGQY    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 362
+# Identity:      65/362 (18.0%)
+# Similarity:   111/362 (30.7%)
+# Gaps:         114/362 (31.5%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       89 LLNLDDLAESADIPQFLAIAREAAERRTGLRPFD--VQLLGALRMLAGDV    136
+                     |.|:..:..:|::|.|         .||| :..|  |..||..:.|.|..
+FLGI_PECAS        85 LKNVAAVMVTAELPPF---------GRTG-QNIDIVVSSLGNAKSLRGGT    124
+
+SECA2_MYCTO      137 IEM-----------ATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARR    175
+                     :.|           |..:|..|.|   .||.:..|..|.|   |.....|
+FLGI_PECAS       125 LLMTPLKGVDNQVYALAQGNVLVG---GAGASAGGSSVQV---NQLAGGR    168
+
+SECA2_MYCTO      176 DAEWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLR    225
+                                  ::.|.:.....|.          |:.:.|.|...:..
+FLGI_PECAS       169 -------------ISNGAVIERELPS----------TFGTSNTIMLQLKN    195
+
+SECA2_MYCTO      226 D--QLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRL    273
+                     |  .:...|:|.::.:.........||..: :.|.|       |..:.::
+FLGI_PECAS       196 DDFSMAQKVSDAINRSGYGGTASPLDSRTI-QVLAP-------HGNSSQV    237
+
+SECA2_MYCTO      274 EIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSE    323
+                     .                 |..|..|..|::....|:.|          ..
+FLGI_PECAS       238 R-----------------FLADVQNIEVNVGIQDAKVV----------IN    260
+
+SECA2_MYCTO      324 EHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWP    373
+                     ...|:.:...:|.|.:..:.|.::...:...|         .::|.....
+FLGI_PECAS       261 SRTGSVVMNRDVTLDSCAIAQGNLSVTINQQA---------NVSQPNTPF    301
+
+SECA2_MYCTO      374 DGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTGTALAAGEQ    423
+                     .|.|..|..:..|...:||.||..:...|.:|..                
+FLGI_PECAS       302 GGGQTVVTPQTEISVQQTGGVLQRVNSSANLNNV----------------    335
+
+SECA2_MYCTO      424 LRQFYQLGVSPI    435
+                     :|....||.:|:
+FLGI_PECAS       336 VRALNSLGATPM    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      62/316 (19.6%)
+# Similarity:   114/316 (36.1%)
+# Gaps:         105/316 (33.2%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      148 AGAIAAA-GYALA--GRHVH---VVTIND---------------YLARRD    176
+                     ||.:.:: .|||.  ...||   ::.:|:               :|.:..
+LDH_BORAP         12 AGGVGSSFAYALTIDNSLVHELVIIDVNEDKAKGEVMDLNHGQMFLKKNI     61
+
+SECA2_MYCTO      177 AEWMGPLLDAMGLTVGWITA--DSTPDERR-------TAYDRDVTYASVN    217
+                     ....|...|.:...:..|||  :..|.|.|       :...:|: ..:|.
+LDH_BORAP         62 NVLFGTYKDCVNADIVVITAGLNQKPGETRLDLVGKNSKIFKDI-ITNVV    110
+
+SECA2_MYCTO      218 EIGFDVLRDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPL--VLAGT    265
+                     ..|||.:         .:::.||    :|....|.:..:..|:  |:...
+LDH_BORAP        111 SSGFDGI---------FVIASNP----VDIMTYVTMKYSKFPIHKVIGTG    147
+
+SECA2_MYCTO      266 THRETPRLEIIRLVAELVGDKDADEYFATDSDN---RNVH---LTEHGAR    309
+                     |..:|.||                .||.:|..|   :|:|   :.|||..
+LDH_BORAP        148 TILDTSRL----------------RYFLSDRFNVNTQNIHSYVMGEHGDS    181
+
+SECA2_MYCTO      310 ------KVEKALGGIDLYSEEHVGTTLTEVNV-ALHAHVL--------LQ    344
+                           :.:.|:..:..|..|   ..:||:.: .:|..|:        |:
+LDH_BORAP        182 SFVTWDETKIAMKPLSEYLSE---GKITELELDEIHKKVVNAAYEVIKLK    228
+
+SECA2_MYCTO      345 RDVHYIVRDDAVHLINASRGR---IAQLQRWPDGLQA-----------AV    380
+                     ...:|.:.....:::||..|.   |..:..:.:|...           |:
+LDH_BORAP        229 GATYYAIGLGIKNIVNAIIGDQNIILPISSYINGQYGGLIKDIYIGAPAI    278
+
+SECA2_MYCTO      381 EAKEGIETTETGEVLD    396
+                     ..|||::     |||:
+LDH_BORAP        279 VCKEGVK-----EVLN    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 410
+# Identity:      71/410 (17.3%)
+# Similarity:   129/410 (31.5%)
+# Gaps:         162/410 (39.5%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      283 VGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTE    332
+                     :|.:.||:.||                              :|.|:.:|:
+EXGB_EMENI        89 LGQETADQAFA------------------------------DHWGSWITQ    108
+
+SECA2_MYCTO      333 ------VNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGL    376
+                           |...|:.   ::..|.|.:::|.|:         |..:.:|.| 
+EXGB_EMENI       109 DDINQMVQYGLNT---IRIPVGYWLKEDLVY---------ADSEHFPKG-    145
+
+SECA2_MYCTO      377 QAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTGTA-------LA    419
+                             ||...|                  .|||....|       |.
+EXGB_EMENI       146 --------GIGYLE------------------DVCGWASDAGMYIIIDLH    169
+
+SECA2_MYCTO      420 AGEQLRQFYQLGVSPIPPNKPNIREDEADRV-----YITTAAKNDGIVEH    464
+                     .....:|..|.......||....::.:.||.     ::||:         
+EXGB_EMENI       170 GAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLEWMTTS---------    210
+
+SECA2_MYCTO      465 ITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVI    514
+                        :||..:     .|:|...|.::|.:......:.::|:...:...|: 
+EXGB_EMENI       211 ---IHQNNK-----FRNVGMLEIVNEPVQNADQASSMINSYYPSAFTRI-    251
+
+SECA2_MYCTO      515 AEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVVGTGRHH    564
+                                      |.|:..||         :.....||:       
+EXGB_EMENI       252 -----------------RNTESSLG---------ITSNNYLHI-------    268
+
+SECA2_MYCTO      565 TERLDNQLRGRAGRQGDPGSSV---FFSSWE-------DDVVAANLDHNK    604
+                           |:.......|||..|:   :|::::       |..||.:.:...
+EXGB_EMENI       269 ------QMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYI    312
+
+SECA2_MYCTO      605 LPMATDENG----RIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIA    650
+                     .....|:.|    .||...:.|:.|:.:..|:   .:..:||..|.:..|
+EXGB_EMENI       313 SASCVDDRGGNWPTIVGEWSLSVPDNVEHTAD---WEPSSNTDFYARWFA    359
+
+SECA2_MYCTO      651 QQRAIIVERR    660
+                     .| ||..|::
+EXGB_EMENI       360 AQ-AIAYEKQ    368
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      47/230 (20.4%)
+# Similarity:    86/230 (37.4%)
+# Gaps:          70/230 (30.4%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      452 ITTAAKNDGIVEHITEVHQRGQPVLV----GTRDVAESEELHERLVR---    494
+                     |..|.|:..:|:....:.:||:.||.    |...||  |::.|.|:.   
+KTHY_CHLP8         8 IDGAGKSTQVVKLKRHLQERGREVLTLREPGGTPVA--EQIRELLLESHN     55
+
+SECA2_MYCTO      495 --RGVPAVVLNAKNDAE-EARVIAEAGKYGA---------VTVSTQMAGR    532
+                       ..:..::|.:.:.|| ..::|..|.:.|.         .|.:.|..||
+KTHY_CHLP8        56 DITSIAELLLFSASRAELMEKIIVPALEDGCDVILDRFFDSTTAYQGYGR    105
+
+SECA2_MYCTO      533 GTDIRLGGSDEADHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDP    582
+                     |.::          |.:||:                 |::.....|   |
+KTHY_CHLP8       106 GLNL----------DMLAEI-----------------NRIASHGIR---P    125
+
+SECA2_MYCTO      583 GSSVFFSSWEDDVVAANLDHNKLPMA--TDENGRIVSPRTGSLLDHAQRV    630
+                     ..:.:.....:|.:........||:|  ::|..|:    ..|.|:..|||
+KTHY_CHLP8       126 DITFYLDLTPEDALLRKFSEKSLPLAFESEELDRM----ENSGLEFYQRV    171
+
+SECA2_MYCTO      631 AEGRLLDVHANTWRYNQLI--AQQRAIIVE    658
+                     ..|           |:.::  ..||.|:::
+KTHY_CHLP8       172 RAG-----------YHAILEAEPQRIIMID    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 808
+# Identity:     808/808 (100.0%)
+# Similarity:   808/808 (100.0%)
+# Gaps:           0/808 ( 0.0%)
+# Score: 4135.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO        1 MNVHGCPRIAACRCTDTHPRGRPAFAYRWFVPKTTRAQPGRLSSRFWRLL     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO        1 MNVHGCPRIAACRCTDTHPRGRPAFAYRWFVPKTTRAQPGRLSSRFWRLL     50
+
+SECA2_MYCTO       51 GASTEKNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLDDLAESAD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO       51 GASTEKNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLDDLAESAD    100
+
+SECA2_MYCTO      101 IPQFLAIAREAAERRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAGA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      101 IPQFLAIAREAAERRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAGA    150
+
+SECA2_MYCTO      151 IAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTVGWITADSTP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      151 IAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTVGWITADSTP    200
+
+SECA2_MYCTO      201 DERRTAYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSPNPDVALIDEADS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      201 DERRTAYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSPNPDVALIDEADS    250
+
+SECA2_MYCTO      251 VLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKDADEYFATDSDNRN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      251 VLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKDADEYFATDSDNRN    300
+
+SECA2_MYCTO      301 VHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHAHVLLQRDVHYI    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      301 VHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHAHVLLQRDVHYI    350
+
+SECA2_MYCTO      351 VRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITV    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      351 VRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITV    400
+
+SECA2_MYCTO      401 QALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRV    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      401 QALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRV    450
+
+SECA2_MYCTO      451 YITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAV    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      451 YITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAV    500
+
+SECA2_MYCTO      501 VLNAKNDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVA    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      501 VLNAKNDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVA    550
+
+SECA2_MYCTO      551 ELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWEDDVVAANL    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      551 ELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWEDDVVAANL    600
+
+SECA2_MYCTO      601 DHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIA    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      601 DHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIA    650
+
+SECA2_MYCTO      651 QQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEERLETICRQI    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      651 QQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEERLETICRQI    700
+
+SECA2_MYCTO      701 MLYHLDRGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAA    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      701 MLYHLDRGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAA    750
+
+SECA2_MYCTO      751 DAIEAAQQTFETANVLDHEPGLDLSKLARPTSTWTYMVNDNPLSDDTLSA    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SECA2_MYCTO      751 DAIEAAQQTFETANVLDHEPGLDLSKLARPTSTWTYMVNDNPLSDDTLSA    800
+
+SECA2_MYCTO      801 LSLPGVFR    808
+                     ||||||||
+SECA2_MYCTO      801 LSLPGVFR    808
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       6/11 (54.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      320 LYSEEHVGTTL    330
+                     |.:|.|||..|
+DB108_HUMAN       40 LETEIHVGRCL     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      22/105 (21.0%)
+# Similarity:    42/105 (40.0%)
+# Gaps:          18/105 (17.1%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      400 VQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNK--------PN    441
+                     :..|::|:....|....:|.||...| |::|.....||:.        |:
+LCMT1_CRYNB      123 IDRLVDRFLQRGGKQVVSLGAGSDTR-FWRLMSRATPPDLARYVEIDFPH    171
+
+SECA2_MYCTO      442 IREDEADRVYITTAAKNDGIVEHI----TEVHQRGQPVLVGTRDVAESEE    487
+                     :...:|.|:     |::..:.:::    |.:...|.|..|.......|..
+LCMT1_CRYNB      172 LTSPKAQRI-----ARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSP    216
+
+SECA2_MYCTO      488 LHERL    492
+                     |:..|
+LCMT1_CRYNB      217 LYTLL    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      36/186 (19.4%)
+# Similarity:    64/186 (34.4%)
+# Gaps:          46/186 (24.7%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      350 IVRDD-----AVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTETGEV    394
+                     :|.||     .:.::....|.|..::..||.:.|.....:||....||..
+PTGA_SALTY        10 LVSDDKKDTGTIEIVAPLSGEIVNIEDVPDVVFAEKIVGDGIAIKPTGNK     59
+
+SECA2_MYCTO      395 LDTITVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIRE    444
+                     :              |..:.||.....|....|             :|..
+PTGA_SALTY        60 M--------------VAPVDGTIGKIFETNHAF-------------SIES     82
+
+SECA2_MYCTO      445 DEADRVYI-----TTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELH    489
+                     |....:::     |...|.:|    ...:.:.||.|.||...:.....|.
+PTGA_SALTY        83 DSGIELFVHFGIDTVELKGEG----FKRIAEEGQRVKVGDPVIEFDLPLL    128
+
+SECA2_MYCTO      490 ERLVRRGVPAVVLNAKNDAEEARVIAEAGKYGAVTV    525
+                     |...:..:..||::..::.:|...::     |:|||
+PTGA_SALTY       129 EEKAKSTLTPVVISNMDEIKELIKLS-----GSVTV    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    26/43 (60.5%)
+# Gaps:           7/43 (16.3%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      657 VERRNTLLRTVTAREELAELAPKRYEELSDKVS-EERLETICR    698
+                     :||:..|||. :.::|::|::     .|.||:. ..:|:::.|
+RR14_CRYJA        16 LERKYNLLRQ-SLKKEMSEVS-----SLDDKLDIYRKLQSLPR     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      54/268 (20.1%)
+# Similarity:    88/268 (32.8%)
+# Gaps:          67/268 (25.0%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       29 WFVPKTTRAQP------------------------GRLSSRFWRLLGAST     54
+                     |::.:..|:||                        .||....:.:..|..
+DCUP_BACVZ        26 WYMRQAGRSQPEYRKLKEKYGLVEITHQPELCAYVTRLPVEQYGVDAAIL     75
+
+SECA2_MYCTO       55 EKNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLDDLAESADIPQF    104
+                     .|:....|..:....|.......:.|:.:|.||.:..|.:|....|:|..
+DCUP_BACVZ        76 YKDIMTPLPYIGVDVEIKNGIGPVIDQPVRSAADIEKLGELNPEQDVPYV    125
+
+SECA2_MYCTO      105 LAIAREAAERRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAGAIAAA    154
+                     |...|.....:     .:|.|:|            .:|...|||..:...
+DCUP_BACVZ       126 LETIRLLVNEQ-----LNVPLIG------------FSGAPFTLASYMIEG    158
+
+SECA2_MYCTO      155 G----YALAGRHVHVV-----TINDYLARRDAEWMGPLLDAMGLTV----    191
+                     |    |......:|.:     .:.|.||.....:....::|....:    
+DCUP_BACVZ       159 GPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIVYAKAQINAGAKAIQIFD    208
+
+SECA2_MYCTO      192 GWITADSTPDER---RTAYD---RDVTYASVNEIGFDVLRDQLVTDVNDL    235
+                     .|:.|.:..|.|   :...|   |:::...|..|.|.|....|..|.:||
+DCUP_BACVZ       209 SWVGALNREDYRQFIKPVMDRIFRELSAEQVPLIMFGVGASHLAGDWHDL    258
+
+SECA2_MYCTO      236 VSPNPDVAL-----IDEA    248
+                       |...|.|     ||:|
+DCUP_BACVZ       259 --PLDVVGLDWRLGIDDA    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 389
+# Identity:      69/389 (17.7%)
+# Similarity:   126/389 (32.4%)
+# Gaps:         118/389 (30.3%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      351 VRDDAVHLINASRGRI-----AQLQRWPDGLQAAVEAKEGI-------ET    388
+                     |.:..|.::...|||.     ...|:  |.::..||.:|..       .|
+GTF2I_MOUSE       49 VYETDVFVVGTERGRAFVNTRKDFQK--DFVKYCVEEEEKAAEMHKMKST     96
+
+SECA2_MYCTO      389 TETGEV-LDTITVQAL---INRYATVCGMTGTALAAGEQLRQFYQLGVSP    434
+                     |:...: :|.:.::.|   :..|...|  .|.||....         |.|
+GTF2I_MOUSE       97 TQANRMSVDAVEIETLRKTVEDYFCFC--YGKALGKST---------VVP    135
+
+SECA2_MYCTO      435 IPPNKPNIREDEADRVYITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAE    484
+                     :|..| .:|:..|..|        .|:.|.:...|..... |...:.:.|
+GTF2I_MOUSE      136 VPYEK-MLRDQSAVVV--------QGLPEGVAFKHPEHYD-LATLKWILE    175
+
+SECA2_MYCTO      485 SEELHERLVRRGV--PAVVLNAKNDAEEAR--VIAEAGKYGAVTVSTQ-M    529
+                     ::.....:::|..  |...|..:..|.||.  :::.:|..|.:.|.|: .
+GTF2I_MOUSE      176 NKAGISFIIKRPFLEPKKHLGGRVLAAEAERSMLSPSGSCGPIKVKTEPT    225
+
+SECA2_MYCTO      530 AGRGTDIRLGG------SDEADH-----------DRVAELGGLHVVGTGR    562
+                     ...|..:.:..      |::.|:           |.|.|...|.....|.
+GTF2I_MOUSE      226 EDSGISLEMAAVTVKEESEDPDYYQYNIQGPSETDGVDEKLPLSKALQGS    275
+
+SECA2_MYCTO      563 HHTERLDNQLRGRAGRQGDPGSSVFFSSWEDDVVAANLDHNKLPMATDEN    612
+                     ||:.            :|:.|:.|        .|.|......:|..|.|:
+GTF2I_MOUSE      276 HHSS------------EGNEGTEV--------EVPAEDSTQHVPSETSED    305
+
+SECA2_MYCTO      613 GRI--------VSPRTGSL----------LDHAQRVAEGRLLDVHANTWR    644
+                     ..:        .||.|..|          :.......:.::.:.:...|.
+GTF2I_MOUSE      306 PEVEVTIEDDDYSPPTKRLKSTEPPPPPPVPEPANAGKRKVREFNFEKWN    355
+
+SECA2_MYCTO      645 YNQLIAQQRAIIVERRNTLLRTVTAREELAELAPKRYEE    683
+                                        .|....|:::.||..::|.:
+GTF2I_MOUSE      356 -------------------ARITDLRKQVEELFERKYAQ    375
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 290
+# Identity:      69/290 (23.8%)
+# Similarity:   106/290 (36.6%)
+# Gaps:          74/290 (25.5%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      351 VRDDAV---HLINASRGR----IAQLQRWPD---------GLQAAVE---    381
+                     ||.:.|   |::...|.|    :.:|...||         |:..||.   
+ISPH_ACIF5        35 VRHEVVHNRHVVEDLRARGAIFVEELDEVPDAATVIFSAHGVPIAVREHA     84
+
+SECA2_MYCTO      382 AKEGIETTETGEVLDTITVQALINRYA------TVCGMTGTALAAG----    421
+                     |..|:...:....|.| .|...:.:|:      .:.|..|.....|    
+ISPH_ACIF5        85 AARGLSVFDATCPLVT-KVHMEVKKYSRDGMEMVLIGHAGHPEVEGTMGQ    133
+
+SECA2_MYCTO      422 -EQLRQFYQLGVSPI---PPNKPNIREDEADRV-YIT-TAAKNDGIVEHI    465
+                      |:...:....||.:   .|..|       |:: ||| |....|...|.|
+ISPH_ACIF5       134 VEEGMMYLVSNVSDVATLAPRNP-------DKLAYITQTTLSMDDTAEVI    176
+
+SECA2_MYCTO      466 TEVHQRGQPVLVGTR--DVAESEELHERLVRRGVPAV----VLNAKNDAE    509
+                     ..:..| .|::.|.:  |:..:.:..:..|:...|.|    |:.|.|.:.
+ISPH_ACIF5       177 VALRSR-FPLIEGPKKDDICYATQNRQDAVKSLAPDVDILLVVGAPNSSN    225
+
+SECA2_MYCTO      510 EARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVVG    559
+                     .:| :||.|        |::   ||...|  .::|...|.....|:..:|
+ISPH_ACIF5       226 SSR-LAELG--------TRL---GTQTHL--IEDAQQLRREWFEGVGKIG    261
+
+SECA2_MYCTO      560 --TGRHHTERLDNQ----LRGRAGR--QGDPG--SSVFFS    589
+                       .|....|.|..:    |||...|  |..||  ..|.||
+ISPH_ACIF5       262 ISAGASAPESLVQEIMDTLRGWGARVPQEMPGVEEKVTFS    301
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       6/26 (23.1%)
+# Similarity:    12/26 (46.2%)
+# Gaps:           1/26 ( 3.8%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      297 DNRNVHLTEH-GARKVEKALGGIDLY    321
+                     :.|..|...| ...:.::.:.|:|.|
+NDUA1_HUMAN       35 EKRVAHFGYHWSLMERDRRISGVDRY     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      49/271 (18.1%)
+# Similarity:    82/271 (30.3%)
+# Gaps:          93/271 (34.3%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      202 ERRTAYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSP-----NPDVALID    246
+                     :|...|..|.|..:...:|..|: .|....::.:..|     :...|:.|
+PSRP_SALTI         6 DRHVFYISDGTAITAEVLGHAVM-SQFPVTISSITLPFVENESRARAVKD     54
+
+SECA2_MYCTO      247 EADSVLVDEALVPLVLAGTTHRETPRL---------EIIR-LVAELVGDK    286
+                     :.|::.....:.|||.......|...:         :|:: |||.|..:.
+PSRP_SALTI        55 QIDAIYQQTGVRPLVFYSIVLPEIRAIILQSEGFCQDIVQALVAPLQQEM    104
+
+SECA2_MYCTO      287 DADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVA    336
+                     ..|   .|...:|...|......|.:..:..|| |:..|           
+PSRP_SALTI       105 KLD---PTPIAHRTHGLNPGNLNKYDARIAAID-YTLAH-----------    139
+
+SECA2_MYCTO      337 LHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGI    386
+                                     ||.:.|.|..:.::..|               |:
+PSRP_SALTI       140 ----------------DDGISLRNLDQAQVILL---------------GV    158
+
+SECA2_MYCTO      387 ETTETGEVLDTITVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIP    436
+                     ..                      ||.|.|:|...      .|.|:.  .
+PSRP_SALTI       159 SR----------------------CGKTPTSLYLA------MQFGIR--A    178
+
+SECA2_MYCTO      437 PNKPNIREDEADRVYITTAAK    457
+                     .|.|.| .|:.|.:.:.|:.|
+PSRP_SALTI       179 ANYPFI-ADDMDNLTLPTSLK    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 668
+# Identity:     137/668 (20.5%)
+# Similarity:   207/668 (31.0%)
+# Gaps:         238/668 (35.6%)
+# Score: 98.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       29 WFVPKTTRAQPGRLSSRFWR--------LLGASTEKNRSRSLADVTASAE     70
+                     |.....|:..|.::|:...:        .||...||      |.:|..| 
+DNAK_CHESB       102 WVESHGTKYSPSQISAMILQKMKETAESYLGEKVEK------AVITVPA-    144
+
+SECA2_MYCTO       71 YDKEAADLSDEKLRKAAGLLNLDDLAESADIPQFLAIAREAAERRT----    116
+                     |..:|...:.:...|.|||..|..:.|..  ...||...:..|.:|    
+DNAK_CHESB       145 YFNDAQRQATKDAGKIAGLEVLRIINEPT--AAALAYGLDKKEGKTIAVY    192
+
+SECA2_MYCTO      117 --GLRPFDVQLLGALRMLAGD-VIEMATGEGKTLAGAIAAAGYALAGRHV    163
+                       |...||:.:|.     .|| |.|:.:..|.|..|          |...
+DNAK_CHESB       193 DLGGGTFDISILE-----IGDGVFEVKSTNGDTFLG----------GEDF    227
+
+SECA2_MYCTO      164 HVVTINDYLARRDAEWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTY    213
+                     .:..:| |||                           ||.:         
+DNAK_CHESB       228 DMRLVN-YLA---------------------------DEFK---------    240
+
+SECA2_MYCTO      214 ASVNEIGFDVLRDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLA    263
+                        .|.|.|:..|:|........:....:.|...:.:    |..:|.:.|
+DNAK_CHESB       241 ---KEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQT----EINLPFITA    283
+
+SECA2_MYCTO      264 GTTHRETPRLEIIR-----LVAELV---------GDKDA-------DEYF    292
+                     ..|..:...:::.|     ||.:||         ..|||       ||..
+DNAK_CHESB       284 DQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVV    333
+
+SECA2_MYCTO      293 ATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVALHAHV-    341
+                     ......|...:.|    .|:...|     .|.|.|....|| ||:.|.: 
+DNAK_CHESB       334 LVGGMTRMPKVQE----TVKNFFG-----KEPHKGVNPDEV-VAMGAAIQ    373
+
+SECA2_MYCTO      342 --LLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIET-    388
+                       :||.||..::..|..                  .|...:|...|:.| 
+DNAK_CHESB       374 AGVLQGDVKDVLLLDVT------------------PLSLGIETLGGVFTR    405
+
+SECA2_MYCTO      389 ---------TETGEVLDTITVQALINRYA-TVCGMTGTALAAGEQ--LRQ    426
+                              |:..:|..|    |..|:.| |:....|....|.:.  |.|
+DNAK_CHESB       406 LIDRNTTIPTKKSQVFST----AEDNQNAVTIRVFQGEREMAADNKLLGQ    451
+
+SECA2_MYCTO      427 FYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEHITEVHQRGQPVL    476
+                     |..:|:.|.|...|.|.        :|.....:|||.             
+DNAK_CHESB       452 FDLVGIPPAPRGMPQIE--------VTFDIDANGIVN-------------    480
+
+SECA2_MYCTO      477 VGTRDVAESEELHERLVRRGVPAVVLNAKNDAE------EARVIAEAGKY    520
+                     |..:|....:|...|:...|       ..:|||      :|...|||.|.
+DNAK_CHESB       481 VSAKDKGTGKEQQIRIQASG-------GLSDAEIEKMVKDAEANAEADKK    523
+
+SECA2_MYCTO      521 GAVTV-----------STQMAGRGTDIRLGGSD-EADHDRVAELGGLHVV    558
+                     ...||           ||:.:.:....::...| :|..:.:|||      
+DNAK_CHESB       524 RRETVEVKNQAEALIHSTEKSLKDYGDKVSEDDRKAIENAIAEL------    567
+
+SECA2_MYCTO      559 GTGRHHTERLD-------------------------NQLRGRAGRQGDPG    583
+                        :..||..|                         :|....||...:.|
+DNAK_CHESB       568 ---KTATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETG    614
+
+SECA2_MYCTO      584 SSVFFSSWEDDVVAANLD    601
+                     .:      :||||.|:.:
+DNAK_CHESB       615 GA------KDDVVDADFE    626
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 577
+# Identity:     125/577 (21.7%)
+# Similarity:   193/577 (33.4%)
+# Gaps:         180/577 (31.2%)
+# Score: 92.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       64 DVTASAEYDKEA-ADLSDEKLRKAAGLLNLDDLAESADIPQFLAIAREAA    112
+                     |||.:....:.. ..::|.||::|....|.:...|.  :..|.|..:...
+DNLJ_ACIC5       146 DVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEV--VMPFTAFEKLNE    193
+
+SECA2_MYCTO      113 ERRT-GLRPF---DVQLLGALRMLAGDVI-----------------EMAT    141
+                     ||.. ||.|.   .....|.:|.|..:::                 |.|.
+DNLJ_ACIC5       194 EREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAF    243
+
+SECA2_MYCTO      142 GEGKTLAGAIAAAGYALAGRHVH----VVTINDYLARRD--AEWMGPLLD    185
+                     ||.:....|:|..|:.: .:|.|    :.|:.:::.|.:  ...:|..:|
+DNLJ_ACIC5       244 GEQEEALDALATLGFRV-NQHRHAAKSIETVVEFVNRAEEHRSRLGYEID    292
+
+SECA2_MYCTO      186 AMGLTVGWITADSTPDERRTAYDR-----DVTY--------ASVNEIGFD    222
+                     .:.:.|     :|...:||..|..     .|.|        ..|.:|...
+DNLJ_ACIC5       293 GVVVKV-----NSAVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQ    337
+
+SECA2_MYCTO      223 VLRDQLVTDVNDLV-----SPNPDVALIDEADSV----------------    251
+                     |.|...:|.|..|.     ......|.:..||.:                
+DNLJ_ACIC5       338 VGRTGKLTPVAWLAPVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERG    387
+
+SECA2_MYCTO      252 ---------LVDEALVPLVLAGTTHRETPRL------EIIRLVAELVGDK    286
+                              :||:|..|   .||.|...|..      |::|...|.    
+DNLJ_ACIC5       388 GDVIPKVVEVVDDAEHP---RGTKHFHFPHACPACGSEVVRTPGEA----    430
+
+SECA2_MYCTO      287 DADEYFATDSD------NRNVHLTEHGARKVE--------KALG-GI---    318
+                        :|...::|      ...:|....|...:|        :.|| |:   
+DNLJ_ACIC5       431 ---DYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLGRGLVKT    477
+
+SECA2_MYCTO      319 --DLYSEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLI-NASRGR    365
+                       |:||       |||..:     |.|:|    :.:..|..|: ...:.|
+DNLJ_ACIC5       478 VSDIYS-------LTEEQL-----VSLER----MGKKSATALLGEIDKSR    511
+
+SECA2_MYCTO      366 IAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTG    415
+                     .|.|.|...||        ||..  .||    .|.|||...|.:   |..
+DNLJ_ACIC5       512 QAPLDRVLFGL--------GIRF--VGE----RTAQALAEEYGS---MDA    544
+
+SECA2_MYCTO      416 TALAAGEQLRQFYQLGVSPIPPNKPNIRE--DEADRVYITTAAKNDGIVE    463
+                     ...|:.|:|.:...:|    |.....|||  ||         .:|..:||
+DNLJ_ACIC5       545 LMQASREELERVNDVG----PRVSEAIREFFDE---------PRNRDLVE    581
+
+SECA2_MYCTO      464 HITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVV---LNAKNDAEE    510
+                     .:.|         .|.|...|..:...:|.  |:..|:   |...:..|.
+DNLJ_ACIC5       582 RLRE---------AGLRFTGEKRKKTSQLA--GLTFVLTGTLPGLSRDEA    620
+
+SECA2_MYCTO      511 ARVIAEAGKY--GAVTVSTQMAGRGTD    535
+                     ...|..||.:  |:|:..|.....|.|
+DNLJ_ACIC5       621 KGKIENAGGHVSGSVSKKTNYVVAGAD    647
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      37/160 (23.1%)
+# Similarity:    59/160 (36.9%)
+# Gaps:          49/160 (30.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO        9 IAACRCTDTHP------RGRPAFAYRWFVPKTTRAQPGRLSSRFWRLLGA     52
+                     :||.|.|..||      |.:|.:.:.....|..:...|....:  |||  
+CAPSD_CMVO        46 LAAGRPTINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGK--RLL--     91
+
+SECA2_MYCTO       53 STEKNRSRSLADVTASAEYDKEAADLSDEKLR-------KAAGLLNLDDL     95
+                              |.|  :..||||:.  :|..::|       .:...:.:..:
+CAPSD_CMVO        92 ---------LPD--SVTEYDKKL--VSRIQIRVNPLPKFDSTVWVTVRKV    128
+
+SECA2_MYCTO       96 AESADIPQFLAIAREAAERRTGLRP--------FDVQL-------LGALR    130
+                     ..|:|    |::|..:|....|..|        |.||.       |.|:|
+CAPSD_CMVO       129 PASSD----LSVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMR    174
+
+SECA2_MYCTO      131 MLAGDVIEMA    140
+                     ...||:.:.|
+CAPSD_CMVO       175 ADIGDMRKYA    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      25/121 (20.7%)
+# Similarity:    51/121 (42.1%)
+# Gaps:          32/121 (26.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      642 TWRYNQLI--AQQRAIIVERRNTLLRTVTARE-------ELAELAPK---    679
+                     |:|.|:.|  .:.|.:..:....:::|:.||.       :|.|:.|.   
+IF3_CHLL2         14 TYRVNEQIRVPEVRIVFQDGTQQVMKTIEARRMAEDRNLDLIEVQPNAEP     63
+
+SECA2_MYCTO      680 ---RYEELS---------DKVSEERLETICRQIMLYHLDRGWAD---HLA    714
+                        :.:.|.         ||..:::.:|...:.:.:|.:....|   ..|
+IF3_CHLL2         64 PVCKLDNLGKLLFKMDKRDKDLKKKQKTTTLKELRFHPNTDKHDFDFKTA    113
+
+SECA2_MYCTO      715 YLAD-IRESIHLRA----LGR    730
+                     :|.: :|:...:||    |||
+IF3_CHLL2        114 HLEEFLRKGNRVRATIVFLGR    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    16/32 (50.0%)
+# Gaps:           4/32 (12.5%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      465 ITEVHQRGQPVLVGTRDVAE----SEELHERL    492
+                     ||.:..||..|.:|.....|    .||:::|:
+CSRA_HAEI8        20 ITVLSVRGNQVKLGVEAPKEVSVHREEIYQRI     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      48/265 (18.1%)
+# Similarity:    97/265 (36.6%)
+# Gaps:          85/265 (32.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      545 DHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWEDD    594
+                     |:.|.|:..|:.|:....|                    :::.||..|..
+COAX_CLOBL        31 DNKRTADEYGIQVIELFSH--------------------NNLSFSDIEGV     60
+
+SECA2_MYCTO      595 VVAA-------NLDH------NKLPMATDENGRIVSP--RTGSLL--DHA    627
+                     ::::       :|:|      |..|:       ||.|  :||..:  |:.
+COAX_CLOBL        61 IISSVVPNIMYSLEHMISKYFNIKPI-------IVGPGVKTGINIKYDNP    103
+
+SECA2_MYCTO      628 QRVAEGRLLDVHANTWRYNQLI-------AQQRAIIVERRNTLLRTVTAR    670
+                     :.|...|:::..|....|.:.:       |.....:.:..|.|..|:...
+COAX_CLOBL       104 KEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPG    153
+
+SECA2_MYCTO      671 EELAELAPKRYEELSDKVSE-ERLE------TICRQI-------MLYHLD    706
+                     .:::.      :.|.||.:: .|:|      .||:..       ::|   
+COAX_CLOBL       154 IKISS------DALFDKAAKLPRVELVKTPGVICKNTVASIQSGIIY---    194
+
+SECA2_MYCTO      707 RGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAADAIEAA    756
+                      |:|..:.|:.. :....:..||.:.|.    .:|...||.|.::..::.
+COAX_CLOBL       195 -GYAGQVDYIVS-KMKKEMMDLGEEEPF----VVATGGFAKLISEESKSI    238
+
+SECA2_MYCTO      757 QQ-----TFETANVL    766
+                     .:     |.|...|:
+COAX_CLOBL       239 DEINAILTLEGLRVI    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      17/62 (27.4%)
+# Similarity:    23/62 (37.1%)
+# Gaps:          13/62 (21.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      592 EDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLDVHAN    641
+                     ||.|.....:.||:....|       |.|..|:     .||..|.:....
+HOP_BOVIN         11 EDQVEILEYNFNKVNKHPD-------PTTLCLI-----AAEAGLSEEETQ     48
+
+SECA2_MYCTO      642 TWRYNQLIAQQR    653
+                     .| :.|.:||.|
+HOP_BOVIN         49 KW-FKQRLAQWR     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:      51/261 (19.5%)
+# Similarity:    87/261 (33.3%)
+# Gaps:          92/261 (35.2%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      295 DSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLT---EVNVALHAHV    341
+                     ::|..|..:..|      |.|||..|.::|.:.:.::   :..|:.:.|:
+THII_VIBA3       155 ENDKLNQVIERH------KGLGGFPLGTQEDLLSLISGGFDSGVSSYLHI    198
+
+SECA2_MYCTO      342 LLQRDVHY-----------IVRDDAVHLINASRGRIAQ------------    368
+                     .....|||           |......|.:....|..|:            
+THII_VIBA3       199 KRGSKVHYCFFNLGGPAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVV    248
+
+SECA2_MYCTO      369 ---LQRWPDGLQAAVEAKE-------------GIETTETGEVLDTITVQA    402
+                        |:...|| |..|..|.             |||...|||.|..::.|.
+THII_VIBA3       249 AEILENVEDG-QMGVVLKRMFMRAGGMVAERFGIEALVTGEALGQVSSQT    297
+
+SECA2_MYCTO      403 LIN-RYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVY    451
+                     |.| |:  :..:|.|.:.                   :|.|..|:.|   
+THII_VIBA3       298 LTNLRH--IDNVTDTLIL-------------------RPLINWDKED---    323
+
+SECA2_MYCTO      452 ITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVV    501
+                                  |.::.::     :||.|.|:....:..::.:......
+THII_VIBA3       324 -------------IIDLSRK-----IGTEDFAKVMPEYCGVISKKPTVKA    355
+
+SECA2_MYCTO      502 LNAKNDAEEAR    512
+                     ...|.:||||:
+THII_VIBA3       356 KKGKLEAEEAK    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      26/115 (22.6%)
+# Similarity:    41/115 (35.7%)
+# Gaps:          28/115 (24.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      136 VIEMATGEGKTLAGAIAAAGYALAGRH-----VHVVTINDYLARRDAEWM    180
+                     |::.|   |:||..........|.|:|     .||.| .||:...:||.:
+RL13_PSEPG        17 VVDAA---GQTLGRLATEIATRLRGKHKPEYTPHVDT-GDYIVVINAEQV     62
+
+SECA2_MYCTO      181 GPLLDAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVL-----R    225
+                     .            :|...:.|  :..|........:.||.|:.|     .
+RL13_PSEPG        63 R------------VTGAKSSD--KMYYSHSGFPGGIKEINFEKLIAKAPE     98
+
+SECA2_MYCTO      226 DQLVTDVNDLVSPNP    240
+                     ..:.|.|..::..||
+RL13_PSEPG        99 RVIETAVKGMLPKNP    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      46/230 (20.0%)
+# Similarity:    74/230 (32.2%)
+# Gaps:         100/230 (43.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       42 LSSRFWRL-----------LGASTEKNRSRSLADVTASAEYDKEAADLSD     80
+                     ::.|:|.:           .|..|.|...|....::|.            
+RR2_ARATH          1 MTKRYWNIDLEEMMRAGVHFGHGTRKWNPRMAPYISAK------------     38
+
+SECA2_MYCTO       81 EKLRKAAGLLNLDD----LAESADIPQFLAIAREAAERRTGLRPFDVQLL    126
+                        ||...::||..    |:|:.|      :..:||.|.   :.|   |:
+RR2_ARATH         39 ---RKGIHIINLTRTARFLSEACD------LVFDAASRG---KQF---LI     73
+
+SECA2_MYCTO      127 GALRMLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRD    176
+                     ...:..|.|::..|         ||.|        ..|.|         :
+RR2_ARATH         74 VGTKNKAADLVSRA---------AIRA--------RCHYV---------N     97
+
+SECA2_MYCTO      177 AEWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFD----    222
+                     .:|:|      |:...|.|.     |:|....||:......| ||:    
+RR2_ARATH         98 KKWLG------GMLTNWSTT-----EKRLHKFRDLRTEQKTE-GFNRLPK    135
+
+SECA2_MYCTO      223 ----VLRDQL------------VTDVNDLV    236
+                         ||:.||            :|.:.|:|
+RR2_ARATH        136 RDAAVLKRQLSRLETYLGGIKYMTGLPDIV    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 490
+# Identity:     101/490 (20.6%)
+# Similarity:   144/490 (29.4%)
+# Gaps:         199/490 (40.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       56 KNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLD------------     93
+                     ||:...|.   .:||||..|..:..:..|.....::|.            
+Y1710_SYNP2       33 KNQLNRLG---IAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDHDHSQ     79
+
+SECA2_MYCTO       94 --------DLAESADIPQFLAIAR-----EAAERRTGLRPFDVQLLGALR    130
+                             |.|....:|:..|:.:     |..||.:         |...:
+Y1710_SYNP2       80 DQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWS---------LAIFQ    120
+
+SECA2_MYCTO      131 MLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWM    180
+                     .||   |..||..|.|....           |.|.|...|          
+Y1710_SYNP2      121 NLA---IAEATVHGTTPEQV-----------HFHEVGATD----------    146
+
+SECA2_MYCTO      181 GPLLDAMGLTVG--WITADS-----------------------TPDERRT    205
+                      .|:|.:|..:|  |:..|.                       .|...:.
+Y1710_SYNP2      147 -ALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQL    195
+
+SECA2_MYCTO      206 AYDRDVTYASVNEIGFDVLRDQLVTD---------VNDLVSPNPDVALID    246
+                     ...|.|...|      :.:..:|||.         ..|...| |.:.|..
+Y1710_SYNP2      196 WQQRQVPVYS------NGIEKELVTPTGAAIATTLATDFCQP-PAMTLAK    238
+
+SECA2_MYCTO      247 EA-DSVLVDEALVPLVLAGTTHR-ETPRLEIIRLVAELVGDKDADEYFAT    294
+                     .| .|..:|..|..|:.....|: |||.||.|..:             .|
+Y1710_SYNP2      239 IALGSGTIDLPLPNLLRLWIGHQPETPHLETIVTL-------------ET    275
+
+SECA2_MYCTO      295 DSDNRNVHLTEHGARKVEKALGGIDLYSE------EHVGTTLTEV-NVAL    337
+                     ..|:.|.....:...|:: |.|.:|::::      ..:||.||.: .|||
+Y1710_SYNP2      276 QIDDLNPQAIAYACEKLQ-AAGALDVFTQGITMKKNRLGTLLTVICPVAL    324
+
+SECA2_MYCTO      338 HAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIE    387
+                                                               ||..|.|.
+Y1710_SYNP2      325 ------------------------------------------VEICEEIL    332
+
+SECA2_MYCTO      388 TTET---GEVLDTITVQALINRYATVCGMTGTALAAGE-QLRQFYQLGVS    433
+                     .|||   |....|.|...|..|:.||      |..||| ||:..|:    
+Y1710_SYNP2      333 FTETSTLGIRRHTQTRSILQRRFETV------ATPAGEIQLKIGYR----    372
+
+SECA2_MYCTO      434 PIPPNKPNIREDEADRVYITTAAKNDGIVEHITEVHQRGQ    473
+                                  .|::|.......|  |:.|.:  |.||
+Y1710_SYNP2      373 -------------GDKIYNVQPEYED--VKAIAQ--QTGQ    395
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 326
+# Identity:      65/326 (19.9%)
+# Similarity:   120/326 (36.8%)
+# Gaps:          85/326 (26.1%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      231 DVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEI---IR    277
+                     |:.||......:|.|.:..::..:.::...:..|...|:.|:.||   :|
+WTPC_THEKO        64 DITDLPPEKRGLAYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVR    113
+
+SECA2_MYCTO      278 LVAELVGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVG    327
+                     .::|::|                   ..|..::..|.|.|.::.      
+WTPC_THEKO       114 ELSEVLG-------------------ISHLLKRKPKTLSGGEMQ------    138
+
+SECA2_MYCTO      328 TTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGR-IAQLQRWPDGL    376
+                           .||: |..|.......::.:...:|...:||| |.:::||...|
+WTPC_THEKO       139 ------RVAI-ARALAVEPELLLLDEPFANLDVQTRGRLINEMKRWRKEL    181
+
+SECA2_MYCTO      377 -----------QAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTG    415
+                                :.||...:.:.....|.::....|:.:.:|         
+WTPC_THEKO       182 GFTALHVTHSFEEAVSLGDRVGVMLNGRLVQVGPVREVFSR---------    222
+
+SECA2_MYCTO      416 TALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEHI    465
+                        .|.|::.:|  ||..       ||.|..|:...:..   |..::|..
+WTPC_THEKO       223 ---PASEEVAKF--LGFE-------NIVEGLAEGRILRA---NGLVIELP    257
+
+SECA2_MYCTO      466 TEVHQRGQPVLVGTR--DVAESEELHERLVRRGVPAVVLNAKNDAEE---    510
+                     .|...|   :.||.|  |:..|:|..:..:|....|.|   :.|.||   
+WTPC_THEKO       258 IEASGR---IRVGIRPEDIVLSDEPLKSSMRNTFQAEV---QADVEELGE    301
+
+SECA2_MYCTO      511 --ARVIAEAGKY-GAVTVSTQMAGRG    533
+                       .|.....|:: ||.::...:.|.|
+WTPC_THEKO       302 LGPRTRKAKGRWSGAFSIRYPLFGAG    327
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      15/45 (33.3%)
+# Similarity:    25/45 (55.6%)
+# Gaps:           4/45 ( 8.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      691 ERLETICRQIMLYHLDRGWAD---HLAYLADIRES-IHLRALGRQ    731
+                     :|.....|:..||:..:|.:.   ||.|:|||.|| :::...||:
+GRB7_RAT         250 KRFFCFLRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQGRK    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:      56/308 (18.2%)
+# Similarity:    92/308 (29.9%)
+# Gaps:         120/308 (39.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      143 EGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTVG    192
+                     ||....||.|.|...|            :|......|:|.:     ||: 
+PSD_RHOPS         17 EGYPFIGAFALATLVL------------FLIWAPLGWIGTV-----LTI-     48
+
+SECA2_MYCTO      193 WITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDVNDLVSPNPDV    242
+                     |.          ..:.||       .:....:|:.||            |
+PSD_RHOPS         49 WC----------ALFFRD-------PVRVTPVREGLV------------V     69
+
+SECA2_MYCTO      243 ALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKDADEYF    292
+                     |..|...|::|.  ::|....|...:..||:.|...|.            
+PSD_RHOPS         70 APADGRVSMVVQ--MIPPPALGLGDKPLPRVSIFMSVF------------    105
+
+SECA2_MYCTO      293 ATDSDNRNVHLTEHG-ARKVEKAL--------GGIDLYSEEH------VG    327
+                            |.|:.... |.:||:.:        ..:|..||::      :.
+PSD_RHOPS        106 -------NCHVNRSPVAGRVERIIYSPGKFINAELDKASEDNERNSMVIS    148
+
+SECA2_MYCTO      328 TTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQ    377
+                     |...::.|...|.::.:|.|.::                           
+PSD_RHOPS        149 TPAGQIGVVQIAGLVARRIVSFV---------------------------    171
+
+SECA2_MYCTO      378 AAVEAKEGIETTETGEVLDTITVQALINRY----ATVCGMTGTALAAGEQ    423
+                          :|| :|...||....|...:.::.|    |......|....|||.
+PSD_RHOPS        172 -----REG-QTLAPGERFGLIRFGSRLDVYLPEGAKPLVSEGQTAIAGET    215
+
+SECA2_MYCTO      424 LRQFYQLG    431
+                     :...:.||
+PSD_RHOPS        216 VLADFNLG    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 359
+# Identity:      68/359 (18.9%)
+# Similarity:   119/359 (33.1%)
+# Gaps:         137/359 (38.2%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      166 VTINDYLARRDAEWMGPLLDAMGLTVGWITA-DSTPDERRTAYDRDVTY-    213
+                     |.:|.|...      |.|.||:|:....::. ...||        :||| 
+PP156_ARATH      209 VLVNGYCLE------GKLEDALGMLERMVSEFKVNPD--------NVTYN    244
+
+SECA2_MYCTO      214 ------------ASVNEIGFDVLRDQLVTD---VNDLVSPNPDVALIDEA    248
+                                 :.:.|:..|:.::.||.:   .|:||.....:..:.||
+PP156_ARATH      245 TILKAMSKKGRLSDLKELLLDMKKNGLVPNRVTYNNLVYGYCKLGSLKEA    294
+
+SECA2_MYCTO      249 ---------DSVLVDEALVPLVLAGTTHRETPR--LEIIRLVAELVGDKD    287
+                              .:||.|.....:::.|..:..:.|  ||::..:..|....|
+PP156_ARATH      295 FQIVELMKQTNVLPDLCTYNILINGLCNAGSMREGLELMDAMKSLKLQPD    344
+
+SECA2_MYCTO      288 ADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLT----EV    333
+                     ...|                                    .||.    |:
+PP156_ARATH      345 VVTY------------------------------------NTLIDGCFEL    358
+
+SECA2_MYCTO      334 NVALHAHVLLQRDVHYIVRDDAV------HLINASRGRIAQLQRWPDGLQ    377
+                     .::|.|..|:::     :.:|.|      |.|:.         :|     
+PP156_ARATH      359 GLSLEARKLMEQ-----MENDGVKANQVTHNISL---------KW-----    389
+
+SECA2_MYCTO      378 AAVEAKEGIETTETGEVL-------DTITVQALINRYATVCGMTGTALAA    420
+                     ...|.|....|.:..|::       |.:|...||..|..|..::|    |
+PP156_ARATH      390 LCKEEKREAVTRKVKELVDMHGFSPDIVTYHTLIKAYLKVGDLSG----A    435
+
+SECA2_MYCTO      421 GEQLRQFYQLGVSPIPPNKPN-----------IREDEADRVY--ITTAAK    457
+                     .|.:|:..|.|:      |.|           .:|.:.|..:  :.:|.|
+PP156_ARATH      436 LEMMREMGQKGI------KMNTITLNTILDALCKERKLDEAHNLLNSAHK    479
+
+SECA2_MYCTO      458 NDGIVEHIT    466
+                     ...||:.:|
+PP156_ARATH      480 RGFIVDEVT    488
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      14/45 (31.1%)
+# Similarity:    21/45 (46.7%)
+# Gaps:           6/45 (13.3%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      392 GEVLDTITVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIP    436
+                     |.|| .||..|...|..||.....|:||..:.:     :|::.:|
+ADRB2_MESAU       50 GNVL-VITAIAKFERLQTVTNYFITSLACADLV-----MGLAVVP     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      569 DNQLRGRAGRQGDP    582
+                     |:..|..|.::|||
+ID5B_ADEPA        12 DDNNRRLAVKEGDP     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      32/134 (23.9%)
+# Similarity:    52/134 (38.8%)
+# Gaps:          31/134 (23.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      690 EERLETICRQIMLYHLDRGWADHLAYLADIRES--IH-----LRALGRQN    732
+                     |....||.:|:.:.|.|......|..:..:..|  ||     |||:    
+GPA7_CAEEL        43 ESGKSTILKQMRILHKDGFSQQDLEMIRPVVYSNCIHSMLSILRAM----     88
+
+SECA2_MYCTO      733 PLDEFH-----------RMAVDAFASLAADAIEAAQQTFETANVLDHEPG    771
+                         ||           |.:...||::.|:..|..::.......|.|:||
+GPA7_CAEEL        89 ----FHLQIEYGEPDRVRDSQLVFATVHANKEELTEELAAAMQRLWHDPG    134
+
+SECA2_MYCTO      772 LDLSKLARPTSTWTYMVNDN-PLSDDTLSALSLP    804
+                       :.:..|.::  .|.::|: ....|.|..||.|
+GPA7_CAEEL       135 --VRECYRRSN--EYQIDDSAKYFLDNLPRLSSP    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      45/206 (21.8%)
+# Similarity:    73/206 (35.4%)
+# Gaps:          65/206 (31.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      620 TGSLLDHAQRVAEGRLLDVHANTWRYN---QLIAQQRAIIVER-RNTLLR    665
+                     ||:|..:|...|:.| |.:..::|.:|   ||:..:||:..:. ......
+IDI_ECO24         16 TGTLEKYAAHTADTR-LHLAFSSWLFNAKGQLLVTRRALSKKAWPGVWTN     64
+
+SECA2_MYCTO      666 TVTAREELAELAPKRYEELSDKVSEERLETICRQIMLYHLDRGWADHLAY    715
+                     :|....:|.|            .:|:.:...||    |.|.         
+IDI_ECO24         65 SVCGHPQLGE------------SNEDAVIRRCR----YELG---------     89
+
+SECA2_MYCTO      716 LADIR--ESIHLRALGRQNPLDEFHRMAVD-----------AFASLAADA    752
+                      .:|.  |||:          .:|...|.|           .||:....|
+IDI_ECO24         90 -VEITPPESIY----------PDFRYRATDPNGIVENEVCPVFAARTTSA    128
+
+SECA2_MYCTO      753 IEAAQ------QTFETANVLDHEPGLDLSKLARPTSTWTYMVNDNPLSDD    796
+                     ::...      |..:.|:||.   |:|.:..|  .|.|..|...|..:..
+IDI_ECO24        129 LQINDDEVMDYQWCDLADVLH---GIDATPWA--FSPWMVMQAANSEARK    173
+
+SECA2_MYCTO      797 TLSALS    802
+                     .|||.:
+IDI_ECO24        174 LLSAFA    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 357
+# Identity:      80/357 (22.4%)
+# Similarity:   131/357 (36.7%)
+# Gaps:          93/357 (26.1%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      150 AIAAAGYA-----LAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTVGWI    194
+                     ||..||.|     |:|    .|..:|....:.|:.....:......:|::
+YHJA_ECOLI         9 AIGLAGVAICYLGLSG----YVWYHDNKRSKQADVQASAVSENNKVLGFL     54
+
+SECA2_MYCTO      195 TADS-----TPDERRTAY----------DRDVT--YASVNEIGFDVLRDQ    227
+                     ....     ||.....||          |.|:.  |.|.|   .:.:|..
+YHJA_ECOLI        55 REKGCDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFN---LEAVRAA    101
+
+SECA2_MYCTO      228 LVTDVNDLVSPNPDVALIDEADSVLVDEALVP-----LVLAGTTHRETPR    272
+                     |:.|  ..||.:.    :::.:.|:..|.:.|     |..||....| .|
+YHJA_ECOLI       102 LLAD--KPVSQSD----LNKIEWVMQYETMPPTRYTALHWAGKVSDE-ER    144
+
+SECA2_MYCTO      273 LEIIRLVAELVGDKDADEYFATDSDNRNVHLTE----------HGARKVE    312
+                     .||:..:|     |...||:|: :|....|..|          ..|:|| 
+YHJA_ECOLI       145 AEILAWIA-----KQRAEYYAS-NDTAPEHRNEPVQPIPQKLPTDAQKV-    187
+
+SECA2_MYCTO      313 KALGGIDLYSEEHVGTTLTEVNVALHAHVLLQRDVH----YIVRDDAVHL    358
+                      || |..||.:..:....| ::.| |.|.|....|.    .|....||..
+YHJA_ECOLI       188 -AL-GFALYHDPRLSADST-ISCA-HCHALNAGGVDGRKTSIGVGGAVGP    233
+
+SECA2_MYCTO      359 INASR--GRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQA----    402
+                     |||..  ..:..::::.||..|.::.:.|      |..|:.|.:.:    
+YHJA_ECOLI       234 INAPTVFNSVFNVEQFWDGRAATLQDQAG------GPPLNPIEMASKSWD    277
+
+SECA2_MYCTO      403 -----------LINRYATVC--GMTGTALAAGEQLRQFYQLGVSPIPPNK    439
+                                |..::..|.  |.:|..:.  :.:.:|.:..::|..|..
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVYPQGFSGENIT--DAIAEFEKTLITPDSPFD    325
+
+SECA2_MYCTO      440 PNIREDE    446
+                     ..:|.||
+YHJA_ECOLI       326 KWLRGDE    332
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    21/48 (43.8%)
+# Gaps:          11/48 (22.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      742 VDAFASLAADAIEAAQQTFE---TANVLDHE------PGLD--LSKLA    778
+                     :|..|.:..|..|...:..:   |...:|:|      ||||  |.|||
+RIMP_BURPS        33 IDQPAGITIDDCEKVTRQLQHVLTVENIDYERLEVSSPGLDRPLKKLA     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      13/49 (26.5%)
+# Similarity:    24/49 (49.0%)
+# Gaps:           9/49 (18.4%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      324 EHVGTT-----LTEVNVAL---HAHVLLQRDVHYIVRD-DAVHLINASR    363
+                     :::|.|     .|:|.|..   :.:..:.|:|...||: |.:.|:.|.|
+RS28_OSTOS        12 KNIGRTGSQGQCTQVRVEFMDDNGNRTINRNVKGPVREGDILTLLEAER     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      18/83 (21.7%)
+# Similarity:    40/83 (48.2%)
+# Gaps:          17/83 (20.5%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      582 PGSSVFFSSWEDDVVAANL-DHNKLPMATDENGRIVSPRTGSL--LDHAQ    628
+                     |.:..:|.:::....:|:| :|.|         ::::..|.::  |||.:
+HBAC_LITCT        38 PQTKTYFPNFDFHANSAHLKNHGK---------KVMNALTDAVKHLDHPE     78
+
+SECA2_MYCTO      629 RVAEGRLLDVHANTWRYN----QLIAQQRAIIV    657
+                      .:...|.|:||.|.|.:    .|::....::|
+HBAC_LITCT        79 -ASLSSLSDLHAFTLRVDPGNFALLSNNILVVV    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 914
+# Identity:     163/914 (17.8%)
+# Similarity:   273/914 (29.9%)
+# Gaps:         352/914 (38.5%)
+# Score: 83.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO        7 PRIAACRCTDTHPRGRPAFAYRWFVPKTTRAQPGRLSSRFWRLLGASTEK     56
+                     |.::...|   .|.|.||.    |.|                   |..|:
+RPOA_PRRSS       641 PSVSLDEC---FPAGVPAD----FEP-------------------AFQER    664
+
+SECA2_MYCTO       57 NRSRSLADVTASAE---YDKEAADLSDEKLRKAAGLLNLDDLAESADIPQ    103
+                     .||...|....|.:   ::..|::.:.|...||   ::...|||..:..|
+RPOA_PRRSS       665 PRSPGAAVALCSPDAKGFEGTASEEAQESGHKA---VHAVPLAEGPNNEQ    711
+
+SECA2_MYCTO      104 FLAIAREAAERRTGLRPFDVQLLGALRMLAG-------------------    134
+                     ...:|.|..|            ||...:..|                   
+RPOA_PRRSS       712 VQVVAGEQLE------------LGGCGLAIGSAQSSSDSKRENMHNSRED    749
+
+SECA2_MYCTO      135 ---DVIEMATGEGKTLAG--------------AIAAAGYALAG---RHVH    164
+                        |:...|.....||.|              .||..|:...|   |||.
+RPOA_PRRSS       750 EPLDLSHPAPAATTTLVGEQTPDNPGSDASALPIAVRGFVPTGPILRHVE    799
+
+SECA2_MYCTO      165 -----------------VVTINDYLARRDAEWMGPLLDAMGLTVGWITAD    197
+                                      ..|::..|....|.|.   :.|.....||:...
+RPOA_PRRSS       800 HCGTESGDSSSPLDLSFAQTLDQPLDLSLAAWP---VKATASDPGWVRGR    846
+
+SECA2_MYCTO      198 STP---DERRTAYDRD--VTYASVNE----IGFDVLRDQLVTDVN-DLVS    237
+                     ..|   ..|:...|.|  :.:..::|    |.||..:|.||.|.. ||.:
+RPOA_PRRSS       847 CEPVFLKPRKAFSDGDSALQFGELSESSSVIEFDQTKDTLVADAPVDLTT    896
+
+SECA2_MYCTO      238 PNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDKD    287
+                     .|..::.:|.::.|               ....||               
+RPOA_PRRSS       897 SNEALSAVDPSEFV---------------ELRRPR---------------    916
+
+SECA2_MYCTO      288 ADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTEVNVAL    337
+                                       |.|:.:      ||.      |..|.:|    
+RPOA_PRRSS       917 ------------------HSAQAL------IDR------GGPLADV----    932
+
+SECA2_MYCTO      338 HAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIE    387
+                       |..::..|:    :..:.............:.|.|.:...|:.|....
+RPOA_PRRSS       933 --HAKIKNRVY----EQCLQACEPGSRATPATREWLDKMWDRVDMKTWRC    976
+
+SECA2_MYCTO      388 TT--ETGEVL------------------------DTITVQALINRYATVC    411
+                     |:  :.|.:|                        |...::.|:.|:....
+RPOA_PRRSS       977 TSQFQAGRILASLKFLPDMIQDTPPPVPRKNRASDNAGLKQLVARWDKKL   1026
+
+SECA2_MYCTO      412 GMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGI    461
+                     .:|....:||..|.|       .:||.....:||         |..:||:
+RPOA_PRRSS      1027 SVTPPPKSAGLVLDQ-------TVPPPTDIQQED---------ATPSDGL   1060
+
+SECA2_MYCTO      462 VEHITEVHQRGQP-------VLVGTRDVAESEELHERL------VRRGVP    498
+                      .|.::...|...       :|.|||....:   .:||      |...:|
+RPOA_PRRSS      1061 -SHASDFSSRVSTSWSWKGLMLSGTRLAGSA---GQRLMTWVFEVYSHLP   1106
+
+SECA2_MYCTO      499 AVVLNAKNDAEEARVIAEAGK-------YGAVTVSTQMAGRGTDIRLGGS    541
+                     |.:|.         :.:..|.       :..|.:...:..|...|     
+RPOA_PRRSS      1107 AFILT---------LFSPRGSMAPGDWLFAGVVLLALLLCRSYPI-----   1142
+
+SECA2_MYCTO      542 DEADHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGS----SVF    587
+                               ||.|.::|.......|:         |.|..||    :||
+RPOA_PRRSS      1143 ----------LGCLPLLGVFSGSLRRV---------RLGVFGSWMAFAVF   1173
+
+SECA2_MYCTO      588 FSSWEDDVVAANLDHNKLP------MATDE-------NGRIVSPRTGSLL    624
+                     ..|...:.|.::.||:. |      :|.::       .|.:|.| :|.|.
+RPOA_PRRSS      1174 LFSTPSNPVGSSCDHDS-PECHAELLALEQRQLWEPVRGLVVGP-SGLLC   1221
+
+SECA2_MYCTO      625 DHAQRVAEGRLLDVHANTWRYNQLIAQQRAIIVERRNTLLRTVT------    668
+                          |..|:||....:.|.    :..:..::.:...:|:..|:      
+RPOA_PRRSS      1222 -----VILGKLLGGSRHLWH----VILRLCMLTDLALSLVYVVSQGRCHK   1262
+
+SECA2_MYCTO      669 -----AREELAELAPKRYEELSDKVSEERLETICRQIML------YHLDR    707
+                          .|...||:|...:.  ..:.:...|.::|.:...      .||..
+RPOA_PRRSS      1263 CWGKCIRTAPAEVALNVFP--FSRATRNSLTSLCDRFQTPKGVDPVHLAT   1310
+
+SECA2_MYCTO      708 GWADHLAYLADIRESIHLRALGR-QNPLDEFHRMAVDAFASLAADAIEAA    756
+                     ||                |...| ::|:.:.|:..: |:|:|....|.| 
+RPOA_PRRSS      1311 GW----------------RGCWRGESPIHQPHQKPI-AYANLDEKKISA-   1342
+
+SECA2_MYCTO      757 QQTFETANVLDHEP    770
+                         :|...:.::|
+RPOA_PRRSS      1343 ----QTVVAVPYDP   1352
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      47/202 (23.3%)
+# Similarity:    70/202 (34.7%)
+# Gaps:          64/202 (31.7%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       40 GRLSSRFWRLLGASTEKNRSRSLADVTAS---AEYDKEAADLSDEKLRKA     86
+                     |.|:.:|.||:|.:.|.    .|||:.||   ...||    |.|:.:...
+UBIE_PSEAE        80 GDLTRQFSRLVGPTGEV----VLADINASMLKVGRDK----LLDKGVSGN    121
+
+SECA2_MYCTO       87 AGLLNLDDLAESADIP----QFLAIAREAAERRTGLRPF---DVQLLGAL    129
+                     ...:..|  ||....|    ..:.||       .|||..   |..:...|
+UBIE_PSEAE       122 VSFVQAD--AEKLPFPDNHFDCVTIA-------FGLRNVTHKDEAIRSML    162
+
+SECA2_MYCTO      130 RMLAGD----VIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARR    175
+                     |:|...    |:|.:......|:.|..|..::|.                
+UBIE_PSEAE       163 RVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLL----------------    196
+
+SECA2_MYCTO      176 DAEWMGPLLDAMGLTVGWITADS-----TPDERRTAYDRDVTYASVNEIG    220
+                           ||:..:      :|.||     ..:..|...|::...|.:.|.|
+UBIE_PSEAE       197 ------PLMGKL------VTNDSESYRYLAESIRMHPDQETLKAMMVEAG    234
+
+SECA2_MYCTO      221 FD    222
+                     ||
+UBIE_PSEAE       235 FD    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      42/176 (23.9%)
+# Similarity:    67/176 (38.1%)
+# Gaps:          50/176 (28.4%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      375 GLQAAVEAKEGIETTETG--------EVLDT--ITVQALINRYATVCGMT    414
+                     |....||.| |:|..:..        ||.||  .:|.||.          
+FLII_AQUAE       119 GFIGFVEEK-GLELPQINPLYRERIREVFDTGVRSVNALF----------    157
+
+SECA2_MYCTO      415 GTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGIVEH    464
+                       .|..|:::..|...||     .|..:..      .||..:|.|.:|  
+FLII_AQUAE       158 --TLGKGQKIGIFAGAGV-----GKSTLLG------MITRHSKADVVV--    192
+
+SECA2_MYCTO      465 ITEVHQRGQPVLVGTRDVAE--SEELHERLVRRGVPAVVLNAKNDAEEAR    512
+                     :..:.:||       |:|.|  .|.|.|..:::.|..|     :.|:::.
+FLII_AQUAE       193 LALIGERG-------REVKEFLEEVLGEEGLKKSVVVV-----STADQSP    230
+
+SECA2_MYCTO      513 VIAEAGKYGAVTVSTQMAGRGTDIRL    538
+                     ::...|...||..:...|.:|.|:.|
+FLII_AQUAE       231 ILKVKGAISAVVHAHHFASQGKDVLL    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      24/106 (22.6%)
+# Similarity:    40/106 (37.7%)
+# Gaps:          20/106 (18.9%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       80 DEKLRKAAGLLNLDDLAESADIPQ-FLAIAREAAERRTGLRPFDVQLLGA    128
+                     |.|:...:|.:|.:|..:..:|.| |.:...|||..:.... |::.:..|
+MSS11_VANPO        6 DTKMDHKSGKMNANDRNQQNNIKQEFKSDLNEAANAQPKYN-FNIMVSDA     54
+
+SECA2_MYCTO      129 LRMLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAE    178
+                     :              .||....:.|..|.....:.|:.|...:|...|. 
+MSS11_VANPO       55 M--------------AKTSKQLLYAHIYNYLLHNKHLETAKQFLKEADV-     89
+
+SECA2_MYCTO      179 WMGPLL    184
+                        |||
+MSS11_VANPO       90 ---PLL     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 466
+# Identity:      79/466 (17.0%)
+# Similarity:   132/466 (28.3%)
+# Gaps:         182/466 (39.1%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      136 VIEMATGEGKTLAGAIAAAGYAL------AGRHVHVVTIND--YLARRDA    177
+                     |:|..||.||||:..|......|      ...||..:.|:.  .||.:..
+SPB4_ASPFU        55 VVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIY    104
+
+SECA2_MYCTO      178 EWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQ    227
+                     ..:..||.....:...|......|..|..:.     :|..::...:|...
+SPB4_ASPFU       105 NVLSSLLAFHPPSAAAINPSEDDDAPRPKFP-----SSTLKVVPQLLLGG    149
+
+SECA2_MYCTO      228 LVTDVNDLV-----SPNP------------------------DVALIDEA    248
+                     ..|...||.     |||.                        ::.::|||
+SPB4_ASPFU       150 STTPAEDLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEA    199
+
+SECA2_MYCTO      249 DSVL---------------------------VDEALVPLVLAGTTHRETP    271
+                     |.:|                           |.||:..:|..|..:.   
+SPB4_ASPFU       200 DRLLDLGFKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNP---    246
+
+SECA2_MYCTO      272 RLEIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVE---------    312
+                         ::::.::.|....|:. .|.:..:..:||...:.|..         
+SPB4_ASPFU       247 ----VKVMVKVKGGSGVDDK-RTPASLQMTYLTTPPSHKFAALKRIVSSV    291
+
+SECA2_MYCTO      313 -----------KALGGID------------------LYSEEHVGTTLTEV    333
+                                ....|:|                  |:.:..........
+SPB4_ASPFU       292 QPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNF    341
+
+SECA2_MYCTO      334 NVALHAH---VLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAV    380
+                     |..:::|   :||..||             |:||                
+SPB4_ASPFU       342 NRFINSHDPAILLTTDV-------------AARG----------------    362
+
+SECA2_MYCTO      381 EAKEGIETTETGEVLDTITVQALI--------NRYATVCGMTGTALAAG-    421
+                                   ||..:|..::        ..:...||..|.|...| 
+SPB4_ASPFU       363 --------------LDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGL    398
+
+SECA2_MYCTO      422 ----------EQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGI    461
+                               |....|.::..:|:.|..|:|...:||....|..|:...:
+SPB4_ASPFU       399 SVVLLHPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVL    448
+
+SECA2_MYCTO      462 VEHITEVHQRGQPVLV    477
+                     .:.  .:|.|||...|
+SPB4_ASPFU       449 ADR--ALHDRGQKAFV    462
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:      84/404 (20.8%)
+# Similarity:   129/404 (31.9%)
+# Gaps:         142/404 (35.1%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO       93 DDLAESADIPQFL--AIAREAAERRTGL-RPFDVQ-LLGALRMLAGDVI-    137
+                     |:.||...:|..|  |:..:.....:.: ||..|: |:.|.|...|.:: 
+ASSY_MYCTO        66 DEFAEGYCLPTVLNNALYMDRYPLVSAISRPLIVKHLVAAAREHGGGIVA    115
+
+SECA2_MYCTO      138 EMATGEGKTLAGAIAAAGYALAGRHVHVVT-INDYLARRD-----AE---    178
+                     ...||:|.....  ...|:|.....:.|:. :.||...|:     ||   
+ASSY_MYCTO       116 HGCTGKGNDQVR--FEVGFASLAPDLEVLAPVRDYAWTREKAIAFAEENA    163
+
+SECA2_MYCTO      179 ------------------------------WMGPLLDAMGL----TVGWI    194
+                                                   |..|..|....    |:.| 
+ASSY_MYCTO       164 IPINVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTKDIYAYTEDPTINW-    212
+
+SECA2_MYCTO      195 TADSTPDERRTAYDRDV----------TYASVNEIG----------FDVL    224
+                        ..|||....::|.|          ..|::.|:.          .||:
+ASSY_MYCTO       213 ---GVPDEVIVGFERGVPVSVDGKPVSMLAAIEELNRRAGAQGVGRLDVV    259
+
+SECA2_MYCTO      225 RDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLE    274
+                     .|:||                 ...|..:.||...:||. |.|.|   ||
+ASSY_MYCTO       260 EDRLV-----------------GIKSREIYEAPGAMVLI-TAHTE---LE    288
+
+SECA2_MYCTO      275 IIRLVAELVGDKDADEYFATDSDNRNVHLTEHGA--RKVEKALGGIDLYS    322
+                     .:.|..||       ..|...:|.|...|...|.  ..::.||......:
+ASSY_MYCTO       289 HVTLEREL-------GRFKRQTDQRWAELVYDGLWYSPLKAALEAFVAKT    331
+
+SECA2_MYCTO      323 EEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRW    372
+                     :|||.   .||.:.||.                        |.||     
+ASSY_MYCTO       332 QEHVS---GEVRLVLHG------------------------GHIA-----    349
+
+SECA2_MYCTO      373 PDGLQAAVEAKE-GIETTETGEVLDTITVQALINRYATVCGMTGTALAAG    421
+                     .:|.::|....: .:.|.:.|:..|    |:....:..|.|:: :.|||.
+ASSY_MYCTO       350 VNGRRSAESLYDFNLATYDEGDSFD----QSAARGFVYVHGLS-SKLAAR    394
+
+SECA2_MYCTO      422 EQLR    425
+                     ..||
+ASSY_MYCTO       395 RDLR    398
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 434
+# Identity:      87/434 (20.0%)
+# Similarity:   129/434 (29.7%)
+# Gaps:         155/434 (35.7%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      342 LLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQ---AAVEAKEGIET    388
+                     ||:|..|.|||.|.              :.:.|.||   .||.|      
+ECCB1_MYCS2       18 LLRRVEHAIVRRDT--------------RMFDDPLQFYSRAVFA------     47
+
+SECA2_MYCTO      389 TETGEVLDT-ITVQALINRYATVCGMTGT--------------ALAAGEQ    423
+                        |.|:.. |.:.|.:..|....|..|:              .|....|
+ECCB1_MYCS2       48 ---GVVVSVLICLGAALMAYFKPLGKQGSDQLLVDRTTNQLYVMLPGSNQ     94
+
+SECA2_MYCTO      424 LRQFYQLGVSPI----PPNKPNIREDEADRVYITTAAKNDGIVEHITEVH    469
+                     ||..|.|..:.:    ..|...::.:|.:|:   :..::.||        
+ECCB1_MYCS2       95 LRPVYNLTSARLVLGNASNPVAVKSEELNRI---SKGQSIGI--------    133
+
+SECA2_MYCTO      470 QRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGK    519
+                      .|.|....|...|....|.:.:           ||.|:           
+ECCB1_MYCS2      134 -PGAPYATPTGTPASQWTLCDTV-----------AKPDS-----------    160
+
+SECA2_MYCTO      520 YGAVTVSTQMAGRGTDIRLG-GSDEADHDRVAELGGLH--VVGTGRHHTE    566
+                      .|..|.|.:..|...|..| |...||...:....|.:  :...|||..:
+ECCB1_MYCS2      161 -SAPKVETSILIRTLAIDSGVGPIRADQGMLVSYEGANWLITEGGRHSID    209
+
+SECA2_MYCTO      567 RLDNQLRGRAG----RQGDPGSSVFFSSWEDDVVAANLDHNKLPMATDEN    612
+                     ..|..:....|    .:..|.|...|              |.||      
+ECCB1_MYCS2      210 LADRAVTSAVGIPVTAKPTPISQGLF--------------NALP------    239
+
+SECA2_MYCTO      613 GRIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIA---------QQR    653
+                                               :...|:..|:.|         .:.
+ECCB1_MYCS2      240 --------------------------NRGPWQLPQIPAAGAPNSVGLPEN    263
+
+SECA2_MYCTO      654 AIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEERLETIC--RQIM    701
+                     .:|    .::.||.|      |..|:.|..|.|.|:.....|..  |...
+ECCB1_MYCS2      264 LVI----GSVFRTAT------ESDPQHYVVLPDGVARVNNTTAAALRATN    303
+
+SECA2_MYCTO      702 LYHLDRGWADHLAYLADIRESIHLRALGRQNPLD    735
+                     .|.|.:..|...:.:|.|.|.:::..|..| |||
+ECCB1_MYCS2      304 SYGLMQPPAVEASVVAKIPEQVYVSPLPDQ-PLD    336
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      37/176 (21.0%)
+# Similarity:    62/176 (35.2%)
+# Gaps:          55/176 (31.2%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      392 GEVLDTITVQA---------LINRYATVCGMTG-----------------    415
+                     |.|:|..||.|         |.::..||..:.|                 
+KCY4_ORYSJ         2 GSVVDAPTVVAGQEEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEHF     51
+
+SECA2_MYCTO      416 --TALAAGEQLRQFYQLG------------VSPIPPNKPNIR-------E    444
+                       ..|:||:.||...:.|            ...|.|::..|:       :
+KCY4_ORYSJ        52 GFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIK    101
+
+SECA2_MYCTO      445 DEADRVYITTAAKND---GIVEHITEVHQRGQPVLVGTRDVAESEELHER    491
+                     ...|:..|....:|:   ...|::|::    .|..|...|.:| ||:..|
+KCY4_ORYSJ       102 SGNDKFLIDGFPRNEENRAAFENVTKI----TPAFVLFFDCSE-EEMERR    146
+
+SECA2_MYCTO      492 LVRRGVPAVVLNAKNDAEEARVIAEA    517
+                     |:.|....|..|.:...:..:|..|:
+KCY4_ORYSJ       147 LLGRNQGRVDDNIETIRKRFKVFVES    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:      56/261 (21.5%)
+# Similarity:    96/261 (36.8%)
+# Gaps:          62/261 (23.8%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      352 RDDAVHLINASRGRIAQLQRWPD-------GL-QAAVEAKE-GIETTETG    392
+                     |.|..|...|. |:..::....|       || |.|::||. |:.|.||.
+HCP_TRIV2         11 RGDVCHQWGAC-GKSPEVDALQDLLVHCLRGLSQVALQAKSLGLATRETD     59
+
+SECA2_MYCTO      393 EVLDTITVQALIN-RYAT--VCGMTGTALAAGEQLR-QFYQLG-------    431
+                     |....:....|.| .::|  .......|:|..|.|: |....|       
+HCP_TRIV2         60 EFTCEMLFSTLTNVNFSTSDFISFVNRAIALRESLKLQIQATGNAVIQSA    109
+
+SECA2_MYCTO      432 ---VSPIPPNKPNIRE-DEADRVYITTAAKNDGIVE--------------    463
+                        ..|....:..|:: .:.:..:|:.:|||..|..              
+HCP_TRIV2        110 INSFQPASDTQKQIQQGKDLEFEFISQSAKNVDIFSLKLTLLYGLKGVAA    159
+
+SECA2_MYCTO      464 ---HITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVV----LNAKN    506
+                        |..|::|..:.:.:...:|..:.:..::.::..:...:    :|.| 
+HCP_TRIV2        160 YAFHALELNQHDESLYIFFHEVLANLDAQDKSLQDWLDLTLKVGQMNLK-    208
+
+SECA2_MYCTO      507 DAEEARVIAEAGK---YGAVTVSTQMAGR--GTDIRLGGSDEADHDRVAE    551
+                         |..:.:||.   :|..|.:|...|.  |..|.:.|     ||.:|.
+HCP_TRIV2        209 ----AMELLDAGNTETFGHPTPTTVPLGHTVGKAILVSG-----HDLLAL    249
+
+SECA2_MYCTO      552 LGGL-HVVGTG    561
+                     ...| ...|||
+HCP_TRIV2        250 KAVLEQTSGTG    260
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      35/113 (31.0%)
+# Similarity:    46/113 (40.7%)
+# Gaps:          33/113 (29.2%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO      657 VERRNTLLRTVTAREELAE--LAPKRYEELSD-KVSEERLETICRQIMLY    703
+                     |.|:|       |||.:||  |..:|.|:|.. |::||..|.|.|   |.
+UBX7_YEAST       137 VHRKN-------ARERIAETTLEIQRREQLKQRKLAEEERERIIR---LV    176
+
+SECA2_MYCTO      704 HLDRGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAADAI    753
+                     ..||  |:..|.     :..|.|.|....|||             ..|.|
+UBX7_YEAST       177 RADR--AERKAL-----DETHHRTLDDDKPLD-------------VHDYI    206
+
+SECA2_MYCTO      754 EAAQQTFETANVL    766
+                     :.||:...:..||
+UBX7_YEAST       207 KDAQKLHSSKCVL    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      52/230 (22.6%)
+# Similarity:    85/230 (37.0%)
+# Gaps:          68/230 (29.6%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO        7 PRIAACRCTD--------THPRGR---PAFAYR------WFVPKTTRAQP     39
+                     |.:..|...|        |...||   ||.|.|      ..:|..:...|
+RPOA_ACICJ       136 PELVICTLDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSIYSP    185
+
+SECA2_MYCTO       40 GRLSSRFWRL----LGASTEKNRSRSLADVTASAEYDKEAADLSDEKLRK     85
+                     .|..|  :|:    :|..|:.:| ..|...|..|...::|..|:...|:.
+RPOA_ACICJ       186 VRRVS--YRVEPTRVGQVTDYDR-LILNIETNGAVTPEDAVALAARILQD    232
+
+SECA2_MYCTO       86 AAGL-LNLDDLAESADIPQFLAIAREAAERRTGLRPFDVQLLGALRMLAG    134
+                     ..|: :|.::       ||.|    .|.|.|..| ||:..||..:     
+RPOA_ACICJ       233 QLGMFINFEE-------PQRL----RAEEPRPEL-PFNPNLLRKV-----    265
+
+SECA2_MYCTO      135 DVIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWM----    180
+                     |.:|::......|             ::.::|.|.|.:.:.:.|.:    
+RPOA_ACICJ       266 DELELSVRSANCL-------------KNDNIVYIGDLVQKSEQEMLRTPN    302
+
+SECA2_MYCTO      181 ---------GPLLDAMGLTVGWITADSTPD    201
+                              ..:|.||||.:|.:..|..|:
+RPOA_ACICJ       303 FGRKSLNEIKEVLSAMGLGLGMVVQDWPPE    332
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      23/87 (26.4%)
+# Similarity:    39/87 (44.8%)
+# Gaps:          16/87 (18.4%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+SECA2_MYCTO      650 AQQRAIIVERRNTLLRTVTAREELAELAPKRYEELSDKVSEERLETICRQ    699
+                     :::|...:||.:.||     ..:|.|..|.|.:||::....: :.|:.||
+YXAD_BACSU        27 SEKRTGNLERSSYLL-----LRQLDEFGPARVKELAESFKLD-ISTLSRQ     70
+
+SECA2_MYCTO      700 IMLYHLDRGWADHLAYL----ADIRESIH-LRALGRQ    731
+                     .....     |..|.|.    :|.|.|:. :..||:|
+YXAD_BACSU        71 AAALE-----AKELIYRFSDPSDGRVSLFTITKLGKQ    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SECA2_MYCTO
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 711
+# Identity:     144/711 (20.3%)
+# Similarity:   226/711 (31.8%)
+# Gaps:         231/711 (32.5%)
+# Score: 96.0
+# 
+#
+#=======================================
+
+SECA2_MYCTO       53 STEKNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLDDLAESADIP    102
+                     |..|....:||.:.|:.:..|:.:::  :.|...:|   .|.....|||.
+FADB_SHESR        27 SVNKFDRETLASLDAALDSIKQQSNI--QALVLTSG---KDTFIVGADIT     71
+
+SECA2_MYCTO      103 QFLAIAREAAERRTGLRPFDVQLLGALRMLAGDVIEMATG-----EGKTL    147
+                     :||.:..:.          |..||        ..:|.|..     |....
+FADB_SHESR        72 EFLGLFAQD----------DAVLL--------SWVEQANAVFNKLEDLPF    103
+
+SECA2_MYCTO      148 AGAIAAAGYALAGRHVHVVTINDYLARRDAEWMGP-----LLDAMGLTV-    191
+                     ..|.|..|:||.|....::..:..:|...|:...|     ::...|.|| 
+FADB_SHESR       104 PTASAIKGFALGGGCETILATDFRIADTTAKIGLPETKLGIIPGFGGTVR    153
+
+SECA2_MYCTO      192 -----------GWITA--DSTPDERRTAYDRDVTYASVNEIGFDVLRDQL    228
+                                .|||.  |..|:                    |.|:   
+FADB_SHESR       154 LPRVIGADNALEWITTGKDQRPE--------------------DALK---    180
+
+SECA2_MYCTO      229 VTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRL    278
+                     |..|:.:|:|.   ||...|..:|.|.....|......||:...|.:.:|
+FADB_SHESR       181 VGAVDAVVAPE---ALEAAAIQMLKDAVAEKLDWQARRHRKMSPLTLPKL    227
+
+SECA2_MYCTO      279 VAELVGDKDADEYFATDSDN-----RNVHLTEHGARKVEKALGGIDLYSE    323
+                     .|.:.........||....:     ..|.:.|..|.|     |..|....
+FADB_SHESR       228 EAMMSFTTAKGMVFAVAGKHYPAPMAAVSVVEQAATK-----GRSDALQI    272
+
+SECA2_MYCTO      324 EH---VGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQ    370
+                     ||   :....|:|..||         :...:.|..|.......|::|:  
+FADB_SHESR       273 EHQAFIKLAKTDVAKAL---------IGIFLNDQLVKGKAKKAGKLAK--    311
+
+SECA2_MYCTO      371 RWPDGLQAAV-------------EAKEGIETTETGEVLDTITVQALINRY    407
+                        |...|||             .|.:|     |..|:..|...||....
+FADB_SHESR       312 ---DVKSAAVLGAGIMGGGIAYQSASKG-----TPIVMKDIAQPALDLGL    353
+
+SECA2_MYCTO      408 ATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAK    457
+                     .....:....:|.|....:.....::.|.|.......:.||.|.      
+FADB_SHESR       354 GEAAKLLSAQVARGRSTPEKMAKVLNNITPALDYAPVNHADVVV------    397
+
+SECA2_MYCTO      458 NDGIVEH-------ITEVHQR-GQPVLVGTRD-------VAESEELHERL    492
+                      :.:|||       :.||.|. .:..::.:..       :|:|.:..||.
+FADB_SHESR       398 -EAVVEHPKVKAQVLAEVEQYVSEDAIIASNTSTISINLLAKSMKKPERF    446
+
+SECA2_MYCTO      493 --------VRRGVPAV-VLNAKNDAEE--ARVIAEAGKYGAVTVSTQ---    528
+                             |.: :|.| |:..::.:||  |.|:|.|.|.|...:...   
+FADB_SHESR       447 CGMHFFNPVHK-MPLVEVIRGEHSSEETIASVVAYASKMGKTPIVVNDCP    495
+
+SECA2_MYCTO      529 -----------MAGRGTDIRLGGSDEADHDRVAE------LGG---LHVV    558
+                                .||....:..|| |.|..|:|.|      :|.   |.||
+FADB_SHESR       496 GFFVNRVLFPYFAGFNGLLAEGG-DFAAIDKVMEKQFGWPMGPAYLLDVV    544
+
+SECA2_MYCTO      559 G--TGRHHTERLDNQLRGRAGRQGDPGSSVFF------------------    588
+                     |  ||.|....:......|.|:.|:....|.|                  
+FADB_SHESR       545 GLDTGHHAQAVMAEGFPDRMGKSGNDAIDVMFENKRLGQKNGKGFYAYSV    594
+
+SECA2_MYCTO      589 ------------SSWE--------------DDVVAANLDHNKLPMATD--    610
+                                 :|:|              |:::|..:    :||..:  
+FADB_SHESR       595 DSRGKPKKDVDPTSYELLKAAFGEQKAFDADEIIARTM----IPMIIETV    640
+
+SECA2_MYCTO      611 ---ENGRIVSP    618
+                        |.|.:.||
+FADB_SHESR       641 RCLEEGIVASP    651
+
+
+#---------------------------------------
+#---------------------------------------

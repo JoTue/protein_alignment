@@ -1,0 +1,2860 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:28
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/CAPSD_CMVO.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/CAPSD_CMVO.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/CAPSD_CMVO.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      36/157 (22.9%)
+# Similarity:    62/157 (39.5%)
+# Gaps:          54/157 (34.4%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        76 KPPKID-------RGSYY-----GKR----LLLPDSVTEYDKKLVSRIQI    109
+                     ||.||:       .||.:     |:|    :.||:.: |.||.|.   .:
+PUR7_VIBVU       123 KPVKIEAICRKYITGSMWRAYEKGEREFCGIQLPEGL-EKDKALP---DL    168
+
+CAPSD_CMVO       110 RVNPLPKFDSTVWVTVRKVPASSDLSVAA--ISAMFA----DGASPVLVY    153
+                     .:.|..|   .:...:..||.:.|:::..  |:..||    ..|..:.:|
+PUR7_VIBVU       169 LMTPSTK---GILKGIPGVPEADDVNITRQNIADNFAAFNFSSADDIALY    215
+
+CAPSD_CMVO       154 QYAAFGVQANNKLLYD----LSAMRADIGDMRKYAVLVYSK------DDA    193
+                     :          |||.|    :|...|::|.     :.|.:|      .||
+PUR7_VIBVU       216 E----------KLLKDGFGVISEALANVGQ-----IFVDTKFEFGYVTDA    250
+
+CAPSD_CMVO       194 LETDELV    200
+                     ...::|:
+PUR7_VIBVU       251 AGNEKLI    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    17/42 (40.5%)
+# Gaps:          15/42 (35.7%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        75 LKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPK    116
+                     :.||..||          |:...  |.||   ::|.|.|:.|
+Y075_NITWN         1 MTPPHSDR----------PEDTA--DPKL---LEILVCPVTK     27
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      26/102 (25.5%)
+# Similarity:    39/102 (38.2%)
+# Gaps:          19/102 (18.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       129 PASSDLSVAAISAMFADGASPVLVYQYAAFGVQ-ANNKL-------LYDL    170
+                     |...|....||.....:|..|:.:  :.|.||. |.:||       .||:
+Y3584_PSEAB      113 PLHEDYRERAIPMEGFEGEQPLHI--FVAAGVDLAISKLGRFTENDQYDI    160
+
+CAPSD_CMVO       171 SAM----RADIGDMRKYAV-----LVYSKDDALETDELVLHVDIEHQRIP    211
+                     ..:    |.|:|.....|.     .|.::...|...:||:...:|..|..
+Y3584_PSEAB      161 EQLIECGRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAKYLEDGRDA    210
+
+CAPSD_CMVO       212 TS    213
+                     ||
+Y3584_PSEAB      211 TS    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      21/84 (25.0%)
+# Similarity:    34/84 (40.5%)
+# Gaps:          29/84 (34.5%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       107 IQIRVNPLPKFDST-----VWVTVRKVPASSDLSVAAISAMF--------    143
+                     |.:|: |..:|:.|     .|      ..:|||:|...||.|        
+BPT_HAHCH         68 IAVRI-PTEEFNRTRSQERTW------KRNSDLTVRLRSAQFEQEHFALY    110
+
+CAPSD_CMVO       144 --------ADG-ASPVLVYQYAAFGVQANNKLLY    168
+                             .|| ..|..:.||.:|.::|.::.|:
+BPT_HAHCH        111 QRYISARHQDGDMYPPTLDQYESFLLEARSETLF    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       8/14 (57.1%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       156 AAFGVQANNKLLYD    169
+                     |||..|||..|:.|
+KDPC_CAUVN        33 AAFPNQANGSLIRD     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      19/98 (19.4%)
+# Similarity:    39/98 (39.8%)
+# Gaps:          35/98 (35.7%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       118 DSTVWVTVRKVPASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNKLL    167
+                     |||.:..:      :|:..|.::|||            |.:||   |:::
+LPXH_XYLFM       172 DSTQFEKI------TDVVPADVAAMF------------ACYGV---NRMI    200
+
+CAPSD_CMVO       168 Y--------------DLSAMRADIGDMRKYAVLVYSKDDALETDELVL    201
+                     :              :.:..|..:||..:...::....|.|..::|:|
+LPXH_XYLFM       201 HGHTHRPALHMLQVAECACTRVVLGDWYQQGSVLCVDADGLVLEQLLL    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      12/44 (27.3%)
+# Similarity:    20/44 (45.5%)
+# Gaps:          10/44 (22.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       150 VLVYQYAAFGVQANNKLLYDL--------SAMRADIGDMRKYAV    185
+                     :||..| .|.::|.. |::||        ...:..:|.:..|||
+YERI_SCHPO        24 LLVLSY-LFSIEAET-LMHDLVGSGLTGKQVAKTCLGAVVIYAV     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      21/92 (22.8%)
+# Similarity:    35/92 (38.0%)
+# Gaps:          25/92 (27.2%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       126 RKVPASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNK----------    165
+                     :::....|:|||....|.|..:|...:..|.  |::|..:          
+RBSA_RUEST        88 QEIALCPDVSVAENIFMAATNSSRSFLMDYK--GIEAKAREVFAQLSSID    135
+
+CAPSD_CMVO       166 ---LLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHVD    204
+                        |:.|||.....:.::.|          ||..|..||.:|
+RBSA_RUEST       136 PSVLVRDLSISNQQLVEIAK----------ALTLDCRVLILD    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           4/16 (25.0%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        60 GSERCKP----GYTFT     71
+                     |...|:|    ||.|:
+KR195_HUMAN       54 GYRSCRPSCYGGYGFS     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      34/153 (22.2%)
+# Similarity:    52/153 (34.0%)
+# Gaps:          34/153 (22.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        10 GRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFV     59
+                     |..||...:...|.|.....|....|...:||...|::||       .||
+UPPP_CORDI       144 GSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSGGTVSAG-------LFV    186
+
+CAPSD_CMVO        60 GSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQI    109
+                     |.:| :....|:.:...|..:..|.:     .|||:......:..|.:|:
+UPPP_CORDI       187 GLDR-EVATRFSFLLAIPAVLASGLF-----SLPDAFAPDAGQAASGMQL    230
+
+CAPSD_CMVO       110 RVNP-------------LPKF---DSTVWVTVRKVPASSDLSVAAISAMF    143
+                     .|..             |.||   .|..|....::|..     ..:.|:.
+UPPP_CORDI       231 AVGTGIAFALGYASIAWLLKFVGSHSFSWFAAYRIPVG-----LLVMALL    275
+
+CAPSD_CMVO       144 ADG    146
+                     |.|
+UPPP_CORDI       276 ATG    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       8/19 (42.1%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        98 EYDKKLVSRIQIRVNPLPK    116
+                     :|:||.:..|..||..|.|
+GREB_ECO57        49 QYNKKRLREIDRRVRYLTK     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        66 PGYTFTSITLKPPK     79
+                     |||....:::..||
+TGT_LEPCP        218 PGYAVGGVSVGEPK    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      14/44 (31.8%)
+# Similarity:    19/44 (43.2%)
+# Gaps:           2/44 ( 4.5%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       175 ADIGDMRKYAV--LVYSKDDALETDELVLHVDIEHQRIPTSRVL    216
+                     |..||:.|..:  .||.|......:.|.|.||....|:..|:.|
+CBPQ_HUMAN        41 ASCGDVAKAIINLAVYGKAQNRSYERLALLVDTVGPRLSGSKNL     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      27/131 (20.6%)
+# Similarity:    47/131 (35.9%)
+# Gaps:          47/131 (35.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        83 GSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASS    132
+                     |.|:|.:   ..|....|::.::.::.::...|.|  |...||:      
+PSA6_SOYBN       158 GHYFGHK---ATSAGLKDQEAINFLEKKMKNDPSF--TYEETVQ------    196
+
+CAPSD_CMVO       133 DLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMRADIGDMRK    182
+                         .||||:                    .:.|..|..|...::|.:| 
+PSA6_SOYBN       197 ----TAISAL--------------------QSVLQEDFKATEIEVGVVR-    221
+
+CAPSD_CMVO       183 YAVLVYSKDD----ALETDELVLHVDIEHQR    209
+                            ||:    .|.|||:..|:....:|
+PSA6_SOYBN       222 -------KDNPEFRVLTTDEIDEHLTAISER    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      29/160 (18.1%)
+# Similarity:    52/160 (32.5%)
+# Gaps:          66/160 (41.2%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        77 PPKIDRGSYYGKRLLLPDSVTEYDKKL-VSRIQIR---------------    110
+                     ||..|....|...:|:.:|..:|.:.: ...:.:|               
+SCL34_ARATH       31 PPPSDTLLKYVSEILMEESNGDYKQSMFYDSLALRKTEEMLQQVITDSQN     80
+
+CAPSD_CMVO       111 --VNPLPKFDSTVWVTVRKVPASSDLSVAAISA------------MFADG    146
+                       .:|.....:..|      .||..:..:|.||            ||:|.
+SCL34_ARATH       81 QSFSPADSLITNSW------DASGSIDESAYSADPQPVNEIMVKSMFSDA    124
+
+CAPSD_CMVO       147 ASPVLVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALET    196
+                     .|.:   |:.. ||:..:|.|.:                          :
+SCL34_ARATH      125 ESAL---QFKK-GVEEASKFLPN--------------------------S    144
+
+CAPSD_CMVO       197 DELVLHVDIE    206
+                     |:.|:::|||
+SCL34_ARATH      145 DQWVINLDIE    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      15/74 (20.3%)
+# Similarity:    27/74 (36.5%)
+# Gaps:          30/74 (40.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        61 SERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIR    110
+                     |||       |.|.:||..:.|.       |:.:.:..:::|....|.::
+NDKA_CANLF         4 SER-------TFIAIKPDGVQRS-------LVGEIIKRFEQKGFRLIAMK     39
+
+CAPSD_CMVO       111 VNPLPKFDSTVWVTVRKVPASSDL    134
+                     :                :.||.||
+NDKA_CANLF        40 L----------------IQASEDL     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      26/116 (22.4%)
+# Similarity:    44/116 (37.9%)
+# Gaps:          28/116 (24.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        87 GKRLLLPDSVTEYDKKLVSRIQI-RVNPLPKFD--STVWVT---------    124
+                     |:.:..||...:.:..:|..|.. ::....||:  :..:||         
+RS4_CAEEL        143 GRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVG    192
+
+CAPSD_CMVO       125 ----VRKVPASSDLSVAAISA--MFADGASPVLVYQYAAFGVQANNKLLY    168
+                         ..::|.:||:.....||  .||...|.|.|       :...||.|.
+RS4_CAEEL        193 IIGHRERLPGASDIIHIKDSAGHSFATRISNVFV-------IGKGNKALV    235
+
+CAPSD_CMVO       169 DL---SAMRADIGDMR    181
+                     .|   :.:|..|.:.|
+RS4_CAEEL        236 SLPTGAGIRLSIAEER    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    20/46 (43.5%)
+# Gaps:           8/46 (17.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         2 DKSESTSAGRNRRRRPRR------GSRSAPSSADANFRVLSQQLSR     41
+                     ::.|...|.:.||.|.:.      |.:..|.|  |.|:.|.|.|.:
+G45IP_CHLAE      141 ERWEKAQADKERRARLQAEAQELLGYQVNPKS--ARFQELLQDLEK    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      34/167 (20.4%)
+# Similarity:    54/167 (32.3%)
+# Gaps:          50/167 (29.9%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        28 ADANFRVLSQQL-SRLNKTLAAGRPTINHPTFVGSERCKPGYTFTSITLK     76
+                     |.:||.|..||: ||....|.....||.        :.:.||...:|   
+DAPEL_OCEIH      200 AASNFVVQLQQIVSRGLNPLDGSVITIG--------KMESGYVQNAI---    238
+
+CAPSD_CMVO        77 PPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPK-----FDSTV    121
+                               .:...|..::...|...:..|:.::|.|.|     :|.|:
+DAPEL_OCEIH      239 ----------AETARLEGTIRSTDADAIDMIKSKLNRLMKGFEISYDCTI    278
+
+CAPSD_CMVO       122 WVTVRKVPASSDLSVAAISAMFAD------GASPVLVYQYAAFGVQANNK    165
+                          ||...::.......|.:..      ..:..:.||.|         
+DAPEL_OCEIH      279 -----KVDYGANYYQVVNDATYVQQFENVINQTQTITYQQA---------    314
+
+CAPSD_CMVO       166 LLYDLSAMRADIGDMRK    182
+                        |.:....|.|||.|
+DAPEL_OCEIH      315 ---DAAMTGEDFGDMLK    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      41/185 (22.2%)
+# Similarity:    67/185 (36.2%)
+# Gaps:          49/185 (26.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        38 QLS---RLNKTLAAGRPTINHPTFVGSERCKPGYTFTSITLKPPKIDRGS     84
+                     |||   .|...:|||.|       ||.|             ....::.|.
+KAD_METRJ         28 QLSTGDMLRAAVAAGTP-------VGLE-------------AKAVMESGG     57
+
+CAPSD_CMVO        85 YYGKRL---LLPDSVTEYDKKLVSRIQIRVNPLPKFDSTV--WVTVRKVP    129
+                     ....|:   ::.|.:.|.|.:       |...|..|..||  ...:.::.
+KAD_METRJ         58 LVSDRIVVGIVADRIEEPDAR-------RGFILDGFPRTVAQAEALGEML    100
+
+CAPSD_CMVO       130 ASSDLSVAAISAMFADGASPV-LVYQYAAFGVQANNKLLYD---------    169
+                     ||..||::|:..:..|..:.| .:.:.||..:.....:..|         
+KAD_METRJ        101 ASKGLSLSAVVELKVDENALVGRIEKRAAETLARGQAVRKDDTPEVFKQR    150
+
+CAPSD_CMVO       170 LSAMRADIGDMRKYAVLVYSKDDALETDELVLHVD    204
+                     |.|.||....:..|    |::...|||.:.:..:|
+KAD_METRJ        151 LEAYRAQTAPLSAY----YAQKGTLETVDGMQPID    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    13/35 (37.1%)
+# Gaps:          12/35 (34.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        17 PRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGRP     51
+                     |.....:|.::|.|.||.            |||.|
+ELN_BOVIN        540 PAAAKSAAKAAAKAQFRA------------AAGLP    562
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    37/88 (42.0%)
+# Gaps:          19/88 (21.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        93 PDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLS--VAAIS    140
+                     |.::|.|:|:| |.::|     |...|..::..:...:...:|  :..:.
+ASIC2_MOUSE      363 PCNLTRYNKEL-SMVKI-----PSKTSAKYLEKKFNKSEKYISENILVLD    406
+
+CAPSD_CMVO       141 AMFADGASPVLVYQYAAFGVQANNKLLYDLSAMRADIG    178
+                     ..|     ..|.|:      ....|..|:::|:..|||
+ASIC2_MOUSE      407 IFF-----EALNYE------TIEQKKAYEVAALLGDIG    433
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      30/180 (16.7%)
+# Similarity:    53/180 (29.4%)
+# Gaps:          72/180 (40.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        31 NFRVLSQQLSRLNKT----------------------LAAGRP-------     51
+                     |..::...:.:||:|                      |..|.|       
+DOXA1_XENTR      107 NITLIGNPVYQLNETINYNEEFAWESANQFDKNYKDGLERGLPYPILYVA    156
+
+CAPSD_CMVO        52 ---TINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTE     98
+                        |||.|..:..:.|...|..:.|..    :..||:....:|....|..
+DOXA1_XENTR      157 EKFTINSPCGLFQQYCISTYYSSEIMW----VAFGSWILYNVLFSMPVIL    202
+
+CAPSD_CMVO        99 YD------------KKLVSRIQIRVNPL-----------PKFDSTVWVTV    125
+                     |.            ..|:|...:|..|:           ..|..:.|:::
+DOXA1_XENTR      203 YGICMMFVTAICMLVSLISFASVRQAPVCNIHFGNAVLKTHFGVSYWLSL    252
+
+CAPSD_CMVO       126 RKVPASSDLSVAAISAMFADGASPVLVYQY    155
+                                  ::.:|....|.||::.|
+DOXA1_XENTR      253 -------------VTGLFCLIVSLVLLFLY    269
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      10/22 (45.5%)
+# Similarity:    11/22 (50.0%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       156 AAFGVQANNKLLYDLSAMRADI    177
+                     |...|:||.|.....||||..|
+RS20_STRPB        16 AELNVKANEKNSAQKSAMRTAI     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      21/105 (20.0%)
+# Similarity:    37/105 (35.2%)
+# Gaps:          22/105 (21.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         1 MDKSESTSAGRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGR     50
+                     :..:|:..|..|||                 .::|.:.|.|..:.|....
+TPM_HAELO         78 LQAAEAEVAAHNRR-----------------IQLLEEDLERSEERLKIAT    110
+
+CAPSD_CMVO        51 PTINHPTFVG--SERCKPGYTFTSITLKPPKID--RGSYYGKRLLLPDSV     96
+                     ..:...:...  |||.:......||| ...::|  .|.....|.:..|:.
+TPM_HAELO        111 QKLEEASQAADESERMRKMLEHRSIT-DEERMDGLEGQLKEARTMAEDAD    159
+
+CAPSD_CMVO        97 TEYDK    101
+                     .:||:
+TPM_HAELO        160 RKYDE    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      21/91 (23.1%)
+# Similarity:    38/91 (41.8%)
+# Gaps:          21/91 (23.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        73 ITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPL-PK---FD    118
+                     :|:....|:.|:..|        :...|:|.::.::.|  |. ||   :|
+LEUC_XANOM       223 MTICNMSIEAGARVG--------MVAVDEKTIAYVKGR--PFAPKGADWD    262
+
+CAPSD_CMVO       119 STV--WVTVRKVPASS-----DLSVAAISAMFADGASPVLV    152
+                     :.|  |.|:...|.:.     :|....|....:.|.||.:|
+LEUC_XANOM       263 AAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMV    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       2/12 (16.7%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       114 LPKFDSTVWVTV    125
+                     :.:..:|:..|:
+LPT_ESCF3          1 MKRISTTITTTI     12
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    25/54 (46.3%)
+# Gaps:           6/54 (11.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       128 VPASSDLSVAAISAMFADGASPVLVYQYAAFGV---QANNKLLYDLSAMR    174
+                     |.|::.::|||..|.   ||:.....:...|.|   :|..|.|..:..:|
+RL7_THET8         33 VTAAAPVAVAAAPAA---GAAAAPAEEKTEFDVILKEAGAKKLEVIKELR     79
+
+CAPSD_CMVO       175 ADIG    178
+                     |..|
+RL7_THET8         80 AITG     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      20/111 (18.0%)
+# Similarity:    48/111 (43.2%)
+# Gaps:          36/111 (32.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       123 VTVRKVP---ASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNK----    165
+                     :::.::|   |.:|:.||:.       .||:.:....:|.....::    
+HEM1_METCA       229 ISLEELPKHLAKADIIVAST-------GSPLPILGKGSFESALRSRRHKP    271
+
+CAPSD_CMVO       166 -LLYDLSAMR---ADIGDMRKYAVLVYSKDD---------------ALET    196
+                      .:.||:..|   .::..::.  |.:|:.||               ||:.
+HEM1_METCA       272 MFIVDLAVPRDIEPEVEQLQD--VYLYTVDDLQHTVEENLKTRQEAALQA    319
+
+CAPSD_CMVO       197 DELVLHVDIEH    207
+                     :| ::.:::||
+HEM1_METCA       320 EE-IIDLEVEH    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      27/130 (20.8%)
+# Similarity:    48/130 (36.9%)
+# Gaps:          37/130 (28.5%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        42 LNKTLAAGRPTINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLL     91
+                     |:|:|...||.|.......:|.|:         |...|:.........|:
+XYLB_KLEPN        83 LDKSLQVLRPAILWNDGRCAEECQ---------LLEDKVSASRQITGNLM    123
+
+CAPSD_CMVO        92 LPDSV---------------TEYDKKLVSRIQIRVNPLPKFDS-------    119
+                     :|...               ::.||.|:.:..:|:....:..|       
+XYLB_KLEPN       124 MPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLRMTGELASDMSDAAG    173
+
+CAPSD_CMVO       120 TVWVTVRK------VPASSDLSVAAISAMF    143
+                     |:|:.|.:      :.|:.|||..|:.|:|
+XYLB_KLEPN       174 TMWLDVARRDWSDEMLAACDLSRDAMPALF    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       7/13 (53.8%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         5 ESTSAGRNRRRRP     17
+                     |.|.|...|.|||
+RECR_NOVAD       184 EGTLAQALRARRP    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       100 DKKLVSRIQIRVNPLPKFDST    120
+                     |.|.::..:|.|.|| :.|.|
+SURE_METNO       221 DLKAIAENRIAVTPL-RLDLT    240
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      15/52 (28.8%)
+# Similarity:    20/52 (38.5%)
+# Gaps:           7/52 (13.5%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        32 FRVLSQQLSRL------NKTLAAGRPTINHPTFVGSERCKPGYTFTSITL     75
+                     ||.|||.|..|      ..|...|:| :.||..:..:.....|....:.|
+CYB_ARTIO        317 FRPLSQCLFWLLVAVLFTLTWIGGQP-VEHPYIIIGQTASILYFLIILFL    365
+
+CAPSD_CMVO        76 KP     77
+                     .|
+CYB_ARTIO        366 MP    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      11/52 (21.2%)
+# Similarity:    24/52 (46.2%)
+# Gaps:          13/52 (25.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       150 VLVYQYAAFGVQANNKL--LYDLS-----AMRADIGDMRKYAVLVYSKDD    192
+                     ::.:.:...|||...::  |.|::     ::..|.|.      ||:|.::
+IOLE_BACHK       155 IVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGH------LVFSGEE    198
+
+CAPSD_CMVO       193 AL    194
+                     .|
+IOLE_BACHK       199 PL    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      15/46 (32.6%)
+# Similarity:    20/46 (43.5%)
+# Gaps:          11/46 (23.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       101 KKLVSRIQIRVNPLPKFDS--TVWVTVRKVPASSDLS--VAAISAM    142
+                     |.||.||.::       ||  |:.|...||....|:.  |.|:..|
+ACKA_STAAT        30 KGLVERIGLK-------DSIFTIEVNGEKVKTVQDIKDHVEAVDIM     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      14/52 (26.9%)
+# Similarity:    19/52 (36.5%)
+# Gaps:          11/52 (21.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       172 AMRADIGD---MRKYAVLVYSKDDALE--------TDELVLHVDIEHQRI    210
+                     |:...:||   :|:|.......|:||.        ...|..||.....||
+HIS7_BURTA        77 AVAKAVGDKKGIRRYGHSYVPLDEALSRVVIDFSGRPGLEFHVPFTRARI    126
+
+CAPSD_CMVO       211 PT    212
+                     .|
+HIS7_BURTA       127 GT    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    14/43 (32.6%)
+# Gaps:           7/43 (16.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        16 RPRRGSRS-------APSSADANFRVLSQQLSRLNKTLAAGRP     51
+                     ||..|..:       .|...:...|||...|..|...|..|.|
+PTH_GEOLS        137 RPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVP    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      48/220 (21.8%)
+# Similarity:    65/220 (29.5%)
+# Gaps:          92/220 (41.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO         6 STSAGRNRRRRPRRGSRSAPSSADA--------------------NFRVL     35
+                     |..:|...|:.|  |...:|.|..:                    ....|
+TAF3_XENLA       229 SPKSGPKERKSP--GCAKSPKSPKSPKVPLAAPPPAIKTETPNRTPLATL    276
+
+CAPSD_CMVO        36 SQQLSR----------------LNKTLAAGRPTINHPTF-----------     58
+                     |:::.|                ||..:.:.:|:|...|.           
+TAF3_XENLA       277 SEKIGRENIQIKQNQTPLDSDQLNVEIPSKKPSIADNTIEDSIDAVIARA    326
+
+CAPSD_CMVO        59 ------------VGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSV     96
+                                 .|||  ..|..|||              .|||    ::
+TAF3_XENLA       327 CAEQEPDPFEFSSGSE--SEGEVFTS--------------PKRL----NI    356
+
+CAPSD_CMVO        97 TEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADG    146
+                     :|.....||...|  || .|..||      .||||...|.:.||....|.
+TAF3_XENLA       357 SELTTPKVSASGI--NP-GKTSST------SVPASGGTSSSDISWTMDDS    397
+
+CAPSD_CMVO       147 ASPVL--VYQYAAFGVQANN    164
+                     .:.|:  |.|.......|||
+TAF3_XENLA       398 INEVIRKVSQETPTNTPANN    417
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      28/148 (18.9%)
+# Similarity:    47/148 (31.8%)
+# Gaps:          57/148 (38.5%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        25 PSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFV----GSERC--KPGY     68
+                     |...||.:..|.::|..|.|         .||..:    .::|.  :|..
+DNLJ_CROS5        31 PIMEDAVYDQLYRELDSLEK---------EHPQLITPDSPTQRVGDQPAS     71
+
+CAPSD_CMVO        69 TFTSITLKPP--------KIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIR    110
+                     .|.|:|...|        .::....:.||.     ...|:|:        
+DNLJ_CROS5        72 QFVSVTHNIPLYSLENAFNLEELKAWEKRW-----QRSYEKE--------    108
+
+CAPSD_CMVO       111 VNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADGASPVLVYQYAAF    158
+                          :|.|..:|...|:                ||::..|.|:...|
+DNLJ_CROS5       109 -----EFTSVEYVCELKI----------------DGSALALTYENGLF    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      13/52 (25.0%)
+# Similarity:    23/52 (44.2%)
+# Gaps:          12/52 (23.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        73 ITLKPPKIDRGSYY------------GKRLLLPDSVTEYDKKLVSRIQIR    110
+                     :|||...:.|..::            ||.|||.....|.::..:|.:::|
+MUTS_MYXXD       430 VTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIEQREKERTGISSLKVR    479
+
+CAPSD_CMVO       111 VN    112
+                     .|
+MUTS_MYXXD       480 YN    481
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      27/104 (26.0%)
+# Similarity:    37/104 (35.6%)
+# Gaps:          21/104 (20.2%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        98 EYDKKLVSRIQIRVNPLPKFD--STVWVTVRKVPASSDLSVAAISAMFAD    145
+                     ||...|:..:.|..|..||..  :..|..| .:.::.||.:..|      
+NOSO_STAAC       173 EYPTSLIKEVPIEHNHYPKLRKLNLKWYAV-PIISNMDLKIGGI------    215
+
+CAPSD_CMVO       146 GASPVLVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALE    195
+                           ||..|.|    |...:.....:|..|.|.|..  |:....||.|
+NOSO_STAAC       216 ------VYPTAPF----NGWYMVTEIGVRNFIDDYRYN--LLEKVADAFE    253
+
+CAPSD_CMVO       196 TDEL    199
+                     .|.|
+NOSO_STAAC       254 FDTL    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      10/45 (22.2%)
+# Similarity:    18/45 (40.0%)
+# Gaps:           4/45 ( 8.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        49 GRPTINHPTFVGSERCKPGYTFTSITLKPPKID----RGSYYGKR     89
+                     |...:.:.|:..::....|.....:..:|..:|    ||...|||
+RBM8A_MOUSE      115 GYTLVEYETYKEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKR    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:    12/22 (54.5%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        32 FRVLSQQLSRLNKTLAAGRPTI     53
+                     |.::|..:...:.|||:..|.|
+NU4LM_ARCPU       41 FVMMSMTILSNHFTLASMAPII     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      22/100 (22.0%)
+# Similarity:    36/100 (36.0%)
+# Gaps:          24/100 (24.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       131 SSDLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLY----DLSAMRAD    176
+                     :|...:||.:.....||....::..|..|.:...:|::    .|:.:.||
+NANK_ECOLI       178 ASGRGIAAAAQGELAGADAKTIFTRAGQGDEQAQQLIHRSARTLARLIAD    227
+
+CAPSD_CMVO       177 I---------------GDMRKYAVLVYSKDDALETDELVLHVDI--EHQR    209
+                     |               |....|..||   :..|..:....|||:  .|.|
+NANK_ECOLI       228 IKATTDCQCVVVGGSVGLAEGYLALV---ETYLAQEPAAFHVDLLAAHYR    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      14/49 (28.6%)
+# Similarity:    21/49 (42.9%)
+# Gaps:           9/49 (18.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       153 YQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVL    201
+                     |....||.|:|   |.|...|      |....::.|..::.:.|.:|||
+MIAB_MYCPE        56 YHIKTFGCQSN---LRDTEVM------MGMLELIGYEYNEDVNTSDLVL     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      34/134 (25.4%)
+# Similarity:    44/134 (32.8%)
+# Gaps:          46/134 (34.3%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        23 SAPSSADANFRVLSQQLSRLNKTLAAGR----PTINHPTF--VGSERCKP     66
+                     |.||.:.|..:.|...|  ::.:|.|.:    .:||:..|  |||....|
+NADK_STAES       156 STPSGSTAYNKALGGAL--IHPSLEAMQIAEIASINNRVFRTVGSPLVLP    203
+
+CAPSD_CMVO        67 GYTFTSITLKP-------PKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQI    109
+                     .:....||  |       ..||..|...|.              |:.||.
+NADK_STAES       204 KHHTCLIT--PVNHDTIRTTIDHVSIKHKN--------------VNAIQY    237
+
+CAPSD_CMVO       110 RV----------NPLPKFDSTVWVTVRKVPASSD    133
+                     ||          .|.|     .|..|.....|||
+NADK_STAES       238 RVANEKVRFARFRPFP-----FWKRVHDSFISSD    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      41/199 (20.6%)
+# Similarity:    69/199 (34.7%)
+# Gaps:          59/199 (29.6%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         7 TSAGRNRRRRPRRGSR----SAPSSADANFRVLSQQLSRLNKTLAAGRPT     52
+                     ||...:|||:.::..:    :..|:.:|.           |:.:..|..|
+TRPG_CAEEL      1182 TSLFHSRRRKAKKNEKCDRETDASACEAG-----------NRQIQNGGLT   1220
+
+CAPSD_CMVO        53 INHPTFVGSERCKPGYTFTSITLKPPKIDRG---SYYGKR--LLLPDSVT     97
+                     ..:.||..|....|          ||...|.   |.|..|  :....||.
+TRPG_CAEEL      1221 AEYGTFGESNGVSP----------PPPYMRANSRSRYNNRSDMSKTSSVI   1260
+
+CAPSD_CMVO        98 EYDKKLVSRIQ-------IRVNPLPKFDSTVWVTVRK-------VPASSD    133
+                     ......:|::|       .|.||:.:|..|..:.:|:       .|.|:.
+TRPG_CAEEL      1261 FGSDPNLSKLQKSNITSTDRPNPMEQFQGTRKIKMRRRFYEFYSAPISTF   1310
+
+CAPSD_CMVO       134 LSVAAISAMFAD--------GASP-------VLVYQYAAFGVQANNKLL    167
+                     .|......:|..        ...|       :|:...||||::...|::
+TRPG_CAEEL      1311 WSWTISFILFITFFTYTLLVKTPPRPTVIEYILIAYVAAFGLEQVRKII   1359
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      26/86 (30.2%)
+# Similarity:    34/86 (39.5%)
+# Gaps:          12/86 (14.0%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       133 DLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLY-DLSAMRADIGDMR    181
+                     ||..||..   .||.:||..........|....||. |.|..::.||   
+MSHD_MYCMM        20 DLVTAATQ---VDGVAPVGEQVLRELAQQRTEHLLVEDQSPGKSAIG---     63
+
+CAPSD_CMVO       182 KYAVL--VYSKDDALETDELVLHVDIEHQRIPTSRV    215
+                      |..|  .:..|.|:.  |||:|.....:.|.|:.|
+MSHD_MYCMM        64 -YLNLSPAHGADAAMA--ELVVHPQARRRGIATAMV     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      26/154 (16.9%)
+# Similarity:    47/154 (30.5%)
+# Gaps:          51/154 (33.1%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        44 KTLAAG---RPTINHPT--FVGSERCKPGYTFTSITLKPPKIDRGSYYGK     88
+                     :|:..|   |.|:.|..  :||           |||:....:|..:    
+PAND_THEFY         3 RTMLNGKIHRATVTHADLHYVG-----------SITIDADLMDAAN----     37
+
+CAPSD_CMVO        89 RLLLPDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAA    138
+                                   ||...|:.|..:......|...:.....|..:.:..
+PAND_THEFY        38 --------------LVDGEQVHVVNITNGHRLVTYVLTGERGSGVIGING     73
+
+CAPSD_CMVO       139 ISAMFADGASPVLVYQYA-------------AFGVQANNKLLYDLSAMRA    175
+                     .:|........|::..|.             ...|.|||:::    |:..
+PAND_THEFY        74 AAARLVAPGDLVIIISYVQLTEAERATHRPHVVHVDANNRIV----ALGD    119
+
+CAPSD_CMVO       176 DIGD    179
+                     |:.:
+PAND_THEFY       120 DLAE    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      55/271 (20.3%)
+# Similarity:    93/271 (34.3%)
+# Gaps:          79/271 (29.2%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO         9 AGRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLN-KTLA--AGRPTINH     55
+                     |||.:...........|.....|::.|.:.|..|| .|:.  |..|.|: 
+LIPA_ASPOR        93 AGRKKEMTRLPSWLKTPIPDSKNYQRLKKDLRGLNLHTVCEEARCPNIS-    141
+
+CAPSD_CMVO        56 PTFVGSER-------------CKPGYTFTSI--TLKPPKIDRGSYYGKRL     90
+                     ..:.||::             |..|..|.|:  ..:||.:|...      
+LIPA_ASPOR       142 DCWGGSDKSAATATIMLMGDTCTRGCRFCSVKTNRRPPPLDPHE------    185
+
+CAPSD_CMVO        91 LLPDSVTEYDKK---------LVSRIQIRVNPLPKFDSTVWVTVRKVP--    129
+                       |::..|...:         .|.|..:.......|..||....:|.|  
+LIPA_ASPOR       186 --PENTAEAISRWSLGYVVLTSVDRDDLADGGARHFAETVIKIKQKKPSM    233
+
+CAPSD_CMVO       130 -------------------ASSDLSVAAISAMFADGASPVLVYQYAAFGV    160
+                                        |.|.|.|.|.:....:..:|.:..:.|.|  
+LIPA_ASPOR       234 LVECLTGDYLGDLEMVKLVARSGLDVYAHNVETVEALTPFVRDRRATF--    281
+
+CAPSD_CMVO       161 QANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELV---------L    201
+                     |.:.::|......|.|:  :.|.::::    ...||:|.:         :
+LIPA_ASPOR       282 QQSLRVLEAAKQARPDL--ITKTSLML----GFGETEEQLWDALRQLRSV    325
+
+CAPSD_CMVO       202 HVDI----EHQRIPTSRVLPV    218
+                     .||:    ::.| ||.|.:||
+LIPA_ASPOR       326 GVDVVTFGQYMR-PTKRHMPV    345
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      18/84 (21.4%)
+# Similarity:    40/84 (47.6%)
+# Gaps:          15/84 (17.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       131 SSDLSVA-----AIS-AMFADGASPV---LVYQYAAFGVQANNKLLYDLS    171
+                     :.|.|:|     ||: :.:...|||:   .:...|..|..:..:.|.|:.
+FLGI_PECAS       195 NDDFSMAQKVSDAINRSGYGGTASPLDSRTIQVLAPHGNSSQVRFLADVQ    244
+
+CAPSD_CMVO       172 AMRADIGDMRKYAVLVYSKDDALETDELVLHVDI    205
+                     .:..::| ::...|::.|:     |..:|::.|:
+FLGI_PECAS       245 NIEVNVG-IQDAKVVINSR-----TGSVVMNRDV    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      29/128 (22.7%)
+# Similarity:    45/128 (35.2%)
+# Gaps:          26/128 (20.3%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        71 TSITLKPPKIDRGSYYGKRLLLPDSVTEY---DKKLVSRIQIRVNPLPKF    117
+                     |.:|:|..|.......|...:|..|...|   |:..|:...|....:.:.
+LDH_BORAP        129 TYVTMKYSKFPIHKVIGTGTILDTSRLRYFLSDRFNVNTQNIHSYVMGEH    178
+
+CAPSD_CMVO       118 DSTVWVT-----VRKVPASSDLSVAAISAMFADGASPVLV---YQ-----    154
+                     ..:.:||     :...|.|..||...|:.:..|.....:|   |:     
+LDH_BORAP        179 GDSSFVTWDETKIAMKPLSEYLSEGKITELELDEIHKKVVNAAYEVIKLK    228
+
+CAPSD_CMVO       155 ---YAAFGVQANNKLLYDLSAMRADIGD    179
+                        |.|.|:...|       .:.|.|||
+LDH_BORAP        229 GATYYAIGLGIKN-------IVNAIIGD    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      10/45 (22.2%)
+# Similarity:    19/45 (42.2%)
+# Gaps:          15/45 (33.3%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       163 NNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHVDIEH    207
+                     |..:.|.|:.:|..:|        .:.|:|       :::.|.||
+EXGB_EMENI       112 NQMVQYGLNTIRIPVG--------YWLKED-------LVYADSEH    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       8/36 (22.2%)
+# Similarity:    19/36 (52.8%)
+# Gaps:           9/36 (25.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        82 RGSYYG------KRLLLPDSV---TEYDKKLVSRIQ    108
+                     |..|:.      :|:::.|::   .|..:|::|.:|
+KTHY_CHLP8       172 RAGYHAILEAEPQRIIMIDALLTPQEIHRKILSALQ    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      37/160 (23.1%)
+# Similarity:    59/160 (36.9%)
+# Gaps:          49/160 (30.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        46 LAAGRPTINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGK--RLL--     91
+                     :||.|.|..||      |.:|.:.:.....|..:...|....:  |||  
+SECA2_MYCTO        9 IAACRCTDTHP------RGRPAFAYRWFVPKTTRAQPGRLSSRFWRLLGA     52
+
+CAPSD_CMVO        92 ---------LPD--SVTEYDKKL--VSRIQIRVNPLPKFDSTVWVTVRKV    128
+                              |.|  :..||||:.  :|..::|       .:...:.:..:
+SECA2_MYCTO       53 STEKNRSRSLADVTASAEYDKEAADLSDEKLR-------KAAGLLNLDDL     95
+
+CAPSD_CMVO       129 PASSD----LSVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMR    174
+                     ..|:|    |::|..:|....|..|        |.||.       |.|:|
+SECA2_MYCTO       96 AESADIPQFLAIAREAAERRTGLRP--------FDVQL-------LGALR    130
+
+CAPSD_CMVO       175 ADIGDMRKYA    184
+                     ...||:.:.|
+SECA2_MYCTO      131 MLAGDVIEMA    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           3/14 (21.4%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       190 KDDALETDELVLHV    203
+                     :|..|||:   :||
+DB108_HUMAN       36 RDFCLETE---IHV     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      23/89 (25.8%)
+# Similarity:    36/89 (40.4%)
+# Gaps:          18/89 (20.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO         6 STSAGRNRRRRPRRGSRSAPSS----ADANFRVL----SQQLSRLNKTL-     46
+                     |..||.:.|.. |..||:.|..    .:.:|..|    :|:::|..|.. 
+LCMT1_CRYNB      140 SLGAGSDTRFW-RLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQ    188
+
+CAPSD_CMVO        47 -----AAGRPTINHPTFV---GSERCKPGYTFTSITLKP     77
+                          :...|...||..|   |::...|.||...:.|:|
+LCMT1_CRYNB      189 YLGPSSTAMPPPGHPYTVSKGGTQLSSPLYTLLPLDLRP    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      28/122 (23.0%)
+# Similarity:    47/122 (38.5%)
+# Gaps:          27/122 (22.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        43 NKTLAAGRPTI------NHPTFVGSERCKPG------YTFTSITLKPPKI     80
+                     ||.:|....||      ||...:.|:   .|      :...::.||....
+PTGA_SALTY        58 NKMVAPVDGTIGKIFETNHAFSIESD---SGIELFVHFGIDTVELKGEGF    104
+
+CAPSD_CMVO        81 DRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPKFDSTVW-VTVRKVP    129
+                     .|.:..|:|:.:.|.|.|:|..|:..         |..||:. |.:..:.
+PTGA_SALTY       105 KRIAEEGQRVKVGDPVIEFDLPLLEE---------KAKSTLTPVVISNMD    145
+
+CAPSD_CMVO       130 ASSDLSVAAISAMFADGASPVL    151
+                     ...:|  ..:|.....|.:||:
+PTGA_SALTY       146 EIKEL--IKLSGSVTVGETPVI    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      17/57 (29.8%)
+# Similarity:    22/57 (38.6%)
+# Gaps:          11/57 (19.3%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        12 NRRRRPRRGSRSAPSSADAN---FRVLSQQLSR-------LNKTLAAGRP     51
+                     |..|:..:...|..||.|..   :|.| |.|.|       ..:.|..|||
+RR14_CRYJA        21 NLLRQSLKKEMSEVSSLDDKLDIYRKL-QSLPRNSAPTRLRRRCLKTGRP     69
+
+CAPSD_CMVO        52 TINHPTF     58
+                     ..|:..|
+RR14_CRYJA        70 RANYRDF     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      25/155 (16.1%)
+# Similarity:    47/155 (30.3%)
+# Gaps:          47/155 (30.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        67 GYTFTSITLKPPKIDRG--SYYGKRLLLPDSVTEYDKKLVSRIQIRVNPL    114
+                     |::....||....|:.|  ..|.|......|:.:..|.|:.::       
+DCUP_BACVZ       143 GFSGAPFTLASYMIEGGPSKNYNKTKAFMHSMPQAWKMLMDKL-------    185
+
+CAPSD_CMVO       115 PKFDSTVWVTVRKVPASSDLSVAAISAMFADGASPVLVY----------Q    154
+                                      :|:.:....|....||..:.::          .
+DCUP_BACVZ       186 -----------------ADMIIVYAKAQINAGAKAIQIFDSWVGALNRED    218
+
+CAPSD_CMVO       155 YAAFGVQANNKLLYDLSAMRADI-----------GDMRKYAVLVYSKDDA    193
+                     |..|.....:::..:|||.:..:           ||.....:.|...|..
+DCUP_BACVZ       219 YRQFIKPVMDRIFRELSAEQVPLIMFGVGASHLAGDWHDLPLDVVGLDWR    268
+
+CAPSD_CMVO       194 LETDE    198
+                     |..|:
+DCUP_BACVZ       269 LGIDD    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      41/184 (22.3%)
+# Similarity:    69/184 (37.5%)
+# Gaps:          32/184 (17.4%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        16 RPRRGSRSAPSSADANFRV--LSQQLSR-----------LNKTLAAGRPT     52
+                     :||   .:.|...|.|.|:  |.:|:..           |.:.:....|.
+GTF2I_MOUSE      553 QPR---TNTPVKEDWNVRITKLRKQVEEIFNLKFAQALGLTEAVKVPYPV    599
+
+CAPSD_CMVO        53 I-NHPTFVGSERCKPGYTFTSITL----KPPKIDRGSYYGKRLL-LPDSV     96
+                     . ::|.|:..|....|..|.|.|.    :..:|.|||...|.:: .|:.|
+GTF2I_MOUSE      600 FESNPEFLYVEGLPEGIPFRSPTWFGIPRLERIVRGSNKIKFVVKKPELV    649
+
+CAPSD_CMVO        97 TEY-DKKLVSRIQIRVNPLPKFDST---------VWVTVRKVPASSDLSV    136
+                     ..| ...:.|:|..:....||...:         :.|||.....||..:.
+GTF2I_MOUSE      650 VSYLPPGMASKINTKALQSPKRPRSPGSNSKVPEIEVTVEGPNNSSPQTS    699
+
+CAPSD_CMVO       137 AAISAMFADGASPVLVYQYAAFGVQANNKLLYDL    170
+                     |..:....:|::.....:...|..:|.|..:.||
+GTF2I_MOUSE      700 AVRTPTQTNGSNVPFKPRGREFSFEAWNAKITDL    733
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      19/65 (29.2%)
+# Similarity:    25/65 (38.5%)
+# Gaps:           8/65 (12.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        74 TLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPL---PKFDST    120
+                     ||.|...|:.:|..:..|..|...|....|.||.     ||   ||.|..
+ISPH_ACIF5       150 TLAPRNPDKLAYITQTTLSMDDTAEVIVALRSRF-----PLIEGPKKDDI    194
+
+CAPSD_CMVO       121 VWVTVRKVPASSDLS    135
+                     .:.|..:..|...|:
+ISPH_ACIF5       195 CYATQNRQDAVKSLA    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        84 SYYGKRLLLPDSVTEY     99
+                     |..|..||:|...|.|
+NDUA1_HUMAN       10 SVMGVCLLIPGLATAY     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      25/141 (17.7%)
+# Similarity:    51/141 (36.2%)
+# Gaps:          47/141 (33.3%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        91 LLPDSVTEYDKKLVSRIQIRVNPLPKFDSTV----WVTVRKVPASSDLSV    136
+                     |.|.::.:||.::.:           .|.|:    .:::|.:    |.:.
+PSRP_SALTI       118 LNPGNLNKYDARIAA-----------IDYTLAHDDGISLRNL----DQAQ    152
+
+CAPSD_CMVO       137 AAISAMFADGASPVLVYQYAAFGVQANN----------------------    164
+                     ..:..:...|.:|..:|....||::|.|                      
+PSRP_SALTI       153 VILLGVSRCGKTPTSLYLAMQFGIRAANYPFIADDMDNLTLPTSLKPLQH    202
+
+CAPSD_CMVO       165 ---KLLYD---LSAMRADIGDMRKYAVLVYSKDDALETDEL    199
+                        .|..|   |:|:|.:..:..:||.|...:.:..|.:.|
+PSRP_SALTI       203 KLFGLTIDPERLAAIREERRENSRYASLRQCRMEVAEVEAL    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      30/129 (23.3%)
+# Similarity:    45/129 (34.9%)
+# Gaps:          48/129 (37.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        20 GSRSAPS---SADANFRVLSQQLSRLNKTLAAGRPTINHPTFVGSERCKP     66
+                     |:|:.||   ..|::.|::.|...|...|                   .|
+DNAK_CHESB        32 GARTTPSIVAFTDSDERLVGQPAKRQAVT-------------------NP     62
+
+CAPSD_CMVO        67 GYTFTSITLKPPKIDRGSYYGKRLL---LPDSVTEYDKKLVSRIQIRVNP    113
+                     ..||.:|              |||:   ..|.:.|.|||||....::.: 
+DNAK_CHESB        63 ENTFFAI--------------KRLIGRRFEDPMVEKDKKLVPYKIVKAD-     97
+
+CAPSD_CMVO       114 LPKFDSTVWVTVRKVPASSDLSVAAISAM    142
+                         :...||...    .:..|.:.||||
+DNAK_CHESB        98 ----NGDAWVESH----GTKYSPSQISAM    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      17/58 (29.3%)
+# Similarity:    26/58 (44.8%)
+# Gaps:          15/58 (25.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       170 LSAMRADIGDMRKYAVLVYSKD----DALETDEL---VLHVDIEHQRI--    210
+                     :.::|..|   |.:..|.|.:|    |.|..|||   :..::.||..:  
+DNLJ_ACIC5        10 IESLRESI---RHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELIT     56
+
+CAPSD_CMVO       211 ---PTSRV    215
+                        ||.||
+DNLJ_ACIC5        57 PDSPTQRV     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:     218/218 (100.0%)
+# Similarity:   218/218 (100.0%)
+# Gaps:           0/218 ( 0.0%)
+# Score: 1103.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         1 MDKSESTSAGRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGR     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CAPSD_CMVO         1 MDKSESTSAGRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGR     50
+
+CAPSD_CMVO        51 PTINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CAPSD_CMVO        51 PTINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYD    100
+
+CAPSD_CMVO       101 KKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADGASPV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CAPSD_CMVO       101 KKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADGASPV    150
+
+CAPSD_CMVO       151 LVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CAPSD_CMVO       151 LVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELV    200
+
+CAPSD_CMVO       201 LHVDIEHQRIPTSRVLPV    218
+                     ||||||||||||||||||
+CAPSD_CMVO       201 LHVDIEHQRIPTSRVLPV    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      31/139 (22.3%)
+# Similarity:    50/139 (36.0%)
+# Gaps:          45/139 (32.4%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         1 MDKSESTSAGRNRRRRPRRGSRSAPSSADANFRV--LSQQLSRLNKTLAA     48
+                     :.|.:.|:..:..|..|.....      |.:|:.  |.:.|.:.|:.   
+IF3_CHLL2         85 LKKKQKTTTLKELRFHPNTDKH------DFDFKTAHLEEFLRKGNRV---    125
+
+CAPSD_CMVO        49 GRPTINHPTFVG------------SERCKPGYTFTSITLKPPKIDRGSYY     86
+                      |.||   .|:|            :||.....:..|.....||.:     
+IF3_CHLL2        126 -RATI---VFLGRSIIYKDKGLELAERLTERLSCVSNRDGDPKFE-----    166
+
+CAPSD_CMVO        87 GKRLLLPDSVTEYDKKLV---SRIQIRVN-------PLP    115
+                     ||:|.:   ..|.|||.:   .||:.:.:       |||
+IF3_CHLL2        167 GKKLFV---YFEPDKKKIDAFERIKAKTSGPAPAPAPLP    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      16/74 (21.6%)
+# Similarity:    27/74 (36.5%)
+# Gaps:          23/74 (31.1%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       123 VTVRKVPAS----SDLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLY    168
+                     :..|||..|    .|:|:..:|..          ......||:|..    
+CSRA_HAEI8         3 ILTRKVGESVLIGDDISITVLSVR----------GNQVKLGVEAPK----     38
+
+CAPSD_CMVO       169 DLSAMRADIGDMRKYAVLVYSKDD    192
+                     ::|..|.:|     |..:..:||:
+CSRA_HAEI8        39 EVSVHREEI-----YQRIKQTKDE     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      42/189 (22.2%)
+# Similarity:    74/189 (39.2%)
+# Gaps:          55/189 (29.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        56 PTFVGSERCKPGYTFTSITLK---PPKI--DR-------GSYYGKRLLLP     93
+                     |..||     ||.. |.|.:|   |.::  ||       ...|.|.|::.
+COAX_CLOBL        85 PIIVG-----PGVK-TGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIII    128
+
+CAPSD_CMVO        94 D--------SVTEYDKKLVSRI--QIRVNPLPKFDSTV---WVTVRKVP-    129
+                     |        :||:....|...|  .|:::....||...   .|.:.|.| 
+COAX_CLOBL       129 DFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG    178
+
+CAPSD_CMVO       130 ASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMR---AD    176
+                     .....:||:|.:        .::|.||       .::.|.:|.|:   .|
+COAX_CLOBL       179 VICKNTVASIQS--------GIIYGYA-------GQVDYIVSKMKKEMMD    213
+
+CAPSD_CMVO       177 IGDMRKYAVLV--YSK---DDALETDELVLHVDIEHQRI    210
+                     :|:...:.|..  ::|   :::...||:...:.:|..|:
+COAX_CLOBL       214 LGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGLRV    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       6/36 (16.7%)
+# Similarity:    13/36 (36.1%)
+# Gaps:          10/36 (27.8%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        21 SRSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHP     56
+                     :.:|....:....:|....:::||          ||
+HOP_BOVIN          3 TETASGPTEDQVEILEYNFNKVNK----------HP     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:       8/32 (25.0%)
+# Similarity:    17/32 (53.1%)
+# Gaps:           0/32 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       187 VYSKDDALETDELVLHVDIEHQRIPTSRVLPV    218
+                     |.:|...||.:|...:.::..|.|..:|::.:
+THII_VIBA3       353 VKAKKGKLEAEEAKFNFEVLEQVIENARIMDI    384
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      25/121 (20.7%)
+# Similarity:    35/121 (28.9%)
+# Gaps:          58/121 (47.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        44 KTLAAGRPTINHPTFV-----------GSE-------RCKPGYTFTSITL     75
+                     ||..|...|:....||           .:|       :.||.||      
+RL13_PSEPG         2 KTFTAKPETVKREWFVVDAAGQTLGRLATEIATRLRGKHKPEYT------     45
+
+CAPSD_CMVO        76 KPPKIDRGSY--------------------YGKRLLLPDSVTEYD-KKLV    104
+                       |.:|.|.|                    |......|..:.|.: :||:
+RL13_PSEPG        46 --PHVDTGDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKEINFEKLI     93
+
+CAPSD_CMVO       105 SRIQIRV-----------NPL    114
+                     ::...||           |||
+RL13_PSEPG        94 AKAPERVIETAVKGMLPKNPL    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      33/152 (21.7%)
+# Similarity:    50/152 (32.9%)
+# Gaps:          74/152 (48.7%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO         3 KSESTSAGRNRRRRPRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGRPT     52
+                     ::|..:.|.|  |.|:|         ||  .||.:|||||.         
+RR2_ARATH        122 RTEQKTEGFN--RLPKR---------DA--AVLKRQLSRLE---------    149
+
+CAPSD_CMVO        53 INHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKK    102
+                         |::|..:...|                        |||.|...|::
+RR2_ARATH        150 ----TYLGGIKYMTG------------------------LPDIVIILDQQ    171
+
+CAPSD_CMVO       103 ---------------LVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVA    137
+                                    .:|.|....||    |    :....:||:.| ::|
+RR2_ARATH        172 EEYTALRECITLGIPTISLIDTNCNP----D----LADISIPANDD-AIA    212
+
+CAPSD_CMVO       138 AI    139
+                     :|
+RR2_ARATH        213 SI    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      22/84 (26.2%)
+# Similarity:    30/84 (35.7%)
+# Gaps:          17/84 (20.2%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       131 SSDLSVAAISAMFADGASPV--LVYQYAAFGVQANNKLLYDLSAMRADIG    178
+                     :.|:.:.|:    .||..|:  |..|....|:.|.    |||.|......
+Y1710_SYNP2       14 AGDMCLGAL----IDGGVPLEYLKNQLNRLGIAAE----YDLRAETVIRQ     55
+
+CAPSD_CMVO       179 DMRKYAVLVYSKDDALETDELVLHVDIEHQRIPT    212
+                     ..|...|.|..|..|       .|.|.:|.:..|
+Y1710_SYNP2       56 GQRATKVFVDLKTKA-------THHDHDHSQDQT     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      31/159 (19.5%)
+# Similarity:    58/159 (36.5%)
+# Gaps:          60/159 (37.7%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        80 IDRGSYY--------GKRLLL--------PDS---------VTEY--DKK    102
+                     :::|.::        ||.:||        |||         :|:.  :|:
+WTPC_THEKO        24 VEKGEHFIILGPSGAGKTVLLEVIAGIIEPDSGRIFLNGEDITDLPPEKR     73
+
+CAPSD_CMVO       103 LVSRIQIRVNPLPK---FDSTVW-VTVRKVPASS------DLS-------    135
+                     .::.|.......|.   ||:..: :.|||||.:.      :||       
+WTPC_THEKO        74 GLAYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVRELSEVLGISH    123
+
+CAPSD_CMVO       136 ----------------VAAISAMFADGASPVLVYQYAAFGVQANNKLLYD    169
+                                     ||...|:..:....:|...:|...||...:|:.:
+WTPC_THEKO       124 LLKRKPKTLSGGEMQRVAIARALAVEPELLLLDEPFANLDVQTRGRLINE    173
+
+CAPSD_CMVO       170 LSAMRADIG    178
+                     :...|.::|
+WTPC_THEKO       174 MKRWRKELG    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      28/125 (22.4%)
+# Similarity:    40/125 (32.0%)
+# Gaps:          40/125 (32.0%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        93 PDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDL--------    134
+                     ||:....|.|       |..|||            :|:|..|        
+GRB7_RAT          31 PDNPPPGDVK-------RSQPLP------------IPSSRKLREEEFQAT     61
+
+CAPSD_CMVO       135 SVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMRADI--GDMRK    182
+                     |:.:|...|.:..||           .:...:|...|..|..:  ...|.
+GRB7_RAT          62 SLPSIPNPFPELCSP-----------PSQKPILGGSSGARGLLPRDSSRL    100
+
+CAPSD_CMVO       183 YAVLVYSKDDALETDELVLHVDIEH    207
+                     ..|.|||:|.|..:.|:.......|
+GRB7_RAT         101 CVVKVYSEDGACRSVEVAAGATARH    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    15/39 (38.5%)
+# Gaps:          11/39 (28.2%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       120 TVWVT------VRKVPASSDLSVAAISAMFADGASPVLV    152
+                     |:|..      ||..|....|.||.     |||...::|
+PSD_RHOPS         47 TIWCALFFRDPVRVTPVREGLVVAP-----ADGRVSMVV     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      23/97 (23.7%)
+# Similarity:    40/97 (41.2%)
+# Gaps:          17/97 (17.5%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       101 KKLVSRIQIRVNPLPKFDSTVWVTVRKVPAS----SDLSVAAISAMFADG    146
+                     :::||  :.:|||    |:..:.|:.|..:.    |||....:. |..:|
+PP156_ARATH      228 ERMVS--EFKVNP----DNVTYNTILKAMSKKGRLSDLKELLLD-MKKNG    270
+
+CAPSD_CMVO       147 ASP------VLVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLV    187
+                     ..|      .|||.|...|.......:.:|......:.|:..|.:|:
+PP156_ARATH      271 LVPNRVTYNNLVYGYCKLGSLKEAFQIVELMKQTNVLPDLCTYNILI    317
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        32 FRVLSQQLSRLNKT     45
+                     |:|..:||.:::|:
+ADRB2_MESAU      223 FQVAKRQLQKIDKS    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       5/16 (31.2%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       194 LETDELVLHVDIEHQR    209
+                     ||..:|.:.:|.::.|
+ID5B_ADEPA         1 LECKDLGISIDDDNNR     16
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      23/96 (24.0%)
+# Similarity:    37/96 (38.5%)
+# Gaps:          30/96 (31.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        51 PTINHPTFVGSE------RCK-----------PGYTFTSITLKPPKIDRG     83
+                     |.::.|.:|.||      |.|           .|.||..|.:...:.:|.
+GPA7_CAEEL       159 PRLSSPNYVPSEQDLLRTRIKTTGITEVLFELKGLTFRVIDVGGQRSERK    208
+
+CAPSD_CMVO        84 SYYG-----KRLLLPDSVTEYDKKL-----VSRIQIRVNPLPKFDS    119
+                     .:..     ..::...|::|||:.|     .:|:|   ..|..|||
+GPA7_CAEEL       209 KWIHCFDNVNAIIFISSLSEYDQTLREDNCTNRMQ---ESLKLFDS    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    25/64 (39.1%)
+# Gaps:          18/64 (28.1%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO       160 VQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHV------    203
+                     :|..:.:|  |:|.....|.:.|||.         .|.:..||:      
+IDI_ECO24          1 MQTEHVIL--LNAQGVPTGTLEKYAA---------HTADTRLHLAFSSWL     39
+
+CAPSD_CMVO       204 -DIEHQRIPTSRVL    216
+                      :.:.|.:.|.|.|
+IDI_ECO24         40 FNAKGQLLVTRRAL     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      16/88 (18.2%)
+# Similarity:    29/88 (33.0%)
+# Gaps:          31/88 (35.2%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       121 VWVTVRKVPASSDLSVAAISA--------------------------MFA    144
+                     ||....|....:|:..:|:|.                          .:.
+YHJA_ECOLI        26 VWYHDNKRSKQADVQASAVSENNKVLGFLREKGCDYCHTPSAELPAYYYI     75
+
+CAPSD_CMVO       145 DGASPVLVYQ----YAAFGVQA-NNKLLYDLSAMRADI    177
+                     .||..::.|.    |.:|.::| ...||.|....::|:
+YHJA_ECOLI        76 PGAKQLMDYDIKLGYKSFNLEAVRAALLADKPVSQSDL    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      24/72 (33.3%)
+# Similarity:    30/72 (41.7%)
+# Gaps:          18/72 (25.0%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        34 VLSQQLSRLNKTLAAGRPTINHPTFVGSERCKPGYTFTSITLKPPKIDRG     83
+                     |.|..|.|..|.||      :...|.|||        ..||||.|...|.
+RIMP_BURPS        67 VSSPGLDRPLKKLA------DFTRFAGSE--------AVITLKKPLDGRK    102
+
+CAPSD_CMVO        84 SYYGKRLLLPDSVT---EYDKK    102
+                     :|.| .|..|:..|   |:::|
+RIMP_BURPS       103 TYRG-ILHAPNGETIGLEFERK    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       6/20 (30.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO         1 MDKSESTSAGRNRRRRPRRG     20
+                     ||.:.:.:..||.:...|.|
+RS28_OSTOS        31 MDDNGNRTINRNVKGPVREG     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      21/84 (25.0%)
+# Similarity:    34/84 (40.5%)
+# Gaps:          15/84 (17.9%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        86 YGKRLL--LPDSVTEYDKKLVS--------RIQIRVNP--LPKFDSTVWV    123
+                     :||:::  |.|:|...|....|        ...:||:|  .....:.:.|
+HBAC_LITCT        59 HGKKVMNALTDAVKHLDHPEASLSSLSDLHAFTLRVDPGNFALLSNNILV    108
+
+CAPSD_CMVO       124 TVRKVPASSDLSVAAISAM--FADGASPVLVYQY    155
+                     .| .|..|..||.....|:  |.:..|.:|..:|
+HBAC_LITCT       109 VV-AVHHSDKLSYETHQALDKFLNVVSGLLTSKY    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      37/132 (28.0%)
+# Similarity:    53/132 (40.2%)
+# Gaps:          38/132 (28.8%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        20 GSRSAPSSA--DANFRVLSQQLSR-LNKTLAAG--RPTINHPTFVGSERC     64
+                     |:.|..||:  |.:|   :|.|.: |:.:|||.  :.|.:.|.:|.. ||
+RPOA_PRRSS       802 GTESGDSSSPLDLSF---AQTLDQPLDLSLAAWPVKATASDPGWVRG-RC    847
+
+CAPSD_CMVO        65 KPGYTFTSITLKPPKI----DRGSYYGKRLLLPDSVTEYDKKLVSRIQIR    110
+                     :|      :.|||.|.    |....:|: |....||.|            
+RPOA_PRRSS       848 EP------VFLKPRKAFSDGDSALQFGE-LSESSSVIE------------    878
+
+CAPSD_CMVO       111 VNPLPKFDSTVWVTVRKVPASSDLSVAAISAM    142
+                           ||.|....|...|.....|..|:||:
+RPOA_PRRSS       879 ------FDQTKDTLVADAPVDLTTSNEALSAV    904
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      16/56 (28.6%)
+# Similarity:    28/56 (50.0%)
+# Gaps:          10/56 (17.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       159 GVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHVDIEHQ    208
+                     ||::.|::| |::....|:  .|:::.||.      .|.|:|| .||...
+UBIE_PSEAE        65 GVRSGNRVL-DIAGGTGDL--TRQFSRLVG------PTGEVVL-ADINAS    104
+
+CAPSD_CMVO       209 RIPTSR    214
+                     .:...|
+UBIE_PSEAE       105 MLKVGR    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      25/132 (18.9%)
+# Similarity:    52/132 (39.4%)
+# Gaps:          28/132 (21.2%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        67 GYTFTSITLKPPKIDRGSYYGKRLLLPDSV--TEYDKKLVSRIQIRVNP-    113
+                     |::...:.:.|.:...|...|.::||.:.:  |:....:|.::   |:| 
+FLII_AQUAE        66 GFSGDKVLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKV---VDPF    112
+
+CAPSD_CMVO       114 ------------------LPKFDSTVWVTVRKVPASSDLSVAAISAMFAD    145
+                                       ||:.:......:|:|   .|..|.:::|:|..
+FLII_AQUAE       113 GNPLDGGFIGFVEEKGLELPQINPLYRERIREV---FDTGVRSVNALFTL    159
+
+CAPSD_CMVO       146 GASPVLVYQYAAFGVQANNKLLYDLSAMRADI    177
+                     |....:.. :|..||..:..|.......:||:
+FLII_AQUAE       160 GKGQKIGI-FAGAGVGKSTLLGMITRHSKADV    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      21/108 (19.4%)
+# Similarity:    35/108 (32.4%)
+# Gaps:          24/108 (22.2%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        35 LSQQLSRLNKTLA------AGRPTINHPTFVGSER---CKPGYTFTSITL     75
+                     :.||:.:|.:...      .|:|.::|...|....   ..||.:.||...
+MSS11_VANPO      523 MMQQMQQLQQQQQQALQQNTGKPQLSHQFVVPVNNQVVTTPGGSSTSART    572
+
+CAPSD_CMVO        76 KPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTV    125
+                     |...               ..|..:||.:..:..:.|.....:|...:..
+MSS11_VANPO      573 KSNA---------------RSTNTNKKKMETVSKKNNKRSDINSPATIVP    607
+
+CAPSD_CMVO       126 RKVPASSD    133
+                     ...|.|||
+MSS11_VANPO      608 ISTPTSSD    615
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      22/93 (23.7%)
+# Similarity:    36/93 (38.7%)
+# Gaps:          30/93 (32.3%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        73 ITLKPP--------KIDRGSYYGKR-----LLLPDSVTEYDKKLVSRIQI    109
+                     :.:.||        :..|....|:|     ||.|....:|    ||.:::
+SPB4_ASPFU       372 VQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLHPGREEDY----VSFLEV    417
+
+CAPSD_CMVO       110 RVNPLPKFDSTVWVTVRKVPASSDLSVAAIS-----AMFADGA    147
+                     |..|:..|..::        :.||...||.:     |:.||.|
+SPB4_ASPFU       418 RKTPVVPFSPSI--------SFSDADAAAATATARKAVLADRA    452
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      30/158 (19.0%)
+# Similarity:    49/158 (31.0%)
+# Gaps:          67/158 (42.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        54 NHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKKL    103
+                     |.||       |..|.:|    :.|.|:.|        :||.|       
+ASSY_MYCTO       195 NAPT-------KDIYAYT----EDPTINWG--------VPDEV-------    218
+
+CAPSD_CMVO       104 VSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAISAM----FADGASP    149
+                               :..|:..|.|:|...|.|   .:|||..:    .|.|...
+ASSY_MYCTO       219 ----------IVGFERGVPVSVDGKPVS---MLAAIEELNRRAGAQGVGR    255
+
+CAPSD_CMVO       150 VLVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDEL    199
+                     :.|.:....|:::..                      :|....|:..  :
+ASSY_MYCTO       256 LDVVEDRLVGIKSRE----------------------IYEAPGAMVL--I    281
+
+CAPSD_CMVO       200 VLHVDIEH    207
+                     ..|.::||
+ASSY_MYCTO       282 TAHTELEH    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      30/125 (24.0%)
+# Similarity:    49/125 (39.2%)
+# Gaps:          35/125 (28.0%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        20 GSRSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFVGSER------     63
+                     |:.|.|.:      |.|::|:|::|..:.|.|...:.|..|:..      
+ECCB1_MYCS2      109 GNASNPVA------VKSEELNRISKGQSIGIPGAPYATPTGTPASQWTLC    152
+
+CAPSD_CMVO        64 ---CKPGYTF----TSITLKPPKIDRG------------SYYGKRLLLPD     94
+                        .||..:.    |||.::...||.|            ||.|...|:.:
+ECCB1_MYCS2      153 DTVAKPDSSAPKVETSILIRTLAIDSGVGPIRADQGMLVSYEGANWLITE    202
+
+CAPSD_CMVO        95 ----SVTEYDKKLVSRIQIRVNPLP    115
+                         |:...|:.:.|.:.|.|...|
+ECCB1_MYCS2      203 GGRHSIDLADRAVTSAVGIPVTAKP    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      34/166 (20.5%)
+# Similarity:    54/166 (32.5%)
+# Gaps:          57/166 (34.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO         8 SAGRNRRRRPRRGSRS-------------APSSADANFRVLSQQL--SRL     42
+                     |||...|...:.||.:             .||  :...::|.:.:  |..
+KCY4_ORYSJ        57 SAGDLLRAEIKSGSENGTMIENMIKEGKIVPS--EVTIKLLQEAMIKSGN    104
+
+CAPSD_CMVO        43 NKTLAAGRP--TINHPTFVGSERCKPGYTFTSITLKPPKIDRGSYYGKRL     90
+                     :|.|..|.|  ..|...|....:..|.:.                    |
+KCY4_ORYSJ       105 DKFLIDGFPRNEENRAAFENVTKITPAFV--------------------L    134
+
+CAPSD_CMVO        91 LLPDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAIS    140
+                     ....|..|.:::|:.|.|.||      |..: .|:||           ..
+KCY4_ORYSJ       135 FFDCSEEEMERRLLGRNQGRV------DDNI-ETIRK-----------RF    166
+
+CAPSD_CMVO       141 AMFADGASPVLVYQYA    156
+                     .:|.:.:.||:.|..|
+KCY4_ORYSJ       167 KVFVESSLPVIEYYNA    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      13/64 (20.3%)
+# Similarity:    18/64 (28.1%)
+# Gaps:          19/64 (29.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO        29 DANFRVLSQQLSRLNKTLAAGRPTINHPTFVGSERCKPGYTFTSITLKPP     78
+                     |...:|....|..:....|....|..|||                   |.
+HCP_TRIV2        197 DLTLKVGQMNLKAMELLDAGNTETFGHPT-------------------PT    227
+
+CAPSD_CMVO        79 KIDRGSYYGKRLLL     92
+                     .:..|...||.:|:
+HCP_TRIV2        228 TVPLGHTVGKAILV    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:      34/137 (24.8%)
+# Similarity:    49/137 (35.8%)
+# Gaps:          53/137 (38.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+CAPSD_CMVO        49 GRPTINHPTFVGSERCKPGYTF-----TSITLKPPKIDRGSYYGKRLLLP     93
+                     |.|.:   ||..|:..|...|.     :::.|||.:......        
+UBX7_YEAST       262 GIPRV---TFKDSDELKTLETLELTPRSALLLKPLETQNSGL--------    300
+
+CAPSD_CMVO        94 DSVTEYD-KKLVSRIQIRVNPLPKFDSTVW-------VTVRK--------    127
+                      |||..: ..|:.|       |.|..||.|       ||.::        
+UBX7_YEAST       301 -SVTGMEGPSLLGR-------LYKGFSTWWHNDKDPEVTSQREETSKPNR    342
+
+CAPSD_CMVO       128 --VPASSDLSVAAISAMF-----------ADGASPVL    151
+                       |.:|:.||.||.|:.|           :..|||:|
+UBX7_YEAST       343 HEVRSSTPLSGAASSSCFQYNNVREPVQSSAHASPML    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      17/73 (23.3%)
+# Similarity:    37/73 (50.7%)
+# Gaps:          18/73 (24.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       109 IRVNPLPK-FDSTVWVTVRKVPASSDLSVAAISAMFADGASPVLVYQYAA    157
+                     |...||.: |..|:...:|:|..|| |..||::::..||    :::::::
+RPOA_ACICJ        36 IIAEPLERGFGLTLGNALRRVLLSS-LHGAAVTSVRIDG----VLHEFSS     80
+
+CAPSD_CMVO       158 FGVQANNKLLYDLSAMRADIGDM    180
+                                 ::.:|.|:.|:
+RPOA_ACICJ        81 ------------IAGVREDVTDI     91
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      14/54 (25.9%)
+# Similarity:    23/54 (42.6%)
+# Gaps:          10/54 (18.5%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       147 ASPVLVYQYAAFGVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALET    196
+                     :|.:|:.|...||.....:|   ..:.:.||..:.:.|.       |||.
+YXAD_BACSU        37 SSYLLLRQLDEFGPARVKEL---AESFKLDISTLSRQAA-------ALEA     76
+
+CAPSD_CMVO       197 DELV    200
+                     .||:
+YXAD_BACSU        77 KELI     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CAPSD_CMVO
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      29/128 (22.7%)
+# Similarity:    44/128 (34.4%)
+# Gaps:          31/128 (24.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+CAPSD_CMVO       108 QIRVNPLPKFDSTV-------------WVTVRKVPASSD-LSVAAISAMF    143
+                     :.::..:|.|..||             |:|..|.....| |.|.|:.|:.
+FADB_SHESR       139 ETKLGIIPGFGGTVRLPRVIGADNALEWITTGKDQRPEDALKVGAVDAVV    188
+
+CAPSD_CMVO       144 ADGASPVLVYQYAAFGVQANNKLLYDLSAMRAD--IGDMRKYAVLVYSKD    191
+                     |..|......|           :|.|..|.:.|  ....||.:.|...|.
+FADB_SHESR       189 APEALEAAAIQ-----------MLKDAVAEKLDWQARRHRKMSPLTLPKL    227
+
+CAPSD_CMVO       192 DAL----ETDELVLHVDIEHQRIPTSRV    215
+                     :|:    ....:|..|..:|...|.:.|
+FADB_SHESR       228 EAMMSFTTAKGMVFAVAGKHYPAPMAAV    255
+
+
+#---------------------------------------
+#---------------------------------------

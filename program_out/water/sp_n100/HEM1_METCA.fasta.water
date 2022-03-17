@@ -1,0 +1,3388 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:30
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/HEM1_METCA.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/HEM1_METCA.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/HEM1_METCA.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      24/93 (25.8%)
+# Similarity:    39/93 (41.9%)
+# Gaps:          20/93 (21.5%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+HEM1_METCA       345 DVRRQAELHRD--AALQRALRELRRGKSAEDT---LRWLADTLTN-KIIH    388
+                     |:....:|.:|  ..:..||..:  |:...||   ..::.|...| |:|:
+PUR7_VIBVU       211 DIALYEKLLKDGFGVISEALANV--GQIFVDTKFEFGYVTDAAGNEKLIY    258
+
+HEM1_METCA       389 ------APSSQIWQAGVNERADIVAAARELFQ------LKDPD    419
+                           ..||:||.|...:...||..::|.|:      ..|||
+PUR7_VIBVU       259 MDEVGTPDSSRIWDAQEYQAGKIVENSKEGFRQFLLNYFPDPD    301
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    13/29 (44.8%)
+# Gaps:           4/29 (13.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+HEM1_METCA        12 TAPVSIRERLAFPAE----QLQSALRDLI     36
+                     ||...:.|.|..|..    :|..|.|:||
+Y075_NITWN        12 TADPKLLEILVCPVTKGPLELDGARRELI     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      38/164 (23.2%)
+# Similarity:    54/164 (32.9%)
+# Gaps:          70/164 (42.7%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+HEM1_METCA       187 GAGETIELTARHLTENRIGHLIIANRTFDRAHTLAN----------QFGG    226
+                     ||.|.:.||..  ....||:|      |.||..|.:          .|||
+Y3584_PSEAB       10 GAAEPVRLTTP--LGQAIGNL------FARALPLLDGNPPGSLKVFVFGG     51
+
+HEM1_METCA       227 FAISL-------------EELPKHLAKADIIVAST---------GSPLPI    254
+                     .|:.|             .|..:.|.|.:|:...|         |..|.:
+Y3584_PSEAB       52 CAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQV    101
+
+HEM1_METCA       255 LGKGSFESAL-------RSRR--------HKPMFI-----VDLAVPR---    281
+                     ....::.:||       |.|.        .:|:.|     ||||:.:   
+Y3584_PSEAB      102 YLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGR    151
+
+HEM1_METCA       282 -------DIEPEVE    288
+                            |||..:|
+Y3584_PSEAB      152 FTENDQYDIEQLIE    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      13/43 (30.2%)
+# Similarity:    16/43 (37.2%)
+# Gaps:          15/43 (34.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+HEM1_METCA        86 LYSHFDAGTIRHMFRVACGLDSMILGEPQILGQMKTAYQAARE    128
+                     :|:.||...           |...||...||.|:    |.|||
+BPT_HAHCH        169 IYTFFDPNE-----------DKRALGVYAILWQL----QFARE    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      54/251 (21.5%)
+# Similarity:    79/251 (31.5%)
+# Gaps:          90/251 (35.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILT--LGVNHTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILS     48
+                     |.:.|  ||:.:..|...:.: .|||.:...|.:|| .|...||.|.|..
+KDPC_CAUVN        12 MGLFTVLLGLAYPLAVTGVAQ-AAFPNQANGSLIRD-ADGKVVGSALIGQ     59
+
+HEM1_METCA        49 TCNRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIRHM     98
+                     ...:.|                                |.|         
+KDPC_CAUVN        60 VFAKPE--------------------------------YFH---------     68
+
+HEM1_METCA        99 FRVACGLDSMILGEPQILGQMKTAYQAAREAGT-VGKILTKLFHR--TFA    145
+                                 |.|...|   ..|.|:..:|: :|.:...|..|  |.|
+KDPC_CAUVN        69 ------------GRPSAAG---AGYDASASSGSNMGPLNETLIARLKTDA    103
+
+HEM1_METCA       146 AAKKVR-----------TDTAIG----CSPVSVAFAAIRLAQRIFDDLGD    180
+                     ||.:..           |.:..|    .||.:..|.|.|:|........|
+KDPC_CAUVN       104 AALRAENPGVAIPADAVTTSGSGLDPDISPANARFQAPRVAGARGVPEKD    153
+
+HEM1_METCA       181 LTAILVGAGETIELTARHLTENRIG----HLIIANRTFD-RAHTLANQFG    225
+                     :||:       |:...:......||    :::..||..| |...||:|..
+KDPC_CAUVN       154 VTAL-------IDAQVQQPLLGFIGQPRVNVLALNRALDARYPPLASQKD    196
+
+HEM1_METCA       226 G    226
+                     |
+KDPC_CAUVN       197 G    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      32/141 (22.7%)
+# Similarity:    55/141 (39.0%)
+# Gaps:          44/141 (31.2%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+HEM1_METCA        53 TEVYC-----ELDGRDQRPIVD-----WMCDQRQFDDQD-ISQYLYSHFD     91
+                     ||::.     ::.|.|...|:.     |:.|....:..| ::..|.::.|
+LPXH_XYLFM        19 TELFLRFLREQVSGADALYILGDLFEVWIGDDMPSEVADMVAAALRTYAD     68
+
+HEM1_METCA        92 AGT------------------IRHMFRV---ACGLDSMILGEPQIL--GQ    118
+                     |||                  .|..||:   .|.:|  :.|||.:|  |.
+LPXH_XYLFM        69 AGTPLYFMPGNRDFLVGADYAARAGFRILPDPCVVD--LYGEPTLLLHGD    116
+
+HEM1_METCA       119 M----KTAYQA----AREAGTVGKILTKLFHRTFAAAKKVR    151
+                     :    ..||||    .|:...:.:.||:......|.:::.|
+LPXH_XYLFM       117 LLCTDDIAYQAFRAQTRDPEFIAQFLTQTLSARLAFSQQAR    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      13/53 (24.5%)
+# Similarity:    25/53 (47.2%)
+# Gaps:           5/53 ( 9.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+HEM1_METCA       157 GCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGH    206
+                     |.|.:.:.|..: |:.....:...|...|||:|    ||.:.:.:..:|.
+YERI_SCHPO        15 GLSLIGIVFLLV-LSYLFSIEAETLMHDLVGSG----LTGKQVAKTCLGA     59
+
+HEM1_METCA       207 LII    209
+                     ::|
+YERI_SCHPO        60 VVI     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      61/265 (23.0%)
+# Similarity:    98/265 (37.0%)
+# Gaps:          58/265 (21.9%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+HEM1_METCA        24 PAEQLQSAL-RDLIDL---PQVGEAAILSTCNRTEVYCELDGRDQRPIVD     69
+                     ||:.:::.: |::.||   .|..||     |:.|||.          .|:
+RBSA_RUEST       231 PADVVRAMVGREIGDLYPEKQRPEA-----CSTTEVL----------RVE    265
+
+HEM1_METCA        70 WMCDQRQFDDQDISQYLYSHFD-AGTI----RHMFRVACGLDSMIL----    110
+                     .:|:..:|.|...|.:...... ||.|    ..:.:..|.|:..:.    
+RBSA_RUEST       266 NLCEAERFHDVSFSLHKGEILGFAGLIGAGRSEIAKGVCALEGQVTGRLW    315
+
+HEM1_METCA       111 --GEPQILGQMKTAYQAAREAGTV---------GKILTKLFHRTFAAAKK    149
+                       |||..|..    ||.:.:||.|         |..|........:|.|.
+RBSA_RUEST       316 LNGEPLALRD----YQDSIDAGIVYLSEDRKGDGVFLDMSIASNVSALKV    361
+
+HEM1_METCA       150 VRTDTAIG-CSPVSVAFAAIRLAQRI---FDDLGDLTAILVGAGETIELT    195
+                     .:..:|:| ..|......|.||.:::   ...|.|..:.|.|..:.....
+RBSA_RUEST       362 EQVASALGLIQPGREIEQADRLGRKLNLKCGTLQDPVSSLSGGNQQKVAL    411
+
+HEM1_METCA       196 ARHLTEN-RIGHLIIANRTFDRA---------HTLANQFGGFAISLEELP    235
+                     |:.|:.| |:..|....|..|..         ..||.:..|..:...|||
+RBSA_RUEST       412 AKMLSVNPRLIFLDEPTRGVDVGAKAEIYRILRDLAEEGAGIVVISSELP    461
+
+HEM1_METCA       236 KHLAKAD-IIVASTG    249
+                     :.:...| ::|...|
+RBSA_RUEST       462 ELIGLCDRVLVIHEG    476
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       5/5 (100.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+HEM1_METCA       175 FDDLG    179
+                     |||||
+KR195_HUMAN       18 FDDLG     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      24/104 (23.1%)
+# Similarity:    36/104 (34.6%)
+# Gaps:          40/104 (38.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+HEM1_METCA       129 AGTVGKILTKLFHRTFAAAKKVR-------TDTAIGCSPVS---------    162
+                     |..:.||||..|...|  .||.|       ....:|..|||         
+UPPP_CORDI        68 AKDIAKILTGWFRGLF--DKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDI    115
+
+HEM1_METCA       163 ---------------VAFAAIRLA-------QRIFDDLGDLTAILVGAGE    190
+                                    :||:.:.:|       :|.||.|....|:::|..:
+UPPP_CORDI       116 IRDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQ    165
+
+HEM1_METCA       191 TIEL    194
+                     .:.|
+UPPP_CORDI       166 CLAL    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      28/106 (26.4%)
+# Similarity:    43/106 (40.6%)
+# Gaps:          26/106 (24.5%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+HEM1_METCA       331 LSWLRAQAATETIRDVRRQAEL---HRDAALQ---RALRELRRGKSAEDT    374
+                     |::|..:...|..:.|...|.|   ..:|..|   :.|||:.|      .
+GREB_ECO57        18 LNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLREIDR------R     61
+
+HEM1_METCA       375 LRWLADTLTN-KII-HAPSSQ------IW-----QAGVNERADIVAAARE    411
+                     :|:|...:.| ||: ::|..:      .|     ..||..|..|| ...|
+GREB_ECO57        62 VRYLTKCMENLKIVDYSPQQEGKVFFGAWVEIENDDGVTHRFRIV-GYDE    110
+
+HEM1_METCA       412 LFQLKD    417
+                     :|..||
+GREB_ECO57       111 IFGRKD    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      39/202 (19.3%)
+# Similarity:    66/202 (32.7%)
+# Gaps:          82/202 (40.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+HEM1_METCA       106 DSMILGEPQILGQMKTA---------------YQAAREAGTVGKILTKLF    140
+                     |.:.| .|::..|::|.               :|.|:   .||.|.|:  
+TGT_LEPCP        119 DKLFL-TPEVSMQIQTVLNSDIVMQFDECTPYWQGAK---NVGHITTE--    162
+
+HEM1_METCA       141 HRTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAIL-VGAG    189
+                            |:.|....:     |:.:||...|:  |..||:..|:. :..|
+TGT_LEPCP        163 -------KEARVSMEL-----SLRWAARSKAE--FARLGNPNALFGIVQG    198
+
+HEM1_METCA       190 ETIELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLA    239
+                     ...|    .|.|..:..|:..:            |.|:|:.         
+TGT_LEPCP        199 GMFE----SLREESLNALVELD------------FPGYAVG---------    223
+
+HEM1_METCA       240 KADIIVASTGSPLPILGKGSFESALRSRRH--------KPMFIVDLAVPR    281
+                          ..|.|.|.        :..||...|        ||.:::.:..|.
+TGT_LEPCP        224 -----GVSVGEPK--------DEMLRIMNHTPHLLPADKPRYLMGVGTPE    260
+
+HEM1_METCA       282 DI    283
+                     |:
+TGT_LEPCP        261 DL    262
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      45/236 (19.1%)
+# Similarity:    83/236 (35.2%)
+# Gaps:          70/236 (29.7%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+HEM1_METCA       209 IANRTFDRAHTLANQFGGFAISLEELPKHLAK-ADIIVASTGSPLPILGK    257
+                     |:.|||                 ||:.:.:|. .|:..|...  |.:.||
+CBPQ_HUMAN        28 ISKRTF-----------------EEIKEEIASCGDVAKAIIN--LAVYGK     58
+
+HEM1_METCA       258 GSFESALRSRRHKPM-FIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVE    306
+                     .      ::|.::.: .:||...||             |....:|:..::
+CBPQ_HUMAN        59 A------QNRSYERLALLVDTVGPR-------------LSGSKNLEKAIQ     89
+
+HEM1_METCA       307 ENLKTRQEAALQAEEIIDLEVEHFLSWLRAQAATETIRDVRRQAELHRDA    356
+                     ...:..|:..|:...:..:.:.|   |.|.:.:.     |..:..:|:.|
+CBPQ_HUMAN        90 IMYQNLQQDGLEKVHLEPVRIPH---WERGEESA-----VMLEPRIHKIA    131
+
+HEM1_METCA       357 --ALQRALRELRRGKSAE-------DTLRWLADTLTNKII--------HA    389
+                       .|..::.....|.:||       |.|:..|.....||:        ::
+CBPQ_HUMAN       132 ILGLGSSIGTPPEGITAEVLVVTSFDELQRRASEARGKIVVYNQPYINYS    181
+
+HEM1_METCA       390 PSSQIWQAGVNERADIVAAAREL-----FQLKDPDT    420
+                     .:.|....|..|.|.:.|.|..:     |.:..|.|
+CBPQ_HUMAN       182 RTVQYRTQGAVEAAKVGALASLIRSVASFSIYSPHT    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      32/155 (20.6%)
+# Similarity:    53/155 (34.2%)
+# Gaps:          43/155 (27.7%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+HEM1_METCA        67 IVDWMCDQRQFDDQDISQYLYSHFDAGTIRHMFRVACGLDSMILGEPQIL    116
+                     :..|:.|:.|         :|:       :|.:....|:.:|:||.....
+PSA6_SOYBN       114 LAKWIADKSQ---------VYT-------QHAYMRPLGVVAMVLGIDDEY    147
+
+HEM1_METCA       117 G-QMKTAYQAAREAGTVGKILTKLFHRTFAAA-----------KKVRTDT    154
+                     | |:.....|....|          |:..:|.           ||::.|.
+PSA6_SOYBN       148 GPQLYKCDPAGHYFG----------HKATSAGLKDQEAINFLEKKMKNDP    187
+
+HEM1_METCA       155 AIGC-SPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENR    203
+                     :... ..|..|.:|:   |.:..:....|.|.||.........|.||.:.
+PSA6_SOYBN       188 SFTYEETVQTAISAL---QSVLQEDFKATEIEVGVVRKDNPEFRVLTTDE    234
+
+HEM1_METCA       204 IG-HL    207
+                     |. ||
+PSA6_SOYBN       235 IDEHL    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 369
+# Identity:      77/369 (20.9%)
+# Similarity:   134/369 (36.3%)
+# Gaps:         104/369 (28.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+HEM1_METCA        74 QRQFDDQDISQYLYSHFDAGTIRHMFRVACGLDSMIL--GE--PQILGQM    119
+                     :|.|::...|:...|:.:...:..||      |.::|  ||  ||.|  :
+SCL34_ARATH      178 ERDFEEVRSSKQFASNVEDSKVTDMF------DKVLLLDGECDPQTL--L    219
+
+HEM1_METCA       120 KTAYQAAREAGTVGK--------------ILTKLFHRTFAAAKKVRTDTA    155
+                     .:..||.|.:..:|:              ..|.|.|    .|:.:.|   
+SCL34_ARATH      220 DSEIQAIRSSKNIGEKGKKKKKKKSQVVDFRTLLTH----CAQAIST---    262
+
+HEM1_METCA       156 IGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRI-    204
+                      |....::.| .:::.|: ...|||       ||:.:.....:..|.|: 
+SCL34_ARATH      263 -GDKTTALEF-LLQIRQQ-SSPLGD-------AGQRLAHCFANALEARLQ    302
+
+HEM1_METCA       205 ---GHLIIANRTFDRA------HTLANQFGGFAISLEELP----KHLAKA    241
+                        |.:|   :|:..|      .|.|:....:.:.|...|    .:....
+SCL34_ARATH      303 GSTGPMI---QTYYNALTSSLKDTAADTIRAYRVYLSSSPFVTLMYFFSI    349
+
+HEM1_METCA       242 DII--VASTGSPLPILGKG---SFESALRSRRHKPMFIVDLA----VPRD    282
+                     .:|  ||.....|.|:..|   .|:        .||||..::    |||.
+SCL34_ARATH      350 WMILDVAKDAPVLHIVDFGILYGFQ--------WPMFIQSISDRKDVPRK    391
+
+HEM1_METCA       283 IEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLS    332
+                     :.....:|........:.::.|      .|:.|.......:..|.:...|
+SCL34_ARATH      392 LRITGIELPQCGFRPAERIEET------GRRLAEYCKRFNVPFEYKAIAS    435
+
+HEM1_METCA       333 --WLRAQAATETIR----DVRRQAELHRDAALQRALRELRRGKSAED---    373
+                       |       ||||    |:|....|..:|.|:  |:.|:....:|:   
+SCL34_ARATH      436 QNW-------ETIRIEDLDIRPNEVLAVNAGLR--LKNLQDETGSEENCP    476
+
+HEM1_METCA       374 ---TLRWLADTLTNKIIHA    389
+                        .|:.:.:...:..|||
+SCL34_ARATH      477 RDAVLKLIRNMNPDVFIHA    495
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           2/15 (13.3%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+HEM1_METCA       317 LQAEEIIDLEVEHFL    331
+                     :||.|  ||..||::
+NDKA_CANLF        41 IQASE--DLLKEHYI     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      15/59 (25.4%)
+# Similarity:    28/59 (47.5%)
+# Gaps:           4/59 ( 6.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+HEM1_METCA       185 LVGAGETIEL--TARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISL-    231
+                     |.||.:.|.:  :|.|....||.::.:..:. ::|........|..:|: 
+RS4_CAEEL        200 LPGASDIIHIKDSAGHSFATRISNVFVIGKG-NKALVSLPTGAGIRLSIA    248
+
+HEM1_METCA       232 EELPKHLAK    240
+                     ||..|.:|:
+RS4_CAEEL        249 EERDKRMAQ    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      27/115 (23.5%)
+# Similarity:    47/115 (40.9%)
+# Gaps:          29/115 (25.2%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+HEM1_METCA       280 PRDIEPEVEQLQDV---------YLYTVDD---LQHTVEENLKTRQE---    314
+                     |..:.|..|||:::         .|.|:.:   ::|..||..:..:|   
+G45IP_CHLAE       72 PGSLWPSPEQLRELEAEEREWYPSLATMQESLRVKHLAEEQKRREREQHI    121
+
+HEM1_METCA       315 ---AALQAEEIIDLEVEHFLSWLRAQAATETIRDVRRQAELH--------    353
+                        .|...:.|::.:.:....|.:|||..|  |..|.|||..        
+G45IP_CHLAE      122 AECMAKMPQMIVNWQQQQRERWEKAQADKE--RRARLQAEAQELLGYQVN    169
+
+HEM1_METCA       354 -RDAALQRALRELRR    367
+                      :.|..|..|::|.:
+G45IP_CHLAE      170 PKSARFQELLQDLEK    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 373
+# Identity:      63/373 (16.9%)
+# Similarity:   122/373 (32.7%)
+# Gaps:         104/373 (27.9%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA        27 QLQSALRDLIDLPQVG------EAAILSTCNR------------TEVYCE     58
+                     ||:...|||..:|::|      :|.:|...|.            |.:...
+DAPEL_OCEIH        4 QLEQIRRDLHQIPELGFQEFKTQAYLLERINEIATENVEIKKWSTGILVY     53
+
+HEM1_METCA        59 LDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIRHMFRVACGLD--    106
+                     :.|:.....:.:..|.......:.:...|:....|.:.     |||.|  
+DAPEL_OCEIH       54 VHGKSPARKIGFRADIDGLPILEQTNLPYASLHEGRMH-----ACGHDLH     98
+
+HEM1_METCA       107 -SMILG------EPQILGQMKTAYQAARE--AGTVGKILTKLFHRTFAAA    147
+                      ::.||      :..|...:...:|.|.|  .|....:.::.|.:.    
+DAPEL_OCEIH       99 MTIALGALEKLIQDPINDDVIFVFQPAEEGPGGAKPMLESEEFQQW----    144
+
+HEM1_METCA       148 KKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTAR    197
+                      |.....|:..:|..........|..:|.:..:|.....|.|        
+DAPEL_OCEIH      145 -KPDMMFALHIAPELPVGTVSSKAGLLFANTSELFIDFEGVG--------    185
+
+HEM1_METCA       198 HLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVAS    247
+                            ||....:.|.|.....:|    |.:.|::          ||:.
+DAPEL_OCEIH      186 -------GHAAYPHLTKDMTVAASN----FVVQLQQ----------IVSR    214
+
+HEM1_METCA       248 TGSPL--PILGKGSFESA--------------------------LRSRRH    269
+                     ..:||  .::..|..||.                          ::|:.:
+DAPEL_OCEIH      215 GLNPLDGSVITIGKMESGYVQNAIAETARLEGTIRSTDADAIDMIKSKLN    264
+
+HEM1_METCA       270 KPM----FIVDLAVPRDIEPEVEQLQD--VYLYTVDDLQHTVEENLKTRQ    313
+                     :.|    ...|..:..|......|:.:  .|:...:::.:..:.....:.
+DAPEL_OCEIH      265 RLMKGFEISYDCTIKVDYGANYYQVVNDATYVQQFENVINQTQTITYQQA    314
+
+HEM1_METCA       314 EAALQAEEIIDL--EVEHFLSWL    334
+                     :||:..|:..|:  |:..|:.||
+DAPEL_OCEIH      315 DAAMTGEDFGDMLKEIPGFMFWL    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      41/154 (26.6%)
+# Similarity:    64/154 (41.6%)
+# Gaps:          37/154 (24.0%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+HEM1_METCA       179 GDLTAILVGAGETIELTARHLTE------NRIGHLIIANRTFDRAHTLAN    222
+                     ||:....|.||..:.|.|:.:.|      :||...|:|:|..:     .:
+KAD_METRJ         32 GDMLRAAVAAGTPVGLEAKAVMESGGLVSDRIVVGIVADRIEE-----PD     76
+
+HEM1_METCA       223 QFGGFAISLEELPKHLAKADII---VASTGSPL-PILGKGSFESALRSR-    267
+                     ...||.  |:..|:.:|:|:.:   :||.|..| .::.....|:||..| 
+KAD_METRJ         77 ARRGFI--LDGFPRTVAQAEALGEMLASKGLSLSAVVELKVDENALVGRI    124
+
+HEM1_METCA       268 --RHKPMFIVDLAVPRDIEPEV-EQLQDVY----------------LYTV    298
+                       |.........||.:|..||| :|..:.|                |.||
+KAD_METRJ        125 EKRAAETLARGQAVRKDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLETV    174
+
+HEM1_METCA       299 DDLQ    302
+                     |.:|
+KAD_METRJ        175 DGMQ    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       7/12 (58.3%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HEM1_METCA       122 AYQAAREAGTVG    133
+                     ||:||.:||..|
+ELN_BOVIN        103 AYKAAAKAGAAG    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      31/131 (23.7%)
+# Similarity:    54/131 (41.2%)
+# Gaps:          22/131 (16.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+HEM1_METCA       178 LGDLTAILVGAGETIE--LTARHLTENRIGHLIIANRTFDRAHTLANQFG    225
+                     :|.|..:||.:.|.:.  .:.:|:|  ::..::..:..|. |.||.| ..
+ASIC2_MOUSE       50 VGSLGLLLVESSERVSYYFSYQHVT--KVDEVVAQSLVFP-AVTLCN-LN     95
+
+HEM1_METCA       226 GFAIS------LEELPKHLAKADIIVASTGSPLPILGKGSFESALRS---    266
+                     ||..|      |....:.||..|:   :...|.|.|...:...|||.   
+ASIC2_MOUSE       96 GFRFSRLTTNDLYHAGELLALLDV---NLQIPDPHLADPTVLEALRQKAN    142
+
+HEM1_METCA       267 -RRHKPMFIVDLAVPRDIEPEVEQLQDVYLY    296
+                      :.:||.   ..::...:......|:|:.||
+ASIC2_MOUSE      143 FKHYKPK---QFSMLEFLHRVGHDLKDMMLY    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      34/156 (21.8%)
+# Similarity:    53/156 (34.0%)
+# Gaps:          37/156 (23.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+HEM1_METCA       102 ACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVR    151
+                     ||   :.|:..|.|.|:.::.:        :.:|||.||......|....
+DOXA1_XENTR       33 AC---TFIIILPGIRGKSRSIW--------LFRILTSLFIGAVILAVNFT     71
+
+HEM1_METCA       152 TDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVG-AGETIELTARHLT    200
+                     :|...|....:..:.:...:.     |.....:.:| .|..|.|....:.
+DOXA1_XENTR       72 SDWETGIVTATTVYKSFSHSM-----LNASIGLWIGLKGVNITLIGNPVY    116
+
+HEM1_METCA       201 ENRIGHLIIANRTFDRAHTLANQFG-GFAISLEELPKHLAKADIIVASTG    249
+                     :  :...|..|..|  |...||||. .:...||.               |
+DOXA1_XENTR      117 Q--LNETINYNEEF--AWESANQFDKNYKDGLER---------------G    147
+
+HEM1_METCA       250 SPLPIL    255
+                     .|.|||
+DOXA1_XENTR      148 LPYPIL    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      13/69 (18.8%)
+# Similarity:    22/69 (31.9%)
+# Gaps:          27/69 (39.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+HEM1_METCA        90 FDAGTIRHMFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTK-    138
+                     |:|.....:||.|                          :.::.|..:| 
+RS20_STRPB        40 FEANPSEELFRAA--------------------------SSSIDKAESKG     63
+
+HEM1_METCA       139 LFHRTFAAAKKVRTDTAIG    157
+                     |.|:..|:..|.|....:|
+RS20_STRPB        64 LIHKNKASRDKARLAAKLG     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      58/286 (20.3%)
+# Similarity:   109/286 (38.1%)
+# Gaps:          57/286 (19.9%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+HEM1_METCA       112 EPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPV    161
+                     |.::....|...|...|...|.:.|::      |.:|....|.|:..:..
+TPM_HAELO         40 EEEVRSLQKKIQQIENELDQVQEQLSQ------ANSKLEEKDKALQAAEA     83
+
+HEM1_METCA       162 SVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGHLIIAN    211
+                     .|| |..|..|.:.:|       |..:.|.:::..:.|.|        |:
+TPM_HAELO         84 EVA-AHNRRIQLLEED-------LERSEERLKIATQKLEE--------AS    117
+
+HEM1_METCA       212 RTFDRAHTLANQFGGFAISLEE----LPKHLAKADIIVASTGSPLPILGK    257
+                     :..|.:..:.......:|:.||    |...|.:|..:.            
+TPM_HAELO        118 QAADESERMRKMLEHRSITDEERMDGLEGQLKEARTMA------------    155
+
+HEM1_METCA       258 GSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQ--DVYLYTVDDLQHTV    305
+                        |.|  .|::..:......|..|:|...|:.:  :..:..:::....|
+TPM_HAELO        156 ---EDA--DRKYDEVARKLAMVEADLERAEERAETGETKIVELEEELRVV    200
+
+HEM1_METCA       306 EENLKT---RQEAALQAEEIIDLEVEHFLSWL-----RAQAATETIRDVR    347
+                     ..|||:   .:|.|||.||..:.::....|.|     ||:.|..:::.::
+TPM_HAELO        201 GNNLKSLEVSEEKALQKEETYEGQIRQMTSRLQEAEARAEFAERSVQKLQ    250
+
+HEM1_METCA       348 RQAELHRDAALQRALRELRRGKSAEDTLRWLADTLT    383
+                     ::.:...|..:|    |..:.|:..|.|......||
+TPM_HAELO        251 KEVDRLEDELVQ----EKEKYKAISDELDQTFSELT    282
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    25/69 (36.2%)
+# Gaps:           8/69 (11.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+HEM1_METCA       189 GETIELTARHL-TENRIGHLIIANRTFDRAHTLANQ------FGGFAISL    231
+                     |.|:.....|. |....|.|.....|.:..|.||.|      .....:.:
+LEUC_XANOM       127 GMTVVCGDSHTSTHGAFGALAHGIGTSEVEHVLATQCLITKKMKNLQVRV    176
+
+HEM1_METCA       232 E-ELPKHLAKADIIVASTG    249
+                     | .||..:...||::|..|
+LEUC_XANOM       177 EGTLPFGVTAKDIVLAVIG    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     6/15 (40.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+HEM1_METCA       191 TIELTARHLTENRIG    205
+                     ||..|....|.|..|
+LPT_ESCF3          7 TITTTITITTGNGAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      23/115 (20.0%)
+# Similarity:    46/115 (40.0%)
+# Gaps:          25/115 (21.7%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HEM1_METCA       228 AISLEELPKHLAKADIIV-------------ASTGSPLPILGKGSFESAL    264
+                     |:.:|.:.:.|::|.::.             .:..:|:.:....:..:|.
+RL7_THET8          2 ALDIERIKEELSQATVLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAA     51
+
+HEM1_METCA       265 RSRRHKPMFIVDL----AVPRDIEPEVEQLQDVYLYTVDDLQH---TVEE    307
+                     .....|..|.|.|    |...::..|:..:..:.|....||..   .|:|
+RL7_THET8         52 APAEEKTEFDVILKEAGAKKLEVIKELRAITGLGLKEAKDLAEKGGPVKE    101
+
+HEM1_METCA       308 NLKTRQEAALQAEEI    322
+                     .: ::||    ||||
+RL7_THET8        102 GV-SKQE----AEEI    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 420
+# Identity:     420/420 (100.0%)
+# Similarity:   420/420 (100.0%)
+# Gaps:           0/420 ( 0.0%)
+# Score: 2128.0
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILTLGVNHTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA         1 MAILTLGVNHTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTC     50
+
+HEM1_METCA        51 NRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIRHMFR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA        51 NRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIRHMFR    100
+
+HEM1_METCA       101 VACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       101 VACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKV    150
+
+HEM1_METCA       151 RTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLT    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       151 RTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLT    200
+
+HEM1_METCA       201 ENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVASTGS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       201 ENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVASTGS    250
+
+HEM1_METCA       251 PLPILGKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       251 PLPILGKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDD    300
+
+HEM1_METCA       301 LQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQAATETIRDVRRQA    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       301 LQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQAATETIRDVRRQA    350
+
+HEM1_METCA       351 ELHRDAALQRALRELRRGKSAEDTLRWLADTLTNKIIHAPSSQIWQAGVN    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HEM1_METCA       351 ELHRDAALQRALRELRRGKSAEDTLRWLADTLTNKIIHAPSSQIWQAGVN    400
+
+HEM1_METCA       401 ERADIVAAARELFQLKDPDT    420
+                     ||||||||||||||||||||
+HEM1_METCA       401 ERADIVAAARELFQLKDPDT    420
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      32/148 (21.6%)
+# Similarity:    58/148 (39.2%)
+# Gaps:          49/148 (33.1%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+HEM1_METCA       303 HTVEENLKTRQEAALQAEEIIDLEVEHFLSWL------RAQAATETIRDV    346
+                     ||  |.|...:...|.:|:    :.|.:  ||      :|..|.:::|.|
+XYLB_KLEPN        27 HT--EKLTVSRPHPLWSEQ----DPEQW--WLATDTAMKALGAHDSLRHV     68
+
+HEM1_METCA       347 RR---QAELHRDAALQRALRELR------RGKSAEDTLRWLADTLTNKII    387
+                     :.   ..::|....|.::|:.||      .|:.||:     ...|.:|: 
+XYLB_KLEPN        69 KGLGIAGQMHGATLLDKSLQVLRPAILWNDGRCAEE-----CQLLEDKV-    112
+
+HEM1_METCA       388 HAPSSQI---------------W----QAGVNERADIVAAARELFQLK    416
+                      :.|.||               |    :|.|..:.|.|...::..:|:
+XYLB_KLEPN       113 -SASRQITGNLMMPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLR    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 270
+# Identity:      52/270 (19.3%)
+# Similarity:    86/270 (31.9%)
+# Gaps:         110/270 (40.7%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+HEM1_METCA        14 PVSIRERLAFPAEQLQSALRDLID-LPQVGEAAI-LSTCNRTEV-----Y     56
+                     |.|.|..:.:..::.::||..|:: |.||.|..: ...|...:.     .
+RECR_NOVAD        21 PRSARRAVLWLIKRRETALPQLLNALTQVQELLVECGVCGNVDTSNPCGI     70
+
+HEM1_METCA        57 CELDGRDQRPI------VD-WMCDQRQFDDQDISQYLYSHFDAGTIRHMF     99
+                     |....||||.|      .| |..|:.:                       
+RECR_NOVAD        71 CTDHRRDQRSICVVEEVADLWALDRAR-----------------------     97
+
+HEM1_METCA       100 RVACGLDSMILGEPQILGQMKTAYQAAR-EAGTVGKILTKLFHRTFAAAK    148
+                             :..|:..:||...:|.:..| |..|:|.:|.           
+RECR_NOVAD        98 --------LFTGKYHVLGGRLSALEGVRPEDLTIGSLLD-----------    128
+
+HEM1_METCA       149 KVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARH    198
+                                         |:||      |.:..:::....|:|     
+RECR_NOVAD       129 --------------------RVAQ------GGIDEVVLAMNATLE-----    147
+
+HEM1_METCA       199 LTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVAST    248
+                                 .:|  .||.:|.:..|.|:.:.:|...|        ..
+RECR_NOVAD       148 ------------GQT--TAHYIAERLEGAAVRVTQLAHGL--------PV    175
+
+HEM1_METCA       249 GSPLPILGKGSFESALRSRR    268
+                     |..|..|.:|:...|||:||
+RECR_NOVAD       176 GGELDYLDEGTLAQALRARR    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      34/138 (24.6%)
+# Similarity:    52/138 (37.7%)
+# Gaps:          32/138 (23.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+HEM1_METCA       295 LYTVDDLQHTVEENLKTRQEAALQ--------AEEIIDLEVEHFLSW---    333
+                     |.|.||..|.  ..||..:|.|.:        |.|.....|.|.||.   
+SURE_METNO         4 LVTNDDGIHA--PGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLNDP     51
+
+HEM1_METCA       334 LRAQAATET------------IRDVRRQAELHRDAALQRALRELRRGKSA    371
+                     ||.:...||            |..||   .:.::......|..:.||::.
+SURE_METNO        52 LRLRRVAETRFAVKGTPSDCVIMGVR---HILKERGPDLVLSGVNRGQNV     98
+
+HEM1_METCA       372 EDTLRW---LADTLTNKIIHAPSSQIWQA-GVNERADI    405
+                     .:.:.:   :|..:...|:...|..:.|| ||..||::
+SURE_METNO        99 AEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANV    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       8/35 (22.9%)
+# Similarity:    14/35 (40.0%)
+# Gaps:           6/35 (17.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+HEM1_METCA        56 YCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHF     90
+                     |.|.|      :|.|:......|...::::...||
+CYB_ARTIO        155 YIETD------LVQWIWGGFSVDKATLTRFFAFHF    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      31/151 (20.5%)
+# Similarity:    55/151 (36.4%)
+# Gaps:          44/151 (29.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+HEM1_METCA       230 SLEELPKH------LAKADIIVASTGS--------PL----PILGKGSFE    261
+                     ::||..||      :....|:|:..|.        ||    |:..:..:|
+IOLE_BACHK        86 TVEEFIKHRDFLHGMGAKVIVVSEQGHSIQGLMDVPLFKNKPVFTEEEWE    135
+
+HEM1_METCA       262 SALRSRRH-------KPMFIV---DLAVPRDIEPEVEQLQDV-------Y    294
+                     .......|       |.:.||   .:........|:|:|.|:       .
+IOLE_BACHK       136 KLADGLHHLGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSL    185
+
+HEM1_METCA       295 LYTVDDLQHTVEENLKTRQEAALQ---------AEEIIDLEVEHFLSWLR    335
+                     |:....|..:.||.|...::...:         .:|::|:..|..||:|:
+IOLE_BACHK       186 LFDTGHLVFSGEEPLYILKKYLPRIKHVHLKDIRQEVVDVVKEKELSFLQ    235
+
+HEM1_METCA       336 A    336
+                     |
+IOLE_BACHK       236 A    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      39/177 (22.0%)
+# Similarity:    66/177 (37.3%)
+# Gaps:          53/177 (29.9%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+HEM1_METCA       155 AIGCSPVSVAFAAIR----------LAQRIFDDLGDLTAILVGAGETIEL    194
+                     ||.....|:.|..||          |.:||  .|.|....:...||.:: 
+ACKA_STAAT         7 AINAGSSSLKFQLIRMPEEELVTKGLVERI--GLKDSIFTIEVNGEKVK-     53
+
+HEM1_METCA       195 TARHLTENRIGHLIIANRTFD--RAHTLANQF------------GGFAIS    230
+                     |.:.:.:    |:...:...|  :||.:.|..            ||    
+ACKA_STAAT        54 TVQDIKD----HVEAVDIMLDAFKAHNIINDINDIDGTGHRVVHGG----     95
+
+HEM1_METCA       231 LEELPKHLAKADII---------VASTGSPLPILGKGSFESALRSRRHKP    271
+                      |:.|:.:|..|.:         :|...:|..::|..:|...|.:..|..
+ACKA_STAAT        96 -EKFPESVAITDEVEKEIEELSELAPLHNPANLMGIRAFRKLLPNIPHVA    144
+
+HEM1_METCA       272 MFIVDLAVPRDIEPEVEQLQDVYLYTV    298
+                     :|  |.|..:.: ||     ..|||::
+ACKA_STAAT       145 IF--DTAFHQTM-PE-----KAYLYSL    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      15/59 (25.4%)
+# Similarity:    26/59 (44.1%)
+# Gaps:          11/59 (18.6%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+HEM1_METCA        44 AAILSTCNRTEVYCELD----GRDQR----PIVDWMCDQ---RQFDDQDI     82
+                     |.::...:.|::..::|    ||.:.    |.:|.|.||   ....|.||
+HIS7_BURTA         4 AEVVRNTSETQIRVKIDLDGTGRQKLATGVPFLDHMLDQIARHGLVDLDI     53
+
+HEM1_METCA        83 SQYLYSHFD     91
+                     ..:..:|.|
+HIS7_BURTA        54 EAHGDTHID     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      17/66 (25.8%)
+# Similarity:    29/66 (43.9%)
+# Gaps:          11/66 (16.7%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+HEM1_METCA       250 SPLPILGKGSFESALRSRRHKP------MFIVDLAVPRDIEPEVEQLQDV    293
+                     |.:.:||||.| ..||....:|      ..::.:..|    ||:|....|
+PTH_GEOLS        118 SIMELLGKGDF-VRLRLGIGRPPHGDVTNHVLGVFTP----PEMEIFARV    162
+
+HEM1_METCA       294 YLYTVDDLQHTVEENL    309
+                     ....:|.|:..::|.:
+PTH_GEOLS        163 LDGALDMLETALDEGV    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    13/26 (50.0%)
+# Gaps:           1/26 ( 3.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+HEM1_METCA       368 GKSAEDTLRWLADTLTNKIIHAPSSQ    393
+                     |.|:.| :.|..|...|::|...|.:
+TAF3_XENLA       384 GTSSSD-ISWTMDDSINEVIRKVSQE    408
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      28/90 (31.1%)
+# Similarity:    36/90 (40.0%)
+# Gaps:          23/90 (25.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+HEM1_METCA       126 AREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAI-------    168
+                     |.||.|:.|.:.....||.|.     |..|: ..||.:|...:       
+DNLJ_CROS5       320 AEEAPTLVKNIVVNVGRTGAV-----TPMAV-MEPVHLAGTTVQKATLHN    363
+
+HEM1_METCA       169 --RLAQ---RIFDDLGDLTAILVGAGETIELTARHLTENR    203
+                       |:||   |:.|     |.|:..|||.|....|.|.|.|
+DNLJ_CROS5       364 SDRIAQLDIRVGD-----TVIIRKAGEIIPEVVRVLKELR    398
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 456
+# Identity:      90/456 (19.7%)
+# Similarity:   152/456 (33.3%)
+# Gaps:         148/456 (32.5%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+HEM1_METCA        13 APVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTCNRTEVYCEL---     59
+                     |.||..:: .:.|..|:::..:.:.|...|.|.:..:.:|.|.. ||   
+MUTS_MYXXD       136 AAVSWNDK-GWGAALLEASTGEFMALEAPGIAELAESLSRVEPR-ELLVP    183
+
+HEM1_METCA        60 DGRDQRPIVDWMC------------DQRQFDDQDISQYLYSHFDAGTIRH     97
+                     ||:...|.|..:.            :...|:....:.||.|||...::. 
+MUTS_MYXXD       184 DGKRDAPEVAQLLARLVRTPAVAEGEAASFEPTRAAGYLRSHFAVQSLS-    232
+
+HEM1_METCA        98 MFRVACGLDSMILGE-------PQILGQMKTA------------------    122
+                         |.|||...|..       ..:....|||                  
+MUTS_MYXXD       233 ----AFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQERGGNLLM    278
+
+HEM1_METCA       123 ----------YQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVS    162
+                               .::.|:.|..|.:|..|          .:|.|::|     
+MUTS_MYXXD       279 DESSRANLEVLRSLRDGGRKGSLLGVL----------DKTVTSLG-----    313
+
+HEM1_METCA       163 VAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGHLIIANR    212
+                         |.:||:.:...||.|..|........||:.|.:....:..::....
+MUTS_MYXXD       314 ----ARKLARWLASPLGSLPEIHARLDAVEELSGRSVWREELAGILKEVG    359
+
+HEM1_METCA       213 TFDR-------AHTLANQFGGFAISLEELPKHLA-----KADIIVASTG-    249
+                     ..:|       ....|.......:||.:||:.:|     ::.::.:.|| 
+MUTS_MYXXD       360 DLERLCGRLSLGAGNARDLRALGLSLAQLPRVVAVLARCESPLLKSLTGP    409
+
+HEM1_METCA       250 -SPLPILGK-----------------GSFESALRSRRHKPMFIVDLAVP-    280
+                      |.||.|.:                 |...:...:...|   :|.|:.. 
+MUTS_MYXXD       410 LSALPELAELLSRAVAEEPPVTLKDGGMIRAGFHAELDK---LVALSTSG    456
+
+HEM1_METCA       281 RDIEPEVEQLQ--------------DVYLY--------------------    296
+                     :|:..::||.:              .|:.|                    
+MUTS_MYXXD       457 KDLLLQIEQREKERTGISSLKVRYNKVFGYYLEVTKSNLDRVPKDYIRKQ    506
+
+HEM1_METCA       297 TVDDLQHTVEENLKTRQEAALQAEE-IIDLEVEHFLSWLRAQAATETIRD    345
+                     |..:.:..|...||..:|..|.||| ...||::.| ..||||..:...| 
+MUTS_MYXXD       507 TTVNSERFVTPELKEYEEQVLTAEERRCALEIQLF-EELRAQVVSAAPR-    554
+
+HEM1_METCA       346 VRRQAE    351
+                     :|..||
+MUTS_MYXXD       555 IRSAAE    560
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      14/43 (32.6%)
+# Similarity:    18/43 (41.9%)
+# Gaps:           7/43 (16.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+HEM1_METCA       353 HRDAALQRAL---RELRRGKSAEDTLRWLA----DTLTNKIIH    388
+                     |..||.|..|   .|.::|:.......|||    .|||:...|
+NOSO_STAAC       289 HLTAAKQFELFERNEAQQGRQVTGKWSWLAPPLSPTLTSNYHH    331
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           0/23 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+HEM1_METCA       299 DDLQHTVEENLKTRQEAALQAEE    321
+                     |:..|.::|..|.|:.....:||
+RBM8A_MOUSE       22 DESIHKLKEKAKKRKGRGFGSEE     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    14/29 (48.3%)
+# Gaps:           7/29 (24.1%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILTLGVNHTT----APVSIRERLAFPA     25
+                     |..:|:..||.|    ||:.:   |.|.|
+NU4LM_ARCPU       43 MMSMTILSNHFTLASMAPIIL---LVFAA     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 369
+# Identity:      77/369 (20.9%)
+# Similarity:   111/369 (30.1%)
+# Gaps:         135/369 (36.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILTLGVNHTT-------APVSIRER--LAFPAEQLQSALRDLIDLPQV     41
+                     |..|.:.:..|.       |...||:|  |..||.|...||||.:     
+NANK_ECOLI         1 MTTLAIDIGGTKLAAALIGADGQIRDRRELPTPASQTPEALRDAL-----     45
+
+HEM1_METCA        42 GEAAILSTCNRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFD     91
+                       :|::|         .|....||..:                     ..
+NANK_ECOLI        46 --SALVS---------PLQAHAQRVAI---------------------AS     63
+
+HEM1_METCA        92 AGTIRHMFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFH    141
+                     .|.||.        .|::...|..||                    .|.|
+NANK_ECOLI        64 TGIIRD--------GSLLALNPHNLG--------------------GLLH     85
+
+HEM1_METCA       142 RTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFD-DLGDLTAILV--GA    188
+                       |...|.:...|.:....::.|.||.....:..| |:.|:..|.|  |.
+NANK_ECOLI        86 --FPLVKTLEQLTNLPTIAINDAQAAAWAEFQALDGDITDMVFITVSTGV    133
+
+HEM1_METCA       189 GETIELTARHLT--ENRIGHLIIANRTFDRAHTLANQFG-----------    225
+                     |..:....:.||  ....||:         .||||:..|           
+NANK_ECOLI       134 GGGVVSGCKLLTGPGGLAGHI---------GHTLADPHGPVCGCGRTGCV    174
+
+HEM1_METCA       226 -------GFAISLEELPKHLAKADIIVASTGSPLPILGKGSFESAL---R    265
+                            |.|.:.:   ..||.||.....|.:     |:|..::..   |
+NANK_ECOLI       175 EAIASGRGIAAAAQ---GELAGADAKTIFTRA-----GQGDEQAQQLIHR    216
+
+HEM1_METCA       266 SRRHKPMFIVDLAVPRDIEPEV----EQLQDVYLYTVDDLQHTVEENLKT    311
+                     |.|.....|.|:....|.:..|    ..|.:.||..|        |....
+NANK_ECOLI       217 SARTLARLIADIKATTDCQCVVVGGSVGLAEGYLALV--------ETYLA    258
+
+HEM1_METCA       312 RQEAALQAEEIIDLEVEHF    330
+                     ::.||..    :||...|:
+NANK_ECOLI       259 QEPAAFH----VDLLAAHY    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      41/189 (21.7%)
+# Similarity:    62/189 (32.8%)
+# Gaps:          62/189 (32.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+HEM1_METCA        19 ERLAFPAEQLQSALRDLID-------------LP-QVGEAAILSTCNRTE     54
+                     ||:.|......:..|.::|             || |.|:..||...||  
+MIAB_MYCPE       283 ERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETILKKMNR--    330
+
+HEM1_METCA        55 VYCELDGRDQRPIVDWM------CD-------------QRQFDD------     79
+                        .:...|...:||::      |.             :.||:.      
+MIAB_MYCPE       331 ---PMKIGDYIDLVDYIRANIPNCSITTDLIVGFPNETKEQFNKTLELYK    377
+
+HEM1_METCA        80 ----QDISQYLYSHFDAGTIRHMFRVACGLDSMILGEP----QILGQMKT    121
+                         .:...::||..| ||:     .|...|.:.|.|.    |.|.:|..
+MIAB_MYCPE       378 RIEFDNAFTFIYSKRD-GTV-----AAIIPDEIPLSEKKERLQELNEMVK    421
+
+HEM1_METCA       122 AYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSP    160
+                     .:........|.|:|..|..   ..:||.:| ...|.||
+MIAB_MYCPE       422 TFSKKNNEKYVNKVLDVLVD---GPSKKDKT-VISGYSP    456
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      47/211 (22.3%)
+# Similarity:    70/211 (33.2%)
+# Gaps:          86/211 (40.8%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HEM1_METCA       254 ILGKGSFESALRSRRHKPM-FIVDLAVPRDIE-PEV--------EQLQDV    293
+                     ||.||  :|...:.:||.: .:.|..:..|.| ||:        ..||..
+NADK_STAES         5 ILTKG--DSKSNALKHKMINHMKDFQMVEDSENPEIVISVGGDGTLLQAF     52
+
+HEM1_METCA       294 YLYT-------------------VDDLQHTVEENLKTRQEAALQAEE--I    322
+                     :.|:                   .|.|.|.||:.:.....:..|..|  :
+NADK_STAES        53 HQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEINNSEFQVIEYPL    102
+
+HEM1_METCA       323 IDLEVEH--------FLSWLRAQAATET----IRDVRRQAELHRDAALQR    360
+                     ::|.|.:        :|:...|...||.    :.||.             
+NADK_STAES       103 LELIVRYNDNGYETRYLALNEATMKTENGSTLVVDVN-------------    139
+
+HEM1_METCA       361 ALRELRRGKSAEDTLRWLAD----------TLTNK-----IIHAPSSQIW    395
+                          .|||..|   |:..|          |..||     :|| ||.:..
+NADK_STAES       140 -----IRGKHFE---RFRGDGLCISTPSGSTAYNKALGGALIH-PSLEAM    180
+
+HEM1_METCA       396 Q----AGVNER    402
+                     |    |.:|.|
+NADK_STAES       181 QIAEIASINNR    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      28/106 (26.4%)
+# Similarity:    52/106 (49.1%)
+# Gaps:           8/106 ( 7.5%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+HEM1_METCA       262 SALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDDL-QHTVEENLK    310
+                     |..:|:...|||...|.:..| ..::|:|.|.....::|| :..:.|...
+TRPG_CAEEL      1609 SCSKSQERNPMFDFSLKLFLD-NDQIEKLHDFEEDCMEDLARQKLNEKNT   1657
+
+HEM1_METCA       311 TRQEAALQAEEIIDLEVEHFLSWLRAQAATETI-RDVRRQAELHRDAALQ    359
+                     :.::..|:|    |:..:..|:.|....|.|:: |||....| .|.|:::
+TRPG_CAEEL      1658 SNEQRILRA----DIRTDQILNRLIDLQAKESMGRDVINDVE-SRLASVE   1702
+
+HEM1_METCA       360 RALREL    365
+                     :|..|:
+TRPG_CAEEL      1703 KAQNEI   1708
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 279
+# Identity:      53/279 (19.0%)
+# Similarity:    82/279 (29.4%)
+# Gaps:         115/279 (41.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+HEM1_METCA        24 PAEQLQSALRDLIDLPQVGEAAILSTCNRTEVYCELDGRDQ---------     64
+                     ||....:|:.:|:..||.....|.:...|..: .:..||:|         
+MSHD_MYCMM        69 PAHGADAAMAELVVHPQARRRGIATAMVRAAL-AKTGGRNQFWAHGTLAP    117
+
+HEM1_METCA        65 -------------RPIVDWMCDQRQFDDQDISQYLYSHFDAGT--IRHMF     99
+                                  |.:|......||..:..|...|.....|||  ...:.
+MSHD_MYCMM       118 AQATASALGLTPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGTEDDAELL    167
+
+HEM1_METCA       100 RV---------------------------------------ACGLDSMIL    110
+                     ||                                       :.|.:....
+MSHD_MYCMM       168 RVNNAAFAYHPEQGGWTEADLAERRGEPWFDPAGLFLALEGSEGAEDSPR    217
+
+HEM1_METCA       111 GEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDT------    154
+                     |:|::||                      ||.|     |:..|.      
+MSHD_MYCMM       218 GQPRLLG----------------------FHWT-----KIHLDDPGLGEV    240
+
+HEM1_METCA       155 -AIGCSPV--------SVAFAAIR-LAQRIFD-DLG-DLTAILVGAGETI    192
+                      .:|..|.        ::....:| ||||:.| ||| :.|.:|....:.|
+MSHD_MYCMM       241 YVLGVDPAAQGRGLGRTLTMIGLRSLAQRLGDRDLGRESTVMLYVESDNI    290
+
+HEM1_METCA       193 ELTARHLTENRIGHLIIANRTFDRAHTLA    221
+                        |...|...:|   .:..:.|.|:.||
+MSHD_MYCMM       291 ---AAVRTYQGLG---FSTHSVDTAYALA    313
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      14/71 (19.7%)
+# Similarity:    28/71 (39.4%)
+# Gaps:          10/71 (14.1%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+HEM1_METCA       178 LGDLT--AILVGAGETIELTARHLTENRIGHLIIANRTFDRAHTLANQFG    225
+                     :|.:|  |.|:.|...::....|:.....||.::       .:.|..:.|
+PAND_THEFY        23 VGSITIDADLMDAANLVDGEQVHVVNITNGHRLV-------TYVLTGERG     65
+
+HEM1_METCA       226 GFAISLEELPKHL-AKADIIV    245
+                     ...|.:......| |..|:::
+PAND_THEFY        66 SGVIGINGAAARLVAPGDLVI     86
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 356
+# Identity:      76/356 (21.3%)
+# Similarity:   121/356 (34.0%)
+# Gaps:         120/356 (33.7%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+HEM1_METCA       118 QMKTAYQAAREAGTVGKILTKLFHRTFA--------------AAKKVRTD    153
+                     :::..|.:||.....|.| |.:..||:|              |.|:....
+LIPA_ASPOR         7 RLRFLYSSARTVPQTGSI-TPISRRTYATTEPSPSATGAPATARKRTNFT     55
+
+HEM1_METCA       154 TAIGCSPVSVAFAAIRLAQRIFDDLGDL---------TAILVGAGETIEL    194
+                     ..:...|....|.:..      :|...|         ||::..||...|:
+LIPA_ASPOR        56 DKLNAGPSFADFVSGG------EDNAPLEPSEAYALKTAMVGPAGRKKEM     99
+
+HEM1_METCA       195 TA---------------RHLTENRIG---HLIIANRTFDRAHTLANQFGG    226
+                     |.               :.|.::..|   |.:....   |...:::.:||
+LIPA_ASPOR       100 TRLPSWLKTPIPDSKNYQRLKKDLRGLNLHTVCEEA---RCPNISDCWGG    146
+
+HEM1_METCA       227 FAISLEELPKHLAKADIIVASTGSPLPILG----KG-SFESALRSRRHKP    271
+                            ..|..|.|.|:         ::|    :| .|.|...:||..|
+LIPA_ASPOR       147 -------SDKSAATATIM---------LMGDTCTRGCRFCSVKTNRRPPP    180
+
+HEM1_METCA       272 MFIVDLAVPRDIEPEVE-----QLQDVYLYTV--DDL-----QHTVEENL    309
+                     :      .|.:.|...|     .|..|.|.:|  |||     :|..|..:
+LIPA_ASPOR       181 L------DPHEPENTAEAISRWSLGYVVLTSVDRDDLADGGARHFAETVI    224
+
+HEM1_METCA       310 KTRQE------AALQAEEIIDLEVEHFL--SWL--------RAQAATETI    343
+                     |.:|:      ..|..:.:.|||:...:  |.|        ..:|.|..:
+LIPA_ASPOR       225 KIKQKKPSMLVECLTGDYLGDLEMVKLVARSGLDVYAHNVETVEALTPFV    274
+
+HEM1_METCA       344 RDVRRQAELHRDAALQRALRELRRGKSAEDTLRWLADTLTNKII--HAPS    391
+                     ||        |.|..|::||.|...|.|...|    .|.|:.::  ....
+LIPA_ASPOR       275 RD--------RRATFQQSLRVLEAAKQARPDL----ITKTSLMLGFGETE    312
+
+HEM1_METCA       392 SQIWQA    397
+                     .|:|.|
+LIPA_ASPOR       313 EQLWDA    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 306
+# Identity:      64/306 (20.9%)
+# Similarity:   104/306 (34.0%)
+# Gaps:          86/306 (28.1%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILTLGVNHTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTC     50
+                     :.:|||.:...:|     ||           :|||:::..|...|::.  
+FLGI_PECAS        11 LTLLTLNITPASA-----ER-----------IRDLVNIQGVRGNALIG--     42
+
+HEM1_METCA        51 NRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYS---HFDAGTIRH     97
+                       ..:...|||...:.:      |..|..|.::..|..   ...|||...
+FLGI_PECAS        43 --YGLVVGLDGSGDQTM------QTPFTTQSLTNMLSQLGITVPAGTNMQ     84
+
+HEM1_METCA        98 MFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAA    147
+                     :..||.   .|:..|....|         |....:..:::.|     ..|
+FLGI_PECAS        85 LKNVAA---VMVTAELPPFG---------RTGQNIDIVVSSL-----GNA    117
+
+HEM1_METCA       148 KKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVG------AGET    191
+                     |.:|..|.:......|......|||      |:   :|||      .|.:
+FLGI_PECAS       118 KSLRGGTLLMTPLKGVDNQVYALAQ------GN---VLVGGAGASAGGSS    158
+
+HEM1_METCA       192 IELTARHLTENRIGHLIIANR----TFDRAHTLANQFGGFAISLEELPKH    237
+                     :::  ..|...||.:..:..|    ||..::|:..|......|:.:    
+FLGI_PECAS       159 VQV--NQLAGGRISNGAVIERELPSTFGTSNTIMLQLKNDDFSMAQ----    202
+
+HEM1_METCA       238 LAKADIIVASTGSPLPILGKGSFESALRSRRHKPMFIVDLAVPRDIEPEV    287
+                      ..:|.|..|        |.|...|.|.||      .:.:..|.....:|
+FLGI_PECAS       203 -KVSDAINRS--------GYGGTASPLDSR------TIQVLAPHGNSSQV    237
+
+HEM1_METCA       288 EQLQDV    293
+                     ..|.||
+FLGI_PECAS       238 RFLADV    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      25/100 (25.0%)
+# Similarity:    39/100 (39.0%)
+# Gaps:          32/100 (32.0%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA       184 ILVGAGETIELTARHLT-ENRIGH-LIIANRTFDRA--------------    217
+                     :|:|||......|..|| :|.:.| |:|.:...|:|              
+LDH_BORAP          8 VLIGAGGVGSSFAYALTIDNSLVHELVIIDVNEDKAKGEVMDLNHGQMFL     57
+
+HEM1_METCA       218 -HTLANQFGGFAISLEELPKHLAKADIIVASTG-------SPLPILGKGS    259
+                      ..:...||.:        |....|||:|.:.|       :.|.::||.|
+LDH_BORAP         58 KKNINVLFGTY--------KDCVNADIVVITAGLNQKPGETRLDLVGKNS     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    15/25 (60.0%)
+# Gaps:           0/25 ( 0.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+HEM1_METCA       116 LGQMKTAYQAAREAGTVGKILTKLF    140
+                     ||..:.:|:.|.:||.:.|.|..::
+EXGB_EMENI       380 LGDYRWSYKDAVDAGVIPKDLDSIY    404
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:      60/273 (22.0%)
+# Similarity:   103/273 (37.7%)
+# Gaps:          79/273 (28.9%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+HEM1_METCA       119 MKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAI    168
+                     |...::....||...::: ||........::|.|....|.:||     |.
+KTHY_CHLP8         1 MLITFEGIDGAGKSTQVV-KLKRHLQERGREVLTLREPGGTPV-----AE     44
+
+HEM1_METCA       169 RLAQRIFDDLGDLTAI---LVGAGETIELTARHLT---ENRIGHLIIANR    212
+                     ::.:.:.:...|:|:|   |:.:....||..:.:.   |:  |..:|.:|
+KTHY_CHLP8        45 QIRELLLESHNDITSIAELLLFSASRAELMEKIIVPALED--GCDVILDR     92
+
+HEM1_METCA       213 TFDRAHTLANQFGGFAISLEELPKHLAKADI-IVASTGSPLPILGKGSFE    261
+                     .||  .|.|.|..|..::|:.|      |:| .:||.|            
+KTHY_CHLP8        93 FFD--STTAYQGYGRGLNLDML------AEINRIASHG------------    122
+
+HEM1_METCA       262 SALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDD--LQHTVEENL    309
+                                          |.|::....|:   |.:|  |:...|::|
+KTHY_CHLP8       123 ---------------------IRPDITFYLDL---TPEDALLRKFSEKSL    148
+
+HEM1_METCA       310 KTRQEAALQAEEIIDLEVEHFLSWLRAQAATETIRDVRRQ----------    349
+                         ..|.::||:..:|......:.|.:|....|.:...|          
+KTHY_CHLP8       149 ----PLAFESEELDRMENSGLEFYQRVRAGYHAILEAEPQRIIMIDALLT    194
+
+HEM1_METCA       350 -AELHRD--AALQRALRELRRGK    369
+                      .|:||.  :||| ||.....||
+KTHY_CHLP8       195 PQEIHRKILSALQ-ALEVPEDGK    216
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 398
+# Identity:      80/398 (20.1%)
+# Similarity:   130/398 (32.7%)
+# Gaps:         108/398 (27.1%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+HEM1_METCA       104 GLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTD    153
+                     |:::...||  :|..:.......|.|...|...|.|     ||.:::|..
+SECA2_MYCTO      385 GIETTETGE--VLDTITVQALINRYATVCGMTGTAL-----AAGEQLRQF    427
+
+HEM1_METCA       154 TAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGA---------------    188
+                     ..:|.||:......||      :|..|...|...|               
+SECA2_MYCTO      428 YQLGVSPIPPNKPNIR------EDEADRVYITTAAKNDGIVEHITEVHQR    471
+
+HEM1_METCA       189 GETIELTARHLTENRIGH---------LIIANRTFD----RAHTLANQFG    225
+                     |:.:.:..|.:.|:...|         .::.|...|    |....|.::|
+SECA2_MYCTO      472 GQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGKYG    521
+
+HEM1_METCA       226 GFAISLEELPK----HLAKADII----VASTGSPLPILGKG-----SFES    262
+                     ...:|.:...:    .|..:|..    ||..|. |.::|.|     ..::
+SECA2_MYCTO      522 AVTVSTQMAGRGTDIRLGGSDEADHDRVAELGG-LHVVGTGRHHTERLDN    570
+
+HEM1_METCA       263 ALRSRR-------------------------HKPMFIVDLAVPRDIEPEV    287
+                     .||.|.                         |..:.:......|.:.|..
+SECA2_MYCTO      571 QLRGRAGRQGDPGSSVFFSSWEDDVVAANLDHNKLPMATDENGRIVSPRT    620
+
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQ    337
+                     ..|.|......:.....|..|.....:...|...||   ||...:.||..
+SECA2_MYCTO      621 GSLLDHAQRVAEGRLLDVHANTWRYNQLIAQQRAII---VERRNTLLRTV    667
+
+HEM1_METCA       338 AATETIRDV--RRQAELHRDAALQR--------ALRELRRGKSAEDTLRW    377
+                     .|.|.:.::  :|..||....:.:|        .|..|.||.:  |.|.:
+SECA2_MYCTO      668 TAREELAELAPKRYEELSDKVSEERLETICRQIMLYHLDRGWA--DHLAY    715
+
+HEM1_METCA       378 LADTLTNKIIHA-------PSSQIWQAGVNE----RADIVAAARELFQ    414
+                     |||  ..:.||.       |..:..:..|:.    .||.:.||::.|:
+SECA2_MYCTO      716 LAD--IRESIHLRALGRQNPLDEFHRMAVDAFASLAADAIEAAQQTFE    761
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           5/19 (26.3%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+HEM1_METCA        50 CNRTEVYCELDGR--DQRP     66
+                     |..||::.   ||  :.||
+DB108_HUMAN       39 CLETEIHV---GRCLNSRP     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    28/64 (43.8%)
+# Gaps:           8/64 (12.5%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+HEM1_METCA        10 HTTAPVSIRERLAFPAEQLQSALRDLIDLPQVG---EAAILSTCNRTEVY     56
+                     :|..|:.:|...:.||..:.:.|...: |||:.   ....|:.|    ::
+LCMT1_CRYNB      218 YTLLPLDLRPSPSEPASSISAILSHHV-LPQLDPRLPTLFLAEC----LF    262
+
+HEM1_METCA        57 CELDGRDQRPIVDW     70
+                     ..:...|.|.|:.|
+LCMT1_CRYNB      263 PYMSPEDSREIIKW    276
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      27/140 (19.3%)
+# Similarity:    50/140 (35.7%)
+# Gaps:          31/140 (22.1%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+HEM1_METCA       176 DDLGDLTAI--LVGAGETIELTARHL---TENRIGHLIIANRTFD-RAHT    219
+                     :|:.|:...  :||.|..|:.|...:   .:..||.:...|..|. .:.:
+PTGA_SALTY        35 EDVPDVVFAEKIVGDGIAIKPTGNKMVAPVDGTIGKIFETNHAFSIESDS     84
+
+HEM1_METCA       220 LANQFGGFAISLEELPKHLAKADIIVASTGSPLPILGKGSFESALRSRRH    269
+                     ....|..|.|...||.                    |:|....|...:|.
+PTGA_SALTY        85 GIELFVHFGIDTVELK--------------------GEGFKRIAEEGQRV    114
+
+HEM1_METCA       270 K---PMFIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVE    306
+                     |   |  :::..:|...|.....|..|.:..:|:::..::
+PTGA_SALTY       115 KVGDP--VIEFDLPLLEEKAKSTLTPVVISNMDEIKELIK    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      10/40 (25.0%)
+# Similarity:    17/40 (42.5%)
+# Gaps:           2/40 ( 5.0%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+HEM1_METCA       338 AATETIRDVRRQAELHRDAAL--QRALRELRRGKSAEDTL    375
+                     |....|:..:::..|.|...|  |...:|:....|.:|.|
+RR14_CRYJA         2 ARKSLIQREKKKQRLERKYNLLRQSLKKEMSEVSSLDDKL     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:      36/195 (18.5%)
+# Similarity:    76/195 (39.0%)
+# Gaps:          62/195 (31.8%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+HEM1_METCA       259 SFESALRSRR--HKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVE    306
+                     :|..|.|..:  |.|::.:..|  ...:||..:|::  .|.:.::.|..|
+DCUP_BACVZ        10 TFLKAARGEKTNHVPVWYMRQA--GRSQPEYRKLKE--KYGLVEITHQPE     55
+
+HEM1_METCA       307 -----ENLKTRQ---EAALQAEEI--------IDLEVEHFLSWLRAQAAT    340
+                          ..|...|   :||:..::|        :|:|:::.:..:..| ..
+DCUP_BACVZ        56 LCAYVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIKNGIGPVIDQ-PV    104
+
+HEM1_METCA       341 ETIRDVRRQAELHRDAALQRALRELRRGKSAEDTLRWLAD----------    380
+                     .:..|:.:..||:.:..:...|          :|:|.|.:          
+DCUP_BACVZ       105 RSAADIEKLGELNPEQDVPYVL----------ETIRLLVNEQLNVPLIGF    144
+
+HEM1_METCA       381 -----TLTNKIIH-APSS-------------QIWQAGVNERADIV    406
+                          ||.:.:|. .||.             |.|:..:::.||::
+DCUP_BACVZ       145 SGAPFTLASYMIEGGPSKNYNKTKAFMHSMPQAWKMLMDKLADMI    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      23/97 (23.7%)
+# Similarity:    40/97 (41.2%)
+# Gaps:          24/97 (24.7%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA        89 HFDAGTIRHMFRVACGLDSMILGEPQI-----LGQMKTAYQAARE----A    129
+                     |:|..|::.:.....|: |.|:..|.:     ||....|.:|.|.    :
+GTF2I_MOUSE      164 HYDLATLKWILENKAGI-SFIIKRPFLEPKKHLGGRVLAAEAERSMLSPS    212
+
+HEM1_METCA       130 GTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFD    176
+                     |:.|.|             ||:|:.... |.:|:..||:.:.:...|
+GTF2I_MOUSE      213 GSCGPI-------------KVKTEPTED-SGISLEMAAVTVKEESED    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      59/296 (19.9%)
+# Similarity:    95/296 (32.1%)
+# Gaps:          92/296 (31.1%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+HEM1_METCA       187 GAGETIELTARHL----TENRIGHLIIANRTFDRAHTLANQFGGFAISLE    232
+                     |....|::..|.|    ....:.|.::.||     |.:.:.....||.:|
+ISPH_ACIF5        14 GVNRAIQIVDRALELFGAPIYVRHEVVHNR-----HVVEDLRARGAIFVE     58
+
+HEM1_METCA       233 ELPKHLAKADIIVASTGSPL------------------PILGKGSFESAL    264
+                     ||.:....|.:|.::.|.|:                  |::.|...|...
+ISPH_ACIF5        59 ELDEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATCPLVTKVHMEVKK    108
+
+HEM1_METCA       265 RSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTV--------------DD    300
+                     .||....|.::..|...::|..:.|:::..:|.|              |.
+ISPH_ACIF5       109 YSRDGMEMVLIGHAGHPEVEGTMGQVEEGMMYLVSNVSDVATLAPRNPDK    158
+
+HEM1_METCA       301 LQHTVEENLKTRQEAALQAEEIIDLEVEH------------FLSWLRAQA    338
+                     |.:..:..|....    .||.|:.|....            :.:..|..|
+ISPH_ACIF5       159 LAYITQTTLSMDD----TAEVIVALRSRFPLIEGPKKDDICYATQNRQDA    204
+
+HEM1_METCA       339 ATETIRDV--------------RRQAELHRDAALQRAL----RELRR---    367
+                     ......||              .|.|||......|..|    ::|||   
+ISPH_ACIF5       205 VKSLAPDVDILLVVGAPNSSNSSRLAELGTRLGTQTHLIEDAQQLRREWF    254
+
+HEM1_METCA       368 ----------GKSAEDTL-RWLADTLTNKIIHAPSSQIWQAGVNER    402
+                               |.||.::| :.:.|||.......|..   ..||.|:
+ISPH_ACIF5       255 EGVGKIGISAGASAPESLVQEIMDTLRGWGARVPQE---MPGVEEK    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      10/49 (20.4%)
+# Similarity:    15/49 (30.6%)
+# Gaps:          18/49 (36.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+HEM1_METCA       201 ENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVASTG    249
+                     |.|:.|.                  |:..||.|..:.::..|....|.|
+NDUA1_HUMAN       35 EKRVAHF------------------GYHWSLMERDRRISGVDRYYVSKG     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      59/265 (22.3%)
+# Similarity:   107/265 (40.4%)
+# Gaps:          62/265 (23.4%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+HEM1_METCA        96 RHMFRVACG--LDSMILGEPQILGQMKTAYQAAREAGTVGKI-LTKLFHR    142
+                     ||:|.::.|  :.:.:||. .::.|...         |:..| |..:.:.
+PSRP_SALTI         7 RHVFYISDGTAITAEVLGH-AVMSQFPV---------TISSITLPFVENE     46
+
+HEM1_METCA       143 TFAAAKKVRTDT---AIGCSPVSVAFAAIRLAQRIFDDLGDLTAILV---    186
+                     :.|.|.|.:.|.   ..|..|: |.::.:         |.::.||::   
+PSRP_SALTI        47 SRARAVKDQIDAIYQQTGVRPL-VFYSIV---------LPEIRAIILQSE     86
+
+HEM1_METCA       187 GAGETI--ELTARHLTENRIGHLIIANRT----------FDRA-----HT    219
+                     |..:.|  .|.|....|.::....||:||          :|..     :|
+PSRP_SALTI        87 GFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNPGNLNKYDARIAAIDYT    136
+
+HEM1_METCA       220 LANQFGGFAISLEELPKHLAKADIIVASTGSPLPILGKGSFESALRSRRH    269
+                     ||:..|   |||..|.:  |:..::..|.....|.....:.:..:|:..:
+PSRP_SALTI       137 LAHDDG---ISLRNLDQ--AQVILLGVSRCGKTPTSLYLAMQFGIRAANY    181
+
+HEM1_METCA       270 KPMFIVD----LAVPRDIEPEVEQLQDVYLYTVDD--LQHTVEENLKTRQ    313
+                     .  ||.|    |.:|..::|...:|   :..|:|.  |....||..:..:
+PSRP_SALTI       182 P--FIADDMDNLTLPTSLKPLQHKL---FGLTIDPERLAAIREERRENSR    226
+
+HEM1_METCA       314 EAALQAEEIIDLEVE    328
+                     .|:|:...:...|||
+PSRP_SALTI       227 YASLRQCRMEVAEVE    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 235
+# Identity:      50/235 (21.3%)
+# Similarity:    91/235 (38.7%)
+# Gaps:          55/235 (23.4%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+HEM1_METCA       124 QAAREAGTV-GKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQ    172
+                     ||.::||.: |..:.::.:...|||.....|...| ..::|.        
+DNAK_CHESB       152 QATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEG-KTIAVY--------    192
+
+HEM1_METCA       173 RIFDDLG----DLTAILVGAGETIELTARHLTENRIGHLIIANRTFDR--    216
+                         |||    |::.:.:|.| ..|:.:.:      |...:....||.  
+DNAK_CHESB       193 ----DLGGGTFDISILEIGDG-VFEVKSTN------GDTFLGGEDFDMRL    231
+
+HEM1_METCA       217 AHTLANQF--------GGFAISLEELPKHLAKADIIVASTGSP---LPIL    255
+                     .:.||::|        ....::|:.|.:...||.|.::|:...   ||.:
+DNAK_CHESB       232 VNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEINLPFI    281
+
+HEM1_METCA       256 ---GKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYT--VDD    300
+                        ..|....|::..|.|...:|:..|.|.|||....|:|..|..  :|:
+DNAK_CHESB       282 TADQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDE    331
+
+HEM1_METCA       301 ------------LQHTVEENLKTRQEAALQAEEII    323
+                                 :|.||:..........:..:|::
+DNAK_CHESB       332 VVLVGGMTRMPKVQETVKNFFGKEPHKGVNPDEVV    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:      47/219 (21.5%)
+# Similarity:    78/219 (35.6%)
+# Gaps:          44/219 (20.1%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+HEM1_METCA        10 HTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTCNRTEVYCEL     59
+                     :|..|..:||.|      |..|.|.::::..:|||.::          :|
+DNLJ_ACIC5       436 NTDCPARLRESL------LHFASRGVMNIEGMGEAIVM----------QL    469
+
+HEM1_METCA        60 DGRDQRPIVDWMCDQRQFDDQDI----------SQYLYSHFDAGTIRHMF     99
+                     .||.   :|..:.|.....::.:          :..|....|......:.
+DNLJ_ACIC5       470 LGRG---LVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLD    516
+
+HEM1_METCA       100 RVACGLDSMILGE--PQIL----GQMKTAYQAARE----AGTVGKILTKL    139
+                     ||..||....:||  .|.|    |.|....||:||    ...||..:::.
+DNLJ_ACIC5       517 RVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERVNDVGPRVSEA    566
+
+HEM1_METCA       140 FHRTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAG    189
+                     ....|...:  ..|.........:.|...:  ::....|..||.:|.|..
+DNLJ_ACIC5       567 IREFFDEPR--NRDLVERLREAGLRFTGEK--RKKTSQLAGLTFVLTGTL    612
+
+HEM1_METCA       190 ETIEL-TARHLTENRIGHL    207
+                     ..:.. .|:...||..||:
+DNLJ_ACIC5       613 PGLSRDEAKGKIENAGGHV    631
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      20/111 (18.0%)
+# Similarity:    48/111 (43.2%)
+# Gaps:          36/111 (32.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+HEM1_METCA       229 ISLEELPKHLAKADIIVAST-------GSPLPILGKGSFESALRSRRHKP    271
+                     :::.::|   |.:|:.||:.       .||:.:....:|.....::    
+CAPSD_CMVO       123 VTVRKVP---ASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNK----    165
+
+HEM1_METCA       272 MFIVDLAVPRDIEPEVEQLQD--VYLYTVDDLQHTVEENLKTRQEAALQA    319
+                      .:.||:..|   .::..::.  |.:|:.||               ||:.
+CAPSD_CMVO       166 -LLYDLSAMR---ADIGDMRKYAVLVYSKDD---------------ALET    196
+
+HEM1_METCA       320 EE-IIDLEVEH    329
+                     :| ::.:::||
+CAPSD_CMVO       197 DELVLHVDIEH    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      30/155 (19.4%)
+# Similarity:    55/155 (35.5%)
+# Gaps:          44/155 (28.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+HEM1_METCA       277 LAVPRDIEPEVEQLQDV--YLYTVDDLQHTVEENLKTRQEAALQAE----    320
+                     :.|..:.||.|.:|.::  .|:.:|..    :::||.:|:.....|    
+IF3_CHLL2         55 IEVQPNAEPPVCKLDNLGKLLFKMDKR----DKDLKKKQKTTTLKELRFH    100
+
+HEM1_METCA       321 -----EIIDLEVEHFLSWLR-AQAATETIRDVRRQAELHRDAALQRALRE    364
+                          ...|.:..|...:|| ......||..:.|.. :::|..|:     
+IF3_CHLL2        101 PNTDKHDFDFKTAHLEEFLRKGNRVRATIVFLGRSI-IYKDKGLE-----    144
+
+HEM1_METCA       365 LRRGKSAEDTLRWLADTLTNKIIHAPSSQIWQAGVNERADIVAAARELFQ    414
+                                  ||:.||.::         ....|...|.....::||.
+IF3_CHLL2        145 -------------LAERLTERL---------SCVSNRDGDPKFEGKKLFV    172
+
+HEM1_METCA       415 LKDPD    419
+                     ..:||
+IF3_CHLL2        173 YFEPD    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:       7/44 (15.9%)
+# Similarity:    20/44 (45.5%)
+# Gaps:           0/44 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+HEM1_METCA         1 MAILTLGVNHTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEA     44
+                     :.:|::..|.....|...:.::...|::...::...|.|.:|.:
+CSRA_HAEI8        20 ITVLSVRGNQVKLGVEAPKEVSVHREEIYQRIKQTKDEPYLGSS     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      23/81 (28.4%)
+# Similarity:    37/81 (45.7%)
+# Gaps:          25/81 (30.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+HEM1_METCA       177 DLGDLTAILVGAGETIELTA--RHLTENRIGHLIIANRTFDRAHTLANQF    224
+                     |:|: |.|::|..:..||.|  |..|:|:        ||.|.        
+COAX_CLOBL         6 DVGN-TNIVLGIYKNKELIANWRLATDNK--------RTADE--------     38
+
+HEM1_METCA       225 GGFAISLEELPKH--LAKADI--IVASTGSP    251
+                       :.|.:.||..|  |:.:||  ::.|:..|
+COAX_CLOBL        39 --YGIQVIELFSHNNLSFSDIEGVIISSVVP     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       9/33 (27.3%)
+# Similarity:    12/33 (36.4%)
+# Gaps:           0/33 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+HEM1_METCA       314 EAALQAEEIIDLEVEHFLSWLRAQAATETIRDV    346
+                     ||.|..||......:....|.|::......|.|
+HOP_BOVIN         39 EAGLSEEETQKWFKQRLAQWRRSEGLPSECRSV     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      61/292 (20.9%)
+# Similarity:   105/292 (36.0%)
+# Gaps:          88/292 (30.1%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+HEM1_METCA        79 DQDISQYLYSHFDAGTIRHMFRVACGLDSMILGEPQILGQMKTAYQAAR-    127
+                     |..:|.||  |...|:..|......|..:..:|..|:...:...|.::. 
+THII_VIBA3       189 DSGVSSYL--HIKRGSKVHYCFFNLGGPAHEIGVKQVSHYLWDKYGSSAK    236
+
+HEM1_METCA       128 -------------------EAGTVGKILTKLFHRTFAAAKKVRTDTAIGC    158
+                                        |.|.:|.:|.::|.|                
+THII_VIBA3       237 VKFISIDFEPVVAEILENVEDGQMGVVLKRMFMR----------------    270
+
+HEM1_METCA       159 SPVSVAFAAIRLAQRIFDDLGDLTAILVG------AGETIELTARHLTEN    202
+                            |...:|:|.     .:.|::.|      :.:|: ...||: :|
+THII_VIBA3       271 -------AGGMVAERF-----GIEALVTGEALGQVSSQTL-TNLRHI-DN    306
+
+HEM1_METCA       203 RIGHLI---IANRTFDRAHTLANQFG--GFAISLEELPKHLAKADIIVAS    247
+                     ....||   :.|...:....|:.:.|  .||..:.|....::|...:.|.
+THII_VIBA3       307 VTDTLILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAK    356
+
+HEM1_METCA       248 TGSPLPILGKGSF---ESALRSRRHKPMFIVDLAVPRDIE-------PEV    287
+                     .|.......|.:|   |..:.:.|     |:|:   ||||       |||
+THII_VIBA3       357 KGKLEAEEAKFNFEVLEQVIENAR-----IMDI---RDIEKESQEQAPEV    398
+
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEH    329
+                     ||:|.|       .:|.|..::::..|......||..:|::|
+THII_VIBA3       399 EQVQAV-------AEHAVVLDIRSPDEEDESPLEIDGVEIKH    433
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      12/40 (30.0%)
+# Similarity:    21/40 (52.5%)
+# Gaps:           4/40 (10.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+HEM1_METCA       235 PKHLAKADIIVASTGSPLPILGKGSFESALRSR-RHKPMF    273
+                     |:.:.:...:|.:.|.   .||:.:.|.|.|.| :|||.:
+RL13_PSEPG         8 PETVKREWFVVDAAGQ---TLGRLATEIATRLRGKHKPEY     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      41/158 (25.9%)
+# Similarity:    60/158 (38.0%)
+# Gaps:          55/158 (34.8%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+HEM1_METCA        47 LSTCNRTEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIR     96
+                     |.|..:||.:..|..||...:      :||.  ..:..||      |.|:
+RR2_ARATH        121 LRTEQKTEGFNRLPKRDAAVL------KRQL--SRLETYL------GGIK    156
+
+HEM1_METCA        97 HMFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAA    146
+                     :|    .||..:::    ||.|.: .|.|.||..|:|.....|.      
+RR2_ARATH        157 YM----TGLPDIVI----ILDQQE-EYTALRECITLGIPTISLI------    191
+
+HEM1_METCA       147 AKKVRTDTAIGCSP----VSV-----AFAAIR--LAQRIFDDLGDLTAIL    185
+                           ||  .|:|    :|:     |.|:||  |.:.:|       ||.
+RR2_ARATH        192 ------DT--NCNPDLADISIPANDDAIASIRFILNKLVF-------AIC    226
+
+HEM1_METCA       186 VGAGETIE    193
+                     .|....|:
+RR2_ARATH        227 EGRSSYIQ    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      51/227 (22.5%)
+# Similarity:    87/227 (38.3%)
+# Gaps:          66/227 (29.1%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+HEM1_METCA       178 LGDLTAILVGAG--ETIELTARHLTENRIGHLIIANRTFDRAH-TLANQF    224
+                     |.::.|::.|||  |.:|..:..:.:|    |.||..|   .| |...| 
+Y1710_SYNP2       95 LPEIQAMIKGAGLPERVERWSLAIFQN----LAIAEAT---VHGTTPEQ-    136
+
+HEM1_METCA       225 GGFAISLEELPKHLAKADIIVASTG-----------SPLPILGKGSFESA    263
+                         :...|:....|..||:....|           :|:| .|.|:.::|
+Y1710_SYNP2      137 ----VHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMP-TGGGTVKAA    181
+
+HEM1_METCA       264 LRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQ    313
+                          |.   |:.:.||..:  ::.|.:.|.:|:     :.:|:.|.|..
+Y1710_SYNP2      182 -----HG---ILPVPVPAVL--QLWQQRQVPVYS-----NGIEKELVTPT    216
+
+HEM1_METCA       314 EAALQ--------------------AEEIIDLEVEHFLS-WLRAQAAT--    340
+                     .||:.                    ....|||.:.:.|. |:..|..|  
+Y1710_SYNP2      217 GAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLWIGHQPETPH    266
+
+HEM1_METCA       341 -ETIRDVRRQAELHRDAALQRALRELR    366
+                      |||..:..|.:.....|:..|..:|:
+Y1710_SYNP2      267 LETIVTLETQIDDLNPQAIAYACEKLQ    293
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 238
+# Identity:      51/238 (21.4%)
+# Similarity:    81/238 (34.0%)
+# Gaps:          86/238 (36.1%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+HEM1_METCA        98 MFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAA    147
+                     |.|||  :...:..||::|  :.....|..:..|.|:::.::        
+WTPC_THEKO       137 MQRVA--IARALAVEPELL--LLDEPFANLDVQTRGRLINEM--------    174
+
+HEM1_METCA       148 KKVRTDTAIGCSPVSVAFAAIRLAQRIFDD---LGD-----LTAILVGAG    189
+                     |:.|.:         :.|.|:.:... |::   |||     |...||..|
+WTPC_THEKO       175 KRWRKE---------LGFTALHVTHS-FEEAVSLGDRVGVMLNGRLVQVG    214
+
+HEM1_METCA       190 ETIELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLA    239
+                     ...|:.:|..:|.                  ..:|.||    |.:.:.||
+WTPC_THEKO       215 PVREVFSRPASEE------------------VAKFLGF----ENIVEGLA    242
+
+HEM1_METCA       240 KADIIVAS-TGSPLPILGKGSFESALRSRRHKPMFIVDLAVPRDIEPEVE    288
+                     :..|:.|: ....|||...|.....:|              |.||     
+WTPC_THEKO       243 EGRILRANGLVIELPIEASGRIRVGIR--------------PEDI-----    273
+
+HEM1_METCA       289 QLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLE    326
+                     .|.|              |.||:......|||...|:|
+WTPC_THEKO       274 VLSD--------------EPLKSSMRNTFQAEVQADVE    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      40/194 (20.6%)
+# Similarity:    69/194 (35.6%)
+# Gaps:          46/194 (23.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+HEM1_METCA        55 VYCELDGRDQRPIVDWMCDQRQFDDQDISQY---LYSHFDAGTIRHMFRV    101
+                     ::|   ..|::....|:...|.|      :|   ||.::.....||: |:
+GRB7_RAT         320 IFC---SEDEQSRTCWLSAFRLF------KYGVQLYKNYQQAQSRHL-RL    359
+
+HEM1_METCA       102 ACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKV-    150
+                     :      .||.|.:.........|...:|..|:::........||.::. 
+GRB7_RAT         360 S------YLGSPPLRSVSDNTLVAMDFSGHAGRVIENPQEALSAATEEAQ    403
+
+HEM1_METCA       151 --------RTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETI    192
+                             |......||.:|:: |||...|..|.  |.:           
+GRB7_RAT         404 AWRKKTNHRLSLPTPCSGLSLS-AAIHRTQPWFH--GRI-----------    439
+
+HEM1_METCA       193 ELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPK    236
+                        :|..::..||...:.:..|....:..|. .||.:||..|.|
+GRB7_RAT         440 ---SREESQRLIGQQGLVDGVFLVRESQRNP-QGFVLSLCHLQK    479
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      13/39 (33.3%)
+# Similarity:    20/39 (51.3%)
+# Gaps:           9/39 (23.1%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+HEM1_METCA       369 KSAEDTLRWLADTLTNKIIHAPSSQIWQAGVNERADIVA    407
+                     |::||..|      .:.:|..|:.||   ||.:.|.:||
+PSD_RHOPS        135 KASEDNER------NSMVISTPAGQI---GVVQIAGLVA    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 405
+# Identity:      78/405 (19.3%)
+# Similarity:   140/405 (34.6%)
+# Gaps:         123/405 (30.4%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA        13 APVSIRERLAFPAEQ---LQSALRDLIDLPQVGEA------------AIL     47
+                     |..||.|  |||::.   |.|.:|.|:...:..:|            |.|
+PP156_ARATH       65 AQTSIPE--AFPSDSPLPLISVVRSLLSHHKFADAKSLLVSYIRTSDASL    112
+
+HEM1_METCA        48 STCNR-TEVYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYS---HFDAG     93
+                     |.||. ......|.....:.:.|..          :|.||:.   |....
+PP156_ARATH      113 SLCNSLLHPNLHLSPPPSKALFDIA----------LSAYLHEGKPHVALQ    152
+
+HEM1_METCA        94 TIRHMFR-------VACGLDSMILGEPQILGQMKTAY--QAAREA-GTVG    133
+                     ..:.|.|       :.|  :::::|    |.:..:::  .:|||. ..:.
+PP156_ARATH      153 IFQKMIRLKLKPNLLTC--NTLLIG----LVRYPSSFSISSAREVFDDMV    196
+
+HEM1_METCA       134 KILTKLFHRTF-----AAAKKVRTDTAIG----------CSPVSVAFAAI    168
+                     ||...|..:||     ....:.:.:.|:|          .:|.:|.:..|
+PP156_ARATH      197 KIGVSLNVQTFNVLVNGYCLEGKLEDALGMLERMVSEFKVNPDNVTYNTI    246
+
+HEM1_METCA       169 RLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGHLIIANRTFDRAH    218
+                     ..|......|.||..:|      :::....|..||:              
+PP156_ARATH      247 LKAMSKKGRLSDLKELL------LDMKKNGLVPNRV--------------    276
+
+HEM1_METCA       219 TLANQFGGF--------AISLEELPKH------LAKADIIVASTGSPLPI    254
+                     |..|...|:        |..:.||.|.      |...:|::..      :
+PP156_ARATH      277 TYNNLVYGYCKLGSLKEAFQIVELMKQTNVLPDLCTYNILING------L    320
+
+HEM1_METCA       255 LGKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVD---DL    301
+                     ...||....|.        ::|......::|:|.    .|...:|   :|
+PP156_ARATH      321 CNAGSMREGLE--------LMDAMKSLKLQPDVV----TYNTLIDGCFEL    358
+
+HEM1_METCA       302 QHTVEENLKTRQEAALQAEEIIDLEVEHFLS--WLRAQAATETI-RDVRR    348
+                     ..::|......|   ::.:.:...:|.|.:|  ||..:...|.: |.|:.
+PP156_ARATH      359 GLSLEARKLMEQ---MENDGVKANQVTHNISLKWLCKEEKREAVTRKVKE    405
+
+HEM1_METCA       349 QAELH    353
+                     ..::|
+PP156_ARATH      406 LVDMH    410
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      13/64 (20.3%)
+# Similarity:    19/64 (29.7%)
+# Gaps:          37/64 (57.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+HEM1_METCA       271 PMFIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAE    320
+                     |.|||::.                        |.:::||           
+ADRB2_MESAU      288 PFFIVNIV------------------------HVIQDNL-----------    302
+
+HEM1_METCA       321 EIIDLEVEHFLSWL    334
+                       |..||...|:||
+ADRB2_MESAU      303 --IPKEVYILLNWL    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       3/11 (27.3%)
+# Similarity:     5/11 (45.5%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+HEM1_METCA       244 IVASTGSPLPI    254
+                     :....|.||.:
+ID5B_ADEPA        18 LAVKEGDPLVV     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      37/186 (19.9%)
+# Similarity:    62/186 (33.3%)
+# Gaps:          79/186 (42.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+HEM1_METCA       301 LQHTVEENLKTRQEAALQAEEII---------------------------    323
+                     |...::|.:|..|..:|:..:::                           
+GPA7_CAEEL        15 LNRRIDEQIKKDQSMSLRIIKLLLLGAGESGKSTILKQMRILHKDGFSQQ     64
+
+HEM1_METCA       324 DLE----------VEHFLSWLRAQ-------AATETIRDVR--------R    348
+                     |||          :...||.|||.       ...:.:||.:        .
+GPA7_CAEEL        65 DLEMIRPVVYSNCIHSMLSILRAMFHLQIEYGEPDRVRDSQLVFATVHAN    114
+
+HEM1_METCA       349 QAELHRD--AALQR-----ALRELRRGKS---AEDTLRWLADTL--TNKI    386
+                     :.||..:  ||:||     .:||..|..:   .:|:.::..|.|  .:..
+GPA7_CAEEL       115 KEELTEELAAAMQRLWHDPGVRECYRRSNEYQIDDSAKYFLDNLPRLSSP    164
+
+HEM1_METCA       387 IHAPSSQ------IWQAGVNERADIVAAARELFQLK    416
+                     .:.||.|      |...|:.|         .||:||
+GPA7_CAEEL       165 NYVPSEQDLLRTRIKTTGITE---------VLFELK    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 174
+# Identity:      40/174 (23.0%)
+# Similarity:    66/174 (37.9%)
+# Gaps:          39/174 (22.4%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+HEM1_METCA       191 TIELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAK    240
+                     |:|..|.|..:.|: ||..::..|       |..|...::...|.|....
+IDI_ECO24         18 TLEKYAAHTADTRL-HLAFSSWLF-------NAKGQLLVTRRALSKKAWP     59
+
+HEM1_METCA       241 ADIIVASTGSPLPILGKGSFESALRSRRHKPMFIVDLAVPRDIEPEVEQL    290
+                     .....:..|.|.  ||:.:.::.:|..|::  ..|::..|..|.|:    
+IDI_ECO24         60 GVWTNSVCGHPQ--LGESNEDAVIRRCRYE--LGVEITPPESIYPD----    101
+
+HEM1_METCA       291 QDVYLYTVDDLQHTVEENL----KTRQEAALQA--EEIID------LEVE    328
+                        :.|...|....||..:    ..|..:|||.  :|::|      .:|.
+IDI_ECO24        102 ---FRYRATDPNGIVENEVCPVFAARTTSALQINDDEVMDYQWCDLADVL    148
+
+HEM1_METCA       329 H--------FLSWLRAQAATETIR    344
+                     |        |..|:..|||....|
+IDI_ECO24        149 HGIDATPWAFSPWMVMQAANSEAR    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      50/228 (21.9%)
+# Similarity:    80/228 (35.1%)
+# Gaps:          71/228 (31.1%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+HEM1_METCA       148 KKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTAR    197
+                     |.|...||||.:.|::.:..:.......|:.....|         ::.|.
+YHJA_ECOLI         2 KMVSRITAIGLAGVAICYLGLSGYVWYHDNKRSKQA---------DVQAS     42
+
+HEM1_METCA       198 HLTENR--IGHLIIANRTFDRAHTLANQFGGFAISLEELP--------KH    237
+                     .::||.  :|.|  ..:..|..||.:          .|||        |.
+YHJA_ECOLI        43 AVSENNKVLGFL--REKGCDYCHTPS----------AELPAYYYIPGAKQ     80
+
+HEM1_METCA       238 LAKADIIVASTGSPLPILGKGSFE-SALRSRRHKPMFIVDLAVPRDIEPE    286
+                     |...||          .||..||. .|:|:     ..:.|..|.   :.:
+YHJA_ECOLI        81 LMDYDI----------KLGYKSFNLEAVRA-----ALLADKPVS---QSD    112
+
+HEM1_METCA       287 VEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRA    336
+                     :.:::.|..|         |....||..|...|.::.|.|....|:|:..
+YHJA_ECOLI       113 LNKIEWVMQY---------ETMPPTRYTALHWAGKVSDEERAEILAWIAK    153
+
+HEM1_METCA       337 Q-----AATETIRDVRRQAELHRDAALQ    359
+                     |     |:.:|       |..||:..:|
+YHJA_ECOLI       154 QRAEYYASNDT-------APEHRNEPVQ    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      36/145 (24.8%)
+# Similarity:    58/145 (40.0%)
+# Gaps:          33/145 (22.8%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+HEM1_METCA       282 DIEPEVEQLQDVYL-----YTVDDLQHTVEENLKTRQEAALQAEEIIDLE    326
+                     |:|.....:..||:     .|:||.:..      |||...:...|.||.|
+RIMP_BURPS        20 DLERTGRGMVCVYIDQPAGITIDDCEKV------TRQLQHVLTVENIDYE     63
+
+HEM1_METCA       327 VEHFLSWLRAQAATETI-RDVRRQAELHRDAALQRALRELRRGKSAEDTL    375
+                             |.:.::..: |.:::.|:..|.|. ..|:..|::......|.
+RIMP_BURPS        64 --------RLEVSSPGLDRPLKKLADFTRFAG-SEAVITLKKPLDGRKTY    104
+
+HEM1_METCA       376 RWLADTLTNKIIHAPSSQIWQAGVN-ERADIVAAARELFQLKDPD    419
+                     |        .|:|||:.:  ..|:. ||....||..: |.|.|.|
+RIMP_BURPS       105 R--------GILHAPNGE--TIGLEFERKKGEAAMLD-FTLADID    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    13/32 (40.6%)
+# Gaps:           9/32 (28.1%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HEM1_METCA       151 RTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLT    182
+                     ||.:...|:.|.|.|         .||.|:.|
+RS28_OSTOS        16 RTGSQGQCTQVRVEF---------MDDNGNRT     38
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      20/95 (21.1%)
+# Similarity:    36/95 (37.9%)
+# Gaps:          20/95 (21.1%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+HEM1_METCA       215 DRAH---------TLANQFGGFAISLEELPKHLAKADIIVASTGSPLPIL    255
+                     |:||         :.|.|:|..|         |.:..:....|.:..|..
+HBAC_LITCT         7 DKAHIRAIWPCLASHAEQYGAEA---------LHRMFLCHPQTKTYFPNF     47
+
+HEM1_METCA       256 GKGSFESALRSRRHKPMFIVDLAVPRDIEPE--VEQLQDVYLYTV    298
+                     ...:..:.|::...|.|..:..||.....||  :..|.|::.:|:
+HBAC_LITCT        48 DFHANSAHLKNHGKKVMNALTDAVKHLDHPEASLSSLSDLHAFTL     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 183
+# Identity:      40/183 (21.9%)
+# Similarity:    64/183 (35.0%)
+# Gaps:          47/183 (25.7%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+HEM1_METCA        93 GTIRHMFRVACGLDSMILGEPQILGQMKTAYQAAREAGTVGKILTKLFHR    142
+                     |.|..:|:..| |.:|::|:    |...:|:                |.|
+RPOA_PRRSS      2017 GVILWLFKYRC-LHNMLVGD----GSFSSAF----------------FLR   2045
+
+HEM1_METCA       143 TFAAAK-KVRTDTAIGCSPVSVAFA-AIRLAQRIFDDLGDLTAILV----    186
+                     .||... :.....:.|.|..|:..| |.:|:|...|.|..||....    
+RPOA_PRRSS      2046 YFAEGNLRKGVSQSCGMSNESLTAALACKLSQADLDFLSSLTNFKCFVSA   2095
+
+HEM1_METCA       187 -----GAGETIELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISL    231
+                          .||:.||..........:..|:    ..|:...:.::...||   
+RPOA_PRRSS      2096 SNMKNAAGQYIEAAYAKALRQELASLV----QVDKMKGILSKLEAFA---   2138
+
+HEM1_METCA       232 EELPKHLAKADIIVASTGSPLPILGKGSFESAL    264
+                     |.....|...|::|        :||:....|.|
+RPOA_PRRSS      2139 ETATPSLDAGDVVV--------LLGQHPHGSIL   2163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      52/247 (21.1%)
+# Similarity:    91/247 (36.8%)
+# Gaps:          63/247 (25.5%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA       123 YQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIG-----CSPVSVAFAA    167
+                     ||...|:....|: .::|| :.||...:..|...|     ....::..:.
+UBIE_PSEAE        18 YQNVPESQKAKKV-AEVFH-SVAAKYDLMNDLMSGGIHRLWKRFTIELSG     65
+
+HEM1_METCA       168 IRLAQRIFD---DLGDLT---AILVG-AGETI--ELTARHLTENR---IG    205
+                     :|...|:.|   ..||||   :.||| .||.:  ::.|..|...|   :.
+UBIE_PSEAE        66 VRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLD    115
+
+HEM1_METCA       206 HLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVASTGSPLPIL    255
+                     ..:..|.:|.:|            ..|:||......|.:..:.|    :.
+UBIE_PSEAE       116 KGVSGNVSFVQA------------DAEKLPFPDNHFDCVTIAFG----LR    149
+
+HEM1_METCA       256 GKGSFESALRS--RRHKP---MFIVDLAVPR-------------DIEPEV    287
+                     .....:.|:||  |..||   :.:::.:.|.             .:.|.:
+UBIE_PSEAE       150 NVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLM    199
+
+HEM1_METCA       288 EQL----QDVYLYTVDDLQ-HTVEENLKTRQEAALQAEEIIDLEVEH    329
+                     .:|    .:.|.|..:.:: |..:|.||     |:..|...|....|
+UBIE_PSEAE       200 GKLVTNDSESYRYLAESIRMHPDQETLK-----AMMVEAGFDRVTYH    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      23/94 (24.5%)
+# Similarity:    37/94 (39.4%)
+# Gaps:          17/94 (18.1%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+HEM1_METCA       179 GDLTAILVGAG----ETIELTARHLTENRIGHLIIANRTFDRAHTLANQF    224
+                     |....|..|||    ..:.:..||...:.:...:|..|..:     ..:|
+FLII_AQUAE       162 GQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALIGERGRE-----VKEF    206
+
+HEM1_METCA       225 GGFAISLEE-LPKHLAKADIIVASTGSPLPILG-KGSFESALRS    266
+                           ||| |.:...|..::|.||....|||. ||:..:.:.:
+FLII_AQUAE       207 ------LEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHA    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      15/97 (15.5%)
+# Similarity:    46/97 (47.4%)
+# Gaps:          17/97 (17.5%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+HEM1_METCA       280 PRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEH    329
+                     |...:.:|.|:|        .:|..:::.|  :|::.:|.::...::::.
+MSS11_VANPO      416 PHPTQQQVHQMQ--------QMQKQLQQQL--QQQSVMQGQQQGPMQLQQ    455
+
+HEM1_METCA       330 FLSWLRAQAATETIRDVRRQAELHRDAALQRALRELRRGKSAEDTLR    376
+                     ..:..:.|...:   |.::|.:    ...|:.:::||.|.:.:..::
+MSS11_VANPO      456 GQTQSQGQGQAQ---DAQQQGQ----PLSQQQMKQLRNGGNVDSNIQ    495
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:      79/406 (19.5%)
+# Similarity:   134/406 (33.0%)
+# Gaps:         113/406 (27.8%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+HEM1_METCA         7 GVNHTTAPVSIR-ERLAFPAEQLQSALRDLIDLPQ---VGEAAILSTCNR     52
+                     ||:....|.|:: ..|..|.....:||:.::...|   :.....:|||:.
+SPB4_ASPFU       258 GVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSG    307
+
+HEM1_METCA        53 TE--------------VYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYS     88
+                     .:              :...|.|:.|..:       ||   ::.::::.|
+SPB4_ASPFU       308 VDYLSAILPLLLGDDFLLIPLHGKHQANV-------RQ---KNFNRFINS    347
+
+HEM1_METCA        89 HFDAGTIRHMFRVACGLDSMILGEPQILGQM------KTAYQAAREAGTV    132
+                     | |...:......|.|||   :....::.|:      |:.......||..
+SPB4_ASPFU       348 H-DPAILLTTDVAARGLD---IPSVDLVVQIDPPSDPKSFIHRCGRAGRA    393
+
+HEM1_METCA       133 GK--ILTKLFH----RTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFD    176
+                     |:  :...|.|    ..:.:..:||....:..|| |::|:          
+SPB4_ASPFU       394 GRRGLSVVLLHPGREEDYVSFLEVRKTPVVPFSP-SISFS----------    432
+
+HEM1_METCA       177 DLGDLTAILVGAGETIELTARHLTENRIGHLIIANRTF-DRAHTLANQFG    225
+                        |..|....|      |||        ..::|:|.. ||...      
+SPB4_ASPFU       433 ---DADAAAATA------TAR--------KAVLADRALHDRGQK------    459
+
+HEM1_METCA       226 GFAISLEELPKHLAKADIIVASTGSPLPILGKGSFESALRSRRHKPMFIV    275
+                     .|...|....||  :|..|...:......|||......|........|..
+SPB4_ASPFU       460 AFVSWLRSYSKH--QASSIFRVSDLDWEALGKAWGLLKLPKMPELKNFTG    507
+
+HEM1_METCA       276 DLAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDL    325
+                     |..:...::      .|.|.|  .|.|..     |.|:|...:|.|    
+SPB4_ASPFU       508 DKTLGMSLD------WDNYAY--KDKQRE-----KRRKELLQEAAE----    540
+
+HEM1_METCA       326 EVEHFLSWLRAQAATETIRDVRRQAE----LHRDAALQRALRELRRGKSA    371
+                                ..||::..:.||..|    ..:..:..:.|:...:.||.
+SPB4_ASPFU       541 -----------SGATQSTSNKRRATESVAWSQQAESKNKKLKRREQKKSK    579
+
+HEM1_METCA       372 EDTLRW    377
+                     ::..||
+SPB4_ASPFU       580 QEKARW    585
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 339
+# Identity:      70/339 (20.6%)
+# Similarity:   105/339 (31.0%)
+# Gaps:         127/339 (37.5%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+HEM1_METCA       153 DTAIGCSPV------SVAFAAIRLA----------QRIFDDLGDLTAILV    186
+                     ||::..|.:      .|...||.|.          ||..|         .
+ASSY_MYCTO        14 DTSVAISWIGKETGREVVAVAIDLGQGGEHMDVIRQRALD---------C     54
+
+HEM1_METCA       187 GAGETIELTAR-HLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELP    235
+                     ||.|.:.:.|| ...|......::.|..:...:.|.:     |||...:.
+ASSY_MYCTO        55 GAVEAVVVDARDEFAEGYCLPTVLNNALYMDRYPLVS-----AISRPLIV     99
+
+HEM1_METCA       236 KHLAKA-----DIIVASTGSPLPILGKGS----FESALRSRRHKPMFIVD    276
+                     |||..|     ..|||.     ...|||:    ||....|          
+ASSY_MYCTO       100 KHLVAAAREHGGGIVAH-----GCTGKGNDQVRFEVGFAS----------    134
+
+HEM1_METCA       277 LAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEE-----    321
+                           :.|::|.|..|..|.            .||::|...|||     
+ASSY_MYCTO       135 ------LAPDLEVLAPVRDYA------------WTREKAIAFAEENAIPI    166
+
+HEM1_METCA       322 --------IIDLEV----------EHF----------------LSWLRAQ    337
+                             .||..|          ||.                ::|   .
+ASSY_MYCTO       167 NVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTKDIYAYTEDPTINW---G    213
+
+HEM1_METCA       338 AATETIRDVRRQAELHRD---AALQRALRELRRGKSAEDTLRWLADTLTN    384
+                     ...|.|....|...:..|   .::..|:.||.|...|:...|  .|.:.:
+ASSY_MYCTO       214 VPDEVIVGFERGVPVSVDGKPVSMLAAIEELNRRAGAQGVGR--LDVVED    261
+
+HEM1_METCA       385 KIIHAPSSQIWQA-------GVNERADIVAAARELFQLK    416
+                     :::...|.:|::|       ..:...:.|...|||.:.|
+ASSY_MYCTO       262 RLVGIKSREIYEAPGAMVLITAHTELEHVTLERELGRFK    300
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      25/126 (19.8%)
+# Similarity:    44/126 (34.9%)
+# Gaps:          39/126 (31.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+HEM1_METCA       163 VAFAAIRLAQRIFDD----------LGDLTAILVGAGETIELTARHLTEN    202
+                     |..|.:|...|:|||          .|.:.::|:..|..:....:.|.:.
+ECCB1_MYCS2       22 VEHAIVRRDTRMFDDPLQFYSRAVFAGVVVSVLICLGAALMAYFKPLGKQ     71
+
+HEM1_METCA       203 RIGHLIIANRTFDRAH--------------------TLANQFGGFAISLE    232
+                     ....|:: :||.::.:                    .|.|.....|:..|
+ECCB1_MYCS2       72 GSDQLLV-DRTTNQLYVMLPGSNQLRPVYNLTSARLVLGNASNPVAVKSE    120
+
+HEM1_METCA       233 ELPKHLAKADII-------VASTGSP    251
+                     || ..::|...|       ...||:|
+ECCB1_MYCS2      121 EL-NRISKGQSIGIPGAPYATPTGTP    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      35/177 (19.8%)
+# Similarity:    64/177 (36.2%)
+# Gaps:          38/177 (21.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+HEM1_METCA       143 TFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETI    192
+                     |..|.::..||..:|...|:|.|                  :|.|.|...
+KCY4_ORYSJ         9 TVVAGQEEVTDNMLGDKKVTVVF------------------VLGGPGSGK     40
+
+HEM1_METCA       193 ELTARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKAD    242
+                     .....::.|: .|.:.::.....||...:....|..|      :::.|..
+KCY4_ORYSJ        41 GTQCANIVEH-FGFIHLSAGDLLRAEIKSGSENGTMI------ENMIKEG     83
+
+HEM1_METCA       243 IIVASTGSPLPILGKGSFESALRSRRHKPMFIVDLAVPRDIE-----PEV    287
+                     .||     |..:..|...|:.::|...|  |::| ..||:.|     ..|
+KCY4_ORYSJ        84 KIV-----PSEVTIKLLQEAMIKSGNDK--FLID-GFPRNEENRAAFENV    125
+
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQE    314
+                     .::...::...|..:..:|..|..|.:
+KCY4_ORYSJ       126 TKITPAFVLFFDCSEEEMERRLLGRNQ    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      24/109 (22.0%)
+# Similarity:    49/109 (45.0%)
+# Gaps:          24/109 (22.0%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+HEM1_METCA       285 PEVEQLQDVYLYTVDDLQHTVEE----NLKTRQEAALQAEEI------ID    324
+                     |||:.|||:.::.:..|.....:    .|.||:......|.:      ::
+HCP_TRIV2         25 PEVDALQDLLVHCLRGLSQVALQAKSLGLATRETDEFTCEMLFSTLTNVN     74
+
+HEM1_METCA       325 LEVEHFLSWL-RAQAATETIRDVRRQAELHRDAALQRAL----------R    363
+                     .....|:|:: ||.|..|::   :.|.:...:|.:|.|:          :
+HCP_TRIV2         75 FSTSDFISFVNRAIALRESL---KLQIQATGNAVIQSAINSFQPASDTQK    121
+
+HEM1_METCA       364 ELRRGKSAE    372
+                     ::::||..|
+HCP_TRIV2        122 QIQQGKDLE    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      32/171 (18.7%)
+# Similarity:    62/171 (36.3%)
+# Gaps:          38/171 (22.2%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+HEM1_METCA       220 LANQFGGFAISLEELPKH-----LAK------------ADIIVASTGSPL    252
+                     |.:.|.|..:||:.|.:|     |.|            .:::|.|    :
+UBX7_YEAST        36 LKSWFKGDDVSLDTLAEHSIWLRLVKDTEQFQLFEQVFPNVVVPS----I     81
+
+HEM1_METCA       253 PILGKGSFESALRSR--RHKPMFIVDLAV---------PRDIEP----EV    287
+                     .::..|..|..::..  ||....:..:.:         .|:..|    |.
+UBX7_YEAST        82 YLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREE    131
+
+HEM1_METCA       288 EQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRAQ    337
+                     :..:||  :..:..:...|..|:.::...|:..::.:.|.|..:..:||.
+UBX7_YEAST       132 KSSRDV--HRKNARERIAETTLEIQRREQLKQRKLAEEERERIIRLVRAD    179
+
+HEM1_METCA       338 AATETIRDVRRQAELHRDAAL    358
+                     .|.....|......|..|..|
+UBX7_YEAST       180 RAERKALDETHHRTLDDDKPL    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 339
+# Identity:      69/339 (20.4%)
+# Similarity:   123/339 (36.3%)
+# Gaps:          96/339 (28.3%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+HEM1_METCA       109 ILGEPQILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGC    158
+                     |:.||...|...|...|.|      ::|....|.  ||...||.|   |.
+RPOA_ACICJ        36 IIAEPLERGFGLTLGNALR------RVLLSSLHG--AAVTSVRID---GV     74
+
+HEM1_METCA       159 SPVSVAFAAIRLAQRIFDDLGDLT----------------AILVGAGETI    192
+                     .....:.|.:|      :|:.|:.                .:.|.|....
+RPOA_ACICJ        75 LHEFSSIAGVR------EDVTDIVLNIKQIAVRMHGDGPKRMTVSATGPC    118
+
+HEM1_METCA       193 ELTARHLTENRIGH--------LIIANRTFDRAHTLANQF-----GGFAI    229
+                     |:||..:   :.||        |:|.  |.|...||..:|     .|:..
+RPOA_ACICJ       119 EVTAGMI---QTGHDIEVMNPELVIC--TLDDGATLGMEFTVESGRGYVP    163
+
+HEM1_METCA       230 SLEELPKHLAKADIIVASTGSPLPILGKGSFESALRSRRHKPMFIVDLAV    279
+                     :....|:            .:|:.::...|..|.:|...::         
+RPOA_ACICJ       164 AAANRPE------------DAPIGLIPVDSIYSPVRRVSYR---------    192
+
+HEM1_METCA       280 PRDIEP-EVEQLQDVYLYTVDDLQHTVEEN-LKTRQEAALQAEEIIDLEV    327
+                        :|| .|.|:.|     .|.|...:|.| ..|.::|...|..|:..::
+RPOA_ACICJ       193 ---VEPTRVGQVTD-----YDRLILNIETNGAVTPEDAVALAARILQDQL    234
+
+HEM1_METCA       328 EHFLSWLRAQAATETIRDVRRQAELHRDAALQRALRELRRG-KSA----E    372
+                     ..|:::...|    .:|....:.||..:..|.|.:.||... :||    .
+RPOA_ACICJ       235 GMFINFEEPQ----RLRAEEPRPELPFNPNLLRKVDELELSVRSANCLKN    280
+
+HEM1_METCA       373 DTLRWLADTL---TNKIIHAPSSQIWQAGVNERADIVAA    408
+                     |.:.::.|.:   ..:::..|:  ..:..:||..::::|
+RPOA_ACICJ       281 DNIVYIGDLVQKSEQEMLRTPN--FGRKSLNEIKEVLSA    317
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      13/39 (33.3%)
+# Similarity:    23/39 (59.0%)
+# Gaps:           2/39 ( 5.1%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+HEM1_METCA       287 VEQLQDVYLYTVDDLQHTVEENLKT--RQEAALQAEEII    323
+                     :.||.:.....|.:|..:.:.::.|  ||.|||:|:|:|
+YXAD_BACSU        42 LRQLDEFGPARVKELAESFKLDISTLSRQAAALEAKELI     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HEM1_METCA
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 401
+# Identity:      72/401 (18.0%)
+# Similarity:   131/401 (32.7%)
+# Gaps:         140/401 (34.9%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+HEM1_METCA       114 QILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVSV    163
+                     :.|..:..|..:.::...:..::......||.....:.....:.....:|
+FADB_SHESR        34 ETLASLDAALDSIKQQSNIQALVLTSGKDTFIVGADITEFLGLFAQDDAV     83
+
+HEM1_METCA       164 AFAAIRLAQRIFDDLGDL-----TAI----LVGAGETI--------ELTA    196
+                     ..:.:..|..:|:.|.||     :||    |.|..|||        :.||
+FADB_SHESR        84 LLSWVEQANAVFNKLEDLPFPTASAIKGFALGGGCETILATDFRIADTTA    133
+
+HEM1_METCA       197 R-HLTENRIGHLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKAD---    242
+                     : .|.|.::|  ||..            |||..    .||:.:. ||   
+FADB_SHESR       134 KIGLPETKLG--IIPG------------FGGTV----RLPRVIG-ADNAL    164
+
+HEM1_METCA       243 --IIVASTGSPLPILGKGSFESAL-----------------------RSR    267
+                       |.......|...|..|:.::.:                       ::|
+FADB_SHESR       165 EWITTGKDQRPEDALKVGAVDAVVAPEALEAAAIQMLKDAVAEKLDWQAR    214
+
+HEM1_METCA       268 RHKPMFIVDLAVPRDIEPEVEQLQDV-----YLYTVDDLQH--------T    304
+                     ||:.|..:.|       |::|.:...     .::.|....:        .
+FADB_SHESR       215 RHRKMSPLTL-------PKLEAMMSFTTAKGMVFAVAGKHYPAPMAAVSV    257
+
+HEM1_METCA       305 VEENLKTRQEAALQ--------------AEEIIDLEVEHFLSWLRAQAAT    340
+                     ||:.....:..|||              |:.:|.:.:...|...:|:.|.
+FADB_SHESR       258 VEQAATKGRSDALQIEHQAFIKLAKTDVAKALIGIFLNDQLVKGKAKKAG    307
+
+HEM1_METCA       341 ETIRDVRRQAELHR----------------------------DAALQRAL    362
+                     :..:||:..|.|..                            |..|..|.
+FADB_SHESR       308 KLAKDVKSAAVLGAGIMGGGIAYQSASKGTPIVMKDIAQPALDLGLGEAA    357
+
+HEM1_METCA       363 R----ELRRGKSAEDTLRWLADTLTNKIIHAPSSQIWQAGVNERADIVAA    408
+                     :    ::.||:|..:.:..:.:.:|..:.:||        || .||:|..
+FADB_SHESR       358 KLLSAQVARGRSTPEKMAKVLNNITPALDYAP--------VN-HADVVVE    398
+
+HEM1_METCA       409 A    409
+                     |
+FADB_SHESR       399 A    399
+
+
+#---------------------------------------
+#---------------------------------------

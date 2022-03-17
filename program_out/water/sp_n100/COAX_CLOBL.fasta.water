@@ -1,0 +1,3144 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:28
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/COAX_CLOBL.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/COAX_CLOBL.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/COAX_CLOBL.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 262
+# Identity:      62/262 (23.7%)
+# Similarity:    96/262 (36.6%)
+# Gaps:          78/262 (29.8%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        26 WRLATDNKRTADEY-GIQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLE     74
+                     ||.....:|   |: |||:             .||:.....:|:::.:. 
+PUR7_VIBVU       140 WRAYEKGER---EFCGIQL-------------PEGLEKDKALPDLLMTP-    172
+
+COAX_CLOBL        75 HMISKYFNIKPIIVG-PGVKTG--INIKYDNPKEVGADRIV--NAVAAHE    119
+                            :.|.|:.| |||...  :||...|.    ||...  |..:|.:
+PUR7_VIBVU       173 -------STKGILKGIPGVPEADDVNITRQNI----ADNFAAFNFSSADD    211
+
+COAX_CLOBL       120 I--YKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAA-    166
+                     |  |:| |:...||       |..||....|.|....|.....:.|.|. 
+PUR7_VIBVU       212 IALYEK-LLKDGFG-------VISEALANVGQIFVDTKFEFGYVTDAAGN    253
+
+COAX_CLOBL       167 -KLPRVELVKTP-------------GVICKNTVASIQSGIIYGYAGQVDY    202
+                      ||..::.|.||             |.|.:|:....:. .:..|....|.
+PUR7_VIBVU       254 EKLIYMDEVGTPDSSRIWDAQEYQAGKIVENSKEGFRQ-FLLNYFPDPDI    302
+
+COAX_CLOBL       203 IVSK---MKKEMM----DLGEEEPFVVA---------TGGFAKLISEESK    236
+                     :::|   .::|.:    :|.||....|:         ..|.|.::|:..|
+PUR7_VIBVU       303 LLNKDRMPEREALARDNELPEEALMAVSRTYINIAEKITGSAIVLSDNPK    352
+
+COAX_CLOBL       237 SIDEINAILTLE    248
+                       .||..||..|
+PUR7_VIBVU       353 --QEIIDILGRE    362
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    13/32 (40.6%)
+# Gaps:           8/32 (25.0%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       137 CAVTKEANYLGGTICPGIKISSDALFDKAAKL    168
+                     |.|||....|.|        :...|..::|||
+Y075_NITWN        23 CPVTKGPLELDG--------ARRELISRSAKL     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    19/47 (40.4%)
+# Gaps:          15/47 (31.9%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       197 AGQVDYIVSKMKK----------EMMDLGEEEPFVVATGGFAKLISE    233
+                     |..||..:||:.:          ::::.|.     |..|.|..|.:|
+Y3584_PSEAB      139 AAGVDLAISKLGRFTENDQYDIEQLIECGR-----VDVGQFVTLATE    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      19/100 (19.0%)
+# Similarity:    39/100 (39.0%)
+# Gaps:          24/100 (24.0%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHNNLS     53
+                     :|:..:..:.:...|:.:|:|  ...||  ||.|  |:..|..|...|  
+BPT_HAHCH        135 LLEARSETLFIEFRKDSKLLA--IAVTD--RTTD--GLSAIYTFFDPN--    176
+
+COAX_CLOBL        54 FSDIEGVIISSVVPNIMYSLEHMISKYF---------------NIKPIIV     88
+                      .|...:.:.:::..:.::.|..:...:               |.:||.|
+BPT_HAHCH        177 -EDKRALGVYAILWQLQFAREQRLPYLYLGYWIRGCRKMSYKTNYRPIQV    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      34/166 (20.5%)
+# Similarity:    57/166 (34.3%)
+# Gaps:          49/166 (29.5%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        50 NNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPIIVGPGVKTGINIK     99
+                     |.....|.:|.::.|.:...:::.    .:||:.:|...|.|        
+KDPC_CAUVN        40 NGSLIRDADGKVVGSALIGQVFAK----PEYFHGRPSAAGAG--------     77
+
+COAX_CLOBL       100 YDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGT    149
+                     ||.....|::            ..||.........|..|..:..|     
+KDPC_CAUVN        78 YDASASSGSN------------MGPLNETLIARLKTDAAALRAEN-----    110
+
+COAX_CLOBL       150 ICPGIKISSDALFDKAAKL-------------PRVELVKTPGVICKNTVA    186
+                       ||:.|.:||:....:.|             |||...:  ||..|:..|
+KDPC_CAUVN       111 --PGVAIPADAVTTSGSGLDPDISPANARFQAPRVAGAR--GVPEKDVTA    156
+
+COAX_CLOBL       187 SIQSGI---IYGYAGQ    199
+                     .|.:.:   :.|:.||
+KDPC_CAUVN       157 LIDAQVQQPLLGFIGQ    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      17/73 (23.3%)
+# Similarity:    29/73 (39.7%)
+# Gaps:          18/73 (24.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       106 VGAD-------RIVNAVAAHEIYKKPLIIIDFGTATT-------FCAVTK    141
+                     ||||       ||:......::|.:|.:::......|       |.|.|:
+LPXH_XYLFM        84 VGADYAARAGFRILPDPCVVDLYGEPTLLLHGDLLCTDDIAYQAFRAQTR    133
+
+COAX_CLOBL       142 E----ANYLGGTICPGIKISSDA    160
+                     :    |.:|..|:...:..|..|
+LPXH_XYLFM       134 DPEFIAQFLTQTLSARLAFSQQA    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    13/19 (68.4%)
+# Gaps:           4/19 (21.1%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        83 IKPIIVGPGVK---TGINI     98
+                     :|| :|.||:.   ||:::
+YERI_SCHPO         1 MKP-LVSPGLAKACTGLSL     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      22/121 (18.2%)
+# Similarity:    50/121 (41.3%)
+# Gaps:          31/121 (25.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       150 ICPGIKISSDALFDKAAKLPRVELVKTPGVICK-----NTVASIQSGIIY    194
+                     :||.:.::.: :|..|....|..|:...|:..|     ..::||...::.
+RBSA_RUEST        92 LCPDVSVAEN-IFMAATNSSRSFLMDYKGIEAKAREVFAQLSSIDPSVLV    140
+
+COAX_CLOBL       195 GYAGQVDYIVSKMKKEMMDLGE-----------EEPFVVATGGFAKLISE    233
+                     .     |..:|  .::::::.:           :||       .|.|...
+RBSA_RUEST       141 R-----DLSIS--NQQLVEIAKALTLDCRVLILDEP-------TAALTEA    176
+
+COAX_CLOBL       234 ESKSIDEINAILTLEGLRVIY    254
+                     |::.:.:|...|..:|:.:||
+RBSA_RUEST       177 EAQVLFKIMRRLADQGISLIY    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       183 NTVASIQSGIIYGYAG    198
+                     |...:...|:.|||.|
+KR195_HUMAN        2 NYYGNYYGGLGYGYGG     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      16/67 (23.9%)
+# Similarity:    24/67 (35.8%)
+# Gaps:          16/67 (23.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       147 GGTICPGIKISSD----ALFDKAAKLPRV---ELVKTP-------GVICK    182
+                     |||:..|:.:..|    ..|.....:|.|   .|...|       |....
+UPPP_CORDI       177 GGTVSAGLFVGLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAAS    226
+
+COAX_CLOBL       183 NTVASIQSGIIY--GYA    197
+                     ....::.:||.:  |||
+UPPP_CORDI       227 GMQLAVGTGIAFALGYA    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      14/54 (25.9%)
+# Similarity:    23/54 (42.6%)
+# Gaps:          15/54 (27.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       206 KMKKEMMDL-GEEEPFVVATGGFAKLISEESKSIDEINAILTLEGLRVIY    254
+                     |:|:|:..| .||.|.|.....:|..:.:.|::.|              |
+GREB_ECO57        13 KLKQELNYLWREERPEVTKKVTWAASLGDRSENAD--------------Y     48
+
+COAX_CLOBL       255 EKNK    258
+                     :.||
+GREB_ECO57        49 QYNK     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      24/120 (20.0%)
+# Similarity:    40/120 (33.3%)
+# Gaps:          36/120 (30.0%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       153 GIKISSDALFDKAAKLPRVEL-----------------------VKTPGV    179
+                     |::.:|....||....|.|.:                       .|..|.
+TGT_LEPCP        109 GVRFASPVNGDKLFLTPEVSMQIQTVLNSDIVMQFDECTPYWQGAKNVGH    158
+
+COAX_CLOBL       180 ICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEP-FVVATGGFA    228
+                     |.....|.:...:...:|       ::.|.|...||.... |.:..||..
+TGT_LEPCP        159 ITTEKEARVSMELSLRWA-------ARSKAEFARLGNPNALFGIVQGGMF    201
+
+COAX_CLOBL       229 KLISEESKSIDEINAILTLE    248
+                     :.:.|||     :||::.|:
+TGT_LEPCP        202 ESLREES-----LNALVELD    216
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      45/212 (21.2%)
+# Similarity:    71/212 (33.5%)
+# Gaps:          59/212 (27.8%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        41 IQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPIIVGP     90
+                     :.|:..|.......|:..|.|:....|.|.||.                 
+CBPQ_HUMAN       150 VLVVTSFDELQRRASEARGKIVVYNQPYINYSR-----------------    182
+
+COAX_CLOBL        91 GVKTGINIKYDNPKEVGADRI------VNAVAAHEIYKKPLIIIDFGTAT    134
+                           .::|.....|.|.::      :.:||:..||.....|.::....
+CBPQ_HUMAN       183 ------TVQYRTQGAVEAAKVGALASLIRSVASFSIYSPHTGIQEYQDGV    226
+
+COAX_CLOBL       135 ----TFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVEL---VKT-    176
+                         |.|...::|..:......||||.             ::|   .|| 
+CBPQ_HUMAN       227 PKIPTACITVEDAEMMSRMASHGIKIV-------------IQLKMGAKTY    263
+
+COAX_CLOBL       177 PGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGG    226
+                     |.....||||.|...   .|..||..:...:  :..|:|:.   .:..||
+CBPQ_HUMAN       264 PDTDSFNTVAEITGS---KYPEQVVLVSGHL--DSWDVGQG---AMDDGG    305
+
+COAX_CLOBL       227 FAKLISEESKSI    238
+                     .| .||.|:.|:
+CBPQ_HUMAN       306 GA-FISWEALSL    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      26/110 (23.6%)
+# Similarity:    40/110 (36.4%)
+# Gaps:          33/110 (30.0%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        94 TGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEA    143
+                     |.|.::       |.|.|  .|..|:  |.|..::|..:.|....:||  
+PSA6_SOYBN        38 TSIGVR-------GKDSI--CVVTHK--KVPDKLLDNTSVTHLFPITK--     74
+
+COAX_CLOBL       144 NYLGGTICPGIKISSDALFDKAAKLPRVELVKTPGVICKNTVASIQSGII    193
+                      || |.:..|:...:..|..:|                :|..|..:  ..
+PSA6_SOYBN        75 -YL-GLLATGMTADARTLVQQA----------------RNEAAEFR--FT    104
+
+COAX_CLOBL       194 YGYAGQVDYI    203
+                     |||...||.:
+PSA6_SOYBN       105 YGYEMPVDVL    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      27/148 (18.2%)
+# Similarity:    50/148 (33.8%)
+# Gaps:          54/148 (36.5%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        18 KNKELIANWR---------LATDNKRTADEYGIQVIELFSHNNLSFSDIE     58
+                     |.|..:.::|         ::|.:|.||.|:.:|:.:.            
+SCL34_ARATH      241 KKKSQVVDFRTLLTHCAQAISTGDKTTALEFLLQIRQQ------------    278
+
+COAX_CLOBL        59 GVIISSVVPNIMYSLEHMISKYFNIK-PIIVGPGVKTGINIKYDNPKEVG    107
+                         ||.:.:....|.|..:.....: ....||.::|..|....:.|:..
+SCL34_ARATH      279 ----SSPLGDAGQRLAHCFANALEARLQGSTGPMIQTYYNALTSSLKDTA    324
+
+COAX_CLOBL       108 ADRIVNAVAAHEIY--KKPLI----------------------IIDFG    131
+                     ||    .:.|:.:|  ..|.:                      |:|||
+SCL34_ARATH      325 AD----TIRAYRVYLSSSPFVTLMYFFSIWMILDVAKDAPVLHIVDFG    368
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      21/101 (20.8%)
+# Similarity:    36/101 (35.6%)
+# Gaps:          40/101 (39.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        74 EHMIS-----------KYFNIKPII--VGPG---VKTG-INIKYDNPKEV    106
+                     ||.|.           ||....|::  |..|   |||| :.:...||.:.
+NDKA_CANLF        50 EHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADS     99
+
+COAX_CLOBL       107 -------------------GADRIVNAVAAHEIYKKPLIIIDFGTATTFC    137
+                                        |:|.:.:|.....::.:|..::|:.:    |
+NDKA_CANLF       100 KPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDYKS----C    145
+
+COAX_CLOBL       138 A    138
+                     |
+NDKA_CANLF       146 A    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      43/232 (18.5%)
+# Similarity:    83/232 (35.8%)
+# Gaps:          59/232 (25.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        20 KELIANWRLATDNK-RTADEY--GIQVIELFSHNNLSFS---DIEGVIIS     63
+                     |:::....:..|.| ||..::  |...:......|..|.   |.:|   .
+RS4_CAEEL         61 KKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKG---R    107
+
+COAX_CLOBL        64 SVVPNIMYS-LEHMISKYFNIKPIIVGPGVKT---GINIKYDNPKEVGAD    109
+                     .||..|..: .:..:.|..:::.:..|..|.|   |..|:|.:|.....|
+RS4_CAEEL        108 YVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVND    157
+
+COAX_CLOBL       110 RIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSD    159
+                     .||..::..:|                   |....:..|.:         
+RS4_CAEEL        158 TIVFNISTQKI-------------------TDSVKFEPGNL---------    179
+
+COAX_CLOBL       160 ALFDKAAKLPRVELV----KTPGVICKNTVASIQSGIIYGYAGQVD--YI    203
+                     |.......:.||.::    :.||.   :.:..|:....:.:|.::.  ::
+RS4_CAEEL        180 AYVTGGRNVGRVGIIGHRERLPGA---SDIIHIKDSAGHSFATRISNVFV    226
+
+COAX_CLOBL       204 VSKMKKEMMDLGEEEPFVVATGGFAKL-ISEE    234
+                     :.|..|.::.|        .||...:| |:||
+RS4_CAEEL        227 IGKGNKALVSL--------PTGAGIRLSIAEE    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        18 KNKELIANWR     27
+                     |..::|.||:
+G45IP_CHLAE      127 KMPQMIVNWQ    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      33/151 (21.9%)
+# Similarity:    58/151 (38.4%)
+# Gaps:          35/151 (23.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        67 PNIMYSLEHMISKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVA    116
+                     |::|::|        :|.|.:....|.:...:.:.|..|:..|  ...|.
+DAPEL_OCEIH      146 PDMMFAL--------HIAPELPVGTVSSKAGLLFANTSELFID--FEGVG    185
+
+COAX_CLOBL       117 AHEIYKKPLIIIDFG-TATTFCA-----VTKEANYLGGTICPGIKISSDA    160
+                     .|..|  |.:..|.. .|:.|..     |::..|.|.|::....|:.|..
+DAPEL_OCEIH      186 GHAAY--PHLTKDMTVAASNFVVQLQQIVSRGLNPLDGSVITIGKMESGY    233
+
+COAX_CLOBL       161 LFDKAAKLPRVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKE    210
+                     :.:..|:..|:|          .|:.|..       |..:|.|.||:.:.
+DAPEL_OCEIH      234 VQNAIAETARLE----------GTIRSTD-------ADAIDMIKSKLNRL    266
+
+COAX_CLOBL       211 M    211
+                     |
+DAPEL_OCEIH      267 M    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      24/94 (25.5%)
+# Similarity:    38/94 (40.4%)
+# Gaps:          16/94 (17.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        88 VGPGVKTGINIKYDNPKEVG---ADRIVNAVAAHEIYKKPL---IIIDFG    131
+                     |..|...|:..|  ...|.|   :||||..:.|..|.:...   .|:|  
+KAD_METRJ         39 VAAGTPVGLEAK--AVMESGGLVSDRIVVGIVADRIEEPDARRGFILD--     84
+
+COAX_CLOBL       132 TATTFCAVTKEANYLGGTIC-PGIKISS--DALFDKAAKLPRVE    172
+                        .|.....:|..||..:. .|:.:|:  :...|:.|.:.|:|
+KAD_METRJ         85 ---GFPRTVAQAEALGEMLASKGLSLSAVVELKVDENALVGRIE    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:      11/20 (55.0%)
+# Similarity:    13/20 (65.0%)
+# Gaps:           4/20 (20.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        90 PGVKTGINIKYDNPK-EVGA    108
+                     |||.||..:|   || :|||
+ELN_BOVIN        178 PGVPTGAGVK---PKAQVGA    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      30/146 (20.5%)
+# Similarity:    55/146 (37.7%)
+# Gaps:          56/146 (38.4%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        93 KTGINIKYDNPKEVGADRIVNAVAAHEIYKK----------PLIIID-FG    131
+                     :|..|:...| ||:...:|.:..:|..:.||          .::::| |.
+ASIC2_MOUSE      361 RTPCNLTRYN-KELSMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFF    409
+
+COAX_CLOBL       132 TATTFCAVTKEANY--------LGGTICPGIKISSDALFDKAAKLPRVEL    173
+                     .|..:..:.::..|        :||.:         .||..|:.|..:||
+ASIC2_MOUSE      410 EALNYETIEQKKAYEVAALLGDIGGQM---------GLFIGASILTILEL    450
+
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMD-LGEEE    218
+                                               .|||...:|::::| ||:||
+ASIC2_MOUSE      451 --------------------------FDYIYELIKEKLLDLLGKEE    470
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      54/286 (18.9%)
+# Similarity:    95/286 (33.2%)
+# Gaps:         125/286 (43.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        35 TAD-EYGI----QVIELFSHNNLSFS-----DIEGVIISSVVPNIMYSL-     73
+                     |:| |.||    .|.:.|||:.|:.|     .::||.| :::.|.:|.| 
+DOXA1_XENTR       71 TSDWETGIVTATTVYKSFSHSMLNASIGLWIGLKGVNI-TLIGNPVYQLN    119
+
+COAX_CLOBL        73 --------------------------------------------------     73
+                                                                       
+DOXA1_XENTR      120 ETINYNEEFAWESANQFDKNYKDGLERGLPYPILYVAEKFTINSPCGLFQ    169
+
+COAX_CLOBL        74 EHMISKYFNIKPIIVGPGVKTGINIKYDNPK---------EVGADRIVNA    114
+                     ::.||.|::.:.:.|..|.....|:.:..|.         ......:|:.
+DOXA1_XENTR      170 QYCISTYYSSEIMWVAFGSWILYNVLFSMPVILYGICMMFVTAICMLVSL    219
+
+COAX_CLOBL       115 VAAHEIYKKPLIIIDFGTAT--TFCAVTKEANYLGGTICPGIKISSDALF    162
+                     ::...:.:.|:..|.||.|.  |...|:...:.:.|..|  :.:|...||
+DOXA1_XENTR      220 ISFASVRQAPVCNIHFGNAVLKTHFGVSYWLSLVTGLFC--LIVSLVLLF    267
+
+COAX_CLOBL       163 DKAAKLPRVELVKT-PGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEM    211
+                               |.|| |.||          .:|:.|               
+DOXA1_XENTR      268 ----------LYKTQPKVI----------RLIFSY---------------    282
+
+COAX_CLOBL       212 MDLGEEEPFVVATGGFAKLISEESKSIDEINAILTL    247
+                        ||||.           :|::|::.:|.::.|:|
+DOXA1_XENTR      283 ---GEEED-----------LSDKSENEEEHSSALSL    304
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       158 SDALFDKAAKLPRVELVKTPGVICKN    183
+                     |:.||..|:.  .::..::.|:|.||
+RS20_STRPB        45 SEELFRAASS--SIDKAESKGLIHKN     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      14/64 (21.9%)
+# Similarity:    26/64 (40.6%)
+# Gaps:          19/64 (29.7%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       196 YAGQVDYIVSKMKKEMMDLGEEEPFVVATGGFA-KLISEESKSIDEINAI    244
+                     |.||:..:.|:::       |.|    |...|| :.:.:..|.:|.:.. 
+TPM_HAELO        221 YEGQIRQMTSRLQ-------EAE----ARAEFAERSVQKLQKEVDRLED-    258
+
+COAX_CLOBL       245 LTLEGLRVIYEKNK    258
+                           .::.||.|
+TPM_HAELO        259 ------ELVQEKEK    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      18/89 (20.2%)
+# Similarity:    36/89 (40.4%)
+# Gaps:           7/89 ( 7.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       138 AVTKEANYLGGTICPGI-KISSDALFDKAAKLPRVELVKTPGVICK--NT    184
+                     ::.:...|:|......| .|..|.:|..:....|:|.::....:.|  ..
+LEUC_XANOM       324 SIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKV    373
+
+COAX_CLOBL       185 VASIQSGIIYGYAGQV--DYIVSKMKKEMMDLGEE--EP    219
+                     .::|:..::...:|.|  ......:.|..:|.|.|  ||
+LEUC_XANOM       374 ASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREP    412
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     5/9 (55.6%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       132 TATTFCAVT    140
+                     |.||...:|
+LPT_ESCF3          7 TITTTITIT     15
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    22/41 (53.7%)
+# Gaps:           3/41 ( 7.3%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       209 KEMMDLGEEEPFVVATGGFAKLISEE-SKSIDEINAILTLE    248
+                     ||..||.|:...|  ..|.:|..:|| .|.::.:.|::.|:
+RL7_THET8         87 KEAKDLAEKGGPV--KEGVSKQEAEEIKKKLEAVGAVVELK    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      23/81 (28.4%)
+# Similarity:    37/81 (45.7%)
+# Gaps:          25/81 (30.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         6 DVGN-TNIVLGIYKNKELIANWRLATDNK--------RTADE--------     38
+                     |:|: |.|::|..:..||.|  |..|:|:        ||.|.        
+HEM1_METCA       177 DLGDLTAILVGAGETIELTA--RHLTENRIGHLIIANRTFDRAHTLANQF    224
+
+COAX_CLOBL        39 --YGIQVIELFSHNNLSFSDIEGVIISSVVP     67
+                       :.|.:.||..|  |:.:||  ::.|:..|
+HEM1_METCA       225 GGFAISLEELPKH--LAKADI--IVASTGSP    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      34/154 (22.1%)
+# Similarity:    57/154 (37.0%)
+# Gaps:          45/154 (29.2%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        55 SDIEGVIISSVVPNIMYSLEHMISKYFNIKP-IIVGPGVKTGINIKYDNP    103
+                     ||:.|            .|...:::.:|:.| ::||.|        .|| 
+XYLB_KLEPN       206 SDVTG------------QLRPEVAQAWNMPPALVVGGG--------GDN-    234
+
+COAX_CLOBL       104 KEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVT-------KEANYL    146
+                      ..||..|..|.|..       .::..||:..:.||:       :.|.:.
+XYLB_KLEPN       235 -AAGAVGIGMADAGQ-------AMLSLGTSGVYFAVSEGFLSKPESAVHS    276
+
+COAX_CLOBL       147 GGTICPG------IKISSDALFDKAAKLPRVELVKTPGVICKNTVASIQS    190
+                     ....|.|      :.:|:.:..|.||||  ..|...|.:|.....|...:
+XYLB_KLEPN       277 FCHACRGRWHLMSVMLSAASCLDWAAKL--TGLASVPALIAAAQTADESA    324
+
+COAX_CLOBL       191 GIIY    194
+                     |.::
+XYLB_KLEPN       325 GPVW    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      29/160 (18.1%)
+# Similarity:    63/160 (39.4%)
+# Gaps:          43/160 (26.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        72 SLEHMISKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIY    121
+                     :|..:::....::.::|..|| .| |:...||..:..|        |...
+RECR_NOVAD        38 ALPQLLNALTQVQELLVECGV-CG-NVDTSNPCGICTD--------HRRD     77
+
+COAX_CLOBL       122 KKPLIIID-------FGTATTFCAVTKEANYLGGTI--CPGIK---ISSD    159
+                     ::.:.:::       ...|..|   |.:.:.|||.:  ..|::   ::..
+RECR_NOVAD        78 QRSICVVEEVADLWALDRARLF---TGKYHVLGGRLSALEGVRPEDLTIG    124
+
+COAX_CLOBL       160 ALFDKAAK--LPRVELVKTPGVICKNT--------------VASIQSGII    193
+                     :|.|:.|:  :..|.|.....:..:.|              |..:..|:.
+RECR_NOVAD       125 SLLDRVAQGGIDEVVLAMNATLEGQTTAHYIAERLEGAAVRVTQLAHGLP    174
+
+COAX_CLOBL       194 YGYAGQVDYI    203
+                     .|  |::||:
+RECR_NOVAD       175 VG--GELDYL    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      23/104 (22.1%)
+# Similarity:    43/104 (41.3%)
+# Gaps:          18/104 (17.3%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        40 GIQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIK-----     84
+                     |..|.|..:::......:||.|:.  |.:|..|..:.:....|:|     
+SURE_METNO        95 GQNVAEDVTYSGTVAGAMEGTILG--VRSIALSQAYGVGGRANVKWHTAA    142
+
+COAX_CLOBL        85 -------PIIVGPGVKTGI--NIKYDNPKEVGADRIVNAVAAHEIYKKPL    125
+                            ..|:..|::.||  |:.:.:.:....:.|  ||.|..:..:.|
+SURE_METNO       143 EHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGI--AVVAQGMRNQQL    190
+
+COAX_CLOBL       126 IIID    129
+                     :.||
+SURE_METNO       191 LAID    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      22/99 (22.2%)
+# Similarity:    35/99 (35.4%)
+# Gaps:          32/99 (32.3%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       132 TATTFCAVT---KEANYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG    178
+                     |||.|.:||   ::.||  |.:...:..:..::|                
+CYB_ARTIO         59 TATAFNSVTHICRDVNY--GWLLRYLLANGASMF----------------     90
+
+COAX_CLOBL       179 VICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGGF    227
+                     .||           :|.:.|:..|..|.|..|..::|....|.|....|
+CYB_ARTIO         91 FIC-----------LYLHVGRGLYYGSYMYSETWNIGILLLFAVMATAF    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      24/139 (17.3%)
+# Similarity:    65/139 (46.8%)
+# Gaps:          30/139 (21.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         1 MILVLDVGNTNIVLG-----IYKNKELIA--NWRLATDN----KRTADEY     39
+                     :|:|.:.|::  :.|     ::|||.:..  .|....|.    .:.|.|.
+IOLE_BACHK       104 VIVVSEQGHS--IQGLMDVPLFKNKPVFTEEEWEKLADGLHHLGKLAQEK    151
+
+COAX_CLOBL        40 GIQVIELFSHNNL-----SFSDIEGV--IISSVVPNIMYSLEHMISKYFN     82
+                     |:.::   .|:::     :.::||.:  :....:.::::...|::  :..
+IOLE_BACHK       152 GLHIV---YHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGHLV--FSG    196
+
+COAX_CLOBL        83 IKPIIVGPGVKTGI-NIKYDNPKEVGADRIVNAVAAHEI    120
+                     .:|:.:   :|..: .||:.:.|:: ...:|:.|...|:
+IOLE_BACHK       197 EEPLYI---LKKYLPRIKHVHLKDI-RQEVVDVVKEKEL    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      52/214 (24.3%)
+# Similarity:    80/214 (37.4%)
+# Gaps:          65/214 (30.4%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        81 FNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEI----------    120
+                     |.|:  :.|..|||..:|| |:.:.|  |.:::|..||.|          
+ACKA_STAAT        43 FTIE--VNGEKVKTVQDIK-DHVEAV--DIMLDAFKAHNIINDINDIDGT     87
+
+COAX_CLOBL       121 ----------YKKPLIIIDFGTATTFCAVTKE-------------ANYLG    147
+                               :.:.:.|.|        .|.||             ||.:|
+ACKA_STAAT        88 GHRVVHGGEKFPESVAITD--------EVEKEIEELSELAPLHNPANLMG    129
+
+COAX_CLOBL       148 ----GTICPGIKISSDALFDKA--AKLP-RVELVKTPGVICKNTVASIQS    190
+                         ..:.|  .|...|:||.|  ..:| :..|...|....|:      .
+ACKA_STAAT       130 IRAFRKLLP--NIPHVAIFDTAFHQTMPEKAYLYSLPYHYYKD------Y    171
+
+COAX_CLOBL       191 GI-IYGYAGQVDYIVSKMKKEMMDLGEEEPFVVA--TGGFAKLIS-EESK    236
+                     || .||:.|.....||:...||:|...|:..:::  .|..|.:.: :..|
+ACKA_STAAT       172 GIRKYGFHGTSHKFVSQRAAEMLDKPIEDLRIISCHIGNGASIAAIDGGK    221
+
+COAX_CLOBL       237 SIDEINAILTLEGL    250
+                     |||.......|.|:
+ACKA_STAAT       222 SIDTSMGFTPLAGV    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      17/60 (28.3%)
+# Similarity:    25/60 (41.7%)
+# Gaps:          14/60 (23.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYG---IQVIELFSHN     50
+                     |.|||   |.||     :.:|.   |..:|:....||   :.:.|..|..
+HIS7_BURTA        67 VEDVG---ITLG-----QAVAK---AVGDKKGIRRYGHSYVPLDEALSRV    105
+
+COAX_CLOBL        51 NLSFSDIEGV     60
+                     .:.||...|:
+HIS7_BURTA       106 VIDFSGRPGL    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      22/67 (32.8%)
+# Similarity:    33/67 (49.3%)
+# Gaps:          14/67 (20.9%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         3 LVLDVGN------TNIVLGIYKNKELIANWRL---ATDNKRTADEYGI-Q     42
+                     |.|.:|.      ||.|||::...|:....|:   |.|...||.:.|: :
+PTH_GEOLS        131 LRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+
+COAX_CLOBL        43 VIELFSHNNLSFSDIEG     59
+                     .:.||  ||.|:  :||
+PTH_GEOLS        181 AMSLF--NNKSY--LEG    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      42/227 (18.5%)
+# Similarity:    84/227 (37.0%)
+# Gaps:          60/227 (26.4%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        40 GIQVIEL--FSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPII     87
+                     |:.:.||  :.||      ||.|.....:|:...|..:.:    ...|  
+TAF3_XENLA         2 GVNIHELEDYIHN------IEPVTFPHQIPSFPVSKNNAL----QFPP--     39
+
+COAX_CLOBL        88 VGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFC    137
+                       ||.|..     ::.||...|.:...:::.|..::..:..|.||:....
+TAF3_XENLA        40 --PGSKDA-----EDRKEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAM     82
+
+COAX_CLOBL       138 AVTKEANYLGGTICPGIKISSDALFDK-------AAKLP---RVELVKTP    177
+                     .|..|.....|.:.....::.:....|       ..::|   |:.|:...
+TAF3_XENLA        83 QVPLEEEEEEGEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNK    132
+
+COAX_CLOBL       178 GVIC------KNTVASIQSGIIYGYAGQVDYIVS---KMKKEMMDLGEEE    218
+                     |.|.      :..::||.|       .:|..::|   |:..:.:|:...:
+TAF3_XENLA       133 GDILDGSLEPREPLSSINS-------QKVPSVLSPAHKIDSQDLDVSYSD    175
+
+COAX_CLOBL       219 PFVVATGGFAKLISE-------ESKSI    238
+                     ..:::.      :|:       ||||:
+TAF3_XENLA       176 QIMLSP------VSKSQAPPPSESKSL    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      53/263 (20.2%)
+# Similarity:    95/263 (36.1%)
+# Gaps:          79/263 (30.0%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         1 MILVLDVGNTNIVLGI-YKNKELIANWRLATDNKRTADEYGIQVIELFSH     49
+                     ::|:::.|..|.:..: |...|.|||  |.....::||.. |:.||  ..
+DNLJ_CROS5       461 VVLLIENGLVNSIADLYYLTPETIAN--LERMGSKSADNL-IKAIE--GS    505
+
+COAX_CLOBL        50 NNLSFSDI---EGV-IISSVVPNIMY----SLEHMISKYFNIKPIIVGPG     91
+                     ....||.:   .|: .:.||..|::.    |::.:....|.....:.|.|
+DNLJ_CROS5       506 KQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVG    555
+
+COAX_CLOBL        92 VKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTK    141
+                                               .||.:.   |||:.:....|.:.|
+DNLJ_CROS5       556 --------------------------EEIAQS---IIDWFSIEKNCDLIK    576
+
+COAX_CLOBL       142 EANYLG----------GTICPGIKISSDALFDKAAKLPRVELVKTPGVIC    181
+                     :...:|          .|:.|.:...|...|.....||         .:.
+DNLJ_CROS5       577 QLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLP---------TLT    617
+
+COAX_CLOBL       182 KNTVASI--QSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGGFAK    229
+                     :|...::  |:|      |:|...||| |.:.:.:||:        ..:|
+DNLJ_CROS5       618 RNEAKALIEQAG------GKVTGSVSK-KTDYLLVGEK--------AGSK    652
+
+COAX_CLOBL       230 LISEESKSIDEIN    242
+                     |...|...|::::
+DNLJ_CROS5       653 LTQAEKLGINQLS    665
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:      41/196 (20.9%)
+# Similarity:    69/196 (35.2%)
+# Gaps:          36/196 (18.4%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        72 SLEHMISKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRI--------VN    113
+                     ||..|:.:|..:|.:               :|..:...|:        .:
+MUTS_MYXXD        12 SLTPMMRQYMEVKAL---------------HPDSLLFFRLGDFYEMFFED     46
+
+COAX_CLOBL       114 AVAAHEIYKKPLIIIDFGT-ATTFCAVTKEA--NYLGGTICPGIKISSDA    160
+                     ||.|.||.:..|.....|. ....|.|...|  .|:|..:..|:|::...
+MUTS_MYXXD        47 AVKASEILQITLTARSKGADKVPMCGVPYHAARRYIGRLVSEGLKVAICE     96
+
+COAX_CLOBL       161 LFDKAAKLP-----RVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVS    205
+                     ..::....|     .|..|.|||::....|...|:.   .:...|.:...
+MUTS_MYXXD        97 QVEEPGNGPGIVRREVTRVITPGMVLDEEVLEPQAS---NFLAAVSWNDK    143
+
+COAX_CLOBL       206 KMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGLR    251
+                     .....:::....|...:...|.|:|  .||.|..|...:|..:|.|
+MUTS_MYXXD       144 GWGAALLEASTGEFMALEAPGIAEL--AESLSRVEPRELLVPDGKR    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      34/141 (24.1%)
+# Similarity:    54/141 (38.3%)
+# Gaps:          27/141 (19.1%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         5 LDVGNTNIVLGIYKN--KELIANWRLATDNKRTADEYGIQVIELF--SHN     50
+                     |::..|    |.|.:  :|||...::|..|....      :..||  |.|
+NOSO_STAAC        33 LEIKET----GTYTHTEEELIYGAKMAWRNSNRC------IGRLFWDSLN     72
+
+COAX_CLOBL        51 NLSFSDI--EGVIISSVVPNIMYSL-EHMISKYFNIKPIIVGPGVKTGIN     97
+                     .:...|:  |...:||:..:|..:. |..:..|..|.....||.:.....
+NOSO_STAAC        73 VIDARDVTDEASFLSSITYHITQATNEGKLKPYITIYAPKDGPKIFNNQL    122
+
+COAX_CLOBL        98 IKYDNPKEVG--ADRIVNAVAAHEIYKKPLIIIDFGTATTF    136
+                     |:|......|  |::.|..:|.|..:|        |..|.|
+NOSO_STAAC       123 IRYAGYDNCGDPAEKEVTRLANHLGWK--------GKGTNF    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      11/55 (20.0%)
+# Similarity:    25/55 (45.5%)
+# Gaps:           7/55 (12.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        78 SKYFNIKPIIVGPGVKTG-----INIKYDNPKEVGADRIVNAVAAHEIYK    122
+                     ::|..||.|.:....:||     ..::|:..||  |...:..:...::..
+RBM8A_MOUSE       94 AEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKE--AQAAMEGLNGQDLMG    141
+
+COAX_CLOBL       123 KPLII    127
+                     :|:.:
+RBM8A_MOUSE      142 QPISV    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      14/44 (31.8%)
+# Similarity:    25/44 (56.8%)
+# Gaps:           7/44 (15.9%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        48 SHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYF---NIKPIIV     88
+                     ||...|...:||:::|..|   |.|:. ::|.:|   ::.|||:
+NU4LM_ARCPU       24 SHLMSSLLCLEGMMLSLFV---MMSMT-ILSNHFTLASMAPIIL     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         3 LVLDVGNTNIVLGI     16
+                     |.:|:|.|.:...:
+NANK_ECOLI         4 LAIDIGGTKLAAAL     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      55/212 (25.9%)
+# Similarity:    85/212 (40.1%)
+# Gaps:          61/212 (28.8%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVI--ELFSHNN     51
+                     :||..:..|..| ||...||.         :..:.|||...  |.:..||
+MIAB_MYCPE       233 ILDEVHQMISEG-YKEVTLIG---------QNVNSYGIDFDNGENYLFNN    272
+
+COAX_CLOBL        52 L----SFSDIEGVIISSVVP-NIMYSLEHMISKYFNIKPIIVGPGVKTG-     95
+                     |    :.:.||.|..::..| |...|:...:.||.||.|.|..| :::| 
+MIAB_MYCPE       273 LLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLP-IQSGD    321
+
+COAX_CLOBL        96 --INIKYDNPKEVGADRI--VNAVAAH-----------------------    118
+                       |..|.:.|.::| |.|  |:.:.|:                       
+MIAB_MYCPE       322 ETILKKMNRPMKIG-DYIDLVDYIRANIPNCSITTDLIVGFPNETKEQFN    370
+
+COAX_CLOBL       119 ---EIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKA    165
+                        |:||:    |:|..|.||....::     ||:. .|......|.:|.
+MIAB_MYCPE       371 KTLELYKR----IEFDNAFTFIYSKRD-----GTVA-AIIPDEIPLSEKK    410
+
+COAX_CLOBL       166 AKLPRV-ELVKT    176
+                     .:|..: |:|||
+MIAB_MYCPE       411 ERLQELNEMVKT    422
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      12/56 (21.4%)
+# Similarity:    25/56 (44.6%)
+# Gaps:          10/56 (17.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        41 IQVIELFSHNNLSFSDIEGVII------SSVVP----NIMYSLEHMISKY     80
+                     :|:.|:.|.||..|..:...::      ..:.|    .|..:::|:..|:
+NADK_STAES       180 MQIAEIASINNRVFRTVGSPLVLPKHHTCLITPVNHDTIRTTIDHVSIKH    229
+
+COAX_CLOBL        81 FNIKPI     86
+                     .|:..|
+NADK_STAES       230 KNVNAI    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      16/75 (21.3%)
+# Similarity:    30/75 (40.0%)
+# Gaps:          24/75 (32.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       126 IIIDFGTATTFCA-----------VTKEANYLGGT-----IC---PGIKI    156
+                     :::|.||...:.|           ::::....|||     :|   .|...
+TRPG_CAEEL       531 LLVDNGTVGRYGAEVILRKRLEMYISQKQKIFGGTRSVPVVCVVLEGGSC    580
+
+COAX_CLOBL       157 SSDALFDKAAKLPRVELVKTPGVIC    181
+                     :..::.|....:|||     |.|:|
+TRPG_CAEEL       581 TIRSVLDYVTNVPRV-----PVVVC    600
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      51/250 (20.4%)
+# Similarity:    87/250 (34.8%)
+# Gaps:          73/250 (29.2%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        26 WR--LATDNKRTADEYGIQVIELFSHNNLSFSDIEGVIISSVVPNIMYSL     73
+                     ||  |..|.:|       ||.:|.:    :.:.::||  :.|...::..|
+MSHD_MYCMM         6 WRSHLTDDQQR-------QVRDLVT----AATQVDGV--APVGEQVLREL     42
+
+COAX_CLOBL        74 -----EHMISK----------YFNIKPIIVGPGVKTGINIKYDNPKEVGA    108
+                          ||::.:          |.|:.|                   ..||
+MSHD_MYCMM        43 AQQRTEHLLVEDQSPGKSAIGYLNLSP-------------------AHGA     73
+
+COAX_CLOBL       109 DRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEAN----YLGGTICPGI    154
+                     |..:..:..|...::..|    .||....|:.|...    :..||:.|. 
+MSHD_MYCMM        74 DAAMAELVVHPQARRRGI----ATAMVRAALAKTGGRNQFWAHGTLAPA-    118
+
+COAX_CLOBL       155 KISSDALFDKAAKLPRVELVKTPGVICKNTVASIQSGI-IYGYAGQVDYI    203
+                     :.::.||    ...|..|||:....:.:.....|.:|: |..|||..|  
+MSHD_MYCMM       119 QATASAL----GLTPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGTED--    162
+
+COAX_CLOBL       204 VSKMKKEMMDLGEEE-PFVVATGGFAKLISEESKS---IDEINAILTLEG    249
+                         ..|::.:.... .:....||:.:....|.:.   .|.....|.|||
+MSHD_MYCMM       163 ----DAELLRVNNAAFAYHPEQGGWTEADLAERRGEPWFDPAGLFLALEG    208
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       112 VNAVAAHEIYKKPLIII    128
+                     :|..||..:....|:||
+PAND_THEFY        71 INGAAARLVAPGDLVII     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:       9/38 (23.7%)
+# Similarity:    18/38 (47.4%)
+# Gaps:           6/38 (15.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         7 VGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVI     44
+                     :..|:::||..:.:|.:  |    |..|.....|:.|:
+LIPA_ASPOR       299 ITKTSLMLGFGETEEQL--W----DALRQLRSVGVDVV    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      36/225 (16.0%)
+# Similarity:    78/225 (34.7%)
+# Gaps:          67/225 (29.8%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        51 NLSFSDIEGVIISSVVP---NIMYSLEHMISKYFNIKPIIVGPGVKTGIN     97
+                     |:...::..|::::.:|   ....:::.::|...|.|.:..|..:.|.:.
+FLGI_PECAS        82 NMQLKNVAAVMVTAELPPFGRTGQNIDIVVSSLGNAKSLRGGTLLMTPLK    131
+
+COAX_CLOBL        98 IKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLG    147
+                              |.|..|.|:|...       ::..|...:....:.:.|.|.
+FLGI_PECAS       132 ---------GVDNQVYALAQGN-------VLVGGAGASAGGSSVQVNQLA    165
+
+COAX_CLOBL       148 GTICPGIKISSDALFDKAAKLPRVELVKTPGVICKNTV------------    185
+                     |.     :||:.|:.::       ||..|.|.  .||:            
+FLGI_PECAS       166 GG-----RISNGAVIER-------ELPSTFGT--SNTIMLQLKNDDFSMA    201
+
+COAX_CLOBL       186 ---------------------ASIQSGIIYGYAGQVDYIVSKMKKEMMDL    214
+                                          .:||....:|.:.||.::......| :::
+FLGI_PECAS       202 QKVSDAINRSGYGGTASPLDSRTIQVLAPHGNSSQVRFLADVQNIE-VNV    250
+
+COAX_CLOBL       215 GEEEPFVVATGGFAKLISEESKSID    239
+                     |.::..||.......::.....::|
+FLGI_PECAS       251 GIQDAKVVINSRTGSVVMNRDVTLD    275
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      49/251 (19.5%)
+# Similarity:    80/251 (31.9%)
+# Gaps:          94/251 (37.5%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         9 NTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHNNLSFSDIE     58
+                     |.|::.|.||:   ..|..:.........:.|...::|...|:..|.||.
+LDH_BORAP         60 NINVLFGTYKD---CVNADIVVITAGLNQKPGETRLDLVGKNSKIFKDII    106
+
+COAX_CLOBL        59 GVIISS-------VVPNIMYSLEHMISKYFNIKPI--IVGPGV-------     92
+                     ..::||       :..|.:..:.::..||... ||  ::|.|.       
+LDH_BORAP        107 TNVVSSGFDGIFVIASNPVDIMTYVTMKYSKF-PIHKVIGTGTILDTSRL    155
+
+COAX_CLOBL        93 ------KTGIN-----------------IKYDNPK---------------    104
+                           :..:|                 :.:|..|               
+LDH_BORAP        156 RYFLSDRFNVNTQNIHSYVMGEHGDSSFVTWDETKIAMKPLSEYLSEGKI    205
+
+COAX_CLOBL       105 -EVGADRIVNAV--AAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTIC    151
+                      |:..|.|...|  ||:|:.|                 .|.|.|.  .|.
+LDH_BORAP        206 TELELDEIHKKVVNAAYEVIK-----------------LKGATYY--AIG    236
+
+COAX_CLOBL       152 PGIKISSDALF-DKAAKLPRVE--------LVK-----TPGVICKNTVAS    187
+                     .|||...:|:. |:...||...        |:|     .|.::||..|..
+LDH_BORAP        237 LGIKNIVNAIIGDQNIILPISSYINGQYGGLIKDIYIGAPAIVCKEGVKE    286
+
+COAX_CLOBL       188 I    188
+                     :
+LDH_BORAP        287 V    287
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    14/38 (36.8%)
+# Gaps:           5/38 (13.2%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         7 VGNTNIVLGIYKNKEL---IAN--WRLATDNKRTADEY     39
+                     :.||...|||..|..|   :.|  |......:...|.|
+EXGB_EMENI       251 IRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNY    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      43/221 (19.5%)
+# Similarity:    80/221 (36.2%)
+# Gaps:          87/221 (39.4%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        42 QVIELF--SHNNLSFSDIEGVIISS---------VVPNIMYSLEHMISKY     80
+                     |:.||.  |||::: |..|.::.|:         :||.:....:.::.::
+KTHY_CHLP8        45 QIRELLLESHNDIT-SIAELLLFSASRAELMEKIIVPALEDGCDVILDRF     93
+
+COAX_CLOBL        81 FNIKPIIVGPGVKTGINIKYDNPKEVGADRI--VNAVAAHEIYKKPLIII    128
+                     |:......|.|  .|:|:          |.:  :|.:|:|.|  :|.|  
+KTHY_CHLP8        94 FDSTTAYQGYG--RGLNL----------DMLAEINRIASHGI--RPDI--    127
+
+COAX_CLOBL       129 DFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG    178
+                          |.:..:|.|                |||..|.::           
+KTHY_CHLP8       128 -----TFYLDLTPE----------------DALLRKFSE-----------    145
+
+COAX_CLOBL       179 VICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEE---EPFVVATG    225
+                        |:...:.:|                   |.:|..|.   |.:.....
+KTHY_CHLP8       146 ---KSLPLAFES-------------------EELDRMENSGLEFYQRVRA    173
+
+COAX_CLOBL       226 GFAKLISEESKSIDEINAILT    246
+                     |:..::..|.:.|..|:|:||
+KTHY_CHLP8       174 GYHAILEAEPQRIIMIDALLT    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 265
+# Identity:      48/265 (18.1%)
+# Similarity:    97/265 (36.6%)
+# Gaps:          85/265 (32.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        31 DNKRTADEYGIQVIELFSH--------------------NNLSFSDIEGV     60
+                     |:.|.|:..|:.|:....|                    :::.||..|..
+SECA2_MYCTO      545 DHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWEDD    594
+
+COAX_CLOBL        61 IISSVVPNIMYSLEHMISKYFNIKPI-------IVGPGVKTGINIKYDNP    103
+                     ::::       :|:|      |..|:       ||.|  :||..:  |:.
+SECA2_MYCTO      595 VVAA-------NLDH------NKLPMATDENGRIVSP--RTGSLL--DHA    627
+
+COAX_CLOBL       104 KEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPG    153
+                     :.|...|:::..|....|.:.:       |.....:.:..|.|..|:...
+SECA2_MYCTO      628 QRVAEGRLLDVHANTWRYNQLI-------AQQRAIIVERRNTLLRTVTAR    670
+
+COAX_CLOBL       154 IKISS------DALFDKAAKLPRVELVKTPGVICKNTVASIQSGIIY---    194
+                     .:::.      :.|.||.:: .|:|      .||:..       ::|   
+SECA2_MYCTO      671 EELAELAPKRYEELSDKVSE-ERLE------TICRQI-------MLYHLD    706
+
+COAX_CLOBL       195 -GYAGQVDYIVS-KMKKEMMDLGEEEPF----VVATGGFAKLISEESKSI    238
+                      |:|..:.|:.. :....:..||.:.|.    .:|...||.|.::..::.
+SECA2_MYCTO      707 RGWADHLAYLADIRESIHLRALGRQNPLDEFHRMAVDAFASLAADAIEAA    756
+
+COAX_CLOBL       239 DEINAILTLEGLRVI    253
+                     .:     |.|...|:
+SECA2_MYCTO      757 QQ-----TFETANVL    766
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    11/23 (47.8%)
+# Gaps:           5/23 (21.7%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       119 EIYKKPLIIIDFGTATTFCAVTK    141
+                     ||.::|     .|:...||..|:
+DB108_HUMAN       26 EICERP-----NGSCRDFCLETE     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      39/208 (18.8%)
+# Similarity:    71/208 (34.1%)
+# Gaps:          73/208 (35.1%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        78 SKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEI-------    120
+                     |..:.:.|:.:.|           :|.|..:.  ::|:.:|.:       
+LCMT1_CRYNB      215 SPLYTLLPLDLRP-----------SPSEPASS--ISAILSHHVLPQLDPR    251
+
+COAX_CLOBL       121 ------------YKKP----LIIIDFGTATTFCAVTKEANYLGGTICPGI    154
+                                 |..|    .||..||  .|||:            |.|:
+LCMT1_CRYNB      252 LPTLFLAECLFPYMSPEDSREIIKWFG--ETFCS------------CMGV    287
+
+COAX_CLOBL       155 KISSDALFDKAAKLPR----VELVKTPGVIC---KNTVASIQSGIIYGYA    197
+                     ......|.|....:.:    |..:..||.|.   ::......|.::.|  
+LCMT1_CRYNB      288 VYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQG--    335
+
+COAX_CLOBL       198 GQVDYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTL    247
+                     |:.|   |...|.:..:.||:           :..||.:.|.::..:..:
+LCMT1_CRYNB      336 GKFD---SAGAKTLWQIREED-----------VGPEELQRISKLEILDEI    371
+
+COAX_CLOBL       248 EGLRVIYE    255
+                     |.||::.|
+LCMT1_CRYNB      372 EELRLVLE    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      16/73 (21.9%)
+# Similarity:    35/73 (47.9%)
+# Gaps:          19/73 (26.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        14 LGIY-KNKELIANWRLATDNKRTADEYGIQVIELFSHNNLSFSDIEGVII     62
+                     :|:: |.|.|:      :|:|:  |...|:::...|...::..|      
+PTGA_SALTY         1 MGLFDKLKSLV------SDDKK--DTGTIEIVAPLSGEIVNIED------     36
+
+COAX_CLOBL        63 SSVVPNIMYSLEHMISKYFNIKP     85
+                        ||::::: |.::.....|||
+PTGA_SALTY        37 ---VPDVVFA-EKIVGDGIAIKP     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      11/48 (22.9%)
+# Similarity:    21/48 (43.8%)
+# Gaps:           4/48 ( 8.3%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       203 IVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGL    250
+                     |..:.||:.:    |..:.:......|.:||.|...|:::....|:.|
+RR14_CRYJA         7 IQREKKKQRL----ERKYNLLRQSLKKEMSEVSSLDDKLDIYRKLQSL     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      29/142 (20.4%)
+# Similarity:    53/142 (37.3%)
+# Gaps:          39/142 (27.5%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        26 WRLATDNKRTAD----------EYGIQVIELFSH-----NNLSFSDIEGV     60
+                     |::..|  :.||          ..|.:.|::|..     |...:......
+DCUP_BACVZ       178 WKMLMD--KLADMIIVYAKAQINAGAKAIQIFDSWVGALNREDYRQFIKP    225
+
+COAX_CLOBL        61 IISSV--------VPNIMYSL--EHMISKYFNIKPIIVGPGVKTGINIKY    100
+                     ::..:        ||.||:.:  .|:...:.::...:||...:.||    
+DCUP_BACVZ       226 VMDRIFRELSAEQVPLIMFGVGASHLAGDWHDLPLDVVGLDWRLGI----    271
+
+COAX_CLOBL       101 DNPKEVGADRIVNA-------VAAHE-IYKKPLIIIDFGTAT    134
+                     |:.::.|..:.|..       :|..| |.||...|:|.|..|
+DCUP_BACVZ       272 DDARKQGITKTVQGNLDPSLLLAPWEVIEKKAKAILDQGMKT    313
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 192
+# Identity:      40/192 (20.8%)
+# Similarity:    75/192 (39.1%)
+# Gaps:          59/192 (30.7%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRT----ADEYGI-------Q     42
+                     ::.|||.  :..:.|..||:.:........||    .:::.:       |
+GTF2I_MOUSE      527 IIQVGNR--IKFVIKRPELLTHSTTEVTQPRTNTPVKEDWNVRITKLRKQ    574
+
+COAX_CLOBL        43 VIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPIIVGPGV     92
+                     |.|:|   ||.|:...|:..:..||   |.:.....::..::      |:
+GTF2I_MOUSE      575 VEEIF---NLKFAQALGLTEAVKVP---YPVFESNPEFLYVE------GL    612
+
+COAX_CLOBL        93 KTGINIKYDNPKEVGADRIVNAVAAHE----IYKKPLIIIDFGTATTFCA    138
+                     ..|  |.:.:|...|..|:...|....    :.|||.:::.:        
+GTF2I_MOUSE      613 PEG--IPFRSPTWFGIPRLERIVRGSNKIKFVVKKPELVVSY--------    652
+
+COAX_CLOBL       139 VTKEANYLGGTICPGI--KISSDALFDKAAKLPRVELVKTPG    178
+                                :.||:  ||::.||  ::.|.||     :||
+GTF2I_MOUSE      653 -----------LPPGMASKINTKAL--QSPKRPR-----SPG    676
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      13/57 (22.8%)
+# Similarity:    27/57 (47.4%)
+# Gaps:          11/57 (19.3%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       193 IYGYAGQVD----YIVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSI    238
+                     :.|..|||:    |:||.: .::..|....|..:|      .|::.:.|:
+ISPH_ACIF5       127 VEGTMGQVEEGMMYLVSNV-SDVATLAPRNPDKLA------YITQTTLSM    169
+
+COAX_CLOBL       239 DEINAIL    245
+                     |:...::
+ISPH_ACIF5       170 DDTAEVI    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      10/39 (25.6%)
+# Similarity:    18/39 (46.2%)
+# Gaps:           2/39 ( 5.1%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       215 GEEEPFVVATGGFAKLISEESKSIDEINAILTLEGLRVI    253
+                     |:|:.  ||..|:...:.|..:.|..::.....:||..|
+NDUA1_HUMAN       33 GKEKR--VAHFGYHWSLMERDRRISGVDRYYVSKGLENI     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:       8/45 (17.8%)
+# Similarity:    21/45 (46.7%)
+# Gaps:           9/45 (20.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       170 RVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDL    214
+                     |:|:.:...:..||.:..:.|         .:|.|.::..:::|:
+PSRP_SALTI       234 RMEVAEVEALYRKNQIPCLNS---------TNYSVEEIATKILDI    269
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 304
+# Identity:      56/304 (18.4%)
+# Similarity:   110/304 (36.2%)
+# Gaps:          89/304 (29.3%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         2 ILVLDVGNTNIVLGIY--KNKELIANWRLATDNKRTADEYGIQVIELFSH     49
+                     ::.:|:|.||..:.:.  |:.::|.|    .:..||....          
+DNAK_CHESB         4 VIGIDLGTTNSCVAVMDGKDAKVIEN----AEGARTTPSI----------     39
+
+COAX_CLOBL        50 NNLSFSDIEGVIISSVV--------PNIMYSLEHMISKYFNIKPIIVGPG     91
+                       ::|:|.:..::....        .|..::::.:|.:.|. .|::    
+DNAK_CHESB        40 --VAFTDSDERLVGQPAKRQAVTNPENTFFAIKRLIGRRFE-DPMV----     82
+
+COAX_CLOBL        92 VKTGINIKYDNPKEVGADRIVNA------VAAHEIYKKPLIIIDFGTATT    135
+                              :..|::...:||.|      |.:|.....|..|     :..
+DNAK_CHESB        83 ---------EKDKKLVPYKIVKADNGDAWVESHGTKYSPSQI-----SAM    118
+
+COAX_CLOBL       136 FCAVTKEA--NYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG-----    178
+                     .....||.  :|||..:...: |:..|.|:.|.:....:..|..|     
+DNAK_CHESB       119 ILQKMKETAESYLGEKVEKAV-ITVPAYFNDAQRQATKDAGKIAGLEVLR    167
+
+COAX_CLOBL       179 VICKNTVASIQSGI---------IYGYAGQVDYIVSKMKKEMMDLGEEEP    219
+                     :|.:.|.|::..|:         :|...|....|      .::::|:...
+DNAK_CHESB       168 IINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDI------SILEIGDGVF    211
+
+COAX_CLOBL       220 FVVATGG------------FAKLISEESK---SIDEINAILTLEGLRVIY    254
+                     .|.:|.|            ....:::|.|   .||..|..|.|:.|:...
+DNAK_CHESB       212 EVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLALQRLKEAA    261
+
+COAX_CLOBL       255 EKNK    258
+                     ||.|
+DNAK_CHESB       262 EKAK    265
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      38/163 (23.3%)
+# Similarity:    63/163 (38.7%)
+# Gaps:          38/163 (23.3%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       103 PKEVGADRIVNAVA--AHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTI    150
+                     |.:||...:..|..  |.||.:..|.|.||        |..|.   ||.:
+DNLJ_ACIC5       352 PVQVGGTTVTRATLHNADEIERLGLRIGDF--------VRIER---GGDV    390
+
+COAX_CLOBL       151 CPG-IKISSDALFDKAAK---LPRV------ELVKTPGVI---CKNT--V    185
+                     .|. :::..||...:..|   .|..      |:|:|||..   |.||  .
+DNLJ_ACIC5       391 IPKVVEVVDDAEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCP    440
+
+COAX_CLOBL       186 ASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEES    235
+                     |.::..::        :..|:....:..:||.....:...|..|.:|:..
+DNLJ_ACIC5       441 ARLRESLL--------HFASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIY    482
+
+COAX_CLOBL       236 KSIDEINAILTLE    248
+                     ...:|  .:::||
+DNLJ_ACIC5       483 SLTEE--QLVSLE    493
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      42/189 (22.2%)
+# Similarity:    74/189 (39.2%)
+# Gaps:          55/189 (29.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        85 PIIVG-----PGVK-TGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIII    128
+                     |..||     ||.. |.|.:|   |.::  ||       ...|.|.|::.
+CAPSD_CMVO        56 PTFVGSERCKPGYTFTSITLK---PPKI--DR-------GSYYGKRLLLP     93
+
+COAX_CLOBL       129 DFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG    178
+                     |        :||:....|...|  .|:::....||...   .|.:.|.| 
+CAPSD_CMVO        94 D--------SVTEYDKKLVSRI--QIRVNPLPKFDSTV---WVTVRKVP-    129
+
+COAX_CLOBL       179 VICKNTVASIQS--------GIIYGYA-------GQVDYIVSKMKKEMMD    213
+                     .....:||:|.:        .::|.||       .::.|.:|.|:   .|
+CAPSD_CMVO       130 ASSDLSVAAISAMFADGASPVLVYQYAAFGVQANNKLLYDLSAMR---AD    176
+
+COAX_CLOBL       214 LGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGLRV    252
+                     :|:...:.|..  ::|   :::...||:...:.:|..|:
+CAPSD_CMVO       177 IGDMRKYAVLV--YSK---DDALETDELVLHVDIEHQRI    210
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      10/22 (45.5%)
+# Similarity:    12/22 (54.5%)
+# Gaps:           7/22 (31.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+COAX_CLOBL         8 GN----TNIVLG---IYKNKEL     22
+                     ||    |.:.||   |||:|.|
+IF3_CHLL2        122 GNRVRATIVFLGRSIIYKDKGL    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    23/61 (37.7%)
+# Gaps:          24/61 (39.3%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        89 GPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCA    138
+                     |..||.|:    :.||||...|       .|||::             ..
+CSRA_HAEI8        27 GNQVKLGV----EAPKEVSVHR-------EEIYQR-------------IK     52
+
+COAX_CLOBL       139 VTKEANYLGGT    149
+                     .||:..|||.:
+CSRA_HAEI8        53 QTKDEPYLGSS     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 258
+# Identity:     258/258 (100.0%)
+# Similarity:   258/258 (100.0%)
+# Gaps:           0/258 ( 0.0%)
+# Score: 1306.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         1 MILVLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHN     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+COAX_CLOBL         1 MILVLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHN     50
+
+COAX_CLOBL        51 NLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPIIVGPGVKTGINIKY    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+COAX_CLOBL        51 NLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPIIVGPGVKTGINIKY    100
+
+COAX_CLOBL       101 DNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+COAX_CLOBL       101 DNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTI    150
+
+COAX_CLOBL       151 CPGIKISSDALFDKAAKLPRVELVKTPGVICKNTVASIQSGIIYGYAGQV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+COAX_CLOBL       151 CPGIKISSDALFDKAAKLPRVELVKTPGVICKNTVASIQSGIIYGYAGQV    200
+
+COAX_CLOBL       201 DYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+COAX_CLOBL       201 DYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTLEGL    250
+
+COAX_CLOBL       251 RVIYEKNK    258
+                     ||||||||
+COAX_CLOBL       251 RVIYEKNK    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     6/10 (60.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       134 TTFCAVTKEA    143
+                     ||.|.:..||
+HOP_BOVIN         31 TTLCLIAAEA     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:      56/289 (19.4%)
+# Similarity:    93/289 (32.2%)
+# Gaps:         104/289 (36.0%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        44 IELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPI-------     86
+                     ||:.|.::..|.:...|:..:  |.|.:|||...|::.::..|       
+THII_VIBA3        50 IEVTSESDKYFKETLEVLTQT--PGIHHSLEVQQSEFKDLHNIYEQVLER     97
+
+COAX_CLOBL        87 -----------------------------IVGPGVKTGI---NIKYDNPK    104
+                                                  .||.|:...:   .:|..||.
+THII_VIBA3        98 SGALIEGKTFSVRAKRRGKHDFTSIELERYVGGGLNQAVESAKVKLKNPD    147
+
+COAX_CLOBL       105 -----EVGADRIVNAVAAHE-IYKKPL---------------------II    127
+                          ||..|::...:..|: :...||                     :.
+THII_VIBA3       148 ITVKVEVENDKLNQVIERHKGLGGFPLGTQEDLLSLISGGFDSGVSSYLH    197
+
+COAX_CLOBL       128 IDFGTATTFCAVTKEANYLGGTICP----GIKISSDALFDKAAKLPRVEL    173
+                     |..|:...:|...     |||   |    |:|..|..|:||.....:|:.
+THII_VIBA3       198 IKRGSKVHYCFFN-----LGG---PAHEIGVKQVSHYLWDKYGSSAKVKF    239
+
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVA    223
+                     :   .:..:..||.|...:..|..|.|      :|:..|..|   ..|..
+THII_VIBA3       240 I---SIDFEPVVAEILENVEDGQMGVV------LKRMFMRAG---GMVAE    277
+
+COAX_CLOBL       224 TGGFAKLISEES------------KSIDEINAILTLEGL    250
+                     ..|...|::.|:            :.||.:...|.|..|
+THII_VIBA3       278 RFGIEALVTGEALGQVSSQTLTNLRHIDNVTDTLILRPL    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      28/124 (22.6%)
+# Similarity:    46/124 (37.1%)
+# Gaps:          31/124 (25.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        90 PGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAV    139
+                     |.|.||..|...|.::|   |:..|.::.::|.         :.:.|...
+RL13_PSEPG        46 PHVDTGDYIVVINAEQV---RVTGAKSSDKMYY---------SHSGFPGG     83
+
+COAX_CLOBL       140 TKEANYLGGTICPGIKISSDALFDK-AAKLP-RVELVKTPGVICKNTVAS    187
+                     .||.|                 |:| .||.| ||......|::.||.:..
+RL13_PSEPG        84 IKEIN-----------------FEKLIAKAPERVIETAVKGMLPKNPLGR    116
+
+COAX_CLOBL       188 IQSGIIYGYAGQVDYIVSKMKKEM    211
+                     .....:..|||......::..:|:
+RL13_PSEPG       117 DMYRKLKVYAGAAHPHTAQQPQEL    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 173
+# Identity:      36/173 (20.8%)
+# Similarity:    64/173 (37.0%)
+# Gaps:          58/173 (33.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        76 MISKYFNIK-PIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKP    124
+                     |..:|:||. ..::..||..|...:..||      |:...::|.   :|.
+RR2_ARATH          1 MTKRYWNIDLEEMMRAGVHFGHGTRKWNP------RMAPYISAK---RKG     41
+
+COAX_CLOBL       125 LIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVELV    174
+                     :.||:         :|:.|.:|..        :.|.:||.|::..:..:|
+RR2_ARATH         42 IHIIN---------LTRTARFLSE--------ACDLVFDAASRGKQFLIV     74
+
+COAX_CLOBL       175 KTPGVICKNTVASIQS-----------------GIIYGYAGQVDYIVSKM    207
+                     .|     ||..|.:.|                 |::..::     ...|.
+RR2_ARATH         75 GT-----KNKAADLVSRAAIRARCHYVNKKWLGGMLTNWS-----TTEKR    114
+
+COAX_CLOBL       208 KKEMMDLGEEEPFVVATGGFAKL    230
+                     ..:..||..|:    .|.||.:|
+RR2_ARATH        115 LHKFRDLRTEQ----KTEGFNRL    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:      34/169 (20.1%)
+# Similarity:    64/169 (37.9%)
+# Gaps:          52/169 (30.8%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        90 PGVKTGINIKYD----NPKEVG-ADRIVNAVAAHEIYKKPLIIIDFGTAT    134
+                     |.::|.:.::..    ||:.:. |...:.|..|.:::.:           
+Y1710_SYNP2      265 PHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQ-----------    303
+
+COAX_CLOBL       135 TFCAVTKEANYLG---GTICPG--IKISSDALFDKAAKL-----------    168
+                        .:|.:.|.||   ..|||.  ::|..:.||.:.:.|           
+Y1710_SYNP2      304 ---GITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSI    350
+
+COAX_CLOBL       169 --PRVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGE    216
+                       .|.|.|.||       ...||..|  ||.|...|.|....:::..:.:
+Y1710_SYNP2      351 LQRRFETVATP-------AGEIQLKI--GYRGDKIYNVQPEYEDVKAIAQ    391
+
+COAX_CLOBL       217 EEPFVVATGGFAKLISEES    235
+                     :      ||...:.|::::
+Y1710_SYNP2      392 Q------TGQSWQAIAQQA    404
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      33/157 (21.0%)
+# Similarity:    55/157 (35.0%)
+# Gaps:          40/157 (25.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        17 YKNKELIANWRLATDNKRTADEYGIQVIELFSHNNLSFSDIEGVIISSVV     66
+                     :.|.::....||..:.||...|.|...:    |...||.:          
+WTPC_THEKO       159 FANLDVQTRGRLINEMKRWRKELGFTAL----HVTHSFEE----------    194
+
+COAX_CLOBL        67 PNIMYSLEHMISKYFNIKPIIVGPGVKTGINIKYDNP------KEVGADR    110
+                        ..||...:....|.:.:.|||     :...:..|      |.:|.:.
+WTPC_THEKO       195 ---AVSLGDRVGVMLNGRLVQVGP-----VREVFSRPASEEVAKFLGFEN    236
+
+COAX_CLOBL       111 IVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDA    160
+                     ||..:|...|.:...::|:         :..||:   |.|..||:.....
+WTPC_THEKO       237 IVEGLAEGRILRANGLVIE---------LPIEAS---GRIRVGIRPEDIV    274
+
+COAX_CLOBL       161 LFDKAAK    167
+                     |.|:..|
+WTPC_THEKO       275 LSDEPLK    281
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      26/135 (19.3%)
+# Similarity:    46/135 (34.1%)
+# Gaps:          39/135 (28.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       137 CAVTKEANYLGGT-------------ICPGIKISSDALFDKAAKLPRVEL    173
+                     |:...:...|||:             :|. :|:.|:   |.|.:...|..
+GRB7_RAT          74 CSPPSQKPILGGSSGARGLLPRDSSRLCV-VKVYSE---DGACRSVEVAA    119
+
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVA    223
+                     ..|...:|:..|....:                :..|...|.|..|::..
+GRB7_RAT         120 GATARHVCEMLVQRAHA----------------LSDENWGLVECHPYLAL    153
+
+COAX_CLOBL       224 TGGFAKLISEESKSIDEINAILTLEG-LRVIYEKN    257
+                     ..|.     |:.:|:.|:.....:.| .|.|:.||
+GRB7_RAT         154 ERGL-----EDHESVVEVQEAWPVGGDSRFIFRKN    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      24/126 (19.0%)
+# Similarity:    52/126 (41.3%)
+# Gaps:          27/126 (21.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        85 PIIVGPGVKTGINIKYDNPKEVGADRIVNAV--AAHEIYKKPLIIIDFGT    132
+                     |:.|.| |:.|:.:.   |.:.....:|..:  .|..:..|||..:....
+PSD_RHOPS         57 PVRVTP-VREGLVVA---PADGRVSMVVQMIPPPALGLGDKPLPRVSIFM    102
+
+COAX_CLOBL       133 ATTFCAVTKEANYLGGTI-----CPGIKISSDALFDKAAK----------    167
+                     :...|.|.:..  :.|.:     .||..|:::  .|||::          
+PSD_RHOPS        103 SVFNCHVNRSP--VAGRVERIIYSPGKFINAE--LDKASEDNERNSMVIS    148
+
+COAX_CLOBL       168 --LPRVELVKTPGVICKNTVASIQSG    191
+                       ..::.:|:..|::.:..|:.::.|
+PSD_RHOPS        149 TPAGQIGVVQIAGLVARRIVSFVREG    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      53/277 (19.1%)
+# Similarity:    88/277 (31.8%)
+# Gaps:          88/277 (31.8%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        33 KRTADEYGIQVIELFSHNNLSFSDIEGVIISSVVPNIMY-------SLEH     75
+                     :|..||         :||.|:.:...|.|:..|....:.       .:|.
+PP156_ARATH      464 ERKLDE---------AHNLLNSAHKRGFIVDEVTYGTLIMGFFREEKVEK    504
+
+COAX_CLOBL        76 MISKYFNIKPIIVGPGVKTGINI---------------KYDNPKEVGA--    108
+                     .:..:..:|.:.:.|.|.|..::               |:|...|.|.  
+PP156_ARATH      505 ALEMWDEMKKVKITPTVSTFNSLIGGLCHHGKTELAMEKFDELAESGLLP    554
+
+COAX_CLOBL       109 -DRIVNAV-----------AAHEIYKKPLIIIDFGTATTFCAVTKEANYL    146
+                      |...|::           .|.|.|.:.:       ..:|    |..||.
+PP156_ARATH      555 DDSTFNSIILGYCKEGRVEKAFEFYNESI-------KHSF----KPDNYT    593
+
+COAX_CLOBL       147 GGTICPGIKISSDALFDKAAKLPRVELVKTPGV--ICKNTVASIQSGIIY    194
+                     ...:..|  :..:.:.:||...... |::...|  :..||:.|.      
+PP156_ARATH      594 CNILLNG--LCKEGMTEKALNFFNT-LIEEREVDTVTYNTMISA------    634
+
+COAX_CLOBL       195 GYAGQVDYIVSKMKKEMMDLGEE------EPFVVATGGFAKLISEESKSI    238
+                            :...|..||..||..|      ||.......|..|:.|:.|..
+PP156_ARATH      635 -------FCKDKKLKEAYDLLSEMEEKGLEPDRFTYNSFISLLMEDGKLS    677
+
+COAX_CLOBL       239 DEINAILTLEG--------LRVIYEKN    257
+                     :....:....|        |:|..|||
+PP156_ARATH      678 ETDELLKKFSGKFGSMKRDLQVETEKN    704
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      18/82 (22.0%)
+# Similarity:    35/82 (42.7%)
+# Gaps:          24/82 (29.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         1 MILVLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHN     50
+                     ::|.:..||..::..|.|.:.|           :|...|.|        .
+ADRB2_MESAU       43 IVLAIVFGNVLVITAIAKFERL-----------QTVTNYFI--------T     73
+
+COAX_CLOBL        51 NLSFSDIEGVIISSVVPNIMYSLEHMISKYFN     82
+                     :|:.:|:  |:..:|||   :...|::.|.:|
+ADRB2_MESAU       74 SLACADL--VMGLAVVP---FGASHILMKMWN    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       9/29 (31.0%)
+# Similarity:    11/29 (37.9%)
+# Gaps:          13/29 (44.8%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        95 GINIKYDNPKE-------------VGADR    110
+                     ||:|..||.:.             |.|||
+ID5B_ADEPA         7 GISIDDDNNRRLAVKEGDPLVVQFVNADR     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:      45/241 (18.7%)
+# Similarity:    85/241 (35.3%)
+# Gaps:          81/241 (33.6%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        36 ADEYG----IQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYF     81
+                     |.|.|    ::.:.:...:..|..|:| :|...|..|.::|:..::...|
+GPA7_CAEEL        41 AGESGKSTILKQMRILHKDGFSQQDLE-MIRPVVYSNCIHSMLSILRAMF     89
+
+COAX_CLOBL        82 NIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFG    131
+                     :::             |:|..|..|...::|.|..  ...|:.|      
+GPA7_CAEEL        90 HLQ-------------IEYGEPDRVRDSQLVFATV--HANKEEL------    118
+
+COAX_CLOBL       132 TATTFCAVTKEANYLGGTICPGIKISSDALFDKAAK-----LPRVE----    172
+                     |.....|:.:..:..|...|  .:.|::...|.:||     |||:.    
+GPA7_CAEEL       119 TEELAAAMQRLWHDPGVREC--YRRSNEYQIDDSAKYFLDNLPRLSSPNY    166
+
+COAX_CLOBL       173 ----------LVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMM    212
+                               .:||.|:.                  :|.:.:..:...::
+GPA7_CAEEL       167 VPSEQDLLRTRIKTTGIT------------------EVLFELKGLTFRVI    198
+
+COAX_CLOBL       213 DLGEEEPFVVATGGFAKLISEESKSI---DEINAILTLEGL    250
+                     |:|.:.             ||..|.|   |.:|||:.:..|
+GPA7_CAEEL       199 DVGGQR-------------SERKKWIHCFDNVNAIIFISSL    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    12/27 (44.4%)
+# Gaps:           8/27 (29.6%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        74 EHMISKYFNIKPIIVGPGVKTGINIKY    100
+                     ||:|        ::...||.||...||
+IDI_ECO24          4 EHVI--------LLNAQGVPTGTLEKY     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      46/214 (21.5%)
+# Similarity:    81/214 (37.9%)
+# Gaps:          51/214 (23.8%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        76 MISKYFN--IKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKK    123
+                     |.||.::  |..:...|.:||.....|  |:....:.|.:|:|.   ::|
+YHJA_ECOLI       271 MASKSWDEIIAKLEKDPQLKTQFLEVY--PQGFSGENITDAIAE---FEK    315
+
+COAX_CLOBL       124 PLIIIDF-------GTATTFCAVTKEANYL----------GGTICPG---    153
+                     .||..|.       |......|..|:...|          ||.|..|   
+YHJA_ECOLI       316 TLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSF    365
+
+COAX_CLOBL       154 --IKISSDALFDK--AAKLPRVELVKTPGVICKNTVASIQSGII---YGY    196
+                       :.:..|..|.:  ||.:.|:.:.|......:..|..:::..:   |.:
+YHJA_ECOLI       366 EPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFH    415
+
+COAX_CLOBL       197 AGQVDYIVSKMKKEM-MDLGEEEPFVVATGGFAKLISEESKSIDEINAIL    245
+                     .|.|..:...:|..: ..:|:|.|               .:.:|:|.|.|
+YHJA_ECOLI       416 RGDVPTLDGAVKLMLRYQVGKELP---------------QEDVDDIVAFL    450
+
+COAX_CLOBL       246 -TLEGLRVIYEKNK    258
+                      :|.|:...|.::|
+YHJA_ECOLI       451 HSLNGVYTPYMQDK    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      29/157 (18.5%)
+# Similarity:    56/157 (35.7%)
+# Gaps:          44/157 (28.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        31 DNKRTADEYGIQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMIS--     78
+                     |.:||.  .|:..:.:.....::..|.|         .:...|:|:::  
+RIMP_BURPS        20 DLERTG--RGMVCVYIDQPAGITIDDCE---------KVTRQLQHVLTVE     58
+
+COAX_CLOBL        79 --KYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLI    126
+                       .|..::  :..||:...:....|..:..|::.::.       .|||| 
+RIMP_BURPS        59 NIDYERLE--VSSPGLDRPLKKLADFTRFAGSEAVIT-------LKKPL-     98
+
+COAX_CLOBL       127 IIDFGTATTFCAVTKEANYLGGTICPGIKISSD-----------ALFDKA    165
+                         ....|:..:....|  |.||  |::....           |..|||
+RIMP_BURPS        99 ----DGRKTYRGILHAPN--GETI--GLEFERKKGEAAMLDFTLADIDKA    140
+
+COAX_CLOBL       166 AKLPRVE    172
+                     ..:|.|:
+RIMP_BURPS       141 RLIPHVD    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    12/26 (46.2%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       170 RVELVKTPG--VICKNTVASIQSGII    193
+                     |||.:...|  .|.:|....::.|.|
+RS28_OSTOS        27 RVEFMDDNGNRTINRNVKGPVREGDI     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       9/30 (30.0%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           4/30 (13.3%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       221 VVATGGFAKLISEESKSIDE----INAILT    246
+                     |||.....||..|..:::|:    ::.:||
+HBAC_LITCT       109 VVAVHHSDKLSYETHQALDKFLNVVSGLLT    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      33/141 (23.4%)
+# Similarity:    52/141 (36.9%)
+# Gaps:          46/141 (32.6%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         4 VLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHNNLS     53
+                     |..|.||...|.||....:::..::       ..|.|::.:|    ..|.
+RPOA_PRRSS      2833 VTSVSNTVYSLIIYAQHMVLSALKM-------GHEIGLKFLE----EQLK   2871
+
+COAX_CLOBL        54 FSD---IEGVIISS----------VVPNIMYSLEHM-ISKYFNIKPIIVG     89
+                     |.|   |:.:::.|          ..||..:.:||: :...|...|    
+RPOA_PRRSS      2872 FEDLLEIQPMLVYSDDLVLYAERPTFPNYHWWVEHLDLMLGFRTDP----   2917
+
+COAX_CLOBL        90 PGVKTGINIKYDNPKEVGA------------DRIVNAVAAH    118
+                       .||.|.   |.|..:|.            |||:.|:|.|
+RPOA_PRRSS      2918 --KKTVIT---DKPSFLGCRIEAGRQLVPNRDRILAALAYH   2953
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      16/98 (16.3%)
+# Similarity:    39/98 (39.8%)
+# Gaps:          15/98 (15.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGI---------IYGYAGQVDYIVSKMKKEMMDL    214
+                     ::..||...|.|..|..|.         :.|..|:|  :::.:...|:.:
+UBIE_PSEAE        61 IELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEV--VLADINASMLKV    108
+
+COAX_CLOBL       215 GEEEPFVVATGGFAKLISEESKSI----DEINAILTLEGLRVIYEKNK    258
+                     |.::.......|....:..:::.:    :..:.:....|||.:..|::
+UBIE_PSEAE       109 GRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDE    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      32/142 (22.5%)
+# Similarity:    55/142 (38.7%)
+# Gaps:          26/142 (18.3%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       115 VAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDK    164
+                     |:|..||.:  .|:.|........:...:..:.|.:   |..|.|.:...
+FLII_AQUAE        31 VSAKGIYLE--AILPFANIGNEVEIQSNSRRIRGEV---IGFSGDKVLVM     75
+
+COAX_CLOBL       165 AAKLPRVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDL    214
+                     ..: |...|.|...|:.||.:.|.::|  .|..|:|              
+FLII_AQUAE        76 PYE-PVFGLRKGDKVLLKNELVSTKTG--NGVVGKV--------------    108
+
+COAX_CLOBL       215 GEEEPF-VVATGGFAKLISEESKSIDEINAILTLEGLRVIYE    255
+                       .:|| ....|||...:.|:...:.:||. |..|.:|.:::
+FLII_AQUAE       109 --VDPFGNPLDGGFIGFVEEKGLELPQINP-LYRERIREVFD    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      26/119 (21.8%)
+# Similarity:    40/119 (33.6%)
+# Gaps:          25/119 (21.0%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+COAX_CLOBL        86 IIVGPG-----VKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDF    130
+                     ::..||     .:|..|.:..|..:...:.:............|..|:..
+MSS11_VANPO      559 VVTTPGGSSTSARTKSNARSTNTNKKKMETVSKKNNKRSDINSPATIVPI    608
+
+COAX_CLOBL       131 GTATTFCAVTKEANYLG---GTICPGIKIS------SDALFDKAA---KL    168
+                     .|.|     :.:.|.:.   ||..|.:.:|      |.|..|..|   |.
+MSS11_VANPO      609 STPT-----SSDGNIISSTQGTNFPIVNLSQAPTPTSKAEGDGEAGQNKK    653
+
+COAX_CLOBL       169 PRVELVKTPGVICKNTVAS    187
+                     .|.:..|||..   |..||
+MSS11_VANPO      654 RRRKKPKTPNT---NVSAS    669
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:      51/237 (21.5%)
+# Similarity:    92/237 (38.8%)
+# Gaps:          66/237 (27.8%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        44 IELF-SHNNLSFSDI--EGVIISSVVPNI--MYSLEHMISKYFNIKPIIV     88
+                     |.|| :|.::....:  .|..:|.::|.:  :..||..|.|: ::..||:
+SPB4_ASPFU        45 IPLFMAHKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKH-HVGAIII     93
+
+COAX_CLOBL        89 GPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIII------DFGT    132
+                     .|            .:|: |.:|.|.:::...:..|....      |...
+SPB4_ASPFU        94 SP------------TREL-ASQIYNVLSSLLAFHPPSAAAINPSEDDDAP    130
+
+COAX_CLOBL       133 ATTFCAVTKEA---NYLGGTICPG------IKISSDALFDKAAKLPRVEL    173
+                     ...|.:.|.:.   ..|||:..|.      :|.|.:.|.....:|  :||
+SPB4_ASPFU       131 RPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVLVSTPGRL--LEL    178
+
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEE-----    218
+                     :.:|.|.|..:              ..:.:|......::|||.:|     
+SPB4_ASPFU       179 LSSPHVHCPQS--------------SFEMLVLDEADRLLDLGFKETLQNI    214
+
+COAX_CLOBL       219 ----PFVVATGGFAKLISEESKSIDEINAILTLEGLR    251
+                         |....||.|:..:||   ::|:|..:    |||
+SPB4_ASPFU       215 LRRLPKQRRTGLFSASVSE---AVDQIVRV----GLR    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      23/108 (21.3%)
+# Similarity:    46/108 (42.6%)
+# Gaps:          11/108 (10.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        81 FNIKPIIVGPGVKTG-INIKYDNP-KEVGA---DRIVNAVAAHEI---YK    122
+                     |:|...:.|..|:|| :...::.| |::.|   |..:|.....|:   ::
+ASSY_MYCTO       174 FSIDQNVWGRAVETGFLEHLWNAPTKDIYAYTEDPTINWGVPDEVIVGFE    223
+
+COAX_CLOBL       123 KPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVE    172
+                     :.:.:...|...:..|..:|.|...|....|   ..|.:.|:...:...|
+ASSY_MYCTO       224 RGVPVSVDGKPVSMLAAIEELNRRAGAQGVG---RLDVVEDRLVGIKSRE    270
+
+COAX_CLOBL       173 LVKTPGVI    180
+                     :.:.||.:
+ASSY_MYCTO       271 IYEAPGAM    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      52/271 (19.2%)
+# Similarity:   100/271 (36.9%)
+# Gaps:          70/271 (25.8%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        23 IANWRLATDNKRTADEYGIQVIE--LFSHNNLSFSD----IEGVIISSVV     66
+                     :|.:||.|..:.:...:.::.:|  :...:...|.|    ....:.:.||
+ECCB1_MYCS2        1 MAGFRLTTKVQVSGWRFLLRRVEHAIVRRDTRMFDDPLQFYSRAVFAGVV     50
+
+COAX_CLOBL        67 PNIMYSLEHMISKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAV-    115
+                     .:::..|...:..||  ||:     .|.|.:       ::..||..|.: 
+ECCB1_MYCS2       51 VSVLICLGAALMAYF--KPL-----GKQGSD-------QLLVDRTTNQLY     86
+
+COAX_CLOBL       116 -------AAHEIYKKPLIIIDFGTATTFCAVTKE---------------A    143
+                            ....:|......:..|.|:...||..|               |
+ECCB1_MYCS2       87 VMLPGSNQLRPVYNLTSARLVLGNASNPVAVKSEELNRISKGQSIGIPGA    136
+
+COAX_CLOBL       144 NYLGGTICPGIKISSDALFDKAAK----LPRVE---LVKTPGVICKNTVA    186
+                     .|...|   |...|...|.|..||    .|:||   |::|..:  .:.|.
+ECCB1_MYCS2      137 PYATPT---GTPASQWTLCDTVAKPDSSAPKVETSILIRTLAI--DSGVG    181
+
+COAX_CLOBL       187 SIQS--GIIYGYAGQVDYIVSKMKKEMMDLGEE------------EPFVV    222
+                     .|::  |::..|.| .::::::..:..:||.:.            :|..:
+ECCB1_MYCS2      182 PIRADQGMLVSYEG-ANWLITEGGRHSIDLADRAVTSAVGIPVTAKPTPI    230
+
+COAX_CLOBL       223 ATGGFAKLISEESKSIDEINA    243
+                     :.|.|..|.:.....:.:|.|
+ECCB1_MYCS2      231 SQGLFNALPNRGPWQLPQIPA    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 114
+# Identity:      25/114 (21.9%)
+# Similarity:    46/114 (40.4%)
+# Gaps:          34/114 (29.8%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+COAX_CLOBL       155 KISSDALFDKAAKLPRVELVKTP----GVICKNTV---------------    185
+                     :::.:.|.||  |:..|.::..|    |..|.|.|               
+KCY4_ORYSJ        16 EVTDNMLGDK--KVTVVFVLGGPGSGKGTQCANIVEHFGFIHLSAGDLLR     63
+
+COAX_CLOBL       186 ASIQSGIIYG-------YAGQV--DYIVSKMKKEMMDLGEEEPFVVATGG    226
+                     |.|:||...|       ..|::  ..:..|:.:|.|.....:.|::  .|
+KCY4_ORYSJ        64 AEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIKSGNDKFLI--DG    111
+
+COAX_CLOBL       227 FAKLISEESKSIDE    240
+                     |.:  :||:::..|
+KCY4_ORYSJ       112 FPR--NEENRAAFE    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      50/251 (19.9%)
+# Similarity:    84/251 (33.5%)
+# Gaps:          77/251 (30.7%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        21 ELIANWRLATDNKRTAD---------EYGIQVIELFSHNNLSFSDIEGVI     61
+                     |::||  |...:|...|         :..::.:||....|   ::..|..
+HCP_TRIV2        180 EVLAN--LDAQDKSLQDWLDLTLKVGQMNLKAMELLDAGN---TETFGHP    224
+
+COAX_CLOBL        62 ISSVVPNIMYSLEHMISK--------YFNIKPII---VGPGVKTGIN---     97
+                     ..:.||     |.|.:.|        ...:|.::   .|.|:|...:   
+HCP_TRIV2        225 TPTTVP-----LGHTVGKAILVSGHDLLALKAVLEQTSGTGIKVYTHGEL    269
+
+COAX_CLOBL        98 --------IKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAV    139
+                             :|..:|...|..........||..:.|..|:    .||.|.:
+HCP_TRIV2        270 LPAHGYPKLKQTHPHLYGHYGTAWQNQTHEFERFPGAIV----MTTNCLM    315
+
+COAX_CLOBL       140 TKEANY------LGGTICPGIKISS----DALFDKAAKLPRVELVKTPGV    179
+                     .....|      ||....||::..|    ..:..||.:||..        
+HCP_TRIV2        316 PPHETYKDKVFTLGPVGYPGLQHISIHDISLVIQKALELPGF--------    357
+
+COAX_CLOBL       180 ICKNTVASIQSGIIYGYA-----GQVDYIVSKMKKEMMDLGEEEPFVVAT    224
+                         |..|.|..:..|:|     |..|.:::.:|:     |:...|.:..
+HCP_TRIV2        358 ----TEDSEQKTVTTGFARNAVLGVADTVINAVKQ-----GDIRHFFLVG    398
+
+COAX_CLOBL       225 G    225
+                     |
+HCP_TRIV2        399 G    399
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      35/159 (22.0%)
+# Similarity:    57/159 (35.8%)
+# Gaps:          47/159 (29.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       116 AAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKA    165
+                     |.::..|:.:::..:.||       ::..:|.... .|..:|.|.|.:.:
+UBX7_YEAST        13 AINDSIKEGVVLAVYNTA-------RDDQWLKSWF-KGDDVSLDTLAEHS     54
+
+COAX_CLOBL       166 AKLPRVELVKT-----------PGVICKNTVASIQSGIIYGYAGQVDYIV    204
+                     ..|   .|||.           |.|:    |.||             |::
+UBX7_YEAST        55 IWL---RLVKDTEQFQLFEQVFPNVV----VPSI-------------YLI     84
+
+COAX_CLOBL       205 SKMKKEMMDLGEE----EPFVVATGGFAKLISEESKSIDEINAILTLE--    248
+                     ...|.|::..||:    |..:...|...|...|.|..  |.|..|..|  
+UBX7_YEAST        85 RAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSR--ETNPGLAREEK    132
+
+COAX_CLOBL       249 GLRVIYEKN    257
+                     ..|.::.||
+UBX7_YEAST       133 SSRDVHRKN    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      56/284 (19.7%)
+# Similarity:    96/284 (33.8%)
+# Gaps:         110/284 (38.7%)
+# Score: 73.0
+# 
+#
+#=======================================
+
+COAX_CLOBL        55 SDIEGVIISSV-VPNIMYSL-------EHMISKYFNIKPIIV-----GPG     91
+                     |.:.|..::|| :..:::..       |.:.....|||.|.|     ||.
+RPOA_ACICJ        59 SSLHGAAVTSVRIDGVLHEFSSIAGVREDVTDIVLNIKQIAVRMHGDGPK    108
+
+COAX_CLOBL        92 ----------------VKTGINIKYDNPKEV------GA-----------    108
+                                     ::||.:|:..||:.|      ||           
+RPOA_ACICJ       109 RMTVSATGPCEVTAGMIQTGHDIEVMNPELVICTLDDGATLGMEFTVESG    158
+
+COAX_CLOBL       109 ------------DRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYL    146
+                                 |..:..:....|| .|:..:.:....|......:.:.|
+RPOA_ACICJ       159 RGYVPAAANRPEDAPIGLIPVDSIY-SPVRRVSYRVEPTRVGQVTDYDRL    207
+
+COAX_CLOBL       147 ------GGTICP------GIKISSDAL-----FDKAAKL----PRVELVK    175
+                           .|.:.|      ..:|..|.|     |::..:|    ||.||..
+RPOA_ACICJ       208 ILNIETNGAVTPEDAVALAARILQDQLGMFINFEEPQRLRAEEPRPELPF    257
+
+COAX_CLOBL       176 TPGVICK--NTVASIQS-------GIIYGYAGQVDYIVSKMKKEMMDLGE    216
+                     .|.::.|  ....|::|       .|:|     :..:|.|.::||:    
+RPOA_ACICJ       258 NPNLLRKVDELELSVRSANCLKNDNIVY-----IGDLVQKSEQEML----    298
+
+COAX_CLOBL       217 EEPFVVATGGFAKLISEESKSIDEINAILTLEGL    250
+                           .|..|.:      ||::||..:|:..||
+RPOA_ACICJ       299 ------RTPNFGR------KSLNEIKEVLSAMGL    320
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      17/95 (17.9%)
+# Similarity:    33/95 (34.7%)
+# Gaps:          36/95 (37.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+COAX_CLOBL       129 DFGTATTFCAVTKEANYLGGTICPGIKISSDALFDKAAKLPRVELVKTPG    178
+                     :||.|.     .||       :....|:....|..:||.|...||     
+YXAD_BACSU        47 EFGPAR-----VKE-------LAESFKLDISTLSRQAAALEAKEL-----     79
+
+COAX_CLOBL       179 VICKNTVASIQSGIIYGYAGQVD-----YIVSKMKKEMMDLGEEE    218
+                                   ||.::...|     :.::|:.|:::...:::
+YXAD_BACSU        80 --------------IYRFSDPSDGRVSLFTITKLGKQLLKADQQK    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: COAX_CLOBL
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      33/172 (19.2%)
+# Similarity:    72/172 (41.9%)
+# Gaps:          26/172 (15.1%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+COAX_CLOBL         2 ILVLDVGNTNIVLGIYKNKELIANWRLATDNKRTADEYGIQVIELFSHNN     51
+                     |::.|:....:.||:.:..:|::   ......|:..|...:|:     ||
+FADB_SHESR       339 IVMKDIAQPALDLGLGEAAKLLS---AQVARGRSTPEKMAKVL-----NN    380
+
+COAX_CLOBL        52 ----LSFSDIE--GVIISSVV--PNIMYSLEHMISKYFNIKPIIVGPGVK     93
+                         |.::.:.  .|::.:||  |.:...:...:.:|.:...||......
+FADB_SHESR       381 ITPALDYAPVNHADVVVEAVVEHPKVKAQVLAEVEQYVSEDAIIASNTST    430
+
+COAX_CLOBL        94 TGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIII---DFGTATTFCAVT    140
+                     ..||:...:.|:  .:|.......:.::|.||:.:   :..:..|..:|.
+FADB_SHESR       431 ISINLLAKSMKK--PERFCGMHFFNPVHKMPLVEVIRGEHSSEETIASVV    478
+
+COAX_CLOBL       141 KEANYLGGT-----ICPGIKIS    157
+                     ..|:.:|.|     .|||..::
+FADB_SHESR       479 AYASKMGKTPIVVNDCPGFFVN    500
+
+
+#---------------------------------------
+#---------------------------------------

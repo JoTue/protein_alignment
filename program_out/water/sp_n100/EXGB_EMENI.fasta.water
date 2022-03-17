@@ -1,0 +1,3096 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:30
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/EXGB_EMENI.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/EXGB_EMENI.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/EXGB_EMENI.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      25/107 (23.4%)
+# Similarity:    43/107 (40.2%)
+# Gaps:          27/107 (25.2%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+EXGB_EMENI         4 ILPLFTSLPVALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKKIRG     53
+                     :|.:...||:.      .||.::|....:::.:|...|.|.:    |.:|
+PUR7_VIBVU         7 VLAVNDDLPIR------TDKPVHSGKVRSVYWLTEEDSARLI----KEKG     46
+
+EXGB_EMENI        54 VNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVM--------ALGQETAD     95
+                     .|:...       |.:|  .|..|.:.|.|||:.        ..|:..|.
+PUR7_VIBVU        47 YNVAPD-------APLA--IMVISDRISAFDCIWHGEHGLNGVPGKGAAL     87
+
+EXGB_EMENI        96 QAFADHW    102
+                     .|.::||
+PUR7_VIBVU        88 NAISNHW     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+EXGB_EMENI         2 KFILPLFTSLPVAL     15
+                     |...|:...:|:.|
+Y075_NITWN        45 KLAYPIRDGIPIML     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    23/54 (42.6%)
+# Gaps:          13/54 (24.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       108 QDDINQMVQYGLNTIRIPVGYWL---KEDLVYADSEHFPKGG------IG    148
+                     |.||.|:::.|    |:.||.::   .|.:.||........|      ..
+Y3584_PSEAB      157 QYDIEQLIECG----RVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAK    202
+
+EXGB_EMENI       149 YLED    152
+                     ||||
+Y3584_PSEAB      203 YLED    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           3/12 (25.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       123 RIP---VGYWLK    131
+                     |:|   :|||::
+BPT_HAHCH        198 RLPYLYLGYWIR    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      10/39 (25.6%)
+# Similarity:    20/39 (51.3%)
+# Gaps:           3/39 ( 7.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        19 PG--IDKDIYSAAGTNIF-NVTSASSKRWLPASKKIRGV     54
+                     ||  |..|..:.:|:.:. :::.|:::...|.....|||
+KDPC_CAUVN       111 PGVAIPADAVTTSGSGLDPDISPANARFQAPRVAGARGV    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      27/103 (26.2%)
+# Similarity:    41/103 (39.8%)
+# Gaps:          31/103 (30.1%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        79 QRSEFDCVMALGQETADQAFADHWGSWITQD---DINQMVQYGLNTIR--    123
+                     |.|..|.:..||         |.:..||..|   ::..||...|.|..  
+LPXH_XYLFM        29 QVSGADALYILG---------DLFEVWIGDDMPSEVADMVAAALRTYADA     69
+
+EXGB_EMENI       124 -IPVGYWL---KEDLVYADSEHFPKGGIGYLEDVCGWASDAGMYIIIDLH    169
+                      .|: |::   ::.||.||  :..:.|...|.|.|          ::||:
+LPXH_XYLFM        70 GTPL-YFMPGNRDFLVGAD--YAARAGFRILPDPC----------VVDLY    106
+
+EXGB_EMENI       170 GAP    172
+                     |.|
+LPXH_XYLFM       107 GEP    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       386 SYKDAVDAGVIPKDL    400
+                     ||..:::|..:..||
+YERI_SCHPO        28 SYLFSIEAETLMHDL     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:    10/10 (100.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       387 YKDAVDAGVI    396
+                     |:|::|||::
+RBSA_RUEST       326 YQDSIDAGIV    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       8/23 (34.8%)
+# Similarity:    11/23 (47.8%)
+# Gaps:           9/23 (39.1%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       145 GGIGY----LEDV-----CGWAS    158
+                     ||:||    .:|:     ||..|
+KR195_HUMAN        9 GGLGYGYGGFDDLGYGYGCGCGS     31
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      39/194 (20.1%)
+# Similarity:    69/194 (35.6%)
+# Gaps:          71/194 (36.6%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       106 ITQDDINQMVQYGLNTIRIPVGYWLKE---DLVYADSEHFPKGGIGYLED    152
+                     :|||..:|:             .|.:.   .:|...:|..|....|:|..
+UPPP_CORDI         1 MTQDPSSQI-------------SWSQTIVLSIVQGLTEFLPISSSGHLRI     37
+
+EXGB_EMENI       153 VCG--WASDAG--MYIIIDLHGAPG------AQQPKQPFTGQYAPNPGFY    192
+                     |..  |..|||  ...::.| |...      |:...:..||.:.   |.:
+UPPP_CORDI        38 VSELFWGKDAGASFTAVVQL-GTEAAVLVYFAKDIAKILTGWFR---GLF     83
+
+EXGB_EMENI       193 QDYQYDRALEF-LEWMT------TSIHQNNKFRNVGML--EIVNEPVQNA    233
+                     ...|  |..:: :.||.      .||        ||:|  :|:.:.::|.
+UPPP_CORDI        84 DKKQ--RGFDYRMGWMVIVGTLPVSI--------VGLLAKDIIRDNLRNM    123
+
+EXGB_EMENI       234 DQASSMINSYYPSAFTRIRNTESSLGITSNNYLHIQMMNEKWGS    277
+                     ...:|::.::                    :::.|..  |||||
+UPPP_CORDI       124 WITASVLIAF--------------------SFVFIAA--EKWGS    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      21/69 (30.4%)
+# Similarity:    30/69 (43.5%)
+# Gaps:          25/69 (36.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       365 YE--KQEGWVFW-----------SWKAQLG------DYRWSYK--DAVDA    393
+                     ||  |||....|           :|.|.||      ||:::.|  ..:|.
+GREB_ECO57        11 YEKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLREIDR     60
+
+EXGB_EMENI       394 GV--IPKDLDS--IYDYSP    408
+                     .|  :.|.:::  |.||||
+GREB_ECO57        61 RVRYLTKCMENLKIVDYSP     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      40/185 (21.6%)
+# Similarity:    54/185 (29.2%)
+# Gaps:          67/185 (36.2%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        45 LPASKK--IRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQE     92
+                     |||.|.  :.||......|          ..:.|....  |||||.....
+TGT_LEPCP        245 LPADKPRYLMGVGTPEDLV----------DGVACGVDM--FDCVMPTRNA    282
+
+EXGB_EMENI        93 TADQAFADHWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHF    142
+                     .....|                .:||              ||...::.| 
+TGT_LEPCP        283 RNGHLF----------------TRYG--------------DLKIRNARH-    301
+
+EXGB_EMENI       143 PKGGIGYLEDVCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFY    192
+                      |.....|::.|            ......|:..|....||      ||.
+TGT_LEPCP        302 -KADERPLDETC------------SCQACKGSTLPDGRVTG------GFS    332
+
+EXGB_EMENI       193 QDYQY--DRALEFLEWMTTSIHQNNKFRNVGMLEI    225
+                     :.|.:  ||..|.|..|..|||..:.:.|: |.|:
+TGT_LEPCP        333 RAYLHHLDRCGEMLGPMLASIHNLHYYLNL-MREV    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      26/121 (21.5%)
+# Similarity:    48/121 (39.7%)
+# Gaps:          45/121 (37.2%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        77 SGQRSEFDCVMALGQETADQAFADHWGSWITQDDINQMVQYGL---NTIR    123
+                     ||....:|    :||...|    |..|::|:.:.::.:...||   .|:|
+CBPQ_HUMAN       288 SGHLDSWD----VGQGAMD----DGGGAFISWEALSLIKDLGLRPKRTLR    329
+
+EXGB_EMENI       124 IPVGYWLKEDLVYADSEHFPKGGIGYLE-------DVCGWA----SDAGM    162
+                     :.:  |..|:          :||:|..:       ::..::    ||||.
+CBPQ_HUMAN       330 LVL--WTAEE----------QGGVGAFQYYQLHKVNISNYSLVMESDAGT    367
+
+EXGB_EMENI       163 YIIIDLHGAPGAQQPKQPFTG    183
+                     ::...|.           |||
+CBPQ_HUMAN       368 FLPTGLQ-----------FTG    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      38/164 (23.2%)
+# Similarity:    57/164 (34.8%)
+# Gaps:          43/164 (26.2%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       110 DINQMVQYGLN---TIRIPVGYWLKEDLV---YAD-----SEHFPKGGIG    148
+                     |...:||...|   ..|...||.:..|::   .||     ::|.....:|
+PSA6_SOYBN        86 DARTLVQQARNEAAEFRFTYGYEMPVDVLAKWIADKSQVYTQHAYMRPLG    135
+
+EXGB_EMENI       149 YLEDVCGWASDAGMYIIIDLHGAPGAQQ--PKQPFTGQYAPNPGFYQDYQ    196
+                     .:..|.|          ||....|...:  |...:.|..|.:.|. :|.:
+PSA6_SOYBN       136 VVAMVLG----------IDDEYGPQLYKCDPAGHYFGHKATSAGL-KDQE    174
+
+EXGB_EMENI       197 YDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPS    246
+                        |:.|||         .|.:|.... ...|.||.   |.|.:.|....
+PSA6_SOYBN       175 ---AINFLE---------KKMKNDPSF-TYEETVQT---AISALQSVLQE    208
+
+EXGB_EMENI       247 AFTRIRNTESSLGI    260
+                     .|   :.||..:|:
+PSA6_SOYBN       209 DF---KATEIEVGV    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 183
+# Identity:      41/183 (22.4%)
+# Similarity:    60/183 (32.8%)
+# Gaps:          74/183 (40.4%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       180 PFTGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEP    229
+                     |...||.| |.       |..|:::.                  ||:.|.
+SCL34_ARATH       25 PMEDQYPP-PS-------DTLLKYVS------------------EILMEE     48
+
+EXGB_EMENI       230 VQNADQASSMINSYYPSAFTRIRNTESSLG--ITSNNYLHIQMMNEKWGS    277
+                      .|.|...||   :|.|  ..:|.||..|.  ||.:       .|:   |
+SCL34_ARATH       49 -SNGDYKQSM---FYDS--LALRKTEEMLQQVITDS-------QNQ---S     82
+
+EXGB_EMENI       278 GDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESY----------ISASCV    317
+                     ..|..||..|           .||:|.::|:.:|          :..|..
+SCL34_ARATH       83 FSPADSLITN-----------SWDASGSIDESAYSADPQPVNEIMVKSMF    121
+
+EXGB_EMENI       318 DDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSN    350
+                     .|         .|.:|.....||..:.:.|:|:
+SCL34_ARATH      122 SD---------AESALQFKKGVEEASKFLPNSD    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    27/58 (46.6%)
+# Gaps:           6/58 (10.3%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       318 DDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSNTDFYARWFAAQAIAYEK    367
+                     |.:.|   ||.|::.:.|..|:.|.:|...|:..:. ..||..:.:...|
+NDKA_CANLF        98 DSKPG---TIRGDFCIQVGRNIIHGSDSVESAEKEI-GLWFQPEELVDYK    143
+
+EXGB_EMENI       368 Q--EGWVF    373
+                     .  :.|::
+NDKA_CANLF       144 SCAQNWIY    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          15/64 (23.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       111 INQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDA    160
+                     :|..:.:.::|.:|            .||..|..|.:.|   |.|..:..
+RS4_CAEEL        155 VNDTIVFNISTQKI------------TDSVKFEPGNLAY---VTGGRNVG    189
+
+EXGB_EMENI       161 GMYIIIDLHGAPGA    174
+                     .:.||......|||
+RS4_CAEEL        190 RVGIIGHRERLPGA    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      27/113 (23.9%)
+# Similarity:    36/113 (31.9%)
+# Gaps:          31/113 (27.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       251 IRNTESSLGIT------SNNYLHIQMMNEKWGS--GDPTQSLTDNYFAAY    292
+                     :|...|.||:|      |..|........:.|.  .||...||       
+G45IP_CHLAE        5 VRKARSLLGLTATLAPGSRGYRAPPPPRREPGPWWPDPEDLLT-------     47
+
+EXGB_EMENI       293 DDHRYVKWDSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNVE--    340
+                       ||:.......|.....|.:||.|.. |..||:         |:.:.  
+G45IP_CHLAE       48 --HRWQLGPRYAAKQFARYGAASGVAP-GSLWPS---------PEQLREL     85
+
+EXGB_EMENI       341 --HTADWEPSSNT    351
+                       ...:|.||..|
+G45IP_CHLAE       86 EAEEREWYPSLAT     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 376
+# Identity:      64/376 (17.0%)
+# Similarity:   113/376 (30.1%)
+# Gaps:         136/376 (36.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        78 GQRSEFDCVMALGQETADQAFADHWGSWITQDDINQMVQYGL--NTIRIP    125
+                     |.|::.|.:..|.|.....|............|::..:..|.  ..|:.|
+DAPEL_OCEIH       64 GFRADIDGLPILEQTNLPYASLHEGRMHACGHDLHMTIALGALEKLIQDP    113
+
+EXGB_EMENI       126 VGYWLKEDL--VYADSEHFPKGGIGYL--EDVCGWASDAGMYIIIDLHGA    171
+                     :    .:|:  |:..:|..|.|....|  |:...|..|    ::..||.|
+DAPEL_OCEIH      114 I----NDDVIFVFQPAEEGPGGAKPMLESEEFQQWKPD----MMFALHIA    155
+
+EXGB_EMENI       172 P----GAQQPKQPF--------------TGQYAPNPGFYQDYQYDRALEF    203
+                     |    |....|...              .|.:|..|...:|... .|..|
+DAPEL_OCEIH      156 PELPVGTVSSKAGLLFANTSELFIDFEGVGGHAAYPHLTKDMTV-AASNF    204
+
+EXGB_EMENI       204 LEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQA----SSMINSYYPSAFT    249
+                     :               |.:.:||:..:...|.:    ..|.:.|..:|..
+DAPEL_OCEIH      205 V---------------VQLQQIVSRGLNPLDGSVITIGKMESGYVQNAIA    239
+
+EXGB_EMENI       250 RIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHRYVK    299
+                     .....|.::..|..:.:            |..:|..:.....::    :.
+DAPEL_OCEIH      240 ETARLEGTIRSTDADAI------------DMIKSKLNRLMKGFE----IS    273
+
+EXGB_EMENI       300 WDSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWEPSS    349
+                     :|.::.|            |.|.|:..:|                     
+DAPEL_OCEIH      274 YDCTIKV------------DYGANYYQVV---------------------    290
+
+EXGB_EMENI       350 NTDFYARWF-----AAQAIAYEKQE----------------GWVFWSWKA    378
+                     |...|.:.|     ..|.|.|::.:                |::||    
+DAPEL_OCEIH      291 NDATYVQQFENVINQTQTITYQQADAAMTGEDFGDMLKEIPGFMFW----    336
+
+EXGB_EMENI       379 QLG-DYRWSY--------KDAVDAGV    395
+                      || |..:..        ::|:|.||
+DAPEL_OCEIH      337 -LGVDSSYGLHNARLNPKEEAIDVGV    361
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      19/68 (27.9%)
+# Similarity:    27/68 (39.7%)
+# Gaps:          14/68 (20.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       302 SSVAVDKESYISASCVDDRGG--NWPTIVGEWSLSVPDNVEHTADWEPSS    349
+                     ::||......:.|..|.:.||  :...:||    .|.|.:|     ||.:
+KAD_METRJ         37 AAVAAGTPVGLEAKAVMESGGLVSDRIVVG----IVADRIE-----EPDA     77
+
+EXGB_EMENI       350 NTDFYARWF---AAQAIA    364
+                     ...|....|   .|||.|
+KAD_METRJ         78 RRGFILDGFPRTVAQAEA     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      15/57 (26.3%)
+# Similarity:    19/57 (33.3%)
+# Gaps:          22/57 (38.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       124 IPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDAGMYIIIDLHGAPG    173
+                     :|.|..:|           ||..:|           ||.:..|...|..|
+ELN_BOVIN        180 VPTGAGVK-----------PKAQVG-----------AGAFAGIPGVGPFG    207
+
+EXGB_EMENI       174 AQQPKQP    180
+                     .|||..|
+ELN_BOVIN        208 GQQPGLP    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      62/310 (20.0%)
+# Similarity:   102/310 (32.9%)
+# Gaps:         101/310 (32.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        90 GQETADQAFADHWGSWITQDDINQMVQYG--------------LNTIRIP    125
+                     |||...|.|.            ....:||              |.|::..
+ASIC2_MOUSE      175 GQECGHQDFT------------TVFTKYGKCYMFNSGEDGKPLLTTVKGG    212
+
+EXGB_EMENI       126 VGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDAGMYIIIDLHGAPGAQ    175
+                     .|..|:..|.....|:.|..  |..|:.   ..:||  :.:.:|     .
+ASIC2_MOUSE      213 TGNGLEIMLDIQQDEYLPIW--GETEET---TFEAG--VKVQIH-----S    250
+
+EXGB_EMENI       176 QPKQPFTGQ--YAPNPGFY-------QDYQY-----------DRALEF--    203
+                     |.:.||..:  :...|||.       |...|           :..|:|  
+ASIC2_MOUSE      251 QSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFP    300
+
+EXGB_EMENI       204 --------LEWMTTSIHQNNKFRNVGMLEIVNE-----PVQNADQASSMI    240
+                             ::..|..|.:|   .|..|:.:..:     |.|:.:.|...:
+ASIC2_MOUSE      301 VYSITACRIDCETRYIVEN---CNCRMVHMPGDAPFCTPEQHKECAEPAL    347
+
+EXGB_EMENI       241 ------NSYY-----PSAFTRIRNTESSLGI---TSNNYLHIQM-MNEKW    275
+                           :|.|     |...||.....|.:.|   ||..||..:. .:||:
+ASIC2_MOUSE      348 GLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKY    397
+
+EXGB_EMENI       276 GSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYISASCVDDRGGNWP    325
+                     .|.:..  :.|.:|.|.        :......|::|..|:.:.|.||...
+ASIC2_MOUSE      398 ISENIL--VLDIFFEAL--------NYETIEQKKAYEVAALLGDIGGQMG    437
+
+EXGB_EMENI       326 TIVGEWSLSV    335
+                     ..:|...|::
+ASIC2_MOUSE      438 LFIGASILTI    447
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      19/100 (19.0%)
+# Similarity:    36/100 (36.0%)
+# Gaps:          31/100 (31.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       339 VEHTADWEPS--SNTDFY------------ARWFAAQAI--------AYE    366
+                     |..|:|||..  :.|..|            ..|...:.:        .|:
+DOXA1_XENTR       68 VNFTSDWETGIVTATTVYKSFSHSMLNASIGLWIGLKGVNITLIGNPVYQ    117
+
+EXGB_EMENI       367 KQEGWVF---WSWKAQLGDYRWSYKDAVDAGVIPKDL----DSIYDYSPC    409
+                     ..|...:   ::|:: ...:..:|||.::.| :|..:    :.....|||
+DOXA1_XENTR      118 LNETINYNEEFAWES-ANQFDKNYKDGLERG-LPYPILYVAEKFTINSPC    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           3/30 (10.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        23 KDIYSAAGTNIFNVTSASSKRWLPASKKIR     52
+                     ::::.||.::|   ..|.||..:..:|..|
+RS20_STRPB        46 EELFRAASSSI---DKAESKGLIHKNKASR     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      15/71 (21.1%)
+# Similarity:    30/71 (42.3%)
+# Gaps:           8/71 (11.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       205 EWMTTSIHQNNKFRNVG-MLEIVNEPVQNADQASSMINSYYPSAFTRIRN    253
+                     |..|.:...:.|:..|. .|.:|...::.|::.:.       :..|:|..
+TPM_HAELO        150 EARTMAEDADRKYDEVARKLAMVEADLERAEERAE-------TGETKIVE    192
+
+EXGB_EMENI       254 TESSLGITSNNYLHIQMMNEK    274
+                     .|..|.:..||...:::..||
+TPM_HAELO        193 LEEELRVVGNNLKSLEVSEEK    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      13/40 (32.5%)
+# Similarity:    19/40 (47.5%)
+# Gaps:           2/40 ( 5.0%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       304 VAVDKE--SYISASCVDDRGGNWPTIVGEWSLSVPDNVEH    341
+                     ||||::  :|:.......:|.:|...|..||..|.|...|
+LEUC_XANOM       239 VAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAH    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           1/16 ( 6.2%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       250 RIRNT-ESSLGITSNN    264
+                     ||..| .:::.||:.|
+LPT_ESCF3          3 RISTTITTTITITTGN     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      10/46 (21.7%)
+# Similarity:    22/46 (47.8%)
+# Gaps:           2/46 ( 4.3%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        42 KRWLPASKKIRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVM     87
+                     |:.:.|.|:..||...:...:.  .|..|.:....:.:::|||.::
+RL7_THET8         21 KQLIDALKEAWGVTAAAPVAVA--AAPAAGAAAAPAEEKTEFDVIL     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    15/25 (60.0%)
+# Gaps:           0/25 ( 0.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       380 LGDYRWSYKDAVDAGVIPKDLDSIY    404
+                     ||..:.:|:.|.:||.:.|.|..::
+HEM1_METCA       116 LGQMKTAYQAAREAGTVGKILTKLF    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      13/52 (25.0%)
+# Similarity:    20/52 (38.5%)
+# Gaps:           5/52 ( 9.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       253 NTESSLGITSNNYLHIQMMNEKWGSGDPTQ--SLTD---NYFAAYDDHRY    297
+                     |.:..:..:....|.:...:..|...||.|  ..||   ....|:|..|:
+XYLB_KLEPN        18 NEQGEVVASHTEKLTVSRPHPLWSEQDPEQWWLATDTAMKALGAHDSLRH     67
+
+EXGB_EMENI       298 VK    299
+                     ||
+XYLB_KLEPN        68 VK     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       7/12 (58.3%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        10 SLPVALAWLPGI     21
+                     :|..|||.|||:
+RECR_NOVAD         8 ALSGALARLPGL     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      21/103 (20.4%)
+# Similarity:    37/103 (35.9%)
+# Gaps:          23/103 (22.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       204 LEWMTTSIHQNNKFRNV-------GMLEIVN------EPVQN-ADQASSM    239
+                     ::|.|.:.|.....|.:       |:|..||      |.|:. |..|..|
+SURE_METNO       136 VKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGM    185
+
+EXGB_EMENI       240 INSYYPSAFTRIRNTESSLGITSNNYLHIQMMNEKW--GSGDPTQSLTDN    287
+                     .|.       ::...:..|....|.|..:.....::  |.|...:::.:|
+SURE_METNO       186 RNQ-------QLLAIDERLDGRGNPYFWLAFAKARFEPGHGTDLKAIAEN    228
+
+EXGB_EMENI       288 YFA    290
+                     ..|
+SURE_METNO       229 RIA    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 248
+# Identity:      50/248 (20.2%)
+# Similarity:    81/248 (32.7%)
+# Gaps:          94/248 (37.9%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        56 LGSHFVIEPWMASM-AWSNMG-----CSGQRSEFDCVMALGQETADQAFA     99
+                     :.|.||..|..:|: :|.|.|     |.|.:......:|: ..|:|.|.|
+CYB_ARTIO         14 INSSFVDLPAPSSLSSWWNFGSLLGVCLGVQILTGLFLAM-HYTSDTATA     62
+
+EXGB_EMENI       100 DHWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGY    149
+                     .:..:.|.:|     |.||          ||...|:              
+CYB_ARTIO         63 FNSVTHICRD-----VNYG----------WLLRYLL--------------     83
+
+EXGB_EMENI       150 LEDVCGWASDAGMYII-IDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYD    198
+                            |:.|.|:.| :.||...|.                :|..|.|.
+CYB_ARTIO         84 -------ANGASMFFICLYLHVGRGL----------------YYGSYMYS    110
+
+EXGB_EMENI       199 RALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYP---    245
+                     ..     |            |:|:|.:.      |..|::.:....|   
+CYB_ARTIO        111 ET-----W------------NIGILLLF------AVMATAFMGYVLPWGQ    137
+
+EXGB_EMENI       246 SAF---TRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFA    290
+                     .:|   |.|.|..|::     .|:...::...||.....::....:||
+CYB_ARTIO        138 MSFWGATVITNLLSAI-----PYIETDLVQWIWGGFSVDKATLTRFFA    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      32/163 (19.6%)
+# Similarity:    60/163 (36.8%)
+# Gaps:          60/163 (36.8%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        66 MASMAWSN--MGCSGQRSEFD-CV--MAL----GQETADQ----------     96
+                     :|.:||:|  |...|..:.|: |:  |||    |.|..::          
+IOLE_BACHK        11 IAPIAWTNDDMPELGAENTFEQCISEMALAGFNGSEVGNKYPRNTVVLKK     60
+
+EXGB_EMENI        97 -------AFADHW-GSWITQDDINQMVQ---------YGLNT--------    121
+                            ..|..| .:::|...|.:.|:         :|:..        
+IOLE_BACHK        61 SLELRNLEIASAWFSTFLTTKPIEETVEEFIKHRDFLHGMGAKVIVVSEQ    110
+
+EXGB_EMENI       122 -------IRIPVGYWLKEDLVYADSEHFPK--GGIGYLEDVCGWASDAGM    162
+                            :.:|:   .|...|:.: |.:.|  .|:.:|..:   |.:.|:
+IOLE_BACHK       111 GHSIQGLMDVPL---FKNKPVFTE-EEWEKLADGLHHLGKL---AQEKGL    153
+
+EXGB_EMENI       163 YIIIDLHGAPGAQ    175
+                     :|:...|...|.|
+IOLE_BACHK       154 HIVYHHHMGTGVQ    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      28/139 (20.1%)
+# Similarity:    53/139 (38.1%)
+# Gaps:          23/139 (16.5%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       211 IHQNNKF-RNVGMLEIVNEPVQNADQASSMINSYYPSAFTRIRNTESSLG    259
+                     :|...|| .:|.:.:.|.:.::...:.:.:.|   |:....||.....| 
+ACKA_STAAT        92 VHGGEKFPESVAITDEVEKEIEELSELAPLHN---PANLMGIRAFRKLL-    137
+
+EXGB_EMENI       260 ITSNNYLHIQMMNEKWGSGDPTQ----SLTDNYFAAY---------DDHR    296
+                        .|..|:.:.:..:....|.:    ||..:|:..|         ..|:
+ACKA_STAAT       138 ---PNIPHVAIFDTAFHQTMPEKAYLYSLPYHYYKDYGIRKYGFHGTSHK    184
+
+EXGB_EMENI       297 YVKWDSSVAVDK--ESYISASCVDDRGGNWPTIVGEWSL    333
+                     :|...::..:||  |.....||....|.:...|.|..|:
+ACKA_STAAT       185 FVSQRAAEMLDKPIEDLRIISCHIGNGASIAAIDGGKSI    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      28/139 (20.1%)
+# Similarity:    49/139 (35.3%)
+# Gaps:          41/139 (29.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        98 FADHWGSWITQDDINQMVQYGLNTIRI---------------PVGYWLKE    132
+                     |.||.        ::|:.::||..:.|               .||..|.:
+HIS7_BURTA        35 FLDHM--------LDQIARHGLVDLDIEAHGDTHIDDHHTVEDVGITLGQ     76
+
+EXGB_EMENI       133 DLVYA--DSEHFPKGGIGYLEDVCGWASDAGMYIIIDLHGAPGAQQPKQP    180
+                     .:..|  |.:...:.|..|:.     ..:|...::||..|.||.:. ..|
+HIS7_BURTA        77 AVAKAVGDKKGIRRYGHSYVP-----LDEALSRVVIDFSGRPGLEF-HVP    120
+
+EXGB_EMENI       181 FTGQYAPNPGFYQDYQYDRALEFLEWMT----TSIHQNN    215
+                     ||......      :..|.::||.....    .::|.:|
+HIS7_BURTA       121 FTRARIGT------FDVDLSIEFFRGFVNHAGVTLHIDN    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      10/42 (23.8%)
+# Similarity:    18/42 (42.9%)
+# Gaps:           2/42 ( 4.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        86 VMALGQETADQAFADHWGSWITQDDINQMVQYGLNTIRIPVG    127
+                     :..||...:...:..|...::..|.|.|:  .||:.:|...|
+PTH_GEOLS          6 IAGLGNPGSKYQWTRHNAGFLFLDRIAQL--EGLSIVRKQFG     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       104 SWITQDDINQMVQ    116
+                     ||...|.||::::
+TAF3_XENLA       391 SWTMDDSINEVIR    403
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      24/90 (26.7%)
+# Similarity:    34/90 (37.8%)
+# Gaps:          26/90 (28.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       290 AAYDDHRYVKWDSSVAVDKE--SYISASCVDDRGGNWPTI--------VG    329
+                     |.| |..|.:.||   ::||  ..|:......|.|:.|..        :.
+DNLJ_CROS5        36 AVY-DQLYRELDS---LEKEHPQLITPDSPTQRVGDQPASQFVSVTHNIP     81
+
+EXGB_EMENI       330 EWSLSVPDNVEHTADWEPSSNTDFYARWFAAQAIAYEKQE    369
+                     .:||....|:|....||        .||    ..:|||:|
+DNLJ_CROS5        82 LYSLENAFNLEELKAWE--------KRW----QRSYEKEE    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      34/152 (22.4%)
+# Similarity:    54/152 (35.5%)
+# Gaps:          36/152 (23.7%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        10 SLPVALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKKIRG------     53
+                     :|.::||.||               .|.:..::...|..|.:.|      
+MUTS_MYXXD       380 ALGLSLAQLP---------------RVVAVLARCESPLLKSLTGPLSALP    414
+
+EXGB_EMENI        54 --VNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETAD------     95
+                       ..|.|..|.|....::....|..:|..:|.|.::||.....|      
+MUTS_MYXXD       415 ELAELLSRAVAEEPPVTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIE    464
+
+EXGB_EMENI        96 QAFADHWGSWITQDDINQMVQYGL-----NTIRIPVGYWLKEDLVYADSE    140
+                     |...:..|....:...|::..|.|     |..|:|..|..|:..|  :||
+MUTS_MYXXD       465 QREKERTGISSLKVRYNKVFGYYLEVTKSNLDRVPKDYIRKQTTV--NSE    512
+
+EXGB_EMENI       141 HF    142
+                     .|
+MUTS_MYXXD       513 RF    514
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 324
+# Identity:      64/324 (19.8%)
+# Similarity:    96/324 (29.6%)
+# Gaps:         136/324 (42.0%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        67 ASMAWSNMG-CSGQRSEFDCVMAL-GQETADQA-FADHWGSWITQDD---    110
+                     |.|||.|.. |.| |..:|.:..: .::..|:| |.......|||..   
+NOSO_STAAC        52 AKMAWRNSNRCIG-RLFWDSLNVIDARDVTDEASFLSSITYHITQATNEG    100
+
+EXGB_EMENI       111 ------------------INQMVQY-------------------------    117
+                                       .||:::|                         
+NOSO_STAAC       101 KLKPYITIYAPKDGPKIFNNQLIRYAGYDNCGDPAEKEVTRLANHLGWKG    150
+
+EXGB_EMENI       118 -GLNTIRIPVGYWLKEDLV----YADS---------EHFPK---------    144
+                      |.|...:|:.|.|..:.|    |..|         .|:||         
+NOSO_STAAC       151 KGTNFDVLPLIYQLPNESVKFYEYPTSLIKEVPIEHNHYPKLRKLNLKWY    200
+
+EXGB_EMENI       145 ------------GGIGYLEDVCGWASDAGMYIIIDLHGAPGAQQPKQPFT    182
+                                 |||.|                           |..||.
+NOSO_STAAC       201 AVPIISNMDLKIGGIVY---------------------------PTAPFN    223
+
+EXGB_EMENI       183 GQYAPNP----GFYQDYQY---DRALEFLEWMTTSIHQNNKFRNVGMLEI    225
+                     |.|....    .|..||:|   ::..:..|:.|.   :||.|.....|..
+NOSO_STAAC       224 GWYMVTEIGVRNFIDDYRYNLLEKVADAFEFDTL---KNNSFNKDRALVE    270
+
+EXGB_EMENI       226 VNEPVQNADQASSM-INSYYPSA--FTRIRNTESSLGITSNNYLHIQMMN    272
+                     :|..|.::.:...: |..:..:|  |......|:..|         :.:.
+NOSO_STAAC       271 LNYAVYHSFKKEGVSIVDHLTAAKQFELFERNEAQQG---------RQVT    311
+
+EXGB_EMENI       273 EKWGSGDP--TQSLTDNYFAAYDD    294
+                     .||....|  :.:||.||...||:
+NOSO_STAAC       312 GKWSWLAPPLSPTLTSNYHHGYDN    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      30/125 (24.0%)
+# Similarity:    51/125 (40.8%)
+# Gaps:          32/125 (25.6%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        48 SKKIRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQA     97
+                     :||.:|...||.   |...|.|          |.::|.|...|.|...|.
+RBM8A_MOUSE       32 AKKRKGRGFGSE---EGSRARM----------REDYDSVEQDGDEPGPQR     68
+
+EXGB_EMENI        98 FADHWGSWI-------TQDDI-NQMVQYG-LNTIRIPV--------GYWL    130
+                     ..:.|..::       |::|| ::..:|| :..|.:.:        ||.|
+RBM8A_MOUSE       69 SVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTL    118
+
+EXGB_EMENI       131 KEDLVYADSEHFPKGGIGYLEDVCG    155
+                     .|...|.:::...:|..|  :|:.|
+RBM8A_MOUSE      119 VEYETYKEAQAAMEGLNG--QDLMG    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           4/15 (26.7%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        56 LGSHFVIEPWMASMA     70
+                     |.:||.    :||||
+NU4LM_ARCPU       49 LSNHFT----LASMA     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      44/178 (24.7%)
+# Similarity:    59/178 (33.1%)
+# Gaps:          31/178 (17.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        11 LPVALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKKIRGVNLGSHF     60
+                     ||...:..|...:|..||    :.:...|.::|...||..|  :..||..
+NANK_ECOLI        30 LPTPASQTPEALRDALSA----LVSPLQAHAQRVAIASTGI--IRDGSLL     73
+
+EXGB_EMENI        61 VIEPWMASMAWSNMGCSGQRSEFDCVMALGQET------ADQAFADHWGS    104
+                     .:.|       .|:   |....|..|..|.|.|      .:.|.|..|..
+NANK_ECOLI        74 ALNP-------HNL---GGLLHFPLVKTLEQLTNLPTIAINDAQAAAWAE    113
+
+EXGB_EMENI       105 WITQD-DINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGY-LED    152
+                     :...| ||..||   ..|:...||..:..............|.||: |.|
+NANK_ECOLI       114 FQALDGDITDMV---FITVSTGVGGGVVSGCKLLTGPGGLAGHIGHTLAD    160
+
+EXGB_EMENI       153 ----VCGWASDAGMYIIIDLHGAPGAQQ    176
+                         |||......:..|....|...|.|
+NANK_ECOLI       161 PHGPVCGCGRTGCVEAIASGRGIAAAAQ    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 334
+# Identity:      57/334 (17.1%)
+# Similarity:   100/334 (29.9%)
+# Gaps:         137/334 (41.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        41 SKRWLP----ASKKIRGVNL----------------GSHFVIEPWMASMA     70
+                     ||.:||    |.|:|:..::                |..:.|:       
+MIAB_MYCPE        17 SKYFLPDIRQARKRIKKADIIKDGFEIPANIINYGEGKTYHIK-------     59
+
+EXGB_EMENI        71 WSNMGCSGQRSEFDCVMA----LGQETADQAFADHWGSWITQDDINQMVQ    116
+                       ..||.....:.:.:|.    :|.|              ..:|:|....
+MIAB_MYCPE        60 --TFGCQSNLRDTEVMMGMLELIGYE--------------YNEDVNTSDL     93
+
+EXGB_EMENI       117 YGLNTIRIPVGYWLKEDLVYAD---SEHFPKGGIGYLEDVCGWAS--DAG    161
+                     ..|||..:...   .|..|:||   .:...|....::..|||..:  :|.
+MIAB_MYCPE        94 VLLNTCAVREH---AESKVFADIGILDRIKKSNPNFIFGVCGCMAQEEAV    140
+
+EXGB_EMENI       162 MYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLE------    205
+                     :..|:           |..|...:     .:..:...|.|..||      
+MIAB_MYCPE       141 VNRIL-----------KSNFNVDF-----IFGTHNVHRILNLLEQVIFEK    174
+
+EXGB_EMENI       206 ------WMTTSIHQNNKFRNV---------GMLEIV--------------    226
+                           |.    |:.|...|:         |.:.::              
+MIAB_MYCPE       175 NLVVEVWS----HEGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPM    220
+
+EXGB_EMENI       227 ---------NEPVQNADQASSMINSYYPSAFTRIRNTESSLGI---TSNN    264
+                              .|.:  .|:...||:..|... |.|....:|.||   ...|
+MIAB_MYCPE       221 TRGKIRSRRKEDI--LDEVHQMISEGYKEV-TLIGQNVNSYGIDFDNGEN    267
+
+EXGB_EMENI       265 YLHIQMMNE---------KWGSGDP---TQSLTD    286
+                     ||...::.:         ::.:.:|   |:|:.|
+MIAB_MYCPE       268 YLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVD    301
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      15/86 (17.4%)
+# Similarity:    31/86 (36.0%)
+# Gaps:          34/86 (39.5%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       178 KQPFTGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQ------NNKFRNV-    220
+                     |..|.|.:..:.|||.|           |:...:.:      |::|:.: 
+NADK_STAES        61 KVAFVGIHTGHLGFYAD-----------WLPHEVEKLIIEINNSEFQVIE     99
+
+EXGB_EMENI       221 -GMLEIV---------------NEPVQNADQASSMI    240
+                      .:||::               ||.....:..|:::
+NADK_STAES       100 YPLLELIVRYNDNGYETRYLALNEATMKTENGSTLV    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      41/179 (22.9%)
+# Similarity:    62/179 (34.6%)
+# Gaps:          75/179 (41.9%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       208 TTSIHQNNKF----RNVGML--EIVNEPVQNADQASSMINSYYPS-AFTR    250
+                     |||..|...|    :..||.  :.:||.|.....::.::   .|: .|.:
+TRPG_CAEEL       223 TTSQAQAQTFNSGRQTTGMSSGDRLNEDVSATANSAQLV---LPTPLFNQ    269
+
+EXGB_EMENI       251 IRNTESSLGITSNNY-------------------LHIQMMNEKWGSGDPT    281
+                     :|.|||::.:..:|:                   ||      |.|.|   
+TRPG_CAEEL       270 MRFTESNMSLNRHNWVRETFTRRECSRFIASSRDLH------KCGCG---    310
+
+EXGB_EMENI       282 QSLTDNYFAAYDDHR--------YVKWDSSVAVDKESYISASCVDD----    319
+                             ...|.||        :::...|||. .|...|.|.|:|    
+TRPG_CAEEL       311 --------RTRDAHRNIPELTSEFLRQKRSVAA-LEQQRSISNVNDDINT    351
+
+EXGB_EMENI       320 ------RGGNWPTIVGEWSLSVPDNVEHT    342
+                           ||.|     .:|||.     :||
+TRPG_CAEEL       352 QNMYTKRGAN-----EKWSLR-----KHT    370
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      20/75 (26.7%)
+# Similarity:    28/75 (37.3%)
+# Gaps:          11/75 (14.7%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        99 ADHWGSWITQDDINQMVQYGLNTIRI----PVGYWLKEDLVYADSEHF--    142
+                     |..|.|.:|.|...|:........::    |||..:..:|....:||.  
+MSHD_MYCMM         3 AVQWRSHLTDDQQRQVRDLVTAATQVDGVAPVGEQVLRELAQQRTEHLLV     52
+
+EXGB_EMENI       143 -----PKGGIGYLEDVCGWASDAGM    162
+                          .|..||||.......:||.|
+MSHD_MYCMM        53 EDQSPGKSAIGYLNLSPAHGADAAM     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       9/30 (30.0%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           0/30 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       211 IHQNNKFRNVGMLEIVNEPVQNADQASSMI    240
+                     :|.:...|.|.:.:.:.|||..:||.|..:
+PAND_THEFY       106 VHVDANNRIVALGDDLAEPVPGSDQKSGAL    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      28/131 (21.4%)
+# Similarity:    51/131 (38.9%)
+# Gaps:          28/131 (21.4%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        28 AAGTNIFNVTSASSKRWLPASKKIRGVNLGSHFVIEPWMASMAWSNMGCS     77
+                     ||.||..... .||.|.:|.:..|..::..::...||  :..|......:
+LIPA_ASPOR         2 AASTNRLRFL-YSSARTVPQTGSITPISRRTYATTEP--SPSATGAPATA     48
+
+EXGB_EMENI        78 GQRSEFDCVMALGQETADQAFADHWGSWITQDDINQMVQ----YGLNTIR    123
+                     .:|:.|...:..|...||         :::..:.|..::    |.|.|..
+LIPA_ASPOR        49 RKRTNFTDKLNAGPSFAD---------FVSGGEDNAPLEPSEAYALKTAM     89
+
+EXGB_EMENI       124 I-PVG---------YWLKEDLVYADSEHFPK    144
+                     : |.|         .|||..:  .||:::.:
+LIPA_ASPOR        90 VGPAGRKKEMTRLPSWLKTPI--PDSKNYQR    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 231
+# Identity:      46/231 (19.9%)
+# Similarity:    79/231 (34.2%)
+# Gaps:          43/231 (18.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        18 LPGIDKDIYSAAGTNIF-NVTSASSKRWLPASKKIRGVNLGSHFVIEPWM     66
+                     |.|:|..:|:.|..|:. ....||:........::.|..:.:..|||..:
+FLGI_PECAS       130 LKGVDNQVYALAQGNVLVGGAGASAGGSSVQVNQLAGGRISNGAVIEREL    179
+
+EXGB_EMENI        67 ASMAWSNMGCSGQRSEFDCVMALGQETAD-------------------QA     97
+                     .|...::.....|....|..||  |:.:|                   |.
+FLGI_PECAS       180 PSTFGTSNTIMLQLKNDDFSMA--QKVSDAINRSGYGGTASPLDSRTIQV    227
+
+EXGB_EMENI        98 FADHWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGI    147
+                     .|.|..|        ..|::..:...|.|...:::..|..:|.   .|.:
+FLGI_PECAS       228 LAPHGNS--------SQVRFLADVQNIEVNVGIQDAKVVINSR---TGSV    266
+
+EXGB_EMENI       148 GYLEDV----CGWASDAGMYIIIDLHGAPGAQQPKQPF-TGQYAPNPGFY    192
+                     ....||    |..|..   .:.:.::......||..|| .||....|  .
+FLGI_PECAS       267 VMNRDVTLDSCAIAQG---NLSVTINQQANVSQPNTPFGGGQTVVTP--Q    311
+
+EXGB_EMENI       193 QDYQYDRALEFLEWMTTSIHQNNKFRNVGML    223
+                     .:....:....|:.:.:|.:.||..|.:..|
+FLGI_PECAS       312 TEISVQQTGGVLQRVNSSANLNNVVRALNSL    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      22/116 (19.0%)
+# Similarity:    42/116 (36.2%)
+# Gaps:          22/116 (19.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       211 IHQNNK-FRNV----------GMLEIVNEPVQNADQASSMINSYYPSAFT    249
+                     :.:|:| |:::          |:..|.:.||   |..:.:...|......
+LDH_BORAP         95 VGKNSKIFKDIITNVVSSGFDGIFVIASNPV---DIMTYVTMKYSKFPIH    141
+
+EXGB_EMENI       250 RIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHRYVK    299
+                     ::..|.:.|..:...|......|..      ||::.......:.|..:|.
+LDH_BORAP        142 KVIGTGTILDTSRLRYFLSDRFNVN------TQNIHSYVMGEHGDSSFVT    185
+
+EXGB_EMENI       300 WDSSVAVDK--ESYIS    313
+                     ||.:....|  ..|:|
+LDH_BORAP        186 WDETKIAMKPLSEYLS    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 409
+# Identity:     409/409 (100.0%)
+# Similarity:   409/409 (100.0%)
+# Gaps:           0/409 ( 0.0%)
+# Score: 2246.0
+# 
+#
+#=======================================
+
+EXGB_EMENI         1 MKFILPLFTSLPVALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI         1 MKFILPLFTSLPVALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKK     50
+
+EXGB_EMENI        51 IRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQAFAD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI        51 IRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQAFAD    100
+
+EXGB_EMENI       101 HWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGYL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       101 HWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGYL    150
+
+EXGB_EMENI       151 EDVCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       151 EDVCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRA    200
+
+EXGB_EMENI       201 LEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPSAFTR    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       201 LEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPSAFTR    250
+
+EXGB_EMENI       251 IRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKW    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       251 IRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKW    300
+
+EXGB_EMENI       301 DSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSN    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       301 DSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSN    350
+
+EXGB_EMENI       351 TDFYARWFAAQAIAYEKQEGWVFWSWKAQLGDYRWSYKDAVDAGVIPKDL    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+EXGB_EMENI       351 TDFYARWFAAQAIAYEKQEGWVFWSWKAQLGDYRWSYKDAVDAGVIPKDL    400
+
+EXGB_EMENI       401 DSIYDYSPC    409
+                     |||||||||
+EXGB_EMENI       401 DSIYDYSPC    409
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 112
+# Identity:      25/112 (22.3%)
+# Similarity:    44/112 (39.3%)
+# Gaps:          32/112 (28.6%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        46 PASKKIRGVNLGSH----FVIEPWMASMAWSNM-----------GCSGQR     80
+                     |.:::||.:.|.||    .:.|..:.|.:.:.:           ||....
+KTHY_CHLP8        41 PVAEQIRELLLESHNDITSIAELLLFSASRAELMEKIIVPALEDGCDVIL     90
+
+EXGB_EMENI        81 SEFDCVMALGQETADQAFADHWGSWITQD---DINQMVQYGLNTIRIPVG    127
+                     ..|     ....||.|.:    |..:..|   :||::..:|   ||..:.
+KTHY_CHLP8        91 DRF-----FDSTTAYQGY----GRGLNLDMLAEINRIASHG---IRPDIT    128
+
+EXGB_EMENI       128 YWLKEDLVYADS    139
+                     ::|  ||...|:
+KTHY_CHLP8       129 FYL--DLTPEDA    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 410
+# Identity:      71/410 (17.3%)
+# Similarity:   129/410 (31.5%)
+# Gaps:         162/410 (39.5%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        89 LGQETADQAFA------------------------------DHWGSWITQ    108
+                     :|.:.||:.||                              :|.|:.:|:
+SECA2_MYCTO      283 VGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTE    332
+
+EXGB_EMENI       109 DDINQMVQYGLNT---IRIPVGYWLKEDLVY---------ADSEHFPKG-    145
+                           |...|:.   ::..|.|.:::|.|:         |..:.:|.| 
+SECA2_MYCTO      333 ------VNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGL    376
+
+EXGB_EMENI       146 --------GIGYLE------------------DVCGWASDAGMYIIIDLH    169
+                             ||...|                  .|||....|       |.
+SECA2_MYCTO      377 QAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTGTA-------LA    419
+
+EXGB_EMENI       170 GAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLEWMTTS---------    210
+                     .....:|..|.......||....::.:.||.     ::||:         
+SECA2_MYCTO      420 AGEQLRQFYQLGVSPIPPNKPNIREDEADRV-----YITTAAKNDGIVEH    464
+
+EXGB_EMENI       211 ---IHQNNK-----FRNVGMLEIVNEPVQNADQASSMINSYYPSAFTRI-    251
+                        :||..:     .|:|...|.::|.:......:.::|:...:...|: 
+SECA2_MYCTO      465 ITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVI    514
+
+EXGB_EMENI       252 -----------------RNTESSLG---------ITSNNYLHI-------    268
+                                      |.|:..||         :.....||:       
+SECA2_MYCTO      515 AEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVVGTGRHH    564
+
+EXGB_EMENI       269 ------QMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYI    312
+                           |:.......|||..|:   :|::::       |..||.:.:...
+SECA2_MYCTO      565 TERLDNQLRGRAGRQGDPGSSV---FFSSWE-------DDVVAANLDHNK    604
+
+EXGB_EMENI       313 SASCVDDRGGNWPTIVGEWSLSVPDNVEHTAD---WEPSSNTDFYARWFA    359
+                     .....|:.|    .||...:.|:.|:.:..|:   .:..:||..|.:..|
+SECA2_MYCTO      605 LPMATDENG----RIVSPRTGSLLDHAQRVAEGRLLDVHANTWRYNQLIA    650
+
+EXGB_EMENI       360 AQ-AIAYEKQ    368
+                     .| ||..|::
+SECA2_MYCTO      651 QQRAIIVERR    660
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     6/10 (60.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        45 LPASKKIRGV     54
+                     |||..|.:.:
+DB108_HUMAN       18 LPAKGKFKEI     27
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      18/76 (23.7%)
+# Similarity:    29/76 (38.2%)
+# Gaps:          17/76 (22.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       280 PTQSLTD---NYFAAYDDHRYVKWDSSVAVDKESYISASCV-------DD    319
+                     ||..|.:   .|.:..|....:||..      |::.|...|       ||
+LCMT1_CRYNB      253 PTLFLAECLFPYMSPEDSREIIKWFG------ETFCSCMGVVYEMVGLDD    296
+
+EXGB_EMENI       320 RGGN-WPTIVGEWSLSVPDNVEHTAD    344
+                     ..|| ....:...:||:|.::..|.:
+LCMT1_CRYNB      297 SFGNVMKRNLAVRNLSIPGSIFSTPE    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      25/111 (22.5%)
+# Similarity:    41/111 (36.9%)
+# Gaps:          37/111 (33.3%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        21 IDKDIYSAAGTN-IFNVTSASSKRWLPASKKIRGVNLGSHFVIEP-WMAS     68
+                     :|..|.....|| .|::.|.|            |:.|..||.|:. .:..
+PTGA_SALTY        64 VDGTIGKIFETNHAFSIESDS------------GIELFVHFGIDTVELKG    101
+
+EXGB_EMENI        69 MAWSNMGCSGQR-------SEFDCVMALGQETADQAFADHWGSWIT----    107
+                     ..:..:...|||       .|||  :.|.:|.|.        |.:|    
+PTGA_SALTY       102 EGFKRIAEEGQRVKVGDPVIEFD--LPLLEEKAK--------STLTPVVI    141
+
+EXGB_EMENI       108 --QDDINQMVQ    116
+                       .|:|.::::
+PTGA_SALTY       142 SNMDEIKELIK    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    11/25 (44.0%)
+# Gaps:           0/25 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       246 SAFTRIRNTESSLGITSNNYLHIQM    270
+                     ||.||:|......|....||...::
+RR14_CRYJA        54 SAPTRLRRRCLKTGRPRANYRDFEL     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 373
+# Identity:      73/373 (19.6%)
+# Similarity:   124/373 (33.2%)
+# Gaps:         128/373 (34.3%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       118 GLNTIRIPVGYW------------LKEDLVYADSEHFPKGGIGYLEDVCG    155
+                     |..|..:||.|.            |||.....:..|.|        ::|.
+DCUP_BACVZ        17 GEKTNHVPVWYMRQAGRSQPEYRKLKEKYGLVEITHQP--------ELCA     58
+
+EXGB_EMENI       156 WAS---------DAGM----------YIIIDL---HG-APGAQQPKQPFT    182
+                     :.:         ||.:          ||.:|:   :| .|...||.:...
+DCUP_BACVZ        59 YVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIKNGIGPVIDQPVRSAA    108
+
+EXGB_EMENI       183 -----GQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGML----    223
+                          |:..|.    ||..|  .||.:..:.      |:..||.::    
+DCUP_BACVZ       109 DIEKLGELNPE----QDVPY--VLETIRLLV------NEQLNVPLIGFSG    146
+
+EXGB_EMENI       224 --------EIVNEPVQNADQASSMINSYYPSAFTRIRNTESSLGITSNNY    265
+                             .|...|.:|.::..:.::| .|.|:..:.:..:.:.|.   |
+DCUP_BACVZ       147 APFTLASYMIEGGPSKNYNKTKAFMHS-MPQAWKMLMDKLADMIIV---Y    192
+
+EXGB_EMENI       266 LHIQMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYISAS    315
+                     ...|:     .:|.....:.|::..|.:...|.::...|.......:||.
+DCUP_BACVZ       193 AKAQI-----NAGAKAIQIFDSWVGALNREDYRQFIKPVMDRIFRELSAE    237
+
+EXGB_EMENI       316 CV---------DDRGGNWP----TIVG-EWSLSVPDNVEHTADWEPSSNT    351
+                     .|         ....|:|.    .:|| :|.|.:.|..:.........|.
+DCUP_BACVZ       238 QVPLIMFGVGASHLAGDWHDLPLDVVGLDWRLGIDDARKQGITKTVQGNL    287
+
+EXGB_EMENI       352 D---FYARWFA----AQAIAYE--KQEGWVFWSWKAQLGDYRWSYKDAVD    392
+                     |   ..|.|..    |:||..:  |.:|::|     .||.          
+DCUP_BACVZ       288 DPSLLLAPWEVIEKKAKAILDQGMKTDGFIF-----NLGH----------    322
+
+EXGB_EMENI       393 AGVIP-------KDLDS-IYDYS    407
+                      ||.|       |.|.: :::||
+DCUP_BACVZ       323 -GVFPDVNPETLKKLTAFVHEYS    344
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      16/77 (20.8%)
+# Similarity:    29/77 (37.7%)
+# Gaps:          30/77 (39.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       118 GLNTIRIPVGY-------------WLKEDLVYADSEHFPKGGIGYLEDVC    154
+                     |.:|: :||.|             .|.|.:.:...||:....:.::.:  
+GTF2I_MOUSE      129 GKSTV-VPVPYEKMLRDQSAVVVQGLPEGVAFKHPEHYDLATLKWILE--    175
+
+EXGB_EMENI       155 GWASDAGMYIIIDLHGAPGAQQPKQPF    181
+                        :.||:..||           |:||
+GTF2I_MOUSE      176 ---NKAGISFII-----------KRPF    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      23/103 (22.3%)
+# Similarity:    37/103 (35.9%)
+# Gaps:          16/103 (15.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        22 DKDIYSAAGTNIFNVTSASSKRWLPASKKIRGVNLG--SHFVIEPWMASM     69
+                     |.||....|.    ..|::|.|....     |..||  :|.:.:......
+ISPH_ACIF5       211 DVDILLVVGA----PNSSNSSRLAEL-----GTRLGTQTHLIEDAQQLRR    251
+
+EXGB_EMENI        70 AW-SNMGCSGQRSEFDCVMALGQETADQAFADHWGSWITQD--DINQMVQ    116
+                     .| ..:|..|..:......:|.||..|....  ||:.:.|:  .:.:.|.
+ISPH_ACIF5       252 EWFEGVGKIGISAGASAPESLVQEIMDTLRG--WGARVPQEMPGVEEKVT    299
+
+EXGB_EMENI       117 YGL    119
+                     :.|
+ISPH_ACIF5       300 FSL    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    12/27 (44.4%)
+# Gaps:           6/27 (22.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       383 YRWSYKD------AVDAGVIPKDLDSI    403
+                     |.||..:      .||...:.|.|::|
+NDUA1_HUMAN       43 YHWSLMERDRRISGVDRYYVSKGLENI     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      20/84 (23.8%)
+# Similarity:    34/84 (40.5%)
+# Gaps:          27/84 (32.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       188 NPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQAS    237
+                     |||...  :||..:..:::  |..|.:      |:      .::|.|||.
+PSRP_SALTI       119 NPGNLN--KYDARIAAIDY--TLAHDD------GI------SLRNLDQAQ    152
+
+EXGB_EMENI       238 SMINSYYPSAFTRIRNTESSL------GITSNNY    265
+                     .::     ...:|...|.:||      ||.:.||
+PSRP_SALTI       153 VIL-----LGVSRCGKTPTSLYLAMQFGIRAANY    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      42/229 (18.3%)
+# Similarity:    71/229 (31.0%)
+# Gaps:          83/229 (36.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        12 PVALAWLPGIDKD------IYSAA-----------GTNIFNVTSASSKRW     44
+                     |.|.|...|:||.      :|...           |..:|.|.|.:...:
+DNAK_CHESB       172 PTAAALAYGLDKKEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGDTF    221
+
+EXGB_EMENI        45 LPAS--------------KKIRGVNLGSHFVIEPWMASMAWSNMGCSGQR     80
+                     |...              ||.:|::|.:.        .:|...:..:.::
+DNAK_CHESB       222 LGGEDFDMRLVNYLADEFKKEQGIDLKND--------KLALQRLKEAAEK    263
+
+EXGB_EMENI        81 SEFDCVMALGQE------TADQAFADHWGSWITQDDINQMVQYGLNTIRI    124
+                     ::.:...:...|      ||||....|....:|:.....:|         
+DNAK_CHESB       264 AKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLV---------    304
+
+EXGB_EMENI       125 PVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWA-SDAGM--------YII    165
+                            ||||....|            .|..| .|||:        .::
+DNAK_CHESB       305 -------EDLVTRTIE------------PCRAALKDAGLSAGEIDEVVLV    335
+
+EXGB_EMENI       166 IDLHGAPGAQQPKQPFTGQYAPNPGFYQD    194
+                     ..:...|..|:..:.|.|: .|:.|...|
+DNAK_CHESB       336 GGMTRMPKVQETVKNFFGK-EPHKGVNPD    363
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 361
+# Identity:      59/361 (16.3%)
+# Similarity:   111/361 (30.7%)
+# Gaps:         146/361 (40.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        22 DKDIYSAAGTNIFNVTSAS--------SKRWLPASKKIRGVNLGSHFVIE     63
+                     |.:|.....||:..:.|..        .:..:||:.::||.      |:.
+DNLJ_ACIC5       140 DGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGE------VVM    183
+
+EXGB_EMENI        64 PW--------------MASMAWSNMGCSG------------QRSEFDCVM     87
+                     |:              :|..|......:|            :|.:|....
+DNLJ_ACIC5       184 PFTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYF    233
+
+EXGB_EMENI        88 ALGQETADQAFADHWGSWITQDDINQMVQYG------------LNTI---    122
+                     || .|..:.||.:.      ::.::.:...|            :.|:   
+DNLJ_ACIC5       234 AL-TEKGEDAFGEQ------EEALDALATLGFRVNQHRHAAKSIETVVEF    276
+
+EXGB_EMENI       123 -------RIPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGW------ASD    159
+                            |..:||.:...:|..:|....: .:||......|      |:.
+DNLJ_ACIC5       277 VNRAEEHRSRLGYEIDGVVVKVNSAVLQR-RLGYTGRAPRWAVAYKFAAR    325
+
+EXGB_EMENI       160 AGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLEWM--    207
+                     :|:..:.|:....|.       ||:..|                :.|:  
+DNLJ_ACIC5       326 SGVTQVEDIQVQVGR-------TGKLTP----------------VAWLAP    352
+
+EXGB_EMENI       208 -----TT----SIHQNNKFRNVGM--------------LEIVNEPVQNAD    234
+                          ||    ::|..::...:|:              :..|.|.|.:|:
+DNLJ_ACIC5       353 VQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAE    402
+
+EXGB_EMENI       235 QASSMINSYYPSAFT---------------RIRNT-------ESSLGITS    262
+                     ......:.::|.|..               |..||       ||.|...|
+DNLJ_ACIC5       403 HPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFAS    452
+
+EXGB_EMENI       263 NNYLHIQMMNE    273
+                     ...::|:.|.|
+DNLJ_ACIC5       453 RGVMNIEGMGE    463
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      10/45 (22.2%)
+# Similarity:    19/45 (42.2%)
+# Gaps:          15/45 (33.3%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       112 NQMVQYGLNTIRIPVG--------YWLKED-------LVYADSEH    141
+                     |..:.|.|:.:|..:|        .:.|:|       :::.|.||
+CAPSD_CMVO       163 NNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHVDIEH    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           1/16 ( 6.2%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       315 SCVDDRGGNWPTIVGE    330
+                     |||.:|.|: |...|:
+IF3_CHLL2        154 SCVSNRDGD-PKFEGK    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    20/43 (46.5%)
+# Gaps:           2/43 ( 4.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       219 NVGMLEIVNEPVQNADQASSMINSYYPSAFTRIRNT--ESSLG    259
+                     ::.:|.:....|:...:|...::.:....:.||:.|  |..||
+CSRA_HAEI8        19 SITVLSVRGNQVKLGVEAPKEVSVHREEIYQRIKQTKDEPYLG     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    14/38 (36.8%)
+# Gaps:           5/38 (13.2%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       251 IRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNY    288
+                     :.||...|||..|..|   :.|  |......:...|.|
+COAX_CLOBL         7 VGNTNIVLGIYKNKEL---IAN--WRLATDNKRTADEY     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       356 RWFAAQAIAYEKQEG    370
+                     :||..:...:.:.||
+HOP_BOVIN         49 KWFKQRLAQWRRSEG     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      27/140 (19.3%)
+# Similarity:    48/140 (34.3%)
+# Gaps:          50/140 (35.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        53 GVNLGSHFVIEPWMASMAWSNMGCSGQ----RSEFDCVMALGQETADQA-     97
+                     ||...||::         |...|.|.:    ..:|:.|:|...|..:.. 
+THII_VIBA3       219 GVKQVSHYL---------WDKYGSSAKVKFISIDFEPVVAEILENVEDGQ    259
+
+EXGB_EMENI        98 ---------------FADHWG--SWITQDDINQMVQYGLNTIR-------    123
+                                    .|:.:|  :.:|.:.:.|:....|..:|       
+THII_VIBA3       260 MGVVLKRMFMRAGGMVAERFGIEALVTGEALGQVSSQTLTNLRHIDNVTD    309
+
+EXGB_EMENI       124 ----IPVGYWLKEDLV----YADSEHFPKGGIGYLEDVCG    155
+                         .|:..|.|||::    ...:|.|.|    .:.:.||
+THII_VIBA3       310 TLILRPLINWDKEDIIDLSRKIGTEDFAK----VMPEYCG    345
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    30/88 (34.1%)
+# Gaps:           7/88 ( 8.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        60 FVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQAFADHWGSWITQD    109
+                     |..:|......|..:..:||     .:..|..|.|.:....|...:....
+RL13_PSEPG         4 FTAKPETVKREWFVVDAAGQ-----TLGRLATEIATRLRGKHKPEYTPHV     48
+
+EXGB_EMENI       110 DINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGI    147
+                     |....:.. :|..::.|......|.:|.....|| |||
+RL13_PSEPG        49 DTGDYIVV-INAEQVRVTGAKSSDKMYYSHSGFP-GGI     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      15/69 (21.7%)
+# Similarity:    26/69 (37.7%)
+# Gaps:          26/69 (37.7%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        30 GTNIFNVT----------------SASSKRWLPASKKIRGVNLGS-----     58
+                     |.:|.|:|                ::..|::|....|.:..:|.|     
+RR2_ARATH         41 GIHIINLTRTARFLSEACDLVFDAASRGKQFLIVGTKNKAADLVSRAAIR     90
+
+EXGB_EMENI        59 ---HFVIEPWMASMA--WS     72
+                        |:|.:.|:..|.  ||
+RR2_ARATH         91 ARCHYVNKKWLGGMLTNWS    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 193
+# Identity:      35/193 (18.1%)
+# Similarity:    64/193 (33.2%)
+# Gaps:          74/193 (38.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       147 IGYLEDVCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQ    196
+                     |.|||...|.|.|..:..:|| .|.|                        
+Y1710_SYNP2        4 IAYLECPTGIAGDMCLGALID-GGVP------------------------     28
+
+EXGB_EMENI       197 YDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPS    246
+                         ||:|:      :|.|:.......::..|.|....|.::.:      
+Y1710_SYNP2       29 ----LEYLK------NQLNRLGIAAEYDLRAETVIRQGQRATKV------     62
+
+EXGB_EMENI       247 AFTRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHR    296
+                      |..::.       .:.::.|           |.:|..|.::.|.:..||
+Y1710_SYNP2       63 -FVDLKT-------KATHHDH-----------DHSQDQTHHHHADHAPHR     93
+
+EXGB_EMENI       297 YVKWDSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNV    339
+                     ::.       :.::.|       :|...|..|..|||::..|:
+Y1710_SYNP2       94 HLP-------EIQAMI-------KGAGLPERVERWSLAIFQNL    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 348
+# Identity:      67/348 (19.3%)
+# Similarity:    97/348 (27.9%)
+# Gaps:         126/348 (36.2%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        54 VNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQAFA----     99
+                     |..|.||:|           :|.||          .|:....:..|    
+WTPC_THEKO        24 VEKGEHFII-----------LGPSG----------AGKTVLLEVIAGIIE     52
+
+EXGB_EMENI       100 -DHWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHF------    142
+                      |....::..:||..:.........||..|.|..::...|:..|      
+WTPC_THEKO        53 PDSGRIFLNGEDITDLPPEKRGLAYIPQNYALFPNMSVFDNIAFGLKVRK    102
+
+EXGB_EMENI       143 -PKGGIG----YLEDVCGWA----------SDAGMYIIIDLHGAPGAQQP    177
+                      ||..||    .|.:|.|.:          |...|..:......  |.:|
+WTPC_THEKO       103 VPKAEIGRKVRELSEVLGISHLLKRKPKTLSGGEMQRVAIARAL--AVEP    150
+
+EXGB_EMENI       178 K-----QPFTGQYAPNPGFYQDYQYDRAL-EFLEWMT----TSIHQNNKF    217
+                     :     :||........|        |.: |...|..    |::|..:.|
+WTPC_THEKO       151 ELLLLDEPFANLDVQTRG--------RLINEMKRWRKELGFTALHVTHSF    192
+
+EXGB_EMENI       218 RNVGMLEIVNEPVQNADQASSMIN-----------------SYYPSAFTR    250
+                              .|.|...|:...|:|                 |...:.|..
+WTPC_THEKO       193 ---------EEAVSLGDRVGVMLNGRLVQVGPVREVFSRPASEEVAKFLG    233
+
+EXGB_EMENI       251 IRNTESSLG---ITSNNYLHIQMMNEKWG-------------SGDPTQSL    284
+                     ..|....|.   |...|.|.|::..|..|             |.:|.:|.
+WTPC_THEKO       234 FENIVEGLAEGRILRANGLVIELPIEASGRIRVGIRPEDIVLSDEPLKSS    283
+
+EXGB_EMENI       285 TDNYFAAYDDHRYVKWDSSVAVDKESYISASCVDDRGGNWPTIVGEWS    332
+                     ..|.|.|           .|..|.|.      :.:.|.......|.||
+WTPC_THEKO       284 MRNTFQA-----------EVQADVEE------LGELGPRTRKAKGRWS    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:      41/197 (20.8%)
+# Similarity:    65/197 (33.0%)
+# Gaps:          62/197 (31.5%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       151 EDVCGWASDAGMYIIIDLHGAPGA--QQPKQPFTGQYAPNPGFYQDYQ--    196
+                     ||||               ..||.  :.|..|..    |.||..:..|  
+GRB7_RAT          15 EDVC---------------PTPGTPPETPPPPDN----PPPGDVKRSQPL     45
+
+EXGB_EMENI       197 ---YDRALEFLEWMTTSIHQ-NNKFRNVGMLEIVNEPVQNAD-QASSMIN    241
+                        ..|.|...|:..||:.. .|.|.     |:.:.|.|... ..||...
+GRB7_RAT          46 PIPSSRKLREEEFQATSLPSIPNPFP-----ELCSPPSQKPILGGSSGAR     90
+
+EXGB_EMENI       242 SYYPSAFTRI------------RNTESSLGITSNNYLHI-QMMNEKWGSG    278
+                     ...|...:|:            |:.|.:.|.|:.   |: :|:.::    
+GRB7_RAT          91 GLLPRDSSRLCVVKVYSEDGACRSVEVAAGATAR---HVCEMLVQR----    133
+
+EXGB_EMENI       279 DPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYISASCVDDRGGNWP    325
+                       ..:|:|..:...:.|.|:..:..:. |.||.:...      ..||
+GRB7_RAT         134 --AHALSDENWGLVECHPYLALERGLE-DHESVVEVQ------EAWP    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       188 NPGFYQDYQYDRALE    202
+                     :||.:.:.:.|:|.|
+PSD_RHOPS        124 SPGKFINAELDKASE    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:      56/298 (18.8%)
+# Similarity:   100/298 (33.6%)
+# Gaps:         107/298 (35.9%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       172 PGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRN--    219
+                     |...|..||.......:|...:  :.:..:.|.:|..|||.:  .|.:  
+PP156_ARATH       32 PYIPQITQPLLTSLLSSPSLAK--KPETLVSFFQWAQTSIPE--AFPSDS     77
+
+EXGB_EMENI       220 -VGMLEIVNEPVQN---ADQASSMINSYYPSAFTRIRNTESSLGITSNNY    265
+                      :.::.:|...:.:   || |.|::.||       ||.:::||.: .|:.
+PP156_ARATH       78 PLPLISVVRSLLSHHKFAD-AKSLLVSY-------IRTSDASLSL-CNSL    118
+
+EXGB_EMENI       266 LHIQMMNEKWGSGDPTQSLTDNYFAAY----DDH----------------    295
+                     ||..:..    |..|:::|.|...:||    ..|                
+PP156_ARATH      119 LHPNLHL----SPPPSKALFDIALSAYLHEGKPHVALQIFQKMIRLKLKP    164
+
+EXGB_EMENI       296 ----------RYVKWDSSVAVDK------------------------ESY    311
+                               ..|::.||.::..                        ..|
+PP156_ARATH      165 NLLTCNTLLIGLVRYPSSFSISSAREVFDDMVKIGVSLNVQTFNVLVNGY    214
+
+EXGB_EMENI       312 ISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSNTDFYARWFAAQ    361
+                     .....::|..|....:|.|:.:: ||||.:        ||...|      
+PP156_ARATH      215 CLEGKLEDALGMLERMVSEFKVN-PDNVTY--------NTILKA------    249
+
+EXGB_EMENI       362 AIAYEKQEGWVFWSWKAQLGDYRWSYKDAVDAGVIPKDL---DSIYDY    406
+                                 .|.|.:|.|.:....|....|::|..:   :.:|.|
+PP156_ARATH      250 ------------MSKKGRLSDLKELLLDMKKNGLVPNRVTYNNLVYGY    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      17/74 (23.0%)
+# Similarity:    30/74 (40.5%)
+# Gaps:          17/74 (23.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        31 TNIFNVTSASSKRWLPASKKIRGVNL----GSHFVIEPWMASMAWS----     72
+                     ||.| :||      |..:..:.|:.:    .||.:::.|.....|.    
+ADRB2_MESAU       68 TNYF-ITS------LACADLVMGLAVVPFGASHILMKMWNFGNFWCEFWT    110
+
+EXGB_EMENI        73 --NMGCSGQRSEFDCVMALGQETA     94
+                       ::.|.....|..||:|:.:..|
+ADRB2_MESAU      111 SIDVLCVTASIETLCVIAVDRYIA    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:       7/38 (18.4%)
+# Similarity:    15/38 (39.5%)
+# Gaps:          19/38 (50.0%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       301 DSSVAVDKES---------------YISASCVDDRGGN    323
+                     |..:::|.::               :::|    ||.||
+ID5B_ADEPA         5 DLGISIDDDNNRRLAVKEGDPLVVQFVNA----DREGN     38
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      33/221 (14.9%)
+# Similarity:    74/221 (33.5%)
+# Gaps:          62/221 (28.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        19 PGI--------DKDIYSAAGTNIFNVTSASSKRWLPASKKIRGVNLGSHF     60
+                     ||:        :..|..:|...:.|:...||..::|:.:.:....:.:..
+GPA7_CAEEL       133 PGVRECYRRSNEYQIDDSAKYFLDNLPRLSSPNYVPSEQDLLRTRIKTTG    182
+
+EXGB_EMENI        61 VIEPW--MASMAWSNMGCSGQRSE-------FDCVMAL----GQETADQA     97
+                     :.|..  :..:.:..:...|||||       ||.|.|:    .....||.
+GPA7_CAEEL       183 ITEVLFELKGLTFRVIDVGGQRSERKKWIHCFDNVNAIIFISSLSEYDQT    232
+
+EXGB_EMENI        98 FADHWGSWITQDDINQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGI    147
+                             :.:|:....:|               |.|...||        
+GPA7_CAEEL       233 --------LREDNCTNRMQ---------------ESLKLFDS--------    251
+
+EXGB_EMENI       148 GYLEDVCG--WASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDY    195
+                          :|.  |.:|....:.::.......:..:.|.|..:   |.:....
+GPA7_CAEEL       252 -----ICNSPWFADIHFILFLNKKDLFAEKIVRSPLTVCF---PEYKGQQ    293
+
+EXGB_EMENI       196 QYDRALEFLEWMTTSIHQNNK    216
+                     .....:.:::|....::::::
+GPA7_CAEEL       294 NQTECINYIQWKFEQLNRSSQ    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:       8/48 (16.7%)
+# Similarity:    20/48 (41.7%)
+# Gaps:           3/48 ( 6.2%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        25 IYSAAGTNIFNVT--SASSKRWLPASKKIRGVNLGSHFVIEPWMASMA     70
+                     :::|..|:...:.  .....:|...:..:.|:: .:.:...|||...|
+IDI_ECO24        120 VFAARTTSALQINDDEVMDYQWCDLADVLHGID-ATPWAFSPWMVMQA    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      46/242 (19.0%)
+# Similarity:    67/242 (27.7%)
+# Gaps:         119/242 (49.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       153 VCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALE    202
+                     |.|:..:.|    .|....|.|:.|      .|...||..|...||..|.
+YHJA_ECOLI        50 VLGFLREKG----CDYCHTPSAELP------AYYYIPGAKQLMDYDIKLG     89
+
+EXGB_EMENI       203 F-------------------------LEWMT----------TSIHQNNKF    217
+                     :                         :||:.          |::|...|.
+YHJA_ECOLI        90 YKSFNLEAVRAALLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKV    139
+
+EXGB_EMENI       218 RNVGMLEIV---------------------NEPVQNADQASSMINSYYPS    246
+                     .:....||:                     |||||...|.       .|:
+YHJA_ECOLI       140 SDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQK-------LPT    182
+
+EXGB_EMENI       247 AFTRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHR    296
+                     ...::     :||                             ||.|.|.|
+YHJA_ECOLI       183 DAQKV-----ALG-----------------------------FALYHDPR    198
+
+EXGB_EMENI       297 YVKWDSSVAVDKESYISASCVDDR------GG-----NWPTI    327
+                      :..||:::......::|..||.|      ||     |.||:
+YHJA_ECOLI       199 -LSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTV    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    18/38 (47.4%)
+# Gaps:           2/38 ( 5.3%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        19 PGIDKDIYSAAGTNIFNVTSA--SSKRWLPASKKIRGV     54
+                     ||:|:.:...|....|..:.|  :.|:.|...|..||:
+RIMP_BURPS        70 PGLDRPLKKLADFTRFAGSEAVITLKKPLDGRKTYRGI    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       4/20 (20.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        63 EPWMASMAWSNMGCSGQRSE     82
+                     :|...:....|:|.:|.:.:
+RS28_OSTOS         3 KPVKPAXVTKNIGRTGSQGQ     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      21/88 (23.9%)
+# Similarity:    34/88 (38.6%)
+# Gaps:          19/88 (21.6%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       180 PFTGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEP    229
+                     |.|..|.||..|:               ..|.|..|..:.|  :..:.:.
+HBAC_LITCT        38 PQTKTYFPNFDFH---------------ANSAHLKNHGKKV--MNALTDA     70
+
+EXGB_EMENI       230 VQNADQASSMINSYYP-SAFTRIRNTESSLGITSNNYL    266
+                     |::.|...:.::|... .||| :|....:..:.|||.|
+HBAC_LITCT        71 VKHLDHPEASLSSLSDLHAFT-LRVDPGNFALLSNNIL    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:      57/314 (18.2%)
+# Similarity:   104/314 (33.1%)
+# Gaps:          68/314 (21.7%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       143 PKGGIGYLEDVCGWASDAGM---YIIIDLHGAPGAQQPKQPFTGQYAPNP    189
+                     |..|.||:.....:....|:   |:.:.:.|.|.|.......||:.|.:.
+RPOA_PRRSS      3526 PMVGAGYVVGPSTFLGTPGVVSYYLTLYIRGEPQALPETLVSTGRIATDC   3575
+
+EXGB_EMENI       190 GFYQDYQYDRALEFL------EWMTTSI----HQNNKF--RNVGMLEI--    225
+                     ..|.|...:.|.:.|      :...|::    |..:|:  |.:....:  
+RPOA_PRRSS      3576 REYLDAAEEEAAKELPHAFIGDVKGTTVGGCHHITSKYLPRTLPKDSVAV   3625
+
+EXGB_EMENI       226 --VNEPVQNADQASSMINSYYPSAFTRIR-NTESSLGITSNNYLHIQMMN    272
+                       |:.|.:.|....::.:.|.|.....:: .|.|.......::..:::| 
+RPOA_PRRSS      3626 VGVSSPGRAAKAMCTLTDVYLPELRPYLQPETASKCWKLKLDFRDVRLM-   3674
+
+EXGB_EMENI       273 EKWGSGDPTQSLTDNYFAAYDDH-RYVKWDSSVAVDKESYISASCVDDRG    321
+                      .|........|....::|..|: |:::......|    ||. .|:....
+RPOA_PRRSS      3675 -VWKGATAYFQLEGLTWSALPDYARFIQLPKDAVV----YID-PCIGPAT   3718
+
+EXGB_EMENI       322 GNWPTIVGEWSLSVPDNVEHTADWEPS---SNTDFYAR------WFA---    359
+                     .|             ..|..|.||...   :..|:.|:      ||.   
+RPOA_PRRSS      3719 AN-------------RKVVRTTDWRADLAVTPYDYGAQNILTTAWFEDLG   3755
+
+EXGB_EMENI       360 -----------AQAIAYEKQEGWVFWSWKAQLG----DYRWSYKDAVDAG    394
+                                .:|..:|..|.|...:.:...|    ||.|.........
+RPOA_PRRSS      3756 PQWKILGLQPFRRAFGFENTEDWAILARRMSDGKDYTDYNWDCVRERPHA   3805
+
+EXGB_EMENI       395 VIPKDLDSIYDYSP    408
+                     :..:..|..|.::|
+RPOA_PRRSS      3806 IYGRARDHTYHFAP   3819
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      15/78 (19.2%)
+# Similarity:    33/78 (42.3%)
+# Gaps:          12/78 (15.4%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       210 SIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPSAFTRI--RNTESS    257
+                     ::.::.|.:.|.  |:.:......|    ::|........|:  |.|...
+UBIE_PSEAE        20 NVPESQKAKKVA--EVFHSVAAKYD----LMNDLMSGGIHRLWKRFTIEL     63
+
+EXGB_EMENI       258 LGITSNNYLHIQMMNEKWGSGDPTQSLT    285
+                     .|:.|.|    ::::...|:||.|:..:
+UBIE_PSEAE        64 SGVRSGN----RVLDIAGGTGDLTRQFS     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    18/46 (39.1%)
+# Gaps:          14/46 (30.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        21 IDKDIYSAAG---------TNIFNVTSASSKRWLPASKKIRGVNLG     57
+                     :..:|.||.|         .||.|.....|.     |::|||..:|
+FLII_AQUAE        26 VSGEIVSAKGIYLEAILPFANIGNEVEIQSN-----SRRIRGEVIG     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      27/105 (25.7%)
+# Similarity:    40/105 (38.1%)
+# Gaps:          25/105 (23.8%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       197 YDRALEFLEWMTTSIHQNNKF---RNVGMLEIVNE-PV-----QNADQAS    237
+                     :....:|::....|..|||.|   |...:|...|: |.     |.:||..
+MSS11_VANPO      141 FSSVYDFVDTSDLSALQNNDFLQDRIFPILPTSNKVPTQRYSRQQSDQVQ    190
+
+EXGB_EMENI       238 SMINSYYPSAFTRIRNTESSLGI-----TSNNYLHIQMMNEKWGSGDPTQ    282
+                     ...||...|       :.|.:|.     ::.||.|....|    ||.||.
+MSS11_VANPO      191 MNQNSTGNS-------SRSGMGTPIANPSNQNYQHSSNPN----SGTPTS    229
+
+EXGB_EMENI       283 SLTDN    287
+                     :..:|
+MSS11_VANPO      230 TANNN    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      43/217 (19.8%)
+# Similarity:    62/217 (28.6%)
+# Gaps:         109/217 (50.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       134 LVYADSEHFPKGGIGYLEDVCGWASDAGM--YIIIDLHGAPGAQQPKQPF    181
+                     :|..|....||..|    ..||.|..||.  ..::.||            
+SPB4_ASPFU       371 VVQIDPPSDPKSFI----HRCGRAGRAGRRGLSVVLLH------------    404
+
+EXGB_EMENI       182 TGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPV-    230
+                            ||..:||                        |..||:...|| 
+SPB4_ASPFU       405 -------PGREEDY------------------------VSFLEVRKTPVV    423
+
+EXGB_EMENI       231 --------QNADQAS------------------------SMINSYYPSAF    248
+                             .:||.|:                        |.:.||     
+SPB4_ASPFU       424 PFSPSISFSDADAAAATATARKAVLADRALHDRGQKAFVSWLRSY-----    468
+
+EXGB_EMENI       249 TRIRNTESSLGITSNNYLHIQMMNEKWG-------------SGDPTQSLT    285
+                       .::..||:...|:  |..:.:.:.||             :||.|..::
+SPB4_ASPFU       469 --SKHQASSIFRVSD--LDWEALGKAWGLLKLPKMPELKNFTGDKTLGMS    514
+
+EXGB_EMENI       286 ---DNYFAAYDDHRYVK    299
+                        |||  ||.|.:..|
+SPB4_ASPFU       515 LDWDNY--AYKDKQREK    529
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 246
+# Identity:      55/246 (22.4%)
+# Similarity:    84/246 (34.1%)
+# Gaps:          76/246 (30.9%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        13 VALAWLPGIDKDIYSAAGTNIFNVTSASSKRWLPASKKIRGVNLGSHFVI     62
+                     |.||:..|:|..:               :..|:       |...|...|.
+ASSY_MYCTO         5 VILAYSGGLDTSV---------------AISWI-------GKETGREVVA     32
+
+EXGB_EMENI        63 EPWMASMAWSNMGCSGQRSEFDC--VMALGQETADQAFADHWGSWITQDD    110
+                     ..........:|....||: .||  |.|:..:..|: ||:.:......::
+ASSY_MYCTO        33 VAIDLGQGGEHMDVIRQRA-LDCGAVEAVVVDARDE-FAEGYCLPTVLNN     80
+
+EXGB_EMENI       111 INQMVQYGL-NTIRIPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASD    159
+                     ...|.:|.| :.|..|:   :.:.||.|..||  .||             
+ASSY_MYCTO        81 ALYMDRYPLVSAISRPL---IVKHLVAAAREH--GGG-------------    112
+
+EXGB_EMENI       160 AGMYIIIDLHGAPGAQQPKQPFT---GQYAPN-----PGFYQDYQY--DR    199
+                           |..||..|....:..|.   ...||:     |  .:||.:  ::
+ASSY_MYCTO       113 ------IVAHGCTGKGNDQVRFEVGFASLAPDLEVLAP--VRDYAWTREK    154
+
+EXGB_EMENI       200 ALEFLEWMTT----------SIHQNNKFRNV--GMLE-IVNEPVQN    232
+                     |:.|.|....          ||.||...|.|  |.|| :.|.|.::
+ASSY_MYCTO       155 AIAFAEENAIPINVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTKD    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 258
+# Identity:      43/258 (16.7%)
+# Similarity:    70/258 (27.1%)
+# Gaps:         101/258 (39.1%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+EXGB_EMENI        89 LGQETADQAFADHWGS--WITQDDINQM-VQYGLNTIRI-----------    124
+                     ||::.:||...|...:  ::.....||: ..|.|.:.|:           
+ECCB1_MYCS2       68 LGKQGSDQLLVDRTTNQLYVMLPGSNQLRPVYNLTSARLVLGNASNPVAV    117
+
+EXGB_EMENI       125 ---------------------------PVGYWLKEDLVYADSEHFPK---    144
+                                                |...|...|.|.......||   
+ECCB1_MYCS2      118 KSEELNRISKGQSIGIPGAPYATPTGTPASQWTLCDTVAKPDSSAPKVET    167
+
+EXGB_EMENI       145 ----------GGIGYLEDVCGWASDAGMYI---------------IIDLH    169
+                               .|:|.:.      :|.||.:               .|||.
+ECCB1_MYCS2      168 SILIRTLAIDSGVGPIR------ADQGMLVSYEGANWLITEGGRHSIDLA    211
+
+EXGB_EMENI       170 --------GAPGAQQPKQPFTGQY--APNPGFYQDYQYDRALEFLEWMTT    209
+                             |.|...:|.....|.:  .||.|              .|...
+ECCB1_MYCS2      212 DRAVTSAVGIPVTAKPTPISQGLFNALPNRG--------------PWQLP    247
+
+EXGB_EMENI       210 SIHQNNKFRNVGMLE--IVNEPVQNADQASSMINSYYPSAFTRIRNTESS    257
+                     .|.......:||:.|  ::....:.|.::........|....|:.||.::
+ECCB1_MYCS2      248 QIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYVVLPDGVARVNNTTAA    297
+
+EXGB_EMENI       258 LGITSNNY    265
+                     ....:|:|
+ECCB1_MYCS2      298 ALRATNSY    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      14/85 (16.5%)
+# Similarity:    36/85 (42.4%)
+# Gaps:          17/85 (20.0%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       265 YLHI---QMMNEKWGSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESY    311
+                     ::|:   .::..:..||....::.:|..   .:.:.|..:.::.:.:|:.
+KCY4_ORYSJ        53 FIHLSAGDLLRAEIKSGSENGTMIENMI---KEGKIVPSEVTIKLLQEAM     99
+
+EXGB_EMENI       312 ISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWE    346
+                     |       :.||...::.    ..|.|.|:.|.:|
+KCY4_ORYSJ       100 I-------KSGNDKFLID----GFPRNEENRAAFE    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    25/61 (41.0%)
+# Gaps:          12/61 (19.7%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       202 EFLEWMTTSIHQNNKFRNVGMLEIVN------EPVQNADQAS------SM    239
+                     ||...|..|...|..|.....:..||      |.::...||:      |.
+HCP_TRIV2         60 EFTCEMLFSTLTNVNFSTSDFISFVNRAIALRESLKLQIQATGNAVIQSA    109
+
+EXGB_EMENI       240 INSYYPSAFTR    250
+                     |||:.|::.|:
+HCP_TRIV2        110 INSFQPASDTQ    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      18/65 (27.7%)
+# Similarity:    30/65 (46.2%)
+# Gaps:          11/65 (16.9%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       226 VNEPVQNADQASSMI---NSYYPSAFTRIRNTESSLGITSNNYLHIQMMN    272
+                     |.||||::..||.|:   .:.|||.    .|..:|..::.|.:..:...:
+UBX7_YEAST       365 VREPVQSSAHASPMLTPSGTRYPSE----TNLTTSRSVSPNVFQFVNNDH    410
+
+EXGB_EMENI       273 EKWGSGDPTQSLTDN    287
+                     ::    ||....|.|
+UBX7_YEAST       411 QE----DPEDPTTFN    421
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      38/205 (18.5%)
+# Similarity:    71/205 (34.6%)
+# Gaps:          72/205 (35.1%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+EXGB_EMENI       125 PVGYWLKEDLVYADSEHFPKGGIGYL------------------------    150
+                     |:|      |:..||.:.|...:.|.                        
+RPOA_ACICJ       173 PIG------LIPVDSIYSPVRRVSYRVEPTRVGQVTDYDRLILNIETNGA    216
+
+EXGB_EMENI       151 ---EDVCGWAS-----DAGMYIIIDLHGAPGAQQPKQ--PFTGQYAPNPG    190
+                        ||....|:     ..||:|..:......|::|:.  ||      ||.
+RPOA_ACICJ       217 VTPEDAVALAARILQDQLGMFINFEEPQRLRAEEPRPELPF------NPN    260
+
+EXGB_EMENI       191 FYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMI    240
+                     ..      |.::.||   .|:...|..:|..:: .:.:.||.::|.....
+RPOA_ACICJ       261 LL------RKVDELE---LSVRSANCLKNDNIV-YIGDLVQKSEQEMLRT    300
+
+EXGB_EMENI       241 NSYYPSAFTRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSL------    284
+                     .::...:...|:...|::|      |.:.|:.:.|    |.:::      
+RPOA_ACICJ       301 PNFGRKSLNEIKEVLSAMG------LGLGMVVQDW----PPENIEELVKR    340
+
+EXGB_EMENI       285 TDNYF    289
+                     :||.|
+RPOA_ACICJ       341 SDNPF    345
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      14/64 (21.9%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          19/64 (29.7%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+EXGB_EMENI       306 VDKESYISASCVDDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSNTDFYA    355
+                     :::.||:....:|:.|              |..|:..|:   |...|...
+YXAD_BACSU        34 LERSSYLLLRQLDEFG--------------PARVKELAE---SFKLDIST     66
+
+EXGB_EMENI       356 RWFAAQAIAYEKQE    369
+                       .:.||.|.|.:|
+YXAD_BACSU        67 --LSRQAAALEAKE     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EXGB_EMENI
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:      28/137 (20.4%)
+# Similarity:    44/137 (32.1%)
+# Gaps:          59/137 (43.1%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+EXGB_EMENI        78 GQRSEFDCVMALGQETADQAFADHWGSWITQDDINQMVQYGLNTIRIPVG    127
+                     |::..||         ||:..|            ..|:...:.|:|.   
+FADB_SHESR       617 GEQKAFD---------ADEIIA------------RTMIPMIIETVRC---    642
+
+EXGB_EMENI       128 YWLKEDLVYADSE---------HFP--KGGIGYLEDVCG----------W    156
+                       |:|.:|.:.:|         .||  :||:....|..|          :
+FADB_SHESR       643 --LEEGIVASPAEADMGLVYGLGFPPFRGGVFRYLDTMGVANFVALADKY    690
+
+EXGB_EMENI       157 ASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQ    193
+                     |...|:|.:.|...|..|.            |..:||
+FADB_SHESR       691 AHLGGLYQVTDAMRALAAN------------NGSYYQ    715
+
+
+#---------------------------------------
+#---------------------------------------

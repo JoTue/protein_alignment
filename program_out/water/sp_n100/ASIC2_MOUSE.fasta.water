@@ -1,0 +1,3272 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:45
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/ASIC2_MOUSE.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/ASIC2_MOUSE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/ASIC2_MOUSE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      42/213 (19.7%)
+# Similarity:    75/213 (35.2%)
+# Gaps:          69/213 (32.4%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      121 LQIPDPHL-----ADPTVLEALRQK----ANFKHYK--PKQFSMLEFLHR    159
+                     |.||.|.:     |.|..:||:.:|    :.::.|:  .::|..::....
+PUR7_VIBVU       109 LDIPHPFVWIVQKAKPVKIEAICRKYITGSMWRAYEKGEREFCGIQLPEG    158
+
+ASIC2_MOUSE      160 VGHD--LKDMMLYCKFKGQECG-------------HQDFTTVFTKYGKCY    194
+                     :..|  |.|:::....||...|             .|:....|..:.   
+PUR7_VIBVU       159 LEKDKALPDLLMTPSTKGILKGIPGVPEADDVNITRQNIADNFAAFN---    205
+
+ASIC2_MOUSE      195 MFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGV    244
+                      |:|.:|.......:|.|.|...|.:.::.|     |:.:|:   ||.|.
+PUR7_VIBVU       206 -FSSADDIALYEKLLKDGFGVISEALANVGQ-----IFVDTK---FEFGY    246
+
+ASIC2_MOUSE      245 KVQIHSQSEPPFIQELGFGVAP----------------------GFQTFV    272
+                     ........:..::.|:|   .|                      ||:.|:
+PUR7_VIBVU       247 VTDAAGNEKLIYMDEVG---TPDSSRIWDAQEYQAGKIVENSKEGFRQFL    293
+
+ASIC2_MOUSE      273 ATQEQRLTYLPPP    285
+                           |.|.|.|
+PUR7_VIBVU       294 ------LNYFPDP    300
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       8/18 (44.4%)
+# Similarity:     9/18 (50.0%)
+# Gaps:           6/18 (33.3%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      126 PH------LADPTVLEAL    137
+                     ||      .|||.:||.|
+Y075_NITWN         4 PHSDRPEDTADPKLLEIL     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      19/95 (20.0%)
+# Similarity:    33/95 (34.7%)
+# Gaps:          26/95 (27.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE        1 MDLKESPSEGSLQPSSI---------QIFANTSTL-----HGIRHIFVYG     36
+                     |.|.|:.:||:.:|..:         .:||....|     .|...:||:|
+Y3584_PSEAB        1 MTLLETTNEGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFVFG     50
+
+ASIC2_MOUSE       37 PLTIRRVLWAVAFVGSLGLLLVESSERVSYYFSYQHVTKVDEVVA     81
+                     ...:..:..|            ..|..:........|.:.||::|
+Y3584_PSEAB       51 GCAVHLLTHA------------RGSADIDAEIEAARVLRKDEIMA     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    33/72 (45.8%)
+# Gaps:          13/72 (18.1%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      363 PCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFFEAL    412
+                     |..|.:|...|    :.:::...::|  |.|..|.::  |.|.|...:.|
+BPT_HAHCH        125 PPTLDQYESFL----LEARSETLFIE--FRKDSKLLA--IAVTDRTTDGL    166
+
+ASIC2_MOUSE      413 N-----YETIEQKKAYEVAALL    429
+                     :     ::..|.|:|..|.|:|
+BPT_HAHCH        167 SAIYTFFDPNEDKRALGVYAIL    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    13/23 (56.5%)
+# Gaps:           2/23 ( 8.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE        8 SEGSLQPSSI--QIFANTSTLHG     28
+                     ::|.:..|::  |:||.....||
+KDPC_CAUVN        47 ADGKVVGSALIGQVFAKPEYFHG     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      28/110 (25.5%)
+# Similarity:    42/110 (38.2%)
+# Gaps:          13/110 (11.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      106 DLY-------HAGELLALLDVNLQIPDPHLADPT-VLEALRQKANFKHYK    147
+                     |||       | |:||...|:..|.......||. :.:.|.|..:.:...
+LPXH_XYLFM       104 DLYGEPTLLLH-GDLLCTDDIAYQAFRAQTRDPEFIAQFLTQTLSARLAF    152
+
+ASIC2_MOUSE      148 PKQFSMLEFLHRVGHDLKDMMLYCKF-KGQECGHQDFTTVFTKYGKCYMF    196
+                     .:|..:....|:.|  ||......:| |..:....|...:|..||...|.
+LPXH_XYLFM       153 SQQARLASHAHQSG--LKQENDSTQFEKITDVVPADVAAMFACYGVNRMI    200
+
+ASIC2_MOUSE      197 NSGEDGKPLL    206
+                     : |...:|.|
+LPXH_XYLFM       201 H-GHTHRPAL    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    20/38 (52.6%)
+# Gaps:           6/38 (15.8%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       47 VAFVGSLGLLLVESSERVSYYFSYQHVTKVDEVVAQSL     84
+                     ::.:|.:.||:      :||.||.:..|.:.::|...|
+YERI_SCHPO        16 LSLIGIVFLLV------LSYLFSIEAETLMHDLVGSGL     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      27/94 (28.7%)
+# Similarity:    37/94 (39.4%)
+# Gaps:          22/94 (23.4%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      348 GLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKY    397
+                     |:|........|..||            |:|||..:|:.:...|...|..
+RBSA_RUEST        54 GILQPDSGEIRLDGTP------------VEIPSPAAAQKMGIGFVHQEIA     91
+
+ASIC2_MOUSE      398 ISENILVLD-IFFEALN--------YETIEQKKAYEVAALLGDI    432
+                     :..::.|.: ||..|.|        |:.|| .||.||.|.|..|
+RBSA_RUEST        92 LCPDVSVAENIFMAATNSSRSFLMDYKGIE-AKAREVFAQLSSI    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      16/57 (28.1%)
+# Similarity:    21/57 (36.8%)
+# Gaps:          10/57 (17.5%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      259 ELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACR    308
+                     :||:|...|..:|     :||.|.....|....|..|     .|...:||
+KR195_HUMAN       20 DLGYGYGCGCGSF-----RRLGYGGGYGGYGYGSGFG-----GYGYRSCR     59
+
+ASIC2_MOUSE      309 IDCETRY    315
+                     ..|...|
+KR195_HUMAN       60 PSCYGGY     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    30/88 (34.1%)
+# Gaps:          32/88 (36.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      219 IMLDIQQ--DEYLPI-------------WGETEETTFEAGVKVQIHSQSE    253
+                     |:|.|.|  .|:|||             ||:....:|.|.|::...:...
+UPPP_CORDI        15 IVLSIVQGLTEFLPISSSGHLRIVSELFWGKDAGASFTAVVQLGTEAAVL     64
+
+ASIC2_MOUSE      254 PPFIQEL-----------------GFGVAPGFQTFVAT    274
+                     ..|.:::                 ||....|:...|.|
+UPPP_CORDI        65 VYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGT    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      12/44 (27.3%)
+# Similarity:    21/44 (47.7%)
+# Gaps:           8/44 (18.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       37 PLTIRRVLWAVAFVGSLGLLLVESSERVSYYFSYQHVTKVDEVV     80
+                     |...::|.||    .|||    :.||...|.::.:.:.::|..|
+GREB_ECO57        27 PEVTKKVTWA----ASLG----DRSENADYQYNKKRLREIDRRV     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      44/208 (21.2%)
+# Similarity:    72/208 (34.6%)
+# Gaps:          73/208 (35.1%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      186 VFTKYGKCYMFNSGEDGKPLLTTVKGG-----------------------    212
+                     |..::|..:.|.:..  :|:||. .||                       
+TGT_LEPCP         70 VMAQFGGLHRFENWT--RPILTD-SGGFQVWSLGEMRKISEEGVRFASPV    116
+
+ASIC2_MOUSE      213 TGNGL----EIMLDIQQ----------DEYLPIWGETEE-----TTFEAG    243
+                     .|:.|    |:.:.||.          ||..|.|...:.     |..||.
+TGT_LEPCP        117 NGDKLFLTPEVSMQIQTVLNSDIVMQFDECTPYWQGAKNVGHITTEKEAR    166
+
+ASIC2_MOUSE      244 VKVQIH----SQSEPPFIQELG-----FGVAPGFQTFVATQEQRLTYLPP    284
+                     |.:::.    ::|:..|.: ||     ||:..| ..|.:.:|:.|..|  
+TGT_LEPCP        167 VSMELSLRWAARSKAEFAR-LGNPNALFGIVQG-GMFESLREESLNAL--    212
+
+ASIC2_MOUSE      285 PWGECRSSEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAP--    332
+                              :.|| ||.|::....:......::...|.....:|.|.|  
+TGT_LEPCP        213 ---------VELD-FPGYAVGGVSVGEPKDEMLRIMNHTPHLLPADKPRY    252
+
+ASIC2_MOUSE      333 ---FCTPE    337
+                        ..|||
+TGT_LEPCP        253 LMGVGTPE    260
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    22/58 (37.9%)
+# Gaps:          12/58 (20.7%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       20 FANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESSERVSYYFS     69
+                     |.:...|..|:.:.:....|:|.|||.....|.:|.            |.
+CBPQ_HUMAN       308 FISWEALSLIKDLGLRPKRTLRLVLWTAEEQGGVGA------------FQ    345
+
+ASIC2_MOUSE       70 YQHVTKVD     77
+                     |..:.||:
+CBPQ_HUMAN       346 YYQLHKVN    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      15/61 (24.6%)
+# Similarity:    27/61 (44.3%)
+# Gaps:           8/61 (13.1%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       18 QIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVES-SERVSY     66
+                     ::..|||    :.|:|   |:|....|.|.........|:.:: :|...:
+PSA6_SOYBN        59 KLLDNTS----VTHLF---PITKYLGLLATGMTADARTLVQQARNEAAEF    101
+
+ASIC2_MOUSE       67 YFSYQHVTKVD     77
+                     .|:|.:...||
+PSA6_SOYBN       102 RFTYGYEMPVD    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 366
+# Identity:      68/366 (18.6%)
+# Similarity:   124/366 (33.9%)
+# Gaps:         119/366 (32.5%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      100 SRLTTNDLYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANF----KH    145
+                     |::|  |::   :.:.|||...   ||.....:.::|:|...|.    |.
+SCL34_ARATH      197 SKVT--DMF---DKVLLLDGEC---DPQTLLDSEIQAIRSSKNIGEKGKK    238
+
+ASIC2_MOUSE      146 YKPKQFSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYM    195
+                     .|.|:..:::|        :.::.:|   .|.....|.||...     ::
+SCL34_ARATH      239 KKKKKSQVVDF--------RTLLTHC---AQAISTGDKTTALE-----FL    272
+
+ASIC2_MOUSE      196 FNSGEDGKPLLTTVKGGTG--------NGLEIMLD-----IQQDEYLPIW    232
+                     ....:...||     |..|        |.||..|.     :.|..|..:.
+SCL34_ARATH      273 LQIRQQSSPL-----GDAGQRLAHCFANALEARLQGSTGPMIQTYYNALT    317
+
+ASIC2_MOUSE      233 GETEETTFEAGVKVQIHSQSEP--------------------PFIQELGF    262
+                     ...::|..:.....:::..|.|                    |.:..:.|
+SCL34_ARATH      318 SSLKDTAADTIRAYRVYLSSSPFVTLMYFFSIWMILDVAKDAPVLHIVDF    367
+
+ASIC2_MOUSE      263 GVAPGFQ--TFVAT--------QEQRLTYLPPPWGECRSSEMGLDFFPVY    302
+                     |:..|||  .|:.:        ::.|:|.:..|  :|       .|.|  
+SCL34_ARATH      368 GILYGFQWPMFIQSISDRKDVPRKLRITGIELP--QC-------GFRP--    406
+
+ASIC2_MOUSE      303 SITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLLAE    352
+                        |.||:...|.:.|.|.          .|..|.::|..|......:..
+SCL34_ARATH      407 ---AERIEETGRRLAEYCK----------RFNVPFEYKAIASQNWETIRI    443
+
+ASIC2_MOUSE      353 KDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENI    402
+                     :|.:          .|.|:.|:   :.:....|.|:.:....|....:.:
+SCL34_ARATH      444 EDLD----------IRPNEVLA---VNAGLRLKNLQDETGSEENCPRDAV    480
+
+ASIC2_MOUSE      403 LVL------DIFFEAL    412
+                     |.|      |:|..|:
+SCL34_ARATH      481 LKLIRNMNPDVFIHAI    496
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       7/21 (33.3%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      445 LTILELFDYIYELIKEKLLDL    465
+                     |..::|.....:|:||..:||
+NDKA_CANLF        35 LIAMKLIQASEDLLKEHYIDL     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      43/203 (21.2%)
+# Similarity:    69/203 (34.0%)
+# Gaps:          62/203 (30.5%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       54 GLLLVESSERVSYYFSYQHVTK----VDEVVAQSLVFPAVTLCNLNGFRF     99
+                     |.:.|.:.||.:.||...:.||    |..:.|....|   .||.:...|.
+RS4_CAEEL         84 GFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADF---KLCKVKSVRT    130
+
+ASIC2_MOUSE      100 SR-----LTTNDLYHAGELLALLDVNLQIPDPHLA--DPTVLEALRQK-A    141
+                     ..     |||.|    |.       .::.||||:.  |..|.....|| .
+RS4_CAEEL        131 VNKGVPVLTTTD----GR-------TIRYPDPHVKVNDTIVFNISTQKIT    169
+
+ASIC2_MOUSE      142 NFKHYKPKQFSMLEFLHRVGH-----------------DLKDMMLYCKFK    174
+                     :...::|...:.:.....||.                 .:||        
+RS4_CAEEL        170 DSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKD--------    211
+
+ASIC2_MOUSE      175 GQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQ    224
+                       ..||...|.:..      :|..|:..|.|::.   .||.|:.:.:..:
+RS4_CAEEL        212 --SAGHSFATRISN------VFVIGKGNKALVSL---PTGAGIRLSIAEE    250
+
+ASIC2_MOUSE      225 QDE    227
+                     :|:
+RS4_CAEEL        251 RDK    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      46/228 (20.2%)
+# Similarity:    83/228 (36.4%)
+# Gaps:          59/228 (25.9%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      264 VAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFP-VYSITACRIDCE    312
+                     :|||.:.:.|....|..  |.||            :| ...:...|....
+G45IP_CHLAE       18 LAPGSRGYRAPPPPRRE--PGPW------------WPDPEDLLTHRWQLG     53
+
+ASIC2_MOUSE      313 TRYIVENCNCRMVHMPGDAP---FCTPEQHKECAEPALGLLAEKDSNYCL    359
+                     .||..:.. .|.....|.||   :.:|||.:|       |.||:...|  
+G45IP_CHLAE       54 PRYAAKQF-ARYGAASGVAPGSLWPSPEQLRE-------LEAEEREWY--     93
+
+ASIC2_MOUSE      360 CRTPCNLTRYNKELSMVKIPSKTSAKYL--EKKFNKSEKYISENILVLDI    407
+                        |          |:..:......|:|  |:|..:.|::|:|.:..:..
+G45IP_CHLAE       94 ---P----------SLATMQESLRVKHLAEEQKRREREQHIAECMAKMPQ    130
+
+ASIC2_MOUSE      408 FFEALNYETIEQKKAYEV--------AALLGDIGGQMGLFIGASILTILE    449
+                     ..  :|::. :|::.:|.        |.|..:....:|..:........|
+G45IP_CHLAE      131 MI--VNWQQ-QQRERWEKAQADKERRARLQAEAQELLGYQVNPKSARFQE    177
+
+ASIC2_MOUSE      450 LFDYIYELIKEKLLDLLGKEEEEGSHDE    477
+                     |...:.:..:::|     |||::....|
+G45IP_CHLAE      178 LLQDLEKKERKRL-----KEEKQRQKQE    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      15/46 (32.6%)
+# Similarity:    22/46 (47.8%)
+# Gaps:          10/46 (21.7%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       50 VGSL----GLLLVESS------ERVSYYFSYQHVTKVDEVVAQSLV     85
+                     ||::    |||...:|      |.|..:.:|.|:||...|.|.:.|
+DAPEL_OCEIH      160 VGTVSSKAGLLFANTSELFIDFEGVGGHAAYPHLTKDMTVAASNFV    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:     8/17 (47.1%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      202 GKPLLTTVKGGTGNGLE    218
+                     |..|...|..||..|||
+KAD_METRJ         32 GDMLRAAVAAGTPVGLE     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      11/43 (25.6%)
+# Similarity:    17/43 (39.5%)
+# Gaps:          20/43 (46.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      422 AYEVAAL----------LGDIGG----------QMGLFIGASI    444
+                     ||:.||.          :|.:||          |:|..:||.:
+ELN_BOVIN        103 AYKAAAKAGAAGLGVGGIGGVGGLGVSTGAVVPQLGAGVGAGV    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 512
+# Identity:     512/512 (100.0%)
+# Similarity:   512/512 (100.0%)
+# Gaps:           0/512 ( 0.0%)
+# Score: 2709.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE        1 MDLKESPSEGSLQPSSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE        1 MDLKESPSEGSLQPSSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFV     50
+
+ASIC2_MOUSE       51 GSLGLLLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFS    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE       51 GSLGLLLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFS    100
+
+ASIC2_MOUSE      101 RLTTNDLYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQ    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      101 RLTTNDLYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQ    150
+
+ASIC2_MOUSE      151 FSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGE    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      151 FSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGE    200
+
+ASIC2_MOUSE      201 DGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      201 DGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHS    250
+
+ASIC2_MOUSE      251 QSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFP    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      251 QSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFP    300
+
+ASIC2_MOUSE      301 VYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLL    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      301 VYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLL    350
+
+ASIC2_MOUSE      351 AEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISE    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      351 AEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISE    400
+
+ASIC2_MOUSE      401 NILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTILEL    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      401 NILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTILEL    450
+
+ASIC2_MOUSE      451 FDYIYELIKEKLLDLLGKEEEEGSHDENMSTCDTMPNHSETISHTVNVPL    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASIC2_MOUSE      451 FDYIYELIKEKLLDLLGKEEEEGSHDENMSTCDTMPNHSETISHTVNVPL    500
+
+ASIC2_MOUSE      501 QTALGTLEEIAC    512
+                     ||||||||||||
+ASIC2_MOUSE      501 QTALGTLEEIAC    512
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      33/171 (19.3%)
+# Similarity:    58/171 (33.9%)
+# Gaps:          62/171 (36.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      350 LAEKDSNYCLCRTPCNL-------TRYNKELSMVKIPSKTSAKYLEKKFN    392
+                     :|||.:    ..:||.|       |.|:.|:..|...|            
+DOXA1_XENTR      155 VAEKFT----INSPCGLFQQYCISTYYSSEIMWVAFGS------------    188
+
+ASIC2_MOUSE      393 KSEKYISENIL---------VLDIFFEA-------LNYETIEQ-------    419
+                         :|..|:|         :..:|..|       :::.::.|       
+DOXA1_XENTR      189 ----WILYNVLFSMPVILYGICMMFVTAICMLVSLISFASVRQAPVCNIH    234
+
+ASIC2_MOUSE      420 ------KKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELI----K    459
+                           |..:.|:..|..:.|...|.:...:|.:.:....:..||    :
+DOXA1_XENTR      235 FGNAVLKTHFGVSYWLSLVTGLFCLIVSLVLLFLYKTQPKVIRLIFSYGE    284
+
+ASIC2_MOUSE      460 EKLLDLLGKEEEEGSHDENMS    480
+                     |:  ||..|.|.|..|...:|
+DOXA1_XENTR      285 EE--DLSDKSENEEEHSSALS    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      18/65 (27.7%)
+# Similarity:    28/65 (43.1%)
+# Gaps:           9/65 (13.8%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      370 NKELSMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFFEALNYETIEQ    419
+                     |::.|..|...:|:.|..|.  |.||:........:|   :|.:...|.:
+RS20_STRPB        23 NEKNSAQKSAMRTAIKAFEA--NPSEELFRAASSSID---KAESKGLIHK     67
+
+ASIC2_MOUSE      420 KKA----YEVAALLG    430
+                     .||    ..:||.||
+RS20_STRPB        68 NKASRDKARLAAKLG     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      30/143 (21.0%)
+# Similarity:    54/143 (37.8%)
+# Gaps:          28/143 (19.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      337 EQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKY    386
+                     :|.:|....|...|.|||.  .|......:..:|:.:.:           
+TPM_HAELO         58 DQVQEQLSQANSKLEEKDK--ALQAAEAEVAAHNRRIQL-----------     94
+
+ASIC2_MOUSE      387 LEKKFNKSEKYISENILVLDIFFEALNYETIEQKKAYEVAAL-----LGD    431
+                     ||:...:||:.:......|:...:|.: |:...:|..|..::     :..
+TPM_HAELO         95 LEEDLERSEERLKIATQKLEEASQAAD-ESERMRKMLEHRSITDEERMDG    143
+
+ASIC2_MOUSE      432 IGGQMGLFIGASILTILELFDYIYELIKEKL----LDLLGKEE    470
+                     :.||:     ....|:.|..|..|:.:..||    .||...||
+TPM_HAELO        144 LEGQL-----KEARTMAEDADRKYDEVARKLAMVEADLERAEE    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       9/36 (25.0%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           1/36 ( 2.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      116 LLDVNLQIPDPHL-ADPTVLEALRQKANFKHYKPKQ    150
+                     :|.::..:|||.. .|||...::.:...:...|..|
+LEUC_XANOM       303 VLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQ    338
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       6/12 (50.0%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      205 LLTTVKGGTGNG    216
+                     :.||:...||||
+LPT_ESCF3          8 ITTTITITTGNG     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      19/89 (21.3%)
+# Similarity:    32/89 (36.0%)
+# Gaps:          14/89 (15.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      269 QTFVATQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACRIDCETRY--I    316
+                     |..|...:|.:..|...||...::.:.:...|.....|...:.:|.:  |
+RL7_THET8         14 QATVLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAAAPAEEKTEFDVI     63
+
+ASIC2_MOUSE      317 VENCNCRMVHMPGDAPFCTPEQHKEC-AEPALGLLAEKD    354
+                     ::....:.:           |..||. |...|||...||
+RL7_THET8         64 LKEAGAKKL-----------EVIKELRAITGLGLKEAKD     91
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      31/131 (23.7%)
+# Similarity:    54/131 (41.2%)
+# Gaps:          22/131 (16.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       50 VGSLGLLLVESSERVSYYFSYQHVT--KVDEVVAQSLVFP-AVTLCN-LN     95
+                     :|.|..:||.:.|.:.  .:.:|:|  ::..::..:..|. |.||.| ..
+HEM1_METCA       178 LGDLTAILVGAGETIE--LTARHLTENRIGHLIIANRTFDRAHTLANQFG    225
+
+ASIC2_MOUSE       96 GFRFSRLTTNDLYHAGELLALLDV---NLQIPDPHLADPTVLEALRQKAN    142
+                     ||..|      |....:.||..|:   :...|.|.|...:...|||.   
+HEM1_METCA       226 GFAIS------LEELPKHLAKADIIVASTGSPLPILGKGSFESALRS---    266
+
+ASIC2_MOUSE      143 FKHYKPK---QFSMLEFLHRVGHDLKDMMLY    170
+                      :.:||.   ..::...:......|:|:.||
+HEM1_METCA       267 -RRHKPMFIVDLAVPRDIEPEVEQLQDVYLY    296
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      34/158 (21.5%)
+# Similarity:    59/158 (37.3%)
+# Gaps:          43/158 (27.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       28 GIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESSERVSYYFSYQHVTKVD     77
+                     |:.|  .:||..:.|     |.:..:|..|.:.               :|
+XYLB_KLEPN       351 GLTH--QHGPAELAR-----AVLEGVGYALADG---------------MD    378
+
+ASIC2_MOUSE       78 EVVAQSLVFPAVT-------------LCNLNGFRFSRLTTNDLYHA--GE    112
+                     .|.|.::...|:|             |.:::|.:....|..|:..|  ..
+XYLB_KLEPN       379 VVHACAIKPEAITLIGGGRARYWRQMLADISGLQLDYRTGGDVGPALGAA    428
+
+ASIC2_MOUSE      113 LLALLDVNLQIPDPHLADPTVLEALRQKANFK--HYKPKQFSMLEFLHRV    160
+                     .||.:.|:.:...|.|..|..||...:..:.:  ||.|::    |...|:
+XYLB_KLEPN       429 RLAHVAVHDEADRPGLLKPLPLEQAHRPDDRRVAHYAPQR----EIFARI    474
+
+ASIC2_MOUSE      161 GHDLKDMM    168
+                     ...||.:|
+XYLB_KLEPN       475 FSKLKPLM    482
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       7/13 (53.8%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           1/13 ( 7.7%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       36 GPLTIRR-VLWAV     47
+                     ||.:.|| |||.:
+RECR_NOVAD        20 GPRSARRAVLWLI     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    24/48 (50.0%)
+# Gaps:           4/48 ( 8.3%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      205 LLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQS    252
+                     |:|...|....||:::.:|.::....:|....||. ::||.   ||.|
+SURE_METNO         4 LVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETD-QSGVS---HSLS     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      17/57 (29.8%)
+# Similarity:    25/57 (43.9%)
+# Gaps:          17/57 (29.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      401 NILVLDIFFEALNYETIEQKKAYEVAALLGDI--GGQMGLFIGASILT-I    447
+                     ||.:|.:|             |....|.:|.:  .|||. |.||:::| :
+CYB_ARTIO        114 NIGILLLF-------------AVMATAFMGYVLPWGQMS-FWGATVITNL    149
+
+ASIC2_MOUSE      448 LELFDYI    454
+                     |....||
+CYB_ARTIO        150 LSAIPYI    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      52/292 (17.8%)
+# Similarity:    90/292 (30.8%)
+# Gaps:         103/292 (35.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      196 FNSGEDGK--PLLTTVKGGTGNGLEIMLDIQQDEYLPIWGET-------E    236
+                     ||..|.|.  |..|.|       |:..|:::..|....|..|       |
+IOLE_BACHK        42 FNGSEVGNKYPRNTVV-------LKKSLELRNLEIASAWFSTFLTTKPIE     84
+
+ASIC2_MOUSE      237 ETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPW    286
+                     ||..|              ||:...|....|.:..|.:::..        
+IOLE_BACHK        85 ETVEE--------------FIKHRDFLHGMGAKVIVVSEQGH--------    112
+
+ASIC2_MOUSE      287 GECRSSEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTP    336
+                          |..||...|::.                          :.|..|.
+IOLE_BACHK       113 -----SIQGLMDVPLFK--------------------------NKPVFTE    131
+
+ASIC2_MOUSE      337 EQHKECAEPA--LGLLAEKDSNYCLCR----TPCNLTRYNKELSMVKIPS    380
+                     |:.::.|:..  ||.||::...:.:..    |....|...::|..:..|:
+IOLE_BACHK       132 EEWEKLADGLHHLGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPA    181
+
+ASIC2_MOUSE      381 KTS--------------AKYLEKKFNKSEKYISENILVLDIFFEALNYET    416
+                     ..|              ..|:.||:....|:         :..:.:..|.
+IOLE_BACHK       182 LVSLLFDTGHLVFSGEEPLYILKKYLPRIKH---------VHLKDIRQEV    222
+
+ASIC2_MOUSE      417 IEQKKAYEVAALLGDIGGQM-----GLFIGASILTILELFDY    453
+                     ::..|..|::.|.....|..     |:.:...:.|||...:|
+IOLE_BACHK       223 VDVVKEKELSFLQAVKNGAFTVPGDGVIVFDEVFTILANSNY    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      40/186 (21.5%)
+# Similarity:    71/186 (38.2%)
+# Gaps:          46/186 (24.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      290 RSSEMGLDFFPVYSIT----ACRIDCETRYIVENCNCRMVHMPGDAPFCT    335
+                     :|.:..:.|.|:..:|    :..||                 |...||..
+ACKA_STAAT       221 KSIDTSMGFTPLAGVTMGTRSGNID-----------------PALIPFIM    253
+
+ASIC2_MOUSE      336 PEQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAK    385
+                      |:..:.||..|.:|                   |||..::.: |.||:.
+ACKA_STAAT       254 -EKTGKTAEQVLEIL-------------------NKESGLLGL-SGTSSD    282
+
+ASIC2_MOUSE      386 YLEKKFNKSEKYISENILVLDIFFEALN-YETIEQKKAYEVAALLGDIG-    433
+                      |.....::|...:.:.:.||:|...:: |......:.:.|..::...| 
+ACKA_STAAT       283 -LRDLSEEAESGKARSQMALDVFASKIHKYIGSYAARMHGVDVIVFTAGI    331
+
+ASIC2_MOUSE      434 GQMGLFIGASILTILELFDYIYELIKEKLLDLLGKE    469
+                     |:..:.|.|.:|..||.....::..|.:.| |.|||
+ACKA_STAAT       332 GENSVEIRAKVLEGLEFMGVYWDPKKNENL-LRGKE    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      35/172 (20.3%)
+# Similarity:    57/172 (33.1%)
+# Gaps:          55/172 (32.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       75 KVDEVVAQSLVFPAVTLCNLNGFRFSRLTTN--DLYHAGELLA---LLDV    119
+                     :|.|||..:.........:|:|....:|.|.  .|.|..:.:|   |:|:
+HIS7_BURTA         2 RVAEVVRNTSETQIRVKIDLDGTGRQKLATGVPFLDHMLDQIARHGLVDL     51
+
+ASIC2_MOUSE      120 NLQ------IPDPHLAD-------PTVLEALRQKANFKHYKPKQFSMLEF    156
+                     :::      |.|.|..:       ..|.:|:..|...:.|......:.|.
+HIS7_BURTA        52 DIEAHGDTHIDDHHTVEDVGITLGQAVAKAVGDKKGIRRYGHSYVPLDEA    101
+
+ASIC2_MOUSE      157 LHRVGHDLK-------------------DMMLYCKF--------------    173
+                     |.||..|..                   |:.|..:|              
+HIS7_BURTA       102 LSRVVIDFSGRPGLEFHVPFTRARIGTFDVDLSIEFFRGFVNHAGVTLHI    151
+
+ASIC2_MOUSE      174 ---KGQECGHQDFTTVFTKYGK    192
+                        :|....|| ..|||..:|:
+HIS7_BURTA       152 DNLRGVNAHHQ-LETVFKAFGR    172
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      16/69 (23.2%)
+# Similarity:    26/69 (37.7%)
+# Gaps:          26/69 (37.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      430 GDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKEEEEGSHDENM    479
+                     |..|||.||   .||:.:|...|::      :|...:|:           
+PTH_GEOLS        108 GGHGGQNGL---RSIMELLGKGDFV------RLRLGIGR-----------    137
+
+ASIC2_MOUSE      480 STCDTMPNHSETISHTVNV    498
+                           |.|.:..:|.:.|
+PTH_GEOLS        138 ------PPHGDVTNHVLGV    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      20/67 (29.9%)
+# Similarity:    30/67 (44.8%)
+# Gaps:          10/67 (14.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      337 EQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELSMVK--IP-----    379
+                     |:.|..:.|.  :|:.||....:..|| |..|....||.:.  :|     
+TAF3_XENLA       567 EKMKSPSTPI--MLSSKDIALPMISTP-NTVRLPSLLSSMSPLLPEKLFE    613
+
+ASIC2_MOUSE      380 SKTSAKYLEKKFNKSEK    396
+                     .|..:|..:||.:|.||
+TAF3_XENLA       614 EKEKSKEKDKKKDKKEK    630
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      22/63 (34.9%)
+# Similarity:    34/63 (54.0%)
+# Gaps:          10/63 (15.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       42 RVLW--AVAFVGSL-GLLLVE---SSERVSY--YFSYQHVTKVDEVVAQS     83
+                     |||:  .:.:|||: ..||||   |.:::|.  :.|...|..|.|.:|||
+DNLJ_CROS5       512 RVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQS    561
+
+ASIC2_MOUSE       84 LV--FPAVTLCNL     94
+                     ::  |.....|:|
+DNLJ_CROS5       562 IIDWFSIEKNCDL    574
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:      55/249 (22.1%)
+# Similarity:    86/249 (34.5%)
+# Gaps:          66/249 (26.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      243 GVKVQIHSQSEPP------FIQELGFGVAPGF-----------QTFVATQ    275
+                     |:||.|..|.|.|      ..:|:...:.||.           ..|:|. 
+MUTS_MYXXD        89 GLKVAICEQVEEPGNGPGIVRREVTRVITPGMVLDEEVLEPQASNFLAA-    137
+
+ASIC2_MOUSE      276 EQRLTYLPPPWG----ECRSSE-MGLDFFPVYSITACRIDCETRYI----    316
+                        :::....||    |..:.| |.|:...:..:.......|.|.:    
+MUTS_MYXXD       138 ---VSWNDKGWGAALLEASTGEFMALEAPGIAELAESLSRVEPRELLVPD    184
+
+ASIC2_MOUSE      317 -------VENCNCRMVHMPGDAPFCTPEQHKECAEP--ALGLL-----AE    352
+                            |.....|:|..|..|     |......||  |.|.|     .:
+MUTS_MYXXD       185 GKRDAPEVAQLLARLVRTPAVA-----EGEAASFEPTRAAGYLRSHFAVQ    229
+
+ASIC2_MOUSE      353 KDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENI    402
+                     ..|.:.|...|.........|..:|...||:|.::: :.::.|:  ..|:
+MUTS_MYXXD       230 SLSAFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVD-RLSRQER--GGNL    276
+
+ASIC2_MOUSE      403 LVLDIFFEALNYETIEQKKA-YEVAALLGDIGGQMGLFIGASILTILEL    450
+                     | :|           |..:| .||...|.| ||:.|..:|....|:..|
+MUTS_MYXXD       277 L-MD-----------ESSRANLEVLRSLRD-GGRKGSLLGVLDKTVTSL    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 280
+# Identity:      53/280 (18.9%)
+# Similarity:    95/280 (33.9%)
+# Gaps:         100/280 (35.7%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      257 IQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSE--MGLDFFPVYSI    304
+                     |:|.|        |:..|:|:.:......|   |:|.  :|..|:...::
+NOSO_STAAC        35 IKETG--------TYTHTEEELIYGAKMAW---RNSNRCIGRLFWDSLNV     73
+
+ASIC2_MOUSE      305 TACR--------IDCETRYIVENCN------CRMVHMPGDAPFCTPEQ--    338
+                     ...|        :...|.:|.:..|      ...::.|.|.|.....|  
+NOSO_STAAC        74 IDARDVTDEASFLSSITYHITQATNEGKLKPYITIYAPKDGPKIFNNQLI    123
+
+ASIC2_MOUSE      339 ----HKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELS----------    374
+                         :..|.:|     |||:           :||....|.          
+NOSO_STAAC       124 RYAGYDNCGDP-----AEKE-----------VTRLANHLGWKGKGTNFDV    157
+
+ASIC2_MOUSE      375 ---MVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFFEALNYETIEQ--    419
+                        :.::|:: |.|:.|...:          |:.::..|..:|..:.:  
+NOSO_STAAC       158 LPLIYQLPNE-SVKFYEYPTS----------LIKEVPIEHNHYPKLRKLN    196
+
+ASIC2_MOUSE      420 KKAYEVAAL------LGDIGGQMGLFIGASILTILE----LFDYIYELIK    459
+                     .|.|.|..:      :|.|......|.|..::|.:.    :.||.|.|: 
+NOSO_STAAC       197 LKWYAVPIISNMDLKIGGIVYPTAPFNGWYMVTEIGVRNFIDDYRYNLL-    245
+
+ASIC2_MOUSE      460 EKLLDLLGKEEEEGSHDENMSTCDTMPNHS    489
+                     ||:.|..              ..||:.|:|
+NOSO_STAAC       246 EKVADAF--------------EFDTLKNNS    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      17/66 (25.8%)
+# Similarity:    29/66 (43.9%)
+# Gaps:          13/66 (19.7%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      117 LDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSMLEFLHRVGHDLKD    166
+                     :.:||.....:|...|::|       ::.||..|.:| |.|:  |.||..
+RBM8A_MOUSE      102 IHLNLDRRTGYLKGYTLVE-------YETYKEAQAAM-EGLN--GQDLMG    141
+
+ASIC2_MOUSE      167 MML---YCKFKGQECG    179
+                     ..:   :|..:|...|
+RBM8A_MOUSE      142 QPISVDWCFVRGPPKG    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:    11/15 (73.3%)
+# Gaps:           1/15 ( 6.7%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       47 VAFVGS-LGLLLVES     60
+                     :||:.| :|||:..|
+NU4LM_ARCPU       10 MAFIVSFMGLLMYRS     24
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    19/43 (44.2%)
+# Gaps:          13/43 (30.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      420 KKAYEVAALLGDI-----------GGQMGLFIGASILTILELF    451
+                     :.|..:|.|:.||           ||.:||..|  .|.::|.:
+NANK_ECOLI       216 RSARTLARLIADIKATTDCQCVVVGGSVGLAEG--YLALVETY    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      52/245 (21.2%)
+# Similarity:    87/245 (35.5%)
+# Gaps:          59/245 (24.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      236 EETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQ---EQRLTY-    281
+                     |:..||..:.|::.|. |...|:.|........:.||...   ::..|| 
+MIAB_MYCPE       168 EQVIFEKNLVVEVWSH-EGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYC    216
+
+ASIC2_MOUSE      282 -LPPPWGECRS--SEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMP    328
+                      :|...|:.||  .|..||  .|:.:.:.... |...|.:|.|...:...
+MIAB_MYCPE       217 IVPMTRGKIRSRRKEDILD--EVHQMISEGYK-EVTLIGQNVNSYGIDFD    263
+
+ASIC2_MOUSE      329 GDAPFCTPEQHKECAEPALGLLAEKDSNYCLCRTPCNLTR--------YN    370
+                     ....:......::.|:..:..:....||      |.|.||        |.
+MIAB_MYCPE       264 NGENYLFNNLLEDVAKTGIERVRFTTSN------PWNFTRSIVDTMKKYP    307
+
+ASIC2_MOUSE      371 KELSMVKIPSKTSAKYLEKKFNKSEK---------YISENI----LVLDI    407
+                     ..:..:.:|.::..:.:.||.|:..|         ||..||    :..|:
+MIAB_MYCPE       308 NIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDL    357
+
+ASIC2_MOUSE      408 FF-------EALN-----YETIEQKKAY---------EVAALLGD    431
+                     ..       |..|     |:.||...|:         .|||::.|
+MIAB_MYCPE       358 IVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPD    402
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      36/166 (21.7%)
+# Similarity:    51/166 (30.7%)
+# Gaps:          64/166 (38.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      249 HSQSEPPFIQELGFGVAPGFQTFVAT----QEQRLTYLPPPWGECRSSEM    294
+                     |..|:..|:     |:..|...|.|.    :.::|..      |..:||.
+NADK_STAES        57 HMLSKVAFV-----GIHTGHLGFYADWLPHEVEKLII------EINNSEF     95
+
+ASIC2_MOUSE      295 GLDFFPVYSITACRID--CETRY---------------IVENCNCRMVHM    327
+                     .:..:|:..:.....|  .||||               :|.:.|.|..|.
+NADK_STAES        96 QVIEYPLLELIVRYNDNGYETRYLALNEATMKTENGSTLVVDVNIRGKHF    145
+
+ASIC2_MOUSE      328 P---GDAPFCTPEQHKECAEPALGLLAEKDSNYCLC-RTPCNLTRYNKEL    373
+                     .   ||.                           || .||...|.|||.|
+NADK_STAES       146 ERFRGDG---------------------------LCISTPSGSTAYNKAL    168
+
+ASIC2_MOUSE      374 SMVKI-PSKTSAKYLE    388
+                     ....| ||..:.:..|
+NADK_STAES       169 GGALIHPSLEAMQIAE    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:      76/404 (18.8%)
+# Similarity:   142/404 (35.1%)
+# Gaps:         117/404 (29.0%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      105 NDLYHAGELLAL--LDVNLQIPDPHLADPTVLEALRQ-KANFKHYKPKQF    151
+                     :|::..||.|.:  ...|..|.|.:.:.|::|..... |...||.:.:..
+TRPG_CAEEL        91 DDVFEDGEGLQMRTFQPNASIRDENGSMPSLLPRTAPIKKTRKHRRRRSG    140
+
+ASIC2_MOUSE      152 SMLEFLH-RVGH------------------DLKDMMLYCKFKGQECGHQD    182
+                     |....:: |.||                  |.:||:.....|..:...  
+TRPG_CAEEL       141 SFTGGVYPRKGHRNRSLLGHAIPPPNVHSADWRDMLAITDNKDDKLMK--    188
+
+ASIC2_MOUSE      183 FTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIW    232
+                      |...|:    |:.:.|.|..|..:|..||.|.         ....:|..
+TRPG_CAEEL       189 -TLGVTR----YLQSKGGDQVPPTSTTTGGAGG---------DGNAVPTT    224
+
+ASIC2_MOUSE      233 GETEETTFEAGVKVQIHSQSEPPFIQELGFGVAPG---FQTFVATQEQRL    279
+                     .:.:..||.:|.:..               |::.|   .:...||.....
+TRPG_CAEEL       225 SQAQAQTFNSGRQTT---------------GMSSGDRLNEDVSATANSAQ    259
+
+ASIC2_MOUSE      280 TYLPPP-WGECR--SSEMGLDFFPVYSITACRIDCETRYIVENCNCRMVH    326
+                     ..||.| :.:.|  .|.|.|:.......|..|.:| :|:|..:   |.:|
+TRPG_CAEEL       260 LVLPTPLFNQMRFTESNMSLNRHNWVRETFTRREC-SRFIASS---RDLH    305
+
+ASIC2_MOUSE      327 MPGDAPFC--TPEQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELS    374
+                     ..|    |  |.:.|:...|.....|.:|.|...| ....:::..|.:::
+TRPG_CAEEL       306 KCG----CGRTRDAHRNIPELTSEFLRQKRSVAAL-EQQRSISNVNDDIN    350
+
+ASIC2_MOUSE      375 MVKIPSKTSAKYLEKKFNKSEKYISENILVLDIF---------------F    409
+                     ...:.:|..|   .:|::..:..:|   |..:.|               :
+TRPG_CAEEL       351 TQNMYTKRGA---NEKWSLRKHTVS---LATNAFGQVEFQGGPHPYKAQY    394
+
+ASIC2_MOUSE      410 EALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIK    459
+                     ..:|::|   :.||                       |:.||::::::..
+TRPG_CAEEL       395 VRVNFDT---EPAY-----------------------IMSLFEHVWQISP    418
+
+ASIC2_MOUSE      460 EKLL    463
+                     .:|:
+TRPG_CAEEL       419 PRLI    422
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      22/98 (22.4%)
+# Similarity:    35/98 (35.7%)
+# Gaps:          31/98 (31.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      344 EPALGLLAEKDSNYCLCRTPCNLTR-YNKELSMVKIPS------------    380
+                     :|.||.:      |.|...|....| ..:.|:|:.:.|            
+MSHD_MYCMM       234 DPGLGEV------YVLGVDPAAQGRGLGRTLTMIGLRSLAQRLGDRDLGR    277
+
+ASIC2_MOUSE      381 -KTSAKYLEKKFNKSEKYISENILVLDIFFEALNYETIEQKKAYEVAA    427
+                      .|...|:|          |:||..:.. ::.|.:.|.....||.:||
+MSHD_MYCMM       278 ESTVMLYVE----------SDNIAAVRT-YQGLGFSTHSVDTAYALAA    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    12/25 (48.0%)
+# Gaps:           5/25 (20.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      264 VAPGFQTFV-----ATQEQRLTYLP    283
+                     ||||....:     .|:.:|.|:.|
+PAND_THEFY        79 VAPGDLVIIISYVQLTEAERATHRP    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      43/207 (20.8%)
+# Similarity:    68/207 (32.9%)
+# Gaps:          71/207 (34.3%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      206 LTTVKGGTGNGLEIML-DIQQDEYLPIWGETEETTFEAGVKV-QIHSQSE    253
+                     |..||....:||::.. :::..|.|..:......||:..::| :...|:.
+LIPA_ASPOR       246 LEMVKLVARSGLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAAKQAR    295
+
+ASIC2_MOUSE      254 PPFIQE----LGFGVAPGFQTFVATQEQRLTYLPPPWGECRS-SEMGLDF    298
+                     |..|.:    ||||         .|:||.       |...|. ..:|:|.
+LIPA_ASPOR       296 PDLITKTSLMLGFG---------ETEEQL-------WDALRQLRSVGVDV    329
+
+ASIC2_MOUSE      299 --FPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPA    346
+                       |..|.....|                 |||.. .:.||:|.:...:.|
+LIPA_ASPOR       330 VTFGQYMRPTKR-----------------HMPVH-EYVTPDQFELWRQRA    361
+
+ASIC2_MOUSE      347 LGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEK    396
+                     |      |..:..|                     .|...:...:...|.
+LIPA_ASPOR       362 L------DMGFLYC---------------------ASGPLVRSSYKAGEA    384
+
+ASIC2_MOUSE      397 YISENIL    403
+                     :| ||:|
+LIPA_ASPOR       385 FI-ENVL    390
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      29/123 (23.6%)
+# Similarity:    40/123 (32.5%)
+# Gaps:          29/123 (23.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      113 LLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSMLEFLHRVGH    162
+                     ||.||.:|:        .|...|.:|...|.:..:             |:
+FLGI_PECAS        10 LLTLLTLNI--------TPASAERIRDLVNIQGVR-------------GN     38
+
+ASIC2_MOUSE      163 DLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGG    212
+                     .|....|.....|.  |.|...|.||......|.:.      |..||..|
+FLGI_PECAS        39 ALIGYGLVVGLDGS--GDQTMQTPFTTQSLTNMLSQ------LGITVPAG     80
+
+ASIC2_MOUSE      213 TGNGLEIMLDIQQDEYLPIWGET    235
+                     |...|:.:..:.....||.:|.|
+FLGI_PECAS        81 TNMQLKNVAAVMVTAELPPFGRT    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      50/220 (22.7%)
+# Similarity:    77/220 (35.0%)
+# Gaps:          92/220 (41.8%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      299 FPVYSITACRIDCET---RYIVE---NCNCRMVHM-----PGDAPFCTPE    337
+                     ||::.:.......:|   ||.:.   |.|.:.:|.     .||:.|.|.:
+LDH_BORAP        138 FPIHKVIGTGTILDTSRLRYFLSDRFNVNTQNIHSYVMGEHGDSSFVTWD    187
+
+ASIC2_MOUSE      338 QHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYL    387
+                     :                                     .||..|..::||
+LDH_BORAP        188 E-------------------------------------TKIAMKPLSEYL    200
+
+ASIC2_MOUSE      388 EKKFNKSEKYISENILVLD-IFFEALN--YETIEQKKA--YEVA------    426
+                           ||..|:|  |.|| |..:.:|  ||.|:.|.|  |.:.      
+LDH_BORAP        201 ------SEGKITE--LELDEIHKKVVNAAYEVIKLKGATYYAIGLGIKNI    242
+
+ASIC2_MOUSE      427 --ALLGD----------IGGQMG-----LFIGASILTILELFDYIYELIK    459
+                       |::||          |.||.|     ::|||..:.       ..|.:|
+LDH_BORAP        243 VNAIIGDQNIILPISSYINGQYGGLIKDIYIGAPAIV-------CKEGVK    285
+
+ASIC2_MOUSE      460 EKL-LDLLGKEEEEGSHDEN    478
+                     |.| ..:..||.|:.::..|
+LDH_BORAP        286 EVLNFKISPKELEKFNNSAN    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      62/310 (20.0%)
+# Similarity:   102/310 (32.9%)
+# Gaps:         101/310 (32.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      175 GQECGHQDFT------------TVFTKYGKCYMFNSGEDGKPLLTTVKGG    212
+                     |||...|.|.            ....:||              |.|::..
+EXGB_EMENI        90 GQETADQAFADHWGSWITQDDINQMVQYG--------------LNTIRIP    125
+
+ASIC2_MOUSE      213 TGNGLEIMLDIQQDEYLPIW--GETEET---TFEAG--VKVQIH-----S    250
+                     .|..|:..|.....|:.|..  |..|:.   ..:||  :.:.:|     .
+EXGB_EMENI       126 VGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDAGMYIIIDLHGAPGAQ    175
+
+ASIC2_MOUSE      251 QSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFP    300
+                     |.:.||..:  :...|||.       |...|           :..|:|  
+EXGB_EMENI       176 QPKQPFTGQ--YAPNPGFY-------QDYQY-----------DRALEF--    203
+
+ASIC2_MOUSE      301 VYSITACRIDCETRYIVEN---CNCRMVHMPGDAPFCTPEQHKECAEPAL    347
+                             ::..|..|.:|   .|..|:.:..:     |.|:.:.|...:
+EXGB_EMENI       204 --------LEWMTTSIHQNNKFRNVGMLEIVNE-----PVQNADQASSMI    240
+
+ASIC2_MOUSE      348 GLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKY    397
+                           :|.|     |...||.....|.:.|   ||..||..:. .:||:
+EXGB_EMENI       241 ------NSYY-----PSAFTRIRNTESSLGI---TSNNYLHIQM-MNEKW    275
+
+ASIC2_MOUSE      398 ISENIL--VLDIFFEAL--------NYETIEQKKAYEVAALLGDIGGQMG    437
+                     .|.:..  :.|.:|.|.        :......|::|..|:.:.|.||...
+EXGB_EMENI       276 GSGDPTQSLTDNYFAAYDDHRYVKWDSSVAVDKESYISASCVDDRGGNWP    325
+
+ASIC2_MOUSE      438 LFIGASILTI    447
+                     ..:|...|::
+EXGB_EMENI       326 TIVGEWSLSV    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:      29/169 (17.2%)
+# Similarity:    53/169 (31.4%)
+# Gaps:          73/169 (43.2%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      160 VGHDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSG----------    199
+                     |...:::::|.        .|.|.|::    .:..:|::.          
+KTHY_CHLP8        42 VAEQIRELLLE--------SHNDITSI----AELLLFSASRAELMEKIIV     79
+
+ASIC2_MOUSE      200 ---EDGKPLL-------TTVKGGTGNGLEI--------------------    219
+                        |||..::       ||...|.|.||.:                    
+KTHY_CHLP8        80 PALEDGCDVILDRFFDSTTAYQGYGRGLNLDMLAEINRIASHGIRPDITF    129
+
+ASIC2_MOUSE      220 MLDIQ---------QDEYLPIWGETEETTFEAGVKVQIHSQSEPPFIQEL    260
+                     .||:.         .::.||:..|:||        :.....|...|.|. 
+KTHY_CHLP8       130 YLDLTPEDALLRKFSEKSLPLAFESEE--------LDRMENSGLEFYQR-    170
+
+ASIC2_MOUSE      261 GFGVAPGFQTFVATQEQRL    279
+                        |..|:...:..:.||:
+KTHY_CHLP8       171 ---VRAGYHAILEAEPQRI    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      41/181 (22.7%)
+# Similarity:    58/181 (32.0%)
+# Gaps:          52/181 (28.7%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      191 GKCYMFNSGEDGKPLLTTVKGG-----TGNGLE-IMLDIQQDEYLPIWGE    234
+                     |:........||.......|.|     ||..|: |.:....:.|..:.|.
+SECA2_MYCTO      364 GRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGM    413
+
+ASIC2_MOUSE      235 TEETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRLTYLPP    284
+                     | .|...||.:::       .|.|   .||:|               :||
+SECA2_MYCTO      414 T-GTALAAGEQLR-------QFYQ---LGVSP---------------IPP    437
+
+ASIC2_MOUSE      285 PWGECRSSEMGLDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFC    334
+                     .....|..|..    .||..||.:.|....:|.|      ||..|.....
+SECA2_MYCTO      438 NKPNIREDEAD----RVYITTAAKNDGIVEHITE------VHQRGQPVLV    477
+
+ASIC2_MOUSE      335 -------TPEQHKECAE---PALGLLAEKDS    355
+                            :.|.|:....   ||:.|.|:.|:
+SECA2_MYCTO      478 GTRDVAESEELHERLVRRGVPAVVLNAKNDA    508
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      13/37 (35.1%)
+# Similarity:    15/37 (40.5%)
+# Gaps:          10/37 (27.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      306 ACRIDC-ETRYIVENC-NCRMVHMPGDAPFCTPEQHK    340
+                     :||..| ||...|..| |.|        |.|.|..|:
+DB108_HUMAN       34 SCRDFCLETEIHVGRCLNSR--------PCCLPLGHQ     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 325
+# Identity:      63/325 (19.4%)
+# Similarity:   100/325 (30.8%)
+# Gaps:         120/325 (36.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      199 GEDGKPLLTTVKGGTGN---GLEIMLD--IQQDEYLPIWGETEETTFEAG    243
+                     |...||.|..|  ||.:   |::.::|  :|:       |..:..:..||
+LCMT1_CRYNB      104 GRARKPPLINV--GTHHRTWGIDRLVDRFLQR-------GGKQVVSLGAG    144
+
+ASIC2_MOUSE      244 VKV---QIHSQSEPPFIQELGFGVAPGFQTFVATQEQRL-----------    279
+                     ...   ::.|::.||   :|...|...|....:.:.||:           
+LCMT1_CRYNB      145 SDTRFWRLMSRATPP---DLARYVEIDFPHLTSPKAQRIARHRKLYQYLG    191
+
+ASIC2_MOUSE      280 ---TYLPPPWGECRSSEMG------------LDFFPVYSITACRIDC---    311
+                        |.:|||......|:.|            ||..|..|..|..|..   
+LCMT1_CRYNB      192 PSSTAMPPPGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAILS    241
+
+ASIC2_MOUSE      312 -----------ETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLL    350
+                                .|.::.|   |..       |:.:||..:|       ::
+LCMT1_CRYNB      242 HHVLPQLDPRLPTLFLAE---CLF-------PYMSPEDSRE-------II    274
+
+ASIC2_MOUSE      351 AEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISE    400
+                     ......:|.|        ......||.         |:..|....|   .
+LCMT1_CRYNB      275 KWFGETFCSC--------MGVVYEMVG---------LDDSFGNVMK---R    304
+
+ASIC2_MOUSE      401 NILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTI---    447
+                     |:.|.::......:.|.|.:.....:.:|     |.|.|..|...|:   
+LCMT1_CRYNB      305 NLAVRNLSIPGSIFSTPESQAGRFTSPML-----QGGKFDSAGAKTLWQI    349
+
+ASIC2_MOUSE      448 ---------------LELFDYIYEL    457
+                                    ||:.|.|.||
+LCMT1_CRYNB      350 REEDVGPEELQRISKLEILDEIEEL    374
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      14/75 (18.7%)
+# Similarity:    30/75 (40.0%)
+# Gaps:          18/75 (24.0%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      202 GKPLLTTVKGGTG--------------NGLEIMLDIQQDEYLPIWGETEE    237
+                     |..::..|.|..|              :|:|:.:....|. :.:.||..:
+PTGA_SALTY        57 GNKMVAPVDGTIGKIFETNHAFSIESDSGIELFVHFGIDT-VELKGEGFK    105
+
+ASIC2_MOUSE      238 TTFEAGVKVQIHS---QSEPPFIQE    259
+                     ...|.|.:|::..   :.:.|.::|
+PTGA_SALTY       106 RIAEEGQRVKVGDPVIEFDLPLLEE    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      11/48 (22.9%)
+# Similarity:    23/48 (47.9%)
+# Gaps:           6/48 (12.5%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      117 LDVNLQIPD-PHLADPT-----VLEALRQKANFKHYKPKQFSMLEFLH    158
+                     ||:..::.. |..:.||     .|:..|.:||::.::...:.:.|..|
+RR14_CRYJA        41 LDIYRKLQSLPRNSAPTRLRRRCLKTGRPRANYRDFELSGYIIREMAH     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      25/108 (23.1%)
+# Similarity:    32/108 (29.6%)
+# Gaps:          28/108 (25.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      336 PEQHKECAEPALGLLAEKDSNYCL---CRTPCNLTRYNKELSMVKIPSKT    382
+                     |||........:.||..:..|..|   ...|..|..|..|....|..:||
+DCUP_BACVZ       118 PEQDVPYVLETIRLLVNEQLNVPLIGFSGAPFTLASYMIEGGPSKNYNKT    167
+
+ASIC2_MOUSE      383 SA---------------------KYLEKKFNKSEKYISENILVLDIFFEA    411
+                     .|                     .|.:.:.|...|.|.    :.|.:..|
+DCUP_BACVZ       168 KAFMHSMPQAWKMLMDKLADMIIVYAKAQINAGAKAIQ----IFDSWVGA    213
+
+ASIC2_MOUSE      412 LNYETIEQ    419
+                     ||.|...|
+DCUP_BACVZ       214 LNREDYRQ    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      57/296 (19.3%)
+# Similarity:    95/296 (32.1%)
+# Gaps:         112/296 (37.8%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       58 VESSERVSYYFSYQHVTK-----VDEVVAQSLVFPAVTLCNLNGFRFSRL    102
+                     ||..|:.:.....:..|:     ||.|..::|                |.
+GTF2I_MOUSE       81 VEEEEKAAEMHKMKSTTQANRMSVDAVEIETL----------------RK    114
+
+ASIC2_MOUSE      103 TTND--LYHAGELLALLDVNLQIPDPH---LADPT--VLEALRQKANFKH    145
+                     |..|  .:..|:.|....|   :|.|:   |.|.:  |::.|.:...|||
+GTF2I_MOUSE      115 TVEDYFCFCYGKALGKSTV---VPVPYEKMLRDQSAVVVQGLPEGVAFKH    161
+
+ASIC2_MOUSE      146 YKPKQFSM------LEFLHRVGHDLKDMMLYCK--FKGQECGHQDFTTVF    187
+                       |:.:.:      ||....:...:|...|..|  ..|:....:...::.
+GTF2I_MOUSE      162 --PEHYDLATLKWILENKAGISFIIKRPFLEPKKHLGGRVLAAEAERSML    209
+
+ASIC2_MOUSE      188 TKYGKC---------------------------------YMFN-------    197
+                     :..|.|                                 |.:|       
+GTF2I_MOUSE      210 SPSGSCGPIKVKTEPTEDSGISLEMAAVTVKEESEDPDYYQYNIQGPSET    259
+
+ASIC2_MOUSE      198 SGEDGK-PLLTTVKG----GTGN-GLEIMLDIQQD-EYLPIWGETEETTF    240
+                     .|.|.| ||...::|    ..|| |.|:.:..:.. :::|     .||:.
+GTF2I_MOUSE      260 DGVDEKLPLSKALQGSHHSSEGNEGTEVEVPAEDSTQHVP-----SETSE    304
+
+ASIC2_MOUSE      241 EAGVKVQIHSQS-EPPFIQELGFGVAPGFQTFVATQEQRLTYLPPP    285
+                     :..|:|.|.... .||                  |:..:.|..|||
+GTF2I_MOUSE      305 DPEVEVTIEDDDYSPP------------------TKRLKSTEPPPP    332
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      27/101 (26.7%)
+# Similarity:    41/101 (40.6%)
+# Gaps:          22/101 (21.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       16 SIQIFANTSTLHG----IRHIFVYGPLTIRRVLWAVAFVGSLGLLLVESS     61
+                     :|||......|.|    :||..|:.    |.|   |..:.:.|.:.||..
+ISPH_ACIF5        18 AIQIVDRALELFGAPIYVRHEVVHN----RHV---VEDLRARGAIFVEEL     60
+
+ASIC2_MOUSE       62 ERV----SYYFSYQHVTKV--DEVVAQSL-VF----PAVTLCNLNGFRFS    100
+                     :.|    :..||...|...  :...|:.| ||    |.||..::...::|
+ISPH_ACIF5        61 DEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATCPLVTKVHMEVKKYS    110
+
+ASIC2_MOUSE      101 R    101
+                     |
+ISPH_ACIF5       111 R    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           4/17 (23.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       57 LVESSERVS----YYFS     69
+                     |:|...|:|    ||.|
+NDUA1_HUMAN       47 LMERDRRISGVDRYYVS     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      31/124 (25.0%)
+# Similarity:    40/124 (32.3%)
+# Gaps:          38/124 (30.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      262 FGVAPGFQTFVATQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACRIDC    311
+                     ||:......|:|.....|| ||......:....||...| ..:.|.|   
+PSRP_SALTI       174 FGIRAANYPFIADDMDNLT-LPTSLKPLQHKLFGLTIDP-ERLAAIR---    218
+
+ASIC2_MOUSE      312 ETRYIVENC------NCRMVHMPGDAPFCTPEQHKECAEPALGLLAEKDS    355
+                     |.|.  ||.      .|||.                        :||.::
+PSRP_SALTI       219 EERR--ENSRYASLRQCRME------------------------VAEVEA    242
+
+ASIC2_MOUSE      356 NYCLCRTPC-NLTRYNKELSMVKI    378
+                     .|...:.|| |.|.|:.|....||
+PSRP_SALTI       243 LYRKNQIPCLNSTNYSVEEIATKI    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      40/203 (19.7%)
+# Similarity:    68/203 (33.5%)
+# Gaps:          93/203 (45.8%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      367 TRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISEN----ILVLDIFFE--    410
+                     |:|:        ||:.||..|:|....:|.|:.|.    ::.:..:|.  
+DNAK_CHESB       108 TKYS--------PSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDA    149
+
+ASIC2_MOUSE      411 --------------------------ALNYETIEQKKAYEVAALLGDIGG    434
+                                               ||.| .:::|:...:|..  |:||
+DNAK_CHESB       150 QRQATKDAGKIAGLEVLRIINEPTAAALAY-GLDKKEGKTIAVY--DLGG    196
+
+ASIC2_MOUSE      435 QMGLFIGASILTILELFDYIYEL--------------------------I    458
+                           |...::|||:.|.::|:                          .
+DNAK_CHESB       197 ------GTFDISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFK    240
+
+ASIC2_MOUSE      459 KEKLLDLLG--------KEEEEGSHDENMSTCDTMPNHSETISHTVNVPL    500
+                     ||:.:||..        ||..|.:..|..|:..|          .:|:|.
+DNAK_CHESB       241 KEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQT----------EINLPF    280
+
+ASIC2_MOUSE      501 QTA    503
+                     .||
+DNAK_CHESB       281 ITA    283
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      18/65 (27.7%)
+# Similarity:    28/65 (43.1%)
+# Gaps:           6/65 ( 9.2%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      409 FEALNYETIEQKKAYEVAALLGDIGGQMGLF--IGASILTILELFDYIYE    456
+                     ||.||    |:::|..:|..........|..  :..:|:....|..|.|.
+DNLJ_ACIC5       188 FEKLN----EEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYF    233
+
+ASIC2_MOUSE      457 LIKEKLLDLLGKEEE    471
+                     .:.||..|..|::||
+DNLJ_ACIC5       234 ALTEKGEDAFGEQEE    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    37/88 (42.0%)
+# Gaps:          19/88 (21.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      363 PCNLTRYNKEL-SMVKI-----PSKTSAKYLEKKFNKSEKYISENILVLD    406
+                     |.::|.|:|:| |.::|     |...|..::..:...:...:|  :..:.
+CAPSD_CMVO        93 PDSVTEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLS--VAAIS    140
+
+ASIC2_MOUSE      407 IFF-----EALNYE------TIEQKKAYEVAALLGDIG    433
+                     ..|     ..|.|:      ....|..|:::|:..|||
+CAPSD_CMVO       141 AMFADGASPVLVYQYAAFGVQANNKLLYDLSAMRADIG    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      44/206 (21.4%)
+# Similarity:    73/206 (35.4%)
+# Gaps:          82/206 (39.8%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      274 TQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACRI-----------DCE    312
+                     ||:.:|||        |.:|.       ..:...||           ..|
+IF3_CHLL2          8 TQKPKLTY--------RVNEQ-------IRVPEVRIVFQDGTQQVMKTIE     42
+
+ASIC2_MOUSE      313 TRYIVENCNCRMVHMPGDA--PFCTPEQHKECAEPALGLLAEKDSNYCLC    360
+                     .|.:.|:.|..::.:..:|  |.|..:.        ||.|..|       
+IF3_CHLL2         43 ARRMAEDRNLDLIEVQPNAEPPVCKLDN--------LGKLLFK-------     77
+
+ASIC2_MOUSE      361 RTPCNLTRYNKELSMVKIPSKTSAKYLEKKFN-KSEKYISENILVLDIFF    409
+                          :.:.:|:|.  |....|:.|  |.:|: .::|:        |..|
+IF3_CHLL2         78 -----MDKRDKDLK--KKQKTTTLK--ELRFHPNTDKH--------DFDF    110
+
+ASIC2_MOUSE      410 EALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIK    459
+                     :..:.|.. .:|...|.|.:        :|:|.||         ||   |
+IF3_CHLL2        111 KTAHLEEF-LRKGNRVRATI--------VFLGRSI---------IY---K    139
+
+ASIC2_MOUSE      460 EKLLDL    465
+                     :|.|:|
+IF3_CHLL2        140 DKGLEL    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      12/51 (23.5%)
+# Similarity:    21/51 (41.2%)
+# Gaps:          11/51 (21.6%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      205 LLTTVKGG----TGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHS    250
+                     |:.|.|.|    .|:.:.|.:       |.:.|...:...||..:|.:|.
+CSRA_HAEI8         2 LILTRKVGESVLIGDDISITV-------LSVRGNQVKLGVEAPKEVSVHR     44
+
+ASIC2_MOUSE      251 Q    251
+                     :
+CSRA_HAEI8        45 E     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      30/146 (20.5%)
+# Similarity:    55/146 (37.7%)
+# Gaps:          56/146 (38.4%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      361 RTPCNLTRYN-KELSMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFF    409
+                     :|..|:...| ||:...:|.:..:|..:.||          .::::| |.
+COAX_CLOBL        93 KTGINIKYDNPKEVGADRIVNAVAAHEIYKK----------PLIIID-FG    131
+
+ASIC2_MOUSE      410 EALNYETIEQKKAYEVAALLGDIGGQM---------GLFIGASILTILEL    450
+                     .|..:..:.::..|        :||.:         .||..|:.|..:||
+COAX_CLOBL       132 TATTFCAVTKEANY--------LGGTICPGIKISSDALFDKAAKLPRVEL    173
+
+ASIC2_MOUSE      451 --------------------------FDYIYELIKEKLLDLLGKEE    470
+                                               .|||...:|::::| ||:||
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMD-LGEEE    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      379 PSKTSAKYLEKKFNKSEKYISENILVL    405
+                     |::...:.||..|||..|:.....|.|
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCL     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 520
+# Identity:     104/520 (20.0%)
+# Similarity:   168/520 (32.3%)
+# Gaps:         170/520 (32.7%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       56 LLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLTTN    105
+                     :|...:|.|:.:....|:    ||.::|..:...||..|.       .|.
+THII_VIBA3        33 ILQRRTESVAVFNRRDHI----EVTSESDKYFKETLEVLT-------QTP     71
+
+ASIC2_MOUSE      106 DLYHAGELLALLDVNLQIPDPHLADPTVLE-----------ALRQKANFK    144
+                     .::|:.|:     ...:..|.|.....|||           ::|.|...|
+THII_VIBA3        72 GIHHSLEV-----QQSEFKDLHNIYEQVLERSGALIEGKTFSVRAKRRGK    116
+
+ASIC2_MOUSE      145 HYKPKQFSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDFTTVF----TKY    190
+                     |    .|:.:|....||..|...:...|.|   ..:.|.|...    .|.
+THII_VIBA3       117 H----DFTSIELERYVGGGLNQAVESAKVK---LKNPDITVKVEVENDKL    159
+
+ASIC2_MOUSE      191 GKCYMFNSGEDGKP------LLTTVKGGTGNGLEIMLDIQQDE-----YL    229
+                     .:....:.|..|.|      ||:.:.||..:|:...|.|::..     :.
+THII_VIBA3       160 NQVIERHKGLGGFPLGTQEDLLSLISGGFDSGVSSYLHIKRGSKVHYCFF    209
+
+ASIC2_MOUSE      230 PIWGETEETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRL    279
+                     .:.|...    |.|||...|                              
+THII_VIBA3       210 NLGGPAH----EIGVKQVSH------------------------------    225
+
+ASIC2_MOUSE      280 TYLPPPWGECRSSE----MGLDFFPVYSITACRI-DCETRYIVENCNCRM    324
+                      ||   |.:..||.    :.:||.||.:.....: |.:...:::....|.
+THII_VIBA3       226 -YL---WDKYGSSAKVKFISIDFEPVVAEILENVEDGQMGVVLKRMFMRA    271
+
+ASIC2_MOUSE      325 VHMP----GDAPFCTPEQHKECAEPALGLLAEKDS-NYCLCRTPCNLTRY    369
+                     ..|.    |.....|.|...:.:...|..|...|: ...|...|  |..:
+THII_VIBA3       272 GGMVAERFGIEALVTGEALGQVSSQTLTNLRHIDNVTDTLILRP--LINW    319
+
+ASIC2_MOUSE      370 NKE----LSMVKIPSKTSAKYL-----------------------EKKFN    392
+                     :||    ||. ||.::..||.:                       |.|||
+THII_VIBA3       320 DKEDIIDLSR-KIGTEDFAKVMPEYCGVISKKPTVKAKKGKLEAEEAKFN    368
+
+ASIC2_MOUSE      393 -KSEKYISENILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIG    441
+                      :..:.:.||..::||    .:.|...|::|.||..:             
+THII_VIBA3       369 FEVLEQVIENARIMDI----RDIEKESQEQAPEVEQV-------------    401
+
+ASIC2_MOUSE      442 ASILTILELFDYIYELIKEK--LLDLLGKEEEEGSHDENMSTCDTMPNHS    489
+                                   :.:.|.  :||:...:||    ||:....|.:    
+THII_VIBA3       402 --------------QAVAEHAVVLDIRSPDEE----DESPLEIDGV----    429
+
+ASIC2_MOUSE      490 ETISHTVNVPLQTALGTLEE    509
+                      .|.|.....|.|..|.|::
+THII_VIBA3       430 -EIKHIPFFKLSTQFGDLDQ    448
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      20/94 (21.3%)
+# Similarity:    39/94 (41.5%)
+# Gaps:          11/94 (11.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       33 FVYGPLTIRRVLWAVAFVG-SLGLLLVESSERVSYYFSYQHVTKVDEVVA     81
+                     |...|.|::|..:.|...| :||.|..|.:.|:......::...||    
+RL13_PSEPG         4 FTAKPETVKREWFVVDAAGQTLGRLATEIATRLRGKHKPEYTPHVD----     49
+
+ASIC2_MOUSE       82 QSLVFPAVTLCNLNGFRFSRLTTND-LY--HAGELLALLDVNLQ    122
+                        ....:.:.|....|.:...::| :|  |:|....:.::|.:
+RL13_PSEPG        50 ---TGDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKEINFE     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      25/149 (16.8%)
+# Similarity:    48/149 (32.2%)
+# Gaps:          49/149 (32.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      135 EALRQKANFKH----YKPKQFSMLEFLHRVGHDLKDMMLYCKFKGQECGH    180
+                     |.:|...:|.|    :.|:....:. ..|.|..:.::....:|..:.|. 
+RR2_ARATH         12 EMMRAGVHFGHGTRKWNPRMAPYIS-AKRKGIHIINLTRTARFLSEACD-     59
+
+ASIC2_MOUSE      181 QDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLP    230
+                                  .:|::...||..|..   ||.|               
+RR2_ARATH         60 -------------LVFDAASRGKQFLIV---GTKN---------------     78
+
+ASIC2_MOUSE      231 IWGETEETTFEAGVKVQIHSQSEPPFIQELGFGVAPGFQTFVATQEQRL    279
+                        :..:....|.::.:.|      ::.:...|   |..|..:|.|:||
+RR2_ARATH         79 ---KAADLVSRAAIRARCH------YVNKKWLG---GMLTNWSTTEKRL    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      15/75 (20.0%)
+# Similarity:    26/75 (34.7%)
+# Gaps:          17/75 (22.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      211 GGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQSEPPFIQEL    260
+                     |||......:|.:.....|.:|.:.:...:..|:        |...:...
+Y1710_SYNP2      175 GGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGI--------EKELVTPT    216
+
+ASIC2_MOUSE      261 GFGVAPGFQTFVATQEQRLTYLPPP    285
+                     |..:|    |.:||.     :..||
+Y1710_SYNP2      217 GAAIA----TTLATD-----FCQPP    232
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      18/91 (19.8%)
+# Similarity:    37/91 (40.7%)
+# Gaps:          22/91 (24.2%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      398 ISENILVLDIFFEALNYET----IEQKK---------------AYEVAAL    428
+                     :...:|:||..|..|:.:|    |.:.|               ::|.|..
+WTPC_THEKO       148 VEPELLLLDEPFANLDVQTRGRLINEMKRWRKELGFTALHVTHSFEEAVS    197
+
+ASIC2_MOUSE      429 LGDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKE    469
+                     |||   ::|:.:...::.:..:.:.......|::...||.|
+WTPC_THEKO       198 LGD---RVGVMLNGRLVQVGPVREVFSRPASEEVAKFLGFE    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 350
+# Identity:      70/350 (20.0%)
+# Similarity:   114/350 (32.6%)
+# Gaps:          95/350 (27.1%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE        2 DLKES-----PSEGSLQPSSIQIFANTSTLHGIRHIF--VYGPLTIRRVL     44
+                     |:|.|     ||...|:....|    .::|..|.:.|  :..|.:.:.:|
+GRB7_RAT          38 DVKRSQPLPIPSSRKLREEEFQ----ATSLPSIPNPFPELCSPPSQKPIL     83
+
+ASIC2_MOUSE       45 WAVAFVGSLGLLLVESSER-VSYYFSYQHVTKVDEVVAQSLVFPAVTLCN     93
+                     ...:  |:.|||..:||.. |...:|.....:..||.|.:..        
+GRB7_RAT          84 GGSS--GARGLLPRDSSRLCVVKVYSEDGACRSVEVAAGATA--------    123
+
+ASIC2_MOUSE       94 LNGFRFSRLTTNDLYHAGELL-----ALLDVNLQIPD--PHLADPTVLEA    136
+                                   .|..|:|     ||.|.|..:.:  |:||....||.
+GRB7_RAT         124 --------------RHVCEMLVQRAHALSDENWGLVECHPYLALERGLED    159
+
+ASIC2_MOUSE      137 LRQKANFKHYKP----------KQFSMLEFLHRVGHDL--KDMMLYCKFK    174
+                     .......:...|          |.|:..|......|.|  :.|:..|...
+GRB7_RAT         160 HESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDT    209
+
+ASIC2_MOUSE      175 GQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQ    224
+                     .....|:|....|...|      |..:.:..|.....|.|:|.:      
+GRB7_RAT         210 PTGISHEDLIQNFLNAG------SFPEIQGFLQLRGSGRGSGRK------    247
+
+ASIC2_MOUSE      225 QDEYLPIWGETEETTFEAGVKVQIHSQSEPP----FIQELGFGVAPGFQT    270
+                           :|.........:|:.......|:.|    ::.::...     ..
+GRB7_RAT         248 ------LWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADINES-----NV    286
+
+ASIC2_MOUSE      271 FVATQEQRLTYLPPPWGEC------RSSEMGLDFFPVYSITACRIDCETR    314
+                     :|.||.::|..:|..:|.|      |:...||..|       |..|.::|
+GRB7_RAT         287 YVVTQGRKLYGIPTDFGFCVKPNKLRNGHKGLHIF-------CSEDEQSR    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      19/107 (17.8%)
+# Similarity:    42/107 (39.3%)
+# Gaps:          37/107 (34.6%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       43 VLWA-VAFVGSL--------------------GLLLVESSERVSYYFSYQ     71
+                     ::|| :.::|::                    ||::..:..|||.     
+PSD_RHOPS         34 LIWAPLGWIGTVLTIWCALFFRDPVRVTPVREGLVVAPADGRVSM-----     78
+
+ASIC2_MOUSE       72 HVTKV---------DEVVAQSLVFPAVTLCNLNGFRFSRLTTNDLYHAGE    112
+                      |.::         |:.:.:..:|.:|..|::|....:......:|..|:
+PSD_RHOPS         79 -VVQMIPPPALGLGDKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPGK    127
+
+ASIC2_MOUSE      113 LL-ALLD    118
+                     .: |.||
+PSD_RHOPS        128 FINAELD    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 454
+# Identity:      84/454 (18.5%)
+# Similarity:   147/454 (32.4%)
+# Gaps:         154/454 (33.9%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       53 LGLLLVESSERVSYYFSYQHVTKV-DEVVAQSLVFPAVTLCNL-NGFRFS    100
+                     :||:...||      ||.....:| |::|...:.....|...| ||:...
+PP156_ARATH      174 IGLVRYPSS------FSISSAREVFDDMVKIGVSLNVQTFNVLVNGYCLE    217
+
+ASIC2_MOUSE      101 RLTTNDLYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQ    150
+                     ....:.|.....:::...||   || ::...|:|:|:.:|....      
+PP156_ARATH      218 GKLEDALGMLERMVSEFKVN---PD-NVTYNTILKAMSKKGRLS------    257
+
+ASIC2_MOUSE      151 FSMLEFLHRVGHDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGE    200
+                                 |||:::|..|..|.......:..:.  ||.|.:.:..|
+PP156_ARATH      258 ------------DLKELLLDMKKNGLVPNRVTYNNLV--YGYCKLGSLKE    293
+
+ASIC2_MOUSE      201 -----------DGKPLLTTVK---------GGTGNGLEIM-----LDIQQ    225
+                                :..|.|.|..         |....|||:|     |.:|.
+PP156_ARATH      294 AFQIVELMKQTNVLPDLCTYNILINGLCNAGSMREGLELMDAMKSLKLQP    343
+
+ASIC2_MOUSE      226 DEYLPIWGETEETTFEAGVKVQ---IHSQSEPPFIQELGFGVAPGFQTFV    272
+                     |  :..:....:..||.|:.::   :..|.|           ..|.:...
+PP156_ARATH      344 D--VVTYNTLIDGCFELGLSLEARKLMEQME-----------NDGVKANQ    380
+
+ASIC2_MOUSE      273 ATQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACRIDCETRYIVENCNC    322
+                     .|....|.:|      |:..:.               :..||.:.|    
+PP156_ARATH      381 VTHNISLKWL------CKEEKR---------------EAVTRKVKE----    405
+
+ASIC2_MOUSE      323 RMVHMPGDAPFCTPEQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKE    372
+                      :|.|.|.:|                                ::..|:..
+PP156_ARATH      406 -LVDMHGFSP--------------------------------DIVTYHTL    422
+
+ASIC2_MOUSE      373 L-SMVKIPSKTSAKYLEKKFNKSEKYISENILVLDIFFEALNYETIEQKK    421
+                     : :.:|:...:.|  ||......:|.|..|.:.|:...:||    .:::|
+PP156_ARATH      423 IKAYLKVGDLSGA--LEMMREMGQKGIKMNTITLNTILDAL----CKERK    466
+
+ASIC2_MOUSE      422 AYEVAALLGDIGGQ-------------MGLFIGASILTILELFDYIYELI    458
+                     ..|...||.....:             ||.|....:...||::|   |:.
+PP156_ARATH      467 LDEAHNLLNSAHKRGFIVDEVTYGTLIMGFFREEKVEKALEMWD---EMK    513
+
+ASIC2_MOUSE      459 KEKL    462
+                     |.|:
+PP156_ARATH      514 KVKI    517
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      30/168 (17.9%)
+# Similarity:    60/168 (35.7%)
+# Gaps:          45/168 (26.8%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      355 SNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKS----EKYISE    400
+                     :||.:....|    .:..:.:..:|...| ..|.|.:|..    |.:.|.
+ADRB2_MESAU       68 TNYFITSLAC----ADLVMGLAVVPFGAS-HILMKMWNFGNFWCEFWTSI    112
+
+ASIC2_MOUSE      401 NILVLDIFFEAL---------------NYETIEQKKAYEVAALLGDIGGQ    435
+                     ::|.:....|.|               .|:::..|....:..|:      
+ADRB2_MESAU      113 DVLCVTASIETLCVIAVDRYIAITSPFKYQSLLTKNKARMVILM------    156
+
+ASIC2_MOUSE      436 MGLFIGASILTILELFDYIYELIKEKLLDLLGKEEEEGSHDENMSTCDTM    485
+                       ::|.:.:.:.|.:..:.|....:|.:|...||          :.||..
+ADRB2_MESAU      157 --VWIVSGLTSFLPIQMHWYRATHQKAIDCYHKE----------TCCDFF    194
+
+ASIC2_MOUSE      486 PNHSETISHTV---NVPL    500
+                     .|.:..|:.::   .|||
+ADRB2_MESAU      195 TNQAYAIASSIVSFYVPL    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           2/16 (12.5%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      341 ECAEPALGLLAEKDSN    356
+                     ||.:  ||:..:.|:|
+ID5B_ADEPA         2 ECKD--LGISIDDDNN     15
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      31/157 (19.7%)
+# Similarity:    51/157 (32.5%)
+# Gaps:          51/157 (32.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      323 RMVHMPG----DAPFCTPEQHKECAEPALGLLAE--------------KD    354
+                     |::|..|    |.....|..:..|....|.:|..              :|
+GPA7_CAEEL        54 RILHKDGFSQQDLEMIRPVVYSNCIHSMLSILRAMFHLQIEYGEPDRVRD    103
+
+ASIC2_MOUSE      355 SNYCLCRTPCNLTRYNKELSM----------VKIPSKTSAKYLEKKFNKS    394
+                     |.........|.....:||:.          |:...:.|.:|   :.:.|
+GPA7_CAEEL       104 SQLVFATVHANKEELTEELAAAMQRLWHDPGVRECYRRSNEY---QIDDS    150
+
+ASIC2_MOUSE      395 EKYISENILVLDIFFEALNYETIEQ-------------KKAYEVAAL---    428
+                     .||..:|:..|    .:.||...||             :..:|:..|   
+GPA7_CAEEL       151 AKYFLDNLPRL----SSPNYVPSEQDLLRTRIKTTGITEVLFELKGLTFR    196
+
+ASIC2_MOUSE      429 LGDIGGQ    435
+                     :.|:|||
+GPA7_CAEEL       197 VIDVGGQ    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      17/55 (30.9%)
+# Similarity:    21/55 (38.2%)
+# Gaps:          22/55 (40.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      284 PPWGE---------CRSSEMGLDFFPVYSITACRIDCETRY-------IV    317
+                     |..||         || .|:|::..|..||..     :.||       ||
+IDI_ECO24         70 PQLGESNEDAVIRRCR-YELGVEITPPESIYP-----DFRYRATDPNGIV    113
+
+ASIC2_MOUSE      318 ENCNC    322
+                     ||..|
+IDI_ECO24        114 ENEVC    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 483
+# Identity:      86/483 (17.8%)
+# Similarity:   132/483 (27.3%)
+# Gaps:         210/483 (43.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       24 STLHGIRHIFVY---GPLTIRRVLWA--VAFVGSLGLLLVESSERVSYYF     68
+                     |.|:.|..:..|   .|.....:.||  |:......:|...:.:|..||.
+YHJA_ECOLI       111 SDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIAKQRAEYYA    160
+
+ASIC2_MOUSE       69 SY----QHVTKVDEVVAQSLVFPA--VTLCNLNGFRFSRLTTNDLYHAGE    112
+                     |.    :|..:..:.:.|.|...|  |.|    ||.        |||   
+YHJA_ECOLI       161 SNDTAPEHRNEPVQPIPQKLPTDAQKVAL----GFA--------LYH---    195
+
+ASIC2_MOUSE      113 LLALLDVNLQIPDPHL-ADPTVLEALRQKANFKHYKPKQFSMLEFLHRVG    161
+                                 ||.| ||.|:                            
+YHJA_ECOLI       196 ------------DPRLSADSTI----------------------------    205
+
+ASIC2_MOUSE      162 HDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNS-GEDGKPLLTTVK    210
+                                    .|.|            |:..|: |.||:.....|.
+YHJA_ECOLI       206 ---------------SCAH------------CHALNAGGVDGRKTSIGVG    228
+
+ASIC2_MOUSE      211 GGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQSEPPFIQEL    260
+                     |..|               ||   ...|.|.:...|:.........:|:.
+YHJA_ECOLI       229 GAVG---------------PI---NAPTVFNSVFNVEQFWDGRAATLQDQ    260
+
+ASIC2_MOUSE      261 GFGVAPGFQTFVATQEQRLTYLPP---------PWGEC-----RSSEMGL    296
+                     ..|                   ||         .|.|.     :..::..
+YHJA_ECOLI       261 AGG-------------------PPLNPIEMASKSWDEIIAKLEKDPQLKT    291
+
+ASIC2_MOUSE      297 DFFPVY-------SITACRIDCETRYIVENCNCRMVHMPGDAPF------    333
+                     .|..||       :||....:.|...|..           |:||      
+YHJA_ECOLI       292 QFLEVYPQGFSGENITDAIAEFEKTLITP-----------DSPFDKWLRG    330
+
+ASIC2_MOUSE      334 ----CTPEQHK--------ECA-------------EPALGLLAEKDSNYC    358
+                         .|.:|.|        :||             || |||  :||.|:.
+YHJA_ECOLI       331 DENALTAQQKKGYQLFKDNKCATCHGGIILGGRSFEP-LGL--KKDFNFG    377
+
+ASIC2_MOUSE      359 LCRTP----CNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENILV    404
+                     .....    .|:|:..::....|:|...:.......|::.:....:..:.
+YHJA_ECOLI       378 EITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVK    427
+
+ASIC2_MOUSE      405 LDIFFEALNYET---IEQKKAYEVAALLGDIGG    434
+                     |     .|.|:.   :.|:...::.|.|..:.|
+YHJA_ECOLI       428 L-----MLRYQVGKELPQEDVDDIVAFLHSLNG    455
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      26/110 (23.6%)
+# Similarity:    38/110 (34.5%)
+# Gaps:          39/110 (35.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       56 LLVESSERVSYYFSYQHVTKVD-------EVVAQSLVFPAVTLCNLNGFR     98
+                     :.::..|:|:.  ..|||..|:       ||.:..|..|...|.:...|.
+RIMP_BURPS        39 ITIDDCEKVTR--QLQHVLTVENIDYERLEVSSPGLDRPLKKLADFTRFA     86
+
+ASIC2_MOUSE       99 FS------------RLTTNDLYHA--GELL-----------ALLDVNLQI    123
+                     .|            |.|...:.||  ||.:           |:||..|..
+RIMP_BURPS        87 GSEAVITLKKPLDGRKTYRGILHAPNGETIGLEFERKKGEAAMLDFTLAD    136
+
+ASIC2_MOUSE      124 PD-----PHL    128
+                     .|     ||:
+RIMP_BURPS       137 IDKARLIPHV    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:    10/24 (41.7%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       95 NGFRFSRLTTNDLYHAGELLALLD    118
+                     ||.|............|::|.||:
+RS28_OSTOS        34 NGNRTINRNVKGPVREGDILTLLE     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       9/21 (42.9%)
+# Similarity:    13/21 (61.9%)
+# Gaps:           2/21 ( 9.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      398 ISENILVLDIFF--EALNYET    416
+                     :|.||||:....  :.|:|||
+HBAC_LITCT       102 LSNNILVVVAVHHSDKLSYET    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 272
+# Identity:      51/272 (18.8%)
+# Similarity:    80/272 (29.4%)
+# Gaps:         111/272 (40.8%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      204 PLLTTVKG--------------------GTGNGLEIMLDIQQDEYLPIWG    233
+                     |||.|.|.                    |:|....::..:|.|:.  |:.
+RPOA_PRRSS      3144 PLLPTCKDINMVKVACNVLLSKFIVGPPGSGKTTWLLSQVQDDDV--IYT   3191
+
+ASIC2_MOUSE      234 ETEETTFEAGVKVQIHSQSEP--------------PFIQELGFGVAPGFQ    269
+                     .|.:|.|:....:::...|.|              |:::.:..|..||  
+RPOA_PRRSS      3192 PTHQTMFDIVSALKVCRYSIPGASGLPFPPPARSGPWVRLVASGHVPG--   3239
+
+ASIC2_MOUSE      270 TFVATQEQRLTYLPPPWGECRSSEMGLDFFPVYSIT--ACRIDCETRYIV    317
+                             |.:||... |.|..    ||...:.|.|  .|..|.:     
+RPOA_PRRSS      3240 --------RTSYLDEA-GYCNH----LDILRLLSKTPLVCLGDLQ-----   3271
+
+ASIC2_MOUSE      318 ENCNCRMVHMPGDAPFC-----TPEQHKECAEPALGLLAEKDSNYCLCRT    362
+                           .:|..|...:|     .|::.       |..:.....|.|....
+RPOA_PRRSS      3272 ------QLHPVGFDSYCYVFDQMPQKQ-------LTTIYRFGPNICAAIQ   3308
+
+ASIC2_MOUSE      363 PCN-------------------------LTRYNKEL--SMVKIPSKTSAK    385
+                     ||.                         ||.|:|:.  |.:.|.|...|.
+RPOA_PRRSS      3309 PCYREKLESKARNTRVVFTTWPVAFGQVLTPYHKDRIGSAITIDSSQGAT   3358
+
+ASIC2_MOUSE      386 Y--------LEKKFNKSEKYIS    399
+                     :        ..|..|||...::
+RPOA_PRRSS      3359 FDIVTLHLPSPKSLNKSRALVA   3380
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      25/117 (21.4%)
+# Similarity:    47/117 (40.2%)
+# Gaps:          37/117 (31.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      332 PFCTPEQHKECAEPALGL--LAEKDSNYCLCRTPCNLTRYNKELSMVKIP    379
+                     ||  |:.|.:|...|.||  :..||.   ..|:...:.:....|.:::. 
+UBIE_PSEAE       133 PF--PDNHFDCVTIAFGLRNVTHKDE---AIRSMLRVLKPGGRLLVLEF-    176
+
+ASIC2_MOUSE      380 SKTSAKYLEKKF----------------NKSE--KYISENI---------    402
+                     ||.|:..|.|.:                |.||  :|::|:|         
+UBIE_PSEAE       177 SKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETL    226
+
+ASIC2_MOUSE      403 --LVLDIFFEALNYETI    417
+                       ::::..|:.:.|..:
+UBIE_PSEAE       227 KAMMVEAGFDRVTYHNM    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 342
+# Identity:      61/342 (17.8%)
+# Similarity:   115/342 (33.6%)
+# Gaps:         104/342 (30.4%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      173 FKGQECGHQDFTTVFTKYGK------CYMFNSGEDGKPLLTTVKG--GTG    214
+                     |.|...|......:.|::.|      ..:...|.:.|..|..|.|  |..
+FLII_AQUAE       168 FAGAGVGKSTLLGMITRHSKADVVVLALIGERGREVKEFLEEVLGEEGLK    217
+
+ASIC2_MOUSE      215 NGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIH-----SQSEPPFI--    257
+                     ..:.::....|...|.:.|         .:...:|     ||.:...:  
+FLII_AQUAE       218 KSVVVVSTADQSPILKVKG---------AISAVVHAHHFASQGKDVLLLM    258
+
+ASIC2_MOUSE      258 ----------QELGF--GVAPGFQTFVATQEQRLTYLPPPWGECRSSEMG    295
+                               :|:|.  |..|..:.|..:..|.||.:..   .|.:.:.|
+FLII_AQUAE       259 DSITRLALAQREIGLAAGEPPTLKGFTPSVFQLLTRIAE---SCGAFKKG    305
+
+ASIC2_MOUSE      296 LDFFPVYSITACRIDCETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEP    345
+                            |||..     ...:||          ||.....|     .|:.
+FLII_AQUAE       306 -------SITGI-----FTVLVE----------GDDISLDP-----IADS    328
+
+ASIC2_MOUSE      346 ALGLLAEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSE    395
+                     .:|:|   |.:..|.|     .|..:.|.....|.::.::.:.|..::  
+FLII_AQUAE       329 LMGVL---DGHIILSR-----KRAVRGLFPAVDPVRSLSRLMPKLVSE--    368
+
+ASIC2_MOUSE      396 KYISENILVLDIFFEALN-YETIEQKKAYEVAALLGDIGGQMGLFIGAS-    443
+                         |:.:..:.|.|.|: :|.:|:..             ::||:.|.| 
+FLII_AQUAE       369 ----EHFMKANFFKEVLSKFEDVEELV-------------RIGLYKGGSN    401
+
+ASIC2_MOUSE      444 --ILTILELFDYIYELIKEKLLDLLGKEEEEGSHDENMSTCD    483
+                       :..::...:.:....|:       |.||:.:.:|::...|
+FLII_AQUAE       402 PLVDKVINNLEKVESFFKQ-------KPEEKVNFEESLKALD    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      16/77 (20.8%)
+# Similarity:    29/77 (37.7%)
+# Gaps:           7/77 ( 9.1%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      197 NSGED---GKPLLTTVKGGTGNGLEI----MLDIQQDEYLPIWGETEETT    239
+                     |:.:|   ..|...|:.....|..|:    ||....|.:|..|.|...:.
+MSS11_VANPO       95 NNNDDVAVKNPTAATLSQNDLNPRELLPTKMLMNANDTFLLEWWEYFSSV    144
+
+ASIC2_MOUSE      240 FEAGVKVQIHSQSEPPFIQELGFGVAP    266
+                     ::......:.:.....|:|:..|.:.|
+MSS11_VANPO      145 YDFVDTSDLSALQNNDFLQDRIFPILP    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      29/155 (18.7%)
+# Similarity:    47/155 (30.3%)
+# Gaps:          60/155 (38.7%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       11 SLQPSSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVES     60
+                     |:||:.::.....||..|:.::....||.:......:...|         
+SPB4_ASPFU       290 SVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHG---------    330
+
+ASIC2_MOUSE       61 SERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSR----LTTND    106
+                               :|...|.:.             |.|.|..|.    |.|.|
+SPB4_ASPFU       331 ----------KHQANVRQK-------------NFNRFINSHDPAILLTTD    357
+
+ASIC2_MOUSE      107 LYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSMLEF    156
+                     :...|..:..:|:.:||..|  :||.                      .|
+SPB4_ASPFU       358 VAARGLDIPSVDLVVQIDPP--SDPK----------------------SF    383
+
+ASIC2_MOUSE      157 LHRVG    161
+                     :||.|
+SPB4_ASPFU       384 IHRCG    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      45/264 (17.0%)
+# Similarity:    86/264 (32.6%)
+# Gaps:          86/264 (32.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      231 IWGETEETTF-----EAGVKVQIHSQSEPPFIQELGFGVAP----GFQTF    271
+                     :||...||.|     .|..| .|::.:|.|.|   .:||..    ||:  
+ASSY_MYCTO       180 VWGRAVETGFLEHLWNAPTK-DIYAYTEDPTI---NWGVPDEVIVGFE--    223
+
+ASIC2_MOUSE      272 VATQEQRLTYLPPPWGECRSSEMGLDFFPVYSITACRIDCETRYIVENCN    321
+                                       |...:.:|..||..:.|          :|..|
+ASSY_MYCTO       224 ------------------RGVPVSVDGKPVSMLAA----------IEELN    245
+
+ASIC2_MOUSE      322 CRMVHMPGDAPFCTPEQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNK    371
+                      |.....|.......|      :..:|:.:.:              .|..
+ASSY_MYCTO       246 -RRAGAQGVGRLDVVE------DRLVGIKSRE--------------IYEA    274
+
+ASIC2_MOUSE      372 ELSMVKIPSKTSAKY--LEKKFNKSEKYISENILVLDIFFEALNYETIEQ    419
+                     ..:||.|.:.|..::  ||::..:.::...:.  ..::.::.|.|..::.
+ASSY_MYCTO       275 PGAMVLITAHTELEHVTLERELGRFKRQTDQR--WAELVYDGLWYSPLKA    322
+
+ASIC2_MOUSE      420 KKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKE    469
+                     .....||.....:.|::.|.:....:.:                  .|:.
+ASSY_MYCTO       323 ALEAFVAKTQEHVSGEVRLVLHGGHIAV------------------NGRR    354
+
+ASIC2_MOUSE      470 EEEGSHDENMSTCD    483
+                     ..|..:|.|::|.|
+ASSY_MYCTO       355 SAESLYDFNLATYD    368
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      18/78 (23.1%)
+# Similarity:    30/78 (38.5%)
+# Gaps:          35/78 (44.9%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      300 PVYSITACRIDCETRYIVENCN---------------CRMVHMPGDAPFC    334
+                     |||::|:.|:      ::.|.:               .:.:.:|| ||:.
+ECCB1_MYCS2       97 PVYNLTSARL------VLGNASNPVAVKSEELNRISKGQSIGIPG-APYA    139
+
+ASIC2_MOUSE      335 TPEQHKECAEPALGLLAEKDSNYCLCRT    362
+                     ||     ...||        |.:.||.|
+ECCB1_MYCS2      140 TP-----TGTPA--------SQWTLCDT    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      29/142 (20.4%)
+# Similarity:    58/142 (40.8%)
+# Gaps:          48/142 (33.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      374 SMVK----IPSKTSAKYLEKKFNKS--EKYISENILVLDIFFEALNYETI    417
+                     :|:|    :||:.:.|.|::...||  :|::      :|.|     ....
+KCY4_ORYSJ        78 NMIKEGKIVPSEVTIKLLQEAMIKSGNDKFL------IDGF-----PRNE    116
+
+ASIC2_MOUSE      418 EQKKAYEVAALLGDIGGQMGLFIGASILTILELFDYIYELIKEKL-LDLL    466
+                     |.:.|:|                  ::..|...|...::..:|:: ..||
+KCY4_ORYSJ       117 ENRAAFE------------------NVTKITPAFVLFFDCSEEEMERRLL    148
+
+ASIC2_MOUSE      467 GKEEEEGSHDENMSTCDTMPNHSETISHTVNVPLQTALGTLE    508
+                     |:  .:|..|:|:          |||.....|.::::|..:|
+KCY4_ORYSJ       149 GR--NQGRVDDNI----------ETIRKRFKVFVESSLPVIE    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      44/189 (23.3%)
+# Similarity:    66/189 (34.9%)
+# Gaps:          50/189 (26.5%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       58 VESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNG---FRFSRLTT    104
+                     ::..:.:.:.|..|....|| :.:..|..    |..|.|   :.|..|..
+HCP_TRIV2        123 IQQGKDLEFEFISQSAKNVD-IFSLKLTL----LYGLKGVAAYAFHALEL    167
+
+ASIC2_MOUSE      105 ND-------LYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYK    147
+                     |.       .:|  |:||    ||...|..|.|                 
+HCP_TRIV2        168 NQHDESLYIFFH--EVLA----NLDAQDKSLQD-----------------    194
+
+ASIC2_MOUSE      148 PKQFSMLEFLHRVGH-DLKDMMLYCKFKGQECGHQDFTTVFTKY--GKCY    194
+                          .|:...:||. :||.|.|......:..||...|||...:  ||..
+HCP_TRIV2        195 -----WLDLTLKVGQMNLKAMELLDAGNTETFGHPTPTTVPLGHTVGKAI    239
+
+ASIC2_MOUSE      195 MFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQDEYLPIWG    233
+                     :. ||.|...|...::..:|.|:::   ....|.||..|
+HCP_TRIV2        240 LV-SGHDLLALKAVLEQTSGTGIKV---YTHGELLPAHG    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 289
+# Identity:      53/289 (18.3%)
+# Similarity:    94/289 (32.5%)
+# Gaps:          94/289 (32.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       16 SIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVA-FVG-----------SL     53
+                     |::...|.|...|: .:.||.  |.|...|..: |.|           |:
+UBX7_YEAST         9 SVEEAINDSIKEGV-VLAVYN--TARDDQWLKSWFKGDDVSLDTLAEHSI     55
+
+ASIC2_MOUSE       54 GLLLVESSERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSRLT    103
+                     .|.||:.:|:...:          |.|..::|.|::.|......... :.
+UBX7_YEAST        56 WLRLVKDTEQFQLF----------EQVFPNVVVPSIYLIRAGKIELI-IQ     94
+
+ASIC2_MOUSE      104 TNDLYHAGELLALL---------------------------DVNLQIPDP    126
+                     ..|..|..:|||.:                           ||:.:....
+UBX7_YEAST        95 GEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARE    144
+
+ASIC2_MOUSE      127 HLADPTV----LEALRQKANFKHYKPKQFSML-----------EFLHRVG    161
+                     .:|:.|:    .|.|:|:...:..:.:...::           |..||..
+UBX7_YEAST       145 RIAETTLEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTL    194
+
+ASIC2_MOUSE      162 HDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKG    211
+                     .|.|.:.::...|..:..|.         .||.:.....|||.|....  
+UBX7_YEAST       195 DDDKPLDVHDYIKDAQKLHS---------SKCVLQIRMTDGKTLKHEF--    233
+
+ASIC2_MOUSE      212 GTGNGLEIMLDIQQDEYLPIWGETEET------TFEAGV    244
+                        |..|.:.|:::      |.:...|      :|..|:
+UBX7_YEAST       234 ---NSSETLNDVRK------WVDVNRTDGDCPYSFHRGI    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      40/198 (20.2%)
+# Similarity:    61/198 (30.8%)
+# Gaps:          84/198 (42.4%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      303 SITACRIDC-------------ETRYIVENCNCRMVHMPGDAPFCTPEQH    339
+                     ::|:.|||.             :...||.|.....|.|.||.|       
+RPOA_ACICJ        65 AVTSVRIDGVLHEFSSIAGVREDVTDIVLNIKQIAVRMHGDGP-------    107
+
+ASIC2_MOUSE      340 KECAEPALGLLAEKDSNYCLCRTPCNLTR-----------YNKELSM---    375
+                     |.....|.|              ||.:|.           .|.||.:   
+RPOA_ACICJ       108 KRMTVSATG--------------PCEVTAGMIQTGHDIEVMNPELVICTL    143
+
+ASIC2_MOUSE      376 -------VKIPSKTSAKYLEKKFNKSE----------------KYISENI    402
+                            ::...::...|:....|:.|                :.:|..:
+RPOA_ACICJ       144 DDGATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSIYSPVRRVSYRV    193
+
+ASIC2_MOUSE      403 ------LVLDIFFEALNYET---IEQKKAYEVAA-LLGDIGGQMGLFI    440
+                           .|.|.....||.||   :..:.|..:|| :|.|   |:|:||
+RPOA_ACICJ       194 EPTRVGQVTDYDRLILNIETNGAVTPEDAVALAARILQD---QLGMFI    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      14/53 (26.4%)
+# Similarity:    23/53 (43.4%)
+# Gaps:           9/53 (17.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE      194 YMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQQ------DEYLPIWGETEE    237
+                     |.|:...||:..|.|:   |..|.:::...||      ::.|..|...|:
+YXAD_BACSU        81 YRFSDPSDGRVSLFTI---TKLGKQLLKADQQKRLERYEQMLKEWSTQEK    127
+
+ASIC2_MOUSE      238 TTF    240
+                     ..|
+YXAD_BACSU       128 EMF    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASIC2_MOUSE
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      47/213 (22.1%)
+# Similarity:    76/213 (35.7%)
+# Gaps:          81/213 (38.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+ASIC2_MOUSE       70 YQHVTKVDEVVAQSLVFPAVTLC-NLNGF--RFSRLTTNDLYHAGELLAL    116
+                     ||..|...|::..::    ..|| |..|.  :|.|          |.||.
+FADB_SHESR         3 YQSPTIQVELLEDNI----AKLCFNAPGSVNKFDR----------ETLAS     38
+
+ASIC2_MOUSE      117 LDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSML-----EFLHRVG    161
+                     ||             ..|::::|::|.      |..:|     .|:  ||
+FADB_SHESR        39 LD-------------AALDSIKQQSNI------QALVLTSGKDTFI--VG     67
+
+ASIC2_MOUSE      162 HDLKDMM-LYCKFKGQECGHQDFTTVFTKYGKC-YMFNSGED-GKPLLTT    208
+                     .|:.:.: |:.         ||...:.:...:. .:||..|| ..|..:.
+FADB_SHESR        68 ADITEFLGLFA---------QDDAVLLSWVEQANAVFNKLEDLPFPTASA    108
+
+ASIC2_MOUSE      209 VKG-GTGNGLEIML--DIQQDEYLPIWGETEETTFEAGVKVQIHSQSEPP    255
+                     :|| ..|.|.|.:|  |.:          ..:||.:.|            
+FADB_SHESR       109 IKGFALGGGCETILATDFR----------IADTTAKIG------------    136
+
+ASIC2_MOUSE      256 FIQELGFGVAPGF    268
+                      :.|...|:.|||
+FADB_SHESR       137 -LPETKLGIIPGF    148
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,258 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:05
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/Y3545_CROS8.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/Y3545_CROS8.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/Y3545_CROS8.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      95/95 (100.0%)
+# Similarity:    95/95 (100.0%)
+# Gaps:           0/95 ( 0.0%)
+# Score: 484.0
+# 
+#
+#=======================================
+
+Y3545_CROS8        1 MEEWFLYLIRCPDNRLYTGITTDVARRFAQHQRGKGAKALRGKGELTLVF     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y3545_CROS8        1 MEEWFLYLIRCPDNRLYTGITTDVARRFAQHQRGKGAKALRGKGELTLVF     50
+
+Y3545_CROS8       51 SAPAGSRSEALRAEYRIKQLTKRQKEQLVAGELAFEAMKSAPQTP     95
+                     |||||||||||||||||||||||||||||||||||||||||||||
+Y3545_CROS8       51 SAPAGSRSEALRAEYRIKQLTKRQKEQLVAGELAFEAMKSAPQTP     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      17/55 (30.9%)
+# Similarity:    23/55 (41.8%)
+# Gaps:           9/55 (16.4%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y3545_CROS8       41 RGKGELTLVFSAPAGS--------RSEALRAEYRIKQLTKRQKEQLVAGE     82
+                     ||..|.||..:|...|        ||..:.|:.|. .|.:|..:.|.|..
+KDPB_SALNS       326 RGVDERTLADAAQLASLADETPEGRSIVILAKQRF-NLRERDVQSLHATF    374
+
+Y3545_CROS8       83 LAFEA     87
+                     :.|.|
+KDPB_SALNS       375 VPFTA    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       6/27 (22.2%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y3545_CROS8       66 RIKQLTKRQKEQLVAGELAFEAMKSAP     92
+                     ::.:.:....|||::..|:......||
+YEJL_SALNS         3 QLSRYSDEHVEQLLSELLSVLEKHKAP     29
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    15/39 (38.5%)
+# Gaps:           5/39 (12.8%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y3545_CROS8       27 RFAQHQRGKGAKALRGKGELTLVFS-----APAGSRSEA     60
+                     |.|.|.|......:|....|.:.|:     .|..|||.|
+UPPP_AROAE       131 RRAYHPRINAVDEMRWADALKVGFAQAAAMIPGTSRSGA    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       5/31 (16.1%)
+# Similarity:    14/31 (45.2%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+Y3545_CROS8       10 RCPDNRLYTGITTDVARRFAQHQRGKGAKAL     40
+                     :.||:.::..:....::...:..:|...|.|
+CBPD_LOPSP       200 KSPDDAVFQQLALSYSKENKKMYQGSPCKDL    230
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     7/9 (77.8%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+Y3545_CROS8       41 RGKGELTLV     49
+                     :|.||:.|:
+NDHO_PROM1        53 QGPGEVLLI     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      10/44 (22.7%)
+# Similarity:    17/44 (38.6%)
+# Gaps:           8/44 (18.2%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y3545_CROS8        3 EWF----LYLIRCPDNRLYTGITT----DVARRFAQHQRGKGAK     38
+                     :|.    |...|..||::..|..:    .|..:||.:...:..|
+DAPD_SHIBS        57 QWLKKAVLLSFRINDNQVIEGAESRYFDKVPMKFADYDEARFQK    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    13/38 (34.2%)
+# Gaps:          15/38 (39.5%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y3545_CROS8       50 FSAPA---------------GSRSEALRAEYRIKQLTK     72
+                     |||||               |.....:.|.||.|:..:
+ASF1_CRYNJ        72 FSAPAPAHHLLPSVEPDEILGVTVIIITASYREKEFVR    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      17/90 (18.9%)
+# Similarity:    35/90 (38.9%)
+# Gaps:          22/90 (24.4%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+Y3545_CROS8       12 PDNR--LYTGITTDVARRFAQHQ-----------RGKG-----AKALRGK     43
+                     ||.:  ::.|...:..|..|.:.           |.:|     .|.|.||
+UBQ10_ARATH       38 PDQQRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTLTGK     87
+
+Y3545_CROS8       44 GELTLVFSAPAGSRSEALRAEYRIKQ-LTKRQKEQLVAGE     82
+                        |:.....:....:.::|:.:.|: :...|:..:.||:
+UBQ10_ARATH       88 ---TITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGK    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3545_CROS8
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      16/49 (32.7%)
+# Similarity:    23/49 (46.9%)
+# Gaps:           5/49 (10.2%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y3545_CROS8       48 LVFSAPAG---SRSEALRAEYR--IKQLTKRQKEQLVAGELAFEAMKSA     91
+                     |:.|..||   :|.|||:||..  .|.....|.|.|:...:..:.:|.|
+FADB_ACIBS       256 LLDSLQAGASLARDEALKAEAEGFAKAAVTPQAEALIGLFINDQVVKKA    304
+
+
+#---------------------------------------
+#---------------------------------------

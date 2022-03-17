@@ -1,0 +1,2720 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:40
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/NDKA_CANLF.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/NDKA_CANLF.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/NDKA_CANLF.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      17/63 (27.0%)
+# Similarity:    28/63 (44.4%)
+# Gaps:           3/63 ( 4.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        11 IKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYI-DLKDRP     59
+                     :|.:.:.|..:...:.|..:||.|....  ||..|.|.|:..: ||...|
+PUR7_VIBVU       125 VKIEAICRKYITGSMWRAYEKGEREFCG--IQLPEGLEKDKALPDLLMTP    172
+
+NDKA_CANLF        60 FFAGLVKYMQSGP     72
+                     ...|::|.:...|
+PUR7_VIBVU       173 STKGILKGIPGVP    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        14 DGVQRSLVGEIIK     26
+                     ||.:|.|:....|
+Y075_NITWN        33 DGARRELISRSAK     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        83 VVKTGRVMLGE     93
+                     :::.|||.:|:
+Y3584_PSEAB      163 LIECGRVDVGQ    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      17/78 (21.8%)
+# Similarity:    26/78 (33.3%)
+# Gaps:          25/78 (32.1%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         2 ANSERTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEH     51
+                     |.||..||..:.|.                  :|:|:.:...:.|.|...
+BPT_HAHCH        138 ARSETLFIEFRKDS------------------KLLAIAVTDRTTDGLSAI    169
+
+NDKA_CANLF        52 YIDLKDRPFFAGLVKYMQSGPVVAMVWE     79
+                     |      .||.........| |.|::|:
+BPT_HAHCH        170 Y------TFFDPNEDKRALG-VYAILWQ    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:           2/50 ( 4.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        89 VMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWF-QPE    137
+                     |:||...|. :..|..:..|..|...::|..:|........||..| :||
+KDPC_CAUVN        17 VLLGLAYPL-AVTGVAQAAFPNQANGSLIRDADGKVVGSALIGQVFAKPE     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    20/50 (40.0%)
+# Gaps:          13/50 (26.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        98 DSKPGTIRGDF-CIQVGRNIIHGS------DSVESAE-----KEIGLWFQ    135
+                     |..|..:...| |..|.| :|||.      ..::.||     ..:|.|:|
+LPXH_XYLFM       181 DVVPADVAAMFACYGVNR-MIHGHTHRPALHMLQVAECACTRVVLGDWYQ    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        76 MVWEGLNVVKTGRVMLG     92
+                     :|..||....||..::|
+YERI_SCHPO         4 LVSPGLAKACTGLSLIG     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      38/159 (23.9%)
+# Similarity:    57/159 (35.8%)
+# Gaps:          47/159 (29.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        11 IKPDGVQRSLVG-EIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLK---     56
+                     |.|..|.|::|| ||...:.:|.    ..:....:|.|..|:..:.:   
+RBSA_RUEST       229 ITPADVVRAMVGREIGDLYPEKQ----RPEACSTTEVLRVENLCEAERFH    274
+
+NDKA_CANLF        57 DRPF---------FAGLVKYMQS----------GPVVAMVW---EGL---     81
+                     |..|         ||||:...:|          |.|...:|   |.|   
+RBSA_RUEST       275 DVSFSLHKGEILGFAGLIGAGRSEIAKGVCALEGQVTGRLWLNGEPLALR    324
+
+NDKA_CANLF        82 ---NVVKTGRVMLGETNPADSKPGTIRGDFC-IQVGRNIIHGSDSVESAE    127
+                        :.:..|.|.|.|....|       |.|. :.:..|:  .:..||...
+RBSA_RUEST       325 DYQDSIDAGIVYLSEDRKGD-------GVFLDMSIASNV--SALKVEQVA    365
+
+NDKA_CANLF       128 KEIGLWFQP    136
+                     ..:|| .||
+RBSA_RUEST       366 SALGL-IQP    373
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4
+# Identity:       3/4 (75.0%)
+# Similarity:     4/4 (100.0%)
+# Gaps:           0/4 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       142 YKSC    145
+                     |:||
+KR195_HUMAN       55 YRSC     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      15/47 (31.9%)
+# Similarity:    21/47 (44.7%)
+# Gaps:          16/47 (34.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         9 IAIKPDGVQRS--------LVG---EIIKRFEQKGFRLIAMKLIQAS     44
+                     :|:.| ||.||        .||   |:..||.    .|:|:..:.||
+UPPP_CORDI       167 LALIP-GVSRSGGTVSAGLFVGLDREVATRFS----FLLAIPAVLAS    208
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           6/34 (17.6%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        33 FRLIAMKLIQASEDLLKEHYIDLKDRPFFAGLVK     66
+                     ||::....|...:|     ||.: |.|....|:|
+GREB_ECO57       103 FRIVGYDEIFGRKD-----YISI-DSPMARALLK    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      38/184 (20.7%)
+# Similarity:    63/184 (34.2%)
+# Gaps:          73/184 (39.7%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         3 NSERTFIAIKPD---GVQRSLVGEIIKRFEQ-----KGFR----LIAMKL     40
+                     |.::.|:.  |:   .:|..|..:|:.:|::     :|.:    :...|.
+TGT_LEPCP        117 NGDKLFLT--PEVSMQIQTVLNSDIVMQFDECTPYWQGAKNVGHITTEKE    164
+
+NDKA_CANLF        41 IQASEDL-------LKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNV     83
+                     .:.|.:|       .|..:..|.:.....|:|   |.|...::..|.||.
+TGT_LEPCP        165 ARVSMELSLRWAARSKAEFARLGNPNALFGIV---QGGMFESLREESLNA    211
+
+NDKA_CANLF        84 V--------KTGRVMLGETN--------------PADSKPGTIRGDFCIQ    111
+                     :        ..|.|.:||..              ||| ||..:.|     
+TGT_LEPCP        212 LVELDFPGYAVGGVSVGEPKDEMLRIMNHTPHLLPAD-KPRYLMG-----    255
+
+NDKA_CANLF       112 VGRNIIHGSDSVESAEKEIGLWFQPEELVDYKSC    145
+                     ||                     .||:|||..:|
+TGT_LEPCP        256 VG---------------------TPEDLVDGVAC    268
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        68 MQSGPVVAMVWEGLNVVK     85
+                     |..|....:.||.|:::|
+CBPQ_HUMAN       301 MDDGGGAFISWEALSLIK    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      16/69 (23.2%)
+# Similarity:    27/69 (39.1%)
+# Gaps:          16/69 (23.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        51 HYI-------DLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTG-----R     88
+                     ||.       .|||:.....|.|.|::.|  :..:|  ..|:|.     .
+PSA6_SOYBN       159 HYFGHKATSAGLKDQEAINFLEKKMKNDP--SFTYE--ETVQTAISALQS    204
+
+NDKA_CANLF        89 VMLGETNPADSKPGTIRGD    107
+                     |:..:....:.:.|.:|.|
+PSA6_SOYBN       205 VLQEDFKATEIEVGVVRKD    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      35/184 (19.0%)
+# Similarity:    62/184 (33.7%)
+# Gaps:          74/184 (40.2%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        17 QRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHY----IDLKDRPFFA     62
+                     |.|.:|:..:|........:..:|..::..:::.:|    ..|||..  |
+SCL34_ARATH      278 QSSPLGDAGQRLAHCFANALEARLQGSTGPMIQTYYNALTSSLKDTA--A    325
+
+NDKA_CANLF        63 GLVK----YMQSGPVVAM-----VWEGLNVVKTGRVMLGETNPADSKPGT    103
+                     ..::    |:.|.|.|.:     :|..|:|.|...|:             
+SCL34_ARATH      326 DTIRAYRVYLSSSPFVTLMYFFSIWMILDVAKDAPVL-------------    362
+
+NDKA_CANLF       104 IRGDFCIQVGRNIIHG----------SDSVESAEK---------EIGLWF    134
+                         ..:..|  |::|          ||..:...|         :.|  |
+SCL34_ARATH      363 ----HIVDFG--ILYGFQWPMFIQSISDRKDVPRKLRITGIELPQCG--F    404
+
+NDKA_CANLF       135 QPEELV------------------DYKSCA-QNW    149
+                     :|.|.:                  :||:.| |||
+SCL34_ARATH      405 RPAERIEETGRRLAEYCKRFNVPFEYKAIASQNW    438
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:     152/152 (100.0%)
+# Similarity:   152/152 (100.0%)
+# Gaps:           0/152 ( 0.0%)
+# Score: 791.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         1 MANSERTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NDKA_CANLF         1 MANSERTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKE     50
+
+NDKA_CANLF        51 HYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADSK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NDKA_CANLF        51 HYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADSK    100
+
+NDKA_CANLF       101 PGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDYKSCAQNWI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NDKA_CANLF       101 PGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDYKSCAQNWI    150
+
+NDKA_CANLF       151 YE    152
+                     ||
+NDKA_CANLF       151 YE    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       8/33 (24.2%)
+# Similarity:    14/33 (42.4%)
+# Gaps:          15/33 (45.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF       113 GRNIIHGSDSVESAEKEIGLWFQPEELVDYKSC    145
+                     ||.::|   .:::||            .|:|.|
+RS4_CAEEL        106 GRYVVH---RIQAAE------------ADFKLC    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      15/61 (24.6%)
+# Similarity:    25/61 (41.0%)
+# Gaps:          17/61 (27.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        84 VKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLW    133
+                     |:..|.:||.|  |...||:              .|..:.....:|.|.|
+G45IP_CHLAE        5 VRKARSLLGLT--ATLAPGS--------------RGYRAPPPPRREPGPW     38
+
+NDKA_CANLF       134 F-QPEELVDYK    143
+                     : .||:|:.::
+G45IP_CHLAE       39 WPDPEDLLTHR     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      17/83 (20.5%)
+# Similarity:    32/83 (38.6%)
+# Gaps:          27/83 (32.5%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        76 MVWEGLN-----VVKTGRVMLGETNPADSK----PGTIRGDFCIQVGRNI    116
+                     :|..|||     |:..|::..|....|.::    .||||..         
+DAPEL_OCEIH      211 IVSRGLNPLDGSVITIGKMESGYVQNAIAETARLEGTIRST---------    251
+
+NDKA_CANLF       117 IHGSDSVESAEKEIGLWFQPEEL-------VDY    142
+                       .:|:::..:.::....:..|:       |||
+DAPEL_OCEIH      252 --DADAIDMIKSKLNRLMKGFEISYDCTIKVDY    282
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      19/70 (27.1%)
+# Similarity:    28/70 (40.0%)
+# Gaps:          20/70 (28.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         9 IAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKDR     58
+                     :.:|.|  :.:|||.|.||               |:|.|.:...:...|.
+KAD_METRJ        111 VELKVD--ENALVGRIEKR---------------AAETLARGQAVRKDDT    143
+
+NDKA_CANLF        59 P--FFAGLVKY-MQSGPVVA     75
+                     |  |...|..| .|:.|:.|
+KAD_METRJ        144 PEVFKQRLEAYRAQTAPLSA    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      11/25 (44.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        84 VKTGRVM--LGETNPADSKPGTIRG    106
+                     |.||.|:  ||....|..|||.:.|
+ELN_BOVIN        128 VSTGAVVPQLGAGVGAGVKPGKVPG    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       7/21 (33.3%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        35 LIAMKLIQASEDLLKEHYIDL     55
+                     |..::|.....:|:||..:||
+ASIC2_MOUSE      445 LTILELFDYIYELIKEKLLDL    465
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      14/71 (19.7%)
+# Similarity:    23/71 (32.4%)
+# Gaps:          23/71 (32.4%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        87 GRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLW---    133
+                     |.|:|.....:|.:.|.:..        ..::.|.|.......||||   
+DOXA1_XENTR       62 GAVILAVNFTSDWETGIVTA--------TTVYKSFSHSMLNASIGLWIGL    103
+
+NDKA_CANLF       134 ------------FQPEELVDY    142
+                                 :|..|.::|
+DOXA1_XENTR      104 KGVNITLIGNPVYQLNETINY    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      12/47 (25.5%)
+# Similarity:    25/47 (53.2%)
+# Gaps:           5/47 (10.6%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        10 AIKPDGVQRSLVGEIIKRFE----QKGFRLIAMKLIQA-SEDLLKEH     51
+                     |.:.:..|:|.:...||.||    ::.||..:..:.:| |:.|:.::
+RS20_STRPB        22 ANEKNSAQKSAMRTAIKAFEANPSEELFRAASSSIDKAESKGLIHKN     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      33/142 (23.2%)
+# Similarity:    55/142 (38.7%)
+# Gaps:          39/142 (27.5%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        20 LVGEIIKRFEQKGFRLIAMKLIQASEDL--------LKEHYIDLKDRPFF     61
+                     |:.|.::|.|:: .::...||.:||:..        :.||. .:.|....
+TPM_HAELO         94 LLEEDLERSEER-LKIATQKLEEASQAADESERMRKMLEHR-SITDEERM    141
+
+NDKA_CANLF        62 AGLV---------------KYMQSGPVVAMVWEGLNVVKTGRVMLGETNP     96
+                     .||.               ||.:....:|||...|...:. |...|||..
+TPM_HAELO        142 DGLEGQLKEARTMAEDADRKYDEVARKLAMVEADLERAEE-RAETGETKI    190
+
+NDKA_CANLF        97 ADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEE    138
+                     .:.:. .:|     .||.|:    .|:|.:|::.   .|.||
+TPM_HAELO        191 VELEE-ELR-----VVGNNL----KSLEVSEEKA---LQKEE    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      22/108 (20.4%)
+# Similarity:    38/108 (35.2%)
+# Gaps:          39/108 (36.1%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        75 AMVWEGLNV------VKTGRVMLGE-TNPADSKPGTIRGDFCIQVGRN--    115
+                     |:.:.||..      ::..||.:|. ||   |:...:|....:..||.  
+LEUC_XANOM       328 ALKYMGLKANQAITDIRLDRVFIGSCTN---SRIEDLRAAAAVAKGRKVA    374
+
+NDKA_CANLF       116 -------IIHGSDSVESAEKEIGL----------W----------FQPEE    138
+                            ::.||..|::..:..||          |          ..|::
+LEUC_XANOM       375 STIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDK    424
+
+NDKA_CANLF       139 LVDYKSCA    146
+                     |...:.||
+LEUC_XANOM       425 LGSGEHCA    432
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       3/7 (42.9%)
+# Similarity:     4/7 (57.1%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        38 MKLIQAS     44
+                     ||.|..:
+LPT_ESCF3          1 MKRISTT      7
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        14 DGVQRSLVGEIIKRFEQKG     32
+                     :||.:....||.|:.|..|
+RL7_THET8        101 EGVSKQEAEEIKKKLEAVG    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           2/15 (13.3%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        41 IQASE--DLLKEHYI     53
+                     :||.|  ||..||::
+HEM1_METCA       317 LQAEEIIDLEVEHFL    331
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      14/68 (20.6%)
+# Similarity:    19/68 (27.9%)
+# Gaps:          27/68 (39.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        69 QSGPVVAMVWE------------------GLNVVKTGRVML---------     91
+                     |..|.||..|.                  |:.:...|:.||         
+XYLB_KLEPN       211 QLRPEVAQAWNMPPALVVGGGGDNAAGAVGIGMADAGQAMLSLGTSGVYF    260
+
+NDKA_CANLF        92 GETNPADSKPGTIRGDFC    109
+                     ..:....|||.:....||
+XYLB_KLEPN       261 AVSEGFLSKPESAVHSFC    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    19/43 (44.2%)
+# Gaps:           3/43 ( 7.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        11 IKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYI     53
+                     ::|:.:   .:|.::.|..|.|...:.:.:....|.....|||
+RECR_NOVAD       116 VRPEDL---TIGSLLDRVAQGGIDEVVLAMNATLEGQTTAHYI    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    24/72 (33.3%)
+# Gaps:          33/72 (45.8%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        79 EGLNVVKTG---RVML-------GETNP--------ADSKPGTIRGDFCI    110
+                     ||:.||..|   :.:|       |..||        |..:||        
+SURE_METNO       176 EGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPG--------    217
+
+NDKA_CANLF       111 QVGRNIIHGSDSVESAEKEIGL    132
+                            ||:|....||..|.:
+SURE_METNO       218 -------HGTDLKAIAENRIAV    232
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      15/67 (22.4%)
+# Similarity:    23/67 (34.3%)
+# Gaps:          28/67 (41.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        65 VKYMQSGPVVAMVWEGLNVVK-----------------TGRVML------     91
+                     :.|::: .:|..:|.|.:|.|                 |..||:      
+CYB_ARTIO        153 IPYIET-DLVQWIWGGFSVDKATLTRFFAFHFLLPFIVTALVMVHLLFLH    201
+
+NDKA_CANLF        92 --GETNPA--DSKPGTI    104
+                       |..||.  .|.|..|
+CYB_ARTIO        202 ETGSNNPTGIPSDPDMI    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      23/79 (29.1%)
+# Similarity:    32/79 (40.5%)
+# Gaps:          21/79 (26.6%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         7 TFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAM--KLIQASEDLLKEHYID     54
+                     ||:..||       :.|.::.|.:....|..|  |:|..||   :.|.|.
+IOLE_BACHK        76 TFLTTKP-------IEETVEEFIKHRDFLHGMGAKVIVVSE---QGHSIQ    115
+
+NDKA_CANLF        55 -LKDRPFFAGLVKYMQSGPV-VAMVWEGL     81
+                      |.|.|.|       ::.|| ....||.|
+IOLE_BACHK       116 GLMDVPLF-------KNKPVFTEEEWEKL    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      30/126 (23.8%)
+# Similarity:    47/126 (37.3%)
+# Gaps:          46/126 (36.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        33 FRLIAMKLIQASEDLLKEHYID---LKDRPFFAGLVKYMQSGPVVAMVWE     79
+                     |:||.|    ..|:|:.:..::   |||..|...:     :|..|..|.:
+ACKA_STAAT        17 FQLIRM----PEEELVTKGLVERIGLKDSIFTIEV-----NGEKVKTVQD     57
+
+NDKA_CANLF        80 GLNVVKTGRVML---------GETNPADSKPGTIRGDFCIQVGRNIIHGS    120
+                     ..:.|:...:||         .:.|..|   ||         |..::||.
+ACKA_STAAT        58 IKDHVEAVDIMLDAFKAHNIINDINDID---GT---------GHRVVHGG     95
+
+NDKA_CANLF       121 DS-------VESAEKEIGLWFQPEEL    139
+                     :.       .:..||||      |||
+ACKA_STAAT        96 EKFPESVAITDEVEKEI------EEL    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      13/62 (21.0%)
+# Similarity:    17/62 (27.4%)
+# Gaps:          24/62 (38.7%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        29 EQKGFRLIAMKLIQASEDLLKEHYIDLKDRP-------------------     59
+                     ::||.|......:...| .|....||...||                   
+HIS7_BURTA        84 DKKGIRRYGHSYVPLDE-ALSRVVIDFSGRPGLEFHVPFTRARIGTFDVD    132
+
+NDKA_CANLF        60 ----FFAGLVKY     67
+                         ||.|.|.:
+HIS7_BURTA       133 LSIEFFRGFVNH    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      26/131 (19.8%)
+# Similarity:    54/131 (41.2%)
+# Gaps:          23/131 (17.6%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        16 VQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKDRPFFAGLV     65
+                     :.|...|.:...:|:||.||:.:|         .:.:::|..|.....|.
+PTH_GEOLS         39 IVRKQFGGLTAEWERKGKRLVLLK---------PQTFMNLSGRSVMPALQ     79
+
+NDKA_CANLF        66 KYMQSGPVVAMVWEGLNV-VKTGRVMLGETNPADSKPGTI-----RGDFC    109
+                     .|......:.:|.:.::: :...|:..|..:...:...:|     :|||.
+PTH_GEOLS         80 FYKLKPDQLIVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFV    129
+
+NDKA_CANLF       110 ---IQVGRNIIHGSDSVESAEKEIGLWFQPE    137
+                        :.:||. .||    :.....:|::..||
+PTH_GEOLS        130 RLRLGIGRP-PHG----DVTNHVLGVFTPPE    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           3/20 (15.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        89 VMLGETN---PADSKPGTIR    105
+                     :||...:   |..|.|.|:|
+TAF3_XENLA       576 IMLSSKDIALPMISTPNTVR    595
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      30/140 (21.4%)
+# Similarity:    48/140 (34.3%)
+# Gaps:          39/140 (27.9%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        23 EIIKRFEQKGFRLIA-MKLIQASEDL---LKEHYIDLKDRPFFAGLVKYM     68
+                     |.:...|..||.:.. .||.|..:::   .|:.....||.|       ||
+DNLJ_CROS5       244 ESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLP-------YM    286
+
+NDKA_CANLF        69 QSGPVVAM----VWEGLNVV-KTGRVMLGETNPADSKPGTIRGDFCIQVG    113
+                     ..|.||.:    :.:.|... |..|..:....||:..| |:..:..:.||
+DNLJ_CROS5       287 TDGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAP-TLVKNIVVNVG    335
+
+NDKA_CANLF       114 RN----------------------IIHGSDSVESAEKEIG    131
+                     |.                      .:|.||.:...:..:|
+DNLJ_CROS5       336 RTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVG    375
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      25/102 (24.5%)
+# Similarity:    41/102 (40.2%)
+# Gaps:          28/102 (27.5%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        10 AIKPDGVQRSLVGEIIKRFEQKGFRLIAMKL---------IQASEDLLKE     50
+                     :::..|.:.||:|.:.|.....|.|.:|..|         |.|..|.::|
+MUTS_MYXXD       291 SLRDGGRKGSLLGVLDKTVTSLGARKLARWLASPLGSLPEIHARLDAVEE    340
+
+NDKA_CANLF        51 HYIDLKDRPFF----AGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNP     96
+                         |..|..:    ||::|  :.|.:..:         .||:.||..|.
+MUTS_MYXXD       341 ----LSGRSVWREELAGILK--EVGDLERL---------CGRLSLGAGNA    375
+
+NDKA_CANLF        97 AD     98
+                     .|
+MUTS_MYXXD       376 RD    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      17/91 (18.7%)
+# Similarity:    33/91 (36.3%)
+# Gaps:          17/91 (18.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        45 EDLLKE-HY-------------IDLKDRPFFAGLVKYMQSGPVVAMVWEG     80
+                     |::.|| ||             :::|:...:....:.:..|  ..|.|..
+NOSO_STAAC        11 ENMYKECHYETQIINKRLHDIELEIKETGTYTHTEEELIYG--AKMAWRN     58
+
+NDKA_CANLF        81 LNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGSD    121
+                     .|.. .||:.....|..|::..|....|...:..:|...::
+NOSO_STAAC        59 SNRC-IGRLFWDSLNVIDARDVTDEASFLSSITYHITQATN     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      13/40 (32.5%)
+# Similarity:    17/40 (42.5%)
+# Gaps:          10/40 (25.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       119 GSDSV----ESAEKEIGLWFQPEE------LVDYKSCAQN    148
+                     |.:|:    |.|:|..|..|..||      ..||.|..|:
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       8/33 (24.2%)
+# Similarity:    16/33 (48.5%)
+# Gaps:          10/33 (30.3%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        72 PVVAMVWE------GLNVVKTGRVMLGETNPAD     98
+                     |::.:|:.      ||:::    ||:..|...|
+NU4LM_ARCPU       60 PIILLVFAACEAALGLSLL----VMVSNTYGTD     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      27/126 (21.4%)
+# Similarity:    46/126 (36.5%)
+# Gaps:          24/126 (19.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         2 ANSERTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEH     51
+                     |:::|  :||...|:.|.  |.::.........|:...|::..|.|....
+NANK_ECOLI        54 AHAQR--VAIASTGIIRD--GSLLALNPHNLGGLLHFPLVKTLEQLTNLP     99
+
+NDKA_CANLF        52 YIDLKDRPFFAGLVKYMQSGPVVAMVW------EGLNVVKTGRVMLGETN     95
+                     .|.:.|....|........|.:..||:      .|..||...:::.|   
+NANK_ECOLI       100 TIAINDAQAAAWAEFQALDGDITDMVFITVSTGVGGGVVSGCKLLTG---    146
+
+NDKA_CANLF        96 PADSKPGTIRGDFCIQVGRNII--HG    119
+                          ||.:.|    .:|..:.  ||
+NANK_ECOLI       147 -----PGGLAG----HIGHTLADPHG    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      22/105 (21.0%)
+# Similarity:    39/105 (37.1%)
+# Gaps:          37/105 (35.2%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         7 TFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLK-------     49
+                     |||..|.||...:::.:.|...|:|       :.:|...:::|       
+MIAB_MYCPE       386 TFIYSKRDGTVAAIIPDEIPLSEKK-------ERLQELNEMVKTFSKKNN    428
+
+NDKA_CANLF        50 EHYID-----------LKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGR     88
+                     |.|::           .||:...:|          .:..|:.:|.  ||.
+MIAB_MYCPE       429 EKYVNKVLDVLVDGPSKKDKTVISG----------YSPQWKVVNF--TGS    466
+
+NDKA_CANLF        89 VMLGE     93
+                     ...||
+MIAB_MYCPE       467 AKSGE    471
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    33/84 (39.3%)
+# Gaps:          15/84 (17.9%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        59 PFFAGLVKYMQSGPVVAMVWEGLNVVKT--GRVMLGETNPADSKPGTIRG    106
+                     |....:|:|..:|.....:......:||  |..::.:.|.........||
+NADK_STAES       101 PLLELIVRYNDNGYETRYLALNEATMKTENGSTLVVDVNIRGKHFERFRG    150
+
+NDKA_CANLF       107 D-FCIQ-----------VGRNIIHGS-DSVESAE    127
+                     | .||.           :|..:||.| ::::.||
+NADK_STAES       151 DGLCISTPSGSTAYNKALGGALIHPSLEAMQIAE    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      19/80 (23.8%)
+# Similarity:    28/80 (35.0%)
+# Gaps:          28/80 (35.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         3 NSERTFIAIKPDGVQRSLVGEII--KRFEQKGFRLIAMKLIQASEDLLKE     50
+                     |:..::..:..:|.......|:|  ||.|.                    
+TRPG_CAEEL       524 NNRHSYFLLVDNGTVGRYGAEVILRKRLEM--------------------    553
+
+NDKA_CANLF        51 HYIDLKDRPFFAGLVKYMQSGPVVAMVWEG     80
+                      ||..|.: .|.|    .:|.|||.:|.||
+TRPG_CAEEL       554 -YISQKQK-IFGG----TRSVPVVCVVLEG    577
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      27/95 (28.4%)
+# Similarity:    37/95 (38.9%)
+# Gaps:          32/95 (33.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        10 AIKPDGVQRSLVGE-IIKRFEQKGFRLIAMKLIQASEDLLKEH-------     51
+                     |.:.|||  :.||| :::...|           |.:|.||.|.       
+MSHD_MYCMM        25 ATQVDGV--APVGEQVLRELAQ-----------QRTEHLLVEDQSPGKSA     61
+
+NDKA_CANLF        52 --YIDLKDR----PFFAGLVKYMQS---GPVVAMVWEGLNVVKTG     87
+                       |::|...    ...|.||.:.|:   |...|||...|  .|||
+MSHD_MYCMM        62 IGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAAL--AKTG    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      15/63 (23.8%)
+# Similarity:    25/63 (39.7%)
+# Gaps:           6/63 ( 9.5%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        70 SGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDF---CIQVGRNI    116
+                     :|....:|..|..|:....|.|.|...|..:|..:..|.   .:.:|.::
+PAND_THEFY        72 NGAAARLVAPGDLVIIISYVQLTEAERATHRPHVVHVDANNRIVALGDDL    121
+
+NDKA_CANLF       117 ---IHGSDSVESA    126
+                        :.|||....|
+PAND_THEFY       122 AEPVPGSDQKSGA    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    19/41 (46.3%)
+# Gaps:           8/41 (19.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        67 YMQSGPVVAMVWEG-----LNVVKTGRV--MLGETNPADSK    100
+                     |..|||:|...::.     .||:|..|.  ..|| :..|||
+LIPA_ASPOR       368 YCASGPLVRSSYKAGEAFIENVLKKRRAAGTAGE-SVTDSK    407
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      13/48 (27.1%)
+# Similarity:    20/48 (41.7%)
+# Gaps:          17/48 (35.4%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        92 GETNPADSKPGTIRGDFCIQVGRNIIHGSDS-------VESAEKEIGL    132
+                     |..:|.||:        .|||  ...||:.|       |::.|..:|:
+FLGI_PECAS       215 GTASPLDSR--------TIQV--LAPHGNSSQVRFLADVQNIEVNVGI    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      25/108 (23.1%)
+# Similarity:    36/108 (33.3%)
+# Gaps:          42/108 (38.9%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        16 VQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKDRPFFA---     62
+                     :..|||.|::              :|..:||..|...:||.....|.   
+LDH_BORAP         25 IDNSLVHELV--------------IIDVNEDKAKGEVMDLNHGQMFLKKN     60
+
+NDKA_CANLF        63 -----GLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGD    107
+                          |..|...:..:| ::..|||                .|||..|.|
+LDH_BORAP         61 INVLFGTYKDCVNADIV-VITAGLN----------------QKPGETRLD     93
+
+NDKA_CANLF       108 FCIQVGRN    115
+                     .   ||:|
+LDH_BORAP         94 L---VGKN     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    27/58 (46.6%)
+# Gaps:           6/58 (10.3%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        98 DSKPG---TIRGDFCIQVGRNIIHGSDSVESAEKEI-GLWFQPEELVDYK    143
+                     |.:.|   ||.|::.:.|..|:.|.:|...|:..:. ..||..:.:...|
+EXGB_EMENI       318 DDRGGNWPTIVGEWSLSVPDNVEHTADWEPSSNTDFYARWFAAQAIAYEK    367
+
+NDKA_CANLF       144 SCAQNWIY    151
+                     .  :.|::
+EXGB_EMENI       368 Q--EGWVF    373
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      35/162 (21.6%)
+# Similarity:    67/162 (41.4%)
+# Gaps:          37/162 (22.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         7 TFIAIKPDGVQRSL-VGEIIKRFEQKGFRLIAMK------LIQASEDLLK     49
+                     ||..|  ||..:|. |.::.:..:::|..::.::      :.:...:||.
+KTHY_CHLP8         4 TFEGI--DGAGKSTQVVKLKRHLQERGREVLTLREPGGTPVAEQIRELLL     51
+
+NDKA_CANLF        50 EHYIDLKDRP----FFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETN     95
+                     |.:.|:....    |.|...:.|:. .:|..:.:|.:|: ..|.....| 
+KTHY_CHLP8        52 ESHNDITSIAELLLFSASRAELMEK-IIVPALEDGCDVI-LDRFFDSTT-     98
+
+NDKA_CANLF        96 PADSKPGTIRG---DFCIQVGRNIIHG-------------SDSV--ESAE    127
+                        :..|..||   |...::.|...||             .|::  :.:|
+KTHY_CHLP8        99 ---AYQGYGRGLNLDMLAEINRIASHGIRPDITFYLDLTPEDALLRKFSE    145
+
+NDKA_CANLF       128 KEIGLWFQPEEL    139
+                     |.:.|.|:.|||
+KTHY_CHLP8       146 KSLPLAFESEEL    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      34/152 (22.4%)
+# Similarity:    53/152 (34.9%)
+# Gaps:          46/152 (30.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         2 ANSERTFIAIKPDGVQ-----RSLVGEIIKRFEQKGFRLIAMKLIQASED     46
+                     |...||  .::|..||     |.|.|::|:....:| :.:|..:..|...
+SECA2_MYCTO      111 AAERRT--GLRPFDVQLLGALRMLAGDVIEMATGEG-KTLAGAIAAAGYA    157
+
+NDKA_CANLF        47 LLKEH--------YIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGR     88
+                     |...|        |:..:|..:...|:..|           ||.|   |.
+SECA2_MYCTO      158 LAGRHVHVVTINDYLARRDAEWMGPLLDAM-----------GLTV---GW    193
+
+NDKA_CANLF        89 VMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEE    138
+                     :      .|||.|..          |...:..|...::..|||.....::
+SECA2_MYCTO      194 I------TADSTPDE----------RRTAYDRDVTYASVNEIGFDVLRDQ    227
+
+NDKA_CANLF       139 LV    140
+                     ||
+SECA2_MYCTO      228 LV    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    15/36 (41.7%)
+# Gaps:          13/36 (36.1%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        91 LGETNPADSK--------PGTIRGDFC----IQVGR    114
+                     :.:..||..|        .|:.| |||    |.|||
+DB108_HUMAN       14 MSQVLPAKGKFKEICERPNGSCR-DFCLETEIHVGR     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      23/80 (28.8%)
+# Similarity:    36/80 (45.0%)
+# Gaps:          17/80 (21.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        71 GPVVAMVWEGL-----NVVKTGRVMLGETNPAD--SKPGTIRGDF---CI    110
+                     |.|..||  ||     ||:|....:...:.|..  |.|.:..|.|   .:
+LCMT1_CRYNB      286 GVVYEMV--GLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPML    333
+
+NDKA_CANLF       111 QVGRNIIHGSDSV-ESAEKEIGLWFQPEEL    139
+                     |.|:....|:.:: :..|:::|    ||||
+LCMT1_CRYNB      334 QGGKFDSAGAKTLWQIREEDVG----PEEL    359
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      23/89 (25.8%)
+# Similarity:    40/89 (44.9%)
+# Gaps:          17/89 (19.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         8 FIAIKPDGVQRSLVGEIIKRFEQKGFRL-IAMKLIQASEDLLKEHYIDLK     56
+                     |:....|.|:  |.||..||..::|.|: :...:|:....||:|.     
+PTGA_SALTY        89 FVHFGIDTVE--LKGEGFKRIAEEGQRVKVGDPVIEFDLPLLEEK-----    131
+
+NDKA_CANLF        57 DRPFFAGLVKYMQSGPVVAMVWEGLNVVK-TGRVMLGET     94
+                             .|...:..|::.:.|...::| :|.|.:|||
+PTGA_SALTY       132 --------AKSTLTPVVISNMDEIKELIKLSGSVTVGET    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           1/19 ( 5.3%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        96 PADSKPGTIRGDFCIQVGR    114
+                     |.:|.|..:|.. |::.||
+RR14_CRYJA        51 PRNSAPTRLRRR-CLKTGR     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      22/90 (24.4%)
+# Similarity:    34/90 (37.8%)
+# Gaps:          32/90 (35.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        48 LKEHY--IDLKDRPFFAGLVKYM---QSGPVVAMVWE---------GLNV     83
+                     |||.|  :::..:|.....|..:   |.|...|::::         |::|
+DCUP_BACVZ        41 LKEKYGLVEITHQPELCAYVTRLPVEQYGVDAAILYKDIMTPLPYIGVDV     90
+
+NDKA_CANLF        84 -VKTG--------------RVMLGETNPADSKP---GTIR    105
+                      :|.|              ...|||.||....|   .|||
+DCUP_BACVZ        91 EIKNGIGPVIDQPVRSAADIEKLGELNPEQDVPYVLETIR    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      25/139 (18.0%)
+# Similarity:    48/139 (34.5%)
+# Gaps:          43/139 (30.9%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         6 RTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQA--SEDLLKEHYI     53
+                     ||...:|.|...|  :.::.|:.|:    :..:|..||  ..:.:|..|.
+GTF2I_MOUSE      555 RTNTPVKEDWNVR--ITKLRKQVEE----IFNLKFAQALGLTEAVKVPYP    598
+
+NDKA_CANLF        54 DLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGT    103
+                     ..:..|.|..:....:..|..:..|.|:..::                  
+GTF2I_MOUSE      599 VFESNPEFLYVEGLPEGIPFRSPTWFGIPRLE------------------    630
+
+NDKA_CANLF       104 IRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDY    142
+                                .|:.||:.::...|      :||.:|.|
+GTF2I_MOUSE      631 -----------RIVRGSNKIKFVVK------KPELVVSY    652
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      10/53 (18.9%)
+# Similarity:    19/53 (35.8%)
+# Gaps:          13/53 (24.5%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       101 PGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQ-------------PE    137
+                     |.:.......::|..:...:..:|.|::....||:             ||
+ISPH_ACIF5       221 PNSSNSSRLAELGTRLGTQTHLIEDAQQLRREWFEGVGKIGISAGASAPE    270
+
+NDKA_CANLF       138 ELV    140
+                     .||
+ISPH_ACIF5       271 SLV    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4
+# Identity:       2/4 (50.0%)
+# Similarity:     4/4 (100.0%)
+# Gaps:           0/4 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       132 LWFQ    135
+                     :||:
+NDUA1_HUMAN        1 MWFE      4
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      23/106 (21.7%)
+# Similarity:    39/106 (36.8%)
+# Gaps:          13/106 (12.3%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         4 SERTFIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASE----DLLK     49
+                     |..|...::.:...|::..:|...::|.|.|.:....|...|    .|..
+PSRP_SALTI        36 SSITLPFVENESRARAVKDQIDAIYQQTGVRPLVFYSIVLPEIRAIILQS     85
+
+NDKA_CANLF        50 EHYIDLKDRPFFAGLVKYMQSGPV-VAMVWEGLNVVKTGRVMLGETNPAD     98
+                     |.:.....:...|.|.:.|:..|. :|....|||.        |..|..|
+PSRP_SALTI        86 EGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNP--------GNLNKYD    127
+
+NDKA_CANLF        99 SKPGTI    104
+                     ::...|
+PSRP_SALTI       128 ARIAAI    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      32/141 (22.7%)
+# Similarity:    56/141 (39.7%)
+# Gaps:          51/141 (36.2%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         1 MANSERTFIAIKPDGVQRSLVGEIIKRFE----QKGFRLIAMKLIQA--S     44
+                     :.|.|.||.|||      .|:|   :|||    :|..:|:..|:::|  .
+DNAK_CHESB        59 VTNPENTFFAIK------RLIG---RRFEDPMVEKDKKLVPYKIVKADNG     99
+
+NDKA_CANLF        45 EDLLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGET     94
+                     :..::.|.            .||..| .:.||:.:.:.  :|....||| 
+DNAK_CHESB       100 DAWVESHG------------TKYSPS-QISAMILQKMK--ETAESYLGE-    133
+
+NDKA_CANLF        95 NPADSKPGTIRGDFCIQVGRNII----HGSDSVESAEKEIG    131
+                                     :|.:.:|    :.:|:...|.|:.|
+DNAK_CHESB       134 ----------------KVEKAVITVPAYFNDAQRQATKDAG    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      31/139 (22.3%)
+# Similarity:    53/139 (38.1%)
+# Gaps:          30/139 (21.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        21 VGEIIKRFEQKGFRL---IAMKLIQASEDLLKEHYIDLKDRPFFAGLVKY     67
+                     |.|.:.|.|:...||   |...:::.:..:|:.........|.:|...|:
+DNLJ_ACIC5       273 VVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKF    322
+
+NDKA_CANLF        68 MQSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVG----    113
+                     .....|..:....:.|.:||::    |..|...|        :|||    
+DNLJ_ACIC5       323 AARSGVTQVEDIQVQVGRTGKL----TPVAWLAP--------VQVGGTTV    360
+
+NDKA_CANLF       114 -RNIIHGSDSVESAEKEIGLWFQPE----------ELVD    141
+                      |..:|.:|.:|.....||.:.:.|          |:||
+DNLJ_ACIC5       361 TRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVD    399
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      15/74 (20.3%)
+# Similarity:    27/74 (36.5%)
+# Gaps:          30/74 (40.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         4 SER-------TFIAIKPDGVQRS-------LVGEIIKRFEQKGFRLIAMK     39
+                     |||       |.|.:||..:.|.       |:.:.:..:::|....|.::
+CAPSD_CMVO        61 SERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIR    110
+
+NDKA_CANLF        40 L----------------IQASEDL     47
+                     :                :.||.||
+CAPSD_CMVO       111 VNPLPKFDSTVWVTVRKVPASSDL    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      15/68 (22.1%)
+# Similarity:    23/68 (33.8%)
+# Gaps:          30/68 (44.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       101 PGTIRGDF--------------------CIQVGRNIIHGSDSVESAEKEI    130
+                     |.|.:.||                    .:.:||:||:....:|.||:  
+IF3_CHLL2        101 PNTDKHDFDFKTAHLEEFLRKGNRVRATIVFLGRSIIYKDKGLELAER--    148
+
+NDKA_CANLF       131 GLWFQPEELVDYKSCAQN    148
+                             |.:..||..|
+IF3_CHLL2        149 --------LTERLSCVSN    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      12/48 (25.0%)
+# Similarity:    24/48 (50.0%)
+# Gaps:          11/48 (22.9%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       111 QVGRNIIHGSD------SVESAEKEIGLWFQPEELVDYKSCAQNWIYE    152
+                     :||.:::.|.|      ||...:.::|: ..|:|:    |..:..||:
+CSRA_HAEI8         7 KVGESVLIGDDISITVLSVRGNQVKLGV-EAPKEV----SVHREEIYQ     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      21/101 (20.8%)
+# Similarity:    36/101 (35.6%)
+# Gaps:          40/101 (39.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        50 EHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPADS     99
+                     ||.|.           ||....|::  |..|   |||| :.:...||.:.
+COAX_CLOBL        74 EHMIS-----------KYFNIKPII--VGPG---VKTG-INIKYDNPKEV    106
+
+NDKA_CANLF       100 KPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDYKS----C    145
+                                        |:|.:.:|.....::.:|..::|:.:    |
+COAX_CLOBL       107 -------------------GADRIVNAVAAHEIYKKPLIIIDFGTATTFC    137
+
+NDKA_CANLF       146 A    146
+                     |
+COAX_CLOBL       138 A    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       126 AEKEIGLWFQ    135
+                     :|:|...||:
+HOP_BOVIN         43 SEEETQKWFK     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      13/61 (21.3%)
+# Similarity:    27/61 (44.3%)
+# Gaps:          16/61 (26.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        49 KEHYIDLKDRPFFAGLVK--------------YMQSGPVVAMVWEGLNVV     84
+                     |..:|.:...|..|.:::              :|::|.:||..: |:..:
+THII_VIBA3       236 KVKFISIDFEPVVAEILENVEDGQMGVVLKRMFMRAGGMVAERF-GIEAL    284
+
+NDKA_CANLF        85 KTGRVMLGETN     95
+                     .||.. ||:.:
+THII_VIBA3       285 VTGEA-LGQVS    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    15/39 (38.5%)
+# Gaps:          14/39 (35.9%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         6 RTFIAIKPDGVQRS-------------LVGEIIKRFEQK     31
+                     :||.| ||:.|:|.             |..||..|...|
+RL13_PSEPG         2 KTFTA-KPETVKREWFVVDAAGQTLGRLATEIATRLRGK     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      15/53 (28.3%)
+# Similarity:    24/53 (45.3%)
+# Gaps:           9/53 (17.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        27 RFEQK--GFRLIAMKLIQASEDLLKEHYIDLKDRPFFAGLVKYMQSGPVV     74
+                     |.|||  ||.    :|.:....:||.....|:.   :.|.:|||...|.:
+RR2_ARATH        122 RTEQKTEGFN----RLPKRDAAVLKRQLSRLET---YLGGIKYMTGLPDI    164
+
+NDKA_CANLF        75 AMV     77
+                     .::
+RR2_ARATH        165 VII    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    28/84 (33.3%)
+# Gaps:          28/84 (33.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        72 PVVAMVWE---------GLN---VVKTGRVMLGETNPADSKPGTIRGDFC    109
+                     |.|..:|:         |:.   |..||..:          ..|:..|||
+Y1710_SYNP2      190 PAVLQLWQQRQVPVYSNGIEKELVTPTGAAI----------ATTLATDFC    229
+
+NDKA_CANLF       110 ---IQVGRNIIHGSDSVE-SAEKEIGLWF--QPE    137
+                        ......|..||.::: .....:.||.  |||
+Y1710_SYNP2      230 QPPAMTLAKIALGSGTIDLPLPNLLRLWIGHQPE    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      16/65 (24.6%)
+# Similarity:    28/65 (43.1%)
+# Gaps:           4/65 ( 6.2%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        73 VVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHGSDS    122
+                     |...|.:|.:.:..|....|:|...:...|.|..|    .||..::|.|.
+WTPC_THEKO        20 VTFSVEKGEHFIILGPSGAGKTVLLEVIAGIIEPD----SGRIFLNGEDI     65
+
+NDKA_CANLF       123 VESAEKEIGLWFQPE    137
+                     .:...::.||.:.|:
+WTPC_THEKO        66 TDLPPEKRGLAYIPQ     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       107 DFCIQVGRNIIHGSDSVESAEKEIGLW    133
+                     ||....||.|.:..:::.:|.:|...|
+GRB7_RAT         379 DFSGHAGRVIENPQEALSAATEEAQAW    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      29/122 (23.8%)
+# Similarity:    49/122 (40.2%)
+# Gaps:          17/122 (13.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         8 FIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKD     57
+                     |:::....|.||.|...::|......:.|..:|.:||||  .|....:..
+PSD_RHOPS        101 FMSVFNCHVNRSPVAGRVERIIYSPGKFINAELDKASED--NERNSMVIS    148
+
+NDKA_CANLF        58 RPFFAGLVKYMQ-----SGPVVAMVWEGLNVV---KTGRVMLGET----N     95
+                     .|  ||.:..:|     :..:|:.|.||..:.   :.|.:..|..    .
+PSD_RHOPS        149 TP--AGQIGVVQIAGLVARRIVSFVREGQTLAPGERFGLIRFGSRLDVYL    196
+
+NDKA_CANLF        96 PADSKPGTIRGDFCIQVGRNII    117
+                     |..:||....|...| .|..::
+PSD_RHOPS        197 PEGAKPLVSEGQTAI-AGETVL    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      21/107 (19.6%)
+# Similarity:    36/107 (33.6%)
+# Gaps:          31/107 (29.0%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        23 EIIKRFEQKGFRLIAMKLIQASEDLLKEHYID--------LKDRPFFAGL     64
+                     |:::...|||.::..:.|....:.|.||..:|        ...|.|....
+PP156_ARATH      437 EMMREMGQKGIKMNTITLNTILDALCKERKLDEAHNLLNSAHKRGFIVDE    486
+
+NDKA_CANLF        65 VKYMQSGPVV------------AMVWEGLNVVKTGRVMLGETNPADSKPG    102
+                     |.|   |.::            ..:|:.:..||        ..|..|...
+PP156_ARATH      487 VTY---GTLIMGFFREEKVEKALEMWDEMKKVK--------ITPTVSTFN    525
+
+NDKA_CANLF       103 TIRGDFC    109
+                     ::.|..|
+PP156_ARATH      526 SLIGGLC    532
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       9/30 (30.0%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           2/30 ( 6.7%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        50 EHYIDLKDRPF-FAGLVKYMQSGPVVAMVW     78
+                     :.||.:.. || :..|:...::..|:.|||
+ADRB2_MESAU      130 DRYIAITS-PFKYQSLLTKNKARMVILMVW    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         9 IAIKPDGVQRSLVGE     23
+                     |:|..|..:|..|.|
+ID5B_ADEPA         8 ISIDDDNNRRLAVKE     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    21/41 (51.2%)
+# Gaps:           4/41 ( 9.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        21 VGEIIKRFEQKGFRLIAMKLIQASED----LLKEHYIDLKD     57
+                     :.|.||:.:....|:|.:.|:.|.|.    :||:..|..||
+GPA7_CAEEL        19 IDEQIKKDQSMSLRIIKLLLLGAGESGKSTILKQMRILHKD     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      20/98 (20.4%)
+# Similarity:    30/98 (30.6%)
+# Gaps:          43/98 (43.9%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        78 WEGL--NVVKTGRVMLGETN-----------------PADS---------     99
+                     |.|:  |.| .|...|||:|                 |.:|         
+IDI_ECO24         58 WPGVWTNSV-CGHPQLGESNEDAVIRRCRYELGVEITPPESIYPDFRYRA    106
+
+NDKA_CANLF       100 --KPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDYKSC    145
+                       ..|.:..:.|            .|.:|.....|....:|::||:.|
+IDI_ECO24        107 TDPNGIVENEVC------------PVFAARTTSALQINDDEVMDYQWC    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 174
+# Identity:      41/174 (23.6%)
+# Similarity:    56/174 (32.2%)
+# Gaps:          62/174 (35.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         8 FIAIKPDGVQRSLVGEIIKRFEQKGFRLIAM-----KLIQASEDLL----     48
+                     |:.:.|.|.....:.:.|..||:   .||..     |.::..|:.|    
+YHJA_ECOLI       293 FLEVYPQGFSGENITDAIAEFEK---TLITPDSPFDKWLRGDENALTAQQ    339
+
+NDKA_CANLF        49 KEHYIDLKD--------------RPFF-AGLVKYMQSGPVVAMVWEGLNV     83
+                     |:.|...||              |.|. .||.|....|.:.|.....:||
+YHJA_ECOLI       340 KKGYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMNV    389
+
+NDKA_CANLF        84 VKTGRVML-----GETNPADSKPGTIRGD-----------FCIQVGRNII    117
+                     .|..|..|     |..|.|.:.|...|||           ...|||:.: 
+YHJA_ECOLI       390 TKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKEL-    438
+
+NDKA_CANLF       118 HGSDSVESAEKEIGLWFQPEELVD    141
+                                       |:|.||
+YHJA_ECOLI       439 ------------------PQEDVD    444
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    22/46 (47.8%)
+# Gaps:           3/46 ( 6.5%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        73 VVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIH    118
+                     |..:.:|.:::.:|||   |.......:|..|..|.|.:|.|.:.|
+RIMP_BURPS        11 VTGLGYELVDLERTGR---GMVCVYIDQPAGITIDDCEKVTRQLQH     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       3/10 (30.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        11 IKPDGVQRSL     20
+                     :||..|.:::
+RS28_OSTOS         5 VKPAXVTKNI     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       9/29 (31.0%)
+# Similarity:    15/29 (51.7%)
+# Gaps:           9/29 (31.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       103 TIR---GDFCIQVGRNI-----IHGSDSV    123
+                     |:|   |:|.: :..||     :|.||.:
+HBAC_LITCT        91 TLRVDPGNFAL-LSNNILVVVAVHHSDKL    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      37/155 (23.9%)
+# Similarity:    58/155 (37.4%)
+# Gaps:          32/155 (20.6%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         8 FIAIKPDGVQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKD     57
+                     |||:    ..||.:..:.:.|.:|.::    ..|...::..||.:..:..
+RPOA_PRRSS      2725 FIAL----AHRSALSGVTQAFMKKAWK----SPIALGKNKFKELHCTVAG   2766
+
+NDKA_CANLF        58 RPFFAGLVKYMQSGPVVAMVWEGLN---------------VVKTGRVMLG     92
+                     |...|.|....:|.|.:.. |...|               |:.....::.
+RPOA_PRRSS      2767 RCLEADLASCDRSTPAIVR-WFVANLLYELAGCEEYLPSYVLNCCHDLVA   2815
+
+NDKA_CANLF        93 ETNPADSKPGTI-RGDFCIQVGRN----IIHGSDSVESAEK---EIGLWF    134
+                     ..:.|.:|.|.: .||....|...    ||:....|.||.|   ||||.|
+RPOA_PRRSS      2816 TQDGAFTKRGGLSSGDPVTSVSNTVYSLIIYAQHMVLSALKMGHEIGLKF   2865
+
+NDKA_CANLF       135 QPEEL    139
+                     ..|:|
+RPOA_PRRSS      2866 LEEQL   2870
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      32/144 (22.2%)
+# Similarity:    53/144 (36.8%)
+# Gaps:          47/144 (32.6%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         9 IAIKPD--------GVQRSLVGEIIKRF--EQKGFRL--IAMKLIQASED     46
+                     :|.|.|        |:.|     :.|||  |..|.|.  ..:.:...:.|
+UBIE_PSEAE        37 VAAKYDLMNDLMSGGIHR-----LWKRFTIELSGVRSGNRVLDIAGGTGD     81
+
+NDKA_CANLF        47 LLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLN--VVKTGRVML---     91
+                     |.::          |:.||     ||...:|...:|  ::|.||..|   
+UBIE_PSEAE        82 LTRQ----------FSRLV-----GPTGEVVLADINASMLKVGRDKLLDK    116
+
+NDKA_CANLF        92 ---GETN----PADSKPGTIRGDFCIQVG---RNIIHGSDSVES    125
+                        |..:    .|:..|.......|:.:.   ||:.|..:::.|
+UBIE_PSEAE       117 GVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRS    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      38/176 (21.6%)
+# Similarity:    64/176 (36.4%)
+# Gaps:          69/176 (39.2%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        20 LVGEIIKRF------------EQKGFRL----------------IAMKLI     41
+                     :||:::..|            |:||..|                ..::.:
+FLII_AQUAE       104 VVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTGVRSV    153
+
+NDKA_CANLF        42 QASEDLLKEHYIDLKDRPFFAG-----------LVKYMQSGPVV-AMVWE     79
+                     .|...|.|...|.:     |||           :.::.::..|| |::.|
+FLII_AQUAE       154 NALFTLGKGQKIGI-----FAGAGVGKSTLLGMITRHSKADVVVLALIGE    198
+
+NDKA_CANLF        80 -GLNVVKTGRVMLGE---------TNPADSKP-----GTIRG-----DFC    109
+                      |..|.:....:|||         .:.||..|     |.|..     .|.
+FLII_AQUAE       199 RGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVVHAHHFA    248
+
+NDKA_CANLF       110 IQVGRNIIHGSDSVES---AEKEIGL    132
+                     .| |::::...||:..   |::||||
+FLII_AQUAE       249 SQ-GKDVLLLMDSITRLALAQREIGL    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       6/28 (21.4%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           0/28 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       102 GTIRGDFCIQVGRNIIHGSDSVESAEKE    129
+                     |..:|...:|.|:....|....:.|:::
+MSS11_VANPO      445 GQQQGPMQLQQGQTQSQGQGQAQDAQQQ    472
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      23/98 (23.5%)
+# Similarity:    39/98 (39.8%)
+# Gaps:          18/98 (18.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+NDKA_CANLF         7 TFIAIKPDGVQRSLVGEIIKRFE-------QKGFRLIAMKLIQASEDL-L     48
+                     ||:...|: |..|..|.:::...       |..|.::.:.......|| .
+SPB4_ASPFU       159 TFLKRSPN-VLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGF    207
+
+NDKA_CANLF        49 KEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNP     96
+                     ||...::..|     |.|..::|...|.|.|.::.:    |.:|..||
+SPB4_ASPFU       208 KETLQNILRR-----LPKQRRTGLFSASVSEAVDQI----VRVGLRNP    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      37/164 (22.6%)
+# Similarity:    55/164 (33.5%)
+# Gaps:          63/164 (38.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        14 DGVQRSLVGEIIKR---FEQKGFRLIAMKLIQASEDLLKEHYIDLKDRPF     60
+                     |.|:..|||  ||.   :|..|    ||.||.|..:|  || :.|:..  
+ASSY_MYCTO       257 DVVEDRLVG--IKSREIYEAPG----AMVLITAHTEL--EH-VTLERE--    295
+
+NDKA_CANLF        61 FAGLVKYMQSGPVVAMVWEGL-----------NVVKTGRVMLGETNPADS     99
+                      .|..|.........:|::||           .|.||...:.||.     
+ASSY_MYCTO       296 -LGRFKRQTDQRWAELVYDGLWYSPLKAALEAFVAKTQEHVSGEV-----    339
+
+NDKA_CANLF       100 KPGTIRGDFCIQVGRNIIHGSDSVESAEKEIGLWFQPEELVDY-------    142
+                                   |.::||.....:..:      ..|.|.|:       
+ASSY_MYCTO       340 --------------RLVLHGGHIAVNGRR------SAESLYDFNLATYDE    369
+
+NDKA_CANLF       143 -----KSCAQNWIY    151
+                          :|.|:.::|
+ASSY_MYCTO       370 GDSFDQSAARGFVY    383
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 133
+# Identity:      27/133 (20.3%)
+# Similarity:    50/133 (37.6%)
+# Gaps:          29/133 (21.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         4 SERTFIAIKPDGVQR--SLVGEIIKRFEQKGFRLIAMKLIQAS--EDLLK     49
+                     |:.....:.||||.|  :.....::.....|  |:....::||  ..:.:
+ECCB1_MYCS2      276 SDPQHYVVLPDGVARVNNTTAAALRATNSYG--LMQPPAVEASVVAKIPE    323
+
+NDKA_CANLF        50 EHYID-LKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNPAD     98
+                     :.|:. |.|:|..   |...|..||:...|              :..|.|
+ECCB1_MYCS2      324 QVYVSPLPDQPLD---VLLRQDSPVLCWSW--------------QREPGD    356
+
+NDKA_CANLF        99 SKPGTIRGDFCIQVGRNIIHGSDSVESAEKEIG    131
+                     ..|.|     .:..||.:...::::.:...:||
+ECCB1_MYCS2      357 QAPKT-----TVIAGRRLPLPANAIGTGIDQIG    384
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      16/88 (18.2%)
+# Similarity:    35/88 (39.8%)
+# Gaps:          28/88 (31.8%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+NDKA_CANLF         8 FIAIKPDGVQRSLVGE-----------IIKRFEQKGFRLIAMKLIQASED     46
+                     |.....:.::|.|:|.           |.|||:         ..:::|..
+KCY4_ORYSJ       135 FFDCSEEEMERRLLGRNQGRVDDNIETIRKRFK---------VFVESSLP    175
+
+NDKA_CANLF        47 LLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVV     84
+                     :::  |.:.||:      ||.:.:...:..|:|.:..:
+KCY4_ORYSJ       176 VIE--YYNAKDK------VKKIDAAKPIPEVFEDVKAI    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      24/100 (24.0%)
+# Similarity:    39/100 (39.0%)
+# Gaps:          28/100 (28.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        40 LIQASEDLLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLN-------     82
+                     ::..:..|:..|. ..||:.|..|.|.|           .||.       
+HCP_TRIV2        307 IVMTTNCLMPPHE-TYKDKVFTLGPVGY-----------PGLQHISIHDI    344
+
+NDKA_CANLF        83 --VVKTGRVMLGETNPADSKPGTIRGDFCIQVGRNIIHG-SDSVESAEKE    129
+                       |::....:.|.|.  ||:..|:...|    .||.:.| :|:|.:|.|:
+HCP_TRIV2        345 SLVIQKALELPGFTE--DSEQKTVTTGF----ARNAVLGVADTVINAVKQ    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      19/91 (20.9%)
+# Similarity:    32/91 (35.2%)
+# Gaps:          36/91 (39.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        44 SEDLLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNV-----VKTGR     88
+                     |.|.|.||.|.|:       |||..:...:...|:..:.|     ::.|:
+UBX7_YEAST        46 SLDTLAEHSIWLR-------LVKDTEQFQLFEQVFPNVVVPSIYLIRAGK     88
+
+NDKA_CANLF        89 VML------------------------GETNPADSKPGTIR    105
+                     :.|                        ||::..::.||..|
+UBX7_YEAST        89 IELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAR    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       8/28 (28.6%)
+# Similarity:    18/28 (64.3%)
+# Gaps:           1/28 ( 3.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+NDKA_CANLF       103 TIRGDFCIQVGRNIIHGSDSVESAEKEI    130
+                     ::|...|:: ..||::..|.|:.:|:|:
+RPOA_ACICJ       271 SVRSANCLK-NDNIVYIGDLVQKSEQEM    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      14/62 (22.6%)
+# Similarity:    26/62 (41.9%)
+# Gaps:          18/62 (29.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+NDKA_CANLF        23 EIIKRFE-------------QKGFRLI---AMKLIQASEDLLKEHYIDLK     56
+                     |:|.||.             :.|.:|:   ..|.::..|.:|||.  ..:
+YXAD_BACSU        78 ELIYRFSDPSDGRVSLFTITKLGKQLLKADQQKRLERYEQMLKEW--STQ    125
+
+NDKA_CANLF        57 DRPFFAGLVKYM     68
+                     ::..|..|::.|
+YXAD_BACSU       126 EKEMFGELLQRM    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDKA_CANLF
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      15/68 (22.1%)
+# Similarity:    28/68 (41.2%)
+# Gaps:          19/68 (27.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+NDKA_CANLF        44 SEDLLKEHYIDLKDRPFFAGLVKYMQSGPVVA-----MVWEGLNVVKTGR     88
+                     |.:|||..:          |..|...:..::|     |:.|.:..::.|.
+FADB_SHESR       608 SYELLKAAF----------GEQKAFDADEIIARTMIPMIIETVRCLEEGI    647
+
+NDKA_CANLF        89 VMLGETNPADSKPGTIRG    106
+                     |    .:||::..|.:.|
+FADB_SHESR       648 V----ASPAEADMGLVYG    661
+
+
+#---------------------------------------
+#---------------------------------------

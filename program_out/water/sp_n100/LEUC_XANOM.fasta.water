@@ -1,0 +1,3500 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:16
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/LEUC_XANOM.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/LEUC_XANOM.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/LEUC_XANOM.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      52/228 (22.8%)
+# Similarity:    82/228 (36.0%)
+# Gaps:          80/228 (35.1%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       242 DEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIK    291
+                     |...:...||...||     ||.:|:  .::||..:.||.:  .|.|...
+PUR7_VIBVU        37 DSARLIKEKGYNVAP-----DAPLAI--MVISDRISAFDCI--WHGEHGL     77
+
+LEUC_XANOM       292 PQV------------SW-GTSPEMVLAIDQH---VPDP----ATEQDPTK    321
+                     ..|            .| |...|..|| |.|   :|.|    ..:..|.|
+PUR7_VIBVU        78 NGVPGKGAALNAISNHWFGLFKENGLA-DSHILDIPHPFVWIVQKAKPVK    126
+
+LEUC_XANOM       322 RNSIERALKYM----------------------GLKANQAITDIRL----    345
+                     ..:|.|  ||:                      ||:.::|:.|:.:    
+PUR7_VIBVU       127 IEAICR--KYITGSMWRAYEKGEREFCGIQLPEGLEKDKALPDLLMTPST    174
+
+LEUC_XANOM       346 -------------DRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALV    382
+                                  |.|.|   |...|.|..||...:....:|  :.:.|:
+PUR7_VIBVU       175 KGILKGIPGVPEADDVNI---TRQNIADNFAAFNFSSADDIA--LYEKLL    219
+
+LEUC_XANOM       383 VPGSGLVKAQAEA-EGLDKVFLDAGFEW    409
+                     ..|.|::   :|| ..:.::|:|..||:
+PUR7_VIBVU       220 KDGFGVI---SEALANVGQIFVDTKFEF    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    10/22 (45.5%)
+# Gaps:           4/22 (18.2%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       313 PAT----EQDPTKRNSIERALK    330
+                     |.|    |.|..:|..|.|:.|
+Y075_NITWN        24 PVTKGPLELDGARRELISRSAK     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      30/151 (19.9%)
+# Similarity:    54/151 (35.8%)
+# Gaps:          49/151 (32.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       347 RVFI-GSCTNSRIEDLRAAAAVAKGRKVASTIKQ----ALVVPGSGLVKA    391
+                     :||: |.|....:...|.:|.:....:.|..:::    |:..|..|    
+Y3584_PSEAB       45 KVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEG----     90
+
+LEUC_XANOM       392 QAEAEGLD-KVFLDAGF---------EWREPGCSMCLAMNPDKLGSGEHC    431
+                     ..:.:|.| :|:||..:         ::||....|               
+Y3584_PSEAB       91 YEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPM---------------    125
+
+LEUC_XANOM       432 ASTSNRNFEGRQGAGGRTHL-VSPAMAAAAAVSGHFV-----DVRELGDS    475
+                          ..|||.|    ..|: |:..:..|.:..|.|.     |:.:|.:.
+Y3584_PSEAB      126 -----EGFEGEQ----PLHIFVAAGVDLAISKLGRFTENDQYDIEQLIEC    166
+
+LEUC_XANOM       476 G    476
+                     |
+Y3584_PSEAB      167 G    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           3/22 (13.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       402 FLDAGFEWREP---GCSMCLAM    420
+                     |..:|..:.:|   ||:.|:|:
+BPT_HAHCH         49 FRRSGNHYYKPRCNGCNACIAV     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 189
+# Identity:      42/189 (22.2%)
+# Similarity:    63/189 (33.3%)
+# Gaps:          78/189 (41.3%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       191 LAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVA    240
+                     |||.|....|..|    :..||.||  ..:|:       :...|.:|.|.
+KDPC_CAUVN        25 LAVTGVAQAAFPN----QANGSLIR--DADGK-------VVGSALIGQVF     61
+
+LEUC_XANOM       241 VDEKTIAYVKGRPFAPKGADWDAAVA-------LWSTLVS----------    273
+                     ...:   |..|||.| .||.:||:.:       |..||::          
+KDPC_CAUVN        62 AKPE---YFHGRPSA-AGAGYDASASSGSNMGPLNETLIARLKTDAAALR    107
+
+LEUC_XANOM       274 --------------------DPD-----AHF--------------DTVVE    284
+                                         |||     |.|              |....
+KDPC_CAUVN       108 AENPGVAIPADAVTTSGSGLDPDISPANARFQAPRVAGARGVPEKDVTAL    157
+
+LEUC_XANOM       285 LHAEDIKPQVSWGTSPEM-VL----AIDQHVPDPATEQD    318
+                     :.|:..:|.:.:...|.: ||    |:|...|..|:::|
+KDPC_CAUVN       158 IDAQVQQPLLGFIGQPRVNVLALNRALDARYPPLASQKD    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      32/119 (26.9%)
+# Similarity:    44/119 (37.0%)
+# Gaps:          21/119 (17.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       318 DPTKRNSIERALKYM-----GLKANQAITDIRLDRVFIGSCTNSRIEDLR    362
+                     ||.:....|..|:::     |..|...:.|  |..|:||....|.:.|:.
+LPXH_XYLFM        12 DPLRPVVTELFLRFLREQVSGADALYILGD--LFEVWIGDDMPSEVADMV     59
+
+LEUC_XANOM       363 AAAAVAKGRKVASTIKQALVVPGSG--LVKAQAEAEGLDKVFLDAGFEWR    410
+                     |||.    |..|........:||:.  ||.|...|.        |||...
+LPXH_XYLFM        60 AAAL----RTYADAGTPLYFMPGNRDFLVGADYAAR--------AGFRIL     97
+
+LEUC_XANOM       411 EPGCSMCLAMNPDKLGSGE    429
+                     ...|.:.|...|..|..|:
+LPXH_XYLFM        98 PDPCVVDLYGEPTLLLHGD    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      13/34 (38.2%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           2/34 ( 5.9%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       374 ASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGF    407
+                     |.|:...||  ||||...|.....|..|.:.|.|
+YERI_SCHPO        35 AETLMHDLV--GSGLTGKQVAKTCLGAVVIYAVF     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 433
+# Identity:      90/433 (20.8%)
+# Similarity:   146/433 (33.7%)
+# Gaps:         154/433 (35.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        87 LQVQTLDENCDDFGILEFKMNDARQGIVHVVGPEQGA---TLPGMTVVCG    133
+                     ||:..|.::......|:....:.|:|.:|.:..|.||   ||  |.::.|
+RBSA_RUEST         7 LQISNLTKSFGPVKALKGVDFELRRGEIHAIAGENGAGKSTL--MNIIDG     54
+
+LEUC_XANOM       134 ----DSHTSTHGAFGALAHGIGTSEVEHVLATQCLITKKMKNLQVRVEGT    179
+                         ||.                                    ::|::||
+RBSA_RUEST        55 ILQPDSG------------------------------------EIRLDGT     68
+
+LEUC_XANOM       180 ------------LPFGVTAKDIVL----AVIGKIGTAGGNGHALEFAGSA    213
+                                 :..|...::|.|    :|...|..|..|         :
+RBSA_RUEST        69 PVEIPSPAAAQKMGIGFVHQEIALCPDVSVAENIFMAATN---------S    109
+
+LEUC_XANOM       214 IRALSMEGRMTICNMSIEAGAR---VGMVAVDEKTIAYVKGRPFAPKGAD    260
+                     .|:..|:.:      .|||.||   ..:.::|.                 
+RBSA_RUEST       110 SRSFLMDYK------GIEAKAREVFAQLSSIDP-----------------    136
+
+LEUC_XANOM       261 WDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAIDQHV    310
+                             |.||.|.......:||: |:.:       |....||.:|:  
+RBSA_RUEST       137 --------SVLVRDLSISNQQLVEI-AKAL-------TLDCRVLILDE--    168
+
+LEUC_XANOM       311 PDPA-TEQDPTKRNSIERALKYMGLKANQAITDI----RLDRVFIGSCTN    355
+                     |..| ||.:......|.|.|      |:|.|:.|    |:..:| .:|  
+RBSA_RUEST       169 PTAALTEAEAQVLFKIMRRL------ADQGISLIYISHRMVEIF-DNC--    209
+
+LEUC_XANOM       356 SRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDA    405
+                     .|:...|      .||.| :|...|.:.| :.:|:|....| :..::.: 
+RBSA_RUEST       210 DRVSVFR------DGRYV-TTQDVAKITP-ADVVRAMVGRE-IGDLYPE-    249
+
+LEUC_XANOM       406 GFEWREPGCSMCLAMNPDKLGSGE--HCASTSNR-----NFEGRQGAGGR    448
+                       :.|...||....:..:.|...|  |..|.|..     .|.|..|| ||
+RBSA_RUEST       250 --KQRPEACSTTEVLRVENLCEAERFHDVSFSLHKGEILGFAGLIGA-GR    296
+
+LEUC_XANOM       449 THLVSPAMAAAAAVSGHF------VDVRELGDS    475
+                     :.:.....|....|:|..      :.:|:..||
+RBSA_RUEST       297 SEIAKGVCALEGQVTGRLWLNGEPLALRDYQDS    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      11/25 (44.0%)
+# Similarity:    11/25 (44.0%)
+# Gaps:           4/25 (16.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       423 DKLGSGEHCASTSNRNFEGRQGAGG    447
+                     |.||.|..|...|.|    |.|.||
+KR195_HUMAN       19 DDLGYGYGCGCGSFR----RLGYGG     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      49/232 (21.1%)
+# Similarity:    82/232 (35.3%)
+# Gaps:          78/232 (33.6%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       288 EDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALK--YMGLK    335
+                     :|...|:||  |..:||:|.|.:    ||..|...:...|.:.  :.|..
+UPPP_CORDI         3 QDPSSQISW--SQTIVLSIVQGL----TEFLPISSSGHLRIVSELFWGKD     46
+
+LEUC_XANOM       336 ANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTI--------    377
+                     |..:.|.:    |.:|:         .||..|...:.:|..:        
+UPPP_CORDI        47 AGASFTAV----VQLGT---------EAAVLVYFAKDIAKILTGWFRGLF     83
+
+LEUC_XANOM       378 --KQA--------LVVPGS------GLVKAQAEAEGLDKVFLDAGF----    407
+                       ||.        :|:.|:      ||:......:.|..:::.|..    
+UPPP_CORDI        84 DKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDIIRDNLRNMWITASVLIAF    133
+
+LEUC_XANOM       408 --------EWREP---------------GCSMCLAMNPDKLGSGEHCAST    434
+                             :|...               ||:.|||:.|....||   .:.
+UPPP_CORDI       134 SFVFIAAEKWGSKRRSFDQLTMRDAVIMGCAQCLALIPGVSRSG---GTV    180
+
+LEUC_XANOM       435 SNRNFEG--RQGAGGRTHLVS-PAMAAAAAVS    463
+                     |...|.|  |:.|...:.|:: ||:.|:...|
+UPPP_CORDI       181 SAGLFVGLDREVATRFSFLLAIPAVLASGLFS    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    15/24 (62.5%)
+# Gaps:           5/24 (20.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       165 ITKKMKNLQV-----RVEGTLPFG    183
+                     :||.|:||::     :.||.:.||
+GREB_ECO57        65 LTKCMENLKIVDYSPQQEGKVFFG     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      33/170 (19.4%)
+# Similarity:    49/170 (28.8%)
+# Gaps:          74/170 (43.5%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        13 MHEVTRRDDGSSLIYIDRHILHEVTSPQAFEG---------------LRL     47
+                     |.|..|.:..::|:.:|            |.|               ||:
+TGT_LEPCP        200 MFESLREESLNALVELD------------FPGYAVGGVSVGEPKDEMLRI    237
+
+LEUC_XANOM        48 AGRNPWRIDAN-------IATPDHNV--------------PTTRAE----     72
+                     ....|..:.|:       :.||:..|              ||..|.    
+TGT_LEPCP        238 MNHTPHLLPADKPRYLMGVGTPEDLVDGVACGVDMFDCVMPTRNARNGHL    287
+
+LEUC_XANOM        73 --RQGGLESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVGPE    120
+                       |.|.|: |.:...:...:.|||.|.....                   
+TGT_LEPCP        288 FTRYGDLK-IRNARHKADERPLDETCSCQAC-------------------    317
+
+LEUC_XANOM       121 QGATLPGMTVVCGDSHTSTH    140
+                     :|:|||...|..|.|....|
+TGT_LEPCP        318 KGSTLPDGRVTGGFSRAYLH    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      34/177 (19.2%)
+# Similarity:    58/177 (32.8%)
+# Gaps:          69/177 (39.0%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       178 GTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICN    227
+                     ||.|.|:||:.:|:....::..               ||....|::.:.|
+CBPQ_HUMAN       140 GTPPEGITAEVLVVTSFDELQR---------------RASEARGKIVVYN    174
+
+LEUC_XANOM       228 M---------------SIEAGARVGMVAVDEKTIA-------------YV    249
+                     .               ::|| |:||.:|...:::|             |.
+CBPQ_HUMAN       175 QPYINYSRTVQYRTQGAVEA-AKVGALASLIRSVASFSIYSPHTGIQEYQ    223
+
+LEUC_XANOM       250 KGRPFAPKGADWDAAVALWSTLVSD---------------PDA-HFDTVV    283
+                     .|.|..|..........:.|.:.|.               ||. .|:||.
+CBPQ_HUMAN       224 DGVPKIPTACITVEDAEMMSRMASHGIKIVIQLKMGAKTYPDTDSFNTVA    273
+
+LEUC_XANOM       284 ELHAEDIKPQVSWGTSPEMVLAIDQHV    310
+                     |         ::....||.|:.:..|:
+CBPQ_HUMAN       274 E---------ITGSKYPEQVVLVSGHL    291
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    18/43 (41.9%)
+# Gaps:           9/43 (20.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        78 ESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVGPE    120
+                     |::...:|.|| ..|.|        :||..:...|:|....||
+PSA6_SOYBN       193 ETVQTAISALQ-SVLQE--------DFKATEIEVGVVRKDNPE    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      55/252 (21.8%)
+# Similarity:    98/252 (38.9%)
+# Gaps:          64/252 (25.4%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       243 EKTIAYVKGRPFAPKGA----DWDAAVAL-WSTLVSDPDAHFDTVVELHA    287
+                     ::.|...:.:.|:|..:    .|||:.:: .|...:||....:.:|:...
+SCL34_ARATH       72 QQVITDSQNQSFSPADSLITNSWDASGSIDESAYSADPQPVNEIMVKSMF    121
+
+LEUC_XANOM       288 EDIKPQVSWGTSPEMVLAI----DQHVPDPATEQDPTKRNSI--ERALKY    331
+                     .|.:..:.:....|.....    ||.|.:...|:. .:|:|:  |..|..
+SCL34_ARATH      122 SDAESALQFKKGVEEASKFLPNSDQWVINLDIERS-ERRDSVKEEMGLDQ    170
+
+LEUC_XANOM       332 MGLKAN--------------------QAITDIRLDRVFI--GSC-----T    354
+                     :.:|.|                    ..:||: .|:|.:  |.|     .
+SCL34_ARATH      171 LRVKKNHERDFEEVRSSKQFASNVEDSKVTDM-FDKVLLLDGECDPQTLL    219
+
+LEUC_XANOM       355 NSRIEDLRAAAAVA-KGRKVASTIKQALVVPGSGLVK--AQAEAEGLDKV    401
+                     :|.|:.:|::..:. ||:|...  |::.||....|:.  |||.:.| ||.
+SCL34_ARATH      220 DSEIQAIRSSKNIGEKGKKKKK--KKSQVVDFRTLLTHCAQAISTG-DKT    266
+
+LEUC_XANOM       402 ----FLDAGFEWREPGCSMCLAMNPDKLG-SGEHCASTSNRNFEGR-QGA    445
+                         ||            :.:......|| :|:..|.......|.| ||:
+SCL34_ARATH      267 TALEFL------------LQIRQQSSPLGDAGQRLAHCFANALEARLQGS    304
+
+LEUC_XANOM       446 GG    447
+                     .|
+SCL34_ARATH      305 TG    306
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      22/108 (20.4%)
+# Similarity:    38/108 (35.2%)
+# Gaps:          39/108 (36.1%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       328 ALKYMGLKANQAITDIRLDRVFIGSCTN---SRIEDLRAAAAVAKGRKVA    374
+                     |:.:.||..      ::..||.:|. ||   |:...:|....:..||.  
+NDKA_CANLF        75 AMVWEGLNV------VKTGRVMLGE-TNPADSKPGTIRGDFCIQVGRN--    115
+
+LEUC_XANOM       375 STIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDK    424
+                            ::.||..|::..:..||          |          ..|::
+NDKA_CANLF       116 -------IIHGSDSVESAEKEIGL----------W----------FQPEE    138
+
+LEUC_XANOM       425 LGSGEHCA    432
+                     |...:.||
+NDKA_CANLF       139 LVDYKSCA    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      38/232 (16.4%)
+# Similarity:    69/232 (29.7%)
+# Gaps:          83/232 (35.8%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        54 RIDANIATPDHNVPT-----TRAERQGG-LESISDEVSRLQVQTLDENCD     97
+                     |:|..:.| .|..||     ...||... ...:.|...|..|..:.....
+RS4_CAEEL         70 RVDGKVRT-CHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEA    118
+
+LEUC_XANOM        98 DFGILEFK-MNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGAL    146
+                     ||.:.:.| :....:|:..:      .|..|.|:...|.|          
+RS4_CAEEL        119 DFKLCKVKSVRTVNKGVPVL------TTTDGRTIRYPDPH----------    152
+
+LEUC_XANOM       147 AHGIGTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAV---    193
+                                                |:|..|:.|.::.:.|..:|   
+RS4_CAEEL        153 ---------------------------VKVNDTIVFNISTQKITDSVKFE    175
+
+LEUC_XANOM       194 ------------IGKIGTAG----------------GNGHALEFAGSAIR    215
+                                 :|::|..|                ..||:.....|.:.
+RS4_CAEEL        176 PGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATRISNVF    225
+
+LEUC_XANOM       216 ALSMEGRMTICNMSIEAGARVGMVAVDEKTIA    247
+                     .:. :|...:.::...||.|:.:....:|.:|
+RS4_CAEEL        226 VIG-KGNKALVSLPTGAGIRLSIAEERDKRMA    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    18/50 (36.0%)
+# Gaps:          15/50 (30.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       364 AAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPG    413
+                     ||:|.|.|.:...  .|.:.|||...:|.....             ||||
+G45IP_CHLAE        2 AASVRKARSLLGL--TATLAPGSRGYRAPPPPR-------------REPG     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 321
+# Identity:      62/321 (19.3%)
+# Similarity:   105/321 (32.7%)
+# Gaps:         117/321 (36.4%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       220 EGRMTIC----NMSIEAGARVGMV--AVDEKTIAYVKGRPFAPKGA----    259
+                     ||||..|    :|:|..||...::  .:::..|...:.....|.||    
+DAPEL_OCEIH       87 EGRMHACGHDLHMTIALGALEKLIQDPINDDVIFVFQPAEEGPGGAKPML    136
+
+LEUC_XANOM       260 ------DWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGT-----    298
+                           .|            .||..|    .||   |.|::..||     
+DAPEL_OCEIH      137 ESEEFQQW------------KPDMMF----ALH---IAPELPVGTVSSKA    167
+
+LEUC_XANOM       299 ------SPEMVL---AIDQHVPDPATEQDPTKRNS---------IERALK    330
+                           :.|:.:   .:..|...|...:|.|...|         :.|.|.
+DAPEL_OCEIH      168 GLLFANTSELFIDFEGVGGHAAYPHLTKDMTVAASNFVVQLQQIVSRGLN    217
+
+LEUC_XANOM       331 YMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQA    380
+                     .:.   ...||        ||...:..:::     |:|:..::..||:  
+DAPEL_OCEIH      218 PLD---GSVIT--------IGKMESGYVQN-----AIAETARLEGTIR--    249
+
+LEUC_XANOM       381 LVVPGSGLVKAQAEAEGLDKV-----FLDAGFEWREPGCSMCLAMNPDKL    425
+                                ..:|:.:|.:     .|..||| ....|::       |:
+DAPEL_OCEIH      250 -----------STDADAIDMIKSKLNRLMKGFE-ISYDCTI-------KV    280
+
+LEUC_XANOM       426 GSGEHCASTSN-----RNFEGRQGAGGRTHLVSPAMAAAAAVSGHFVDVR    470
+                     ..|.:.....|     :.||   ....:|..::...|.||.....|.|:.
+DAPEL_OCEIH      281 DYGANYYQVVNDATYVQQFE---NVINQTQTITYQQADAAMTGEDFGDML    327
+
+LEUC_XANOM       471 E--------LG-DSGVGIRDS    482
+                     :        || ||..|:.::
+DAPEL_OCEIH      328 KEIPGFMFWLGVDSSYGLHNA    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      40/202 (19.8%)
+# Similarity:    67/202 (33.2%)
+# Gaps:          70/202 (34.7%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       251 GRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAED-IKPQVSWGT-    298
+                     |.|.|.||...:..|..:.            :.:|...| ::..|:.|| 
+KAD_METRJ          7 GPPGAGKGTQSERIVQRFG------------IPQLSTGDMLRAAVAAGTP     44
+
+LEUC_XANOM       299 ---------------SPEMVLAIDQHVPDPATEQDP-------------T    320
+                                    |..:|:.|   |.|...|.|.             .
+KAD_METRJ         45 VGLEAKAVMESGGLVSDRIVVGI---VADRIEEPDARRGFILDGFPRTVA     91
+
+LEUC_XANOM       321 KRNSIERALKYMGLKANQAITDIRLD-RVFIGSCTNSRIEDLRAAAAVAK    369
+                     :..::...|...||..: |:.::::| ...:|     |||. |||..:|:
+KAD_METRJ         92 QAEALGEMLASKGLSLS-AVVELKVDENALVG-----RIEK-RAAETLAR    134
+
+LEUC_XANOM       370 GRKV-----------------ASTIKQALVVPGSGLVKAQAEAEGLDKVF    402
+                     |:.|                 |.|...:......|.::.....:.:|||.
+KAD_METRJ        135 GQAVRKDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLETVDGMQPIDKVT    184
+
+LEUC_XANOM       403 LD    404
+                     .|
+KAD_METRJ        185 AD    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 415
+# Identity:      81/415 (19.5%)
+# Similarity:   113/415 (27.2%)
+# Gaps:         172/415 (41.4%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       109 ARQGIVHVVGP---EQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEV    155
+                     |:.|:..:|||   .:|:.|||         ....|.|||.....|.:..
+ELN_BOVIN         63 AKPGVGGLVGPGLGAEGSALPG---------AFPGGFFGAGGGAAGAAAA    103
+
+LEUC_XANOM       156 EHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGG---    202
+                     ....|.               .|....||          |.||..||   
+ELN_BOVIN        104 YKAAAK---------------AGAAGLGV----------GGIGGVGGLGV    128
+
+LEUC_XANOM       203 -NGHALEFAGSAIRALSMEGRMTICNMS--------IEAGARVGMVAVDE    243
+                      .|..:...|:.:.|....|::....:.        ..||||...:.|  
+ELN_BOVIN        129 STGAVVPQLGAGVGAGVKPGKVPGVGLPGVYPGGVLPGAGARFPGIGV--    176
+
+LEUC_XANOM       244 KTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQ    293
+                             .|..|.||                             .:||:
+ELN_BOVIN        177 --------LPGVPTGA-----------------------------GVKPK    189
+
+LEUC_XANOM       294 VS---------------WGTSPEMVLAIDQHVPD-PATEQDPTKRNSIER    327
+                     ..               .|..|.:.|......|. ||....|.|...:..
+ELN_BOVIN        190 AQVGAGAFAGIPGVGPFGGQQPGLPLGYPIKAPKLPAGYGLPYKTGKLPY    239
+
+LEUC_XANOM       328 ALKYMGL--KANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVAS    375
+                     .....|:  .|.:|           |..|.:.:....||||.....|:.:
+ELN_BOVIN        240 GFGPGGVAGSAGKA-----------GYPTGTGVGPQAAAAAAKAAAKLGA    278
+
+LEUC_XANOM       376 TIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDKL    425
+                       ..|.|:||.|:     ...|:             ||....:       
+ELN_BOVIN        279 --GGAGVLPGVGV-----GGPGI-------------PGAPGAI-------    301
+
+LEUC_XANOM       426 GSGEHCASTSNRNFEGRQGAGGRTHLVSP---AMAAAAAVSGHF------    466
+                                      .|.||...:.:|   |.|||||.:..|      
+ELN_BOVIN        302 -----------------PGIGGIAGVGAPDAAAAAAAAAKAAKFGAAGGL    334
+
+LEUC_XANOM       467 --VDVRELGDSGVGI    479
+                       |.|..:|..|||:
+ELN_BOVIN        335 PGVGVPGVGVPGVGV    349
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       9/36 (25.0%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           1/36 ( 2.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       303 VLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQ    338
+                     :|.::..:|||.. .|||...::.:...:...|..|
+ASIC2_MOUSE      116 LLDVNLQIPDPHL-ADPTVLEALRQKANFKHYKPKQ    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      14/77 (18.2%)
+# Similarity:    28/77 (36.4%)
+# Gaps:          27/77 (35.1%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       262 DAAVALW-------STLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVL    304
+                     :|::.||       .||:.:|....:..:..:.|     .:|        
+DOXA1_XENTR       94 NASIGLWIGLKGVNITLIGNPVYQLNETINYNEE-----FAW--------    130
+
+LEUC_XANOM       305 AIDQHVPDPATEQDPTKRNSIERALKY    331
+                            :.|.:.|...::.:||.|.|
+DOXA1_XENTR      131 -------ESANQFDKNYKDGLERGLPY    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      14/61 (23.0%)
+# Similarity:    26/61 (42.6%)
+# Gaps:           7/61 (11.5%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       321 KRNSIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKG    370
+                     ::||.:::.....:||.:|.....|.|     ..:|.|:...:...:.|.
+RS20_STRPB        24 EKNSAQKSAMRTAIKAFEANPSEELFR-----AASSSIDKAESKGLIHKN     68
+
+LEUC_XANOM       371 RKVASTIKQAL    381
+                     :  ||..|..|
+RS20_STRPB        69 K--ASRDKARL     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      33/144 (22.9%)
+# Similarity:    57/144 (39.6%)
+# Gaps:          29/144 (20.1%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       270 TLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDP    319
+                     |:..|.|..:|.|....|              ||.| |....:...|...
+TPM_HAELO        153 TMAEDADRKYDEVARKLA--------------MVEA-DLERAEERAETGE    187
+
+LEUC_XANOM       320 TKRNSIERALKYMG--LKANQAITD--IRLDRVFIGSC--TNSRIEDLRA    363
+                     ||...:|..|:.:|  ||:.:...:  ::.:..:.|..  ..||:::..|
+TPM_HAELO        188 TKIVELEEELRVVGNNLKSLEVSEEKALQKEETYEGQIRQMTSRLQEAEA    237
+
+LEUC_XANOM       364 AA-----AVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVF    402
+                     .|     :|.|.:|....::..||....   |.:|.::.||:.|
+TPM_HAELO        238 RAEFAERSVQKLQKEVDRLEDELVQEKE---KYKAISDELDQTF    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 482
+# Identity:     482/482 (100.0%)
+# Similarity:   482/482 (100.0%)
+# Gaps:           0/482 ( 0.0%)
+# Score: 2493.0
+# 
+#
+#=======================================
+
+LEUC_XANOM         1 MTAKTLYDKLWEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLAGR     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM         1 MTAKTLYDKLWEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLAGR     50
+
+LEUC_XANOM        51 NPWRIDANIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM        51 NPWRIDANIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFG    100
+
+LEUC_XANOM       101 ILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       101 ILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGI    150
+
+LEUC_XANOM       151 GTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       151 GTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTA    200
+
+LEUC_XANOM       201 GGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       201 GGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVK    250
+
+LEUC_XANOM       251 GRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSP    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       251 GRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSP    300
+
+LEUC_XANOM       301 EMVLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQAITDIRLDRVFI    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       301 EMVLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQAITDIRLDRVFI    350
+
+LEUC_XANOM       351 GSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDK    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       351 GSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDK    400
+
+LEUC_XANOM       401 VFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTH    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LEUC_XANOM       401 VFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTH    450
+
+LEUC_XANOM       451 LVSPAMAAAAAVSGHFVDVRELGDSGVGIRDS    482
+                     ||||||||||||||||||||||||||||||||
+LEUC_XANOM       451 LVSPAMAAAAAVSGHFVDVRELGDSGVGIRDS    482
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       4/18 (22.2%)
+# Similarity:    12/18 (66.7%)
+# Gaps:           1/18 ( 5.6%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       371 RKVASTIKQAL-VVPGSG    387
+                     :::::||...: :..|:|
+LPT_ESCF3          2 KRISTTITTTITITTGNG     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      15/46 (32.6%)
+# Similarity:    20/46 (43.5%)
+# Gaps:          12/46 (26.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       363 AAAAVAK------------GRKVASTIKQALVVPGSGLVKAQAEAE    396
+                     ||||.|:            |.|....||:...:.|.||.:|:..||
+RL7_THET8         49 AAAAPAEEKTEFDVILKEAGAKKLEVIKELRAITGLGLKEAKDLAE     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    25/69 (36.2%)
+# Gaps:           8/69 (11.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       127 GMTVVCGDSHTSTHGAFGALAHGIGTSEVEHVLATQCLITKKMKNLQVRV    176
+                     |.|:.....|. |....|.|.....|.:..|.||.|      .....:.:
+HEM1_METCA       189 GETIELTARHL-TENRIGHLIIANRTFDRAHTLANQ------FGGFAISL    231
+
+LEUC_XANOM       177 EGTLPFGVTAKDIVLAVIG    195
+                     | .||..:...||::|..|
+HEM1_METCA       232 E-ELPKHLAKADIIVASTG    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 390
+# Identity:      81/390 (20.8%)
+# Similarity:   130/390 (33.3%)
+# Gaps:          98/390 (25.1%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       115 HVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAH--GIGTSEVEHVLATQ    162
+                     |.:..||.   |....:..|:.....||..:|.|  |:|.:...|. || 
+XYLB_KLEPN        37 HPLWSEQD---PEQWWLATDTAMKALGAHDSLRHVKGLGIAGQMHG-AT-     81
+
+LEUC_XANOM       163 CLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGS    212
+                      |:.|.::.|:.                 |::...|........||...|
+XYLB_KLEPN        82 -LLDKSLQVLRP-----------------AILWNDGRCAEECQLLEDKVS    113
+
+LEUC_XANOM       213 AIRA----LSMEGRMTICNMSIEAGARVGMVAVDEKTIA--YVKGRPFAP    256
+                     |.|.    |.|.|......:.::.........||:..:.  |::.|....
+XYLB_KLEPN       114 ASRQITGNLMMPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLRMTGE    163
+
+LEUC_XANOM       257 KGADW-DAAVALW---------STLVSDPDAHFDTVVEL-HAEDI----K    291
+                     ..:|. |||..:|         ..:::..|...|.:..| ...|:    :
+XYLB_KLEPN       164 LASDMSDAAGTMWLDVARRDWSDEMLAACDLSRDAMPALFEGSDVTGQLR    213
+
+LEUC_XANOM       292 PQV--SWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALKYMGL---KA    336
+                     |:|  :|...|.:|:.                 ...:.|...:|:   .|
+XYLB_KLEPN       214 PEVAQAWNMPPALVVG-----------------GGGDNAAGAVGIGMADA    246
+
+LEUC_XANOM       337 NQAITDIRLDRVFIGSCTN--SRIED-LRAAAAVAKGR--------KVAS    375
+                     .||:..:....|:......  |:.|. :.:.....:||        ..||
+XYLB_KLEPN       247 GQAMLSLGTSGVYFAVSEGFLSKPESAVHSFCHACRGRWHLMSVMLSAAS    296
+
+LEUC_XANOM       376 TIKQALVVPGSGLVKAQ-AEAEGLDKVFLDAGFEWREPGCSMCLAMNPDK    424
+                     .:..|..:.|...|.|. |.|:..|:   .||..|..|..          
+XYLB_KLEPN       297 CLDWAAKLTGLASVPALIAAAQTADE---SAGPVWFLPYL----------    333
+
+LEUC_XANOM       425 LGSGEHCASTSNRNFEGRQGAGGRTHLVSPAMAAAAAVSG    464
+                       |||.   |.:.|.:.:....|.||...||..|.|.:.|
+XYLB_KLEPN       334 --SGER---TPHNNPQAKGVFFGLTHQHGPAELARAVLEG    368
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      26/105 (24.8%)
+# Similarity:    38/105 (36.2%)
+# Gaps:          29/105 (27.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        53 WRID-ANIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFGI    101
+                     |.:| |.:.|..::|   ...|...||.:..|  .|.:.:|         
+RECR_NOVAD        91 WALDRARLFTGKYHV---LGGRLSALEGVRPE--DLTIGSL---------    126
+
+LEUC_XANOM       102 LEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGA------    145
+                         ::...||.:..|.....|||.|.|.    :|.......||      
+RECR_NOVAD       127 ----LDRVAQGGIDEVVLAMNATLEGQTT----AHYIAERLEGAAVRVTQ    168
+
+LEUC_XANOM       146 LAHGI    150
+                     ||||:
+RECR_NOVAD       169 LAHGL    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      61/253 (24.1%)
+# Similarity:    93/253 (36.8%)
+# Gaps:          68/253 (26.9%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       271 LVSDPDAHFDTVVELHA------EDIKPQVS---WGTSPEMVLAIDQH-V    310
+                     ||::.|.       :||      |:|..::|   |..:||    .||. |
+SURE_METNO         4 LVTNDDG-------IHAPGLKVLEEIARELSDDVWVVAPE----TDQSGV     42
+
+LEUC_XANOM       311 PDPATEQDPTK-RNSIERALKYMGLKANQAITDIR-------LDRVFIGS    352
+                     ....:..||.: |...|......|..::..|..:|       .|.|..|.
+SURE_METNO        43 SHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGV     92
+
+LEUC_XANOM       353 CTNSRI-EDLRAAAAVAKG--------RKVASTIKQALVVPGSGLVKAQA    393
+                     .....: ||:..:..||..        |.:|  :.||..|.|...||...
+SURE_METNO        93 NRGQNVAEDVTYSGTVAGAMEGTILGVRSIA--LSQAYGVGGRANVKWHT    140
+
+LEUC_XANOM       394 EAE-GLDKV--FLDAGFEWREPGCSMCLAMN-PD---KLGSGEHCASTSN    436
+                     .|| |...:  .|:||.   |||  :.:.:| ||   :...|....:...
+SURE_METNO       141 AAEHGARTIRRILEAGI---EPG--ILVNVNFPDCEPEAVEGIAVVAQGM    185
+
+LEUC_XANOM       437 RN------FEGRQGAGGRTHLVSP----AMAAAAAVSGHFVDVRELGDSG    476
+                     ||      .|...|.|      :|    |.|.|....||..|::.:.::.
+SURE_METNO       186 RNQQLLAIDERLDGRG------NPYFWLAFAKARFEPGHGTDLKAIAENR    229
+
+LEUC_XANOM       477 VGI    479
+                     :.:
+SURE_METNO       230 IAV    232
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      11/35 (31.4%)
+# Similarity:    17/35 (48.6%)
+# Gaps:           3/35 ( 8.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       263 AAVALWST-LVSDPDAHFDTVVELHAEDIKPQVSW    296
+                     |.:.|:|. |:.|||.:......:....|||:  |
+CYB_ARTIO        240 ATLVLFSPYLLGDPDNYIPANPLITPPHIKPE--W    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 342
+# Identity:      63/342 (18.4%)
+# Similarity:   110/342 (32.2%)
+# Gaps:         130/342 (38.0%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       104 FKMNDARQGIVHVVG-----PEQGATLPGMTVVCGDSHTSTHGAFG----    144
+                     ||.|..:.||..:..     ||.||                ...|.    
+IOLE_BACHK         2 FKENTIKLGIAPIAWTNDDMPELGA----------------ENTFEQCIS     35
+
+LEUC_XANOM       145 --ALAHGIGTSEVEHVLATQCLITKK---MKNLQVR------------VE    177
+                       ||| |...|||.:......::.||   ::||::.            :|
+IOLE_BACHK        36 EMALA-GFNGSEVGNKYPRNTVVLKKSLELRNLEIASAWFSTFLTTKPIE     84
+
+LEUC_XANOM       178 GTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICN    227
+                     .|:...:..:|.:..:..|:......||            |::|.|    
+IOLE_BACHK        85 ETVEEFIKHRDFLHGMGAKVIVVSEQGH------------SIQGLM----    118
+
+LEUC_XANOM       228 MSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDA    277
+                                      .:...|.:|...: .:|:.        ::|...
+IOLE_BACHK       119 -----------------DVPLFKNKPVFTE-EEWEK--------LADGLH    142
+
+LEUC_XANOM       278 HFDTVVELHAEDIKPQVSWGTSPEMVLAIDQ--HVPDPA-----------    314
+                     |...:.:.....|......||..:....|::  .:.|||           
+IOLE_BACHK       143 HLGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGHL    192
+
+LEUC_XANOM       315 --TEQDP--TKRNSIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIED    360
+                       :.::|  ..:..:.| :|::.||      |||.:.|.:     .:.::
+IOLE_BACHK       193 VFSGEEPLYILKKYLPR-IKHVHLK------DIRQEVVDV-----VKEKE    230
+
+LEUC_XANOM       361 LRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVF    402
+                     |....||..|         |..|||.|::.       .|:||
+IOLE_BACHK       231 LSFLQAVKNG---------AFTVPGDGVIV-------FDEVF    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      26/97 (26.8%)
+# Similarity:    40/97 (41.2%)
+# Gaps:          15/97 (15.5%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       320 TKRNSIERAL-----KYMGLKANQAITDIRLDRVFIG-SCTNSRIEDLRA    363
+                     |:..:|:.||     :..|..|.|.:..:..:...:| |.|:|.:.||..
+ACKA_STAAT       239 TRSGNIDPALIPFIMEKTGKTAEQVLEILNKESGLLGLSGTSSDLRDLSE    288
+
+LEUC_XANOM       364 AAAVAKGRKVASTIKQALVVPGSGLVK----AQAEAEGLDKVFLDAG    406
+                     .|...|.|.     :.||.|..|.:.|    ..|...|:|.:...||
+ACKA_STAAT       289 EAESGKARS-----QMALDVFASKIHKYIGSYAARMHGVDVIVFTAG    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      43/207 (20.8%)
+# Similarity:    73/207 (35.3%)
+# Gaps:          63/207 (30.4%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       165 ITKKMKNLQVRV----EGT----LPFGVTAKDIVLAVIGKIG------TA    200
+                     :.:.....|:||    :||    |..||...|.:|..|.:.|      .|
+HIS7_BURTA         6 VVRNTSETQIRVKIDLDGTGRQKLATGVPFLDHMLDQIARHGLVDLDIEA     55
+
+LEUC_XANOM       201 GGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTI----    246
+                     .|:.|             ::...|:.::.|..|..|.....|:|.|    
+HIS7_BURTA        56 HGDTH-------------IDDHHTVEDVGITLGQAVAKAVGDKKGIRRYG     92
+
+LEUC_XANOM       247 -AYV-------------KGRP---------FAPKGA-DWDAAVALWSTLV    272
+                      :||             .|||         .|..|. |.|.::..:...|
+HIS7_BURTA        93 HSYVPLDEALSRVVIDFSGRPGLEFHVPFTRARIGTFDVDLSIEFFRGFV    142
+
+LEUC_XANOM       273 SDPDA--HFDTVVELHAEDIKPQV--SWGTSPEMVLAIDQHVPDPATEQD    318
+                     :....  |.|.:..::|......|  ::|.:..|.:.:|:.    |..|.
+HIS7_BURTA       143 NHAGVTLHIDNLRGVNAHHQLETVFKAFGRALRMAVELDER----AAGQI    188
+
+LEUC_XANOM       319 PTKRNSI    325
+                     |:.:.|:
+HIS7_BURTA       189 PSTKGSL    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      17/67 (25.4%)
+# Similarity:    21/67 (31.3%)
+# Gaps:          23/67 (34.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       393 AEAEGLD---KVFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNF    439
+                     |:.|||.   |.|.....||...|..:.| :.|...           .|.
+PTH_GEOLS         32 AQLEGLSIVRKQFGGLTAEWERKGKRLVL-LKPQTF-----------MNL     69
+
+LEUC_XANOM       440 EGRQGAGGRTHLVSPAM    456
+                     .||.        |.||:
+PTH_GEOLS         70 SGRS--------VMPAL     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      21/107 (19.6%)
+# Similarity:    39/107 (36.4%)
+# Gaps:          35/107 (32.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        33 LHEVTSPQAFEGLRLAGRNPWRIDANIATPDHNVPTTRAERQGGLESISD     82
+                     :.|:|:|:    :..:|.||.:      |...:||.:     ||..| ||
+TAF3_XENLA       356 ISELTTPK----VSASGINPGK------TSSTSVPAS-----GGTSS-SD    389
+
+LEUC_XANOM        83 EVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVGPEQGATLPGMTVVC    132
+                                        :.:.|:|:...::..|..|.....|.....|
+TAF3_XENLA       390 -------------------ISWTMDDSINEVIRKVSQETPTNTPANNPPC    420
+
+LEUC_XANOM       133 GDSHTST    139
+                     ..|.:::
+TAF3_XENLA       421 FSSPSAS    427
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 433
+# Identity:      79/433 (18.2%)
+# Similarity:   134/433 (30.9%)
+# Gaps:         132/433 (30.5%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+LEUC_XANOM         7 YDKLWEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLAGRNP-WRI     55
+                     |.|.||    |.|.|   |.|:...::.::.:....:.|....:.| |.|
+DNLJ_CROS5       272 YFKQWE----TARKD---LPYMTDGVVVKINNYSLQKALGFTQKFPRWAI    314
+
+LEUC_XANOM        56 DANIATPDHNVPT------TRAERQGG------LESISDEVSRLQVQTLD     93
+                       .:..|....||      ....|.|.      :|.:....:.:|..|| 
+DNLJ_CROS5       315 --ALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATL-    361
+
+LEUC_XANOM        94 ENCDDFGILEFKMNDARQGIVHVVG---PE-------------QGATLPG    127
+                     .|.|....|:.::.|.  .|:...|   ||             |...:|.
+DNLJ_CROS5       362 HNSDRIAQLDIRVGDT--VIIRKAGEIIPEVVRVLKELRPPNTQPYEMPD    409
+
+LEUC_XANOM       128 MTVVCGDSHTSTHGAF--------------GALAH----------GIGTS    153
+                     ....|........|..              |:|.|          |:|..
+DNLJ_CROS5       410 RCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEK    459
+
+LEUC_XANOM       154 EV--------------------EHVLATQCLITKKMKNLQVRVEGT--LP    181
+                     .|                    |.:...:.:.:|...||...:||:  .|
+DNLJ_CROS5       460 IVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQP    509
+
+LEUC_XANOM       182 FGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIE    231
+                     |.        .|:..:|        :.:.||....|.:|...:|..:|..
+DNLJ_CROS5       510 FS--------RVLYGLG--------IRYVGSVTANLLVENFPSIDQLSQA    543
+
+LEUC_XANOM       232 AGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDT    281
+                     :.|.:..|        |..|...|....||.:.           :.:.|.
+DNLJ_CROS5       544 SFASLSSV--------YGVGEEIAQSIIDWFSI-----------EKNCDL    574
+
+LEUC_XANOM       282 VVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPA-----TEQDPT-KRNSI    325
+                     :.:|....::.:.   ||.|.:.......|...     |...|| .||..
+DNLJ_CROS5       575 IKQLKKVGLQLET---TSSEQITVEPSLTPFSGKTFVITGTLPTLTRNEA    621
+
+LEUC_XANOM       326 ERALKYMGLKANQAITDIRLDRVFIGSCTNSRI    358
+                     :..::..|.|...:::. :.|.:.:|....|::
+DNLJ_CROS5       622 KALIEQAGGKVTGSVSK-KTDYLLVGEKAGSKL    653
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 482
+# Identity:     104/482 (21.6%)
+# Similarity:   171/482 (35.5%)
+# Gaps:         150/482 (31.1%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        69 TRAERQGGLESISDEVSRLQVQTLDENCDD------FGILEFKMND--AR    110
+                     :|.||.|.|  :.||.||..::.|....|.      .|:|:..:..  ||
+MUTS_MYXXD       268 SRQERGGNL--LMDESSRANLEVLRSLRDGGRKGSLLGVLDKTVTSLGAR    315
+
+LEUC_XANOM       111 QGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEVEHVLA    160
+                     :....:..|.  .:||           ..|....|:....|.|.....||
+MUTS_MYXXD       316 KLARWLASPL--GSLP-----------EIHARLDAVEELSGRSVWREELA    352
+
+LEUC_XANOM       161 TQCLITKKMKNLQVRVEGTLPFGV-TAKDI------------VLAVIGK-    196
+                     .   |.|::.:|: |:.|.|..|. .|:|:            |:||:.: 
+MUTS_MYXXD       353 G---ILKEVGDLE-RLCGRLSLGAGNARDLRALGLSLAQLPRVVAVLARC    398
+
+LEUC_XANOM       197 ----IGTAGGNGHAL-EFAGSAIRALSMEGRMTICNMS-IEAGARVGMVA    240
+                         :.:..|...|| |.|....||::.|..:|:.:.. |.||..     
+MUTS_MYXXD       399 ESPLLKSLTGPLSALPELAELLSRAVAEEPPVTLKDGGMIRAGFH-----    443
+
+LEUC_XANOM       241 VDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDI    290
+                                       |:.|..||| ||                    
+MUTS_MYXXD       444 ------------------AELDKLVAL-ST--------------------    454
+
+LEUC_XANOM       291 KPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIE-RALKYMGLKANQA    339
+                            :..:::|.|:|.      |::.|..:|:: |..|..|....  
+MUTS_MYXXD       455 -------SGKDLLLQIEQR------EKERTGISSLKVRYNKVFGYYLE--    489
+
+LEUC_XANOM       340 ITDIRLDRV---FIGSCT--NS------RIEDLRAAAAVAKGRKVASTIK    378
+                     :|...||||   :|...|  ||      .:::.......|:.|:.|..|:
+MUTS_MYXXD       490 VTKSNLDRVPKDYIRKQTTVNSERFVTPELKEYEEQVLTAEERRCALEIQ    539
+
+LEUC_XANOM       379 -----QALVVPGSGLVKAQAEAEGLDKVFL-------DAGFEWREPGCSM    416
+                          :|.||..:..:::.|||.......|       :.|:...|...|:
+MUTS_MYXXD       540 LFEELRAQVVSAAPRIRSAAEAVATGDALLSFARCAAEYGYTRPEVDASV    589
+
+LEUC_XANOM       417 CLAMNPDK-------LGSGEHCASTSNR----------NFEGRQGAGGRT    449
+                     .|::...:       ||:|:.......|          ...|...||..|
+MUTS_MYXXD       590 ALSITAGRHPVVERMLGAGDSFVPNDVRLDPAEDAQLMVITGPNMAGKST    639
+
+LEUC_XANOM       450 HLVSPAMAAAAAVSGHFVDVRELGDSGVGIRD    481
+                     .:...|:.|..|.:|.||..:.   :.:|:.|
+MUTS_MYXXD       640 VMRQVALTALMAQAGSFVPAKA---ARIGLCD    668
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      22/121 (18.2%)
+# Similarity:    39/121 (32.2%)
+# Gaps:          34/121 (28.1%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        33 LHEV------------TSPQAFEGLRLAGRNPWRIDANIATPDHNVPTTR     70
+                     ||::            |..:...|.::|.||..|....:.....||...|
+NOSO_STAAC        28 LHDIELEIKETGTYTHTEEELIYGAKMAWRNSNRCIGRLFWDSLNVIDAR     77
+
+LEUC_XANOM        71 AERQGGLESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVGPE    120
+                             .::||.|.|...|       :.|.:.......:..:.:..|:
+NOSO_STAAC        78 --------DVTDEASFLSSIT-------YHITQATNEGKLKPYITIYAPK    112
+
+LEUC_XANOM       121 QGATLPGMTVV-------CGD    134
+                     .|..:....::       |||
+NOSO_STAAC       113 DGPKIFNNQLIRYAGYDNCGD    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:      33/150 (22.0%)
+# Similarity:    48/150 (32.0%)
+# Gaps:          45/150 (30.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       314 ATEQD---PTKRNSIERALKYM-GLKANQAITDIRLDRVFIGSCTNSRIE    359
+                     :.|||   |..:.|:|..:.:: |:.......||.......|...|..: 
+RBM8A_MOUSE       56 SVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHL-    104
+
+LEUC_XANOM       360 DLRAAAAVAKGRKVA--STIKQALVVPGSGLVKAQAEAEGL---DKVFLD    404
+                     :|.......||..:.  .|.|:           |||..|||   |.:...
+RBM8A_MOUSE      105 NLDRRTGYLKGYTLVEYETYKE-----------AQAAMEGLNGQDLMGQP    143
+
+LEUC_XANOM       405 AGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTHLVSP    454
+                     ...:|       |....|.|                |:: .|||....||
+RBM8A_MOUSE      144 ISVDW-------CFVRGPPK----------------GKR-RGGRRRSRSP    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       8/31 (25.8%)
+# Similarity:    12/31 (38.7%)
+# Gaps:          12/31 (38.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       448 RTHLVSP------------AMAAAAAVSGHF    466
+                     |:||:|.            .|.:...:|.||
+NU4LM_ARCPU       23 RSHLMSSLLCLEGMMLSLFVMMSMTILSNHF     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      46/203 (22.7%)
+# Similarity:    66/203 (32.5%)
+# Gaps:          55/203 (27.1%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        66 VPTTRAERQGGL-ESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIV    114
+                     :||..::....| :::|..||.||...........||:       |.|.:
+NANK_ECOLI        30 LPTPASQTPEALRDALSALVSPLQAHAQRVAIASTGII-------RDGSL     72
+
+LEUC_XANOM       115 HVVGP---------------EQGATLPGMTVVCGDSHTSTHGAFGALAHG    149
+                     ..:.|               ||...||  |:...|:..:....|.||...
+NANK_ECOLI        73 LALNPHNLGGLLHFPLVKTLEQLTNLP--TIAINDAQAAAWAEFQALDGD    120
+
+LEUC_XANOM       150 IGTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGT    199
+                     |    .:.|..|          :...|.|    ||.:...:|.  |..|.
+NANK_ECOLI       121 I----TDMVFIT----------VSTGVGG----GVVSGCKLLT--GPGGL    150
+
+LEUC_XANOM       200 AGGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVA------VDE    243
+                     ||..||.|......:......|    |..:|.:|..:...|      .|.
+NANK_ECOLI       151 AGHIGHTLADPHGPVCGCGRTG----CVEAIASGRGIAAAAQGELAGADA    196
+
+LEUC_XANOM       244 KTI    246
+                     |||
+NANK_ECOLI       197 KTI    199
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      18/76 (23.7%)
+# Similarity:    33/76 (43.4%)
+# Gaps:          17/76 (22.4%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        20 DDGSSLIYIDRHILHEVTSPQAFEGLRLAGRNPWRIDANIA---------     60
+                     |:|.:  |:..::|.:| :....|.:|....|||....:|.         
+MIAB_MYCPE       263 DNGEN--YLFNNLLEDV-AKTGIERVRFTTSNPWNFTRSIVDTMKKYPNI    309
+
+LEUC_XANOM        61 TPDHNVPTTRAERQGGLESISDEVSR     86
+                     .|..::|.     |.|.|:|..:::|
+MIAB_MYCPE       310 MPHIHLPI-----QSGDETILKKMNR    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      17/75 (22.7%)
+# Similarity:    29/75 (38.7%)
+# Gaps:          26/75 (34.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       404 DAGFEWR-----------EPGCSMCLAMNPDKLGSGEH---------CAS    433
+                     |.|:|.|           |.|.::.:.:|.    .|:|         |.|
+NADK_STAES       111 DNGYETRYLALNEATMKTENGSTLVVDVNI----RGKHFERFRGDGLCIS    156
+
+LEUC_XANOM       434 TSNRNFEGRQGAGGRTHLVSPAMAA    458
+                     |.:.:....:..||.  |:.|::.|
+NADK_STAES       157 TPSGSTAYNKALGGA--LIHPSLEA    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 543
+# Identity:      93/543 (17.1%)
+# Similarity:   158/543 (29.1%)
+# Gaps:         208/543 (38.3%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        29 DRHILHEVTSPQAFEGLRLAGRN--------PWRI---DANIATPDHNVP     67
+                     |..::..|.:  |.||.:.|.||        ||.:   ..:....|..||
+TRPG_CAEEL       463 DTGVVKHVAA--ALEGAQSAQRNKIVCIGIAPWGLLKKREDFIGQDKTVP    510
+
+LEUC_XANOM        68 TTRAERQGGLESISDEVS---------------------RLQVQTLDENC     96
+                     ...:..:|....:::..|                     ||::. :.:..
+TRPG_CAEEL       511 YYPSSSKGRFTGLNNRHSYFLLVDNGTVGRYGAEVILRKRLEMY-ISQKQ    559
+
+LEUC_XANOM        97 DDFG----------ILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSH    136
+                     ..||          :||......|..:.:|      ..:|.:.||..|  
+TRPG_CAEEL       560 KIFGGTRSVPVVCVVLEGGSCTIRSVLDYV------TNVPRVPVVVCD--    601
+
+LEUC_XANOM       137 TSTHGAFGALAHGIGTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTA    186
+                                   |:.....:||        ..:..|..:|.||..: .
+TRPG_CAEEL       602 --------------GSGRAADLLA--------FAHQNVTEDGLLPDDI-R    628
+
+LEUC_XANOM       187 KDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICN-----MSIE    231
+                     :.::|.|....|.:....|.|..            .:|:|.     ::|.
+TRPG_CAEEL       629 RQVLLLVETTFGCSEAAAHRLLH------------ELTVCAQHKNLLTIF    666
+
+LEUC_XANOM       232 AGARVGMVAVDEKTI-AYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFD    280
+                     .....|...||...: |.:||:..:  .||..|....|:.          
+TRPG_CAEEL       667 RLGEQGEHDVDHAILTALLKGQNLS--AADQLALALAWNR----------    704
+
+LEUC_XANOM       281 TVVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTK-----RNSI    325
+                       |::...|             |.|:....|..|......:     |...
+TRPG_CAEEL       705 --VDIARSD-------------VFAMGHEWPQAALHNAMMEALIHDRVDF    739
+
+LEUC_XANOM       326 ERALKYMGLKANQAITDIRLDRVF--IGSCTNSRIEDLRAAAAVAKGRKV    373
+                     .|.|...|:...:.:|..|||.::  .....|:....:|....|.:|.: 
+TRPG_CAEEL       740 VRLLLEQGINMQKFLTISRLDELYNTDKGPPNTLFYIVRDVVRVRQGYR-    788
+
+LEUC_XANOM       374 ASTIKQALVVPGSGLV------------------------------KAQA    393
+                            ..:|..|||                              .||.
+TRPG_CAEEL       789 -------FKLPDIGLVIEKLMGNSYQCSYTTSEFRDKYKQRMKRVKHAQK    831
+
+LEUC_XANOM       394 EAEGLDKVFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQ    443
+                     :|.|:                   .:..|.:.|||    ..|.::.||..
+TRPG_CAEEL       832 KAMGV-------------------FSSRPSRTGSG----IASRQSTEGMG    858
+
+LEUC_XANOM       444 GAGGRT-------------------HLVSPAMAAAAAVSGHFV    467
+                     |.||.:                   |:...|::.:.|:|.|.:
+TRPG_CAEEL       859 GVGGGSSVAGVFGNSFGNQDPPLDPHVNRSALSGSRALSNHIL    901
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 410
+# Identity:      80/410 (19.5%)
+# Similarity:   132/410 (32.2%)
+# Gaps:         136/410 (33.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        69 TRAERQGGLESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVG    118
+                     |.|.:..|:..:.::|.|                    ..|:|...|::.
+MSHD_MYCMM        23 TAATQVDGVAPVGEQVLR--------------------ELAQQRTEHLLV     52
+
+LEUC_XANOM       119 PEQGATLPGMTVVCGDSHTSTHGAFGALA----------HGIGTSEVEHV    158
+                     .:|.   ||.:.:...:.:..|||..|:|          .||.|:.|...
+MSHD_MYCMM        53 EDQS---PGKSAIGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAA     99
+
+LEUC_XANOM       159 LATQCLITKKMKNLQVRVEGTL-PFGVTAKDIVLAVIGKIGTAGGNGHAL    207
+                     ||      |.....|....||| |...||..:.|..:.::          
+MSHD_MYCMM       100 LA------KTGGRNQFWAHGTLAPAQATASALGLTPVREL----------    133
+
+LEUC_XANOM       208 EFAGSAIRALSMEGRMTICNMS---IEAGARVGMVA--VDEKTIAYVKGR    252
+                                ::.|.::..:.   |..|.::...|  .|:..:..|...
+MSHD_MYCMM       134 -----------VQMRRSLRQLPEPVIPNGLQIRTYAGTEDDAELLRVNNA    172
+
+LEUC_XANOM       253 PFA--PKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSP    300
+                     .||  |:...|..|                .:.|...|      .|....
+MSHD_MYCMM       173 AFAYHPEQGGWTEA----------------DLAERRGE------PWFDPA    200
+
+LEUC_XANOM       301 EMVLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQAITDIRLDRVFI    350
+                     .:.||::   .....|..|..:   .|.|.:...|.:  :.|..|..|::
+MSHD_MYCMM       201 GLFLALE---GSEGAEDSPRGQ---PRLLGFHWTKIH--LDDPGLGEVYV    242
+
+LEUC_XANOM       351 GSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDK    400
+                                ......|:||.:..|:...      || ::.|:..| |:
+MSHD_MYCMM       243 -----------LGVDPAAQGRGLGRTLTMI------GL-RSLAQRLG-DR    273
+
+LEUC_XANOM       401 VFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTH    450
+                        |.|.|     .::.|.:..|.:        .:.|.:   ||.|..||
+MSHD_MYCMM       274 ---DLGRE-----STVMLYVESDNI--------AAVRTY---QGLGFSTH    304
+
+LEUC_XANOM       451 LVSPAMAAAA    460
+                     .|..|.|.||
+MSHD_MYCMM       305 SVDTAYALAA    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      18/71 (25.4%)
+# Similarity:    31/71 (43.7%)
+# Gaps:           9/71 (12.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        91 TLDENCDDFGILEFKMNDARQGIVHVVGPEQGATLPGMT-VVCGDSHTST    139
+                     |:|.:..|..    .:.|..|  ||||....|..|  :| |:.|:..:..
+PAND_THEFY        27 TIDADLMDAA----NLVDGEQ--VHVVNITNGHRL--VTYVLTGERGSGV     68
+
+LEUC_XANOM       140 HGAFGALAHGIGTSEVEHVLA    160
+                     .|..||.|..:...::..:::
+PAND_THEFY        69 IGINGAAARLVAPGDLVIIIS     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    24/50 (48.0%)
+# Gaps:          13/50 (26.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LEUC_XANOM         2 TAKTLYDKLWEMHEVTRRDDGSSLI----YI---DRHI-LHEVTSPQAFE     43
+                     |.:.|:|.|.::..|     |..::    |:   .||: :||..:|..||
+LIPA_ASPOR       311 TEEQLWDALRQLRSV-----GVDVVTFGQYMRPTKRHMPVHEYVTPDQFE    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:      54/274 (19.7%)
+# Similarity:    94/274 (34.3%)
+# Gaps:          62/274 (22.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       121 QGATLPGMTVVCG-DSHTSTHGAFGALAHGIGTSEVEHVLATQCLITKKM    169
+                     :|.||. ||.:.| |:..........|..|.|.|.....:....|...::
+FLGI_PECAS       121 RGGTLL-MTPLKGVDNQVYALAQGNVLVGGAGASAGGSSVQVNQLAGGRI    169
+
+LEUC_XANOM       170 KNLQVRVEGTLP--FGVTAKDIVL-----------AVIGKIGTAGGNGHA    206
+                     .|..| :|..||  || |:..|:|           .|...|..:|..|.|
+FLGI_PECAS       170 SNGAV-IERELPSTFG-TSNTIMLQLKNDDFSMAQKVSDAINRSGYGGTA    217
+
+LEUC_XANOM       207 LEFAGSAIRALSMEGRMT-------ICNMSIEAGARVGMVAVDEKTIAYV    249
+                     .......|:.|:..|..:       :.|:.:..|.:...|.::.:|.:.|
+FLGI_PECAS       218 SPLDSRTIQVLAPHGNSSQVRFLADVQNIEVNVGIQDAKVVINSRTGSVV    267
+
+LEUC_XANOM       250 KGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWG--    297
+                     ..|.           |.|.|..::  ..:....:...|...:|...:|  
+FLGI_PECAS       268 MNRD-----------VTLDSCAIA--QGNLSVTINQQANVSQPNTPFGGG    304
+
+LEUC_XANOM       298 ---TSPEMVLAIDQHVPDPATEQDPTKRNSIERALKYMG---------LK    335
+                        .:|:..:::.|..............|::.|||..:|         |:
+FLGI_PECAS       305 QTVVTPQTEISVQQTGGVLQRVNSSANLNNVVRALNSLGATPMELMSILQ    354
+
+LEUC_XANOM       336 ANQAITDIRLDRVFIGSCTNSRIE    359
+                     |.|:           ..|..:::|
+FLGI_PECAS       355 AMQS-----------AGCLRAKLE    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 191
+# Identity:      47/191 (24.6%)
+# Similarity:    74/191 (38.7%)
+# Gaps:          44/191 (23.0%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        17 TRRD--DGSSLIYIDRHILHEVTSPQAFEGLRLAGRNPWRIDANIAT---     61
+                     ||.|  ..:|.|:.|  |:..|.| ..|:|:.:...||..|...:..   
+LDH_BORAP         90 TRLDLVGKNSKIFKD--IITNVVS-SGFDGIFVIASNPVDIMTYVTMKYS    136
+
+LEUC_XANOM        62 --PDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFGILEFKMNDA    109
+                       |.|.|.        |..:|.| .|||:.           .|..:.|..
+LDH_BORAP        137 KFPIHKVI--------GTGTILD-TSRLRY-----------FLSDRFNVN    166
+
+LEUC_XANOM       110 RQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEVEHVL    159
+                     .|.|...|..|.|.:    :.|..|   .|..|...|:..:...::..:.
+LDH_BORAP        167 TQNIHSYVMGEHGDS----SFVTWD---ETKIAMKPLSEYLSEGKITELE    209
+
+LEUC_XANOM       160 ATQCLITKKMKNLQ---VRVEGTLPF--GVTAKDIVLAVIG    195
+                     ..:  |.||:.|..   ::::|...:  |:..|:||.|:||
+LDH_BORAP        210 LDE--IHKKVVNAAYEVIKLKGATYYAIGLGIKNIVNAIIG    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      13/40 (32.5%)
+# Similarity:    19/40 (47.5%)
+# Gaps:           2/40 ( 5.0%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       239 VAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAH    278
+                     ||||::  :|:.......:|.:|...|..||..|.|...|
+EXGB_EMENI       304 VAVDKE--SYISASCVDDRGGNWPTIVGEWSLSVPDNVEH    341
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 207
+# Identity:      45/207 (21.7%)
+# Similarity:    72/207 (34.8%)
+# Gaps:          70/207 (33.8%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       214 IRALSMEGR---MTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGAD    260
+                     ||.|.:|..   .:|..:.:.:.:|..::   ||.|.     |....|.|
+KTHY_CHLP8        46 IRELLLESHNDITSIAELLLFSASRAELM---EKIIV-----PALEDGCD     87
+
+LEUC_XANOM       261 WDAAVALWSTLVSDPDAHFDTV-----------VELHAEDIKPQVSWGTS    299
+                         |.|        |..||:.           :::.|| |....|.|..
+KTHY_CHLP8        88 ----VIL--------DRFFDSTTAYQGYGRGLNLDMLAE-INRIASHGIR    124
+
+LEUC_XANOM       300 PEMVLAIDQHVPDPATEQDPTKRNSIERALK------------------Y    331
+                     |::...:|      .|.:|...|...|::|.                  |
+KTHY_CHLP8       125 PDITFYLD------LTPEDALLRKFSEKSLPLAFESEELDRMENSGLEFY    168
+
+LEUC_XANOM       332 MGLKAN-QAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQA    380
+                     ..::|. .||.:....|:.:       |:.|.....:  .||:.|.: ||
+KTHY_CHLP8       169 QRVRAGYHAILEAEPQRIIM-------IDALLTPQEI--HRKILSAL-QA    208
+
+LEUC_XANOM       381 LVVPGSG    387
+                     |.||..|
+KTHY_CHLP8       209 LEVPEDG    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 418
+# Identity:      81/418 (19.4%)
+# Similarity:   130/418 (31.1%)
+# Gaps:         161/418 (38.5%)
+# Score: 72.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       175 RVEGTLPFGV--------TAKDIVLAVIGKIGTAGGNGHALEFAGSAIRA    216
+                     |..|..||.|        .|.|::....|:..|..|   |:..||.|:  
+SECA2_MYCTO      114 RRTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLAG---AIAAAGYAL--    158
+
+LEUC_XANOM       217 LSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDA---    263
+                                    ||..|.:|.:::    |:     |.:.|:|..   
+SECA2_MYCTO      159 ---------------AGRHVHVVTIND----YL-----ARRDAEWMGPLL    184
+
+LEUC_XANOM       264 -AVAL---WSTLVSDPDAH-----------------FDTVVELHAEDIKP    292
+                      |:.|   |.|..|.||..                 ||.:.:....|:..
+SECA2_MYCTO      185 DAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQLVTDVND    234
+
+LEUC_XANOM       293 QVSWGTSPE------------------MVLAIDQHVPDPATE--------    316
+                     .||  .:|:                  :|||...|...|..|        
+SECA2_MYCTO      235 LVS--PNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAEL    282
+
+LEUC_XANOM       317 -----------QDPTKRN---------SIERALKYMGLKANQ----AITD    342
+                                .|...||         .:|:||..:.|.:.:    .:|:
+SECA2_MYCTO      283 VGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLYSEEHVGTTLTE    332
+
+LEUC_XANOM       343 ------------------IRLDRVFIGSCTNSRI-------EDLRAAAAV    367
+                                       :|.|.|.:.:.:..||       :.|:||...
+SECA2_MYCTO      333 VNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEA    382
+
+LEUC_XANOM       368 AKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMC    417
+                     .:|.:...|.:....:....|:...|...|:....|.||.:.|:   ...
+SECA2_MYCTO      383 KEGIETTETGEVLDTITVQALINRYATVCGMTGTALAAGEQLRQ---FYQ    429
+
+LEUC_XANOM       418 LAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTHLVSPAMAAAAAVSG---    464
+                     |.::|         ...:..|.  |:....|.::.:     ||...|   
+SECA2_MYCTO      430 LGVSP---------IPPNKPNI--REDEADRVYITT-----AAKNDGIVE    463
+
+LEUC_XANOM       465 HFVDVRELGDSG-VGIRD    481
+                     |..:|.:.|... ||.||
+SECA2_MYCTO      464 HITEVHQRGQPVLVGTRD    481
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    13/24 (54.2%)
+# Gaps:           1/24 ( 4.2%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       335 KANQAITDIRLD-RVFIGSCTNSR    357
+                     :.|.:..|..|: .:.:|.|.|||
+DB108_HUMAN       30 RPNGSCRDFCLETEIHVGRCLNSR     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      29/154 (18.8%)
+# Similarity:    49/154 (31.8%)
+# Gaps:          64/154 (41.6%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       182 FGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIE    231
+                     ||.|....:..|...:|.....|:.:: ...|:|.||:.|.:.       
+LCMT1_CRYNB      277 FGETFCSCMGVVYEMVGLDDSFGNVMK-RNLAVRNLSIPGSIF-------    318
+
+LEUC_XANOM       232 AGARVGMVAVDEKTIAYVKGRPFAP--KGADWDAAVA--LWSTLVSDPDA    277
+                                 .|.....||..:|  :|..:|:|.|  ||         
+LCMT1_CRYNB      319 ------------STPESQAGRFTSPMLQGGKFDSAGAKTLW---------    347
+
+LEUC_XANOM       278 HFDTVVELHAEDIKPQ-------------------------VSWGTSPEM    302
+                           ::..||:.|:                         ::|||..|.
+LCMT1_CRYNB      348 ------QIREEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTKGEC    391
+
+LEUC_XANOM       303 VLAI    306
+                     :.:|
+LCMT1_CRYNB      392 MSSI    395
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      35/148 (23.6%)
+# Similarity:    53/148 (35.8%)
+# Gaps:          44/148 (29.7%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       238 MVAVDEKTIAYVKGRPFAPKGA---DWDAAVALWSTLVSDPDAHF--DTV    282
+                     |||..:.||    |:.|....|   :.|:.:.|:        .||  || 
+PTGA_SALTY        60 MVAPVDGTI----GKIFETNHAFSIESDSGIELF--------VHFGIDT-     96
+
+LEUC_XANOM       283 VELHAEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALKYM    332
+                     |||..|..|.....|...:        |.||..|.|          |..:
+PTGA_SALTY        97 VELKGEGFKRIAEEGQRVK--------VGDPVIEFD----------LPLL    128
+
+LEUC_XANOM       333 GLKANQAITDIRLDRVFIGSCTNSRIEDL-RAAAAVAKGRKVASTIKQ    379
+                     ..||...:|.:.:..:       ..|::| :.:.:|..|......||:
+PTGA_SALTY       129 EEKAKSTLTPVVISNM-------DEIKELIKLSGSVTVGETPVIRIKK    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    21/36 (58.3%)
+# Gaps:           4/36 (11.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        70 RAERQGGL--ESISDEVSRLQVQTLDENCDDFGILE    103
+                     |.||:..|  :|:..|:|  :|.:||:..|.:..|:
+RR14_CRYJA        15 RLERKYNLLRQSLKKEMS--EVSSLDDKLDIYRKLQ     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      19/86 (22.1%)
+# Similarity:    37/86 (43.0%)
+# Gaps:          25/86 (29.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+LEUC_XANOM         7 YDKLWEMH---EVTRRDDGSSLIY--------IDRHILH-EVTSPQAFEG     44
+                     |.||.|.:   |:|.:.:..:.:.        :|..||: ::.:|..:.|
+DCUP_BACVZ        38 YRKLKEKYGLVEITHQPELCAYVTRLPVEQYGVDAAILYKDIMTPLPYIG     87
+
+LEUC_XANOM        45 LRLAGRN--------PWRIDANI-----ATPDHNVP     67
+                     :.:..:|        |.|..|:|     ..|:.:||
+DCUP_BACVZ        88 VDVEIKNGIGPVIDQPVRSAADIEKLGELNPEQDVP    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 369
+# Identity:      84/369 (22.8%)
+# Similarity:   124/369 (33.6%)
+# Gaps:          77/369 (20.9%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        68 TTRAERQGGLESISDEVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVV    117
+                     ||:|.|.        .|..::::||.:..:|:....:.....:..:|.| 
+GTF2I_MOUSE       96 TTQANRM--------SVDAVEIETLRKTVEDYFCFCYGKALGKSTVVPV-    136
+
+LEUC_XANOM       118 GPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEVEHV-LATQCLIT    166
+                             |...::...|.....|    |..|:.....||. |||...|.
+GTF2I_MOUSE      137 --------PYEKMLRDQSAVVVQG----LPEGVAFKHPEHYDLATLKWIL    174
+
+LEUC_XANOM       167 KKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRA    216
+                     :....:...::  .||....|.:           ||...|.|...|.:..
+GTF2I_MOUSE      175 ENKAGISFIIK--RPFLEPKKHL-----------GGRVLAAEAERSMLSP    211
+
+LEUC_XANOM       217 LSMEGRMTICNMSIE-AGARVGMVAVDEKTIA----YVKGRPFAPKGADW    261
+                     ....|.:.:.....| :|..:.|.||..|..:    |.:.....|...|.
+GTF2I_MOUSE      212 SGSCGPIKVKTEPTEDSGISLEMAAVTVKEESEDPDYYQYNIQGPSETDG    261
+
+LEUC_XANOM       262 -DAAVALWSTLVS---DPDAHFDTVVELHAEDIKPQVSWGTS--PEMVLA    305
+                      |..:.|...|..   ..:.:..|.||:.|||....|...||  ||:.:.
+GTF2I_MOUSE      262 VDEKLPLSKALQGSHHSSEGNEGTEVEVPAEDSTQHVPSETSEDPEVEVT    311
+
+LEUC_XANOM       306 IDQHVPDPATEQDPTKRNSIERALKYMGLKANQ----------AITDIRL    345
+                     |:.....|     ||||           ||:.:          |....|.
+GTF2I_MOUSE      312 IEDDDYSP-----PTKR-----------LKSTEPPPPPPVPEPANAGKRK    345
+
+LEUC_XANOM       346 DRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQ--ALVVPGSGLVKAQA    393
+                     .|.|.....|:||.|||........||.|..||.  .:.:|   ....|:
+GTF2I_MOUSE      346 VREFNFEKWNARITDLRKQVEELFERKYAQAIKAKGPVTIP---YPLFQS    392
+
+LEUC_XANOM       394 EAEGLDKVFLDAGFEWREP    412
+                     ..|.|....|..|..:|.|
+GTF2I_MOUSE      393 HVEDLYVEGLPEGIPFRRP    411
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      57/267 (21.3%)
+# Similarity:    85/267 (31.8%)
+# Gaps:         108/267 (40.4%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        12 EMHEVTRRDDGSSLIYIDRHILH---EVTSPQAFEGL-----------RL     47
+                     |:.:.:|  ||..::.|. |..|   |.|..|..||:           .|
+ISPH_ACIF5       105 EVKKYSR--DGMEMVLIG-HAGHPEVEGTMGQVEEGMMYLVSNVSDVATL    151
+
+LEUC_XANOM        48 AGRNPWRIDANIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCD     97
+                     |.|||                             |:::.:...||  :.|
+ISPH_ACIF5       152 APRNP-----------------------------DKLAYITQTTL--SMD    170
+
+LEUC_XANOM        98 D-----------FGILEFKMND-------ARQGIVHVVGPEQGATLPGMT    129
+                     |           |.::|....|       .||..|..:.|:....|    
+ISPH_ACIF5       171 DTAEVIVALRSRFPLIEGPKKDDICYATQNRQDAVKSLAPDVDILL----    216
+
+LEUC_XANOM       130 VVCGDSHTSTHGAFGALAHGIGTSEVEHVLATQCLITKKMKNLQVRVEGT    179
+                      |.|..::|.......|...:||.  .|::.....:.::.      .|| 
+ISPH_ACIF5       217 -VVGAPNSSNSSRLAELGTRLGTQ--THLIEDAQQLRREW------FEG-    256
+
+LEUC_XANOM       180 LPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMS    229
+                                   :||||.:.|        .||..:|..|...|:... 
+ISPH_ACIF5       257 --------------VGKIGISAG--------ASAPESLVQEIMDTLRGW-    283
+
+LEUC_XANOM       230 IEAGARV--GMVAVDEK    244
+                        ||||  .|..|:||
+ISPH_ACIF5       284 ---GARVPQEMPGVEEK    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       6/20 (30.0%)
+# Similarity:     9/20 (45.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        11 WEMHEVTRRDDGSSLIYIDR     30
+                     |.:.|..||..|....|:.:
+NDUA1_HUMAN       45 WSLMERDRRISGVDRYYVSK     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      39/164 (23.8%)
+# Similarity:    50/164 (30.5%)
+# Gaps:          75/164 (45.7%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        46 RLAGRNPWRI---DANIATPDHNVPTTRAERQGGLESISDEVSRLQVQTL     92
+                     |..|.||..:   ||.||..|:    |.|...|           :.::.|
+PSRP_SALTI       114 RTHGLNPGNLNKYDARIAAIDY----TLAHDDG-----------ISLRNL    148
+
+LEUC_XANOM        93 DENCDDFGILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGA    142
+                     |                 |..|.::|..:          ||.:.||.:.|
+PSRP_SALTI       149 D-----------------QAQVILLGVSR----------CGKTPTSLYLA    171
+
+LEUC_XANOM       143 --FGALAHGIGTSEVEHVLATQCLITKKMKNLQVRVEGTLP---------    181
+                       ||..|            |....|...|.||      |||         
+PSRP_SALTI       172 MQFGIRA------------ANYPFIADDMDNL------TLPTSLKPLQHK    203
+
+LEUC_XANOM       182 -FGVTAKDIVLAVI    194
+                      ||:|.....||.|
+PSRP_SALTI       204 LFGLTIDPERLAAI    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 426
+# Identity:      92/426 (21.6%)
+# Similarity:   147/426 (34.5%)
+# Gaps:         124/426 (29.1%)
+# Score: 75.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        55 IDANIATPDH-NVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFGILE    103
+                     |.|:...|.| .:..|||:    .||:.:::....::.......|.|:..
+DNAK_CHESB       281 ITADQTGPKHLAIKLTRAK----FESLVEDLVTRTIEPCRAALKDAGLSA    326
+
+LEUC_XANOM       104 FKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAH-GIGT    152
+                     .::::     |.:||        |||.:.....| ....||...| |:..
+DNAK_CHESB       327 GEIDE-----VVLVG--------GMTRMPKVQET-VKNFFGKEPHKGVNP    362
+
+LEUC_XANOM       153 SEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKI-----    197
+                     .|   |:|....|...:  ||..|:..|...||...:.:..:|.:     
+DNAK_CHESB       363 DE---VVAMGAAIQAGV--LQGDVKDVLLLDVTPLSLGIETLGGVFTRLI    407
+
+LEUC_XANOM       198 --------------GTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAG    233
+                                   .||..|.:|:     .||....|..|          
+DNAK_CHESB       408 DRNTTIPTKKSQVFSTAEDNQNAV-----TIRVFQGEREM----------    442
+
+LEUC_XANOM       234 ARVGMVAVDEKTIAY--VKGRPFAPKGADWDAAVALWSTLVSDPDAHFDT    281
+                           |.|.|.:..  :.|.|.||:|..       ...:..|.||  :.
+DNAK_CHESB       443 ------AADNKLLGQFDLVGIPPAPRGMP-------QIEVTFDIDA--NG    477
+
+LEUC_XANOM       282 VVELHAED--------IKPQVSWGTSPEMVLAIDQHVPDPA--TEQDPTK    321
+                     :|.:.|:|        |:.|.|.|.|.   ..|::.|.|..  .|.|..:
+DNAK_CHESB       478 IVNVSAKDKGTGKEQQIRIQASGGLSD---AEIEKMVKDAEANAEADKKR    524
+
+LEUC_XANOM       322 RNSIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGR    371
+                     |.::|        ..|||       ...|.| |...::|.        |.
+DNAK_CHESB       525 RETVE--------VKNQA-------EALIHS-TEKSLKDY--------GD    550
+
+LEUC_XANOM       372 KVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMN    421
+                     ||:...::|:   .:.:.:.:...||.|...:.|.        :..||..
+DNAK_CHESB       551 KVSEDDRKAI---ENAIAELKTATEGEDADAIRAK--------TTALAEA    589
+
+LEUC_XANOM       422 PDKLGSGEHCASTSNRNFEGRQGAGG    447
+                     ..|||...:.||.:.....|.:..||
+DNAK_CHESB       590 SMKLGQAVYEASQAENAAGGTEETGG    615
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 546
+# Identity:     105/546 (19.2%)
+# Similarity:   173/546 (31.7%)
+# Gaps:         151/546 (27.7%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        11 WEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLA---GRNPWRIDA     57
+                     ||.....:....:.:.|:..:.|..::....:...:||   .|....|..
+DNLJ_ACIC5        96 WERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGE    145
+
+LEUC_XANOM        58 NIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFG--ILEF-    104
+                     ::.|   ||.|.|:...    ||:|  .:||...:..|.:..|  ::.| 
+DNLJ_ACIC5       146 DVTT---NVRTIRSVPL----SIAD--GKLQQAKMPANFEVRGEVVMPFT    186
+
+LEUC_XANOM       105 ---KMNDAR--QGIVHVVGPEQGA-----TLP---------------GMT    129
+                        |:|:.|  ||:.....|...|     ||.               .:|
+DNLJ_ACIC5       187 AFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALT    236
+
+LEUC_XANOM       130 VVCGDSHTSTHGAFGALA--------HGIGTSEVEHVLATQCLITKKMKN    171
+                     ....|:......|..|||        |......:|.|:.......:....
+DNLJ_ACIC5       237 EKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSR    286
+
+LEUC_XANOM       172 LQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEG    221
+                     |...::|              |:.|:.:|     .|:      |.|...|
+DNLJ_ACIC5       287 LGYEIDG--------------VVVKVNSA-----VLQ------RRLGYTG    311
+
+LEUC_XANOM       222 RMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTL    271
+                     |.....::.:..||.|:..|::  |....||........|.|.|.:..|.
+DNLJ_ACIC5       312 RAPRWAVAYKFAARSGVTQVED--IQVQVGRTGKLTPVAWLAPVQVGGTT    359
+
+LEUC_XANOM       272 VSDPDAHFDTVVE---LHAED-IKPQVSWGTSPEMVLAIDQHVPDPATEQ    317
+                     |:....|....:|   |...| ::.:......|::|     .|.|.|...
+DNLJ_ACIC5       360 VTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVV-----EVVDDAEHP    404
+
+LEUC_XANOM       318 DPTKRNSIERALKYMGLKA--NQAITDIRLDRVFIGSCTN----SRIEDL    361
+                     ..||......|....|.:.  .....|.|        |.|    :|:.:.
+DNLJ_ACIC5       405 RGTKHFHFPHACPACGSEVVRTPGEADYR--------CVNTDCPARLRES    446
+
+LEUC_XANOM       362 RAAAAVAKGRKVASTIKQALVVP--GSGLVKA------------------    391
+                     ....| ::|......:.:|:|:.  |.||||.                  
+DNLJ_ACIC5       447 LLHFA-SRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERM    495
+
+LEUC_XANOM       392 -------------QAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDKLGSG    428
+                                  ::....||:|....|..:.....:..||   ::.||.
+DNLJ_ACIC5       496 GKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALA---EEYGSM    542
+
+LEUC_XANOM       429 EHCASTSNRNFEGRQGAGGRTHLVSPAMAAAAAVSGHFVDVRELGD    474
+                     :.....|....|       |.:.|.|.::.|         :||..|
+DNLJ_ACIC5       543 DALMQASREELE-------RVNDVGPRVSEA---------IREFFD    572
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      21/91 (23.1%)
+# Similarity:    38/91 (41.8%)
+# Gaps:          21/91 (23.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       223 MTICNMSIEAGARVG--------MVAVDEKTIAYVKGR--PFAPKGADWD    262
+                     :|:....|:.|:..|        :...|:|.::.::.|  |. ||   :|
+CAPSD_CMVO        73 ITLKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPL-PK---FD    118
+
+LEUC_XANOM       263 AAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMV    303
+                     :.|  |.|:...|.:.     :|....|....:.|.||.:|
+CAPSD_CMVO       119 STV--WVTVRKVPASS-----DLSVAAISAMFADGASPVLV    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      33/185 (17.8%)
+# Similarity:    69/185 (37.3%)
+# Gaps:          47/185 (25.4%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       290 IKPQVSWGTSPEMVLAIDQHVPDPATE---QDPT---------KRNSIER    327
+                     :|.|.:....|::...:::.:..|...   ||.|         :|.:.:|
+IF3_CHLL2          1 MKKQKTTTQKPKLTYRVNEQIRVPEVRIVFQDGTQQVMKTIEARRMAEDR     50
+
+LEUC_XANOM       328 ALKYMGLKANQAITDIRLDRVFIGSC---TNSRIEDLRAAAAVAKGRKVA    374
+                     .|..:.::.|......:||.  :|..   .:.|.:||       |.::..
+IF3_CHLL2         51 NLDLIEVQPNAEPPVCKLDN--LGKLLFKMDKRDKDL-------KKKQKT     91
+
+LEUC_XANOM       375 STIKQALVVPGSGLVKAQAEAEGLDK------------VFLDAGFEWREP    412
+                     :|:|:....|.:.......:...|::            |||.....:::.
+IF3_CHLL2         92 TTLKELRFHPNTDKHDFDFKTAHLEEFLRKGNRVRATIVFLGRSIIYKDK    141
+
+LEUC_XANOM       413 GCSMCLAMNPDKLGSGEHCASTSNRN----FEGRQ    443
+                     |..:...:.       |..:..|||:    |||::
+IF3_CHLL2        142 GLELAERLT-------ERLSCVSNRDGDPKFEGKK    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      12/44 (27.3%)
+# Similarity:    19/44 (43.2%)
+# Gaps:           5/44 (11.4%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       213 AIRALSMEGRMTICNMSIEAGARVGMVAVDE--KTIAYVKGRPF    254
+                     :|..||:.|...  .:.:||...|. |..:|  :.|...|..|:
+CSRA_HAEI8        19 SITVLSVRGNQV--KLGVEAPKEVS-VHREEIYQRIKQTKDEPY     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      18/89 (20.2%)
+# Similarity:    36/89 (40.4%)
+# Gaps:           7/89 ( 7.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       324 SIERALKYMGLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKV    373
+                     ::.:...|:|......| .|..|.:|..:....|:|.::....:.|  ..
+COAX_CLOBL       138 AVTKEANYLGGTICPGI-KISSDALFDKAAKLPRVELVKTPGVICK--NT    184
+
+LEUC_XANOM       374 ASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREP    412
+                     .::|:..::...:|.|  ......:.|..:|.|.|  ||
+COAX_CLOBL       185 VASIQSGIIYGYAGQV--DYIVSKMKKEMMDLGEE--EP    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      15/53 (28.3%)
+# Similarity:    22/53 (41.5%)
+# Gaps:          11/53 (20.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       224 TICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVS    273
+                     |:|.::.|||..      :|:|..:.|.|.     |.|..:..|.|...|
+HOP_BOVIN         32 TLCLIAAEAGLS------EEETQKWFKQRL-----AQWRRSEGLPSECRS     70
+
+LEUC_XANOM       274 DPD    276
+                     ..|
+HOP_BOVIN         71 VTD     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 379
+# Identity:      71/379 (18.7%)
+# Similarity:   140/379 (36.9%)
+# Gaps:         103/379 (27.2%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        68 TTRAERQGGLESISDEVSRLQVQTLDENCDDFGI------LEFKMNDARQ    111
+                     :.||:|:|..:..|.|:.|.....|::..:...:      :..|:.....
+THII_VIBA3       108 SVRAKRRGKHDFTSIELERYVGGGLNQAVESAKVKLKNPDITVKVEVEND    157
+
+LEUC_XANOM       112 GIVHVVGPEQGATLPG---------MTVVCG--DSHTST----------H    140
+                     .:..|:...:|  |.|         ::::.|  ||..|:          |
+THII_VIBA3       158 KLNQVIERHKG--LGGFPLGTQEDLLSLISGGFDSGVSSYLHIKRGSKVH    205
+
+LEUC_XANOM       141 GAF---GALAHGIGTSEVEHVLATQCLITKKMKNLQVRVEGTL-------    180
+                     ..|   |..||.||..:|.|.|..:...:.|:|.:.:..|..:       
+THII_VIBA3       206 YCFFNLGGPAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEILENV    255
+
+LEUC_XANOM       181 ---PFGVTAKDIVLAVIGKIGTAGG-----NGHALEFAGS----------    212
+                        ..||..|.:.:...|.:....|     .|.||....|          
+THII_VIBA3       256 EDGQMGVVLKRMFMRAGGMVAERFGIEALVTGEALGQVSSQTLTNLRHID    305
+
+LEUC_XANOM       213 ------AIRALSMEGRMTICNMSIEAG----ARV-----GMVAVDEKTIA    247
+                           .:|.|....:..|.::|.:.|    |:|     |::: .:.|:.
+THII_VIBA3       306 NVTDTLILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGVIS-KKPTVK    354
+
+LEUC_XANOM       248 YVKGRPFAPKGADWDAAVALWSTLVSD---PDAHFDTV--VELHAEDIKP    292
+                     ..||:        .:|..|.::..|.:   .:|....:  :|..:::..|
+THII_VIBA3       355 AKKGK--------LEAEEAKFNFEVLEQVIENARIMDIRDIEKESQEQAP    396
+
+LEUC_XANOM       293 QVSWGTSPEMVLAIDQHV-------PDPATEQDPTKRNSIERALKYMG-L    334
+                     :|      |.|.|:.:|.       || ..::.|.:.:.:|  :|::. .
+THII_VIBA3       397 EV------EQVQAVAEHAVVLDIRSPD-EEDESPLEIDGVE--IKHIPFF    437
+
+LEUC_XANOM       335 KANQAITDIRLDRVFIGSCTNSRIEDLRA    363
+                     |.:....|:...:.::..|....:..|:|
+THII_VIBA3       438 KLSTQFGDLDQSKEYLLYCDRGVMSRLQA    466
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      14/64 (21.9%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          25/64 (39.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       232 AGARVGMVAVDEKTIAYVKGRP-FAPKGADWDAAVALWSTLVSDPDAHFD    280
+                     ||..:|.:|.:..|....|.:| :.|                     |.|
+RL13_PSEPG        21 AGQTLGRLATEIATRLRGKHKPEYTP---------------------HVD     49
+
+LEUC_XANOM       281 T---VVELHAEDIK    291
+                     |   :|.::||.::
+RL13_PSEPG        50 TGDYIVVINAEQVR     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      16/80 (20.0%)
+# Similarity:    29/80 (36.2%)
+# Gaps:          20/80 (25.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       300 PEMVLAIDQHVPDPATEQDPTKRNSIERALKYMGL---KANQAITDIRLD    346
+                     |::|:.:||.      |:....|..|...:..:.|   ..|..:.||.: 
+RR2_ARATH        162 PDIVIILDQQ------EEYTALRECITLGIPTISLIDTNCNPDLADISI-    204
+
+LEUC_XANOM       347 RVFIGSCTNSRIEDLR-----AAAAVAKGR    371
+                          ...:..|..:|     ...|:.:||
+RR2_ARATH        205 -----PANDDAIASIRFILNKLVFAICEGR    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      55/253 (21.7%)
+# Similarity:    88/253 (34.8%)
+# Gaps:          63/253 (24.9%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       167 KKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRA    216
+                     ||:..|:      .|.|: |.|:.|      |.....|..||:..:.:..
+Y1710_SYNP2        2 KKIAYLE------CPTGI-AGDMCL------GALIDGGVPLEYLKNQLNR     38
+
+LEUC_XANOM       217 LSMEGRMTI-CNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAV    265
+                     |.:.....: ....|..|.|...|.||.||.|         ...|.|.: 
+Y1710_SYNP2       39 LGIAAEYDLRAETVIRQGQRATKVFVDLKTKA---------THHDHDHS-     78
+
+LEUC_XANOM       266 ALWSTLVSDPDAHF--DTVVELHAEDIKPQVSWGTSPEMV----LAIDQH    309
+                            .|...|.  |.....|..:|:..:.....||.|    |||.|:
+Y1710_SYNP2       79 -------QDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQN    121
+
+LEUC_XANOM       310 VPDPATEQDPTKRNSIERALKYMGLKANQAITDIRLDRVFIGSCTN---S    356
+                     :    ...:.|...:....:.:..:.|..|:.||      :|:|..   .
+Y1710_SYNP2      122 L----AIAEATVHGTTPEQVHFHEVGATDALVDI------VGTCLGLDWL    161
+
+LEUC_XANOM       357 RIEDLRAAAAVAKGRKVASTIKQA---LVVPGSGLVKAQAE------AEG    397
+                     .|::|..|.....|    .|:|.|   |.||...:::...:      :.|
+Y1710_SYNP2      162 EIDELYCAPMPTGG----GTVKAAHGILPVPVPAVLQLWQQRQVPVYSNG    207
+
+LEUC_XANOM       398 LDK    400
+                     ::|
+Y1710_SYNP2      208 IEK    210
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 347
+# Identity:      60/347 (17.3%)
+# Similarity:   101/347 (29.1%)
+# Gaps:         158/347 (45.5%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       110 RQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEV----    155
+                     ::|:.::  |:..|..|.|:|.       .:.|||.....:..:|:    
+WTPC_THEKO        72 KRGLAYI--PQNYALFPNMSVF-------DNIAFGLKVRKVPKAEIGRKV    112
+
+LEUC_XANOM       156 ---EHVLATQCLITKKMK------------------------------NL    172
+                        ..||....|:.:|.|                              ||
+WTPC_THEKO       113 RELSEVLGISHLLKRKPKTLSGGEMQRVAIARALAVEPELLLLDEPFANL    162
+
+LEUC_XANOM       173 QVRVEGTL---------PFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSA    213
+                     .|:..|.|         ..|.||..:.              |:.|.|   
+WTPC_THEKO       163 DVQTRGRLINEMKRWRKELGFTALHVT--------------HSFEEA---    195
+
+LEUC_XANOM       214 IRALSMEGRMTICNMSIEAGARVGMV----AVDEKTIAYVKGRPFAPKGA    259
+                                     :..|.|||::    .|....:..|..||.:.:.|
+WTPC_THEKO       196 ----------------VSLGDRVGVMLNGRLVQVGPVREVFSRPASEEVA    229
+
+LEUC_XANOM       260 DWDAAVALWSTLVSDPDAHFDTVVELHAE---------------DIKPQV    294
+                     .:               ..|:.:||..||               :...::
+WTPC_THEKO       230 KF---------------LGFENIVEGLAEGRILRANGLVIELPIEASGRI    264
+
+LEUC_XANOM       295 SWGTSPEMVLAIDQHVPDPATEQDPTK---RNSIERALKYMGLKANQAIT    341
+                     ..|..||.::..|          :|.|   ||:.:              .
+WTPC_THEKO       265 RVGIRPEDIVLSD----------EPLKSSMRNTFQ--------------A    290
+
+LEUC_XANOM       342 DIRLDRVFIGSCTNSRIEDLRAAAAVAKGR-KVASTIKQALVVPGSG    387
+                     :::.|...:|        :|......|||| ..|.:|:..|...|:|
+WTPC_THEKO       291 EVQADVEELG--------ELGPRTRKAKGRWSGAFSIRYPLFGAGAG    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      18/68 (26.5%)
+# Similarity:    31/68 (45.6%)
+# Gaps:          12/68 (17.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       329 LKYMGLKANQAITD---IRLDRVFIGSCTNSRI-----EDLRAAAAVAKG    370
+                     |.|:|....::::|   :.:|  |.|..  .|:     |.|.||...|:.
+GRB7_RAT         359 LSYLGSPPLRSVSDNTLVAMD--FSGHA--GRVIENPQEALSAATEEAQA    404
+
+LEUC_XANOM       371 RKVASTIKQALVVPGSGL    388
+                     .:..:..:.:|..|.|||
+GRB7_RAT         405 WRKKTNHRLSLPTPCSGL    422
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      47/221 (21.3%)
+# Similarity:    84/221 (38.0%)
+# Gaps:          51/221 (23.1%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       254 FAPKGADWDAAV-ALWSTL----------------VSDPDAHFDTVVELH    286
+                     :||.|  |...| .:|..|                |:..|.....||::.
+PSD_RHOPS         36 WAPLG--WIGTVLTIWCALFFRDPVRVTPVREGLVVAPADGRVSMVVQMI     83
+
+LEUC_XANOM       287 AEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERAL----KYM    332
+                     .   .|.:..|..|...::|...|.:....:.|. ...:||.:    |::
+PSD_RHOPS         84 P---PPALGLGDKPLPRVSIFMSVFNCHVNRSPV-AGRVERIIYSPGKFI    129
+
+LEUC_XANOM       333 GLKANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQA-L    381
+                     ..:.::|..|...:.:.| |....:|..::.|..||  |::.|.:::. .
+PSD_RHOPS        130 NAELDKASEDNERNSMVI-STPAGQIGVVQIAGLVA--RRIVSFVREGQT    176
+
+LEUC_XANOM       382 VVPGS--GLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDKLGSGE    429
+                     :.||.  ||::..:..:    |:|..|   .:|     |........:||
+PSD_RHOPS        177 LAPGERFGLIRFGSRLD----VYLPEG---AKP-----LVSEGQTAIAGE    214
+
+LEUC_XANOM       430 HCASTSNRNFEGRQGAGGRTH    450
+                     ...:..|      .|.||||:
+PSD_RHOPS        215 TVLADFN------LGDGGRTY    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 323
+# Identity:      59/323 (18.3%)
+# Similarity:   106/323 (32.8%)
+# Gaps:         117/323 (36.2%)
+# Score: 71.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        76 GLESISDEVSRLQVQ-------TLDENCDDFG-------ILEFKMNDARQ    111
+                     ||| :.|.:..|::|       ||.:.|.:.|       ::|...||   
+PP156_ARATH      329 GLE-LMDAMKSLKLQPDVVTYNTLIDGCFELGLSLEARKLMEQMEND---    374
+
+LEUC_XANOM       112 GIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEVEHVLAT    161
+                                                          |:..::|.|.::.
+PP156_ARATH      375 -------------------------------------GVKANQVTHNISL    387
+
+LEUC_XANOM       162 QCL--------ITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGN    203
+                     :.|        :|:|:|.| |.:.|..|..||...::.|.: |:|...| 
+PP156_ARATH      388 KWLCKEEKREAVTRKVKEL-VDMHGFSPDIVTYHTLIKAYL-KVGDLSG-    434
+
+LEUC_XANOM       204 GHALEF---------------AGSAIRALSMEGRMTICNMSIEAGARVGM    238
+                       |||.               ..:.:.||..|.::...:..:.:..:.|.
+PP156_ARATH      435 --ALEMMREMGQKGIKMNTITLNTILDALCKERKLDEAHNLLNSAHKRGF    482
+
+LEUC_XANOM       239 VAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAE    288
+                     : |||.|...:....|..:..  :.|:.:|.              |:...
+PP156_ARATH      483 I-VDEVTYGTLIMGFFREEKV--EKALEMWD--------------EMKKV    515
+
+LEUC_XANOM       289 DIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALKYMGLKANQ    338
+                     .|.|.||  |...::..:..|             ...|.|::.....|..
+PP156_ARATH      516 KITPTVS--TFNSLIGGLCHH-------------GKTELAMEKFDELAES    550
+
+LEUC_XANOM       339 AI--TDIRLDRVFIGSCTNSRIE    359
+                     .:  .|...:.:.:|.|...|:|
+PP156_ARATH      551 GLLPDDSTFNSIILGYCKEGRVE    573
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      10/41 (24.4%)
+# Similarity:    19/41 (46.3%)
+# Gaps:           8/41 (19.5%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       194 IGKIGTAGGNGHALEFAG-------SAIRALS-MEGRMTIC    226
+                     :|::...|.:||.|..:.       .|::.|. :.|..|:|
+ADRB2_MESAU      245 LGQVEQDGRSGHGLRRSSKFCLKEHKALKTLGIIMGTFTLC    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        96 CDDFGI    101
+                     |.|.||
+ID5B_ADEPA         3 CKDLGI      8
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      18/79 (22.8%)
+# Similarity:    31/79 (39.2%)
+# Gaps:           8/79 (10.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       342 DIRLDR-VFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVK    390
+                     |:.:.| |...:|.:|.:..|||...:.........::.:.:|    ...
+GPA7_CAEEL        65 DLEMIRPVVYSNCIHSMLSILRAMFHLQIEYGEPDRVRDSQLV----FAT    110
+
+LEUC_XANOM       391 AQAEAEGLDKVFLDAGFE--WREPGCSMC    417
+                     ..|..|.|.:. |.|..:  |.:||...|
+GPA7_CAEEL       111 VHANKEELTEE-LAAAMQRLWHDPGVREC    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      32/145 (22.1%)
+# Similarity:    50/145 (34.5%)
+# Gaps:          33/145 (22.8%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LEUC_XANOM         1 MTAKTLYDKLWE--------MHEVTRRDDGSSLIYIDRHILH-EVTSPQA     41
+                     :|.:.|..|.|.        .|......:..::|...|:.|. |:|.|::
+IDI_ECO24         48 VTRRALSKKAWPGVWTNSVCGHPQLGESNEDAVIRRCRYELGVEITPPES     97
+
+LEUC_XANOM        42 -FEGLRLAGRNPWRIDANIATPDHNVPTTRAERQGGLESISDEVSRLQVQ     90
+                      :...|....:|..|..|...|.....||.|     |:...|||...|. 
+IDI_ECO24         98 IYPDFRYRATDPNGIVENEVCPVFAARTTSA-----LQINDDEVMDYQW-    141
+
+LEUC_XANOM        91 TLDENCDDFGILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDS    135
+                          ||        :.|    ::|.:.....|..|.|.:...:|
+IDI_ECO24        142 -----CD--------LAD----VLHGIDATPWAFSPWMVMQAANS    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      37/163 (22.7%)
+# Similarity:    51/163 (31.3%)
+# Gaps:          50/163 (30.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       205 HALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTI--------    246
+                     |||...|       ::||.|    ||..|..||  .::..|:        
+YHJA_ECOLI       211 HALNAGG-------VDGRKT----SIGVGGAVG--PINAPTVFNSVFNVE    247
+
+LEUC_XANOM       247 AYVKGR--------------PFAPKGADWDAAVALWSTLVSDPDAHFDTV    282
+                     .:..||              |.......||..:|   .|..||.      
+YHJA_ECOLI       248 QFWDGRAATLQDQAGGPPLNPIEMASKSWDEIIA---KLEKDPQ------    288
+
+LEUC_XANOM       283 VELHAEDIKPQVSWGTSPEMVL-AIDQHVPDPATEQDPTKR--NSIERAL    329
+                     ::....::.||   |.|.|.:. ||.:......|...|..:  ...|.||
+YHJA_ECOLI       289 LKTQFLEVYPQ---GFSGENITDAIAEFEKTLITPDSPFDKWLRGDENAL    335
+
+LEUC_XANOM       330 KYMGLKANQAITD    342
+                     .....|..|...|
+YHJA_ECOLI       336 TAQQKKGYQLFKD    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      17/96 (17.7%)
+# Similarity:    28/96 (29.2%)
+# Gaps:          25/96 (26.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       360 DLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEW    409
+                     |..|...:....||...::..|.|......:.:..:.|||:..       
+RIMP_BURPS        34 DQPAGITIDDCEKVTRQLQHVLTVENIDYERLEVSSPGLDRPL-------     76
+
+LEUC_XANOM       410 REPGCSMCLAMNPDKLG-----SGEHCASTSNRNFEGRQGAGGRTH    450
+                                  .||.     :|.....|..:..:||:...|..|
+RIMP_BURPS        77 -------------KKLADFTRFAGSEAVITLKKPLDGRKTYRGILH    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      12/48 (25.0%)
+# Similarity:    22/48 (45.8%)
+# Gaps:           3/48 ( 6.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       351 GSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAEGL    398
+                     |.||..|:|.:.........|.|...:::..::.   |::|:.||..|
+RS28_OSTOS        21 GQCTQVRVEFMDDNGNRTINRNVKGPVREGDILT---LLEAEREARRL     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      19/92 (20.7%)
+# Similarity:    30/92 (32.6%)
+# Gaps:          32/92 (34.8%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       205 HALEFAGSAIRALSMEGRMTIC---------NMSIEAGARVGMVAVDEKT    245
+                     ||.::...|:.      ||.:|         |....|.:           
+HBAC_LITCT        21 HAEQYGAEALH------RMFLCHPQTKTYFPNFDFHANS-----------     53
+
+LEUC_XANOM       246 IAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHA    287
+                      |::|........|..||...|     ..|:|...::.:|||
+HBAC_LITCT        54 -AHLKNHGKKVMNALTDAVKHL-----DHPEASLSSLSDLHA     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 302
+# Identity:      68/302 (22.5%)
+# Similarity:   102/302 (33.8%)
+# Gaps:         109/302 (36.1%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       210 AGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGA    259
+                     :|.|.|:||.|..:.:|:        .|.||           .|:...|.
+RPOA_PRRSS       505 SGMAPRSLSRECVVGVCS--------EGCVA-----------PPYPADGL    535
+
+LEUC_XANOM       260 DWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAIDQH    309
+                     ...|..||.|......|.....:.:..| |..||..|        .:|:.
+RPOA_PRRSS       536 PKRALEALASAYRLPSDCVSSGIADFLA-DPPPQEFW--------TLDKM    576
+
+LEUC_XANOM       310 VPDPATEQD-------------PTKRNSIERALKYMGLKANQAITDIRLD    346
+                     :..|:.|:.             |.|..:.|.|..|            .::
+RPOA_PRRSS       577 LTSPSPERSGFSSLYKLLLEVVPQKCGATEGAFVY------------AVE    614
+
+LEUC_XANOM       347 RVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGSGLVKAQAEAE    396
+                     |: :..|.:..    :|.|.:||           :.||.|     :|.:.
+RPOA_PRRSS       615 RM-LKDCPSPE----QAMALLAK-----------IKVPSS-----KAPSV    643
+
+LEUC_XANOM       397 GLDKVF---LDAGFE------WREPGCSMCLAMNPDKLGSGEHCASTSNR    437
+                     .||:.|   :.|.||      .|.||.::.|. :||..|           
+RPOA_PRRSS       644 SLDECFPAGVPADFEPAFQERPRSPGAAVALC-SPDAKG-----------    681
+
+LEUC_XANOM       438 NFEG-----RQGAGGR-THLV----SPAMAAAAAVSGHFVDVRELGDSGV    477
+                      |||     .|.:|.: .|.|    .|.......|:|   :..|||..|:
+RPOA_PRRSS       682 -FEGTASEEAQESGHKAVHAVPLAEGPNNEQVQVVAG---EQLELGGCGL    727
+
+LEUC_XANOM       478 GI    479
+                     .|
+RPOA_PRRSS       728 AI    729
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      37/146 (25.3%)
+# Similarity:    48/146 (32.9%)
+# Gaps:          37/146 (25.3%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       106 MNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIG----    151
+                     |||...|.:|.:.......|.|  |..|:......|..|.|.....    
+UBIE_PSEAE        44 MNDLMSGGIHRLWKRFTIELSG--VRSGNRVLDIAGGTGDLTRQFSRLVG     91
+
+LEUC_XANOM       152 -TSEVEHVLA---TQCLITKKMKNLQVRVEG-------------------    178
+                      |.||  |||   ...|...:.|.|...|.|                   
+UBIE_PSEAE        92 PTGEV--VLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHF    139
+
+LEUC_XANOM       179 ---TLPFG---VTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALS    218
+                        |:.||   ||.||..:..:.::...||....|||:..:...||
+UBIE_PSEAE       140 DCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLS    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      21/83 (25.3%)
+# Similarity:    29/83 (34.9%)
+# Gaps:          31/83 (37.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       189 IVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGM    238
+                     :|||:||:.|.     ...||....:.               |.|.:..:
+FLII_AQUAE       191 VVLALIGERGR-----EVKEFLEEVLG---------------EEGLKKSV    220
+
+LEUC_XANOM       239 VAV---DEKTIAYVKG--------RPFAPKGAD    260
+                     |.|   |:..|..|||        ..||.:|.|
+FLII_AQUAE       221 VVVSTADQSPILKVKGAISAVVHAHHFASQGKD    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      19/64 (29.7%)
+# Similarity:    23/64 (35.9%)
+# Gaps:           7/64 (10.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        59 IATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFGILEFKMND    108
+                     |....:.|||.|..||.     ||:|...|..|  .|....|:.....|.
+MSS11_VANPO      169 ILPTSNKVPTQRYSRQQ-----SDQVQMNQNST--GNSSRSGMGTPIANP    211
+
+LEUC_XANOM       109 ARQGIVHVVGPEQG    122
+                     :.|...|...|..|
+MSS11_VANPO      212 SNQNYQHSSNPNSG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      23/91 (25.3%)
+# Similarity:    32/91 (35.2%)
+# Gaps:          33/91 (36.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       226 CNMSIEAGARVGMVAV------DEKTIAYVKGR-----PFAPKGADWDAA    264
+                     |..:..||.| |:..|      :|..:::::.|     ||:|        
+SPB4_ASPFU       387 CGRAGRAGRR-GLSVVLLHPGREEDYVSFLEVRKTPVVPFSP--------    427
+
+LEUC_XANOM       265 VALWSTLVSDPDAHFDTVV---------ELHAEDIKPQVSW    296
+                         |...||.||...|..         .||....|..|||
+SPB4_ASPFU       428 ----SISFSDADAAAATATARKAVLADRALHDRGQKAFVSW    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 359
+# Identity:      78/359 (21.7%)
+# Similarity:   127/359 (35.4%)
+# Gaps:         118/359 (32.9%)
+# Score: 78.0
+# 
+#
+#=======================================
+
+LEUC_XANOM        75 GGLES------ISDEVSRLQVQ-TLD-----ENCD-------DFGILEFK    105
+                     |||::      |..|..|..|. .:|     |:.|       |.|.:|..
+ASSY_MYCTO        11 GGLDTSVAISWIGKETGREVVAVAIDLGQGGEHMDVIRQRALDCGAVEAV     60
+
+LEUC_XANOM       106 MNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALA------HG    149
+                     :.|||....      :|..||  ||:....:...:....|::      |.
+ASSY_MYCTO        61 VVDARDEFA------EGYCLP--TVLNNALYMDRYPLVSAISRPLIVKHL    102
+
+LEUC_XANOM       150 IGTSEVEH---VLATQCLITKKMKNLQVRVEGTLPFGVTAKDI-VLAVIG    195
+                     :..:. ||   ::|..|  |.| .|.|||.|  :.|...|.|: |||.: 
+ASSY_MYCTO       103 VAAAR-EHGGGIVAHGC--TGK-GNDQVRFE--VGFASLAPDLEVLAPV-    145
+
+LEUC_XANOM       196 KIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKT    245
+                                .::|.:..:|::......|                   .
+ASSY_MYCTO       146 -----------RDYAWTREKAIAFAEENAI-------------------P    165
+
+LEUC_XANOM       246 IAYVKGRPFAPKGADWDAAVA------LWSTLVSDPDAHFDTVVELHAED    289
+                     |...|..||:.....|..||.      ||:....|        :..:.||
+ASSY_MYCTO       166 INVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTKD--------IYAYTED    207
+
+LEUC_XANOM       290 IKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKRNSIERALKYMGLKAN-Q    338
+                       |.::||...|:::..::.|| .:.:..|.   |:..|::.:..:|. |
+ASSY_MYCTO       208 --PTINWGVPDEVIVGFERGVP-VSVDGKPV---SMLAAIEELNRRAGAQ    251
+
+LEUC_XANOM       339 AITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVPGS-G    387
+                     .:.  |||                    |.:.|.|....::....||: .
+ASSY_MYCTO       252 GVG--RLD--------------------VVEDRLVGIKSREIYEAPGAMV    279
+
+LEUC_XANOM       388 LVKAQAEAE    396
+                     |:.|..|.|
+ASSY_MYCTO       280 LITAHTELE    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      12/37 (32.4%)
+# Similarity:    21/37 (56.8%)
+# Gaps:           3/37 ( 8.1%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        22 GSSLIYID-RHILHEVTSPQAFEGLRLAG--RNPWRI     55
+                     |.|:.||| :.:.:.:.:..|.:.|.|||  ..||::
+ECCB1_MYCS2      407 GESMYYIDPQGVRYGIANDDAAKNLGLAGPVNAPWQV    443
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      15/45 (33.3%)
+# Similarity:    21/45 (46.7%)
+# Gaps:           4/45 ( 8.9%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+LEUC_XANOM       370 GRKVASTIKQALVVPGSGLVKAQAEA---EGLDKVFLDAGFEWRE    411
+                     |..:.:.||:..:||....:|...||   .|.||..:| ||...|
+KCY4_ORYSJ        73 GTMIENMIKEGKIVPSEVTIKLLQEAMIKSGNDKFLID-GFPRNE    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:      44/223 (19.7%)
+# Similarity:    78/223 (35.0%)
+# Gaps:          66/223 (29.6%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       120 EQGATLPGM-------TVVCGDSHTSTHGAFGALAHGIGTSEVEH-VLAT    161
+                     ::...|||.       ||..|.:..:..|....:.:.:...::.| .|..
+HCP_TRIV2        349 QKALELPGFTEDSEQKTVTTGFARNAVLGVADTVINAVKQGDIRHFFLVG    398
+
+LEUC_XANOM       162 QCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIG---------KIGTAGG    202
+                     .|...|..:|....:...:|     .|.|:..:|         .:|..||
+HCP_TRIV2        399 GCDGAKPGRNYYSDLVEKIP-----NDCVVLTLGCGKFRFFDQNLGDIGG    443
+
+LEUC_XANOM       203 NGHALEF-----AGSAIR-ALSMEGRMTICNMSIEAGARVGMVAVDEKTI    246
+                     ....|:.     |.|||: |:::              |....|.|::..:
+HCP_TRIV2        444 IPRLLDLGQCNDAYSAIQIAVAL--------------ANTFEVNVNQLPL    479
+
+LEUC_XANOM       247 AYVKGRPFAPKGADW--DAAVALWSTLV-----------SDPDAHFDTVV    283
+                     :.:         ..|  ..|:|:..||:           :.|......||
+HCP_TRIV2        480 SMI---------LSWYEQKAIAVLLTLLYLGIQNIRIGPTLPAFLTPNVV    520
+
+LEUC_XANOM       284 ELHAEDIKPQVSWGTSPEMVLAI    306
+                     :|.:|....|:.  |:||..||:
+HCP_TRIV2        521 KLLSETFHLQLI--TTPEQDLAV    541
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      43/217 (19.8%)
+# Similarity:    82/217 (37.8%)
+# Gaps:          60/217 (27.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       214 IRALSMEGRMTICNMSIEAGARVGM--VAVDEKTI-AYVKGRPFAPKGAD    260
+                     :.||..:......|.||:.|..:.:  .|.|::.: ::.||...:   .|
+UBX7_YEAST         2 LEALFRDSVEEAINDSIKEGVVLAVYNTARDDQWLKSWFKGDDVS---LD     48
+
+LEUC_XANOM       261 WDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAI----    306
+                     ..|..::|..||.|.: .|....::....:.|.:....:.::.|.|    
+UBX7_YEAST        49 TLAEHSIWLRLVKDTE-QFQLFEQVFPNVVVPSIYLIRAGKIELIIQGED     97
+
+LEUC_XANOM       307 DQHVPDPATEQDPTKRNSIERALKYMGLKANQA-----------------    339
+                     |:|               .|:.|..:|:|..:|                 
+UBX7_YEAST        98 DRH---------------WEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+
+LEUC_XANOM       340 -ITDIR----LDRVFIGSCTNSRIEDLRAAAAVAKGRKVASTIKQALVVP    384
+                      ..|:.    .:|:...:....|.|.|       |.||:|...::.::  
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEIQRREQL-------KQRKLAEEERERII--    173
+
+LEUC_XANOM       385 GSGLVKA-QAEAEGLDK    400
+                       .||:| :||.:.||:
+UBX7_YEAST       174 --RLVRADRAERKALDE    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:      65/317 (20.5%)
+# Similarity:   106/317 (33.4%)
+# Gaps:         118/317 (37.2%)
+# Score: 98.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       137 TSTHGA-------------FGALAHGIGTSEVEHVLATQCLITKKMKNLQ    173
+                     :|.|||             |.::| |:.....:.||        .:|.:.
+RPOA_ACICJ        59 SSLHGAAVTSVRIDGVLHEFSSIA-GVREDVTDIVL--------NIKQIA     99
+
+LEUC_XANOM       174 VRVEGTLPFGVTAKDIVLAVIGKIGTAGG---NGHALEFAGSAIRALSME    220
+                     ||:.|..|     |.:.::..|......|   .||.:|.         |.
+RPOA_ACICJ       100 VRMHGDGP-----KRMTVSATGPCEVTAGMIQTGHDIEV---------MN    135
+
+LEUC_XANOM       221 GRMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGA-----------    259
+                     ..:.||  :::.||.:||....|....||......|:.|           
+RPOA_ACICJ       136 PELVIC--TLDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSIY    183
+
+LEUC_XANOM       260 -------------------DWDA---------------AVALWSTLVSDP    275
+                                        |:|.               ||||.:.::.|.
+RPOA_ACICJ       184 SPVRRVSYRVEPTRVGQVTDYDRLILNIETNGAVTPEDAVALAARILQDQ    233
+
+LEUC_XANOM       276 ---DAHFDTVVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKR    322
+                        ..:|:....|.||:.:|::.:  :|.::..:|:              
+RPOA_ACICJ       234 LGMFINFEEPQRLRAEEPRPELPF--NPNLLRKVDE--------------    267
+
+LEUC_XANOM       323 NSIERALKYMGLKANQAITDIRLDRVFIGSCT-NSRIEDLRAAAAVAKGR    371
+                       :|.:::......|..|       |:||... .|..|.||....   ||
+RPOA_ACICJ       268 --LELSVRSANCLKNDNI-------VYIGDLVQKSEQEMLRTPNF---GR    305
+
+LEUC_XANOM       372 KVASTIKQALVVPGSGL    388
+                     |..:.||:.|...|.||
+RPOA_ACICJ       306 KSLNEIKEVLSAMGLGL    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      25/145 (17.2%)
+# Similarity:    52/145 (35.9%)
+# Gaps:          51/145 (35.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+LEUC_XANOM       208 EFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPK    257
+                     ||..:.::.|:...::.|..:|.:|      .|::.|.:.|....|.   
+YXAD_BACSU        47 EFGPARVKELAESFKLDISTLSRQA------AALEAKELIYRFSDPS---     87
+
+LEUC_XANOM       258 GADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQVSWGTSPEMVLAID    307
+                         |..|:|:            |:.:|..:.:|                
+YXAD_BACSU        88 ----DGRVSLF------------TITKLGKQLLK----------------    105
+
+LEUC_XANOM       308 QHVPDPATEQDPTKRNSIERALKYMGLKANQAITDI--RLDRVFI    350
+                           |.:|...:|  .|:.||....:..:...::  |:::.||
+YXAD_BACSU       106 ------ADQQKRLER--YEQMLKEWSTQEKEMFGELLQRMNKAFI    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LEUC_XANOM
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 555
+# Identity:     120/555 (21.6%)
+# Similarity:   182/555 (32.8%)
+# Gaps:         191/555 (34.4%)
+# Score: 102.5
+# 
+#
+#=======================================
+
+LEUC_XANOM        19 RDDGSSLIYIDR-----HILHEVTSP--QAFEGLRLAG------RNPWRI     55
+                     :||...|.::::     :.|.::..|  .|.:|..|.|      ...:||
+FADB_SHESR        79 QDDAVLLSWVEQANAVFNKLEDLPFPTASAIKGFALGGGCETILATDFRI    128
+
+LEUC_XANOM        56 ---DANIATPDHN---VP----TTRAERQGGLESISDEVSRLQVQTLDEN     95
+                        .|.|..|:..   :|    |.|..|..|.::..:.::..:    |:.
+FADB_SHESR       129 ADTTAKIGLPETKLGIIPGFGGTVRLPRVIGADNALEWITTGK----DQR    174
+
+LEUC_XANOM        96 CDDFGILEFKMNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGA    145
+                     .:|  .|:....||      ||.||                     |..|
+FADB_SHESR       175 PED--ALKVGAVDA------VVAPE---------------------ALEA    195
+
+LEUC_XANOM       146 LAHGIGTSEVEHVLATQCLITKKMKNLQV-RVEGTLPFGVTAKDIVLAVI    194
+                     .|..:....|...|..|....:||..|.: ::|..:.| .|||.:|.||.
+FADB_SHESR       196 AAIQMLKDAVAEKLDWQARRHRKMSPLTLPKLEAMMSF-TTAKGMVFAVA    244
+
+LEUC_XANOM       195 GKIGTAGGNGH--ALEFAGSAIRALSMEGRMTICNMSIEA----------    232
+                     ||        |  |...|.|.:...:.:||.....:..:|          
+FADB_SHESR       245 GK--------HYPAPMAAVSVVEQAATKGRSDALQIEHQAFIKLAKTDVA    286
+
+LEUC_XANOM       233 ----------------GARVGMVAVDEKT------------IAY---VKG    251
+                                     ..:.|.:|.|.|:            |||   .||
+FADB_SHESR       287 KALIGIFLNDQLVKGKAKKAGKLAKDVKSAAVLGAGIMGGGIAYQSASKG    336
+
+LEUC_XANOM       252 RPFAPKGADWDA-------AVALWSTLV----SDPDA-------------    277
+                     .|...|.....|       |..|.|..|    |.|:.             
+FADB_SHESR       337 TPIVMKDIAQPALDLGLGEAAKLLSAQVARGRSTPEKMAKVLNNITPALD    386
+
+LEUC_XANOM       278 -----HFDTVVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPATEQDPTKR    322
+                          |.|.|||...|  .|:|    ..:::..::|:|.:.|.....|..
+FADB_SHESR       387 YAPVNHADVVVEAVVE--HPKV----KAQVLAEVEQYVSEDAIIASNTST    430
+
+LEUC_XANOM       323 NSIERALKYM-------GLKANQAITDIRLDRVFIGSCTNSRIEDLRAAA    365
+                     .||....|.|       |:.....:..:.|..|..|.  :|..|.:  |:
+FADB_SHESR       431 ISINLLAKSMKKPERFCGMHFFNPVHKMPLVEVIRGE--HSSEETI--AS    476
+
+LEUC_XANOM       366 AVAKGRKVASTIKQALVV---PG--------------SGLVKAQAEAEGL    398
+                     .||...|:..|   .:||   ||              :||:....:...:
+FADB_SHESR       477 VVAYASKMGKT---PIVVNDCPGFFVNRVLFPYFAGFNGLLAEGGDFAAI    523
+
+LEUC_XANOM       399 DKVFLDAGFEWREPGCSMCLAMNP----DKLG--SGEHCASTSNRNFEGR    442
+                     ||| ::..|.|         .|.|    |.:|  :|.|..:.....|..|
+FADB_SHESR       524 DKV-MEKQFGW---------PMGPAYLLDVVGLDTGHHAQAVMAEGFPDR    563
+
+LEUC_XANOM       443 QGAGG    447
+                     .|..|
+FADB_SHESR       564 MGKSG    568
+
+
+#---------------------------------------
+#---------------------------------------

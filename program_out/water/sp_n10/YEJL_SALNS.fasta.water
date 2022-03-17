@@ -1,0 +1,254 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:04
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/YEJL_SALNS.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/YEJL_SALNS.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/YEJL_SALNS.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       6/27 (22.2%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+YEJL_SALNS         3 QLSRYSDEHVEQLLSELLSVLEKHKAP     29
+                     ::.:.:....|||::..|:......||
+Y3545_CROS8       66 RIKQLTKRQKEQLVAGELAFEAMKSAP     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       7/28 (25.0%)
+# Similarity:    17/28 (60.7%)
+# Gaps:           3/28 (10.7%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+YEJL_SALNS        13 EQLLSELLSVLE---KHKAPTDLSLMVL     37
+                     |..|..:::::|   :.|.|.:::|.:|
+KDPB_SALNS       197 ETFLDRMIAMVEGAQRRKTPNEIALTIL    224
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      75/75 (100.0%)
+# Similarity:    75/75 (100.0%)
+# Gaps:           0/75 ( 0.0%)
+# Score: 365.0
+# 
+#
+#=======================================
+
+YEJL_SALNS         1 MPQLSRYSDEHVEQLLSELLSVLEKHKAPTDLSLMVLGNMVTNLINTSVA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YEJL_SALNS         1 MPQLSRYSDEHVEQLLSELLSVLEKHKAPTDLSLMVLGNMVTNLINTSVA     50
+
+YEJL_SALNS        51 PAQRRAIANSFARALQSSISEDNAH     75
+                     |||||||||||||||||||||||||
+YEJL_SALNS        51 PAQRRAIANSFARALQSSISEDNAH     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YEJL_SALNS        36 VLGNMVTNLINTSVA     50
+                     :||.:|..|...:.|
+UPPP_AROAE       171 ILGGLVFGLSRKAAA    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    24/54 (44.4%)
+# Gaps:          14/54 (25.9%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YEJL_SALNS         4 LSRYSDEH--VEQLLS-----EL--LSVLEKHKAP-----TDLSLMVLGN     39
+                     |.||::|:  :.:|.|     ||  |.|:|....|     .:.....:||
+CBPD_LOPSP        20 LRRYANEYPSITRLYSVGKSVELRELYVMEISDNPGIHEAGEPEFKYIGN     69
+
+YEJL_SALNS        40 MVTN     43
+                     |..|
+CBPD_LOPSP        70 MHGN     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       4/13 (30.8%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+YEJL_SALNS        61 FARALQSSISEDN     73
+                     ::.:|:|..|:.|
+NDHO_PROM1        34 YSNSLESKASDTN     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+YEJL_SALNS        33 SLMVLGNM     40
+                     |::|.||:
+DAPD_SHIBS       231 SVVVSGNL    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    10/21 (47.6%)
+# Gaps:           2/21 ( 9.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+YEJL_SALNS        38 GNMVTNLINTSVAPAQRRAIA     58
+                     ||  ..|.|..:.|..:||.|
+ASF1_CRYNJ       177 GN--PELFNAPLPPPVQRATA    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+YEJL_SALNS        49 VAPAQRRAI     57
+                     :.|.|:|.|
+UBQ10_ARATH       36 IPPDQQRLI     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YEJL_SALNS
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      12/50 (24.0%)
+# Similarity:    19/50 (38.0%)
+# Gaps:           4/50 ( 8.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+YEJL_SALNS        24 EKHKAPTDLSLMVLGNMVT----NLINTSVAPAQRRAIANSFARALQSSI     69
+                     :|.|.....:..|:...||    ...|..:......|:.|..||.|:.:|
+FADB_ACIBS       600 KKAKTVDPTAYEVIAPFVTGEKREFDNQEIIDRMMLALCNETARCLEDNI    649
+
+
+#---------------------------------------
+#---------------------------------------

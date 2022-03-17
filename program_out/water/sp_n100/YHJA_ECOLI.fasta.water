@@ -1,0 +1,3504 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:31
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/YHJA_ECOLI.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/YHJA_ECOLI.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/YHJA_ECOLI.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      24/99 (24.2%)
+# Similarity:    38/99 (38.4%)
+# Gaps:          18/99 (18.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        16 AICYLGLSGYVWYHDNKRSKQ-ADVQASAVSENNKVLGFLREKGCDYCHT     64
+                     |||...::|.:|....|..:: ..:|.....|.:|.|.       |...|
+PUR7_VIBVU       129 AICRKYITGSMWRAYEKGEREFCGIQLPEGLEKDKALP-------DLLMT    171
+
+YHJA_ECOLI        65 PSAE--LPAYYYIPGAKQLMDYDIKL-----GYKSFNLEAVRAALLADK    106
+                     ||.:  |..   |||..:..|.:|..     .:.:||..:.....|.:|
+PUR7_VIBVU       172 PSTKGILKG---IPGVPEADDVNITRQNIADNFAAFNFSSADDIALYEK    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    31/84 (36.9%)
+# Gaps:          24/84 (28.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       104 ADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIAK    153
+                     :|:|...:|...:|.::...|..|...          |..|.|:::..||
+Y075_NITWN         6 SDRPEDTADPKLLEILVCPVTKGPLEL----------DGARRELISRSAK     45
+
+YHJA_ECOLI       154 QRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKV    187
+                     ..   |...|           .||..||.:|:|:
+Y075_NITWN        46 LA---YPIRD-----------GIPIMLPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      28/123 (22.8%)
+# Similarity:    46/123 (37.4%)
+# Gaps:          45/123 (36.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       214 NAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGG    263
+                     |.|..:..:.:..:|.|:|.:.|                ||..|.|  |.
+Y3584_PSEAB        8 NEGAAEPVRLTTPLGQAIGNLFA----------------RALPLLD--GN     39
+
+YHJA_ECOLI       264 PP------------LNPIEMASKSWDEIIAKLEKDPQL-KTQFLEVY--P    298
+                     ||            ::.:..|..|.| |.|::|....| |.:.:.||  |
+Y3584_PSEAB       40 PPGSLKVFVFGGCAVHLLTHARGSAD-IDAEIEAARVLRKDEIMAVYTPP     88
+
+YHJA_ECOLI       299 QGFS-----------GENITDAI    310
+                     :|:.           .:|.|:|:
+Y3584_PSEAB       89 EGYEDGDGRDLQVYLDQNYTNAL    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      18/73 (24.7%)
+# Similarity:    28/73 (38.4%)
+# Gaps:          20/73 (27.4%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        21 GLSG-YVWYHDNKRSKQADVQASAVSENNKVLGFLREKGCDYCHTPSAEL     69
+                     |||. |.::..|:..:...|.|....     |.|.||:...|.:..    
+BPT_HAHCH        165 GLSAIYTFFDPNEDKRALGVYAILWQ-----LQFAREQRLPYLYLG----    205
+
+YHJA_ECOLI        70 PAYYYIPGAKQLMDYDIKLGYKS     92
+                        |:|.|.:       |:.||:
+BPT_HAHCH        206 ---YWIRGCR-------KMSYKT    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      30/160 (18.8%)
+# Similarity:    52/160 (32.5%)
+# Gaps:          65/160 (40.6%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       357 GIILGGRSFEPLGLKKDFNFGEITAA------------DIGRMNVT----    390
+                     |.::|......:..|.::..|..:||            ::|.:|.|    
+KDPC_CAUVN        49 GKVVGSALIGQVFAKPEYFHGRPSAAGAGYDASASSGSNMGPLNETLIAR     98
+
+YHJA_ECOLI       391 -KEERDKLRQKVPGLRNVALTA---------------PYFHRGDVPTLDG    424
+                      |.:...||.:.||   ||:.|               |...|...|.:.|
+KDPC_CAUVN        99 LKTDAAALRAENPG---VAIPADAVTTSGSGLDPDISPANARFQAPRVAG    145
+
+YHJA_ECOLI       425 AVKLMLRYQVGKELPQEDVD--------------------DIVAFLHSLN    454
+                     |          :.:|::||.                    :::|...:|:
+KDPC_CAUVN       146 A----------RGVPEKDVTALIDAQVQQPLLGFIGQPRVNVLALNRALD    185
+
+YHJA_ECOLI       455 GVYTPYMQDK    464
+                     ..|.|....|
+KDPC_CAUVN       186 ARYPPLASQK    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:      44/214 (20.6%)
+# Similarity:    72/214 (33.6%)
+# Gaps:          62/214 (29.0%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        16 AICYLGLSGYVWYHDNKRSKQADVQASAVSENNKVLGFLREKGCDYCHTP     65
+                     |:..||....||..|:..|:.||:.|:|       |....:.|     ||
+LPXH_XYLFM        35 ALYILGDLFEVWIGDDMPSEVADMVAAA-------LRTYADAG-----TP     72
+
+YHJA_ECOLI        66 SAELPAYYYIPGAKQLM---DYDIKLGYKSF------NLEAVRAALLADK    106
+                           .|::||.:..:   ||..:.|::..      :|......||...
+LPXH_XYLFM        73 ------LYFMPGNRDFLVGADYAARAGFRILPDPCVVDLYGEPTLLLHGD    116
+
+YHJA_ECOLI       107 PVSQSDL---------NKIEWVMQYETMPPTRYTAL----------HWAG    137
+                     .:...|:         ...|::.|:.|...:...|.          |.:|
+LPXH_XYLFM       117 LLCTDDIAYQAFRAQTRDPEFIAQFLTQTLSARLAFSQQARLASHAHQSG    166
+
+YHJA_ECOLI       138 -----------KVSDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPI    176
+                                |::|...|::.|..|     .|..|.....|.:.|...:
+LPXH_XYLFM       167 LKQENDSTQFEKITDVVPADVAAMFA-----CYGVNRMIHGHTHRPALHM    211
+
+YHJA_ECOLI       177 PQKLPTDAQKVALG    190
+                     .|.......:|.||
+LPXH_XYLFM       212 LQVAECACTRVVLG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           3/19 (15.8%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       211 HALNAGGVDGR---KTSIG    226
+                     |.|...|:.|:   ||.:|
+YERI_SCHPO        40 HDLVGSGLTGKQVAKTCLG     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 328
+# Identity:      69/328 (21.0%)
+# Similarity:   108/328 (32.9%)
+# Gaps:         102/328 (31.1%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       181 PTDAQKVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGA    230
+                     ||.|...|....|:...|..||..||..:        :..|...|     
+RBSA_RUEST       169 PTAALTEAEAQVLFKIMRRLADQGISLIY--------ISHRMVEI-----    205
+
+YHJA_ECOLI       231 VGPINAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIE-MASKSWDEI    279
+                              |::...|..|.|||..|.||.|...|.:.:. |..:...::
+RBSA_RUEST       206 ---------FDNCDRVSVFRDGRYVTTQDVAKITPADVVRAMVGREIGDL    246
+
+YHJA_ECOLI       280 IAKLEKDPQL--KTQFLEVYPQGFSGENITDA--------------IAEF    313
+                     ..:.:: |:.  .|:.|.|       ||:.:|              |..|
+RBSA_RUEST       247 YPEKQR-PEACSTTEVLRV-------ENLCEAERFHDVSFSLHKGEILGF    288
+
+YHJA_ECOLI       314 EKTLITPDSPFDK-------------WLRGDENAL-------------TA    337
+                     ...:....|...|             ||.|:..||             .:
+RBSA_RUEST       289 AGLIGAGRSEIAKGVCALEGQVTGRLWLNGEPLALRDYQDSIDAGIVYLS    338
+
+YHJA_ECOLI       338 QQKKGYQLFKDNKCATCHG-----------GIILGGRSFEP---LGLKKD    373
+                     :.:||..:|.|...|:...           |:|..||..|.   ||.|.:
+RBSA_RUEST       339 EDRKGDGVFLDMSIASNVSALKVEQVASALGLIQPGREIEQADRLGRKLN    388
+
+YHJA_ECOLI       374 FNFGEI--TAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHRGDVPT    421
+                     ...|.:  ..:.:...|         :||| .|..:....|.....|.||
+RBSA_RUEST       389 LKCGTLQDPVSSLSGGN---------QQKV-ALAKMLSVNPRLIFLDEPT    428
+
+YHJA_ECOLI       422 --LDGAVKLMLRYQVGKELPQEDVDDIV    447
+                       :|...|..: |::.::|.:|....:|
+RBSA_RUEST       429 RGVDVGAKAEI-YRILRDLAEEGAGIVV    455
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           4/23 (17.4%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       355 HGGIILGGRSFEPLGLKKDFNFG    377
+                     :||:..|...|:.||    :.:|
+KR195_HUMAN        8 YGGLGYGYGGFDDLG----YGYG     26
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    21/46 (45.7%)
+# Gaps:           2/46 ( 4.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       185 QKVALGFA-LYHDPRLSADSTISCAHCHALNAG-GVDGRKTSIGVG    228
+                     ::||..|: |...|.:.|....|.....|.:|| ...|.:.::|.|
+UPPP_CORDI       190 REVATRFSFLLAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTG    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      25/122 (20.5%)
+# Similarity:    48/122 (39.3%)
+# Gaps:          42/122 (34.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        27 WYHDNKRSKQADVQASAVS---ENNKVLGFLREKGCDYCHTPSAELPAYY     73
+                     :.::.||.::.|.:...::   ||.|::        ||  :|..|...::
+GREB_ECO57        48 YQYNKKRLREIDRRVRYLTKCMENLKIV--------DY--SPQQEGKVFF     87
+
+YHJA_ECOLI        74 YIPGA-------------KQLMDYDIKLG---YKSFNLEAVRAAL-----    102
+                        ||             .:::.||...|   |.|.:....||.|     
+GREB_ECO57        88 ---GAWVEIENDDGVTHRFRIVGYDEIFGRKDYISIDSPMARALLKKEVG    134
+
+YHJA_ECOLI       103 ---LADKPVSQSD--LNKIEWV    119
+                        :.:.|..::.  :|.||:|
+GREB_ECO57       135 DLAVVNTPAGEASWYVNAIEYV    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 282
+# Identity:      52/282 (18.4%)
+# Similarity:    82/282 (29.1%)
+# Gaps:         136/282 (48.2%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        89 GYKSFNL--------EAVRAA-------LLADKPVS---QSDLNKIEWVM    120
+                     |::.::|        |.||.|       |.....||   |:.||. :.||
+TGT_LEPCP         93 GFQVWSLGEMRKISEEGVRFASPVNGDKLFLTPEVSMQIQTVLNS-DIVM    141
+
+YHJA_ECOLI       121 QYETMPPTRYTALHW-----AGKVSDEERAEI-----LAWIAKQRAE---    157
+                     |::...|      :|     .|.::.|:.|.:     |.|.|:.:||   
+TGT_LEPCP        142 QFDECTP------YWQGAKNVGHITTEKEARVSMELSLRWAARSKAEFAR    185
+
+YHJA_ECOLI       158 ----------------------------------YYASNDTAPEHRNEPV    173
+                                                       |.....:..|.::|.:
+TGT_LEPCP        186 LGNPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGVSVGEPKDEML    235
+
+YHJA_ECOLI       174 QPI---PQKLPTDAQKVALG------------------------------    190
+                     :.:   |..||.|..:..:|                              
+TGT_LEPCP        236 RIMNHTPHLLPADKPRYLMGVGTPEDLVDGVACGVDMFDCVMPTRNARNG    285
+
+YHJA_ECOLI       191 --FALYHDPRL----------SADSTISCAHCHALNAGGVDGRKTSIG--    226
+                       |..|.|.::          ..|.|.||..|.....  .|||.|. |  
+TGT_LEPCP        286 HLFTRYGDLKIRNARHKADERPLDETCSCQACKGSTL--PDGRVTG-GFS    332
+
+YHJA_ECOLI       227 ---------VGGAVGPINAPTVFNSVFNVEQF    249
+                              .|..:||:.|     |:.|:..:
+TGT_LEPCP        333 RAYLHHLDRCGEMLGPMLA-----SIHNLHYY    359
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 307
+# Identity:      60/307 (19.5%)
+# Similarity:   103/307 (33.6%)
+# Gaps:          93/307 (30.3%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        92 SFNLEAVRAALLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSD    141
+                     |.|||  :|..:..:.:.|..|.|:.       :.|.|..  ||      
+CBPQ_HUMAN        81 SKNLE--KAIQIMYQNLQQDGLEKVH-------LEPVRIP--HW------    113
+
+YHJA_ECOLI       142 EERAEILAWIAKQRAEYYA------SNDTAPEHRNEPVQPIP--QKLPTD    183
+                      ||.|..|.:.:.|....|      |..|.||.....|..:.  .:|...
+CBPQ_HUMAN       114 -ERGEESAVMLEPRIHKIAILGLGSSIGTPPEGITAEVLVVTSFDELQRR    162
+
+YHJA_ECOLI       184 AQKVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGP    233
+                     |.:......:|:.|.::...|:...     ..|.|:..|    ||.....
+CBPQ_HUMAN       163 ASEARGKIVVYNQPYINYSRTVQYR-----TQGAVEAAK----VGALASL    203
+
+YHJA_ECOLI       234 INAPTVFNSVFN----VEQFWDG------RAATLQDQAGGPPLNPIEMAS    273
+                     |.:...| |:::    ::::.||      ...|::|         .||.|
+CBPQ_HUMAN       204 IRSVASF-SIYSPHTGIQEYQDGVPKIPTACITVED---------AEMMS    243
+
+YHJA_ECOLI       274 KSWD---EIIAKLEKDPQLKTQFLEVYPQGFSGENITDAI-AEFEKTLIT    319
+                     :...   :|:.:|:..       .:.||...|...:.:.. :::.:.::.
+CBPQ_HUMAN       244 RMASHGIKIVIQLKMG-------AKTYPDTDSFNTVAEITGSKYPEQVVL    286
+
+YHJA_ECOLI       320 PDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSF---E    366
+                     .....|.|..|                        .|.:..||.:|   |
+CBPQ_HUMAN       287 VSGHLDSWDVG------------------------QGAMDDGGGAFISWE    312
+
+YHJA_ECOLI       367 PLGLKKD    373
+                     .|.|.||
+CBPQ_HUMAN       313 ALSLIKD    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      31/126 (24.6%)
+# Similarity:    46/126 (36.5%)
+# Gaps:          37/126 (29.4%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       365 FEPLG--LKKDFNFGEITAADIGRMNVT----------KEERDKLRQ---    399
+                     |.|.|  .:.::.|..:.||.|..:.|.          |:..|||..   
+PSA6_SOYBN        16 FSPEGRLFQVEYAFKAVKAAGITSIGVRGKDSICVVTHKKVPDKLLDNTS     65
+
+YHJA_ECOLI       400 --------KVPGLRNVALTAPYFHRGDVPTLDGAVK---LMLRYQVGKEL    438
+                             |..||....:||      |..||....:   ...|:..|.|:
+PSA6_SOYBN        66 VTHLFPITKYLGLLATGMTA------DARTLVQQARNEAAEFRFTYGYEM    109
+
+YHJA_ECOLI       439 PQEDVDDIVAFLHSLNGVYT--PYMQ    462
+                     |   ||.:..::...:.|||  .||:
+PSA6_SOYBN       110 P---VDVLAKWIADKSQVYTQHAYMR    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 238
+# Identity:      42/238 (17.6%)
+# Similarity:    88/238 (37.0%)
+# Gaps:          98/238 (41.2%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        28 YHDNKRSKQ--ADVQASAVSEN-NKVLGFLREKGCDYCHTPSAELPAYYY     74
+                     :.:.:.|||  ::|:.|.|::. :|||  |.:..||              
+SCL34_ARATH      181 FEEVRSSKQFASNVEDSKVTDMFDKVL--LLDGECD--------------    214
+
+YHJA_ECOLI        75 IPGAKQLMDYDIKLGYKSFNLEAVRAAL-LADKPVSQSDLNKIEWVMQYE    123
+                        .:.|:|.:|         :|:|::. :.:|  .:....|...|:.:.
+SCL34_ARATH      215 ---PQTLLDSEI---------QAIRSSKNIGEK--GKKKKKKKSQVVDFR    250
+
+YHJA_ECOLI       124 TMPPTRYTALHWAGKVSDEERAEILAWIAKQRAEYYASNDTAPEHRNEPV    173
+                     |:      ..|.|..:|..::...|.::.:.|            .::.|:
+SCL34_ARATH      251 TL------LTHCAQAISTGDKTTALEFLLQIR------------QQSSPL    282
+
+YHJA_ECOLI       174 QPIPQKLPTDAQKVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKT    223
+                     ....|:|                           |||.| ||  ::.|  
+SCL34_ARATH      283 GDAGQRL---------------------------AHCFA-NA--LEAR--    300
+
+YHJA_ECOLI       224 SIGVGGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQA    261
+                        :.|:.||:           ::.:::...::|:|.|
+SCL34_ARATH      301 ---LQGSTGPM-----------IQTYYNALTSSLKDTA    324
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 174
+# Identity:      41/174 (23.6%)
+# Similarity:    56/174 (32.2%)
+# Gaps:          62/174 (35.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       293 FLEVYPQGFSGENITDAIAEFEK---TLITPDSPFDKWLRGDENALTAQQ    339
+                     |:.:.|.|.....:.:.|..||:   .||..     |.::..|:.|    
+NDKA_CANLF         8 FIAIKPDGVQRSLVGEIIKRFEQKGFRLIAM-----KLIQASEDLL----     48
+
+YHJA_ECOLI       340 KKGYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMNV    389
+                     |:.|...||              |.|. .||.|....|.:.|.....:||
+NDKA_CANLF        49 KEHYIDLKD--------------RPFF-AGLVKYMQSGPVVAMVWEGLNV     83
+
+YHJA_ECOLI       390 TKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKEL-    438
+                     .|..|..|     |..|.|.:.|...|||           ...|||:.: 
+NDKA_CANLF        84 VKTGRVML-----GETNPADSKPGTIRGD-----------FCIQVGRNII    117
+
+YHJA_ECOLI       439 ------------------PQEDVD    444
+                                       |:|.||
+NDKA_CANLF       118 HGSDSVESAEKEIGLWFQPEELVD    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      26/119 (21.8%)
+# Similarity:    33/119 (27.7%)
+# Gaps:          46/119 (38.7%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       348 DNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMN---------    388
+                     |.|..|||                 .|..|.:....|.|.|         
+RS4_CAEEL         72 DGKVRTCH-----------------KFPTGFMDVVAIERTNEYFRMLYDT    104
+
+YHJA_ECOLI       389 --------VTKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLML    430
+                             :...|.|....||..:|.|....|.     :.|.||..   :
+RS4_CAEEL        105 KGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPV-----LTTTDGRT---I    146
+
+YHJA_ECOLI       431 RYQVGKELPQEDVDDIVAF    449
+                     ||..    |...|:|.:.|
+RS4_CAEEL        147 RYPD----PHVKVNDTIVF    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      19/65 (29.2%)
+# Similarity:    24/65 (36.9%)
+# Gaps:          13/65 (20.0%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       122 YETMPPTRYTALHWAGKVSDEERAEILAW------IAKQRAEYYASNDTA    165
+                     |...||.|.....|   ..|.|......|      .|||.|.|.|::..|
+G45IP_CHLAE       25 YRAPPPPRREPGPW---WPDPEDLLTHRWQLGPRYAAKQFARYGAASGVA     71
+
+YHJA_ECOLI       166 PEHRNEPVQPIPQKL    180
+                     |    ..:.|.|::|
+G45IP_CHLAE       72 P----GSLWPSPEQL     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      44/230 (19.1%)
+# Similarity:    81/230 (35.2%)
+# Gaps:          77/230 (33.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       106 KPVSQSDLNKIEWVMQYETMPPTRYTALHWA-----GKVSDEERAEILAW    150
+                     ||:.:|:        :::...|....|||.|     |.||  .:|.:|  
+DAPEL_OCEIH      133 KPMLESE--------EFQQWKPDMMFALHIAPELPVGTVS--SKAGLL--    170
+
+YHJA_ECOLI       151 IAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLS    200
+                             :|:.               .:|..|.:.|. |.|.|  |.|:
+DAPEL_OCEIH      171 --------FANT---------------SELFIDFEGVG-GHAAY--PHLT    194
+
+YHJA_ECOLI       201 ADSTISCAH---------CHALNAGGVDGRKTSIGVGGAVGPINAPTVFN    241
+                     .|.|::.::         ...||.  :||...:|      |.:.:..|.|
+DAPEL_OCEIH      195 KDMTVAASNFVVQLQQIVSRGLNP--LDGSVITI------GKMESGYVQN    236
+
+YHJA_ECOLI       242 SVFNVEQFWDGRAATLQDQAGGPPLNPIEMASKSWDEIIA--KLEKDPQL    289
+                     ::        ...|.|:........:.|:|.....:.::.  ::..|..:
+DAPEL_OCEIH      237 AI--------AETARLEGTIRSTDADAIDMIKSKLNRLMKGFEISYDCTI    278
+
+YHJA_ECOLI       290 KTQFLEVYPQGFSGENITDA--IAEFEKTL    317
+                     |..:...|.|     .:.||  :.:||..:
+DAPEL_OCEIH      279 KVDYGANYYQ-----VVNDATYVQQFENVI    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      49/252 (19.4%)
+# Similarity:    82/252 (32.5%)
+# Gaps:         116/252 (46.0%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       244 FNVEQFWDG---RAATLQDQAGGPPLNPIEMASKSWDE------------    278
+                     |.:.|...|   |||.    |.|   .|:.:.:|:..|            
+KAD_METRJ         24 FGIPQLSTGDMLRAAV----AAG---TPVGLEAKAVMESGGLVSDRIVVG     66
+
+YHJA_ECOLI       279 IIAKLEKDPQLKTQF-LEVYPQGFS-----GENIT------DAIAEFEKT    316
+                     |:|...::|..:..| |:.:|:..:     ||.:.      .|:.|    
+KAD_METRJ         67 IVADRIEEPDARRGFILDGFPRTVAQAEALGEMLASKGLSLSAVVE----    112
+
+YHJA_ECOLI       317 LITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSFE    366
+                                |:.|||||..:.:|                     |:.|
+KAD_METRJ        113 -----------LKVDENALVGRIEK---------------------RAAE    130
+
+YHJA_ECOLI       367 PL----GLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAP    412
+                     .|    .::||                  :..:..:|::...|  |.|||
+KAD_METRJ        131 TLARGQAVRKD------------------DTPEVFKQRLEAYR--AQTAP    160
+
+YHJA_ECOLI       413 ----YFHRGDVPTLDGAVKLMLRYQVGKELPQEDVDDIVAFLHSLNGVYT    458
+                         |..:|.:.|:||               .:.:|.:.|   .|..|..
+KAD_METRJ        161 LSAYYAQKGTLETVDG---------------MQPIDKVTA---DLMAVLE    192
+
+YHJA_ECOLI       459 PY    460
+                     |:
+KAD_METRJ        193 PH    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      19/64 (29.7%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          14/64 (21.9%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       174 QP-IPQKLPTDAQKVALGFAL-YHDPRLSADSTISCAHCHALNAGGVDGR    221
+                     || :|...|..|.|:..|:.| |...:|.          :....|||.|.
+ELN_BOVIN        210 QPGLPLGYPIKAPKLPAGYGLPYKTGKLP----------YGFGPGGVAGS    249
+
+YHJA_ECOLI       222 --KTSIGVGGAVGP    233
+                       |.....|..|||
+ELN_BOVIN        250 AGKAGYPTGTGVGP    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 483
+# Identity:      86/483 (17.8%)
+# Similarity:   132/483 (27.3%)
+# Gaps:         210/483 (43.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       111 SDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIAKQRAEYYA    160
+                     |.|:.|..:..|   .|.....:.||  |:......:|...:.:|..||.
+ASIC2_MOUSE       24 STLHGIRHIFVY---GPLTIRRVLWA--VAFVGSLGLLLVESSERVSYYF     68
+
+YHJA_ECOLI       161 SNDTAPEHRNEPVQPIPQKLPTDAQKVAL----GFA--------LYH---    195
+                     |.    :|..:..:.:.|.|...|  |.|    ||.        |||   
+ASIC2_MOUSE       69 SY----QHVTKVDEVVAQSLVFPA--VTLCNLNGFRFSRLTTNDLYHAGE    112
+
+YHJA_ECOLI       196 ------------DPRLSADSTI----------------------------    205
+                                 ||.| ||.|:                            
+ASIC2_MOUSE      113 LLALLDVNLQIPDPHL-ADPTVLEALRQKANFKHYKPKQFSMLEFLHRVG    161
+
+YHJA_ECOLI       206 ---------------SCAH------------CHALNAGGVDGRKTSIGVG    228
+                                    .|.|            |:..|: |.||:.....|.
+ASIC2_MOUSE      162 HDLKDMMLYCKFKGQECGHQDFTTVFTKYGKCYMFNS-GEDGKPLLTTVK    210
+
+YHJA_ECOLI       229 GAVG---------------PI---NAPTVFNSVFNVEQFWDGRAATLQDQ    260
+                     |..|               ||   ...|.|.:...|:.........:|:.
+ASIC2_MOUSE      211 GGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQSEPPFIQEL    260
+
+YHJA_ECOLI       261 AGG-------------------PPLNPIEMASKSWDEIIAKLEKDPQLKT    291
+                     ..|                   ||         .|.|.     :..::..
+ASIC2_MOUSE      261 GFGVAPGFQTFVATQEQRLTYLPP---------PWGEC-----RSSEMGL    296
+
+YHJA_ECOLI       292 QFLEVYPQGFSGENITDAIAEFEKTLITP-----------DSPFDKWLRG    330
+                     .|..||       :||....:.|...|..           |:||      
+ASIC2_MOUSE      297 DFFPVY-------SITACRIDCETRYIVENCNCRMVHMPGDAPF------    333
+
+YHJA_ECOLI       331 DENALTAQQKKGYQLFKDNKCATCHGGIILGGRSFEP-LGL--KKDFNFG    377
+                         .|.:|.|        :||             || |||  :||.|:.
+ASIC2_MOUSE      334 ----CTPEQHK--------ECA-------------EPALGLLAEKDSNYC    358
+
+YHJA_ECOLI       378 EITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVK    427
+                     .....    .|:|:..::....|:|...:.......|::.:....:..:.
+ASIC2_MOUSE      359 LCRTP----CNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISENILV    404
+
+YHJA_ECOLI       428 L-----MLRYQVGKELPQEDVDDIVAFLHSLNG    455
+                     |     .|.|:.   :.|:...::.|.|..:.|
+ASIC2_MOUSE      405 LDIFFEALNYET---IEQKKAYEVAALLGDIGG    434
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      18/82 (22.0%)
+# Similarity:    27/82 (32.9%)
+# Gaps:          30/82 (36.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       191 FALYHDPRLS-------ADSTISC---AHCHALNAGGVDGRK--------    222
+                     |..|..||.|       .:..|.|   |....:...|:.|:.        
+DOXA1_XENTR        6 FPFYPQPRTSFKFDTKIIEIIIICIVTACTFIIILPGIRGKSRSIWLFRI     55
+
+YHJA_ECOLI       223 -TSIGVGGAV-----------GPINAPTVFNS    242
+                      ||:.:|..:           |.:.|.||:.|
+DOXA1_XENTR       56 LTSLFIGAVILAVNFTSDWETGIVTATTVYKS     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    19/44 (43.2%)
+# Gaps:           8/44 (18.2%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       309 AIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCA    352
+                     ||..||.      :|.::..|...:::...:.||  |...||.:
+RS20_STRPB        36 AIKAFEA------NPSEELFRAASSSIDKAESKG--LIHKNKAS     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 165
+# Identity:      36/165 (21.8%)
+# Similarity:    65/165 (39.4%)
+# Gaps:          39/165 (23.6%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       253 RAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFS    302
+                     ||.|.:.|:....|.    |.|:.:|:.:..:|..|::.:..:|.     
+TPM_HAELO         21 RAETAEQQSRDAALR----AEKAEEEVRSLQKKIQQIENELDQVQ-----     61
+
+YHJA_ECOLI       303 GENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCA    352
+                      |.::.|.::.|:.        ||.|:..|..:.|..::...|.:|.:  
+TPM_HAELO         62 -EQLSQANSKLEEK--------DKALQAAEAEVAAHNRRIQLLEEDLE--    100
+
+YHJA_ECOLI       353 TCHGGIILGGRSFEPLGLKKDFNFGEITAAD--------IGRMNVTKEER    394
+                               ||.|.|.:..........|||        :...::|.|||
+TPM_HAELO        101 ----------RSEERLKIATQKLEEASQAADESERMRKMLEHRSITDEER    140
+
+YHJA_ECOLI       395 -DKLRQKVPGLRNVA    408
+                      |.|..::...|.:|
+TPM_HAELO        141 MDGLEGQLKEARTMA    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      37/163 (22.7%)
+# Similarity:    51/163 (31.3%)
+# Gaps:          50/163 (30.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       211 HALNAGG-------VDGRKT----SIGVGGAVG--PINAPTVFNSVFNVE    247
+                     |||...|       ::||.|    ||..|..||  .::..|:        
+LEUC_XANOM       205 HALEFAGSAIRALSMEGRMTICNMSIEAGARVGMVAVDEKTI--------    246
+
+YHJA_ECOLI       248 QFWDGRAATLQDQAGGPPLNPIEMASKSWDEIIA---KLEKDPQ------    288
+                     .:..||              |.......||..:|   .|..||.      
+LEUC_XANOM       247 AYVKGR--------------PFAPKGADWDAAVALWSTLVSDPDAHFDTV    282
+
+YHJA_ECOLI       289 LKTQFLEVYPQ---GFSGENITDAIAEFEKTLITPDSPFDKWLRGDENAL    335
+                     ::....::.||   |.|.|.:. ||.:......|...|..:  ...|.||
+LEUC_XANOM       283 VELHAEDIKPQVSWGTSPEMVL-AIDQHVPDPATEQDPTKR--NSIERAL    329
+
+YHJA_ECOLI       336 TAQQKKGYQLFKD    348
+                     .....|..|...|
+LEUC_XANOM       330 KYMGLKANQAITD    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       3/5 (60.0%)
+# Similarity:     4/5 (80.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI         1 MKMVS      5
+                     ||.:|
+LPT_ESCF3          1 MKRIS      5
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      11/45 (24.4%)
+# Similarity:    23/45 (51.1%)
+# Gaps:          14/45 (31.1%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       363 RSFEPLGLKKDFNFGEITAADIG------RMNVTKEERDKLRQKV    401
+                     |:...||||:        |.|:.      :..|:|:|.:::::|:
+RL7_THET8         79 RAITGLGLKE--------AKDLAEKGGPVKEGVSKQEAEEIKKKL    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      50/228 (21.9%)
+# Similarity:    80/228 (35.1%)
+# Gaps:          71/228 (31.1%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI         2 KMVSRITAIGLAGVAICYLGLSGYVWYHDNKRSKQA---------DVQAS     42
+                     |.|...||||.:.|::.:..:.......|:.....|         ::.|.
+HEM1_METCA       148 KKVRTDTAIGCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTAR    197
+
+YHJA_ECOLI        43 AVSENNKVLGFL--REKGCDYCHTPS----------AELPAYYYIPGAKQ     80
+                     .::||.  :|.|  ..:..|..||.:          .|||        |.
+HEM1_METCA       198 HLTENR--IGHLIIANRTFDRAHTLANQFGGFAISLEELP--------KH    237
+
+YHJA_ECOLI        81 LMDYDI----------KLGYKSFNLEAVRA-----ALLADKPVS---QSD    112
+                     |...||          .||..||. .|:|:     ..:.|..|.   :.:
+HEM1_METCA       238 LAKADIIVASTGSPLPILGKGSFE-SALRSRRHKPMFIVDLAVPRDIEPE    286
+
+YHJA_ECOLI       113 LNKIEWVMQY---------ETMPPTRYTALHWAGKVSDEERAEILAWIAK    153
+                     :.:::.|..|         |....||..|...|.::.|.|....|:|:..
+HEM1_METCA       287 VEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDLEVEHFLSWLRA    336
+
+YHJA_ECOLI       154 QRAEYYASNDT-------APEHRNEPVQ    174
+                     |     |:.:|       |..||:..:|
+HEM1_METCA       337 Q-----AATETIRDVRRQAELHRDAALQ    359
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 328
+# Identity:      71/328 (21.6%)
+# Similarity:   104/328 (31.7%)
+# Gaps:         123/328 (37.5%)
+# Score: 74.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI         9 AIGL----AGVAICYLGLSGYVWYHDNKRSKQADVQASAVSENNKVLGFL     54
+                     |:|:    ||.|:..||.|| |::              ||||     |||
+XYLB_KLEPN       238 AVGIGMADAGQAMLSLGTSG-VYF--------------AVSE-----GFL    267
+
+YHJA_ECOLI        55 REKGC---DYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFNLEAVRAA    101
+                     .:...   .:||...........:..|...:|:..||            .
+XYLB_KLEPN       268 SKPESAVHSFCHACRGRWHLMSVMLSAASCLDWAAKL------------T    305
+
+YHJA_ECOLI       102 LLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWI    151
+                     .||..|                        ||..|.:.:||....:  |.
+XYLB_KLEPN       306 GLASVP------------------------ALIAAAQTADESAGPV--WF    329
+
+YHJA_ECOLI       152 AKQRAEYYASNDTAPEHRNEPVQPI-----PQKLPTDAQKVAL---GFAL    193
+                     ..     |.|.:..| |.|...:.:     .|..|.:..:..|   |:||
+XYLB_KLEPN       330 LP-----YLSGERTP-HNNPQAKGVFFGLTHQHGPAELARAVLEGVGYAL    373
+
+YHJA_ECOLI       194 YHDPRLSADSTISCA---HCHALNAGG-----------VDGRKTSIGVGG    229
+                     ..    ..|...:||   ....|..||           :.|.:.....||
+XYLB_KLEPN       374 AD----GMDVVHACAIKPEAITLIGGGRARYWRQMLADISGLQLDYRTGG    419
+
+YHJA_ECOLI       230 AVGP-INAPTVFNSVFNVEQFWDGRAATLQDQAGGP----PLNPIEMASK    274
+                     .||| :.|..:.:             ..:.|:|..|    || |:|.|.:
+XYLB_KLEPN       420 DVGPALGAARLAH-------------VAVHDEADRPGLLKPL-PLEQAHR    455
+
+YHJA_ECOLI       275 SWDEIIAKLEKDPQLKTQFLEVYPQGFS    302
+                     ..|..:|...  ||     .|::.:.||
+XYLB_KLEPN       456 PDDRRVAHYA--PQ-----REIFARIFS    476
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      25/101 (24.8%)
+# Similarity:    33/101 (32.7%)
+# Gaps:          39/101 (38.6%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       359 ILGGRSFEPLGLK-KDFNFG------------EITAADIGRMNVTKEERD    395
+                     :||||.....|:: :|...|            |:..|    ||.|.|.: 
+RECR_NOVAD       105 VLGGRLSALEGVRPEDLTIGSLLDRVAQGGIDEVVLA----MNATLEGQ-    149
+
+YHJA_ECOLI       396 KLRQKVPGLRNVALTAPYFHRGDVPTLDGA----VKLMLRYQVGKELPQE    441
+                                  .||.|.    ...|:||    .:|.....||.||...
+RECR_NOVAD       150 -------------TTAHYI----AERLEGAAVRVTQLAHGLPVGGELDYL    182
+
+YHJA_ECOLI       442 D    442
+                     |
+RECR_NOVAD       183 D    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      21/92 (22.8%)
+# Similarity:    29/92 (31.5%)
+# Gaps:          34/92 (37.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       357 GIILGGRSF---EPLGLKKDFNFGEITAADIGRMNVTK------------    391
+                     |.|||.||.   :..|:....|....|||:.|...:.:            
+SURE_METNO       114 GTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILV    163
+
+YHJA_ECOLI       392 ---------EERDKLRQKVPGLRNVALTA----------PYF    414
+                              |..:.:.....|:||..|.|          |||
+SURE_METNO       164 NVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYF    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    27/61 (44.3%)
+# Gaps:           5/61 ( 8.2%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        78 AKQLMDYDIKLGYKSFNLEAVRAALLADKPVSQSDLNKIEWV---MQYET    124
+                     |...|.|.:..|..||....|...||:..|..::||  ::|:   ...:.
+CYB_ARTIO        125 ATAFMGYVLPWGQMSFWGATVITNLLSAIPYIETDL--VQWIWGGFSVDK    172
+
+YHJA_ECOLI       125 MPPTRYTALHW    135
+                     ...||:.|.|:
+CYB_ARTIO        173 ATLTRFFAFHF    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 255
+# Identity:      51/255 (20.0%)
+# Similarity:    88/255 (34.5%)
+# Gaps:          62/255 (24.3%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       197 PRLSADSTI-SCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSV--    243
+                     |.|.|::|. .|....||  .|.:|.:.     |...|.|...:..|:  
+IOLE_BACHK        22 PELGAENTFEQCISEMAL--AGFNGSEV-----GNKYPRNTVVLKKSLEL     64
+
+YHJA_ECOLI       244 --FNVEQFWDGRAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKT    291
+                       ..:...|.....|.:         |||   ::.:|.|...:....:..
+IOLE_BACHK        65 RNLEIASAWFSTFLTTK---------PIE---ETVEEFIKHRDFLHGMGA    102
+
+YHJA_ECOLI       292 QFLEVYPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKK    341
+                     :.:.|..||.|.:.:.| :..|:...:..:..::|...|..:.....|:|
+IOLE_BACHK       103 KVIVVSEQGHSIQGLMD-VPLFKNKPVFTEEEWEKLADGLHHLGKLAQEK    151
+
+YHJA_ECOLI       342 GYQLFKDNKCAT------------------------CHGGIILGGRSFEP    367
+                     |..:...:...|                        ..|.::..|.  ||
+IOLE_BACHK       152 GLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGHLVFSGE--EP    199
+
+YHJA_ECOLI       368 LGLKKDF--NFGEITAADIGR--MNVTKEERDKLRQKVPGLRNVALTAPY    413
+                     |.:.|.:  ....:...||.:  ::|.||:.....|.|   :|.|.|.| 
+IOLE_BACHK       200 LYILKKYLPRIKHVHLKDIRQEVVDVVKEKELSFLQAV---KNGAFTVP-    245
+
+YHJA_ECOLI       414 FHRGD    418
+                        ||
+IOLE_BACHK       246 ---GD    247
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      19/51 (37.3%)
+# Similarity:    24/51 (47.1%)
+# Gaps:          12/51 (23.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        69 LPAYYYIPGAKQLMDYDI-KLGY--KSFNLEAVRAALLADKPVSQSDLNK    115
+                     ||.:||       .||.| |.|:  .|....:.|||.:.|||:  .||..
+ACKA_STAAT       163 LPYHYY-------KDYGIRKYGFHGTSHKFVSQRAAEMLDKPI--EDLRI    203
+
+YHJA_ECOLI       116 I    116
+                     |
+ACKA_STAAT       204 I    204
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      11/56 (19.6%)
+# Similarity:    21/56 (37.5%)
+# Gaps:          19/56 (33.9%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        60 DYCHTPSAELPAYYYIPGAK-QLMDYDIKLGYKSF--------------N     94
+                     |:...|..|    :::|..: ::..:|:.|..:.|              |
+HIS7_BURTA       108 DFSGRPGLE----FHVPFTRARIGTFDVDLSIEFFRGFVNHAGVTLHIDN    153
+
+YHJA_ECOLI        95 LEAVRA    100
+                     |..|.|
+HIS7_BURTA       154 LRGVNA    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      43/175 (24.6%)
+# Similarity:    63/175 (36.0%)
+# Gaps:          73/175 (41.7%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       308 DAIAEFEKTLITPDSPFDKWLRGDENALTAQ-QKKGYQL-------FKDN    349
+                     |.||:.|...|         :|.....|||: ::||.:|       |.: 
+PTH_GEOLS         29 DRIAQLEGLSI---------VRKQFGGLTAEWERKGKRLVLLKPQTFMN-     68
+
+YHJA_ECOLI       350 KCATCHGGIILGGRSFEP----LGLKKDFNFGEITAADIGRMNVTKEERD    395
+                               |.|||..|    ..||.|            ::.|..:|.|
+PTH_GEOLS         69 ----------LSGRSVMPALQFYKLKPD------------QLIVVHDEID     96
+
+YHJA_ECOLI       396 ------KLRQ-----KVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQV    434
+                           :|:|     ...|||::   .....:||.        :.||..:
+PTH_GEOLS         97 LALGAARLKQGGGHGGQNGLRSI---MELLGKGDF--------VRLRLGI    135
+
+YHJA_ECOLI       435 GKELPQEDVDDIVAFLHSLNGVYTP    459
+                     |:. |..||.:     |.| ||:||
+PTH_GEOLS        136 GRP-PHGDVTN-----HVL-GVFTP    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      61/301 (20.3%)
+# Similarity:    93/301 (30.9%)
+# Gaps:         117/301 (38.9%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       103 LADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIA    152
+                     |....||.|.:|.          ..|..|::..:|..|..:    ::|  
+TAF3_XENLA       359 LTTPKVSASGINP----------GKTSSTSVPASGGTSSSD----ISW--    392
+
+YHJA_ECOLI       153 KQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSAD    202
+                                |..:..||.::.:.|:.||:.                  
+TAF3_XENLA       393 -----------TMDDSINEVIRKVSQETPTNT------------------    413
+
+YHJA_ECOLI       203 STISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFWDG    252
+                                                   |.|.|..|:|........:.
+TAF3_XENLA       414 ------------------------------PANNPPCFSSPSASPPTPEP    433
+
+YHJA_ECOLI       253 RAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKD-PQLKTQFLEVYPQGF    301
+                     .....:|:|..||  |:|:..|:..|..||.:|| .:||.:         
+TAF3_XENLA       434 LLKVFEDKAKLPP--PVELKKKTKKEQRAKKKKDKDKLKDK---------    472
+
+YHJA_ECOLI       302 SGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKD-NK    350
+                       |...|...:..|     |...||...|        .|.|..|:|| ||
+TAF3_XENLA       473 --ERSKDKNKDRSK-----DKEKDKEKDG--------TKDGKVLWKDSNK    507
+
+YHJA_ECOLI       351 CATCHGGIILGGRSFEPLGLK-KDFNFGEITAADIGRMNVTKEERDKLRQ    399
+                                ....|....| ||||  ||.:....:.|..|::::|.:.
+TAF3_XENLA       508 -----------DEDSELHRFKLKDFN--EIDSKSKQKENCGKKDKEKHKD    544
+
+YHJA_ECOLI       400 K    400
+                     |
+TAF3_XENLA       545 K    545
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 356
+# Identity:      63/356 (17.7%)
+# Similarity:   106/356 (29.8%)
+# Gaps:         110/356 (30.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       141 DEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQP---IPQKLPTDAQKV    187
+                     ||..|....|...::...|.::....:..|..:|.   ..||.|..|  :
+DNLJ_CROS5       267 DEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQKALGFTQKFPRWA--I    314
+
+YHJA_ECOLI       188 ALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGP----    233
+                     ||.:.....|.|..:..:                  ::|..|||.|    
+DNLJ_CROS5       315 ALKYPAEEAPTLVKNIVV------------------NVGRTGAVTPMAVM    346
+
+YHJA_ECOLI       234 ---------INAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMASK    274
+                              :...|:.||         .|.|.|..:.|...:  |..|.:
+DNLJ_CROS5       347 EPVHLAGTTVQKATLHNS---------DRIAQLDIRVGDTVI--IRKAGE    385
+
+YHJA_ECOLI       275 SWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPD---    321
+                     ...|::..|:          |:.|.......:.|...|.:..||.|.   
+DNLJ_CROS5       386 IIPEVVRVLK----------ELRPPNTQPYEMPDRCPECDSPLIRPSGEA    425
+
+YHJA_ECOLI       322 --------------SPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGG    357
+                                   .....|...|...:....:|...|..:|       |
+DNLJ_CROS5       426 VIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLIEN-------G    468
+
+YHJA_ECOLI       358 IILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNV    407
+                     ::   .|...|     :.....|.|::.||.  .:..|.|.:.:.|.:..
+DNLJ_CROS5       469 LV---NSIADL-----YYLTPETIANLERMG--SKSADNLIKAIEGSKQQ    508
+
+YHJA_ECOLI       408 ALTAPYFHRG--------------DVPTLD-----GAVKLMLRYQVGKEL    438
+                     ..:...:..|              :.|::|     ....|...|.||:|:
+DNLJ_CROS5       509 PFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEI    558
+
+YHJA_ECOLI       439 PQEDVD    444
+                     .|..:|
+DNLJ_CROS5       559 AQSIID    564
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 508
+# Identity:      98/508 (19.3%)
+# Similarity:   157/508 (30.9%)
+# Gaps:         206/508 (40.6%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI         9 AIGLAGVAICYLGLSGYVWYHDNKRSKQADVQASAVSENNKVLGFLREKG     58
+                     |.|.||.|:.||        .|.:::..|.|...:..|.           
+MUTS_MYXXD       242 AAGAAGAALRYL--------KDTQKTAAAHVDRLSRQER-----------    272
+
+YHJA_ECOLI        59 CDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFNLEAVRA--------    100
+                                       |...|||...:.     |||.:|:        
+MUTS_MYXXD       273 ------------------GGNLLMDESSRA-----NLEVLRSLRDGGRKG    299
+
+YHJA_ECOLI       101 ALLA--DKPVSQSDLNKI-EWVMQYETMPPTRYTALHWAGKVSDEE--RA    145
+                     :||.  ||.|:.....|: .|:.......|..:..|....::|...  |.
+MUTS_MYXXD       300 SLLGVLDKTVTSLGARKLARWLASPLGSLPEIHARLDAVEELSGRSVWRE    349
+
+YHJA_ECOLI       146 EILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKV----ALGF    191
+                     | ||.|.|:..:               ::.:..:|...|...    |||.
+MUTS_MYXXD       350 E-LAGILKEVGD---------------LERLCGRLSLGAGNARDLRALGL    383
+
+YHJA_ECOLI       192 ALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFN    241
+                     :|...||:.|                |..|..|..:....||::|.....
+MUTS_MYXXD       384 SLAQLPRVVA----------------VLARCESPLLKSLTGPLSALPELA    417
+
+YHJA_ECOLI       242 SVFNVEQFWDGRA------ATLQDQAGG-------PPLNPIEMASKSWDE    278
+                     .:.:       ||      .||:|  ||       ..|:.:...|.|..:
+MUTS_MYXXD       418 ELLS-------RAVAEEPPVTLKD--GGMIRAGFHAELDKLVALSTSGKD    458
+
+YHJA_ECOLI       279 IIAKLEKDPQLKT--------------QFLEV-------YPQGFSGENIT    307
+                     ::.::|:..:.:|              .:|||       .|:.:..:..|
+MUTS_MYXXD       459 LLLQIEQREKERTGISSLKVRYNKVFGYYLEVTKSNLDRVPKDYIRKQTT    508
+
+YHJA_ECOLI       308 DAIAEFEKTLITPDSPFDKWLRGDENALTAQQKK---GYQLFKD------    348
+                     .....|    :||:..     ..:|..|||::::   ..|||::      
+MUTS_MYXXD       509 VNSERF----VTPELK-----EYEEQVLTAEERRCALEIQLFEELRAQVV    549
+
+YHJA_ECOLI       349 ----------------------NKCATCHG------------GIILG---    361
+                                           .:||..:|            .|..|   
+MUTS_MYXXD       550 SAAPRIRSAAEAVATGDALLSFARCAAEYGYTRPEVDASVALSITAGRHP    599
+
+YHJA_ECOLI       362 --------GRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPG    403
+                             |.||.|..::.|      .|.|...|.:|   ...:..|...
+MUTS_MYXXD       600 VVERMLGAGDSFVPNDVRLD------PAEDAQLMVIT---GPNMAGKSTV    640
+
+YHJA_ECOLI       404 LRNVALTA    411
+                     :|.|||||
+MUTS_MYXXD       641 MRQVALTA    648
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 276
+# Identity:      51/276 (18.5%)
+# Similarity:    92/276 (33.3%)
+# Gaps:          89/276 (32.2%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        47 NNKVLGFLREKGCDYCHTPSAE--------------------LPAYYYIP     76
+                     ||::   :|..|.|.|..|:.:                    ||..|.:|
+NOSO_STAAC       119 NNQL---IRYAGYDNCGDPAEKEVTRLANHLGWKGKGTNFDVLPLIYQLP    165
+
+YHJA_ECOLI        77 G-AKQLMDY------DIKLGYKSF-NLEAVRAALLADKPVSQSDLNKIEW    118
+                     . :.:..:|      ::.:.:..: .|..:.....|...:|..|| ||..
+NOSO_STAAC       166 NESVKFYEYPTSLIKEVPIEHNHYPKLRKLNLKWYAVPIISNMDL-KIGG    214
+
+YHJA_ECOLI       119 VMQYETMPPTRYTALHWAGKVS-----DEERAEILAWIAKQRAEYYASND    163
+                     :: |.|.|   :...:...::.     |:.|..:|..:| ...|:    |
+NOSO_STAAC       215 IV-YPTAP---FNGWYMVTEIGVRNFIDDYRYNLLEKVA-DAFEF----D    255
+
+YHJA_ECOLI       164 TAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSADSTISCAHCHAL    213
+                     |...:          ....|...|.|.:|:||                  
+NOSO_STAAC       256 TLKNN----------SFNKDRALVELNYAVYH------------------    277
+
+YHJA_ECOLI       214 NAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGG    263
+                          ..:|..:.:   |..:.|...| .:|...:...||..|.:.....
+NOSO_STAAC       278 -----SFKKEGVSI---VDHLTAAKQF-ELFERNEAQQGRQVTGKWSWLA    318
+
+YHJA_ECOLI       264 PPLNPIEMAS--KSWDEIIAKLEKDP    287
+                     |||:|...::  ..:|..:    |||
+NOSO_STAAC       319 PPLSPTLTSNYHHGYDNTV----KDP    340
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      21/110 (19.1%)
+# Similarity:    38/110 (34.5%)
+# Gaps:          24/110 (21.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       361 GGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALT    410
+                     |..|...|..|.....|....::.|.....:|:.|.:.|.          
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD----------     60
+
+YHJA_ECOLI       411 APYFHRGDVPTLDGAVKLMLRYQVG--KELPQEDVDDIVAFLHSLNGVY-    457
+                           ||.|....:|:..:.:..|  :|..:||:.|..|....:..:: 
+RBM8A_MOUSE       61 ------GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHL    104
+
+YHJA_ECOLI       458 -----TPYMQ    462
+                          |.|::
+RBM8A_MOUSE      105 NLDRRTGYLK    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       184 AQKVALGFAL    193
+                     |.:.|||.:|
+NU4LM_ARCPU       68 ACEAALGLSL     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      55/268 (20.5%)
+# Similarity:    74/268 (27.6%)
+# Gaps:          81/268 (30.2%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       153 KQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGF-----------    191
+                     :.|.|........||...:.:..:...|...||:||:..           
+NANK_ECOLI        25 RDRRELPTPASQTPEALRDALSALVSPLQAHAQRVAIASTGIIRDGSLLA     74
+
+YHJA_ECOLI       192 -------ALYHDP------RLSADSTISCAHCHA----------------    212
+                            .|.|.|      :|:...||:.....|                
+NANK_ECOLI        75 LNPHNLGGLLHFPLVKTLEQLTNLPTIAINDAQAAAWAEFQALDGDITDM    124
+
+YHJA_ECOLI       213 --------LNAGGVDGRKTSIGVGGAVGPI-------NAPTV-FNSVFNV    246
+                             :..|.|.|.|...|.||..|.|       :.|.. ......|
+NANK_ECOLI       125 VFITVSTGVGGGVVSGCKLLTGPGGLAGHIGHTLADPHGPVCGCGRTGCV    174
+
+YHJA_ECOLI       247 EQFWDGR--AATLQDQAGGPPLNPIEMASKSWDE-----------IIAKL    283
+                     |....||  ||..|.:..|.....|...:...||           .:|:|
+NANK_ECOLI       175 EAIASGRGIAAAAQGELAGADAKTIFTRAGQGDEQAQQLIHRSARTLARL    224
+
+YHJA_ECOLI       284 EKDPQLKTQFLEVYPQGFSG----------ENITDAIAEFEKTLITPDSP    323
+                     ..|.:..|....|...|..|          ..:....|.|...|:.....
+NANK_ECOLI       225 IADIKATTDCQCVVVGGSVGLAEGYLALVETYLAQEPAAFHVDLLAAHYR    274
+
+YHJA_ECOLI       324 FDKWLRGDENALTAQQKK    341
+                     .|..|.|  .||.||.:|
+NANK_ECOLI       275 HDAGLLG--AALLAQGEK    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    19/50 (38.0%)
+# Gaps:          20/50 (40.0%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        26 VWYH-----DNKRSKQADVQASAVSENNKVLGFLR-----EKGCDYCHTP     65
+                     ||.|     :|..||:          .|.:.||:.     :|.|.||..|
+MIAB_MYCPE       180 VWSHEGNVIENLPSKR----------TNNLKGFVNVMYGCDKFCTYCIVP    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      33/155 (21.3%)
+# Similarity:    58/155 (37.4%)
+# Gaps:          35/155 (22.6%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       108 VSQSDLNKIEW-----VMQY-ETMPPTRYTALHWAGKVSDEERAEILAWI    151
+                     ::.|:...||:     :::| :....|||.||:.|  ....|....|...
+NADK_STAES        90 INNSEFQVIEYPLLELIVRYNDNGYETRYLALNEA--TMKTENGSTLVVD    137
+
+YHJA_ECOLI       152 AKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSA    201
+                     ...|.:::      ...|.:.: .|.....:.|...|||.||.| |.|.|
+NADK_STAES       138 VNIRGKHF------ERFRGDGL-CISTPSGSTAYNKALGGALIH-PSLEA    179
+
+YHJA_ECOLI       202 DSTISCAHCHALNAGGVDGRKTSIGVGG----------AVGPINAPTVFN    241
+                        :..|...::|      .:....||.          .:.|:|..|:..
+NADK_STAES       180 ---MQIAEIASIN------NRVFRTVGSPLVLPKHHTCLITPVNHDTIRT    220
+
+YHJA_ECOLI       242 SVFNV    246
+                     ::.:|
+NADK_STAES       221 TIDHV    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 118
+# Identity:      27/118 (22.9%)
+# Similarity:    41/118 (34.7%)
+# Gaps:          32/118 (27.1%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       151 IAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLS    200
+                     |.|.....|..:.|..|.|::..|.:  |....|||.|:|.......|  
+TRPG_CAEEL       798 IEKLMGNSYQCSYTTSEFRDKYKQRM--KRVKHAQKKAMGVFSSRPSR--    843
+
+YHJA_ECOLI       201 ADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFW    250
+                                  ...|:..|:::.|:||..|..:...||.:.|..:.  
+TRPG_CAEEL       844 -------------TGSGIASRQSTEGMGGVGGGSSVAGVFGNSFGNQD--    878
+
+YHJA_ECOLI       251 DGRAATLQDQAGGPPLNP    268
+                                  |||:|
+TRPG_CAEEL       879 -------------PPLDP    883
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      33/164 (20.1%)
+# Similarity:    51/164 (31.1%)
+# Gaps:          60/164 (36.6%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       131 TALHWAGKVSDEER--------------------AEILAWIAKQRAEYYA    160
+                     ||:.|...::|:::                    .::|..:|:||.|:..
+MSHD_MYCMM         2 TAVQWRSHLTDDQQRQVRDLVTAATQVDGVAPVGEQVLRELAQQRTEHLL     51
+
+YHJA_ECOLI       161 SNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSADSTIS--CA    208
+                     ..|.:|                  .|.|:|: |...|...||:.::  ..
+MSHD_MYCMM        52 VEDQSP------------------GKSAIGY-LNLSPAHGADAAMAELVV     82
+
+YHJA_ECOLI       209 HCHALNAGGVDG--RKTSIGVGGAVGPINAPTVFNSVFNVEQFW-DGRAA    255
+                     |..|...|....  |......||.                .||| .|..|
+MSHD_MYCMM        83 HPQARRRGIATAMVRAALAKTGGR----------------NQFWAHGTLA    116
+
+YHJA_ECOLI       256 TLQDQAGGPPLNPI    269
+                     ..|..|....|.|:
+MSHD_MYCMM       117 PAQATASALGLTPV    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      13/54 (24.1%)
+# Similarity:    23/54 (42.6%)
+# Gaps:           2/54 ( 3.7%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       205 ISCAHCHALNAGGVDGRKTS--IGVGGAVGPINAPTVFNSVFNVEQFWDG    252
+                     ::..:.|.|....:.|.:.|  ||:.||...:.||.....:.:..|..:.
+PAND_THEFY        47 VNITNGHRLVTYVLTGERGSGVIGINGAAARLVAPGDLVIIISYVQLTEA     96
+
+YHJA_ECOLI       253 RAAT    256
+                     ..||
+PAND_THEFY        97 ERAT    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 335
+# Identity:      72/335 (21.5%)
+# Similarity:   115/335 (34.3%)
+# Gaps:          96/335 (28.7%)
+# Score: 77.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       159 YASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSADSTISCA    208
+                     |:|..|.|:  ...:.||.::.....           :|..||....:.|
+LIPA_ASPOR        12 YSSARTVPQ--TGSITPISRRTYATT-----------EPSPSATGAPATA     48
+
+YHJA_ECOLI       209 H-----CHALNAGG-----VDGRKTSIGVGGAVGPINAPTVFNSVFNVEQ    248
+                     .     ...||||.     |.|           |..|||...:..:.::.
+LIPA_ASPOR        49 RKRTNFTDKLNAGPSFADFVSG-----------GEDNAPLEPSEAYALKT     87
+
+YHJA_ECOLI       249 FWDGRAATLQDQAGGPP--LNPIEMASKSWDEIIAKLEKDPQLKTQFLEV    296
+                     ...|.|...::....|.  ..||. .||::.    :|:||          
+LIPA_ASPOR        88 AMVGPAGRKKEMTRLPSWLKTPIP-DSKNYQ----RLKKD----------    122
+
+YHJA_ECOLI       297 YPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLF    346
+                         ..|.|:.....|.....|:     |.|...|::|.||.    ..|.
+LIPA_ASPOR       123 ----LRGLNLHTVCEEARCPNIS-----DCWGGSDKSAATAT----IMLM    159
+
+YHJA_ECOLI       347 KDNKCATCHGGIILGGRSFEPLGLKKDFNFGE-ITAADIGRMNVTKEERD    395
+                     .|.....|....:...|...||...:..|..| |:...:|.:.:|..:||
+LIPA_ASPOR       160 GDTCTRGCRFCSVKTNRRPPPLDPHEPENTAEAISRWSLGYVVLTSVDRD    209
+
+YHJA_ECOLI       396 ---------------KLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLML    430
+                                    |::||.|.:....||..|.  ||:.    .|||:.
+LIPA_ASPOR       210 DLADGGARHFAETVIKIKQKKPSMLVECLTGDYL--GDLE----MVKLVA    253
+
+YHJA_ECOLI       431 RYQVGKELPQEDVDDIVAFLHSLNGVYTPYMQDKQ    465
+                     |  .|.::...:|:.:.|.        ||:::|::
+LIPA_ASPOR       254 R--SGLDVYAHNVETVEAL--------TPFVRDRR    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 191
+# Identity:      36/191 (18.8%)
+# Similarity:    63/191 (33.0%)
+# Gaps:          56/191 (29.3%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       295 EVYPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQ    344
+                     |:.|.|.:|:||...::.....         |.|||....:|..:....|
+FLGI_PECAS        96 ELPPFGRTGQNIDIVVSSLGNA---------KSLRGGTLLMTPLKGVDNQ    136
+
+YHJA_ECOLI       345 LFKDNKCATCHGGIILGGRSFEPLGLKKDFN---FGEIT---------AA    382
+                     ::     |...|.:::||......|.....|   .|.|:         .:
+FLGI_PECAS       137 VY-----ALAQGNVLVGGAGASAGGSSVQVNQLAGGRISNGAVIERELPS    181
+
+YHJA_ECOLI       383 DIGRMNV----TKEERDKLRQKVPGL---------------RNVALTAPY    413
+                     ..|..|.    .|.:...:.|||...               |.:.:.||:
+FLGI_PECAS       182 TFGTSNTIMLQLKNDDFSMAQKVSDAINRSGYGGTASPLDSRTIQVLAPH    231
+
+YHJA_ECOLI       414 FHR------GDVPTLDGAV-----KLMLRYQVGKELPQEDV    443
+                     .:.      .||..::..|     |:::..:.|..:...||
+FLGI_PECAS       232 GNSSQVRFLADVQNIEVNVGIQDAKVVINSRTGSVVMNRDV    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      35/161 (21.7%)
+# Similarity:    65/161 (40.4%)
+# Gaps:          39/161 (24.2%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       289 LKTQFLEVYPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQ    338
+                     :.||.:..|..|..|::   :...:::|.|.. .|..::|  .|..:|..
+LDH_BORAP        165 VNTQNIHSYVMGEHGDS---SFVTWDETKIAM-KPLSEYL--SEGKITEL    208
+
+YHJA_ECOLI       339 Q-----KK----GYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFGEI    379
+                     :     ||    .|::.|            |.|.::..:||    ....|
+LDH_BORAP        209 ELDEIHKKVVNAAYEVIK------------LKGATYYAIGL----GIKNI    242
+
+YHJA_ECOLI       380 TAADIGRMNVTKEERDKLRQKVPGL-RNVALTAPYFHRGDVPTLDGAVKL    428
+                     ..|.||..|:.......:..:..|| :::.:.||     .:...:| ||.
+LDH_BORAP        243 VNAIIGDQNIILPISSYINGQYGGLIKDIYIGAP-----AIVCKEG-VKE    286
+
+YHJA_ECOLI       429 MLRYQVG-KEL    438
+                     :|.:::. |||
+LDH_BORAP        287 VLNFKISPKEL    297
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      46/242 (19.0%)
+# Similarity:    67/242 (27.7%)
+# Gaps:         119/242 (49.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        50 VLGFLREKG----CDYCHTPSAELP------AYYYIPGAKQLMDYDIKLG     89
+                     |.|:..:.|    .|....|.|:.|      .|...||..|...||..|.
+EXGB_EMENI       153 VCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALE    202
+
+YHJA_ECOLI        90 YKSFNLEAVRAALLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKV    139
+                     :                         :||:.          |::|...|.
+EXGB_EMENI       203 F-------------------------LEWMT----------TSIHQNNKF    217
+
+YHJA_ECOLI       140 SDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQK-------LPT    182
+                     .:....||:                     |||||...|.       .|:
+EXGB_EMENI       218 RNVGMLEIV---------------------NEPVQNADQASSMINSYYPS    246
+
+YHJA_ECOLI       183 DAQKV-----ALG-----------------------------FALYHDPR    198
+                     ...::     :||                             ||.|.|.|
+EXGB_EMENI       247 AFTRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHR    296
+
+YHJA_ECOLI       199 -LSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTV    239
+                      :..||:::......::|..||.|      ||     |.||:
+EXGB_EMENI       297 YVKWDSSVAVDKESYISASCVDDR------GG-----NWPTI    327
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      27/110 (24.5%)
+# Similarity:    43/110 (39.1%)
+# Gaps:          37/110 (33.6%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       256 TLQDQAGGPPLNPI-EMASKSWDEI--IAKLEKDPQLKTQFLE--VYP--    298
+                     ||::..|.|....| |:..:|.::|  ||:|......:.:.:|  :.|  
+KTHY_CHLP8        33 TLREPGGTPVAEQIRELLLESHNDITSIAELLLFSASRAELMEKIIVPAL     82
+
+YHJA_ECOLI       299 ------------------QGFS-GENITDAIAEFEKTL---ITPD-----    321
+                                       ||:. |.|: |.:||..:..   |.||     
+KTHY_CHLP8        83 EDGCDVILDRFFDSTTAYQGYGRGLNL-DMLAEINRIASHGIRPDITFYL    131
+
+YHJA_ECOLI       322 --SPFDKWLR    329
+                       :|.|..||
+KTHY_CHLP8       132 DLTPEDALLR    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 357
+# Identity:      80/357 (22.4%)
+# Similarity:   131/357 (36.7%)
+# Gaps:          93/357 (26.1%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI         9 AIGLAGVAICYLGLSG----YVWYHDNKRSKQADVQASAVSENNKVLGFL     54
+                     ||..||.|     |:|    .|..:|....:.|:.....:......:|::
+SECA2_MYCTO      150 AIAAAGYA-----LAGRHVHVVTINDYLARRDAEWMGPLLDAMGLTVGWI    194
+
+YHJA_ECOLI        55 REKGCDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFN---LEAVRAA    101
+                     ....     ||.....||          |.|:.  |.|.|   .:.:|..
+SECA2_MYCTO      195 TADS-----TPDERRTAY----------DRDVT--YASVNEIGFDVLRDQ    227
+
+YHJA_ECOLI       102 LLAD--KPVSQSD----LNKIEWVMQYETMPPTRYTALHWAGKVSDE-ER    144
+                     |:.|  ..||.:.    :::.:.|:..|.:.|     |..||....| .|
+SECA2_MYCTO      228 LVTDVNDLVSPNPDVALIDEADSVLVDEALVP-----LVLAGTTHRETPR    272
+
+YHJA_ECOLI       145 AEILAWIA-----KQRAEYYAS-NDTAPEHRNEPVQPIPQKLPTDAQKV-    187
+                     .||:..:|     |...||:|: :|....|..|          ..|:|| 
+SECA2_MYCTO      273 LEIIRLVAELVGDKDADEYFATDSDNRNVHLTE----------HGARKVE    312
+
+YHJA_ECOLI       188 -AL-GFALYHDPRLSADST-ISCA-HCHALNAGGVDGRKTSIGVGGAVGP    233
+                      || |..||.:..:....| ::.| |.|.|....|.    .|....||..
+SECA2_MYCTO      313 KALGGIDLYSEEHVGTTLTEVNVALHAHVLLQRDVH----YIVRDDAVHL    358
+
+YHJA_ECOLI       234 INAPTVFNSVFNVEQFWDGRAATLQDQAG------GPPLNPIEMASKSWD    277
+                     |||..  ..:..::::.||..|.::.:.|      |..|:.|.:.:    
+SECA2_MYCTO      359 INASR--GRIAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQA----    402
+
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVYPQGFSGENIT--DAIAEFEKTLITPDSPFD    325
+                                |..::..|.  |.:|..:.  :.:.:|.:..::|..|..
+SECA2_MYCTO      403 -----------LINRYATVC--GMTGTALAAGEQLRQFYQLGVSPIPPNK    439
+
+YHJA_ECOLI       326 KWLRGDE    332
+                     ..:|.||
+SECA2_MYCTO      440 PNIREDE    446
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       193 LYHDPRLSA    201
+                     |.|.||:.:
+DB108_HUMAN       59 LGHQPRIES     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      72/365 (19.7%)
+# Similarity:   115/365 (31.5%)
+# Gaps:         147/365 (40.3%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       129 RYTALHWAGKVSDEERAEILAWIAKQRAEYYASNDTAPEHRNE-----PV    173
+                     |..||::.|.:......:..|..|.:.|...|.....|.||..     ||
+LCMT1_CRYNB        8 RLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRRRRLRPPV     57
+
+YHJA_ECOLI       174 QP---IPQKLPTDAQKVALGF-------ALYHDPRLSADSTISCAHCHA-    212
+                     :|   :|..|.|.:....:|:       .||..|.....:....|...| 
+LCMT1_CRYNB       58 RPPLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRAR    107
+
+YHJA_ECOLI       213 ----LNAG------GVD----------GRK-TSIGVGG----------AV    231
+                         :|.|      |:|          |:: .|:|.|.          |.
+LCMT1_CRYNB      108 KPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRAT    157
+
+YHJA_ECOLI       232 GP------------INAPTVFNSVFNVEQF-WDGRAATLQDQAGGP----    264
+                     .|            :.:|.......:.:.: :.|.::|.....|.|    
+LCMT1_CRYNB      158 PPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVS    207
+
+YHJA_ECOLI       265 --------------PL----NPIEMASKSWDEIIAKL------EKDPQLK    290
+                                   ||    :|.|.||    .|.|.|      :.||:|.
+LCMT1_CRYNB      208 KGGTQLSSPLYTLLPLDLRPSPSEPAS----SISAILSHHVLPQLDPRLP    253
+
+YHJA_ECOLI       291 TQFLE--VYPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQ    338
+                     |.||.  ::|. .|.|:..:.|               ||           
+LCMT1_CRYNB      254 TLFLAECLFPY-MSPEDSREII---------------KW-----------    276
+
+YHJA_ECOLI       339 QKKGYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMN    388
+                            |.:..| :|.|.:      :|.:||  |.:||.:...::...|
+LCMT1_CRYNB      277 -------FGETFC-SCMGVV------YEMVGL--DDSFGNVMKRNLAVRN    310
+
+YHJA_ECOLI       389 VTKEERDKLRQKVPG    403
+                     ::          :||
+LCMT1_CRYNB      311 LS----------IPG    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      41/203 (20.2%)
+# Similarity:    68/203 (33.5%)
+# Gaps:          57/203 (28.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       280 IAKLEKDPQLKTQFLEVYPQGFSGE--NITDAIAEFEKTLITPDSPFDKW    327
+                     :..|..|.:..|..:|:... .|||  ||.|          .||..|.:.
+PTGA_SALTY         7 LKSLVSDDKKDTGTIEIVAP-LSGEIVNIED----------VPDVVFAEK     45
+
+YHJA_ECOLI       328 LRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSFE---------PL    368
+                     :.||..|:..         ..||......|.|  |:.||         ..
+PTGA_SALTY        46 IVGDGIAIKP---------TGNKMVAPVDGTI--GKIFETNHAFSIESDS     84
+
+YHJA_ECOLI       369 GLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHRG-    417
+                     |::...:||                .|.:..|..|.:.:|........| 
+PTGA_SALTY        85 GIELFVHFG----------------IDTVELKGEGFKRIAEEGQRVKVGD    118
+
+YHJA_ECOLI       418 -----DVPTLDGAVKLMLRYQVGKELPQEDVDDIVAFLHSLNGVYTPYMQ    462
+                          |:|.|:...|..|...|...:  :::.:::....|:....||.::
+PTGA_SALTY       119 PVIEFDLPLLEEKAKSTLTPVVISNM--DEIKELIKLSGSVTVGETPVIR    166
+
+YHJA_ECOLI       463 DKQ    465
+                     .|:
+PTGA_SALTY       167 IKK    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    26/69 (37.7%)
+# Gaps:           4/69 ( 5.8%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       151 IAKQRAEYYASNDTAPEHR---NEPVQPIPQKLPTDAQKVALGFALYHDP    197
+                     :.|:.:|..:.:|....:|   :.|....|.:|.....|.....|.|.|.
+RR14_CRYJA        27 LKKEMSEVSSLDDKLDIYRKLQSLPRNSAPTRLRRRCLKTGRPRANYRDF     76
+
+YHJA_ECOLI       198 RLSADSTISCAHCHALNAG    216
+                     .||.......||. .|.||
+RR14_CRYJA        77 ELSGYIIREMAHA-CLLAG     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:      81/404 (20.0%)
+# Similarity:   136/404 (33.7%)
+# Gaps:         110/404 (27.2%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        91 KSFN---LEAVRAALLADKPVSQSDLNKIEWVMQYETMPPTRYTAL-HWA    136
+                     ::||   |:|.|.......||         |.|:........|..| ...
+DCUP_BACVZ         5 EAFNDTFLKAARGEKTNHVPV---------WYMRQAGRSQPEYRKLKEKY     45
+
+YHJA_ECOLI       137 GKVSDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQ-    185
+                     |.|....:.|:.|::.:...|.|.. |.|..:: :.:.|:|. :..|.: 
+DCUP_BACVZ        46 GLVEITHQPELCAYVTRLPVEQYGV-DAAILYK-DIMTPLPY-IGVDVEI     92
+
+YHJA_ECOLI       186 KVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGP-I    234
+                     |..:|..:....|.:||                      |...|.:.| .
+DCUP_BACVZ        93 KNGIGPVIDQPVRSAAD----------------------IEKLGELNPEQ    120
+
+YHJA_ECOLI       235 NAPTVF-------NSVFNVEQF-WDGRAATLQDQ--AGGPPLNPIEMASK    274
+                     :.|.|.       |...||... :.|...||...  .|||        ||
+DCUP_BACVZ       121 DVPYVLETIRLLVNEQLNVPLIGFSGAPFTLASYMIEGGP--------SK    162
+
+YHJA_ECOLI       275 SWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPDSP-    323
+                     ::::..|.:...||.....:         :.:.|.|..:.|..|...:. 
+DCUP_BACVZ       163 NYNKTKAFMHSMPQAWKMLM---------DKLADMIIVYAKAQINAGAKA    203
+
+YHJA_ECOLI       324 ---FDKWLRGDENALTAQQKKGY------QLFKDNKCATCH------GGI    358
+                        ||.|:    .||..:..:.:      ::|::.......      |..
+DCUP_BACVZ       204 IQIFDSWV----GALNREDYRQFIKPVMDRIFRELSAEQVPLIMFGVGAS    249
+
+YHJA_ECOLI       359 ILGG----RSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGL    404
+                     .|.|    ...:.:||  |:..|   ..|..:..:||..:..|.   |.|
+DCUP_BACVZ       250 HLAGDWHDLPLDVVGL--DWRLG---IDDARKQGITKTVQGNLD---PSL    291
+
+YHJA_ECOLI       405 RNVALTAPY--FHRGDVPTLDGAVK-----LMLRYQVGKELPQEDVDDIV    447
+                         |.||:  ..:.....||..:|     ..|.:.|..::..|.:..:.
+DCUP_BACVZ       292 ----LLAPWEVIEKKAKAILDQGMKTDGFIFNLGHGVFPDVNPETLKKLT    337
+
+YHJA_ECOLI       448 AFLH    451
+                     ||:|
+DCUP_BACVZ       338 AFVH    341
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 423
+# Identity:      87/423 (20.6%)
+# Similarity:   125/423 (29.6%)
+# Gaps:         200/423 (47.3%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        70 PAYYYIPG------AKQLMDYDIKLGYKSFNLEAVRAALLADKPVSQSDL    113
+                     |:.|.||.      ||:.:.:.||   |...|.:.|..|..|||.|..  
+GTF2I_MOUSE      411 PSTYGIPRLERILLAKERIRFVIK---KHELLNSTREDLQLDKPASGV--    455
+
+YHJA_ECOLI       114 NKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIAKQRAEYYASND    163
+                      |.||.        .|.|.|.   |:.|:       ...|:.||...|.:
+GTF2I_MOUSE      456 -KEEWY--------ARITKLR---KMVDQ-------LFCKKFAEALGSTE    486
+
+YHJA_ECOLI       164 TA-------PEHRNE-PVQPIPQKLPTDAQKVALGFALYHDPRLSADSTI    205
+                     ..       ..|.|: .|:.:|:.:|..:.      :.|..|||      
+GTF2I_MOUSE      487 AKAVPYQKFEAHPNDLYVEGLPENIPFRSP------SWYGIPRL------    524
+
+YHJA_ECOLI       206 SCAHCHALNAGGVDGRKTSIGVGGAVGPI-------------------NA    236
+                                     :..|.||..:..:                   |.
+GTF2I_MOUSE      525 ----------------EKIIQVGNRIKFVIKRPELLTHSTTEVTQPRTNT    558
+
+YHJA_ECOLI       237 PTVFNSVFNVEQFWDGRAATLQDQ-----------------AGGPPL---    266
+                     |        |::.|:.|...|:.|                 |...|.   
+GTF2I_MOUSE      559 P--------VKEDWNVRITKLRKQVEEIFNLKFAQALGLTEAVKVPYPVF    600
+
+YHJA_ECOLI       267 --NP-----------IEMASKSWDEIIAKLE-------------KDPQLK    290
+                       ||           |...|.:|.. |.:||             |.|:|.
+GTF2I_MOUSE      601 ESNPEFLYVEGLPEGIPFRSPTWFG-IPRLERIVRGSNKIKFVVKKPELV    649
+
+YHJA_ECOLI       291 TQFLEVYPQGFSGENITDA---------------IAEFEKTLITPDS---    322
+                     ..:|   |.|.:.:..|.|               :.|.|.|:..|::   
+GTF2I_MOUSE      650 VSYL---PPGMASKINTKALQSPKRPRSPGSNSKVPEIEVTVEGPNNSSP    696
+
+YHJA_ECOLI       323 ----------------PFDKWLRGDE------NA-LTAQQKKGYQLFKDN    349
+                                     ||..  ||.|      || :|..::|...||.: 
+GTF2I_MOUSE      697 QTSAVRTPTQTNGSNVPFKP--RGREFSFEAWNAKITDLKQKVENLFNE-    743
+
+YHJA_ECOLI       350 KCATCHGGIILGGRSFEPLGLKK    372
+                     ||.             |.||||:
+GTF2I_MOUSE      744 KCG-------------EALGLKQ    753
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      25/138 (18.1%)
+# Similarity:    52/138 (37.7%)
+# Gaps:          33/138 (23.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        44 VSENNKVLGFLREKGCDYC----HTPSAELPAY--YYIP-------GAKQ     80
+                     |..|..|:..||.:|..:.    ..|.|....:  :.:|       .|:.
+ISPH_ACIF5        39 VVHNRHVVEDLRARGAIFVEELDEVPDAATVIFSAHGVPIAVREHAAARG     88
+
+YHJA_ECOLI        81 LMDYD--------IKLGYKSFNLEAVRAALL--ADKPVSQSDLNKIEWVM    120
+                     |..:|        :.:..|.::.:.:...|:  |..|..:..:.::|..|
+ISPH_ACIF5        89 LSVFDATCPLVTKVHMEVKKYSRDGMEMVLIGHAGHPEVEGTMGQVEEGM    138
+
+YHJA_ECOLI       121 QY--------ETMPPTRYTALHWAGK--VSDEERAEIL    148
+                     .|        .|:.|.....|.:..:  :|.::.||::
+ISPH_ACIF5       139 MYLVSNVSDVATLAPRNPDKLAYITQTTLSMDDTAEVI    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       6/22 (27.3%)
+# Similarity:    10/22 (45.5%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       205 ISCAHCHALNAGGVDGRKTSIG    226
+                     ::.|:.|....||.:.|....|
+NDUA1_HUMAN       21 LATAYIHRFTNGGKEKRVAHFG     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      47/232 (20.3%)
+# Similarity:    78/232 (33.6%)
+# Gaps:          78/232 (33.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        25 YVWYHDNKRSKQADVQASAVSENNKV------LGFLREKGCDYCHTPSAE     68
+                     :|:|..:..:..|:|...||.....|      |.|:..:  ........:
+PSRP_SALTI         8 HVFYISDGTAITAEVLGHAVMSQFPVTISSITLPFVENE--SRARAVKDQ     55
+
+YHJA_ECOLI        69 LPAYYYIPGAKQLMDYDIKLGYKSFNLEAVRAALLADKPVSQSDLNKIEW    118
+                     :.|.|...|.:.|:.|.|.       |..:||.:|..:...|..:..:..
+PSRP_SALTI        56 IDAIYQQTGVRPLVFYSIV-------LPEIRAIILQSEGFCQDIVQALVA     98
+
+YHJA_ECOLI       119 VMQYE-TMPPT------------------------RYTALHWAG-KVSDE    142
+                     .:|.| .:.||                        .||..|..| .:.:.
+PSRP_SALTI        99 PLQQEMKLDPTPIAHRTHGLNPGNLNKYDARIAAIDYTLAHDDGISLRNL    148
+
+YHJA_ECOLI       143 ERAEIL-------------AWIAKQ---RAEYY------ASNDTAPEHRN    170
+                     ::|:::             .::|.|   ||..|      ..|.|.|    
+PSRP_SALTI       149 DQAQVILLGVSRCGKTPTSLYLAMQFGIRAANYPFIADDMDNLTLP----    194
+
+YHJA_ECOLI       171 EPVQPIPQKLPTDAQKVALGFALYHDP-RLSA    201
+                     ..::|:..||          |.|..|| ||:|
+PSRP_SALTI       195 TSLKPLQHKL----------FGLTIDPERLAA    216
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 369
+# Identity:      73/369 (19.8%)
+# Similarity:   118/369 (32.0%)
+# Gaps:         124/369 (33.6%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       149 AWIAKQRAEYYAS----------NDTAPEHRNEPVQPIPQKLP---TDAQ    185
+                     ||:.....:|..|          .:||..:..|.|:.....:|   .|||
+DNAK_CHESB       101 AWVESHGTKYSPSQISAMILQKMKETAESYLGEKVEKAVITVPAYFNDAQ    150
+
+YHJA_ECOLI       186 KVALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPIN    235
+                     :.|                       ..:||.:.|.:       .:..||
+DNAK_CHESB       151 RQA-----------------------TKDAGKIAGLE-------VLRIIN    170
+
+YHJA_ECOLI       236 APTVFNSVFNVEQFWDGRAATLQDQAGGP-PLNPIEMA-------SKSWD    277
+                     .||.....:.::: .:|:...:.|..||. .::.:|:.       |.:.|
+DNAK_CHESB       171 EPTAAALAYGLDK-KEGKTIAVYDLGGGTFDISILEIGDGVFEVKSTNGD    219
+
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVY--PQGFSGENITDAIA--------------    311
+                     ..:...:.|.:|.....:.:  .||...:|  |.:|              
+DNAK_CHESB       220 TFLGGEDFDMRLVNYLADEFKKEQGIDLKN--DKLALQRLKEAAEKAKIE    267
+
+YHJA_ECOLI       312 -------EFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATC    354
+                            |.....||.|....|.|     |:...:.|...|.:|      
+DNAK_CHESB       268 LSSSSQTEINLPFITADQTGPKHL-----AIKLTRAKFESLVED------    306
+
+YHJA_ECOLI       355 HGGIILGGRSFEPL-GLKKD--FNFGEI----TAADIGRMNVTKEERDKL    397
+                          |..|:.||. ...||  .:.|||    ....:.||...:|.....
+DNAK_CHESB       307 -----LVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETVKNF    351
+
+YHJA_ECOLI       398 RQKVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKELPQEDVDDIV    447
+                     ..|.|            |:|..|  |..|.:....|.|  :.|.||.|::
+DNAK_CHESB       352 FGKEP------------HKGVNP--DEVVAMGAAIQAG--VLQGDVKDVL    385
+
+YHJA_ECOLI       448 AF--------LHSLNGVYT    458
+                     ..        :.:|.||:|
+DNAK_CHESB       386 LLDVTPLSLGIETLGGVFT    404
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      38/186 (20.4%)
+# Similarity:    63/186 (33.9%)
+# Gaps:          86/186 (46.2%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       257 LQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEV-YPQGFSGEN    305
+                     :|||.        |:...::||::.||::        ||. :|:      
+DNLJ_ACIC5        26 VQDQP--------EIDDLAFDELMRKLQR--------LEAEHPE------     53
+
+YHJA_ECOLI       306 ITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCH    355
+                                |||||||..:                             
+DNLJ_ACIC5        54 -----------LITPDSPTQR-----------------------------     63
+
+YHJA_ECOLI       356 GGIILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEE--RD---KLRQK    400
+                         :||:..|  |..|..:...:.:.|    ||..||  ||   ::|::
+DNLJ_ACIC5        64 ----VGGKPKE--GFAKVAHSRPMLSLD----NVNSEEELRDWERRVREQ    103
+
+YHJA_ECOLI       401 VPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGK    436
+                     ......:.....|       .||| :.:.|.|:.|:
+DNLJ_ACIC5       104 AGQNAEIEYVCEY-------KLDG-LSMALHYRDGQ    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      16/88 (18.2%)
+# Similarity:    29/88 (33.0%)
+# Gaps:          31/88 (35.2%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        26 VWYHDNKRSKQADVQASAVSENNKVLGFLREKGCDYCHTPSAELPAYYYI     75
+                     ||....|....:|:..:|:|.                          .:.
+CAPSD_CMVO       121 VWVTVRKVPASSDLSVAAISA--------------------------MFA    144
+
+YHJA_ECOLI        76 PGAKQLMDYDIKLGYKSFNLEAVRAALLADKPVSQSDL    113
+                     .||..::.|.    |.:|.::| ...||.|....::|:
+CAPSD_CMVO       145 DGASPVLVYQ----YAAFGVQA-NNKLLYDLSAMRADI    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      26/121 (21.5%)
+# Similarity:    43/121 (35.5%)
+# Gaps:          34/121 (28.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       335 LTAQQKKGYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFG-------    377
+                     |....|:...|.|..|..|      |....|.|...|.||:|.       
+IF3_CHLL2         75 LFKMDKRDKDLKKKQKTTT------LKELRFHPNTDKHDFDFKTAHLEEF    118
+
+YHJA_ECOLI       378 -------EITAADIGRMNVTKEE----RDKLRQKVPGLRNVALTAPYFHR    416
+                            ..|...:||..:.|::    .::|.:::..:.|        ..
+IF3_CHLL2        119 LRKGNRVRATIVFLGRSIIYKDKGLELAERLTERLSCVSN--------RD    160
+
+YHJA_ECOLI       417 GDVPTLDGAVKLMLRYQVGKE    437
+                     || |..:|. ||.:.::..|:
+IF3_CHLL2        161 GD-PKFEGK-KLFVYFEPDKK    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       328 LRGDENALTAQQKKGYQL    345
+                     |.||:.::|....:|.|:
+CSRA_HAEI8        13 LIGDDISITVLSVRGNQV     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      48/220 (21.8%)
+# Similarity:    81/220 (36.8%)
+# Gaps:          63/220 (28.6%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       271 MASKSWDEIIAKLEKDPQLKTQFLEVY--PQGFSGENITDAIAE---FEK    315
+                     |.||.::  |..:...|.:||.....|  |:....:.|.:|:|.   ::|
+COAX_CLOBL        76 MISKYFN--IKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKK    123
+
+YHJA_ECOLI       316 TLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSF    365
+                     .||..|.       |......|..|:...|          ||.|..|   
+COAX_CLOBL       124 PLIIIDF-------GTATTFCAVTKEANYL----------GGTICPG---    153
+
+YHJA_ECOLI       366 EPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGL--RNVALTAP-    412
+                       :.:..|..|.:  ||.:.|:.:.         |.||:  :|...:.. 
+COAX_CLOBL       154 --IKISSDALFDK--AAKLPRVELV---------KTPGVICKNTVASIQS    190
+
+YHJA_ECOLI       413 ---YFHRGDVPTLDGAVKLMLRYQVGKELP---------------QEDVD    444
+                        |.:.|.|..:...:|..: ..:|:|.|               .:.:|
+COAX_CLOBL       191 GIIYGYAGQVDYIVSKMKKEM-MDLGEEEPFVVATGGFAKLISEESKSID    239
+
+YHJA_ECOLI       445 DIVAFLHSLNGVYTPYMQDK    464
+                     :|.|.| :|.|:...|.::|
+COAX_CLOBL       240 EINAIL-TLEGLRVIYEKNK    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      12/46 (26.1%)
+# Similarity:    20/46 (43.5%)
+# Gaps:           4/46 ( 8.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       259 DQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFSGE    304
+                     :.|.||..:.:|:...:::    |:.|.|...|..|.....|.|.|
+HOP_BOVIN          4 ETASGPTEDQVEILEYNFN----KVNKHPDPTTLCLIAAEAGLSEE     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      52/245 (21.2%)
+# Similarity:    80/245 (32.7%)
+# Gaps:         102/245 (41.6%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       274 KSWDEIIAKLEKDPQLKTQFLEVYPQGFSGENI-------TDAIAEFEK-    315
+                     |...||..|.|...:..|:.||        .||       |:::|.|.: 
+THII_VIBA3         6 KPHPEIFVKSESVRKRFTKILE--------RNIRTILQRRTESVAVFNRR     47
+
+YHJA_ECOLI       316 --TLITPDSPFDKWLR----------GDENALTAQQKKGYQLFKDNKCAT    353
+                       ..:|.:|  ||:.:          |..::|..||.:    |||     
+THII_VIBA3        48 DHIEVTSES--DKYFKETLEVLTQTPGIHHSLEVQQSE----FKD-----     86
+
+YHJA_ECOLI       354 CH---------GGIILGGRSFEPLGL---KKDFNFGEITAADIGRMNVTK    391
+                     .|         .|.::.|::|.....   |.||...|:.....|.:|...
+THII_VIBA3        87 LHNIYEQVLERSGALIEGKTFSVRAKRRGKHDFTSIELERYVGGGLNQAV    136
+
+YHJA_ECOLI       392 E-----------------ERDKLRQKVPGLRNVALTAPYFHRGDVPTLDG    424
+                     |                 |.|||.|.:..           |:|    |.|
+THII_VIBA3       137 ESAKVKLKNPDITVKVEVENDKLNQVIER-----------HKG----LGG    171
+
+YHJA_ECOLI       425 AVKLMLRYQVGKELPQEDVDDIV---------AFLHSLNGVYTPY    460
+                            :.:|   .|||:..::         ::||...|....|
+THII_VIBA3       172 -------FPLG---TQEDLLSLISGGFDSGVSSYLHIKRGSKVHY    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    19/58 (32.8%)
+# Gaps:          17/58 (29.3%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        63 HTPSAELPAYYYIPGAKQLMDYDIKL-------------GYKSFNLEAVR     99
+                     :||..:...|..:..|:|:.....|.             |.|..|.|   
+RL13_PSEPG        44 YTPHVDTGDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKEINFE---     90
+
+YHJA_ECOLI       100 AALLADKP    107
+                      .|:|..|
+RL13_PSEPG        91 -KLIAKAP     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      34/149 (22.8%)
+# Similarity:    47/149 (31.5%)
+# Gaps:          58/149 (38.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       321 DSPFDKWLRGDENALTAQQKKGYQLFKDNKC-ATCH-------GGIILGG    362
+                     |..||...||.:..:...:.|...|...... |.||       ||::...
+RR2_ARATH         59 DLVFDAASRGKQFLIVGTKNKAADLVSRAAIRARCHYVNKKWLGGMLTNW    108
+
+YHJA_ECOLI       363 RSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAP    412
+                     .:.|    |:...|.::                :..||..|         
+RR2_ARATH        109 STTE----KRLHKFRDL----------------RTEQKTEG---------    129
+
+YHJA_ECOLI       413 YFHRGDVPTLDGAV-KLML----------RYQVGKELPQEDVDDIVAFL    450
+                      |:|  :|..|.|| |..|          :|..|  ||     |||..|
+RR2_ARATH        130 -FNR--LPKRDAAVLKRQLSRLETYLGGIKYMTG--LP-----DIVIIL    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 276
+# Identity:      55/276 (19.9%)
+# Similarity:    89/276 (32.2%)
+# Gaps:         105/276 (38.0%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       110 QSDLNKIEWVMQYETMPPTRYTALHWAGKV----------SDEERAEILA    149
+                     ::.||::....:|:....|.......|.||          .|.:.::   
+Y1710_SYNP2       33 KNQLNRLGIAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDHDHSQ---     79
+
+YHJA_ECOLI       150 WIAKQRAEYYASNDTAPEHRNEP-VQP------IPQKLPTDA----QKVA    188
+                        .|...::|  |.|| ||:.| :|.      :|:::...:    |.:|
+Y1710_SYNP2       80 ---DQTHHHHA--DHAP-HRHLPEIQAMIKGAGLPERVERWSLAIFQNLA    123
+
+YHJA_ECOLI       189 LGFALYHDPRLSADSTISCAHCHALNAGG--VDGRKTSIGV---------    227
+                     :..|..|      .:|....|.|.:.|..  ||...|.:|:         
+Y1710_SYNP2      124 IAEATVH------GTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELY    167
+
+YHJA_ECOLI       228 -------GGAVG------PINAPTVFNSVFNVEQFWDGR-----------    253
+                            ||.|.      |:..|.|.       |.|..|           
+Y1710_SYNP2      168 CAPMPTGGGTVKAAHGILPVPVPAVL-------QLWQQRQVPVYSNGIEK    210
+
+YHJA_ECOLI       254 ----------AATLQDQAGGPP---LNPIEMASKSWDEIIAKLEK-----    285
+                               |.||......||   |..|.:.|.:.|..:..|.:     
+Y1710_SYNP2      211 ELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLWIGH    260
+
+YHJA_ECOLI       286 DPQ---------LKTQFLEVYPQGFS    302
+                     .|:         |:||..::.||..:
+Y1710_SYNP2      261 QPETPHLETIVTLETQIDDLNPQAIA    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      39/184 (21.2%)
+# Similarity:    67/184 (36.4%)
+# Gaps:          50/184 (27.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       269 IEMASKSWDE-----IIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEF    313
+                     :|..||.:.|     :...:||.    ..|:.:.|.|.....:.:.||  
+WTPC_THEKO         5 VEGISKDYREFHLRDVTFSVEKG----EHFIILGPSGAGKTVLLEVIA--     48
+
+YHJA_ECOLI       314 EKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGIILGGR    363
+                       .:|.|||. ..:|.|::......:|:|......|...           
+WTPC_THEKO        49 --GIIEPDSG-RIFLNGEDITDLPPEKRGLAYIPQNYAL-----------     84
+
+YHJA_ECOLI       364 SFEPLGLKKDFNFG----EITAADIGRMNVTKEERDKLRQ--KVPGLRNV    407
+                      |..:.:..:..||    ::..|:|||         |:|:  :|.|:.::
+WTPC_THEKO        85 -FPNMSVFDNIAFGLKVRKVPKAEIGR---------KVRELSEVLGISHL    124
+
+YHJA_ECOLI       408 ALTAPYFHRGDVPTLDGAVKLMLRYQVGKELPQE    441
+                     ....|       .||.|..  |.|..:.:.|..|
+WTPC_THEKO       125 LKRKP-------KTLSGGE--MQRVAIARALAVE    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      43/205 (21.0%)
+# Similarity:    76/205 (37.1%)
+# Gaps:          57/205 (27.8%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        18 CYLGLSGYVWYHDNKRSKQ-------ADVQAS---AVSENNKVLGFLREK     57
+                     |:|..|| ::|.....||.       ||:..|   .|::..|:.|...:.
+GRB7_RAT         254 CFLRRSG-LYYSTKGTSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDF    302
+
+YHJA_ECOLI        58 GCDYCHTPSA---------------ELPAYYYIPGAKQLMDYDIKL--GY     90
+                     |  :|..|:.               |.....:: .|.:|..|.::|  .|
+GRB7_RAT         303 G--FCVKPNKLRNGHKGLHIFCSEDEQSRTCWL-SAFRLFKYGVQLYKNY    349
+
+YHJA_ECOLI        91 KSFNLEAVRAALLADKPV-SQSDLNKIEWVMQYETMPPTRYTALHWAGKV    139
+                     :......:|.:.|...|: |.||          .|:....::. | ||:|
+GRB7_RAT         350 QQAQSRHLRLSYLGSPPLRSVSD----------NTLVAMDFSG-H-AGRV    387
+
+YHJA_ECOLI       140 SDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVAL    189
+                     .:..:..:.|  |.:.|:.:...   ..||        ..|||....::|
+GRB7_RAT         388 IENPQEALSA--ATEEAQAWRKK---TNHR--------LSLPTPCSGLSL    424
+
+YHJA_ECOLI       190 GFALY    194
+                     ..|::
+GRB7_RAT         425 SAAIH    429
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      11/36 (30.6%)
+# Similarity:    18/36 (50.0%)
+# Gaps:          11/36 (30.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       219 DGRKT---------SIGVGGAVGPINAPTVFNSVFN    245
+                     |||.:         ::|:|..  |:...::|.||||
+PSD_RHOPS         73 DGRVSMVVQMIPPPALGLGDK--PLPRVSIFMSVFN    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      37/139 (26.6%)
+# Similarity:    55/139 (39.6%)
+# Gaps:          30/139 (21.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       269 IEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITD-AIAEF----    313
+                     :|.|.:.||| :.|::..|.:.|  ......|......|: |:.:|    
+PP156_ARATH      502 VEKALEMWDE-MKKVKITPTVST--FNSLIGGLCHHGKTELAMEKFDELA    548
+
+YHJA_ECOLI       314 EKTLITPDSPFDKWLRG------DENALTAQQKKGYQLFK-DNKCATCHG    356
+                     |..|:..||.|:..:.|      .|.|.....:.....|| ||  .||: 
+PP156_ARATH      549 ESGLLPDDSTFNSIILGYCKEGRVEKAFEFYNESIKHSFKPDN--YTCN-    595
+
+YHJA_ECOLI       357 GIILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERD    395
+                      |:|.|...|.: .:|..||          .|...|||:
+PP156_ARATH      596 -ILLNGLCKEGM-TEKALNF----------FNTLIEERE    622
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      14/53 (26.4%)
+# Similarity:    27/53 (50.9%)
+# Gaps:          12/53 (22.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       371 KKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFH-RGDV    419
+                     |.|: .||.:...:|:    ::|.::|.:..||      |..:.: :|.|
+ADRB2_MESAU      361 KTDY-MGEASGCQLGQ----EKESERLCEDPPG------TESFVNCQGTV    399
+
+YHJA_ECOLI       420 PTL    422
+                     |:|
+ADRB2_MESAU      400 PSL    402
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    11/21 (52.4%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       280 IAKLEKDPQLKTQFLEVYPQG    300
+                     :|..|.|| |..||:....:|
+ID5B_ADEPA        18 LAVKEGDP-LVVQFVNADREG     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      25/117 (21.4%)
+# Similarity:    45/117 (38.5%)
+# Gaps:          24/117 (20.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        87 KLGYKSFNLEAVRAALLADKPVSQSDLNKIEWVMQYETMPPTR-------    129
+                     |.|:...:||.:|..:.::...|...:.:..:.:|.|...|.|       
+GPA7_CAEEL        58 KDGFSQQDLEMIRPVVYSNCIHSMLSILRAMFHLQIEYGEPDRVRDSQLV    107
+
+YHJA_ECOLI       130 YTALHWAGKVSDEERAEILA------W------IAKQRAEYYASNDTAPE    167
+                     :..:|    .:.||..|.||      |      ...:|:..|..:|:|..
+GPA7_CAEEL       108 FATVH----ANKEELTEELAAAMQRLWHDPGVRECYRRSNEYQIDDSAKY    153
+
+YHJA_ECOLI       168 H-RNEPVQPIPQKLPTD    183
+                     . .|.|....|..:|::
+GPA7_CAEEL       154 FLDNLPRLSSPNYVPSE    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      16/61 (26.2%)
+# Similarity:    27/61 (44.3%)
+# Gaps:           8/61 (13.1%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       385 GRMNVTKEERDKLRQKVPGL-RNVALTAPYFHRGDVPTLDGAVKLMLRYQ    433
+                     |::.||:....|  :..||: .|.....|.....:    :.||....||:
+IDI_ECO24         44 GQLLVTRRALSK--KAWPGVWTNSVCGHPQLGESN----EDAVIRRCRYE     87
+
+YHJA_ECOLI       434 VGKEL-PQEDV    443
+                     :|.|: |.|.:
+IDI_ECO24         88 LGVEITPPESI     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 465
+# Identity:     465/465 (100.0%)
+# Similarity:   465/465 (100.0%)
+# Gaps:           0/465 ( 0.0%)
+# Score: 2462.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI         1 MKMVSRITAIGLAGVAICYLGLSGYVWYHDNKRSKQADVQASAVSENNKV     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI         1 MKMVSRITAIGLAGVAICYLGLSGYVWYHDNKRSKQADVQASAVSENNKV     50
+
+YHJA_ECOLI        51 LGFLREKGCDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFNLEAVRA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI        51 LGFLREKGCDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFNLEAVRA    100
+
+YHJA_ECOLI       101 ALLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAW    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       101 ALLADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAW    150
+
+YHJA_ECOLI       151 IAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLS    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       151 IAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLS    200
+
+YHJA_ECOLI       201 ADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFW    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       201 ADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFW    250
+
+YHJA_ECOLI       251 DGRAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       251 DGRAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQG    300
+
+YHJA_ECOLI       301 FSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNK    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       301 FSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNK    350
+
+YHJA_ECOLI       351 CATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQK    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       351 CATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQK    400
+
+YHJA_ECOLI       401 VPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKELPQEDVDDIVAFL    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YHJA_ECOLI       401 VPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGKELPQEDVDDIVAFL    450
+
+YHJA_ECOLI       451 HSLNGVYTPYMQDKQ    465
+                     |||||||||||||||
+YHJA_ECOLI       451 HSLNGVYTPYMQDKQ    465
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      27/125 (21.6%)
+# Similarity:    47/125 (37.6%)
+# Gaps:          42/125 (33.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI        88 LGYKSFNLEAVRAALLA---DKP--VSQSDLNKI----EWVMQYETMPPT    128
+                     |||:..:||.....::.   |:|  ::..|..|:    :.|:..|.:   
+RIMP_BURPS        14 LGYELVDLERTGRGMVCVYIDQPAGITIDDCEKVTRQLQHVLTVENI---     60
+
+YHJA_ECOLI       129 RYTALHWAGKVSDEERAEI----LAWIAKQRAEY--YASNDTAPEHRNEP    172
+                                 |.||.|:    |....|:.|::  :|.::..       
+RIMP_BURPS        61 ------------DYERLEVSSPGLDRPLKKLADFTRFAGSEAV-------     91
+
+YHJA_ECOLI       173 VQPIPQKLPTDAQKVALGFALYHDP    197
+                        |..|.|.|.:|...|  :.|.|
+RIMP_BURPS        92 ---ITLKKPLDGRKTYRG--ILHAP    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       105 DKPVSQSDLNK    115
+                     ||||..:.:.|
+RS28_OSTOS         2 DKPVKPAXVTK     12
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      21/83 (25.3%)
+# Similarity:    30/83 (36.1%)
+# Gaps:           4/83 ( 4.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       262 GGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFS--GENITDA    309
+                     |...:|.:..|.|..|...|.|.....|....|.|.|..|:  ..||...
+HBAC_LITCT        60 GKKVMNALTDAVKHLDHPEASLSSLSDLHAFTLRVDPGNFALLSNNILVV    109
+
+YHJA_ECOLI       310 IA--EFEKTLITPDSPFDKWLRGDENALTAQQK    340
+                     :|  ..:|.........||:|......||::.:
+HBAC_LITCT       110 VAVHHSDKLSYETHQALDKFLNVVSGLLTSKYR    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 450
+# Identity:      88/450 (19.6%)
+# Similarity:   144/450 (32.0%)
+# Gaps:         134/450 (29.8%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI         5 SRITAIGLAGVAICYLGLSGYVWYH---------DNKRSKQADVQASAVS     45
+                     |.:|..|..|:.:....:. .|.||         |.|.:.:|:|:.|.  
+RPOA_PRRSS      2384 SGLTRCGRGGLVVTETAVK-IVKYHSRTFTLGPLDLKVTSEAEVKKST--   2430
+
+YHJA_ECOLI        46 ENNKVLGFLREKGCDYCHTPSAELPAYYYI--PGAKQLMDYDIKLGYKSF     93
+                               |:|    |...|.|.:...:  |....|:|..:|.|    
+RPOA_PRRSS      2431 ----------EQG----HAVVANLCSGVILMRPHPPSLVDVLLKPG----   2462
+
+YHJA_ECOLI        94 NLEAVRAALLADKP-------VSQSDLNKIEWVMQYETMPPTRYTALHWA    136
+                              |..||       .....::...|  .:||.|.         
+RPOA_PRRSS      2463 ---------LDTKPGIQPGHGAGNMGVDGSTW--DFETAPT---------   2492
+
+YHJA_ECOLI       137 GKVSDEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQK    186
+                      |...|...:|:.....:|.:  |.|...| ::..||:..|::.......
+RPOA_PRRSS      2493 -KAELELSKQIIQACEVRRGD--APNLQLP-YKLYPVRGDPERHGGRLIN   2538
+
+YHJA_ECOLI       187 VALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVG-PIN    235
+                     ...|...|..|: ...|.|..|.|...|...|...|:::|.....| .:.
+RPOA_PRRSS      2539 TRFGDLSYKTPQ-DTKSAIHAACCLHPNGAPVSDGKSTLGTTLQHGFELY   2587
+
+YHJA_ECOLI       236 APTVFNSVFNVEQFWDGRAATL-------QDQAGGPPLNPIEMASKSW--    276
+                     .|||   .::|.::.|.|..|.       ..:|....|...:::::.:  
+RPOA_PRRSS      2588 VPTV---PYSVMEYLDSRPDTPFMCTKHGTSKAAAEDLQKYDLSTQGFVL   2634
+
+YHJA_ECOLI       277 --------DEIIAKLEKDPQLKTQFL-EVYP-----QGFSGENI----TD    308
+                             ..|...:.|.|.|   || ..||     .|.:|:..    ..
+RPOA_PRRSS      2635 PGVLRLVRRFIFGHIGKAPPL---FLPSTYPAKNSMAGINGQRFPTKDVQ   2681
+
+YHJA_ECOLI       309 AIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGGI    358
+                     :|.|.::  :...:..:.|    :.......||.|       |:......
+RPOA_PRRSS      2682 SIPEIDE--MCARAVKENW----QTVTPCTLKKQY-------CSKPKTRT   2718
+
+YHJA_ECOLI       359 ILGGRSF----------------------EPLGLKKDFNFGEITAADIGR    386
+                     |||..:|                      .|:.|.|: .|.|:.....||
+RPOA_PRRSS      2719 ILGTNNFIALAHRSALSGVTQAFMKKAWKSPIALGKN-KFKELHCTVAGR   2767
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      37/160 (23.1%)
+# Similarity:    52/160 (32.5%)
+# Gaps:          71/160 (44.4%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       330 GDENALTAQQKK-----------GYQLFKDNKCATCH----------GGI    358
+                     |.:|...:|:.|           .|.|..|......|          .|:
+UBIE_PSEAE        17 GYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGV     66
+
+YHJA_ECOLI       359 ILGGRSFEPLG----LKKDFN-----FGEITAADIGRMNVTKEERDKL--    397
+                     ..|.|..:..|    |.:.|:     .||:..||| ..::.|..||||  
+UBIE_PSEAE        67 RSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADI-NASMLKVGRDKLLD    115
+
+YHJA_ECOLI       398 -------------RQKVP-------------GLRNVALTAPYFHRGDVPT    421
+                                  .:|:|             |||||.      |:     
+UBIE_PSEAE       116 KGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVT------HK-----    154
+
+YHJA_ECOLI       422 LDGAVKLMLR    431
+                      |.|::.|||
+UBIE_PSEAE       155 -DEAIRSMLR    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      26/111 (23.4%)
+# Similarity:    45/111 (40.5%)
+# Gaps:          26/111 (23.4%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       300 GFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDN    349
+                     ||||          :|.|:.|..|.....:||:           .|.|:.
+FLII_AQUAE        66 GFSG----------DKVLVMPYEPVFGLRKGDK-----------VLLKNE     94
+
+YHJA_ECOLI       350 KCATCHG-GIILGGRSFEPLGLKKDFNF-GEITAADIGRMNVTKEERDKL    397
+                     ..:|..| |::  |:..:|.|...|..| |.:....:....:....|:::
+FLII_AQUAE        95 LVSTKTGNGVV--GKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERI    142
+
+YHJA_ECOLI       398 RQKV-PGLRNV    407
+                     |:.. .|:|:|
+FLII_AQUAE       143 REVFDTGVRSV    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      30/125 (24.0%)
+# Similarity:    47/125 (37.6%)
+# Gaps:          38/125 (30.4%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        74 YIPGAKQ-LMDYDIKLGYKSFNLE-AVRAALLADKPVSQSDLNKIEWVMQ    121
+                     ::..||| |.:.|:.|...:.|.: ||:....|  .:||:|||..|.:..
+MSS11_VANPO       76 HLETAKQFLKEADVPLLTGNNNDDVAVKNPTAA--TLSQNDLNPRELLPT    123
+
+YHJA_ECOLI       122 YETMPPTRYTALHWAGKVSDEERAEILAWIAKQRAEYYAS-------NDT    164
+                     ...|.......|.|              |      ||::|       :|.
+MSS11_VANPO      124 KMLMNANDTFLLEW--------------W------EYFSSVYDFVDTSDL    153
+
+YHJA_ECOLI       165 APEHRNE-------PVQPIPQKLPT    182
+                     :....|:       |:.|...|:||
+MSS11_VANPO      154 SALQNNDFLQDRIFPILPTSNKVPT    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      33/145 (22.8%)
+# Similarity:    53/145 (36.6%)
+# Gaps:          24/145 (16.6%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI        68 ELPAYYYIPGAKQL---MDYDIKLGYKSFNLEAVRAALL---ADKPVSQS    111
+                     ::|......|.|.|   :|:| ...||....|..|..||   |:...:||
+SPB4_ASPFU       498 KMPELKNFTGDKTLGMSLDWD-NYAYKDKQREKRRKELLQEAAESGATQS    546
+
+YHJA_ECOLI       112 DLNK------IEWVMQYET---------MPPTRYTALHWAGKVSDEERAE    146
+                     ..||      :.|..|.|:         ...::.....|. |:::||:.:
+SPB4_ASPFU       547 TSNKRRATESVAWSQQAESKNKKLKRREQKKSKQEKARWE-KMTEEEKQK    595
+
+YHJA_ECOLI       147 ILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGF    191
+                     :|. ..|...|....|:.....|....:....|...|.::...||
+SPB4_ASPFU       596 VLE-TEKMVEELRKKNEEERRLRRAVAKAAGAKADGDDEEEFQGF    639
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      41/204 (20.1%)
+# Similarity:    63/204 (30.9%)
+# Gaps:          70/204 (34.3%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       132 ALHWAGKVSDEERAEILAW------------IAKQRA-EYYASNDTAPEH    168
+                     |:.|.||   |...|::|.            :.:||| :..|......:.
+ASSY_MYCTO        18 AISWIGK---ETGREVVAVAIDLGQGGEHMDVIRQRALDCGAVEAVVVDA     64
+
+YHJA_ECOLI       169 RNEPVQPIPQKLPTDAQKVALGFALYHD--PRLSADS-------TISCAH    209
+                     |:|..:  ...|||     .|..|||.|  |.:||.|       .::.|.
+ASSY_MYCTO        65 RDEFAE--GYCLPT-----VLNNALYMDRYPLVSAISRPLIVKHLVAAAR    107
+
+YHJA_ECOLI       210 -------CHALNAGGVDGRKTSIGVGG------AVGPINAPTVFNSVFNV    246
+                            .|.....|.|..:..:|...      .:.|:.           
+ASSY_MYCTO       108 EHGGGIVAHGCTGKGNDQVRFEVGFASLAPDLEVLAPVR-----------    146
+
+YHJA_ECOLI       247 EQFWDGRAATLQDQAGGPPLN-----PIEMASKSWDEIIAKLEKDPQLKT    291
+                     :..|....|....:....|:|     |..:....|...:         :|
+ASSY_MYCTO       147 DYAWTREKAIAFAEENAIPINVTKRSPFSIDQNVWGRAV---------ET    187
+
+YHJA_ECOLI       292 QFLE    295
+                     .|||
+ASSY_MYCTO       188 GFLE    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 424
+# Identity:      92/424 (21.7%)
+# Similarity:   126/424 (29.7%)
+# Gaps:         155/424 (36.6%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI         1 MKMVSRITAIG-LAGVAICYLGLSGYVWYHDNKRSKQADVQASAVSENNK     49
+                     ::..||....| :..|.|| ||.:...::                    |
+ECCB1_MYCS2       38 LQFYSRAVFAGVVVSVLIC-LGAALMAYF--------------------K     66
+
+YHJA_ECOLI        50 VLGFLREKGCDYCHTPSAELPAYYYIPGAKQLMDYDIKLGYKSFNLEAVR     99
+                     .||   ::|.|...........|..:||:.||...        :||.:.|
+ECCB1_MYCS2       67 PLG---KQGSDQLLVDRTTNQLYVMLPGSNQLRPV--------YNLTSAR    105
+
+YHJA_ECOLI       100 AAL-LADKPVS--QSDLNKIEWVMQ-------YETMPPTRYTALHW----    135
+                     ..| .|..||:  ..:||:|.....       |.|  ||...|..|    
+ECCB1_MYCS2      106 LVLGNASNPVAVKSEELNRISKGQSIGIPGAPYAT--PTGTPASQWTLCD    153
+
+YHJA_ECOLI       136 --------AGKVSDEERAEILA---WIAKQRAE------YYASNDTAPEH    168
+                             |.||........||   .:...||:      |..:|....|.
+ECCB1_MYCS2      154 TVAKPDSSAPKVETSILIRTLAIDSGVGPIRADQGMLVSYEGANWLITEG    203
+
+YHJA_ECOLI       169 RNEPVQPIPQKLPTDAQKVALGFALYHDPRLSADSTISCAHCHAL-NAGG    217
+                     ....:.     |...|...|:|.     |..:..:.||....:|| |.| 
+ECCB1_MYCS2      204 GRHSID-----LADRAVTSAVGI-----PVTAKPTPISQGLFNALPNRG-    242
+
+YHJA_ECOLI       218 VDGRKTSIGVGGAVGPINAP--TVFNSVFNVEQFWDGRAATLQDQAGGPP    265
+                      ..:...|...||...:..|  .|..|||        |.||         
+ECCB1_MYCS2      243 -PWQLPQIPAAGAPNSVGLPENLVIGSVF--------RTAT---------    274
+
+YHJA_ECOLI       266 LNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIA----    311
+                                       |.||    |...|.|.|.:..|.|.|.|    
+ECCB1_MYCS2      275 ------------------ESDP----QHYVVLPDGVARVNNTTAAALRAT    302
+
+YHJA_ECOLI       312 ---------EFEKTLIT-----------PDSPFDKWLRGDENAL--TAQQ    339
+                              ..|.:::.           ||.|.|..||.|...|  :.|:
+ECCB1_MYCS2      303 NSYGLMQPPAVEASVVAKIPEQVYVSPLPDQPLDVLLRQDSPVLCWSWQR    352
+
+YHJA_ECOLI       340 KKGYQLFKDNKCATCHGGIILGGR    363
+                     :.|.|..|..         ::.||
+ECCB1_MYCS2      353 EPGDQAPKTT---------VIAGR    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    21/47 (44.7%)
+# Gaps:           7/47 (14.9%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       137 GKVSD-----EERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQ    178
+                     |:|.|     .:|.::....:....|||.:.|..  .:.:..:|||:
+KCY4_ORYSJ       153 GRVDDNIETIRKRFKVFVESSLPVIEYYNAKDKV--KKIDAAKPIPE    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      37/176 (21.0%)
+# Similarity:    55/176 (31.2%)
+# Gaps:          53/176 (30.1%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       152 AKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALG---FALYHDPR    198
+                     ||....||:.              :.:|:|.|...:.||   |..:..  
+HCP_TRIV2        403 AKPGRNYYSD--------------LVEKIPNDCVVLTLGCGKFRFFDQ--    436
+
+YHJA_ECOLI       199 LSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQ    248
+                                    |.|.:.|....:.:|..          |..::..|
+HCP_TRIV2        437 ---------------NLGDIGGIPRLLDLGQC----------NDAYSAIQ    461
+
+YHJA_ECOLI       249 FWDGRAATLQDQAGGPPLNPIEMASKSWDE--IIAKLEKDPQLKTQFLEV    296
+                     .....|.|.:......||:.|    .||.|  .||.|.....|..|.:.:
+HCP_TRIV2        462 IAVALANTFEVNVNQLPLSMI----LSWYEQKAIAVLLTLLYLGIQNIRI    507
+
+YHJA_ECOLI       297 YP--QGFSGENITDAIAE-FEKTLIT    319
+                     .|  ..|...|:...::| |...|||
+HCP_TRIV2        508 GPTLPAFLTPNVVKLLSETFHLQLIT    533
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:      48/223 (21.5%)
+# Similarity:    82/223 (36.8%)
+# Gaps:          53/223 (23.8%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       138 KVSDEERAEILAWIAKQRAEYYASNDTAPEHRN-EPVQPIP-QKLPTDAQ    185
+                     |:::|||..|:..:...|||..|.::|  .||. :..:|:. .....|||
+UBX7_YEAST       163 KLAEEERERIIRLVRADRAERKALDET--HHRTLDDDKPLDVHDYIKDAQ    210
+
+YHJA_ECOLI       186 KVALGFALYHDP------RLSADSTISCAHCHALNAGGV--DGRKTSIGV    227
+                     |:       |..      |::...|:.    |..|:...  |.||. :.|
+UBX7_YEAST       211 KL-------HSSKCVLQIRMTDGKTLK----HEFNSSETLNDVRKW-VDV    248
+
+YHJA_ECOLI       228 GGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMASKSWD    277
+                     ....|  :.|..|:...        ...|.:|......|..:|:..:|  
+UBX7_YEAST       249 NRTDG--DCPYSFHRGI--------PRVTFKDSDELKTLETLELTPRS--    286
+
+YHJA_ECOLI       278 EIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPDSPFDKW    327
+                        |.|.|  .|:||...:...|..|.::...:.:          .|..|
+UBX7_YEAST       287 ---ALLLK--PLETQNSGLSVTGMEGPSLLGRLYK----------GFSTW    321
+
+YHJA_ECOLI       328 LRGDENALTAQQKKGYQLFKDNK    350
+                     ...|::.....|::  :..|.|:
+UBX7_YEAST       322 WHNDKDPEVTSQRE--ETSKPNR    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      44/229 (19.2%)
+# Similarity:    72/229 (31.4%)
+# Gaps:         105/229 (45.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+YHJA_ECOLI       224 SIGVGGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMAS    273
+                     :|...|||.|.:|..:             .|..||||.|           
+RPOA_ACICJ       210 NIETNGAVTPEDAVAL-------------AARILQDQLG-----------    235
+
+YHJA_ECOLI       274 KSWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPDSP    323
+                          :....|:..:|:.:    .|:                    |:.|
+RPOA_ACICJ       236 -----MFINFEEPQRLRAE----EPR--------------------PELP    256
+
+YHJA_ECOLI       324 FDKWL--RGDENALTAQQKKGYQLFKDNKCATCHGGIILGGRSFEPLGLK    371
+                     |:..|  :.||..|:.            :.|.|               ||
+RPOA_ACICJ       257 FNPNLLRKVDELELSV------------RSANC---------------LK    279
+
+YHJA_ECOLI       372 KDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHR---GD    418
+                     .|      ....||.: |.|.|::.||            .|.|.|   .:
+RPOA_ACICJ       280 ND------NIVYIGDL-VQKSEQEMLR------------TPNFGRKSLNE    310
+
+YHJA_ECOLI       419 VPTLDGAVKLMLRYQVGKELPQEDVDDIV    447
+                     :..:..|:.|.|. .|.::.|.|:::::|
+RPOA_ACICJ       311 IKEVLSAMGLGLG-MVVQDWPPENIEELV    338
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:    12/20 (60.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       423 DGAVKLMLRYQVGKELPQED    442
+                     ||.|.|....::||:|.:.|
+YXAD_BACSU        88 DGRVSLFTITKLGKQLLKAD    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YHJA_ECOLI
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 382
+# Identity:      71/382 (18.6%)
+# Similarity:   130/382 (34.0%)
+# Gaps:         113/382 (29.6%)
+# Score: 71.0
+# 
+#
+#=======================================
+
+YHJA_ECOLI       142 EERAEILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGF    191
+                     ::.|.:|:|:.:..|.:....|                ||........||
+FADB_SHESR        79 QDDAVLLSWVEQANAVFNKLED----------------LPFPTASAIKGF    112
+
+YHJA_ECOLI       192 A--------LYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGP    233
+                     |        |..|.|: ||:|...         |:...|..| :.|..|.
+FADB_SHESR       113 ALGGGCETILATDFRI-ADTTAKI---------GLPETKLGI-IPGFGGT    151
+
+YHJA_ECOLI       234 INAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMASKSWDEIIAKL    283
+                     :..|.|..:...:|....|:....:|......::.: :|.::.:....::
+FADB_SHESR       152 VRLPRVIGADNALEWITTGKDQRPEDALKVGAVDAV-VAPEALEAAAIQM    200
+
+YHJA_ECOLI       284 EKD---------------------PQLKTQFL-------------EVYPQ    299
+                     .||                     |:|:....             :.||.
+FADB_SHESR       201 LKDAVAEKLDWQARRHRKMSPLTLPKLEAMMSFTTAKGMVFAVAGKHYPA    250
+
+YHJA_ECOLI       300 GFSGENITDAIA----------EFEKTLITPDSPFDKWLRG---DENALT    336
+                     ..:..::.:..|          |.:..:....:...|.|.|   ::..:.
+FADB_SHESR       251 PMAAVSVVEQAATKGRSDALQIEHQAFIKLAKTDVAKALIGIFLNDQLVK    300
+
+YHJA_ECOLI       337 AQQKKGYQLFKDNKCATCHG-GIILGGRSFE------PLGLKK------D    373
+                     .:.||..:|.||.|.|...| ||:.||.:::      |:.:|.      |
+FADB_SHESR       301 GKAKKAGKLAKDVKSAAVLGAGIMGGGIAYQSASKGTPIVMKDIAQPALD    350
+
+YHJA_ECOLI       374 FNFGE---ITAADIGRMNVTKEERDKLRQKVPGLRNVALTAPYFHRGDVP    420
+                     ...||   :.:|.:.|...|.|:..|:      |.|:   .|......|.
+FADB_SHESR       351 LGLGEAAKLLSAQVARGRSTPEKMAKV------LNNI---TPALDYAPVN    391
+
+YHJA_ECOLI       421 TLDGAVKLMLRY-----QVGKELPQEDVDDIV    447
+                     ..|..|:.::.:     ||..|:.|...:|.:
+FADB_SHESR       392 HADVVVEAVVEHPKVKAQVLAEVEQYVSEDAI    423
+
+
+#---------------------------------------
+#---------------------------------------

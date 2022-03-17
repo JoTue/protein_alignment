@@ -1,0 +1,270 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:14
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/Y128_RICFE.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/Y128_RICFE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/Y128_RICFE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       5/17 (29.4%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y128_RICFE        57 VRKEIQEYRVEIVDINK     73
+                     |.:.:..|...:|.||:
+NADK_ACIET        86 VGRRLAGYGTPLVGINQ    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+Y128_RICFE       101 SISKLPTEDDSPNNTANSKDNKDTDT    126
+                     |:.:..||::|.|  |..|..::.:|
+PSBA_ANGEV       222 SLIRETTENESAN--AGYKFGQEEET    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:     127/127 (100.0%)
+# Similarity:   127/127 (100.0%)
+# Gaps:           0/127 ( 0.0%)
+# Score: 637.0
+# 
+#
+#=======================================
+
+Y128_RICFE         1 MIKKIIFGIAILLSLSCFANSTTSDGSKKDAAKTNDGTTQKIIDDFSAYA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y128_RICFE         1 MIKKIIFGIAILLSLSCFANSTTSDGSKKDAAKTNDGTTQKIIDDFSAYA     50
+
+Y128_RICFE        51 GTIKPEVRKEIQEYRVEIVDINKKKRELYNSLSKEAQNFLAEQQKYKQKL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y128_RICFE        51 GTIKPEVRKEIQEYRVEIVDINKKKRELYNSLSKEAQNFLAEQQKYKQKL    100
+
+Y128_RICFE       101 SISKLPTEDDSPNNTANSKDNKDTDTK    127
+                     |||||||||||||||||||||||||||
+Y128_RICFE       101 SISKLPTEDDSPNNTANSKDNKDTDTK    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      30/120 (25.0%)
+# Similarity:    47/120 (39.2%)
+# Gaps:          31/120 (25.8%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y128_RICFE        13 LSLSCFAN-STTSDGSKKDAAK------------TNDGTTQKIIDDFSAY     49
+                     |:|..:.| |.|...|...|||            |::....:|:.:    
+RPOA_STAAN       194 LTLDVWTNGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIE----    239
+
+Y128_RICFE        50 AGTIKPEVRKE-IQEYRVEIVDI-----NKKKRELYNSLSKEAQNFLAEQ     93
+                         |.|.:|| :.|..:|.:|:     |..||...||:.:.|....|:.
+RPOA_STAAN       240 ----KEEDQKEKVLEMSIEELDLSVRSYNCLKRAGINSVQELADKSEADM    285
+
+Y128_RICFE        94 QKY----KQKLSISKLPTED    109
+                     .|.    ::.|...|...||
+RPOA_STAAN       286 MKVRNLGRKSLEEVKYKLED    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    12/26 (46.2%)
+# Gaps:           4/26 (15.4%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+Y128_RICFE         4 KIIFGIAI----LLSLSCFANSTTSD     25
+                     |.|.|:.:    ||:|..|:.....|
+CYB_PLEAU        227 KDILGLLVMIMSLLALVLFSPDMLGD    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    15/24 (62.5%)
+# Gaps:           1/24 ( 4.2%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y128_RICFE        88 NFLAEQQKYKQKLSISKLP-TEDD    110
+                     |..::::|.|..:|.::|. |.||
+RPO8_SACSH        47 NIFSQKEKVKAFISKNRLSYTNDD     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      14/57 (24.6%)
+# Similarity:    26/57 (45.6%)
+# Gaps:           3/57 ( 5.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y128_RICFE        18 FANSTTSDG-SKKDAAKTNDGTTQKII--DDFSAYAGTIKPEVRKEIQEY     64
+                     |.|.|..|. .|||.....:.|.:.::  ..:.|.|.....||.::::..
+G3P_SULIN        222 FINITLKDKVEKKDVLSVLENTPRIVLISSKYDAEATAELVEVARDLKRE    271
+
+Y128_RICFE        65 RVEIVDI     71
+                     |.:|.::
+G3P_SULIN        272 RNDIPEV    278
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      25/75 (33.3%)
+# Similarity:    37/75 (49.3%)
+# Gaps:           9/75 (12.0%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+Y128_RICFE         1 MIKKIIFGIAILLSLSCFANSTTSDGSKKDAAKTNDGTTQKIIDDFSAYA     50
+                     :|:|.: |.||.|..:|||..||||.:..:...:..| ..|.:.||....
+BLP1_PSEAI       103 VIEKQV-GQAITLDDACFATMTTSDNTAANIILSAVG-GPKGVTDFLRQI    150
+
+Y128_RICFE        51 GTIKPEVRKEIQEYRVEIVDINKKK     75
+                     |.      ||.:..|:| .|:|:.|
+BLP1_PSEAI       151 GD------KETRLDRIE-PDLNEGK    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       3/8 (37.5%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y128_RICFE        72 NKKKRELY     79
+                     ||::|.::
+PA2AA_ACAAN       13 NKRRRPVW     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y128_RICFE
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    21/44 (47.7%)
+# Gaps:           0/44 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y128_RICFE        73 KKKRELYNSLSKEAQNFLAEQQKYKQKLSISKLPTEDDSPNNTA    116
+                     |.:..||.||.::::..:::....|.:...|.|.|...:|...|
+KCC1A_MOUSE      143 KPENLLYYSLDEDSKIMISDFGLSKMEDPGSVLSTACGTPGYVA    186
+
+
+#---------------------------------------
+#---------------------------------------

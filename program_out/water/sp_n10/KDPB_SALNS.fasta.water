@@ -1,0 +1,398 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:04
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/KDPB_SALNS.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/KDPB_SALNS.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/KDPB_SALNS.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      17/55 (30.9%)
+# Similarity:    23/55 (41.8%)
+# Gaps:           9/55 (16.4%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+KDPB_SALNS       326 RGVDERTLADAAQLASLADETPEGRSIVILAKQRF-NLRERDVQSLHATF    374
+                     ||..|.||..:|...|        ||..:.|:.|. .|.:|..:.|.|..
+Y3545_CROS8       41 RGKGELTLVFSAPAGS--------RSEALRAEYRIKQLTKRQKEQLVAGE     82
+
+KDPB_SALNS       375 VPFTA    379
+                     :.|.|
+Y3545_CROS8       83 LAFEA     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 682
+# Identity:     682/682 (100.0%)
+# Similarity:   682/682 (100.0%)
+# Gaps:           0/682 ( 0.0%)
+# Score: 3363.0
+# 
+#
+#=======================================
+
+KDPB_SALNS         1 MSRKQLALFEPVLLVQALTDAVKKLSPRAQWRNPVMFVVWAGSVLTTLLT     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS         1 MSRKQLALFEPVLLVQALTDAVKKLSPRAQWRNPVMFVVWAGSVLTTLLT     50
+
+KDPB_SALNS        51 LAMVTGQIAGSALFTGIISLWLWFTVLFANFAEALAEGRSKAQANSLKGV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS        51 LAMVTGQIAGSALFTGIISLWLWFTVLFANFAEALAEGRSKAQANSLKGV    100
+
+KDPB_SALNS       101 KKTAFARRLRAPRHDAQADNVPAAELRKGDIVLVKAGDIIPCDGEVIEGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       101 KKTAFARRLRAPRHDAQADNVPAAELRKGDIVLVKAGDIIPCDGEVIEGG    150
+
+KDPB_SALNS       151 ASVDESAITGESAPVIRESGGDFASVTGGTRILSDWLVIACSVNPGETFL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       151 ASVDESAITGESAPVIRESGGDFASVTGGTRILSDWLVIACSVNPGETFL    200
+
+KDPB_SALNS       201 DRMIAMVEGAQRRKTPNEIALTILLIALTIVFLLATATLWPFSAWGGNAV    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       201 DRMIAMVEGAQRRKTPNEIALTILLIALTIVFLLATATLWPFSAWGGNAV    250
+
+KDPB_SALNS       251 SVTVLVALLVCLIPTTIGGLLSAIGVAGMSRMLGANVIATSGRAVEAAGD    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       251 SVTVLVALLVCLIPTTIGGLLSAIGVAGMSRMLGANVIATSGRAVEAAGD    300
+
+KDPB_SALNS       301 VDVLLLDKTGTITLGNRQASDFIPARGVDERTLADAAQLASLADETPEGR    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       301 VDVLLLDKTGTITLGNRQASDFIPARGVDERTLADAAQLASLADETPEGR    350
+
+KDPB_SALNS       351 SIVILAKQRFNLRERDVQSLHATFVPFTAQSRMSGINIDNRMIRKGSVDA    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       351 SIVILAKQRFNLRERDVQSLHATFVPFTAQSRMSGINIDNRMIRKGSVDA    400
+
+KDPB_SALNS       401 IRRHVESNGGHFPADVEQNVENVARLGATPLVVVEGARILGVIALKDIVK    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       401 IRRHVESNGGHFPADVEQNVENVARLGATPLVVVEGARILGVIALKDIVK    450
+
+KDPB_SALNS       451 GGIKERFAQLRKMGIKTVMITGDNRLTAAAIAAEAGVDDFLAEATPEAKL    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       451 GGIKERFAQLRKMGIKTVMITGDNRLTAAAIAAEAGVDDFLAEATPEAKL    500
+
+KDPB_SALNS       501 ALIRQYQAEGRLVAMTGDGTNDAPALAQADVAVAMNSGTQAAKEAGNMVD    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       501 ALIRQYQAEGRLVAMTGDGTNDAPALAQADVAVAMNSGTQAAKEAGNMVD    550
+
+KDPB_SALNS       551 LDSNPTKLIEVVHIGKQMLMTRGSLTTFSIANDVAKYFAIIPAAFAATYP    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       551 LDSNPTKLIEVVHIGKQMLMTRGSLTTFSIANDVAKYFAIIPAAFAATYP    600
+
+KDPB_SALNS       601 QLNALNVMGLHSPNSAILSAVIFNALIIIFLIPLALKGVSYKPLSASAML    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KDPB_SALNS       601 QLNALNVMGLHSPNSAILSAVIFNALIIIFLIPLALKGVSYKPLSASAML    650
+
+KDPB_SALNS       651 RRNLWIYGLGGLVVPFIGIKVIDVLLTLLGLA    682
+                     ||||||||||||||||||||||||||||||||
+KDPB_SALNS       651 RRNLWIYGLGGLVVPFIGIKVIDVLLTLLGLA    682
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       7/28 (25.0%)
+# Similarity:    17/28 (60.7%)
+# Gaps:           3/28 (10.7%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+KDPB_SALNS       197 ETFLDRMIAMVEGAQRRKTPNEIALTIL    224
+                     |..|..:::::|   :.|.|.:::|.:|
+YEJL_SALNS        13 EQLLSELLSVLE---KHKAPTDLSLMVL     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      24/84 (28.6%)
+# Similarity:    34/84 (40.5%)
+# Gaps:          25/84 (29.8%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+KDPB_SALNS        35 VMFVVWAGSVLTTLLTLAMVTGQIAGSALFTGIISLWL------------     72
+                     :||.....|:|...||:|  |..:.|     |::.|||            
+UPPP_AROAE        99 LMFHSTIKSLLFNPLTVA--TALVVG-----GVLILWLERRAYHPRINAV    141
+
+KDPB_SALNS        73 ----WFTVLFANFAEALA--EGRSKAQANSLKGV    100
+                         |...|...||:|.|  .|.|::.|..|.|:
+UPPP_AROAE       142 DEMRWADALKVGFAQAAAMIPGTSRSGATILGGL    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      10/36 (27.8%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           5/36 (13.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+KDPB_SALNS       166 IRESGGDFASVT-----GGTRILSDWLVIACSVNPG    196
+                     :|....::.|:|     |.:..|.:..|:..|.|||
+CBPD_LOPSP        20 LRRYANEYPSITRLYSVGKSVELRELYVMEISDNPG     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      16/50 (32.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:          17/50 (34.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+KDPB_SALNS       115 DAQADNVPAAELRKGDIVLV-----------KAGD------IIPCDGEVI    147
+                     |:|:......:|||||:|.|           ||.|      |....|||:
+NDHO_PROM1        10 DSQSPPKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQGPGEVL     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      52/296 (17.6%)
+# Similarity:    94/296 (31.8%)
+# Gaps:          87/296 (29.4%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+KDPB_SALNS        97 LKGVKKTAFARRLRAPRHDAQADNVPAAELRKGDIVLVKAGDIIPCDGEV    146
+                     |:.:.:|||.||                            .:|.|.:.:.
+DAPD_SHIBS         4 LQNIIETAFERR----------------------------AEITPTNADT     25
+
+KDPB_SALNS       147 IEGGASVDESAITGESAPVIRESGGDFASVTGGTRILSDWL----VIACS    192
+                     :...|.....|:....|..:.|.       ..|..:...||    :::..
+DAPD_SHIBS        26 VTREAVNQVIALLDSGALRVAEK-------IDGQWVTHQWLKKAVLLSFR     68
+
+KDPB_SALNS       193 VNPGETFLDRMIAMVEGAQRR---KTPNEIALTILLIALTIVFLLATATL    239
+                     :|..:        ::|||:.|   |.|.:.|          .:..|....
+DAPD_SHIBS        69 INDNQ--------VIEGAESRYFDKVPMKFA----------DYDEARFQK    100
+
+KDPB_SALNS       240 WPFSAWGGNAVSVTVLVALLVCLIPTTI--------GGLLSAIGVAGMSR    281
+                     ..|......||.....:|....|:|:.:        |.::......|...
+DAPD_SHIBS       101 EGFRVVPPAAVRQGAFIARNTVLMPSYVNIGAYVDEGTMVDTWATVGSCA    150
+
+KDPB_SALNS       282 MLGANVIATSGRAVEAAGDVDVLLLDKTGTITLGNRQASDFIPARG-VDE    330
+                     .:|.||..:.|  |...|.::.|..:.|..      :.:.||.||. |.|
+DAPD_SHIBS       151 QIGKNVHLSGG--VGIGGVLEPLQANPTII------EDNCFIGARSEVVE    192
+
+KDPB_SALNS       331 RTLADAAQLASLADETPEGRSIVILAKQRFNLRERDVQSLHATFVP    376
+                     ..:.:...:.|:.          :...|...:.:|:...:|...||
+DAPD_SHIBS       193 GVIVEEGSVISMG----------VYIGQSTRIYDRETGEIHYGHVP    228
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      12/57 (21.1%)
+# Similarity:    23/57 (40.4%)
+# Gaps:          14/57 (24.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+KDPB_SALNS       550 DLDSNPTKLIEVVHIGKQMLMTRGSLTTFSIANDVAKYFAIIPAAFAATY    599
+                     :|..||..:::...:.:.:|:.:..:|.|....|.|              
+ASF1_CRYNJ       122 ELKENPPSVVQWDKLHRNVLIEKPKVTRFQNNWDSA--------------    157
+
+KDPB_SALNS       600 PQLNALN    606
+                     ||||..:
+ASF1_CRYNJ       158 PQLNTFD    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 417
+# Identity:      84/417 (20.1%)
+# Similarity:   147/417 (35.3%)
+# Gaps:         111/417 (26.6%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+KDPB_SALNS        76 VLFANFAEALAEGRSKAQANSLK------------GVK---KTAFARRLR    110
+                     ::||  .:.|.:||:.|..|..|            |::   ||...:.:.
+UBQ10_ARATH       43 LIFA--GKQLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTIT     90
+
+KDPB_SALNS       111 APRHDAQA-DNVPAAELRKGDIVLVKAGDIIPCD-------GEVIEGGAS    152
+                     .....:.. |||.|.       :..|.|  ||.|       |:.:|.|.:
+UBQ10_ARATH       91 LEVESSDTIDNVKAK-------IQDKEG--IPPDQQRLIFAGKQLEDGRT    131
+
+KDPB_SALNS       153 VDESAITGESA--PVIRESGG---DFASVTGGTRILSDWLVIACSVNPGE    197
+                     :.:..|..||.  .|:|..||   ...::||.|        |...|...:
+UBQ10_ARATH      132 LADYNIQKESTLHLVLRLRGGMQIFVKTLTGKT--------ITLEVESSD    173
+
+KDPB_SALNS       198 TFLDRMIAMV---EGAQRRKTPNEIALTILLIALTIVFLLATATLWPFSA    244
+                     | :|.:.|.:   ||.    .|::..|......|.....||...:...|.
+UBQ10_ARATH      174 T-IDNVKAKIQDKEGI----PPDQQRLIFAGKQLEDGRTLADYNIQKEST    218
+
+KDPB_SALNS       245 W-------GGNAVSVTVLVALLVCL---IPTTIGGLLSAI----GV-AGM    279
+                     .       ||..:.|..|....:.|   ...||..:.:.|    |: ...
+UBQ10_ARATH      219 LHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNVKAKIQDKEGIPPDQ    268
+
+KDPB_SALNS       280 SRMLGANVIATSGR---------------AVEAAGDVDVLLLDKTG-TIT    313
+                     .|::.|......||               .:...|.:.:.:...|| |||
+UBQ10_ARATH      269 QRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTIT    318
+
+KDPB_SALNS       314 L--GNRQASDFIPARGVDERTL-ADAAQLASLADETPEGRSIVILAKQRF    360
+                     |  .:....|.:.|:..|:..: .|..:|.....:..:||::.     .:
+UBQ10_ARATH      319 LEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLA-----DY    363
+
+KDPB_SALNS       361 NLRERDVQSLHAT---------FVPFTAQSRMSGINIDNRMIRKGSVDAI    401
+                     |:::.  .:||..         ||     ..::|..|...:....::|.:
+UBQ10_ARATH      364 NIQKE--STLHLVLRLRGGMQIFV-----KTLTGKTITLEVESSDTIDNV    406
+
+KDPB_SALNS       402 RRHVESNGGHFPADVEQ    418
+                     :..::...| .|.|.::
+UBQ10_ARATH      407 KAKIQDKEG-IPPDQQR    422
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KDPB_SALNS
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 459
+# Identity:      92/459 (20.0%)
+# Similarity:   165/459 (35.9%)
+# Gaps:         125/459 (27.2%)
+# Score: 94.5
+# 
+#
+#=======================================
+
+KDPB_SALNS       122 PAAELRKGDIVLVKAGDIIPCDGEVIEGGASVDESAITGESAPVIRESGG    171
+                     |||.|:.|.:..|.|.|      ::::....:.:.||:|.          
+FADB_ACIBS       176 PAAALKDGAVDAVVAAD------KLLDAATDLVKQAISGR----------    209
+
+KDPB_SALNS       172 DFASVTGGTRILSDW------LVIACSVNPGETFLDRMIAM--VEGAQRR    213
+                                 .:|      .:.|..:||    |::|:|.  .:||...
+FADB_ACIBS       210 ------------LNWKAKRQEKLEAVKLNP----LEQMMAFNTAKGAVLA    243
+
+KDPB_SALNS       214 K-TPNEI-ALTILLIALTIVFLLATATLWPFSAWGGNAVSVTVLVALLVC    261
+                     | .|.:. |..:||.:|.....||........|.|....:||.....|: 
+FADB_ACIBS       244 KANPAQYPAPKLLLDSLQAGASLARDEALKAEAEGFAKAAVTPQAEALI-    292
+
+KDPB_SALNS       262 LIPTTIGGLL--------------SAIGVAGMSRMLGANVIATSGRAVEA    297
+                            ||.              ........:.:|||.::. .|.|.:|
+FADB_ACIBS       293 -------GLFINDQVVKKASKQHEKGAHPVNQAAVLGAGIMG-GGIAYQA    334
+
+KDPB_SALNS       298 AGDVDVLLLDKTGT--ITLGNRQASDFIPARGVDERTLADAAQLASLA--    343
+                     |.....:::...|.  :.||.::|::.: .:.|:.:.:..|....:||  
+FADB_ACIBS       335 ASKGTPIIMKDIGNPQLALGMKEANNLL-TKQVERKKMKPAQMGETLARI    383
+
+KDPB_SALNS       344 -------------------DETPEGRSIVILAKQRFNLRERDVQSLHATF    374
+                                        .|.|:.:.|| ||:...|:||..:.:.:.:.
+FADB_ACIBS       384 RPTLSYEEFKEVDIVIEAVTENPKVKEIV-LAETEKNVRENTIIASNTST    432
+
+KDPB_SALNS       375 VPFTAQSR-------MSGINIDNRMIRKGSVDAIRRHVESNGGHFPADVE    417
+                     :..|..::       ..|::..|.:.....|:.||....|...     :.
+FADB_ACIBS       433 ISITRLAKALQRPENFVGMHFFNPVHMMPLVEVIRGEKTSEEA-----IA    477
+
+KDPB_SALNS       418 QNVENVARLGATPLVVVE--GARILGVI-----ALKDIVKGGIKERFAQL    460
+                     ..|....::|.||:||.:  |..:..|:     |...:||.|..  |.|:
+FADB_ACIBS       478 TTVVLAQKMGKTPIVVNDCPGFLVNRVLFPYFGAFDLLVKDGAD--FQQI    525
+
+KDPB_SALNS       461 RKMGIK---------TVMITG-DNRLTAAAIAAEAGVDDFLAEATPEAKL    500
+                     ..:..|         .:.:.| |..:..|.:.||.    |.....|:.|.
+FADB_ACIBS       526 DNVMSKFGWPMGPAYLIDVVGIDTGVHGAEVMAEG----FPDRMKPDYKG    571
+
+KDPB_SALNS       501 ALIRQYQAE    509
+                     |:...|:|:
+FADB_ACIBS       572 AIEAMYEAK    580
+
+
+#---------------------------------------
+#---------------------------------------

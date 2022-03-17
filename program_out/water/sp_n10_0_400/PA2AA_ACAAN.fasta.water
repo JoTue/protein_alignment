@@ -1,0 +1,246 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/PA2AA_ACAAN.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/PA2AA_ACAAN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/PA2AA_ACAAN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           1/12 ( 8.3%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN       12 ANKRRRPVWPYE     23
+                     |..|::..| ||
+NADK_ACIET       285 ATLRKKLGW-YE    295
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:     6/19 (31.6%)
+# Gaps:          13/19 (68.4%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN       18 PVW-------------PYE     23
+                     |:|             |||
+PSBA_ANGEV        95 PIWEAASVDEWLYNGGPYE    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       3/8 (37.5%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN       13 NKRRRPVW     20
+                     ||::|.::
+Y128_RICFE        72 NKKKRELY     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     7/15 (46.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        3 LQFGFMIRCANKRRR     17
+                     |:.|:.....|..||
+RPOA_STAAN        28 LERGYGTTLGNSLRR     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       2/8 (25.0%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        3 LQFGFMIR     10
+                     :.:|:::|
+CYB_PLEAU         73 VNYGWVLR     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     8/11 (72.7%)
+# Gaps:           1/11 ( 9.1%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        5 FGFMIR-CANK     14
+                     ||.::: .:||
+RPO8_SACSH        99 FGLLVKIISNK    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN       22 YEESG     26
+                     :||||
+G3P_SULIN         60 FEESG     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       5/20 (25.0%)
+# Similarity:     9/20 (45.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        1 NLLQFGFMIRCANKRRRPVW     20
+                     |...||..:...|:::...|
+BLP1_PSEAI       186 NKFLFGSALSEMNQKKLESW    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:      27/27 (100.0%)
+# Similarity:    27/27 (100.0%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 155.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        1 NLLQFGFMIRCANKRRRPVWPYEESGC     27
+                     |||||||||||||||||||||||||||
+PA2AA_ACAAN        1 NLLQFGFMIRCANKRRRPVWPYEESGC     27
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PA2AA_ACAAN
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       3/7 (42.9%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+PA2AA_ACAAN        9 IRCANKR     15
+                     |:|..|:
+KCC1A_MOUSE       48 IKCIAKK     54
+
+
+#---------------------------------------
+#---------------------------------------

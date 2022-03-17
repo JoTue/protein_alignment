@@ -1,0 +1,3072 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:28
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/RS4_CAEEL.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/RS4_CAEEL.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/RS4_CAEEL.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      51/250 (20.4%)
+# Similarity:    71/250 (28.4%)
+# Gaps:          91/250 (36.4%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+RS4_CAEEL          4 PKKHLKRLAAPSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKY     53
+                     |.|.....|..:||.     |:|........|.|....|....::     
+PUR7_VIBVU        81 PGKGAALNAISNHWF-----GLFKENGLADSHILDIPHPFVWIVQ-----    120
+
+RS4_CAEEL         54 ALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYD    103
+                          :||.:..:.:         |.|:.||.|     .|..|       
+PUR7_VIBVU       121 -----KAKPVKIEAI---------CRKYITGSM-----WRAYE-------    144
+
+RS4_CAEEL        104 TKGRYVVHRIQAAEADFK------LCKVKSVRTVNKGVPVLTTTDGRTIR    147
+                      ||......||..|...|      |....|.:.:.||:|.:...|.    
+PUR7_VIBVU       145 -KGEREFCGIQLPEGLEKDKALPDLLMTPSTKGILKGIPGVPEADD----    189
+
+RS4_CAEEL        148 YPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHR    197
+                                  .||:.|.|.|       |.|    ..|......|...
+PUR7_VIBVU       190 -------------VNITRQNIAD-------NFA----AFNFSSADDIALY    215
+
+RS4_CAEEL        198 ERLPGASDIIHIKDSAG--HSFATRISNVFVIGK----------GNKALV    235
+                     |:|        :||..|  ......:..:||..|          ||:.|:
+PUR7_VIBVU       216 EKL--------LKDGFGVISEALANVGQIFVDTKFEFGYVTDAAGNEKLI    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    16/43 (37.2%)
+# Gaps:           3/43 ( 7.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        104 TKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTI    146
+                     |||..   .:..|..:......|....:..|:|::...:.|.|
+Y075_NITWN        26 TKGPL---ELDGARRELISRSAKLAYPIRDGIPIMLPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      22/83 (26.5%)
+# Similarity:    34/83 (41.0%)
+# Gaps:          24/83 (28.9%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        128 VRTVNKGV--PV-LTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKF    174
+                     :.|.|:|.  || |||..|:.|.              |:..:.:......
+Y3584_PSEAB        4 LETTNEGAAEPVRLTTPLGQAIG--------------NLFARALPLLDGN     39
+
+RS4_CAEEL        175 EPGNL-AYVTGGRNVGRVGIIGHRERLPGASDI    206
+                     .||:| .:|.||   ..|.::.|..   |::||
+Y3584_PSEAB       40 PPGSLKVFVFGG---CAVHLLTHAR---GSADI     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 183
+# Identity:      36/183 (19.7%)
+# Similarity:    64/183 (35.0%)
+# Gaps:          59/183 (32.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         12 AAPSH---WMLDKLGGVFAVRPNPGPHKLRESLPLSLFLR-NRLKY----     53
+                     |.|.|   ::.|:|.....|.|       :..:.|.|:.| ::|.:    
+BPT_HAHCH         11 ATPEHPCSYLDDRLATTMFVDP-------KADINLDLYTRLSQLGFRRSG     53
+
+RS4_CAEEL         54 ---------ALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERT     94
+                              ..|...|.:|.|:...|...:.||..:.....:.:.:.:..
+BPT_HAHCH         54 NHYYKPRCNGCNACIAVRIPTEEFNRTRSQERTWKRNSDLTVRLRSAQFE    103
+
+RS4_CAEEL         95 NEYFRMLYDTKGRYVVHRIQAAE----------------------ADF-K    121
+                     .|:| .||.   ||:..|.|..:                      .:| |
+BPT_HAHCH        104 QEHF-ALYQ---RYISARHQDGDMYPPTLDQYESFLLEARSETLFIEFRK    149
+
+RS4_CAEEL        122 LCKVKSVRTVNKGVPVLTTTDGRTIRYP--DPH    152
+                     ..|:.::...::      ||||.:..|.  ||:
+BPT_HAHCH        150 DSKLLAIAVTDR------TTDGLSAIYTFFDPN    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      21/90 (23.3%)
+# Similarity:    31/90 (34.4%)
+# Gaps:           9/90 (10.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        105 KGRYVVHRIQAAEA--DFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPH    152
+                     |..|...|..||.|  |.......::..:|:.:.....||...:|..:|.
+KDPC_CAUVN        63 KPEYFHGRPSAAGAGYDASASSGSNMGPLNETLIARLKTDAAALRAENPG    112
+
+RS4_CAEEL        153 VKVNDTIVFNISTQKITDSVKFEPGNLAY----VTGGRNV    188
+                     |.:....|....:....|   ..|.|..:    |.|.|.|
+KDPC_CAUVN       113 VAIPADAVTTSGSGLDPD---ISPANARFQAPRVAGARGV    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      22/73 (30.1%)
+# Similarity:    34/73 (46.6%)
+# Gaps:          18/73 (24.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        156 NDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASD    205
+                     ||:..|    :||||.|   |.::|.:.....|.|: |.||..|  .|..
+LPXH_XYLFM       171 NDSTQF----EKITDVV---PADVAAMFACYGVNRM-IHGHTHR--PALH    210
+
+RS4_CAEEL        206 IIHIKDSAGHSFATRISNVFVIG    228
+                     ::.:.:.|    .||:    |:|
+LPXH_XYLFM       211 MLQVAECA----CTRV----VLG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        218 ATRISNVFVIGKGNKALVS    236
+                     |..|..||.:..|::.:||
+YERI_SCHPO        59 AVVIYAVFFLFCGSQVIVS     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      40/166 (24.1%)
+# Similarity:    64/166 (38.6%)
+# Gaps:          42/166 (25.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        116 AEAD--FKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFN-    162
+                     |||.  ||:.:    |..::|:.::..:. |.:...|...:|:   ||. 
+RBSA_RUEST       176 AEAQVLFKIMR----RLADQGISLIYISH-RMVEIFDNCDRVS---VFRD    217
+
+RS4_CAEEL        163 ---ISTQKITDSVKFEPGNLAYVTGGRNVG------------------RV    191
+                        ::||   |..|..|.::.....||.:|                  ||
+RBSA_RUEST       218 GRYVTTQ---DVAKITPADVVRAMVGREIGDLYPEKQRPEACSTTEVLRV    264
+
+RS4_CAEEL        192 GIIGHRERLPGASDIIHIKDSAGHSFATRI-SNVFVIGKGNKALVSLPTG    240
+                     ..:...||....|..:|..:..|  ||..| :....|.||..||....||
+RBSA_RUEST       265 ENLCEAERFHDVSFSLHKGEILG--FAGLIGAGRSEIAKGVCALEGQVTG    312
+
+RS4_CAEEL        241 A----GIRLSIAEERD    252
+                     .    |..|::.:.:|
+RBSA_RUEST       313 RLWLNGEPLALRDYQD    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       5/9 (55.6%)
+# Similarity:     5/9 (55.6%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        177 GNLAYVTGG    185
+                     |.|.|..||
+KR195_HUMAN        9 GGLGYGYGG     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      25/102 (24.5%)
+# Similarity:    38/102 (37.3%)
+# Gaps:          36/102 (35.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        149 PDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRE    198
+                     |...:..:.|||.:| .|.:|:   |.|              :...||  
+UPPP_CORDI         5 PSSQISWSQTIVLSI-VQGLTE---FLP--------------ISSSGH--     34
+
+RS4_CAEEL        199 RLPGASDIIHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRLSIA    248
+                      |...|::...|| ||.||.              |:|.|.|.|.:.:..|
+UPPP_CORDI        35 -LRIVSELFWGKD-AGASFT--------------AVVQLGTEAAVLVYFA     68
+
+RS4_CAEEL        249 EE    250
+                     ::
+UPPP_CORDI        69 KD     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      30/132 (22.7%)
+# Similarity:    50/132 (37.9%)
+# Gaps:          34/132 (25.8%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        114 QAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNI    163
+                     ::..||::..| |.:|.:::.|..||..                     :
+GREB_ECO57        42 RSENADYQYNK-KRLREIDRRVRYLTKC---------------------M     69
+
+RS4_CAEEL        164 STQKITDSVKFEPGNL---AYVTGGRNVGRVGIIGHRERLPGASDIIHIK    210
+                     ...||.|....:.|.:   |:|....:.|    :.||.|:.|..:|...|
+GREB_ECO57        70 ENLKIVDYSPQQEGKVFFGAWVEIENDDG----VTHRFRIVGYDEIFGRK    115
+
+RS4_CAEEL        211 D--SAGHSFATRISNVFVIGKGNKALVSLPTG    240
+                     |  |.....|..:....|   |:.|:|:.|.|
+GREB_ECO57       116 DYISIDSPMARALLKKEV---GDLAVVNTPAG    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      47/225 (20.9%)
+# Similarity:    88/225 (39.1%)
+# Gaps:          51/225 (22.7%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         57 YTEAKKILTQRVVRVDGKV---RTCHKFPTGFMDVVA----IERTNEYFR     99
+                     |...|.::.:.:..:..::   .|.|.:.....||:|    :.|...:.|
+TGT_LEPCP         36 YGTVKGVMPRDLETMGAQIILGNTFHLWMRPGQDVMAQFGGLHRFENWTR     85
+
+RS4_CAEEL        100 -MLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVN-KGVPVLTTTDGRTIR    147
+                      :|.|:.|             |::..:..:|.:: :||...:..:|..: 
+TGT_LEPCP         86 PILTDSGG-------------FQVWSLGEMRKISEEGVRFASPVNGDKL-    121
+
+RS4_CAEEL        148 YPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHR    197
+                     :..|.|.:....|.|      :|.|........|..|.:|||.:    ..
+TGT_LEPCP        122 FLTPEVSMQIQTVLN------SDIVMQFDECTPYWQGAKNVGHI----TT    161
+
+RS4_CAEEL        198 ERLPGASDIIHIKDSAGH--SFATRISN---VFVIGKGN----------K    232
+                     |:....|..:.::.:|..  .|| |:.|   :|.|.:|.          .
+TGT_LEPCP        162 EKEARVSMELSLRWAARSKAEFA-RLGNPNALFGIVQGGMFESLREESLN    210
+
+RS4_CAEEL        233 ALVSL--PTGAGIRLSIAEERDKRM    255
+                     |||.|  |..|...:|:.|.:|:.:
+TGT_LEPCP        211 ALVELDFPGYAVGGVSVGEPKDEML    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      42/229 (18.3%)
+# Similarity:    76/229 (33.2%)
+# Gaps:          77/229 (33.6%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          5 KKHLKRLAAPSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKYA     54
+                     |.||:.:..| ||   :.|...||...|..||:                 
+CBPQ_HUMAN       102 KVHLEPVRIP-HW---ERGEESAVMLEPRIHKI-----------------    130
+
+RS4_CAEEL         55 LNYTEAKKILTQRVVRVDGKVRTCHKFPTGF-MDVVAIERTNEYFRMLYD    103
+                                 .::.:...:.|.   |.|. .:|:.:...:|..|...:
+CBPQ_HUMAN       131 ------------AILGLGSSIGTP---PEGITAEVLVVTSFDELQRRASE    165
+
+RS4_CAEEL        104 TKGRYVVHR-----------------IQAAEADFKLCKVKSVRTVN----    132
+                     .:|:.||:.                 ::||:.......::||.:.:    
+CBPQ_HUMAN       166 ARGKIVVYNQPYINYSRTVQYRTQGAVEAAKVGALASLIRSVASFSIYSP    215
+
+RS4_CAEEL        133 --------KGVP-----VLTTTDGRTIRYPDPH-VKVNDTIVFNISTQKI    168
+                             .|||     .:|..|...:.....| :|:...:.....|...
+CBPQ_HUMAN       216 HTGIQEYQDGVPKIPTACITVEDAEMMSRMASHGIKIVIQLKMGAKTYPD    265
+
+RS4_CAEEL        169 TDSVKFEPGNLAYVTGGRNVGRVGII-GH    196
+                     |||.    ..:|.:||.:...:|.:: ||
+CBPQ_HUMAN       266 TDSF----NTVAEITGSKYPEQVVLVSGH    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      24/111 (21.6%)
+# Similarity:    43/111 (38.7%)
+# Gaps:          18/111 (16.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         14 PSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKKI     63
+                     |..:..|..|..|..:......|.:|::.   ||..::|...::|..:.:
+PSA6_SOYBN       149 PQLYKCDPAGHYFGHKATSAGLKDQEAIN---FLEKKMKNDPSFTYEETV    195
+
+RS4_CAEEL         64 LT-----QRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRY    108
+                     .|     |.|::.|        |....::|..:.:.|..||:|  |....
+PSA6_SOYBN       196 QTAISALQSVLQED--------FKATEIEVGVVRKDNPEFRVL--TTDEI    235
+
+RS4_CAEEL        109 VVHRIQAAEAD    119
+                     ..|....:|.|
+PSA6_SOYBN       236 DEHLTAISERD    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      48/252 (19.0%)
+# Similarity:    85/252 (33.7%)
+# Gaps:          77/252 (30.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         17 WMLDKLGGVFAVRPNPGPHKLRESLPLSLF--LRNRLKYALNYTEAKKIL     64
+                     |  |..|.:.....:..|..:.|.:..|:|  ..:.|::.....||.|.|
+SCL34_ARATH       94 W--DASGSIDESAYSADPQPVNEIMVKSMFSDAESALQFKKGVEEASKFL    141
+
+RS4_CAEEL         65 ---TQRVVRVD---GKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRY    108
+                        .|.|:.:|   .:.|...|...| :|.:.:::.:             
+SCL34_ARATH      142 PNSDQWVINLDIERSERRDSVKEEMG-LDQLRVKKNH-------------    177
+
+RS4_CAEEL        109 VVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDT    158
+                             |.||:  :|:|.:.....|.....||            :.|.
+SCL34_ARATH      178 --------ERDFE--EVRSSKQFASNVEDSKVTD------------MFDK    205
+
+RS4_CAEEL        159 IVF---NISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASD    205
+                     ::.   ....|.:.||      .:..:...:|:|..|    :::....|.
+SCL34_ARATH      206 VLLLDGECDPQTLLDS------EIQAIRSSKNIGEKG----KKKKKKKSQ    245
+
+RS4_CAEEL        206 IIHIKDSAGHSFATRISNVFVIGKGNKALV----------SLPTG-AGIR    244
+                     ::..:....|. |..||.      |:|...          |.|.| ||.|
+SCL34_ARATH      246 VVDFRTLLTHC-AQAIST------GDKTTALEFLLQIRQQSSPLGDAGQR    288
+
+RS4_CAEEL        245 LS    246
+                     |:
+SCL34_ARATH      289 LA    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       8/33 (24.2%)
+# Similarity:    14/33 (42.4%)
+# Gaps:          15/33 (45.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        106 GRYVVH---RIQAAE------------ADFKLC    123
+                     ||.::|   .:::||            .|:|.|
+NDKA_CANLF       113 GRNIIHGSDSVESAEKEIGLWFQPEELVDYKSC    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 259
+# Identity:     259/259 (100.0%)
+# Similarity:   259/259 (100.0%)
+# Gaps:           0/259 ( 0.0%)
+# Score: 1343.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          1 MRGPKKHLKRLAAPSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNR     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RS4_CAEEL          1 MRGPKKHLKRLAAPSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNR     50
+
+RS4_CAEEL         51 LKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRM    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RS4_CAEEL         51 LKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRM    100
+
+RS4_CAEEL        101 LYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RS4_CAEEL        101 LYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPD    150
+
+RS4_CAEEL        151 PHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RS4_CAEEL        151 PHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERL    200
+
+RS4_CAEEL        201 PGASDIIHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRLSIAEE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RS4_CAEEL        201 PGASDIIHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRLSIAEE    250
+
+RS4_CAEEL        251 RDKRMAQKH    259
+                     |||||||||
+RS4_CAEEL        251 RDKRMAQKH    259
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      12/40 (30.0%)
+# Similarity:    16/40 (40.0%)
+# Gaps:          11/40 (27.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RS4_CAEEL          3 GPKKHLKRLAAPSHWMLDKLGGVFAVRPN---PGPHKLRE     39
+                     ||:...|:.|        :.|....|.|.   |.|.:|||
+G45IP_CHLAE       53 GPRYAAKQFA--------RYGAASGVAPGSLWPSPEQLRE     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 204
+# Identity:      43/204 (21.1%)
+# Similarity:    71/204 (34.8%)
+# Gaps:          73/204 (35.8%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         54 ALNY-TEAKKILTQRVVRVDGKVRTCHKFPTGFM-----DVVAIERTNEY     97
+                     |.|: .:.::|:::.:..:||.|.|..|..:|::     :...:|.|   
+DAPEL_OCEIH      201 ASNFVVQLQQIVSRGLNPLDGSVITIGKMESGYVQNAIAETARLEGT---    247
+
+RS4_CAEEL         98 FRMLYDTKGRYVVHRIQAAEAD-FKLCKVKSVRTVNKGVPVLTTTDGRTI    146
+                                    |::.:|| ..:.|.|..|.:.          |..|
+DAPEL_OCEIH      248 ---------------IRSTDADAIDMIKSKLNRLMK----------GFEI    272
+
+RS4_CAEEL        147 RYPDPHVK----------VNDTI-------VFNISTQKIT----------    169
+                     .| |..:|          |||..       |.| .||.||          
+DAPEL_OCEIH      273 SY-DCTIKVDYGANYYQVVNDATYVQQFENVIN-QTQTITYQQADAAMTG    320
+
+RS4_CAEEL        170 ----DSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGH    215
+                         |.:|..||.:.::....:.|.     |..||....:.|.:..:|..
+DAPEL_OCEIH      321 EDFGDMLKEIPGFMFWLGVDSSYGL-----HNARLNPKEEAIDVGVNAVI    365
+
+RS4_CAEEL        216 SFAT    219
+                     |..|
+DAPEL_OCEIH      366 SMIT    369
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      29/138 (21.0%)
+# Similarity:    51/138 (37.0%)
+# Gaps:          33/138 (23.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        126 KSVRTVNK-GVPVLTTTD--------GRTIRYPDPHVK-----VNDTIVF    161
+                     :|.|.|.: |:|.|:|.|        |..:......|.     |:|.||.
+KAD_METRJ         16 QSERIVQRFGIPQLSTGDMLRAAVAAGTPVGLEAKAVMESGGLVSDRIVV     65
+
+RS4_CAEEL        162 NISTQKITDSVKFEPGNLAYVTGG--RNVGRVGIIGHRERLPG--ASDII    207
+                     .|    :.|.::.......::..|  |.|.:...:|......|  .|.::
+KAD_METRJ         66 GI----VADRIEEPDARRGFILDGFPRTVAQAEALGEMLASKGLSLSAVV    111
+
+RS4_CAEEL        208 HIKDSAGHSFATRISNVFVIGKGNK-ALVSLPTGAGIR    244
+                     .:|          :....::|:..| |..:|..|..:|
+KAD_METRJ        112 ELK----------VDENALVGRIEKRAAETLARGQAVR    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      28/116 (24.1%)
+# Similarity:    41/116 (35.3%)
+# Gaps:          22/116 (19.0%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        131 VNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLA    180
+                     |..|||.|....|    .|.|.. |..|:.       ...:.||.||.:.
+ELN_BOVIN        579 VGAGVPGLGVGAG----VPGPGA-VPGTLA-------AAKAAKFGPGGVG    616
+
+RS4_CAEEL        181 YVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATR----ISNVFV    226
+                     .:.|..::|..||.|      |.:.::....:|..:.|..    :..|..
+ELN_BOVIN        617 ALGGVGDLGGAGIPG------GVAGVVPAAAAAAKAAAKAAQFGLGGVGG    660
+
+RS4_CAEEL        227 IGKGNKALVSLPTGAG    242
+                     :|.|....|....|.|
+ELN_BOVIN        661 LGVGGLGAVPGAVGLG    676
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      43/203 (21.2%)
+# Similarity:    69/203 (34.0%)
+# Gaps:          62/203 (30.5%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         84 GFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADF---KLCKVKSVRT    130
+                     |.:.|.:.||.:.||...:.||    |..:.|....|   .||.:...|.
+ASIC2_MOUSE       54 GLLLVESSERVSYYFSYQHVTK----VDEVVAQSLVFPAVTLCNLNGFRF     99
+
+RS4_CAEEL        131 VNKGVPVLTTTD----GR-------TIRYPDPHVKVNDTIVFNISTQKIT    169
+                     ..     |||.|    |.       .::.||||:.  |..|.....|| .
+ASIC2_MOUSE      100 SR-----LTTNDLYHAGELLALLDVNLQIPDPHLA--DPTVLEALRQK-A    141
+
+RS4_CAEEL        170 DSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKD--------    211
+                     :...::|...:.:.....||.                 .:||        
+ASIC2_MOUSE      142 NFKHYKPKQFSMLEFLHRVGH-----------------DLKDMMLYCKFK    174
+
+RS4_CAEEL        212 --SAGHSFATRISN------VFVIGKGNKALVSL---PTGAGIRLSIAEE    250
+                       ..||...|.:..      :|..|:..|.|::.   .||.|:.:.:..:
+ASIC2_MOUSE      175 GQECGHQDFTTVFTKYGKCYMFNSGEDGKPLLTTVKGGTGNGLEIMLDIQ    224
+
+RS4_CAEEL        251 RDK    253
+                     :|:
+ASIC2_MOUSE      225 QDE    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         76 RTCHKFPTGFMDVVAI     91
+                     ||..||.|..::::.|
+DOXA1_XENTR       13 RTSFKFDTKIIEIIII     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       7/18 (38.9%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           3/18 (16.7%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          4 PKKHLKRLAAPSHWMLDK     21
+                     |.:.|.|.|:.|   :||
+RS20_STRPB        44 PSEELFRAASSS---IDK     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      29/142 (20.4%)
+# Similarity:    56/142 (39.4%)
+# Gaps:          40/142 (28.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         47 LRNRLKYALNYTE---------AKKILTQRVVRVDGKVRTCHKFPTGFMD     87
+                     |..:||.|....|         |:|:   .:|..|.: |...:..||...
+TPM_HAELO        144 LEGQLKEARTMAEDADRKYDEVARKL---AMVEADLE-RAEERAETGETK    189
+
+RS4_CAEEL         88 VVAIERTNEYFRML--------------------YDTKGRYVVHRIQAAE    117
+                     :|.:|   |..|::                    |:.:.|.:..|:|.||
+TPM_HAELO        190 IVELE---EELRVVGNNLKSLEVSEEKALQKEETYEGQIRQMTSRLQEAE    236
+
+RS4_CAEEL        118 ADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTI    159
+                     |..:..: :||:.:.|.|..|   :...::..:.:..::|.:
+TPM_HAELO        237 ARAEFAE-RSVQKLQKEVDRL---EDELVQEKEKYKAISDEL    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      38/232 (16.4%)
+# Similarity:    69/232 (29.7%)
+# Gaps:          83/232 (35.8%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         70 RVDGKVRT-CHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEA    118
+                     |:|..:.| .|..||     ...||... ...:.|...|..|..:.....
+LEUC_XANOM        54 RIDANIATPDHNVPT-----TRAERQGG-LESISDEVSRLQVQTLDENCD     97
+
+RS4_CAEEL        119 DFKLCKVKSVRTVNKGVPVL------TTTDGRTIRYPDPH----------    152
+                     ||.:.:.| :....:|:..:      .|..|.|:...|.|          
+LEUC_XANOM        98 DFGILEFK-MNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGAL    146
+
+RS4_CAEEL        153 ---------------------------VKVNDTIVFNISTQKITDSVKFE    175
+                                                |:|..|:.|.::.:.|..:|   
+LEUC_XANOM       147 AHGIGTSEVEHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAV---    193
+
+RS4_CAEEL        176 PGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATRISNVF    225
+                                 :|::|..|                ..||:.....|.:.
+LEUC_XANOM       194 ------------IGKIGTAG----------------GNGHALEFAGSAIR    215
+
+RS4_CAEEL        226 VIG-KGNKALVSLPTGAGIRLSIAEERDKRMA    256
+                     .:. :|...:.::...||.|:.:....:|.:|
+LEUC_XANOM       216 ALSMEGRMTICNMSIEAGARVGMVAVDEKTIA    247
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       8/25 (32.0%)
+# Similarity:    10/25 (40.0%)
+# Gaps:           8/25 (32.0%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        218 ATRISNVFVIGKGNKALVSLPTGAG    242
+                     :|.|:....|..||        |||
+LPT_ESCF3          5 STTITTTITITTGN--------GAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    14/35 (40.0%)
+# Gaps:           5/35 (14.3%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        226 VIGKGNKALVSL-----PTGAGIRLSIAEERDKRM    255
+                     :.|.|.|....|     |...|:....|||..|::
+RL7_THET8         81 ITGLGLKEAKDLAEKGGPVKEGVSKQEAEEIKKKL    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      15/59 (25.4%)
+# Similarity:    28/59 (47.5%)
+# Gaps:           4/59 ( 6.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        200 LPGASDIIHIKDSAGHSFATRISNVFVIGKG-NKALVSLPTGAGIRLSIA    248
+                     |.||.:.|.:  :|.|....||.::.:..:. ::|........|..:|: 
+HEM1_METCA       185 LVGAGETIEL--TARHLTENRIGHLIIANRTFDRAHTLANQFGGFAISL-    231
+
+RS4_CAEEL        249 EERDKRMAQ    257
+                     ||..|.:|:
+HEM1_METCA       232 EELPKHLAK    240
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        125 VKSVRTVNKGVPVLTTTDGRTIRYPDP    151
+                     ||::....:|..|.:.|:..|:..|.|
+XYLB_KLEPN        12 VKAILLNEQGEVVASHTEKLTVSRPHP     38
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      29/123 (23.6%)
+# Similarity:    47/123 (38.2%)
+# Gaps:          38/123 (30.9%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         19 LDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKYAL-----NYTEAKKI     63
+                     ::.|.|..|..|..||...|.::   |:|..|.:.||     ..|:.:::
+RECR_NOVAD         6 IEALSGALARLPGLGPRSARRAV---LWLIKRRETALPQLLNALTQVQEL     52
+
+RS4_CAEEL         64 LTQRVVRVDGKVRTCHKFPTGF-----------------MDVVAIERTNE     96
+                     |.:  ..|.|.|.|.:  |.|.                 .|:.|::|...
+RECR_NOVAD        53 LVE--CGVCGNVDTSN--PCGICTDHRRDQRSICVVEEVADLWALDRARL     98
+
+RS4_CAEEL         97 YFRMLYDTKGRYVV--HRIQAAE    117
+                     :       .|:|.|  .|:.|.|
+RECR_NOVAD        99 F-------TGKYHVLGGRLSALE    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      32/166 (19.3%)
+# Similarity:    58/166 (34.9%)
+# Gaps:          52/166 (31.3%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         86 MDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGV    135
+                     ::.:|.|.:::.:.:..:|....|.|.:...: ..:|.:|...|...||.
+SURE_METNO        19 LEEIARELSDDVWVVAPETDQSGVSHSLSLND-PLRLRRVAETRFAVKGT     67
+
+RS4_CAEEL        136 PVLTTTDGRTIRYPDPHVKVNDTIVF---NISTQKITDSVKFEPGNLAYV    182
+                     |                   :|.::.   :|..::..|.|      |:.|
+SURE_METNO        68 P-------------------SDCVIMGVRHILKERGPDLV------LSGV     92
+
+RS4_CAEEL        183 TGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFAT-------RISNVF    225
+                     ..|:||              |.|:.:....||....|       .:|..:
+SURE_METNO        93 NRGQNV--------------AEDVTYSGTVAGAMEGTILGVRSIALSQAY    128
+
+RS4_CAEEL        226 VIGKGNKALVSLPTGA    241
+                       |.|.:|.|...|.|
+SURE_METNO       129 --GVGGRANVKWHTAA    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      10/33 (30.3%)
+# Similarity:    12/33 (36.4%)
+# Gaps:          15/33 (45.5%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         11 LAAPSH----WML-----------DKLGGVFAV     28
+                     |..|.|    |..           :|||||.|:
+CYB_ARTIO        262 LITPPHIKPEWYFLFAYAILRSIPNKLGGVLAL    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      51/236 (21.6%)
+# Similarity:    80/236 (33.9%)
+# Gaps:          67/236 (28.4%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         13 APSHWMLDKLGGVFAVRPNPGPHKLRE----SLPLSLFLRNRL--KYALN     56
+                     ||..|..|.:       |..|.....|    .:.|:.|..:.:  ||..|
+IOLE_BACHK        12 APIAWTNDDM-------PELGAENTFEQCISEMALAGFNGSEVGNKYPRN     54
+
+RS4_CAEEL         57 YTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYF----RMLY    102
+                     ....||.|..|.:.:     ....|.| |:....||.|.|.|    ..|:
+IOLE_BACHK        55 TVVLKKSLELRNLEI-----ASAWFST-FLTTKPIEETVEEFIKHRDFLH     98
+
+RS4_CAEEL        103 DTKGRYVV-----HRIQAAEADFKLCKVKSVRTVNKGVPVLTTTD-----    142
+                     ....:.:|     |.||.. .|..|.|.|         ||.|..:     
+IOLE_BACHK        99 GMGAKVIVVSEQGHSIQGL-MDVPLFKNK---------PVFTEEEWEKLA    138
+
+RS4_CAEEL        143 ------GRTIRYPDPHVKVNDTIVFNIST----QKITD-------SVKFE    175
+                           |:..:....|:..:..:...:.|    :|:.|       |:.|:
+IOLE_BACHK       139 DGLHHLGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFD    188
+
+RS4_CAEEL        176 PGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKD    211
+                     .|:|.:      .|...:...::.||.... :|:||
+IOLE_BACHK       189 TGHLVF------SGEEPLYILKKYLPRIKH-VHLKD    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      39/170 (22.9%)
+# Similarity:    66/170 (38.8%)
+# Gaps:          38/170 (22.4%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         51 LKYALNYTEAKKILTQRVV-RVDGKVRTCHKFPTGFMD-VVAIERTNEYF     98
+                     ||:.|.....::::|:.:| |:            |..| :..||...|..
+ACKA_STAAT        15 LKFQLIRMPEEELVTKGLVERI------------GLKDSIFTIEVNGEKV     52
+
+RS4_CAEEL         99 RMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRY    148
+                     :.:.|.|     ..::|  .|..|...|:...:|.    :...||...|.
+ACKA_STAAT        53 KTVQDIK-----DHVEA--VDIMLDAFKAHNIIND----INDIDGTGHRV     91
+
+RS4_CAEEL        149 PDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRN-VGRVGIIGHR    197
+                     .....|..:::.       |||.|:.|...|:.:....| ...:||...|
+ACKA_STAAT        92 VHGGEKFPESVA-------ITDEVEKEIEELSELAPLHNPANLMGIRAFR    134
+
+RS4_CAEEL        198 ERLPGASDIIHIK--DSAGH    215
+                     :.||   :|.|:.  |:|.|
+ACKA_STAAT       135 KLLP---NIPHVAIFDTAFH    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      16/65 (24.6%)
+# Similarity:    27/65 (41.5%)
+# Gaps:          19/65 (29.2%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        192 GIIGHRERLPGASDIIHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGA    241
+                     |.:.|      |...:||.:..|.:...::..||      ||.     |.
+HIS7_BURTA       140 GFVNH------AGVTLHIDNLRGVNAHHQLETVF------KAF-----GR    172
+
+RS4_CAEEL        242 GIRLSIAEERDKRMA    256
+                     .:|:::  |.|:|.|
+HIS7_BURTA       173 ALRMAV--ELDERAA    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      19/85 (22.4%)
+# Similarity:    35/85 (41.2%)
+# Gaps:          20/85 (23.5%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        162 NISTQKITDSVKF---EPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIH    208
+                     |:|.:.:..:::|   :|..|             |:.|.| :..|.....
+PTH_GEOLS         68 NLSGRSVMPALQFYKLKPDQL-------------IVVHDE-IDLALGAAR    103
+
+RS4_CAEEL        209 IKDSAGHSFATRISNVF-VIGKGNKALVSLPTGAG    242
+                     :|...||.....:.::. ::|||:  .|.|..|.|
+PTH_GEOLS        104 LKQGGGHGGQNGLRSIMELLGKGD--FVRLRLGIG    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      13/52 (25.0%)
+# Similarity:    21/52 (40.4%)
+# Gaps:           9/52 (17.3%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        136 PVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGG    185
+                     |...|::..:.:.|     |...:...:||..|.|    |.||..::..|
+TAF3_XENLA       746 PSALTSNAGSSKTP-----VRSVVTETVSTYVIRD----EWGNQIWICPG    786
+
+RS4_CAEEL        186 RN    187
+                     .|
+TAF3_XENLA       787 CN    788
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      36/160 (22.5%)
+# Similarity:    55/160 (34.4%)
+# Gaps:          60/160 (37.5%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         62 KILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVV-    110
+                     ||:.||  |:.....|.|        :...|.::::..:.|.....::| 
+DNLJ_CROS5       218 KIVDQR--RLQFFAYTLH--------LEEAEISSQWESLNYLENSGFLVN    257
+
+RS4_CAEEL        111 -HRIQAAEADFKLCK--------VKSVRTVNKGVPVLTTTDGRTI-----    146
+                      ||        |||:        .|...|..|.:|.:  |||..:     
+DNLJ_CROS5       258 PHR--------KLCQFLDEVEAYFKQWETARKDLPYM--TDGVVVKINNY    297
+
+RS4_CAEEL        147 -------------------RYP---DPHVKVNDTIVFNIS-TQKITDSVK    173
+                                        :||   .|.:..|  ||.|:. |..:|....
+DNLJ_CROS5       298 SLQKALGFTQKFPRWAIALKYPAEEAPTLVKN--IVVNVGRTGAVTPMAV    345
+
+RS4_CAEEL        174 FEPGNLAYVT    183
+                     .||.:||..|
+DNLJ_CROS5       346 MEPVHLAGTT    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 338
+# Identity:      77/338 (22.8%)
+# Similarity:   116/338 (34.3%)
+# Gaps:         113/338 (33.4%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         11 LAAPSHW--------MLDKLGGVFAVRPNPGPHKLRESL----PLSLFLR     48
+                     |||.| |        :|:...|.|.....||..:|.|||    |..|.:.
+MUTS_MYXXD       135 LAAVS-WNDKGWGAALLEASTGEFMALEAPGIAELAESLSRVEPRELLVP    183
+
+RS4_CAEEL         49 NRLKYALNYTEAKKILTQRVVR----VDGKVRTCHKFPT---GFM-DVVA     90
+                     :..:.|   .|..::|. |:||    .:|:..:..  ||   |:: ...|
+MUTS_MYXXD       184 DGKRDA---PEVAQLLA-RLVRTPAVAEGEAASFE--PTRAAGYLRSHFA    227
+
+RS4_CAEEL         91 IERTNEY---------------FRMLYDTKGRYVVH--RIQAAEADFKLC    123
+                     ::..:.:               .|.|.||:.....|  |:...|....|.
+MUTS_MYXXD       228 VQSLSAFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQERGGNLL    277
+
+RS4_CAEEL        124 KVKSVRTVNKGVPVLTTTDGRTIRYPDPHVK-----VNDTIVFNISTQKI    168
+                     ..:|.|.   .:.||     |::|  |...|     |.|..|.::..:|:
+MUTS_MYXXD       278 MDESSRA---NLEVL-----RSLR--DGGRKGSLLGVLDKTVTSLGARKL    317
+
+RS4_CAEEL        169 TDSVKFEPGNLAYV---------TGGRNVGR---VGI---IGHRERLPG-    202
+                     ...:....|:|..:         ..||:|.|   .||   :|..|||.| 
+MUTS_MYXXD       318 ARWLASPLGSLPEIHARLDAVEELSGRSVWREELAGILKEVGDLERLCGR    367
+
+RS4_CAEEL        203 -------ASDIIHIKDSAGHSFATRISNVFVIGKGNKAL-----------    234
+                            |.|:    .:.|.|.|.....|.|:.:....|           
+MUTS_MYXXD       368 LSLGAGNARDL----RALGLSLAQLPRVVAVLARCESPLLKSLTGPLSAL    413
+
+RS4_CAEEL        235 ----------------VSLPTGAGIRLSIAEERDKRMA    256
+                                     |:|..|..||.....|.||.:|
+MUTS_MYXXD       414 PELAELLSRAVAEEPPVTLKDGGMIRAGFHAELDKLVA    451
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      31/125 (24.8%)
+# Similarity:    48/125 (38.4%)
+# Gaps:          27/125 (21.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          5 KKHLKRLAAPSHWMLD-KLGG-VFAVRPNPGPHKLRESLPLSLFLRNRL-     51
+                     |.:||..|.|....:| |:|| |:...|..|.:.:.|     :.:||.: 
+NOSO_STAAC       194 KLNLKWYAVPIISNMDLKIGGIVYPTAPFNGWYMVTE-----IGVRNFID    238
+
+RS4_CAEEL         52 KYALNYTEAKKILTQRVVRVDGKVRTCHKFPT----GFMDVVAIERTNEY     97
+                     .|..|..|              ||....:|.|    .|....|:...|..
+NOSO_STAAC       239 DYRYNLLE--------------KVADAFEFDTLKNNSFNKDRALVELNYA    274
+
+RS4_CAEEL         98 FRMLYDTKGRYVVHRIQAAEADFKL    122
+                     ....:..:|..:|..:.||: .|:|
+NOSO_STAAC       275 VYHSFKKEGVSIVDHLTAAK-QFEL    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        204 SDIIHIKDSAGHSFA    218
+                     :|::.:.::.|..||
+RBM8A_MOUSE        2 ADVLDLHEAGGEDFA     16
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       6/19 (31.6%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         39 ESLPLSLFLRNRLKYALNY     57
+                     |.:.||||:...:....|:
+NU4LM_ARCPU       34 EGMMLSLFVMMSMTILSNH     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      46/198 (23.2%)
+# Similarity:    74/198 (37.4%)
+# Gaps:          45/198 (22.7%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         64 LTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYV----    109
+                     |...::..||::|...:.||      ...:|.|..|   |.....|    
+NANK_ECOLI        13 LAAALIGADGQIRDRRELPT------PASQTPEALR---DALSALVSPLQ     53
+
+RS4_CAEEL        110 VHRIQAAEADFKLCKVKSVRTVNK----GV---PVLTTTDGRTIRYPDPH    152
+                     .|..:.|.|...:.:..|:..:|.    |:   |::.|.:..|..   |.
+NANK_ECOLI        54 AHAQRVAIASTGIIRDGSLLALNPHNLGGLLHFPLVKTLEQLTNL---PT    100
+
+RS4_CAEEL        153 VKVNDT-----IVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHR    197
+                     :.:||.     ..|......|||.|        ::|....||. |::...
+NANK_ECOLI       101 IAINDAQAAAWAEFQALDGDITDMV--------FITVSTGVGG-GVVSGC    141
+
+RS4_CAEEL        198 ERLPGASDII-HIKDSAGHSFATRISNVFVIGKGNKALV-SLPTGAGI    243
+                     :.|.|...:. ||    ||:.|.  .:..|.|.|....| ::.:|.||
+NANK_ECOLI       142 KLLTGPGGLAGHI----GHTLAD--PHGPVCGCGRTGCVEAIASGRGI    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      35/163 (21.5%)
+# Similarity:    65/163 (39.9%)
+# Gaps:          42/163 (25.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         39 ESLPLSLFLRNRLKYALNYT-EAKKILTQRVVRVD-GKVRTCHK------     80
+                     |:||..  ..|.||..:|.. ...|..|..:|.:. ||:|:..|      
+MIAB_MYCPE       189 ENLPSK--RTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDE    236
+
+RS4_CAEEL         81 ----FPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVK    126
+                         ...|:.:|..|.:....:.:.:|....|:.:.:.   .|.....::
+MIAB_MYCPE       237 VHQMISEGYKEVTLIGQNVNSYGIDFDNGENYLFNNLL---EDVAKTGIE    283
+
+RS4_CAEEL        127 SVRTVNKGVPVLTTTD----GRTI-----RYPD--PHVKV-----NDTIV    160
+                     .||        .||::    .|:|     :||:  ||:.:     ::||:
+MIAB_MYCPE       284 RVR--------FTTSNPWNFTRSIVDTMKKYPNIMPHIHLPIQSGDETIL    325
+
+RS4_CAEEL        161 FNIS-TQKITDSV    172
+                     ..:: ..||.|.:
+MIAB_MYCPE       326 KKMNRPMKIGDYI    338
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      28/125 (22.4%)
+# Similarity:    50/125 (40.0%)
+# Gaps:          40/125 (32.0%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         70 RVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEAD    119
+                     |.||   .|...|:|         :..|.:.|    |..::|  .:.|| 
+NADK_STAES       149 RGDG---LCISTPSG---------STAYNKAL----GGALIH--PSLEA-    179
+
+RS4_CAEEL        120 FKLCKVKSV-----RTVNKGVP---------VLTTTDGRTIRYPDPHVKV    155
+                     .::.::.|:     |||  |.|         ::|..:..|||....||.:
+NADK_STAES       180 MQIAEIASINNRVFRTV--GSPLVLPKHHTCLITPVNHDTIRTTIDHVSI    227
+
+RS4_CAEEL        156 N----DTIVFNISTQKITDSVKFEP    176
+                     .    :.|.:.::.:|:. ..:|.|
+NADK_STAES       228 KHKNVNAIQYRVANEKVR-FARFRP    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      58/268 (21.6%)
+# Similarity:    90/268 (33.6%)
+# Gaps:         119/268 (44.4%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         28 VRPNPGPHKLRESLP-----LSLFLRN-RLKYALNYTE------AKKILT     65
+                     ||......|.:|..|     |.|||.| :::...::.|      |::.|.
+TRPG_CAEEL      1604 VRTRLSCSKSQERNPMFDFSLKLFLDNDQIEKLHDFEEDCMEDLARQKLN   1653
+
+RS4_CAEEL         66 -------QRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYD-----    103
+                            ||::|.|                   .||::....|.|     
+TRPG_CAEEL      1654 EKNTSNEQRILRAD-------------------IRTDQILNRLIDLQAKE   1684
+
+RS4_CAEEL        104 TKGRYVVHRIQA-------AEADFKLCKVKSVRTVNKGVPVLTTTDGRTI    146
+                     :.||.|::.:::       |:.:...| |:::...|..    .|..||..
+TRPG_CAEEL      1685 SMGRDVINDVESRLASVEKAQNEILEC-VRALLNQNNA----PTAIGRCF   1729
+
+RS4_CAEEL        147 R-YPDPHVK-VNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGII    194
+                     . .|||.|: .|.|                 ||.|..             
+TRPG_CAEEL      1730 SPSPDPLVETANGT-----------------PGPLLL-------------   1749
+
+RS4_CAEEL        195 GHRERLPGASDIIHIKD-SAGHSFATRISNVFVIGKGNKALVSLPTGAGI    243
+                         :|||...|:..|| .:|.:     ||            |||.|. |
+TRPG_CAEEL      1750 ----KLPGTDPILEEKDHDSGEN-----SN------------SLPPGR-I   1777
+
+RS4_CAEEL        244 RLS---------IAEERD    252
+                     |.:         ::|||:
+TRPG_CAEEL      1778 RRNRTATICGGYVSEERN   1795
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      42/233 (18.0%)
+# Similarity:    76/233 (32.6%)
+# Gaps:          77/233 (33.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         27 AVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKKILTQRVVRVDGKVR     76
+                     ::|..|.|     .:|..|.:|.   ||....:|:      ::||:....
+MSHD_MYCMM       139 SLRQLPEP-----VIPNGLQIRT---YAGTEDDAE------LLRVNNAAF    174
+
+RS4_CAEEL         77 TCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVK    126
+                     ..|....|:.:....||..|.:   :|..|.::.  ::.:|         
+MSHD_MYCMM       175 AYHPEQGGWTEADLAERRGEPW---FDPAGLFLA--LEGSE---------    210
+
+RS4_CAEEL        127 SVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEP    176
+                     ......:|.|.|.......|...||.:                       
+MSHD_MYCMM       211 GAEDSPRGQPRLLGFHWTKIHLDDPGL-----------------------    237
+
+RS4_CAEEL        177 GNLAYVTG------GRNVGR----VGIIGHRERLPG--------------    202
+                     |.: ||.|      ||.:||    :|:....:||..              
+MSHD_MYCMM       238 GEV-YVLGVDPAAQGRGLGRTLTMIGLRSLAQRLGDRDLGRESTVMLYVE    286
+
+RS4_CAEEL        203 ASDIIHIKDSAGHSFATR-ISNVFVIGKGNKAL    234
+                     :.:|..::...|..|:|. :...:.:...:.||
+MSHD_MYCMM       287 SDNIAAVRTYQGLGFSTHSVDTAYALAAPDAAL    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      28/101 (27.7%)
+# Similarity:    38/101 (37.6%)
+# Gaps:          24/101 (23.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        110 VHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTI    159
+                     :||.....||  |..|.|:......:......||..:     || ||   
+PAND_THEFY        10 IHRATVTHAD--LHYVGSITIDADLMDAANLVDGEQV-----HV-VN---     48
+
+RS4_CAEEL        160 VFNISTQKITDSVKFEPGNLAYV-TGGRNVGRVGIIGHRERLPGASDIIH    208
+                             ||:..:.    :.|| ||.|..|.:||.|...||....|::.
+PAND_THEFY        49 --------ITNGHRL----VTYVLTGERGSGVIGINGAAARLVAPGDLVI     86
+
+RS4_CAEEL        209 I    209
+                     |
+PAND_THEFY        87 I     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      20/91 (22.0%)
+# Similarity:    29/91 (31.9%)
+# Gaps:          17/91 (18.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        127 SVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEP    176
+                     |.|||.: ...:|....||....:|.................||.:...|
+LIPA_ASPOR        14 SARTVPQ-TGSITPISRRTYATTEPSPSATGAPATARKRTNFTDKLNAGP     62
+
+RS4_CAEEL        177 GNLAYVTGGRN-------------VGRVGIIGHRE---RLP    201
+                     ....:|:||.:             ...||..|.::   |||
+LIPA_ASPOR        63 SFADFVSGGEDNAPLEPSEAYALKTAMVGPAGRKKEMTRLP    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      25/109 (22.9%)
+# Similarity:    35/109 (32.1%)
+# Gaps:          27/109 (24.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         99 RMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGV-PVLTTTDGRTIR    147
+                     |.|..|.|......:|....||.:.:..|......|. ...:..|.|||:
+FLGI_PECAS       177 RELPSTFGTSNTIMLQLKNDDFSMAQKVSDAINRSGYGGTASPLDSRTIQ    226
+
+RS4_CAEEL        148 YPDPH--------------VKVN-----DTIVFNISTQKIT-------DS    171
+                     ...||              ::||     ..:|.|..|..:.       ||
+FLGI_PECAS       227 VLAPHGNSSQVRFLADVQNIEVNVGIQDAKVVINSRTGSVVMNRDVTLDS    276
+
+RS4_CAEEL        172 VKFEPGNLA    180
+                     .....|||:
+FLGI_PECAS       277 CAIAQGNLS    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      37/181 (20.4%)
+# Similarity:    72/181 (39.8%)
+# Gaps:          52/181 (28.7%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         83 TGFMDVVAIERTNEYFRMLYDTK--GRYVVHRIQAAEADFKLCKVKSVRT    130
+                     :|| |.:.:..:|....|.|.|.  .::.:|::                 
+LDH_BORAP        112 SGF-DGIFVIASNPVDIMTYVTMKYSKFPIHKV-----------------    143
+
+RS4_CAEEL        131 VNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLA    180
+                     :..|    |..|...:||     .::|.  ||::||.|...|..|.|:.:
+LDH_BORAP        144 IGTG----TILDTSRLRY-----FLSDR--FNVNTQNIHSYVMGEHGDSS    182
+
+RS4_CAEEL        181 YVTGGR------------NVGRVGIIG----HRERLPGASDIIHIKDSAG    214
+                     :||...            :.|::..:.    |::.:..|.::|.:|.:..
+LDH_BORAP        183 FVTWDETKIAMKPLSEYLSEGKITELELDEIHKKVVNAAYEVIKLKGATY    232
+
+RS4_CAEEL        215 HSFATRISNVF--VIGKGNKALVSLPTGAGI    243
+                     ::....|.|:.  :||..|   :.||..:.|
+LDH_BORAP        233 YAIGLGIKNIVNAIIGDQN---IILPISSYI    260
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          15/64 (23.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        155 VNDTIVFNISTQKI------------TDSVKFEPGNLAY---VTGGRNVG    189
+                     :|..:.:.::|.:|            .||..|..|.:.|   |.|..:..
+EXGB_EMENI       111 INQMVQYGLNTIRIPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDA    160
+
+RS4_CAEEL        190 RVGIIGHRERLPGA    203
+                     .:.||......|||
+EXGB_EMENI       161 GMYIIIDLHGAPGA    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      12/57 (21.1%)
+# Similarity:    19/57 (33.3%)
+# Gaps:          26/57 (45.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         19 LDKL---GGVFAVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKKILT     65
+                     ||::   |..|..|...|.|.:.|:.|                       
+KTHY_CHLP8       157 LDRMENSGLEFYQRVRAGYHAILEAEP-----------------------    183
+
+RS4_CAEEL         66 QRVVRVD     72
+                     ||::.:|
+KTHY_CHLP8       184 QRIIMID    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      47/242 (19.4%)
+# Similarity:    69/242 (28.5%)
+# Gaps:          95/242 (39.3%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         63 ILTQR----VVRVD---------GKVRTCHKFPTGF--------------     85
+                     :|.||    :||.|         |::....::|.|.              
+SECA2_MYCTO      341 VLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIETTE    390
+
+RS4_CAEEL         86 ----MDVVAIE-----------------RTNEYFRMLY------------    102
+                         :|.:.::                 ...|..|..|            
+SECA2_MYCTO      391 TGEVLDTITVQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKP    440
+
+RS4_CAEEL        103 ----DTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTT-------    141
+                         |...|  |:...||:.|..:..:..|.  .:|.|||..|       
+SECA2_MYCTO      441 NIREDEADR--VYITTAAKNDGIVEHITEVH--QRGQPVLVGTRDVAESE    486
+
+RS4_CAEEL        142 --DGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVT-GGRNV    188
+                       ..|.:|...|      .:|.|.........|..|.|....|| ..:..
+SECA2_MYCTO      487 ELHERLVRRGVP------AVVLNAKNDAEEARVIAEAGKYGAVTVSTQMA    530
+
+RS4_CAEEL        189 GRVGIIGHRERLPGASDIIHIKDSAGHSFATRISNVFVIGKG    230
+                     ||    |...||.|:       |.|.|.....:..:.|:|.|
+SECA2_MYCTO      531 GR----GTDIRLGGS-------DEADHDRVAELGGLHVVGTG    561
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       3/7 (42.9%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        194 IGHRERL    200
+                     :||:.|:
+DB108_HUMAN       59 LGHQPRI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    17/48 (35.4%)
+# Gaps:          26/48 (54.2%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         12 AAPSHWMLDKLGGVFAVRPNP--------GPHKLRESL------PLSL     45
+                     |||:|            ||.|        .||:.|..|      ||||
+LCMT1_CRYNB       28 AAPAH------------RPAPRPALGRCRPPHRRRRRLRPPVRPPLSL     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      20/100 (20.0%)
+# Similarity:    40/100 (40.0%)
+# Gaps:          32/100 (32.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        186 RNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATRI--SNVFVIGKGNKA    233
+                     ::.|.:.|:.     |.:.:|::|:|.....||.:|  ..:.:...|||.
+PTGA_SALTY        16 KDTGTIEIVA-----PLSGEIVNIEDVPDVVFAEKIVGDGIAIKPTGNKM     60
+
+RS4_CAEEL        234 LV----------------SLPTGAGIRL---------SIAEERDKRMAQK    258
+                     :.                |:.:.:||.|         .:..|..||:|::
+PTGA_SALTY        61 VAPVDGTIGKIFETNHAFSIESDSGIELFVHFGIDTVELKGEGFKRIAEE    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      10/30 (33.3%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           3/30 (10.0%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         48 RNRL--KYALNYTEAKKILTQRVVRVDGKV     75
+                     :.||  ||.|.....||.::: |..:|.|:
+RR14_CRYJA        13 KQRLERKYNLLRQSLKKEMSE-VSSLDDKL     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      10/33 (30.3%)
+# Similarity:    15/33 (45.5%)
+# Gaps:           7/33 (21.2%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RS4_CAEEL          3 GPKKHLKRLAA-----PSHW--MLDKLGGVFAV     28
+                     ||.|:..:..|     |..|  ::|||..:..|
+DCUP_BACVZ       159 GPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIV    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      61/320 (19.1%)
+# Similarity:   105/320 (32.8%)
+# Gaps:         109/320 (34.1%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          6 KHLKRLAAPSH-------WMLDKLGGVFAVRPNPGPHKLRESLPLSLFLR     48
+                     ||      |.|       |:|:...|:..:...|                
+GTF2I_MOUSE      160 KH------PEHYDLATLKWILENKAGISFIIKRP----------------    187
+
+RS4_CAEEL         49 NRLKYALNYTEAKKILTQRVVRVDG--------------KVRTCHKFPTG     84
+                             :.|.||.|..||:..:.              ||:|.....:|
+GTF2I_MOUSE      188 --------FLEPKKHLGGRVLAAEAERSMLSPSGSCGPIKVKTEPTEDSG    229
+
+RS4_CAEEL         85 F---MDVVAIERTNE---YFRMLYDTKGRYVVHRIQAAEADFKLCKVKSV    128
+                     .   |..|.::..:|   |::  |:.:|     ..:....|.||...|::
+GTF2I_MOUSE      230 ISLEMAAVTVKEESEDPDYYQ--YNIQG-----PSETDGVDEKLPLSKAL    272
+
+RS4_CAEEL        129 R------TVNKGVPVLTTTDGRTIRYP-----DPHVKVNDTIV---FNIS    164
+                     :      ..|:|..|....:..|...|     ||.|:|  ||.   ::..
+GTF2I_MOUSE      273 QGSHHSSEGNEGTEVEVPAEDSTQHVPSETSEDPEVEV--TIEDDDYSPP    320
+
+RS4_CAEEL        165 TQKITDSVK------FEPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIH    208
+                     |:::..:..      .||.|    .|.|.|..........|:......:.
+GTF2I_MOUSE      321 TKRLKSTEPPPPPPVPEPAN----AGKRKVREFNFEKWNARITDLRKQVE    366
+
+RS4_CAEEL        209 ----------IKDSAGHS-----FATRISNVFVIGKGNKALVSLPTGAGI    243
+                               ||.....:     |.:.:.:::|.|.........|:..||
+GTF2I_MOUSE      367 ELFERKYAQAIKAKGPVTIPYPLFQSHVEDLYVEGLPEGIPFRRPSTYGI    416
+
+RS4_CAEEL        244 ----RLSIAEERDKRMAQKH    259
+                         |:.:|:||.:.:.:||
+GTF2I_MOUSE      417 PRLERILLAKERIRFVIKKH    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:      51/241 (21.2%)
+# Similarity:    83/241 (34.4%)
+# Gaps:          75/241 (31.1%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         82 PTGF-----MDVVAIERTNEYF-RMLY----DTKGRYVVHRIQAAEADF-    120
+                     |.||     ..:..::|..|.| ..:|    ....|:||..::|..|.| 
+ISPH_ACIF5         8 PRGFCAGVNRAIQIVDRALELFGAPIYVRHEVVHNRHVVEDLRARGAIFV     57
+
+RS4_CAEEL        121 -KLCKVKSVRTV---NKGVPVLT---------------------------    139
+                      :|.:|....||   ..|||:..                           
+ISPH_ACIF5        58 EELDEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATCPLVTKVHMEVK    107
+
+RS4_CAEEL        140 --TTDGRTI----RYPDPHV-----KVNDTIVFNISTQKITDSVKFEPGN    178
+                       :.||..:    ....|.|     :|.:.:::.:|  .::|.....|.|
+ISPH_ACIF5       108 KYSRDGMEMVLIGHAGHPEVEGTMGQVEEGMMYLVS--NVSDVATLAPRN    155
+
+RS4_CAEEL        179 ---LAYVT----GGRNVGRVGIIGHRERL-----PGASDIIHI---KDSA    213
+                        |||:|    ...:...| |:..|.|.     |...||.:.   :..|
+ISPH_ACIF5       156 PDKLAYITQTTLSMDDTAEV-IVALRSRFPLIEGPKKDDICYATQNRQDA    204
+
+RS4_CAEEL        214 GHSFATRISNVFVIGKGNKA----LVSLPTGAGIRLSIAEE    250
+                     ..|.|..:..:.|:|..|.:    |..|.|..|.:..:.|:
+ISPH_ACIF5       205 VKSLAPDVDILLVVGAPNSSNSSRLAELGTRLGTQTHLIED    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       4/7 (57.1%)
+# Similarity:     7/7 (100.0%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        250 ERDKRMA    256
+                     |||:|::
+NDUA1_HUMAN       49 ERDRRIS     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      23/98 (23.5%)
+# Similarity:    35/98 (35.7%)
+# Gaps:          21/98 (21.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        168 ITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSF    217
+                     :...:|.:|..:|:.|.|.|.|.:.....|        |..|..:..|..
+PSRP_SALTI       100 LQQEMKLDPTPIAHRTHGLNPGNLNKYDAR--------IAAIDYTLAHDD    141
+
+RS4_CAEEL        218 ATRISNV---FVIGKGNKALVSLPTGA------GIRLS----IAEERD    252
+                     ...:.|:   .||..|.......||..      |||.:    ||::.|
+PSRP_SALTI       142 GISLRNLDQAQVILLGVSRCGKTPTSLYLAMQFGIRAANYPFIADDMD    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      34/200 (17.0%)
+# Similarity:    65/200 (32.5%)
+# Gaps:          58/200 (29.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         59 EAKKILTQRVVRV----------------DGKVRTCHKFPTGFMDVVAIE     92
+                     :|.||....|:|:                :||....:....|..|:..:|
+DNAK_CHESB       156 DAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGGTFDISILE    205
+
+RS4_CAEEL         93 RTNEYFRMLYDTKG--------------RYVVHRIQAAEA-DFKLCKVKS    127
+                     ..:..|. :..|.|              .|:....:..:. |.|..|:..
+DNAK_CHESB       206 IGDGVFE-VKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDLKNDKLAL    254
+
+RS4_CAEEL        128 VR---TVNKGVPVLTTTDGRTIRYP--------DPHVKVN------DTIV    160
+                     .|   ...|....|:::....|..|        ..|:.:.      :::|
+DNAK_CHESB       255 QRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTRAKFESLV    304
+
+RS4_CAEEL        161 FNISTQKITDSVKFEPGNLAYVTGGRNVGRVG---IIGHRERLPGASDII    207
+                     .::.|:.|      ||...|....|.:.|.:.   ::|...|:|...:.:
+DNAK_CHESB       305 EDLVTRTI------EPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETV    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      33/158 (20.9%)
+# Similarity:    50/158 (31.6%)
+# Gaps:          73/158 (46.2%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+RS4_CAEEL          6 KHLKRLAAPSHWML------DKLGGVFAVRPNPGPHKLRESLP-LSL---     45
+                     :.|:||.|....::      .::||    :|..|..|:..|.| |||   
+DNLJ_ACIC5        42 RKLQRLEAEHPELITPDSPTQRVGG----KPKEGFAKVAHSRPMLSLDNV     87
+
+RS4_CAEEL         46 ----------------------------FLRNRLKYALNYTEAKKILTQR     67
+                                                 :..:.|..||:|.:.:  |.:.
+DNLJ_ACIC5        88 NSEEELRDWERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQ--LARG    135
+
+RS4_CAEEL         68 VVRVDGK--------VRTCH--------------KFPTGF-------MDV     88
+                     :.|.||:        |||..              |.|..|       |..
+DNLJ_ACIC5       136 LTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPF    185
+
+RS4_CAEEL         89 VAIERTNE     96
+                     .|.|:.||
+DNLJ_ACIC5       186 TAFEKLNE    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      26/116 (22.4%)
+# Similarity:    44/116 (37.9%)
+# Gaps:          28/116 (24.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        143 GRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVG    192
+                     |:.:..||...:.:..:|..|.. ::....||:  :..:||         
+CAPSD_CMVO        87 GKRLLLPDSVTEYDKKLVSRIQI-RVNPLPKFD--STVWVT---------    124
+
+RS4_CAEEL        193 IIGHRERLPGASDIIHIKDSAGHSFATRISNVFV-------IGKGNKALV    235
+                         ..::|.:||:.....||  .||...|.|.|       :...||.|.
+CAPSD_CMVO       125 ----VRKVPASSDLSVAAISA--MFADGASPVLVYQYAAFGVQANNKLLY    168
+
+RS4_CAEEL        236 SLPTGAGIRLSIAEER    251
+                     .|   :.:|..|.:.|
+CAPSD_CMVO       169 DL---SAMRADIGDMR    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    20/48 (41.7%)
+# Gaps:           8/48 (16.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        126 KSVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVK    173
+                     |...|..|  |.||......||.|:..      |||...||::..:::
+IF3_CHLL2          3 KQKTTTQK--PKLTYRVNEQIRVPEVR------IVFQDGTQQVMKTIE     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        163 ISTQKITDSV    172
+                     |.|:|:.:||
+CSRA_HAEI8         3 ILTRKVGESV     12
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      43/232 (18.5%)
+# Similarity:    83/232 (35.8%)
+# Gaps:          59/232 (25.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         61 KKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKG---R    107
+                     |:::....:..|.| ||..::  |...:......|..|.   |.:|   .
+COAX_CLOBL        20 KELIANWRLATDNK-RTADEY--GIQVIELFSHNNLSFS---DIEGVIIS     63
+
+RS4_CAEEL        108 YVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKVND    157
+                     .||..|..: .:..:.|..:::.:..|..|.|   |..|:|.:|.....|
+COAX_CLOBL        64 SVVPNIMYS-LEHMISKYFNIKPIIVGPGVKT---GINIKYDNPKEVGAD    109
+
+RS4_CAEEL        158 TIVFNISTQKI-------------------TDSVKFEPGNL---------    179
+                     .||..::..:|                   |....:..|.:         
+COAX_CLOBL       110 RIVNAVAAHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTICPGIKISSD    159
+
+RS4_CAEEL        180 AYVTGGRNVGRVGIIGHRERLPGA---SDIIHIKDSAGHSFATRISNVFV    226
+                     |.......:.||.::    :.||.   :.:..|:....:.:|.::.  ::
+COAX_CLOBL       160 ALFDKAAKLPRVELV----KTPGVICKNTVASIQSGIIYGYAGQVD--YI    203
+
+RS4_CAEEL        227 IGKGNKALVSL--------PTGAGIRLSIAEE    250
+                     :.|..|.::.|        .||...:| |:||
+COAX_CLOBL       204 VSKMKKEMMDLGEEEPFVVATGGFAKL-ISEE    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       5/17 (29.4%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        135 VPVLTTTDGRTIRYPDP    151
+                     |.:|.....:..::|||
+HOP_BOVIN         14 VEILEYNFNKVNKHPDP     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 234
+# Identity:      45/234 (19.2%)
+# Similarity:    76/234 (32.5%)
+# Gaps:          86/234 (36.8%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         26 FAVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKKILTQRVVRVDGKV     75
+                     |.|:|:|      |....|..:|.|....|. ...:.||.:|...|....
+THII_VIBA3         3 FIVKPHP------EIFVKSESVRKRFTKILE-RNIRTILQRRTESVAVFN     45
+
+RS4_CAEEL         76 RTCHKFPTGFMDVVAIERTNE---YFR----MLYDTKGRYVVHRIQAAEA    118
+                     |..|           ||.|:|   ||:    :|..|.|  :.|.::..::
+THII_VIBA3        46 RRDH-----------IEVTSESDKYFKETLEVLTQTPG--IHHSLEVQQS     82
+
+RS4_CAEEL        119 DFKLC-----------------KVKSVRTVNKGVPVLTT-----------    140
+                     :||..                 |..|||...:|....|:           
+THII_VIBA3        83 EFKDLHNIYEQVLERSGALIEGKTFSVRAKRRGKHDFTSIELERYVGGGL    132
+
+RS4_CAEEL        141 ---TDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPG----------    177
+                        .:...::..:|.:    |:...:...|:...::...|          
+THII_VIBA3       133 NQAVESAKVKLKNPDI----TVKVEVENDKLNQVIERHKGLGGFPLGTQE    178
+
+RS4_CAEEL        178 -NLAYVTGGRNVGRVGIIGHRERLPGASDIIHIK    210
+                      .|:.::||.:             .|.|..:|||
+THII_VIBA3       179 DLLSLISGGFD-------------SGVSSYLHIK    199
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      10/39 (25.6%)
+# Similarity:    16/39 (41.0%)
+# Gaps:          10/39 (25.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        151 PHVKVNDTIV------FNISTQKITDSVKFE----PGNL    179
+                     |||...|.||      ..::..|.:|.:.:.    ||.:
+RL13_PSEPG        46 PHVDTGDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGI     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      18/73 (24.7%)
+# Similarity:    29/73 (39.7%)
+# Gaps:           9/73 (12.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        173 KFEPGNLAYVTGGR-NVGRVGIIGHRERLPGASDIIHIKDSAGHSFATRI    221
+                     |:.|....|::..| .:..:.:......|..|.|::....|.|..|    
+RR2_ARATH         26 KWNPRMAPYISAKRKGIHIINLTRTARFLSEACDLVFDAASRGKQF----     71
+
+RS4_CAEEL        222 SNVFVIGKGNKALVSLPTGAGIR    244
+                        .::|..||| ..|.:.|.||
+RR2_ARATH         72 ---LIVGTKNKA-ADLVSRAAIR     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       9/19 (47.4%)
+# Similarity:    13/19 (68.4%)
+# Gaps:           1/19 ( 5.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        232 KALVSLPTGAGIRLSIAEE    250
+                     |.||: ||||.|..::|.:
+Y1710_SYNP2      210 KELVT-PTGAAIATTLATD    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        151 PHVKVNDTIVFNISTQKI    168
+                     |::.|.|.|.|.:..:|:
+WTPC_THEKO        86 PNMSVFDNIAFGLKVRKV    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      34/208 (16.3%)
+# Similarity:    68/208 (32.7%)
+# Gaps:          77/208 (37.0%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+RS4_CAEEL          6 KHL-KRLAAPSHWMLDKLGGVFAVRP----------NPGPHKLRESLPLS     44
+                     :|: :.|...:|.:.|:..|:....|          :....:::|:.|:.
+GRB7_RAT         124 RHVCEMLVQRAHALSDENWGLVECHPYLALERGLEDHESVVEVQEAWPVG    173
+
+RS4_CAEEL         45 -----LFLRNRLKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTG-----     84
+                          :|.:|..||.|..:....:..:::      |.:|...|||     
+GRB7_RAT         174 GDSRFIFRKNFAKYELFKSPPHTLFPEKM------VSSCLDTPTGISHED    217
+
+RS4_CAEEL         85 ----FMDVVAIERTNEYFR------------------------MLYDTKG    106
+                         |::..:......:.:                        :.|.|||
+GRB7_RAT         218 LIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLRRSGLYYSTKG    267
+
+RS4_CAEEL        107 R------------------YVV---HRIQAAEADFKLC-KVKSVRTVNKG    134
+                     .                  |||   .::.....||..| |...:|..:||
+GRB7_RAT         268 TSKDPRHLQYVADINESNVYVVTQGRKLYGIPTDFGFCVKPNKLRNGHKG    317
+
+RS4_CAEEL        135 VPVLTTTD    142
+                     :.:..:.|
+GRB7_RAT         318 LHIFCSED    325
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      15/62 (24.2%)
+# Similarity:    22/62 (35.5%)
+# Gaps:           5/62 ( 8.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        184 GGRNVGRVGII-----GHRERLPGASDIIHIKDSAGHSFATRISNVFVIG    228
+                     |.:.:.||.|.     .|..|.|.|..:..|..|.|......:.......
+PSD_RHOPS         91 GDKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPGKFINAELDKASEDN    140
+
+RS4_CAEEL        229 KGNKALVSLPTG    240
+                     :.|..::|.|.|
+PSD_RHOPS        141 ERNSMVISTPAG    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      43/229 (18.8%)
+# Similarity:    77/229 (33.6%)
+# Gaps:          85/229 (37.1%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         11 LAAPS------------HWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLR     48
+                     |::||            .|....:...|   |:..|      |||...:|
+PP156_ARATH       46 LSSPSLAKKPETLVSFFQWAQTSIPEAF---PSDSP------LPLISVVR     86
+
+RS4_CAEEL         49 NRLKYALNYTEAKKILTQRVVRVDGKVRTCHKF----------PTGFMDV     88
+                     :.|.:. .:.:||.:|...:...|..:..|:..          |:..:..
+PP156_ARATH       87 SLLSHH-KFADAKSLLVSYIRTSDASLSLCNSLLHPNLHLSPPPSKALFD    135
+
+RS4_CAEEL         89 VAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVK---SVRTVNKGV    135
+                     :|:.      ..|::.|....:...|      |:.::|   ::.|.|   
+PP156_ARATH      136 IALS------AYLHEGKPHVALQIFQ------KMIRLKLKPNLLTCN---    170
+
+RS4_CAEEL        136 PVLTTTDGRTIRYP------------DPHVKVNDTI---VFNISTQ----    166
+                        |...| .:|||            |..||:..::   .||:...    
+PP156_ARATH      171 ---TLLIG-LVRYPSSFSISSAREVFDDMVKIGVSLNVQTFNVLVNGYCL    216
+
+RS4_CAEEL        167 --KITDSV----------KFEPGNLAYVT    183
+                       |:.|::          |..|.|:.|.|
+PP156_ARATH      217 EGKLEDALGMLERMVSEFKVNPDNVTYNT    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      20/101 (19.8%)
+# Similarity:    32/101 (31.7%)
+# Gaps:          37/101 (36.6%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        147 RYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTG--GRNVGRVGII    194
+                     |.||..:...:.:....|:.|            ||..|  ..:.|:...:
+ADRB2_MESAU      328 RSPDFRIAFQELLCLRRSSSK------------AYGNGYSSNSNGKTDYM    365
+
+RS4_CAEEL        195 G-----------HRERL----PGASDIIHIK--------DSAGHSFATRI    221
+                     |           ..|||    ||....::.:        ||.|.:.:|..
+ADRB2_MESAU      366 GEASGCQLGQEKESERLCEDPPGTESFVNCQGTVPSLSLDSQGRNCSTND    415
+
+RS4_CAEEL        222 S    222
+                     |
+ADRB2_MESAU      416 S    416
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        245 LSIAEERDKRMAQK    258
+                     :||.::.::|:|.|
+ID5B_ADEPA         8 ISIDDDNNRRLAVK     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      34/151 (22.5%)
+# Similarity:    57/151 (37.7%)
+# Gaps:          46/151 (30.5%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         16 HWMLDKLGGVFAVRPNPG-PHKLRESLPLSLFLRNRLKYALNYTEAKKIL     64
+                     |.||..|..:|.::...| |.::|:|         :|.:|..:.. |:.|
+GPA7_CAEEL        79 HSMLSILRAMFHLQIEYGEPDRVRDS---------QLVFATVHAN-KEEL    118
+
+RS4_CAEEL         65 TQRVVRV------DGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRY    108
+                     |:.:...      |..||.|::            |:|||   ..|...:|
+GPA7_CAEEL       119 TEELAAAMQRLWHDPGVRECYR------------RSNEY---QIDDSAKY    153
+
+RS4_CAEEL        109 VVHRIQ--------AAEADFKLCKVKSVRTVNKGV-PVLTTTDGRTIRYP    149
+                     .:..:.        .:|.|....::|:.     |: .||....|.|.|..
+GPA7_CAEEL       154 FLDNLPRLSSPNYVPSEQDLLRTRIKTT-----GITEVLFELKGLTFRVI    198
+
+RS4_CAEEL        150 D    150
+                     |
+GPA7_CAEEL       199 D    199
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       9/36 (25.0%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           5/36 (13.9%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         82 PTGFMDVVAIERTNEYFRM-----LYDTKGRYVVHR    112
+                     |||.::..|....:....:     |::.||:.:|.|
+IDI_ECO24         15 PTGTLEKYAAHTADTRLHLAFSSWLFNAKGQLLVTR     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      26/119 (21.8%)
+# Similarity:    33/119 (27.7%)
+# Gaps:          46/119 (38.7%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         72 DGKVRTCH-----------------KFPTGFMDVVAIERTNEYFRMLYDT    104
+                     |.|..|||                 .|..|.:....|.|.|         
+YHJA_ECOLI       348 DNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMN---------    388
+
+RS4_CAEEL        105 KGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPV-----LTTTDGRT---I    146
+                             :...|.|....||..:|.|....|.     :.|.||..   :
+YHJA_ECOLI       389 --------VTKEERDKLRQKVPGLRNVALTAPYFHRGDVPTLDGAVKLML    430
+
+RS4_CAEEL        147 RYPD----PHVKVNDTIVF    161
+                     ||..    |...|:|.:.|
+YHJA_ECOLI       431 RYQVGKELPQEDVDDIVAF    449
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      21/91 (23.1%)
+# Similarity:    34/91 (37.4%)
+# Gaps:          11/91 (12.1%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         78 CHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADF-KLCKVK    126
+                     |.|.......|:.:|.. :|.|:...:.|   :.|.....||| :....:
+RIMP_BURPS        44 CEKVTRQLQHVLTVENI-DYERLEVSSPG---LDRPLKKLADFTRFAGSE     89
+
+RS4_CAEEL        127 SVRTVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQK    167
+                     :|.|:.|.:      |||.......|....:||......:|
+RIMP_BURPS        90 AVITLKKPL------DGRKTYRGILHAPNGETIGLEFERKK    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      21/84 (25.0%)
+# Similarity:    32/84 (38.1%)
+# Gaps:          27/84 (32.1%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        175 EPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATRISNV    224
+                     :|...|.||  :|:||.|..|.                     .|::...
+RS28_OSTOS         3 KPVKPAXVT--KNIGRTGSQGQ---------------------CTQVRVE     29
+
+RS4_CAEEL        225 FVIGKGNKAL---VSLPTGAGIRLSIAE-ERDKR    254
+                     |:...||:.:   |..|...|..|::.| ||:.|
+RS28_OSTOS        30 FMDDNGNRTINRNVKGPVREGDILTLLEAEREAR     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      16/70 (22.9%)
+# Similarity:    27/70 (38.6%)
+# Gaps:          27/70 (38.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        152 HVKVNDTIVFNISTQKITDSVK---------------------FEPGNLA    180
+                     |:|.:...|.|    .:||:||                     .:|||.|
+HBAC_LITCT        55 HLKNHGKKVMN----ALTDAVKHLDHPEASLSSLSDLHAFTLRVDPGNFA    100
+
+RS4_CAEEL        181 YVTGGRNVGRVGIIGHRERL    200
+                     .::  .|:..|..:.|.::|
+HBAC_LITCT       101 LLS--NNILVVVAVHHSDKL    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      17/75 (22.7%)
+# Similarity:    33/75 (44.0%)
+# Gaps:           3/75 ( 4.0%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        114 QAAEADFKLCKVKSVRTVNKGVPVLTTTDGR-TIRYPDPHVKVNDTIVFN    162
+                     |.|..|.....:.|.:::||...::..|..| .:...|||.::.:  .||
+RPOA_PRRSS      3355 QGATFDIVTLHLPSPKSLNKSRALVAITRARHGLFIYDPHNQLQE--FFN   3402
+
+RS4_CAEEL        163 ISTQKITDSVKFEPGNLAYVTGGRN    187
+                     :..::...::.|..|:...|....|
+RPOA_PRRSS      3403 LIPERTDCNLVFSRGDDLVVLSADN   3427
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      18/79 (22.8%)
+# Similarity:    33/79 (41.8%)
+# Gaps:          12/79 (15.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         94 TNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVP---VLTT    140
+                     |.::.|::..| |..|:..|.|:     :.||...:.::|||.   ....
+UBIE_PSEAE        83 TRQFSRLVGPT-GEVVLADINAS-----MLKVGRDKLLDKGVSGNVSFVQ    126
+
+RS4_CAEEL        141 TDGRTIRYPDPHVKVNDTIVFNISTQKIT    169
+                     .|...:.:||.|.   |.:......:.:|
+UBIE_PSEAE       127 ADAEKLPFPDNHF---DCVTIAFGLRNVT    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      22/78 (28.2%)
+# Similarity:    33/78 (42.3%)
+# Gaps:          21/78 (26.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        183 TGGRNVGRV----------GIIGHRE----RLPGASDIIHIKDSAGHSFA    218
+                     ||...||:|          |.||..|    .||..:.:  .::.....|.
+FLII_AQUAE       100 TGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPL--YRERIREVFD    147
+
+RS4_CAEEL        219 TRISNV---FVIGKGNKALVSLPTGAGI    243
+                     |.:.:|   |.:|||.|  :.:..|||:
+FLII_AQUAE       148 TGVRSVNALFTLGKGQK--IGIFAGAGV    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      20/72 (27.8%)
+# Similarity:    27/72 (37.5%)
+# Gaps:           8/72 (11.1%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        126 KSVRTVNKGVPVLTTTDGRTIR-YPDPHVKVNDTIVFNISTQKITDSVKF    174
+                     |..:|.|..|...|.|.|.|.. .|.....||.::|.:.:    |.:.|.
+MSS11_VANPO      657 KKPKTPNTNVSASTPTAGNTANSTPVTTSGVNSSVVGSAT----TSNDKR    702
+
+RS4_CAEEL        175 EPGNLAYVTGG---RNVGRVGI    193
+                     .|.|......|   .||..:.|
+MSS11_VANPO      703 TPSNTVANNDGSMQTNVNELDI    724
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      50/301 (16.6%)
+# Similarity:    93/301 (30.9%)
+# Gaps:         104/301 (34.6%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         13 APSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKK     62
+                     |.|.|:|:.:..:...|..|     .::..:.||:.::.......|.:.|
+SPB4_ASPFU        20 ALSEWVLEAMSSMGFTRMTP-----VQASAIPLFMAHKDVVVEAVTGSGK     64
+
+RS4_CAEEL         63 ILT------QRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKG    106
+                     .|:      ::::|::..::..|      :..:.|..|.|....:|:...
+SPB4_ASPFU        65 TLSFLIPVVEKLLRLEEPIKKHH------VGAIIISPTRELASQIYNVLS    108
+
+RS4_CAEEL        107 RYVVHRIQAAEA-----DFKLCKVKSVRTVNKGVP---------------    136
+                     ..:.....:|.|     |....:.|...:..|.||               
+SPB4_ASPFU       109 SLLAFHPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLS    158
+
+RS4_CAEEL        137 --------VLTTTDGRTIR-YPDPHV------------------------    153
+                             ||.:|.||.:. ...|||                        
+SPB4_ASPFU       159 TFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFK    208
+
+RS4_CAEEL        154 -----------KVNDTIVFNISTQKITDS-VKFEPGN----LAYVTGGRN    187
+                                |...|.:|:.|..:..|. |:....|    :..|.||..
+SPB4_ASPFU       209 ETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSG    258
+
+RS4_CAEEL        188 VGRVGIIGHRERLPGASDIIHIKDSAGHSFA-----------TRISNVFV    226
+                     |       ..:|.|.:..:.::.....|.||           |.:..:|.
+SPB4_ASPFU       259 V-------DDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFF    301
+
+RS4_CAEEL        227 I    227
+                     :
+SPB4_ASPFU       302 V    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      18/80 (22.5%)
+# Similarity:    30/80 (37.5%)
+# Gaps:          30/80 (37.5%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RS4_CAEEL        130 TVNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEP-GN    178
+                     |:|.|||                    |.::.... :.:..||..:| ..
+ASSY_MYCTO       209 TINWGVP--------------------DEVIVGFE-RGVPVSVDGKPVSM    237
+
+RS4_CAEEL        179 LAYV------TGGRNVGRVGIIGHRERLPG    202
+                     ||.:      .|.:.|||:.::  .:||.|
+ASSY_MYCTO       238 LAAIEELNRRAGAQGVGRLDVV--EDRLVG    265
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 245
+# Identity:      53/245 (21.6%)
+# Similarity:    80/245 (32.7%)
+# Gaps:          89/245 (36.3%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         24 GVFAVRPNPGPHKLRE----------SLPLSLFLRNRLKYALNYTEAKK-     62
+                     |:|...||.||.:|.:          .||.:|.:.:..:.|   ||:.. 
+ECCB1_MYCS2      233 GLFNALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTA---TESDPQ    279
+
+RS4_CAEEL         63 ---ILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYV    109
+                        :|...|.||:...            ..|:..||.|..|         
+ECCB1_MYCS2      280 HYVVLPDGVARVNNTT------------AAALRATNSYGLM---------    308
+
+RS4_CAEEL        110 VHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTIRYPDPHVKV---N    156
+                       :..|.||.. :.|:.....|:   |:           ||..:.|   .
+ECCB1_MYCS2      309 --QPPAVEASV-VAKIPEQVYVS---PL-----------PDQPLDVLLRQ    341
+
+RS4_CAEEL        157 DTIVFNISTQKITDSVKFEPGNLAYVTGGRNVGRVGIIGHRERLPGASDI    206
+                     |:.|...|.|:       |||:.|..|       ..|.|.|..||     
+ECCB1_MYCS2      342 DSPVLCWSWQR-------EPGDQAPKT-------TVIAGRRLPLP-----    372
+
+RS4_CAEEL        207 IHIKDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRLSIAEER    251
+                            .::..|.|..:     |..:.|.:..|..:||...:.|
+ECCB1_MYCS2      373 -------ANAIGTGIDQI-----GGDSTVYIEGGQFVRLQSPDPR    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      19/86 (22.1%)
+# Similarity:    38/86 (44.2%)
+# Gaps:          12/86 (14.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+RS4_CAEEL        166 QKITDSVKFEPG-NLAYVTGGRNVGR----VGIIGHRERLP-GASDIIHI    209
+                     :::||::..:.. .:.:|.||...|:    ..|:.|...:. .|.|::..
+KCY4_ORYSJ        15 EEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEHFGFIHLSAGDLLRA     64
+
+RS4_CAEEL        210 KDSAGHSFATRISNVFVIGKGNKALVSLPTGAGIRL    245
+                     :..:|....|.|.|:...||      .:|:...|:|
+KCY4_ORYSJ        65 EIKSGSENGTMIENMIKEGK------IVPSEVTIKL     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      36/168 (21.4%)
+# Similarity:    60/168 (35.7%)
+# Gaps:          33/168 (19.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         51 LKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRM    100
+                     ||..|..|....|    .|...|::...|.:|       .:::|:.:...
+HCP_TRIV2        249 LKAVLEQTSGTGI----KVYTHGELLPAHGYP-------KLKQTHPHLYG    287
+
+RS4_CAEEL        101 LYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRT-----    145
+                     .|.|..:...|       :|:......|.|.|..:|...|...:.     
+HCP_TRIV2        288 HYGTAWQNQTH-------EFERFPGAIVMTTNCLMPPHETYKDKVFTLGP    330
+
+RS4_CAEEL        146 IRYPD-PHVKVNDTIVFNISTQKITDSVKF-EPGNLAYVTGGRNVGRVGI    193
+                     :.||. .|:.::|   .::..||..:...| |......||.|  ..|..:
+HCP_TRIV2        331 VGYPGLQHISIHD---ISLVIQKALELPGFTEDSEQKTVTTG--FARNAV    375
+
+RS4_CAEEL        194 IGHRERLPGA---SDIIH    208
+                     :|..:.:..|   .||.|
+HCP_TRIV2        376 LGVADTVINAVKQGDIRH    393
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      46/184 (25.0%)
+# Similarity:    72/184 (39.1%)
+# Gaps:          63/184 (34.2%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+RS4_CAEEL         16 HW--------MLDKLGGVFAVR-PNPG----------PHK--LRESL---     41
+                     ||        :.||..|..:.| .|||          .|:  .||.:   
+UBX7_YEAST       100 HWEKLLACIGIKDKKAGESSSRETNPGLAREEKSSRDVHRKNARERIAET    149
+
+RS4_CAEEL         42 PLSLFLRNRLKY-ALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMDVVA     90
+                     .|.:..|.:||. .|...|.::|:  |:||.|...|.            |
+UBX7_YEAST       150 TLEIQRREQLKQRKLAEEERERII--RLVRADRAERK------------A    185
+
+RS4_CAEEL         91 IERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTT    140
+                     ::.|  :.|.|.|.|...|...|:.|:      |:.|    :|.|..:..
+UBX7_YEAST       186 LDET--HHRTLDDDKPLDVHDYIKDAQ------KLHS----SKCVLQIRM    223
+
+RS4_CAEEL        141 TDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKF    174
+                     |||:|:::.           || |::.:.|..|:
+UBX7_YEAST       224 TDGKTLKHE-----------FN-SSETLNDVRKW    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      19/85 (22.4%)
+# Similarity:    31/85 (36.5%)
+# Gaps:          11/85 (12.9%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         69 VRVDGKVRTCHKFPT------GFMDVVAIERTNEYFRMLYDTKGRYVVHR    112
+                     ||:||   ..|:|.:      ...|:| :.......||..|...|..|..
+RPOA_ACICJ        69 VRIDG---VLHEFSSIAGVREDVTDIV-LNIKQIAVRMHGDGPKRMTVSA    114
+
+RS4_CAEEL        113 IQAAEADFKLCKV-KSVRTVNKGVPVLTTTDGRTI    146
+                     ....|....:.:. ..:..:|..:.:.|..||.|:
+RPOA_ACICJ       115 TGPCEVTAGMIQTGHDIEVMNPELVICTLDDGATL    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      21/74 (28.4%)
+# Similarity:    32/74 (43.2%)
+# Gaps:           8/74 (10.8%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         33 GP---HKLRESLPLSLFLRNRLKYALNYTEAKKILTQRVVRVDGKVR--T     77
+                     ||   .:|.||..|.:...:|...||   |||:::.:.....||:|.  |
+YXAD_BACSU        49 GPARVKELAESFKLDISTLSRQAAAL---EAKELIYRFSDPSDGRVSLFT     95
+
+RS4_CAEEL         78 CHKFPTGFMDVVAIERTNEYFRML    101
+                     ..|.....:.....:|...|.:||
+YXAD_BACSU        96 ITKLGKQLLKADQQKRLERYEQML    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RS4_CAEEL
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      43/208 (20.7%)
+# Similarity:    67/208 (32.2%)
+# Gaps:          92/208 (44.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+RS4_CAEEL         38 RESLPLSLFLRNRLKYALNYTEAKKILTQRVVRVDGKVRTCHKFPTGFMD     87
+                     |:..||:|   .:|:..:::|.||.:    |..|.||     .:|.....
+FADB_SHESR       217 RKMSPLTL---PKLEAMMSFTTAKGM----VFAVAGK-----HYPAPMAA    254
+
+RS4_CAEEL         88 VVAIERTNEYFRMLYDTKGR----YVVHR--IQAAEADF-----------    120
+                     |..:|:.        .||||    .:.|:  |:.|:.|.           
+FADB_SHESR       255 VSVVEQA--------ATKGRSDALQIEHQAFIKLAKTDVAKALIGIFLND    296
+
+RS4_CAEEL        121 -----------KLCK-VKSV--------------RTVNKGVPV-------    137
+                                ||.| |||.              ::.:||.|:       
+FADB_SHESR       297 QLVKGKAKKAGKLAKDVKSAAVLGAGIMGGGIAYQSASKGTPIVMKDIAQ    346
+
+RS4_CAEEL        138 -------------LTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKF    174
+                                  |:....|....|:...||         ...||.::.:
+FADB_SHESR       347 PALDLGLGEAAKLLSAQVARGRSTPEKMAKV---------LNNITPALDY    387
+
+RS4_CAEEL        175 EPGNLAYV    182
+                     .|.|.|.|
+FADB_SHESR       388 APVNHADV    395
+
+
+#---------------------------------------
+#---------------------------------------

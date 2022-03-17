@@ -1,0 +1,2700 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:08
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/RBM8A_MOUSE.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/RBM8A_MOUSE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/RBM8A_MOUSE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    16/32 (50.0%)
+# Gaps:           4/32 (12.5%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       69 SVEGWILFVTGVHE----EATEEDIHDKFAEY     96
+                     |.:|.:..:.||.|    ..|.::|.|.||.:
+PUR7_VIBVU       173 STKGILKGIPGVPEADDVNITRQNIADNFAAF    204
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:     8/19 (42.1%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       77 VTGVHEEATEEDIHDKFAE     95
+                     :|..|.:..|:....|..|
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLE     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      27/116 (23.3%)
+# Similarity:    45/116 (38.8%)
+# Gaps:          45/116 (38.8%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       60 DGDEPGPQRSVEGWILFVTG---VH---------------EEA---TEED     88
+                     ||:.||..:      :||.|   ||               |.|   .:::
+Y3584_PSEAB       37 DGNPPGSLK------VFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDE     80
+
+RBM8A_MOUSE       89 IHDKFA-----EYGEIKNIHLNLDRRTGYLKGYTLV---EYETYKEAQAA    130
+                     |...:.     |.|:.:::.:.||      :.||..   .:|.|:|....
+Y3584_PSEAB       81 IMAVYTPPEGYEDGDGRDLQVYLD------QNYTNALGPLHEDYRERAIP    124
+
+RBM8A_MOUSE      131 MEGLNGQDLMGQPISV    146
+                     |||..|:    ||:.:
+Y3584_PSEAB      125 MEGFEGE----QPLHI    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      20/71 (28.2%)
+# Similarity:    29/71 (40.8%)
+# Gaps:          10/71 (14.1%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       59 QDGD-EPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLD    107
+                     |||| .|......|.::|       ||..|.:..:|.:..::..|.:. |
+BPT_HAHCH        119 QDGDMYPPTLDQYESFLL-------EARSETLFIEFRKDSKLLAIAVT-D    160
+
+RBM8A_MOUSE      108 RRTGYLKG-YTLVEYETYKEA    127
+                     |.|..|.. ||..:....|.|
+BPT_HAHCH        161 RTTDGLSAIYTFFDPNEDKRA    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       9/33 (27.3%)
+# Similarity:    12/33 (36.4%)
+# Gaps:           3/33 ( 9.1%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       37 GRGFGSEE---GSRARMREDYDSVEQDGDEPGP     66
+                     |:.|...|   |..:.....||:....|...||
+KDPC_CAUVN        58 GQVFAKPEYFHGRPSAAGAGYDASASSGSNMGP     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     9/16 (56.2%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       88 DIHDKFAEYGEIKNIH    103
+                     |:...||.||..:.||
+LPXH_XYLFM       186 DVAAMFACYGVNRMIH    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      126 EAQAAMEGLNGQDLMGQPIS    145
+                     ||:..|..|.|..|.|:.::
+YERI_SCHPO        34 EAETLMHDLVGSGLTGKQVA     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    16/32 (50.0%)
+# Gaps:           0/32 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      105 NLDRRTGYLKGYTLVEYETYKEAQAAMEGLNG    136
+                     ||.:..|.:|....|::|..:....|:.|.||
+RBSA_RUEST        11 NLTKSFGPVKALKGVDFELRRGEIHAIAGENG     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       6/9 (66.7%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      108 RRTGYLKGY    116
+                     ||.||..||
+KR195_HUMAN       33 RRLGYGGGY     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      13/50 (26.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:          13/50 (26.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        9 EAGGEDFAMDEDGDES---IHKLKEKAK----------KRKGRGFGSEEG     45
+                     :||....|:.:.|.|:   ::..|:.||          .:|.|||....|
+UPPP_CORDI        46 DAGASFTAVVQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMG     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      19/88 (21.6%)
+# Similarity:    33/88 (37.5%)
+# Gaps:          21/88 (23.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       51 REDYDSVEQD------GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFA     94
+                     ||.|:.::|:      .:.|...:.|. |          |.......:.|
+GREB_ECO57         8 REGYEKLKQELNYLWREERPEVTKKVT-W----------AASLGDRSENA     46
+
+RBM8A_MOUSE       95 EYGEIKNIHLNLDRRTGYL----KGYTLVEYETYKEAQ    128
+                     :|...|.....:|||..||    :...:|:|...:|.:
+GREB_ECO57        47 DYQYNKKRLREIDRRVRYLTKCMENLKIVDYSPQQEGK     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      36/151 (23.8%)
+# Similarity:    52/151 (34.4%)
+# Gaps:          53/151 (35.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       50 MREDYDSVEQDGDEPGPQRSVEGWI-----------LFVTGVHEEATEED     88
+                     ||...|.:.|.|   |..| .|.|.           ::..|...:.:||.
+TGT_LEPCP         64 MRPGQDVMAQFG---GLHR-FENWTRPILTDSGGFQVWSLGEMRKISEEG    109
+
+RBM8A_MOUSE       89 IH-------DKFAEYGEI---------KNIHLNLDRRTGYLKGYTLVEY-    121
+                     :.       ||.....|:         .:|.:..|..|.|.:|...|.: 
+TGT_LEPCP        110 VRFASPVNGDKLFLTPEVSMQIQTVLNSDIVMQFDECTPYWQGAKNVGHI    159
+
+RBM8A_MOUSE      122 ETYKEAQAAMEGLNGQDLMGQPISVDWC------FVR-GPPK---GKRRG    161
+                     .|.|||:.:||           :|:.|.      |.| |.|.   |..:|
+TGT_LEPCP        160 TTEKEARVSME-----------LSLRWAARSKAEFARLGNPNALFGIVQG    198
+
+RBM8A_MOUSE      162 G    162
+                     |
+TGT_LEPCP        199 G    199
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      25/116 (21.6%)
+# Similarity:    38/116 (32.8%)
+# Gaps:          32/116 (27.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       19 EDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQR     68
+                     |.|:||...|:.:..|....|.||..|:                   |..
+CBPQ_HUMAN       114 ERGEESAVMLEPRIHKIAILGLGSSIGT-------------------PPE    144
+
+RBM8A_MOUSE       69 SVEGWILFVTGVHE-EATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYT    117
+                     .:...:|.||...| :....:...|...|.:   .::|..|         
+CBPQ_HUMAN       145 GITAEVLVVTSFDELQRRASEARGKIVVYNQ---PYINYSR---------    182
+
+RBM8A_MOUSE      118 LVEYETYKEAQAAMEG    133
+                     .|:|.|....:||..|
+CBPQ_HUMAN       183 TVQYRTQGAVEAAKVG    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      12/40 (30.0%)
+# Similarity:    18/40 (45.0%)
+# Gaps:          13/40 (32.5%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      111 GYLKGYTL---------VEYETYKEAQAA---MEGLNGQD    138
+                     ||.:..|:         ||| .:|..:||   ..|:.|:|
+PSA6_SOYBN         8 GYNRHITIFSPEGRLFQVEY-AFKAVKAAGITSIGVRGKD     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      16/78 (20.5%)
+# Similarity:    30/78 (38.5%)
+# Gaps:          13/78 (16.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        5 LDLHEAGGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSR-------     47
+                     ||:..:...|...:|.|.:.:     :.||...|.|.....|:       
+SCL34_ARATH      151 LDIERSERRDSVKEEMGLDQL-----RVKKNHERDFEEVRSSKQFASNVE    195
+
+RBM8A_MOUSE       48 -ARMREDYDSVEQDGDEPGPQRSVEGWI     74
+                      :::.:.:|.|.....|..||..::..|
+SCL34_ARATH      196 DSKVTDMFDKVLLLDGECDPQTLLDSEI    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      13/40 (32.5%)
+# Similarity:    17/40 (42.5%)
+# Gaps:          10/40 (25.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+                     |.:|:    |.|:|..|..|..||      ..||.|..|:
+NDKA_CANLF       119 GSDSV----ESAEKEIGLWFQPEE------LVDYKSCAQN    148
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        2 ADVLDLHEAGGEDFA     16
+                     :|::.:.::.|..||
+RS4_CAEEL        204 SDIIHIKDSAGHSFA    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      30/155 (19.4%)
+# Similarity:    55/155 (35.5%)
+# Gaps:          34/155 (21.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       35 RKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEA     84
+                     |.|...|...||.....|....:|.:..|..|..:.....|.|..:.||.
+G45IP_CHLAE       63 RYGAASGVAPGSLWPSPEQLRELEAEEREWYPSLATMQESLRVKHLAEEQ    112
+
+RBM8A_MOUSE       85 TEEDIHDKFAE-YGEIKNIHLNLDRRTGYLKGYTLVEYETYKEAQAAME-    132
+                     ...:.....|| ..::..:.:|..::          :.|.:::|||..| 
+G45IP_CHLAE      113 KRREREQHIAECMAKMPQMIVNWQQQ----------QRERWEKAQADKER    152
+
+RBM8A_MOUSE      133 ----GLNGQDLMGQPISVDWCFVRGPPKGKR---------RGGRRRSRSP    169
+                         ....|:|:|..::         ||..|         :..|:|.:..
+G45IP_CHLAE      153 RARLQAEAQELLGYQVN---------PKSARFQELLQDLEKKERKRLKEE    193
+
+RBM8A_MOUSE      170 DRRRR    174
+                     .:|::
+G45IP_CHLAE      194 KQRQK    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       8/18 (44.4%)
+# Similarity:    13/18 (72.2%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      123 TYKEAQAAMEGLNGQDLM    140
+                     ||::|.|||.|.:..|::
+DAPEL_OCEIH      310 TYQQADAAMTGEDFGDML    327
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      11/32 (34.4%)
+# Similarity:    17/32 (53.1%)
+# Gaps:           4/32 (12.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      107 DRRTGY-LKGY--TLVEYETYKEAQAAMEGLN    135
+                     |.|.|: |.|:  |:.:.|...| ..|.:||:
+KAD_METRJ         76 DARRGFILDGFPRTVAQAEALGE-MLASKGLS    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    15/39 (38.5%)
+# Gaps:           5/39 (12.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      125 KEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGGR    163
+                     |.|:....||.|....|||..:.     |...|...||:
+ELN_BOVIN        685 KAAKFGAAGLGGVLGAGQPFPIG-----GGAGGLGVGGK    718
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      17/66 (25.8%)
+# Similarity:    29/66 (43.9%)
+# Gaps:          13/66 (19.7%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      102 IHLNLDRRTGYLKGYTLVE-------YETYKEAQAAM-EGLN--GQDLMG    141
+                     :.:||.....:|...|::|       ::.||..|.:| |.|:  |.||..
+ASIC2_MOUSE      117 LDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSMLEFLHRVGHDLKD    166
+
+RBM8A_MOUSE      142 QPISVDWCFVRGPPKG    157
+                     ..:   :|..:|...|
+ASIC2_MOUSE      167 MML---YCKFKGQECG    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      19/91 (20.9%)
+# Similarity:    34/91 (37.4%)
+# Gaps:          31/91 (34.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       65 GPQRSVEGWI------LFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDR    108
+                     |..||:  |:      ||:..|                  |..::...|.
+DOXA1_XENTR       45 GKSRSI--WLFRILTSLFIGAV------------------ILAVNFTSDW     74
+
+RBM8A_MOUSE      109 RTGYLKGYTLVEYETYKEAQAAME---GLNGQD--LMGQPI    144
+                     .||.:...|:.:..::....|::.   ||.|.:  |:|.|:
+DOXA1_XENTR       75 ETGIVTATTVYKSFSHSMLNASIGLWIGLKGVNITLIGNPV    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       7/14 (50.0%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           2/14 (14.3%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       25 IHKLKEKAKKRKGR     38
+                     ||  |.||.:.|.|
+RS20_STRPB        65 IH--KNKASRDKAR     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:      34/150 (22.7%)
+# Similarity:    58/150 (38.7%)
+# Gaps:          38/150 (25.3%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       17 MDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGP     66
+                     ::||.:.|..:||...:|.:.....::|..|.|...::.|:..:....| 
+TPM_HAELO         95 LEEDLERSEERLKIATQKLEEASQAADESERMRKMLEHRSITDEERMDG-    143
+
+RBM8A_MOUSE       67 QRSVEGWILFVTGVHEEA-------------TEEDIH--DKFAEYGEIKN    101
+                        :||.:.....:.|:|             .|.|:.  ::.||.||.|.
+TPM_HAELO        144 ---LEGQLKEARTMAEDADRKYDEVARKLAMVEADLERAEERAETGETKI    190
+
+RBM8A_MOUSE      102 IHLNLDRRT--GYLKGY------TLVEYETY-----------KEAQAAME    132
+                     :.|..:.|.  ..||..      .|.:.|||           :||:|..|
+TPM_HAELO        191 VELEEELRVVGNNLKSLEVSEEKALQKEETYEGQIRQMTSRLQEAEARAE    240
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 150
+# Identity:      33/150 (22.0%)
+# Similarity:    48/150 (32.0%)
+# Gaps:          45/150 (30.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       56 SVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHL-    104
+                     :.|||   |..:.|:|..:.:: |:.......||.......|...|..: 
+LEUC_XANOM       314 ATEQD---PTKRNSIERALKYM-GLKANQAITDIRLDRVFIGSCTNSRIE    359
+
+RBM8A_MOUSE      105 NLDRRTGYLKGYTLVEYETYKE-----------AQAAMEGLNGQDLMGQP    143
+                     :|.......||..:.  .|.|:           |||..|||   |.:...
+LEUC_XANOM       360 DLRAAAAVAKGRKVA--STIKQALVVPGSGLVKAQAEAEGL---DKVFLD    404
+
+RBM8A_MOUSE      144 ISVDW-------CFVRGPPK----------------GKR-RGGRRRSRSP    169
+                     ...:|       |....|.|                |:: .|||....||
+LEUC_XANOM       405 AGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNFEGRQGAGGRTHLVSP    454
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       3/5 (60.0%)
+# Similarity:     3/5 (60.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       37 GRGFG     41
+                     |.|.|
+LPT_ESCF3         17 GNGAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      20/86 (23.3%)
+# Similarity:    31/86 (36.0%)
+# Gaps:          25/86 (29.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       14 DFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDE     63
+                     |..:.|.|.:.:..:||   .|...|.|        ::|..|..|:.   
+RL7_THET8         61 DVILKEAGAKKLEVIKE---LRAITGLG--------LKEAKDLAEKG---     96
+
+RBM8A_MOUSE       64 PGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEI     99
+                      ||.:.         ||.::..|| |..|....|.:
+RL7_THET8         97 -GPVKE---------GVSKQEAEE-IKKKLEAVGAV    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           0/23 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       22 DESIHKLKEKAKKRKGRGFGSEE     44
+                     |:..|.::|..|.|:.....:||
+HEM1_METCA       299 DDLQHTVEENLKTRQEAALQAEE    321
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      27/110 (24.5%)
+# Similarity:    43/110 (39.1%)
+# Gaps:          23/110 (20.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       12 GEDFAMDEDGDESIH--KLKEKAKKRKGRGFGSEEGSRAR----MREDYD     55
+                     |..:|: .||.:.:|  .:|.:|....|       |.|||    |..|..
+XYLB_KLEPN       368 GVGYAL-ADGMDVVHACAIKPEAITLIG-------GGRARYWRQMLADIS    409
+
+RBM8A_MOUSE       56 SVEQD---GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNI    102
+                     .::.|   |.:.||  ::....|....||:||....:....    .::..
+XYLB_KLEPN       410 GLQLDYRTGGDVGP--ALGAARLAHVAVHDEADRPGLLKPL----PLEQA    453
+
+RBM8A_MOUSE      103 HLNLDRRTGY    112
+                     |...|||..:
+XYLB_KLEPN       454 HRPDDRRVAH    463
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      14/56 (25.0%)
+# Similarity:    22/56 (39.3%)
+# Gaps:          22/56 (39.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       87 EDIHDKFAEYGEIKNIHLNLDRR---TGYLKGYTLVEYETYKEAQAAMEG    133
+                     |::.|.:|           |||.   ||        :|.......:|:||
+RECR_NOVAD        85 EEVADLWA-----------LDRARLFTG--------KYHVLGGRLSALEG    115
+
+RBM8A_MOUSE      134 LNGQDL    139
+                     :..:||
+RECR_NOVAD       116 VRPEDL    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           1/25 ( 4.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      110 TGYLKGYTLVEYETYKEAQA-AMEG    133
+                     :|..:|..:.|..||....| ||||
+SURE_METNO        90 SGVNRGQNVAEDVTYSGTVAGAMEG    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        1 MADVLDLHEAGGED     14
+                     |..:|.|||.|..:
+CYB_ARTIO        194 MVHLLFLHETGSNN    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    16/31 (51.6%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       74 ILFVTGVHEEATEEDIHDKFAEYGEIKNIHL    104
+                     :||.||....:.||.::........||::||
+IOLE_BACHK       185 LLFDTGHLVFSGEEPLYILKKYLPRIKHVHL    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      22/101 (21.8%)
+# Similarity:    34/101 (33.7%)
+# Gaps:          29/101 (28.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       25 IHKLKEKAKKRKGRG------FGSE----EGSRARMREDYDSVEQDGDEP     64
+                     :..|.|:|:..|.|.      |.|:    .||.|......|.        
+ACKA_STAAT       283 LRDLSEEAESGKARSQMALDVFASKIHKYIGSYAARMHGVDV--------    324
+
+RBM8A_MOUSE       65 GPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLK    114
+                              |:|..|:.|.:.|  |..|..|..|...::.:..:....|:
+ACKA_STAAT       325 ---------IVFTAGIGENSVE--IRAKVLEGLEFMGVYWDPKKNENLLR    363
+
+RBM8A_MOUSE      115 G    115
+                     |
+ACKA_STAAT       364 G    364
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      20/81 (24.7%)
+# Similarity:    29/81 (35.8%)
+# Gaps:          25/81 (30.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      102 IHLNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDL------------    139
+                     :.::|| .||..|..|.|.:..:...|.|..||...|:            
+HIS7_BURTA        17 VKIDLD-GTGRQKLATGVPFLDHMLDQIARHGLVDLDIEAHGDTHIDDHH     65
+
+RBM8A_MOUSE      140 --------MGQPISVDWCFVRGPPKGKRRGG    162
+                             :||.::.    ..|..||.||.|
+HIS7_BURTA        66 TVEDVGITLGQAVAK----AVGDKKGIRRYG     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      24/99 (24.2%)
+# Similarity:    41/99 (41.4%)
+# Gaps:          12/99 (12.1%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       32 AKKRKGRGFGSEEGSRARM----REDYDSVEQDGDEPGPQRSVEGWILFV     77
+                     |:.::|.|.|.:.|.|:.|    :.|:..:......| |...|...:|  
+PTH_GEOLS        102 ARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRP-PHGDVTNHVL--    148
+
+RBM8A_MOUSE       78 TGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKE    126
+                      ||. ...|.:|..:..: |.:..:...||.  |..|..:|...::|.|
+PTH_GEOLS        149 -GVF-TPPEMEIFARVLD-GALDMLETALDE--GVPKAMSLFNNKSYLE    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      28/146 (19.2%)
+# Similarity:    62/146 (42.5%)
+# Gaps:          31/146 (21.2%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       27 KLKEKAKKRKGRG-FGSEEGSRARMREDYDSVEQDGDEPGPQRSVEGWIL     75
+                     |.:::|||:|.:. ...:|.|:.:.::.....|:|.::.|.:   :|.:|
+TAF3_XENLA       455 KKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTK---DGKVL    501
+
+RBM8A_MOUSE       76 FVTGVHEEATEEDIHD-KFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETY    124
+                     :.....:|  :.::|. |..::.||       |.::...:.....:.|.:
+TAF3_XENLA       502 WKDSNKDE--DSELHRFKLKDFNEI-------DSKSKQKENCGKKDKEKH    542
+
+RBM8A_MOUSE      125 KEAQAAME-GLNGQDLMGQPISVDWCFVRGPPKGKRRGGRRRSRSP    169
+                     |:.:...| |...:|                .|||.:....:.:||
+TAF3_XENLA       543 KDKKKDKEKGKKDKD----------------KKGKDKTKEEKMKSP    572
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      28/139 (20.1%)
+# Similarity:    49/139 (35.3%)
+# Gaps:          54/139 (38.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       43 EEGSRARMREDYDSVEQD--------------GDEPGPQRSVEGWILFVT     78
+                     |:....::..:.||:|::              ||:|..|        ||:
+DNLJ_CROS5        34 EDAVYDQLYRELDSLEKEHPQLITPDSPTQRVGDQPASQ--------FVS     75
+
+RBM8A_MOUSE       79 GVHEEATEEDIHDKFAEYGEIKNIHL-------NLDRRTGYLKGYTLVEY    121
+                     ..|                   ||.|       ||:....:.|.:.. .|
+DNLJ_CROS5        76 VTH-------------------NIPLYSLENAFNLEELKAWEKRWQR-SY    105
+
+RBM8A_MOUSE      122 ETYKEAQAAMEGLNGQDLMGQPISVDW---CFVRGPPKG    157
+                     |  ||...::|.:....:.|..:::.:   .||||..:|
+DNLJ_CROS5       106 E--KEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRG    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      43/198 (21.7%)
+# Similarity:    65/198 (32.8%)
+# Gaps:          56/198 (28.3%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        3 DVLDLHEAGGEDFAMDEDGD---ESIHKLKEKAKK---------------     34
+                     |.|...|.|| :..|||...   |.:..|::..:|               
+MUTS_MYXXD       265 DRLSRQERGG-NLLMDESSRANLEVLRSLRDGGRKGSLLGVLDKTVTSLG    313
+
+RBM8A_MOUSE       35 -RK-GRGFGSEEGSRARMREDYDSVEQ-DGDEPGPQRSVEGWILFVTGVH     81
+                      || .|...|..||...:....|:||: .|      |||  |        
+MUTS_MYXXD       314 ARKLARWLASPLGSLPEIHARLDAVEELSG------RSV--W--------    347
+
+RBM8A_MOUSE       82 EEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLK-----GYTLVEYETYKE    126
+                         .|::.....|.|:::.:...|....|..:     |.:|.:......
+MUTS_MYXXD       348 ----REELAGILKEVGDLERLCGRLSLGAGNARDLRALGLSLAQLPRVVA    393
+
+RBM8A_MOUSE      127 AQAAMEGLNGQDLMGQPIS--------VDWCFVRGPPKGKRRGGRRRS    166
+                     ..|..|....:.|.| |:|        :.......||...:.||..|:
+MUTS_MYXXD       394 VLARCESPLLKSLTG-PLSALPELAELLSRAVAEEPPVTLKDGGMIRA    440
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      25/107 (23.4%)
+# Similarity:    41/107 (38.3%)
+# Gaps:          22/107 (20.6%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       66 PQRSVEGWILFVT--GVHEEATE------EDIHDKFAEYGEIKNIHLNLD    107
+                     |.....||.: ||  ||.....:      |.:.|.| |:..:||...|.|
+NOSO_STAAC       218 PTAPFNGWYM-VTEIGVRNFIDDYRYNLLEKVADAF-EFDTLKNNSFNKD    265
+
+RBM8A_MOUSE      108 RRTGYL----------KGYTLVEYETYKEAQAAMEGLNGQDLMGQPISVD    147
+                     |....|          :|.::|::.|..:.....|....|  .|:.::..
+NOSO_STAAC       266 RALVELNYAVYHSFKKEGVSIVDHLTAAKQFELFERNEAQ--QGRQVTGK    313
+
+RBM8A_MOUSE      148 WCFVRGP    154
+                     |.::..|
+NOSO_STAAC       314 WSWLAPP    320
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 174
+# Identity:     174/174 (100.0%)
+# Similarity:   174/174 (100.0%)
+# Gaps:           0/174 ( 0.0%)
+# Score: 928.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        1 MADVLDLHEAGGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARM     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RBM8A_MOUSE        1 MADVLDLHEAGGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARM     50
+
+RBM8A_MOUSE       51 REDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RBM8A_MOUSE       51 REDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIK    100
+
+RBM8A_MOUSE      101 NIHLNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQPISVDWCF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+RBM8A_MOUSE      101 NIHLNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQPISVDWCF    150
+
+RBM8A_MOUSE      151 VRGPPKGKRRGGRRRSRSPDRRRR    174
+                     ||||||||||||||||||||||||
+RBM8A_MOUSE      151 VRGPPKGKRRGGRRRSRSPDRRRR    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       3/11 (27.3%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      110 TGYLKGYTLVE    120
+                     |.|::...|::
+NU4LM_ARCPU       87 TDYVQNLNLLQ     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    16/45 (35.6%)
+# Gaps:          14/45 (31.1%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      111 GYLKGYTLVEYETYKEAQAAM-------------EGLNGQDLMGQ    142
+                     |..:|| |...|||...:.|.             .||.|..|:.|
+NANK_ECOLI       244 GLAEGY-LALVETYLAQEPAAFHVDLLAAHYRHDAGLLGAALLAQ    287
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      23/79 (29.1%)
+# Similarity:    32/79 (40.5%)
+# Gaps:          20/79 (25.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       88 DIHDKFAEYGEIKNIHL-------NLDRRTGYLKG-YTLVEYETYKEAQA    129
+                     :|......|||.|..|:       || |.|..:.| ..|:.|| |.    
+MIAB_MYCPE        42 EIPANIINYGEGKTYHIKTFGCQSNL-RDTEVMMGMLELIGYE-YN----     85
+
+RBM8A_MOUSE      130 AMEGLNGQDLMGQPISVDWCFVRGPPKGK    158
+                       |.:|..||    :.::.|.||...:.|
+MIAB_MYCPE        86 --EDVNTSDL----VLLNTCAVREHAESK    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      35/164 (21.3%)
+# Similarity:    60/164 (36.6%)
+# Gaps:          45/164 (27.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSV     70
+                     ||...:.||.|               .....:|:..|| |.:.|....||
+NADK_STAES         9 GDSKSNALKHK---------------MINHMKDFQMVE-DSENPEIVISV     42
+
+RBM8A_MOUSE       71 EGWILFVTGVHE------EATEEDIHDK----FAEY--GEIKNIHLNLDR    108
+                     .|....:...|:      :.....||..    :|::  .|::.:.:.::.
+NADK_STAES        43 GGDGTLLQAFHQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEINN     92
+
+RBM8A_MOUSE      109 RTGYLKGYTLVE---------YETYKEA--QAAMEGLNGQDLMGQPISVD    147
+                     ....:..|.|:|         |||...|  :|.|:..||..|:   :.|:
+NADK_STAES        93 SEFQVIEYPLLELIVRYNDNGYETRYLALNEATMKTENGSTLV---VDVN    139
+
+RBM8A_MOUSE      148 WCFVRGPPKGKRRG    161
+                        :||....:.||
+NADK_STAES       140 ---IRGKHFERFRG    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      30/144 (20.8%)
+# Similarity:    53/144 (36.8%)
+# Gaps:          13/144 ( 9.0%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       13 EDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMRE---DYDSVEQ     59
+                     ::.|:|.:|..::.....|...|..|...|.:...:..|:   :.|..|.
+TRPG_CAEEL      1869 DESAVDSEGGGNVTSSPRKRSTRDLRMTPSSQVEESTSRDQIFEIDHPEH   1918
+
+RBM8A_MOUSE       60 DGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRR    109
+                     :.||......:...|.......|:..|:|.|::...:...|:...|  |:
+TRPG_CAEEL      1919 EEDEAQADCELTDVITEEEDEEEDDEEDDSHERHHIHPRRKSSRQN--RQ   1966
+
+RBM8A_MOUSE      110 TGYLKGYTLVEYE--------TYKEAQAAMEGLNGQDLMGQPIS    145
+                     ..:.....|.|.|        ..||.....:.||.::..|.|.|
+TRPG_CAEEL      1967 PSHTLETDLSEGEEVDPLDVLKMKELPIIHQILNEEEQAGAPHS   2010
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       8/15 (53.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        5 LDLHEAGGEDFAMDE     19
+                     |:|..|.|.|.||.|
+MSHD_MYCMM        65 LNLSPAHGADAAMAE     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    12/22 (54.5%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      115 GYTLVEYETYKEAQAAMEGLNG    136
+                     |:.||.|....|..:.:.|:||
+PAND_THEFY        52 GHRLVTYVLTGERGSGVIGING     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       9/26 (34.6%)
+# Similarity:    14/26 (53.8%)
+# Gaps:           6/26 (23.1%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        6 DLHEAGGEDFAMDEDGDESIHKLKEK     31
+                     ||.:.|...||      |::.|:|:|
+LIPA_ASPOR       210 DLADGGARHFA------ETVIKIKQK    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      18/124 (14.5%)
+# Similarity:    47/124 (37.9%)
+# Gaps:          39/124 (31.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       40 FGSEEGSRARMRED--------YDSVEQDG----DEPGPQRSVEGWILFV     77
+                     ||:......:::.|        .|::.:.|    ..|...|:::     |
+FLGI_PECAS       183 FGTSNTIMLQLKNDDFSMAQKVSDAINRSGYGGTASPLDSRTIQ-----V    227
+
+RBM8A_MOUSE       78 TGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKEA    127
+                     ...|..:::.    :|  ..:::||.:|:.                .::|
+FLGI_PECAS       228 LAPHGNSSQV----RF--LADVQNIEVNVG----------------IQDA    255
+
+RBM8A_MOUSE      128 QAAMEGLNGQDLMGQPISVDWCFV    151
+                     :..:....|..:|.:.:::|.|.:
+FLGI_PECAS       256 KVVINSRTGSVVMNRDVTLDSCAI    279
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      21/74 (28.4%)
+# Similarity:    32/74 (43.2%)
+# Gaps:          17/74 (23.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       80 VHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKEAQA    129
+                     |||....:...||  ..||:    ::|:....:||....|.:.|||:...
+LDH_BORAP         30 VHELVIIDVNEDK--AKGEV----MDLNHGQMFLKKNINVLFGTYKDCVN     73
+
+RBM8A_MOUSE      130 A-----MEGLNGQ------DLMGQ    142
+                     |     ..|||.:      ||:|:
+LDH_BORAP         74 ADIVVITAGLNQKPGETRLDLVGK     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      30/125 (24.0%)
+# Similarity:    51/125 (40.8%)
+# Gaps:          32/125 (25.6%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       32 AKKRKGRGFGSE---EGSRARM----------REDYDSVEQDGDEPGPQR     68
+                     :||.:|...||.   |...|.|          |.::|.|...|.|...|.
+EXGB_EMENI        48 SKKIRGVNLGSHFVIEPWMASMAWSNMGCSGQRSEFDCVMALGQETADQA     97
+
+RBM8A_MOUSE       69 SVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTL    118
+                     ..:.|..::       |::|| ::..:|| :..|.:.:        ||.|
+EXGB_EMENI        98 FADHWGSWI-------TQDDI-NQMVQYG-LNTIRIPV--------GYWL    130
+
+RBM8A_MOUSE      119 VEYETYKEAQAAMEGLNG--QDLMG    141
+                     .|...|.:::...:|..|  :|:.|
+EXGB_EMENI       131 KEDLVYADSEHFPKGGIGYLEDVCG    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      21/87 (24.1%)
+# Similarity:    38/87 (43.7%)
+# Gaps:          23/87 (26.4%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       15 FAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSR---------ARMREDYD     55
+                     |.:|...::::  |::.::|.....|.|||..|         .|:|..|.
+KTHY_CHLP8       129 FYLDLTPEDAL--LRKFSEKSLPLAFESEELDRMENSGLEFYQRVRAGYH    176
+
+RBM8A_MOUSE       56 SVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDK     92
+                     ::.    |..|||     |:.:..:   .|.::||.|
+KTHY_CHLP8       177 AIL----EAEPQR-----IIMIDAL---LTPQEIHRK    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      31/146 (21.2%)
+# Similarity:    46/146 (31.5%)
+# Gaps:          49/146 (33.6%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       11 GGEDFAMDED-------------GDESIHKLKEKAKKRKGRG--------     39
+                     ||.|.| |.|             |.....:|..:.:.|.||.        
+SECA2_MYCTO      539 GGSDEA-DHDRVAELGGLHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVF    587
+
+RBM8A_MOUSE       40 FGSEEGSRARMREDYDSVEQDGDEPG-------------PQRSVEGWILF     76
+                     |.|.|........|::.:....||.|             .||..||.:| 
+SECA2_MYCTO      588 FSSWEDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLL-    636
+
+RBM8A_MOUSE       77 VTGVHEEATEEDIHDKFAEYGEI--KNIHLNLDRRTGYLKGYTLVE    120
+                                |:|.....|.::  :...:.::||...|:..|..|
+SECA2_MYCTO      637 -----------DVHANTWRYNQLIAQQRAIIVERRNTLLRTVTARE    671
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     4/5 (80.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      154 PPKGK    158
+                     |.|||
+DB108_HUMAN       19 PAKGK     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      12/49 (24.5%)
+# Similarity:    22/49 (44.9%)
+# Gaps:          10/49 (20.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQ     59
+                     ||:   .|..|.:::.:::|:       ..|.||..|....|..|.:|:
+LCMT1_CRYNB      335 GGK---FDSAGAKTLWQIREE-------DVGPEELQRISKLEILDEIEE    373
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:    11/17 (64.7%)
+# Gaps:           2/17 (11.8%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       36 KGRGFG--SEEGSRARM     50
+                     ||.||.  :|||.|.::
+PTGA_SALTY       100 KGEGFKRIAEEGQRVKV    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      19/76 (25.0%)
+# Similarity:    30/76 (39.5%)
+# Gaps:          18/76 (23.7%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       63 EPGPQRSVEGWILFVTGVHEEATE-EDIHDKFAEYGEIKNIHLN-----L    106
+                     |...||....:.|....:.:|.:| ..:.||...|.:::::..|     |
+RR14_CRYJA        10 EKKKQRLERKYNLLRQSLKKEMSEVSSLDDKLDIYRKLQSLPRNSAPTRL     59
+
+RBM8A_MOUSE      107 DRR---TG---------YLKGYTLVE    120
+                     .||   ||         .|.||.:.|
+RR14_CRYJA        60 RRRCLKTGRPRANYRDFELSGYIIRE     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      23/98 (23.5%)
+# Similarity:    36/98 (36.7%)
+# Gaps:          21/98 (21.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       51 REDY-DSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIH---------     90
+                     |||| ..::...|....:.|.|...|.:.||.......|.|         
+DCUP_BACVZ       216 REDYRQFIKPVMDRIFRELSAEQVPLIMFGVGASHLAGDWHDLPLDVVGL    265
+
+RBM8A_MOUSE       91 ------DKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKEAQAAME    132
+                           |...:.|..|.:..|||... .|..:.::|    |:|:|.::
+DCUP_BACVZ       266 DWRLGIDDARKQGITKTVQGNLDPSL-LLAPWEVIE----KKAKAILD    308
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      18/74 (24.3%)
+# Similarity:    27/74 (36.5%)
+# Gaps:          18/74 (24.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       10 AGGEDFAM------DEDGD-----ESIHKLKEKAKKRKGRGFGSEEGSRA     48
+                     :|.||..:      |:|.:     |...:|:|:......|.||...|...
+GTF2I_MOUSE      839 SGVEDLNIIQVTIPDDDNERLSKVEKARQLREQVNDLFSRKFGEAIGMGF    888
+
+RBM8A_MOUSE       49 RMREDY-------DSVEQDGDEPG     65
+                     .::..|       ..|..||..||
+GTF2I_MOUSE      889 PVKVPYRKITINPGCVVVDGMPPG    912
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      17/67 (25.4%)
+# Similarity:    27/67 (40.3%)
+# Gaps:          18/67 (26.9%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       37 GRGFGSE----EGSRARMREDYDSVEQDGDEPG---PQRSVE-------G     72
+                     |...|::    |.::...||.::.|.:.|...|   |:..|:       |
+ISPH_ACIF5       233 GTRLGTQTHLIEDAQQLRREWFEGVGKIGISAGASAPESLVQEIMDTLRG    282
+
+RBM8A_MOUSE       73 WILFV----TGVHEEAT     85
+                     |...|    .||.|:.|
+ISPH_ACIF5       283 WGARVPQEMPGVEEKVT    299
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      19/59 (32.2%)
+# Similarity:    26/59 (44.1%)
+# Gaps:          13/59 (22.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       66 PQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNI-----HLNL---D    107
+                     |..||.|..|.:.|:   ||.. || :|...|:.|.:     |.:|   |
+NDUA1_HUMAN        7 PGLSVMGVCLLIPGL---ATAY-IH-RFTNGGKEKRVAHFGYHWSLMERD     51
+
+RBM8A_MOUSE      108 RRTGYLKGY    116
+                     ||...:..|
+NDUA1_HUMAN       52 RRISGVDRY     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    15/24 (62.5%)
+# Gaps:           2/24 ( 8.3%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       43 EEGSRAR-MREDYDSV-EQDGDEP     64
+                     |..|||| :::..|:: :|.|..|
+PSRP_SALTI        44 ENESRARAVKDQIDAIYQQTGVRP     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 177
+# Identity:      33/177 (18.6%)
+# Similarity:    66/177 (37.3%)
+# Gaps:          48/177 (27.1%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+                     |||||.|     ..::.|.::.||.:|....:::.:..|::|..:..:.:
+DNAK_CHESB       223 GGEDFDM-----RLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIE    267
+
+RBM8A_MOUSE       61 ---------------GDEPGPQRSVEGWILFVTGVHEEATEED-------     88
+                                    .|:.||:...    :.:|....|:..||       
+DNAK_CHESB       268 LSSSSQTEINLPFITADQTGPKHLA----IKLTRAKFESLVEDLVTRTIE    313
+
+RBM8A_MOUSE       89 -----IHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVE--YETYKE--AQA    129
+                          :.|.....|||..:.|        :.|.|.:.  .||.|.  .:.
+DNAK_CHESB       314 PCRAALKDAGLSAGEIDEVVL--------VGGMTRMPKVQETVKNFFGKE    355
+
+RBM8A_MOUSE      130 AMEGLNGQDLMGQPISVDWCFVRGPPK    156
+                     ..:|:|..:::....::....::|..|
+DNAK_CHESB       356 PHKGVNPDEVVAMGAAIQAGVLQGDVK    382
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      26/123 (21.1%)
+# Similarity:    46/123 (37.4%)
+# Gaps:          28/123 (22.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSV     70
+                     |:.:...|.|:        :||.:......||:.:.|    ::.||:.|.
+DNLJ_ACIC5       528 GERTAQALAEE--------YGSMDALMQASREELERV----NDVGPRVSE    565
+
+RBM8A_MOUSE       71 EGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRR--TGYLKGYTL    118
+                     .     :....:|....|:.::..|.|    :....::|  |..|.|.|.
+DNLJ_ACIC5       566 A-----IREFFDEPRNRDLVERLREAG----LRFTGEKRKKTSQLAGLTF    606
+
+RBM8A_MOUSE      119 VEYETY-----KEAQAAMEGLNG    136
+                     |...|.     .||:..:|...|
+DNLJ_ACIC5       607 VLTGTLPGLSRDEAKGKIENAGG    629
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      10/45 (22.2%)
+# Similarity:    18/45 (40.0%)
+# Gaps:           4/45 ( 8.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      115 GYTLVEYETYKEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKR    159
+                     |...:.:.|:..::....|.....:..:|..:|    ||...|||
+CAPSD_CMVO        49 GRPTINHPTFVGSERCKPGYTFTSITLKPPKID----RGSYYGKR     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      32/168 (19.0%)
+# Similarity:    57/168 (33.9%)
+# Gaps:          56/168 (33.3%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       19 EDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQR     68
+                     :||.:.:.|..|..:..:.|..            |...|:.:.:.|..:.
+IF3_CHLL2         31 QDGTQQVMKTIEARRMAEDRNL------------DLIEVQPNAEPPVCKL     68
+
+RBM8A_MOUSE       69 SVEGWILFVTGVHEEATEE----------------DIHDKFAEYGEIKNI    102
+                     ...|.:||.....::..::                |.||     .:.|..
+IF3_CHLL2         69 DNLGKLLFKMDKRDKDLKKKQKTTTLKELRFHPNTDKHD-----FDFKTA    113
+
+RBM8A_MOUSE      103 HL-------NLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQPIS    145
+                     ||       |..|.|....|.:::    ||:     :||...:.:.:.:|
+IF3_CHLL2        114 HLEEFLRKGNRVRATIVFLGRSII----YKD-----KGLELAERLTERLS    154
+
+RBM8A_MOUSE      146 VDWCFVR--GPPK--GKR    159
+                        |...  |.||  ||:
+IF3_CHLL2        155 ---CVSNRDGDPKFEGKK    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    20/45 (44.4%)
+# Gaps:           2/45 ( 4.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       21 GDE-SIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEP     64
+                     ||: ||..|..:..:.| .|..:.:.......|.|..::|..|||
+CSRA_HAEI8        15 GDDISITVLSVRGNQVK-LGVEAPKEVSVHREEIYQRIKQTKDEP     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      11/55 (20.0%)
+# Similarity:    25/55 (45.5%)
+# Gaps:           7/55 (12.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       94 AEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKE--AQAAMEGLNGQDLMG    141
+                     ::|..||.|.:....:||     ..::|:..||  |...:..:...::..
+COAX_CLOBL        78 SKYFNIKPIIVGPGVKTG-----INIKYDNPKEVGADRIVNAVAAHEIYK    122
+
+RBM8A_MOUSE      142 QPISV    146
+                     :|:.:
+COAX_CLOBL       123 KPLII    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       5/18 (27.8%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       79 GVHEEATEEDIHDKFAEY     96
+                     |:.||.|::....:.|::
+HOP_BOVIN         41 GLSEEETQKWFKQRLAQW     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      41/141 (29.1%)
+# Similarity:    54/141 (38.3%)
+# Gaps:          40/141 (28.4%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        3 DVLDL-HEAGGEDFA--MDEDGDESIHKLKEKAKKRKGRGFGSEEG----     45
+                     |::|| .:.|.||||  |.|.......|...||||.|   ..:||.    
+THII_VIBA3       323 DIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAKKGK---LEAEEAKFNF    369
+
+RBM8A_MOUSE       46 -------SRARMREDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEAT---     85
+                            ..||:. |...:|::..|..|:  ||.    |..|.|.|.   
+THII_VIBA3       370 EVLEQVIENARIM-DIRDIEKESQEQAPE--VEQ----VQAVAEHAVVLD    412
+
+RBM8A_MOUSE       86 -----EEDIHDKFAEYGEIKNIHL--------NLDRRTGYL    113
+                          |||......:..|||:|..        :||:...||
+THII_VIBA3       413 IRSPDEEDESPLEIDGVEIKHIPFFKLSTQFGDLDQSKEYL    453
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:      24/137 (17.5%)
+# Similarity:    48/137 (35.0%)
+# Gaps:          41/137 (29.9%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       13 EDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGD     62
+                     |.|.:|..| :::.:|..:...|          .|.:.:.:|......||
+RL13_PSEPG        14 EWFVVDAAG-QTLGRLATEIATR----------LRGKHKPEYTPHVDTGD     52
+
+RBM8A_MOUSE       63 EPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEY-------GEIKNIHLN    105
+                               :|:.:.......|.....||.  |       |.||.|  |
+RL13_PSEPG        53 ----------YIVVINAEQVRVTGAKSSDKM--YYSHSGFPGGIKEI--N     88
+
+RBM8A_MOUSE      106 LDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQ    142
+                     .::         |:.....:..:.|::|:..::.:|:
+RL13_PSEPG        89 FEK---------LIAKAPERVIETAVKGMLPKNPLGR    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      15/80 (18.8%)
+# Similarity:    34/80 (42.5%)
+# Gaps:          14/80 (17.5%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       22 DESIHKLKEKAKKRKGRGFGS-EEGSRARMREDYDSVEQDGDEPGPQRSV     70
+                     ::.:||.::...::|..||.. .:...|.::.....:|          :.
+RR2_ARATH        112 EKRLHKFRDLRTEQKTEGFNRLPKRDAAVLKRQLSRLE----------TY    151
+
+RBM8A_MOUSE       71 EGWILFVTGVHEEATEEDIHDKFAEYGEIK    100
+                     .|.|.::||:.:...   |.|:..||..::
+RR2_ARATH        152 LGGIKYMTGLPDIVI---ILDQQEEYTALR    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      28/155 (18.1%)
+# Similarity:    58/155 (37.4%)
+# Gaps:          44/155 (28.4%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       20 DGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRS     69
+                     ||...:..||.:..:   .|..:|...||      ::|.:.|     ||:
+Y1710_SYNP2       24 DGGVPLEYLKNQLNR---LGIAAEYDLRA------ETVIRQG-----QRA     59
+
+RBM8A_MOUSE       70 VEGWI-LFVTGVH--EEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKG-    115
+                     .:.:: |.....|  .:.:::..|...|::..    |.:|......:|| 
+Y1710_SYNP2       60 TKVFVDLKTKATHHDHDHSQDQTHHHHADHAP----HRHLPEIQAMIKGA    105
+
+RBM8A_MOUSE      116 --------YTLVEYETYKEAQAAMEGLNGQ--------------DLMGQP    143
+                             ::|..::....|:|.:.|...:              |::|..
+Y1710_SYNP2      106 GLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTC    155
+
+RBM8A_MOUSE      144 ISVDW    148
+                     :.:||
+Y1710_SYNP2      156 LGLDW    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      16/70 (22.9%)
+# Similarity:    27/70 (38.6%)
+# Gaps:           2/70 ( 2.9%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       74 ILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYET    123
+                     :|.|.|:.::..|..:.|  ..:...|..|..:...:|..|...|.....
+WTPC_THEKO         2 VLMVEGISKDYREFHLRD--VTFSVEKGEHFIILGPSGAGKTVLLEVIAG     49
+
+RBM8A_MOUSE      124 YKEAQAAMEGLNGQDLMGQP    143
+                     ..|..:....|||:|:...|
+WTPC_THEKO        50 IIEPDSGRIFLNGEDITDLP     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      13/50 (26.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:           6/50 (12.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      100 KNIHL----NLDRRTGYLKGYTLVEY--ETYKEAQAAMEGLNGQDLMGQP    143
+                     |.:|:    :...||.:|..:.|.:|  :.||..|.|.........:|.|
+GRB7_RAT         316 KGLHIFCSEDEQSRTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSP    365
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       61 GDEPGPQRSV     70
+                     ||:|.|:.|:
+PSD_RHOPS         91 GDKPLPRVSI    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      24/86 (27.9%)
+# Similarity:    32/86 (37.2%)
+# Gaps:          26/86 (30.2%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       19 EDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQR     68
+                     |||  .:.:..|..||..|: |||       |:.|. .||.: ..|....
+PP156_ARATH      672 EDG--KLSETDELLKKFSGK-FGS-------MKRDL-QVETE-KNPATSE    709
+
+RBM8A_MOUSE       69 SVEGWILFVTGVHEEATE----EDIHDKFAEYGEIK    100
+                     |.|          |..||    .|:.|:....|.:|
+PP156_ARATH      710 SKE----------ELNTEAIAYSDVIDELCSRGRLK    735
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      12/52 (23.1%)
+# Similarity:    21/52 (40.4%)
+# Gaps:           9/52 (17.3%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       28 LKEKAKKRKGRGFGSE---------EGSRARMREDYDSVEQDGDEPGPQR     68
+                     |:..:.|..|.|:.|.         |.|..::.::.:|.....|.||.:.
+ADRB2_MESAU      342 LRRSSSKAYGNGYSSNSNGKTDYMGEASGCQLGQEKESERLCEDPPGTES    391
+
+RBM8A_MOUSE       69 SV     70
+                     .|
+ADRB2_MESAU      392 FV    393
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    14/26 (53.8%)
+# Gaps:           4/26 (15.4%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       98 EIKNIHLNLD----RRTGYLKGYTLV    119
+                     |.|::.:::|    ||....:|..||
+ID5B_ADEPA         2 ECKDLGISIDDDNNRRLAVKEGDPLV     27
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      11/25 (44.0%)
+# Similarity:    14/25 (56.0%)
+# Gaps:           4/25 (16.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       66 PQRSVEGWILFVTGVH---EEATEE     87
+                     |.|..:..::|.| ||   ||.|||
+GPA7_CAEEL        98 PDRVRDSQLVFAT-VHANKEELTEE    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      12/53 (22.6%)
+# Similarity:    20/53 (37.7%)
+# Gaps:           2/53 ( 3.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       91 DKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLM    140
+                     :|:|.:.....:||.........||..||.....  ::.|..|:....:.
+IDI_ECO24         20 EKYAAHTADTRLHLAFSSWLFNAKGQLLVTRRAL--SKKAWPGVWTNSVC     67
+
+RBM8A_MOUSE      141 GQP    143
+                     |.|
+IDI_ECO24         68 GHP     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      21/110 (19.1%)
+# Similarity:    38/110 (34.5%)
+# Gaps:          24/110 (21.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD----------     60
+                     |..|...|..|.....|....::.|.....:|:.|.:.|.          
+YHJA_ECOLI       361 GGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNVALT    410
+
+RBM8A_MOUSE       61 ------GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHL    104
+                           ||.|....:|:..:.:..|  :|..:||:.|..|....:..:: 
+YHJA_ECOLI       411 APYFHRGDVPTLDGAVKLMLRYQVG--KELPQEDVDDIVAFLHSLNGVY-    457
+
+RBM8A_MOUSE      105 NLDRRTGYLK    114
+                          |.|::
+YHJA_ECOLI       458 -----TPYMQ    462
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      21/86 (24.4%)
+# Similarity:    33/86 (38.4%)
+# Gaps:          24/86 (27.9%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       53 DYDSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNI    102
+                     ||:.:|.  ..||..|.::....|.              :||....:..:
+RIMP_BURPS        61 DYERLEV--SSPGLDRPLKKLADFT--------------RFAGSEAVITL     94
+
+RBM8A_MOUSE      103 HLNLDRRTGYL------KGYTL-VEYETYKEAQAAM    131
+                     ...||.|..|.      .|.|: :|:|. |:.:|||
+RIMP_BURPS        95 KKPLDGRKTYRGILHAPNGETIGLEFER-KKGEAAM    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       7/21 (33.3%)
+# Similarity:    14/21 (66.7%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       17 MDEDGDESIHKLKEKAKKRKG     37
+                     ||::|:.:|:: ..|...|:|
+RS28_OSTOS        31 MDDNGNRTINR-NVKGPVREG     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      14/59 (23.7%)
+# Similarity:    20/59 (33.9%)
+# Gaps:          12/59 (20.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       63 EPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGY    112
+                     :||....:...||.|..||..       ||.:     ...|..||:....
+HBAC_LITCT        95 DPGNFALLSNNILVVVAVHHS-------DKLS-----YETHQALDKFLNV    132
+
+RBM8A_MOUSE      113 LKGYTLVEY    121
+                     :.|....:|
+HBAC_LITCT       133 VSGLLTSKY    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      12/45 (26.7%)
+# Similarity:    19/45 (42.2%)
+# Gaps:           0/45 ( 0.0%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      125 KEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGGRRRSRSP    169
+                     ::|.|.:..:.........:|:|.||..|.|.......:.|.|||
+RPOA_PRRSS       624 EQAMALLAKIKVPSSKAPSVSLDECFPAGVPADFEPAFQERPRSP    668
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    15/42 (35.7%)
+# Gaps:           2/42 ( 4.8%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      122 ETYKEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGGR    163
+                     |.:....|..:.:|  |||...|...|........|.|.|.|
+UBIE_PSEAE        32 EVFHSVAAKYDLMN--DLMSGGIHRLWKRFTIELSGVRSGNR     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      36/145 (24.8%)
+# Similarity:    52/145 (35.9%)
+# Gaps:          52/145 (35.9%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       19 EDGDESIHKLKEKAKKRK-----GRGFGSE-------EGSRA--------     48
+                     :.|..|::.|....|.:|     |.|.|..       ..|:|        
+FLII_AQUAE       147 DTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVVLALI    196
+
+RBM8A_MOUSE       49 --RMREDYDSVEQDGDEPGPQRSV-------EGWILFVTGVHEEATEEDI     89
+                       |.||..:.:|:...|.|.::||       :..||.|.|    |....:
+FLII_AQUAE       197 GERGREVKEFLEEVLGEEGLKKSVVVVSTADQSPILKVKG----AISAVV    242
+
+RBM8A_MOUSE       90 H-DKFAEYGEIKNIHLNLD---------RRTGY-------LKGYT    117
+                     | ..||..|  |::.|.:|         |..|.       |||:|
+FLII_AQUAE       243 HAHHFASQG--KDVLLLMDSITRLALAQREIGLAAGEPPTLKGFT    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      23/142 (16.2%)
+# Similarity:    53/142 (37.3%)
+# Gaps:          43/142 (30.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       29 KEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSVEGWILFVT     78
+                     :::.::::.|....::.::.|:::....|.|. ..|.|            
+MSS11_VANPO      382 QQQIQQQQQRSQLPQQQAQQRIQQAKQQVSQQ-QRPHP------------    418
+
+RBM8A_MOUSE       79 GVHEEATEEDIHDKFAEYGEIKNIHLNLDRR-------TGYLKG-YTLVE    120
+                           |::.:|       :::.:...|.::       .|..:| ..|.:
+MSS11_VANPO      419 ------TQQQVH-------QMQQMQKQLQQQLQQQSVMQGQQQGPMQLQQ    455
+
+RBM8A_MOUSE      121 YETYKEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGG    162
+                     .:|..:.|...:....|   |||:|      :...|..|.||
+MSS11_VANPO      456 GQTQSQGQGQAQDAQQQ---GQPLS------QQQMKQLRNGG    488
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      27/128 (21.1%)
+# Similarity:    44/128 (34.4%)
+# Gaps:          42/128 (32.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+                     |.:...|..|.|...:|.|::.|:||                   .:.|:
+SPB4_ASPFU       507 GDKTLGMSLDWDNYAYKDKQREKRRK-------------------ELLQE    537
+
+RBM8A_MOUSE       61 GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRT    110
+                     ..|.|..:|        |.....|||.   ..:::..|.||  ..|.|| 
+SPB4_ASPFU       538 AAESGATQS--------TSNKRRATES---VAWSQQAESKN--KKLKRR-    573
+
+RBM8A_MOUSE      111 GYLKGYTLVEYETYKEAQAAMEGLNGQD    138
+                              |.:..|:.:|..|.:..::
+SPB4_ASPFU       574 ---------EQKKSKQEKARWEKMTEEE    592
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      14/40 (35.0%)
+# Similarity:    17/40 (42.5%)
+# Gaps:          10/40 (25.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       83 EATEEDIHDKFAE---YGEIKNIHLNLDRRTGYLKGYTLV    119
+                     ||...|..|:|||   ...:.|..|.:||       |.||
+ASSY_MYCTO        58 EAVVVDARDEFAEGYCLPTVLNNALYMDR-------YPLV     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      14/68 (20.6%)
+# Similarity:    23/68 (33.8%)
+# Gaps:          19/68 (27.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE      110 TGYLKGYTLVEYET----------YKEAQAAMEGLNGQDL-----MGQPI    144
+                     |.|::|...|..::          |.:.|....|:...|.     :..|:
+ECCB1_MYCS2      388 TVYIEGGQFVRLQSPDPRVGESMYYIDPQGVRYGIANDDAAKNLGLAGPV    437
+
+RBM8A_MOUSE      145 SVDW----CFVRGPPKGK    158
+                     :..|    ..|.||...|
+ECCB1_MYCS2      438 NAPWQVVGLLVDGPVLSK    455
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      14/54 (25.9%)
+# Similarity:    22/54 (40.7%)
+# Gaps:          14/54 (25.9%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        9 EAGGEDFAMDED--------GDESIHKLKEKAKKRKGR------GFGSEE     44
+                     ::|.|:..|.|:        ..|...||.::|..:.|.      ||...|
+KCY4_ORYSJ        67 KSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIKSGNDKFLIDGFPRNE    116
+
+RBM8A_MOUSE       45 GSRA     48
+                     .:||
+KCY4_ORYSJ       117 ENRA    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      10/51 (19.6%)
+# Similarity:    19/51 (37.3%)
+# Gaps:           0/51 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       82 EEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKEAQAAM    131
+                     |:.|..|:..::...|:...:....|.....|:|.:.|..:......|..
+HCP_TRIV2          7 EQTTRGDVCHQWGACGKSPEVDALQDLLVHCLRGLSQVALQAKSLGLATR     56
+
+RBM8A_MOUSE      132 E    132
+                     |
+HCP_TRIV2         57 E     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      34/145 (23.4%)
+# Similarity:    54/145 (37.2%)
+# Gaps:          38/145 (26.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE        5 LDLHEAGGEDFAMDEDGDESIHKLKEKAKKRKGRG------FGSEEGSRA     48
+                     ||:|     |:..|.   :.:|..|...:.|...|      |.|.| :..
+UBX7_YEAST       200 LDVH-----DYIKDA---QKLHSSKCVLQIRMTDGKTLKHEFNSSE-TLN    240
+
+RBM8A_MOUSE       49 RMREDYDSVEQDGDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGE     98
+                     .:|:..|....|||.|         ..|..|:....        |.:..|
+UBX7_YEAST       241 DVRKWVDVNRTDGDCP---------YSFHRGIPRVT--------FKDSDE    273
+
+RBM8A_MOUSE       99 IKNIH-LNLDRRTGYLKGYTLVEYETYKEAQAAMEGLNGQDLMGQ    142
+                     :|.:. |.|..|:..|    |...|| :.:..::.|:.|..|:|:
+UBX7_YEAST       274 LKTLETLELTPRSALL----LKPLET-QNSGLSVTGMEGPSLLGR    313
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      20/88 (22.7%)
+# Similarity:    29/88 (33.0%)
+# Gaps:          19/88 (21.6%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       43 EEGSRARMREDYD---------SVEQDGDEP--------GPQRSVEGWIL     75
+                     |..|.|.:|||..         :|...||.|        ||.....|.| 
+RPOA_ACICJ        77 EFSSIAGVREDVTDIVLNIKQIAVRMHGDGPKRMTVSATGPCEVTAGMI-    125
+
+RBM8A_MOUSE       76 FVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYL    113
+                      .||...|....::.....:.|....:...::...||:
+RPOA_ACICJ       126 -QTGHDIEVMNPELVICTLDDGATLGMEFTVESGRGYV    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    18/42 (42.9%)
+# Gaps:          11/42 (26.2%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       30 EKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSVE     71
+                     ::::||.|   ..|..|...:|:        .||.||.|..|
+YXAD_BACSU        25 DQSEKRTG---NLERSSYLLLRQ--------LDEFGPARVKE     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: RBM8A_MOUSE
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      26/90 (28.9%)
+# Similarity:    35/90 (38.9%)
+# Gaps:          30/90 (33.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+RBM8A_MOUSE       94 AEYGEIKNIHLNLDRRTGYLKG--YTL--VEYETYKEAQAAME-------    132
+                     ||.|:...|...::::.|:..|  |.|  |..:|...|||.|.       
+FADB_SHESR       515 AEGGDFAAIDKVMEKQFGWPMGPAYLLDVVGLDTGHHAQAVMAEGFPDRM    564
+
+RBM8A_MOUSE      133 GLNGQDL---------MGQ-------PISVDWCFVRGPPK    156
+                     |.:|.|.         :||       ..|||   .||.||
+FADB_SHESR       565 GKSGNDAIDVMFENKRLGQKNGKGFYAYSVD---SRGKPK    601
+
+
+#---------------------------------------
+#---------------------------------------

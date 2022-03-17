@@ -1,0 +1,2808 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:22
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/ELN_BOVIN.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/ELN_BOVIN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/ELN_BOVIN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      21/61 (34.4%)
+# Similarity:    23/61 (37.7%)
+# Gaps:          19/61 (31.1%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        460 VVPGAPGAI--------------PGLPGVGGVPGVGIPAAAAAKAAAKAA    495
+                     |.|.||.||              .|..|:.||||.|     ||..|....
+PUR7_VIBVU        49 VAPDAPLAIMVISDRISAFDCIWHGEHGLNGVPGKG-----AALNAISNH     93
+
+ELN_BOVIN        496 QFGLGPGVGVA    506
+                     .|||....|:|
+PUR7_VIBVU        94 WFGLFKENGLA    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        212 GLPLGYPIKAPKL    224
+                     |:|:..|.:|.|:
+Y075_NITWN        53 GIPIMLPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    19/48 (39.6%)
+# Gaps:          14/48 (29.2%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        699 GAGQPF----PIGGGAGGLG------VGGKPPKPFGGALGALGFPGGA    736
+                     ||.:|.    |:|...|.|.      :.|.||    |:|....|.|.|
+Y3584_PSEAB       10 GAAEPVRLTTPLGQAIGNLFARALPLLDGNPP----GSLKVFVFGGCA     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      12/35 (34.3%)
+# Similarity:    16/35 (45.7%)
+# Gaps:           7/35 (20.0%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        206 FGGQQ--PGLPLGYPIKAPKLPAGYGLPYKTGKLP    238
+                     |..:|  |.|.|||.|:..:     .:.|||...|
+BPT_HAHCH        193 FAREQRLPYLYLGYWIRGCR-----KMSYKTNYRP    222
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      54/211 (25.6%)
+# Similarity:    74/211 (35.1%)
+# Gaps:          52/211 (24.6%)
+# Score: 73.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         34 PGGVPGGVFFPGAGLG-GLGVGGLGPGVKPAKPGVGGLVGPGLG-AEGSA     81
+                     |..|..|:|....||. .|.|.|:.....|.:.. |.|:....| ..|||
+KDPC_CAUVN         7 PALVSMGLFTVLLGLAYPLAVTGVAQAAFPNQAN-GSLIRDADGKVVGSA     55
+
+ELN_BOVIN         82 LPG---AFPGGFFGAGGGAAGAAAAYKAAAKAGAAGLGVGGIGGVGGLGV    128
+                     |.|   |.|..|.|.   .:.|.|.|.|:|.:|:            .:|.
+KDPC_CAUVN        56 LIGQVFAKPEYFHGR---PSAAGAGYDASASSGS------------NMGP     90
+
+ELN_BOVIN        129 STGAVVPQLGAGVGAGVKPGKVPGVGLP---------GVYPGGVLPGAGA    169
+                     ....::.:|  ...|.....:.|||.:|         |:.|.  :..|.|
+KDPC_CAUVN        91 LNETLIARL--KTDAAALRAENPGVAIPADAVTTSGSGLDPD--ISPANA    136
+
+ELN_BOVIN        170 RF--PGIGVLPGVP---TGAGVKPKAQVGAGAFAGIPGVG----------    204
+                     ||  |.:....|||   ..|.:..:.|.....|.|.|.|.          
+KDPC_CAUVN       137 RFQAPRVAGARGVPEKDVTALIDAQVQQPLLGFIGQPRVNVLALNRALDA    186
+
+ELN_BOVIN        205 ---PFGGQQPG    212
+                        |...|:.|
+KDPC_CAUVN       187 RYPPLASQKDG    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      13/31 (41.9%)
+# Similarity:    16/31 (51.6%)
+# Gaps:           4/31 (12.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        614 GVGALGGVGDLG----GAGIPGGVAGVVPAA    640
+                     |..||..:|||.    |..:|..||.:|.||
+LPXH_XYLFM        32 GADALYILGDLFEVWIGDDMPSEVADMVAAA     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        460 VVPGAPGAIPGLPGVG    475
+                     |.||...|..||..:|
+YERI_SCHPO         5 VSPGLAKACTGLSLIG     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      29/103 (28.2%)
+# Similarity:    36/103 (35.0%)
+# Gaps:          44/103 (42.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        452 GGVGALGGV-----------VPGAPGA--------IPGL--PGVG-----    475
+                     |.|.||.||           :.|..||        |.|:  |..|     
+RBSA_RUEST        17 GPVKALKGVDFELRRGEIHAIAGENGAGKSTLMNIIDGILQPDSGEIRLD     66
+
+ELN_BOVIN        476 GVPGVGIPAAAAAKAAAKAAQFGLGPGVGVAPGVGVV-PGVGVVPGVGVA    524
+                     |.| |.||:.|||:..                |:|.| ..:.:.|.|.||
+RBSA_RUEST        67 GTP-VEIPSPAAAQKM----------------GIGFVHQEIALCPDVSVA     99
+
+ELN_BOVIN        525 PGI    527
+                     ..|
+RBSA_RUEST       100 ENI    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      24/82 (29.3%)
+# Similarity:    27/82 (32.9%)
+# Gaps:          24/82 (29.3%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        653 FGLGGVGGLGVGGLGAVPGAVGLGGVSPAAAAKAAKFGAAGLGGVLGAGQ    702
+                     :|.||...||.|        .|.|         ...|...|.||..|.  
+KR195_HUMAN       13 YGYGGFDDLGYG--------YGCG---------CGSFRRLGYGGGYGG--     43
+
+ELN_BOVIN        703 PFPIGGGAGGLGVGGKPPKPFGGALGALGFPG    734
+                      :..|.|.||.|.....|..:||    .||.|
+KR195_HUMAN       44 -YGYGSGFGGYGYRSCRPSCYGG----YGFSG     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      26/100 (26.0%)
+# Similarity:    36/100 (36.0%)
+# Gaps:          20/100 (20.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        174 IGVLPGVPTGAGVKPKAQVGAGAFAGIPGVGPFGGQQPGLPLGYPIKAPK    223
+                     :.::|||....|.     |.||.|.|:       .::......:.:..|.
+UPPP_CORDI       167 LALIPGVSRSGGT-----VSAGLFVGL-------DREVATRFSFLLAIPA    204
+
+ELN_BOVIN        224 LPAGYGLPYKTGKLPYGFGPGGVAGSAGKAGYPTGTGVGPQAAAAAAKAA    273
+                     :.|. ||    ..||..|.|.  ||.|. :|.....|.|...|...|..|
+UPPP_CORDI       205 VLAS-GL----FSLPDAFAPD--AGQAA-SGMQLAVGTGIAFALGYASIA    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       7/14 (50.0%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        621 VGDLGGAGIPGGVA    634
+                     ||||.....|.|.|
+GREB_ECO57       133 VGDLAVVNTPAGEA    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      23/71 (32.4%)
+# Similarity:    28/71 (39.4%)
+# Gaps:          30/71 (42.3%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         28 GVPGAVPGGVPGGVF---------------FPGAGLGGLGVG--------     54
+                     |.|.|:.|.|.||:|               |||..:||:.||        
+TGT_LEPCP        187 GNPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGVSVGEPKDEMLR    236
+
+ELN_BOVIN         55 --GLGPGVKPA-KP----GVG     68
+                       ...|.:.|| ||    |||
+TGT_LEPCP        237 IMNHTPHLLPADKPRYLMGVG    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      31/152 (20.4%)
+# Similarity:    51/152 (33.6%)
+# Gaps:          27/152 (17.8%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        372 VGVPGVGVPGVGVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPT    421
+                     :.:.|:| ..:|.|..|:...:....:.....:.|. .|||.:.:...| 
+CBPQ_HUMAN       130 IAILGLG-SSIGTPPEGITAEVLVVTSFDELQRRAS-EARGKIVVYNQP-    176
+
+ELN_BOVIN        422 FGLGPGGFPGIGDAAAAPAAAAAKAAKIGAGGVGALGGVVPGAPGAIPGL    471
+                            :.............|.:|||     ||||..::..........
+CBPQ_HUMAN       177 -------YINYSRTVQYRTQGAVEAAK-----VGALASLIRSVASFSIYS    214
+
+ELN_BOVIN        472 PGVG------GVPGVGIPAAAA----AKAAAKAAQFGLGPGVGVAPGVGV    511
+                     |..|      |||  .||.|..    |:..::.|..|:...:.:..|...
+CBPQ_HUMAN       215 PHTGIQEYQDGVP--KIPTACITVEDAEMMSRMASHGIKIVIQLKMGAKT    262
+
+ELN_BOVIN        512 VP    513
+                     .|
+CBPQ_HUMAN       263 YP    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      12/38 (31.6%)
+# Similarity:    15/38 (39.5%)
+# Gaps:           6/38 (15.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ELN_BOVIN         88 GGF------FGAGGGAAGAAAAYKAAAKAGAAGLGVGG    119
+                     ||:      |...|.......|:||...||...:||.|
+PSA6_SOYBN         7 GGYNRHITIFSPEGRLFQVEYAFKAVKAAGITSIGVRG     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       9/18 (50.0%)
+# Similarity:     9/18 (50.0%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         14 LLLLLCILQPSQPGGVPG     31
+                     |..||.|.|.|.|.|..|
+SCL34_ARATH      269 LEFLLQIRQQSSPLGDAG    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      11/25 (44.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        128 VSTGAVVPQLGAGVGAGVKPGKVPG    152
+                     |.||.|:  ||....|..|||.:.|
+NDKA_CANLF        84 VKTGRVM--LGETNPADSKPGTIRG    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      28/116 (24.1%)
+# Similarity:    41/116 (35.3%)
+# Gaps:          22/116 (19.0%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        579 VGAGVPGLGVGAG----VPGPGA-VPGTLA-------AAKAAKFGPGGVG    616
+                     |..|||.|....|    .|.|.. |..|:.       ...:.||.||.:.
+RS4_CAEEL        131 VNKGVPVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLA    180
+
+ELN_BOVIN        617 ALGGVGDLGGAGIPG------GVAGVVPAAAAAAKAAAKAAQFGLGGVGG    660
+                     .:.|..::|..||.|      |.:.::....:|..:.|..    :..|..
+RS4_CAEEL        181 YVTGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFATR----ISNVFV    226
+
+ELN_BOVIN        661 LGVGGLGAVPGAVGLG    676
+                     :|.|....|....|.|
+RS4_CAEEL        227 IGKGNKALVSLPTGAG    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:      12/21 (57.1%)
+# Similarity:    16/21 (76.2%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        543 AKSAAKAAAKAQFRAAAGLPA    563
+                     |::||.|||.||..||:|.|:
+G45IP_CHLAE      201 ARAAALAAAAAQDPAASGAPS    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      18/77 (23.4%)
+# Similarity:    28/77 (36.4%)
+# Gaps:          13/77 (16.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        594 GPGAVPGTLAAAKAAKFGPGGVGALGGVGDLGGAGIPGGVAGVVPAAAAA    643
+                     |||.....|.:.:..::.|..:.||             .:|..:|....:
+DAPEL_OCEIH      128 GPGGAKPMLESEEFQQWKPDMMFAL-------------HIAPELPVGTVS    164
+
+ELN_BOVIN        644 AKAAAKAAQFGLGGVGGLGVGGLGAVP    670
+                     :||....|......:...||||..|.|
+DAPEL_OCEIH      165 SKAGLLFANTSELFIDFEGVGGHAAYP    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      29/108 (26.9%)
+# Similarity:    40/108 (37.0%)
+# Gaps:          12/108 (11.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        460 VVPGAPGAIPGLPGVGGVPGVGIPAAAAAKAAAKAAQFGLGPGV---GVA    506
+                     ::.|.|||..|......|...|||..:.......|...|...|:   .|.
+KAD_METRJ          4 ILLGPPGAGKGTQSERIVQRFGIPQLSTGDMLRAAVAAGTPVGLEAKAVM     53
+
+ELN_BOVIN        507 PGVGVVPG---VGVVPGVGVAPGIGLGPGGVIGAGVPAAAKSAAKAAAKA    553
+                     ...|:|..   ||:|......|.   ...|.|..|.|   ::.|:|.|..
+KAD_METRJ         54 ESGGLVSDRIVVGIVADRIEEPD---ARRGFILDGFP---RTVAQAEALG     97
+
+ELN_BOVIN        554 QFRAAAGL    561
+                     :..|:.||
+KAD_METRJ         98 EMLASKGL    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 747
+# Identity:     747/747 (100.0%)
+# Similarity:   747/747 (100.0%)
+# Gaps:           0/747 ( 0.0%)
+# Score: 3868.0
+# 
+#
+#=======================================
+
+ELN_BOVIN          1 MRSLTAAARRPEVLLLLLCILQPSQPGGVPGAVPGGVPGGVFFPGAGLGG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN          1 MRSLTAAARRPEVLLLLLCILQPSQPGGVPGAVPGGVPGGVFFPGAGLGG     50
+
+ELN_BOVIN         51 LGVGGLGPGVKPAKPGVGGLVGPGLGAEGSALPGAFPGGFFGAGGGAAGA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN         51 LGVGGLGPGVKPAKPGVGGLVGPGLGAEGSALPGAFPGGFFGAGGGAAGA    100
+
+ELN_BOVIN        101 AAAYKAAAKAGAAGLGVGGIGGVGGLGVSTGAVVPQLGAGVGAGVKPGKV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        101 AAAYKAAAKAGAAGLGVGGIGGVGGLGVSTGAVVPQLGAGVGAGVKPGKV    150
+
+ELN_BOVIN        151 PGVGLPGVYPGGVLPGAGARFPGIGVLPGVPTGAGVKPKAQVGAGAFAGI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        151 PGVGLPGVYPGGVLPGAGARFPGIGVLPGVPTGAGVKPKAQVGAGAFAGI    200
+
+ELN_BOVIN        201 PGVGPFGGQQPGLPLGYPIKAPKLPAGYGLPYKTGKLPYGFGPGGVAGSA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        201 PGVGPFGGQQPGLPLGYPIKAPKLPAGYGLPYKTGKLPYGFGPGGVAGSA    250
+
+ELN_BOVIN        251 GKAGYPTGTGVGPQAAAAAAKAAAKLGAGGAGVLPGVGVGGPGIPGAPGA    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        251 GKAGYPTGTGVGPQAAAAAAKAAAKLGAGGAGVLPGVGVGGPGIPGAPGA    300
+
+ELN_BOVIN        301 IPGIGGIAGVGAPDAAAAAAAAAKAAKFGAAGGLPGVGVPGVGVPGVGVP    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        301 IPGIGGIAGVGAPDAAAAAAAAAKAAKFGAAGGLPGVGVPGVGVPGVGVP    350
+
+ELN_BOVIN        351 GVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGALSPAATAK    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        351 GVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGALSPAATAK    400
+
+ELN_BOVIN        401 AAAKAAKFGARGAVGIGGIPTFGLGPGGFPGIGDAAAAPAAAAAKAAKIG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        401 AAAKAAKFGARGAVGIGGIPTFGLGPGGFPGIGDAAAAPAAAAAKAAKIG    450
+
+ELN_BOVIN        451 AGGVGALGGVVPGAPGAIPGLPGVGGVPGVGIPAAAAAKAAAKAAQFGLG    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        451 AGGVGALGGVVPGAPGAIPGLPGVGGVPGVGIPAAAAAKAAAKAAQFGLG    500
+
+ELN_BOVIN        501 PGVGVAPGVGVVPGVGVVPGVGVAPGIGLGPGGVIGAGVPAAAKSAAKAA    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        501 PGVGVAPGVGVVPGVGVVPGVGVAPGIGLGPGGVIGAGVPAAAKSAAKAA    550
+
+ELN_BOVIN        551 AKAQFRAAAGLPAGVPGLGVGAGVPGLGVGAGVPGLGVGAGVPGPGAVPG    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        551 AKAQFRAAAGLPAGVPGLGVGAGVPGLGVGAGVPGLGVGAGVPGPGAVPG    600
+
+ELN_BOVIN        601 TLAAAKAAKFGPGGVGALGGVGDLGGAGIPGGVAGVVPAAAAAAKAAAKA    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        601 TLAAAKAAKFGPGGVGALGGVGDLGGAGIPGGVAGVVPAAAAAAKAAAKA    650
+
+ELN_BOVIN        651 AQFGLGGVGGLGVGGLGAVPGAVGLGGVSPAAAAKAAKFGAAGLGGVLGA    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        651 AQFGLGGVGGLGVGGLGAVPGAVGLGGVSPAAAAKAAKFGAAGLGGVLGA    700
+
+ELN_BOVIN        701 GQPFPIGGGAGGLGVGGKPPKPFGGALGALGFPGGACLGKSCGRKRK    747
+                     |||||||||||||||||||||||||||||||||||||||||||||||
+ELN_BOVIN        701 GQPFPIGGGAGGLGVGGKPPKPFGGALGALGFPGGACLGKSCGRKRK    747
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      11/43 (25.6%)
+# Similarity:    17/43 (39.5%)
+# Gaps:          20/43 (46.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        103 AYKAAAKAGAAGLGVGGIGGVGGLGVSTGAVVPQLGAGVGAGV    145
+                     ||:.||.          :|.:||          |:|..:||.:
+ASIC2_MOUSE      422 AYEVAAL----------LGDIGG----------QMGLFIGASI    444
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      17/71 (23.9%)
+# Similarity:    30/71 (42.3%)
+# Gaps:          18/71 (25.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        517 VVPGV-GVAPGI-------GLGPGGVIGA---------GVPAAAKSAAKA    549
+                     ::||: |.:..|       .|..|.||.|         |: ..|.:..|:
+DOXA1_XENTR       39 ILPGIRGKSRSIWLFRILTSLFIGAVILAVNFTSDWETGI-VTATTVYKS     87
+
+ELN_BOVIN        550 AAKAQFRAAAGLPAGVPGLGV    570
+                     .:.:...|:.||..|:.|:.:
+DOXA1_XENTR       88 FSHSMLNASIGLWIGLKGVNI    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:      11/27 (40.7%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           8/27 (29.6%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        541 AAAKSAAKAAAKA--------QFRAAA    559
+                     :|.|||.:.|.||        .||||:
+RS20_STRPB        27 SAQKSAMRTAIKAFEANPSEELFRAAS     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       7/13 (53.8%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        314 DAAAAAAAAAKAA    326
+                     |.|..||.|..||
+TPM_HAELO         75 DKALQAAEAEVAA     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 415
+# Identity:      81/415 (19.5%)
+# Similarity:   113/415 (27.2%)
+# Gaps:         172/415 (41.4%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         63 AKPGVGGLVGPGLGAEGSALPG---------AFPGGFFGAGGGAAGAAAA    103
+                     |:.|:..:|||   .:|:.|||         ....|.|||.....|.:..
+LEUC_XANOM       109 ARQGIVHVVGP---EQGATLPGMTVVCGDSHTSTHGAFGALAHGIGTSEV    155
+
+ELN_BOVIN        104 YKAAAK---------------AGAAGLGV----------GGIGGVGGLGV    128
+                     ....|.               .|....||          |.||..||   
+LEUC_XANOM       156 EHVLATQCLITKKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGG---    202
+
+ELN_BOVIN        129 STGAVVPQLGAGVGAGVKPGKVPGVGLPGVYPGGVLPGAGARFPGIGV--    176
+                      .|..:...|:.:.|....|::....:.        ..||||...:.|  
+LEUC_XANOM       203 -NGHALEFAGSAIRALSMEGRMTICNMS--------IEAGARVGMVAVDE    243
+
+ELN_BOVIN        177 --------LPGVPTGA-----------------------------GVKPK    189
+                             .|..|.||                             .:||:
+LEUC_XANOM       244 KTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDTVVELHAEDIKPQ    293
+
+ELN_BOVIN        190 AQVGAGAFAGIPGVGPFGGQQPGLPLGYPIKAPKLPAGYGLPYKTGKLPY    239
+                     ..               .|..|.:.|......|. ||....|.|...:..
+LEUC_XANOM       294 VS---------------WGTSPEMVLAIDQHVPD-PATEQDPTKRNSIER    327
+
+ELN_BOVIN        240 GFGPGGVAGSAGKA-----------GYPTGTGVGPQAAAAAAKAAAKLGA    278
+                     .....|:  .|.:|           |..|.:.:....||||.....|:.:
+LEUC_XANOM       328 ALKYMGL--KANQAITDIRLDRVFIGSCTNSRIEDLRAAAAVAKGRKVAS    375
+
+ELN_BOVIN        279 --GGAGVLPGVGV-----GGPGI-------------PGAPGAI-------    301
+                       ..|.|:||.|:     ...|:             ||....:       
+LEUC_XANOM       376 TIKQALVVPGSGLVKAQAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDKL    425
+
+ELN_BOVIN        302 -----------------PGIGGIAGVGAPDAAAAAAAAAKAAKFGAAGGL    334
+                                      .|.||...:.:|   |.|||||.:..|      
+LEUC_XANOM       426 GSGEHCASTSNRNFEGRQGAGGRTHLVSP---AMAAAAAVSGHF------    466
+
+ELN_BOVIN        335 PGVGVPGVGVPGVGV    349
+                       |.|..:|..|||:
+LEUC_XANOM       467 --VDVRELGDSGVGI    479
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        257 TGTGVG    262
+                     ||.|.|
+LPT_ESCF3         16 TGNGAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      24/95 (25.3%)
+# Similarity:    37/95 (38.9%)
+# Gaps:          14/95 (14.7%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        459 GVVPGAPGAIPGLPGVGGVPGVGIPAAAAAKAAAKAAQFGLGPGVGVAPG    508
+                     ||...||.|:...|..|          |||..|.:..:|.:......|..
+RL7_THET8         32 GVTAAAPVAVAAAPAAG----------AAAAPAEEKTEFDVILKEAGAKK     71
+
+ELN_BOVIN        509 VGVVPGVGVVPGVGVAPGIGLG-PGGVIGAGVPAAAKSAAKAAAK    552
+                     :.|:..:..:.|:|:.....|. .||.:..||   :|..|:...|
+RL7_THET8         72 LEVIKELRAITGLGLKEAKDLAEKGGPVKEGV---SKQEAEEIKK    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       7/12 (58.3%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        103 AYKAAAKAGAAG    114
+                     ||:||.:||..|
+HEM1_METCA       122 AYQAAREAGTVG    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 228
+# Identity:      52/228 (22.8%)
+# Similarity:    74/228 (32.5%)
+# Gaps:          63/228 (27.6%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        355 PGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGVGVPGALSPAATAKAAAK    404
+                     |.:.|.|.|....|..|:|:...|...:.:...||..|:|....:|..:.
+XYLB_KLEPN       224 PALVVGGGGDNAAGAVGIGMADAGQAMLSLGTSGVYFAVSEGFLSKPESA    273
+
+ELN_BOVIN        405 AAKF--GARG-----------------AVGIGGIPTFGLGPGGFPGIGDA    435
+                     ...|  ..||                 |..:.|:                
+XYLB_KLEPN       274 VHSFCHACRGRWHLMSVMLSAASCLDWAAKLTGL----------------    307
+
+ELN_BOVIN        436 AAAPA-AAAAKAAKIGAGGVGALGGVV--------PGAPGAIPGLPGVGG    476
+                     |:.|| .|||:.|...||.|..|..:.        |.|.|...||....|
+XYLB_KLEPN       308 ASVPALIAAAQTADESAGPVWFLPYLSGERTPHNNPQAKGVFFGLTHQHG    357
+
+ELN_BOVIN        477 VPGVGIPAAAAAKAAAKAAQFGLGPGVGVAPGVGVVPGVGVVPGVGVA--    524
+                            .|..|:|..:...:.|..|:.|.....:.|....:.|.|.|  
+XYLB_KLEPN       358 -------PAELARAVLEGVGYALADGMDVVHACAIKPEAITLIGGGRARY    400
+
+ELN_BOVIN        525 --------PGIGLG--PGGVIGAGVPAA    542
+                             .|:.|.  .||.:|..:.||
+XYLB_KLEPN       401 WRQMLADISGLQLDYRTGGDVGPALGAA    428
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       7/12 (58.3%)
+# Similarity:    10/12 (83.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        194 AGAFAGIPGVGP    205
+                     :||.|.:||:||
+RECR_NOVAD        10 SGALARLPGLGP     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      38/135 (28.1%)
+# Similarity:    50/135 (37.0%)
+# Gaps:          27/135 (20.0%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        498 GLGPGVGVAPGV---GVVPGV--GVVPGV-GVAPGIGLGPGGVIGAGVPA    541
+                     |:..|..||..|   |.|.|.  |.:.|| .:|.....|.||........
+SURE_METNO        91 GVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHT    140
+
+ELN_BOVIN        542 AAKSAAKAAAKAQFRAAAGLPAGV-PGLGVGAGVPGL------GVGAGVP    584
+                     ||:..|:...:.       |.||: ||:.|....|..      |:.....
+SURE_METNO       141 AAEHGARTIRRI-------LEAGIEPGILVNVNFPDCEPEAVEGIAVVAQ    183
+
+ELN_BOVIN        585 G------LGVGAGVPGPGAVPGTLAAAKAAKFGPG    613
+                     |      |.:...:.|.|.....||.|| |:|.||
+SURE_METNO       184 GMRNQQLLAIDERLDGRGNPYFWLAFAK-ARFEPG    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       8/16 (50.0%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           1/16 ( 6.2%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        288 GVGGP-GIPGAPGAIP    302
+                     |...| |||..|..||
+CYB_ARTIO        204 GSNNPTGIPSDPDMIP    219
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      14/52 (26.9%)
+# Similarity:    16/52 (30.8%)
+# Gaps:          24/52 (46.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        195 GAFAGIPGVGPF---------------------GGQQPGL--PLGYPIKA    221
+                     |||. :||.|..                     ..|.|.|  |..|.:||
+IOLE_BACHK       240 GAFT-VPGDGVIVFDEVFTILANSNYQGWFVVEAEQDPALANPFEYALKA    288
+
+ELN_BOVIN        222 PK    223
+                     .|
+IOLE_BACHK       289 RK    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      30/123 (24.4%)
+# Similarity:    42/123 (34.1%)
+# Gaps:          22/123 (17.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        198 AGIPGVGPFGGQQPGLP------LGYPIKAPKLPAGYGLPYKTGKLPYGF    241
+                     |.:.|:..|....|.:|      ..:....|:....|.|||...| .||.
+ACKA_STAAT       125 ANLMGIRAFRKLLPNIPHVAIFDTAFHQTMPEKAYLYSLPYHYYK-DYGI    173
+
+ELN_BOVIN        242 GPGGVAGSAGKAGYPTGTGVGPQAAAAAAKAAAKLGAGGAGVLPGVGV--    289
+                     ...|..|::.|.       |..:||....|....|......:..|..:  
+ACKA_STAAT       174 RKYGFHGTSHKF-------VSQRAAEMLDKPIEDLRIISCHIGNGASIAA    216
+
+ELN_BOVIN        290 --GGPGIPGAPGAIPGIGGIAGV    310
+                       ||..|..:.|..|    :|||
+ACKA_STAAT       217 IDGGKSIDTSMGFTP----LAGV    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      15/55 (27.3%)
+# Similarity:    19/55 (34.5%)
+# Gaps:           1/55 ( 1.8%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        512 VPGVGVVPGVGVAPGIGLGPGGVIGAGVPAAAKSAAKAAAKAQFRAAAGL    561
+                     |..||:..|..||..:| ...|:...|........|.:.....|....||
+HIS7_BURTA        67 VEDVGITLGQAVAKAVG-DKKGIRRYGHSYVPLDEALSRVVIDFSGRPGL    115
+
+ELN_BOVIN        562 PAGVP    566
+                     ...||
+HIS7_BURTA       116 EFHVP    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      23/82 (28.0%)
+# Similarity:    32/82 (39.0%)
+# Gaps:           6/82 ( 7.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        491 AAKAAQFGLGPGVGVAPGV-GVVPGVGVVPGVGVAPGIGLGPGG-----V    534
+                     |..||:...|.|.|...|: .::..:|....|.:..|||..|.|     |
+PTH_GEOLS         98 ALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHV    147
+
+ELN_BOVIN        535 IGAGVPAAAKSAAKAAAKAQFRAAAGLPAGVP    566
+                     :|...|...:..|:....|.......|..|||
+PTH_GEOLS        148 LGVFTPPEMEIFARVLDGALDMLETALDEGVP    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      31/144 (21.5%)
+# Similarity:    42/144 (29.2%)
+# Gaps:          32/144 (22.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        263 PQAAAAAAKAAAKLGAGGAGVL--------PGVGVGGPGIPGAPGAIPGI    304
+                     |..:....:...::|||...::        ....|..|.:|.:|...|..
+TAF3_XENLA       670 PAPSPVIPRLTLRVGAGQDTIVISKVVSAPESKAVPPPSLPKSPPPTPSP    719
+
+ELN_BOVIN        305 GGIAGVGAPDAAAAAAAAAKAAKFGAAGGL-PGVGVPGVGVPGVGVPGVG    353
+                     .....:..|..|..|.|||..|...|...| ...|.....|..|....|.
+TAF3_XENLA       720 APAPVLVVPPQAPPAPAAASPAPTPAPSALTSNAGSSKTPVRSVVTETVS    769
+
+ELN_BOVIN        354 V--------------PGVGVPGVGVPGVGV---------PGVGV    374
+                     .              ||...|..|.|.:|.         |.||:
+TAF3_XENLA       770 TYVIRDEWGNQIWICPGCNKPDDGSPMIGCDQCDDWYHWPCVGI    813
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      13/36 (36.1%)
+# Similarity:    13/36 (36.1%)
+# Gaps:           0/36 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        429 FPGIGDAAAAPAAAAAKAAKIGAGGVGALGGVVPGA    464
+                     ||....|...||..|....|.....||..|.|.|.|
+DNLJ_CROS5       309 FPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMA    344
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      26/97 (26.8%)
+# Similarity:    34/97 (35.1%)
+# Gaps:          14/97 (14.4%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        364 VPGVGVPGVGVPGVGVPGVGVPGVG---------VPGALSPAATAKAAAK    404
+                     |||......|:....:.|:....||         ..|.|..|...:.|.:
+MUTS_MYXXD       780 VPGGASRSYGIEVAKLAGLPPEVVGRARELLQNLESGELDDAGRPRVAVR    829
+
+ELN_BOVIN        405 AAKFGARGAVGIGGIPTFGLGPGGFPGIGDAAAAPAAAAAKAAKIGA    451
+                     ..:.|.||| ..|.:..||:.|..    |.....||...|..|..||
+MUTS_MYXXD       830 QPQGGRRGA-STGQLGLFGMEPAQ----GGTGVTPAQQKALDALKGA    871
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      13/37 (35.1%)
+# Similarity:    14/37 (37.8%)
+# Gaps:           7/37 (18.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        253 AGYPTGTGVGPQAAAAAAKAAAKLGAGGAG----VLP    285
+                     |||   ...|..|.....:.|..||..|.|    |||
+NOSO_STAAC       126 AGY---DNCGDPAEKEVTRLANHLGWKGKGTNFDVLP    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    15/39 (38.5%)
+# Gaps:           5/39 (12.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        685 KAAKFGAAGLGGVLGAGQPFPIG-----GGAGGLGVGGK    718
+                     |.|:....||.|....|||..:.     |...|...||:
+RBM8A_MOUSE      125 KEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGGR    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+ELN_BOVIN          5 TAAARRPEVLLL     16
+                     |.|:..|.:||:
+NU4LM_ARCPU       54 TLASMAPIILLV     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 225
+# Identity:      59/225 (26.2%)
+# Similarity:    84/225 (37.3%)
+# Gaps:          46/225 (20.4%)
+# Score: 92.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        449 IGAGGVGALGGVVPGAPGAIPG---LPGVGGVPGVGIPAAAAAKAAAKAA    495
+                     |..||. .|...:.||.|.|..   ||         .||:...:|...|.
+NANK_ECOLI         6 IDIGGT-KLAAALIGADGQIRDRRELP---------TPASQTPEALRDAL     45
+
+ELN_BOVIN        496 QFGLGPGVGVAPGVGVVPGVGVVPGVGVAPGIGLGP---GGVIG------    536
+                     ...:.|....|..|.:. ..|::....:   :.|.|   ||::.      
+NANK_ECOLI        46 SALVSPLQAHAQRVAIA-STGIIRDGSL---LALNPHNLGGLLHFPLVKT     91
+
+ELN_BOVIN        537 ----AGVPAAAKSAAKAAAKAQFRAAAGLPAGVPGLGVGAGVPGLGVGAG    582
+                         ..:|..|.:.|:|||.|:|:|..|....:..:.|..||.|      
+NANK_ECOLI        92 LEQLTNLPTIAINDAQAAAWAEFQALDGDITDMVFITVSTGVGG------    135
+
+ELN_BOVIN        583 VPGLGVGAG---VPGPGAVPGTLAAAKAAKFGP-GGVGALGGVGDL-GGA    627
+                         ||.:|   :.|||.:.|.:....|...|| .|.|..|.|..: .|.
+NANK_ECOLI       136 ----GVVSGCKLLTGPGGLAGHIGHTLADPHGPVCGCGRTGCVEAIASGR    181
+
+ELN_BOVIN        628 GIPGGVAGVVPAAAAAAKAAAKAAQ    652
+                     ||.....|.: |.|.|.....:|.|
+NANK_ECOLI       182 GIAAAAQGEL-AGADAKTIFTRAGQ    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     6/8 (75.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        631 GGVAGVVP    638
+                     |.||.::|
+MIAB_MYCPE       394 GTVAAIIP    401
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           0/25 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        170 RFPGIGVLPGVPTGAGVKPKAQVGA    194
+                     ||.|.|:....|:|:....||..||
+NADK_STAES       147 RFRGDGLCISTPSGSTAYNKALGGA    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      16/53 (30.2%)
+# Similarity:    23/53 (43.4%)
+# Gaps:           8/53 (15.1%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        169 ARFPGIGVLPGVP--TGAGVKPKAQV----GAGAFAGIPGV--GPFGGQQ    210
+                     |:...:||....|  ||:|:..:...    |.|..:.:.||  ..||.|.
+TRPG_CAEEL       829 AQKKAMGVFSSRPSRTGSGIASRQSTEGMGGVGGGSSVAGVFGNSFGNQD    878
+
+ELN_BOVIN        211 PGL    213
+                     |.|
+TRPG_CAEEL       879 PPL    881
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      26/87 (29.9%)
+# Similarity:    32/87 (36.8%)
+# Gaps:          18/87 (20.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         65 PGVGGLVGPGLGAEGSALPGAFPGGFFGAGGGAAGAAAAYKAAAKAGAAG    114
+                     |..||.....| ||....|...|.|.|.|..|:.||..:.:...:.    
+MSHD_MYCMM       178 PEQGGWTEADL-AERRGEPWFDPAGLFLALEGSEGAEDSPRGQPRL----    222
+
+ELN_BOVIN        115 LGV---------GGIGGVGGLGVSTGAVVPQLGAGVG    142
+                     ||.         .|:|.|..|||...|    .|.|:|
+MSHD_MYCMM       223 LGFHWTKIHLDDPGLGEVYVLGVDPAA----QGRGLG    255
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:      10/24 (41.7%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        111 GAAGLGVGGIGGVGGLGVSTGAVV    134
+                     |..|.||.||.|.....|:.|.:|
+PAND_THEFY        62 GERGSGVIGINGAAARLVAPGDLV     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      18/61 (29.5%)
+# Similarity:    25/61 (41.0%)
+# Gaps:           5/61 ( 8.2%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        394 SPAATAKAAAKAAKFGARGAVGIGGIPTFGLGPGGFPGIGDAAAAPAAA-    442
+                     ||:||...|....:......:..|  |:|.....|  |..:|...|:.| 
+LIPA_ASPOR        38 SPSATGAPATARKRTNFTDKLNAG--PSFADFVSG--GEDNAPLEPSEAY     83
+
+ELN_BOVIN        443 AAKAAKIGAGG    453
+                     |.|.|.:|..|
+LIPA_ASPOR        84 ALKTAMVGPAG     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      38/135 (28.1%)
+# Similarity:    46/135 (34.1%)
+# Gaps:          46/135 (34.1%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        185 GVKPKAQVGAGAFAGIPGVG------PFGGQ-------QPGLPLGYPIKA    221
+                     ||:..|.:|.|...|:.|.|      ||..|       |.|:        
+FLGI_PECAS        34 GVRGNALIGYGLVVGLDGSGDQTMQTPFTTQSLTNMLSQLGI--------     75
+
+ELN_BOVIN        222 PKLPAGYGLPYK-------TGKLPYGFGPGG-----VAGSAGKAGYPTG-    258
+                      .:|||..:..|       |.:|| .||..|     |..|.|.|....| 
+FLGI_PECAS        76 -TVPAGTNMQLKNVAAVMVTAELP-PFGRTGQNIDIVVSSLGNAKSLRGG    123
+
+ELN_BOVIN        259 -------TGVGPQAAAAAAKAAAKLGAGGAGVLPG    286
+                            .||..|..|.   |...:..||||...|
+FLGI_PECAS       124 TLLMTPLKGVDNQVYAL---AQGNVLVGGAGASAG    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       8/12 (66.7%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        445 KAAKIGAGGVGA    456
+                     |...|||||||:
+LDH_BORAP          6 KVVLIGAGGVGS     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      15/57 (26.3%)
+# Similarity:    19/57 (33.3%)
+# Gaps:          22/57 (38.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        180 VPTGAGVK-----------PKAQVG-----------AGAFAGIPGVGPFG    207
+                     :|.|..:|           ||..:|           ||.:..|...|..|
+EXGB_EMENI       124 IPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGWASDAGMYIIIDLHGAPG    173
+
+ELN_BOVIN        208 GQQPGLP    214
+                     .|||..|
+EXGB_EMENI       174 AQQPKQP    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:      10/24 (41.7%)
+# Similarity:    11/24 (45.8%)
+# Gaps:           7/24 (29.2%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+ELN_BOVIN          9 RRPEVLLLLLCILQPSQPGGVPGA     32
+                     |..|||.|       .:|||.|.|
+KTHY_CHLP8        27 RGREVLTL-------REPGGTPVA     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      28/117 (23.9%)
+# Similarity:    36/117 (30.8%)
+# Gaps:          43/117 (36.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        383 GVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLGPGGFPGI    432
+                     |||.| |..|.:.|..|:..|:|.|:|                       
+SECA2_MYCTO      496 GVPAV-VLNAKNDAEEARVIAEAGKYG-----------------------    521
+
+ELN_BOVIN        433 GDAAAAPAAAAAKAAKIGAGG--------VGALGGV-VPGA--------P    465
+                       |.......|.:...|..||        |..|||: |.|.        .
+SECA2_MYCTO      522 --AVTVSTQMAGRGTDIRLGGSDEADHDRVAELGGLHVVGTGRHHTERLD    569
+
+ELN_BOVIN        466 GAIPGLPGVGGVPGVGI    482
+                     ..:.|..|..|.||..:
+SECA2_MYCTO      570 NQLRGRAGRQGDPGSSV    586
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        213 LPLGY    217
+                     ||||:
+DB108_HUMAN       57 LPLGH     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      11/51 (21.6%)
+# Similarity:    22/51 (43.1%)
+# Gaps:           6/51 (11.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        382 VGVPGVGVPGALSPAATAKAA------AKAAKFGARGAVGIGGIPTFGLG    425
+                     :.|..:.:||::.....::|.      .:..||.:.||..:..|....:|
+LCMT1_CRYNB      306 LAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVG    355
+
+ELN_BOVIN        426 P    426
+                     |
+LCMT1_CRYNB      356 P    356
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      12/34 (35.3%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           5/34 (14.7%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        505 VAPGVGVVPGVGVVPGVG-----VAPGIGLGPGG    533
+                     |||..|.:..:..||.|.     |..||.:.|.|
+PTGA_SALTY        24 VAPLSGEIVNIEDVPDVVFAEKIVGDGIAIKPTG     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:     8/24 (33.3%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        233 KTGKLPYGFGPGGVAGSAGKAGYP    256
+                     |...||....|..:.....|.|.|
+RR14_CRYJA        46 KLQSLPRNSAPTRLRRRCLKTGRP     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      17/51 (33.3%)
+# Similarity:    22/51 (43.1%)
+# Gaps:          12/51 (23.5%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        389 VPGALSPA---ATAKAAAKAAKFGARGAVGIGGIPT----FGLGPGGFPG    431
+                     |.|.|.|:   |..:...|.||     |:...|:.|    |.||.|.||.
+DCUP_BACVZ       283 VQGNLDPSLLLAPWEVIEKKAK-----AILDQGMKTDGFIFNLGHGVFPD    327
+
+ELN_BOVIN        432 I    432
+                     :
+DCUP_BACVZ       328 V    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       9/20 (45.0%)
+# Similarity:    12/20 (60.0%)
+# Gaps:           3/20 (15.0%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        212 GLPLGYPIKAPKLPAGYGLP    231
+                     |||.|.|.:.   |:.||:|
+GTF2I_MOUSE      401 GLPEGIPFRR---PSTYGIP    417
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      16/40 (40.0%)
+# Similarity:    21/40 (52.5%)
+# Gaps:           9/40 (22.5%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        122 GVGGLGVSTGAVVPQ--------LGAGVGAGVKPGKVPGV    153
+                     |||.:|:|.||..|:        ...|.||.| |.::|||
+ISPH_ACIF5       256 GVGKIGISAGASAPESLVQEIMDTLRGWGARV-PQEMPGV    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    18/41 (43.9%)
+# Gaps:          13/41 (31.7%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        574 VPGLGVGAGVPGLGVGAGVPGPGAVPGTLAAAKAAKFGPGG    614
+                     :|||.|      :||...:||       ||.|...:|..||
+NDUA1_HUMAN        6 LPGLSV------MGVCLLIPG-------LATAYIHRFTNGG     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       9/30 (30.0%)
+# Similarity:    11/30 (36.7%)
+# Gaps:           7/30 (23.3%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        412 GAVGIGGIPT-------FGLGPGGFPGIGD    434
+                     |....|..||       ||:....:|.|.|
+PSRP_SALTI       157 GVSRCGKTPTSLYLAMQFGIRAANYPFIAD    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      32/101 (31.7%)
+# Similarity:    38/101 (37.6%)
+# Gaps:          35/101 (34.7%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        105 KAAAKAGAAGLGVGGIGG---VGGL--------------------GVSTG    131
+                     :||.|  .|||..|.|..   |||:                    ||:..
+DNAK_CHESB       316 RAALK--DAGLSAGEIDEVVLVGGMTRMPKVQETVKNFFGKEPHKGVNPD    363
+
+ELN_BOVIN        132 AVVPQLGAGVGAGVKPGKVPGVGLPGVYPGGVLPGAGARFPGIGVLPGVP    181
+                     .|| .:||.:.|||..|.|..|.|..|.|..:         ||..|.||.
+DNAK_CHESB       364 EVV-AMGAAIQAGVLQGDVKDVLLLDVTPLSL---------GIETLGGVF    403
+
+ELN_BOVIN        182 T    182
+                     |
+DNAK_CHESB       404 T    404
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      77/365 (21.1%)
+# Similarity:   110/365 (30.1%)
+# Gaps:         127/365 (34.8%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+ELN_BOVIN         92 GAGGGAAGAAAAYKAAAKAGAA-----GLGVGGIG-----------GVGG    125
+                     |..|.|...|.|||.||::|..     .:.||..|           .|||
+DNLJ_ACIC5       308 GYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGG    357
+
+ELN_BOVIN        126 LGVSTGAV-----VPQLGAGVGAGVK--------PGKVPGVGLPGVYPGG    162
+                     ..|:...:     :.:||..:|..|:        | ||..|.....:|.|
+DNLJ_ACIC5       358 TTVTRATLHNADEIERLGLRIGDFVRIERGGDVIP-KVVEVVDDAEHPRG    406
+
+ELN_BOVIN        163 --------VLPGAGA---RFPGIGVLPGVPTGAGVKPKAQVGAGAFAG--    199
+                             ..|..|:   |.||......|.|....:.:..:...|..|  
+DNLJ_ACIC5       407 TKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVM    456
+
+ELN_BOVIN        200 -IPGVGP-------------------------------FGGQQPGLPLGY    217
+                      |.|:|.                               .|.:.....||.
+DNLJ_ACIC5       457 NIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGE    506
+
+ELN_BOVIN        218 PIKAPKLPA-----GYGLPY---KTGK-LPYGFGPGGVAGSAGKAGYPTG    258
+                     ..|:.:.|.     |.|:.:   :|.: |...:|.......|.:......
+DNLJ_ACIC5       507 IDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERV    556
+
+ELN_BOVIN        259 TGVGPQAAAA---------------------------AAKAAAKLGAGGA    281
+                     ..|||:.:.|                           ..|..::| ||..
+DNLJ_ACIC5       557 NDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQL-AGLT    605
+
+ELN_BOVIN        282 GVLPGVGVGGPGIPG-----APGAIPGIGG-IAGVGAPDAAAAAAAAAKA    325
+                     .||.|.      :||     |.|.|...|| ::|..:.......|.|...
+DNLJ_ACIC5       606 FVLTGT------LPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAG    649
+
+ELN_BOVIN        326 AKFGAAGGLPGVGVP    340
+                     :|...|..|   |||
+DNLJ_ACIC5       650 SKLEKANSL---GVP    661
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    13/35 (37.1%)
+# Gaps:          12/35 (34.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        540 PAAAKSAAKAAAKAQFRA------------AAGLP    562
+                     |.....:|.::|.|.||.            |||.|
+CAPSD_CMVO        17 PRRGSRSAPSSADANFRVLSQQLSRLNKTLAAGRP     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    11/27 (40.7%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        540 PAAAKSAAKAAAKAQFRAAAGLPAGVP    566
+                     |...|..|....||:....|..||.:|
+IF3_CHLL2        176 PDKKKIDAFERIKAKTSGPAPAPAPLP    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     7/16 (43.8%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        583 VPGLGVGAGVPGPGAV    598
+                     |.|..|..||..|..|
+CSRA_HAEI8        25 VRGNQVKLGVEAPKEV     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:      11/20 (55.0%)
+# Similarity:    13/20 (65.0%)
+# Gaps:           4/20 (20.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        178 PGVPTGAGVK---PKAQVGA    194
+                     |||.||..:|   || :|||
+COAX_CLOBL        90 PGVKTGINIKYDNPK-EVGA    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       6/11 (54.5%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        553 AQFRAAAGLPA    563
+                     ||:|.:.|||:
+HOP_BOVIN         56 AQWRRSEGLPS     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      21/86 (24.4%)
+# Similarity:    25/86 (29.1%)
+# Gaps:          42/86 (48.8%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         54 GGLGPGVKPAK-----PGV------------------GGLVGPGLGAEG-     79
+                     |||...|:.||     |.:                  .||.|..||.:. 
+THII_VIBA3       130 GGLNQAVESAKVKLKNPDITVKVEVENDKLNQVIERHKGLGGFPLGTQED    179
+
+ELN_BOVIN         80 --SALPGAFPGG----------------FFGAGGGA     97
+                       |.:.|.|..|                ||..||.|
+THII_VIBA3       180 LLSLISGGFDSGVSSYLHIKRGSKVHYCFFNLGGPA    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      14/37 (37.8%)
+# Similarity:    17/37 (45.9%)
+# Gaps:           6/37 (16.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        175 GVLPGVPTGAGVKPKAQVGAGAFAGIPGVGPFGGQQP    211
+                     |:||..|.|..:..|.:|.|||      ..|...|||
+RL13_PSEPG       107 GMLPKNPLGRDMYRKLKVYAGA------AHPHTAQQP    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       5/7 (71.4%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        418 GIPTFGL    424
+                     ||||..|
+RR2_ARATH        184 GIPTISL    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    25/72 (34.7%)
+# Gaps:          17/72 (23.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        458 GGVVPGAPGAIP-GLPGV-------------GGVPGVGIPAAAAAKAAAK    493
+                     ||.|..|.|.:| .:|.|             .|:....:....||.|...
+Y1710_SYNP2      175 GGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVTPTGAAIATTL    224
+
+ELN_BOVIN        494 AAQFGLGPGV---GVAPGVGVV    512
+                     |..|...|.:   .:|.|.|.:
+Y1710_SYNP2      225 ATDFCQPPAMTLAKIALGSGTI    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      23/85 (27.1%)
+# Similarity:    32/85 (37.6%)
+# Gaps:          14/85 (16.5%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        115 LGVGGIGGVGGLGVSTGAVVPQLGA----GVGAGVKPGKVPGVGLPGVYP    160
+                     ||..|.|....|.|..|.:.|..|.    |......|.:..|:       
+WTPC_THEKO        33 LGPSGAGKTVLLEVIAGIIEPDSGRIFLNGEDITDLPPEKRGL-------     75
+
+ELN_BOVIN        161 GGVLPGAGARFPGIGVLPGVPTGAGVK--PKAQVG    193
+                      ..:|...|.||.:.|...:..|..|:  |||::|
+WTPC_THEKO        76 -AYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIG    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:      10/28 (35.7%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           8/28 (28.6%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+ELN_BOVIN          9 RRPEVLLLLLCILQ--------PSQPGG     28
+                     |.|:..:|.||.||        ||:..|
+GRB7_RAT         465 RNPQGFVLSLCHLQKVKHYLILPSEDEG    492
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 192
+# Identity:      40/192 (20.8%)
+# Similarity:    56/192 (29.2%)
+# Gaps:          65/192 (33.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        502 GVGVAPGVG-VVPGVGVVPGVGVAPGIGLG--------------------    530
+                     |:.|||..| |...|.::|    .|.:|||                    
+PSD_RHOPS         66 GLVVAPADGRVSMVVQMIP----PPALGLGDKPLPRVSIFMSVFNCHVNR    111
+
+ELN_BOVIN        531 -------------PGGVIGAGVPAAAKSAAKAAAKAQFRAAAGLPAGVPG    567
+                                  ||..|.|.:..|::...:.:      .....|||..|
+PSD_RHOPS        112 SPVAGRVERIIYSPGKFINAELDKASEDNERNS------MVISTPAGQIG    155
+
+ELN_BOVIN        568 LGVGAGVPGLGVGAGVPGLGVGAGVPGPGAVPGTLAAAKAAKFGPGGVGA    617
+                     :...||:....:.:.|.        .|....||       .:||      
+PSD_RHOPS        156 VVQIAGLVARRIVSFVR--------EGQTLAPG-------ERFG------    184
+
+ELN_BOVIN        618 LGGVGDLGGAGIPGGVAGVVPAAAAAAKAAAKAAQFGLGGVG    659
+                     |...|......:|.|...:|.....|.......|.|.||..|
+PSD_RHOPS        185 LIRFGSRLDVYLPEGAKPLVSEGQTAIAGETVLADFNLGDGG    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    14/32 (43.8%)
+# Gaps:           0/32 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+ELN_BOVIN          3 SLTAAARRPEVLLLLLCILQPSQPGGVPGAVP     34
+                     |..:.|::||.|:......|.|.|...|...|
+PP156_ARATH       47 SSPSLAKKPETLVSFFQWAQTSIPEAFPSDSP     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        241 FGPGGVAGSAGKAGY    255
+                     :|.|..:.|.||..|
+ADRB2_MESAU      350 YGNGYSSNSNGKTDY    364
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       8/19 (42.1%)
+# Similarity:     8/19 (42.1%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         32 AVPGGVPGGVFFPGAGLGG     50
+                     ||..|.|..|.|..|...|
+ID5B_ADEPA        19 AVKEGDPLVVQFVNADREG     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       5/7 (71.4%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        276 LGAGGAG    282
+                     ||||.:|
+GPA7_CAEEL        39 LGAGESG     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      18/77 (23.4%)
+# Similarity:    28/77 (36.4%)
+# Gaps:          11/77 (14.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         85 AFPGGFFGAGGGAAGAAAAYKAAAKAGAAGLGVGGIGGVGGLGVST-GAV    133
+                     ||....|.|.|   ......:|.:|....|:....:.|...||.|. .||
+IDI_ECO24         34 AFSSWLFNAKG---QLLVTRRALSKKAWPGVWTNSVCGHPQLGESNEDAV     80
+
+ELN_BOVIN        134 VPQLGAGVGAGVKPGKVPGVGLPGVYP    160
+                     :.:....:|..:.|.:       .:||
+IDI_ECO24         81 IRRCRYELGVEITPPE-------SIYP    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      19/64 (29.7%)
+# Similarity:    24/64 (37.5%)
+# Gaps:          14/64 (21.9%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        210 QPGLPLGYPIKAPKLPAGYGLPYKTGKLP----------YGFGPGGVAGS    249
+                     || :|...|..|.|:..|:.| |...:|.          :....|||.|.
+YHJA_ECOLI       174 QP-IPQKLPTDAQKVALGFAL-YHDPRLSADSTISCAHCHALNAGGVDGR    221
+
+ELN_BOVIN        250 AGKAGYPTGTGVGP    263
+                       |.....|..|||
+YHJA_ECOLI       222 --KTSIGVGGAVGP    233
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    12/29 (41.4%)
+# Gaps:           3/29 (10.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        721 KPFGGA---LGALGFPGGACLGKSCGRKR    746
+                     ||..|.   .|.|..|.|..:|....||:
+RIMP_BURPS        96 KPLDGRKTYRGILHAPNGETIGLEFERKK    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:     9/20 (45.0%)
+# Gaps:           3/20 (15.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         61 KPAKPGVGGLVGPGLGAEGS     80
+                     ||.||   ..|...:|..||
+RS28_OSTOS         3 KPVKP---AXVTKNIGRTGS     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        680 PAAAAKAAKFGAAGL    694
+                     |..|:.|.::||..|
+HBAC_LITCT        16 PCLASHAEQYGAEAL     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 448
+# Identity:      94/448 (21.0%)
+# Similarity:   130/448 (29.0%)
+# Gaps:         175/448 (39.1%)
+# Score: 83.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        379 VPGVGVPGVGVPGALSPAATAKAAAKAAKFGARGAVG----IGGIPT---    421
+                     :|..|:..:|:.|.|                  .|||    :.||.|   
+RPOA_PRRSS      1597 MPAAGILSLGITGLL------------------WAVGRFTQVAGIITPYD   1628
+
+ELN_BOVIN        422 ---FGLGPGGFPGIGDAAAAP----AAAAAKAAKIGAGGV---GALGGVV    461
+                        :..||.|...:   |.||    .||..:||..|...:   .|:|.::
+RPOA_PRRSS      1629 IHQYTSGPRGAAAV---ATAPEGTYMAAVRRAALTGRTLIFTPSAVGSLL   1675
+
+ELN_BOVIN        462 PGA-------------PGAIPGLPGVGGVPGVGIPAAAA-----------    487
+                     .||             .|:..|..||..:.|......||           
+RPOA_PRRSS      1676 EGAFRTHKPCLNTVNVVGSSLGSGGVFTIDGRKTVVTAAHVLNGDTARVT   1725
+
+ELN_BOVIN        488 ---------AKAAAKAAQFGLGPGVGVAPGVGVVPGVGVVPGVGVAPGIG    528
+                              .|.:...|........||||.|.|..|.             
+RPOA_PRRSS      1726 GDSYNRMHTFKTSGDYAWSHADDWQGVAPVVKVAKGY-------------   1762
+
+ELN_BOVIN        529 LGPGGVIGAGVPAAAKSAAKAAAKAQFRAAAGLPAGVPGLGVG-------    571
+                                          ..:|.::.:.|:..||.|.|..       
+RPOA_PRRSS      1763 ---------------------RGRAYWQTSTGVEPGVIGEGFAFCFTNCG   1791
+
+ELN_BOVIN        572 -AGVPGLGVGAGVPGLGVGAGVPGPGAV---PGTLAAAKAAKF-------    610
+                      :|.|.:.....:.|:..|:...|.|.|   .|...|.|..|.       
+RPOA_PRRSS      1792 DSGSPVISESGDLIGIHTGSNKLGSGLVTTPEGETCAIKETKLSDLSRHF   1841
+
+ELN_BOVIN        611 -GPGGVGALGGVGDLGGAGIPGGVAGVVPAAAAAAKAAAKAAQFGLGGVG    659
+                      ||.  ..||.: .|..|.:|...:  :|:..|:..|:....:.||..|.
+RPOA_PRRSS      1842 AGPS--VPLGDI-KLSPAIVPDVTS--IPSDLASLLASVPVMEGGLSTVQ   1886
+
+ELN_BOVIN        660 GLGV--------GGLGAVPGAVG---LGGVSPAAAAKAA-----------    687
+                     .|.|        |.......|||   |..:.||...:|.           
+RPOA_PRRSS      1887 LLCVFFLLWRMMGHAWTPIVAVGFFLLNEILPAVLVRAVFSFALFILAWA   1936
+
+ELN_BOVIN        688 --------------------KFGAA--GLGGVLGAGQPFPIGGGAGGL    713
+                                         |...|  .||||:|...  .||..||.|
+RPOA_PRRSS      1937 TPWSAQVLMIRLLTASLNRNKLSLAFYALGGVVGLAA--EIGAFAGRL   1982
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    14/38 (36.8%)
+# Gaps:           6/38 (15.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        694 LGGVLGAGQPFPIGGGAGGLGVGGKPPKPFGGALGALG    731
+                     |.||....:...|.||.|.|      .:.|...:|..|
+UBIE_PSEAE        63 LSGVRSGNRVLDIAGGTGDL------TRQFSRLVGPTG     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      41/175 (23.4%)
+# Similarity:    57/175 (32.6%)
+# Gaps:          58/175 (33.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        149 KVPG--VGLPGVYPGGVLPGAGARFPGIGVLPGVPTGAGVKPKAQVGAGA    196
+                     ||.|  |...|:|...:||     |..||      ....::..::...|.
+FLII_AQUAE        25 KVSGEIVSAKGIYLEAILP-----FANIG------NEVEIQSNSRRIRGE     63
+
+ELN_BOVIN        197 FAGIPG----VGPFGGQQP--GLPLGYPI----KAPKLPAGYGLPYKTGK    236
+                     ..|..|    |.|:   :|  ||..|..:    :......|.|:   .||
+FLII_AQUAE        64 VIGFSGDKVLVMPY---EPVFGLRKGDKVLLKNELVSTKTGNGV---VGK    107
+
+ELN_BOVIN        237 LPYGFG---PGGVAGSAGKAG-----------------YPTGTGVGPQAA    266
+                     :...||   .||..|...:.|                 :.||        
+FLII_AQUAE       108 VVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERIREVFDTG--------    149
+
+ELN_BOVIN        267 AAAAKAAAKLGAG-GAGVLPGVGVG    290
+                     ..:..|...||.| ..|:..|.|||
+FLII_AQUAE       150 VRSVNALFTLGKGQKIGIFAGAGVG    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      21/78 (26.9%)
+# Similarity:    25/78 (32.1%)
+# Gaps:          15/78 (19.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        532 GGVI----GAGVPAAAKSAAKA-AAKAQFRAAAG-------LPAGVPGLG    569
+                     |.:|    |...|....|.|.. .:||:....||       .....|...
+MSS11_VANPO      616 GNIISSTQGTNFPIVNLSQAPTPTSKAEGDGEAGQNKKRRRKKPKTPNTN    665
+
+ELN_BOVIN        570 VGAGVPGLGVGAG---VPGLGVGAGVPG    594
+                     |.|..|..|..|.   |...||.:.|.|
+MSS11_VANPO      666 VSASTPTAGNTANSTPVTTSGVNSSVVG    693
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      24/91 (26.4%)
+# Similarity:    33/91 (36.3%)
+# Gaps:          22/91 (24.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        377 VGVPGVGVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLGP    426
+                     |...|:.:|.|.:...:.|.:..|:...  :.|..|..|..|:....|.|
+SPB4_ASPFU       358 VAARGLDIPSVDLVVQIDPPSDPKSFIH--RCGRAGRAGRRGLSVVLLHP    405
+
+ELN_BOVIN        427 G------GF------------PGI--GDAAAAPAAAAAKAA    447
+                     |      .|            |.|  .||.||.|.|.|:.|
+SPB4_ASPFU       406 GREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKA    446
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      12/35 (34.3%)
+# Similarity:    15/35 (42.9%)
+# Gaps:           4/35 (11.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        174 IGVLPGVPTGAGVKPKAQVGA----GAFAGIPGVG    204
+                     :|...|||.....||.:.:.|    ...||..|||
+ASSY_MYCTO       220 VGFERGVPVSVDGKPVSMLAAIEELNRRAGAQGVG    254
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 310
+# Identity:      65/310 (21.0%)
+# Similarity:    92/310 (29.7%)
+# Gaps:         110/310 (35.5%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        387 VGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLGPGGFPG----I    432
+                     :|:|||  |.||                           |.|.|.    :
+ECCB1_MYCS2      131 IGIPGA--PYAT---------------------------PTGTPASQWTL    151
+
+ELN_BOVIN        433 GDAAAAPAAAAAK----------AAKIGAGGVGALGGVVPGAPGAIPGLP    472
+                     .|..|.|.::|.|          |...|.|.:.|..|::....|| ..|.
+ECCB1_MYCS2      152 CDTVAKPDSSAPKVETSILIRTLAIDSGVGPIRADQGMLVSYEGA-NWLI    200
+
+ELN_BOVIN        473 GVGG-----------VPGVGIPAAAAAKAAAKAAQFGLGPGVGVAPGVGV    511
+                     ..||           ...||||..|.....::    ||         ...
+ECCB1_MYCS2      201 TEGGRHSIDLADRAVTSAVGIPVTAKPTPISQ----GL---------FNA    237
+
+ELN_BOVIN        512 VPGVG-----VVPGVGVAPGIGLGPGGVIGAGVPAAAKSAAK-------A    549
+                     :|..|     .:|..|....:||....|||:....|.:|..:       .
+ECCB1_MYCS2      238 LPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYVVLPDG    287
+
+ELN_BOVIN        550 AAKAQFRAAAGL----------PAGVPGLGVGAGVPGLGVGAGVPGLGVG    589
+                     .|:.....||.|          |..|.. .|.|.:|.....:.:|...:.
+ECCB1_MYCS2      288 VARVNNTTAAALRATNSYGLMQPPAVEA-SVVAKIPEQVYVSPLPDQPLD    336
+
+ELN_BOVIN        590 AGV--------------PGPGAVPGTLAAAKAAKFGPGGVGALGGVGDLG    625
+                     ..:              ||..|...|:.|.:........:|.  |:..:|
+ECCB1_MYCS2      337 VLLRQDSPVLCWSWQREPGDQAPKTTVIAGRRLPLPANAIGT--GIDQIG    384
+
+ELN_BOVIN        626 GAG---IPGG    632
+                     |..   |.||
+ECCB1_MYCS2      385 GDSTVYIEGG    394
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      15/39 (38.5%)
+# Similarity:    17/39 (43.6%)
+# Gaps:           4/39 (10.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        594 GPGAVPGTLAAAKAAKFGPGGVGALGGVGDLGGAGIPGG    632
+                     |||:..||..|.....||...:.|    |||..|.|..|
+KCY4_ORYSJ        35 GPGSGKGTQCANIVEHFGFIHLSA----GDLLRAEIKSG     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      40/175 (22.9%)
+# Similarity:    52/175 (29.7%)
+# Gaps:          56/175 (32.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        121 GGVGGLGVSTGAVVPQLGAGVGAGVKPG------------KVPGVGLPGV    158
+                     |.....|..|...|| ||..||..:...            :..|.|:...
+HCP_TRIV2        216 GNTETFGHPTPTTVP-LGHTVGKAILVSGHDLLALKAVLEQTSGTGIKVY    264
+
+ELN_BOVIN        159 YPGGVLPGAG--------------------------ARFPGIGVLPGVPT    182
+                     ..|.:||..|                          .||||..|:   .|
+HCP_TRIV2        265 THGELLPAHGYPKLKQTHPHLYGHYGTAWQNQTHEFERFPGAIVM---TT    311
+
+ELN_BOVIN        183 GAGVKPKAQVGAGAFAGIPGVGPFGGQQPGL------PLGYPI-KAPKLP    225
+                     ...:.|........|.    :||.|  .|||      .:...| ||.:||
+HCP_TRIV2        312 NCLMPPHETYKDKVFT----LGPVG--YPGLQHISIHDISLVIQKALELP    355
+
+ELN_BOVIN        226 AGYGLPYKTGKLPYGFGPGGVAGSA    250
+                      |:....:...:..||....|.|.|
+HCP_TRIV2        356 -GFTEDSEQKTVTTGFARNAVLGVA    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      20/68 (29.4%)
+# Similarity:    26/68 (38.2%)
+# Gaps:           6/68 ( 8.8%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ELN_BOVIN         27 GGVPGAVPGGVPGGVFFPGAGLGGLGVGGLGPG----VKPAKPGVGGLVG     72
+                     |..|.:...|:|...|.....|..|....|.|.    :||.:....||..
+UBX7_YEAST       253 GDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSV    302
+
+ELN_BOVIN         73 PGLGAEGSALPGAFPGGF     90
+                     .|:  ||.:|.|....||
+UBX7_YEAST       303 TGM--EGPSLLGRLYKGF    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    16/48 (33.3%)
+# Gaps:          11/48 (22.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+ELN_BOVIN        311 GAPDAAAAAAAAAKAAK-FGAAGG----------LPGVGVPGVGVPGV    347
+                     ||.|...|...|....: ||...|          |.|..|..|.:.||
+RPOA_ACICJ        27 GADDTRVATIIAEPLERGFGLTLGNALRRVLLSSLHGAAVTSVRIDGV     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      12/31 (38.7%)
+# Similarity:    13/31 (41.9%)
+# Gaps:           1/31 ( 3.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        241 FGPGGVAGSAGKAGYPTGTGVGPQAAAAAAK    271
+                     |||..|...|........| :..||||..||
+YXAD_BACSU        48 FGPARVKELAESFKLDIST-LSRQAAALEAK     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ELN_BOVIN
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 656
+# Identity:     131/656 (20.0%)
+# Similarity:   188/656 (28.7%)
+# Gaps:         244/656 (37.2%)
+# Score: 99.0
+# 
+#
+#=======================================
+
+ELN_BOVIN        153 VGLPGVYPGGVLPGAG--ARFPGI----GVLPGVPTGAGVKPKAQVGAGA    196
+                     :|||.. ..|::||.|  .|.|.:    ..|..:.||...:|:..:..||
+FADB_SHESR       135 IGLPET-KLGIIPGFGGTVRLPRVIGADNALEWITTGKDQRPEDALKVGA    183
+
+ELN_BOVIN        197 FAGIPGVGPFGGQQPGLPL------------------GYPIKAPKLPAGY    228
+                     ...:  |.|...:...:.:                  ..|:..|||.|  
+FADB_SHESR       184 VDAV--VAPEALEAAAIQMLKDAVAEKLDWQARRHRKMSPLTLPKLEA--    229
+
+ELN_BOVIN        229 GLPYKTGKLPYGFGPGGVAGSAGKAGYPTGTGVGPQAAAAAAKAAAKLGA    278
+                     .:.:.|.|       |.|...||| .||     .|.||.:..:.||..|.
+FADB_SHESR       230 MMSFTTAK-------GMVFAVAGK-HYP-----APMAAVSVVEQAATKGR    266
+
+ELN_BOVIN        279 GG-----------------AGVLPGVGVGGPGIPGAPGAIPGIGGIAGVG    311
+                     ..                 |..|.|:.:....:.|               
+FADB_SHESR       267 SDALQIEHQAFIKLAKTDVAKALIGIFLNDQLVKG---------------    301
+
+ELN_BOVIN        312 APDAAAAAAAAAKAAKFGAAGGLPGVGVPGVGV----PGVGVPGVGVPGV    357
+                           .|..|.|.||...:..:.|.|:.|.|:    ...|.| :.:..:
+FADB_SHESR       302 ------KAKKAGKLAKDVKSAAVLGAGIMGGGIAYQSASKGTP-IVMKDI    344
+
+ELN_BOVIN        358 GVPGVGVPGVG---------------------------VPGVGVPGVGVP    380
+                     ..|.:.: |:|                           .|.:....|...
+FADB_SHESR       345 AQPALDL-GLGEAAKLLSAQVARGRSTPEKMAKVLNNITPALDYAPVNHA    393
+
+ELN_BOVIN        381 GVGVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLG-----    425
+                     .|.|..|    ...|...|:..|:..::.:..|:......|..:.     
+FADB_SHESR       394 DVVVEAV----VEHPKVKAQVLAEVEQYVSEDAIIASNTSTISINLLAKS    439
+
+ELN_BOVIN        426 ---PGGFPGI----------------GDAAAAP--AAAAAKAAKIGAGGV    454
+                        |..|.|:                |:.::..  |:..|.|:|:|...:
+FADB_SHESR       440 MKKPERFCGMHFFNPVHKMPLVEVIRGEHSSEETIASVVAYASKMGKTPI    489
+
+ELN_BOVIN        455 GALGGVVPGAPG------AIPGLPGVGGVPGVGIPAAAAAKAAAKAAQFG    498
+                          ||...||      ..|...|..|:...|...||..|...|  |||
+FADB_SHESR       490 -----VVNDCPGFFVNRVLFPYFAGFNGLLAEGGDFAAIDKVMEK--QFG    532
+
+ELN_BOVIN        499 --LGPGVGVAPGVGVVPGVGVVPGVGVAPGIGLGPG----GVIGAGVPAA    542
+                       :||..                   :...:||..|    .|:..|.|..
+FADB_SHESR       533 WPMGPAY-------------------LLDVVGLDTGHHAQAVMAEGFPDR    563
+
+ELN_BOVIN        543 AKSAAKAAAKAQFRAAAGLPAGVPGLGV--GAGVPGLGVGAGVPGLGVGA    590
+                     ...:...|....|....        ||.  |.|.....|.:        .
+FADB_SHESR       564 MGKSGNDAIDVMFENKR--------LGQKNGKGFYAYSVDS--------R    597
+
+ELN_BOVIN        591 GVPGPGAVPGTLAAAKAAKFG--------------------------PGG    614
+                     |.|.....|.:....||| ||                          ..|
+FADB_SHESR       598 GKPKKDVDPTSYELLKAA-FGEQKAFDADEIIARTMIPMIIETVRCLEEG    646
+
+ELN_BOVIN        615 VGALGGVGDLG---GAGIP---GGV------AGVVPAAAAAAKAAAKAAQ    652
+                     :.|.....|:|   |.|.|   |||      .||....|.|.|.|     
+FADB_SHESR       647 IVASPAEADMGLVYGLGFPPFRGGVFRYLDTMGVANFVALADKYA-----    691
+
+ELN_BOVIN        653 FGLGGV    658
+                      .|||:
+FADB_SHESR       692 -HLGGL    696
+
+
+#---------------------------------------
+#---------------------------------------

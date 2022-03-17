@@ -1,0 +1,3268 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:26
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/Y1710_SYNP2.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/Y1710_SYNP2.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/Y1710_SYNP2.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      18/68 (26.5%)
+# Similarity:    29/68 (42.6%)
+# Gaps:          15/68 (22.1%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       95 LPEIQAMIKGAGLPER----VERWSLAIFQNLAIAEATVHGTTPEQVHFH    140
+                     :||.:|:.:...|||.    |.|..:.|.:.:. ..|.|....|:|    
+PUR7_VIBVU       309 MPEREALARDNELPEEALMAVSRTYINIAEKIT-GSAIVLSDNPKQ----    353
+
+Y1710_SYNP2      141 EVGATDALVDIVGTCLGL    158
+                           .::||:|...||
+PUR7_VIBVU       354 ------EIIDILGREYGL    365
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      12/61 (19.7%)
+# Similarity:    21/61 (34.4%)
+# Gaps:          11/61 (18.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2        2 KKIAYLECPTGIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAET     51
+                     |.:..|.||           :..|.:.|:..:.:|........|.:|...
+Y075_NITWN        16 KLLEILVCP-----------VTKGPLELDGARRELISRSAKLAYPIRDGI     54
+
+Y1710_SYNP2       52 VIRQGQRATKV     62
+                     .|...:.|.|:
+Y075_NITWN        55 PIMLPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      19/59 (32.2%)
+# Similarity:    26/59 (44.1%)
+# Gaps:           4/59 ( 6.8%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       12 GIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAETVIRQGQRATK     61
+                     |..|:..|...:..||.|...|  |.|.....:||:  |.:|..|:....
+Y3584_PSEAB      127 GFEGEQPLHIFVAAGVDLAISK--LGRFTENDQYDI--EQLIECGRVDVG    172
+
+Y1710_SYNP2       62 VFVDLKTKA     70
+                     .||.|.|:|
+Y3584_PSEAB      173 QFVTLATEA    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      12/34 (35.3%)
+# Similarity:    18/34 (52.9%)
+# Gaps:           4/34 (11.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      310 NRLGTLLTVICPVALVEICEEILFTETSTLGIRR    343
+                     :||.|.: .:.|.|.:.:   .|:|..|.||.||
+BPT_HAHCH         22 DRLATTM-FVDPKADINL---DLYTRLSQLGFRR     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      24/86 (27.9%)
+# Similarity:    32/86 (37.2%)
+# Gaps:          22/86 (25.6%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2        4 IAYLECPTGIA----GDMCLGALI---DGGV------------PLEYLKN     34
+                     :||....||:|    .:...|:||   ||.|            | ||...
+KDPC_CAUVN        21 LAYPLAVTGVAQAAFPNQANGSLIRDADGKVVGSALIGQVFAKP-EYFHG     69
+
+Y1710_SYNP2       35 QLNRLGIAAEYDLRAETVIRQGQRATKVFVDLKTKA     70
+                     :.:..|  |.||..|.:....|.....:...|||.|
+KDPC_CAUVN        70 RPSAAG--AGYDASASSGSNMGPLNETLIARLKTDA    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      48/203 (23.6%)
+# Similarity:    67/203 (33.0%)
+# Gaps:          63/203 (31.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2        8 ECPTGIAGDMCLGAL---IDGGVPLEYLKNQLNRLGIAAEYDLRAETVIR     54
+                     :.|:.:| ||...||   .|.|.||.::....:.| :.|:|..||     
+LPXH_XYLFM        50 DMPSEVA-DMVAAALRTYADAGTPLYFMPGNRDFL-VGADYAARA-----     92
+
+Y1710_SYNP2       55 QGQR--ATKVFVDLKTKAT---HHDHDHSQDQTHHHHADHAPHRHLPEIQ     99
+                      |.|  .....|||..:.|   |.|...:.|..  :.|..|..|. ||..
+LPXH_XYLFM        93 -GFRILPDPCVVDLYGEPTLLLHGDLLCTDDIA--YQAFRAQTRD-PEFI    138
+
+Y1710_SYNP2      100 AMIKGAGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGAT----    145
+                     |......|..|     ||..|...:|.           |.|:.|..    
+LPXH_XYLFM       139 AQFLTQTLSAR-----LAFSQQARLAS-----------HAHQSGLKQEND    172
+
+Y1710_SYNP2      146 ----DALVDIVG-------TCLG-------------LDWLEIDELYCAPM    171
+                         :.:.|:|.       .|.|             |..|::.|..|..:
+LPXH_XYLFM       173 STQFEKITDVVPADVAAMFACYGVNRMIHGHTHRPALHMLQVAECACTRV    222
+
+Y1710_SYNP2      172 PTG    174
+                     ..|
+LPXH_XYLFM       223 VLG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           4/17 (23.5%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       11 TGIAGDM----CLGALI     23
+                     :|:.|..    ||||::
+YERI_SCHPO        45 SGLTGKQVAKTCLGAVV     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 351
+# Identity:      72/351 (20.5%)
+# Similarity:   121/351 (34.5%)
+# Gaps:         107/351 (30.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       22 LIDGGVPLEYLKNQLNRLGIAAEYD-LRAETVIRQGQRATKVFVDLKTKA     70
+                     |.|.|:.|.|:.:::..:     :| ....:|.|.|:..|...|...|.|
+RBSA_RUEST       188 LADQGISLIYISHRMVEI-----FDNCDRVSVFRDGRYVTTQDVAKITPA    232
+
+Y1710_SYNP2       71 THHDHDHSQDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQ    120
+                          |..:........|..|.:..||..:..:..    |||        
+RBSA_RUEST       233 -----DVVRAMVGREIGDLYPEKQRPEACSTTEVL----RVE--------    265
+
+Y1710_SYNP2      121 NLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAP    170
+                     ||..||           .||:|..:....:|:|.. ||            
+RBSA_RUEST       266 NLCEAE-----------RFHDVSFSLHKGEILGFA-GL------------    291
+
+Y1710_SYNP2      171 MPTGGGTVKAAHGILPVPVPAVLQLWQQRQVPV----YSNGIEKELV---    213
+                       .|.|..:.|.|:..:......:||...: |:    |.:.|:..:|   
+RBSA_RUEST       292 --IGAGRSEIAKGVCALEGQVTGRLWLNGE-PLALRDYQDSIDAGIVYLS    338
+
+Y1710_SYNP2      214 ---TPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLP---------LP    251
+                        ...|..:..::|::.   .|:.:.::|...|.|. |         |.
+RBSA_RUEST       339 EDRKGDGVFLDMSIASNV---SALKVEQVASALGLIQ-PGREIEQADRLG    384
+
+Y1710_SYNP2      252 NLLRLWIGHQPETPHLETIVTLETQIDDL---NPQAIAYACEKLQAAGA-    297
+                     ..|.|..|            ||:..:..|   |.|.:|.|  |:.:... 
+RBSA_RUEST       385 RKLNLKCG------------TLQDPVSSLSGGNQQKVALA--KMLSVNPR    420
+
+Y1710_SYNP2      298 ---LDVFTQGITMKKN----RL-------GTLLTVICP--VALVEICEEI    331
+                        ||..|:|:.:...    |:       |..:.||..  ..|:.:|:.:
+RBSA_RUEST       421 LIFLDEPTRGVDVGAKAEIYRILRDLAEEGAGIVVISSELPELIGLCDRV    470
+
+Y1710_SYNP2      332 L    332
+                     |
+RBSA_RUEST       471 L    471
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     4/8 (50.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      168 CAPMPTGG    175
+                     |.|...||
+KR195_HUMAN       58 CRPSCYGG     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      25/117 (21.4%)
+# Similarity:    40/117 (34.2%)
+# Gaps:          42/117 (35.9%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      139 FHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVP    188
+                     |.::...||::.....||.|         ...:...||||.|...:    
+UPPP_CORDI       150 FDQLTMRDAVIMGCAQCLAL---------IPGVSRSGGTVSAGLFV----    186
+
+Y1710_SYNP2      189 VPAVLQLWQQRQVPVYSNGIEKELVTPTG--AAIATTLAT------DFCQ    230
+                                       |:::|:.|...  .||...||:      |...
+UPPP_CORDI       187 ------------------GLDREVATRFSFLLAIPAVLASGLFSLPDAFA    218
+
+Y1710_SYNP2      231 PPAMTLA---KIALGSG    244
+                     |.|...|   ::|:|:|
+UPPP_CORDI       219 PDAGQAASGMQLAVGTG    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:    12/20 (60.0%)
+# Gaps:           3/20 (15.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      348 RSILQRR---FETVATPAGE    364
+                     |::|::.   ...|.|||||
+GREB_ECO57       126 RALLKKEVGDLAVVNTPAGE    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      55/263 (20.9%)
+# Similarity:    87/263 (33.1%)
+# Gaps:          73/263 (27.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       94 HL---PEIQAMIKGAGLPERVERWSLAIFQNLA------------IAEAT    128
+                     ||   |....|.:..|| .|.|.|:..|..:..            |:|..
+TGT_LEPCP         61 HLWMRPGQDVMAQFGGL-HRFENWTRPILTDSGGFQVWSLGEMRKISEEG    109
+
+Y1710_SYNP2      129 VHGTTPEQVHFHEVGATDALVDIVGTCLGLD-WLEIDELYCAPMPTGGGT    177
+                     |...:|  |:..::..|..:...:.|.|..| .::.||  |.|...|...
+TGT_LEPCP        110 VRFASP--VNGDKLFLTPEVSMQIQTVLNSDIVMQFDE--CTPYWQGAKN    155
+
+Y1710_SYNP2      178 VKAAHGILPVPVPAVLQL-WQQRQ-------------VPVYSNGIEKELV    213
+                     |..........|...|.| |..|.             ..:...|:.:.| 
+TGT_LEPCP        156 VGHITTEKEARVSMELSLRWAARSKAEFARLGNPNALFGIVQGGMFESL-    204
+
+Y1710_SYNP2      214 TPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLWIGHQPE    263
+                       ...::...:..||   |...:..:::|.     |...:||: :.|   
+TGT_LEPCP        205 --REESLNALVELDF---PGYAVGGVSVGE-----PKDEMLRI-MNH---    240
+
+Y1710_SYNP2      264 TPH---------LETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQG    304
+                     |||         |..:.|.|..:|.:       ||       .:|:|...
+TGT_LEPCP        241 TPHLLPADKPRYLMGVGTPEDLVDGV-------AC-------GVDMFDCV    276
+
+Y1710_SYNP2      305 ITMKKNRLGTLLT    317
+                     :..:..|.|.|.|
+TGT_LEPCP        277 MPTRNARNGHLFT    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 275
+# Identity:      59/275 (21.5%)
+# Similarity:    95/275 (34.5%)
+# Gaps:          89/275 (32.4%)
+# Score: 75.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      148 LVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQ    197
+                     |||.||                |..:|...::.|           :|:..
+CBPQ_HUMAN        70 LVDTVG----------------PRLSGSKNLEKA-----------IQIMY     92
+
+Y1710_SYNP2      198 QRQVPVYSNGIEKELVTPT-------GAAIATTLATDFCQPPAMTLAKIA    240
+                     |.   :..:|:||..:.|.       |...|..|     :|....:|.:.
+CBPQ_HUMAN        93 QN---LQQDGLEKVHLEPVRIPHWERGEESAVML-----EPRIHKIAILG    134
+
+Y1710_SYNP2      241 LGSGTIDLPLPNLLRLWIGHQPETPHLETIVTLETQIDDLNPQA------    284
+                     |||.             ||..||....|.:|.  |..|:|..:|      
+CBPQ_HUMAN       135 LGSS-------------IGTPPEGITAEVLVV--TSFDELQRRASEARGK    169
+
+Y1710_SYNP2      285 -IAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVICPVALVEICEEILF    333
+                      :.|....:..:..:...||| .::..::|.|.::|..||...|      
+CBPQ_HUMAN       170 IVVYNQPYINYSRTVQYRTQG-AVEAAKVGALASLIRSVASFSI------    212
+
+Y1710_SYNP2      334 TETSTLGIRRHTQ------TRSILQRRFETVATPAGE-----IQLKIGYR    372
+                      .:...||:.:..      |..|.....|.::..|..     ||||:   
+CBPQ_HUMAN       213 -YSPHTGIQEYQDGVPKIPTACITVEDAEMMSRMASHGIKIVIQLKM---    258
+
+Y1710_SYNP2      373 GDKIYNVQPEYEDVKAIAQQTGQSW    397
+                     |.|.|   |:.:....:|:.||..:
+CBPQ_HUMAN       259 GAKTY---PDTDSFNTVAEITGSKY    280
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      48/203 (23.6%)
+# Similarity:    73/203 (36.0%)
+# Gaps:          66/203 (32.5%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      220 IATTLATDFCQPPAMTLAKIALGSG-----TIDLPLP-NLLRLWIGHQPE    263
+                     :||.:..|     |.||.:.|....     |....:| ::|..||..:.:
+PSA6_SOYBN        79 LATGMTAD-----ARTLVQQARNEAAEFRFTYGYEMPVDVLAKWIADKSQ    123
+
+Y1710_SYNP2      264 --TPHLET----IVTLETQIDD-LNPQAIAYACE--------KLQAAGAL    298
+                       |.|...    :|.:...||| ..||  .|.|:        |..:||..
+PSA6_SOYBN       124 VYTQHAYMRPLGVVAMVLGIDDEYGPQ--LYKCDPAGHYFGHKATSAGLK    171
+
+Y1710_SYNP2      299 DVFTQGITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTR    348
+                     |........||.:.....|.          ||.:.|..|.|        :
+PSA6_SOYBN       172 DQEAINFLEKKMKNDPSFTY----------EETVQTAISAL--------Q    203
+
+Y1710_SYNP2      349 SILQRRFETVATPAGEIQLKIGYRGDKIYNVQPEY---------EDVKAI    389
+                     |:||..|:     |.||::.: .|.|     .||:         |.:.||
+PSA6_SOYBN       204 SVLQEDFK-----ATEIEVGV-VRKD-----NPEFRVLTTDEIDEHLTAI    242
+
+Y1710_SYNP2      390 AQQ    392
+                     :::
+PSA6_SOYBN       243 SER    245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 210
+# Identity:      41/210 (19.5%)
+# Similarity:    74/210 (35.2%)
+# Gaps:          68/210 (32.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       30 EYLKNQLNRLGIAAEY---------DLRAETVIRQGQRATKVFVDLKTKA     70
+                     ||.|    |..:..||         .:|.|.:..:......|...|:.| 
+SCL34_ARATH      419 EYCK----RFNVPFEYKAIASQNWETIRIEDLDIRPNEVLAVNAGLRLK-    463
+
+Y1710_SYNP2       71 THHDHDHSQDQTHHHHADHAPH-------RHL-PE--IQAMIKGA-GLPE    109
+                           :.||:|...  ::.|.       |:: |:  |.|::.|: ..|.
+SCL34_ARATH      464 ------NLQDETGSE--ENCPRDAVLKLIRNMNPDVFIHAIVNGSFNAPF    505
+
+Y1710_SYNP2      110 RVERWSLAIFQNLAI---AEATVHGTTPEQVHF-HEVGATDALVDIVGTC    155
+                     .:.|:..|::...|:   .::|:.....|::.| .|....:|:..|  .|
+SCL34_ARATH      506 FISRFKEAVYHYSALFDMFDSTLPRDNKERIRFEREFYGREAMNVI--AC    553
+
+Y1710_SYNP2      156 LGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQQRQVPVYS    205
+                     ...|.:|..|.|                          :.||.|.|..  
+SCL34_ARATH      554 EEADRVERPETY--------------------------RQWQVRMVRA--    575
+
+Y1710_SYNP2      206 NGIEKELVTP    215
+                      |.:::.:.|
+SCL34_ARATH      576 -GFKQKTIKP    584
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    28/84 (33.3%)
+# Gaps:          28/84 (33.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      190 PAVLQLWQQRQVPVYSNGIEKELVTPTGAAI----------ATTLATDFC    229
+                     |.|..:|:         |:.   |..||..:          ..|:..|||
+NDKA_CANLF        72 PVVAMVWE---------GLN---VVKTGRVMLGETNPADSKPGTIRGDFC    109
+
+Y1710_SYNP2      230 QPPAMTLAKIALGSGTIDLPLPNLLRLWIGHQPE    263
+                        ......|..||.::: .....:.||.  |||
+NDKA_CANLF       110 ---IQVGRNIIHGSDSVE-SAEKEIGLWF--QPE    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       9/19 (47.4%)
+# Similarity:    13/19 (68.4%)
+# Gaps:           1/19 ( 5.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      210 KELVT-PTGAAIATTLATD    227
+                     |.||: ||||.|..::|.:
+RS4_CAEEL        232 KALVSLPTGAGIRLSIAEE    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      189 VPAVLQLWQQRQ    200
+                     :|.::..|||:|
+G45IP_CHLAE      128 MPQMIVNWQQQQ    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:      69/364 (19.0%)
+# Similarity:   110/364 (30.2%)
+# Gaps:         118/364 (32.4%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       95 LPEI--QAMIKGAGLPER----------VERWSLAIFQNLAIAEATVHGT    132
+                     :||:  |.....|.|.||          :::||..|.       ..|||.
+DAPEL_OCEIH       15 IPELGFQEFKTQAYLLERINEIATENVEIKKWSTGIL-------VYVHGK     57
+
+Y1710_SYNP2      133 TP----------------EQVH-----FHE---------------VGATD    146
+                     :|                ||.:     .||               :||.:
+DAPEL_OCEIH       58 SPARKIGFRADIDGLPILEQTNLPYASLHEGRMHACGHDLHMTIALGALE    107
+
+Y1710_SYNP2      147 ALVDIVGTCLGLDWLEIDELYC-APMPTGGGTVKAAHGILPVPVPAVLQL    195
+                     .|:.        |.:..|.::. .|...|.|      |..|:......|.
+DAPEL_OCEIH      108 KLIQ--------DPINDDVIFVFQPAEEGPG------GAKPMLESEEFQQ    143
+
+Y1710_SYNP2      196 WQQRQVPVYSNGIEKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGT    245
+                     |:...  :::..|..||  |.|..                       |..
+DAPEL_OCEIH      144 WKPDM--MFALHIAPEL--PVGTV-----------------------SSK    166
+
+Y1710_SYNP2      246 IDLPLPNLLRLWI-----GHQPETPHLETIVTLETQIDDLNPQAIAYACE    290
+                     ..|...|...|:|     |.....|||...:|:..       .......:
+DAPEL_OCEIH      167 AGLLFANTSELFIDFEGVGGHAAYPHLTKDMTVAA-------SNFVVQLQ    209
+
+Y1710_SYNP2      291 KLQAAGALDVFTQGITMKKNRLGTLLTVICPVALVEICEEILFTETSTLG    340
+                     ::.:.|...:....||:.|...|.:...|...|.:|  ..|..|:...:.
+DAPEL_OCEIH      210 QIVSRGLNPLDGSVITIGKMESGYVQNAIAETARLE--GTIRSTDADAID    257
+
+Y1710_SYNP2      341 IRRHTQTRSILQRRFETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAIA    390
+                     :.:....|  |.:.||.    :.:..:|:.| |...|.|..:...|:...
+DAPEL_OCEIH      258 MIKSKLNR--LMKGFEI----SYDCTIKVDY-GANYYQVVNDATYVQQFE    300
+
+Y1710_SYNP2      391 QQTGQSWQAIAQQA    404
+                     ....|:.....|||
+DAPEL_OCEIH      301 NVINQTQTITYQQA    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      43/212 (20.3%)
+# Similarity:    68/212 (32.1%)
+# Gaps:          73/212 (34.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       15 GDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAETVIRQGQRAT-KVF     63
+                     ||| |.|.:..|.|:                .|.|:.|:..|...: ::.
+KAD_METRJ         32 GDM-LRAAVAAGTPV----------------GLEAKAVMESGGLVSDRIV     64
+
+Y1710_SYNP2       64 VDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQAM-----IKGAGLP    108
+                     |.:..     |.....|.......|..| |.:.:.:|:     .||..|.
+KAD_METRJ         65 VGIVA-----DRIEEPDARRGFILDGFP-RTVAQAEALGEMLASKGLSLS    108
+
+Y1710_SYNP2      109 ERVERWSLAIFQN-------------LAIAEATVHGTTPEQVHFHEVGAT    145
+                     ..||   |.:.:|             ||..:|.....|||          
+KAD_METRJ        109 AVVE---LKVDENALVGRIEKRAAETLARGQAVRKDDTPE----------    145
+
+Y1710_SYNP2      146 DALVDIVGTCLGLDWLEIDELYCAPMP---TGGGTVKAAHGILPV-----    187
+                               :....||......||:.   ...||::...|:.|:     
+KAD_METRJ        146 ----------VFKQRLEAYRAQTAPLSAYYAQKGTLETVDGMQPIDKVTA    185
+
+Y1710_SYNP2      188 PVPAVLQLWQQR    199
+                     .:.|||:..::|
+KAD_METRJ        186 DLMAVLEPHEER    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    25/72 (34.7%)
+# Gaps:          17/72 (23.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      175 GGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVTPTGAAIATTL    224
+                     ||.|..|.|.:| .:|.|             .|:....:....||.|...
+ELN_BOVIN        458 GGVVPGAPGAIP-GLPGV-------------GGVPGVGIPAAAAAKAAAK    493
+
+Y1710_SYNP2      225 ATDFCQPPAMTLAKIALGSGTI    246
+                     |..|...|.:   .:|.|.|.:
+ELN_BOVIN        494 AAQFGLGPGV---GVAPGVGVV    512
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      15/75 (20.0%)
+# Similarity:    26/75 (34.7%)
+# Gaps:          17/75 (22.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      175 GGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGI--------EKELVTPT    216
+                     |||......:|.:.....|.:|.:.:...:..|:        |...:...
+ASIC2_MOUSE      211 GGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQSEPPFIQEL    260
+
+Y1710_SYNP2      217 GAAIA----TTLATD-----FCQPP    232
+                     |..:|    |.:||.     :..||
+ASIC2_MOUSE      261 GFGVAPGFQTFVATQEQRLTYLPPP    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      31/142 (21.8%)
+# Similarity:    54/142 (38.0%)
+# Gaps:          14/142 ( 9.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      262 PETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNR    311
+                     |..|...|....:|:|.::....|..||..:       :...|| ..|:|
+DOXA1_XENTR        7 PFYPQPRTSFKFDTKIIEIIIICIVTACTFI-------IILPGI-RGKSR     48
+
+Y1710_SYNP2      312 LGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSILQRRFETVATP    361
+                     ...|..::..:.:..:...:.||.....||    .|.:.:.:.|......
+DOXA1_XENTR       49 SIWLFRILTSLFIGAVILAVNFTSDWETGI----VTATTVYKSFSHSMLN     94
+
+Y1710_SYNP2      362 AGEIQLKIGYRGDKIYNV-QPEYEDVKAIAQQTGQSWQAIAQ    402
+                     | .|.|.||.:|..|..: .|.|:..:.|......:|::..|
+DOXA1_XENTR       95 A-SIGLWIGLKGVNITLIGNPVYQLNETINYNEEFAWESANQ    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       7/25 (28.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           1/25 ( 4.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       58 RATKVFVD-LKTKATHHDHDHSQDQ     81
+                     ||....:| .::|...|.:..|:|:
+RS20_STRPB        50 RAASSSIDKAESKGLIHKNKASRDK     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      32/135 (23.7%)
+# Similarity:    52/135 (38.5%)
+# Gaps:          36/135 (26.7%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      268 ETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLT    317
+                     |...|.||:|.:|.        |:|:..|             |.|.:|  
+TPM_HAELO        181 ERAETGETKIVELE--------EELRVVG-------------NNLKSL--    207
+
+Y1710_SYNP2      318 VICPVALVEICEE--ILFTETSTLGIRRHTQTRSILQRRFETVATPAGEI    365
+                             |:.||  :...||....||:.|......:.|.|.......::
+TPM_HAELO        208 --------EVSEEKALQKEETYEGQIRQMTSRLQEAEARAEFAERSVQKL    249
+
+Y1710_SYNP2      366 QLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSWQAI    400
+                     |.::....|::  || |.|..|||:.:..|::..:
+TPM_HAELO        250 QKEVDRLEDEL--VQ-EKEKYKAISDELDQTFSEL    281
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      55/253 (21.7%)
+# Similarity:    88/253 (34.8%)
+# Gaps:          63/253 (24.9%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2        2 KKIAYLE------CPTGI-AGDMCL------GALIDGGVPLEYLKNQLNR     38
+                     ||:..|:      .|.|: |.|:.|      |.....|..||:..:.:..
+LEUC_XANOM       167 KKMKNLQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRA    216
+
+Y1710_SYNP2       39 LGIAAEYDLRAETVIRQGQRATKVFVDLKTKA---------THHDHDHS-     78
+                     |.:.....: ....|..|.|...|.||.||.|         ...|.|.: 
+LEUC_XANOM       217 LSMEGRMTI-CNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAV    265
+
+Y1710_SYNP2       79 -------QDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQN    121
+                            .|...|.  |.....|..:|:..:.....||.|    |||.|:
+LEUC_XANOM       266 ALWSTLVSDPDAHF--DTVVELHAEDIKPQVSWGTSPEMV----LAIDQH    309
+
+Y1710_SYNP2      122 L----AIAEATVHGTTPEQVHFHEVGATDALVDI------VGTCLGLDWL    161
+                     :    ...:.|...:....:.:..:.|..|:.||      :|:|..   .
+LEUC_XANOM       310 VPDPATEQDPTKRNSIERALKYMGLKANQAITDIRLDRVFIGSCTN---S    356
+
+Y1710_SYNP2      162 EIDELYCAPMPTGG----GTVKAAHGILPVPVPAVLQLWQQRQVPVYSNG    207
+                     .|::|..|.....|    .|:|.|   |.||...:::...:      :.|
+LEUC_XANOM       357 RIEDLRAAAAVAKGRKVASTIKQA---LVVPGSGLVKAQAE------AEG    397
+
+Y1710_SYNP2      208 IEK    210
+                     ::|
+LEUC_XANOM       398 LDK    400
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       4/7 (57.1%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      220 IATTLAT    226
+                     |:||:.|
+LPT_ESCF3          4 ISTTITT     10
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      17/76 (22.4%)
+# Similarity:    27/76 (35.5%)
+# Gaps:          12/76 (15.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      112 ERWSLAIFQNLAIAEATVHGT--------TPEQVHFHEVGATDALVDIVG    153
+                     |.|.:.....:|:|.|...|.        |...|...|.||..  ::::.
+RL7_THET8         29 EAWGVTAAAPVAVAAAPAAGAAAAPAEEKTEFDVILKEAGAKK--LEVIK     76
+
+Y1710_SYNP2      154 TCLGLDWLEIDELYCAPMPTGGGTVK    179
+                     ....:..|.:.|  ...:...||.||
+RL7_THET8         77 ELRAITGLGLKE--AKDLAEKGGPVK    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      51/227 (22.5%)
+# Similarity:    87/227 (38.3%)
+# Gaps:          66/227 (29.1%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       95 LPEIQAMIKGAGLPERVERWSLAIFQN----LAIAEAT---VHGTTPEQ-    136
+                     |.::.|::.|||  |.:|..:..:.:|    |.||..|   .| |...| 
+HEM1_METCA       178 LGDLTAILVGAG--ETIELTARHLTENRIGHLIIANRTFDRAH-TLANQF    224
+
+Y1710_SYNP2      137 ----VHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMP-TGGGTVKAA    181
+                         :...|:....|..||:....|           :|:| .|.|:.::|
+HEM1_METCA       225 GGFAISLEELPKHLAKADIIVASTG-----------SPLPILGKGSFESA    263
+
+Y1710_SYNP2      182 -----HG---ILPVPVPAVL--QLWQQRQVPVYS-----NGIEKELVTPT    216
+                          |.   |:.:.||..:  ::.|.:.|.:|:     :.:|:.|.|..
+HEM1_METCA       264 LRSRRHKPMFIVDLAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQ    313
+
+Y1710_SYNP2      217 GAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLWIGHQPETPH    266
+                     .||:.                    ....|||.:.:.|. |:..|..|  
+HEM1_METCA       314 EAALQ--------------------AEEIIDLEVEHFLS-WLRAQAAT--    340
+
+Y1710_SYNP2      267 LETIVTLETQIDDLNPQAIAYACEKLQ    293
+                      |||..:..|.:.....|:..|..:|:
+HEM1_METCA       341 -ETIRDVRRQAELHRDAALQRALRELR    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      40/198 (20.2%)
+# Similarity:    64/198 (32.3%)
+# Gaps:          61/198 (30.8%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      245 TIDLPLPNLLRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQA    294
+                     |:..|.|    ||....||...|.|    :|.:..|.........:.|..
+XYLB_KLEPN        32 TVSRPHP----LWSEQDPEQWWLAT----DTAMKALGAHDSLRHVKGLGI     73
+
+Y1710_SYNP2      295 AGALDVFTQGITMKKNRLGTLLTVICPVAL------VEICEEIL------    332
+                     ||.:    .|.|:    |...|.|:.|..|      .|.|:.:.      
+XYLB_KLEPN        74 AGQM----HGATL----LDKSLQVLRPAILWNDGRCAEECQLLEDKVSAS    115
+
+Y1710_SYNP2      333 -----------FTETSTLGIRRHTQTRSILQRRFETVATPAGEIQLKIGY    371
+                                ||....|.::||   .:.:..:.:.|..|...::|::  
+XYLB_KLEPN       116 RQITGNLMMPGFTAPKLLWVQRH---EAAVFSQVDKVLLPKDYLRLRM--    160
+
+Y1710_SYNP2      372 RGDKIYNVQPEYEDVKAIAQQTGQSWQAIAQQ-------ALCQFPRDA    412
+                               ..|....::...|..|..:|::       |.|...|||
+XYLB_KLEPN       161 ----------TGELASDMSDAAGTMWLDVARRDWSDEMLAACDLSRDA    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      33/175 (18.9%)
+# Similarity:    60/175 (34.3%)
+# Gaps:          53/175 (30.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      256 LWIGHQPETPHLETIVTLETQIDDL-------------NP----------    282
+                     ||:..:.||. |..::...||:.:|             ||          
+RECR_NOVAD        29 LWLIKRRETA-LPQLLNALTQVQELLVECGVCGNVDTSNPCGICTDHRRD     77
+
+Y1710_SYNP2      283 QAIAYACEKLQAAGALD---VFT-------------QGITMKKNRLGTLL    316
+                     |......|::....|||   :||             :|:..:...:|:||
+RECR_NOVAD        78 QRSICVVEEVADLWALDRARLFTGKYHVLGGRLSALEGVRPEDLTIGSLL    127
+
+Y1710_SYNP2      317 TVICPVALVEICEEILFTETSTLGIRRHTQTRSILQRRFETVATPAGEIQ    366
+                     ..:....:    :|::....:||   ....|...:..|.|..|....::.
+RECR_NOVAD       128 DRVAQGGI----DEVVLAMNATL---EGQTTAHYIAERLEGAAVRVTQLA    170
+
+Y1710_SYNP2      367 LKIGYRGDKIYNVQPEYEDVKAIAQ    391
+                     ..:...|:.      :|.|...:||
+RECR_NOVAD       171 HGLPVGGEL------DYLDEGTLAQ    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      31/129 (24.0%)
+# Similarity:    46/129 (35.7%)
+# Gaps:          46/129 (35.7%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      120 QNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCA    169
+                     ||:| .:.|..||.        .||.:      ||.||:..:.:.:.|  
+SURE_METNO        96 QNVA-EDVTYSGTV--------AGAME------GTILGVRSIALSQAY--    128
+
+Y1710_SYNP2      170 PMPTGG-GTVK----AAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVT    214
+                       ..|| ..||    |.||...:           |:  :...|||     
+SURE_METNO       129 --GVGGRANVKWHTAAEHGARTI-----------RR--ILEAGIE-----    158
+
+Y1710_SYNP2      215 PTGAAIATTLATDFCQPPAMT-LAKIALG    242
+                        ..|...:....|:|.|:. :|.:|.|
+SURE_METNO       159 ---PGILVNVNFPDCEPEAVEGIAVVAQG    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      10/22 (45.5%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           1/22 ( 4.5%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      236 LAKIALGSGTIDLPLPNLLRLW    257
+                     |.|| :.|..:|||.|:.|..|
+CYB_ARTIO         10 LLKI-INSSFVDLPAPSSLSSW     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      11/31 (35.5%)
+# Similarity:    14/31 (45.2%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       22 LIDGGVPLEYLKNQLNRLGIAAEYDLRAETV     52
+                     :..|..||..||..|.|:......|:|.|.|
+IOLE_BACHK       193 VFSGEEPLYILKKYLPRIKHVHLKDIRQEVV    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 351
+# Identity:      73/351 (20.8%)
+# Similarity:   115/351 (32.8%)
+# Gaps:         119/351 (33.9%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       95 LPEIQAMIKGAGLPERVERWSL--AIFQNLAIAEATVHG---TTPEQVHF    139
+                     :||.:.:.||.     |||..|  :||      ...|:|   .|.:.:..
+ACKA_STAAT        22 MPEEELVTKGL-----VERIGLKDSIF------TIEVNGEKVKTVQDIKD     60
+
+Y1710_SYNP2      140 HEVGATDALVD------IVGTCLGLDWL----------------------    161
+                     | |.|.|.::|      |:.....:|..                      
+ACKA_STAAT        61 H-VEAVDIMLDAFKAHNIINDINDIDGTGHRVVHGGEKFPESVAITDEVE    109
+
+Y1710_SYNP2      162 -EIDEL-YCAPM--PTGGGTVKAAHGILP-VPVPAVLQLWQQRQVP----    202
+                      ||:|| ..||:  |.....::|...:|| :|..|:......:.:|    
+ACKA_STAAT       110 KEIEELSELAPLHNPANLMGIRAFRKLLPNIPHVAIFDTAFHQTMPEKAY    159
+
+Y1710_SYNP2      203 VYS--------NGIEKELVTPTGAAIATTLATDFCQPPAMTLAKIA--LG    242
+                     :||        .||.|.....|.....:..|.:....|...|..|:  :|
+ACKA_STAAT       160 LYSLPYHYYKDYGIRKYGFHGTSHKFVSQRAAEMLDKPIEDLRIISCHIG    209
+
+Y1710_SYNP2      243 SG----------TIDLPLPNLLRLWIGHQPETPHLETIVTLETQIDDLNP    282
+                     :|          :||..:        |..|...     ||:.|:..:::|
+ACKA_STAAT       210 NGASIAAIDGGKSIDTSM--------GFTPLAG-----VTMGTRSGNIDP    246
+
+Y1710_SYNP2      283 QAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVICPVALVEICEEIL    332
+                     ..|.:..||           .|.|                  .|...|||
+ACKA_STAAT       247 ALIPFIMEK-----------TGKT------------------AEQVLEIL    267
+
+Y1710_SYNP2      333 FTETSTLGIRRHTQTRSILQRRFETVATPAGEIQLKIGYRGDKIYNVQPE    382
+                     ..|:..||:   :.|.|.|:...|...:.....|:.:.....||:.....
+ACKA_STAAT       268 NKESGLLGL---SGTSSDLRDLSEEAESGKARSQMALDVFASKIHKYIGS    314
+
+Y1710_SYNP2      383 Y    383
+                     |
+ACKA_STAAT       315 Y    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      38/205 (18.5%)
+# Similarity:    68/205 (33.2%)
+# Gaps:          79/205 (38.5%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       23 IDG--------GVP-LEYLKNQLNRLGIAAEYDLRAETVIRQGQRATKVF     63
+                     :||        ||| |:::.:|:.|.|:                      
+HIS7_BURTA        21 LDGTGRQKLATGVPFLDHMLDQIARHGL----------------------     48
+
+Y1710_SYNP2       64 VDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVER    113
+                     |||..:|  |...|..|   ||..:..   .:...||:.|..|..:.:.|
+HIS7_BURTA        49 VDLDIEA--HGDTHIDD---HHTVEDV---GITLGQAVAKAVGDKKGIRR     90
+
+Y1710_SYNP2      114 WSLA-IFQNLAIAEATVHGTTPEQVHFH------EVGATD---------A    147
+                     :..: :..:.|::...:..:....:.||      .:|..|         .
+HIS7_BURTA        91 YGHSYVPLDEALSRVVIDFSGRPGLEFHVPFTRARIGTFDVDLSIEFFRG    140
+
+Y1710_SYNP2      148 LVDIVGTCLGLDWL------------------------EIDELYCAPMPT    173
+                     .|:..|..|.:|.|                        |:||.....:|:
+HIS7_BURTA       141 FVNHAGVTLHIDNLRGVNAHHQLETVFKAFGRALRMAVELDERAAGQIPS    190
+
+Y1710_SYNP2      174 GGGTV    178
+                     ..|::
+HIS7_BURTA       191 TKGSL    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      15/53 (28.3%)
+# Similarity:    22/53 (41.5%)
+# Gaps:          20/53 (37.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      254 LRLWIGHQPE---TPHLETIVT-----------------LETQIDDLNPQ    283
+                     |||.||..|.   |.|:..:.|                 |||.:|:..|:
+PTH_GEOLS        131 LRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+
+Y1710_SYNP2      284 AIA    286
+                     |::
+PTH_GEOLS        181 AMS    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      31/125 (24.8%)
+# Similarity:    41/125 (32.8%)
+# Gaps:          49/125 (39.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      169 APMPTGGGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVTPTGA    218
+                     :|.||            |.|.||          ||        ||.|..|
+TAF3_XENLA       712 SPPPT------------PSPAPA----------PV--------LVVPPQA    731
+
+Y1710_SYNP2      219 AIATTLATDFCQPPAMTLAKIALGS--GTIDLPLPNLLRLWIGHQPETPH    266
+                     ..|...|:     ||.|.|..||.|  |:...|:.:::            
+TAF3_XENLA       732 PPAPAAAS-----PAPTPAPSALTSNAGSSKTPVRSVV------------    764
+
+Y1710_SYNP2      267 LETIVTLETQIDDLNPQAIAYACEK    291
+                     .||:.|...:.:..|...|...|.|
+TAF3_XENLA       765 TETVSTYVIRDEWGNQIWICPGCNK    789
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      58/316 (18.4%)
+# Similarity:    92/316 (29.1%)
+# Gaps:         132/316 (41.8%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      184 ILPVPVPAVLQLWQQRQVPVYS---------------------NGIEKE-    211
+                     |.|.....|.||.||.|...|:                     :.:||| 
+DNLJ_CROS5         3 ITPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEH     52
+
+Y1710_SYNP2      212 --LVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNL------    253
+                       |:||..   .|....|  ||.:..:      |.|.::||.:|      
+DNLJ_CROS5        53 PQLITPDS---PTQRVGD--QPASQFV------SVTHNIPLYSLENAFNL     91
+
+Y1710_SYNP2      254 --LRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGAL---    298
+                       |:.|......:...|...::|            |.||......||   
+DNLJ_CROS5        92 EELKAWEKRWQRSYEKEEFTSVE------------YVCELKIDGSALALT    129
+
+Y1710_SYNP2      299 ---DVFTQGITMKKNRLGTLLT--------------VICPVALVEICEE-    330
+                        .:|.:|:|......|..:|              :..|..:||:..| 
+DNLJ_CROS5       130 YENGLFVRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEA    179
+
+Y1710_SYNP2      331 -------------------ILFT--ETSTLGIRRHTQTRSILQRRFETVA    359
+                                        .||.  ..:..|..|....:.:.|||.:..|
+DNLJ_CROS5       180 FLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRLQFFA    229
+
+Y1710_SYNP2      360 TPAGEIQLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSWQAI---------    400
+                                      |.:..|..::.:       .|:::         
+DNLJ_CROS5       230 -----------------YTLHLEEAEISS-------QWESLNYLENSGFL    255
+
+Y1710_SYNP2      401 --AQQALCQFPRDAES    414
+                       ..:.||||..:.|:
+DNLJ_CROS5       256 VNPHRKLCQFLDEVEA    271
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      49/240 (20.4%)
+# Similarity:    88/240 (36.7%)
+# Gaps:          64/240 (26.7%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       67 KTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQAMIKGA------GL---    107
+                     ||.|.|.|....|::..:...|.:...:|..::::..|.      |:   
+MUTS_MYXXD       258 KTAAAHVDRLSRQERGGNLLMDESSRANLEVLRSLRDGGRKGSLLGVLDK    307
+
+Y1710_SYNP2      108 ------PERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDI    151
+                           ..::.||.           |:..|:.|| :|    ...||:.::
+MUTS_MYXXD       308 TVTSLGARKLARWL-----------ASPLGSLPE-IH----ARLDAVEEL    341
+
+Y1710_SYNP2      152 VGTCLGLDWL-----EIDEL--YCAPMPTGGGTVK--AAHGILPVPVPAV    192
+                     .|..:..:.|     |:.:|  .|..:..|.|..:  .|.|:....:|.|
+MUTS_MYXXD       342 SGRSVWREELAGILKEVGDLERLCGRLSLGAGNARDLRALGLSLAQLPRV    391
+
+Y1710_SYNP2      193 LQLWQQRQVPVYSNGIEKELVTPTGA--AIATTLATDFCQPPAMTLAKIA    240
+                     :.:..:.:.|:.     |.|..|..|  .:|..|:....:.|.:||..  
+MUTS_MYXXD       392 VAVLARCESPLL-----KSLTGPLSALPELAELLSRAVAEEPPVTLKD--    434
+
+Y1710_SYNP2      241 LGSGTIDLPLPNLLRLWIGHQPETPHLETIVTLETQIDDL    280
+                               ..::|  .|...|   |:.:|.|.|...||
+MUTS_MYXXD       435 ----------GGMIR--AGFHAE---LDKLVALSTSGKDL    459
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      15/72 (20.8%)
+# Similarity:    31/72 (43.1%)
+# Gaps:          13/72 (18.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       36 LNRLGIAAEYDLRAETVIRQGQRATKVFVDLK-------TKATHHDHDHS     78
+                     ::.|..|.:::|......:||::.|..:..|.       |...||.:|::
+NOSO_STAAC       287 VDHLTAAKQFELFERNEAQQGRQVTGKWSWLAPPLSPTLTSNYHHGYDNT    336
+
+Y1710_SYNP2       79 -QDQTHHH-----HADHAPHRH     94
+                      :|....:     :|:..|..|
+NOSO_STAAC       337 VKDPNFFYKKKESNANQCPFHH    358
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      28/155 (18.1%)
+# Similarity:    58/155 (37.4%)
+# Gaps:          44/155 (28.4%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       24 DGGVPLEYLKNQLNR---LGIAAEYDLRA------ETVIRQG-----QRA     59
+                     ||...:..||.:..:   .|..:|...||      ::|.:.|     ||:
+RBM8A_MOUSE       20 DGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRS     69
+
+Y1710_SYNP2       60 TKVFVDLKTKATHHDHDHSQDQTHHHHADHAP----HRHLPEIQAMIKGA    105
+                     .:.:: |.....|  .:.:::..|...|::..    |.:|......:|| 
+RBM8A_MOUSE       70 VEGWI-LFVTGVH--EEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKG-    115
+
+Y1710_SYNP2      106 GLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTC    155
+                             ::|..::....|:|.:.|...:              |::|..
+RBM8A_MOUSE      116 --------YTLVEYETYKEAQAAMEGLNGQ--------------DLMGQP    143
+
+Y1710_SYNP2      156 LGLDW    160
+                     :.:||
+RBM8A_MOUSE      144 ISVDW    148
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      11/54 (20.4%)
+# Similarity:    19/54 (35.2%)
+# Gaps:           9/54 (16.7%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      177 TVKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVTPTGAAIATTLAT    226
+                     |:.:.|..|....|.:|.::.         ..|..|.......::.|..|
+NU4LM_ARCPU       47 TILSNHFTLASMAPIILLVFA---------ACEAALGLSLLVMVSNTYGT     87
+
+Y1710_SYNP2      227 DFCQ    230
+                     |:.|
+NU4LM_ARCPU       88 DYVQ     91
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      52/216 (24.1%)
+# Similarity:    71/216 (32.9%)
+# Gaps:          72/216 (33.3%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       11 TGIAGDMCLGALID---GGV---PLEYLKNQLNRLGIAAEYDLR----AE     50
+                     |||..|..|.||..   ||:   ||.....||..|...|..|.:    ||
+NANK_ECOLI        64 TGIIRDGSLLALNPHNLGGLLHFPLVKTLEQLTNLPTIAINDAQAAAWAE    113
+
+Y1710_SYNP2       51 TVIRQGQRATKVFVDLKT------------------KATHHDHDHSQDQT     82
+                     .....|.....||:.:.|                  .|.|..|..:.   
+NANK_ECOLI       114 FQALDGDITDMVFITVSTGVGGGVVSGCKLLTGPGGLAGHIGHTLAD---    160
+
+Y1710_SYNP2       83 HHHHADHAPHRHLPE------IQAMIKGAGLPERVERWSLAIFQNLAIAE    126
+                             ||..:..      ::|:..|.|:       :.|....||.|:
+NANK_ECOLI       161 --------PHGPVCGCGRTGCVEAIASGRGI-------AAAAQGELAGAD    195
+
+Y1710_SYNP2      127 A----TVHGTTPEQ----VH---------FHEVGA-TDALVDIVGTCLGL    158
+                     |    |..|...||    :|         ..::.| ||....:||..:||
+NANK_ECOLI       196 AKTIFTRAGQGDEQAQQLIHRSARTLARLIADIKATTDCQCVVVGGSVGL    245
+
+Y1710_SYNP2      159 --DWLEIDELYCAPMP    172
+                       .:|.:.|.|.|..|
+NANK_ECOLI       246 AEGYLALVETYLAQEP    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       16 DMCLGALIDGGVPLEYLKNQLNRL     39
+                     |..:.|:|...:||...|.:|..|
+MIAB_MYCPE       393 DGTVAAIIPDEIPLSEKKERLQEL    416
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 298
+# Identity:      60/298 (20.1%)
+# Similarity:    89/298 (29.9%)
+# Gaps:         107/298 (35.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       51 TVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQA    100
+                     |::.:|...:..   ||.|..:|..|....:...:          |||..
+NADK_STAES         4 TILTKGDSKSNA---LKHKMINHMKDFQMVEDSEN----------PEIVI     40
+
+Y1710_SYNP2      101 MIKGAGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVD    150
+                     .:.|.|                .:.:|           ||:.....:.|.
+NADK_STAES        41 SVGGDG----------------TLLQA-----------FHQYSHMLSKVA     63
+
+Y1710_SYNP2      151 IVGTCLG-----LDWL--EIDELYCAPMPTGGGTVKAAHGILPVPVPAVL    193
+                     .||...|     .|||  |:::|          .::..:....|....:|
+NADK_STAES        64 FVGIHTGHLGFYADWLPHEVEKL----------IIEINNSEFQVIEYPLL    103
+
+Y1710_SYNP2      194 QLWQQRQVPVYSNGIEKELVTPTGAAIAT----TLATD------------    227
+                     :|    .|....||.|...:....|.:.|    ||..|            
+NADK_STAES       104 EL----IVRYNDNGYETRYLALNEATMKTENGSTLVVDVNIRGKHFERFR    149
+
+Y1710_SYNP2      228 ---FC--QPPAMTLAKIALGSGTIDLPLP-----------NLLRLWIGHQ    261
+                        .|  .|...|....|||...|...|.           |.:...:|..
+NADK_STAES       150 GDGLCISTPSGSTAYNKALGGALIHPSLEAMQIAEIASINNRVFRTVGSP    199
+
+Y1710_SYNP2      262 PETPHLETIV-------TLETQIDDL-----NPQAIAY--ACEKLQAA    295
+                     ...|...|.:       |:.|.||.:     |..||.|  |.||::.|
+NADK_STAES       200 LVLPKHHTCLITPVNHDTIRTTIDHVSIKHKNVNAIQYRVANEKVRFA    247
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 162
+# Identity:      32/162 (19.8%)
+# Similarity:    50/162 (30.9%)
+# Gaps:          78/162 (48.1%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       36 LNRLGIAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHH     85
+                     |:.|.:.|::. ...|:.|.|::.            .||.||:       
+TRPG_CAEEL       650 LHELTVCAQHK-NLLTIFRLGEQG------------EHDVDHA-------    679
+
+Y1710_SYNP2       86 HADHAPHRHLPEIQAMIKGAGLP-----------ERVE-----------R    113
+                                .:.|::||..|.           .||:           .
+TRPG_CAEEL       680 -----------ILTALLKGQNLSAADQLALALAWNRVDIARSDVFAMGHE    718
+
+Y1710_SYNP2      114 WSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTCL--GLDWL    161
+                     |..|...| |:.||.:|..                ||.|...|  |::..
+TRPG_CAEEL       719 WPQAALHN-AMMEALIHDR----------------VDFVRLLLEQGINMQ    751
+
+Y1710_SYNP2      162 E------IDELY    167
+                     :      :||||
+TRPG_CAEEL       752 KFLTISRLDELY    763
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 309
+# Identity:      71/309 (23.0%)
+# Similarity:    94/309 (30.4%)
+# Gaps:         117/309 (37.9%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       65 DLKTKATHHD----------HDHSQDQTHHHHADHAPHRHLPEIQAMIKG    104
+                     ||.|.||..|          .:.:|.:|.|         .|.|.|:..|.
+MSHD_MYCMM        20 DLVTAATQVDGVAPVGEQVLRELAQQRTEH---------LLVEDQSPGKS     60
+
+Y1710_SYNP2      105 A-GLPERVERWSLAIFQNL--------AIAEATVHGTTPEQVHFHEVGAT    145
+                     | |            :.||        |:||..||.....:      |..
+MSHD_MYCMM        61 AIG------------YLNLSPAHGADAAMAELVVHPQARRR------GIA     92
+
+Y1710_SYNP2      146 DALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILP---------    186
+                     .|:|                 ..|...|||.....|||.|.         
+MSHD_MYCMM        93 TAMV-----------------RAALAKTGGRNQFWAHGTLAPAQATASAL    125
+
+Y1710_SYNP2      187 --VPVPAVLQLWQQ-RQV--PVYSNGI----------EKELVTPTGAAIA    221
+                       .||..::|:.:. ||:  ||..||:          :.||:....||.|
+MSHD_MYCMM       126 GLTPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGTEDDAELLRVNNAAFA    175
+
+Y1710_SYNP2      222 ----------TTLATDFCQP---PAMTLAKIALGSGTIDLP--LPNLLRL    256
+                               ..||....:|   ||.....:....|..|.|  .|.||..
+MSHD_MYCMM       176 YHPEQGGWTEADLAERRGEPWFDPAGLFLALEGSEGAEDSPRGQPRLLGF    225
+
+Y1710_SYNP2      257 -WIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQ-G    304
+                      |.....:.|.|..:..|     .::|.|        |..|.....|. |
+MSHD_MYCMM       226 HWTKIHLDDPGLGEVYVL-----GVDPAA--------QGRGLGRTLTMIG    262
+
+Y1710_SYNP2      305 ITMKKNRLG    313
+                     :.....|||
+MSHD_MYCMM       263 LRSLAQRLG    271
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      24/104 (23.1%)
+# Similarity:    35/104 (33.7%)
+# Gaps:          22/104 (21.2%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      241 LGSGTIDLPLPNLLRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACE    290
+                     :||.|||..|.:...|..|.|   .|:..|..        ..:.:.|...
+PAND_THEFY        23 VGSITIDADLMDAANLVDGEQ---VHVVNITN--------GHRLVTYVLT     61
+
+Y1710_SYNP2      291 KLQAAGALDVFTQGITMKKNRLGTLLTVICPVALVEICEEILFTETSTLG    340
+                     ..:.:|.:     ||.      |....::.|..||.|...:..||.....
+PAND_THEFY        62 GERGSGVI-----GIN------GAAARLVAPGDLVIIISYVQLTEAERAT    100
+
+Y1710_SYNP2      341 IRRH    344
+                     .|.|
+PAND_THEFY       101 HRPH    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      50/227 (22.0%)
+# Similarity:    73/227 (32.2%)
+# Gaps:          89/227 (39.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       49 AETVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEI     98
+                     |||||:..|:...:.|:..|      .|:..|.               |:
+LIPA_ASPOR       220 AETVIKIKQKKPSMLVECLT------GDYLGDL---------------EM    248
+
+Y1710_SYNP2       99 QAMIKGAGLP------ERVE------RWSLAIF-QNLAIAEATVH-----    130
+                     ..::..:||.      |.||      |...|.| |:|.:.||...     
+LIPA_ASPOR       249 VKLVARSGLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAAKQARPDL    298
+
+Y1710_SYNP2      131 ----------GTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAP    170
+                               |.|.||:       .|||..:  ..:|:|           
+LIPA_ASPOR       299 ITKTSLMLGFGETEEQL-------WDALRQL--RSVGVD-----------    328
+
+Y1710_SYNP2      171 MPTGGGTVKAAHGILPV---PVPAVLQLWQQRQVPV--------------    203
+                     :.|.|..::.....:||   ..|...:||:||.:.:              
+LIPA_ASPOR       329 VVTFGQYMRPTKRHMPVHEYVTPDQFELWRQRALDMGFLYCASGPLVRSS    378
+
+Y1710_SYNP2      204 YSNG---IEKELVTPTGAAIATTLATD    227
+                     |..|   ||..|.....|..|....||
+LIPA_ASPOR       379 YKAGEAFIENVLKKRRAAGTAGESVTD    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      20/94 (21.3%)
+# Similarity:    35/94 (37.2%)
+# Gaps:          32/94 (34.0%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      234 MTLAKIALGSGTIDLPLPNLLRLWIGHQPETPH--LETIVTLETQID---    278
+                     :||...|:..|.:.:.:.....:   .||.||.  .:|:||.:|:|.   
+FLGI_PECAS       272 VTLDSCAIAQGNLSVTINQQANV---SQPNTPFGGGQTVVTPQTEISVQQ    318
+
+Y1710_SYNP2      279 ------------DLN------------PQAIAYACEKLQAAGAL    298
+                                 :||            |..:....:.:|:||.|
+FLGI_PECAS       319 TGGVLQRVNSSANLNNVVRALNSLGATPMELMSILQAMQSAGCL    362
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      14/69 (20.3%)
+# Similarity:    35/69 (50.7%)
+# Gaps:           5/69 ( 7.2%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      258 IGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQGITM    307
+                     |..:|.:.:|......|.::|:::.:.:..|.|.::..|| ..:..|:.:
+LDH_BORAP        191 IAMKPLSEYLSEGKITELELDEIHKKVVNAAYEVIKLKGA-TYYAIGLGI    239
+
+Y1710_SYNP2      308 KKNRLGTLL---TVICPVA    323
+                      ||.:..::   .:|.|::
+LDH_BORAP        240 -KNIVNAIIGDQNIILPIS    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 193
+# Identity:      35/193 (18.1%)
+# Similarity:    64/193 (33.2%)
+# Gaps:          74/193 (38.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2        4 IAYLECPTGIAGDMCLGALID-GGVP------------------------     28
+                     |.|||...|.|.|..:..:|| .|.|                        
+EXGB_EMENI       147 IGYLEDVCGWASDAGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQ    196
+
+Y1710_SYNP2       29 ----LEYLK------NQLNRLGIAAEYDLRAETVIRQGQRATKV------     62
+                         ||:|:      :|.|:.......::..|.|....|.::.:      
+EXGB_EMENI       197 YDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPS    246
+
+Y1710_SYNP2       63 -FVDLKT-------KATHHDH-----------DHSQDQTHHHHADHAPHR     93
+                      |..::.       .:.::.|           |.:|..|.::.|.:..||
+EXGB_EMENI       247 AFTRIRNTESSLGITSNNYLHIQMMNEKWGSGDPTQSLTDNYFAAYDDHR    296
+
+Y1710_SYNP2       94 HLP-------EIQAMI-------KGAGLPERVERWSLAIFQNL    122
+                     ::.       :.::.|       :|...|..|..|||::..|:
+EXGB_EMENI       297 YVKWDSSVAVDKESYISASCVDDRGGNWPTIVGEWSLSVPDNV    339
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      33/156 (21.2%)
+# Similarity:    60/156 (38.5%)
+# Gaps:          44/156 (28.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       93 RHLP----EIQAMIKGAGLP--ERVERWSLAIFQNL-AIAEATVHGTT-P    134
+                     |||.    |:..:.:..|.|  |::....|....:: :|||..:...: .
+KTHY_CHLP8        22 RHLQERGREVLTLREPGGTPVAEQIRELLLESHNDITSIAELLLFSASRA     71
+
+Y1710_SYNP2      135 EQVHFHEVGATDALVDIV--------------GTCLGLDWL-EIDELYCA    169
+                     |.:....|.|.:...|::              |..|.||.| ||:.:   
+KTHY_CHLP8        72 ELMEKIIVPALEDGCDVILDRFFDSTTAYQGYGRGLNLDMLAEINRI---    118
+
+Y1710_SYNP2      170 PMPTGGGTVKAAHGILP--------VPVPAVLQLWQQRQVPVYSNGIEKE    211
+                               |:|||.|        .|..|:|:.:.::.:|:.....|.:
+KTHY_CHLP8       119 ----------ASHGIRPDITFYLDLTPEDALLRKFSEKSLPLAFESEELD    158
+
+Y1710_SYNP2      212 LVTPTG    217
+                     .:..:|
+KTHY_CHLP8       159 RMENSG    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 490
+# Identity:     101/490 (20.6%)
+# Similarity:   144/490 (29.4%)
+# Gaps:         199/490 (40.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       33 KNQLNRLG---IAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDHDHSQ     79
+                     ||:...|.   .:||||..|..:..:..|.....::|.            
+SECA2_MYCTO       56 KNRSRSLADVTASAEYDKEAADLSDEKLRKAAGLLNLD------------     93
+
+Y1710_SYNP2       80 DQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWS---------LAIFQ    120
+                             |.|....:|:..|:.:     |..||.:         |...:
+SECA2_MYCTO       94 --------DLAESADIPQFLAIAR-----EAAERRTGLRPFDVQLLGALR    130
+
+Y1710_SYNP2      121 NLA---IAEATVHGTTPEQV-----------HFHEVGATD----------    146
+                     .||   |..||..|.|....           |.|.|...|          
+SECA2_MYCTO      131 MLAGDVIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARRDAEWM    180
+
+Y1710_SYNP2      147 -ALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQL    195
+                      .|:|.:|..:|  |:..|.                       .|...:.
+SECA2_MYCTO      181 GPLLDAMGLTVG--WITADS-----------------------TPDERRT    205
+
+Y1710_SYNP2      196 WQQRQVPVYS------NGIEKELVTPTGAAIATTLATDFCQP-PAMTLAK    238
+                     ...|.|...|      :.:..:|||.         ..|...| |.:.|..
+SECA2_MYCTO      206 AYDRDVTYASVNEIGFDVLRDQLVTD---------VNDLVSPNPDVALID    246
+
+Y1710_SYNP2      239 IALGSGTIDLPLPNLLRLWIGHQPETPHLETIVTL-------------ET    275
+                     .| .|..:|..|..|:.....|: |||.||.|..:             .|
+SECA2_MYCTO      247 EA-DSVLVDEALVPLVLAGTTHR-ETPRLEIIRLVAELVGDKDADEYFAT    294
+
+Y1710_SYNP2      276 QIDDLNPQAIAYACEKLQ-AAGALDVFTQGITMKKNRLGTLLTVICPVAL    324
+                     ..|:.|.....:...|:: |.|.:|::::      ..:||.||.: .|||
+SECA2_MYCTO      295 DSDNRNVHLTEHGARKVEKALGGIDLYSE------EHVGTTLTEV-NVAL    337
+
+Y1710_SYNP2      325 ------------------------------------------VEICEEIL    332
+                                                               ||..|.|.
+SECA2_MYCTO      338 HAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAVEAKEGIE    387
+
+Y1710_SYNP2      333 FTETSTLGIRRHTQTRSILQRRFETV------ATPAGEIQLKIGYR----    372
+                     .|||   |....|.|...|..|:.||      |..||| ||:..|:    
+SECA2_MYCTO      388 TTET---GEVLDTITVQALINRYATVCGMTGTALAAGE-QLRQFYQLGVS    433
+
+Y1710_SYNP2      373 -------------GDKIYNVQPEYED--VKAIAQ--QTGQ    395
+                                  .|::|.......|  |:.|.:  |.||
+SECA2_MYCTO      434 PIPPNKPNIREDEADRVYITTAAKNDGIVEHITEVHQRGQ    473
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      19/66 (28.8%)
+# Similarity:    25/66 (37.9%)
+# Gaps:          20/66 (30.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      205 SNGIEKELV-TPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNL    253
+                     :.|..||:. .|.|:      ..|||....:.:.: .|.|....|||   
+DB108_HUMAN       20 AKGKFKEICERPNGS------CRDFCLETEIHVGR-CLNSRPCCLPL---     59
+
+Y1710_SYNP2      254 LRLWIGHQPE----TP    265
+                          ||||.    ||
+DB108_HUMAN       60 -----GHQPRIESTTP     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      59/260 (22.7%)
+# Similarity:    82/260 (31.5%)
+# Gaps:          82/260 (31.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      166 LYCAPMPTGGGTVKAAHGILPVP-------------VPAVLQLWQQR---    199
+                     ||..|||..|.....|.|....|             :..::..:.||   
+LCMT1_CRYNB       87 LYRPPMPQPGAFAPQAVGRARKPPLINVGTHHRTWGIDRLVDRFLQRGGK    136
+
+Y1710_SYNP2      200 QVPVYSNGIEKEL------VTPTGAAIATTLATDF---CQPPAMTLAKIA    240
+                     ||.....|.:...      .||..  :|..:..||   ..|.|..:|:..
+LCMT1_CRYNB      137 QVVSLGAGSDTRFWRLMSRATPPD--LARYVEIDFPHLTSPKAQRIARHR    184
+
+Y1710_SYNP2      241 -----LGSGTIDLPLPNLLRLWIGH---------QPETPHLETIVTLETQ    276
+                          ||..:..:|.|       ||         |..:| |.|::.|:.:
+LCMT1_CRYNB      185 KLYQYLGPSSTAMPPP-------GHPYTVSKGGTQLSSP-LYTLLPLDLR    226
+
+Y1710_SYNP2      277 IDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVIC--PVAL    324
+                     .....|.:...|.........||          .||.||....|  |...
+LCMT1_CRYNB      227 PSPSEPASSISAILSHHVLPQLD----------PRLPTLFLAECLFPYMS    266
+
+Y1710_SYNP2      325 VEICEEIL--FTET--STLGI---------------RRHTQTR--SILQR    353
+                     .|...||:  |.||  |.:|:               :|:...|  ||...
+LCMT1_CRYNB      267 PEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPGS    316
+
+Y1710_SYNP2      354 RFETVATPAG    363
+                     .|.|..:.||
+LCMT1_CRYNB      317 IFSTPESQAG    326
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      13/64 (20.3%)
+# Similarity:    29/64 (45.3%)
+# Gaps:           2/64 ( 3.1%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      157 GLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQQRQVPVYSN    206
+                     |:|.:|:.......:...|..||....::...:|.:.:..:....||..:
+PTGA_SALTY        93 GIDTVELKGEGFKRIAEEGQRVKVGDPVIEFDLPLLEEKAKSTLTPVVIS    142
+
+Y1710_SYNP2      207 GIE--KELVTPTGA    218
+                     .::  |||:..:|:
+PTGA_SALTY       143 NMDEIKELIKLSGS    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       6/23 (26.1%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           0/23 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      298 LDVFTQGITMKKNRLGTLLTVIC    320
+                     ||::.:..::.:|...|.|...|
+RR14_CRYJA        41 LDIYRKLQSLPRNSAPTRLRRRC     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      24/93 (25.8%)
+# Similarity:    30/93 (32.3%)
+# Gaps:          44/93 (47.3%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      142 VGAT-------DALVDIVGTCLGLDW-LEIDE-----------------L    166
+                     |||:       |..:|:|    |||| |.||:                 |
+DCUP_BACVZ       246 VGASHLAGDWHDLPLDVV----GLDWRLGIDDARKQGITKTVQGNLDPSL    291
+
+Y1710_SYNP2      167 YCAP---------------MPTGGGTVKAAHGILPVPVPAVLQ    194
+                     ..||               |.|.|......||:.|...|..|:
+DCUP_BACVZ       292 LLAPWEVIEKKAKAILDQGMKTDGFIFNLGHGVFPDVNPETLK    334
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      73/365 (20.0%)
+# Similarity:   118/365 (32.3%)
+# Gaps:         129/365 (35.3%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       48 RAETVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPE     97
+                     |.|.:|:.|.| .|..:......||...:.:|.:|      :.|.:.   
+GTF2I_MOUSE      523 RLEKIIQVGNR-IKFVIKRPELLTHSTTEVTQPRT------NTPVKE---    562
+
+Y1710_SYNP2       98 IQAMIKGAGLPERVER-WSLAIFQNLAIAEAT-----VHGTTPEQVHFHE    141
+                      ...::...|.::||. ::|...|.|.:.||.     |..:.||      
+GTF2I_MOUSE      563 -DWNVRITKLRKQVEEIFNLKFAQALGLTEAVKVPYPVFESNPE------    605
+
+Y1710_SYNP2      142 VGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPA    191
+                                            .||...:|.|          :|...|.
+GTF2I_MOUSE      606 -----------------------FLYVEGLPEG----------IPFRSPT    622
+
+Y1710_SYNP2      192 VLQLWQQRQVPVYSNGI-----EKELVT---PTGAAIATTLATDFCQPPA    233
+                     ...:.:..::...||.|     :.|||.   |.|  :|:.:.|...|.|.
+GTF2I_MOUSE      623 WFGIPRLERIVRGSNKIKFVVKKPELVVSYLPPG--MASKINTKALQSPK    670
+
+Y1710_SYNP2      234 MTLAKIALGSGT------IDLPLPNLLRLWIGHQPETPHLETIVTLETQI    277
+                     ...:.   ||.:      :.:..||      ...|:|..:.|    .||.
+GTF2I_MOUSE      671 RPRSP---GSNSKVPEIEVTVEGPN------NSSPQTSAVRT----PTQT    707
+
+Y1710_SYNP2      278 DDLN----PQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVIC---    320
+                     :..|    |:...::.|...|.         ||..|.::..|....|   
+GTF2I_MOUSE      708 NGSNVPFKPRGREFSFEAWNAK---------ITDLKQKVENLFNEKCGEA    748
+
+Y1710_SYNP2      321 ---------PVALVE----------ICEEILFTETSTLGI-------RRH    344
+                              |.||.|          :.|.:.|...||.||       |..
+GTF2I_MOUSE      749 LGLKQAVKVPFALFESFPEDFYVEGLPEGVPFRRPSTFGIPRLEKILRNK    798
+
+Y1710_SYNP2      345 TQTRSILQR--RFET    357
+                     .:.:.|:::  .|||
+GTF2I_MOUSE      799 AKIKFIIKKPEMFET    813
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      62/296 (20.9%)
+# Similarity:   105/296 (35.5%)
+# Gaps:          80/296 (27.0%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       26 GVPLEYLKNQLNRLGIAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDH     75
+                     |||:...::...| |::. :|.....|       |||.:::|        
+ISPH_ACIF5        75 GVPIAVREHAAAR-GLSV-FDATCPLV-------TKVHMEVK--------    107
+
+Y1710_SYNP2       76 DHSQDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQNLAIA    125
+                     .:|:|........||.|   ||::      |...:||...:.:..|::..
+ISPH_ACIF5       108 KYSRDGMEMVLIGHAGH---PEVE------GTMGQVEEGMMYLVSNVSDV    148
+
+Y1710_SYNP2      126 EATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGG    175
+                      ||:....|           |.|..|..|.|.:|  :..|:..|      
+ISPH_ACIF5       149 -ATLAPRNP-----------DKLAYITQTTLSMD--DTAEVIVA------    178
+
+Y1710_SYNP2      176 GTVKAAHGILPVP-VPAVLQLWQQRQVPVYSNGIEKELVTPTG-------    217
+                       :::...::..| ...:....|.||..|.|...:.:::...|       
+ISPH_ACIF5       179 --LRSRFPLIEGPKKDDICYATQNRQDAVKSLAPDVDILLVVGAPNSSNS    226
+
+Y1710_SYNP2      218 ---AAIATTLATD-FCQPPAMTL--------AKIALGSG-----TIDLPL    250
+                        |.:.|.|.|. .....|..|        .||.:.:|     ::...:
+ISPH_ACIF5       227 SRLAELGTRLGTQTHLIEDAQQLRREWFEGVGKIGISAGASAPESLVQEI    276
+
+Y1710_SYNP2      251 PNLLRLWIGHQP-ETPHLETIVTLETQIDDLNPQAIAYACEKLQAA    295
+                     .:.||.|....| |.|.:|..||...      |.|:..|..:.:.|
+ISPH_ACIF5       277 MDTLRGWGARVPQEMPGVEEKVTFSL------PLALIQAQTRREGA    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:       9/34 (26.5%)
+# Similarity:    14/34 (41.2%)
+# Gaps:           2/34 ( 5.9%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      149 VDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAH    182
+                     :.::|.||.:..|.  ..|......||...:.||
+NDUA1_HUMAN        9 LSVMGVCLLIPGLA--TAYIHRFTNGGKEKRVAH     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      23/98 (23.5%)
+# Similarity:    38/98 (38.8%)
+# Gaps:          25/98 (25.5%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       95 LPEIQAMI-KGAGLPERVERWSLAIFQN------LAIAEATVHGTTPEQV    137
+                     ||||:|:| :..|..:.:.:..:|..|.      ..||..| ||..|..:
+PSRP_SALTI        75 LPEIRAIILQSEGFCQDIVQALVAPLQQEMKLDPTPIAHRT-HGLNPGNL    123
+
+Y1710_SYNP2      138 HFHEVGATDALVDIVGTCL----GLDWLEIDELY--------CAPMPT    173
+                     :.:     ||.:..:...|    |:....:|:..        |...||
+PSRP_SALTI       124 NKY-----DARIAAIDYTLAHDDGISLRNLDQAQVILLGVSRCGKTPT    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      28/129 (21.7%)
+# Similarity:    54/129 (41.9%)
+# Gaps:          35/129 (27.1%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      201 VPVYSNGIEKE----------------LVTPTGAAIATTLATDFCQPPAM    234
+                     ||.|.|..:::                :..||.||:|..|.    :....
+DNAK_CHESB       142 VPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLD----KKEGK    187
+
+Y1710_SYNP2      235 TLAKIALGSGTIDLPLPNLLRLWIG-HQPETPHLETIVTLETQIDDLNPQ    283
+                     |:|...||.||.|:   ::|.:..| .:.::.:.:|.:..|    |.:.:
+DNAK_CHESB       188 TIAVYDLGGGTFDI---SILEIGDGVFEVKSTNGDTFLGGE----DFDMR    230
+
+Y1710_SYNP2      284 AIAYACEKLQAAGALDVFTQGITMKKNRL    312
+                     .:.|..::.:.       .|||.:|.::|
+DNAK_CHESB       231 LVNYLADEFKK-------EQGIDLKNDKL    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      35/159 (22.0%)
+# Similarity:    49/159 (30.8%)
+# Gaps:          36/159 (22.6%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       38 RLGIAAEYDL--RAETVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHH     85
+                     ||...|.:.|  :.|....:.:.|......|..:...|.|.....:|...
+DNLJ_ACIC5       226 RLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVE    275
+
+Y1710_SYNP2       86 HADHAPHRHLPEIQAMIKGA-------------GLPERVERWSLAIFQNL    122
+                     ..:.| ..|...:...|.|.             |...|..||:      :
+DNLJ_ACIC5       276 FVNRA-EEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWA------V    318
+
+Y1710_SYNP2      123 AIAEATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMP    172
+                     |...|...|.|..:....:||.|..|..:.       ||       ||:.
+DNLJ_ACIC5       319 AYKFAARSGVTQVEDIQVQVGRTGKLTPVA-------WL-------APVQ    354
+
+Y1710_SYNP2      173 TGGGTVKAA    181
+                     .||.||..|
+DNLJ_ACIC5       355 VGGTTVTRA    363
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      22/84 (26.2%)
+# Similarity:    30/84 (35.7%)
+# Gaps:          17/84 (20.2%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       14 AGDMCLGAL----IDGGVPLEYLKNQLNRLGIAAE----YDLRAETVIRQ     55
+                     :.|:.:.|:    .||..|:  |..|....|:.|.    |||.|......
+CAPSD_CMVO       131 SSDLSVAAISAMFADGASPV--LVYQYAAFGVQANNKLLYDLSAMRADIG    178
+
+Y1710_SYNP2       56 GQRATKVFVDLKTKA-------THHDHDHSQDQT     82
+                     ..|...|.|..|..|       .|.|.:|.:..|
+CAPSD_CMVO       179 DMRKYAVLVYSKDDALETDELVLHVDIEHQRIPT    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    14/34 (41.2%)
+# Gaps:          16/34 (47.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      169 APMPTGGGTVKAAHGILPVPVPAVLQLWQQRQVP    202
+                     ||.|.            |:||||.    :|::.|
+IF3_CHLL2        195 APAPA------------PLPVPAP----EQKETP    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      11/33 (33.3%)
+# Similarity:    17/33 (51.5%)
+# Gaps:           3/33 ( 9.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      357 TVATPAGEIQLKIGYRGDKIYNVQPE--YEDVK    387
+                     ||.:..|. |:|:|....|..:|..|  |:.:|
+CSRA_HAEI8        21 TVLSVRGN-QVKLGVEAPKEVSVHREEIYQRIK     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:      34/169 (20.1%)
+# Similarity:    64/169 (37.9%)
+# Gaps:          52/169 (30.8%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      265 PHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQ-----------    303
+                     |.::|.:.::..    ||:.:. |...:.|..|.:::.:           
+COAX_CLOBL        90 PGVKTGINIKYD----NPKEVG-ADRIVNAVAAHEIYKKPLIIIDFGTAT    134
+
+Y1710_SYNP2      304 ---GITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSI    350
+                        .:|.:.|.||   ..|||.  ::|..:.||.:.:.|           
+COAX_CLOBL       135 TFCAVTKEANYLG---GTICPG--IKISSDALFDKAAKL-----------    168
+
+Y1710_SYNP2      351 LQRRFETVATP-------AGEIQLKI--GYRGDKIYNVQPEYEDVKAIAQ    391
+                       .|.|.|.||       ...||..|  ||.|...|.|....:::..:.:
+COAX_CLOBL       169 --PRVELVKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGE    216
+
+Y1710_SYNP2      392 Q------TGQSWQAIAQQA    404
+                     :      ||...:.|::::
+COAX_CLOBL       217 EEPFVVATGGFAKLISEES    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      19/62 (30.6%)
+# Similarity:    29/62 (46.8%)
+# Gaps:          12/62 (19.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      356 ETVATPAGEIQLKI-GYRGDKIYNVQPEYEDVKAIAQQTG------QSWQ    398
+                     ||.:.|. |.|::| .|..:|: |..|:...:..||.:.|      |.| 
+HOP_BOVIN          4 ETASGPT-EDQVEILEYNFNKV-NKHPDPTTLCLIAAEAGLSEEETQKW-     50
+
+Y1710_SYNP2      399 AIAQQALCQFPR    410
+                       .:|.|.|:.|
+HOP_BOVIN         51 --FKQRLAQWRR     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      16/57 (28.1%)
+# Similarity:    26/57 (45.6%)
+# Gaps:           5/57 ( 8.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      348 RSILQRRFETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSW    397
+                     |:|||||.|:||.......:::....||.:.     |.::.:.|..|...
+THII_VIBA3        31 RTILQRRTESVAVFNRRDHIEVTSESDKYFK-----ETLEVLTQTPGIHH     75
+
+Y1710_SYNP2      398 QAIAQQA    404
+                     ....||:
+THII_VIBA3        76 SLEVQQS     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      26/107 (24.3%)
+# Similarity:    43/107 (40.2%)
+# Gaps:          43/107 (40.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      235 TLAKIALGSGTIDLPLPNLLRLWIGHQPE-TPHLET---IVTLETQ----    276
+                     ||.::|....|         ||...|:|| |||::|   ||.:..:    
+RL13_PSEPG        24 TLGRLATEIAT---------RLRGKHKPEYTPHVDTGDYIVVINAEQVRV     64
+
+Y1710_SYNP2      277 -------------------IDDLN-PQAIAYACEKLQAAGALDVFTQGIT    306
+                                        |.::| .:.||.|.|::     ::...:|: 
+RL13_PSEPG        65 TGAKSSDKMYYSHSGFPGGIKEINFEKLIAKAPERV-----IETAVKGM-    108
+
+Y1710_SYNP2      307 MKKNRLG    313
+                     :.||.||
+RL13_PSEPG       109 LPKNPLG    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      12/40 (30.0%)
+# Similarity:    19/40 (47.5%)
+# Gaps:           1/40 ( 2.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      332 LFTETSTLGIRR-HTQTRSILQRRFETVATPAGEIQLKIG    370
+                     |.||..|.|..| ..:..::|:|:...:.|..|.|:...|
+RR2_ARATH        121 LRTEQKTEGFNRLPKRDAAVLKRQLSRLETYLGGIKYMTG    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 414
+# Identity:     414/414 (100.0%)
+# Similarity:   414/414 (100.0%)
+# Gaps:           0/414 ( 0.0%)
+# Score: 2170.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2        1 MKKIAYLECPTGIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2        1 MKKIAYLECPTGIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAE     50
+
+Y1710_SYNP2       51 TVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2       51 TVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHHHADHAPHRHLPEIQA    100
+
+Y1710_SYNP2      101 MIKGAGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVD    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      101 MIKGAGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVD    150
+
+Y1710_SYNP2      151 IVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQQRQ    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      151 IVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQQRQ    200
+
+Y1710_SYNP2      201 VPVYSNGIEKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      201 VPVYSNGIEKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPL    250
+
+Y1710_SYNP2      251 PNLLRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDV    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      251 PNLLRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDV    300
+
+Y1710_SYNP2      301 FTQGITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSI    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      301 FTQGITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSI    350
+
+Y1710_SYNP2      351 LQRRFETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSWQAI    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y1710_SYNP2      351 LQRRFETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSWQAI    400
+
+Y1710_SYNP2      401 AQQALCQFPRDAES    414
+                     ||||||||||||||
+Y1710_SYNP2      401 AQQALCQFPRDAES    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    35/84 (41.7%)
+# Gaps:          15/84 (17.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       96 PEIQAMIKGAGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGAT    145
+                     ||.:.:   |.:|:     :.|:|.|:::.:....|....:|...|:|..
+WTPC_THEKO        70 PEKRGL---AYIPQ-----NYALFPNMSVFDNIAFGLKVRKVPKAEIGRK    111
+
+Y1710_SYNP2      146 DALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVK    179
+                        |..:...||:..|    |...|....||.::
+WTPC_THEKO       112 ---VRELSEVLGISHL----LKRKPKTLSGGEMQ    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      18/80 (22.5%)
+# Similarity:    28/80 (35.0%)
+# Gaps:          30/80 (37.5%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      170 PMPTGGGTVKAAHGILPVPVPAVLQL----WQQRQVPVYSNGIEKELVTP    215
+                     |.|   |.||.:.   |:|:|:..:|    :|...:|...|..       
+GRB7_RAT          34 PPP---GDVKRSQ---PLPIPSSRKLREEEFQATSLPSIPNPF-------     70
+
+Y1710_SYNP2      216 TGAAIATTLATDFCQPPAMTLAKIALGSGT    245
+                               .:.|.||:.   |..||..:
+GRB7_RAT          71 ----------PELCSPPSQ---KPILGGSS     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      35/171 (20.5%)
+# Similarity:    57/171 (33.3%)
+# Gaps:          53/171 (31.0%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      189 VPAVLQLW-------QQRQVPVYSNGIEKELVTPTGAAIATTLATDFCQP    231
+                     :..||.:|       ..|..||.    |..:|.|....:  ::......|
+PSD_RHOPS         42 IGTVLTIWCALFFRDPVRVTPVR----EGLVVAPADGRV--SMVVQMIPP     85
+
+Y1710_SYNP2      232 PAMTLAKIALGSGTIDLPLP------NLLRLWIGHQPETPHLETIV----    271
+                     |       |||.|  |.|||      ::....:...|....:|.|:    
+PSD_RHOPS         86 P-------ALGLG--DKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPG    126
+
+Y1710_SYNP2      272 -TLETQID------DLNPQAIAYACEKL---QAAG-----ALDVFTQGIT    306
+                      .:..::|      :.|...|:....::   |.||     .:....:|.|
+PSD_RHOPS        127 KFINAELDKASEDNERNSMVISTPAGQIGVVQIAGLVARRIVSFVREGQT    176
+
+Y1710_SYNP2      307 MKKN------RLGTLLTVICP    321
+                     :...      |.|:.|.|..|
+PSD_RHOPS        177 LAPGERFGLIRFGSRLDVYLP    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      23/135 (17.0%)
+# Similarity:    47/135 (34.8%)
+# Gaps:          34/135 (25.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      259 GHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGALDVFTQ----G    304
+                     |..|:.....|::....::.||              :|||::..:    |
+PP156_ARATH      411 GFSPDIVTYHTLIKAYLKVGDL--------------SGALEMMREMGQKG    446
+
+Y1710_SYNP2      305 ITMKKNRLGTLLTVICPVALVEICEEILFTETSTLGIRRHTQTRSILQRR    354
+                     |.|....|.|:|..:|....::               ..|....|..:|.
+PP156_ARATH      447 IKMNTITLNTILDALCKERKLD---------------EAHNLLNSAHKRG    481
+
+Y1710_SYNP2      355 FETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAI    389
+                     |.......|.:.:.. :|.:|:......::::|.:
+PP156_ARATH      482 FIVDEVTYGTLIMGF-FREEKVEKALEMWDEMKKV    515
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    22/48 (45.8%)
+# Gaps:          10/48 (20.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      210 KELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLW    257
+                     :.|.|.|...| |:||   |....|.||.:..|:..|      |:::|
+ADRB2_MESAU       62 ERLQTVTNYFI-TSLA---CADLVMGLAVVPFGASHI------LMKMW     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       7/27 (25.9%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       39 LGIAAEYDLRAETVIRQGQRATKVFVD     65
+                     |||:.:.|......:::|......||:
+ID5B_ADEPA         6 LGISIDDDNNRRLAVKEGDPLVVQFVN     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      19/67 (28.4%)
+# Similarity:    26/67 (38.8%)
+# Gaps:          20/67 (29.9%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       92 HRHLPEIQAMIK---GAGLPERVERWSLAIFQNLAIAEATVHGTTPE---    135
+                     |..|..::||..   ..|.|:|| |.|..:|       ||||....|   
+GPA7_CAEEL        79 HSMLSILRAMFHLQIEYGEPDRV-RDSQLVF-------ATVHANKEELTE    120
+
+Y1710_SYNP2      136 ------QVHFHEVGATD    146
+                           |..:|:.|..:
+GPA7_CAEEL       121 ELAAAMQRLWHDPGVRE    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       5/20 (25.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      395 QSWQAIAQQALCQFPRDAES    414
+                     ::|..:...::|..|:..||
+IDI_ECO24         56 KAWPGVWTNSVCGHPQLGES     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 276
+# Identity:      55/276 (19.9%)
+# Similarity:    89/276 (32.2%)
+# Gaps:         105/276 (38.0%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       33 KNQLNRLGIAAEYDLRAETVIRQGQRATKVFVDLKTKATHHDHDHSQ---     79
+                     ::.||::....:|:....|.......|.||          .|.:.::   
+YHJA_ECOLI       110 QSDLNKIEWVMQYETMPPTRYTALHWAGKV----------SDEERAEILA    149
+
+Y1710_SYNP2       80 ---DQTHHHHA--DHAP-HRHLPEIQAMIKGAGLPERVERWSLAIFQNLA    123
+                        .|...::|  |.|| ||:.| :|.      :|:::...:    |.:|
+YHJA_ECOLI       150 WIAKQRAEYYASNDTAPEHRNEP-VQP------IPQKLPTDA----QKVA    188
+
+Y1710_SYNP2      124 IAEATVH------GTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELY    167
+                     :..|..|      .:|....|.|.:.|..  ||...|.:|:         
+YHJA_ECOLI       189 LGFALYHDPRLSADSTISCAHCHALNAGG--VDGRKTSIGV---------    227
+
+Y1710_SYNP2      168 CAPMPTGGGTVKAAHGILPVPVPAVL-------QLWQQRQVPVYSNGIEK    210
+                            ||.|.      |:..|.|.       |.|..|           
+YHJA_ECOLI       228 -------GGAVG------PINAPTVFNSVFNVEQFWDGR-----------    253
+
+Y1710_SYNP2      211 ELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLLRLWIGH    260
+                               |.||......||   |..|.:.|.:.|..:..|.:     
+YHJA_ECOLI       254 ----------AATLQDQAGGPP---LNPIEMASKSWDEIIAKLEK-----    285
+
+Y1710_SYNP2      261 QPETPHLETIVTLETQIDDLNPQAIA    286
+                     .|:         |:||..::.||..:
+YHJA_ECOLI       286 DPQ---------LKTQFLEVYPQGFS    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 170
+# Identity:      33/170 (19.4%)
+# Similarity:    58/170 (34.1%)
+# Gaps:          57/170 (33.5%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      148 LVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKAAHGILPVPVPAVLQLWQ    197
+                     |::...|.||.:.::::.       ||.|.|     .:.:..||      
+RIMP_BURPS         6 LIETTVTGLGYELVDLER-------TGRGMV-----CVYIDQPA------     37
+
+Y1710_SYNP2      198 QRQVPVYSNGI---EKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSG    244
+                              ||   :.|.||.....:.|....|:        .::.:.|.
+RIMP_BURPS        38 ---------GITIDDCEKVTRQLQHVLTVENIDY--------ERLEVSSP     70
+
+Y1710_SYNP2      245 TIDLPLPNL--LRLWIGHQPETPHLETIVTLETQIDDL----------NP    282
+                     .:|.||..|  ...:.|.       |.::||:..:|..          |.
+RIMP_BURPS        71 GLDRPLKKLADFTRFAGS-------EAVITLKKPLDGRKTYRGILHAPNG    113
+
+Y1710_SYNP2      283 QAIAYACEKLQAAGALDVFT    302
+                     :.|....|:.:...|:..||
+RIMP_BURPS       114 ETIGLEFERKKGEAAMLDFT    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       6/19 (31.6%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           5/19 (26.3%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      306 TMKKN-----RLGTLLTVI    319
+                     |:.:|     |.|.:||::
+RS28_OSTOS        38 TINRNVKGPVREGDILTLL     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      22/103 (21.4%)
+# Similarity:    36/103 (35.0%)
+# Gaps:          25/103 (24.3%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2       77 HSQDQTHHHHAD-HAPHRHLPE--------IQAMIKGAGLPE--------    109
+                     |.|.:|:..:.| ||...||..        :...:|....||        
+HBAC_LITCT        37 HPQTKTYFPNFDFHANSAHLKNHGKKVMNALTDAVKHLDHPEASLSSLSD     86
+
+Y1710_SYNP2      110 ------RVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDIVG    153
+                           ||:..:.|:..|..:....||.:.......|:  |.|..:::|.
+HBAC_LITCT        87 LHAFTLRVDPGNFALLSNNILVVVAVHHSDKLSYETHQ--ALDKFLNVVS    134
+
+Y1710_SYNP2      154 TCL    156
+                     ..|
+HBAC_LITCT       135 GLL    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      21/89 (23.6%)
+# Similarity:    36/89 (40.4%)
+# Gaps:          16/89 (18.0%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      197 QQRQVPV-YSNGIEKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGT    245
+                     |..|.|: |:|..||::      :..|.:|..:....|:...|:....|.
+RPOA_PRRSS      1324 QPHQKPIAYANLDEKKI------SAQTVVAVPYDPSQAIKCLKVLQAGGA   1367
+
+Y1710_SYNP2      246 I-DLPLPNLLRL--------WIGHQPETPHLETIVTLET    275
+                     | |.|.|.::|:        :....|..|....:|..:|
+RPOA_PRRSS      1368 IVDQPTPEVVRVSEIPFSAPFFPKVPVNPDCRIVVDSDT   1406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    29/69 (42.0%)
+# Gaps:          18/69 (26.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      340 GIRRHTQTRSI------LQRRFETVATPAGEI--------QLKIGYRGDK    375
+                     |:|...:...|      |.|:|..:..|.||:        .||:|  .||
+UBIE_PSEAE        65 GVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVG--RDK    112
+
+Y1710_SYNP2      376 IYN--VQPEYEDVKAIAQQ    392
+                     :.:  |......|:|.|::
+UBIE_PSEAE       113 LLDKGVSGNVSFVQADAEK    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      51/230 (22.2%)
+# Similarity:    82/230 (35.7%)
+# Gaps:          61/230 (26.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      198 QRQVPVYSNGIEKELVTPTGAAIATTLATDFCQPPAMTL------AKIAL    241
+                     ::.|.|.|...:..::...||..|...|..|.......|      .::||
+FLII_AQUAE       217 KKSVVVVSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLAL    266
+
+Y1710_SYNP2      242 GSGTIDLPL--PNLLRLWIGHQPETPHLET----------------IVTL    273
+                     ....|.|..  |..|:   |..|....|.|                |.|:
+FLII_AQUAE       267 AQREIGLAAGEPPTLK---GFTPSVFQLLTRIAESCGAFKKGSITGIFTV    313
+
+Y1710_SYNP2      274 ETQIDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVICPV-    322
+                     ..:.||::...||   :.|.  |.||...  |..:|..:..|...:.|| 
+FLII_AQUAE       314 LVEGDDISLDPIA---DSLM--GVLDGHI--ILSRKRAVRGLFPAVDPVR    356
+
+Y1710_SYNP2      323 ALVEICEEILFTETSTLGIRRHTQTRSILQR---RFETVATPAGEIQLKI    369
+                     :|..:..:::..|        |....:..:.   :||.|     |..::|
+FLII_AQUAE       357 SLSRLMPKLVSEE--------HFMKANFFKEVLSKFEDV-----EELVRI    393
+
+Y1710_SYNP2      370 G-YRG------DKIYNVQPEYEDVKAIAQQ    392
+                     | |:|      ||:.|   ..|.|::..:|
+FLII_AQUAE       394 GLYKGGSNPLVDKVIN---NLEKVESFFKQ    420
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      16/67 (23.9%)
+# Similarity:    31/67 (46.3%)
+# Gaps:          16/67 (23.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      341 IRRHTQTRSILQRRFETVATPAGEIQLKIGYRGDKIYNVQPEYEDVKAIA    390
+                     :::..|.:|::|.:.:      |.:||:.|       ..|.:.:.....|
+MSS11_VANPO      433 LQQQLQQQSVMQGQQQ------GPMQLQQG-------QTQSQGQGQAQDA    469
+
+Y1710_SYNP2      391 QQTGQSWQAIAQQALCQ    407
+                     ||.|   |.::||.:.|
+MSS11_VANPO      470 QQQG---QPLSQQQMKQ    483
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      30/149 (20.1%)
+# Similarity:    51/149 (34.2%)
+# Gaps:          37/149 (24.8%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      178 VKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELV-----TP--TGAAI    220
+                     ||...|:.....||.||:......|.:.....|.:|     ||  |...:
+SPB4_ASPFU       253 VKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFV    302
+
+Y1710_SYNP2      221 ATTLATDFCQPPAMTLAKIALGSGTIDLPL----------PNLLRLWIGH    260
+                     :|....|:..    .:..:.||...:.:||          .|..|....|
+SPB4_ASPFU       303 STCSGVDYLS----AILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSH    348
+
+Y1710_SYNP2      261 QP-------------ETPHLETIVTLETQIDDLNPQAIAYACEKLQAAG    296
+                     .|             :.|.::.:|.::...|   |::..:.|.:...||
+SPB4_ASPFU       349 DPAILLTTDVAARGLDIPSVDLVVQIDPPSD---PKSFIHRCGRAGRAG    394
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 147
+# Identity:      35/147 (23.8%)
+# Similarity:    54/147 (36.7%)
+# Gaps:          28/147 (19.0%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2        5 AYLECPT---GIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAET     51
+                     ||.|.||   |:..::.:|  .:.|||:......::.|....|.:.||..
+ASSY_MYCTO       203 AYTEDPTINWGVPDEVIVG--FERGVPVSVDGKPVSMLAAIEELNRRAGA    250
+
+Y1710_SYNP2       52 VIRQGQRATKV----FVDLKTKATHHDHDHSQDQTHHHHADHAP-HRHLP     96
+                        ||.....|    .|.:|::..:.........|.|...:|.. .|.| 
+ASSY_MYCTO       251 ---QGVGRLDVVEDRLVGIKSREIYEAPGAMVLITAHTELEHVTLEREL-    296
+
+Y1710_SYNP2       97 EIQAMIKGAGLPERVERWSLAIFQNL------AIAEATVHGTTPEQV    137
+                            |....:..:||:..::..|      |..||.| ..|.|.|
+ASSY_MYCTO       297 -------GRFKRQTDQRWAELVYDGLWYSPLKAALEAFV-AKTQEHV    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 266
+# Identity:      58/266 (21.8%)
+# Similarity:    83/266 (31.2%)
+# Gaps:         102/266 (38.3%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       91 PHRHLPEIQAMI--------KGAGLPERVERWSLAIFQ--NLAIAEATVH    130
+                     |....|:::..|        .|.| |.|.::..|..::  |..|.|...|
+ECCB1_MYCS2      158 PDSSAPKVETSILIRTLAIDSGVG-PIRADQGMLVSYEGANWLITEGGRH    206
+
+Y1710_SYNP2      131 GTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGTVKA    180
+                                  :.|.....|.:.:|:      .:...|.|...|...|
+ECCB1_MYCS2      207 -------------SIDLADRAVTSAVGI------PVTAKPTPISQGLFNA    237
+
+Y1710_SYNP2      181 AHGILPVPVPAVLQLWQQRQVPV----YSNGIEKELV-------------    213
+                         ||...|     ||..|:|.    .|.|:.:.||             
+ECCB1_MYCS2      238 ----LPNRGP-----WQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDP    278
+
+Y1710_SYNP2      214 --------------TPTGAAIATTLATDFCQPPAM---TLAKI---ALGS    243
+                                   ..|.||:..|.:....||||:   .:|||   ...|
+ECCB1_MYCS2      279 QHYVVLPDGVARVNNTTAAALRATNSYGLMQPPAVEASVVAKIPEQVYVS    328
+
+Y1710_SYNP2      244 GTIDLPLPNLLR------LWI-----GHQ-PETPHLETIV----------    271
+                     ...|.||..|||      .|.     |.| |:|    |::          
+ECCB1_MYCS2      329 PLPDQPLDVLLRQDSPVLCWSWQREPGDQAPKT----TVIAGRRLPLPAN    374
+
+Y1710_SYNP2      272 TLETQIDDLNPQAIAY    287
+                     .:.|.||.:...:..|
+ECCB1_MYCS2      375 AIGTGIDQIGGDSTVY    390
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      43/178 (24.2%)
+# Similarity:    64/178 (36.0%)
+# Gaps:          42/178 (23.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      237 AKIALGSGTIDLPLPNLLRLWIGHQPETPHL-------ETIVTLETQIDD    279
+                     |.|....|.|.|...:|||..|....|...:       ..||..|..|..
+KCY4_ORYSJ        45 ANIVEHFGFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKL     94
+
+Y1710_SYNP2      280 LNPQAIAYACEKLQAAGALDVFTQGITMKKNRLG-TLLTVICPVALVEIC    328
+                     |....|....:|.    .:|.|.:.   ::||.. ..:|.|.|..     
+KCY4_ORYSJ        95 LQEAMIKSGNDKF----LIDGFPRN---EENRAAFENVTKITPAF-----    132
+
+Y1710_SYNP2      329 EEILFTETSTLGIRRHTQTRS---------ILQRRFETVATPAGEIQLKI    369
+                       :||.:.|...:.|....|:         .:::||:.....:..:   |
+KCY4_ORYSJ       133 --VLFFDCSEEEMERRLLGRNQGRVDDNIETIRKRFKVFVESSLPV---I    177
+
+Y1710_SYNP2      370 GYRG--DKIYNVQ-----PE-YEDVKAI    389
+                     .|..  ||:..:.     || :||||||
+KCY4_ORYSJ       178 EYYNAKDKVKKIDAAKPIPEVFEDVKAI    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 376
+# Identity:      73/376 (19.4%)
+# Similarity:   119/376 (31.6%)
+# Gaps:         152/376 (40.4%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       15 GDMCLGA--LIDGG------------VPLEYLKNQLNRLGIAAEYDLRAE     50
+                     |.|.|.|  |:|.|            |||.:   .:.:..:.:.:||.|.
+HCP_TRIV2        203 GQMNLKAMELLDAGNTETFGHPTPTTVPLGH---TVGKAILVSGHDLLAL    249
+
+Y1710_SYNP2       51 TVIRQGQRAT--KVFV--DL-------KTKATH-HDHDHS----QDQTHH     84
+                     ..:.:....|  ||:.  :|       |.|.|| |.:.|.    |:|||.
+HCP_TRIV2        250 KAVLEQTSGTGIKVYTHGELLPAHGYPKLKQTHPHLYGHYGTAWQNQTHE    299
+
+Y1710_SYNP2       85 H-----------------HADH--------------APHRHLPEIQAMIK    103
+                     .                 |..:              ..|..:.:|..:|:
+HCP_TRIV2        300 FERFPGAIVMTTNCLMPPHETYKDKVFTLGPVGYPGLQHISIHDISLVIQ    349
+
+Y1710_SYNP2      104 GA----GLPERVERWSL--AIFQN--LAIAEATVHGTTPEQV-HFHEVGA    144
+                     .|    |..|..|:.::  ...:|  |.:|:..::......: ||..||.
+HCP_TRIV2        350 KALELPGFTEDSEQKTVTTGFARNAVLGVADTVINAVKQGDIRHFFLVGG    399
+
+Y1710_SYNP2      145 TDA-----------------------------------LVDIVGTCLGLD    159
+                     .|.                                   |.||.|....||
+HCP_TRIV2        400 CDGAKPGRNYYSDLVEKIPNDCVVLTLGCGKFRFFDQNLGDIGGIPRLLD    449
+
+Y1710_SYNP2      160 WLEIDELYCAPMPTGGGTVKAAH----GILPVPVPAVLQLWQQRQVPVYS    205
+                     ..:.::.|.|...    .|..|:    .:..:|:..:|..::|:.:.|..
+HCP_TRIV2        450 LGQCNDAYSAIQI----AVALANTFEVNVNQLPLSMILSWYEQKAIAVLL    495
+
+Y1710_SYNP2      206 N----GIEKELVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLP    251
+                     .    ||:...:.||..|..|                            |
+HCP_TRIV2        496 TLLYLGIQNIRIGPTLPAFLT----------------------------P    517
+
+Y1710_SYNP2      252 NLLRLWIGHQPETPHLETIVTLETQI    277
+                     |:::|    ..||.||:.|.|.|..:
+HCP_TRIV2        518 NVVKL----LSETFHLQLITTPEQDL    539
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      48/253 (19.0%)
+# Similarity:    77/253 (30.4%)
+# Gaps:          96/253 (37.9%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2       33 KNQLNRLGIAAEYDLRAETVIR--QGQRATKVFVDLKTKATHH---DHDH     77
+                     :.||.:..:|.|   ..|.:||  :..||.:..:|    .|||   |.|.
+UBX7_YEAST       156 REQLKQRKLAEE---ERERIIRLVRADRAERKALD----ETHHRTLDDDK    198
+
+Y1710_SYNP2       78 SQDQTHHHHADHAPHRHLPEIQAMIKGAGLPERVERWSLAIFQNLAIAEA    127
+                     ..|.  |.:...|...|..:....|:                        
+UBX7_YEAST       199 PLDV--HDYIKDAQKLHSSKCVLQIR------------------------    222
+
+Y1710_SYNP2      128 TVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMPTGGGT    177
+                     ...|.|.:    ||..:::.|.|:      ..|::::.       |.|..
+UBX7_YEAST       223 MTDGKTLK----HEFNSSETLNDV------RKWVDVNR-------TDGDC    255
+
+Y1710_SYNP2      178 VKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKEL-------VTPTGAAI    220
+                     ..:.|                |.:|..:.....||       :||..|.:
+UBX7_YEAST       256 PYSFH----------------RGIPRVTFKDSDELKTLETLELTPRSALL    289
+
+Y1710_SYNP2      221 ATTLATDFCQPPAMTLAKIALGSGTIDLPLPNLL-RLWIG-----HQPET    264
+                     ...|.|.            ..|.....:..|:|| ||:.|     |..:.
+UBX7_YEAST       290 LKPLETQ------------NSGLSVTGMEGPSLLGRLYKGFSTWWHNDKD    327
+
+Y1710_SYNP2      265 PHL    267
+                     |.:
+UBX7_YEAST       328 PEV    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:      44/195 (22.6%)
+# Similarity:    72/195 (36.9%)
+# Gaps:          57/195 (29.2%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+Y1710_SYNP2      105 AGLPERVERWSLAIFQNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGT    154
+                     ||:.|.|    ..|..|:......:||..|:::.....|..:....::.|
+RPOA_ACICJ        82 AGVREDV----TDIVLNIKQIAVRMHGDGPKRMTVSATGPCEVTAGMIQT    127
+
+Y1710_SYNP2      155 CLGLDWLEIDELYCA-----------PMPTGGGTVKAAH--------GIL    185
+                     ...::.:..:.:.|.           .:.:|.|.|.||.        |::
+RPOA_ACICJ       128 GHDIEVMNPELVICTLDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLI    177
+
+Y1710_SYNP2      186 PV-----PVPAV---LQLWQQRQVPVY--------SNGIEKELVTPTGA-    218
+                     ||     ||..|   ::..:..||..|        :||    .|||..| 
+RPOA_ACICJ       178 PVDSIYSPVRRVSYRVEPTRVGQVTDYDRLILNIETNG----AVTPEDAV    223
+
+Y1710_SYNP2      219 AIATTLATD-------FCQPPAMTLAKIALGSGTIDLPL-PNLLR    255
+                     |:|..:..|       |.:|     .::.......:||. |||||
+RPOA_ACICJ       224 ALAARILQDQLGMFINFEEP-----QRLRAEEPRPELPFNPNLLR    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      11/43 (25.6%)
+# Similarity:    19/43 (44.2%)
+# Gaps:           5/43 (11.6%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      261 QPETPHLE-TIVTLETQIDDLNPQAIAYACEKLQAAGALDVFT    302
+                     :..|.:|| :...|..|:|:..|..:....|..:    ||:.|
+YXAD_BACSU        28 EKRTGNLERSSYLLLRQLDEFGPARVKELAESFK----LDIST     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y1710_SYNP2
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      49/180 (27.2%)
+# Similarity:    71/180 (39.4%)
+# Gaps:          51/180 (28.3%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+Y1710_SYNP2      191 AVLQLWQQRQVPVYSNGIEKELVTPTGAAI---------ATTLATDFCQP    231
+                     |||..|.::...|: |.:| :|..||.:||         .|.|||||  .
+FADB_SHESR        82 AVLLSWVEQANAVF-NKLE-DLPFPTASAIKGFALGGGCETILATDF--R    127
+
+Y1710_SYNP2      232 PAMTLAKIALG----------SGTIDLP----LPNLLRLWI----GHQPE    263
+                     .|.|.|||.|.          .||:.||    ..|.|. ||    ..:||
+FADB_SHESR       128 IADTTAKIGLPETKLGIIPGFGGTVRLPRVIGADNALE-WITTGKDQRPE    176
+
+Y1710_SYNP2      264 TPHLETIVTLETQIDDLNPQAI--AYACEKLQAAGALDVFTQGITMKKNR    311
+                                   |.|...|:  ..|.|.|:|| |:.:....:..|.:.
+FADB_SHESR       177 --------------DALKVGAVDAVVAPEALEAA-AIQMLKDAVAEKLDW    211
+
+Y1710_SYNP2      312 LGTLLTVICPVALVEICEEILFTETSTLGI    341
+                     .......:.|:.|.::  |.:.:.|:..|:
+FADB_SHESR       212 QARRHRKMSPLTLPKL--EAMMSFTTAKGM    239
+
+
+#---------------------------------------
+#---------------------------------------

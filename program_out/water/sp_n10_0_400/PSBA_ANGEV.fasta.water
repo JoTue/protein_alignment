@@ -1,0 +1,294 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:14
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/PSBA_ANGEV.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/PSBA_ANGEV.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/PSBA_ANGEV.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      28/128 (21.9%)
+# Similarity:    48/128 (37.5%)
+# Gaps:          29/128 (22.7%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV        58 VDIDGIREPVSGSLLYGNNIISGAII--PTS------AAIGLHFYPIWEA     99
+                     |::||:        ...|....|.|:  ||.      :|.|...:|    
+NADK_ACIET       171 VEVDGV--------FVSNQRADGLIVASPTGSTAYALSAGGPMLHP----    208
+
+PSBA_ANGEV       100 ASVDEW-LYNGGPYEL----IVLHFLLGVACYMGREWELSFRLGMRPWIA    144
+                      |:..| |....|:.|    |||.....||..:....::|....|:...:
+NADK_ACIET       209 -SIPGWVLVPIAPHTLSNRPIVLSDATEVAIEVAGGRDISANFDMQSLAS    257
+
+PSBA_ANGEV       145 VAYSAPV---AAAAAVFLIYPIGQGSFS    169
+                     :.:...:   .:|..|..::|.|...|:
+NADK_ACIET       258 LQHGDRILVRRSAHRVCFLHPRGWSYFA    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 353
+# Identity:     353/353 (100.0%)
+# Similarity:   353/353 (100.0%)
+# Gaps:           0/353 ( 0.0%)
+# Score: 1853.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV         1 MTASLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTATSVFII     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV         1 MTASLERRESASLWGRFCDWITSTENRLYIGWFGVLMIPTLLTATSVFII     50
+
+PSBA_ANGEV        51 AFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV        51 AFIAAPPVDIDGIREPVSGSLLYGNNIISGAIIPTSAAIGLHFYPIWEAA    100
+
+PSBA_ANGEV       101 SVDEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAP    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV       101 SVDEWLYNGGPYELIVLHFLLGVACYMGREWELSFRLGMRPWIAVAYSAP    150
+
+PSBA_ANGEV       151 VAAAAAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHML    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV       151 VAAAAAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHML    200
+
+PSBA_ANGEV       201 GVAGVFGGSLFSAMHGSLVTSSLIRETTENESANAGYKFGQEEETYNIVA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV       201 GVAGVFGGSLFSAMHGSLVTSSLIRETTENESANAGYKFGQEEETYNIVA    250
+
+PSBA_ANGEV       251 AHGYFGRLIFQYASFNNSRSLHFFLAAWPVVGIWFTALGISTMAFNLNGF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV       251 AHGYFGRLIFQYASFNNSRSLHFFLAAWPVVGIWFTALGISTMAFNLNGF    300
+
+PSBA_ANGEV       301 NFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PSBA_ANGEV       301 NFNQSVVDSQGRVINTWADIINRANLGMEVMHERNAHNFPLDLASVEAPS    350
+
+PSBA_ANGEV       351 VKA    353
+                     |||
+PSBA_ANGEV       351 VKA    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+PSBA_ANGEV       222 SLIRETTENESAN--AGYKFGQEEET    245
+                     |:.:..||::|.|  |..|..::.:|
+Y128_RICFE       101 SISKLPTEDDSPNNTANSKDNKDTDT    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      13/49 (26.5%)
+# Similarity:    22/49 (44.9%)
+# Gaps:           9/49 (18.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+PSBA_ANGEV       288 LGISTMAFNL---NGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHE    333
+                     |.:|..::|.   .|.|..|.:.|      .:.||::...|||.:.:.|
+RPOA_STAAN       256 LDLSVRSYNCLKRAGINSVQELAD------KSEADMMKVRNLGRKSLEE    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      20/62 (32.3%)
+# Similarity:    26/62 (41.9%)
+# Gaps:           7/62 (11.3%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV       108 NGGPYELIVLHFLLGVACYMGREWELSFRLGMRPW-IAVAYSAPVAAAAA    156
+                     ||.....|.|:..:|...|.|     |: |.|..| :.|.....|.|.|.
+CYB_PLEAU         85 NGASMFFICLYLHIGRGLYYG-----SY-LYMETWNVGVILLFAVMATAF    128
+
+PSBA_ANGEV       157 VFLIYPIGQGSF    168
+                     :..:.|.||.||
+CYB_PLEAU        129 MGYVLPWGQMSF    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      12/51 (23.5%)
+# Similarity:    22/51 (43.1%)
+# Gaps:          12/51 (23.5%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV       215 HGSLVTSSLIRETTENESANAGYKFGQEEETYNIVAAHGYFGRLIFQYAS    264
+                     ||.:||.      .::.|:|.|.::      ..|::..|...::|....|
+RPO8_SACSH        74 HGYIVTE------LKDSSSNNGNRY------ITIISLFGLLVKIISNKES    111
+
+PSBA_ANGEV       265 F    265
+                     |
+RPO8_SACSH       112 F    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      18/74 (24.3%)
+# Similarity:    32/74 (43.2%)
+# Gaps:          18/74 (24.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+PSBA_ANGEV        51 AFIA--------APPVDIDGIRE---PVSGS---LLYGNNIISGAIIPTS     86
+                     ||||        .|...|....|   ||:|:   |:..::|:   :..|.
+G3P_SULIN         40 AFIAHRKGIKIYVPQQSIKKFEESGIPVAGTIEDLVKASDIV---VDTTP     86
+
+PSBA_ANGEV        87 AAIGLHFYPIWEAASVDEWLYNGG    110
+                     ..:|..:.||::....:. ::.||
+G3P_SULIN         87 NGVGAQYKPIYQQFQRNA-IFQGG    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       8/35 (22.9%)
+# Similarity:    17/35 (48.6%)
+# Gaps:           2/35 ( 5.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+PSBA_ANGEV       293 MAFNLNGFNFNQSVVDSQGRVINTWADIINRANLG    327
+                     :|..||.|.|..::.:...:.:.:|  ::|....|
+BLP1_PSEAI       181 IASTLNKFLFGSALSEMNQKKLESW--MVNNQVTG    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:     6/19 (31.6%)
+# Gaps:          13/19 (68.4%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV        95 PIWEAASVDEWLYNGGPYE    113
+                     |:|             |||
+PA2AA_ACAAN       18 PVW-------------PYE     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PSBA_ANGEV
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       8/19 (42.1%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+PSBA_ANGEV        22 TSTENRLYIGWFGVLMIPT     40
+                     ||.|.:...|..|.|:.||
+KCC1A_MOUSE      323 TSQEGQGQTGSHGELLTPT    341
+
+
+#---------------------------------------
+#---------------------------------------

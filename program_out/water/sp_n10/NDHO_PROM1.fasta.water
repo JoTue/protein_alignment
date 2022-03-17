@@ -1,0 +1,258 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:05
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/NDHO_PROM1.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/NDHO_PROM1.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/NDHO_PROM1.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     7/9 (77.8%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+NDHO_PROM1        53 QGPGEVLLI     61
+                     :|.||:.|:
+Y3545_CROS8       41 RGKGELTLV     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      16/50 (32.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:          17/50 (34.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+NDHO_PROM1        10 DSQSPPKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQGPGEVL     59
+                     |:|:......:|||||:|.|           ||.|      |....|||:
+KDPB_SALNS       115 DAQADNVPAAELRKGDIVLV-----------KAGD------IIPCDGEVI    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       4/13 (30.8%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+NDHO_PROM1        34 YSNSLESKASDTN     46
+                     ::.:|:|..|:.|
+YEJL_SALNS        61 FARALQSSISEDN     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:     7/18 (38.9%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+NDHO_PROM1        56 GEVLLIKGDYCQVRWRRP     73
+                     |.|:|.......|.|..|
+UPPP_AROAE       257 GLVVLATWQLELVEWSEP    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      18/81 (22.2%)
+# Similarity:    31/81 (38.3%)
+# Gaps:          17/81 (21.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+NDHO_PROM1        15 PKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQ----GPGEVLL     60
+                     |...:|.::||.........||:.:   .:.|.|:..||    ...|.|.
+CBPD_LOPSP       115 PDGYEKSQEGDRGGTVGRNNSNNYD---LNRNFPDQFFQVTDPPQPETLA    161
+
+NDHO_PROM1        61 IKGDYCQVRWRRPVPDVWMNSDH----IVSY     87
+                     :      :.|.:..|.|...:.|    :|:|
+CBPD_LOPSP       162 V------MSWLKTYPFVLSANLHGGSLVVNY    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      87/87 (100.0%)
+# Similarity:    87/87 (100.0%)
+# Gaps:           0/87 ( 0.0%)
+# Score: 463.0
+# 
+#
+#=======================================
+
+NDHO_PROM1         1 MSEQTGKVDDSQSPPKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEY     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+NDHO_PROM1         1 MSEQTGKVDDSQSPPKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPEY     50
+
+NDHO_PROM1        51 IFQGPGEVLLIKGDYCQVRWRRPVPDVWMNSDHIVSY     87
+                     |||||||||||||||||||||||||||||||||||||
+NDHO_PROM1        51 IFQGPGEVLLIKGDYCQVRWRRPVPDVWMNSDHIVSY     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:       7/37 (18.9%)
+# Similarity:    17/37 (45.9%)
+# Gaps:           2/37 ( 5.4%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+NDHO_PROM1        20 KLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQGPG     56
+                     ::....:::....:|.:.:..|.:|.:  |..||..|
+DAPD_SHIBS        68 RINDNQVIEGAESRYFDKVPMKFADYD--EARFQKEG    102
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      11/34 (32.4%)
+# Similarity:    19/34 (55.9%)
+# Gaps:           7/34 (20.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+NDHO_PROM1        12 QSPPKVQK--KLRKGDLV---KVDREKYSNSLES     40
+                     ::||.|.:  ||.:..|:   ||.|  :.|:.:|
+ASF1_CRYNJ       125 ENPPSVVQWDKLHRNVLIEKPKVTR--FQNNWDS    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      14/69 (20.3%)
+# Similarity:    30/69 (43.5%)
+# Gaps:           8/69 (11.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+NDHO_PROM1         5 TGK-----VDDSQSPPKVQKKLRKGDLVKVDREKYSNSLESKASDTNLPE     49
+                     |||     |:.|.:...|:.|::..:.:..|:::...:.:.......|.:
+UBQ10_ARATH      389 TGKTITLEVESSDTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLAD    438
+
+NDHO_PROM1        50 YIFQGPGE---VLLIKGDY     65
+                     |..|....   ||.::|.:
+UBQ10_ARATH      439 YNIQKESTLHLVLRLRGGF    457
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: NDHO_PROM1
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       5/17 (29.4%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+NDHO_PROM1        62 KGDYCQVRWRRPVPDVW     78
+                     :|:...|.|..||.:::
+FADB_ACIBS        80 QGEKAIVDWLMPVHEIF     96
+
+
+#---------------------------------------
+#---------------------------------------

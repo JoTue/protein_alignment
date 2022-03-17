@@ -1,0 +1,2824 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:09
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/PTH_GEOLS.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/PTH_GEOLS.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/PTH_GEOLS.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:      37/169 (21.9%)
+# Similarity:    58/169 (34.3%)
+# Gaps:          54/169 (32.0%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         42 KQFGGL-TAEWERKGKRL--VLLKPQTFMNLSGRSVMPALQFYKLKPDQL     88
+                     ::|.|: ..|...|.|.|  :|:.|.|...|.|...:|       :.|.:
+PUR7_VIBVU       148 REFCGIQLPEGLEKDKALPDLLMTPSTKGILKGIPGVP-------EADDV    190
+
+PTH_GEOLS         89 IVVHDEI-------------DLALGAARLKQGGGHGGQNGLRSIMELLGK    125
+                     .:....|             |:||....||.|.|        .|.|.|. 
+PUR7_VIBVU       191 NITRQNIADNFAAFNFSSADDIALYEKLLKDGFG--------VISEALA-    231
+
+PTH_GEOLS        126 GDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALD    175
+                             .:|:            :|...:.| |..|.|.|.:.....:|
+PUR7_VIBVU       232 --------NVGQ------------IFVDTKFE-FGYVTDAAGNEKLIYMD    260
+
+PTH_GEOLS        176 E-GVPKAMSLFNNKSYLEG    193
+                     | |.|.:..:::.:.|..|
+PUR7_VIBVU       261 EVGTPDSSRIWDAQEYQAG    279
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    19/56 (33.9%)
+# Gaps:          17/56 (30.4%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        138 PPHGDVTNHVLGVFTPPEMEIF-ARVLDGALDM-------------LETA    173
+                     |||.|......   .|..:||. ..|..|.|::             |...
+Y075_NITWN         3 PPHSDRPEDTA---DPKLLEILVCPVTKGPLELDGARRELISRSAKLAYP     49
+
+PTH_GEOLS        174 LDEGVP    179
+                     :.:|:|
+Y075_NITWN        50 IRDGIP     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    18/38 (47.4%)
+# Gaps:           5/38 (13.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        145 NHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPKAM    182
+                     :.::.|:||||     ...||....|:..||:....|:
+Y3584_PSEAB       79 DEIMAVYTPPE-----GYEDGDGRDLQVYLDQNYTNAL    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      10/46 (21.7%)
+# Similarity:    20/46 (43.5%)
+# Gaps:           1/46 ( 2.2%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         15 KYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVL     60
+                     :|...||..|.::...:.|.|.. ::..:...|..|:.:..|.|.:
+BPT_HAHCH        112 RYISARHQDGDMYPPTLDQYESF-LLEARSETLFIEFRKDSKLLAI    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      14/53 (26.4%)
+# Similarity:    17/53 (32.1%)
+# Gaps:          17/53 (32.1%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        139 PHGDVT--------NHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+                     |..|||        ..:||....|.:.:.|         |..|||...|.
+KDPC_CAUVN       150 PEKDVTALIDAQVQQPLLGFIGQPRVNVLA---------LNRALDARYPP    190
+
+PTH_GEOLS        181 AMS    183
+                     ..|
+KDPC_CAUVN       191 LAS    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      16/56 (28.6%)
+# Similarity:    21/56 (37.5%)
+# Gaps:          13/56 (23.2%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        141 GDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPKAMSLF---NN    187
+                     ||:....:|...|.|      |.|.....|.|..|.|.|    |:   .|
+LPXH_XYLFM        40 GDLFEVWIGDDMPSE------VADMVAAALRTYADAGTP----LYFMPGN     79
+
+PTH_GEOLS        188 KSYLEG    193
+                     :.:|.|
+LPXH_XYLFM        80 RDFLVG     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      10/41 (24.4%)
+# Similarity:    20/41 (48.8%)
+# Gaps:           3/41 ( 7.3%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQF-YKLKPDQLIVVHDEIDLAL     99
+                     |.|..|.::|.|...:..|.: :.::.:.|  :||.:...|
+YERI_SCHPO         9 LAKACTGLSLIGIVFLLVLSYLFSIEAETL--MHDLVGSGL     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      25/97 (25.8%)
+# Similarity:    43/97 (44.3%)
+# Gaps:          20/97 (20.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        104 LKQGGGH--GGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVF    151
+                     |::|..|  .|:||       .||...:.:..||.:|..|::  .:.|  
+RBSA_RUEST        29 LRRGEIHAIAGENG-------AGKSTLMNIIDGILQPDSGEI--RLDG--     67
+
+PTH_GEOLS        152 TPPEMEIFARVLDGALDML--ETALDEGVPKAMSLF-----NNKSYL    191
+                     ||.|:...|......:..:  |.||...|..|.::|     :::|:|
+RBSA_RUEST        68 TPVEIPSPAAAQKMGIGFVHQEIALCPDVSVAENIFMAATNSSRSFL    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       9/25 (36.0%)
+# Similarity:    12/25 (48.0%)
+# Gaps:           5/25 (20.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         93 DEIDLALGAA-----RLKQGGGHGG    112
+                     |::....|..     ||..|||:||
+KR195_HUMAN       19 DDLGYGYGCGCGSFRRLGYGGGYGG     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    15/38 (39.5%)
+# Gaps:          17/38 (44.7%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         11 NPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLT     48
+                     :|.|:..|             :|...||||:    |||
+UPPP_CORDI         4 DPSSQISW-------------SQTIVLSIVQ----GLT     24
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      12/44 (27.3%)
+# Similarity:    18/44 (40.9%)
+# Gaps:          10/44 (22.7%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        154 PEMEIFARVLDGALDMLETALDEGVPKAM------SLFNNKSYL    191
+                     |:.|  .:|..||  .:|...|:||....      .:|..|.|:
+GREB_ECO57        79 PQQE--GKVFFGA--WVEIENDDGVTHRFRIVGYDEIFGRKDYI    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 232
+# Identity:      52/232 (22.4%)
+# Similarity:    85/232 (36.6%)
+# Gaps:          86/232 (37.1%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+PTH_GEOLS          5 VIAGLGNPGSKYQWTR----HNAGFLFLDRIAQLEGLSIVRKQFGGLTAE     50
+                     |:|..|.......|||    .:.||       |:..|..:||    ::.|
+TGT_LEPCP         70 VMAQFGGLHRFENWTRPILTDSGGF-------QVWSLGEMRK----ISEE    108
+
+PTH_GEOLS         51 WER-----KGKRLVLLKPQTFMNLSGRSVMPA---LQFYKLKP-------     85
+                     ..|     .|.:| .|.|:..|.:  ::|:.:   :||.:..|       
+TGT_LEPCP        109 GVRFASPVNGDKL-FLTPEVSMQI--QTVLNSDIVMQFDECTPYWQGAKN    155
+
+PTH_GEOLS         86 ------DQLIVVHDEIDLALGA------ARL---------KQGGGHGG--    112
+                           ::...|..|:.|...|      |||         .|||....  
+TGT_LEPCP        156 VGHITTEKEARVSMELSLRWAARSKAEFARLGNPNALFGIVQGGMFESLR    205
+
+PTH_GEOLS        113 QNGLRSIMELLGKGDFVRLRLG---IGRP-----------PH---GDVTN    145
+                     :..|.:::||    ||....:|   :|.|           ||   .|...
+TGT_LEPCP        206 EESLNALVEL----DFPGYAVGGVSVGEPKDEMLRIMNHTPHLLPADKPR    251
+
+PTH_GEOLS        146 HVLGVFTPPEMEIFARVLDG---ALDMLETAL    174
+                     :::||.||.::      :||   .:||.:..:
+TGT_LEPCP        252 YLMGVGTPEDL------VDGVACGVDMFDCVM    277
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      32/116 (27.6%)
+# Similarity:    48/116 (41.4%)
+# Gaps:          28/116 (24.1%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         53 RKGKRLVLLKPQTFMNLSG-RSVMPALQ--FYKLKPDQLIVVHDEIDLAL     99
+                     |..:||.||.......||| :::..|:|  :..|:.|.|..||      |
+CBPQ_HUMAN        62 RSYERLALLVDTVGPRLSGSKNLEKAIQIMYQNLQQDGLEKVH------L    105
+
+PTH_GEOLS        100 GAARLKQGGGHGGQNGLRSIM--------ELLGKGDFVRLRLGIGRPPHG    141
+                     ...|:.    |..:....::|        .:||.|.      .||.||.|
+CBPQ_HUMAN       106 EPVRIP----HWERGEESAVMLEPRIHKIAILGLGS------SIGTPPEG    145
+
+PTH_GEOLS        142 DVTNHVLGVFTPPEME    157
+                      :|..||.|.:..|::
+CBPQ_HUMAN       146 -ITAEVLVVTSFDELQ    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      13/69 (18.8%)
+# Similarity:    25/69 (36.2%)
+# Gaps:          20/69 (29.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         70 SGRSVMPALQFY--KLKPDQLIVVHDEIDLALGAARLKQGGGHGGQNGLR    117
+                     :|.....|:.|.  |:|.|......:.:..|:.|              |:
+PSA6_SOYBN       168 AGLKDQEAINFLEKKMKNDPSFTYEETVQTAISA--------------LQ    203
+
+PTH_GEOLS        118 SIMELLGKGDFVRLRLGIG    136
+                     |:::    .||....:.:|
+PSA6_SOYBN       204 SVLQ----EDFKATEIEVG    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      18/57 (31.6%)
+# Similarity:    23/57 (40.4%)
+# Gaps:          12/57 (21.1%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         29 DRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLKPQTFMN-LSGR---SV     74
+                     |:...||.|..:|:|...|    ...|:||.    ..|.| |..|   |.
+SCL34_ARATH      264 DKTTALEFLLQIRQQSSPL----GDAGQRLA----HCFANALEARLQGST    305
+
+PTH_GEOLS         75 MPALQFY     81
+                     .|.:|.|
+SCL34_ARATH      306 GPMIQTY    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      27/143 (18.9%)
+# Similarity:    51/143 (35.7%)
+# Gaps:          47/143 (32.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         39 IVRKQFGGLTAEWERKGKRLVLLK---------PQTFMNLSGRSVMPALQ     79
+                     :.|...|.:...:|:||.||:.:|         .:.:::|..|.....|.
+NDKA_CANLF        16 VQRSLVGEIIKRFEQKGFRLIAMKLIQASEDLLKEHYIDLKDRPFFAGLV     65
+
+PTH_GEOLS         80 FYKLKPDQLIVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLG-----    124
+                     .|......:.:|.:                  |.|.:::...:||     
+NDKA_CANLF        66 KYMQSGPVVAMVWE------------------GLNVVKTGRVMLGETNPA     97
+
+PTH_GEOLS        125 -------KGDFVRLRLGIGRP-PHG----DVTNHVLGVFTPPE    155
+                            :|||.   :.:||. .||    :.....:|::..||
+NDKA_CANLF        98 DSKPGTIRGDFC---IQVGRNIIHGSDSVESAEKEIGLWFQPE    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      19/85 (22.4%)
+# Similarity:    35/85 (41.2%)
+# Gaps:          20/85 (23.5%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         68 NLSGRSVMPALQFYKLKPDQL-------------IVVHDE-IDLALGAAR    103
+                     |:|.:.:..:::|   :|..|             |:.|.| :..|.....
+RS4_CAEEL        162 NISTQKITDSVKF---EPGNLAYVTGGRNVGRVGIIGHRERLPGASDIIH    208
+
+PTH_GEOLS        104 LKQGGGHGGQNGLRSIMELLGKGD--FVRLRLGIG    136
+                     :|...||.....:.::. ::|||:  .|.|..|.|
+RS4_CAEEL        209 IKDSAGHSFATRISNVF-VIGKGNKALVSLPTGAG    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      12/47 (25.5%)
+# Similarity:    23/47 (48.9%)
+# Gaps:           6/47 (12.8%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         41 RKQFGGLTAEWERKGKRLVLLKPQTFMNLSGRSVMP-ALQFYKLKPD     86
+                     |:::....|:.||:.:    |:.:. ..|.|..|.| :.:|.:|..|
+G45IP_CHLAE      140 RERWEKAQADKERRAR----LQAEA-QELLGYQVNPKSARFQELLQD    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      28/135 (20.7%)
+# Similarity:    50/135 (37.0%)
+# Gaps:          34/135 (25.2%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         72 RSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQG--------------    107
+                     :.::.:.:|.:.|||.:..:|...:|.:|....|.|              
+DAPEL_OCEIH      133 KPMLESEEFQQWKPDMMFALHIAPELPVGTVSSKAGLLFANTSELFIDFE    182
+
+PTH_GEOLS        108 --GGHGGQNGLRSIMELLGKGDFVRLR--------------LGIGRPPHG    141
+                       |||.....|...|.:......|:|:              :.||:...|
+DAPEL_OCEIH      183 GVGGHAAYPHLTKDMTVAASNFVVQLQQIVSRGLNPLDGSVITIGKMESG    232
+
+PTH_GEOLS        142 DVTNHVLGVFTPPEMEIFARVLDG-ALDMLETALD    175
+                     .|.|   .:.....:|...|..|. |:||:::.|:
+DAPEL_OCEIH      233 YVQN---AIAETARLEGTIRSTDADAIDMIKSKLN    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      14/47 (29.8%)
+# Similarity:    21/47 (44.7%)
+# Gaps:           3/47 ( 6.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        124 GKG---DFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGAL    167
+                     |||   :.:..|.||.:...||:....:...||..:|..|.:..|.|
+KAD_METRJ         12 GKGTQSERIVQRFGIPQLSTGDMLRAAVAAGTPVGLEAKAVMESGGL     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      23/82 (28.0%)
+# Similarity:    32/82 (39.0%)
+# Gaps:           6/82 ( 7.3%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         98 ALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHV    147
+                     |..||:...|.|.|...|: .::..:|....|.:..|||..|.|     |
+ELN_BOVIN        491 AAKAAQFGLGPGVGVAPGV-GVVPGVGVVPGVGVAPGIGLGPGG-----V    534
+
+PTH_GEOLS        148 LGVFTPPEMEIFARVLDGALDMLETALDEGVP    179
+                     :|...|...:..|:....|.......|..|||
+ELN_BOVIN        535 IGAGVPAAAKSAAKAAAKAQFRAAAGLPAGVP    566
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      16/69 (23.2%)
+# Similarity:    26/69 (37.7%)
+# Gaps:          26/69 (37.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        108 GGHGGQNGL---RSIMELLGKGDFV------RLRLGIGR-----------    137
+                     |..|||.||   .||:.:|...|::      :|...:|:           
+ASIC2_MOUSE      430 GDIGGQMGLFIGASILTILELFDYIYELIKEKLLDLLGKEEEEGSHDENM    479
+
+PTH_GEOLS        138 ------PPHGDVTNHVLGV    150
+                           |.|.:..:|.:.|
+ASIC2_MOUSE      480 STCDTMPNHSETISHTVNV    498
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      12/49 (24.5%)
+# Similarity:    20/49 (40.8%)
+# Gaps:          11/49 (22.4%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+PTH_GEOLS          4 IVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWE     52
+                     |::.|:... |:..|.......||:       |..|:...|   |::||
+DOXA1_XENTR       38 IILPGIRGK-SRSIWLFRILTSLFI-------GAVILAVNF---TSDWE     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       6/19 (31.6%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           1/19 ( 5.3%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        154 PEMEIFARVLDGALDMLET    172
+                     |..|:| |....::|..|:
+RS20_STRPB        44 PSEELF-RAASSSIDKAES     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      10/30 (33.3%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           1/30 ( 3.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         30 RIAQLEG-LSIVRKQFGGLTAEWERKGKRL     58
+                     :|.|:|. |..|::|.....::.|.|.|.|
+TPM_HAELO         49 KIQQIENELDQVQEQLSQANSKLEEKDKAL     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      17/67 (25.4%)
+# Similarity:    21/67 (31.3%)
+# Gaps:          23/67 (34.3%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         32 AQLEGLSIVRKQFGGLTAEWERKGKRLVL-LKPQTF-----------MNL     69
+                     |:.|||.   |.|.....||...|..:.| :.|...           .|.
+LEUC_XANOM       393 AEAEGLD---KVFLDAGFEWREPGCSMCLAMNPDKLGSGEHCASTSNRNF    439
+
+PTH_GEOLS         70 SGRS--------VMPAL     78
+                     .||.        |.||:
+LEUC_XANOM       440 EGRQGAGGRTHLVSPAM    456
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       3/5 (60.0%)
+# Similarity:     3/5 (60.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        107 GGGHG    111
+                     |.|.|
+LPT_ESCF3         17 GNGAG     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      18/80 (22.5%)
+# Similarity:    29/80 (36.2%)
+# Gaps:           8/80 (10.0%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         45 GGLTAEWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDE     94
+                     |...|..|.|.:..|:||......|.....:.|:....||        :.
+RL7_THET8         48 GAAAAPAEEKTEFDVILKEAGAKKLEVIKELRAITGLGLK--------EA     89
+
+PTH_GEOLS         95 IDLALGAARLKQGGGHGGQNGLRSIMELLG    124
+                     .|||.....:|:|........::..:|.:|
+RL7_THET8         90 KDLAEKGGPVKEGVSKQEAEEIKKKLEAVG    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      17/66 (25.8%)
+# Similarity:    29/66 (43.9%)
+# Gaps:          11/66 (16.7%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        118 SIMELLGKGDF-VRLRLGIGRPPHGDVTNHVLGVFTP----PEMEIFARV    162
+                     |.:.:||||.| ..||....:|      ..::.:..|    ||:|....|
+HEM1_METCA       250 SPLPILGKGSFESALRSRRHKP------MFIVDLAVPRDIEPEVEQLQDV    293
+
+PTH_GEOLS        163 LDGALDMLETALDEGV    178
+                     ....:|.|:..::|.:
+HEM1_METCA       294 YLYTVDDLQHTVEENL    309
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      20/71 (28.2%)
+# Similarity:    28/71 (39.4%)
+# Gaps:          18/71 (25.4%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         94 EIDLALGAARLKQGGGH--GGQNGLRSIMELLGKGDFVRLRLGIGRPPHG    141
+                     ::..|||||||.....|  ..:.||...:.|          ....||...
+XYLB_KLEPN       420 DVGPALGAARLAHVAVHDEADRPGLLKPLPL----------EQAHRPDDR    459
+
+PTH_GEOLS        142 DVTNHVLGVFTPPEMEIFARV    162
+                     .|.::.      |:.|||||:
+XYLB_KLEPN       460 RVAHYA------PQREIFARI    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      34/123 (27.6%)
+# Similarity:    50/123 (40.7%)
+# Gaps:          32/123 (26.0%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         86 DQ--LIVVHDEIDL-ALGAARLKQGGGH--GGQ----NGLR-------SI    119
+                     ||  :.||.:..|| ||..|||..|..|  ||:    .|:|       |:
+RECR_NOVAD        77 DQRSICVVEEVADLWALDRARLFTGKYHVLGGRLSALEGVRPEDLTIGSL    126
+
+PTH_GEOLS        120 MELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDM    169
+                     ::.:.:|....:.|.:.....|..|.|.:           |..|:||. :
+RECR_NOVAD       127 LDRVAQGGIDEVVLAMNATLEGQTTAHYI-----------AERLEGAA-V    164
+
+PTH_GEOLS        170 LETALDEGVPKAMSLFNNKSYLE    192
+                     ..|.|..|:|....|    .||:
+RECR_NOVAD       165 RVTQLAHGLPVGGEL----DYLD    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      29/141 (20.6%)
+# Similarity:    53/141 (37.6%)
+# Gaps:          44/141 (31.2%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         45 GGLTAEWERKGK------RLVL---LKPQTFMNLSGRSVMP------ALQ     79
+                     |....:|....:      |.:|   ::|...:|::.....|      |:.
+SURE_METNO       132 GRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVV    181
+
+PTH_GEOLS         80 FYKLKPDQLIVVHDEID--------LALGAARLKQGGGHGGQNGLRSIME    121
+                     ...::..||:.:.:.:|        ||...||.:.  |||  ..|::|.|
+SURE_METNO       182 AQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEP--GHG--TDLKAIAE    227
+
+PTH_GEOLS        122 LLGKGDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARV    162
+                              .|:.: .|...|:|:.       |.:..||:|
+SURE_METNO       228 ---------NRIAV-TPLRLDLTDE-------PTLTRFAQV    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      13/66 (19.7%)
+# Similarity:    27/66 (40.9%)
+# Gaps:          15/66 (22.7%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        141 GDVTNHVLG--VFTPPEME-----IFA--------RVLDGALDMLETALD    175
+                     ||..|::..  :.|||.::     :||        ..|.|.|.::.:.|.
+CYB_ARTIO        251 GDPDNYIPANPLITPPHIKPEWYFLFAYAILRSIPNKLGGVLALVMSILI    300
+
+PTH_GEOLS        176 EGVPKAMSLFNNKSYL    191
+                     ..:...:.:...:|.:
+CYB_ARTIO        301 LAIVPTLHMSKQRSMM    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      37/180 (20.6%)
+# Similarity:    59/180 (32.8%)
+# Gaps:          54/180 (30.0%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         17 QWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLKPQTF     66
+                     :|.:...|...|.::||.:||.||                         :
+IOLE_BACHK       133 EWEKLADGLHHLGKLAQEKGLHIV-------------------------Y    157
+
+PTH_GEOLS         67 MNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGGH---GGQ    113
+                     .:..|..|....:..||.        |..|.||  ..|....||   .|:
+IOLE_BACHK       158 HHHMGTGVQTTTEIEKLM--------DMTDPAL--VSLLFDTGHLVFSGE    197
+
+PTH_GEOLS        114 NGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVL    163
+                     ..|..:.:.|.:...|.|:         |:...|:.|....|:.....|.
+IOLE_BACHK       198 EPLYILKKYLPRIKHVHLK---------DIRQEVVDVVKEKELSFLQAVK    238
+
+PTH_GEOLS        164 DGALDMLETALDEGV---PKAMSLFNNKSY    190
+                     :||.    |...:||   .:..::..|.:|
+IOLE_BACHK       239 NGAF----TVPGDGVIVFDEVFTILANSNY    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      23/109 (21.1%)
+# Similarity:    40/109 (36.7%)
+# Gaps:          33/109 (30.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+PTH_GEOLS          1 MDTIVI-AGLGNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTA     49
+                     :|.||. ||:|....:.             |...||||     :|.|:  
+ACKA_STAAT       322 VDVIVFTAGIGENSVEI-------------RAKVLEGL-----EFMGV--    351
+
+PTH_GEOLS         50 EWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLAL     99
+                     .|:.|....:|...:.|:|            |...|.:::|:..:.:..:
+ACKA_STAAT       352 YWDPKKNENLLRGKEGFIN------------YPHSPVKVVVIPTDEESMI    389
+
+PTH_GEOLS        100 GAARLKQGG    108
+                     ....:..||
+ACKA_STAAT       390 ARDVMTFGG    398
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      27/117 (23.1%)
+# Similarity:    43/117 (36.8%)
+# Gaps:          36/117 (30.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         93 DEIDLALGAARLKQGG--------GHG----GQNGLRSIMELLGKG----    126
+                     :::.:.||.|..|..|        ||.    .:...|.:::..|:.    
+HIS7_BURTA        68 EDVGITLGQAVAKAVGDKKGIRRYGHSYVPLDEALSRVVIDFSGRPGLEF    117
+
+PTH_GEOLS        127 --DFVRLRLGI-----------GRPPHGDVTNHV---LGVFTPPEME---    157
+                       .|.|.|:|.           |...|..||.|:   .||....::|   
+HIS7_BURTA       118 HVPFTRARIGTFDVDLSIEFFRGFVNHAGVTLHIDNLRGVNAHHQLETVF    167
+
+PTH_GEOLS        158 -IFARVLDGALDMLETA    173
+                      .|.|.|..|:::.|.|
+HIS7_BURTA       168 KAFGRALRMAVELDERA    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 193
+# Identity:     193/193 (100.0%)
+# Similarity:   193/193 (100.0%)
+# Gaps:           0/193 ( 0.0%)
+# Score: 999.0
+# 
+#
+#=======================================
+
+PTH_GEOLS          1 MDTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PTH_GEOLS          1 MDTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAE     50
+
+PTH_GEOLS         51 WERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PTH_GEOLS         51 WERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALG    100
+
+PTH_GEOLS        101 AARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGV    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+PTH_GEOLS        101 AARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGV    150
+
+PTH_GEOLS        151 FTPPEMEIFARVLDGALDMLETALDEGVPKAMSLFNNKSYLEG    193
+                     |||||||||||||||||||||||||||||||||||||||||||
+PTH_GEOLS        151 FTPPEMEIFARVLDGALDMLETALDEGVPKAMSLFNNKSYLEG    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    22/46 (47.8%)
+# Gaps:          14/46 (30.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        152 TPPEMEI-FAR----------VLDGAL---DMLETALDEGVPKAMS    183
+                     :|..||: ||:          :|||:|   :.|.:...:.||..:|
+TAF3_XENLA       114 SPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSINSQKVPSVLS    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      43/208 (20.7%)
+# Similarity:    72/208 (34.6%)
+# Gaps:          83/208 (39.9%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+PTH_GEOLS          1 MDTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLE---GLSIVRKQFGGL     47
+                     |:.:.:||.    :..:.|.||:     ||||||:   |.:::.::.|.:
+DNLJ_CROS5       346 MEPVHLAGT----TVQKATLHNS-----DRIAQLDIRVGDTVIIRKAGEI    386
+
+PTH_GEOLS         48 TAEWERKGKRL-------------------VLLKPQ-----TFMNLS---     70
+                     ..|..|..|.|                   .|::|.     ..||||   
+DNLJ_CROS5       387 IPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEA    436
+
+PTH_GEOLS         71 --------------------GRSVMPAL----------QFYKLKPDQLIV     90
+                                         |..::..|          ..|.|.|:.:  
+DNLJ_CROS5       437 ILRGSLVHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETI--    484
+
+PTH_GEOLS         91 VHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPH    140
+                                |.|::.|.....|.:::| |...:..|.|:..|:|....
+DNLJ_CROS5       485 -----------ANLERMGSKSADNLIKAI-EGSKQQPFSRVLYGLGIRYV    522
+
+PTH_GEOLS        141 GDVTNHVL    148
+                     |.||.::|
+DNLJ_CROS5       523 GSVTANLL    530
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 165
+# Identity:      38/165 (23.0%)
+# Similarity:    58/165 (35.2%)
+# Gaps:          48/165 (29.1%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         22 NAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLKPQTFMNLSG     71
+                     |...:.||.|.:  |.|    .|.||:..|         ...:...:..|
+MUTS_MYXXD       703 NKSLIILDEIGR--GTS----TFDGLSIAW---------AVAEHLHDTVG    737
+
+PTH_GEOLS         72 RSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGGHGGQNGLRSIME    121
+                     ...:.|..:           |:.:|||....|:|        |...::.|
+MUTS_MYXXD       738 ARALFATHY-----------HELVDLARERPRVK--------NLCVAVKE    768
+
+PTH_GEOLS        122 LLGKGDFVR-LRLGIGRPPHGDVTNHVLGVFTPPEM-----EIFARVLDG    165
+                     ..||..|:| |..|.....:|.....:.|:  |||:     |:...:..|
+MUTS_MYXXD       769 QNGKVIFLRKLVPGGASRSYGIEVAKLAGL--PPEVVGRARELLQNLESG    816
+
+PTH_GEOLS        166 ALDMLETALDEGVPK    180
+                     .||      |.|.|:
+MUTS_MYXXD       817 ELD------DAGRPR    825
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       8/29 (27.6%)
+# Similarity:    13/29 (44.8%)
+# Gaps:           2/29 ( 6.9%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         13 GSKYQWTRHN--AGFLFLDRIAQLEGLSI     39
+                     |:|..|...|  .|.||.|.:..::...:
+NOSO_STAAC        51 GAKMAWRNSNRCIGRLFWDSLNVIDARDV     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      24/99 (24.2%)
+# Similarity:    41/99 (41.4%)
+# Gaps:          12/99 (12.1%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        102 ARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRP-PHGDVTNHVL--    148
+                     |:.::|.|.|.:.|.|:.|    :.|:..:......| |...|...:|  
+RBM8A_MOUSE       32 AKKRKGRGFGSEEGSRARM----REDYDSVEQDGDEPGPQRSVEGWILFV     77
+
+PTH_GEOLS        149 -GVF-TPPEMEIFARVLD-GALDMLETALDE--GVPKAMSLFNNKSYLE    192
+                      ||. ...|.:|..:..: |.:..:...||.  |..|..:|...::|.|
+RBM8A_MOUSE       78 TGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETYKE    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:       9/34 (26.5%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           8/34 (23.5%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        128 FVRLRLGIGRPPHGDVTNH-VLGVFTPPEMEIFA    160
+                     ||.:.:.|       ::|| .|....|..:.:||
+NU4LM_ARCPU       41 FVMMSMTI-------LSNHFTLASMAPIILLVFA     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       9/18 (50.0%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         20 RHNAGFLFLDRIAQLEGL     37
+                     ||:||.|....:||.|.|
+NANK_ECOLI       274 RHDAGLLGAALLAQGEKL    291
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      33/175 (18.9%)
+# Similarity:    62/175 (35.4%)
+# Gaps:          68/175 (38.9%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         57 RLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQ    106
+                     |.....|..|.    ||::..::.|   |:.:..:|..|           
+MIAB_MYCPE       286 RFTTSNPWNFT----RSIVDTMKKY---PNIMPHIHLPI-----------    317
+
+PTH_GEOLS        107 GGGHGGQNGLRSIMELLGK----GDFVRL----RLGIGRPPHGDVTNHVL    148
+                           |:|..:|::.:.:    ||::.|    |..|   |:..:|..::
+MIAB_MYCPE       318 ------QSGDETILKKMNRPMKIGDYIDLVDYIRANI---PNCSITTDLI    358
+
+PTH_GEOLS        149 GVFTPPE--------MEIFARV-LDGALDMLETALD--------EGVP--    179
+                     ..| |.|        :|::.|: .|.|...:.:..|        :.:|  
+MIAB_MYCPE       359 VGF-PNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPLS    407
+
+PTH_GEOLS        180 -------------KAMSLFNNKSYL    191
+                                  |..|..||:.|:
+MIAB_MYCPE       408 EKKERLQELNEMVKTFSKKNNEKYV    432
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      21/85 (24.7%)
+# Similarity:    30/85 (35.3%)
+# Gaps:          12/85 (14.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        108 GGHGG-QNGLRSIMELLGKGDFVRLRLG-IG----RPPHG------DVTN    145
+                     ||.|. .........:|.|..||.:..| :|    ..||.      ::.|
+NADK_STAES        43 GGDGTLLQAFHQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEINN     92
+
+PTH_GEOLS        146 HVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+                     ....|...|.:|:..|..|...:....||:|...|
+NADK_STAES        93 SEFQVIEYPLLELIVRYNDNGYETRYLALNEATMK    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      12/31 (38.7%)
+# Similarity:    17/31 (54.8%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         43 QFGGLTAEWERKGKRLVLLKPQTFMNLSGRS     73
+                     |.||||||:...|:...:..|..:|..:.||
+TRPG_CAEEL      1215 QNGGLTAEYGTFGESNGVSPPPPYMRANSRS   1245
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      37/163 (22.7%)
+# Similarity:    59/163 (36.2%)
+# Gaps:          51/163 (31.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         17 QWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRL-------V     59
+                     ||..|    |..|:..|:..|.....|..|:....|:..:.|       :
+MSHD_MYCMM         5 QWRSH----LTDDQQRQVRDLVTAATQVDGVAPVGEQVLRELAQQRTEHL     50
+
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQFYKLKPDQ-------LIVVHDE-----IDL     97
+                     |::.|:    .|:|   |:.:..|.|..       .:|||.:     |..
+MSHD_MYCMM        51 LVEDQS----PGKS---AIGYLNLSPAHGADAAMAELVVHPQARRRGIAT     93
+
+PTH_GEOLS         98 ALGAARLKQGGG------HG---------GQNGLRSIMELLGKGDFVRLR    132
+                     |:..|.|.:.||      ||         ...||..:.||      |::|
+MSHD_MYCMM        94 AMVRAALAKTGGRNQFWAHGTLAPAQATASALGLTPVREL------VQMR    137
+
+PTH_GEOLS        133 LGIGRPPHGDVTN    145
+                     ..:.:.|...:.|
+MSHD_MYCMM       138 RSLRQLPEPVIPN    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      14/57 (24.6%)
+# Similarity:    21/57 (36.8%)
+# Gaps:          13/57 (22.8%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        105 KQGGGHGGQNGLRSIMELLGKGDFV---------RLRLGIGRP--PHGDV    143
+                     ::|.|..|.||  :...|:..||.|         .......||  .|.|.
+PAND_THEFY        63 ERGSGVIGING--AAARLVAPGDLVIIISYVQLTEAERATHRPHVVHVDA    110
+
+PTH_GEOLS        144 TNHVLGV    150
+                     .|.::.:
+PAND_THEFY       111 NNRIVAL    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      24/91 (26.4%)
+# Similarity:    34/91 (37.4%)
+# Gaps:          23/91 (25.3%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         93 DEIDLALGAARLKQGGGHGGQNGLR------SIM------ELLGKGDFVR    130
+                     |..|||.|.||      |..:..::      |::      :.||..:.|:
+LIPA_ASPOR       207 DRDDLADGGAR------HFAETVIKIKQKKPSMLVECLTGDYLGDLEMVK    250
+
+PTH_GEOLS        131 L--RLGIGRPPHGDVTNHVLGVFTPPEMEIF---ARVLDGA    166
+                     |  |.|:....|...|...|..|.......|   .|||:.|
+LIPA_ASPOR       251 LVARSGLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAA    291
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      27/140 (19.3%)
+# Similarity:    46/140 (32.9%)
+# Gaps:          41/140 (29.3%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         79 QFYKLKPDQLIVVHDEIDLALGAARLKQGGGH-------GGQ--NGL---    116
+                     |.|.|....::|         |.|....||..       ||:  ||.   
+FLGI_PECAS       136 QVYALAQGNVLV---------GGAGASAGGSSVQVNQLAGGRISNGAVIE    176
+
+PTH_GEOLS        117 RSIMELLGKGDFVRLRL-------------GIGRPPHG----DVTNHVLG    149
+                     |.:....|..:.:.|:|             .|.|..:|    .:.:..:.
+FLGI_PECAS       177 RELPSTFGTSNTIMLQLKNDDFSMAQKVSDAINRSGYGGTASPLDSRTIQ    226
+
+PTH_GEOLS        150 VFTPPEMEIFARVLDGALDMLETALDEGVPKAMSLFNNKS    189
+                     |..|.......|.|   .|:....::.|:..|..:.|:::
+FLGI_PECAS       227 VLAPHGNSSQVRFL---ADVQNIEVNVGIQDAKVVINSRT    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      26/140 (18.6%)
+# Similarity:    43/140 (30.7%)
+# Gaps:          58/140 (41.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        108 GGHGGQN---------GLRSIMELLGKGDFVRLRL---------------    133
+                     |.||..:         .::.:.|.|.:|....|.|               
+LDH_BORAP        176 GEHGDSSFVTWDETKIAMKPLSEYLSEGKITELELDEIHKKVVNAAYEVI    225
+
+PTH_GEOLS        134 ----------GIGRPPHGDVTNHVLG---VFTPPEMEIFAR----VLDGA    166
+                               |:|..   ::.|.::|   :..|....|..:    :.|..
+LDH_BORAP        226 KLKGATYYAIGLGIK---NIVNAIIGDQNIILPISSYINGQYGGLIKDIY    272
+
+PTH_GEOLS        167 LDMLETALDEGV---------PKAMSLFNN-----KSYLE    192
+                     :........|||         ||.:..|||     |||::
+LDH_BORAP        273 IGAPAIVCKEGVKEVLNFKISPKELEKFNNSANQLKSYID    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      10/42 (23.8%)
+# Similarity:    18/42 (42.9%)
+# Gaps:           2/42 ( 4.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+PTH_GEOLS          6 IAGLGNPGSKYQWTRHNAGFLFLDRIAQL--EGLSIVRKQFG     45
+                     :..||...:...:..|...::..|.|.|:  .||:.:|...|
+EXGB_EMENI        86 VMALGQETADQAFADHWGSWITQDDINQMVQYGLNTIRIPVG    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 147
+# Identity:      30/147 (20.4%)
+# Similarity:    55/147 (37.4%)
+# Gaps:          22/147 (15.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         35 EGLSIVRKQFGGLTAEWERKGKRLVLLKPQTFMNLSGRSVMPALQFY-KL     83
+                     :|..::..:|...|..::..|:.|.|........::...:.|.:.|| .|
+KTHY_CHLP8        84 DGCDVILDRFFDSTTAYQGYGRGLNLDMLAEINRIASHGIRPDITFYLDL    133
+
+PTH_GEOLS         84 KPDQLIV---VHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVR    130
+                     .|:..::   ....:.||..:..|.:             ||..|...:.|
+KTHY_CHLP8       134 TPEDALLRKFSEKSLPLAFESEELDR-------------MENSGLEFYQR    170
+
+PTH_GEOLS        131 LRLGIGRPPHGDVTNHVL--GVFTPPEMEIFARVLDGALDMLETALD    175
+                     :|.|.......:....::  .:.||  .||..::| .||..||...|
+KTHY_CHLP8       171 VRAGYHAILEAEPQRIIMIDALLTP--QEIHRKIL-SALQALEVPED    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      35/153 (22.9%)
+# Similarity:    56/153 (36.6%)
+# Gaps:          41/153 (26.8%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         10 GNPGSKYQW-----TRHNAGFLFLDRIAQLEGLSIVRKQFGGL-----TA     49
+                     |.|...|:|     ||...|.| ..|..:|.|.|..:.:...|     :|
+SECA2_MYCTO       21 GRPAFAYRWFVPKTTRAQPGRL-SSRFWRLLGASTEKNRSRSLADVTASA     69
+
+PTH_GEOLS         50 EWERKGKRL---VLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEID     96
+                     |::::...|   .|.|....:||...:....:      |..|.:..:   
+SECA2_MYCTO       70 EYDKEAADLSDEKLRKAAGLLNLDDLAESADI------PQFLAIARE---    110
+
+PTH_GEOLS         97 LALGAARLKQGGGHGGQNGLRSI-MELLG-----KGDFVRLRLGIGRPPH    140
+                        .|.|         :.|||.. ::|||     .||.:.:..|.|:...
+SECA2_MYCTO      111 ---AAER---------RTGLRPFDVQLLGALRMLAGDVIEMATGEGKTLA    148
+
+PTH_GEOLS        141 GDV    143
+                     |.:
+SECA2_MYCTO      149 GAI    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       3/12 (25.0%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         25 FLFLDRIAQLEG     36
+                     |.|:.::...:|
+DB108_HUMAN       11 FFFMSQVLPAKG     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      22/94 (23.4%)
+# Similarity:    32/94 (34.0%)
+# Gaps:          28/94 (29.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         52 ERKGKRLVLL---KPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLA     98
+                     :|.||::|.|   ....|..|..|:..|.|..|.           |||..
+LCMT1_CRYNB      132 QRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYV-----------EIDFP    170
+
+PTH_GEOLS         99 -LGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHG    141
+                      |.:.:.::...|      |.:.:.||..       ....||.|
+LCMT1_CRYNB      171 HLTSPKAQRIARH------RKLYQYLGPS-------STAMPPPG    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       7/28 (25.0%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           3/28 (10.7%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        144 TNHVLGVFTPPEMEIFARVLDGALDMLE    171
+                     |||...:.:...:|:|...   .:|.:|
+PTGA_SALTY        74 TNHAFSIESDSGIELFVHF---GIDTVE     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      19/90 (21.1%)
+# Similarity:    32/90 (35.6%)
+# Gaps:          33/90 (36.7%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         52 ERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGA    101
+                     |:|.:||     :...||..:|:       |.:..::..:.|::|:    
+RR14_CRYJA        10 EKKKQRL-----ERKYNLLRQSL-------KKEMSEVSSLDDKLDI----     43
+
+PTH_GEOLS        102 ARLKQGGGHGGQNGLRSIMELLGKGDFVRLR---LGIGRP    138
+                                   .|.:..|.......|||   |..|||
+RR14_CRYJA        44 --------------YRKLQSLPRNSAPTRLRRRCLKTGRP     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      45/205 (22.0%)
+# Similarity:    69/205 (33.7%)
+# Gaps:          71/205 (34.6%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         10 GNPGSKYQWTR---HN---AGFLFLDRIAQL-------------EGLSIV     40
+                     |.|...|..|:   |:   |..:.:|::|.:             :.:.|.
+DCUP_BACVZ       158 GGPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIVYAKAQINAGAKAIQIF    207
+
+PTH_GEOLS         41 RKQFGGLTAEWERKGKRLVLLKP---QTFMNLSGRSVMPALQFYKLKPDQ     87
+                     ....|.|..|..|:     .:||   :.|..||...| |.:.|       
+DCUP_BACVZ       208 DSWVGALNREDYRQ-----FIKPVMDRIFRELSAEQV-PLIMF-------    244
+
+PTH_GEOLS         88 LIVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRL--RLGI    135
+                               .:||:.| .|..|.        :.|    |.|.|  ||||
+DCUP_BACVZ       245 ----------GVGASHL-AGDWHD--------LPL----DVVGLDWRLGI    271
+
+PTH_GEOLS        136 GRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLE----TALDEGVPKA    181
+                     .......:|..|.|...|       .:|....:::|    ..||:|:...
+DCUP_BACVZ       272 DDARKQGITKTVQGNLDP-------SLLLAPWEVIEKKAKAILDQGMKTD    314
+
+PTH_GEOLS        182 MSLFN    186
+                     ..:||
+DCUP_BACVZ       315 GFIFN    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      37/164 (22.6%)
+# Similarity:    56/164 (34.1%)
+# Gaps:          46/164 (28.0%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         17 QWTRHN-AGFLFLDRIAQLEGLSIVRKQFGG--LTAEWERK--------G     55
+                     :|...| ||..|:.:...||    .:|..||  |.||.||.        |
+GTF2I_MOUSE      171 KWILENKAGISFIIKRPFLE----PKKHLGGRVLAAEAERSMLSPSGSCG    216
+
+PTH_GEOLS         56 KRLVLLKP---------QTFMNLSGRSVMPALQFYKLK-PDQLIVVHDEI     95
+                     ...|..:|         ...:.:...|..|....|.:: |.:.    |.:
+GTF2I_MOUSE      217 PIKVKTEPTEDSGISLEMAAVTVKEESEDPDYYQYNIQGPSET----DGV    262
+
+PTH_GEOLS         96 DLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTN    145
+                     |..|..::..||..|..:....:.:|:                |..|.|.
+GTF2I_MOUSE      263 DEKLPLSKALQGSHHSSEGNEGTEVEV----------------PAEDSTQ    296
+
+PTH_GEOLS        146 HVLG-VFTPPEMEI    158
+                     ||.. ....||:|:
+GTF2I_MOUSE      297 HVPSETSEDPEVEV    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      21/66 (31.8%)
+# Similarity:    30/66 (45.5%)
+# Gaps:          23/66 (34.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        120 MELLGKGDFVRLRLGIGRPPHGDVTN-HVLGVFTPPEMEIFARVLDGALD    168
+                     :||.|...:||         |..|.| ||:       .::.||   ||:.
+ISPH_ACIF5        26 LELFGAPIYVR---------HEVVHNRHVV-------EDLRAR---GAIF     56
+
+PTH_GEOLS        169 MLETALDEGVPKAMSL    184
+                     :.|  ||| ||.|.::
+ISPH_ACIF5        57 VEE--LDE-VPDAATV     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:       9/49 (18.4%)
+# Similarity:    18/49 (36.7%)
+# Gaps:          22/49 (44.9%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+PTH_GEOLS          4 IVIAGLG--------NPGSK-------YQWTRHNAGFLFLDRIAQLEGL     37
+                     ::|.||.        |.|.:       |.|:       .::|..::.|:
+NDUA1_HUMAN       16 LLIPGLATAYIHRFTNGGKEKRVAHFGYHWS-------LMERDRRISGV     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      28/130 (21.5%)
+# Similarity:    42/130 (32.3%)
+# Gaps:          45/130 (34.6%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         28 LDRIAQLEGL------SIVRKQFGGLTAEWERKGKRLVLLKPQTF-MNLS     70
+                     :|.|.|..|:      |||..:.            |.::|:.:.| .::.
+PSRP_SALTI        56 IDAIYQQTGVRPLVFYSIVLPEI------------RAIILQSEGFCQDIV     93
+
+PTH_GEOLS         71 GRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGGHGGQN----GL    116
+                     ...|.|..|..||.|..:             |....|...|..|    .:
+PSRP_SALTI        94 QALVAPLQQEMKLDPTPI-------------AHRTHGLNPGNLNKYDARI    130
+
+PTH_GEOLS        117 RSIMELLGKGDFVRLR---------LGIGR    137
+                     .:|...|...|.:.||         ||:.|
+PSRP_SALTI       131 AAIDYTLAHDDGISLRNLDQAQVILLGVSR    160
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      34/161 (21.1%)
+# Similarity:    52/161 (32.3%)
+# Gaps:          57/161 (35.4%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         50 EWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIV---------     90
+                     |...|.|..:....||.:||      |.:...:..|..|.:         
+DNAK_CHESB       259 EAAEKAKIELSSSSQTEINL------PFITADQTGPKHLAIKLTRAKFES    302
+
+PTH_GEOLS         91 -VHDEIDLALGAAR--LKQGGGHGGQNGLRSIMELLGKGDFVRL------    131
+                      |.|.:...:...|  ||..|...|:     |.|::..|...|:      
+DNAK_CHESB       303 LVEDLVTRTIEPCRAALKDAGLSAGE-----IDEVVLVGGMTRMPKVQET    347
+
+PTH_GEOLS        132 -RLGIGRPPH---------------------GDVTNHVLGVFTPPEMEI-    158
+                      :...|:.||                     |||.:.:|...||..:.| 
+DNAK_CHESB       348 VKNFFGKEPHKGVNPDEVVAMGAAIQAGVLQGDVKDVLLLDVTPLSLGIE    397
+
+PTH_GEOLS        159 -----FARVLD    164
+                          |.|::|
+DNAK_CHESB       398 TLGGVFTRLID    408
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      32/149 (21.5%)
+# Similarity:    55/149 (36.9%)
+# Gaps:          34/149 (22.8%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         10 GNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLV     59
+                     |.|...:....|:...|.||.:...|.|           .:|||:     
+DNLJ_ACIC5        66 GKPKEGFAKVAHSRPMLSLDNVNSEEEL-----------RDWERR-----     99
+
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGG    109
+                      ::.|...|.....|..    |||....:.:.:.:..||.|   |.:|.|
+DNLJ_ACIC5       100 -VREQAGQNAEIEYVCE----YKLDGLSMALHYRDGQLARG---LTRGDG    141
+
+PTH_GEOLS        110 HGGQN------GLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFT    152
+                     ..|::      .:||:...:..|...:.::    |.:.:|...|:..||
+DNLJ_ACIC5       142 EIGEDVTTNVRTIRSVPLSIADGKLQQAKM----PANFEVRGEVVMPFT    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    14/43 (32.6%)
+# Gaps:           7/43 (16.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        137 RPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVP    179
+                     ||..|..:       .|...:...|||...|..|...|..|.|
+CAPSD_CMVO        16 RPRRGSRS-------APSSADANFRVLSQQLSRLNKTLAAGRP     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    30/72 (41.7%)
+# Gaps:          14/72 (19.4%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         20 RHNAGFLFLDR--IAQLEGLSIVRKQFGGLTAEWER------KGKRL-VL     60
+                     |..|..:||.|  |.:.:||.:..:....|:....|      :||:| |.
+IF3_CHLL2        124 RVRATIVFLGRSIIYKDKGLELAERLTERLSCVSNRDGDPKFEGKKLFVY    173
+
+PTH_GEOLS         61 LKP-----QTFMNLSGRSVMPA     77
+                     .:|     ..|..:..::..||
+IF3_CHLL2        174 FEPDKKKIDAFERIKAKTSGPA    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           5/20 (25.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        148 LGVFTPPEM-----EIFARV    162
+                     |||..|.|:     ||:.|:
+CSRA_HAEI8        32 LGVEAPKEVSVHREEIYQRI     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      22/67 (32.8%)
+# Similarity:    33/67 (49.3%)
+# Gaps:          14/67 (20.9%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        131 LRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+                     |.|.:|.      ||.|||::...|:....|:   |.|...||.:.|: :
+COAX_CLOBL         3 LVLDVGN------TNIVLGIYKNKELIANWRL---ATDNKRTADEYGI-Q     42
+
+PTH_GEOLS        181 AMSLF--NNKSY--LEG    193
+                     .:.||  ||.|:  :||
+COAX_CLOBL        43 VIELFSHNNLSFSDIEG     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    12/25 (48.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         31 IAQLEGLS--IVRKQFGGLTAEWER     53
+                     ||...|||  ..:|.|....|:|.|
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQRLAQWRR     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 196
+# Identity:      42/196 (21.4%)
+# Similarity:    67/196 (34.2%)
+# Gaps:          66/196 (33.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         21 HNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLKPQTFMNLS     70
+                     ||    ..:::.:..|..|..|.|   :...:|:||       ..|.::.
+THII_VIBA3        88 HN----IYEQVLERSGALIEGKTF---SVRAKRRGK-------HDFTSIE    123
+
+PTH_GEOLS         71 -----GRSVMPALQFYKLK---PDQLIVVHDEID-LALGAARLKQGGGH-    110
+                          |..:..|::..|:|   ||..:.|..|.| |.....|.|..||. 
+THII_VIBA3       124 LERYVGGGLNQAVESAKVKLKNPDITVKVEVENDKLNQVIERHKGLGGFP    173
+
+PTH_GEOLS        111 -GGQNGLRSIME---LLGKGDFVRLRLG---------IGRPPHGDVTNHV    147
+                      |.|..|.|::.   ..|...::.::.|         :|.|.      |.
+THII_VIBA3       174 LGTQEDLLSLISGGFDSGVSSYLHIKRGSKVHYCFFNLGGPA------HE    217
+
+PTH_GEOLS        148 LGV-----------------------FTPPEMEIFARVLDGALDML    170
+                     :||                       |.|...||...|.||.:.::
+THII_VIBA3       218 IGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEILENVEDGQMGVV    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      26/115 (22.6%)
+# Similarity:    41/115 (35.7%)
+# Gaps:          34/115 (29.6%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         50 EW---ERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKP---------DQ     87
+                     ||   :..|:.|..|..:....|.|          |.||         |.
+RL13_PSEPG        14 EWFVVDAAGQTLGRLATEIATRLRG----------KHKPEYTPHVDTGDY     53
+
+PTH_GEOLS         88 LIVVHDEIDLALGA-ARLKQGGGHGG-QNGLRSIMELLGKGDFVRLRLGI    135
+                     ::|::.|.....|| :..|....|.| ..|::.|       :|.:|   |
+RL13_PSEPG        54 IVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKEI-------NFEKL---I     93
+
+PTH_GEOLS        136 GRPPHGDVTNHVLGV    150
+                     .:.|...:...|.|:
+RL13_PSEPG        94 AKAPERVIETAVKGM    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      26/101 (25.7%)
+# Similarity:    41/101 (40.6%)
+# Gaps:          19/101 (18.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         41 RKQFGGLTAEWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIV     90
+                     :|..||:...|....|||     ..|.:|  |:......|.:|......|
+RR2_ARATH         98 KKWLGGMLTNWSTTEKRL-----HKFRDL--RTEQKTEGFNRLPKRDAAV    140
+
+PTH_GEOLS         91 VHDEIDLALGAARLKQG-GGHGGQNGLRSIMELLG-KGDFVRLR----LG    134
+                     :..::      :||:.. ||.....||..|:.:|. :.::..||    ||
+RR2_ARATH        141 LKRQL------SRLETYLGGIKYMTGLPDIVIILDQQEEYTALRECITLG    184
+
+PTH_GEOLS        135 I    135
+                     |
+RR2_ARATH        185 I    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      15/53 (28.3%)
+# Similarity:    22/53 (41.5%)
+# Gaps:          20/53 (37.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        131 LRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPK    180
+                     |||.||..|.   |.|:..:.|                 |||.:|:..|:
+Y1710_SYNP2      254 LRLWIGHQPE---TPHLETIVT-----------------LETQIDDLNPQ    283
+
+PTH_GEOLS        181 AMS    183
+                     |::
+Y1710_SYNP2      284 AIA    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      26/103 (25.2%)
+# Similarity:    42/103 (40.8%)
+# Gaps:          15/103 (14.6%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         41 RKQFGGLTAEWERKGKRLVLLKPQTFMNLSGRSVM--PALQFYKLKPDQL     88
+                     ||:.|..........:..|.|..:..:.|:||.|.  |..:.:. :|   
+WTPC_THEKO       178 RKELGFTALHVTHSFEEAVSLGDRVGVMLNGRLVQVGPVREVFS-RP---    223
+
+PTH_GEOLS         89 IVVHDEIDLALGAARLKQGGGHG---GQNGLRSIMELLGKGDFVRLRLGI    135
+                       ..:|:...||...:.:|...|   ..|||...:.:...|   |:|:||
+WTPC_THEKO       224 --ASEEVAKFLGFENIVEGLAEGRILRANGLVIELPIEASG---RIRVGI    268
+
+PTH_GEOLS        136 GRP    138
+                      ||
+WTPC_THEKO       269 -RP    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      14/50 (28.0%)
+# Similarity:    23/50 (46.0%)
+# Gaps:           9/50 (18.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        131 LRLG-IGRPPHGDVTNHVLGVFTPPEMEI---FARVLDGALDMLETALDE    176
+                     |||. :|.||...|:::.|     ..|:.   ..||::...:.|..|.:|
+GRB7_RAT         357 LRLSYLGSPPLRSVSDNTL-----VAMDFSGHAGRVIENPQEALSAATEE    401
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      14/56 (25.0%)
+# Similarity:    24/56 (42.9%)
+# Gaps:          14/56 (25.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        152 TPPEMEIFARVLDGALDMLETAL--------DEGVPKA---MSLFN---N    187
+                     ||....:.....||.:.|:...:        |:.:|:.   ||:||   |
+PSD_RHOPS         61 TPVREGLVVAPADGRVSMVVQMIPPPALGLGDKPLPRVSIFMSVFNCHVN    110
+
+PTH_GEOLS        188 KSYLEG    193
+                     :|.:.|
+PSD_RHOPS        111 RSPVAG    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      30/142 (21.1%)
+# Similarity:    52/142 (36.6%)
+# Gaps:          57/142 (40.1%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         71 GRSVMPALQFYKLKPDQLIVVHD-------EIDLALGAARLKQGGGHGGQ    113
+                     |..:|.|::..||:||  :|.::       |:.|:|.|.:|.:...:.|.
+PP156_ARATH      329 GLELMDAMKSLKLQPD--VVTYNTLIDGCFELGLSLEARKLMEQMENDGV    376
+
+PTH_GEOLS        114 NG---------------------LRSIMELLGKGDFVRLRLGIGRPPHG-    141
+                     ..                     .|.:.||:..              || 
+PP156_ARATH      377 KANQVTHNISLKWLCKEEKREAVTRKVKELVDM--------------HGF    412
+
+PTH_GEOLS        142 ---DVTNHVLGVFTPPEMEIFARV--LDGALDMLETALDEGV    178
+                        .||.|.|       ::.:.:|  |.|||:|:.....:|:
+PP156_ARATH      413 SPDIVTYHTL-------IKAYLKVGDLSGALEMMREMGQKGI    447
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      18/85 (21.2%)
+# Similarity:    33/85 (38.8%)
+# Gaps:          19/85 (22.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        103 RLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFT    152
+                     :::|.|..|  :|||...:...|.......|||           ::|.||
+ADRB2_MESAU      247 QVEQDGRSG--HGLRRSSKFCLKEHKALKTLGI-----------IMGTFT    283
+
+PTH_GEOLS        153 PPEMEIFARVLDGALDMLETALDEGVPKAMSLFNN    187
+                     ...:..|      .::::....|..:||.:.:..|
+ADRB2_MESAU      284 LCWLPFF------IVNIVHVIQDNLIPKEVYILLN    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+PTH_GEOLS        173 ALDEGVPKAMSLFN    186
+                     |:.||.|..:...|
+ID5B_ADEPA        19 AVKEGDPLVVQFVN     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 100
+# Identity:      24/100 (24.0%)
+# Similarity:    39/100 (39.0%)
+# Gaps:          36/100 (36.0%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         45 GGLTAEWERKGKRL------VLLKPQTFMNLSGRSVMPALQFYKLKPDQL     88
+                     |..|::.:::||||      .:.|.|:.          :|:..||     
+GPA7_CAEEL         2 GHCTSKDQKEGKRLNRRIDEQIKKDQSM----------SLRIIKL-----     36
+
+PTH_GEOLS         89 IVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRP    138
+                             |.|||       |..|::.:...|.:|.|..|.:..|.:.||
+GPA7_CAEEL        37 --------LLLGA-------GESGKSTILKQMRILHKDGFSQQDLEMIRP     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      19/71 (26.8%)
+# Similarity:    26/71 (36.6%)
+# Gaps:          25/71 (35.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        139 PHGDVTNHVLGVF---TPPEMEI------------FARVLDGALD-----    168
+                     |:|.|.|.|..||   |...::|            .|.||.| :|     
+IDI_ECO24        109 PNGIVENEVCPVFAARTTSALQINDDEVMDYQWCDLADVLHG-IDATPWA    157
+
+PTH_GEOLS        169 ----MLETALDEGVPKAMSLF    185
+                         |:..|.:....|.:|.|
+IDI_ECO24        158 FSPWMVMQAANSEARKLLSAF    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      43/175 (24.6%)
+# Similarity:    63/175 (36.0%)
+# Gaps:          73/175 (41.7%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         29 DRIAQLEGLSI---------VRKQFGGLTAEWERKGKRLVLLKPQTFMN-     68
+                     |.||:.|...|         :|.....|||: ::||.:|       |.: 
+YHJA_ECOLI       308 DAIAEFEKTLITPDSPFDKWLRGDENALTAQ-QKKGYQL-------FKDN    349
+
+PTH_GEOLS         69 ----------LSGRSVMPALQFYKLKPD------------QLIVVHDEID     96
+                               |.|||..|    ..||.|            ::.|..:|.|
+YHJA_ECOLI       350 KCATCHGGIILGGRSFEP----LGLKKDFNFGEITAADIGRMNVTKEERD    395
+
+PTH_GEOLS         97 LALGAARLKQGGGHGGQNGLRSI---MELLGKGDF--------VRLRLGI    135
+                           :|:|     ...|||::   .....:||.        :.||..:
+YHJA_ECOLI       396 ------KLRQ-----KVPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQV    434
+
+PTH_GEOLS        136 GRP-PHGDVTN-----HVL-GVFTP    153
+                     |:. |..||.:     |.| ||:||
+YHJA_ECOLI       435 GKELPQEDVDDIVAFLHSLNGVYTP    459
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      20/87 (23.0%)
+# Similarity:    32/87 (36.8%)
+# Gaps:          15/87 (17.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+PTH_GEOLS          8 GLGNPGSKY-QWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLT--------     48
+                     ||..|..|. .:||.......:.....|:|    ||.:.|:.        
+RIMP_BURPS        71 GLDRPLKKLADFTRFAGSEAVITLKKPLDG----RKTYRGILHAPNGETI    116
+
+PTH_GEOLS         49 -AEWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLK     84
+                      .|:|||.....:| ..|..::....::|.:.|...|
+RIMP_BURPS       117 GLEFERKKGEAAML-DFTLADIDKARLIPHVDFRSRK    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      16/62 (25.8%)
+# Similarity:    24/62 (38.7%)
+# Gaps:          14/62 (22.6%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+PTH_GEOLS          5 VIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGG-------L     47
+                     |...:|..||:.|.|:....|:      ...|...:.:...|       |
+RS28_OSTOS        10 VTKNIGRTGSQGQCTQVRVEFM------DDNGNRTINRNVKGPVREGDIL     53
+
+PTH_GEOLS         48 T-AEWERKGKRL     58
+                     | .|.||:.:||
+RS28_OSTOS        54 TLLEAEREARRL     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    14/36 (38.9%)
+# Gaps:          14/36 (38.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         57 RLVLLKPQT---FMNLS-----------GRSVMPAL     78
+                     |:.|..|||   |.|..           |:.||.||
+HBAC_LITCT        32 RMFLCHPQTKTYFPNFDFHANSAHLKNHGKKVMNAL     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      35/153 (22.9%)
+# Similarity:    55/153 (35.9%)
+# Gaps:          35/153 (22.9%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         52 ERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGA    101
+                     ||.|.||:..:   |.:||          ||...|....:|....|....
+RPOA_PRRSS      2530 ERHGGRLINTR---FGDLS----------YKTPQDTKSAIHAACCLHPNG   2566
+
+PTH_GEOLS        102 ARLKQGGGHGG---QNGLR--------SIMELL-GKGD--FVRLRLGIGR    137
+                     |.:..|....|   |:|..        |:||.| .:.|  |:..:.|..:
+RPOA_PRRSS      2567 APVSDGKSTLGTTLQHGFELYVPTVPYSVMEYLDSRPDTPFMCTKHGTSK   2616
+
+PTH_GEOLS        138 PPHGDVTNHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPKAMSLFNN    187
+                     ....|:..:        ::.....||.|.|.::...:...:.||..||..
+RPOA_PRRSS      2617 AAAEDLQKY--------DLSTQGFVLPGVLRLVRRFIFGHIGKAPPLFLP   2658
+
+PTH_GEOLS        188 KSY    190
+                     .:|
+RPOA_PRRSS      2659 STY   2661
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      30/148 (20.3%)
+# Similarity:    54/148 (36.5%)
+# Gaps:          36/148 (24.3%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         45 GGLTAEWE---------RKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKP     85
+                     ||:...|:         |.|.|:        ::::|.:.....||.:|..
+UBIE_PSEAE        50 GGIHRLWKRFTIELSGVRSGNRV--------LDIAGGTGDLTRQFSRLVG     91
+
+PTH_GEOLS         86 DQLIVVHDEID---LALGAARLKQGGGHGGQNGLRSIMELL----GKGDF    128
+                     ....||..:|:   |.:|..:|...|..|..:.:::..|.|    ...|.
+UBIE_PSEAE        92 PTGEVVLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDC    141
+
+PTH_GEOLS        129 VRLRLGIGRPPHGD-VTNHVLGV-----------FTPPEMEIFARVLD    164
+                     |.:..|:....|.| ....:|.|           |:.|...:.::..|
+UBIE_PSEAE       142 VTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYD    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 224
+# Identity:      47/224 (21.0%)
+# Similarity:    77/224 (34.4%)
+# Gaps:          87/224 (38.8%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+PTH_GEOLS          2 DTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLEGL------------SI     39
+                     |.:|:|.:|..|.:.:        .||:.:...|||            |.
+FLII_AQUAE       189 DVVVLALIGERGREVK--------EFLEEVLGEEGLKKSVVVVSTADQSP    230
+
+PTH_GEOLS         40 VRKQFGGLTA-----EWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLK     84
+                     :.|..|.::|     .:..:||.::||             |.::      
+FLII_AQUAE       231 ILKVKGAISAVVHAHHFASQGKDVLLL-------------MDSI------    261
+
+PTH_GEOLS         85 PDQLIVVHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLG    134
+                      .:|.:...||.||.|.....:|       ...|:.:||     .|:...
+FLII_AQUAE       262 -TRLALAQREIGLAAGEPPTLKG-------FTPSVFQLL-----TRIAES    298
+
+PTH_GEOLS        135 IGRPPHGDVTNHVLGVFT----------PPEMEIFARVLDG---------    165
+                     .|....|.:|    |:||          .|..:....||||         
+FLII_AQUAE       299 CGAFKKGSIT----GIFTVLVEGDDISLDPIADSLMGVLDGHIILSRKRA    344
+
+PTH_GEOLS        166 ------ALDMLETALDEGVPKAMS    183
+                           |:|.:. :|...:||.:|
+FLII_AQUAE       345 VRGLFPAVDPVR-SLSRLMPKLVS    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      12/37 (32.4%)
+# Similarity:    15/37 (40.5%)
+# Gaps:          14/37 (37.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         10 GN---PGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQ     43
+                     ||   |.||..|.|           .|.|.:.|:|:|
+MSS11_VANPO      340 GNGQFPISKMNWNR-----------IQRERMRIMRQQ    365
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      12/45 (26.7%)
+# Similarity:    19/45 (42.2%)
+# Gaps:          17/45 (37.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         18 WTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLK     62
+                     :::|.|..:|  |::.|               :||..||...|||
+SPB4_ASPFU       468 YSKHQASSIF--RVSDL---------------DWEALGKAWGLLK    495
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      25/83 (30.1%)
+# Similarity:    30/83 (36.1%)
+# Gaps:          34/83 (41.0%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         88 LIVVHDEIDLALGAARLKQGGG---HGGQNGLRSIMELLGKG-DFVRLRL    133
+                     |||.|      |.||..:.|||   ||          ..||| |.||..:
+ASSY_MYCTO        97 LIVKH------LVAAAREHGGGIVAHG----------CTGKGNDQVRFEV    130
+
+PTH_GEOLS        134 GIGRPPHGDVTNHVLGVFTPPEMEIFARVLDGA    166
+                     |...              ..|::|:.|.|.|.|
+ASSY_MYCTO       131 GFAS--------------LAPDLEVLAPVRDYA    149
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      29/115 (25.2%)
+# Similarity:    40/115 (34.8%)
+# Gaps:          28/115 (24.3%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         47 LTAEWERKGKRLVLLKPQ-TFMNLSGRSVMPALQFYKLKPDQLIVVHDEI     95
+                     ||.:.:..|.|.:|.:.: ..:....|.....||||.......:||  .:
+ECCB1_MYCS2        6 LTTKVQVSGWRFLLRRVEHAIVRRDTRMFDDPLQFYSRAVFAGVVV--SV     53
+
+PTH_GEOLS         96 DLALGAARL-------KQGGGH--------------GGQNGLRSIMELLG    124
+                     .:.||||.:       |||...              .|.|.||.:..|..
+ECCB1_MYCS2       54 LICLGAALMAYFKPLGKQGSDQLLVDRTTNQLYVMLPGSNQLRPVYNLTS    103
+
+PTH_GEOLS        125 KGDFVRLRLGIGRPP    139
+                         .||.||....|
+ECCB1_MYCS2      104 ----ARLVLGNASNP    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      22/86 (25.6%)
+# Similarity:    40/86 (46.5%)
+# Gaps:          18/86 (20.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+PTH_GEOLS        108 GGHGGQNGLR--SIMELLG-----KGDFVRLRLGIGRPPHGDVTNHVL--    148
+                     ||.|...|.:  :|:|..|     .||.:|..:..| ..:|.:..:::  
+KCY4_ORYSJ        34 GGPGSGKGTQCANIVEHFGFIHLSAGDLLRAEIKSG-SENGTMIENMIKE     82
+
+PTH_GEOLS        149 GVFTPPEMEIFARVLDGALDMLETALD----EGVPK    180
+                     |...|.|:.|  ::|..|  |:::..|    :|.|:
+KCY4_ORYSJ        83 GKIVPSEVTI--KLLQEA--MIKSGNDKFLIDGFPR    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      33/145 (22.8%)
+# Similarity:    47/145 (32.4%)
+# Gaps:          66/145 (45.5%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         48 TAEWERKGKRLVLLKPQTFMNLSGRSVMPALQFYKLK---------PD-Q     87
+                     |.|:||....:|         ::...:||..:.||.|         |. |
+HCP_TRIV2        297 THEFERFPGAIV---------MTTNCLMPPHETYKDKVFTLGPVGYPGLQ    337
+
+PTH_GEOLS         88 LIVVHDEIDLAL--------------------GAAR-------------L    104
+                     .|.:|| |.|.:                    |.||             :
+HCP_TRIV2        338 HISIHD-ISLVIQKALELPGFTEDSEQKTVTTGFARNAVLGVADTVINAV    386
+
+PTH_GEOLS        105 KQG------------GGHGGQNGLRSIMELLGKGDFVRLRLGIGR    137
+                     |||            |...|:|....::|.: ..|.|.|.||.|:
+HCP_TRIV2        387 KQGDIRHFFLVGGCDGAKPGRNYYSDLVEKI-PNDCVVLTLGCGK    430
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      15/74 (20.3%)
+# Similarity:    30/74 (40.5%)
+# Gaps:          15/74 (20.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         22 NAGFLFLDRIAQLEGLSIVRKQFGGLTAEW------ERKGKRLVLLKP--     63
+                     |:|.    .:..:||.|::.:.:.|.:..|      |...:|....||  
+UBX7_YEAST       297 NSGL----SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNR    342
+
+PTH_GEOLS         64 ---QTFMNLSGRSVMPALQFYKLK     84
+                        ::...|||.:.....|:..::
+UBX7_YEAST       343 HEVRSSTPLSGAASSSCFQYNNVR    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      18/85 (21.2%)
+# Similarity:    31/85 (36.5%)
+# Gaps:          19/85 (22.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGG    109
+                     ||:....:.||.||.      ..||.|.::.:.|.:..:..........|
+RPOA_ACICJ       261 LLRKVDELELSVRSA------NCLKNDNIVYIGDLVQKSEQEMLRTPNFG    304
+
+PTH_GEOLS        110 HGGQNGLRSIMELLGKGDFVRLRLGIGR-----PP    139
+                     ....|.::.::..:|        ||:|.     ||
+RPOA_ACICJ       305 RKSLNEIKEVLSAMG--------LGLGMVVQDWPP    331
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:       9/50 (18.0%)
+# Similarity:    24/50 (48.0%)
+# Gaps:           8/50 (16.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+PTH_GEOLS         16 YQWTRHNAGFLFLDRIAQLEGLSIVR-------KQFGGLTAEWERKGKRL     58
+                     |:::..:.|.:.|..|.:| |..:::       :::..:..||..:.|.:
+YXAD_BACSU        81 YRFSDPSDGRVSLFTITKL-GKQLLKADQQKRLERYEQMLKEWSTQEKEM    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: PTH_GEOLS
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      43/185 (23.2%)
+# Similarity:    71/185 (38.4%)
+# Gaps:          41/185 (22.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+PTH_GEOLS         32 AQLEGLSIVRKQFGGLTAEWERKGKRLVL-LKPQTFMNLSGRSVMPAL--     78
+                     |.:..:|:|.:.        ..||:...| ::.|.|:.|:...|..||  
+FADB_SHESR       250 APMAAVSVVEQA--------ATKGRSDALQIEHQAFIKLAKTDVAKALIG    291
+
+PTH_GEOLS         79 -----QFYKLKPDQLIVVHDEIDLA--LGAARLKQGGG---HGGQNGLRS    118
+                          |..|.|..:...:..::..|  |||..:  |||   .....|...
+FADB_SHESR       292 IFLNDQLVKGKAKKAGKLAKDVKSAAVLGAGIM--GGGIAYQSASKGTPI    339
+
+PTH_GEOLS        119 IMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARVLDG---    165
+                     :|:.:.:   ..|.||:|............|..||.:|   |:||:.   
+FADB_SHESR       340 VMKDIAQ---PALDLGLGEAAKLLSAQVARGRSTPEKM---AKVLNNITP    383
+
+PTH_GEOLS        166 ALD---------MLETALDEGVPKAMSLFNNKSYL    191
+                     |||         ::|..::....||..|...:.|:
+FADB_SHESR       384 ALDYAPVNHADVVVEAVVEHPKVKAQVLAEVEQYV    418
+
+
+#---------------------------------------
+#---------------------------------------

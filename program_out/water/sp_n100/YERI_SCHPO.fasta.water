@@ -1,0 +1,2404 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:41
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/YERI_SCHPO.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/YERI_SCHPO.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/YERI_SCHPO.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     5/6 (83.3%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        69 FCGSQV     74
+                     |||.|:
+PUR7_VIBVU       150 FCGIQL    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           3/13 (23.1%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        75 IVSRYQK---PVR     84
+                     ::||..|   |:|
+Y075_NITWN        39 LISRSAKLAYPIR     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:    10/14 (71.4%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        17 SLIGIVFLLVLSYL     30
+                     :::|.:.|::..||
+Y3584_PSEAB      191 AMLGCLKLVIAKYL    204
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      12/45 (26.7%)
+# Similarity:    18/45 (40.0%)
+# Gaps:          10/45 (22.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        28 SYLFSIEAETLMHD------LVGSGLTGKQVAKTCLGAVVIYAVF     66
+                     |:|....:|||..:      |:...:|.    :|..|...||..|
+BPT_HAHCH        133 SFLLEARSETLFIEFRKDSKLLAIAVTD----RTTDGLSAIYTFF    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      21/64 (32.8%)
+# Similarity:    31/64 (48.4%)
+# Gaps:          15/64 (23.4%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKP-LVSPGLAKACTGLSLIGIVFLL----VLSYLFSIEAE-TLMHD---     41
+                     ::| |||.||...     |:|:.:.|    |....|..:|. :|:.|   
+KDPC_CAUVN         5 LRPALVSMGLFTV-----LLGLAYPLAVTGVAQAAFPNQANGSLIRDADG     49
+
+YERI_SCHPO        42 -LVGSGLTGKQVAK     54
+                      :|||.|.|:..||
+KDPC_CAUVN        50 KVVGSALIGQVFAK     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       7/28 (25.0%)
+# Similarity:    14/28 (50.0%)
+# Gaps:           4/28 (14.3%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        24 LLVLSYLFSI----EAETLMHDLVGSGL     47
+                     |.:|..||.:    :..:.:.|:|.:.|
+LPXH_XYLFM        36 LYILGDLFEVWIGDDMPSEVADMVAAAL     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      85/85 (100.0%)
+# Similarity:    85/85 (100.0%)
+# Gaps:           0/85 ( 0.0%)
+# Score: 423.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+YERI_SCHPO         1 MKPLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGK     50
+
+YERI_SCHPO        51 QVAKTCLGAVVIYAVFFLFCGSQVIVSRYQKPVRI     85
+                     |||||||||||||||||||||||||||||||||||
+YERI_SCHPO        51 QVAKTCLGAVVIYAVFFLFCGSQVIVSRYQKPVRI     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    15/29 (51.7%)
+# Gaps:           0/29 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        26 VLSYLFSIEAETLMHDLVGSGLTGKQVAK     54
+                     |.:.|.||:...|:.||..|.....::||
+RBSA_RUEST       127 VFAQLSSIDPSVLVRDLSISNQQLVEIAK    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:     8/18 (44.4%)
+# Gaps:           3/18 (16.7%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        44 GSGLTG---KQVAKTCLG     58
+                     |||..|   :....:|.|
+KR195_HUMAN       47 GSGFGGYGYRSCRPSCYG     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      23/93 (24.7%)
+# Similarity:    39/93 (41.9%)
+# Gaps:          19/93 (20.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         5 VSPGL-----AKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTG     49
+                     ||.||     .:..|..|.:..:..::.|.|||: .:....| .|...:|
+UPPP_CORDI       180 VSAGLFVGLDREVATRFSFLLAIPAVLASGLFSL-PDAFAPD-AGQAASG    227
+
+YERI_SCHPO        50 KQVAKTCLGAVVIYAVFFL-------FCGSQVI--VSRYQKPV     83
+                     .|:|   :|..:.:|:.:.       |.||...  .:.|:.||
+UPPP_CORDI       228 MQLA---VGTGIAFALGYASIAWLLKFVGSHSFSWFAAYRIPV    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         7 PGLAKACTGLSLIG     20
+                     |.:.|..|..:.:|
+GREB_ECO57        27 PEVTKKVTWAASLG     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         2 KPLVSPGLAKACTGLSL     18
+                     :||......:||.|.:|
+TGT_LEPCP        306 RPLDETCSCQACKGSTL    322
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      13/43 (30.2%)
+# Similarity:    20/43 (46.5%)
+# Gaps:           6/43 (14.0%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         9 LAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGKQ     51
+                     :|||...|::.|      .:...|.|...|:.|.||..|:|.:
+CBPQ_HUMAN        46 VAKAIINLAVYG------KAQNRSYERLALLVDTVGPRLSGSK     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      15/59 (25.4%)
+# Similarity:    25/59 (42.4%)
+# Gaps:          11/59 (18.6%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        27 LSYLFSIEAETLMHDLVGSGLTGKQVAKTCLGAVVIYAVFFLFCGSQVIV     76
+                     :::||.|   |....|:.:|:|..  |:|.:......|..|.|      .
+PSA6_SOYBN        66 VTHLFPI---TKYLGLLATGMTAD--ARTLVQQARNEAAEFRF------T    104
+
+YERI_SCHPO        77 SRYQKPVRI     85
+                     ..|:.||.:
+PSA6_SOYBN       105 YGYEMPVDV    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     8/9 (88.9%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        48 TGKQVAKTC     56
+                     ||:::|:.|
+SCL34_ARATH      413 TGRRLAEYC    421
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         4 LVSPGLAKACTGLSLIG     20
+                     :|..||....||..::|
+NDKA_CANLF        76 MVWEGLNVVKTGRVMLG     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    11/19 (57.9%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        59 AVVIYAVFFLFCGSQVIVS     77
+                     |..|..||.:..|::.:||
+RS4_CAEEL        218 ATRISNVFVIGKGNKALVS    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        17 SLIGIVFLL     25
+                     ||:|:...|
+G45IP_CHLAE       10 SLLGLTATL     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       3/17 (17.6%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        34 EAETLMHDLVGSGLTGK     50
+                     :.:|:.:....:.:||:
+DAPEL_OCEIH      305 QTQTITYQQADAAMTGE    321
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    18/48 (37.5%)
+# Gaps:          13/48 (27.1%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        34 EAETLMHDLVGSGLTGKQVAKTCLGAVVIYAVFFLFCGSQVIVSRYQK     81
+                     :||.|...|...||:        |.|||...|     ....:|.|.:|
+KAD_METRJ         92 QAEALGEMLASKGLS--------LSAVVELKV-----DENALVGRIEK    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       7/16 (43.8%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         5 VSPGLAKACTGLSLIG     20
+                     |.||...|..||..:|
+ELN_BOVIN        460 VVPGAPGAIPGLPGVG    475
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    20/38 (52.6%)
+# Gaps:           6/38 (15.8%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        16 LSLIGIVFLLV------LSYLFSIEAETLMHDLVGSGL     47
+                     ::.:|.:.||:      :||.||.:..|.:.::|...|
+ASIC2_MOUSE       47 VAFVGSLGLLLVESSERVSYYFSYQHVTKVDEVVAQSL     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       7/27 (25.9%)
+# Similarity:    16/27 (59.3%)
+# Gaps:           4/27 (14.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        16 LSLIGIVFLLVLS----YLFSIEAETL     38
+                     |||:..:|.|::|    :|:..:.:.:
+DOXA1_XENTR      250 LSLVTGLFCLIVSLVLLFLYKTQPKVI    276
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        22 VFLLVLSYLFSIEAETLMH     40
+                     :|....|.:...|::.|:|
+RS20_STRPB        48 LFRAASSSIDKAESKGLIH     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        30 LFSIEAETLMHD     41
+                     |.:.|||...|:
+TPM_HAELO         78 LQAAEAEVAAHN     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      13/34 (38.2%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           2/34 ( 5.9%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        35 AETLMHDLV--GSGLTGKQVAKTCLGAVVIYAVF     66
+                     |.|:...||  ||||...|.....|..|.:.|.|
+LEUC_XANOM       374 ASTIKQALVVPGSGLVKAQAEAEGLDKVFLDAGF    407
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       3/13 (23.1%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 17.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        50 KQVAKTCLGAVVI     62
+                     |:::.|....:.|
+LPT_ESCF3          2 KRISTTITTTITI     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     6/8 (75.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        11 KACTGLSL     18
+                     :|.|||.|
+RL7_THET8         79 RAITGLGL     86
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      13/53 (24.5%)
+# Similarity:    25/53 (47.2%)
+# Gaps:           5/53 ( 9.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        15 GLSLIGIVFLLV-LSYLFSIEAETLMHDLVGSG----LTGKQVAKTCLGA     59
+                     |.|.:.:.|..: |:.....:...|...|||:|    ||.:.:.:..:|.
+HEM1_METCA       157 GCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGH    206
+
+YERI_SCHPO        60 VVI     62
+                     ::|
+HEM1_METCA       207 LII    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      11/41 (26.8%)
+# Similarity:    17/41 (41.5%)
+# Gaps:           5/41 (12.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        43 VGSGLTGKQVAKTCLGAVVIYAVFFLFCGSQVIVSRYQKPV     83
+                     ||.|:.....|...||...:|     |..|:..:|:.:..|
+XYLB_KLEPN       239 VGIGMADAGQAMLSLGTSGVY-----FAVSEGFLSKPESAV    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    28/61 (45.9%)
+# Gaps:           3/61 ( 4.9%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        25 LVLSYLFSIEAETLMHDLVGSGLTGKQVAKTCL--GAVVIYAVFFLFCGS     72
+                     :||:...::|.:|..| .:...|.|..|..|.|  |..|...:.:|..|:
+RECR_NOVAD       138 VVLAMNATLEGQTTAH-YIAERLEGAAVRVTQLAHGLPVGGELDYLDEGT    186
+
+YERI_SCHPO        73 QVIVSRYQKPV     83
+                     .....|.::||
+RECR_NOVAD       187 LAQALRARRPV    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:      11/27 (40.7%)
+# Similarity:    15/27 (55.6%)
+# Gaps:           7/27 (25.9%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        41 DLVGSGLT-GKQVAK------TCLGAV     60
+                     |||.||:. |:.||:      |..||:
+SURE_METNO        86 DLVLSGVNRGQNVAEDVTYSGTVAGAM    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      14/62 (22.6%)
+# Similarity:    27/62 (43.5%)
+# Gaps:          14/62 (22.6%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        22 VFLLVLSYLFS---IEAETLMHDLVGSGLTGKQVAKTCLGAVVIYAVFFL     68
+                     :|.|:::.||:   |..:.:.|..:..|.|          |.::|.:..|
+CYB_ARTIO        324 LFWLLVAVLFTLTWIGGQPVEHPYIIIGQT----------ASILYFLIIL    363
+
+YERI_SCHPO        69 FCGSQV-IVSRY     79
+                     |....: :|..|
+CYB_ARTIO        364 FLMPMISLVENY    375
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       8/29 (27.6%)
+# Similarity:    11/29 (37.9%)
+# Gaps:           4/29 (13.8%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        58 GAVVIYAVFFLFCGSQ----VIVSRYQKP     82
+                     |.:|...||.:...|.    .:|...|.|
+IOLE_BACHK       248 GVIVFDEVFTILANSNYQGWFVVEAEQDP    276
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        10 AKACTGLSLIGI     21
+                     ||...||..:|:
+ACKA_STAAT       340 AKVLEGLEFMGV    351
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      18/63 (28.6%)
+# Similarity:    26/63 (41.3%)
+# Gaps:          23/63 (36.5%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         8 GLAKACTGLSLI----------GIVFLLVLSYLFSIEA--ETLM---HDL     42
+                     |..|..||:..:          |:|.|       .|||  :|.:   |.:
+HIS7_BURTA        25 GRQKLATGVPFLDHMLDQIARHGLVDL-------DIEAHGDTHIDDHHTV     67
+
+YERI_SCHPO        43 VGSGLT-GKQVAK     54
+                     ...|:| |:.|||
+HIS7_BURTA        68 EDVGITLGQAVAK     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      10/41 (24.4%)
+# Similarity:    20/41 (48.8%)
+# Gaps:           3/41 ( 7.3%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         9 LAKACTGLSLIGIVFLLVLSYLFSIEAETL--MHDLVGSGL     47
+                     |.|..|.::|.|...:..|.: :.::.:.|  :||.:...|
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQF-YKLKPDQLIVVHDEIDLAL     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        29 YLFSIEAETLMHDL     42
+                     |:.:||..|..|.:
+TAF3_XENLA        11 YIHNIEPVTFPHQI     24
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     8/11 (72.7%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        44 GSGLTGKQVAK     54
+                     |.|.||:::.:
+DNLJ_CROS5       142 GDGTTGEEITQ    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       9/23 (39.1%)
+# Similarity:    13/23 (56.5%)
+# Gaps:           0/23 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         4 LVSPGLAKACTGLSLIGIVFLLV     26
+                     |.:||:|:....||.:....|||
+MUTS_MYXXD       160 LEAPGIAELAESLSRVEPRELLV    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       4/7 (57.1%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        63 YAVFFLF     69
+                     |||:..|
+NOSO_STAAC       273 YAVYHSF    279
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        34 EAETLMHDLVGSGLTGKQVA     53
+                     ||:..|..|.|..|.|:.::
+RBM8A_MOUSE      126 EAQAAMEGLNGQDLMGQPIS    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       9/24 (37.5%)
+# Similarity:    14/24 (58.3%)
+# Gaps:           2/24 ( 8.3%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSPGLA--KACTGLSLIGIV     22
+                     |.|::....|  :|..||||:.:|
+NU4LM_ARCPU       58 MAPIILLVFAACEAALGLSLLVMV     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    14/31 (45.2%)
+# Gaps:           6/31 (19.4%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSP------GLAKACTGLSLIGIVFLL     25
+                     :..||||      .:|.|.||:...|.:..|
+NANK_ECOLI        45 LSALVSPLQAHAQRVAIASTGIIRDGSLLAL     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:    10/15 (66.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        71 GSQVIVSRYQKPVRI     85
+                     |.:.|:.:..:|::|
+MIAB_MYCPE       320 GDETILKKMNRPMKI    334
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       7/25 (28.0%)
+# Similarity:    10/25 (40.0%)
+# Gaps:           5/25 (20.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        44 GSGL-----TGKQVAKTCLGAVVIY     63
+                     |.||     :|.......||..:|:
+NADK_STAES       150 GDGLCISTPSGSTAYNKALGGALIH    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    11/21 (52.4%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        59 AVVIYAV-FFLFCGSQVIVSR     78
+                     |::.|.| ||:.|...|...|
+TRPG_CAEEL      1385 AIIFYIVGFFMRCFGSVAYGR   1405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      11/46 (23.9%)
+# Similarity:    19/46 (41.3%)
+# Gaps:           5/46 (10.9%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        15 GLSLIGIVFLLVLSYLFSIEAETLMHDL-----VGSGLTGKQVAKT     55
+                     |.|.||.:.|.......:..||.::|..     :.:.:....:|||
+MSHD_MYCMM        58 GKSAIGYLNLSPAHGADAAMAELVVHPQARRRGIATAMVRAALAKT    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      10/37 (27.0%)
+# Similarity:    16/37 (43.2%)
+# Gaps:          13/37 (35.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         4 LVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMH     40
+                     ||:||             ..::::||:...|||...|
+PAND_THEFY        78 LVAPG-------------DLVIIISYVQLTEAERATH    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    12/18 (66.7%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        48 TGKQVAKTCLGAVVIYAV     65
+                     |.:.:::..||.||:.:|
+LIPA_ASPOR       189 TAEAISRWSLGYVVLTSV    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           6/20 (30.0%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        42 LVGSGL------TGKQVAKT     55
+                     |:|.||      :|.|..:|
+FLGI_PECAS        40 LIGYGLVVGLDGSGDQTMQT     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:       7/45 (15.6%)
+# Similarity:    25/45 (55.6%)
+# Gaps:           0/45 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         2 KPLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSG     46
+                     |.:::..::....|:.:|....:.:::|:....::..:|.::|:|
+LDH_BORAP        103 KDIITNVVSSGFDGIFVIASNPVDIMTYVTMKYSKFPIHKVIGTG    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        28 SYLFSIEAETLMHDL     42
+                     ||..:::|..:..||
+EXGB_EMENI       386 SYKDAVDAGVIPKDL    400
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      11/54 (20.4%)
+# Similarity:    19/54 (35.2%)
+# Gaps:          13/54 (24.1%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGK     50
+                     |:.::.|.|...|.          ::|...|.   .|..:...|.||...
+KTHY_CHLP8        74 MEKIIVPALEDGCD----------VILDRFFD---STTAYQGYGRGLNLD    110
+
+YERI_SCHPO        51 QVAK     54
+                     .:|:
+KTHY_CHLP8       111 MLAE    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    19/41 (46.3%)
+# Gaps:           2/41 ( 4.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        10 AKACTGLSLIG--IVFLLVLSYLFSIEAETLMHDLVGSGLT     48
+                     |.|..|.:|.|  :..:.:..||...:||.:...|...|||
+SECA2_MYCTO      150 AIAAAGYALAGRHVHVVTINDYLARRDAEWMGPLLDAMGLT    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    13/20 (65.0%)
+# Gaps:           2/20 (10.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        59 AVVIYAVFFLFCGSQVIVSR     78
+                     ||:.:.:||..  |||:.::
+DB108_HUMAN        4 AVLFFTIFFFM--SQVLPAK     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    15/30 (50.0%)
+# Gaps:           6/30 (20.0%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         3 PLVSPGLAKAC------TGLSLIGIVFLLV     26
+                     |.:||..::..      |..|.:|:|:.:|
+LCMT1_CRYNB      263 PYMSPEDSREIIKWFGETFCSCMGVVYEMV    292
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      19/68 (27.9%)
+# Similarity:    31/68 (45.6%)
+# Gaps:          21/68 (30.9%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         4 LVSPGLAKACTGLSL-------IGIVFLLVLSYLFSIEA----ETLMH--     40
+                     :|..|:|...||..:       ||.:|  ..::.||||:    |..:|  
+PTGA_SALTY        46 IVGDGIAIKPTGNKMVAPVDGTIGKIF--ETNHAFSIESDSGIELFVHFG     93
+
+YERI_SCHPO        41 ----DLVGSGLTGKQVAK     54
+                         :|.|.|.  |::|:
+PTGA_SALTY        94 IDTVELKGEGF--KRIAE    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        45 SGLTGKQVAKTCLGAVV     61
+                     ||...:::|..||.|.|
+RR14_CRYJA        79 SGYIIREMAHACLLAGV     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    13/31 (41.9%)
+# Gaps:           2/31 ( 6.5%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        10 AKAC--TGLSLIGIVFLLVLSYLFSIEAETL     38
+                     |||.  .|:...|.:|.|.......:..|||
+DCUP_BACVZ       303 AKAILDQGMKTDGFIFNLGHGVFPDVNPETL    333
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      15/51 (29.4%)
+# Similarity:    19/51 (37.3%)
+# Gaps:          18/51 (35.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        31 FSIEA------------ETLMHDLVGSGLTGKQVAKTCLGAVVIYAVFFL     68
+                     ||.||            |.|.::..|..|..||..|      |.:|:|..
+GTF2I_MOUSE      721 FSFEAWNAKITDLKQKVENLFNEKCGEALGLKQAVK------VPFALFES    764
+
+YERI_SCHPO        69 F     69
+                     |
+GTF2I_MOUSE      765 F    765
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    15/35 (42.9%)
+# Gaps:          11/35 (31.4%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         3 PLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAET     37
+                     |...||:.:..|        |.|.|:.   |:|:|
+ISPH_ACIF5       288 PQEMPGVEEKVT--------FSLPLAL---IQAQT    311
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        15 GLSLIGIVFLL     25
+                     |||::|:..|:
+NDUA1_HUMAN        8 GLSVMGVCLLI     18
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       8/28 (28.6%)
+# Similarity:     9/28 (32.1%)
+# Gaps:          14/28 (50.0%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        37 TLMHD--------------LVGSGLTGK     50
+                     ||.||              |:|....||
+PSRP_SALTI       136 TLAHDDGISLRNLDQAQVILLGVSRCGK    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      10/54 (18.5%)
+# Similarity:    22/54 (40.7%)
+# Gaps:           7/54 (13.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         8 GLAKACTGLSLIGIVFLLVLSYLFSIEA-------ETLMHDLVGSGLTGK     50
+                     |:..|..|:..|.:.|.:..:.:.::.|       |..:......||:..
+DNAK_CHESB       456 GIPPAPRGMPQIEVTFDIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDA    505
+
+YERI_SCHPO        51 QVAK     54
+                     ::.|
+DNAK_CHESB       506 EIEK    509
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      19/85 (22.4%)
+# Similarity:    35/85 (41.2%)
+# Gaps:          18/85 (21.2%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         8 GLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGKQVAKTCL     57
+                     |:.:|.. :.|:|...:..:|.::|:..|    .||.....||:.|...|
+DNLJ_ACIC5       460 GMGEAIV-MQLLGRGLVKTVSDIYSLTEE----QLVSLERMGKKSATALL    504
+
+YERI_SCHPO        58 GAV----------VIYAVFFLFCG---SQVIVSRY     79
+                     |.:          |::.:...|.|   :|.:...|
+DNLJ_ACIC5       505 GEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEY    539
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      12/48 (25.0%)
+# Similarity:    22/48 (45.8%)
+# Gaps:          15/48 (31.2%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        24 LLVLSY-LFSIEAET-LMHDLVGSGLTGKQVAKTCLG-----AVVIYA     64
+                     :||..| .|.::|.. |::||        ...:..:|     ||::|:
+CAPSD_CMVO       150 VLVYQYAAFGVQANNKLLYDL--------SAMRADIGDMRKYAVLVYS    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           2/17 (11.8%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        49 GKQVAKTC--LGAVVIY     63
+                     |.:|..|.  ||..:||
+IF3_CHLL2        122 GNRVRATIVFLGRSIIY    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        45 SGLTGKQVAKTCL     57
+                     |.|.|..::.|.|
+CSRA_HAEI8        11 SVLIGDDISITVL     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    13/19 (68.4%)
+# Gaps:           4/19 (21.1%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKP-LVSPGLAKACTGLSL     18
+                     :|| :|.||:.   ||:::
+COAX_CLOBL        83 IKPIIVGPGVK---TGINI     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       4/12 (33.3%)
+# Similarity:     6/12 (50.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         6 SPGLAKACTGLS     17
+                     |.||...|..::
+HOP_BOVIN         61 SEGLPSECRSVT     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    13/32 (40.6%)
+# Gaps:           9/32 (28.1%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        25 LVLSYLFSIEAETL-MHDL--------VGSGL     47
+                     |:....||:.|:.. .||.        ||.||
+THII_VIBA3       101 LIEGKTFSVRAKRRGKHDFTSIELERYVGGGL    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        29 YLFSIEAE     36
+                     |:..|.||
+RL13_PSEPG        53 YIVVINAE     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    19/44 (43.2%)
+# Gaps:           4/44 ( 9.1%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         3 PLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSG     46
+                     |.::|.::....|:.:|.    |..:..|..||..|:.|....|
+RR2_ARATH         29 PRMAPYISAKRKGIHIIN----LTRTARFLSEACDLVFDAASRG     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    12/30 (40.0%)
+# Gaps:          10/30 (33.3%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        29 YLFSIEAETLMHDLVGSGLTGKQVAKTCLG     58
+                     :...:.|...:.|:||          ||||
+Y1710_SYNP2      138 HFHEVGATDALVDIVG----------TCLG    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    10/21 (47.6%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        32 SIEAETLMHDLVGSGLTGKQV     52
+                     |.|....:.|.||..|.|:.|
+WTPC_THEKO       191 SFEEAVSLGDRVGVMLNGRLV    211
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       6/10 (60.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         9 LAKACTGLSL     18
+                     |...|:||||
+GRB7_RAT         415 LPTPCSGLSL    424
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      12/46 (26.1%)
+# Similarity:    16/46 (34.8%)
+# Gaps:          22/46 (47.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         2 KPLVSPGLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDL-VGSG     46
+                     |||||.|..                     :|..||::.|. :|.|
+PSD_RHOPS        201 KPLVSEGQT---------------------AIAGETVLADFNLGDG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    11/21 (52.4%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        32 SIEAETLMHDLVGSGLTGKQV     52
+                     |:||..||..:...|:...||
+PP156_ARATH      361 SLEARKLMEQMENDGVKANQV    381
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      10/46 (21.7%)
+# Similarity:    21/46 (45.7%)
+# Gaps:           3/46 ( 6.5%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        40 HDLVGSGLTGKQVAKTCLGAVVIYAVFFLFCGSQVIVSRYQKPVRI     85
+                     ||:.........|....|.:|::.|:.|   |:.::::...|..|:
+ADRB2_MESAU       22 HDVTEERDEAWVVGMAILMSVIVLAIVF---GNVLVITAIAKFERL     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 3
+# Identity:       3/3 (100.0%)
+# Similarity:     3/3 (100.0%)
+# Gaps:           0/3 ( 0.0%)
+# Score: 15.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         3 PLV      5
+                     |||
+ID5B_ADEPA        25 PLV     27
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      14/71 (19.7%)
+# Similarity:    26/71 (36.6%)
+# Gaps:          34/71 (47.9%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        42 LVGSGLTGKQ-------------------------VAKTCLGAV--VIYA     64
+                     |:|:|.:||.                         |...|:.::  ::.|
+GPA7_CAEEL        38 LLGAGESGKSTILKQMRILHKDGFSQQDLEMIRPVVYSNCIHSMLSILRA     87
+
+YERI_SCHPO        65 VFFLFCGSQVIVSRYQKPVRI     85
+                     :|.|    |:   .|.:|.|:
+GPA7_CAEEL        88 MFHL----QI---EYGEPDRV    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       4/12 (33.3%)
+# Similarity:     9/12 (75.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        28 SYLFSIEAETLM     39
+                     |:||:.:.:.|:
+IDI_ECO24         37 SWLFNAKGQLLV     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:    10/19 (52.6%)
+# Gaps:           3/19 (15.8%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        40 HDLVGSGLTGKQVAKTCLG     58
+                     |.|...|:.|:   ||.:|
+YHJA_ECOLI       211 HALNAGGVDGR---KTSIG    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    13/20 (65.0%)
+# Gaps:           1/20 ( 5.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        64 AVFFLFCGSQVIVSRYQKPV     83
+                     |.|..|.||:.::: .:||:
+RIMP_BURPS        80 ADFTRFAGSEAVIT-LKKPL     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        71 GSQVIVSRYQKPVR     84
+                     |::.|....:.|||
+RS28_OSTOS        35 GNRTINRNVKGPVR     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      16/69 (23.2%)
+# Similarity:    24/69 (34.8%)
+# Gaps:          22/69 (31.9%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        27 LSYLFSIEAETLMHDLVGSGLTGKQVAKTCLGAVVIYAVF----------     66
+                     ||.|..:.|.||..|.....|....:       :|:.||.          
+HBAC_LITCT        81 LSSLSDLHAFTLRVDPGNFALLSNNI-------LVVVAVHHSDKLSYETH    123
+
+YERI_SCHPO        67 -----FLFCGSQVIVSRYQ     80
+                          ||...|.::.|:|:
+HBAC_LITCT       124 QALDKFLNVVSGLLTSKYR    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      16/56 (28.6%)
+# Similarity:    25/56 (44.6%)
+# Gaps:           6/56 (10.7%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         2 KPLVSPG-LAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGK     50
+                     ||:|..| :....|.|...|:|...:..|:.. |.:.|...||.:|    
+RPOA_PRRSS      3525 KPMVGAGYVVGPSTFLGTPGVVSYYLTLYIRG-EPQALPETLVSTG----   3569
+
+YERI_SCHPO        51 QVAKTC     56
+                     ::|..|
+RPOA_PRRSS      3570 RIATDC   3575
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       8/23 (34.8%)
+# Similarity:    13/23 (56.5%)
+# Gaps:           1/23 ( 4.3%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        26 VLSYLFSIEAE-TLMHDLVGSGL     47
+                     |.....|:.|: .||:||:..|:
+UBIE_PSEAE        30 VAEVFHSVAAKYDLMNDLMSGGI     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      12/38 (31.6%)
+# Similarity:    21/38 (55.3%)
+# Gaps:           9/38 (23.7%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        24 LLVLSY--LFSI---EAETLMHDLV----GSGLTGKQV     52
+                     :||:.|  :|.:   :...|.::||    |:|:.||.|
+FLII_AQUAE        72 VLVMPYEPVFGLRKGDKVLLKNELVSTKTGNGVVGKVV    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       7/27 (25.9%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           5/27 (18.5%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         4 LVSPGLAKACTGLSLIGIVFLLVLSYL     30
+                     :||..:||....|     ::..:.:||
+MSS11_VANPO       50 MVSDAMAKTSKQL-----LYAHIYNYL     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      15/77 (19.5%)
+# Similarity:    31/77 (40.3%)
+# Gaps:          19/77 (24.7%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         5 VSPGLAK-ACTGLSLIGIVFLLVLSY----LFSIEAETLMHDLVGSGLT-     48
+                     |:|.|:: ....:|.:|...:..:..    ||....:.::..:.|||.| 
+SPB4_ASPFU        17 VTPALSEWVLEAMSSMGFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKTL     66
+
+YERI_SCHPO        49 -------------GKQVAKTCLGAVVI     62
+                                  .:.:.|..:||::|
+SPB4_ASPFU        67 SFLIPVVEKLLRLEEPIKKHHVGAIII     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       9/28 (32.1%)
+# Similarity:    14/28 (50.0%)
+# Gaps:           5/28 (17.9%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        25 LVLSYLFSIEAETLMH--DLVGSGLTGK     50
+                     |::.:|.:...|   |  .:|..|.|||
+ASSY_MYCTO        97 LIVKHLVAAARE---HGGGIVAHGCTGK    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      17/55 (30.9%)
+# Similarity:    25/55 (45.5%)
+# Gaps:           9/55 (16.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         8 GLAK--ACTGLSLIG-------IVFLLVLSYLFSIEAETLMHDLVGSGLT     48
+                     |:|.  |...|.|.|       :|.|||...:.|.||..:.||.:.:...
+ECCB1_MYCS2      421 GIANDDAAKNLGLAGPVNAPWQVVGLLVDGPVLSKEAALIEHDTLPADPN    470
+
+YERI_SCHPO        49 GKQVA     53
+                     .::||
+ECCB1_MYCS2      471 PRKVA    475
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       6/19 (31.6%)
+# Similarity:     9/19 (47.4%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        50 KQVAKTCLGAVVIYAVFFL     68
+                     ::|....||...:..||.|
+KCY4_ORYSJ        15 EEVTDNMLGDKKVTVVFVL     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      17/69 (24.6%)
+# Similarity:    22/69 (31.9%)
+# Gaps:          29/69 (42.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        16 LSLI-------GIVFLLVLSYL-------------------FSIEAETLM     39
+                     ||:|       .|..||.|.||                   ..:.:||..
+HCP_TRIV2        479 LSMILSWYEQKAIAVLLTLLYLGIQNIRIGPTLPAFLTPNVVKLLSETFH    528
+
+YERI_SCHPO        40 HDLVGSGLTGKQVAKTCLG     58
+                     ..|:   .|.:|....|||
+HCP_TRIV2        529 LQLI---TTPEQDLAVCLG    544
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           3/26 (11.5%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSPGLAKACTGL---SLIGIVF     23
+                     :|||.:.....:.||:   ||:|.::
+UBX7_YEAST       290 LKPLETQNSGLSVTGMEGPSLLGRLY    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    24/56 (42.9%)
+# Gaps:          19/56 (33.9%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+YERI_SCHPO        15 GLSLIGIVFLLVLSYLF-----SIEAETLMHDLVGSGLTG----------     49
+                     ||:|...:..::||.|.     |:..:.::|:.  |.:.|          
+RPOA_ACICJ        46 GLTLGNALRRVLLSSLHGAAVTSVRIDGVLHEF--SSIAGVREDVTDIVL     93
+
+YERI_SCHPO        50 --KQVA     53
+                       ||:|
+RPOA_ACICJ        94 NIKQIA     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      13/59 (22.0%)
+# Similarity:    26/59 (44.1%)
+# Gaps:           8/59 (13.6%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+YERI_SCHPO        27 LSYLFSIEAETLMHDLVGSGLTGKQV----AKTCLGAVVIYAVFFLFCGS     72
+                     |:..|.::..||...  .:.|..|::    :....|.|.::.:..|  |.
+YXAD_BACSU        56 LAESFKLDISTLSRQ--AAALEAKELIYRFSDPSDGRVSLFTITKL--GK    101
+
+YERI_SCHPO        73 QVIVSRYQK     81
+                     |::.:..||
+YXAD_BACSU       102 QLLKADQQK    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: YERI_SCHPO
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      19/96 (19.8%)
+# Similarity:    33/96 (34.4%)
+# Gaps:          24/96 (25.0%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+YERI_SCHPO         1 MKPLVSPGLAKACTGLSLIGIVFLLV-LSYLFSIEAETLMHDLVGSG---     46
+                     |.||..|.|....:..:..|:||.:. ..|...:.|.:::......|   
+FADB_SHESR       219 MSPLTLPKLEAMMSFTTAKGMVFAVAGKHYPAPMAAVSVVEQAATKGRSD    268
+
+YERI_SCHPO        47 -----------LTGKQVAKTCLGAVVIYAVFFLFCGSQVIVSRYQK     81
+                                |....|||..:|         :|...|::..:.:|
+FADB_SHESR       269 ALQIEHQAFIKLAKTDVAKALIG---------IFLNDQLVKGKAKK    305
+
+
+#---------------------------------------
+#---------------------------------------

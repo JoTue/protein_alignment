@@ -1,0 +1,4000 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:25
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/DNLJ_ACIC5.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/DNLJ_ACIC5.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/DNLJ_ACIC5.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      28/145 (19.3%)
+# Similarity:    53/145 (36.6%)
+# Gaps:          30/145 (20.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       410 FHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNI-    458
+                     |.|.:...|.|:|.:....|     |.|...:|:.::..:.|.:.|.|. 
+PUR7_VIBVU       242 FEFGYVTDAAGNEKLIYMDE-----VGTPDSSRIWDAQEYQAGKIVENSK    286
+
+DNLJ_ACIC5       459 EGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEID    508
+                     ||..:.::.              |....:.|::.:||.::.|.|...|:.
+PUR7_VIBVU       287 EGFRQFLLN--------------YFPDPDILLNKDRMPEREALARDNELP    322
+
+DNLJ_ACIC5       509 KSRQAPLDRVLFGLGIRFVG----------ERTAQALAEEYGSMD    543
+                     :.....:.|....:..:..|          :.....|..|||.:|
+PUR7_VIBVU       323 EEALMAVSRTYINIAEKITGSAIVLSDNPKQEIIDILGREYGLID    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      14/47 (29.8%)
+# Similarity:    25/47 (53.2%)
+# Gaps:           1/47 ( 2.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       579 LVERLREAGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIE    625
+                     ||..:.:..|...|.:|:..|:.|.|.:.:...:|.:..:||: |||
+Y075_NITWN        21 LVCPVTKGPLELDGARRELISRSAKLAYPIRDGIPIMLPEEAR-KIE     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      20/77 (26.0%)
+# Similarity:    32/77 (41.6%)
+# Gaps:          18/77 (23.4%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       101 REQAGQNAEIEYVCEYKLDGLSMALH-----YRDGQ-------LARGLTR    138
+                     |..|..:||||.....:.|.: ||::     |.||.       |.:..|.
+Y3584_PSEAB       61 RGSADIDAEIEAARVLRKDEI-MAVYTPPEGYEDGDGRDLQVYLDQNYTN    109
+
+DNLJ_ACIC5       139 GDGEIGEDVTTNVRTIRSVPLSIADGK    165
+                     ..|.:.||...     |::|:...:|:
+Y3584_PSEAB      110 ALGPLHEDYRE-----RAIPMEGFEGE    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      19/60 (31.7%)
+# Similarity:    24/60 (40.0%)
+# Gaps:          15/60 (25.0%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       405 RGTKHFHFP--HACPACGSEVVRTPGEADYRC--------VNTDCPARLR    444
+                     |...|::.|  :.|.||  ..||.|.|...|.        .|:|...|||
+BPT_HAHCH         51 RSGNHYYKPRCNGCNAC--IAVRIPTEEFNRTRSQERTWKRNSDLTVRLR     98
+
+DNLJ_ACIC5       445 ESLL---HFA    451
+                     .:..   |||
+BPT_HAHCH         99 SAQFEQEHFA    108
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      27/90 (30.0%)
+# Similarity:    38/90 (42.2%)
+# Gaps:          16/90 (17.8%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       601 LAGLTFVL--TGTLPGLSRDEAKGK-IENAGGHVSGS-----VSKKTNYV    642
+                     |.||.:.|  ||.......::|.|. |.:|.|.|.||     |..|..|.
+KDPC_CAUVN        18 LLGLAYPLAVTGVAQAAFPNQANGSLIRDADGKVVGSALIGQVFAKPEYF     67
+
+DNLJ_ACIC5       643 -----VAGADAGSKLEKANSLGVPVIDEAALIKMLETEQA    677
+                          .|||...:.....:::| |:  ...||..|:|:.|
+KDPC_CAUVN        68 HGRPSAAGAGYDASASSGSNMG-PL--NETLIARLKTDAA    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      25/93 (26.9%)
+# Similarity:    36/93 (38.7%)
+# Gaps:          27/93 (29.0%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       514 PLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERV-------    556
+                     ||..|:..|.:||        |.|:....|||....  :|..|       
+LPXH_XYLFM        13 PLRPVVTELFLRF--------LREQVSGADALYILG--DLFEVWIGDDMP     52
+
+DNLJ_ACIC5       557 NDVGPRVSEAIREFFDE-------PRNRDLV---ERLREAGLR    589
+                     ::|...|:.|:|.:.|.       |.|||.:   :....||.|
+LPXH_XYLFM        53 SEVADMVAAALRTYADAGTPLYFMPGNRDFLVGADYAARAGFR     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      19/85 (22.4%)
+# Similarity:    35/85 (41.2%)
+# Gaps:          18/85 (21.2%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       460 GMGEAIV-MQLLGRGLVKTVSDIYSLTEE----QLVSLERMGKKSATALL    504
+                     |:.:|.. :.|:|...:..:|.::|:..|    .||.....||:.|...|
+YERI_SCHPO         8 GLAKACTGLSLIGIVFLLVLSYLFSIEAETLMHDLVGSGLTGKQVAKTCL     57
+
+DNLJ_ACIC5       505 GEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEY    539
+                     |.:          |::.:...|.|   :|.:...|
+YERI_SCHPO        58 GAV----------VIYAVFFLFCG---SQVIVSRY     79
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 606
+# Identity:     122/606 (20.1%)
+# Similarity:   193/606 (31.8%)
+# Gaps:         202/606 (33.3%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       124 ALHYRDGQLARGLTRG-DGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMP    172
+                     ||...|.:|.||.... .||.|..        :|..::|.||.||    |
+RBSA_RUEST        21 ALKGVDFELRRGEIHAIAGENGAG--------KSTLMNIIDGILQ----P     58
+
+DNLJ_ACIC5       173 ANFEVR-----GEVVMPFTAFEKL------NEEREAQGLAPAANPRNAAA    211
+                     .:.|:|     .|:..| .|.:|:      .|......::.|.|...||.
+RBSA_RUEST        59 DSGEIRLDGTPVEIPSP-AAAQKMGIGFVHQEIALCPDVSVAENIFMAAT    107
+
+DNLJ_ACIC5       212 GTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVN    261
+                     .:.|:.           ...|..:..|..:.|. |..::|....:     
+RBSA_RUEST       108 NSSRSF-----------LMDYKGIEAKAREVFA-QLSSIDPSVLV-----    140
+
+DNLJ_ACIC5       262 QHRHAAKSIETVVEFVNRAE-EHRSRLGYEIDGVVVKVNSAVL---QRRL    307
+                       |..:.|.:.:||...... :.|..:..|....:.:..:.||   .|||
+RBSA_RUEST       141 --RDLSISNQQLVEIAKALTLDCRVLILDEPTAALTEAEAQVLFKIMRRL    188
+
+DNLJ_ACIC5       308 GYTGRAPRWAVAYKFAARSGVTQVEDI-QVQVGRTGKLTPVAWLAPVQVG    356
+                     ...|      ::..:.:...|...::. :|.|.|.|:..           
+RBSA_RUEST       189 ADQG------ISLIYISHRMVEIFDNCDRVSVFRDGRYV-----------    221
+
+DNLJ_ACIC5       357 GTTVTRATLHNADEIERL-GLRIGDFVRIERGGDVIPKVVEVVDDAEHPR    405
+                      ||...|.:..||.:..: |..|||.                     :|.
+RBSA_RUEST       222 -TTQDVAKITPADVVRAMVGREIGDL---------------------YPE    249
+
+DNLJ_ACIC5       406 GTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARL---------RES    446
+                     ..:    |.||..  :||:|         |...|.|..         :..
+RBSA_RUEST       250 KQR----PEACST--TEVLR---------VENLCEAERFHDVSFSLHKGE    284
+
+DNLJ_ACIC5       447 LLHFA----------SRGVMNIEGMGEAIVMQLLGR----GLVKTVSDIY    482
+                     :|.||          ::||..:||       |:.||    |....:.|..
+RBSA_RUEST       285 ILGFAGLIGAGRSEIAKGVCALEG-------QVTGRLWLNGEPLALRDYQ    327
+
+DNLJ_ACIC5       483 SLTEEQLVSLERMGKKSATALLGEIDKSRQA-PLDRVLFGLGIRFVGERT    531
+                     ...:..:|.|....|.....|...|..:..| .:::|...||:...|...
+RBSA_RUEST       328 DSIDAGIVYLSEDRKGDGVFLDMSIASNVSALKVEQVASALGLIQPGREI    377
+
+DNLJ_ACIC5       532 AQA-------------LAEEYGSMDALMQASREELERVNDVGPRVSEAIR    568
+                     .||             |.:...|:....| .:..|.::..|.||:.    
+RBSA_RUEST       378 EQADRLGRKLNLKCGTLQDPVSSLSGGNQ-QKVALAKMLSVNPRLI----    422
+
+DNLJ_ACIC5       569 EFFDEPRN--------------RDLVERLREAGLRFTGEKRKKTSQLAGL    604
+                      |.|||..              |||.|                  :.||:
+RBSA_RUEST       423 -FLDEPTRGVDVGAKAEIYRILRDLAE------------------EGAGI    453
+
+DNLJ_ACIC5       605 TFVLTGTLPGLSRDEAKGKIENA--------GGHVSGSVSKKTN--YVVA    644
+                     . |::..||     |..|..:..        .|.|||....:.|  ::.:
+RBSA_RUEST       454 V-VISSELP-----ELIGLCDRVLVIHEGCLSGEVSGPDMTEENIMHLAS    497
+
+DNLJ_ACIC5       645 GADAGS    650
+                     |...|:
+RBSA_RUEST       498 GTQQGT    503
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       6/7 (85.7%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       305 RRLGYTG    311
+                     |||||.|
+KR195_HUMAN       33 RRLGYGG     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      23/90 (25.6%)
+# Similarity:    32/90 (35.6%)
+# Gaps:          30/90 (33.3%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       592 GEKRKKTSQLAGLTFVLTG------TLPGLSRDEAKGKIENAGGHVSGSV    635
+                     |.||:...||.....|:.|      .:||:||         :||.||   
+UPPP_CORDI       144 GSKRRSFDQLTMRDAVIMGCAQCLALIPGVSR---------SGGTVS---    181
+
+DNLJ_ACIC5       636 SKKTNYVVAGADAGSKLEKANS----LGVPVIDEAALIKM    671
+                             ||...|...|.|..    |.:|.:..:.|..:
+UPPP_CORDI       182 --------AGLFVGLDREVATRFSFLLAIPAVLASGLFSL    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      15/73 (20.5%)
+# Similarity:    32/73 (43.8%)
+# Gaps:          14/73 (19.2%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        30 PEIDDLAFDELMRKLQRL-EAEHPELITPDSPTQRVGGKPKEGFAKVAHS     78
+                     |.:....:::|.::|..| ..|.||:....:....:|.:.:         
+GREB_ECO57         4 PLVTREGYEKLKQELNYLWREERPEVTKKVTWAASLGDRSE---------     44
+
+DNLJ_ACIC5        79 RPMLSLDNVNSEEELRDWERRVR    101
+                         :.|...:::.||:.:||||
+GREB_ECO57        45 ----NADYQYNKKRLREIDRRVR     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 283
+# Identity:      59/283 (20.8%)
+# Similarity:    99/283 (35.0%)
+# Gaps:         107/283 (37.8%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       335 QVQVGRTGKLTPVAWLAP-----VQVGGTTVTRATLHNADEIERLGLRIG    379
+                     |:.:|.|..|    |:.|     .|.||       ||..:...|.     
+TGT_LEPCP         53 QIILGNTFHL----WMRPGQDVMAQFGG-------LHRFENWTRP-----     86
+
+DNLJ_ACIC5       380 DFVRIERGGDVIPKVVEVVDDAEHPRGTKHFHFPHACPACGSEVVRTPGE    429
+                       :..:.||..:..:.|:...:|  .|.:     .|.|..|.::..|| |
+TGT_LEPCP         87 --ILTDSGGFQVWSLGEMRKISE--EGVR-----FASPVNGDKLFLTP-E    126
+
+DNLJ_ACIC5       430 ADYR---CVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLGRGLVK    476
+                     ...:   .:|:|...:..|...::  :|..|:              |.:.
+TGT_LEPCP        127 VSMQIQTVLNSDIVMQFDECTPYW--QGAKNV--------------GHIT    160
+
+DNLJ_ACIC5       477 TVSDIYSLTEEQLVSLE-----RMGKKSATALLGEIDKSRQAPLDRVLFG    521
+                     |       .:|..||:|     ....|:..|.||.         ...|||
+TGT_LEPCP        161 T-------EKEARVSMELSLRWAARSKAEFARLGN---------PNALFG    194
+
+DNLJ_ACIC5       522 L--GIRFVGERTAQALAEEYGSMDALMQAS--------------REELER    555
+                     :  |..|      ::|.||  |::||::..              ::|:.|
+TGT_LEPCP        195 IVQGGMF------ESLREE--SLNALVELDFPGYAVGGVSVGEPKDEMLR    236
+
+DNLJ_ACIC5       556 VNDVGPRVSEAIREFFDEPR-------NRDLVE    581
+                     :.:..|.:..|     |:||       ..|||:
+TGT_LEPCP        237 IMNHTPHLLPA-----DKPRYLMGVGTPEDLVD    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 409
+# Identity:      81/409 (19.8%)
+# Similarity:   136/409 (33.3%)
+# Gaps:         132/409 (32.3%)
+# Score: 76.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        69 KEGFAKVAHSRPMLSLDNVNSEEELRDWERRVREQAGQNAEIEYVCEYKL    118
+                     ::|..|| |..|:          .:..|||      |:.:.:  :.|.::
+CBPQ_HUMAN        97 QDGLEKV-HLEPV----------RIPHWER------GEESAV--MLEPRI    127
+
+DNLJ_ACIC5       119 DGLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQ    168
+                     ..:::.          ||....|...|.:|..|..:.|.      .:||:
+CBPQ_HUMAN       128 HKIAIL----------GLGSSIGTPPEGITAEVLVVTSF------DELQR    161
+
+DNLJ_ACIC5       169 AKMPANFEVRGEVVM---PFTAFEKLNEEREAQGLAPAANPRNAAAGTIR    215
+                     ...    |.||::|:   |:..:.:..:.| .||...||.. .|.|..||
+CBPQ_HUMAN       162 RAS----EARGKIVVYNQPYINYSRTVQYR-TQGAVEAAKV-GALASLIR    205
+
+DNLJ_ACIC5       216 TLEPNIVAQRRLDFYAYFALTEKGEDAFG-----------EQEEALDALA    254
+                     ::         ..|..|...|...|...|           |..|.:..:|
+CBPQ_HUMAN       206 SV---------ASFSIYSPHTGIQEYQDGVPKIPTACITVEDAEMMSRMA    246
+
+DNLJ_ACIC5       255 TLGFR-VNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVL    303
+                     :.|.: |.|.:..||:......|...||...|:  |....|:|       
+CBPQ_HUMAN       247 SHGIKIVIQLKMGAKTYPDTDSFNTVAEITGSK--YPEQVVLV-------    287
+
+DNLJ_ACIC5       304 QRRLGYTGRAPRWAVAY--------KFAARSGVTQVEDIQVQVGRTGKLT    345
+                           :|....|.|..        .|.:...::.::|:.::..||.:| 
+CBPQ_HUMAN       288 ------SGHLDSWDVGQGAMDDGGGAFISWEALSLIKDLGLRPKRTLRL-    330
+
+DNLJ_ACIC5       346 PVAWLAPVQVGGTTVTRATLH-------------NADEIERLGLRIGDFV    382
+                      |.|.|..|.|........||             :|......||:   |.
+CBPQ_HUMAN       331 -VLWTAEEQGGVGAFQYYQLHKVNISNYSLVMESDAGTFLPTGLQ---FT    376
+
+DNLJ_ACIC5       383 RIERGGDVIPKVVEVVDD------AEHPRGT-------------------    407
+                     ..|:...::.:|:.::..      ..|..||                   
+CBPQ_HUMAN       377 GSEKARAIMEEVMSLLQPLNITQVLSHGEGTDINFWIQAGVPGASLLDDL    426
+
+DNLJ_ACIC5       408 -KHFHFPHA    415
+                      |:|.|.|:
+CBPQ_HUMAN       427 YKYFFFHHS    435
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       7/14 (50.0%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       278 NRAEEHRSRLGYEI    291
+                     |.|.|.|...|||:
+PSA6_SOYBN        96 NEAAEFRFTYGYEM    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      31/149 (20.8%)
+# Similarity:    52/149 (34.9%)
+# Gaps:          44/149 (29.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       507 IDKSRQAPLDRVL-FGLGIRFVGERTAQALAEEYGSMDA----------L    545
+                     :|.::.||:..:: ||:...|......|::::.   .|.          |
+SCL34_ARATH      353 LDVAKDAPVLHIVDFGILYGFQWPMFIQSISDR---KDVPRKLRITGIEL    399
+
+DNLJ_ACIC5       546 MQASREELERVNDVGPRVSEAIREF-------------FDEPRNRDLVER    582
+                     .|......||:.:.|.|::|..:.|             ::..|..||..|
+SCL34_ARATH      400 PQCGFRPAERIEETGRRLAEYCKRFNVPFEYKAIASQNWETIRIEDLDIR    449
+
+DNLJ_ACIC5       583 LRE-----AGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIEN    626
+                     ..|     ||||....:.:            ||:.....||.....|.|
+SCL34_ARATH      450 PNEVLAVNAGLRLKNLQDE------------TGSEENCPRDAVLKLIRN    486
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      31/139 (22.3%)
+# Similarity:    53/139 (38.1%)
+# Gaps:          30/139 (21.6%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       273 VVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKF    322
+                     |.|.:.|.|:...||   |...:::.:..:|:.........|.:|...|:
+NDKA_CANLF        21 VGEIIKRFEQKGFRL---IAMKLIQASEDLLKEHYIDLKDRPFFAGLVKY     67
+
+DNLJ_ACIC5       323 AARSGVTQVEDIQVQVGRTGKL----TPVAWLAP--------VQVGGTTV    360
+                     .....|..:....:.|.:||::    |..|...|        :|||    
+NDKA_CANLF        68 MQSGPVVAMVWEGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVG----    113
+
+DNLJ_ACIC5       361 TRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVD    399
+                      |..:|.:|.:|.....||.:.:.|          |:||
+NDKA_CANLF       114 -RNIIHGSDSVESAEKEIGLWFQPE----------ELVD    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      33/158 (20.9%)
+# Similarity:    50/158 (31.6%)
+# Gaps:          73/158 (46.2%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        42 RKLQRLEAEHPELITPDSPTQRVGG----KPKEGFAKVAHSRPMLSLDNV     87
+                     :.|:||.|....::      .::||    :|..|..|:..|.| |||   
+RS4_CAEEL          6 KHLKRLAAPSHWML------DKLGGVFAVRPNPGPHKLRESLP-LSL---     45
+
+DNLJ_ACIC5        88 NSEEELRDWERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQ--LARG    135
+                                                 :..:.|..||:|.:.:  |.:.
+RS4_CAEEL         46 ----------------------------FLRNRLKYALNYTEAKKILTQR     67
+
+DNLJ_ACIC5       136 LTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPF    185
+                     :.|.||:        |||..              |.|..|       |..
+RS4_CAEEL         68 VVRVDGK--------VRTCH--------------KFPTGF-------MDV     88
+
+DNLJ_ACIC5       186 TAFEKLNE    193
+                     .|.|:.||
+RS4_CAEEL         89 VAIERTNE     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      32/178 (18.0%)
+# Similarity:    65/178 (36.5%)
+# Gaps:          48/178 (27.0%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        43 KLQRLEAEHPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEE     92
+                     :|:.||||.                 :|.:..:|..:..|.:.::..|::
+G45IP_CHLAE       81 QLRELEAEE-----------------REWYPSLATMQESLRVKHLAEEQK    113
+
+DNLJ_ACIC5        93 LRDWERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLAR-GLTRGDG    141
+                     .|:.|:.:.|           |..|:.  .|.::::..|..| ...:.|.
+G45IP_CHLAE      114 RREREQHIAE-----------CMAKMP--QMIVNWQQQQRERWEKAQADK    150
+
+DNLJ_ACIC5       142 EIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKL    191
+                     |....:....:.:....::....:.|:.......:.|          ::|
+G45IP_CHLAE      151 ERRARLQAEAQELLGYQVNPKSARFQELLQDLEKKER----------KRL    190
+
+DNLJ_ACIC5       192 NEEREAQ-------GLAPAANPRNAAAG    212
+                     .||::.|       .||.||....||:|
+G45IP_CHLAE      191 KEEKQRQKQEARAAALAAAAAQDPAASG    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      57/271 (21.0%)
+# Similarity:    94/271 (34.7%)
+# Gaps:          75/271 (27.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       414 HACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGMGE    463
+                     |..|..|.:..:|             .|.|.|.:...|:..| .|:....
+DAPEL_OCEIH       13 HQIPELGFQEFKT-------------QAYLLERINEIATENV-EIKKWST     48
+
+DNLJ_ACIC5       464 AIVMQLLGRGLVKTV---SDIYSL-----TEEQLVSLERMGKKSA-----    500
+                     .|::.:.|:...:.:   :||..|     |.....||.. |:..|     
+DAPEL_OCEIH       49 GILVYVHGKSPARKIGFRADIDGLPILEQTNLPYASLHE-GRMHACGHDL     97
+
+DNLJ_ACIC5       501 --TALLGEIDKSRQAPL-DRVLFGLGIRFVGERTAQALAEEYGSMDALMQ    547
+                       |..||.::|..|.|: |.|:|          ..|...|..|....:::
+DAPEL_OCEIH       98 HMTIALGALEKLIQDPINDDVIF----------VFQPAEEGPGGAKPMLE    137
+
+DNLJ_ACIC5       548 ASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKK    597
+                                     ||..:::  :|   |::..|..|.....|    .
+DAPEL_OCEIH      138 ----------------SEEFQQW--KP---DMMFALHIAPELPVG----T    162
+
+DNLJ_ACIC5       598 TSQLAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGAD    647
+                     .|..|||.|..|        .|.....|..|||.:.....| :..||.::
+DAPEL_OCEIH      163 VSSKAGLLFANT--------SELFIDFEGVGGHAAYPHLTK-DMTVAASN    203
+
+DNLJ_ACIC5       648 AGSKLEKANSLGVPVIDEAAL    668
+                     ...:|::..|.|:..:|.:.:
+DAPEL_OCEIH      204 FVVQLQQIVSRGLNPLDGSVI    224
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      52/240 (21.7%)
+# Similarity:    75/240 (31.2%)
+# Gaps:          94/240 (39.2%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       350 LAPVQVG-GTTVTRATLHNADEIERLG---LRIGDFVR------------    383
+                     |.|...| ||...|.       ::|.|   |..||.:|            
+KAD_METRJ          6 LGPPGAGKGTQSERI-------VQRFGIPQLSTGDMLRAAVAAGTPVGLE     48
+
+DNLJ_ACIC5       384 ----IERGGDVIPKVVE--VVDDAEHPRGTKHFHFPHACPACGSEVVRTP    427
+                         :|.||.|..::|.  |.|..|.|...:.|                 
+KAD_METRJ         49 AKAVMESGGLVSDRIVVGIVADRIEEPDARRGF-----------------     81
+
+DNLJ_ACIC5       428 GEADYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLGRGLVKT    477
+                                        :|....|.|...|.:||    .|..:||  :
+KAD_METRJ         82 -------------------ILDGFPRTVAQAEALGE----MLASKGL--S    106
+
+DNLJ_ACIC5       478 VSDIYSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFV    527
+                     :|.:..|            |....||:|.|:|.....|.|   |..:|  
+KAD_METRJ        107 LSAVVEL------------KVDENALVGRIEKRAAETLAR---GQAVR--    139
+
+DNLJ_ACIC5       528 GERTAQAL---AEEYGSMDALMQ---ASREELERVNDVGP    561
+                     .:.|.:..   .|.|.:..|.:.   |.:..||.|:.:.|
+KAD_METRJ        140 KDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLETVDGMQP    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      77/365 (21.1%)
+# Similarity:   110/365 (30.1%)
+# Gaps:         127/365 (34.8%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       308 GYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGG    357
+                     |..|.|...|.|||.||::|..     .:.||..|           .|||
+ELN_BOVIN         92 GAGGGAAGAAAAYKAAAKAGAA-----GLGVGGIG-----------GVGG    125
+
+DNLJ_ACIC5       358 TTVTRATLHNADEIERLGLRIGDFVRIERGGDVIP-KVVEVVDDAEHPRG    406
+                     ..|:...:     :.:||..:|..|:        | ||..|.....:|.|
+ELN_BOVIN        126 LGVSTGAV-----VPQLGAGVGAGVK--------PGKVPGVGLPGVYPGG    162
+
+DNLJ_ACIC5       407 TKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVM    456
+                             ..|..|:   |.||......|.|....:.:..:...|..|  
+ELN_BOVIN        163 --------VLPGAGA---RFPGIGVLPGVPTGAGVKPKAQVGAGAFAG--    199
+
+DNLJ_ACIC5       457 NIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGE    506
+                      |.|:|.                               .|.:.....||.
+ELN_BOVIN        200 -IPGVGP-------------------------------FGGQQPGLPLGY    217
+
+DNLJ_ACIC5       507 IDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERV    556
+                     ..|:.:.|.     |.|:.:   :|.: |...:|.......|.:......
+ELN_BOVIN        218 PIKAPKLPA-----GYGLPY---KTGK-LPYGFGPGGVAGSAGKAGYPTG    258
+
+DNLJ_ACIC5       557 NDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQL-AGLT    605
+                     ..|||:.:.|                           ..|..::| ||..
+ELN_BOVIN        259 TGVGPQAAAA---------------------------AAKAAAKLGAGGA    281
+
+DNLJ_ACIC5       606 FVLTGT------LPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAG    649
+                     .||.|.      :||     |.|.|...|| ::|..:.......|.|...
+ELN_BOVIN        282 GVLPGVGVGGPGIPG-----APGAIPGIGG-IAGVGAPDAAAAAAAAAKA    325
+
+DNLJ_ACIC5       650 SKLEKANSL---GVP    661
+                     :|...|..|   |||
+ELN_BOVIN        326 AKFGAAGGLPGVGVP    340
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      18/65 (27.7%)
+# Similarity:    28/65 (43.1%)
+# Gaps:           6/65 ( 9.2%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       188 FEKLN----EEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYF    233
+                     ||.||    |:::|..:|..........|..  :..:|:....|..|.|.
+ASIC2_MOUSE      409 FEALNYETIEQKKAYEVAALLGDIGGQMGLF--IGASILTILELFDYIYE    456
+
+DNLJ_ACIC5       234 ALTEKGEDAFGEQEE    248
+                     .:.||..|..|::||
+ASIC2_MOUSE      457 LIKEKLLDLLGKEEE    471
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      16/49 (32.7%)
+# Similarity:    20/49 (40.8%)
+# Gaps:          13/49 (26.5%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        80 PMLSL-DNVNSEEELRDWERRVREQAGQNAEIEYVCEYKLDGLSMALHY    127
+                     |:..| :.:|..||.. ||.  ..|..:|        || |||...|.|
+DOXA1_XENTR      114 PVYQLNETINYNEEFA-WES--ANQFDKN--------YK-DGLERGLPY    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      18/102 (17.6%)
+# Similarity:    32/102 (31.4%)
+# Gaps:          41/102 (40.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       190 KLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKG    239
+                     |.||:..||        ::|....|:..|.|                 ..
+RS20_STRPB        21 KANEKNSAQ--------KSAMRTAIKAFEAN-----------------PS     45
+
+DNLJ_ACIC5       240 EDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGY    289
+                     |:.|.....::|...:.|.   .|:             |:|...::||..
+RS20_STRPB        46 EELFRAASSSIDKAESKGL---IHK-------------NKASRDKARLAA     79
+
+DNLJ_ACIC5       290 EI    291
+                     ::
+RS20_STRPB        80 KL     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 317
+# Identity:      66/317 (20.8%)
+# Similarity:   116/317 (36.6%)
+# Gaps:         101/317 (31.9%)
+# Score: 94.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5         6 AAQQIESLRESIRHHE-YLYYVQDQPEIDDLAFDELMRKLQRLEAEHPEL     54
+                     |.:::.||::.|:..| .|..||:|....:...:|..:.||..|||    
+TPM_HAELO         39 AEEEVRSLQKKIQQIENELDQVQEQLSQANSKLEEKDKALQAAEAE----     84
+
+DNLJ_ACIC5        55 ITPDSPTQRVGGKPKEGFAKVAHSR--PMLSLDNVNSEEELRDWERRVRE    102
+                                        ..||:|  .:|..|...|||.|:...:::.|
+TPM_HAELO         85 -------------------VAAHNRRIQLLEEDLERSEERLKIATQKLEE    115
+
+DNLJ_ACIC5       103 --QAGQNAE-----IEY---VCEYKLDGLSMALHYRDGQLARGLTRGDGE    142
+                       ||...:|     :|:   ..|.::|||       :|||....|     
+TPM_HAELO        116 ASQAADESERMRKMLEHRSITDEERMDGL-------EGQLKEART-----    153
+
+DNLJ_ACIC5       143 IGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLN    192
+                     :.||.......: :..|::.:..|::|:..|.   .||     |...:|.
+TPM_HAELO        154 MAEDADRKYDEV-ARKLAMVEADLERAEERAE---TGE-----TKIVELE    194
+
+DNLJ_ACIC5       193 EEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDA    242
+                     ||....|            ..:::||.:                      
+TPM_HAELO        195 EELRVVG------------NNLKSLEVS----------------------    210
+
+DNLJ_ACIC5       243 FGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEID    292
+                        :|:||....|...::.|.....:..|...||..|:.:   :|..|:|
+TPM_HAELO        211 ---EEKALQKEETYEGQIRQMTSRLQEAEARAEFAERSVQ---KLQKEVD    254
+
+DNLJ_ACIC5       293 GVVVKVNSAVLQRRLGY    309
+                         ::...::|.:..|
+TPM_HAELO        255 ----RLEDELVQEKEKY    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 546
+# Identity:     105/546 (19.2%)
+# Similarity:   173/546 (31.7%)
+# Gaps:         151/546 (27.7%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        96 WERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGE    145
+                     ||.....:....:.:.|:..:.|..::....:...:||   .|....|..
+LEUC_XANOM        11 WEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLA---GRNPWRIDA     57
+
+DNLJ_ACIC5       146 DVTT---NVRTIRSVPL----SIAD--GKLQQAKMPANFEVRGEVVMPFT    186
+                     ::.|   ||.|.|:...    ||:|  .:||...:..|.:..|  ::.| 
+LEUC_XANOM        58 NIATPDHNVPTTRAERQGGLESISDEVSRLQVQTLDENCDDFG--ILEF-    104
+
+DNLJ_ACIC5       187 AFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALT    236
+                        |:|:.|  ||:.....|...|     ||.               .:|
+LEUC_XANOM       105 ---KMNDAR--QGIVHVVGPEQGA-----TLP---------------GMT    129
+
+DNLJ_ACIC5       237 EKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSR    286
+                     ....|:......|..|||        |......:|.|:.......:....
+LEUC_XANOM       130 VVCGDSHTSTHGAFGALA--------HGIGTSEVEHVLATQCLITKKMKN    171
+
+DNLJ_ACIC5       287 LGYEIDG--------------VVVKVNSA-----VLQ------RRLGYTG    311
+                     |...::|              |:.|:.:|     .|:      |.|...|
+LEUC_XANOM       172 LQVRVEGTLPFGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEG    221
+
+DNLJ_ACIC5       312 RAPRWAVAYKFAARSGVTQVED--IQVQVGRTGKLTPVAWLAPVQVGGTT    359
+                     |.....::.:..||.|:..|::  |....||........|.|.|.:..|.
+LEUC_XANOM       222 RMTICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTL    271
+
+DNLJ_ACIC5       360 VTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVV-----EVVDDAEHP    404
+                     |:....|....:|   |...| ::.:......|::|     .|.|.|...
+LEUC_XANOM       272 VSDPDAHFDTVVE---LHAED-IKPQVSWGTSPEMVLAIDQHVPDPATEQ    317
+
+DNLJ_ACIC5       405 RGTKHFHFPHACPACGSEVVRTPGEADYR--------CVNTDCPARLRES    446
+                     ..||......|....|.:.  .....|.|        |.|    :|:.:.
+LEUC_XANOM       318 DPTKRNSIERALKYMGLKA--NQAITDIRLDRVFIGSCTN----SRIEDL    361
+
+DNLJ_ACIC5       447 LLHFA-SRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERM    495
+                     ....| ::|......:.:|:|:.  |.||||.                  
+LEUC_XANOM       362 RAAAAVAKGRKVASTIKQALVVP--GSGLVKA------------------    391
+
+DNLJ_ACIC5       496 GKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALA---EEYGSM    542
+                                  ::....||:|....|..:.....:..||   ::.||.
+LEUC_XANOM       392 -------------QAEAEGLDKVFLDAGFEWREPGCSMCLAMNPDKLGSG    428
+
+DNLJ_ACIC5       543 DALMQASREELE-------RVNDVGPRVSEA---------IREFFD    572
+                     :.....|....|       |.:.|.|.::.|         :||..|
+LEUC_XANOM       429 EHCASTSNRNFEGRQGAGGRTHLVSPAMAAAAAVSGHFVDVRELGD    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       358 TTVTRATLHNA    368
+                     ||:|..|.:.|
+LPT_ESCF3         10 TTITITTGNGA     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      37/148 (25.0%)
+# Similarity:    57/148 (38.5%)
+# Gaps:          35/148 (23.6%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       522 LGIRFVGERTAQALAEEYGSM-DALMQ------ASREELERVNDVGPRVS    564
+                     |.|..:.|..:||...|...: |||.:      |:...:......|...:
+RL7_THET8          3 LDIERIKEELSQATVLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAAA     52
+
+DNLJ_ACIC5       565 EAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQLAGLTFVLTGTLPG    614
+                     .|     :|....|::  |:|||    .:|.:...:|..:|        |
+RL7_THET8         53 PA-----EEKTEFDVI--LKEAG----AKKLEVIKELRAIT--------G     83
+
+DNLJ_ACIC5       615 LSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAGSKLEKANSLGVPV    662
+                     |...|||...|. ||.|...|||:        :|....:|..::|..|
+RL7_THET8         84 LGLKEAKDLAEK-GGPVKEGVSKQ--------EAEEIKKKLEAVGAVV    122
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      54/267 (20.2%)
+# Similarity:    94/267 (35.2%)
+# Gaps:          88/267 (33.0%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       436 NTDCPARLRESL------LHFASRGVMNIEGMGEAIVM----------QL    469
+                     :|..|..:||.|      |..|.|.::::..:|||.::          :|
+HEM1_METCA        10 HTTAPVSIRERLAFPAEQLQSALRDLIDLPQVGEAAILSTCNRTEVYCEL     59
+
+DNLJ_ACIC5       470 LGRG---LVKTVSD------------IYSLTEEQLV--------SLERM-    495
+                     .||.   :|..:.|            :||..:...:        .|:.| 
+HEM1_METCA        60 DGRDQRPIVDWMCDQRQFDDQDISQYLYSHFDAGTIRHMFRVACGLDSMI    109
+
+DNLJ_ACIC5       496 -GKKSATALLGEIDKSRQAPLDRVLFG-----------------------    521
+                      |:..   :||::..:.||..:....|                       
+HEM1_METCA       110 LGEPQ---ILGQMKTAYQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAI    156
+
+DNLJ_ACIC5       522 ----LGIRFVGERTAQALAEEYGSMDALMQASREELERV------NDVGP    561
+                         :.:.|...|.||.:.::.|.:.|::..:.|.:|..      |.:|.
+HEM1_METCA       157 GCSPVSVAFAAIRLAQRIFDDLGDLTAILVGAGETIELTARHLTENRIGH    206
+
+DNLJ_ACIC5       562 RVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQLAGLTFVLTGT    611
+                     .:. |.|.|   .|...|..:.  .|...:.|:..|....|.:....||:
+HEM1_METCA       207 LII-ANRTF---DRAHTLANQF--GGFAISLEELPKHLAKADIIVASTGS    250
+
+DNLJ_ACIC5       612 -LPGLSRDEAKGKIENA    627
+                      ||.|    .||..|:|
+HEM1_METCA       251 PLPIL----GKGSFESA    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 476
+# Identity:      97/476 (20.4%)
+# Similarity:   152/476 (31.9%)
+# Gaps:         160/476 (33.6%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        40 LMRKLQRLEAEHPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNS     89
+                     |:.:...:.|.|.|.:|                  |:...|:.      |
+XYLB_KLEPN        16 LLNEQGEVVASHTEKLT------------------VSRPHPLW------S     41
+
+DNLJ_ACIC5        90 EEELRDW---ERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGL    136
+                     |::...|   .....:..|.:..:.:|     .||.:|     ||: .|.
+XYLB_KLEPN        42 EQDPEQWWLATDTAMKALGAHDSLRHV-----KGLGIA-----GQM-HGA     80
+
+DNLJ_ACIC5       137 TRGDGEIGEDVTTNVRTIRSVPLSIADGK------LQQAKMPANFEVRGE    180
+                     |..|        .:::.:|...| ..||:      |.:.|:.|:.::.|.
+XYLB_KLEPN        81 TLLD--------KSLQVLRPAIL-WNDGRCAEECQLLEDKVSASRQITGN    121
+
+DNLJ_ACIC5       181 VVMP-FTAFEKLNEEREAQG--------LAP-----------AANPRNAA    210
+                     ::|| |||.:.|..:|....        |.|           .|:..:.|
+XYLB_KLEPN       122 LMMPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLRMTGELASDMSDA    171
+
+DNLJ_ACIC5       211 AGTI------RTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEAL----    250
+                     |||:      |.....::|...|...|..||.| |.|..|:....:    
+XYLB_KLEPN       172 AGTMWLDVARRDWSDEMLAACDLSRDAMPALFE-GSDVTGQLRPEVAQAW    220
+
+DNLJ_ACIC5       251 -------------DALATLGFRVNQHRHAAKSIET------VVE-FVNRA    280
+                                  :|...:|..:.....|..|:.|      |.| |:::.
+XYLB_KLEPN       221 NMPPALVVGGGGDNAAGAVGIGMADAGQAMLSLGTSGVYFAVSEGFLSKP    270
+
+DNLJ_ACIC5       281 EE------HRSRLGYEIDGVVVKVNSAVLQRRLGYTGRA-----------    313
+                     |.      |..|..:.:..|::...|. |......||.|           
+XYLB_KLEPN       271 ESAVHSFCHACRGRWHLMSVMLSAASC-LDWAAKLTGLASVPALIAAAQT    319
+
+DNLJ_ACIC5       314 ------PRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVG-    356
+                           |.|.:.|....|:.....:...|..|.|.:..|......|..| 
+XYLB_KLEPN       320 ADESAGPVWFLPYLSGERTPHNNPQAKGVFFGLTHQHGPAELARAVLEGV    369
+
+DNLJ_ACIC5       357 ------GTTVTRATLHNADEIERLGLRIGDFVRIER--------------    386
+                           |..|..|.....:.|..:|   |...|..|              
+XYLB_KLEPN       370 GYALADGMDVVHACAIKPEAITLIG---GGRARYWRQMLADISGLQLDYR    416
+
+DNLJ_ACIC5       387 -GGDVIPKV-------VEVVDDAEHP    404
+                      ||||.|.:       |.|.|:|:.|
+XYLB_KLEPN       417 TGGDVGPALGAARLAHVAVHDEADRP    442
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      18/77 (23.4%)
+# Similarity:    35/77 (45.5%)
+# Gaps:          15/77 (19.5%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       474 LVKTVSDIYSLTEEQLV------------SLERMGKKSATALLGE-IDKS    510
+                     :|:.|:|:::|...:|.            :||  |.:.....:|. :|:.
+RECR_NOVAD        83 VVEEVADLWALDRARLFTGKYHVLGGRLSALE--GVRPEDLTIGSLLDRV    130
+
+DNLJ_ACIC5       511 RQAPLDRVLFGLGIRFVGERTAQALAE    537
+                     .|..:|.|:..:.....|:.||..:||
+RECR_NOVAD       131 AQGGIDEVVLAMNATLEGQTTAHYIAE    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      35/175 (20.0%)
+# Similarity:    57/175 (32.6%)
+# Gaps:          48/175 (27.4%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       264 RHAAK--SIETVVEFVNRAEEHRSRLGYE------IDGVVVKVNSAVLQR    305
+                     ||..|  ..:.|:..|||.:.....:.|.      ::|.::.|.|..|.:
+SURE_METNO        77 RHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQ    126
+
+DNLJ_ACIC5       306 RLGYTGRA-PRWAVAYKFAARS----------------------------    326
+                     ..|..||| .:|..|.:..||:                            
+SURE_METNO       127 AYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVE    176
+
+DNLJ_ACIC5       327 -------GVTQVEDIQVQVGRTGKLTPVAWL----APVQVGGTTVTRATL    365
+                            |:...:.:.:.....|:..|..||    |..:.|..|..:|..
+SURE_METNO       177 GIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGHGTDLKAIA    226
+
+DNLJ_ACIC5       366 HNADEIERLGLRIGDFVRIERGGDV    390
+                     .|...:..|.|.:.|...:.|...|
+SURE_METNO       227 ENRIAVTPLRLDLTDEPTLTRFAQV    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      15/62 (24.2%)
+# Similarity:    22/62 (35.5%)
+# Gaps:          18/62 (29.0%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       307 LGYT---GRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPV    353
+                     :||.   |:...|.........|.:..:|...||           |:   
+CYB_ARTIO        129 MGYVLPWGQMSFWGATVITNLLSAIPYIETDLVQ-----------WI---    164
+
+DNLJ_ACIC5       354 QVGGTTVTRATL    365
+                      .||.:|.:|||
+CYB_ARTIO        165 -WGGFSVDKATL    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 137
+# Identity:      28/137 (20.4%)
+# Similarity:    53/137 (38.7%)
+# Gaps:          30/137 (21.9%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       238 KGEDAFGEQE-----EALDALATL----GFRVNQHRHAAKSIETVVEFVN    278
+                     |.:..|.|:|     :.|..|..|    |..:..|.|....::|..    
+IOLE_BACHK       124 KNKPVFTEEEWEKLADGLHHLGKLAQEKGLHIVYHHHMGTGVQTTT----    169
+
+DNLJ_ACIC5       279 RAEEHRSRLGYEIDGVVVKVNSAVLQ-----RRLGYTGRAPRWAVAYKFA    323
+                                ||:.::...:.|::.     ..|.::|..|.: :..|:.
+IOLE_BACHK       170 -----------EIEKLMDMTDPALVSLLFDTGHLVFSGEEPLY-ILKKYL    207
+
+DNLJ_ACIC5       324 ARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTTV    360
+                     .|.....::||:.:|....|...:::|..|:.|..||
+IOLE_BACHK       208 PRIKHVHLKDIRQEVVDVVKEKELSFLQAVKNGAFTV    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 269
+# Identity:      49/269 (18.2%)
+# Similarity:    91/269 (33.8%)
+# Gaps:          89/269 (33.1%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       422 EVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLG    471
+                     :::|.|.|                   ...::|::...|:.::|....:.
+ACKA_STAAT        18 QLIRMPEE-------------------ELVTKGLVERIGLKDSIFTIEVN     48
+
+DNLJ_ACIC5       472 RGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRVLFG    521
+                     ...||||.||....|...:.|:.....:....:.:||            |
+ACKA_STAAT        49 GEKVKTVQDIKDHVEAVDIMLDAFKAHNIINDINDID------------G     86
+
+DNLJ_ACIC5       522 LGIRFV--GERTAQALAEEYGSMDALMQASREELERVNDVGPRVSEA---    566
+                     .|.|.|  ||:..:::        |:.....:|:|.::::.|..:.|   
+ACKA_STAAT        87 TGHRVVHGGEKFPESV--------AITDEVEKEIEELSELAPLHNPANLM    128
+
+DNLJ_ACIC5       567 -IREF------------FDEPRNRDLVER----------LREAGLR---F    590
+                      ||.|            ||...::.:.|:          .::.|:|   |
+ACKA_STAAT       129 GIRAFRKLLPNIPHVAIFDTAFHQTMPEKAYLYSLPYHYYKDYGIRKYGF    178
+
+DNLJ_ACIC5       591 TGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTN    640
+                     .|...|..||.|....           |:....:.....|:....|    
+ACKA_STAAT       179 HGTSHKFVSQRAAEML-----------DKPIEDLRIISCHIGNGAS----    213
+
+DNLJ_ACIC5       641 YVVAGADAGSKLEKANSLG    659
+                       :|..|.|..::  .|:|
+ACKA_STAAT       214 --IAAIDGGKSID--TSMG    228
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      33/123 (26.8%)
+# Similarity:    46/123 (37.4%)
+# Gaps:          30/123 (24.4%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       421 SEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLL    470
+                     :||||...|...| |..|.....|:.|    :.||..::.|    :.|:.
+HIS7_BURTA         4 AEVVRNTSETQIR-VKIDLDGTGRQKL----ATGVPFLDHM----LDQIA     44
+
+DNLJ_ACIC5       471 GRGLV---------------KTVSDIYSLTEEQLVSLERMGKKSATALLG    505
+                     ..|||               .||.|: .:|..|.|: :.:|.|......|
+HIS7_BURTA        45 RHGLVDLDIEAHGDTHIDDHHTVEDV-GITLGQAVA-KAVGDKKGIRRYG     92
+
+DNLJ_ACIC5       506 EIDKSRQAPLDRVLFGLGIRFVG    528
+                     .    ...|||..|..:.|.|.|
+HIS7_BURTA        93 H----SYVPLDEALSRVVIDFSG    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      32/149 (21.5%)
+# Similarity:    55/149 (36.9%)
+# Gaps:          34/149 (22.8%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        66 GKPKEGFAKVAHSRPMLSLDNVNSEEEL-----------RDWERR-----     99
+                     |.|...:....|:...|.||.:...|.|           .:|||:     
+PTH_GEOLS         10 GNPGSKYQWTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLV     59
+
+DNLJ_ACIC5       100 -VREQAGQNAEIEYVCE----YKLDGLSMALHYRDGQLARG---LTRGDG    141
+                      ::.|...|.....|..    |||....:.:.:.:..||.|   |.:|.|
+PTH_GEOLS         60 LLKPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLALGAARLKQGGG    109
+
+DNLJ_ACIC5       142 EIGEDVTTNVRTIRSVPLSIADGKLQQAKM----PANFEVRGEVVMPFT    186
+                     ..|::      .:||:...:..|...:.::    |.:.:|...|:..||
+PTH_GEOLS        110 HGGQN------GLRSIMELLGKGDFVRLRLGIGRPPHGDVTNHVLGVFT    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 526
+# Identity:      97/526 (18.4%)
+# Similarity:   162/526 (30.8%)
+# Gaps:         177/526 (33.7%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       145 EDVTTNV------RTIRSVPLSIADGKLQQAKMP----ANFEVRGEVVMP    184
+                     ||...|:      ..|.|.|:|    |....:.|    .:.|.|.|.:..
+TAF3_XENLA         9 EDYIHNIEPVTFPHQIPSFPVS----KNNALQFPPPGSKDAEDRKEYIPD     54
+
+DNLJ_ACIC5       185 FTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFA    234
+                     :......::|.|.:...|.....:|.|..:                   .
+TAF3_XENLA        55 YLPLIISSQEEEEEEQVPTDGGTSAEAMQV-------------------P     85
+
+DNLJ_ACIC5       235 LTEKGEDAFGEQEEALDALATLGFRVNQHRHAAK----SIETV-VEFVNR    279
+                     |.|:.|:...|.:|.          ||...:.:|    |.||: :.|..|
+TAF3_XENLA        86 LEEEEEEGEMEDDET----------VNDENYLSKRPLDSPETMEMPFAKR    125
+
+DNLJ_ACIC5       280 AEEHRSRLGYEIDG------VVVKVNSAVLQRRLGYTGRAPRWAVAYKFA    323
+                     .....:: |..:||      .:..:||..:...|         :.|:|..
+TAF3_XENLA       126 IRLMNNK-GDILDGSLEPREPLSSINSQKVPSVL---------SPAHKID    165
+
+DNLJ_ACIC5       324 ARSGVTQVEDIQVQVGRTGKLTPVA-----------WLAP--VQVGGTTV    360
+                     :       :|:.|.......|:||:           .|.|  ...||:..
+TAF3_XENLA       166 S-------QDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPG    208
+
+DNLJ_ACIC5       361 TRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPRGTKHF    410
+                     .:.....|..|..:   ||..:|..:.|   ||..:....|:.|:..|..
+TAF3_XENLA       209 QKIKSPKATPISTV---IGSPIRSPKSG---PKERKSPGCAKSPKSPKSP    252
+
+DNLJ_ACIC5       411 HFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEG    460
+                     ..|.|.|.              ..:.|:.|.|                  
+TAF3_XENLA       253 KVPLAAPP--------------PAIKTETPNR------------------    270
+
+DNLJ_ACIC5       461 MGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKS    510
+                     ...|.:.:.:||..::...:...|..:|| ::|...||.:.|     |.:
+TAF3_XENLA       271 TPLATLSEKIGRENIQIKQNQTPLDSDQL-NVEIPSKKPSIA-----DNT    314
+
+DNLJ_ACIC5       511 RQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERVNDVG    560
+                     .:..:|.|:            |:|.||:                      
+TAF3_XENLA       315 IEDSIDAVI------------ARACAEQ----------------------    330
+
+DNLJ_ACIC5       561 PRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQLAGLTFVLTG    610
+                                 ||...:........|..||..||...|:|.......:|
+TAF3_XENLA       331 ------------EPDPFEFSSGSESEGEVFTSPKRLNISELTTPKVSASG    368
+
+DNLJ_ACIC5       611 TLPGLSRDEAKGKIENAGGHVSGSVS    636
+                     ..||.:   :...:..:||..|..:|
+TAF3_XENLA       369 INPGKT---SSTSVPASGGTSSSDIS    391
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 676
+# Identity:     315/676 (46.6%)
+# Similarity:   441/676 (65.2%)
+# Gaps:          16/676 ( 2.4%)
+# Score: 1539.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5         8 QQIESLRESIRHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELITP     57
+                     |::..||:.::...|.|||.|.|.::|..:|:|.|:|..||.|||:||||
+DNLJ_CROS5         9 QRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHPQLITP     58
+
+DNLJ_ACIC5        58 DSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEELRDWERRVRE--QAG    105
+                     ||||||||.:|...|..|.|:.|:.||:|..:.|||:.||:|.:.  :..
+DNLJ_CROS5        59 DSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYEKE    108
+
+DNLJ_ACIC5       106 QNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIR    155
+                     :...:|||||.|:||.::||.|.:|...||:|||||..||::|.||||||
+DNLJ_CROS5       109 EFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEITQNVRTIR    158
+
+DNLJ_ACIC5       156 SVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAAN    205
+                     |:||     ||.....|...|||||..:|...|:::|:|||.:|.|..||
+DNLJ_CROS5       159 SIPL-----KLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEKGDALFAN    203
+
+DNLJ_ACIC5       206 PRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALAT    255
+                     ||||||||:|.|:|.||.||||.|:||....|:.|  ...|.|:|:.|..
+DNLJ_CROS5       204 PRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAE--ISSQWESLNYLEN    251
+
+DNLJ_ACIC5       256 LGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQR    305
+                     .||.||.||...:.::.|..:..:.|..|..|.|..||||||:|:..||:
+DNLJ_CROS5       252 SGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQK    301
+
+DNLJ_ACIC5       306 RLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQV    355
+                     .||:|.:.||||:|.|:.|....|.|::|.|.|||||.:||:|.:.||.:
+DNLJ_CROS5       302 ALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHL    351
+
+DNLJ_ACIC5       356 GGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPR    405
+                     .||||.:|||||:|.|.:|.:|:||.|.|.:.|::||:||.|:.:. .|.
+DNLJ_CROS5       352 AGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKEL-RPP    400
+
+DNLJ_ACIC5       406 GTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGV    455
+                     .|:.:..|..||.|.|.::|..|||..||:|..|.|.||.||:|:|||..
+DNLJ_CROS5       401 NTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDA    450
+
+DNLJ_ACIC5       456 MNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLG    505
+                     ::|.|:||.||:.|:..|||.:::|:|.||.|.:.:|||||.|||..|:.
+DNLJ_CROS5       451 LDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIK    500
+
+DNLJ_ACIC5       506 EIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELER    555
+                     .|:.|:|.|..|||:|||||:||..||..|.|.:.|:|.|.|||...|..
+DNLJ_CROS5       501 AIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSS    550
+
+DNLJ_ACIC5       556 VNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRF-TGEKRKKT-----S    599
+                     |..||..::::|.::|...:|.||:::|::.||:. |....:.|     :
+DNLJ_CROS5       551 VYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLT    600
+
+DNLJ_ACIC5       600 QLAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAG    649
+                     ..:|.|||:|||||.|:|:|||..||.|||.|:|||||||:|::.|..||
+DNLJ_CROS5       601 PFSGKTFVITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAG    650
+
+DNLJ_ACIC5       650 SKLEKANSLGVPVIDEAALIKMLETE    675
+                     |||.:|..||:..:.||.|:::|.:|
+DNLJ_CROS5       651 SKLTQAEKLGINQLSEADLLRLLNSE    676
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 697
+# Identity:     135/697 (19.4%)
+# Similarity:   232/697 (33.3%)
+# Gaps:         229/697 (32.9%)
+# Score: 88.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        71 GFAKVAH--SRPMLSLDNVNSE----EELRD---WERRVREQAGQNAEIE    111
+                     |..|:|.  :.|:.||..:::.    |||..   |...:.....:..::|
+MUTS_MYXXD       313 GARKLARWLASPLGSLPEIHARLDAVEELSGRSVWREELAGILKEVGDLE    362
+
+DNLJ_ACIC5       112 YVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIRSVPLSI    161
+                     .:|               |:|:.|            ..|.|.:|::.||:
+MUTS_MYXXD       363 RLC---------------GRLSLG------------AGNARDLRALGLSL    385
+
+DNLJ_ACIC5       162 AD-----GKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAANP    206
+                     |.     ..|.:.:.|....:.|    |.:|..:|     |:.|:.|.  
+MUTS_MYXXD       386 AQLPRVVAVLARCESPLLKSLTG----PLSALPEL-----AELLSRAV--    424
+
+DNLJ_ACIC5       207 RNAAAGTIRTLEPNIVAQR----RLDFYA----YFALTEKGED---AFGE    245
+                              ..||.:..:.    |..|:|    ..||:..|:|   ...:
+MUTS_MYXXD       425 ---------AEEPPVTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIEQ    465
+
+DNLJ_ACIC5       246 QEEALDALATLGFR-----------------------------VNQHRHA    266
+                     :|:....:::|..|                             ||..|..
+MUTS_MYXXD       466 REKERTGISSLKVRYNKVFGYYLEVTKSNLDRVPKDYIRKQTTVNSERFV    515
+
+DNLJ_ACIC5       267 AKSIETVVEFVNRAEEHRSRLGYEI-DGVVVKVNSAVLQRRLGYTGRAPR    315
+                     ...::...|.|..|||.|..|..:: :.:..:|.||           |||
+MUTS_MYXXD       516 TPELKEYEEQVLTAEERRCALEIQLFEELRAQVVSA-----------APR    554
+
+DNLJ_ACIC5       316 -----WAVA--------YKFAARSGVTQVE-DIQVQVGRTGKLTPVAWLA    351
+                          .|||        .:.||..|.|:.| |..|.:..|....||    
+MUTS_MYXXD       555 IRSAAEAVATGDALLSFARCAAEYGYTRPEVDASVALSITAGRHPV----    600
+
+DNLJ_ACIC5       352 PVQVGGTTVTRATLHNADEIERLGLRIGDF-----VRIERGGDVIPKVVE    396
+                                        :||: |..||.     ||::...|....|:.
+MUTS_MYXXD       601 -------------------VERM-LGAGDSFVPNDVRLDPAEDAQLMVIT    630
+
+DNLJ_ACIC5       397 VVDDAEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRES    446
+                     ..:.|......:...........||.|   |.:|          ||:...
+MUTS_MYXXD       631 GPNMAGKSTVMRQVALTALMAQAGSFV---PAKA----------ARIGLC    667
+
+DNLJ_ACIC5       447 LLHFASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMG    496
+                     ...|...|..:....|::..|.    .:.:|...::..|.:.|:.|:.:|
+MUTS_MYXXD       668 DRIFTRVGAADNLARGQSTFMV----EMTETSHILHHATNKSLIILDEIG    713
+
+DNLJ_ACIC5       497 KKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALM    546
+                     :.::|                 ..||.|.:.   .|:.|.:..|:. ||.
+MUTS_MYXXD       714 RGTST-----------------FDGLSIAWA---VAEHLHDTVGAR-ALF    742
+
+DNLJ_ACIC5       547 QASREELERVNDVGPRVSE---AIREFFDEPRN------RDLVE--RLRE    585
+                     .....||..:....|||..   |::|     :|      |.||.  ..|.
+MUTS_MYXXD       743 ATHYHELVDLARERPRVKNLCVAVKE-----QNGKVIFLRKLVPGGASRS    787
+
+DNLJ_ACIC5       586 AGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIENA--------    627
+                     .|:        :.::||||...:.|....|.::...|::::|        
+MUTS_MYXXD       788 YGI--------EVAKLAGLPPEVVGRARELLQNLESGELDDAGRPRVAVR    829
+
+DNLJ_ACIC5       628 ---GGHVSGSVSKKTNYVVAGADAGSKLEKANSLGVPVIDEAALIKM    671
+                        ||....|..:...:.:..|..|:.:..|....:..:..|::.:|
+MUTS_MYXXD       830 QPQGGRRGASTGQLGLFGMEPAQGGTGVTPAQQKALDALKGASIDRM    876
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      32/140 (22.9%)
+# Similarity:    43/140 (30.7%)
+# Gaps:          71/140 (50.7%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       227 LDFYAYFALTEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEF    276
+                     :|.|.| .|.||..|||     ..|.|....|                  
+NOSO_STAAC       237 IDDYRY-NLLEKVADAF-----EFDTLKNNSF------------------    262
+
+DNLJ_ACIC5       277 VNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAARS    326
+                      |:            |..:|::|.||                 |....:.
+NOSO_STAAC       263 -NK------------DRALVELNYAV-----------------YHSFKKE    282
+
+DNLJ_ACIC5       327 GVTQVEDI------------QVQVGR--TGKLTPVAWLAP    352
+                     ||:.|:.:            :.|.||  |||.   :||||
+NOSO_STAAC       283 GVSIVDHLTAAKQFELFERNEAQQGRQVTGKW---SWLAP    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      26/123 (21.1%)
+# Similarity:    46/123 (37.4%)
+# Gaps:          28/123 (22.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       528 GERTAQALAEE--------YGSMDALMQASREELERV----NDVGPRVSE    565
+                     |:.:...|.|:        :||.:......||:.:.|    ::.||:.|.
+RBM8A_MOUSE       21 GDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQDGDEPGPQRSV     70
+
+DNLJ_ACIC5       566 A-----IREFFDEPRNRDLVERLREAG----LRFTGEKRKKTSQLAGLTF    606
+                     .     :....:|....|:.::..|.|    :....::|  |..|.|.|.
+RBM8A_MOUSE       71 EGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRR--TGYLKGYTL    118
+
+DNLJ_ACIC5       607 VLTGTLPGLSRDEAKGKIENAGG    629
+                     |...|.     .||:..:|...|
+RBM8A_MOUSE      119 VEYETY-----KEAQAAMEGLNG    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      17/80 (21.2%)
+# Similarity:    35/80 (43.8%)
+# Gaps:           5/80 ( 6.2%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       464 AIVMQLLGRGLVKT--VSDIYSLTEEQLVSLERMGKKSATALLGEIDKSR    511
+                     |.::..:|..:.::  :|.:..| |..::||..|  .|.|.|......:.
+NU4LM_ARCPU       11 AFIVSFMGLLMYRSHLMSSLLCL-EGMMLSLFVM--MSMTILSNHFTLAS     57
+
+DNLJ_ACIC5       512 QAPLDRVLFGLGIRFVGERTAQALAEEYGS    541
+                     .||:..::|......:|......::..||:
+NU4LM_ARCPU       58 MAPIILLVFAACEAALGLSLLVMVSNTYGT     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 349
+# Identity:      61/349 (17.5%)
+# Similarity:   103/349 (29.5%)
+# Gaps:         128/349 (36.7%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       156 SVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAAN    205
+                     ::.:.|...||..|.:.|:.::|....:|..|.:.....|:|  |:...:
+NANK_ECOLI         3 TLAIDIGGTKLAAALIGADGQIRDRRELPTPASQTPEALRDA--LSALVS     50
+
+DNLJ_ACIC5       206 PRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALAT    255
+                     |..|.|..:......|:                       ::.:|.||..
+NANK_ECOLI        51 PLQAHAQRVAIASTGII-----------------------RDGSLLALNP     77
+
+DNLJ_ACIC5       256 LGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQR    305
+                     .......|....|::|.:...                 ..:.:|.|    
+NANK_ECOLI        78 HNLGGLLHFPLVKTLEQLTNL-----------------PTIAINDA----    106
+
+DNLJ_ACIC5       306 RLGYTGRAPRWAVAYKFAARSG-VTQVEDIQVQVGRTGKLTPVAWLAPVQ    354
+                           :|..||   :|.|..| :|.:..|.|..|               
+NANK_ECOLI       107 ------QAAAWA---EFQALDGDITDMVFITVSTG---------------    132
+
+DNLJ_ACIC5       355 VGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHP    404
+                     |||..|:...|                  :...|.:...:...:.|    
+NANK_ECOLI       133 VGGGVVSGCKL------------------LTGPGGLAGHIGHTLAD----    160
+
+DNLJ_ACIC5       405 RGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDC----------PARLR    444
+                             ||. |.||             |..|.|          .|..:
+NANK_ECOLI       161 --------PHG-PVCG-------------CGRTGCVEAIASGRGIAAAAQ    188
+
+DNLJ_ACIC5       445 ESLLHFASRGVMNIEGMGEAIVMQLL---GRGLVKTVSDIYSLTEEQLV    490
+                     ..|....::.:....|.|:....||:   .|.|.:.::||.:.|:.|.|
+NANK_ECOLI       189 GELAGADAKTIFTRAGQGDEQAQQLIHRSARTLARLIADIKATTDCQCV    237
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      26/135 (19.3%)
+# Similarity:    52/135 (38.5%)
+# Gaps:          45/135 (33.3%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       212 GTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVN    261
+                     ||:..:.|:.:           .|:||.|    ..:|..:.:.|...:.|
+MIAB_MYCPE       394 GTVAAIIPDEI-----------PLSEKKE----RLQELNEMVKTFSKKNN    428
+
+DNLJ_ACIC5       262 QHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTG    311
+                     :            ::||:.      |...:||...|..:.:       :|
+MIAB_MYCPE       429 E------------KYVNKV------LDVLVDGPSKKDKTVI-------SG    453
+
+DNLJ_ACIC5       312 RAPRWAVA-YKFAARSGVTQVEDIQVQVGRTGKLT    345
+                     .:|:|.|. :..:|:||    |.::|.:....:.|
+MIAB_MYCPE       454 YSPQWKVVNFTGSAKSG----EIVKVLITSASRFT    484
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 223
+# Identity:      46/223 (20.6%)
+# Similarity:    84/223 (37.7%)
+# Gaps:          72/223 (32.3%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        20 HEYLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELITPDSPTQRVGGKPK     69
+                     |:.:.:::|...::|              :|:||::.      .|||...
+NADK_STAES        18 HKMINHMKDFQMVED--------------SENPEIVI------SVGGDGT     47
+
+DNLJ_ACIC5        70 --EGFAKVAHSRPMLSLDNVNSEE--ELRDW-----ERRVREQAGQNAEI    110
+                       :.|.:.:|....::...:::..  ...||     |:.:.|.  .|:|.
+NADK_STAES        48 LLQAFHQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEI--NNSEF     95
+
+DNLJ_ACIC5       111 EYVCEYKLDGLSMALHYRD-GQLARGLTRGDGEIGED------VTTNVRT    153
+                     : |.||.|  |.:.:.|.| |...|.|...:..:..:      |..|:| 
+NADK_STAES        96 Q-VIEYPL--LELIVRYNDNGYETRYLALNEATMKTENGSTLVVDVNIR-    141
+
+DNLJ_ACIC5       154 IRSVPLSIADGKLQQAKMPANFE-VRGE---VVMP--FTAFEK------L    191
+                               ||        :|| .||:   :..|  .||:.|      :
+NADK_STAES       142 ----------GK--------HFERFRGDGLCISTPSGSTAYNKALGGALI    173
+
+DNLJ_ACIC5       192 NEEREAQGLAPAANPRNAAAGTI    214
+                     :...||..:|..|:..|....|:
+NADK_STAES       174 HPSLEAMQIAEIASINNRVFRTV    196
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 308
+# Identity:      67/308 (21.8%)
+# Similarity:    99/308 (32.1%)
+# Gaps:         110/308 (35.7%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       415 ACPACGSEVVRTPGEADYRCVNTD-----CPARLRESLLHFASRGVMNIE    459
+                     ||......::..|..|.||.||.|     ||..::::....:.|   |:|
+TRPG_CAEEL        15 ACQDVDEIIIYVPEFAGYREVNIDTAVSVCPTPIQQARRESSCR---NLE     61
+
+DNLJ_ACIC5       460 GMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDK    509
+                               :.|...|.                |..||....||.:.:|
+TRPG_CAEEL        62 ----------MRRRFEKL----------------RREKKEEKKLLADDEK     85
+
+DNLJ_ACIC5       510 SRQAPLDRVLFGLGIRFVGERTAQ---ALAEEYGSMDALM------QASR    550
+                     ......|....|.|::.   ||.|   ::.:|.|||.:|:      :.:|
+TRPG_CAEEL        86 DFDEDDDVFEDGEGLQM---RTFQPNASIRDENGSMPSLLPRTAPIKKTR    132
+
+DNLJ_ACIC5       551 EELER-----VNDVGPRVSEAIREFFDE---PRN------RDLVERLREA    586
+                     :...|     ...|.||.....|.....   |.|      ||:       
+TRPG_CAEEL       133 KHRRRRSGSFTGGVYPRKGHRNRSLLGHAIPPPNVHSADWRDM-------    175
+
+DNLJ_ACIC5       587 GLRFTGEKRKKTSQLAGLTFVL----------TGTLPGLSRDEAKGKIEN    626
+                      |..|..|..|..:..|:|..|          |.|..|           .
+TRPG_CAEEL       176 -LAITDNKDDKLMKTLGVTRYLQSKGGDQVPPTSTTTG-----------G    213
+
+DNLJ_ACIC5       627 AGGHVSGSVSKKTNYVVA----------GADAGSKLEK-----ANS----    657
+                     |||  .|:....|:...|          |..:|.:|.:     |||    
+TRPG_CAEEL       214 AGG--DGNAVPTTSQAQAQTFNSGRQTTGMSSGDRLNEDVSATANSAQLV    261
+
+DNLJ_ACIC5       658 LGVPVIDE    665
+                     |..|:.::
+TRPG_CAEEL       262 LPTPLFNQ    269
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 332
+# Identity:      80/332 (24.1%)
+# Similarity:   121/332 (36.4%)
+# Gaps:          91/332 (27.4%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       250 LDALATLGFRVNQHRHAAKSIETVVEFVNRAEEH---------RSRLGY-    289
+                     :|.:|.:|.:|            :.|...:..||         :|.:|| 
+MSHD_MYCMM        28 VDGVAPVGEQV------------LRELAQQRTEHLLVEDQSPGKSAIGYL     65
+
+DNLJ_ACIC5       290 ------EIDGVVVK-----------VNSAVLQRRLGYT-GRAPRW-----    316
+                           ..|..:.:           :.:|:::..|..| ||...|     
+MSHD_MYCMM        66 NLSPAHGADAAMAELVVHPQARRRGIATAMVRAALAKTGGRNQFWAHGTL    115
+
+DNLJ_ACIC5       317 AVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTTVTRATLH    366
+                     |.|...|:..|:|.|.:: ||:.|:.:..|    .||...|..: |....
+MSHD_MYCMM       116 APAQATASALGLTPVREL-VQMRRSLRQLP----EPVIPNGLQI-RTYAG    159
+
+DNLJ_ACIC5       367 NADEIERLGLRIGDFV-RIERGGDVIPKVVEVVDDAEHPRGTKHFHFPHA    415
+                     ..|:.|.|.:....|. ..|:||      ....|.||. ||...|.    
+MSHD_MYCMM       160 TEDDAELLRVNNAAFAYHPEQGG------WTEADLAER-RGEPWFD----    198
+
+DNLJ_ACIC5       416 CPAC------GSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGV-MNI    458
+                      ||.      |||...            |.| |.:..||.|....: ::.
+MSHD_MYCMM       199 -PAGLFLALEGSEGAE------------DSP-RGQPRLLGFHWTKIHLDD    234
+
+DNLJ_ACIC5       459 EGMGEAIVMQL----LGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALL    504
+                     .|:||..|:.:    .||||.:|::.|...:..|.:....:|::|...|.
+MSHD_MYCMM       235 PGLGEVYVLGVDPAAQGRGLGRTLTMIGLRSLAQRLGDRDLGRESTVMLY    284
+
+DNLJ_ACIC5       505 GEIDKSRQAPLDRVLFGLGIRFVGERTAQALA    536
+                     .|.|.....   |...|||.......||.|||
+MSHD_MYCMM       285 VESDNIAAV---RTYQGLGFSTHSVDTAYALA    313
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      23/95 (24.2%)
+# Similarity:    32/95 (33.7%)
+# Gaps:          43/95 (45.3%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       359 TVTRATLH-------NADEIERLGLRIGDFVRI----------------E    385
+                     |||.|.||       :||.::...|..|:.|.:                |
+PAND_THEFY        14 TVTHADLHYVGSITIDADLMDAANLVDGEQVHVVNITNGHRLVTYVLTGE     63
+
+DNLJ_ACIC5       386 RG----------------GDVIPKVVEVVDDAEHPRGTKHFHFPH    414
+                     ||                ||:: .::..|...|..|.|   |.||
+PAND_THEFY        64 RGSGVIGINGAAARLVAPGDLV-IIISYVQLTEAERAT---HRPH    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      39/161 (24.2%)
+# Similarity:    60/161 (37.3%)
+# Gaps:          28/161 (17.4%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        11 ESLRESIRHHEYLYYVQDQPEIDDLA------FDELMRKL-QRLEAEHPE     53
+                     |:..|:|......|.|....:.||||      |.|.:.|: |:..:...|
+LIPA_ASPOR       187 ENTAEAISRWSLGYVVLTSVDRDDLADGGARHFAETVIKIKQKKPSMLVE    236
+
+DNLJ_ACIC5        54 LITPD--SPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEELRDWERRVR    101
+                     .:|.|  ...:.|....:.|....||        ||.:.|.|..:.|..|
+LIPA_ASPOR       237 CLTGDYLGDLEMVKLVARSGLDVYAH--------NVETVEALTPFVRDRR    278
+
+DNLJ_ACIC5       102 EQAGQNAEIEYVCEYKLDGLSMALHYRDGQLAR-GLTRGDGEIGEDVTTN    150
+                     ....|:..:          |..|...|...:.: .|..|.||..|.:...
+LIPA_ASPOR       279 ATFQQSLRV----------LEAAKQARPDLITKTSLMLGFGETEEQLWDA    318
+
+DNLJ_ACIC5       151 VRTIRSVPLSI    161
+                     :|.:|||.:.:
+LIPA_ASPOR       319 LRQLRSVGVDV    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 431
+# Identity:      78/431 (18.1%)
+# Similarity:   150/431 (34.8%)
+# Gaps:         119/431 (27.6%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       269 SIETVVEFVN-RAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWA    317
+                     |.|.:.:.|| :.....:.:||   |:||.::.:..|     |.:.|   
+FLGI_PECAS        22 SAERIRDLVNIQGVRGNALIGY---GLVVGLDGSGDQ-----TMQTP---     60
+
+DNLJ_ACIC5       318 VAYKFAARS--------GVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTT    359
+                         |..:|        |:|......:|:.....:...|.|.|....|..
+FLGI_PECAS        61 ----FTTQSLTNMLSQLGITVPAGTNMQLKNVAAVMVTAELPPFGRTGQN    106
+
+DNLJ_ACIC5       360 --VTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPRGT    407
+                       :..::|.||..:              |||.::...::.||:..:....
+FLGI_PECAS       107 IDIVVSSLGNAKSL--------------RGGTLLMTPLKGVDNQVYALAQ    142
+
+DNLJ_ACIC5       408 KHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMN    457
+                     .:.....|..:.|...|:         ||.....|:....:  ..|.:.:
+FLGI_PECAS       143 GNVLVGGAGASAGGSSVQ---------VNQLAGGRISNGAV--IERELPS    181
+
+DNLJ_ACIC5       458 IEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEI    507
+                     ..|....|::||        .:|.:|:.::...::.|.| ...||     
+FLGI_PECAS       182 TFGTSNTIMLQL--------KNDDFSMAQKVSDAINRSG-YGGTA-----    217
+
+DNLJ_ACIC5       508 DKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELE---    554
+                          :|||            .||.|.||....|......|..:.:|   
+FLGI_PECAS       218 -----SPLD------------SRTIQVLAPHGNSSQVRFLADVQNIEVNV    250
+
+DNLJ_ACIC5       555 RVND----VGPRVSEAIREFFDEPRNRDLVE---RLREAGLRFTGEKRKK    597
+                     .:.|    :..|....:       .|||:..   .:.:..|..|..::..
+FLGI_PECAS       251 GIQDAKVVINSRTGSVV-------MNRDVTLDSCAIAQGNLSVTINQQAN    293
+
+DNLJ_ACIC5       598 TSQ----LAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVV    643
+                     .||    ..|...|:|        .:.:..::..||     |.::.|   
+FLGI_PECAS       294 VSQPNTPFGGGQTVVT--------PQTEISVQQTGG-----VLQRVN---    327
+
+DNLJ_ACIC5       644 AGADAGSKLEKANSLGVPVIDEAALIKMLET    674
+                     :.|:..:.:...||||...::..::::.:::
+FLGI_PECAS       328 SSANLNNVVRALNSLGATPMELMSILQAMQS    358
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      45/264 (17.0%)
+# Similarity:    89/264 (33.7%)
+# Gaps:          83/264 (31.4%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       107 NAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIRS    156
+                     ||:|..:        :..|:.:.|:....|...:.:|.:|:.|||.:   
+LDH_BORAP         73 NADIVVI--------TAGLNQKPGETRLDLVGKNSKIFKDIITNVVS---    111
+
+DNLJ_ACIC5       157 VPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAANP    206
+                        |..||....|..|.  ::...|.|.::.|                 |
+LDH_BORAP        112 ---SGFDGIFVIASNPV--DIMTYVTMKYSKF-----------------P    139
+
+DNLJ_ACIC5       207 RNAAAGTIRTLEPNIVAQRRLDFYA------------YFALTEKGEDAFG    244
+                     .:...||...|:.:     ||.::.            .:.:.|.|:.:|.
+LDH_BORAP        140 IHKVIGTGTILDTS-----RLRYFLSDRFNVNTQNIHSYVMGEHGDSSFV    184
+
+DNLJ_ACIC5       245 EQEEALDALATLGFRVNQHRHAAKSIETV-VEFVNRAEEHRSRLGYEIDG    293
+                     ..:|...|:..|...:::.:.....::.: .:.||.|.|           
+LDH_BORAP        185 TWDETKIAMKPLSEYLSEGKITELELDEIHKKVVNAAYE-----------    223
+
+DNLJ_ACIC5       294 VVVKVNSAVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGK    343
+                      |:|:..|..                  :|...|:..:  :...:|....
+LDH_BORAP        224 -VIKLKGATY------------------YAIGLGIKNI--VNAIIGDQNI    252
+
+DNLJ_ACIC5       344 LTPVAWLAPVQVGG    357
+                     :.|::.....|.||
+LDH_BORAP        253 ILPISSYINGQYGG    266
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 361
+# Identity:      59/361 (16.3%)
+# Similarity:   111/361 (30.7%)
+# Gaps:         146/361 (40.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       140 DGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGE------VVM    183
+                     |.:|.....||:..:.|..        .:..:||:.::||.      |:.
+EXGB_EMENI        22 DKDIYSAAGTNIFNVTSAS--------SKRWLPASKKIRGVNLGSHFVIE     63
+
+DNLJ_ACIC5       184 PFTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYF    233
+                     |:              :|..|......:|            :|.:|....
+EXGB_EMENI        64 PW--------------MASMAWSNMGCSG------------QRSEFDCVM     87
+
+DNLJ_ACIC5       234 AL-TEKGEDAFGEQ------EEALDALATLGFRVNQHRHAAKSIETVVEF    276
+                     || .|..:.||.:.      ::.::.:...|            :.|:   
+EXGB_EMENI        88 ALGQETADQAFADHWGSWITQDDINQMVQYG------------LNTI---    122
+
+DNLJ_ACIC5       277 VNRAEEHRSRLGYEIDGVVVKVNSAVLQR-RLGYTGRAPRWAVAYKFAAR    325
+                            |..:||.:...:|..:|....: .:||......|      |:.
+EXGB_EMENI       123 -------RIPVGYWLKEDLVYADSEHFPKGGIGYLEDVCGW------ASD    159
+
+DNLJ_ACIC5       326 SGVTQVEDIQVQVGR-------TGKLTP----------------VAWLAP    352
+                     :|:..:.|:....|.       ||:..|                :.|:  
+EXGB_EMENI       160 AGMYIIIDLHGAPGAQQPKQPFTGQYAPNPGFYQDYQYDRALEFLEWM--    207
+
+DNLJ_ACIC5       353 VQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAE    402
+                          ||    ::|..::...:|:              :..|.|.|.:|:
+EXGB_EMENI       208 -----TT----SIHQNNKFRNVGM--------------LEIVNEPVQNAD    234
+
+DNLJ_ACIC5       403 HPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFAS    452
+                     ......:.::|.|..               |..||       ||.|...|
+EXGB_EMENI       235 QASSMINSYYPSAFT---------------RIRNT-------ESSLGITS    262
+
+DNLJ_ACIC5       453 RGVMNIEGMGE    463
+                     ...::|:.|.|
+EXGB_EMENI       263 NNYLHIQMMNE    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      38/171 (22.2%)
+# Similarity:    67/171 (39.2%)
+# Gaps:          37/171 (21.6%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       449 HFASRG--VMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLER--    494
+                     |...||  |:.:...|...|.:.:...|:::.:||.|:.|..|.|..|  
+KTHY_CHLP8        23 HLQERGREVLTLREPGGTPVAEQIRELLLESHNDITSIAELLLFSASRAE     72
+
+DNLJ_ACIC5       495 -MGK------------------KSATALLG---EIDKSRQAPLDRVLFGL    522
+                      |.|                  .|.||..|   .::....|.::|:. ..
+KTHY_CHLP8        73 LMEKIIVPALEDGCDVILDRFFDSTTAYQGYGRGLNLDMLAEINRIA-SH    121
+
+DNLJ_ACIC5       523 GIR----FVGERTAQ-ALAEEYGSMDALMQASREELERVNDVGPRVSEAI    567
+                     |||    |..:.|.: ||..::......:....|||:|:.:.|....:.:
+KTHY_CHLP8       122 GIRPDITFYLDLTPEDALLRKFSEKSLPLAFESEELDRMENSGLEFYQRV    171
+
+DNLJ_ACIC5       568 REFFD-----EPRNRDLVERL    583
+                     |..:.     ||:...:::.|
+KTHY_CHLP8       172 RAGYHAILEAEPQRIIMIDAL    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 577
+# Identity:     125/577 (21.7%)
+# Similarity:   193/577 (33.4%)
+# Gaps:         180/577 (31.2%)
+# Score: 92.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       146 DVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEV--VMPFTAFEKLNE    193
+                     |||.:....:.. ..::|.||::|....|.:...|.  :..|.|..:...
+SECA2_MYCTO       64 DVTASAEYDKEA-ADLSDEKLRKAAGLLNLDDLAESADIPQFLAIAREAA    112
+
+DNLJ_ACIC5       194 EREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAF    243
+                     ||.. ||.|.   .....|.:|.|..:::                 |.|.
+SECA2_MYCTO      113 ERRT-GLRPF---DVQLLGALRMLAGDVI-----------------EMAT    141
+
+DNLJ_ACIC5       244 GEQEEALDALATLGFRV-NQHRHAAKSIETVVEFVNRAEEHRSRLGYEID    292
+                     ||.:....|:|..|:.: .:|.|    :.|:.:::.|.:  ...:|..:|
+SECA2_MYCTO      142 GEGKTLAGAIAAAGYALAGRHVH----VVTINDYLARRD--AEWMGPLLD    185
+
+DNLJ_ACIC5       293 GVVVKV-----NSAVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQ    337
+                     .:.:.|     :|...:||..|..     .|.|        ..|.:|...
+SECA2_MYCTO      186 AMGLTVGWITADSTPDERRTAYDR-----DVTY--------ASVNEIGFD    222
+
+DNLJ_ACIC5       338 VGRTGKLTPVAWLAPVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERG    387
+                     |.|...:|.|..|.     ......|.:..||.:                
+SECA2_MYCTO      223 VLRDQLVTDVNDLV-----SPNPDVALIDEADSV----------------    251
+
+DNLJ_ACIC5       388 GDVIPKVVEVVDDAEHP---RGTKHFHFPHACPACGSEVVRTPGEA----    430
+                              :||:|..|   .||.|...|..      |::|...|.    
+SECA2_MYCTO      252 ---------LVDEALVPLVLAGTTHRETPRL------EIIRLVAELVGDK    286
+
+DNLJ_ACIC5       431 ---DYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLGRGLVKT    477
+                        :|...::|      ...:|....|...:|        :.|| |:   
+SECA2_MYCTO      287 DADEYFATDSD------NRNVHLTEHGARKVE--------KALG-GI---    318
+
+DNLJ_ACIC5       478 VSDIYS-------LTEEQL-----VSLER----MGKKSATALLGEIDKSR    511
+                       |:||       |||..:     |.|:|    :.:..|..|: ...:.|
+SECA2_MYCTO      319 --DLYSEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLI-NASRGR    365
+
+DNLJ_ACIC5       512 QAPLDRVLFGL--------GIRF--VGE----RTAQALAEEYGS---MDA    544
+                     .|.|.|...||        ||..  .||    .|.|||...|.:   |..
+SECA2_MYCTO      366 IAQLQRWPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYATVCGMTG    415
+
+DNLJ_ACIC5       545 LMQASREELERVNDVG----PRVSEAIREFFDE---------PRNRDLVE    581
+                     ...|:.|:|.:...:|    |.....|||  ||         .:|..:||
+SECA2_MYCTO      416 TALAAGEQLRQFYQLGVSPIPPNKPNIRE--DEADRVYITTAAKNDGIVE    463
+
+DNLJ_ACIC5       582 RLRE---------AGLRFTGEKRKKTSQLA--GLTFVLTGTLPGLSRDEA    620
+                     .:.|         .|.|...|..:...:|.  |:..|:   |...:..|.
+SECA2_MYCTO      464 HITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVV---LNAKNDAEE    510
+
+DNLJ_ACIC5       621 KGKIENAGGHVSGSVSKKTNYVVAGAD    647
+                     ...|..||.:  |:|:..|.....|.|
+SECA2_MYCTO      511 ARVIAEAGKY--GAVTVSTQMAGRGTD    535
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      14/52 (26.9%)
+# Similarity:    20/52 (38.5%)
+# Gaps:          18/52 (34.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       583 LREAGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIENAGGHVS    632
+                     :|.|.|.||            :.|.::..||      ||||.:......:
+DB108_HUMAN        1 MRIAVLFFT------------IFFFMSQVLP------AKGKFKEICERPN     32
+
+DNLJ_ACIC5       633 GS    634
+                     ||
+DB108_HUMAN       33 GS     34
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      37/180 (20.6%)
+# Similarity:    62/180 (34.4%)
+# Gaps:          73/180 (40.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       412 FPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGM    461
+                     ||:..|....|:::..||....|:..                 |..:.|:
+LCMT1_CRYNB      262 FPYMSPEDSREIIKWFGETFCSCMGV-----------------VYEMVGL    294
+
+DNLJ_ACIC5       462 GEAI--VMQLLGRGL-VKTVS---DIYSLTEEQLVSLERMGKKSATALL-    504
+                     .::.  ||:   |.| |:.:|   .|:|..|.|      .|:.::..|. 
+LCMT1_CRYNB      295 DDSFGNVMK---RNLAVRNLSIPGSIFSTPESQ------AGRFTSPMLQG    335
+
+DNLJ_ACIC5       505 GEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELE    554
+                     |:.|.:                 |.:|...:.||        ....|||:
+LCMT1_CRYNB      336 GKFDSA-----------------GAKTLWQIREE--------DVGPEELQ    360
+
+DNLJ_ACIC5       555 RVNDVGPRVSEAIREFFDEPRNRDLVERLR    584
+                     |::.:         |..||      :|.||
+LCMT1_CRYNB      361 RISKL---------EILDE------IEELR    375
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      40/185 (21.6%)
+# Similarity:    70/185 (37.8%)
+# Gaps:          60/185 (32.4%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       455 VMNIEGMGEAIVMQ-LLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATAL    503
+                     ::|||.:.:.:..: ::|.|                ::::..|.|....:
+PTGA_SALTY        31 IVNIEDVPDVVFAEKIVGDG----------------IAIKPTGNKMVAPV     64
+
+DNLJ_ACIC5       504 LGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREEL    553
+                     .|.|.|         :|.....|..|..:......:..:|. ::...|..
+PTGA_SALTY        65 DGTIGK---------IFETNHAFSIESDSGIELFVHFGIDT-VELKGEGF    104
+
+DNLJ_ACIC5       554 ERVNDVGPR--VSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQL    601
+                     :|:.:.|.|  |.:.:.| ||.|    |:|           ||.|.|   
+PTGA_SALTY       105 KRIAEEGQRVKVGDPVIE-FDLP----LLE-----------EKAKST---    135
+
+DNLJ_ACIC5       602 AGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVS    636
+                       ||.|:...:     ||.|..|:     :||||:
+PTGA_SALTY       136 --LTPVVISNM-----DEIKELIK-----LSGSVT    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      21/77 (27.3%)
+# Similarity:    38/77 (49.4%)
+# Gaps:           8/77 (10.4%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       529 ERTAQALAEEYGSMDALMQASREELERVNDVGPRVSEAIREFFDEPRNRD    578
+                     |:..|.|..:|   :.|.|:.::|:..|:.:..:: :..|:....||| .
+RR14_CRYJA        10 EKKKQRLERKY---NLLRQSLKKEMSEVSSLDDKL-DIYRKLQSLPRN-S     54
+
+DNLJ_ACIC5       579 LVERLREAGLRFTGEKRK--KTSQLAG    603
+                     ...|||...|: ||..|.  :..:|:|
+RR14_CRYJA        55 APTRLRRRCLK-TGRPRANYRDFELSG     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 396
+# Identity:      77/396 (19.4%)
+# Similarity:   132/396 (33.3%)
+# Gaps:         137/396 (34.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        41 MRKLQRLEAEHPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSE     90
+                     ||:..|.:.|:.:|            |.|.|..::.|            :
+DCUP_BACVZ        28 MRQAGRSQPEYRKL------------KEKYGLVEITH------------Q     53
+
+DNLJ_ACIC5        91 EELRDWERRVR-EQAGQNAEIEYVCEYKLDGLSMALHY--RDGQLARGL-    136
+                     .||..:..|:. ||.|.:|.|.|      ..:...|.|  .|.::..|: 
+DCUP_BACVZ        54 PELCAYVTRLPVEQYGVDAAILY------KDIMTPLPYIGVDVEIKNGIG     97
+
+DNLJ_ACIC5       137 --------TRGD----GEIG--EDVTTNVRTIR-------SVPLSIADGK    165
+                             :..|    ||:.  :||...:.|||       :|||....| 
+DCUP_BACVZ        98 PVIDQPVRSAADIEKLGELNPEQDVPYVLETIRLLVNEQLNVPLIGFSG-    146
+
+DNLJ_ACIC5       166 LQQAKMPANFEVRGEVV-----------------MPFTAFEKLNEEREAQ    198
+                            |.|.:...::                 || .|::.|.::....
+DCUP_BACVZ       147 -------APFTLASYMIEGGPSKNYNKTKAFMHSMP-QAWKMLMDKLADM    188
+
+DNLJ_ACIC5       199 GLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEE    248
+                     .:..|....||.|..|:..:..:.|..|.|:..:.             :.
+DCUP_BACVZ       189 IIVYAKAQINAGAKAIQIFDSWVGALNREDYRQFI-------------KP    225
+
+DNLJ_ACIC5       249 ALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKV    298
+                     .:|.:    ||    ..:|:.:..::..|..:  |.:...:::...||.:
+DCUP_BACVZ       226 VMDRI----FR----ELSAEQVPLIMFGVGAS--HLAGDWHDLPLDVVGL    265
+
+DNLJ_ACIC5       299 NSAVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVA    348
+                     :                |.:....|.:.|:|:.    ||    |.|.|..
+DCUP_BACVZ       266 D----------------WRLGIDDARKQGITKT----VQ----GNLDPSL    291
+
+DNLJ_ACIC5       349 WLAPVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKV    394
+                     .|||.:|        ....|..|...|::...|: ...|..|.|.|
+DCUP_BACVZ       292 LLAPWEV--------IEKKAKAILDQGMKTDGFI-FNLGHGVFPDV    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      69/365 (18.9%)
+# Similarity:   114/365 (31.2%)
+# Gaps:         129/365 (35.3%)
+# Score: 79.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        22 YLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELITPDSPTQRVGGKPKEG     71
+                     |.|.:|...|.|.:  ||.:...:.|:..|                    
+GTF2I_MOUSE      249 YQYNIQGPSETDGV--DEKLPLSKALQGSH--------------------    276
+
+DNLJ_ACIC5        72 FAKVAHSRPMLSLDNVNSEEEL--RDWERRVREQAGQNAEIEYVCEYKLD    119
+                          ||    |..|..:|.|:  .|..:.|..:..::.|:|...|    
+GTF2I_MOUSE      277 -----HS----SEGNEGTEVEVPAEDSTQHVPSETSEDPEVEVTIE----    313
+
+DNLJ_ACIC5       120 GLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIRS--------VPLSI    161
+                                             .:|.:...:.::|        ||...
+GTF2I_MOUSE      314 ------------------------DDDYSPPTKRLKSTEPPPPPPVPEPA    339
+
+DNLJ_ACIC5       162 ADGK------------------------LQQAKMPANFEVRGEVVMPFTA    187
+                     ..||                        |.:.|.....:.:|.|.:|:..
+GTF2I_MOUSE      340 NAGKRKVREFNFEKWNARITDLRKQVEELFERKYAQAIKAKGPVTIPYPL    389
+
+DNLJ_ACIC5       188 FEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFY--AYFAL    235
+                     |:...|:...:||......|..:...|..||..::|:.|:.|.  .:..|
+GTF2I_MOUSE      390 FQSHVEDLYVEGLPEGIPFRRPSTYGIPRLERILLAKERIRFVIKKHELL    439
+
+DNLJ_ACIC5       236 TEKGED------AFGEQEEALDALATLGFRVNQ-----HRHAAKSIETVV    274
+                     ....||      |.|.:||....:..|...|:|     ...|..|.|...
+GTF2I_MOUSE      440 NSTREDLQLDKPASGVKEEWYARITKLRKMVDQLFCKKFAEALGSTEAKA    489
+
+DNLJ_ACIC5       275 EFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAA    324
+                     ....:.|.|.:.|  .::|         |...:.:  |:|.|        
+GTF2I_MOUSE      490 VPYQKFEAHPNDL--YVEG---------LPENIPF--RSPSW--------    518
+
+DNLJ_ACIC5       325 RSGVTQVEDIQVQVG    339
+                      .|:.::|.| :|||
+GTF2I_MOUSE      519 -YGIPRLEKI-IQVG    531
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 331
+# Identity:      71/331 (21.5%)
+# Similarity:   110/331 (33.2%)
+# Gaps:          99/331 (29.9%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       351 APVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDD    400
+                     ||:.     |....:||...:|.|..|...||   ...|.:|....|:..
+ISPH_ACIF5        31 APIY-----VRHEVVHNRHVVEDLRARGAIFV---EELDEVPDAATVIFS     72
+
+DNLJ_ACIC5       401 AEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCP----------    440
+                     |            |..|....|.....|.:.:   :..||          
+ISPH_ACIF5        73 A------------HGVPIAVREHAAARGLSVF---DATCPLVTKVHMEVK    107
+
+DNLJ_ACIC5       441 --ARLRESLLHFASRGVMNIEG-MGEAIVMQLLGRGLVKTVSDIYSL---    484
+                       :|....::.....|...:|| ||:.....:.   ||..|||:.:|   
+ISPH_ACIF5       108 KYSRDGMEMVLIGHAGHPEVEGTMGQVEEGMMY---LVSNVSDVATLAPR    154
+
+DNLJ_ACIC5       485 -----------------TEEQLVSLERM-----GKKS-----ATALLGEI    507
+                                      |.|.:|:|...     |.|.     ||....:.
+ISPH_ACIF5       155 NPDKLAYITQTTLSMDDTAEVIVALRSRFPLIEGPKKDDICYATQNRQDA    204
+
+DNLJ_ACIC5       508 DKSRQAPLDRVLFGLGIRFVG-------ERTAQALAEEYGSMDALM----    546
+                     .||....:|.:|      .||       .|.|: |....|:...|:    
+ISPH_ACIF5       205 VKSLAPDVDILL------VVGAPNSSNSSRLAE-LGTRLGTQTHLIEDAQ    247
+
+DNLJ_ACIC5       547 QASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRK    596
+                     |..||..|.|..:|.....:..|...:    ::::.||..|.|...|   
+ISPH_ACIF5       248 QLRREWFEGVGKIGISAGASAPESLVQ----EIMDTLRGWGARVPQE---    290
+
+DNLJ_ACIC5       597 KTSQLAGLTFVLTGTLPGLSRDEAKGKIENA    627
+                         :.|:...:|.:|| |:..:|:.:.|.|
+ISPH_ACIF5       291 ----MPGVEEKVTFSLP-LALIQAQTRREGA    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    13/29 (44.8%)
+# Gaps:           9/29 (31.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        54 LITPDSPTQRV-----GGKPKEGFAKVAH     77
+                     |:.|...|..:     |||.|    :|||
+NDUA1_HUMAN       16 LLIPGLATAYIHRFTNGGKEK----RVAH     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      36/164 (22.0%)
+# Similarity:    63/164 (38.4%)
+# Gaps:          51/164 (31.1%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       255 TLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQ    304
+                     ||.|..|:.|  |::::..::.:.:....|..:.|.|  |:.::.:.:||
+PSRP_SALTI        39 TLPFVENESR--ARAVKDQIDAIYQQTGVRPLVFYSI--VLPEIRAIILQ     84
+
+DNLJ_ACIC5       305 -------------------RRLGYTGRAPRW----------------AVA    319
+                                        .:|..|..|.|.                |:.
+PSRP_SALTI        85 SEGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNPGNLNKYDARIAAID    134
+
+DNLJ_ACIC5       320 YKFAARSGVT-----QVEDIQVQVGRTGKLTPVAWLAPVQVGGTTVTRAT    364
+                     |..|...|::     |.:.|.:.|.|.|| ||.:....:|.|    .||.
+PSRP_SALTI       135 YTLAHDDGISLRNLDQAQVILLGVSRCGK-TPTSLYLAMQFG----IRAA    179
+
+DNLJ_ACIC5       365 LHN--ADEIERLGL    376
+                     .:.  ||:::.|.|
+PSRP_SALTI       180 NYPFIADDMDNLTL    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 593
+# Identity:     118/593 (19.9%)
+# Similarity:   199/593 (33.6%)
+# Gaps:         183/593 (30.9%)
+# Score: 110.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        95 DWERRVREQAGQNAEIE---YVCEYKLDGLSMALHYRDGQLARGLTRGDG    141
+                     |.:|:..:.||:.|.:|   .:.|.....|:..|..::|:.......|.|
+DNAK_CHESB       148 DAQRQATKDAGKIAGLEVLRIINEPTAAALAYGLDKKEGKTIAVYDLGGG    197
+
+DNLJ_ACIC5       142 -------EIGEDV----TTNVRTI-------------------RSVPLSI    161
+                            |||:.|    :||..|.                   :...:.:
+DNAK_CHESB       198 TFDISILEIGDGVFEVKSTNGDTFLGGEDFDMRLVNYLADEFKKEQGIDL    247
+
+DNLJ_ACIC5       162 ADGKL---------QQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAP    202
+                     .:.||         ::||:..:...:.|:.:||...::...:..|..|..
+DNAK_CHESB       248 KNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTR    297
+
+DNLJ_ACIC5       203 AANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDA    252
+                     |...........||:||           ...||.:.|..| ||.:|.:  
+DNAK_CHESB       298 AKFESLVEDLVTRTIEP-----------CRAALKDAGLSA-GEIDEVV--    333
+
+DNLJ_ACIC5       253 LATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAV    302
+                           .|.......|..|||..|..: |.|:                  
+DNAK_CHESB       334 ------LVGGMTRMPKVQETVKNFFGK-EPHK------------------    358
+
+DNLJ_ACIC5       303 LQRRLGYTGRAPRWAVAYKFAARSGVTQ--VEDIQVQVGRTGKLTPVAWL    350
+                             |..|...||...|.::||.|  |:|:.           :..:
+DNAK_CHESB       359 --------GVNPDEVVAMGAAIQAGVLQGDVKDVL-----------LLDV    389
+
+DNLJ_ACIC5       351 APVQVGGTTVTRATLHNADEIERLGLRIGDFVR-IERGGDVIPKVVEVVD    399
+                     .|:.:|              ||.||   |.|.| |:|...:..|..:|..
+DNAK_CHESB       390 TPLSLG--------------IETLG---GVFTRLIDRNTTIPTKKSQVFS    422
+
+DNLJ_ACIC5       400 DAEHPRGTKHFHFPHACPACGSEVVRT-PGEADYRCVNTDCPARLRESLL    448
+                     .||..:              .:..:|. .||.:....|        :.|.
+DNAK_CHESB       423 TAEDNQ--------------NAVTIRVFQGEREMAADN--------KLLG    450
+
+DNLJ_ACIC5       449 HF-------ASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVS    491
+                     .|       |.||:..||     :...:...|:|...:......:||.:.
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIE-----VTFDIDANGIVNVSAKDKGTGKEQQIR    495
+
+DNLJ_ACIC5       492 LERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGS    541
+                     ::..|..|            .|.:::::.........::..:...|....
+DNAK_CHESB       496 IQASGGLS------------DAEIEKMVKDAEANAEADKKRRETVEVKNQ    533
+
+DNLJ_ACIC5       542 MDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFT    591
+                     .:||:.::.:.|:   |.|.:|||..|:..:     :.:..|:.|   ..
+DNAK_CHESB       534 AEALIHSTEKSLK---DYGDKVSEDDRKAIE-----NAIAELKTA---TE    572
+
+DNLJ_ACIC5       592 GEK----RKKTSQLAGLTFVLTGTLPGLSRDE-AKGKIENAGG    629
+                     ||.    |.||:.||..:..|...:...|:.| |.|..|..||
+DNAK_CHESB       573 GEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETGG    615
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 677
+# Identity:     677/677 (100.0%)
+# Similarity:   677/677 (100.0%)
+# Gaps:           0/677 ( 0.0%)
+# Score: 3437.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5         1 MSHASAAQQIESLRESIRHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5         1 MSHASAAQQIESLRESIRHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAE     50
+
+DNLJ_ACIC5        51 HPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEELRDWERRV    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5        51 HPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEELRDWERRV    100
+
+DNLJ_ACIC5       101 REQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       101 REQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTN    150
+
+DNLJ_ACIC5       151 VRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       151 VRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGL    200
+
+DNLJ_ACIC5       201 APAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEAL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       201 APAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEAL    250
+
+DNLJ_ACIC5       251 DALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNS    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       251 DALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNS    300
+
+DNLJ_ACIC5       301 AVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWL    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       301 AVLQRRLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWL    350
+
+DNLJ_ACIC5       351 APVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDD    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       351 APVQVGGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDD    400
+
+DNLJ_ACIC5       401 AEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHF    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       401 AEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHF    450
+
+DNLJ_ACIC5       451 ASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSA    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       451 ASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSA    500
+
+DNLJ_ACIC5       501 TALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASR    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       501 TALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASR    550
+
+DNLJ_ACIC5       551 EELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQ    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       551 EELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQ    600
+
+DNLJ_ACIC5       601 LAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAGS    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_ACIC5       601 LAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAGS    650
+
+DNLJ_ACIC5       651 KLEKANSLGVPVIDEAALIKMLETEQA    677
+                     |||||||||||||||||||||||||||
+DNLJ_ACIC5       651 KLEKANSLGVPVIDEAALIKMLETEQA    677
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      17/58 (29.3%)
+# Similarity:    26/58 (44.8%)
+# Gaps:          15/58 (25.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        10 IESLRESI---RHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELIT     56
+                     :.::|..|   |.:..|.|.:|    |.|..|||   :..::.||..:  
+CAPSD_CMVO       170 LSAMRADIGDMRKYAVLVYSKD----DALETDEL---VLHVDIEHQRI--    210
+
+DNLJ_ACIC5        57 PDSPTQRV     64
+                        ||.||
+CAPSD_CMVO       211 ---PTSRV    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      41/215 (19.1%)
+# Similarity:    79/215 (36.7%)
+# Gaps:          59/215 (27.4%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        24 YYVQDQ---PEIDDLAFDELMRKLQRLEAEHPELITPDSPTQRVGGKPKE     70
+                     |.|.:|   ||:..:..|...:.::.:||..   :..|.....:..:|..
+IF3_CHLL2         15 YRVNEQIRVPEVRIVFQDGTQQVMKTIEARR---MAEDRNLDLIEVQPNA     61
+
+DNLJ_ACIC5        71 GFAKVAHSRPMLSLDNVNS---EEELRDWERRVREQAGQNAEIEY-----    112
+                            ..|:..|||:..   :.:.||.:.:.:::.....|:.:     
+IF3_CHLL2         62 -------EPPVCKLDNLGKLLFKMDKRDKDLKKKQKTTTLKELRFHPNTD    104
+
+DNLJ_ACIC5       113 ----------VCEYKLDG---------LSMALHYRDGQLARGLTRGDGEI    143
+                               :.|:...|         |..::.|:|    :||     |:
+IF3_CHLL2        105 KHDFDFKTAHLEEFLRKGNRVRATIVFLGRSIIYKD----KGL-----EL    145
+
+DNLJ_ACIC5       144 GEDVTTNVRTIRSVPLSIADG--KLQQAKMPANFEVRGEVVMPFTAFEKL    191
+                     .|.:|..:..:     |..||  |.:..|:...||...:.:   .|||::
+IF3_CHLL2        146 AERLTERLSCV-----SNRDGDPKFEGKKLFVYFEPDKKKI---DAFERI    187
+
+DNLJ_ACIC5       192 NEEREAQGLAPAANP    206
+                     ..:......|||..|
+IF3_CHLL2        188 KAKTSGPAPAPAPLP    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      13/64 (20.3%)
+# Similarity:    29/64 (45.3%)
+# Gaps:          14/64 (21.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       136 LTRGDGE---IGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVV    182
+                     |||..||   ||:|::..|.::|...:.:.      .:.|....|..|.:
+CSRA_HAEI8         4 LTRKVGESVLIGDDISITVLSVRGNQVKLG------VEAPKEVSVHREEI     47
+
+DNLJ_ACIC5       183 MPFTAFEKLNEERE    196
+                          ::::.:.::
+CSRA_HAEI8        48 -----YQRIKQTKD     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      38/163 (23.3%)
+# Similarity:    63/163 (38.7%)
+# Gaps:          38/163 (23.3%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       352 PVQVGGTTVTRATLHNADEIERLGLRIGDF--------VRIER---GGDV    390
+                     |.:||...:..|..  |.||.:..|.|.||        |..|.   ||.:
+COAX_CLOBL       103 PKEVGADRIVNAVA--AHEIYKKPLIIIDFGTATTFCAVTKEANYLGGTI    150
+
+DNLJ_ACIC5       391 IPKVVEVVDDAEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCP    440
+                     .|. :::..||...:..|   .|..      |:|:|||..   |.||  .
+COAX_CLOBL       151 CPG-IKISSDALFDKAAK---LPRV------ELVKTPGVI---CKNT--V    185
+
+DNLJ_ACIC5       441 ARLRESLL--------HFASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIY    482
+                     |.::..::        :..|:....:..:||.....:...|..|.:|:..
+COAX_CLOBL       186 ASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEES    235
+
+DNLJ_ACIC5       483 SLTEE--QLVSLE    493
+                     ...:|  .:::||
+COAX_CLOBL       236 KSIDEINAILTLE    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      19/93 (20.4%)
+# Similarity:    37/93 (39.8%)
+# Gaps:          34/93 (36.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        27 QDQPEIDDLAFDELMRKLQRLEAEHPELITPDSPTQRVGGKPKEGFAKVA     76
+                     :||.||.:..|:::.:        ||:      ||               
+HOP_BOVIN         11 EDQVEILEYNFNKVNK--------HPD------PT---------------     31
+
+DNLJ_ACIC5        77 HSRPMLSLDNVNSEEELRDW-ERRV---REQAGQNAEIEYVCE    115
+                      :..:::.:...||||.:.| ::|:   |...|..:|...|.:
+HOP_BOVIN         32 -TLCLIAAEAGLSEEETQKWFKQRLAQWRRSEGLPSECRSVTD     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 555
+# Identity:     105/555 (18.9%)
+# Similarity:   184/555 (33.2%)
+# Gaps:         147/555 (26.5%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        51 HPELITPDSPTQRVGGKPKEGFAKVAHSRPMLSL------DNVNSEEELR     94
+                     |||:.......::...|..|...:....|...|:      |::....|..
+THII_VIBA3         8 HPEIFVKSESVRKRFTKILERNIRTILQRRTESVAVFNRRDHIEVTSESD     57
+
+DNLJ_ACIC5        95 DWERRVREQAGQNAEIEYVCEYK------LDGLSMALHYRDGQLARGLT-    137
+                     .:.:...|...|...|.:..|.:      |..:...:..|.|.|..|.| 
+THII_VIBA3        58 KYFKETLEVLTQTPGIHHSLEVQQSEFKDLHNIYEQVLERSGALIEGKTF    107
+
+DNLJ_ACIC5       138 ------RGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEV    181
+                           ||..:.     |::...|.|     .|.|.||...|..:::   
+THII_VIBA3       108 SVRAKRRGKHDF-----TSIELERYV-----GGGLNQAVESAKVKLK---    144
+
+DNLJ_ACIC5       182 VMPFTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYA    231
+                                            ||.......:...:.|.|.:|      
+THII_VIBA3       145 -----------------------NPDITVKVEVENDKLNQVIER------    165
+
+DNLJ_ACIC5       232 YFALTEKGEDAF--GEQEEALDALATLGF--RVNQHRHAAKSIETVVEFV    277
+                          .||...|  |.||:.| :|.:.||  .|:.:.|..:..:....|.
+THII_VIBA3       166 -----HKGLGGFPLGTQEDLL-SLISGGFDSGVSSYLHIKRGSKVHYCFF    209
+
+DNLJ_ACIC5       278 NRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAARSG    327
+                     |        ||.....:.||..|..|..:.|.:.:....::.::......
+THII_VIBA3       210 N--------LGGPAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEI    251
+
+DNLJ_ACIC5       328 VTQVEDIQVQV--------------GRTGKLTPVAWLAPVQVGGTTVTRA    363
+                     :..|||.|:.|              .|.|....|...|..||...|:|  
+THII_VIBA3       252 LENVEDGQMGVVLKRMFMRAGGMVAERFGIEALVTGEALGQVSSQTLT--    299
+
+DNLJ_ACIC5       364 TLHNADEI-ERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPRGTKHFH-    411
+                     .|.:.|.: :.|.||           .:|....|.:.|.....||:.|. 
+THII_VIBA3       300 NLRHIDNVTDTLILR-----------PLINWDKEDIIDLSRKIGTEDFAK    338
+
+DNLJ_ACIC5       412 -FPHACPACGSE--VVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNI    458
+                      .|..|.....:  |....|:.:                   |.....|.
+THII_VIBA3       339 VMPEYCGVISKKPTVKAKKGKLE-------------------AEEAKFNF    369
+
+DNLJ_ACIC5       459 EGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEI-    507
+                     |     ::.|::....:..:.||...::||...:|::...:..|::.:| 
+THII_VIBA3       370 E-----VLEQVIENARIMDIRDIEKESQEQAPEVEQVQAVAEHAVVLDIR    414
+
+DNLJ_ACIC5       508 --DKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDA----LMQASRE    551
+                       |:..::||:  :.|:.|:.:   ....|:.::|.:|.    |:...|.
+THII_VIBA3       415 SPDEEDESPLE--IDGVEIKHI---PFFKLSTQFGDLDQSKEYLLYCDRG    459
+
+DNLJ_ACIC5       552 ELERV    556
+                     .:.|:
+THII_VIBA3       460 VMSRL    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      24/122 (19.7%)
+# Similarity:    49/122 (40.2%)
+# Gaps:          22/122 (18.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       491 SLERMGKKSATALLGEIDKSRQAPLDR-----VLFGLGIRFVGERTAQAL    535
+                     :|.|:..:.||.|.|:........:|.     |:....:|..|.:::..:
+RL13_PSEPG        24 TLGRLATEIATRLRGKHKPEYTPHVDTGDYIVVINAEQVRVTGAKSSDKM     73
+
+DNLJ_ACIC5       536 AEEY-GSMDALMQASREEL-----ERVNDVGPRVSEAIREFFDE-PRNRD    578
+                     ...: |....:.:.:.|:|     |||      :..|::....: |..||
+RL13_PSEPG        74 YYSHSGFPGGIKEINFEKLIAKAPERV------IETAVKGMLPKNPLGRD    117
+
+DNLJ_ACIC5       579 LVERLREAGLRFTGEKRKKTSQ    600
+                     :..:|:.    :.|.....|:|
+RL13_PSEPG       118 MYRKLKV----YAGAAHPHTAQ    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      32/152 (21.1%)
+# Similarity:    48/152 (31.6%)
+# Gaps:          61/152 (40.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       576 NRDLVERLREAGLRFTGEKRKKTSQLA-----------------------    602
+                     |.||.|.:| ||:.|....||...::|                       
+RR2_ARATH          7 NIDLEEMMR-AGVHFGHGTRKWNPRMAPYISAKRKGIHIINLTRTARFLS     55
+
+DNLJ_ACIC5       603 ------------GLTFVLTGTLPGLSRDEAKGKIENA-------------    627
+                                 |..|::.||     :::|...:..|             
+RR2_ARATH         56 EACDLVFDAASRGKQFLIVGT-----KNKAADLVSRAAIRARCHYVNKKW    100
+
+DNLJ_ACIC5       628 -GGHVSG-SVSKKTNYVVAGADAGSKLEKANSLGVPVIDEAAL---IKML    672
+                      ||.::. |.::|..:.........|.|..|.|  |..|.|.|   :..|
+RR2_ARATH        101 LGGMLTNWSTTEKRLHKFRDLRTEQKTEGFNRL--PKRDAAVLKRQLSRL    148
+
+DNLJ_ACIC5       673 ET    674
+                     ||
+RR2_ARATH        149 ET    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      35/159 (22.0%)
+# Similarity:    49/159 (30.8%)
+# Gaps:          36/159 (22.6%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       226 RLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVE    275
+                     ||...|.:.|  :.|....:.:.|......|..:...|.|.....:|...
+Y1710_SYNP2       38 RLGIAAEYDL--RAETVIRQGQRATKVFVDLKTKATHHDHDHSQDQTHHH     85
+
+DNLJ_ACIC5       276 FVNRA-EEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWA------V    318
+                     ..:.| ..|...:...|.|.             |...|..||:      :
+Y1710_SYNP2       86 HADHAPHRHLPEIQAMIKGA-------------GLPERVERWSLAIFQNL    122
+
+DNLJ_ACIC5       319 AYKFAARSGVTQVEDIQVQVGRTGKLTPVA-------WL-------APVQ    354
+                     |...|...|.|..:....:||.|..|..:.       ||       ||:.
+Y1710_SYNP2      123 AIAEATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCAPMP    172
+
+DNLJ_ACIC5       355 VGGTTVTRA    363
+                     .||.||..|
+Y1710_SYNP2      173 TGGGTVKAA    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 315
+# Identity:      61/315 (19.4%)
+# Similarity:   102/315 (32.4%)
+# Gaps:         126/315 (40.0%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       449 HFASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSL--ERMG    496
+                     ||.   ::...|.|:.::::::. |:::..|....|..|.:..|  |:.|
+WTPC_THEKO        29 HFI---ILGPSGAGKTVLLEVIA-GIIEPDSGRIFLNGEDITDLPPEKRG     74
+
+DNLJ_ACIC5       497 KKSATALLGEIDKS-----RQAPLDRVLFGLGIRFV--------------    527
+                            |..|.::     ..:..|.:.|||.:|.|              
+WTPC_THEKO        75 -------LAYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVRELSE    117
+
+DNLJ_ACIC5       528 -----------------GE----RTAQALA---------EEYGSMDAL--    545
+                                      ||    ..|:|||         |.:.::|..  
+WTPC_THEKO       118 VLGISHLLKRKPKTLSGGEMQRVAIARALAVEPELLLLDEPFANLDVQTR    167
+
+DNLJ_ACIC5       546 ------MQASREEL-----------ERVNDVGPRVS----------EAIR    568
+                           |:..|:||           |....:|.||.          ..:|
+WTPC_THEKO       168 GRLINEMKRWRKELGFTALHVTHSFEEAVSLGDRVGVMLNGRLVQVGPVR    217
+
+DNLJ_ACIC5       569 EFFDEPRNRD---------LVERLREAG-LRFTGEKRKKTSQLAGLTFV-    607
+                     |.|..|.:.:         :||.|.|.. ||..|...:...:.:|...| 
+WTPC_THEKO       218 EVFSRPASEEVAKFLGFENIVEGLAEGRILRANGLVIELPIEASGRIRVG    267
+
+DNLJ_ACIC5       608 ------------LTGTLPGLSRDEAKGKIENAG----------GHVSGSV    635
+                                 |..::....:.|.:..:|..|          |..||:.
+WTPC_THEKO       268 IRPEDIVLSDEPLKSSMRNTFQAEVQADVEELGELGPRTRKAKGRWSGAF    317
+
+DNLJ_ACIC5       636 SKKTNYVVAGADAGS    650
+                     |  ..|.:.||.||:
+WTPC_THEKO       318 S--IRYPLFGAGAGA    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      52/222 (23.4%)
+# Similarity:    81/222 (36.5%)
+# Gaps:          61/222 (27.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       443 LRESLLHFASRG----------VMNIEGMGEAIVMQLLGRGLVKTVSDI-    481
+                     ||.|.|:::::|          |.:|......:|.|  ||.|....:|. 
+GRB7_RAT         256 LRRSGLYYSTKGTSKDPRHLQYVADINESNVYVVTQ--GRKLYGIPTDFG    303
+
+DNLJ_ACIC5       482 YSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRV-LFGLGIRFVGER    530
+                     :.:...:|    |.|.|.......|.::||...|... ||..|::     
+GRB7_RAT         304 FCVKPNKL----RNGHKGLHIFCSEDEQSRTCWLSAFRLFKYGVQ-----    344
+
+DNLJ_ACIC5       531 TAQALAEEYGSMDALMQASREELERVNDVGPRVSEAIREFFDEP------    574
+                         |.:.|      .||....| |::.:|   |..:|...|..      
+GRB7_RAT         345 ----LYKNY------QQAQSRHL-RLSYLG---SPPLRSVSDNTLVAMDF    380
+
+DNLJ_ACIC5       575 --RNRDLVERLREAGLRFTGEK---RKKTSQLAGLTFVLTG---------    610
+                       ....::|..:||....|.|.   ||||:....|....:|         
+GRB7_RAT         381 SGHAGRVIENPQEALSAATEEAQAWRKKTNHRLSLPTPCSGLSLSAAIHR    430
+
+DNLJ_ACIC5       611 TLP----GLSRDEAKGKIENAG    628
+                     |.|    .:||:|::..|...|
+GRB7_RAT         431 TQPWFHGRISREESQRLIGQQG    452
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      60/301 (19.9%)
+# Similarity:    90/301 (29.9%)
+# Gaps:         108/301 (35.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       268 KSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSA--VLQRRLGYTGRAPR    315
+                     |||...:..::|.       ||...|........  ::...||:.|....
+PSD_RHOPS          5 KSIRAQIPPIHRE-------GYPFIGAFALATLVLFLIWAPLGWIGTVLT     47
+
+DNLJ_ACIC5       316 WAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAP---VQVGGTTVTR    362
+                     ...|..|.....||.|.:..|.....|:::.|..:.|   :.:|...:.|
+PSD_RHOPS         48 IWCALFFRDPVRVTPVREGLVVAPADGRVSMVVQMIPPPALGLGDKPLPR     97
+
+DNLJ_ACIC5       363 ATLHN------------ADEIERLGLRIGDFVRIERGGDVIPKVVEVVDD    400
+                     .::..            |..:||:....|.|:..|     :.|..|   |
+PSD_RHOPS         98 VSIFMSVFNCHVNRSPVAGRVERIIYSPGKFINAE-----LDKASE---D    139
+
+DNLJ_ACIC5       401 AEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHF    450
+                     .|.                .|.|:.||.                      
+PSD_RHOPS        140 NER----------------NSMVISTPA----------------------    151
+
+DNLJ_ACIC5       451 ASRGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKK--    498
+                     ...||:.|.|        |:.|.:|..|.:..:|...:...|.|.|.:  
+PSD_RHOPS        152 GQIGVVQIAG--------LVARRIVSFVREGQTLAPGERFGLIRFGSRLD    193
+
+DNLJ_ACIC5       499 -------------SATALLGEIDKSRQAPLDRVL--FGLGIRFVGERTAQ    533
+                                  ..||:.||          .||  |.||   .|.||.:
+PSD_RHOPS        194 VYLPEGAKPLVSEGQTAIAGE----------TVLADFNLG---DGGRTYR    230
+
+DNLJ_ACIC5       534 A    534
+                     |
+PSD_RHOPS        231 A    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 558
+# Identity:     111/558 (19.9%)
+# Similarity:   181/558 (32.4%)
+# Gaps:         195/558 (34.9%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       113 VCEYK--LDGLSMALHYRDGQLARGLTRGDG----EIGEDVTT-NVRTIR    155
+                     :|.|.  ::||..|     |.:..||...|.    ::..||.| |     
+PP156_ARATH      310 LCTYNILINGLCNA-----GSMREGLELMDAMKSLKLQPDVVTYN-----    349
+
+DNLJ_ACIC5       156 SVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAAN    205
+                         ::.||..:   :..:.|.|           ||.|:.|..|:  .||
+PP156_ARATH      350 ----TLIDGCFE---LGLSLEAR-----------KLMEQMENDGV--KAN    379
+
+DNLJ_ACIC5       206 ---------------PRNAAAGTIRTL------EPNIVAQRRLDFYAYFA    234
+                                    .|.|....::.|      .|:||....| ..||..
+PP156_ARATH      380 QVTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYHTL-IKAYLK    428
+
+DNLJ_ACIC5       235 LTEKGEDAFGEQEEALDALATL---GFRVNQHRHAAKSIETVVEFVNRA-    280
+                     :        |:...||:.:..:   |.::|     ..::.|:::.:.:. 
+PP156_ARATH      429 V--------GDLSGALEMMREMGQKGIKMN-----TITLNTILDALCKER    465
+
+DNLJ_ACIC5       281 ---EEHR-----SRLGYEIDGVVV-----------KVNSAVLQRRLGYTG    311
+                        |.|.     .:.|:.:|.|..           ||..|:         
+PP156_ARATH      466 KLDEAHNLLNSAHKRGFIVDEVTYGTLIMGFFREEKVEKAL---------    506
+
+DNLJ_ACIC5       312 RAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTT--    359
+                                       ::.|...:|    |:||........:||..  
+PP156_ARATH      507 ------------------EMWDEMKKV----KITPTVSTFNSLIGGLCHH    534
+
+DNLJ_ACIC5       360 -VTRATLHNADEIERLGLRIGD--FVRIERGGDVIPKVVEVVDDAEHPRG    406
+                      .|...:...||:...||...|  |..|            ::...:..|.
+PP156_ARATH      535 GKTELAMEKFDELAESGLLPDDSTFNSI------------ILGYCKEGRV    572
+
+DNLJ_ACIC5       407 TKHFHFPHACPACGSEVVRTPGEAD-YRC---VNTDCPARLRESLLHFAS    452
+                     .|.|.|       .:|.::...:.| |.|   :|..|...:.|..|:|.:
+PP156_ARATH      573 EKAFEF-------YNESIKHSFKPDNYTCNILLNGLCKEGMTEKALNFFN    615
+
+DNLJ_ACIC5       453 RGVMNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGK--KSA    500
+                                    .|:....|.||      |...::|.....|  |.|
+PP156_ARATH      616 ---------------TLIEEREVDTV------TYNTMISAFCKDKKLKEA    644
+
+DNLJ_ACIC5       501 TALLGEIDKSRQAPLDRVLFGLGIRFVGE-----RTAQALAE---EYGSM    542
+                     ..||.|:::....| ||..:...|..:.|     .|.:.|.:   ::|||
+PP156_ARATH      645 YDLLSEMEEKGLEP-DRFTYNSFISLLMEDGKLSETDELLKKFSGKFGSM    693
+
+DNLJ_ACIC5       543 DALMQASREELERVNDVGPRVSEAIREFFDEP-RNRDLVERLREAGLRFT    591
+                     ...:|...|:       .|..||:..|...|. ...|:::.|...| |..
+PP156_ARATH      694 KRDLQVETEK-------NPATSESKEELNTEAIAYSDVIDELCSRG-RLK    735
+
+DNLJ_ACIC5       592 GEKRKKTS    599
+                     ...|..||
+PP156_ARATH      736 EHSRSYTS    743
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      12/72 (16.7%)
+# Similarity:    36/72 (50.0%)
+# Gaps:          11/72 (15.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       474 LVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRVLFGLG    523
+                     :|...|.::.:.:.||..:::...:..:..||::::..::       |.|
+ADRB2_MESAU      215 MVFVYSRVFQVAKRQLQKIDKSEGRFHSPNLGQVEQDGRS-------GHG    257
+
+DNLJ_ACIC5       524 IRFVGERTAQALAEEYGSMDAL    545
+                     :|    |:::...:|:.::..|
+ADRB2_MESAU      258 LR----RSSKFCLKEHKALKTL    275
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      12/31 (38.7%)
+# Similarity:    15/31 (48.4%)
+# Gaps:           4/31 (12.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       256 LGFRV---NQHRHAAKSIE-TVVEFVNRAEE    282
+                     ||..:   |..|.|.|..: .||:|||...|
+ID5B_ADEPA         6 LGISIDDDNNRRLAVKEGDPLVVQFVNADRE     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      33/144 (22.9%)
+# Similarity:    52/144 (36.1%)
+# Gaps:          60/144 (41.7%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       517 RVLFGLGIRFVGERTAQALAEEYGSMD---------ALMQASREEL----    553
+                     |.:|.|.|             |||..|         |.:.|::|||    
+GPA7_CAEEL        86 RAMFHLQI-------------EYGEPDRVRDSQLVFATVHANKEELTEEL    122
+
+DNLJ_ACIC5       554 ----ERV-NDVGPR----------VSEAIREFFDE----------PRNRD    578
+                         :|: :|.|.|          :.::.:.|.|.          |..:|
+GPA7_CAEEL       123 AAAMQRLWHDPGVRECYRRSNEYQIDDSAKYFLDNLPRLSSPNYVPSEQD    172
+
+DNLJ_ACIC5       579 LVE-RLREAGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAK    621
+                     |:. |::..|:      .:...:|.||||.:...  |..|.|.|
+GPA7_CAEEL       173 LLRTRIKTTGI------TEVLFELKGLTFRVIDV--GGQRSERK    208
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:       9/32 (28.1%)
+# Similarity:    17/32 (53.1%)
+# Gaps:           3/32 ( 9.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        30 PEIDDLAFDELMRKLQ---RLEAEHPELITPD     58
+                     |::.:...|.::|:.:   .:|...||.|.||
+IDI_ECO24         70 PQLGESNEDAVIRRCRYELGVEITPPESIYPD    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      38/186 (20.4%)
+# Similarity:    63/186 (33.9%)
+# Gaps:          86/186 (46.2%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        26 VQDQP--------EIDDLAFDELMRKLQR--------LEAEHPE------     53
+                     :|||.        |:...::||::.||::        ||. :|:      
+YHJA_ECOLI       257 LQDQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEV-YPQGFSGEN    305
+
+DNLJ_ACIC5        54 -----------LITPDSPTQR-----------------------------     63
+                                |||||||..:                             
+YHJA_ECOLI       306 ITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKDNKCATCH    355
+
+DNLJ_ACIC5        64 ----VGGKPKE--GFAKVAHSRPMLSLD----NVNSEEELRDWERRVREQ    103
+                         :||:..|  |..|..:...:.:.|    ||..||  ||   ::|::
+YHJA_ECOLI       356 GGIILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEE--RD---KLRQK    400
+
+DNLJ_ACIC5       104 AGQNAEIEYVCEY-------KLDG-LSMALHYRDGQ    131
+                     ......:.....|       .||| :.:.|.|:.|:
+YHJA_ECOLI       401 VPGLRNVALTAPYFHRGDVPTLDGAVKLMLRYQVGK    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 173
+# Identity:      41/173 (23.7%)
+# Similarity:    56/173 (32.4%)
+# Gaps:          53/173 (30.6%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       358 TTVTRATLHNADEIERLGLRIGDFVRIERGGDVI----PKVVEVVDDAEH    403
+                     ||||           .||..:.|..|..||...:    |..:.:.|..:.
+RIMP_BURPS         9 TTVT-----------GLGYELVDLERTGRGMVCVYIDQPAGITIDDCEKV     47
+
+DNLJ_ACIC5       404 PRGTKHFHFPHACPACGSEVVRTPGEADYRCVNT-----DCPARLRESLL    448
+                     .|..:|              |.|....||..:..     |.|.:......
+RIMP_BURPS        48 TRQLQH--------------VLTVENIDYERLEVSSPGLDRPLKKLADFT     83
+
+DNLJ_ACIC5       449 HFASRGVMNIEGMGEAIV---MQLLGRGLVKTVSDIYSLTEEQLVSLERM    495
+                     .||.         .||::   ..|.||   ||...|......:.:.||..
+RIMP_BURPS        84 RFAG---------SEAVITLKKPLDGR---KTYRGILHAPNGETIGLEFE    121
+
+DNLJ_ACIC5       496 GKKSATAL----LGEIDKSRQAP    514
+                     .||...|:    |.:|||:|..|
+RIMP_BURPS       122 RKKGEAAMLDFTLADIDKARLIP    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      10/30 (33.3%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           2/30 ( 6.7%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       647 DAGSKLEKANSLGVPVIDEAALIKMLETEQ    676
+                     |.|::....|..| || .|..::.:||.|:
+RS28_OSTOS        33 DNGNRTINRNVKG-PV-REGDILTLLEAER     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      26/92 (28.3%)
+# Similarity:    36/92 (39.1%)
+# Gaps:          27/92 (29.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       215 RTLEPNIVAQRRLDFYAYFA-LTEKGE-------DA---FGEQEEALDAL    253
+                     :|..||      .||:|..| |...|:       ||   ....|.:|.:|
+HBAC_LITCT        41 KTYFPN------FDFHANSAHLKNHGKKVMNALTDAVKHLDHPEASLSSL     84
+
+DNLJ_ACIC5       254 ATL---GFRVNQHRHA--AKSIETVVEFVNRAEEHRSRLGYE    290
+                     :.|   ..||:....|  :.:|..||     |..|..:|.||
+HBAC_LITCT        85 SDLHAFTLRVDPGNFALLSNNILVVV-----AVHHSDKLSYE    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 604
+# Identity:     121/604 (20.0%)
+# Similarity:   210/604 (34.8%)
+# Gaps:         144/604 (23.8%)
+# Score: 82.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       100 VREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTR-------GDGE    142
+                     ||.:|..||  :|:  .||:|:...:..|.|...|.|:|       .:|.
+RPOA_PRRSS       480 VRNRACPNA--KYL--IKLNGVHWEVEVRSGMAPRSLSRECVVGVCSEGC    525
+
+DNLJ_ACIC5       143 IGEDVTTNVRTIRSVPLSIADGKLQQA--------KMPANFEVRGEVVMP    184
+                     :             .|...|||..::|        ::|::....|  :..
+RPOA_PRRSS       526 V-------------APPYPADGLPKRALEALASAYRLPSDCVSSG--IAD    560
+
+DNLJ_ACIC5       185 FTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQR--RLDFYAY    232
+                     |.|.....|......:..:.:|..:...::..|...:|.|:  ..:....
+RPOA_PRRSS       561 FLADPPPQEFWTLDKMLTSPSPERSGFSSLYKLLLEVVPQKCGATEGAFV    610
+
+DNLJ_ACIC5       233 FALTEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIET-----VVEFV    277
+                     :|:....:|. ...|:|:..||.:  :|...:..:.|::.     |....
+RPOA_PRRSS       611 YAVERMLKDC-PSPEQAMALLAKI--KVPSSKAPSVSLDECFPAGVPADF    657
+
+DNLJ_ACIC5       278 NRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAARSG    327
+                     ..|.:.|.|    ..|..|.:.|...:   |:.|      .|.:.|..||
+RPOA_PRRSS       658 EPAFQERPR----SPGAAVALCSPDAK---GFEG------TASEEAQESG    694
+
+DNLJ_ACIC5       328 VTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTTVT-----------RATLH    366
+                     ...|..:.:..|...:...|.....:::||..:.           |..:|
+RPOA_PRRSS       695 HKAVHAVPLAEGPNNEQVQVVAGEQLELGGCGLAIGSAQSSSDSKRENMH    744
+
+DNLJ_ACIC5       367 NADEIERLGLR----------IGDFVRIERGGD--VIPKVVEVVDDAEHP    404
+                     |:.|.|.|.|.          :|:......|.|  .:|..|.    ...|
+RPOA_PRRSS       745 NSREDEPLDLSHPAPAATTTLVGEQTPDNPGSDASALPIAVR----GFVP    790
+
+DNLJ_ACIC5       405 RGTKHFHFPHACPACGSEVVRTPGEADYRCVNT-DCPARLRESLLHFASR    453
+                     .|....|..|    ||:|...:....|.....| |.|..|  ||..:..:
+RPOA_PRRSS       791 TGPILRHVEH----CGTESGDSSSPLDLSFAQTLDQPLDL--SLAAWPVK    834
+
+DNLJ_ACIC5       454 GVMN----IEGMGEAIVMQ----------LLGRGLVKTVSDI--YSLTEE    487
+                     ...:    :.|..|.:.::          .|..|.:...|.:  :..|::
+RPOA_PRRSS       835 ATASDPGWVRGRCEPVFLKPRKAFSDGDSALQFGELSESSSVIEFDQTKD    884
+
+DNLJ_ACIC5       488 QLVSLERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAE    537
+                     .||:...:...::...|..:|.|....|.|          ...:||||.:
+RPOA_PRRSS       885 TLVADAPVDLTTSNEALSAVDPSEFVELRR----------PRHSAQALID    924
+
+DNLJ_ACIC5       538 EYGSM----DALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERL    583
+                     ..|.:    ..:.....|:..:..:.|.|.:.|.||:.|:..:|..::..
+RPOA_PRRSS       925 RGGPLADVHAKIKNRVYEQCLQACEPGSRATPATREWLDKMWDRVDMKTW    974
+
+DNLJ_ACIC5       584 REAGLRFTGEKRKKTSQ------LAGLTF---VLTGTLPGLSRDEAKGKI    624
+                     |            .|||      ||.|.|   ::..|.|.:.|.....  
+RPOA_PRRSS       975 R------------CTSQFQAGRILASLKFLPDMIQDTPPPVPRKNRAS--   1010
+
+DNLJ_ACIC5       625 ENAG    628
+                     :|||
+RPOA_PRRSS      1011 DNAG   1014
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      34/159 (21.4%)
+# Similarity:    56/159 (35.2%)
+# Gaps:          39/159 (24.5%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       130 GQLARGLTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPAN--FEV    177
+                     |.|.|..:|..|..||.|..:   |.:..|.:...||....:..|  |..
+UBIE_PSEAE        80 GDLTRQFSRLVGPTGEVVLAD---INASMLKVGRDKLLDKGVSGNVSFVQ    126
+
+DNLJ_ACIC5       178 RGEVVMPF--TAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEP------    219
+                     .....:||  ..|:.:.   .|.||....:...|....:|.|:|      
+UBIE_PSEAE       127 ADAEKLPFPDNHFDCVT---IAFGLRNVTHKDEAIRSMLRVLKPGGRLLV    173
+
+DNLJ_ACIC5       220 --------NIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVN    261
+                             |::: :..|.|::..|...|:....:.|              
+UBIE_PSEAE       174 LEFSKPSSNLLS-KAYDAYSFSLLPLMGKLVTNDSE--------------    208
+
+DNLJ_ACIC5       262 QHRHAAKSI    270
+                     .:|:.|:||
+UBIE_PSEAE       209 SYRYLAESI    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 239
+# Identity:      56/239 (23.4%)
+# Similarity:    89/239 (37.2%)
+# Gaps:          56/239 (23.4%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       445 ESLLHFASRG-VMNIEGMGEAIVMQLLG----RGLVKTVSDIYSLT--EE    487
+                     |::|.||:.| .:.|:.....|..:::|    :.||.....::.|.  ::
+FLII_AQUAE        39 EAILPFANIGNEVEIQSNSRRIRGEVIGFSGDKVLVMPYEPVFGLRKGDK     88
+
+DNLJ_ACIC5       488 QLVSLERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAE    537
+                     .|:..|.:..|:...::|::......|||.       .|:|      ..|
+FLII_AQUAE        89 VLLKNELVSTKTGNGVVGKVVDPFGNPLDG-------GFIG------FVE    125
+
+DNLJ_ACIC5       538 EYGSMDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAG    587
+                     |.|.          ||.::|   |...|.|||.||        ..:|...
+FLII_AQUAE       126 EKGL----------ELPQIN---PLYRERIREVFD--------TGVRSVN    154
+
+DNLJ_ACIC5       588 LRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGK------IENAGGHV    631
+                     ..||..|.:|....|| ..|...||.|:....:|..      |...|..|
+FLII_AQUAE       155 ALFTLGKGQKIGIFAG-AGVGKSTLLGMITRHSKADVVVLALIGERGREV    203
+
+DNLJ_ACIC5       632 SGSVS--------KKTNYVVAGADAGSKLEKANSLGVPV    662
+                     ...:.        ||:..||:.||....|:...::...|
+FLII_AQUAE       204 KEFLEEVLGEEGLKKSVVVVSTADQSPILKVKGAISAVV    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      39/213 (18.3%)
+# Similarity:    75/213 (35.2%)
+# Gaps:          73/213 (34.3%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       444 RESLLHFASRGVMNI-------EGMGEAIVMQLLGRGLVKTVSDIYSLTE    486
+                     ::|::....:|.|.:       :|.|:|...|..|:          .|::
+MSS11_VANPO      439 QQSVMQGQQQGPMQLQQGQTQSQGQGQAQDAQQQGQ----------PLSQ    478
+
+DNLJ_ACIC5       487 EQLVSLERMGKKSATALLGEIDKSRQAP-----LDRVLFGLGIRFVGERT    531
+                     :|:..| |.|        |.:|.:.|..     :..::.....:.:.::.
+MSS11_VANPO      479 QQMKQL-RNG--------GNVDSNIQQQYMSMMMQMMMLSKNNQQIPQQM    519
+
+DNLJ_ACIC5       532 AQALAEEYGSMDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVE    581
+                     .|.:.::   |..|.|..::.|:: |...|::|..    |..|.|..:| 
+MSS11_VANPO      520 QQQMMQQ---MQQLQQQQQQALQQ-NTGKPQLSHQ----FVVPVNNQVV-    560
+
+DNLJ_ACIC5       582 RLREAGLRFTGEKRKKTSQLAGLTFVLTGTLPGLS----RDEAKGKIENA    627
+                                                  |.||.|    |.::..:..|.
+MSS11_VANPO      561 -----------------------------TTPGGSSTSARTKSNARSTNT    581
+
+DNLJ_ACIC5       628 GGHVSGSVSKKTN    640
+                     ......:||||.|
+MSS11_VANPO      582 NKKKMETVSKKNN    594
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 536
+# Identity:     107/536 (20.0%)
+# Similarity:   182/536 (34.0%)
+# Gaps:         142/536 (26.5%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       136 LTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPF    185
+                     |..|.....||::|.::...:|.:|.....|:....|       .|..|.
+SPB4_ASPFU       146 LLGGSTTPAEDLSTFLKRSPNVLVSTPGRLLELLSSP-------HVHCPQ    188
+
+DNLJ_ACIC5       186 TAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFAL    235
+                     ::||.|..: ||..|.......     |::.:...:..|||...::    
+SPB4_ASPFU       189 SSFEMLVLD-EADRLLDLGFKE-----TLQNILRRLPKQRRTGLFS----    228
+
+DNLJ_ACIC5       236 TEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRS    285
+                             ....||:|.:..:|.|        ..::.:|:....:     
+SPB4_ASPFU       229 --------ASVSEAVDQIVRVGLR--------NPVKVMVKVKGGS-----    257
+
+DNLJ_ACIC5       286 RLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAA-RSGVTQVEDI    334
+                            ||..|...|.||  :.|....|    ::|||| :..|:.|:..
+SPB4_ASPFU       258 -------GVDDKRTPASLQ--MTYLTTPP----SHKFAALKRIVSSVQPT    294
+
+DNLJ_ACIC5       335 QVQ----VGRTGKLTPVAWLAPVQVGGTTVTRATLHNADEIERLGLRIGD    380
+                     .::    |.....:..::.:.|:.:|...:. ..||..   .:..:|..:
+SPB4_ASPFU       295 PLKTIFFVSTCSGVDYLSAILPLLLGDDFLL-IPLHGK---HQANVRQKN    340
+
+DNLJ_ACIC5       381 FVRI---------------ERGGDVIPKV--VEVVDDAEHPRGTKHFHFP    413
+                     |.|.               .||.| ||.|  |..:|....|:.     |.
+SPB4_ASPFU       341 FNRFINSHDPAILLTTDVAARGLD-IPSVDLVVQIDPPSDPKS-----FI    384
+
+DNLJ_ACIC5       414 HACPACG-------SEVVRTPG-EADYRCVNTDCPARLRESLLHFASRGV    455
+                     |.|...|       |.|:..|| |.||            .|.|......|
+SPB4_ASPFU       385 HRCGRAGRAGRRGLSVVLLHPGREEDY------------VSFLEVRKTPV    422
+
+DNLJ_ACIC5       456 MNIE-----GMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSA    500
+                     :...     ...:|.......|..|        |.:.   :|...|:|:.
+SPB4_ASPFU       423 VPFSPSISFSDADAAAATATARKAV--------LADR---ALHDRGQKAF    461
+
+DNLJ_ACIC5       501 TALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASR    550
+                     .:.|....|.:.:.:.|         |.:...:||.:.:|   .|.....
+SPB4_ASPFU       462 VSWLRSYSKHQASSIFR---------VSDLDWEALGKAWG---LLKLPKM    499
+
+DNLJ_ACIC5       551 EELERVNDVGPRV--------SEAIREFFDEPRNRDLVERLREAG-LRFT    591
+                     .||:  |..|.:.        :.|.::...|.|.::|::...|:| .:.|
+SPB4_ASPFU       500 PELK--NFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQST    547
+
+DNLJ_ACIC5       592 GEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIENA    627
+                     ..||:.|..:|......:.......|::.|.|.|.|
+SPB4_ASPFU       548 SNKRRATESVAWSQQAESKNKKLKRREQKKSKQEKA    583
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 431
+# Identity:      84/431 (19.5%)
+# Similarity:   151/431 (35.0%)
+# Gaps:         135/431 (31.3%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       307 LGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVG    356
+                     |.|:|.... :||..:..:....:|..:.:.:|:.|:...|.....:..|
+ASSY_MYCTO         7 LAYSGGLDT-SVAISWIGKETGREVVAVAIDLGQGGEHMDVIRQRALDCG     55
+
+DNLJ_ACIC5       357 GTTVT--------------RATLHNADEIERLGLRIGDFVRIERGGDVIP    392
+                     .....              ...|:||..::|..|    ...|.|     |
+ASSY_MYCTO        56 AVEAVVVDARDEFAEGYCLPTVLNNALYMDRYPL----VSAISR-----P     96
+
+DNLJ_ACIC5       393 KVVE--VVDDAEHPRGTKHFHFPHACPACGSEVVRTPGEADYRCVNTD--    438
+                     .:|:  |....||..|.    ..|.|...|::.||.  |..:..:..|  
+ASSY_MYCTO        97 LIVKHLVAAAREHGGGI----VAHGCTGKGNDQVRF--EVGFASLAPDLE    140
+
+DNLJ_ACIC5       439 --CPAR----LRESLLHFASRGVMNIEGMGE---AIVMQLLGRGLVKT--    477
+                       .|.|    .||..:.||....:.|.....   :|...:.||. |:|  
+ASSY_MYCTO       141 VLAPVRDYAWTREKAIAFAEENAIPINVTKRSPFSIDQNVWGRA-VETGF    189
+
+DNLJ_ACIC5       478 --------VSDIYSLTEE-----------------------------QLV    490
+                             ..|||:.||:                             .|.
+ASSY_MYCTO       190 LEHLWNAPTKDIYAYTEDPTINWGVPDEVIVGFERGVPVSVDGKPVSMLA    239
+
+DNLJ_ACIC5       491 SLERMGKKSATALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYG    540
+                     ::|.:.:::....:|.:|...    ||:   :||:      ::.:.|..|
+ASSY_MYCTO       240 AIEELNRRAGAQGVGRLDVVE----DRL---VGIK------SREIYEAPG    276
+
+DNLJ_ACIC5       541 SMDALMQASREELERVNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRF    590
+                     :|  ::..:..|||.|.                      :|  ||.| ||
+ASSY_MYCTO       277 AM--VLITAHTELEHVT----------------------LE--RELG-RF    299
+
+DNLJ_ACIC5       591 TGEKRKKTSQLA--GLTF-VLTGTLPGL---SRDEAKGKIENA--GGH--    630
+                     ..:..::.::|.  ||.: .|...|...   :::...|::...  |||  
+ASSY_MYCTO       300 KRQTDQRWAELVYDGLWYSPLKAALEAFVAKTQEHVSGEVRLVLHGGHIA    349
+
+DNLJ_ACIC5       631 VSGSVSKKT--NYVVAGADAGSKLEKANSLG    659
+                     |:|..|.::  ::.:|..|.|...:::.:.|
+ASSY_MYCTO       350 VNGRRSAESLYDFNLATYDEGDSFDQSAARG    380
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 489
+# Identity:     101/489 (20.7%)
+# Similarity:   161/489 (32.9%)
+# Gaps:         137/489 (28.0%)
+# Score: 77.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       264 RHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRA    313
+                     |...:..:..::|.:||         ...||||.|...:....:.|    
+ECCB1_MYCS2       28 RRDTRMFDDPLQFYSRA---------VFAGVVVSVLICLGAALMAY----     64
+
+DNLJ_ACIC5       314 PRWAVAYKFAARSGVTQV------EDIQVQVGRTGKLTPVAWLAPVQVGG    357
+                           :|...:.|..|:      ..:.|.:..:.:|.||..|       
+ECCB1_MYCS2       65 ------FKPLGKQGSDQLLVDRTTNQLYVMLPGSNQLRPVYNL-------    101
+
+DNLJ_ACIC5       358 TTVTRATLHNADEIERLGLRIGDFVRIERGGDV-IPKVVEVVDDAEHPRG    406
+                      |..|..|.||.  ..:.::..:..||.:|..: ||..         |..
+ECCB1_MYCS2      102 -TSARLVLGNAS--NPVAVKSEELNRISKGQSIGIPGA---------PYA    139
+
+DNLJ_ACIC5       407 TKHFHFPHACPA-----CG--------------SEVVRT--------PGE    429
+                     |     |...||     |.              |.::||        |..
+ECCB1_MYCS2      140 T-----PTGTPASQWTLCDTVAKPDSSAPKVETSILIRTLAIDSGVGPIR    184
+
+DNLJ_ACIC5       430 AD------YRCVNTDCPARLRESLLHFASRGVMNIEGMGEAIVMQLLGRG    473
+                     ||      |...|.......|.| :..|.|.|.:..|:........:.:|
+ECCB1_MYCS2      185 ADQGMLVSYEGANWLITEGGRHS-IDLADRAVTSAVGIPVTAKPTPISQG    233
+
+DNLJ_ACIC5       474 LVKTVSDIYSLTEEQLVSLERMGKKSATAL-----LGEIDK--SRQAPLD    516
+                     |...:.   :....||..:...|..::..|     :|.:.:  :...|..
+ECCB1_MYCS2      234 LFNALP---NRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDPQH    280
+
+DNLJ_ACIC5       517 RVLFGLGIRFVGERTAQAL--AEEYGSMDALMQASREELERVNDVGPRVS    564
+                     .|:...|:..|...||.||  ...||    |||....|...|..:..:| 
+ECCB1_MYCS2      281 YVVLPDGVARVNNTTAAALRATNSYG----LMQPPAVEASVVAKIPEQV-    325
+
+DNLJ_ACIC5       565 EAIREFFDEPRNRDLVERLREAGL-----RFTGEKRKKTSQLAGLTFVLT    609
+                      .:....|:|  .|::.|.....|     |..|::..||:.:||....|.
+ECCB1_MYCS2      326 -YVSPLPDQP--LDVLLRQDSPVLCWSWQREPGDQAPKTTVIAGRRLPLP    372
+
+DNLJ_ACIC5       610 GTLPGLSRDEAKG------------KIENAGGHVSGSV----SKKTNYVV    643
+                     ....|...|:..|            ::::....|..|:    .:...|.:
+ECCB1_MYCS2      373 ANAIGTGIDQIGGDSTVYIEGGQFVRLQSPDPRVGESMYYIDPQGVRYGI    422
+
+DNLJ_ACIC5       644 AGADAGSKLEKANSLGVP------VID------EAALIK    670
+                     |..||...|..|..:..|      ::|      |||||:
+ECCB1_MYCS2      423 ANDDAAKNLGLAGPVNAPWQVVGLLVDGPVLSKEAALIE    461
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      42/213 (19.7%)
+# Similarity:    78/213 (36.6%)
+# Gaps:          58/213 (27.2%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       388 GDVIPKVVEVVDDAEHPRGT------KHFHFPHACPACGSEVVRTPGEAD    431
+                     ||....||.|:......:||      :||.|.|.          :.|:. 
+KCY4_ORYSJ        23 GDKKVTVVFVLGGPGSGKGTQCANIVEHFGFIHL----------SAGDL-     61
+
+DNLJ_ACIC5       432 YRCVNTDCPARLRESLLHFASRGVMNIEGM-------GEAIVMQLLGRGL    474
+                                ||..:...:..|.| ||.|       ...:.::||...:
+KCY4_ORYSJ        62 -----------LRAEIKSGSENGTM-IENMIKEGKIVPSEVTIKLLQEAM     99
+
+DNLJ_ACIC5       475 VKTVSDIYSL-----TEEQLVSLERMGKKSATALL----GEIDKSR----    511
+                     :|:.:|.:.:     .||...:.|.:.|.:...:|    .|.:..|    
+KCY4_ORYSJ       100 IKSGNDKFLIDGFPRNEENRAAFENVTKITPAFVLFFDCSEEEMERRLLG    149
+
+DNLJ_ACIC5       512 --QAPLDRVLFGLGIRF-VGERTAQALAEEYGSMDALMQASREELERVND    558
+                       |..:|..:..:..|| |...::..:.|.|.:.|.:     ::::....
+KCY4_ORYSJ       150 RNQGRVDDNIETIRKRFKVFVESSLPVIEYYNAKDKV-----KKIDAAKP    194
+
+DNLJ_ACIC5       559 VGPRVSEAIREFF    571
+                     : |.|.|.::..|
+KCY4_ORYSJ       195 I-PEVFEDVKAIF    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 438
+# Identity:      76/438 (17.4%)
+# Similarity:   135/438 (30.8%)
+# Gaps:         140/438 (32.0%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        87 VNSEEELRDWERRVREQAGQNAEIEYVCE---------------YKLDGL    121
+                     :||.:...|.::::  |.|::.|.|::.:               |.|.|:
+HCP_TRIV2        110 INSFQPASDTQKQI--QQGKDLEFEFISQSAKNVDIFSLKLTLLYGLKGV    157
+
+DNLJ_ACIC5       122 ------SMALHYRDGQL-------ARGLTRGDGEIGE--DVTTNV-----    151
+                           ::.|:..|..|       ...|...|..:.:  |:|..|     
+HCP_TRIV2        158 AAYAFHALELNQHDESLYIFFHEVLANLDAQDKSLQDWLDLTLKVGQMNL    207
+
+DNLJ_ACIC5       152 ----------------RTIRSVPLSIADGKL----------------QQA    169
+                                     .|..:|||....||.                |.:
+HCP_TRIV2        208 KAMELLDAGNTETFGHPTPTTVPLGHTVGKAILVSGHDLLALKAVLEQTS    257
+
+DNLJ_ACIC5       170 KMPANFEVRGEVVMPFTAFEKLNE--------------------EREAQG    199
+                     .........|| ::|...:.||.:                    ||....
+HCP_TRIV2        258 GTGIKVYTHGE-LLPAHGYPKLKQTHPHLYGHYGTAWQNQTHEFERFPGA    306
+
+DNLJ_ACIC5       200 LAPAAN----PRNAAAGTIRTLEP-NIVAQRRLDFYAYFALTEKGEDAFG    244
+                     :....|    |.......:.||.| .....:.:..:....:.:|..:..|
+HCP_TRIV2        307 IVMTTNCLMPPHETYKDKVFTLGPVGYPGLQHISIHDISLVIQKALELPG    356
+
+DNLJ_ACIC5       245 EQEEALDALATLGFRVNQHRHAAKSI-ETVVEFVNRAEEHRSRLGYEIDG    293
+                     ..|::.....|.||.    |:|...: :||:..|.:.:.....|....||
+HCP_TRIV2        357 FTEDSEQKTVTTGFA----RNAVLGVADTVINAVKQGDIRHFFLVGGCDG    402
+
+DNLJ_ACIC5       294 ----------VVVKV-NSAVL-----------QRRLGYTGRAPRWA----    317
+                               :|.|: |..|:           .:.||..|..||..    
+HCP_TRIV2        403 AKPGRNYYSDLVEKIPNDCVVLTLGCGKFRFFDQNLGDIGGIPRLLDLGQ    452
+
+DNLJ_ACIC5       318 --VAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTTVTRATL    365
+                       .||. |.:..|......:|.|.:......::|.....:   .|....|
+HCP_TRIV2        453 CNDAYS-AIQIAVALANTFEVNVNQLPLSMILSWYEQKAI---AVLLTLL    498
+
+DNLJ_ACIC5       366 HNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEH    403
+                     :...:..|:|..:..|        :.|.||:::.:..|
+HCP_TRIV2        499 YLGIQNIRIGPTLPAF--------LTPNVVKLLSETFH    528
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 366
+# Identity:      67/366 (18.3%)
+# Similarity:   118/366 (32.2%)
+# Gaps:         135/366 (36.9%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        53 ELITPDSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEE-LRDWERRVR    101
+                     |.:..||..:.:....|||.        :|::.|...::: |:.|.:   
+UBX7_YEAST         3 EALFRDSVEEAINDSIKEGV--------VLAVYNTARDDQWLKSWFK---     41
+
+DNLJ_ACIC5       102 EQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNV    151
+                        |.:..::.:.|:.: .|.:.......||.           |.|..||
+UBX7_YEAST        42 ---GDDVSLDTLAEHSI-WLRLVKDTEQFQLF-----------EQVFPNV     76
+
+DNLJ_ACIC5       152 RTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLA    201
+                      .:.|:.| |..||::       ..::||            ::|..:.|.
+UBX7_YEAST        77 -VVPSIYL-IRAGKIE-------LIIQGE------------DDRHWEKLL    105
+
+DNLJ_ACIC5       202 PAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALD    251
+                     .....::..||...:.|.|....|                   |::.:.|
+UBX7_YEAST       106 ACIGIKDKKAGESSSRETNPGLAR-------------------EEKSSRD    136
+
+DNLJ_ACIC5       252 ALATLGFRVNQHRHAAKS--IETVVEFVNR--------AEEHRSRL----    287
+                     .          ||..|:.  .||.:|...|        |||.|.|:    
+UBX7_YEAST       137 V----------HRKNARERIAETTLEIQRREQLKQRKLAEEERERIIRLV    176
+
+DNLJ_ACIC5       288 ---------------------------GYEIDGVVVKVNSAVLQRRL--G    308
+                                                .|..|...:..:..|||.|:  |
+UBX7_YEAST       177 RADRAERKALDETHHRTLDDDKPLDVHDYIKDAQKLHSSKCVLQIRMTDG    226
+
+DNLJ_ACIC5       309 YTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGT    358
+                     .|       :.::|.:...:..|.. .|.|.||....|.::       ..
+UBX7_YEAST       227 KT-------LKHEFNSSETLNDVRK-WVDVNRTDGDCPYSF-------HR    261
+
+DNLJ_ACIC5       359 TVTRATLHNADEIERL    374
+                     .:.|.|..::||::.|
+UBX7_YEAST       262 GIPRVTFKDSDELKTL    277
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:      77/364 (21.2%)
+# Similarity:   124/364 (34.1%)
+# Gaps:         125/364 (34.3%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5        41 MRKLQRLEAEHPELITPDSPTQRVG---GKPKE-GFAKVAHSRPMLSLDN     86
+                     :||.::|:.|      |.:...||.   .:|.| ||.        |:|.|
+RPOA_ACICJ        16 LRKPEKLDIE------PGADDTRVATIIAEPLERGFG--------LTLGN     51
+
+DNLJ_ACIC5        87 VNSEEELRDWERRVREQAGQNAEIEYVCEYKLDGLSMALHYRDGQLARGL    136
+                     .         .|||...:...|.:..|   ::||:   || ....:|   
+RPOA_ACICJ        52 A---------LRRVLLSSLHGAAVTSV---RIDGV---LH-EFSSIA---     82
+
+DNLJ_ACIC5       137 TRGDGEIGEDVTTNVRTIRSVPLSI-ADG-KLQQAKMPANFEVRGEVVMP    184
+                          .:.||||..|..|:.:.:.: .|| |..........||...::..
+RPOA_ACICJ        83 -----GVREDVTDIVLNIKQIAVRMHGDGPKRMTVSATGPCEVTAGMIQT    127
+
+DNLJ_ACIC5       185 FTAFEKLNEE------------------REAQGLAPAA--NPRNAAAGTI    214
+                     ....|.:|.|                  ...:|..|||  .|.:|..|.|
+RPOA_ACICJ       128 GHDIEVMNPELVICTLDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLI    177
+
+DNLJ_ACIC5       215 RT-------------LEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALD    251
+                     ..             :||..|.|  :..|....|..:...|...:    |
+RPOA_ACICJ       178 PVDSIYSPVRRVSYRVEPTRVGQ--VTDYDRLILNIETNGAVTPE----D    221
+
+DNLJ_ACIC5       252 ALATLGFRVNQHRHAAKSIETVVEFVN-------RAEEHRSRLGY-----    289
+                     |:| |..|:.|        :.:..|:|       ||||.|..|.:     
+RPOA_ACICJ       222 AVA-LAARILQ--------DQLGMFINFEEPQRLRAEEPRPELPFNPNLL    262
+
+DNLJ_ACIC5       290 -EIDGVVVKVNSA--VLQRRLGYTG-----------RAPRWAVAYKFAAR    325
+                      ::|.:.:.|.||  :....:.|.|           |.|.:       .|
+RPOA_ACICJ       263 RKVDELELSVRSANCLKNDNIVYIGDLVQKSEQEMLRTPNF-------GR    305
+
+DNLJ_ACIC5       326 SGVTQVEDIQVQVG    339
+                     ..:.:::::...:|
+RPOA_ACICJ       306 KSLNEIKEVLSAMG    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      29/123 (23.6%)
+# Similarity:    53/123 (43.1%)
+# Gaps:          30/123 (24.4%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       485 TEEQLVSLERMGKKSATALLGEIDKSRQAPLDRVL--FGLGIRFVGERTA    532
+                     :|::..:|||    |:..||.::|:...|.:..:.  |.|.|..:..:.|
+YXAD_BACSU        27 SEKRTGNLER----SSYLLLRQLDEFGPARVKELAESFKLDISTLSRQAA     72
+
+DNLJ_ACIC5       533 QALAEE--YGSMD----------------ALMQASREE-LERVNDVGPRV    563
+                     ...|:|  |...|                .|::|.::: |||...:....
+YXAD_BACSU        73 ALEAKELIYRFSDPSDGRVSLFTITKLGKQLLKADQQKRLERYEQMLKEW    122
+
+DNLJ_ACIC5       564 SEAIREFFDEPRNRDLVERLREA    586
+                     |...:|.|.|     |::|:.:|
+YXAD_BACSU       123 STQEKEMFGE-----LLQRMNKA    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_ACIC5
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 420
+# Identity:      88/420 (21.0%)
+# Similarity:   136/420 (32.4%)
+# Gaps:         162/420 (38.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+DNLJ_ACIC5       277 VNRAEEHRSRLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAARS    326
+                     |...|::.::|.:...|.|.|.:               |..:|...||..
+FADB_SHESR        10 VELLEDNIAKLCFNAPGSVNKFD---------------RETLASLDAALD     44
+
+DNLJ_ACIC5       327 GVTQVEDIQVQVGRTGKLTPVAWLAPVQVGGTTVTRATLHNADEIERLGL    376
+                     .:.|..:||..|..:||.|.:       ||           ||..|.|||
+FADB_SHESR        45 SIKQQSNIQALVLTSGKDTFI-------VG-----------ADITEFLGL     76
+
+DNLJ_ACIC5       377 RIGD----FVRIERGGDVIPKVVEVVDDAEHPRGT--KHFHFPHACPACG    420
+                     ...|    ...:|:...|..|    ::|...|..:  |.|.....|    
+FADB_SHESR        77 FAQDDAVLLSWVEQANAVFNK----LEDLPFPTASAIKGFALGGGC----    118
+
+DNLJ_ACIC5       421 SEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGMGEAI-VMQL    469
+                     ..::.|    |:|..:|.....|.|:.|     |:  |.|.|..: :.::
+FADB_SHESR       119 ETILAT----DFRIADTTAKIGLPETKL-----GI--IPGFGGTVRLPRV    157
+
+DNLJ_ACIC5       470 LGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKSRQAPLDRVL    519
+                     :|              .:..:.....||.             |.|.|   
+FADB_SHESR       158 IG--------------ADNALEWITTGKD-------------QRPED---    177
+
+DNLJ_ACIC5       520 FGLGIRFVGERTAQALAEEYGSMDALMQASREELERVNDVGPRVSEAIRE    569
+                                     |.:.|::||:             |.|...||.  
+FADB_SHESR       178 ----------------ALKVGAVDAV-------------VAPEALEAA--    196
+
+DNLJ_ACIC5       570 FFDEPRNRDLVERLREA---GLRFTGEKRKKTSQLAGLTFVLTGTLPGLS    616
+                              .::.|::|   .|.:...:.:|.|.|         |||.| 
+FADB_SHESR       197 ---------AIQMLKDAVAEKLDWQARRHRKMSPL---------TLPKL-    227
+
+DNLJ_ACIC5       617 RDEAKGKIENAGGHVSGSVSKKTNYVVAGAD------AGSKLEKANSLG-    659
+                       ||......|.|.|         :.|||..      |.|.:|:|.:.| 
+FADB_SHESR       228 --EAMMSFTTAKGMV---------FAVAGKHYPAPMAAVSVVEQAATKGR    266
+
+DNLJ_ACIC5       660 --VPVIDEAALIKMLETEQA    677
+                       ...|:..|.||:.:|:.|
+FADB_SHESR       267 SDALQIEHQAFIKLAKTDVA    286
+
+
+#---------------------------------------
+#---------------------------------------

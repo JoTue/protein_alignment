@@ -1,0 +1,298 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/CYB_PLEAU.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/CYB_PLEAU.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/CYB_PLEAU.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      13/42 (31.0%)
+# Similarity:    19/42 (45.2%)
+# Gaps:           1/42 ( 2.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+CYB_PLEAU         38 GICLALQILTGLFLAMHYTSDTTTAFSSVTHICRDVNYGWVL     79
+                     |:.::.|...||.:|.. |..|..|.|:...:......||||
+NADK_ACIET       175 GVFVSNQRADGLIVASP-TGSTAYALSAGGPMLHPSIPGWVL    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      20/62 (32.3%)
+# Similarity:    26/62 (41.9%)
+# Gaps:           7/62 (11.3%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+CYB_PLEAU         85 NGASMFFICLYLHIGRGLYYG-----SY-LYMETWNVGVILLFAVMATAF    128
+                     ||.....|.|:..:|...|.|     |: |.|..| :.|.....|.|.|.
+PSBA_ANGEV       108 NGGPYELIVLHFLLGVACYMGREWELSFRLGMRPW-IAVAYSAPVAAAAA    156
+
+CYB_PLEAU        129 MGYVLPWGQMSF    140
+                     :..:.|.||.||
+PSBA_ANGEV       157 VFLIYPIGQGSF    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    12/26 (46.2%)
+# Gaps:           4/26 (15.4%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+CYB_PLEAU        227 KDILGLLVMIMSLLALVLFSPDMLGD    252
+                     |.|.|:.:    ||:|..|:.....|
+Y128_RICFE         4 KIIFGIAI----LLSLSCFANSTTSD     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      13/45 (28.9%)
+# Similarity:    22/45 (48.9%)
+# Gaps:           3/45 ( 6.7%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+CYB_PLEAU         33 FGSLLGICLALQILTGL-FLAMHY--TSDTTTAFSSVTHICRDVN     74
+                     :|:.||..|...:|:.| ..|:.|  .......||:|.::..||:
+RPOA_STAAN        32 YGTTLGNSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVS     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 379
+# Identity:     379/379 (100.0%)
+# Similarity:   379/379 (100.0%)
+# Gaps:           0/379 ( 0.0%)
+# Score: 2012.0
+# 
+#
+#=======================================
+
+CYB_PLEAU          1 MTNIRKSHPLMKIINNSLIDLPAPSNISSWWNFGSLLGICLALQILTGLF     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU          1 MTNIRKSHPLMKIINNSLIDLPAPSNISSWWNFGSLLGICLALQILTGLF     50
+
+CYB_PLEAU         51 LAMHYTSDTTTAFSSVTHICRDVNYGWVLRYLHANGASMFFICLYLHIGR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU         51 LAMHYTSDTTTAFSSVTHICRDVNYGWVLRYLHANGASMFFICLYLHIGR    100
+
+CYB_PLEAU        101 GLYYGSYLYMETWNVGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLL    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU        101 GLYYGSYLYMETWNVGVILLFAVMATAFMGYVLPWGQMSFWGATVITNLL    150
+
+CYB_PLEAU        151 SAIPYVGTNLVEWIWGGFSVDKATLTRFFAFHFLFPFIISAMVMGHLLFL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU        151 SAIPYVGTNLVEWIWGGFSVDKATLTRFFAFHFLFPFIISAMVMGHLLFL    200
+
+CYB_PLEAU        201 HETGSNNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDML    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU        201 HETGSNNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDML    250
+
+CYB_PLEAU        251 GDPDNYSPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILI    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU        251 GDPDNYSPANPLNTPPHIKPEWYFLFAYAILRSIPNKLGGVLALVLSILI    300
+
+CYB_PLEAU        301 LIIIPLLHTSKQRSMTFRPLSQCMFWLLVADLLALTWIGGQPVEHPYIII    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+CYB_PLEAU        301 LIIIPLLHTSKQRSMTFRPLSQCMFWLLVADLLALTWIGGQPVEHPYIII    350
+
+CYB_PLEAU        351 GQLASILYFLIITTLMPLAGLLENRLLKW    379
+                     |||||||||||||||||||||||||||||
+CYB_PLEAU        351 GQLASILYFLIITTLMPLAGLLENRLLKW    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      19/75 (25.3%)
+# Similarity:    29/75 (38.7%)
+# Gaps:          29/75 (38.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+CYB_PLEAU        200 LHETGSNNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDM    249
+                     |.::.|||.            :.|.||..:.||||.|:|           
+RPO8_SACSH        81 LKDSSSNNG------------NRYITIISLFGLLVKIIS-----------    107
+
+CYB_PLEAU        250 LGDPDNYSPANPLNTPPHIKPEWYF    274
+                       :.:::...:.||...||    ||
+RPO8_SACSH       108 --NKESFLKIHQLNVMDHI----YF    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      15/52 (28.8%)
+# Similarity:    23/52 (44.2%)
+# Gaps:          13/52 (25.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+CYB_PLEAU         16 NSLIDLPA--PSNISSWWNFGSLLGICLALQILTGLFLA------MHYTS     57
+                     |||:..||  ||:.:...|     .:...|.|:|...:|      ||:.:
+G3P_SULIN        180 NSLVPDPATVPSHHAKDVN-----SVIKNLDIVTMAVIAPTTLMHMHFIN    224
+
+CYB_PLEAU         58 DT     59
+                     .|
+G3P_SULIN        225 IT    226
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    28/72 (38.9%)
+# Gaps:          19/72 (26.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+CYB_PLEAU        145 VITNLLSAIPYVGTNLVEWIW-GGFSVDKATLTRFFAFHFLFPFIIS---    190
+                     |..|||.::...|.|:.:... |||..  .::|.........|.|:|   
+BLP1_PSEAI       211 VTGNLLRSVLPAGWNIADRSGAGGFGA--RSITAVVWSEHQAPIIVSIYL    258
+
+CYB_PLEAU        191 ------------AMV-MGHLLF    199
+                                 |:| :||.:|
+BLP1_PSEAI       259 AQTQASMAERNDAIVKIGHSIF    280
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       2/8 (25.0%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+CYB_PLEAU         73 VNYGWVLR     80
+                     :.:|:::|
+PA2AA_ACAAN        3 LQFGFMIR     10
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: CYB_PLEAU
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      26/144 (18.1%)
+# Similarity:    52/144 (36.1%)
+# Gaps:          39/144 (27.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+CYB_PLEAU        160 LVEWIWGGFSVDKATLTRFF----AFHFLFPFIISAMVMGHLLFLHETGS    205
+                     :::.:.||...|:.....|:    |...:|      .|:..:.:||:.|.
+KCC1A_MOUSE       94 IMQLVSGGELFDRIVEKGFYTERDASRLIF------QVLDAVKYLHDLGI    137
+
+CYB_PLEAU        206 NNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDMLGDPDN    255
+                     .:....|.|:      .||::.:...:::....|        ..:.||.:
+KCC1A_MOUSE      138 VHRDLKPENL------LYYSLDEDSKIMISDFGL--------SKMEDPGS    173
+
+CYB_PLEAU        256 YSPANPLNTPPHIKPE-------------WYF-LFAYAILRSIP    285
+                     .. :....||.::.||             |.. :.||.:|...|
+KCC1A_MOUSE      174 VL-STACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYP    216
+
+
+#---------------------------------------
+#---------------------------------------

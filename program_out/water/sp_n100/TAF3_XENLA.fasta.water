@@ -1,0 +1,3476 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:14
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/TAF3_XENLA.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/TAF3_XENLA.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/TAF3_XENLA.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      28/136 (20.6%)
+# Similarity:    59/136 (43.4%)
+# Gaps:          27/136 (19.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        40 PGSKDAED----RKEYIPDYLPLIISSQEE-EEEEQVPTDG-GTSAEAM-     82
+                     ||..:|:|    |:....::.....||.:: ...|::..|| |..:||: 
+PUR7_VIBVU       182 PGVPEADDVNITRQNIADNFAAFNFSSADDIALYEKLLKDGFGVISEALA    231
+
+TAF3_XENLA        83 ---QVPLEEEEEEGEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLM    129
+                        |:.::.:.|.|.:.|  ...:|..:....:.:|::..:..|:..:  
+PUR7_VIBVU       232 NVGQIFVDTKFEFGYVTD--AAGNEKLIYMDEVGTPDSSRIWDAQEYQ--    277
+
+TAF3_XENLA       130 NNKGDILDGSLE----------PREPLSSINSQKVP    155
+                       .|.|::.|.|          | :|...:|..::|
+PUR7_VIBVU       278 --AGKIVENSKEGFRQFLLNYFP-DPDILLNKDRMP    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      17/78 (21.8%)
+# Similarity:    29/78 (37.2%)
+# Gaps:          14/78 (17.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       158 LSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSP    207
+                     ::|.|....:|.......:|::.||:|.........:.||.::       
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRS-------     43
+
+TAF3_XENLA       208 GQKIKSPKATPISTVIGSPIRSPKSGPK    235
+                          :..|.||..  |.||..|:...|
+Y075_NITWN        44 -----AKLAYPIRD--GIPIMLPEEARK     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      12/54 (22.2%)
+# Similarity:    25/54 (46.3%)
+# Gaps:           3/54 ( 5.6%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        34 ALQFPPPGSKDAE--DRKEYI-PDYLPLIISSQEEEEEEQVPTDGGTSAE     80
+                     |:..||.|.:|.:  |.:.|: .:|...:....|:..|..:|.:|....:
+Y3584_PSEAB       83 AVYTPPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQ    132
+
+TAF3_XENLA        81 AMQV     84
+                     .:.:
+Y3584_PSEAB      133 PLHI    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      15/68 (22.1%)
+# Similarity:    26/68 (38.2%)
+# Gaps:          22/68 (32.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        74 DGGTSAEAMQVPLEE------EEEEGEMEDDETVN-------------DE    104
+                     :|..:..|:::|.||      :|...:...|.||.             .:
+BPT_HAHCH         62 NGCNACIAVRIPTEEFNRTRSQERTWKRNSDLTVRLRSAQFEQEHFALYQ    111
+
+TAF3_XENLA       105 NYLSKRPLDS---PETME    119
+                     .|:|.|..|.   |.|::
+BPT_HAHCH        112 RYISARHQDGDMYPPTLD    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    27/84 (32.1%)
+# Gaps:          36/84 (42.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       340 GSESEGEVFTSPKRLN---------------------------ISELTTP    362
+                     ||...|:||..|:..:                           |:.|.|.
+KDPC_CAUVN        53 GSALIGQVFAKPEYFHGRPSAAGAGYDASASSGSNMGPLNETLIARLKTD    102
+
+TAF3_XENLA       363 KVSASGINPGKTSSTSVPASGGTSSS-----DIS    391
+                     ..:....|||    .::||...|:|.     |||
+KDPC_CAUVN       103 AAALRAENPG----VAIPADAVTTSGSGLDPDIS    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      13/51 (25.5%)
+# Similarity:    24/51 (47.1%)
+# Gaps:          16/51 (31.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       759 PVRSVVTETV------------STYVIRDEWGNQIWICPGCNKPDDGSPM    796
+                     |:|.||||..            :.|::.|.:  ::||  |.:.|.:.:.|
+LPXH_XYLFM        13 PLRPVVTELFLRFLREQVSGADALYILGDLF--EVWI--GDDMPSEVADM     58
+
+TAF3_XENLA       797 I    797
+                     :
+LPXH_XYLFM        59 V     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       5/14 (35.7%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        11 YIHNIEPVTFPHQI     24
+                     |:.:||..|..|.:
+YERI_SCHPO        29 YLFSIEAETLMHDL     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 275
+# Identity:      63/275 (22.9%)
+# Similarity:    89/275 (32.4%)
+# Gaps:          99/275 (36.0%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       136 LDGSLEPR-----EPLS------SINSQKVPSVLSPAHKIDSQDLDVSYS    174
+                     |:|.:..|     |||:      ||::..|  .||...|.|...||:|  
+RBSA_RUEST       306 LEGQVTGRLWLNGEPLALRDYQDSIDAGIV--YLSEDRKGDGVFLDMS--    351
+
+TAF3_XENLA       175 DQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPGQKIKSPKATPISTVIG    224
+                        :.|.||..:....:.:..||        .||::|:            
+RBSA_RUEST       352 ---IASNVSALKVEQVASALGLI--------QPGREIE------------    378
+
+TAF3_XENLA       225 SPIRSPKSGPKERKSPGCAKSPKSPKS----PKVPLA----APPPAIKTE    266
+                        ::.:.|.|.....|..:.|.|..|    .||.||    ..|..|..:
+RBSA_RUEST       379 ---QADRLGRKLNLKCGTLQDPVSSLSGGNQQKVALAKMLSVNPRLIFLD    425
+
+TAF3_XENLA       267 TPNR-------TPLATLSEKIGRENIQIKQNQTPLDSDQLNVEIPSKKP-    308
+                     .|.|       ..:..:...:..|...|             |.|.|:.| 
+RBSA_RUEST       426 EPTRGVDVGAKAEIYRILRDLAEEGAGI-------------VVISSELPE    462
+
+TAF3_XENLA       309 --SIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESEGEVFTSPKRLNI    356
+                       .:.|..:      ||...|...|      .||.:...|        ||
+RBSA_RUEST       463 LIGLCDRVL------VIHEGCLSGE------VSGPDMTEE--------NI    492
+
+TAF3_XENLA       357 SELTTPKVSASGINPGKTSSTSVPA    381
+                     ..|      |||...| |.:.||.|
+RBSA_RUEST       493 MHL------ASGTQQG-TGAASVAA    510
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       106 YLSKRP    111
+                     |.|.||
+KR195_HUMAN       55 YRSCRP     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      29/113 (25.7%)
+# Similarity:    44/113 (38.9%)
+# Gaps:          31/113 (27.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       305 SKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESEG-------EV    347
+                     ||:.|....|:.|::....|: |....|. ...|.|:.|.|       ||
+UPPP_CORDI       145 SKRRSFDQLTMRDAVIMGCAQ-CLALIPG-VSRSGGTVSAGLFVGLDREV    192
+
+TAF3_XENLA       348 FTSPKRLNISELTTPKVSASGI---------NPGKTSS-------TSVPA    381
+                     .|....|    |..|.|.|||:         :.|:.:|       |.:..
+UPPP_CORDI       193 ATRFSFL----LAIPAVLASGLFSLPDAFAPDAGQAASGMQLAVGTGIAF    238
+
+TAF3_XENLA       382 SGGTSSSDISWTM    394
+                     :.|.:|  |:|.:
+UPPP_CORDI       239 ALGYAS--IAWLL    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 118
+# Identity:      24/118 (20.3%)
+# Similarity:    45/118 (38.1%)
+# Gaps:          28/118 (23.7%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       439 EDKAKLPPPVELKKKTKKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEK    488
+                     |...||...:....:.::.:..||......|.|:..:.|...::.:.:|.
+GREB_ECO57         9 EGYEKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLREI     58
+
+TAF3_XENLA       489 DK---------------EKDGTKDGKVL---WKDSNKDEDSELHRFKLKD    520
+                     |:               :....::|||.   |.:...| |...|||::..
+GREB_ECO57        59 DRRVRYLTKCMENLKIVDYSPQQEGKVFFGAWVEIEND-DGVTHRFRIVG    107
+
+TAF3_XENLA       521 FNEIDSKSKQKENCGKKD    538
+                     ::||         .|:||
+GREB_ECO57       108 YDEI---------FGRKD    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      34/184 (18.5%)
+# Similarity:    66/184 (35.9%)
+# Gaps:          51/184 (27.7%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       279 KIGRENIQIKQNQTPLDSDQ--LNVEIPSKKPSIADNTIEDSIDAVIARA    326
+                     ||..|.::.   .:|::.|:  |..|:..:..::.::.|....|      
+TGT_LEPCP        104 KISEEGVRF---ASPVNGDKLFLTPEVSMQIQTVLNSDIVMQFD------    144
+
+TAF3_XENLA       327 CAEQEPDPFEFSSGSESEGEVFTSPKRLNIS-ELT---TPKVSASGINPG    372
+                         |..|  :..|:::.|.: |:.|...:| ||:   ..:..|.....|
+TGT_LEPCP        145 ----ECTP--YWQGAKNVGHI-TTEKEARVSMELSLRWAARSKAEFARLG    187
+
+TAF3_XENLA       373 KTSSTSVPASGGTSSSDISWTMDDSINEVIR-------------------    403
+                     ..::......||...|    ..::|:|.::.                   
+TGT_LEPCP        188 NPNALFGIVQGGMFES----LREESLNALVELDFPGYAVGGVSVGEPKDE    233
+
+TAF3_XENLA       404 --KVSQETPTNTPANNPPCFSSPSASPPTPEPLL    435
+                       ::...||...||:.|.......    |||.|:
+TGT_LEPCP        234 MLRIMNHTPHLLPADKPRYLMGVG----TPEDLV    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 329
+# Identity:      64/329 (19.5%)
+# Similarity:   123/329 (37.4%)
+# Gaps:          89/329 (27.1%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        80 EAMQVPLEEEEEEGEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLM    129
+                     :|:|:..:..:::|             |.|..|   |.:.:|..:|    
+CBPQ_HUMAN        86 KAIQIMYQNLQQDG-------------LEKVHL---EPVRIPHWER----    115
+
+TAF3_XENLA       130 NNKGDILDGSLEPREPLSSINSQKV----PSVLSPAHKIDSQDLDVSYSD    175
+                        |:.....||||     |:...:    .|:.:|...|.::.|.|:..|
+CBPQ_HUMAN       116 ---GEESAVMLEPR-----IHKIAILGLGSSIGTPPEGITAEVLVVTSFD    157
+
+TAF3_XENLA       176 QIMLSPVSKSQAP-----PPSESKSLIPKTKSKGGSPGQKIKSPKATPIS    220
+                     ::. ...|:::..     .|..:.|...:.:::|.....|: ...|:.|.
+CBPQ_HUMAN       158 ELQ-RRASEARGKIVVYNQPYINYSRTVQYRTQGAVEAAKV-GALASLIR    205
+
+TAF3_XENLA       221 TVIGSPIRSPKSGPKERKSPGCAKSPKSPKSPKVPLAAPPPAIKTETPN-    269
+                     :|....|.||.:|.:|.:.          ..||:|.|    .|..|... 
+CBPQ_HUMAN       206 SVASFSIYSPHTGIQEYQD----------GVPKIPTA----CITVEDAEM    241
+
+TAF3_XENLA       270 RTPLATLSEKIGRENIQIKQN-QTPLDSDQLNVEIPSKKPSIADNTIEDS    318
+                     .:.:|:...||   .||:|.. :|..|:|..|        ::|:.|....
+CBPQ_HUMAN       242 MSRMASHGIKI---VIQLKMGAKTYPDTDSFN--------TVAEITGSKY    280
+
+TAF3_XENLA       319 IDAVIARACAEQEPDPFEFSSGS-ESEGEVFTSPKRLNISELTTPKVSAS    367
+                     .:.|:   ......|.::...|: :..|..|.|.:.|::       :...
+CBPQ_HUMAN       281 PEQVV---LVSGHLDSWDVGQGAMDDGGGAFISWEALSL-------IKDL    320
+
+TAF3_XENLA       368 GINPGKTSSTSVPASGGTSSSDISWTMDD    396
+                     |:.|.:|...            :.||.::
+CBPQ_HUMAN       321 GLRPKRTLRL------------VLWTAEE    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      20/98 (20.4%)
+# Similarity:    38/98 (38.8%)
+# Gaps:          24/98 (24.5%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+TAF3_XENLA         1 MGVNIHELEDYIHNIEPV--TFPHQIPSFPVSKNNALQFPPPGSKDAEDR     48
+                     :|:: .|....::..:|.  .|.|:..|..:....|:.|       .|.:
+PSA6_SOYBN       141 LGID-DEYGPQLYKCDPAGHYFGHKATSAGLKDQEAINF-------LEKK    182
+
+TAF3_XENLA        49 KEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEEGEME     96
+                     .:..|.:          ..||.|.    |:..|:|..|:|:.:..|:|
+PSA6_SOYBN       183 MKNDPSF----------TYEETVQ----TAISALQSVLQEDFKATEIE    216
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 405
+# Identity:      80/405 (19.8%)
+# Similarity:   132/405 (32.6%)
+# Gaps:         156/405 (38.5%)
+# Score: 81.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       293 PLDSDQLN-VEIPSKKPSIADNTIEDSIDAVIARACAEQEPDP-------    334
+                     |..|:.|| .|.....|::..:.:||            |.|.|       
+SCL34_ARATH        3 PNFSESLNGFEYFDGNPNLLTDPMED------------QYPPPSDTLLKY     40
+
+TAF3_XENLA       335 -----FEFSSGSESEGEVFTSPKRLNISELTTPKVSASGINPGKTSSTSV    379
+                          .|.|:|...:...:.|     ::...|.::....|...:..|.|.
+SCL34_ARATH       41 VSEILMEESNGDYKQSMFYDS-----LALRKTEEMLQQVITDSQNQSFSP     85
+
+TAF3_XENLA       380 PASGGTSSSDISWTMDDS--------INEVIRKVSQETPTNTPANNPPCF    421
+                     ..|..|:|.|.|.::|:|        :||::.|              ..|
+SCL34_ARATH       86 ADSLITNSWDASGSIDESAYSADPQPVNEIMVK--------------SMF    121
+
+TAF3_XENLA       422 SSPSASPPTPEPLLKVFEDKAKLPP-----PVELK-KKTKKEQRAKKKKD    465
+                     |...::    ....|..|:.:|..|     .:.|. :::::....|::..
+SCL34_ARATH      122 SDAESA----LQFKKGVEEASKFLPNSDQWVINLDIERSERRDSVKEEMG    167
+
+TAF3_XENLA       466 KDKLKDKERSKDKNKDR-------SKDKEKDKEKDGTKD--GKVLWKDSN    506
+                     .|:|:.|     ||.:|       ||....:.|.....|  .|||..|..
+SCL34_ARATH      168 LDQLRVK-----KNHERDFEEVRSSKQFASNVEDSKVTDMFDKVLLLDGE    212
+
+TAF3_XENLA       507 KDE----DSELHRFKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKEKG    552
+                     .|.    |||:...            :..:|.|              |||
+SCL34_ARATH      213 CDPQTLLDSEIQAI------------RSSKNIG--------------EKG    236
+
+TAF3_XENLA       553 KKDKDKKGK------------------DKTKE----EKMKSPSTPIMLSS    580
+                     ||.|.||.:                  |||..    .:::..|:|:..:.
+SCL34_ARATH      237 KKKKKKKSQVVDFRTLLTHCAQAISTGDKTTALEFLLQIRQQSSPLGDAG    286
+
+TAF3_XENLA       581 KDIAL---------------PMIST-------------PNTVRLPSLLSS    602
+                     :.:|.               |||.|             .:|:|...:..|
+SCL34_ARATH      287 QRLAHCFANALEARLQGSTGPMIQTYYNALTSSLKDTAADTIRAYRVYLS    336
+
+TAF3_XENLA       603 MSPLL    607
+                     .||.:
+SCL34_ARATH      337 SSPFV    341
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           3/20 (15.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       576 IMLSSKDIALPMISTPNTVR    595
+                     :||...:   |..|.|.|:|
+NDKA_CANLF        89 VMLGETN---PADSKPGTIR    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      13/52 (25.0%)
+# Similarity:    21/52 (40.4%)
+# Gaps:           9/52 (17.3%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       746 PSALTSNAGSSKTP-----VRSVVTETVSTYVIRD----EWGNQIWICPG    786
+                     |...|::..:.:.|     |...:...:||..|.|    |.||..::..|
+RS4_CAEEL        136 PVLTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKFEPGNLAYVTGG    185
+
+TAF3_XENLA       787 CN    788
+                     .|
+RS4_CAEEL        186 RN    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      28/134 (20.9%)
+# Similarity:    55/134 (41.0%)
+# Gaps:          56/134 (41.8%)
+# Score: 71.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       597 PSLLSSMSPLLPEKLFEEKEKSKEKDK----------------KKDKKEK    630
+                     || |::|...|..|...|::|.:|:::                ::.::|:
+G45IP_CHLAE       94 PS-LATMQESLRVKHLAEEQKRREREQHIAECMAKMPQMIVNWQQQQRER    142
+
+TAF3_XENLA       631 --KKKKDKEK---------------VKEK---------EKEKKEKEKEKE    654
+                       |.:.|||:               |..|         :.||||:::.||
+G45IP_CHLAE      143 WEKAQADKERRARLQAEAQELLGYQVNPKSARFQELLQDLEKKERKRLKE    192
+
+TAF3_XENLA       655 KEKKEKEKVKAELSIPAPSPVIPRLTLRVGAGQD    688
+                     :::::|::.:|             ..|...|.||
+G45IP_CHLAE      193 EKQRQKQEARA-------------AALAAAAAQD    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 152
+# Identity:      27/152 (17.8%)
+# Similarity:    48/152 (31.6%)
+# Gaps:          48/152 (31.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        11 YIHNIEP---VTFPHQIPSFPVSKNNALQFPPPGSKDAEDRKEYIPDYLP     57
+                     |:|...|   :.|...|...|:.:...|    |.:...|.|.......|.
+DAPEL_OCEIH       53 YVHGKSPARKIGFRADIDGLPILEQTNL----PYASLHEGRMHACGHDLH     98
+
+TAF3_XENLA        58 LIISSQEEEEEEQVPTDGGTSAEAMQVPLEEE-------EEEGEMEDDET    100
+                     :.|:.             |...:.:|.|:.::       .|||.......
+DAPEL_OCEIH       99 MTIAL-------------GALEKLIQDPINDDVIFVFQPAEEGPGGAKPM    135
+
+TAF3_XENLA       101 VNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSIN    150
+                     :..|.:...:|       :|.||..|              .|..|:.:::
+DAPEL_OCEIH      136 LESEEFQQWKP-------DMMFALHI--------------APELPVGTVS    164
+
+TAF3_XENLA       151 SQ    152
+                     |:
+DAPEL_OCEIH      165 SK    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 111
+# Identity:      23/111 (20.7%)
+# Similarity:    46/111 (41.4%)
+# Gaps:          15/111 (13.5%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        43 KDAEDRKEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEE     92
+                     ::.:.|:.:|.|..|..: :|.|...|.:.:.|.:.:..:::.::|....
+KAD_METRJ         73 EEPDARRGFILDGFPRTV-AQAEALGEMLASKGLSLSAVVELKVDENALV    121
+
+TAF3_XENLA        93 GEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEP    142
+                     |.:|...........:.|..|:||.    |.:|          |:.....
+KAD_METRJ        122 GRIEKRAAETLARGQAVRKDDTPEV----FKQR----------LEAYRAQ    157
+
+TAF3_XENLA       143 REPLSSINSQK    153
+                     ..|||:..:||
+KAD_METRJ        158 TAPLSAYYAQK    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      31/144 (21.5%)
+# Similarity:    42/144 (29.2%)
+# Gaps:          32/144 (22.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       670 PAPSPVIPRLTLRVGAGQDTIVISKVVSAPESKAVPPPSLPKSPPPTPSP    719
+                     |..:....:...::|||...::        ....|..|.:|.:|...|..
+ELN_BOVIN        263 PQAAAAAAKAAAKLGAGGAGVL--------PGVGVGGPGIPGAPGAIPGI    304
+
+TAF3_XENLA       720 APAPVLVVPPQAPPAPAAASPAPTPAPSALTSNAGSSKTPVRSVVTETVS    769
+                     .....:..|..|..|.|||..|...|...| ...|.....|..|....|.
+ELN_BOVIN        305 GGIAGVGAPDAAAAAAAAAKAAKFGAAGGL-PGVGVPGVGVPGVGVPGVG    353
+
+TAF3_XENLA       770 TYVIRDEWGNQIWICPGCNKPDDGSPMIGCDQCDDWYHWPCVGI    813
+                     .              ||...|..|.|.:|.         |.||:
+ELN_BOVIN        354 V--------------PGVGVPGVGVPGVGV---------PGVGV    374
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      20/67 (29.9%)
+# Similarity:    30/67 (44.8%)
+# Gaps:          10/67 (14.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       567 EKMKSPSTPI--MLSSKDIALPMISTP-NTVRLPSLLSSMSPLLPEKLFE    613
+                     |:.|..:.|.  :|:.||....:..|| |..|....||.:.  :|     
+ASIC2_MOUSE      337 EQHKECAEPALGLLAEKDSNYCLCRTPCNLTRYNKELSMVK--IP-----    379
+
+TAF3_XENLA       614 EKEKSKEKDKKKDKKEK    630
+                     .|..:|..:||.:|.||
+ASIC2_MOUSE      380 SKTSAKYLEKKFNKSEK    396
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       9/23 (39.1%)
+# Similarity:    14/23 (60.9%)
+# Gaps:           2/23 ( 8.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        93 GEMED--DETVNDENYLSKRPLD    113
+                     ||.||  |::.|:|.:.|...|:
+DOXA1_XENTR      283 GEEEDLSDKSENEEEHSSALSLN    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      18/67 (26.9%)
+# Similarity:    25/67 (37.3%)
+# Gaps:          22/67 (32.8%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       449 ELKKKTKKEQRAKKKKDKDKLK------------------DKERSK---D    477
+                     ||..|..::..|:|...:..:|                  ||..||   .
+RS20_STRPB        17 ELNVKANEKNSAQKSAMRTAIKAFEANPSEELFRAASSSIDKAESKGLIH     66
+
+TAF3_XENLA       478 KNKDRSKDKEKDKEKDG    494
+                     ||| .|:||.:...|.|
+RS20_STRPB        67 KNK-ASRDKARLAAKLG     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 226
+# Identity:      44/226 (19.5%)
+# Similarity:    91/226 (40.3%)
+# Gaps:          37/226 (16.4%)
+# Score: 87.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       467 DKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKVLWKDSNKDEDSELHRF    516
+                     |.:|.|.::....||.:.|:.:..|:. ::|. .|..:..::|...|.: 
+TPM_HAELO          2 DAIKKKMQAMKLEKDNAVDRAETAEQQ-SRDA-ALRAEKAEEEVRSLQK-     48
+
+TAF3_XENLA       517 KLKDF-NEIDSKSKQKENCGKKDKEKHKDKKKDKEKGKKDKDKKGKDKTK    565
+                     |::.. ||:|...:|......|.:||.|..                 :..
+TPM_HAELO         49 KIQQIENELDQVQEQLSQANSKLEEKDKAL-----------------QAA     81
+
+TAF3_XENLA       566 EEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLLSSMSPLLPEKLFEEK    615
+                     |.::.:.:..|.|..:|:      ..:..||        .:..:||.|..
+TPM_HAELO         82 EAEVAAHNRRIQLLEEDL------ERSEERL--------KIATQKLEEAS    117
+
+TAF3_XENLA       616 EKSKEKDKKKDKKEKKKKKDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKA    665
+                     :.:.|.::.:...|.:...|:|::...|.:.||.....|...::.::|..
+TPM_HAELO        118 QAADESERMRKMLEHRSITDEERMDGLEGQLKEARTMAEDADRKYDEVAR    167
+
+TAF3_XENLA       666 ELSIPAPSPVIPRLTLRVGAGQDTIV    691
+                     :|::....  :.|...|...|:..||
+TPM_HAELO        168 KLAMVEAD--LERAEERAETGETKIV    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      21/107 (19.6%)
+# Similarity:    39/107 (36.4%)
+# Gaps:          35/107 (32.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       356 ISELTTPK----VSASGINPGK------TSSTSVPAS-----GGTSS-SD    389
+                     :.|:|:|:    :..:|.||.:      |...:||.:     ||..| ||
+LEUC_XANOM        33 LHEVTSPQAFEGLRLAGRNPWRIDANIATPDHNVPTTRAERQGGLESISD     82
+
+TAF3_XENLA       390 -------------------ISWTMDDSINEVIRKVSQETPTNTPANNPPC    420
+                                        :.:.|:|:...::..|..|.....|.....|
+LEUC_XANOM        83 EVSRLQVQTLDENCDDFGILEFKMNDARQGIVHVVGPEQGATLPGMTVVC    132
+
+TAF3_XENLA       421 FSSPSAS    427
+                     ..|.:::
+LEUC_XANOM       133 GDSHTST    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     6/8 (75.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       216 ATPISTVI    223
+                     :|.|:|.|
+LPT_ESCF3          5 STTITTTI     12
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      17/42 (40.5%)
+# Similarity:    20/42 (47.6%)
+# Gaps:           3/42 ( 7.1%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       720 APAPVLVVPPQAPPAPAAASPAPTPAP-SALTSNAGSSKTPV    760
+                     |.|||.|.  .||.|.|||:||..... ..:...||:.|..|
+RL7_THET8         35 AAAPVAVA--AAPAAGAAAAPAEEKTEFDVILKEAGAKKLEV     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    13/26 (50.0%)
+# Gaps:           1/26 ( 3.8%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       384 GTSSSD-ISWTMDDSINEVIRKVSQE    408
+                     |.|:.| :.|..|...|::|...|.:
+HEM1_METCA       368 GKSAEDTLRWLADTLTNKIIHAPSSQ    393
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      16/47 (34.0%)
+# Similarity:    20/47 (42.6%)
+# Gaps:          10/47 (21.3%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       374 TSSTSVPASGGTSSSDISWTMDDSINEV--IRKVSQETPTNTPANNP    418
+                     |...||||....:.     |.|:|...|  :..:|.|   .||.|||
+XYLB_KLEPN       305 TGLASVPALIAAAQ-----TADESAGPVWFLPYLSGE---RTPHNNP    343
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       7/21 (33.3%)
+# Similarity:     8/21 (38.1%)
+# Gaps:           3/21 (14.3%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       784 CPGCNKPDDGSPMIGCDQCDD    804
+                     |..|...|..:|   |..|.|
+RECR_NOVAD        56 CGVCGNVDTSNP---CGICTD     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      17/88 (19.3%)
+# Similarity:    33/88 (37.5%)
+# Gaps:          31/88 (35.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       299 LNVEIPSKKPSIADNTIEDSIDAVIARACAEQE-----------PDP---    334
+                     :||..|..:|...:..      ||:|:....|:           .:|   
+SURE_METNO       163 VNVNFPDCEPEAVEGI------AVVAQGMRNQQLLAIDERLDGRGNPYFW    206
+
+TAF3_XENLA       335 -------FEFSSGSE----SEGEVFTSPKRLNISELTT    361
+                            ||...|::    :|..:..:|.||::::..|
+SURE_METNO       207 LAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPT    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       9/14 (64.3%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           2/14 (14.3%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       744 PAPSALTS--NAGS    755
+                     ||||:|:|  |.||
+CYB_ARTIO         22 PAPSSLSSWWNFGS     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       7/14 (50.0%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           3/14 (21.4%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       328 AEQEP---DPFEFS    338
+                     |||:|   :|||::
+IOLE_BACHK       272 AEQDPALANPFEYA    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       8/26 (30.8%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           0/26 ( 0.0%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       391 SWTMDDSINEVIRKVSQETPTNTPAN    416
+                     |..:.|.:.:.|.::|:..|.:.|||
+ACKA_STAAT       101 SVAITDEVEKEIEELSELAPLHNPAN    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       8/23 (34.8%)
+# Similarity:    11/23 (47.8%)
+# Gaps:           5/23 (21.7%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+TAF3_XENLA         2 GVNIHELEDYIHNIEPVTFPHQI     24
+                     ||.:|     |.|:..|...||:
+HIS7_BURTA       146 GVTLH-----IDNLRGVNAHHQL    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    22/46 (47.8%)
+# Gaps:          14/46 (30.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       114 SPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSINSQKVPSVLS    159
+                     :|..||: ||:          :|||:|   :.|.:...:.||..:|
+PTH_GEOLS        152 TPPEMEI-FAR----------VLDGAL---DMLETALDEGVPKAMS    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 845
+# Identity:     845/845 (100.0%)
+# Similarity:   845/845 (100.0%)
+# Gaps:           0/845 ( 0.0%)
+# Score: 4417.0
+# 
+#
+#=======================================
+
+TAF3_XENLA         1 MGVNIHELEDYIHNIEPVTFPHQIPSFPVSKNNALQFPPPGSKDAEDRKE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA         1 MGVNIHELEDYIHNIEPVTFPHQIPSFPVSKNNALQFPPPGSKDAEDRKE     50
+
+TAF3_XENLA        51 YIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEEGEMEDDET    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA        51 YIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEEGEMEDDET    100
+
+TAF3_XENLA       101 VNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSIN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       101 VNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSIN    150
+
+TAF3_XENLA       151 SQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKT    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       151 SQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKT    200
+
+TAF3_XENLA       201 KSKGGSPGQKIKSPKATPISTVIGSPIRSPKSGPKERKSPGCAKSPKSPK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       201 KSKGGSPGQKIKSPKATPISTVIGSPIRSPKSGPKERKSPGCAKSPKSPK    250
+
+TAF3_XENLA       251 SPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQNQTPLDSDQLN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       251 SPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQNQTPLDSDQLN    300
+
+TAF3_XENLA       301 VEIPSKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESEGEVFTS    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       301 VEIPSKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESEGEVFTS    350
+
+TAF3_XENLA       351 PKRLNISELTTPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINE    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       351 PKRLNISELTTPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINE    400
+
+TAF3_XENLA       401 VIRKVSQETPTNTPANNPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVEL    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       401 VIRKVSQETPTNTPANNPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVEL    450
+
+TAF3_XENLA       451 KKKTKKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKV    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       451 KKKTKKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKV    500
+
+TAF3_XENLA       501 LWKDSNKDEDSELHRFKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKE    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       501 LWKDSNKDEDSELHRFKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKE    550
+
+TAF3_XENLA       551 KGKKDKDKKGKDKTKEEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLL    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       551 KGKKDKDKKGKDKTKEEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLL    600
+
+TAF3_XENLA       601 SSMSPLLPEKLFEEKEKSKEKDKKKDKKEKKKKKDKEKVKEKEKEKKEKE    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       601 SSMSPLLPEKLFEEKEKSKEKDKKKDKKEKKKKKDKEKVKEKEKEKKEKE    650
+
+TAF3_XENLA       651 KEKEKEKKEKEKVKAELSIPAPSPVIPRLTLRVGAGQDTIVISKVVSAPE    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       651 KEKEKEKKEKEKVKAELSIPAPSPVIPRLTLRVGAGQDTIVISKVVSAPE    700
+
+TAF3_XENLA       701 SKAVPPPSLPKSPPPTPSPAPAPVLVVPPQAPPAPAAASPAPTPAPSALT    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       701 SKAVPPPSLPKSPPPTPSPAPAPVLVVPPQAPPAPAAASPAPTPAPSALT    750
+
+TAF3_XENLA       751 SNAGSSKTPVRSVVTETVSTYVIRDEWGNQIWICPGCNKPDDGSPMIGCD    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       751 SNAGSSKTPVRSVVTETVSTYVIRDEWGNQIWICPGCNKPDDGSPMIGCD    800
+
+TAF3_XENLA       801 QCDDWYHWPCVGINAAPPEDEQWFCTKCESKKKDKKQKKRKHKAH    845
+                     |||||||||||||||||||||||||||||||||||||||||||||
+TAF3_XENLA       801 QCDDWYHWPCVGINAAPPEDEQWFCTKCESKKKDKKQKKRKHKAH    845
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 451
+# Identity:      80/451 (17.7%)
+# Similarity:   136/451 (30.2%)
+# Gaps:         172/451 (38.1%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        95 MEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPRE    144
+                     |||  .|.|:.|   |.|||.| .|.|                ..:.|..
+DNLJ_CROS5        33 MED--AVYDQLY---RELDSLE-KEHP----------------QLITPDS     60
+
+TAF3_XENLA       145 PLSSINSQKVPSVLSPAH--------------------------------    162
+                     |...:..|.....:|..|                                
+DNLJ_CROS5        61 PTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYEKEEF    110
+
+TAF3_XENLA       163 ---------KIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSK    203
+                              |||...|.::|.:.:.:..|::...              :.
+DNLJ_CROS5       111 TSVEYVCELKIDGSALALTYENGLFVRGVTRGDG--------------TT    146
+
+TAF3_XENLA       204 GGSPGQKIKSPKATPISTVIGSP-----IRSPKSGP--------KERKSP    240
+                     |....|.:::.::.|:...|.:|     :|.....|        :||:..
+DNLJ_CROS5       147 GEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEK    196
+
+TAF3_XENLA       241 GCAKSPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQN    290
+                     |.|            |.|.|......|     |..|..||      :.|.
+DNLJ_CROS5       197 GDA------------LFANPRNAAAGT-----LRQLDPKI------VDQR    223
+
+TAF3_XENLA       291 QTPLDSDQLNV---EIPSKKPSIADNTIE----------------DSIDA    321
+                     :....:..|::   ||.|:..|:  |.:|                |.::|
+DNLJ_CROS5       224 RLQFFAYTLHLEEAEISSQWESL--NYLENSGFLVNPHRKLCQFLDEVEA    271
+
+TAF3_XENLA       322 VIARACAEQEPDPFEFSSGSESEGEVFTSPKRLNISE--------LTTPK    363
+                     ...:....::..|: .:.|...:...::..|.|..::        |..|.
+DNLJ_CROS5       272 YFKQWETARKDLPY-MTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPA    320
+
+TAF3_XENLA       364 VSASG------INPGKTSSTS-------VPASGGT------SSSDISWTM    394
+                     ..|..      :|.|:|.:.:       |..:|.|      .:||....:
+DNLJ_CROS5       321 EEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQL    370
+
+TAF3_XENLA       395 DDSINE--VIRKVSQETPTNT-------PANNPPCFSSPSASPPTPEPLL    435
+                     |..:.:  :|||..:..|...       |.|..| :..|...|....||:
+DNLJ_CROS5       371 DIRVGDTVIIRKAGEIIPEVVRVLKELRPPNTQP-YEMPDRCPECDSPLI    419
+
+TAF3_XENLA       436 K    436
+                     :
+DNLJ_CROS5       420 R    420
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 532
+# Identity:     104/532 (19.5%)
+# Similarity:   178/532 (33.5%)
+# Gaps:         175/532 (32.9%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       119 EMPFAKRIRLMNNKGDILDGSLEPREPLSSINSQKVPSVLSPAH------    162
+                     ||.|...::    ..:||..:|..|    |..:.|||....|.|      
+MUTS_MYXXD        41 EMFFEDAVK----ASEILQITLTAR----SKGADKVPMCGVPYHAARRYI     82
+
+TAF3_XENLA       163 -KIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPG---    208
+                      ::.|:.|.|:..:|:          ..|.....::.:..::..:||   
+MUTS_MYXXD        83 GRLVSEGLKVAICEQV----------EEPGNGPGIVRREVTRVITPGMVL    122
+
+TAF3_XENLA       209 -QKIKSPKATPISTVI-------GSPIRSPKSGP-KERKSPGCAKSPKS-    248
+                      :::..|:|:.....:       |:.:....:|. ...::||.|:..:| 
+MUTS_MYXXD       123 DEEVLEPQASNFLAAVSWNDKGWGAALLEASTGEFMALEAPGIAELAESL    172
+
+TAF3_XENLA       249 ----PKSPKVP---------------LAAPPPAIKTET----PNR-----    270
+                         |:...||               |...|...:.|.    |.|     
+MUTS_MYXXD       173 SRVEPRELLVPDGKRDAPEVAQLLARLVRTPAVAEGEAASFEPTRAAGYL    222
+
+TAF3_XENLA       271 ----------------TPLA----------------TLSEKIGRENIQIK    288
+                                     .|||                |.:..:.|.:.|.:
+MUTS_MYXXD       223 RSHFAVQSLSAFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQER    272
+
+TAF3_XENLA       289 QNQTPLD-SDQLNVEI------PSKKPSIADNTIEDSIDAVIARACAEQE    331
+                     .....:| |.:.|:|:      ..:|.|:. ..::.::.::.||..|...
+MUTS_MYXXD       273 GGNLLMDESSRANLEVLRSLRDGGRKGSLL-GVLDKTVTSLGARKLARWL    321
+
+TAF3_XENLA       332 PDPFEFSSGSESEGEVFTSPKRLN-ISELTTPKV---SASGI--NPGKTS    375
+                     ..|.    ||..|...     ||: :.||:...|   ..:||  ..|...
+MUTS_MYXXD       322 ASPL----GSLPEIHA-----RLDAVEELSGRSVWREELAGILKEVGDLE    362
+
+TAF3_XENLA       376 STSVPASGGTSSSDISWTMDDSINEVIRKVSQ----ETPTNTPANNPPCF    421
+                     ......|.|..::.....:..|:.::.|.|:.    |:|.......|   
+MUTS_MYXXD       363 RLCGRLSLGAGNARDLRALGLSLAQLPRVVAVLARCESPLLKSLTGP---    409
+
+TAF3_XENLA       422 SSPSASPPTPEPLLKVFEDKAKLPPPVELKKKTKKEQRAKKKKDKDKLKD    471
+                       .||.|...|.|.:...::    |||.||....  .||....:.|||..
+MUTS_MYXXD       410 --LSALPELAELLSRAVAEE----PPVTLKDGGM--IRAGFHAELDKLVA    451
+
+TAF3_XENLA       472 KERSKDKNKDRSKD-----KEKDKEKDGTKDGKVLWK----------DSN    506
+                     ...|       .||     ::::||:.|....||.:.          .||
+MUTS_MYXXD       452 LSTS-------GKDLLLQIEQREKERTGISSLKVRYNKVFGYYLEVTKSN    494
+
+TAF3_XENLA       507 KDE------------DSELHRF---KLKDFNE    523
+                     .|.            :||  ||   :||::.|
+MUTS_MYXXD       495 LDRVPKDYIRKQTTVNSE--RFVTPELKEYEE    524
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 321
+# Identity:      64/321 (19.9%)
+# Similarity:   108/321 (33.6%)
+# Gaps:         116/321 (36.1%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       479 NKDRSKDKEKDKEKDGT---------KDGKVLWKDSNK------------    507
+                     || |..|.|.:.::.||         ...|:.|::||:            
+NOSO_STAAC        25 NK-RLHDIELEIKETGTYTHTEEELIYGAKMAWRNSNRCIGRLFWDSLNV     73
+
+TAF3_XENLA       508 -------DEDSEL-----------HRFKLKDFNEIDS-KSKQK-------    531
+                            ||.|.|           :..|||.:..|.: |...|       
+NOSO_STAAC        74 IDARDVTDEASFLSSITYHITQATNEGKLKPYITIYAPKDGPKIFNNQLI    123
+
+TAF3_XENLA       532 -----ENCGKKDKEKHKDKKKDKEKGKKDKDKKGKD--------KTKEEK    568
+                          :|||  |..:.:..:.....|.|.   ||.:        :...|.
+NOSO_STAAC       124 RYAGYDNCG--DPAEKEVTRLANHLGWKG---KGTNFDVLPLIYQLPNES    168
+
+TAF3_XENLA       569 MK---SPST-----PI---------MLSSKDIALPMISTPNTVRLPSLLS    601
+                     :|   .|::     ||         .|:.|..|:|:||..: :::..::.
+NOSO_STAAC       169 VKFYEYPTSLIKEVPIEHNHYPKLRKLNLKWYAVPIISNMD-LKIGGIVY    217
+
+TAF3_XENLA       602 SMSP-----LLPE------------KLFEEKEKSKEKDKKKDKKEKKK--    632
+                     ..:|     ::.|            .|.|:...:.|.|..|:....|.  
+NOSO_STAAC       218 PTAPFNGWYMVTEIGVRNFIDDYRYNLLEKVADAFEFDTLKNNSFNKDRA    267
+
+TAF3_XENLA       633 ------------KKDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKAELSIP    670
+                                 ||:...:.:.....|:.|..:..|.::..:|..:.|..
+NOSO_STAAC       268 LVELNYAVYHSFKKEGVSIVDHLTAAKQFELFERNEAQQGRQVTGKWSWL    317
+
+TAF3_XENLA       671 APSPVIPRLTLRVGAGQDTIV    691
+                     || |:.|.||.....|.|..|
+NOSO_STAAC       318 AP-PLSPTLTSNYHHGYDNTV    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      28/146 (19.2%)
+# Similarity:    62/146 (42.5%)
+# Gaps:          31/146 (21.2%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       455 KKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTK---DGKVL    501
+                     |.:::|||:|.:. ...:|.|:.:.::.....|:|.::.|.:   :|.:|
+RBM8A_MOUSE       27 KLKEKAKKRKGRG-FGSEEGSRARMREDYDSVEQDGDEPGPQRSVEGWIL     75
+
+TAF3_XENLA       502 WKDSNKDE--DSELHRFKLKDFNEI-------DSKSKQKENCGKKDKEKH    542
+                     :.....:|  :.::|. |..::.||       |.::...:.....:.|.:
+RBM8A_MOUSE       76 FVTGVHEEATEEDIHD-KFAEYGEIKNIHLNLDRRTGYLKGYTLVEYETY    124
+
+TAF3_XENLA       543 KDKKKDKEKGKKDKD----------------KKGKDKTKEEKMKSP    572
+                     |:.:...| |...:|                .|||.:....:.:||
+RBM8A_MOUSE      125 KEAQAAME-GLNGQDLMGQPISVDWCFVRGPPKGKRRGGRRRSRSP    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     8/8 (100.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       600 LSSMSPLL    607
+                     |:||:|::
+NU4LM_ARCPU       55 LASMAPII     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      22/130 (16.9%)
+# Similarity:    47/130 (36.2%)
+# Gaps:          25/130 (19.2%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        58 LIISSQEEEEEEQVPTDGGTSAEAMQ-------VPLEEEEEEGEMEDDET    100
+                     ||.:..:..:..::||....:.||::       .||:...:...:.....
+NANK_ECOLI        17 LIGADGQIRDRRELPTPASQTPEALRDALSALVSPLQAHAQRVAIASTGI     66
+
+TAF3_XENLA       101 VNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSSIN    150
+                     :.|.:.|:..|.:....:..|..|.:..:.|.            |..:||
+NANK_ECOLI        67 IRDGSLLALNPHNLGGLLHFPLVKTLEQLTNL------------PTIAIN    104
+
+TAF3_XENLA       151 SQKVPSVLSPAHKIDSQDLDVSYSDQIMLS    180
+                     ..:.      |...:.|.||...:|.:.::
+NANK_ECOLI       105 DAQA------AAWAEFQALDGDITDMVFIT    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      41/215 (19.1%)
+# Similarity:    75/215 (34.9%)
+# Gaps:          77/215 (35.8%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+TAF3_XENLA         2 GVNIHELEDYIHN----------IEPVTF-------------------PH     22
+                     |::....|:|:.|          ||.|.|                   |:
+MIAB_MYCPE       259 GIDFDNGENYLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPN    308
+
+TAF3_XENLA        23 QIP--SFPVSKNNALQFP----PPGSKDAEDRKEYIPDYLP-------LI     59
+                     .:|  ..|:...:.....    |....|..|..:||...:|       ||
+MIAB_MYCPE       309 IMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTDLI    358
+
+TAF3_XENLA        60 ISSQEEEEEE---------QVPTDG----------GTSAEAM--QVPLEE     88
+                     :....|.:|:         ::..|.          ||.|..:  ::||.|
+MIAB_MYCPE       359 VGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPLSE    408
+
+TAF3_XENLA        89 EEEEGEMEDDETV------NDENYLSK-------RPLDSPETMEMPFAKR    125
+                     ::|..: |.:|.|      |:|.|::|       .|....:|:...::.:
+MIAB_MYCPE       409 KKERLQ-ELNEMVKTFSKKNNEKYVNKVLDVLVDGPSKKDKTVISGYSPQ    457
+
+TAF3_XENLA       126 IRLMNNKGDILDGSL    140
+                     .:::|..|....|.:
+MIAB_MYCPE       458 WKVVNFTGSAKSGEI    472
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      10/56 (17.9%)
+# Similarity:    19/56 (33.9%)
+# Gaps:          19/56 (33.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+TAF3_XENLA         2 GVNIHELEDYIHNIEPVTF---------------PHQIPSFPVSKNNA--     34
+                     |..:.....|.|.:..|.|               ||::....:..||:  
+NADK_STAES        46 GTLLQAFHQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEINNSEF     95
+
+TAF3_XENLA        35 --LQFP     38
+                       :::|
+NADK_STAES        96 QVIEYP    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 388
+# Identity:      73/388 (18.8%)
+# Similarity:   131/388 (33.8%)
+# Gaps:         117/388 (30.2%)
+# Score: 92.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       396 DSINEV------IRKVSQE---------TPTNTPANNPPCFSSPSASP--    428
+                     |.||:|      :.|...|         ...|.|.....|| |||..|  
+TRPG_CAEEL      1689 DVINDVESRLASVEKAQNEILECVRALLNQNNAPTAIGRCF-SPSPDPLV   1737
+
+TAF3_XENLA       429 ----PTPEPLLKVFEDKAKLP--PPVELKKKTKKEQRAKKKKDKDKLKDK    472
+                         .||.|||      .|||  .|:                    |::|
+TRPG_CAEEL      1738 ETANGTPGPLL------LKLPGTDPI--------------------LEEK   1761
+
+TAF3_XENLA       473 ERSKDKNKDRSKDKEKDKEKDGTKDGKVLWKDSN------KDED-SELHR    515
+                     :....:|.:........:.:..|..|..:.::.|      |..| |.:.:
+TRPG_CAEEL      1762 DHDSGENSNSLPPGRIRRNRTATICGGYVSEERNMMLLSPKPSDVSGIPQ   1811
+
+TAF3_XENLA       516 FKLKDFNEIDS-------------KSKQKENCGKKDK--EKHKDKK-KDK    549
+                     .:|.....:|.             :.:.:|.....|.  .:|.::: ::.
+TRPG_CAEEL      1812 QRLMSVTSMDPLPLPLAKLSTMSIRRRHEEYTSITDSIAIRHPERRIRNN   1861
+
+TAF3_XENLA       550 EKGKKDKDKKGKDKTKEEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSL    599
+                     .....:.|:...|  .|......|:|...|::|:.:    ||::      
+TRPG_CAEEL      1862 RSNSSEHDESAVD--SEGGGNVTSSPRKRSTRDLRM----TPSS------   1899
+
+TAF3_XENLA       600 LSSMSPLLPEKLFEEKEKSKEKDK-----KKDKKEKKKKKDKEKVKEKEK    644
+                                   :.|:|..:|:     ..:.:|.:.:.|.|......:
+TRPG_CAEEL      1900 --------------QVEESTSRDQIFEIDHPEHEEDEAQADCELTDVITE   1935
+
+TAF3_XENLA       645 EKKEKEKEKEKEKKEKEKV----KAELSIPAPSPVIPRLTLRVGAGQDTI    690
+                     |:.|:|.::|.:..|:..:    |:......||..: ...|..|...|.:
+TRPG_CAEEL      1936 EEDEEEDDEEDDSHERHHIHPRRKSSRQNRQPSHTL-ETDLSEGEEVDPL   1984
+
+TAF3_XENLA       691 VISKVVSAP--------ESKAVPPPSLPKSPPPTPSPA    720
+                     .:.|:...|        |.:|..|.|.|....|:.|.|
+TRPG_CAEEL      1985 DVLKMKELPIIHQILNEEEQAGAPHSTPVIASPSSSRA   2022
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:      46/195 (23.6%)
+# Similarity:    75/195 (38.5%)
+# Gaps:          34/195 (17.4%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       654 EKEKKEKEKVKAELSIPAPSPVIPRLTLRVGAGQDTIVISKVVSAPESKA    703
+                     :::::.::.|.|...:...:||..:: ||..|.|.|..:.....:|...|
+MSHD_MYCMM        13 DQQRQVRDLVTAATQVDGVAPVGEQV-LRELAQQRTEHLLVEDQSPGKSA     61
+
+TAF3_XENLA       704 VPPPSLPKSPPPTPSPAPAPVLVVPPQA-----PPAPAAASPAPTP----    744
+                     :...:|   .|...:.|....|||.|||     ..|...|:.|.|.    
+MSHD_MYCMM        62 IGYLNL---SPAHGADAAMAELVVHPQARRRGIATAMVRAALAKTGGRNQ    108
+
+TAF3_XENLA       745 -------APSALTSNAGSSKTPVRSVVTETVSTYVIRDEW---GNQIWIC    784
+                            ||:..|::| ...||||.:|....|...:.:..   |.||...
+MSHD_MYCMM       109 FWAHGTLAPAQATASA-LGLTPVRELVQMRRSLRQLPEPVIPNGLQIRTY    157
+
+TAF3_XENLA       785 PGCNKPDDGSPMIGCDQCDDWYH-----WPCVGINAAPPEDEQWF    824
+                     .|   .:|.:.::..:.....||     |  ...:.|....|.||
+MSHD_MYCMM       158 AG---TEDDAELLRVNNAAFAYHPEQGGW--TEADLAERRGEPWF    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    19/54 (35.2%)
+# Gaps:          20/54 (37.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+TAF3_XENLA         3 VNIHELEDYIHNIEPVTFPHQIPSFPVSKNNA-------LQFPPPGSKDA     45
+                     |.:.|.|...|.      ||.:   .|..||.       |..|.|||   
+PAND_THEFY        91 VQLTEAERATHR------PHVV---HVDANNRIVALGDDLAEPVPGS---    128
+
+TAF3_XENLA        46 EDRK     49
+                      |:|
+PAND_THEFY       129 -DQK    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 331
+# Identity:      61/331 (18.4%)
+# Similarity:   113/331 (34.1%)
+# Gaps:          78/331 (23.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       138 GSLEPREPLSSINSQKVPSVL-SPAHKIDSQDLDVSYSDQIMLSP-----    181
+                     ||:.|....:...::..||.. :||    :.....:::|::...|     
+LIPA_ASPOR        22 GSITPISRRTYATTEPSPSATGAPA----TARKRTNFTDKLNAGPSFADF     67
+
+TAF3_XENLA       182 VS--KSQAP-PPSESKSLIPKTKSKGGSPGQKIKSPKATPISTVIGSPIR    228
+                     ||  :..|| .|||:.:|  ||...|.:..:|    :.|.:.:.:.:||.
+LIPA_ASPOR        68 VSGGEDNAPLEPSEAYAL--KTAMVGPAGRKK----EMTRLPSWLKTPIP    111
+
+TAF3_XENLA       229 SPKSGPK---------------ERKSPGCAK----SPKSPKSPKVPLAAP    259
+                     ..|:..:               |.:.|..:.    |.||..:..:.|...
+LIPA_ASPOR       112 DSKNYQRLKKDLRGLNLHTVCEEARCPNISDCWGGSDKSAATATIMLMGD    161
+
+TAF3_XENLA       260 ----------------PPAIKTETPNRTPLATLSEKIGRENIQIKQNQTP    293
+                                     ||.:....|..|..|.....:|...:      |.
+LIPA_ASPOR       162 TCTRGCRFCSVKTNRRPPPLDPHEPENTAEAISRWSLGYVVL------TS    205
+
+TAF3_XENLA       294 LDSDQLN-----------VEIPSKKPSIADNTIEDSI--DAVIARACAEQ    330
+                     :|.|.|.           ::|..||||:....:....  |..:.:..|..
+LIPA_ASPOR       206 VDRDDLADGGARHFAETVIKIKQKKPSMLVECLTGDYLGDLEMVKLVARS    255
+
+TAF3_XENLA       331 EPDPFEFSSGSESEGEVFTSPKRLNISELTTPKVSASGINPGKTSSTSVP    380
+                     ..|.:..:..:......|...:|....:......:|....|...:.||:.
+LIPA_ASPOR       256 GLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAAKQARPDLITKTSLM    305
+
+TAF3_XENLA       381 ASGGTSSSDISWTMDDSINEVIRKVSQETPT    411
+                     ...|.:...: |   |::.: :|.|..:..|
+LIPA_ASPOR       306 LGFGETEEQL-W---DALRQ-LRSVGVDVVT    331
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      40/198 (20.2%)
+# Similarity:    91/198 (46.0%)
+# Gaps:          29/198 (14.6%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        68 EEQVPTDGGTSAEAMQVPLEEEEEEGEMEDDETVNDENY-LSKRPLDSPE    116
+                     |.::|:..||| ..:.:.|:.::.....:..:.:|...| .:..|||| .
+FLGI_PECAS       176 ERELPSTFGTS-NTIMLQLKNDDFSMAQKVSDAINRSGYGGTASPLDS-R    223
+
+TAF3_XENLA       117 TMEM--PF--AKRIRLMNNKGDILDGSLEPREPLSSINSQKVPSVLSPAH    162
+                     |:::  |.  :.::|.:.:..:| :.::..::....|||:....|::...
+FLGI_PECAS       224 TIQVLAPHGNSSQVRFLADVQNI-EVNVGIQDAKVVINSRTGSVVMNRDV    272
+
+TAF3_XENLA       163 KIDS-----QDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTK---SKG    204
+                     .:||     .:|.|:.:.|   :.||:...|.......:.|:|:   .:.
+FLGI_PECAS       273 TLDSCAIAQGNLSVTINQQ---ANVSQPNTPFGGGQTVVTPQTEISVQQT    319
+
+TAF3_XENLA       205 GSPGQKIKSPKATPISTVIGSPIRSPKSGPKE-------RKSPGCAKS    245
+                     |...|::.|  :..::.|:.: :.|..:.|.|       .:|.||.::
+FLGI_PECAS       320 GGVLQRVNS--SANLNNVVRA-LNSLGATPMELMSILQAMQSAGCLRA    364
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      21/88 (23.9%)
+# Similarity:    38/88 (43.2%)
+# Gaps:          19/88 (21.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       107 LSKRPLDSPETMEMPFAK-RIRLMNNKGDILDGS-----LEPREPLSSIN    150
+                     ::..|:|....:.|.::| .|..:...|.|||.|     |..|   .::|
+LDH_BORAP        120 IASNPVDIMTYVTMKYSKFPIHKVIGTGTILDTSRLRYFLSDR---FNVN    166
+
+TAF3_XENLA       151 SQKVPSVLSPAHKIDSQDLDVSY----SDQIMLSPVSK    184
+                     :|.:.|.:...|.      |.|:    ..:|.:.|:|:
+LDH_BORAP        167 TQNIHSYVMGEHG------DSSFVTWDETKIAMKPLSE    198
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     9/13 (69.2%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       391 SWTMDDSINEVIR    403
+                     ||...|.||::::
+EXGB_EMENI       104 SWITQDDINQMVQ    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      30/156 (19.2%)
+# Similarity:    63/156 (40.4%)
+# Gaps:          54/156 (34.6%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       276 LSEKIGRENIQIKQ-NQTPLDSD--QLNVEIPSKKPSIAD----------    312
+                     |.|: |||.:.::: ..||:...  :|.:|..:...|||:          
+KTHY_CHLP8        24 LQER-GREVLTLREPGGTPVAEQIRELLLESHNDITSIAELLLFSASRAE     72
+
+TAF3_XENLA       313 -------NTIEDSIDAVIARACAEQEPDPFEFSSGSESEGEVFTSPKRLN    355
+                            ..:||..|.::.|.        |:.::..:..|      :.||
+KTHY_CHLP8        73 LMEKIIVPALEDGCDVILDRF--------FDSTTAYQGYG------RGLN    108
+
+TAF3_XENLA       356 ISELT-TPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINE-VIR    403
+                     :..|. ..::::.||.|                 ||::.:|.:..: ::|
+KTHY_CHLP8       109 LDMLAEINRIASHGIRP-----------------DITFYLDLTPEDALLR    141
+
+TAF3_XENLA       404 KVSQET    409
+                     |.|:::
+KTHY_CHLP8       142 KFSEKS    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      27/119 (22.7%)
+# Similarity:    52/119 (43.7%)
+# Gaps:          21/119 (17.6%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       220 STVIGSPIRSPKSGPKERKSPGCAKSPKSPKSPKVPLAAPPPAIKTETPN    269
+                     :||.|....:..:|.:.|:......||..|..|.         |:.:..:
+SECA2_MYCTO      408 ATVCGMTGTALAAGEQLRQFYQLGVSPIPPNKPN---------IREDEAD    448
+
+TAF3_XENLA       270 RTPLATLSEKIG-RENI-QIKQNQTPL--------DSDQLNVEIPSK-KP    308
+                     |..:.|.::..| .|:| ::.|...|:        :|::|:..:..: .|
+SECA2_MYCTO      449 RVYITTAAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVP    498
+
+TAF3_XENLA       309 SIADNTIEDSIDA-VIARA    326
+                     ::..|...|:.:| |||.|
+SECA2_MYCTO      499 AVVLNAKNDAEEARVIAEA    517
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       261 PAIKTETPNR    270
+                     |.|::.||.:
+DB108_HUMAN       63 PRIESTTPKK     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      39/181 (21.5%)
+# Similarity:    59/181 (32.6%)
+# Gaps:          59/181 (32.6%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       705 PPPSLPKSPPPTPSPAPAPVL------------VVPPQAPP--APAA---    737
+                     |||:.|.: .|...|||.|.|            :.||..||  .|.|   
+LCMT1_CRYNB       21 PPPTDPNA-APAHRPAPRPALGRCRPPHRRRRRLRPPVRPPLSLPVALTT     69
+
+TAF3_XENLA       738 -ASPA----------------PTPAPSALTSNA--GSSKTPVRSVVTETV    768
+                      :|.|                |.|.|.|....|  .:.|.|:.:|.|.  
+LCMT1_CRYNB       70 RSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRARKPPLINVGTH--    117
+
+TAF3_XENLA       769 STYVIRDEWGNQIWICPGCNKPDD------GSPMIGCDQCDDWYHWPCVG    812
+                               ::.|   |.::..|      |..::......|...|..:.
+LCMT1_CRYNB      118 ----------HRTW---GIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMS    154
+
+TAF3_XENLA       813 INAAPPEDEQWFCTKCESKKKDKKQKKRKHK    843
+                      .|.||:..::...........|.|:..:|:
+LCMT1_CRYNB      155 -RATPPDLARYVEIDFPHLTSPKAQRIARHR    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      11/29 (37.9%)
+# Similarity:    17/29 (58.6%)
+# Gaps:           0/29 ( 0.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       566 EEKMKSPSTPIMLSSKDIALPMISTPNTV    594
+                     |||.||..||:::|:.|....:|....:|
+PTGA_SALTY       129 EEKAKSTLTPVVISNMDEIKELIKLSGSV    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      13/59 (22.0%)
+# Similarity:    24/59 (40.7%)
+# Gaps:          14/59 (23.7%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       620 EKDKKKDKKEKKKKKDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKAELSI    669
+                     :::|||.:.|:|....::.:|              ||..|...:..:|.|
+RR14_CRYJA         8 QREKKKQRLERKYNLLRQSLK--------------KEMSEVSSLDDKLDI     43
+
+TAF3_XENLA       670 PAPSPVIPR    678
+                     ......:||
+RR14_CRYJA        44 YRKLQSLPR     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      39/168 (23.2%)
+# Similarity:    65/168 (38.7%)
+# Gaps:          40/168 (23.8%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       244 KSPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENI--------    285
+                     |:.:..|:..||:.....|.:::...|    .|.||.|...|        
+DCUP_BACVZ        13 KAARGEKTNHVPVWYMRQAGRSQPEYR----KLKEKYGLVEITHQPELCA     58
+
+TAF3_XENLA       286 ---QIKQNQTPLDSDQLNVEIPSKKPSI-ADNTIEDSIDAVIARACAEQE    331
+                        ::...|..:|:..|..:|.:..|.| .|..|::.|..||        
+DCUP_BACVZ        59 YVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIKNGIGPVI--------    100
+
+TAF3_XENLA       332 PDPFEFSSGSESEGEVFTSPK----------RLNISE-LTTPKVSASGIN    370
+                     ..|...::..|..||:  :|:          ||.::| |..|.:..||. 
+DCUP_BACVZ       101 DQPVRSAADIEKLGEL--NPEQDVPYVLETIRLLVNEQLNVPLIGFSGA-    147
+
+TAF3_XENLA       371 PGKTSSTSVPASGGTSSS    388
+                     |...:|..:  .||.|.:
+DCUP_BACVZ       148 PFTLASYMI--EGGPSKN    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 802
+# Identity:     152/802 (19.0%)
+# Similarity:   250/802 (31.2%)
+# Gaps:         269/802 (33.5%)
+# Score: 123.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        48 RKEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEEGEMED     97
+                     ||::..|::...: .:||:..|.......|.|..|.|...|.|...:..:
+GTF2I_MOUSE       69 RKDFQKDFVKYCV-EEEEKAAEMHKMKSTTQANRMSVDAVEIETLRKTVE    117
+
+TAF3_XENLA        98 DETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLS    147
+                     |...    :...:.|.....:.:|:.|.:|                 ..|
+GTF2I_MOUSE      118 DYFC----FCYGKALGKSTVVPVPYEKMLR-----------------DQS    146
+
+TAF3_XENLA       148 SINSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLI    197
+                     ::..|.:|..::..|   .:..|::....|:                   
+GTF2I_MOUSE      147 AVVVQGLPEGVAFKH---PEHYDLATLKWIL-------------------    174
+
+TAF3_XENLA       198 PKTKSKGGSPGQKIKSPKATPISTVIGSPIRSPKSGPKERKSPG----CA    243
+                        ::|.|             ||.:|..|...||      |..|    .|
+GTF2I_MOUSE      175 ---ENKAG-------------ISFIIKRPFLEPK------KHLGGRVLAA    202
+
+TAF3_XENLA       244 KSPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQNQTP    293
+                     ::.:|..||..  :..|..:|||     |.......:....:.:|:....
+GTF2I_MOUSE      203 EAERSMLSPSG--SCGPIKVKTE-----PTEDSGISLEMAAVTVKEESED    245
+
+TAF3_XENLA       294 LDSDQLNVEIPSKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSES    343
+                     .|..|.|::.||:         .|.:|..:..:.|.|       .|...|
+GTF2I_MOUSE      246 PDYYQYNIQGPSE---------TDGVDEKLPLSKALQ-------GSHHSS    279
+
+TAF3_XENLA       344 EGEVFTSPKRLNISELTTPKVSASGINPGKTSSTSVPASGGTSSSDISWT    393
+                     ||           :|.|..:|      |.:.|:..|| |..:...::..|
+GTF2I_MOUSE      280 EG-----------NEGTEVEV------PAEDSTQHVP-SETSEDPEVEVT    311
+
+TAF3_XENLA       394 MDDSINEVIRKVSQETPTNTPANNPPCFSSPSASPPTPEPLLKVFEDKAK    443
+                     ::|.                 ..:||.....|..||.|.|          
+GTF2I_MOUSE      312 IEDD-----------------DYSPPTKRLKSTEPPPPPP----------    334
+
+TAF3_XENLA       444 LPPPVELKKKTKKEQRAKK--------KKDKDKLKDKERS---KDKNK--    480
+                     :|.|....|:..:|...:|        :|..::|.:::.:   |.|..  
+GTF2I_MOUSE      335 VPEPANAGKRKVREFNFEKWNARITDLRKQVEELFERKYAQAIKAKGPVT    384
+
+TAF3_XENLA       481 ---DRSKDKEKDKEKDGTKDGKVLWKDSNKDED--------SELHRFKLK    519
+                        ...:...:|...:|..:|....:.|.....        .|..||.:|
+GTF2I_MOUSE      385 IPYPLFQSHVEDLYVEGLPEGIPFRRPSTYGIPRLERILLAKERIRFVIK    434
+
+TAF3_XENLA       520 DFNEIDSKSKQKENCGKKDKEKHKDKKKDKEKGKKDKDKKG-KDK-----    563
+                                          ||:.....:|..:.||...| |::     
+GTF2I_MOUSE      435 ---------------------KHELLNSTREDLQLDKPASGVKEEWYARI    463
+
+TAF3_XENLA       564 TKEEKMKSPSTPIMLSSKDIALPMIST-------------PNTV---RLP    597
+                     ||..||..     .|..|..|..:.||             ||.:   .||
+GTF2I_MOUSE      464 TKLRKMVD-----QLFCKKFAEALGSTEAKAVPYQKFEAHPNDLYVEGLP    508
+
+TAF3_XENLA       598 SLLSSMSPL---LP--EKLFEEKEKSKEKDKKKD-----KKEKKKKKDKE    637
+                     ..:...||.   :|  ||:.:...:.|...|:.:     ..|..:.:...
+GTF2I_MOUSE      509 ENIPFRSPSWYGIPRLEKIIQVGNRIKFVIKRPELLTHSTTEVTQPRTNT    558
+
+TAF3_XENLA       638 KVKEK---EKEKKEKEKEKEKEKKEKEKVKAELSIPAPSPV---------    675
+                     .|||.   ...|..|:.|:....|..:.:....::..|.||         
+GTF2I_MOUSE      559 PVKEDWNVRITKLRKQVEEIFNLKFAQALGLTEAVKVPYPVFESNPEFLY    608
+
+TAF3_XENLA       676 -----------------IPRLTLRVGAGQDTIVISKVVSAPE--------    700
+                                      ||||. |:..|.:.|..  ||..||        
+GTF2I_MOUSE      609 VEGLPEGIPFRSPTWFGIPRLE-RIVRGSNKIKF--VVKKPELVVSYLPP    655
+
+TAF3_XENLA       701 -------SKAVPPPSLPKSPPPTPSPAPAPVLVVPP--QAPPAPAAASPA    741
+                            :||:..|..|:||..........|.|..|  .:|...|..:|.
+GTF2I_MOUSE      656 GMASKINTKALQSPKRPRSPGSNSKVPEIEVTVEGPNNSSPQTSAVRTPT    705
+
+TAF3_XENLA       742 PT    743
+                     .|
+GTF2I_MOUSE      706 QT    707
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      41/216 (19.0%)
+# Similarity:    77/216 (35.6%)
+# Gaps:          57/216 (26.4%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        49 KEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEEGEM---     95
+                     |:|..|.:.:::.......|.:     ||..:.         |||.|   
+ISPH_ACIF5       107 KKYSRDGMEMVLIGHAGHPEVE-----GTMGQV---------EEGMMYLV    142
+
+TAF3_XENLA        96 ---EDDETVNDEN-----YLSKRPLDSPETMEMPFAKRIRL---------    128
+                        .|..|:...|     |:::..|...:|.|:..|.|.|.         
+ISPH_ACIF5       143 SNVSDVATLAPRNPDKLAYITQTTLSMDDTAEVIVALRSRFPLIEGPKKD    192
+
+TAF3_XENLA       129 -----MNNKGDILDGSLEPREPL-------SSINSQKVPS----VLSPAH    162
+                          ..|:.|.:. ||.|...:       :|.||.::..    :.:..|
+ISPH_ACIF5       193 DICYATQNRQDAVK-SLAPDVDILLVVGAPNSSNSSRLAELGTRLGTQTH    241
+
+TAF3_XENLA       163 KI-DSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGG-----S    206
+                     .| |:|.|...:.:.:....:|...:.|.|..:.::...:..|.     .
+ISPH_ACIF5       242 LIEDAQQLRREWFEGVGKIGISAGASAPESLVQEIMDTLRGWGARVPQEM    291
+
+TAF3_XENLA       207 PGQKIKSPKATPISTV    222
+                     ||.:.|...:.|::.:
+ISPH_ACIF5       292 PGVEEKVTFSLPLALI    307
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           2/17 (11.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        95 MEDDETVN--DENYLSK    109
+                     ||.|..::  |..|:||
+NDUA1_HUMAN       48 MERDRRISGVDRYYVSK     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      41/227 (18.1%)
+# Similarity:    84/227 (37.0%)
+# Gaps:          61/227 (26.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       300 NVEIPSKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSS---------G    340
+                     ::.:|..:.......::|.|||:..:....    |..|.|         .
+PSRP_SALTI        37 SITLPFVENESRARAVKDQIDAIYQQTGVR----PLVFYSIVLPEIRAII     82
+
+TAF3_XENLA       341 SESEG------EVFTSPKRLNISELTTPKVSAS-GINPGKTSSTSVPASG    383
+                     .:|||      :...:|.:..:....||....: |:|||..:......:.
+PSRP_SALTI        83 LQSEGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNPGNLNKYDARIAA    132
+
+TAF3_XENLA       384 GTSSSDISWTM--DDSINEVIRKVSQ------------ETPT--------    411
+                           |.:|:  ||.|:  :|.:.|            :|||        
+PSRP_SALTI       133 ------IDYTLAHDDGIS--LRNLDQAQVILLGVSRCGKTPTSLYLAMQF    174
+
+TAF3_XENLA       412 -----NTP--ANNPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVELKKKT    454
+                          |.|  |::....:.|::..|....|..:..|..:|   ..::::.
+PSRP_SALTI       175 GIRAANYPFIADDMDNLTLPTSLKPLQHKLFGLTIDPERL---AAIREER    221
+
+TAF3_XENLA       455 KKEQR-AKKKKDKDKLKDKERSKDKNK    480
+                     ::..| |..::.:.::.:.|....||:
+PSRP_SALTI       222 RENSRYASLRQCRMEVAEVEALYRKNQ    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:     100/514 (19.5%)
+# Similarity:   172/514 (33.5%)
+# Gaps:         147/514 (28.6%)
+# Score: 103.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        99 ETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPREPLSS    148
+                     ::.|.:.:|.....|            :||:|...|    ..:..:.:..
+DNAK_CHESB       214 KSTNGDTFLGGEDFD------------MRLVNYLAD----EFKKEQGIDL    247
+
+TAF3_XENLA       149 INSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPP---------    189
+                     .|.:.....|..|.:....:|..|...:|.|..::..|..|         
+DNAK_CHESB       248 KNDKLALQRLKEAAEKAKIELSSSSQTEINLPFITADQTGPKHLAIKLTR    297
+
+TAF3_XENLA       190 ---PSESKSLIPKT--------KSKGGSPGQKIKSPKATPISTV--IGSP    226
+                        .|..:.|:.:|        |..|.|.|:         |..|  :|..
+DNAK_CHESB       298 AKFESLVEDLVTRTIEPCRAALKDAGLSAGE---------IDEVVLVGGM    338
+
+TAF3_XENLA       227 IRSPKSGPKERKSPGCAKSPKSPKSPKVPLAAPPPAIKTET---------    267
+                     .|.||  .:|.......|.|....:|. .:.|...||:...         
+DNAK_CHESB       339 TRMPK--VQETVKNFFGKEPHKGVNPD-EVVAMGAAIQAGVLQGDVKDVL    385
+
+TAF3_XENLA       268 -PNRTPLATLSEKIGRENIQIKQNQTPLDSDQLNVEIPSKKPSIADNTIE    316
+                      .:.|||:...|.:|....::      :|.   |..||:||..:. :|.|
+DNAK_CHESB       386 LLDVTPLSLGIETLGGVFTRL------IDR---NTTIPTKKSQVF-STAE    425
+
+TAF3_XENLA       317 DSIDAVIARACAEQEPDPFEFSSGSESEGE-----VFTSPKRLNISELT-    360
+                     |:.:||..|....:.    |.::.::..|:     :..:|:.:...|:| 
+DNAK_CHESB       426 DNQNAVTIRVFQGER----EMAADNKLLGQFDLVGIPPAPRGMPQIEVTF    471
+
+TAF3_XENLA       361 ------TPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINEVIRK    404
+                           ...|||.....||.....:.||||.|.::            |.|
+DNAK_CHESB       472 DIDANGIVNVSAKDKGTGKEQQIRIQASGGLSDAE------------IEK    509
+
+TAF3_XENLA       405 VSQETPTNTPANNPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVELKKKT    454
+                     :.::...|..|                        || |....||:|.:.
+DNAK_CHESB       510 MVKDAEANAEA------------------------DK-KRRETVEVKNQA    534
+
+TAF3_XENLA       455 KKEQRAKKKKDKDKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKVLWKD    504
+                     :....:.:|..||               ..||..:.::...::.....|.
+DNAK_CHESB       535 EALIHSTEKSLKD---------------YGDKVSEDDRKAIENAIAELKT    569
+
+TAF3_XENLA       505 SNKDEDSELHRFKLKDFNEIDSK-------SKQKENC--GKKDKEKHKDK    545
+                     :.:.||::..|.|.....|...|       :.|.||.  |.::....||.
+DNAK_CHESB       570 ATEGEDADAIRAKTTALAEASMKLGQAVYEASQAENAAGGTEETGGAKDD    619
+
+TAF3_XENLA       546 KKDKEKGKKDKDKK    559
+                     ..|.:..:.|:|.|
+DNAK_CHESB       620 VVDADFEEIDEDDK    633
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 526
+# Identity:      97/526 (18.4%)
+# Similarity:   162/526 (30.8%)
+# Gaps:         177/526 (33.7%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+TAF3_XENLA         9 EDYIHNIEPVTFPHQIPSFPVS----KNNALQFPPPGSKDAEDRKEYIPD     54
+                     ||...|:      ..|.|.|:|    |....:.|    .:.|.|.|.:..
+DNLJ_ACIC5       145 EDVTTNV------RTIRSVPLSIADGKLQQAKMP----ANFEVRGEVVMP    184
+
+TAF3_XENLA        55 YLPLIISSQEEEEEEQVPTDGGTSAEAMQV-------------------P     85
+                     :......::|.|.:...|.....:|.|..:                   .
+DNLJ_ACIC5       185 FTAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFA    234
+
+TAF3_XENLA        86 LEEEEEEGEMEDDET----------VNDENYLSKRPLDSPETMEMPFAKR    125
+                     |.|:.|:...|.:|.          ||...:.:|    |.||: :.|..|
+DNLJ_ACIC5       235 LTEKGEDAFGEQEEALDALATLGFRVNQHRHAAK----SIETV-VEFVNR    279
+
+TAF3_XENLA       126 IRLMNNK-GDILDGSLEPREPLSSINSQKVPSVL---------SPAHKID    165
+                     .....:: |..:||      .:..:||..:...|         :.|:|..
+DNLJ_ACIC5       280 AEEHRSRLGYEIDG------VVVKVNSAVLQRRLGYTGRAPRWAVAYKFA    323
+
+TAF3_XENLA       166 S-------QDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPG    208
+                     :       :|:.|.......|:||:           .|.|  ...||:..
+DNLJ_ACIC5       324 ARSGVTQVEDIQVQVGRTGKLTPVA-----------WLAP--VQVGGTTV    360
+
+TAF3_XENLA       209 QKIKSPKATPISTV---IGSPIRSPKSG---PKERKSPGCAKSPKSPKSP    252
+                     .:.....|..|..:   ||..:|..:.|   ||..:....|:.|:..|..
+DNLJ_ACIC5       361 TRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPRGTKHF    410
+
+TAF3_XENLA       253 KVPLAAPP--------------PAIKTETPNR------------------    270
+                     ..|.|.|.              ..:.|:.|.|                  
+DNLJ_ACIC5       411 HFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEG    460
+
+TAF3_XENLA       271 TPLATLSEKIGRENIQIKQNQTPLDSDQL-NVEIPSKKPSIA-----DNT    314
+                     ...|.:.:.:||..::...:...|..:|| ::|...||.:.|     |.:
+DNLJ_ACIC5       461 MGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLGEIDKS    510
+
+TAF3_XENLA       315 IEDSIDAVI------------ARACAEQ----------------------    330
+                     .:..:|.|:            |:|.||:                      
+DNLJ_ACIC5       511 RQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELERVNDVG    560
+
+TAF3_XENLA       331 ------------EPDPFEFSSGSESEGEVFTSPKRLNISELTTPKVSASG    368
+                                 ||...:........|..||..||...|:|.......:|
+DNLJ_ACIC5       561 PRVSEAIREFFDEPRNRDLVERLREAGLRFTGEKRKKTSQLAGLTFVLTG    610
+
+TAF3_XENLA       369 INPGKT---SSTSVPASGGTSSSDIS    391
+                     ..||.:   :...:..:||..|..:|
+DNLJ_ACIC5       611 TLPGLSRDEAKGKIENAGGHVSGSVS    636
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 220
+# Identity:      48/220 (21.8%)
+# Similarity:    65/220 (29.5%)
+# Gaps:          92/220 (41.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       229 SPKSGPKERKSP--GCAKSPKSPKSPKVPLAAPPPAIKTETPNRTPLATL    276
+                     |..:|...|:.|  |...:|.|..:                    ....|
+CAPSD_CMVO         6 STSAGRNRRRRPRRGSRSAPSSADA--------------------NFRVL     35
+
+TAF3_XENLA       277 SEKIGRENIQIKQNQTPLDSDQLNVEIPSKKPSIADNTIEDSIDAVIARA    326
+                     |:::.|                ||..:.:.:|:|...|.           
+CAPSD_CMVO        36 SQQLSR----------------LNKTLAAGRPTINHPTF-----------     58
+
+TAF3_XENLA       327 CAEQEPDPFEFSSGSE--SEGEVFTS--------------PKRL----NI    356
+                                 .|||  ..|..|||              .|||    ::
+CAPSD_CMVO        59 ------------VGSERCKPGYTFTSITLKPPKIDRGSYYGKRLLLPDSV     96
+
+TAF3_XENLA       357 SELTTPKVSASGI--NP-GKTSST------SVPASGGTSSSDISWTMDDS    397
+                     :|.....||...|  || .|..||      .||||...|.:.||....|.
+CAPSD_CMVO        97 TEYDKKLVSRIQIRVNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADG    146
+
+TAF3_XENLA       398 INEVIRKVSQETPTNTPANN    417
+                     .:.|:  |.|.......|||
+CAPSD_CMVO       147 ASPVL--VYQYAAFGVQANN    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      54/236 (22.9%)
+# Similarity:    81/236 (34.3%)
+# Gaps:          76/236 (32.2%)
+# Score: 85.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       492 KDGTKDGKVLWKDSNKDEDSELHRFKLKDFNEIDSKSK----QKENCGKK    537
+                     :|||:......:.....||..|      |..|:...::    :.:|.||.
+IF3_CHLL2         31 QDGTQQVMKTIEARRMAEDRNL------DLIEVQPNAEPPVCKLDNLGKL     74
+
+TAF3_XENLA       538 DKEKHKDKKKDKEKGKKDKDKKGKDKTKEEKMKSPSTPIMLSSKDIAL--    585
+                        ..|..|:|     ||..||.|..|.:|....|:|    ...|...  
+IF3_CHLL2         75 ---LFKMDKRD-----KDLKKKQKTTTLKELRFHPNT----DKHDFDFKT    112
+
+TAF3_XENLA       586 ----PMISTPNTVRLPSLLSSMSPLLPEKLFEEKEKSKEK-----DKKKD    626
+                         ..:...|.||...:....|.:..:|..|..|:..|:     ::..|
+IF3_CHLL2        113 AHLEEFLRKGNRVRATIVFLGRSIIYKDKGLELAERLTERLSCVSNRDGD    162
+
+TAF3_XENLA       627 KKEKKKK------KDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKAELSIP    670
+                     .|.:.||      .||:|:                  ...|::||:.|.|
+IF3_CHLL2        163 PKFEGKKLFVYFEPDKKKI------------------DAFERIKAKTSGP    194
+
+TAF3_XENLA       671 APSPV-IPRLTLRVGAGQDTIVISKVVSAPESKAVP    705
+                     ||:|. :|                  |.|||.|..|
+IF3_CHLL2        195 APAPAPLP------------------VPAPEQKETP    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    22/41 (53.7%)
+# Gaps:           7/41 (17.1%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       434 LLKVFEDKAKLPPPVELKKKT---KKE--QRAKKKKDKDKL    469
+                     :|.|..::.||  .||..|:.   ::|  ||.|:.||:..|
+CSRA_HAEI8        22 VLSVRGNQVKL--GVEAPKEVSVHREEIYQRIKQTKDEPYL     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      42/227 (18.5%)
+# Similarity:    84/227 (37.0%)
+# Gaps:          60/227 (26.4%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+TAF3_XENLA         2 GVNIHELEDYIHN------IEPVTFPHQIPSFPVSKNNAL----QFPP--     39
+                     |:.:.||  :.||      ||.|.....:|:...|..:.:    ...|  
+COAX_CLOBL        40 GIQVIEL--FSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIKPII     87
+
+TAF3_XENLA        40 --PGSKDA-----EDRKEYIPDYLPLIISSQEEEEEEQVPTDGGTSAEAM     82
+                       ||.|..     ::.||...|.:...:::.|..::..:..|.||:....
+COAX_CLOBL        88 VGPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFC    137
+
+TAF3_XENLA        83 QVPLEEEEEEGEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNK    132
+                     .|..|.....|.:.....::.:....|       ..::|   |:.|:...
+COAX_CLOBL       138 AVTKEANYLGGTICPGIKISSDALFDK-------AAKLP---RVELVKTP    177
+
+TAF3_XENLA       133 GDILDGSLEPREPLSSINS-------QKVPSVLSPAHKIDSQDLDVSYSD    175
+                     |.|.      :..::||.|       .:|..::|   |:..:.:|:...:
+COAX_CLOBL       178 GVIC------KNTVASIQSGIIYGYAGQVDYIVS---KMKKEMMDLGEEE    218
+
+TAF3_XENLA       176 QIMLSP------VSKSQAPPPSESKSL    196
+                     ..:::.      :|:       ||||:
+COAX_CLOBL       219 PFVVATGGFAKLISE-------ESKSI    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      19/69 (27.5%)
+# Similarity:    30/69 (43.5%)
+# Gaps:          15/69 (21.7%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       422 SSPSASPPTP---EPLLKVFEDKAKLPPPVEL----------KKKTKK--    456
+                     |:.:||.||.   |.|...|....|.|.|..|          :::|:|  
+HOP_BOVIN          2 STETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWF     51
+
+TAF3_XENLA       457 EQRAKKKKDKDKLKDKERS    475
+                     :||..:.:..:.|..:.||
+HOP_BOVIN         52 KQRLAQWRRSEGLPSECRS     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      35/149 (23.5%)
+# Similarity:    56/149 (37.6%)
+# Gaps:          34/149 (22.8%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+TAF3_XENLA         7 ELEDYIHNIEPVTFPHQIPSF--PVSKNNALQFPPPGSKDAEDRK-----     49
+                     ::.|....|....|...:|.:  .:||...:: ...|..:||:.|     
+THII_VIBA3       323 DIIDLSRKIGTEDFAKVMPEYCGVISKKPTVK-AKKGKLEAEEAKFNFEV    371
+
+TAF3_XENLA        50 --EYIPDYLPLIISSQEEEEEEQVPTDGGTSAEA-----MQVPLEEEEEE     92
+                       :.|.:...:.|...|:|.:||.|......|.|     :.:...:||:|
+THII_VIBA3       372 LEQVIENARIMDIRDIEKESQEQAPEVEQVQAVAEHAVVLDIRSPDEEDE    421
+
+TAF3_XENLA        93 GEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLE    141
+                     ..:|               :|..|...:||.|   |....|| ||.|.|
+THII_VIBA3       422 SPLE---------------IDGVEIKHIPFFK---LSTQFGD-LDQSKE    451
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      28/125 (22.4%)
+# Similarity:    42/125 (33.6%)
+# Gaps:          35/125 (28.0%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        48 RKEYIP-----DYLPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEEEE     92
+                     :.||.|     ||:.:|       ..|||...|..|::.|..     ...
+RL13_PSEPG        41 KPEYTPHVDTGDYIVVI-------NAEQVRVTGAKSSDKMYY-----SHS     78
+
+TAF3_XENLA        93 GEMEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEP    142
+                     |.....:.:|.|..::|.|....||                 .:.|.| |
+RL13_PSEPG        79 GFPGGIKEINFEKLIAKAPERVIET-----------------AVKGML-P    110
+
+TAF3_XENLA       143 REPLSSINSQKVPSVLSPAHKIDSQ    167
+                     :.||.....:|:......||...:|
+RL13_PSEPG       111 KNPLGRDMYRKLKVYAGAAHPHTAQ    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      18/86 (20.9%)
+# Similarity:    31/86 (36.0%)
+# Gaps:          27/86 (31.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       264 KTETPNRTP---LATLSEKIGRENIQI-----------------KQNQTP    293
+                     |||..||.|   .|.|..::.|....:                 :|.:..
+RR2_ARATH        126 KTEGFNRLPKRDAAVLKRQLSRLETYLGGIKYMTGLPDIVIILDQQEEYT    175
+
+TAF3_XENLA       294 LDSDQLNVEIP-------SKKPSIADNTIEDSIDAV    322
+                     ...:.:.:.||       :..|.:||.:|..:.||:
+RR2_ARATH        176 ALRECITLGIPTISLIDTNCNPDLADISIPANDDAI    211
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      31/125 (24.8%)
+# Similarity:    41/125 (32.8%)
+# Gaps:          49/125 (39.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       712 SPPPT------------PSPAPA----------PV--------LVVPPQA    731
+                     :|.||            |.|.||          ||        ||.|..|
+Y1710_SYNP2      169 APMPTGGGTVKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVTPTGA    218
+
+TAF3_XENLA       732 PPAPAAAS-----PAPTPAPSALTSNAGSSKTPVRSVV------------    764
+                     ..|...|:     ||.|.|..||.|  |:...|:.:::            
+Y1710_SYNP2      219 AIATTLATDFCQPPAMTLAKIALGS--GTIDLPLPNLLRLWIGHQPETPH    266
+
+TAF3_XENLA       765 TETVSTYVIRDEWGNQIWICPGCNK    789
+                     .||:.|...:.:..|...|...|.|
+Y1710_SYNP2      267 LETIVTLETQIDDLNPQAIAYACEK    291
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      16/60 (26.7%)
+# Similarity:    23/60 (38.3%)
+# Gaps:          12/60 (20.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       630 KKKKKDKEKVKEKEKEKKE--------KEKEKEKEKKEKEKVKAELSIPA    671
+                     |.:|..|.::..|.:|..|        |.|.|.....|.::|    :|..
+WTPC_THEKO        99 KVRKVPKAEIGRKVRELSEVLGISHLLKRKPKTLSGGEMQRV----AIAR    144
+
+TAF3_XENLA       672 PSPVIPRLTL    681
+                     ...|.|.|.|
+WTPC_THEKO       145 ALAVEPELLL    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      25/81 (30.9%)
+# Similarity:    35/81 (43.2%)
+# Gaps:          18/81 (22.2%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       693 SKVVSAPESKAVPPPSLPKSPPPTPSPAPAPV-----LVVPP--------    729
+                     |.:.|:||.....|.:.|::|||..:|.|..|     |.:|.        
+GRB7_RAT           8 SHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLREEE     57
+
+TAF3_XENLA       730 -QAPPAPAAASPAP---TPAPSALTSNAGSS    756
+                      ||...|:..:|.|   :| ||......|||
+GRB7_RAT          58 FQATSLPSIPNPFPELCSP-PSQKPILGGSS     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      36/181 (19.9%)
+# Similarity:    69/181 (38.1%)
+# Gaps:          45/181 (24.9%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       173 YSDQIMLSPVSKSQAPPPSESK-SLI-----PKTKSKGGSPGQKIKSPKA    216
+                     :.|.:.::||.:.....|::.: |::     |.....|..|     .|:.
+PSD_RHOPS         54 FRDPVRVTPVREGLVVAPADGRVSMVVQMIPPPALGLGDKP-----LPRV     98
+
+TAF3_XENLA       217 TPISTVIGSPI-RSPKSGPKER--KSPGCAKSPKSPKSPKVPLAAPPPAI    263
+                     :...:|....: |||.:|..||  .|||           |...|....|.
+PSD_RHOPS         99 SIFMSVFNCHVNRSPVAGRVERIIYSPG-----------KFINAELDKAS    137
+
+TAF3_XENLA       264 KTETPNRTPLATLSEKIGRENIQ----------IKQNQTPLDSD------    297
+                     :....|...::|.:.:||...|.          :::.||....:      
+PSD_RHOPS        138 EDNERNSMVISTPAGQIGVVQIAGLVARRIVSFVREGQTLAPGERFGLIR    187
+
+TAF3_XENLA       298 ---QLNVEIP-SKKPSIADNTIEDSIDAVIA    324
+                        :|:|.:| ..||.:::.....:.:.|:|
+PSD_RHOPS        188 FGSRLDVYLPEGAKPLVSEGQTAIAGETVLA    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 428
+# Identity:      95/428 (22.2%)
+# Similarity:   137/428 (32.0%)
+# Gaps:         155/428 (36.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        44 DAEDRKEYIPD---YLPLI-------ISSQEEEEEEQVPTDGGTSAEAMQ     83
+                     ||....:..||   |..||       :|.:..:..||:..||   .:|.|
+PP156_ARATH      334 DAMKSLKLQPDVVTYNTLIDGCFELGLSLEARKLMEQMENDG---VKANQ    380
+
+TAF3_XENLA        84 VP---------LEEEEEEGEMEDDETVNDENY---------LSKRPL---    112
+                     |.         .||:.|....:..|.|:...:         |.|..|   
+PP156_ARATH      381 VTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYHTLIKAYLKVG    430
+
+TAF3_XENLA       113 DSPETMEMPFAKRIRLMNNKG---------DILDGSLEPREPLSSINSQK    153
+                     |....:||     :|.|..||         .|||...:.|:      ..:
+PP156_ARATH      431 DLSGALEM-----MREMGQKGIKMNTITLNTILDALCKERK------LDE    469
+
+TAF3_XENLA       154 VPSVLSPAHK----IDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPK    199
+                     ..::|:.|||    :|    :|:|...||                ....:
+PP156_ARATH      470 AHNLLNSAHKRGFIVD----EVTYGTLIM----------------GFFRE    499
+
+TAF3_XENLA       200 TK-SKGGSPGQKIKSPKATP-IST---VIGSPIRSPKSGPKERKSPGCAK    244
+                     .| .|......::|..|.|| :||   :||......|:.....|....|:
+PP156_ARATH      500 EKVEKALEMWDEMKKVKITPTVSTFNSLIGGLCHHGKTELAMEKFDELAE    549
+
+TAF3_XENLA       245 SPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGR-------ENIQI    287
+                     |...|..              .|.|...|....|  ||       .|..|
+PP156_ARATH      550 SGLLPDD--------------STFNSIILGYCKE--GRVEKAFEFYNESI    583
+
+TAF3_XENLA       288 KQNQTPLDSDQLNV-------EIPSKKPSIADNTI--EDSIDAV-----I    323
+                     |.:..| |:...|:       |..::|.....||:  |..:|.|     |
+PP156_ARATH      584 KHSFKP-DNYTCNILLNGLCKEGMTEKALNFFNTLIEEREVDTVTYNTMI    632
+
+TAF3_XENLA       324 ARACAEQ-----------------EPDPFEFSS--------GSESEGE--    346
+                     :..|.::                 |||.|.::|        |..||.:  
+PP156_ARATH      633 SAFCKDKKLKEAYDLLSEMEEKGLEPDRFTYNSFISLLMEDGKLSETDEL    682
+
+TAF3_XENLA       347 ------VFTSPKR-LNISELTTPKVSAS    367
+                           .|.|.|| |.:.....|..|.|
+PP156_ARATH      683 LKKFSGKFGSMKRDLQVETEKNPATSES    710
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      19/82 (23.2%)
+# Similarity:    35/82 (42.7%)
+# Gaps:           2/82 ( 2.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       135 ILDGSLEPREPLSSIN-SQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVS    183
+                     ::..:|.|:|....:| ...|.|..:|.....|.|..:::.:.:.|.. |
+ADRB2_MESAU      297 VIQDNLIPKEVYILLNWLGYVNSAFNPLIYCRSPDFRIAFQELLCLRR-S    345
+
+TAF3_XENLA       184 KSQAPPPSESKSLIPKTKSKGGSPGQKIKSPK    215
+                     .|:|.....|.:...||...|.:.|.::...|
+ADRB2_MESAU      346 SSKAYGNGYSSNSNGKTDYMGEASGCQLGQEK    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       318 SIDAVIARACAEQEPDP    334
+                     |||....|..|.:|.||
+ID5B_ADEPA         9 SIDDDNNRRLAVKEGDP     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      46/217 (21.2%)
+# Similarity:    77/217 (35.5%)
+# Gaps:          68/217 (31.3%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       470 KDKERSKDKNKDRSKDKEKDKE--------------KDG----TKDGKVL    501
+                     ||::..|..|:...:..:||:.              :.|    .|..::|
+GPA7_CAEEL         7 KDQKEGKRLNRRIDEQIKKDQSMSLRIIKLLLLGAGESGKSTILKQMRIL     56
+
+TAF3_XENLA       502 WKDSNKDEDSELHRFKLKDFNEIDSKSKQKENC-----------------    534
+                     .||....:|.|:.|            .....||                 
+GPA7_CAEEL        57 HKDGFSQQDLEMIR------------PVVYSNCIHSMLSILRAMFHLQIE     94
+
+TAF3_XENLA       535 -GKKDKEK---------HKDKKKDKEKGKKDKDKKGKDK-TKEEKMKSPS    573
+                      |:.|:.:         |.:|::..|:......:...|. .:|...:|..
+GPA7_CAEEL        95 YGEPDRVRDSQLVFATVHANKEELTEELAAAMQRLWHDPGVRECYRRSNE    144
+
+TAF3_XENLA       574 TPIMLSSKDIA--LPMISTPNTVRLPS---LLSS--MSPLLPEKLFEEKE    616
+                     ..|..|:|...  ||.:|:||.|  ||   ||.:  .:..:.|.|||.|.
+GPA7_CAEEL       145 YQIDDSAKYFLDNLPRLSSPNYV--PSEQDLLRTRIKTTGITEVLFELKG    192
+
+TAF3_XENLA       617 KS-KEKDKKKDKKEKKK    632
+                     .: :..|....:.|:||
+GPA7_CAEEL       193 LTFRVIDVGGQRSERKK    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      20/93 (21.5%)
+# Similarity:    32/93 (34.4%)
+# Gaps:          19/93 (20.4%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       754 GSSKTPVRSVVTE-----TVSTYVIRDEWGNQIWICPGCNKPDDGSPMIG    798
+                     |...||..|:..:     |....::.:|      :||........:..|.
+IDI_ECO24         89 GVEITPPESIYPDFRYRATDPNGIVENE------VCPVFAARTTSALQIN    132
+
+TAF3_XENLA       799 CDQCDDWYHWPC------VGINAAPPEDEQWFCTKCESKKKDK    835
+                     .|:..| |.| |      .||:|.|.....|...:..:.:..|
+IDI_ECO24        133 DDEVMD-YQW-CDLADVLHGIDATPWAFSPWMVMQAANSEARK    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      61/301 (20.3%)
+# Similarity:    93/301 (30.9%)
+# Gaps:         117/301 (38.9%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       359 LTTPKVSASGINP----------GKTSSTSVPASGGTSSSD----ISW--    392
+                     |....||.|.:|.          ..|..|::..:|..|..:    ::|  
+YHJA_ECOLI       103 LADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIA    152
+
+TAF3_XENLA       393 -----------TMDDSINEVIRKVSQETPTNT------------------    413
+                                |..:..||.::.:.|:.||:.                  
+YHJA_ECOLI       153 KQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGFALYHDPRLSAD    202
+
+TAF3_XENLA       414 ------------------------------PANNPPCFSSPSASPPTPEP    433
+                                                   |.|.|..|:|........:.
+YHJA_ECOLI       203 STISCAHCHALNAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFWDG    252
+
+TAF3_XENLA       434 LLKVFEDKAKLPP--PVELKKKTKKEQRAKKKKDKDKLKDK---------    472
+                     .....:|:|..||  |:|:..|:..|..||.:|| .:||.:         
+YHJA_ECOLI       253 RAATLQDQAGGPPLNPIEMASKSWDEIIAKLEKD-PQLKTQFLEVYPQGF    301
+
+TAF3_XENLA       473 --ERSKDKNKDRSK-----DKEKDKEKDG--------TKDGKVLWKDSNK    507
+                       |...|...:..|     |...||...|        .|.|..|:|| ||
+YHJA_ECOLI       302 SGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQQKKGYQLFKD-NK    350
+
+TAF3_XENLA       508 -----------DEDSELHRFKLKDFN--EIDSKSKQKENCGKKDKEKHKD    544
+                                ....|....| ||||  ||.:....:.|..|::::|.:.
+YHJA_ECOLI       351 CATCHGGIILGGRSFEPLGLK-KDFNFGEITAADIGRMNVTKEERDKLRQ    399
+
+TAF3_XENLA       545 K    545
+                     |
+YHJA_ECOLI       400 K    400
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:    10/14 (71.4%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       440 DKAKLPPPVELKKK    453
+                     |||:|.|.|:.:.:
+RIMP_BURPS       138 DKARLIPHVDFRSR    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      11/65 (16.9%)
+# Similarity:    21/65 (32.3%)
+# Gaps:          30/65 (46.2%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        76 GTSAEAMQVPLEEEEEEGEMEDDETVNDENYLSKRPLDSPETMEMPFAKR    125
+                     |:..:..||.:|..::.|    :.|:|                       
+RS28_OSTOS        18 GSQGQCTQVRVEFMDDNG----NRTIN-----------------------     40
+
+TAF3_XENLA       126 IRLMNNKGDILDGSL    140
+                        .|.||.:.:|.:
+RS28_OSTOS        41 ---RNVKGPVREGDI     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       8/18 (44.4%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           4/18 (22.2%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       802 CDDWYH----WPCVGINA    815
+                     |||..|    |||:..:|
+HBAC_LITCT         5 CDDKAHIRAIWPCLASHA     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      62/316 (19.6%)
+# Similarity:   100/316 (31.6%)
+# Gaps:         114/316 (36.1%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       173 YSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPGQKIKSPKATPIST-    221
+                     |:.:.||     ...|.|.::.:|:.|.         |:.|.||..:|. 
+RPOA_PRRSS       611 YAVERML-----KDCPSPEQAMALLAKI---------KVPSSKAPSVSLD    646
+
+TAF3_XENLA       222 ---VIGSPIRSPKSGPKERKSPGCAKSPKSPKSP----------------    252
+                        ..|.|.....:..:..:|||.|.:..||.:.                
+RPOA_PRRSS       647 ECFPAGVPADFEPAFQERPRSPGAAVALCSPDAKGFEGTASEEAQESGHK    696
+
+TAF3_XENLA       253 ---KVPLAAPPPAIKTETPNRTPLATLSE---KIGRENIQIKQNQTPLDS    296
+                        .||||        |.||...:..::.   ::|...:.|...|:..||
+RPOA_PRRSS       697 AVHAVPLA--------EGPNNEQVQVVAGEQLELGGCGLAIGSAQSSSDS    738
+
+TAF3_XENLA       297 DQLNVEIPSKKPSIADNTIEDS-ID------AVIARACAEQEPDPFEFSS    339
+                     .:.|:.          |:.||. :|      |.......||.||    :.
+RPOA_PRRSS       739 KRENMH----------NSREDEPLDLSHPAPAATTTLVGEQTPD----NP    774
+
+TAF3_XENLA       340 GSES-------EGEVFTSPKRLNISELTTPKVSASGINPGKTSSTSVPAS    382
+                     ||::       .|.|.|.|...::....|                    .
+RPOA_PRRSS       775 GSDASALPIAVRGFVPTGPILRHVEHCGT--------------------E    804
+
+TAF3_XENLA       383 GGTSSSDISWTMDDSINEVIRKVSQETPTNTPANNP--------PCFSSP    424
+                     .|.|||.:..:...::::.:.......|....|::|        |.|..|
+RPOA_PRRSS       805 SGDSSSPLDLSFAQTLDQPLDLSLAAWPVKATASDPGWVRGRCEPVFLKP    854
+
+TAF3_XENLA       425 SASPPTPEPLLKVFED    440
+                     .          |.|.|
+RPOA_PRRSS       855 R----------KAFSD    860
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       6/10 (60.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       463 KKDKDKLKDK    472
+                     |..:|||.||
+UBIE_PSEAE       107 KVGRDKLLDK    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      30/105 (28.6%)
+# Similarity:    46/105 (43.8%)
+# Gaps:          16/105 (15.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       576 IMLSSKDIALPMISTPNTVRLPSLLSSMSPLLPEKLFEE--------KE-    616
+                     |:||.|.....:....:.||      |:|.|:|:.:.||        || 
+FLII_AQUAE       337 IILSRKRAVRGLFPAVDPVR------SLSRLMPKLVSEEHFMKANFFKEV    380
+
+TAF3_XENLA       617 KSKEKDKKKDKKEKKKKKDKEKVKEKEKEKKEKEKEKEKEKKEKEKVKAE    666
+                     .||.:|.::..:....|.....:.:|.....||.:...|:|.| |||..|
+FLII_AQUAE       381 LSKFEDVEELVRIGLYKGGSNPLVDKVINNLEKVESFFKQKPE-EKVNFE    429
+
+TAF3_XENLA       667 LSIPA    671
+                     .|:.|
+FLII_AQUAE       430 ESLKA    434
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 817
+# Identity:     124/817 (15.2%)
+# Similarity:   266/817 (32.6%)
+# Gaps:         231/817 (28.3%)
+# Score: 128.0
+# 
+#
+#=======================================
+
+TAF3_XENLA        42 SKDAEDRKEYIPDY-LPLIISSQEEEEEEQVPTDGGTSAEAMQVPLEEEE     90
+                     :|..|..|:::.:. :||:..:..::...:.||....|...:. |.|...
+MSS11_VANPO       74 NKHLETAKQFLKEADVPLLTGNNNDDVAVKNPTAATLSQNDLN-PRELLP    122
+
+TAF3_XENLA        91 EEGEMEDDETVNDE--NYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDG    138
+                     .:..|..::|...|  .|.|. ..|..:|.::.     .|.||  |.|..
+MSS11_VANPO      123 TKMLMNANDTFLLEWWEYFSS-VYDFVDTSDLS-----ALQNN--DFLQD    164
+
+TAF3_XENLA       139 SLEPREPLSSINSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAP    188
+                     .:.|              :|..::|:.:|......|||:.::..|...: 
+MSS11_VANPO      165 RIFP--------------ILPTSNKVPTQRYSRQQSDQVQMNQNSTGNS-    199
+
+TAF3_XENLA       189 PPSESKSLIPKTKSKGGSPGQKIKSPKATPISTVIGSPIRSPKSGPKERK    238
+                                  |:.|                 :|:||.:|.:...:..
+MSS11_VANPO      200 -------------SRSG-----------------MGTPIANPSNQNYQHS    219
+
+TAF3_XENLA       239 SPGCAKSPKSPKSPKVPLAAPPPAIKTETPNR-TPLATLSEKIGRENIQI    287
+                     |                           .||. ||.:|.:......|...
+MSS11_VANPO      220 S---------------------------NPNSGTPTSTANNNTNNNNNNN    242
+
+TAF3_XENLA       288 KQN-------QTPLDSD-QLNVEIPS--------KKPSIADNTIEDSIDA    321
+                     ..|       |..|:|. |..|..||        ::|....:.|.:::. 
+MSS11_VANPO      243 SNNNNSKQFAQQTLNSQLQNGVVYPSNQNGQQHARRPQSVSSDISNTMS-    291
+
+TAF3_XENLA       322 VIARACAEQEPDPFEFSSGSESEGEVFTSPKRLN--ISELTTPKVSASGI    369
+                           .:::...........|:     :|:.:|  :.:....:.|:|..
+MSS11_VANPO      292 ------MDEQQQQMNLLKQVNSQ-----NPQLMNNMLFQNVQQQSSSSPN    330
+
+TAF3_XENLA       370 NPGKTSSTSVPASGGTSSSDISWTMDDSINEVIRKVSQETPTNTPANNPP    419
+                     .|  .|:.:|..:|....|.::|.........|.:..|:           
+MSS11_VANPO      331 TP--VSANNVDGNGQFPISKMNWNRIQRERMRIMRQQQQ-----------    367
+
+TAF3_XENLA       420 CFSSPSASPPTPEP---LLKVFEDKAKLP-PPVELKKKTKKEQRAKKKKD    465
+                      ..........|:|   .::..:.:::|| ...:.:.:..|:|.:::::.
+MSS11_VANPO      368 -IRQQQMQQQRPQPNQQQIQQQQQRSQLPQQQAQQRIQQAKQQVSQQQRP    416
+
+TAF3_XENLA       466 KDKLKDKERSKDKNKDRSKDKEKDKEKDGTKDGKVLWKDSNKDEDSELHR    515
+                     ....:...:.:...|...:..::.....|.:.|.:               
+MSS11_VANPO      417 HPTQQQVHQMQQMQKQLQQQLQQQSVMQGQQQGPM---------------    451
+
+TAF3_XENLA       516 FKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKEKGKKDKDKKGKDKTK    565
+                            ::.....|.:..|:....:.:.:...:::.|:.::....|...
+MSS11_VANPO      452 -------QLQQGQTQSQGQGQAQDAQQQGQPLSQQQMKQLRNGGNVDSNI    494
+
+TAF3_XENLA       566 EEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLLSSMSPLLPEKLFEEK    615
+                     :::..|....:|:.||          |..::|..:........::|.:::
+MSS11_VANPO      495 QQQYMSMMMQMMMLSK----------NNQQIPQQMQQQMMQQMQQLQQQQ    534
+
+TAF3_XENLA       616 EKSKEKDKKKDKKEKK------------------KKKDKEKVKEKEKEKK    647
+                     :::.:::..|.:...:                  ..:.|...:.....||
+MSS11_VANPO      535 QQALQQNTGKPQLSHQFVVPVNNQVVTTPGGSSTSARTKSNARSTNTNKK    584
+
+TAF3_XENLA       648 EKEKEKEKEKKEKEKVKAELSIPAPSPVIPRLTLRVGAGQDTIVISKVVS    697
+                     :.|...:|..|..:       |.:|:.::|..|.....|       .::|
+MSS11_VANPO      585 KMETVSKKNNKRSD-------INSPATIVPISTPTSSDG-------NIIS    620
+
+TAF3_XENLA       698 APESKAVPPPSLPKSPPPTP----------------SPAPAPVLVVPPQA    731
+                     :.:....|..:|.::|.||.                .....|...|....
+MSS11_VANPO      621 STQGTNFPIVNLSQAPTPTSKAEGDGEAGQNKKRRRKKPKTPNTNVSAST    670
+
+TAF3_XENLA       732 PPAPAAASPAPTPAP--------SALTSNAGSSKTPVRSVVTE--TVSTY    771
+                     |.|...|:..|....        ||.|||  ..:||..:|...  ::.|.
+MSS11_VANPO      671 PTAGNTANSTPVTTSGVNSSVVGSATTSN--DKRTPSNTVANNDGSMQTN    718
+
+TAF3_XENLA       772 VIRDEWGNQIWICPGCN    788
+                     |      |::.|..|.|
+MSS11_VANPO      719 V------NELDIGLGMN    729
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 660
+# Identity:     122/660 (18.5%)
+# Similarity:   213/660 (32.3%)
+# Gaps:         242/660 (36.7%)
+# Score: 113.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       135 ILDGSLEPREPLSSINSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSK    184
+                     :::..|...||:...:...:  ::||..::.||..:| .|..:...|.|.
+SPB4_ASPFU        72 VVEKLLRLEEPIKKHHVGAI--IISPTRELASQIYNV-LSSLLAFHPPSA    118
+
+TAF3_XENLA       185 SQAPPPSESKSLIPKTKSK----------GGS--PGQKI-----KSPK--    215
+                     :...|..:..:..||..|.          |||  |.:.:     :||.  
+SPB4_ASPFU       119 AAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVL    168
+
+TAF3_XENLA       216 -ATP--ISTVIGSP-IRSPKSG----------------------------    233
+                      :||  :..::.|| :..|:|.                            
+SPB4_ASPFU       169 VSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRL    218
+
+TAF3_XENLA       234 PKER-------------------------------KSPGCAKSPKSPKSP    252
+                     ||:|                               |........::|.|.
+SPB4_ASPFU       219 PKQRRTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASL    268
+
+TAF3_XENLA       253 KVPLAAPPPAIKTETPNR-------TPLAT----------------LSEK    279
+                     ::.....||:.|.....|       |||.|                |...
+SPB4_ASPFU       269 QMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLL    318
+
+TAF3_XENLA       280 IGRENIQIK---QNQTPLDSDQLNVEIPSKKPSIADNTIED---------    317
+                     :|.:.:.|.   ::|..:.....|..|.|..|:|...|  |         
+SPB4_ASPFU       319 LGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTT--DVAARGLDIP    366
+
+TAF3_XENLA       318 SIDAVIARACAEQEPDPFEFSSGSESEGEVFTSPKRLNISELTTPKVSAS    367
+                     |:|.|:.   .:...||..|.......|..    .|..:|.:.       
+SPB4_ASPFU       367 SVDLVVQ---IDPPSDPKSFIHRCGRAGRA----GRRGLSVVL-------    402
+
+TAF3_XENLA       368 GINPGKTSSTSVPASGGTSSSDISWTMDDSINEV-IRKVSQETPTNTPAN    416
+                      ::||:.                    :|.::.: :||    ||. .|.:
+SPB4_ASPFU       403 -LHPGRE--------------------EDYVSFLEVRK----TPV-VPFS    426
+
+TAF3_XENLA       417 NPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVELKKKTKKEQRAKKKKDK    466
+                     ....||...|:..|......|..|:|                        
+SPB4_ASPFU       427 PSISFSDADAAAATATARKAVLADRA------------------------    452
+
+TAF3_XENLA       467 DKLKDKE--------RSKDKNKDRSKDKEKDKEKDGTKDGKVLWKDSNKD    508
+                       |.|:.        ||..|::..|..:..|.:.:..  ||. |      
+SPB4_ASPFU       453 --LHDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEAL--GKA-W------    491
+
+TAF3_XENLA       509 EDSELHRFKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKEKGKKDKDK    558
+                          ...||....|:.:.:..|......|.:.:..|.|.:||.:|:   
+SPB4_ASPFU       492 -----GLLKLPKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKE---    533
+
+TAF3_XENLA       559 KGKDKTKEEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLLSSMSPLLP    608
+                          ..:|..:|.:|.             ||.|..|     ::.|....
+SPB4_ASPFU       534 -----LLQEAAESGATQ-------------STSNKRR-----ATESVAWS    560
+
+TAF3_XENLA       609 EKLFEEKEKSKEKDKKKDKKEKKK-----KKDKEKVKEKEKEKKEKEKEK    653
+                     ::...:.:|.|.:::||.|:||.:     :::|:||.|.||..:|..|:.
+SPB4_ASPFU       561 QQAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETEKMVEELRKKN    610
+
+TAF3_XENLA       654 EKEKKEKEKV    663
+                     |:|::.:..|
+SPB4_ASPFU       611 EEERRLRRAV    620
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      27/122 (22.1%)
+# Similarity:    43/122 (35.2%)
+# Gaps:          36/122 (29.5%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       322 VIARACAEQEPDPFEFSSGSES---EGEV--------FTSPKRLNISELT    360
+                     ::|..|..:..|...|..|..|   :.||        :|..|.:..:|  
+ASSY_MYCTO       113 IVAHGCTGKGNDQVRFEVGFASLAPDLEVLAPVRDYAWTREKAIAFAE--    160
+
+TAF3_XENLA       361 TPKVSASGINPGKTSSTSVPAS--------------GGTSSSDI-SWTMD    395
+                        .:|..||..|.|..|:..:              ....:.|| ::|.|
+ASSY_MYCTO       161 ---ENAIPINVTKRSPFSIDQNVWGRAVETGFLEHLWNAPTKDIYAYTED    207
+
+TAF3_XENLA       396 DSIN-----EVIRKVSQETPTN    412
+                     .:||     |||....:..|.:
+ASSY_MYCTO       208 PTINWGVPDEVIVGFERGVPVS    229
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 243
+# Identity:      48/243 (19.8%)
+# Similarity:    82/243 (33.7%)
+# Gaps:          77/243 (31.7%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       162 HKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSPGQKI    211
+                     |.||..|..|:.:..|   ||:   |.|...|:.|.....::|  |.|..
+ECCB1_MYCS2      206 HSIDLADRAVTSAVGI---PVT---AKPTPISQGLFNALPNRG--PWQLP    247
+
+TAF3_XENLA       212 KSPKA-------TPISTVIGSPIR-SPKSGPKE---------RKSPGCAK    244
+                     :.|.|       .|.:.||||..| :.:|.|:.         |.:...|.
+ECCB1_MYCS2      248 QIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYVVLPDGVARVNNTTAA    297
+
+TAF3_XENLA       245 SPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQNQTPL    294
+                     :.::..|..:   ..|||::.....:.|          |.:.:    :||
+ECCB1_MYCS2      298 ALRATNSYGL---MQPPAVEASVVAKIP----------EQVYV----SPL    330
+
+TAF3_XENLA       295 DSDQLNVEIPSKKPSIADNTIEDSIDAVIARACAEQEPDPFEFSSGSESE    344
+                     ....|:|.:....|.:                |...:.:|     |.::.
+ECCB1_MYCS2      331 PDQPLDVLLRQDSPVL----------------CWSWQREP-----GDQAP    359
+
+TAF3_XENLA       345 GEVFTSPKRLNISELTTPKVSASGINPGKTSSTSVPASGGTSS    387
+                     .....:.:||.:              |.....|.:...||.|:
+ECCB1_MYCS2      360 KTTVIAGRRLPL--------------PANAIGTGIDQIGGDST    388
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      27/116 (23.3%)
+# Similarity:    44/116 (37.9%)
+# Gaps:          24/116 (20.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       447 PVELKKKTKKEQRAKKKKDK---DKLKDKERSKDKNKDRSK---------    484
+                     |.|:..|..:|...|...||   |.....|.::...::.:|         
+KCY4_ORYSJ        87 PSEVTIKLLQEAMIKSGNDKFLIDGFPRNEENRAAFENVTKITPAFVLFF    136
+
+TAF3_XENLA       485 ---DKEKDKEKDGTKDGKVLWKDSNKDEDSELHRFKLKDFNEIDSKSKQK    531
+                        ::|.::...|...|:|       |::.|..|.:.|.|  ::|.....
+KCY4_ORYSJ       137 DCSEEEMERRLLGRNQGRV-------DDNIETIRKRFKVF--VESSLPVI    177
+
+TAF3_XENLA       532 ENCGKKDKEKHKDKKK    547
+                     |....|||.|..|..|
+KCY4_ORYSJ       178 EYYNAKDKVKKIDAAK    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       8/14 (57.1%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       585 LPMISTPNTVRLPS    598
+                     ||...|||.|:|.|
+HCP_TRIV2        511 LPAFLTPNVVKLLS    524
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 297
+# Identity:      54/297 (18.2%)
+# Similarity:   102/297 (34.3%)
+# Gaps:         118/297 (39.7%)
+# Score: 92.0
+# 
+#
+#=======================================
+
+TAF3_XENLA       448 VELKKKTKKEQRAKKKKDKDKL-------KDKERSKDKNKDRSKDKEK--    488
+                     :|::::.:.:||...:::::::       :.:.::.|:...|:.|.:|  
+UBX7_YEAST       151 LEIQRREQLKQRKLAEEERERIIRLVRADRAERKALDETHHRTLDDDKPL    200
+
+TAF3_XENLA       489 ---DKEKDGTK-------------DGKVL---------------WKDSNK    507
+                        |..||..|             |||.|               |.|.|:
+UBX7_YEAST       201 DVHDYIKDAQKLHSSKCVLQIRMTDGKTLKHEFNSSETLNDVRKWVDVNR    250
+
+TAF3_XENLA       508 -DEDSE------LHRFKLKDFNEIDS--------------KSKQKENCGK    536
+                      |.|..      :.|...||.:|:.:              |..:.:|.|.
+UBX7_YEAST       251 TDGDCPYSFHRGIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGL    300
+
+TAF3_XENLA       537 K-----------------DKEKHKDKKKDKEKGKKDKDKKGKDKTKEEKM    569
+                     .                 ....|.||..:....:::..|..:.:.:.   
+UBX7_YEAST       301 SVTGMEGPSLLGRLYKGFSTWWHNDKDPEVTSQREETSKPNRHEVRS---    347
+
+TAF3_XENLA       570 KSPSTPIM----------------LSSKDIALPMISTPNTVRLPSLLS--    601
+                        |||:.                :.|...|.||: ||:..|.||..:  
+UBX7_YEAST       348 ---STPLSGAASSSCFQYNNVREPVQSSAHASPML-TPSGTRYPSETNLT    393
+
+TAF3_XENLA       602 ---SMSPLLPEKLFEEKEKSKEKDKKKDKK--------EKKKKKDKE    637
+                        |:||    .:|:......::|.:....        ||||.:||:
+UBX7_YEAST       394 TSRSVSP----NVFQFVNNDHQEDPEDPTTFNGNNVHLEKKKDEDKK    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      44/216 (20.4%)
+# Similarity:    74/216 (34.3%)
+# Gaps:          84/216 (38.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       254 VPLAAPPPAIKTETP-NRTPLATLSEKIGRENIQIKQNQ----TPLDSDQ    298
+                     ||.||..|   .:.| ...|:.::...:.|.:.:::..:    |..|...
+RPOA_ACICJ       162 VPAAANRP---EDAPIGLIPVDSIYSPVRRVSYRVEPTRVGQVTDYDRLI    208
+
+TAF3_XENLA       299 LNVE-----IPSKKPSIADNTIEDSIDAVI-----ARACAEQEP------    332
+                     ||:|     .|....::|...::|.:...|     .|..|| ||      
+RPOA_ACICJ       209 LNIETNGAVTPEDAVALAARILQDQLGMFINFEEPQRLRAE-EPRPELPF    257
+
+TAF3_XENLA       333 --------DPFEFSSGS-----------------ESEGEVFTSP----KR    353
+                             |..|.|..|                 :||.|:..:|    |.
+RPOA_ACICJ       258 NPNLLRKVDELELSVRSANCLKNDNIVYIGDLVQKSEQEMLRTPNFGRKS    307
+
+TAF3_XENLA       354 LN-ISELTTPKVSASGINPGKTSSTSVPASGGTSSSDISWTMDDSINEVI    402
+                     || |.|:    :||.|:..|.......|               ::|.|::
+RPOA_ACICJ       308 LNEIKEV----LSAMGLGLGMVVQDWPP---------------ENIEELV    338
+
+TAF3_XENLA       403 RKVSQETPTNTPANNP    418
+                     ::          ::||
+RPOA_ACICJ       339 KR----------SDNP    344
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      14/44 (31.8%)
+# Similarity:    24/44 (54.5%)
+# Gaps:          10/44 (22.7%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+TAF3_XENLA       495 TKDGKVLWKDSNKDEDSELHRFK--LKDFNEIDSKSKQKENCGK    536
+                     ||.||.|.|   .|:...|.|::  ||:::     :::||..|:
+YXAD_BACSU        97 TKLGKQLLK---ADQQKRLERYEQMLKEWS-----TQEKEMFGE    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: TAF3_XENLA
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 514
+# Identity:      99/514 (19.3%)
+# Similarity:   164/514 (31.9%)
+# Gaps:         170/514 (33.1%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+TAF3_XENLA        71 VPTDGGTSAEAMQVPLEEEEEEGEMEDDETVNDENYL-------SKRPLD    113
+                     :|..|||    :::|             ..:..:|.|       .:||.|
+FADB_SHESR       145 IPGFGGT----VRLP-------------RVIGADNALEWITTGKDQRPED    177
+
+TAF3_XENLA       114 -----------SPETMEMPFAKRIRLMNNK-GDILDGSLEPREPLSSINS    151
+                                :||.:|   |..|:::.:. .:.||........:|.:..
+FADB_SHESR       178 ALKVGAVDAVVAPEALE---AAAIQMLKDAVAEKLDWQARRHRKMSPLTL    224
+
+TAF3_XENLA       152 QKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTK    201
+                     .|:.:::|            ..:.:.|:..|:....|.|..:.|::.:..
+FADB_SHESR       225 PKLEAMMS------------FTTAKGMVFAVAGKHYPAPMAAVSVVEQAA    262
+
+TAF3_XENLA       202 SKGGSPGQK------IKSPKATPISTVIGSPI-------RSPKSG--PKE    236
+                     :||.|...:      ||..|......:||..:       ::.|:|  .|:
+FADB_SHESR       263 TKGRSDALQIEHQAFIKLAKTDVAKALIGIFLNDQLVKGKAKKAGKLAKD    312
+
+TAF3_XENLA       237 RKSP----------GCAKSPKSPKSPKVPLAAPPPAIKTETPNRTPLATL    276
+                     .||.          |.|....|..:|.|......||:.........|.:.
+FADB_SHESR       313 VKSAAVLGAGIMGGGIAYQSASKGTPIVMKDIAQPALDLGLGEAAKLLSA    362
+
+TAF3_XENLA       277 SEKIGREN----IQIKQNQTP-LDSDQLN-----VEIPSKKPSIADNTIE    316
+                     ....||..    .::..|.|| ||...:|     ||...:.|.:....:.
+FADB_SHESR       363 QVARGRSTPEKMAKVLNNITPALDYAPVNHADVVVEAVVEHPKVKAQVLA    412
+
+TAF3_XENLA       317 D-----SIDAVIAR----------ACAEQEPDPFEFSSGSESEGEVFTSP    351
+                     :     |.||:||.          |.:.::|:.|   .|......|...|
+FADB_SHESR       413 EVEQYVSEDAIIASNTSTISINLLAKSMKKPERF---CGMHFFNPVHKMP    459
+
+TAF3_XENLA       352 -----KRLNISELTTPKVSASGINPGKT---------------------S    375
+                          :..:.||.|...|.|.....|||                     .
+FADB_SHESR       460 LVEVIRGEHSSEETIASVVAYASKMGKTPIVVNDCPGFFVNRVLFPYFAG    509
+
+TAF3_XENLA       376 STSVPASGG-------TSSSDISWTMDDSINEVIRKVSQETPTNTPANNP    418
+                     ...:.|.||       .......|.|..:.  ::..|..:|..:..|...
+FADB_SHESR       510 FNGLLAEGGDFAAIDKVMEKQFGWPMGPAY--LLDVVGLDTGHHAQAVMA    557
+
+TAF3_XENLA       419 PCFSSPSASPPTPEPLLK--------VFEDKAKLPPPVELKKKTKK----    456
+                     ..|         |:.:.|        :||:|       .|.:|..|    
+FADB_SHESR       558 EGF---------PDRMGKSGNDAIDVMFENK-------RLGQKNGKGFYA    591
+
+TAF3_XENLA       457 ---EQRAKKKKDKD    467
+                        :.|.|.|||.|
+FADB_SHESR       592 YSVDSRGKPKKDVD    605
+
+
+#---------------------------------------
+#---------------------------------------

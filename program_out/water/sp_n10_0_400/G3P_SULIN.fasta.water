@@ -1,0 +1,346 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/G3P_SULIN.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/G3P_SULIN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/G3P_SULIN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      56/286 (19.6%)
+# Similarity:    94/286 (32.9%)
+# Gaps:         108/286 (37.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+G3P_SULIN          2 ISVAVNGYGT---IGKRVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGI     48
+                     :.:.|.|.||   :|:|:|..     ...|||:.:          .|.|.
+NADK_ACIET        73 LCLVVGGDGTMLGVGRRLAGY-----GTPLVGINQ----------GRLGF    107
+
+G3P_SULIN         49 KIYVPQQSIKKFEESGIPVA-GTIEDLVKASDIVVDTTPNGVGAQYKPIY     97
+                     ...:|   ::.::::..|:. |..|:.|                  :|:.
+NADK_ACIET       108 ITDIP---LEGYQDALTPILHGDYEEDV------------------RPLM    136
+
+G3P_SULIN         98 QQFQRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRT    147
+                     |.    .:.:|||            |.: |||....:.|...:|:.::. 
+NADK_ACIET       137 QA----CVMRGGE------------CVF-EALALNDVVVNRGSTSGMVE-    168
+
+G3P_SULIN        148 ICTINKVTKVEKVRATIVRRAADQKEVKK------------GP-INSLVP    184
+                            .:||.....:..:.||...|..            || ::..:|
+NADK_ACIET       169 -------LRVEVDGVFVSNQRADGLIVASPTGSTAYALSAGGPMLHPSIP    211
+
+G3P_SULIN        185 DPATVPSHHAKDVNSVIKNLDIVTMAVIAPTTLMHMHFINITLKDKVEKK    234
+                     ....||                     |||.||.:.   .|.|.|..|. 
+NADK_ACIET       212 GWVLVP---------------------IAPHTLSNR---PIVLSDATEV-    236
+
+G3P_SULIN        235 DVLSVLENTPRIVLISSKYDAEATAELVEVARDLKR    270
+                      .:.|.....    ||:.:|.::.|.|....|.|.|
+NADK_ACIET       237 -AIEVAGGRD----ISANFDMQSLASLQHGDRILVR    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      18/74 (24.3%)
+# Similarity:    32/74 (43.2%)
+# Gaps:          18/74 (24.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+G3P_SULIN         40 AFIAHRKGIKIYVPQQSIKKFEESGIPVAGTIEDLVKASDIV---VDTTP     86
+                     ||||        .|...|....|   ||:|:   |:..::|:   :..|.
+PSBA_ANGEV        51 AFIA--------APPVDIDGIRE---PVSGS---LLYGNNIISGAIIPTS     86
+
+G3P_SULIN         87 NGVGAQYKPIYQQFQRNA-IFQGG    109
+                     ..:|..:.||::....:. ::.||
+PSBA_ANGEV        87 AAIGLHFYPIWEAASVDEWLYNGG    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      14/57 (24.6%)
+# Similarity:    26/57 (45.6%)
+# Gaps:           3/57 ( 5.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+G3P_SULIN        222 FINITLKDKVEKKDVLSVLENTPRIVLISSKYDAEATAELVEVARDLKRE    271
+                     |.|.|..|. .|||.....:.|.:.::  ..:.|.|.....||.::::..
+Y128_RICFE        18 FANSTTSDG-SKKDAAKTNDGTTQKII--DDFSAYAGTIKPEVRKEIQEY     64
+
+G3P_SULIN        272 RNDIPEV    278
+                     |.:|.::
+Y128_RICFE        65 RVEIVDI     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 301
+# Identity:      55/301 (18.3%)
+# Similarity:   106/301 (35.2%)
+# Gaps:          76/301 (25.2%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+G3P_SULIN          8 GYG-TIGKRVADAILKQ-PD-----MRLVGVAKTSPNYEAFIAHRKGIKI     50
+                     ||| |:|..:...:|.. |.     :.:.||.......:..:.....|.:
+RPOA_STAAN        31 GYGTTLGNSLRRILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIM     80
+
+G3P_SULIN         51 YVPQQSIKKF--EESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQ     98
+                     .:.|.::|.:  |:..:.:....|..|.||||..|:....:..:.|..  
+RPOA_STAAN        81 NIKQLALKIYSEEDKTLEIDVRDEGEVTASDITHDSDVEILNPELKIA--    128
+
+G3P_SULIN         99 QFQRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRTI    148
+                          .:.:||.      :....:.|    .|:.|......||:.|...:
+RPOA_STAAN       129 -----TVSKGGH------LKIRLVAN----KGRGYALAEQNNTSDLPIGV    163
+
+G3P_SULIN        149 CTINKV-TKVEKVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDV    197
+                     ..::.: :.||:|..|:......|                      :.|.
+RPOA_STAAN       164 IPVDSLYSPVERVNYTVENTRVGQ----------------------SSDF    191
+
+G3P_SULIN        198 NSVIKNLDIVTMAVIAP-------TTLMHMH---FINIT----------L    227
+                     :.:  .||:.|...|.|       ..:|..|   |:.:|          .
+RPOA_STAAN       192 DKL--TLDVWTNGSITPQESVSLAAKIMTEHLNIFVGLTDEAQNAEIMIE    239
+
+G3P_SULIN        228 KDKVEKKDVLSV----LENTPRIVLISSKYDAEATAELVEVAR-DLKRER    272
+                     |::.:|:.||.:    |:.:.|......:....:..||.:.:. |:.:.|
+RPOA_STAAN       240 KEEDQKEKVLEMSIEELDLSVRSYNCLKRAGINSVQELADKSEADMMKVR    289
+
+G3P_SULIN        273 N    273
+                     |
+RPOA_STAAN       290 N    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      11/68 (16.2%)
+# Similarity:    21/68 (30.9%)
+# Gaps:          26/68 (38.2%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+G3P_SULIN        180 NSLV--PDPATVPS------------------------HHAKDVNSVIKN    203
+                     |||:  |.|:.:.|                        |:..|..:...:
+CYB_PLEAU         16 NSLIDLPAPSNISSWWNFGSLLGICLALQILTGLFLAMHYTSDTTTAFSS     65
+
+G3P_SULIN        204 LDIVTMAVIAPTTLMHMH    221
+                     :..:...|.....|.::|
+CYB_PLEAU         66 VTHICRDVNYGWVLRYLH     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      16/57 (28.1%)
+# Similarity:    28/57 (49.1%)
+# Gaps:           3/57 ( 5.3%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+G3P_SULIN        111 KAEVADISFSALCNYDEALGKKYIRVV--SCNTTAL-LRTICTINKVTKV    157
+                     :::..:|..|...|..|....|.:.::  |||...: ...|.:||..::.
+RPO8_SACSH         3 ESKAQEIILSCEINSIERGSLKNLSIIHMSCNDFNISFDIIDSINIFSQK     52
+
+G3P_SULIN        158 EKVRATI    164
+                     |||:|.|
+RPO8_SACSH        53 EKVKAFI     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 340
+# Identity:     340/340 (100.0%)
+# Similarity:   340/340 (100.0%)
+# Gaps:           0/340 ( 0.0%)
+# Score: 1696.0
+# 
+#
+#=======================================
+
+G3P_SULIN          1 MISVAVNGYGTIGKRVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGIKI     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN          1 MISVAVNGYGTIGKRVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGIKI     50
+
+G3P_SULIN         51 YVPQQSIKKFEESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQQF    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN         51 YVPQQSIKKFEESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQQF    100
+
+G3P_SULIN        101 QRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRTICT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN        101 QRNAIFQGGEKAEVADISFSALCNYDEALGKKYIRVVSCNTTALLRTICT    150
+
+G3P_SULIN        151 INKVTKVEKVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDVNSV    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN        151 INKVTKVEKVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDVNSV    200
+
+G3P_SULIN        201 IKNLDIVTMAVIAPTTLMHMHFINITLKDKVEKKDVLSVLENTPRIVLIS    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN        201 IKNLDIVTMAVIAPTTLMHMHFINITLKDKVEKKDVLSVLENTPRIVLIS    250
+
+G3P_SULIN        251 SKYDAEATAELVEVARDLKRERNDIPEVMVFDDSVYVKDNEVMLMYAVHQ    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN        251 SKYDAEATAELVEVARDLKRERNDIPEVMVFDDSVYVKDNEVMLMYAVHQ    300
+
+G3P_SULIN        301 ESIVVPENVDAIRASTRLMSAEDSIRITNESLGILKGYLI    340
+                     ||||||||||||||||||||||||||||||||||||||||
+G3P_SULIN        301 ESIVVPENVDAIRASTRLMSAEDSIRITNESLGILKGYLI    340
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      28/143 (19.6%)
+# Similarity:    51/143 (35.7%)
+# Gaps:          35/143 (24.5%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+G3P_SULIN         61 EESGIPVAGTIEDLVKASDIVVDTTPNGVGAQYKPIYQQFQRNAIFQGGE    110
+                     |:..:....|:|  :|.:|:|.          |.|:.::       |.|:
+BLP1_PSEAI        80 EQGKVNPNSTVE--IKKADLVT----------YSPVIEK-------QVGQ    110
+
+G3P_SULIN        111 KAEVADISFSALCNYDEALGKKYIRVVS--CNTTALLRTICTINKVTKVE    158
+                     ...:.|..|:.:...|.......:..|.  ...|..||.|.  :|.|:::
+BLP1_PSEAI       111 AITLDDACFATMTTSDNTAANIILSAVGGPKGVTDFLRQIG--DKETRLD    158
+
+G3P_SULIN        159 KVRATIVRRAADQKEVKKGPINSLVPDPATVPSHHAKDVNSVI    201
+                     ::.       .|..|.|.|.:..     .|.|...|..:|..:
+BLP1_PSEAI       159 RIE-------PDLNEGKLGDLRD-----TTTPKAIASTLNKFL    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       4/5 (80.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+G3P_SULIN         60 FEESG     64
+                     :||||
+PA2AA_ACAAN       22 YEESG     26
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: G3P_SULIN
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      34/142 (23.9%)
+# Similarity:    51/142 (35.9%)
+# Gaps:          32/142 (22.5%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+G3P_SULIN         15 RVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGIKIYVPQQSIKKFEESG     64
+                     :|.||:....|:.:|. ....|....:.:..:..||.:....:.|.|:.|
+KCC1A_MOUSE      124 QVLDAVKYLHDLGIVH-RDLKPENLLYYSLDEDSKIMISDFGLSKMEDPG    172
+
+G3P_SULIN         65 IPVA------GTIEDLV---KASDIVVDTTPNGVGAQ-----YKPIYQQF    100
+                     ..::      |.:...|   |.....||....||.|.     |.|.|.:.
+KCC1A_MOUSE      173 SVLSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYPPFYDEN    222
+
+G3P_SULIN        101 QRNAIFQGGEKAEVA-------DISFSALCNYDEALGKKYIR    135
+                     ... :|:...|||..       |||.||         |.:||
+KCC1A_MOUSE      223 DAK-LFEQILKAEYEFDSPYWDDISDSA---------KDFIR    254
+
+
+#---------------------------------------
+#---------------------------------------

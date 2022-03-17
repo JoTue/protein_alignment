@@ -1,0 +1,3228 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:34
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/LCMT1_CRYNB.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/LCMT1_CRYNB.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/LCMT1_CRYNB.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      22/75 (29.3%)
+# Similarity:    35/75 (46.7%)
+# Gaps:          18/75 (24.0%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      288 VYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQGGK    337
+                     :||.: |.|.||.:.:   |:.|:   |.||...:.:.|..|        
+PUR7_VIBVU       214 LYEKL-LKDGFGVISE---ALANV---GQIFVDTKFEFGYVT--------    248
+
+LCMT1_CRYNB      338 FDSAGAKTLWQIREEDVGPEELQRI    362
+                      |:||.:.|  |..::||..:..||
+PUR7_VIBVU       249 -DAAGNEKL--IYMDEVGTPDSSRI    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      25/109 (22.9%)
+# Similarity:    37/109 (33.9%)
+# Gaps:          51/109 (46.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      172 LTSPKAQRIARHRKLYQYLGPSSTAMPP-------PGHPYTVSKGGTQLS    214
+                     :|.|.:.|            |..||.|.       |     |:||     
+Y075_NITWN         1 MTPPHSDR------------PEDTADPKLLEILVCP-----VTKG-----     28
+
+LCMT1_CRYNB      215 SPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPY    264
+                            ||:|..:..|..|. ||.|::.:...:              |.
+Y075_NITWN        29 -------PLELDGARRELISR-SAKLAYPIRDGI--------------PI     56
+
+LCMT1_CRYNB      265 MSPEDSREI    273
+                     |.||::|:|
+Y075_NITWN        57 MLPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 114
+# Identity:      21/114 (18.4%)
+# Similarity:    38/114 (33.3%)
+# Gaps:          42/114 (36.8%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      259 ECLFPYMSPE-----DSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMK    303
+                     |.:..|..||     |.|::..:..:.:.:.:|.::|             
+Y3584_PSEAB       80 EIMAVYTPPEGYEDGDGRDLQVYLDQNYTNALGPLHE-------------    116
+
+LCMT1_CRYNB      304 RNLAVRNLSIPGSIFSTPE--------------SQAGRFT-------SPM    332
+                        ..|..:||...|...:              |:.||||       ..:
+Y3584_PSEAB      117 ---DYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQL    163
+
+LCMT1_CRYNB      333 LQGGKFDSAGAKTL    346
+                     ::.|:.|.....||
+Y3584_PSEAB      164 IECGRVDVGQFVTL    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      44/211 (20.9%)
+# Similarity:    70/211 (33.2%)
+# Gaps:          69/211 (32.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB        1 MTQCGDRRLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRR     50
+                     ::|.|.||  :.|::   ..|.....||..|.| .|.....|.|...|..
+BPT_HAHCH         44 LSQLGFRR--SGNHY---YKPRCNGCNACIAVR-IPTEEFNRTRSQERTW     87
+
+LCMT1_CRYNB       51 RRLRPPVRPPLSLPVALTTRSSAAQVGYLQDPFASL------------LY     88
+                     :|...           ||.|..:||  :.|:.||..            :|
+BPT_HAHCH         88 KRNSD-----------LTVRLRSAQ--FEQEHFALYQRYISARHQDGDMY    124
+
+LCMT1_CRYNB       89 RPPMPQPGAFAPQA------VGRARKPPLINVGTHHRTW-GIDRLVDRFL    131
+                     .|.:.|..:|..:|      :...:...|:.:....||. |:..:...|.
+BPT_HAHCH        125 PPTLDQYESFLLEARSETLFIEFRKDSKLLAIAVTDRTTDGLSAIYTFFD    174
+
+LCMT1_CRYNB      132 QRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIA    181
+                     ....|:.:.:.|    ..|:|                          :.|
+BPT_HAHCH        175 PNEDKRALGVYA----ILWQL--------------------------QFA    194
+
+LCMT1_CRYNB      182 RHRKL-YQYLG    191
+                     |.::| |.|||
+BPT_HAHCH        195 REQRLPYLYLG    205
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      23/92 (25.0%)
+# Similarity:    34/92 (37.0%)
+# Gaps:          33/92 (35.9%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       25 DPNAAPAHR--PAPRPALGRCRPPHRRRRRLRPPVRPPLSLPVALTTRSS     72
+                     ||:.:||:.  .|||.|..|..|.......:...|:.||           
+KDPC_CAUVN       128 DPDISPANARFQAPRVAGARGVPEKDVTALIDAQVQQPL-----------    166
+
+LCMT1_CRYNB       73 AAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGR---ARKPPL    111
+                        :|::..|..::|              |:.|   ||.|||
+KDPC_CAUVN       167 ---LGFIGQPRVNVL--------------ALNRALDARYPPL    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    18/39 (46.2%)
+# Gaps:          10/39 (25.6%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      282 CSCMGVVYEMVGLDDSF--GNVM---KRNLAVRNLSIPG    315
+                     |:|..||     |.|.:  |:|:   ...|.:..|.:||
+LPXH_XYLFM       217 CACTRVV-----LGDWYQQGSVLCVDADGLVLEQLLLPG    250
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    15/30 (50.0%)
+# Gaps:           6/30 (20.0%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      263 PYMSPEDSREIIKWFGETFCSCMGVVYEMV    292
+                     |.:||..::..      |..|.:|:|:.:|
+YERI_SCHPO         3 PLVSPGLAKAC------TGLSLIGIVFLLV     26
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       7/10 (70.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       77 GYLQDPFASL     86
+                     |.||||.:||
+RBSA_RUEST       392 GTLQDPVSSL    401
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       3/5 (60.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       12 LNYHG     16
+                     :||:|
+KR195_HUMAN        1 MNYYG      5
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      11/22 (50.0%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           1/22 ( 4.5%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       95 PGAFAPQAVGRARKPPLINVGT    116
+                     |.||||.| |:|.....:.|||
+UPPP_CORDI       214 PDAFAPDA-GQAASGMQLAVGT    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      21/107 (19.6%)
+# Similarity:    45/107 (42.1%)
+# Gaps:          31/107 (29.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      245 LPQLDPRLPTLFLAECLFPYMSPEDSREIIKWF----GETFCSCM-----    285
+                     |.::|.|:  .:|.:|:       ::.:|:.:.    |:.|....     
+GREB_ECO57        55 LREIDRRV--RYLTKCM-------ENLKIVDYSPQQEGKVFFGAWVEIEN     95
+
+LCMT1_CRYNB      286 --GVV--YEMVGLDDSFG--------NVMKRNLAVRNLSIPGSIFSTPES    323
+                       ||.  :.:||.|:.||        :.|.|.|..:.:. ..::.:||..
+GREB_ECO57        96 DDGVTHRFRIVGYDEIFGRKDYISIDSPMARALLKKEVG-DLAVVNTPAG    144
+
+LCMT1_CRYNB      324 QAGRFTS    330
+                     :|..:.:
+GREB_ECO57       145 EASWYVN    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 287
+# Identity:      63/287 (22.0%)
+# Similarity:    93/287 (32.4%)
+# Gaps:         101/287 (35.2%)
+# Score: 73.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       47 HRRRRRL---RPPVRPPLSLPVAL----------TTRSSAAQVGYLQDPF     83
+                     |.||.||   ...|..|:.:||..          ...:..||: .|.:.|
+TGT_LEPCP         12 HARRGRLTLNHGVVETPIFMPVGTYGTVKGVMPRDLETMGAQI-ILGNTF     60
+
+LCMT1_CRYNB       84 ASLLYRPPMPQPGAFAPQAVGRARKPPLINVGTHH-RTWGIDRLVDRFLQ    132
+                      .|..||.......|.               |.|. ..|....|.|    
+TGT_LEPCP         61 -HLWMRPGQDVMAQFG---------------GLHRFENWTRPILTD----     90
+
+LCMT1_CRYNB      133 RGGKQVVSLG-----AGSDTRFWRLMSRATP---------PDLARYVEI-    167
+                     .||.||.|||     :....||      |:|         |:::..::. 
+TGT_LEPCP         91 SGGFQVWSLGEMRKISEEGVRF------ASPVNGDKLFLTPEVSMQIQTV    134
+
+LCMT1_CRYNB      168 --------------------DFPHLTSPKAQRIARHRKLYQYLGPSSTAM    197
+                                         :..|:|:.|..|::....| ::...|....
+TGT_LEPCP        135 LNSDIVMQFDECTPYWQGAKNVGHITTEKEARVSMELSL-RWAARSKAEF    183
+
+LCMT1_CRYNB      198 PPPGHP---YTVSKGG---TQLSSPLYTLLPLDLRP-------SPSEPAS    234
+                     ...|:|   :.:.:||   :.....|..|:.||. |       |..||..
+TGT_LEPCP        184 ARLGNPNALFGIVQGGMFESLREESLNALVELDF-PGYAVGGVSVGEPKD    232
+
+LCMT1_CRYNB      235 SISAILSH--HVLPQLDPRLPTLFLAECLFPYMSPED    269
+                     .:..|::|  |:||...||.        |....:|||
+TGT_LEPCP        233 EMLRIMNHTPHLLPADKPRY--------LMGVGTPED    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      16/55 (29.1%)
+# Similarity:    22/55 (40.0%)
+# Gaps:          12/55 (21.8%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      137 QVVSLGAGSDTRFWRLMSRATP-----PDLARYVEIDFPH-----LTSPK    176
+                     ||:|.|.|:|..||  :....|     .||.:|......|     :..||
+CBPQ_HUMAN       399 QVLSHGEGTDINFW--IQAGVPGASLLDDLYKYFFFHHSHGDTMTVMDPK    446
+
+LCMT1_CRYNB      177 AQRIA    181
+                     ...:|
+CBPQ_HUMAN       447 QMNVA    451
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      12/46 (26.1%)
+# Similarity:    21/46 (45.7%)
+# Gaps:          10/46 (21.7%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      262 FPYMSPEDSREIIKWFGE--------TFCSCMGVVYEMVGLDDSFG    299
+                     :.|..|.|  .:.||..:        .:...:|||..::|:||.:|
+PSA6_SOYBN       105 YGYEMPVD--VLAKWIADKSQVYTQHAYMRPLGVVAMVLGIDDEYG    148
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      17/65 (26.2%)
+# Similarity:    27/65 (41.5%)
+# Gaps:          14/65 (21.5%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      309 RNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKT-----LWQIREE-    352
+                     :|:...|......:||...|.:.:....:..|.|.||     |.|||:: 
+SCL34_ARATH      230 KNIGEKGKKKKKKKSQVVDFRTLLTHCAQAISTGDKTTALEFLLQIRQQS    279
+
+LCMT1_CRYNB      353 ----DVGPEELQRIS    363
+                         |.|    ||::
+SCL34_ARATH      280 SPLGDAG----QRLA    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      23/80 (28.8%)
+# Similarity:    36/80 (45.0%)
+# Gaps:          17/80 (21.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      286 GVVYEMV--GLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPML    333
+                     |.|..||  ||     ||:|....:...:.|..  |.|.:..|.|   .:
+NDKA_CANLF        71 GPVVAMVWEGL-----NVVKTGRVMLGETNPAD--SKPGTIRGDF---CI    110
+
+LCMT1_CRYNB      334 QGGKFDSAGAKTLWQIREEDVG----PEEL    359
+                     |.|:....|:.:: :..|:::|    ||||
+NDKA_CANLF       111 QVGRNIIHGSDSV-ESAEKEIGLWFQPEEL    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    17/48 (35.4%)
+# Gaps:          26/48 (54.2%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       28 AAPAH------------RPAPRPALGRCRPPHRRRRRLRPPVRPPLSL     63
+                     |||:|            ||.|        .||:.|..|      ||||
+RS4_CAEEL         12 AAPSHWMLDKLGGVFAVRPNP--------GPHKLRESL------PLSL     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      35/156 (22.4%)
+# Similarity:    53/156 (34.0%)
+# Gaps:          45/156 (28.8%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       57 VRPPLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRA    106
+                     ||...|| :.||...:....||...|       ||..:||.:.|...   
+G45IP_CHLAE        5 VRKARSL-LGLTATLAPGSRGYRAPP-------PPRREPGPWWPDPE---     43
+
+LCMT1_CRYNB      107 RKPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDT---RFWRLM    153
+                           ::.||.  |   :|..|:   ..||....||.|..   ..|   
+G45IP_CHLAE       44 ------DLLTHR--W---QLGPRY---AAKQFARYGAASGVAPGSLW---     76
+
+LCMT1_CRYNB      154 SRATPPDLARYVEID----FPHLTSPKAQRIARH-------RKLYQYLGP    192
+                        ..|:..|.:|.:    :|.|.:.:.....:|       |:..|::..
+G45IP_CHLAE       77 ---PSPEQLRELEAEEREWYPSLATMQESLRVKHLAEEQKRREREQHIAE    123
+
+LCMT1_CRYNB      193 SSTAMP    198
+                     ....||
+G45IP_CHLAE      124 CMAKMP    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      59/316 (18.7%)
+# Similarity:    96/316 (30.4%)
+# Gaps:         106/316 (33.5%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       56 PVRPPLSLPVALTTRSSAAQVGY--------------LQDPF---ASLLY     88
+                     |:....:||.|..........|:              :|||.   ...::
+DAPEL_OCEIH       73 PILEQTNLPYASLHEGRMHACGHDLHMTIALGALEKLIQDPINDDVIFVF    122
+
+LCMT1_CRYNB       89 RPPMPQPGAFAPQAVG---RARKP---------PLINVGTHHRTWGIDRL    126
+                     :|....||...|....   :..||         |.:.|||          
+DAPEL_OCEIH      123 QPAEEGPGGAKPMLESEEFQQWKPDMMFALHIAPELPVGT----------    162
+
+LCMT1_CRYNB      127 VDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVEID-------F    169
+                                 ||..||        :..|...:|  :::.:       :
+DAPEL_OCEIH      163 ------------VSSKAG--------LLFANTSEL--FIDFEGVGGHAAY    190
+
+LCMT1_CRYNB      170 PHLTSPKAQRIARHRKLYQYLGPSSTAMPP-PGHPYTVSK---GGTQLSS    215
+                     ||||  |...:|....:.|.....|..:.| .|...|:.|   |..|.:.
+DAPEL_OCEIH      191 PHLT--KDMTVAASNFVVQLQQIVSRGLNPLDGSVITIGKMESGYVQNAI    238
+
+LCMT1_CRYNB      216 PLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLF--LAECLFP    263
+                     .....|...:|.:.::....|.:.|:         ||...|  ..:|...
+DAPEL_OCEIH      239 AETARLEGTIRSTDADAIDMIKSKLN---------RLMKGFEISYDCTIK    279
+
+LCMT1_CRYNB      264 ------YMSPEDSREIIKWFGETFCSCMGVVYE-----MVGLDDSFGNVM    302
+                           |....:....::.|.........:.|:     |.|.|  ||:::
+DAPEL_OCEIH      280 VDYGANYYQVVNDATYVQQFENVINQTQTITYQQADAAMTGED--FGDML    327
+
+LCMT1_CRYNB      303 KRNLAVRNLSIPGSIF    318
+                     |        .|||.:|
+DAPEL_OCEIH      328 K--------EIPGFMF    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      142 GAGSDTRFWRLMSRATPPDLA    162
+                     |||..|:..|::.|...|.|:
+KAD_METRJ         10 GAGKGTQSERIVQRFGIPQLS     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      11/51 (21.6%)
+# Similarity:    22/51 (43.1%)
+# Gaps:           6/51 (11.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      306 LAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVG    355
+                     :.|..:.:||::.....::|.      .:..||.:.||..:..|....:|
+ELN_BOVIN        382 VGVPGVGVPGALSPAATAKAA------AKAAKFGARGAVGIGGIPTFGLG    425
+
+LCMT1_CRYNB      356 P    356
+                     |
+ELN_BOVIN        426 P    426
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 325
+# Identity:      63/325 (19.4%)
+# Similarity:   100/325 (30.8%)
+# Gaps:         120/325 (36.9%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      104 GRARKPPLINV--GTHHRTWGIDRLVDRFLQR-------GGKQVVSLGAG    144
+                     |...||.|..|  ||.:   |::.::|  :|:       |..:..:..||
+ASIC2_MOUSE      199 GEDGKPLLTTVKGGTGN---GLEIMLD--IQQDEYLPIWGETEETTFEAG    243
+
+LCMT1_CRYNB      145 SDTRFWRLMSRATPP---DLARYVEIDFPHLTSPKAQRIARHRKLYQYLG    191
+                     ...   ::.|::.||   :|...|...|....:.:.||:           
+ASIC2_MOUSE      244 VKV---QIHSQSEPPFIQELGFGVAPGFQTFVATQEQRL-----------    279
+
+LCMT1_CRYNB      192 PSSTAMPPPGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAILS    241
+                        |.:|||......|:.|            ||..|..|..|..|..   
+ASIC2_MOUSE      280 ---TYLPPPWGECRSSEMG------------LDFFPVYSITACRIDC---    311
+
+LCMT1_CRYNB      242 HHVLPQLDPRLPTLFLAE---CLF-------PYMSPEDSRE-------II    274
+                                .|.::.|   |..       |:.:||..:|       ::
+ASIC2_MOUSE      312 -----------ETRYIVENCNCRMVHMPGDAPFCTPEQHKECAEPALGLL    350
+
+LCMT1_CRYNB      275 KWFGETFCSC--------MGVVYEMVG---------LDDSFGNVMK---R    304
+                     ......:|.|        ......||.         |:..|....|   .
+ASIC2_MOUSE      351 AEKDSNYCLCRTPCNLTRYNKELSMVKIPSKTSAKYLEKKFNKSEKYISE    400
+
+LCMT1_CRYNB      305 NLAVRNLSIPGSIFSTPESQAGRFTSPML-----QGGKFDSAGAKTLWQI    349
+                     |:.|.::......:.|.|.:.....:.:|     |.|.|..|...|:   
+ASIC2_MOUSE      401 NILVLDIFFEALNYETIEQKKAYEVAALLGDIGGQMGLFIGASILTI---    447
+
+LCMT1_CRYNB      350 REEDVGPEELQRISKLEILDEIEEL    374
+                                    ||:.|.|.||
+ASIC2_MOUSE      448 ---------------LELFDYIYEL    457
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      23/99 (23.2%)
+# Similarity:    32/99 (32.3%)
+# Gaps:          38/99 (38.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      253 PTLFLAE--------------CLFPYMSPEDSREIIKW--FGE-------    279
+                     |.|::||              |:..|.|.|     |.|  ||.       
+DOXA1_XENTR      151 PILYVAEKFTINSPCGLFQQYCISTYYSSE-----IMWVAFGSWILYNVL    195
+
+LCMT1_CRYNB      280 ------TFCSCMGVVYEMVGLDD--SFGNVMKRNLAVRNLSIPGSIFST    320
+                           .:..||..|..:..|..  ||.:|  |...|.|:....::..|
+DOXA1_XENTR      196 FSMPVILYGICMMFVTAICMLVSLISFASV--RQAPVCNIHFGNAVLKT    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      10/30 (33.3%)
+# Similarity:    15/30 (50.0%)
+# Gaps:           2/30 ( 6.7%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      349 IREEDVGP-EELQRISKLEILDEIEELRLV    377
+                     |:..:..| |||.|.:...| |:.|...|:
+RS20_STRPB        37 IKAFEANPSEELFRAASSSI-DKAESKGLI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      20/55 (36.4%)
+# Similarity:    28/55 (50.9%)
+# Gaps:           7/55 (12.7%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      333 LQGGKFDSAGAKTLWQIREEDV-GPEELQRIS--KLE----ILDEIEELR    375
+                     ||..:.:.|......|:.|||: ..||..:|:  |||    ..||.|.:|
+TPM_HAELO         78 LQAAEAEVAAHNRRIQLLEEDLERSEERLKIATQKLEEASQAADESERMR    127
+
+LCMT1_CRYNB      376 LVLEH    380
+                     .:|||
+TPM_HAELO        128 KMLEH    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      29/154 (18.8%)
+# Similarity:    49/154 (31.8%)
+# Gaps:          64/154 (41.6%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      277 FGETFCSCMGVVYEMVGLDDSFGNVMK-RNLAVRNLSIPGSIF-------    318
+                     ||.|....:..|...:|.....|:.:: ...|:|.||:.|.:.       
+LEUC_XANOM       182 FGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIE    231
+
+LCMT1_CRYNB      319 ------------STPESQAGRFTSPMLQGGKFDSAGAKTLW---------    347
+                                 .|.....||..:|  :|..:|:|.|  ||         
+LEUC_XANOM       232 AGARVGMVAVDEKTIAYVKGRPFAP--KGADWDAAVA--LWSTLVSDPDA    277
+
+LCMT1_CRYNB      348 ------QIREEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTKGEC    391
+                           ::..||:.|:                         ::|||..|.
+LEUC_XANOM       278 HFDTVVELHAEDIKPQ-------------------------VSWGTSPEM    302
+
+LCMT1_CRYNB      392 MSSI    395
+                     :.:|
+LEUC_XANOM       303 VLAI    306
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       3/13 (23.1%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       61 LSLPVALTTRSSA     73
+                     ::..:.:||.:.|
+LPT_ESCF3          8 ITTTITITTGNGA     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      23/90 (25.6%)
+# Similarity:    35/90 (38.9%)
+# Gaps:          30/90 (33.3%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      314 PGSIFSTPESQAGRFTSPMLQGGKFD----SAGAKTLWQIRE--------    351
+                     |.::.:.|  .||...:|..:..:||    .||||.|..|:|        
+RL7_THET8         38 PVAVAAAP--AAGAAAAPAEEKTEFDVILKEAGAKKLEVIKELRAITGLG     85
+
+LCMT1_CRYNB      352 ---------------EDVGPEELQRI-SKLEILDEIEELR    375
+                                    |.|..:|.:.| .|||.:..:.||:
+RL7_THET8         86 LKEAKDLAEKGGPVKEGVSKQEAEEIKKKLEAVGAVVELK    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      15/64 (23.4%)
+# Similarity:    28/64 (43.8%)
+# Gaps:           8/64 (12.5%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      218 YTLLPLDLRPSPSEPASSISAILSHHV-LPQLDPRLPTLFLAEC----LF    262
+                     :|..|:.:|...:.||..:.:.|...: |||:.   ....|:.|    ::
+HEM1_METCA        10 HTTAPVSIRERLAFPAEQLQSALRDLIDLPQVG---EAAILSTCNRTEVY     56
+
+LCMT1_CRYNB      263 PYMSPEDSREIIKW    276
+                     ..:...|.|.|:.|
+HEM1_METCA        57 CELDGRDQRPIVDW     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      34/141 (24.1%)
+# Similarity:    56/141 (39.7%)
+# Gaps:          32/141 (22.7%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       60 PLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQP---GAF-------A     99
+                     |..:..|.|...||..|.:|  |:.| ..|.|...|   |.|       .
+XYLB_KLEPN       311 PALIAAAQTADESAGPVWFL--PYLS-GERTPHNNPQAKGVFFGLTHQHG    357
+
+LCMT1_CRYNB      100 PQAVGRARKPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRF    149
+                     |..:.||   .|..|| :....|:|.:....::   .:.::|..|...|:
+XYLB_KLEPN       358 PAELARA---VLEGVG-YALADGMDVVHACAIK---PEAITLIGGGRARY    400
+
+LCMT1_CRYNB      150 WRLMSRATPPDLARYVEIDF-------PHLTSPKAQRIARH    183
+                     ||.|.    .|::. :::|:       |.|.:.:...:|.|
+XYLB_KLEPN       401 WRQML----ADISG-LQLDYRTGGDVGPALGAARLAHVAVH    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      10/35 (28.6%)
+# Similarity:    16/35 (45.7%)
+# Gaps:           5/35 (14.3%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      340 SAGAKTLWQIREEDVGPEELQRISKLEILDEIEEL    374
+                     ||....||.|:..:....:|     |..|.:::||
+RECR_NOVAD        23 SARRAVLWLIKRRETALPQL-----LNALTQVQEL     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      41/184 (22.3%)
+# Similarity:    69/184 (37.5%)
+# Gaps:          40/184 (21.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      228 SPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPYM-SPEDSREIIKW    276
+                     :|....|.:|     |.|...|| |....:||..|... :|.|       
+SURE_METNO        34 APETDQSGVS-----HSLSLNDP-LRLRRVAETRFAVKGTPSD-------     70
+
+LCMT1_CRYNB      277 FGETFCSCMGV--VYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQ    324
+                          |..|||  :.:..|.|.....|.:......:::..|::....|..
+SURE_METNO        71 -----CVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGT    115
+
+LCMT1_CRYNB      325 AGRFTSPMLQ-----GG----KFDSA---GAKTLWQIREEDVGPEELQRI    362
+                     .....|..|.     ||    |:.:|   ||:|:.:|.|..:.|..|..:
+SURE_METNO       116 ILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNV    165
+
+LCMT1_CRYNB      363 SKLEILDE-IEELRLVLEHYVIAWGTKGECMSSI    395
+                     :..:...| :|.:.      |:|.|.:.:.:.:|
+SURE_METNO       166 NFPDCEPEAVEGIA------VVAQGMRNQQLLAI    193
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      12/29 (41.4%)
+# Similarity:    15/29 (51.7%)
+# Gaps:           3/29 (10.3%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      199 PPGHPYTVSKGGTQLSSPLYTLLPLDLRP    227
+                     |..|||.:.   .|.:|.||.|:.|.|.|
+CYB_ARTIO        342 PVEHPYIII---GQTASILYFLIILFLMP    367
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      17/49 (34.7%)
+# Similarity:    26/49 (53.1%)
+# Gaps:           9/49 (18.4%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      280 TFCSCMGVVYEMVGLDDS-FGN-------VMKRNLAVRNLSIPGSIFST    320
+                     ||..|:..: .:.|.:.| .||       |:|::|.:|||.|..:.|||
+IOLE_BACHK        29 TFEQCISEM-ALAGFNGSEVGNKYPRNTVVLKKSLELRNLEIASAWFST     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      26/107 (24.3%)
+# Similarity:    42/107 (39.3%)
+# Gaps:          37/107 (34.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      110 PLINVGTHHRTWGID-RLVDRFLQRGGK---QVVSL-----------GAG    144
+                     ||..|....|:..|| .|:...:::.||   ||:.:           |..
+ACKA_STAAT       231 PLAGVTMGTRSGNIDPALIPFIMEKTGKTAEQVLEILNKESGLLGLSGTS    280
+
+LCMT1_CRYNB      145 SDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQ-RIARH---RKLYQYL    190
+                     ||.|           ||:...|       |.||: ::|..   .|:::|:
+ACKA_STAAT       281 SDLR-----------DLSEEAE-------SGKARSQMALDVFASKIHKYI    312
+
+LCMT1_CRYNB      191 GPSSTAM    197
+                     |..:..|
+ACKA_STAAT       313 GSYAARM    319
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      15/66 (22.7%)
+# Similarity:    24/66 (36.4%)
+# Gaps:          23/66 (34.8%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      274 IKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPES    323
+                     |:.:|.::          |.||::...|:     :.....||..|..|  
+HIS7_BURTA        88 IRRYGHSY----------VPLDEALSRVV-----IDFSGRPGLEFHVP--    120
+
+LCMT1_CRYNB      324 QAGRFTSPMLQGGKFD    339
+                         ||...:  |.||
+HIS7_BURTA       121 ----FTRARI--GTFD    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      22/94 (23.4%)
+# Similarity:    32/94 (34.0%)
+# Gaps:          28/94 (29.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      132 QRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYV-----------EIDFP    170
+                     :|.||::|.|   ....|..|..|:..|.|..|.           |||..
+PTH_GEOLS         52 ERKGKRLVLL---KPQTFMNLSGRSVMPALQFYKLKPDQLIVVHDEIDLA     98
+
+LCMT1_CRYNB      171 HLTSPKAQRIARH------RKLYQYLGPS-------STAMPPPG    201
+                      |.:.:.::...|      |.:.:.||..       ....||.|
+PTH_GEOLS         99 -LGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPHG    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 181
+# Identity:      39/181 (21.5%)
+# Similarity:    59/181 (32.6%)
+# Gaps:          59/181 (32.6%)
+# Score: 68.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       21 PPPTDPNA-APAHRPAPRPALGRCRPPHRRRRRLRPPVRPPLSLPVALTT     69
+                     |||:.|.: .|...|||.|.|            :.||..||  .|.|   
+TAF3_XENLA       705 PPPSLPKSPPPTPSPAPAPVL------------VVPPQAPP--APAA---    737
+
+LCMT1_CRYNB       70 RSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRARKPPLINVGTH--    117
+                      :|.|                |.|.|.|....|  .:.|.|:.:|.|.  
+TAF3_XENLA       738 -ASPA----------------PTPAPSALTSNA--GSSKTPVRSVVTETV    768
+
+LCMT1_CRYNB      118 ----------HRTW---GIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMS    154
+                               ::.|   |.::..|      |..::......|...|..:.
+TAF3_XENLA       769 STYVIRDEWGNQIWICPGCNKPDD------GSPMIGCDQCDDWYHWPCVG    812
+
+LCMT1_CRYNB      155 -RATPPDLARYVEIDFPHLTSPKAQRIARHR    184
+                      .|.||:..::...........|.|:..:|:
+TAF3_XENLA       813 INAAPPEDEQWFCTKCESKKKDKKQKKRKHK    843
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 362
+# Identity:      72/362 (19.9%)
+# Similarity:   116/362 (32.0%)
+# Gaps:         106/362 (29.3%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       96 GAFAPQAVGRARKP-----PLINVGTHHRTWGIDRLVDRFLQRGGKQVVS    140
+                     ||..|.||   .:|     ..:...|.|.:   ||:....::.|...::.
+DNLJ_CROS5       338 GAVTPMAV---MEPVHLAGTTVQKATLHNS---DRIAQLDIRVGDTVIIR    381
+
+LCMT1_CRYNB      141 LGAGSDTRFWRLMSRATPPDLARY------VEIDFPHLTSPKAQRIARHR    184
+                     ..........|::....||:...|      .|.|.| |..|..:.:.|..
+DNLJ_CROS5       382 KAGEIIPEVVRVLKELRPPNTQPYEMPDRCPECDSP-LIRPSGEAVIRCM    430
+
+LCMT1_CRYNB      185 KL--------------------YQYLGPSSTAMPPPGHPYTVSKGGTQLS    214
+                     .|                    .:.||.....:       .:..|.....
+DNLJ_CROS5       431 NLSCEAILRGSLVHWASRDALDIRGLGEKIVVL-------LIENGLVNSI    473
+
+LCMT1_CRYNB      215 SPLYTLLP-----LD-------------LRPSPSEPAS------------    234
+                     :.||.|.|     |:             :..|..:|.|            
+DNLJ_CROS5       474 ADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVG    523
+
+LCMT1_CRYNB      235 SISAILSHHVLPQLDPRLPTLFLAECLFPYMS------PEDSREIIKWFG    278
+                     |::|.|.....|.:|.      |::..|..:|      .|.::.||.||.
+DNLJ_CROS5       524 SVTANLLVENFPSIDQ------LSQASFASLSSVYGVGEEIAQSIIDWFS    567
+
+LCMT1_CRYNB      279 -ETFCSCMGVVYEMVGLDDSFGNVMKRNLAV---------RNLSIPGSIF    318
+                      |..|..:..: :.|||  .........:.|         :...|.|::.
+DNLJ_CROS5       568 IEKNCDLIKQL-KKVGL--QLETTSSEQITVEPSLTPFSGKTFVITGTLP    614
+
+LCMT1_CRYNB      319 STPESQAGRFTSPMLQGGKF-DSAGAKTLWQIREEDVGPEELQRISKLEI    367
+                     :...::|......  .|||. .|...||.:.:..|..| .:|.:..||.|
+DNLJ_CROS5       615 TLTRNEAKALIEQ--AGGKVTGSVSKKTDYLLVGEKAG-SKLTQAEKLGI    661
+
+LCMT1_CRYNB      368 --LDEIEELRLV    377
+                       |.|.:.|||:
+DNLJ_CROS5       662 NQLSEADLLRLL    673
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 414
+# Identity:      79/414 (19.1%)
+# Similarity:   121/414 (29.2%)
+# Gaps:         166/414 (40.1%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       63 LP--VALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRARKPP    110
+                     ||  ||:..|..:..:..|..|.::|      |:......:||  |.:||
+MUTS_MYXXD       388 LPRVVAVLARCESPLLKSLTGPLSAL------PELAELLSRAV--AEEPP    429
+
+LCMT1_CRYNB      111 -------LINVGTHHRTWGIDRLV-------DRFLQRGGKQVVSLGAGS-    145
+                            :|..|.|..   :|:||       |..||...::....|..| 
+MUTS_MYXXD       430 VTLKDGGMIRAGFHAE---LDKLVALSTSGKDLLLQIEQREKERTGISSL    476
+
+LCMT1_CRYNB      146 DTRFWRLM---------------------------SRATPPDLARYVEID    168
+                     ..|:.::.                           .|...|:|..|.|  
+MUTS_MYXXD       477 KVRYNKVFGYYLEVTKSNLDRVPKDYIRKQTTVNSERFVTPELKEYEE--    524
+
+LCMT1_CRYNB      169 FPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLY    218
+                       .:.:.:.:|.|...:|::.|.....:..|                   
+MUTS_MYXXD       525 --QVLTAEERRCALEIQLFEELRAQVVSAAP-------------------    553
+
+LCMT1_CRYNB      219 TLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAECL--FPYMS    266
+                          .:| |.:|..::..|:||               .|.|.  :.|..
+MUTS_MYXXD       554 -----RIR-SAAEAVATGDALLS---------------FARCAAEYGYTR    582
+
+LCMT1_CRYNB      267 PEDSREIIKWFGETFCSCMG---VVYEMVGLDDSFGNVMKRNLAVRNLSI    313
+                     ||....:      ......|   ||..|:|..|||              :
+MUTS_MYXXD       583 PEVDASV------ALSITAGRHPVVERMLGAGDSF--------------V    612
+
+LCMT1_CRYNB      314 PGSIFSTP-----------ESQAGR--------FTSPMLQGGKFDSAGA-    343
+                     |..:...|           .:.||:        .|:.|.|.|.|..|.| 
+MUTS_MYXXD       613 PNDVRLDPAEDAQLMVITGPNMAGKSTVMRQVALTALMAQAGSFVPAKAA    662
+
+LCMT1_CRYNB      344 ------KTLWQIREED----------VGPEELQRI------SKLEILDEI    371
+                           :...::...|          |...|...|      ..|.|||||
+MUTS_MYXXD       663 RIGLCDRIFTRVGAADNLARGQSTFMVEMTETSHILHHATNKSLIILDEI    712
+
+LCMT1_CRYNB      372 EELRLVLEHYVIAW    385
+                     .......:...|||
+MUTS_MYXXD       713 GRGTSTFDGLSIAW    726
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      42/194 (21.6%)
+# Similarity:    71/194 (36.6%)
+# Gaps:          58/194 (29.9%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      170 PHLT--SPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPL    217
+                     |::|  :||......:.:|.:|.|..:...|       ..|..|:|::.|
+NOSO_STAAC       104 PYITIYAPKDGPKIFNNQLIRYAGYDNCGDP-------AEKEVTRLANHL    146
+
+LCMT1_CRYNB      218 --------YTLLPLDLRPSPSE-------PASSISAI-LSHHVLPQLDPR    251
+                             :.:||| :...|:|       |.|.|..: :.|:..|:|   
+NOSO_STAAC       147 GWKGKGTNFDVLPL-IYQLPNESVKFYEYPTSLIKEVPIEHNHYPKL---    192
+
+LCMT1_CRYNB      252 LPTLFLAECLFPYMSPEDSREI-IKWFGETFCSCM-----GVVYEMVGLD    295
+                                        |:: :||:.....|.|     |:||.....:
+NOSO_STAAC       193 -------------------RKLNLKWYAVPIISNMDLKIGGIVYPTAPFN    223
+
+LCMT1_CRYNB      296 DSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFD    339
+                        |..|...:.|||. |....::..|..|..|....|:...|:
+NOSO_STAAC       224 ---GWYMVTEIGVRNF-IDDYRYNLLEKVADAFEFDTLKNNSFN    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      12/49 (24.5%)
+# Similarity:    22/49 (44.9%)
+# Gaps:          10/49 (20.4%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      335 GGK---FDSAGAKTLWQIREE-------DVGPEELQRISKLEILDEIEE    373
+                     ||:   .|..|.:::.:::|:       ..|.||..|....|..|.:|:
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQ     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       6/24 (25.0%)
+# Similarity:    13/24 (54.2%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      235 SISAILSHHVLPQLDPRLPTLFLA    258
+                     |::.:.:|..|..:.|.:..:|.|
+NU4LM_ARCPU       45 SMTILSNHFTLASMAPIILLVFAA     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      21/76 (27.6%)
+# Similarity:    29/76 (38.2%)
+# Gaps:          22/76 (28.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       48 RRRRRLRPPV-RPPLSLPVALTT----------RSSAAQVGYLQDPFASL     86
+                     |.||.|..|. :.|.:|..||:.          |.:.|..|.::|  .||
+NANK_ECOLI        25 RDRRELPTPASQTPEALRDALSALVSPLQAHAQRVAIASTGIIRD--GSL     72
+
+LCMT1_CRYNB       87 LYRPPMPQPGAFAPQAVGRARKPPLI    112
+                     |         |..|..:|.....||:
+NANK_ECOLI        73 L---------ALNPHNLGGLLHFPLV     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      30/139 (21.6%)
+# Similarity:    47/139 (33.8%)
+# Gaps:          47/139 (33.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      277 FGETFCSCMG--------VVYEMVGLDDSFGN-------------VMKRN    305
+                     ||  .|.||.        ::.....:|..||.             :.::|
+MIAB_MYCPE       128 FG--VCGCMAQEEAVVNRILKSNFNVDFIFGTHNVHRILNLLEQVIFEKN    175
+
+LCMT1_CRYNB      306 LAVRNLSIPGSIF-STPESQAGR---FTSPMLQGGKFDS--AGAKTLWQI    349
+                     |.|...|..|::. :.|..:...   |.:.|....||.:  ....|..:|
+MIAB_MYCPE       176 LVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKI    225
+
+LCMT1_CRYNB      350 REEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTK    388
+                     |..          .|.:||||:        |.:|:.|.|
+MIAB_MYCPE       226 RSR----------RKEDILDEV--------HQMISEGYK    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 107
+# Identity:      21/107 (19.6%)
+# Similarity:    41/107 (38.3%)
+# Gaps:          32/107 (29.9%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      112 INVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDL    161
+                     :|:...|        .:||  ||....:|..:|| |.:.:.:..|     
+NADK_STAES       138 VNIRGKH--------FERF--RGDGLCISTPSGS-TAYNKALGGA-----    171
+
+LCMT1_CRYNB      162 ARYVEIDFPHLTSPKAQRIAR-HRKLYQYLGPSSTAMPPPGHPYTVSKGG    210
+                          :..|.|.:.:...||. :.::::.:          |.|..:.|..
+NADK_STAES       172 -----LIHPSLEAMQIAEIASINNRVFRTV----------GSPLVLPKHH    206
+
+LCMT1_CRYNB      211 TQLSSPL    217
+                     |.|.:|:
+NADK_STAES       207 TCLITPV    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 385
+# Identity:      76/385 (19.7%)
+# Similarity:   106/385 (27.5%)
+# Gaps:         176/385 (45.7%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       26 PNAAPAHRPAPRPA-LGRCRP-----PHRRRRRLRPPVRPPLSLPVALTT     69
+                     |||:........|: |.|..|     .|||||                  
+TRPG_CAEEL       107 PNASIRDENGSMPSLLPRTAPIKKTRKHRRRR------------------    138
+
+LCMT1_CRYNB       70 RSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRARKPPLINVGTHHR    119
+                               ...|...:|    |:.|......:|.|..||  ||  |..
+TRPG_CAEEL       139 ----------SGSFTGGVY----PRKGHRNRSLLGHAIPPP--NV--HSA    170
+
+LCMT1_CRYNB      120 TW---------GIDRL-----VDRFLQ-RGGKQV-----VSLGAGSDTRF    149
+                     .|         ..|:|     |.|:|| :||.||     .:.|||.|   
+TRPG_CAEEL       171 DWRDMLAITDNKDDKLMKTLGVTRYLQSKGGDQVPPTSTTTGGAGGD---    217
+
+LCMT1_CRYNB      150 WRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPP    199
+                         ..|.|              |:.:||....:.      |..:|.|  
+TRPG_CAEEL       218 ----GNAVP--------------TTSQAQAQTFNS------GRQTTGM--    241
+
+LCMT1_CRYNB      200 PGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLD    249
+                             ..|.:|:..:            |..|:|...:          
+TRPG_CAEEL       242 --------SSGDRLNEDV------------SATANSAQLV----------    261
+
+LCMT1_CRYNB      250 PRLPTLFLAECLFPYMSPEDSREIIKWFGETF-----------------C    282
+                       |||....:..|...:...:|.  .|..|||                 |
+TRPG_CAEEL       262 --LPTPLFNQMRFTESNMSLNRH--NWVRETFTRRECSRFIASSRDLHKC    307
+
+LCMT1_CRYNB      283 SCMGVVYEMVGLDDSFGNV---------MKRNLAV----RNLSIPGSIFS    319
+                     .|...       .|:..|:         .||::|.    |::|......:
+TRPG_CAEEL       308 GCGRT-------RDAHRNIPELTSEFLRQKRSVAALEQQRSISNVNDDIN    350
+
+LCMT1_CRYNB      320 TPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDV    354
+                     |......|              ||...|.:|:..|
+TRPG_CAEEL       351 TQNMYTKR--------------GANEKWSLRKHTV    371
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:      56/241 (23.2%)
+# Similarity:    75/241 (31.1%)
+# Gaps:          84/241 (34.9%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB        1 MTQCGDRRLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRR     50
+                     :.:.|.|..|..  ||.:          |||...|....|...|...:.|
+MSHD_MYCMM       100 LAKTGGRNQFWA--HGTL----------APAQATASALGLTPVRELVQMR    137
+
+LCMT1_CRYNB       51 RRLRPPVRPPLSLPVALTTRSSAA---QVGYLQDPFASLLYRPPMPQPGA     97
+                     |.||....|  .:|..|..|:.|.   ....|:...|:..|.   |:.|.
+MSHD_MYCMM       138 RSLRQLPEP--VIPNGLQIRTYAGTEDDAELLRVNNAAFAYH---PEQGG    182
+
+LCMT1_CRYNB       98 FAPQAVGRARKPPLIN------------------------VGTHHRTW--    121
+                     :....:...|..|..:                        :|.|   |  
+MSHD_MYCMM       183 WTEADLAERRGEPWFDPAGLFLALEGSEGAEDSPRGQPRLLGFH---WTK    229
+
+LCMT1_CRYNB      122 ------GIDRL----VDRFLQ-RG-GKQVVSLGAGSDTRFWRLMSRATPP    159
+                           |:..:    ||...| || |:.:..:|..|      |..|....
+MSHD_MYCMM       230 IHLDDPGLGEVYVLGVDPAAQGRGLGRTLTMIGLRS------LAQRLGDR    273
+
+LCMT1_CRYNB      160 DLAR------YVEIDFPHLTSPKAQRIARHRKLYQYLGPSS    194
+                     ||.|      |||.|          .||..| .||.||.|:
+MSHD_MYCMM       274 DLGRESTVMLYVESD----------NIAAVR-TYQGLGFST    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      27/101 (26.7%)
+# Similarity:    43/101 (42.6%)
+# Gaps:          29/101 (28.7%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      111 LINVGTHHRTWGIDRLVDRFL--QRGGKQVVSLGAGSDTRFWRLMSRATP    158
+                     ::|:...|      |||...|  :||...:...||.:     ||::   |
+PAND_THEFY        46 VVNITNGH------RLVTYVLTGERGSGVIGINGAAA-----RLVA---P     81
+
+LCMT1_CRYNB      159 PDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSS--------TAMPPP    200
+                     .||.  :.|.:..||  :|:| |.||....::..::        .|.|.|
+PAND_THEFY        82 GDLV--IIISYVQLT--EAER-ATHRPHVVHVDANNRIVALGDDLAEPVP    126
+
+LCMT1_CRYNB      201 G    201
+                     |
+PAND_THEFY       127 G    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      21/85 (24.7%)
+# Similarity:    34/85 (40.0%)
+# Gaps:          33/85 (38.8%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      277 FGETFCSCMGVVYEM--VGLD-DSFGNVM---KRNLAVRNLSIPGSIFST    320
+                     ||||.......:.::  ||:| .:||..|   ||::.|..       :.|
+LIPA_ASPOR       308 FGETEEQLWDALRQLRSVGVDVVTFGQYMRPTKRHMPVHE-------YVT    350
+
+LCMT1_CRYNB      321 PESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVG    355
+                     |:              :|:      ||:.|..|:|
+LIPA_ASPOR       351 PD--------------QFE------LWRQRALDMG    365
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      40/188 (21.3%)
+# Similarity:    71/188 (37.8%)
+# Gaps:          56/188 (29.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      217 LYTLLPLDLRPSPSEPASSI--------SAILSHHVLPQL----DPRLPT    254
+                     |.|||.|::.|:.:|....:        :|::.:.::..|    |..:.|
+FLGI_PECAS        10 LLTLLTLNITPASAERIRDLVNIQGVRGNALIGYGLVVGLDGSGDQTMQT     59
+
+LCMT1_CRYNB      255 LFLAECLFPYMS------PEDSREIIK------------WFGETFCSCMG    286
+                     .|..:.|...:|      |..:...:|            .||.|..:...
+FLGI_PECAS        60 PFTTQSLTNMLSQLGITVPAGTNMQLKNVAAVMVTAELPPFGRTGQNIDI    109
+
+LCMT1_CRYNB      287 VVYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTP----ESQAGRFT-SP    331
+                     ||       .|.||..    ::|.    |::..||    ::|..... ..
+FLGI_PECAS       110 VV-------SSLGNAK----SLRG----GTLLMTPLKGVDNQVYALAQGN    144
+
+LCMT1_CRYNB      332 MLQGGKFDSAGAKTLWQIREEDVGPEELQRISKLEILD    369
+                     :|.||...|||..:: |:.:...|     |||...:::
+FLGI_PECAS       145 VLVGGAGASAGGSSV-QVNQLAGG-----RISNGAVIE    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      24/108 (22.2%)
+# Similarity:    42/108 (38.9%)
+# Gaps:          22/108 (20.4%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      272 EIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTP    321
+                     |:||..|.|        |..:||  ...|::...:..:|:.:|  |.|..
+LDH_BORAP        223 EVIKLKGAT--------YYAIGL--GIKNIVNAIIGDQNIILP--ISSYI    260
+
+LCMT1_CRYNB      322 ESQAGRFTSPMLQGGK--FDSAGAKTLWQIREEDVGPEELQRISK-----    364
+                     ..|.|.....:..|..  ....|.|.:...:   :.|:||::.:.     
+LDH_BORAP        261 NGQYGGLIKDIYIGAPAIVCKEGVKEVLNFK---ISPKELEKFNNSANQL    307
+
+LCMT1_CRYNB      365 LEILDEIE    372
+                     ...:|:||
+LDH_BORAP        308 KSYIDKIE    315
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      18/76 (23.7%)
+# Similarity:    29/76 (38.2%)
+# Gaps:          17/76 (22.4%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      253 PTLFLAECLFPYMSPEDSREIIKWFG------ETFCSCMGVVYEMVGLDD    296
+                     ||..|.:   .|.:..|....:||..      |::.|...|       ||
+EXGB_EMENI       280 PTQSLTD---NYFAAYDDHRYVKWDSSVAVDKESYISASCV-------DD    319
+
+LCMT1_CRYNB      297 SFGNVMKRNLAVRNLSIPGSIFSTPE    322
+                     ..|| ....:...:||:|.::..|.:
+EXGB_EMENI       320 RGGN-WPTIVGEWSLSVPDNVEHTAD    344
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      15/62 (24.2%)
+# Similarity:    29/62 (46.8%)
+# Gaps:          16/62 (25.8%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      234 SSISAILSHHVLPQLDPRLPTLFLAECLFPYMSPEDSREIIKWFGETFCS    283
+                     :.|:.|.||.:.|.:     |.:|.      ::|||:  :::.|.|   .
+KTHY_CHLP8       113 AEINRIASHGIRPDI-----TFYLD------LTPEDA--LLRKFSE---K    146
+
+LCMT1_CRYNB      284 CMGVVYEMVGLD    295
+                     .:.:.:|...||
+KTHY_CHLP8       147 SLPLAFESEELD    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      22/105 (21.0%)
+# Similarity:    42/105 (40.0%)
+# Gaps:          18/105 (17.1%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      123 IDRLVDRFLQRGGKQVVSLGAGSDTR-FWRLMSRATPPDLARYVEIDFPH    171
+                     :..|::|:....|....:|.||...| |::|.....||:.        |:
+SECA2_MYCTO      400 VQALINRYATVCGMTGTALAAGEQLRQFYQLGVSPIPPNK--------PN    441
+
+LCMT1_CRYNB      172 LTSPKAQRI-----ARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSP    216
+                     :...:|.|:     |::..:.:::    |.:...|.|..|.......|..
+SECA2_MYCTO      442 IREDEADRVYITTAAKNDGIVEHI----TEVHQRGQPVLVGTRDVAESEE    487
+
+LCMT1_CRYNB      217 LYTLL    221
+                     |:..|
+SECA2_MYCTO      488 LHERL    492
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       5/9 (55.6%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           3/9 (33.3%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       40 LGRC---RP     45
+                     :|||   ||
+DB108_HUMAN       46 VGRCLNSRP     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 397
+# Identity:     397/397 (100.0%)
+# Similarity:   397/397 (100.0%)
+# Gaps:           0/397 ( 0.0%)
+# Score: 2108.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB        1 MTQCGDRRLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRR     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB        1 MTQCGDRRLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRR     50
+
+LCMT1_CRYNB       51 RRLRPPVRPPLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAP    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB       51 RRLRPPVRPPLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAP    100
+
+LCMT1_CRYNB      101 QAVGRARKPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFW    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      101 QAVGRARKPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFW    150
+
+LCMT1_CRYNB      151 RLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPP    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      151 RLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPP    200
+
+LCMT1_CRYNB      201 GHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDP    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      201 GHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDP    250
+
+LCMT1_CRYNB      251 RLPTLFLAECLFPYMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGN    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      251 RLPTLFLAECLFPYMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGN    300
+
+LCMT1_CRYNB      301 VMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIR    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      301 VMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIR    350
+
+LCMT1_CRYNB      351 EEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTKGECMSSISL    397
+                     |||||||||||||||||||||||||||||||||||||||||||||||
+LCMT1_CRYNB      351 EEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTKGECMSSISL    397
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      24/131 (18.3%)
+# Similarity:    46/131 (35.1%)
+# Gaps:          39/131 (29.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      268 EDSREIIKWFGETFCSCMGVVYEMVG------LDDSFGNVMKRNLA----    307
+                     ||..:::  |.|.... .|:..:..|      :|.:.|.:.:.|.|    
+PTGA_SALTY        35 EDVPDVV--FAEKIVG-DGIAIKPTGNKMVAPVDGTIGKIFETNHAFSIE     81
+
+LCMT1_CRYNB      308 ------------VRNLSIPGSIFS--TPESQAGRFTSPMLQGGKFDSAGA    343
+                                 :..:.:.|..|.  ..|.|..:...|:::   ||   .
+PTGA_SALTY        82 SDSGIELFVHFGIDTVELKGEGFKRIAEEGQRVKVGDPVIE---FD---L    125
+
+LCMT1_CRYNB      344 KTLWQIREEDVGPEELQRISKLEILDEIEEL    374
+                     ..|.:..:..:.|..:..      :|||:||
+PTGA_SALTY       126 PLLEEKAKSTLTPVVISN------MDEIKEL    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      15/46 (32.6%)
+# Similarity:    19/46 (41.3%)
+# Gaps:           3/46 ( 6.5%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      218 YTLLPLDLRPSPSEPASSISAILSHHVLPQLDPR--LPTLFLAECL    261
+                     |.||...|:...||.:|....:..:..|..| ||  .||.....||
+RR14_CRYJA        20 YNLLRQSLKKEMSEVSSLDDKLDIYRKLQSL-PRNSAPTRLRRRCL     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      52/271 (19.2%)
+# Similarity:    87/271 (32.1%)
+# Gaps:          93/271 (34.3%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      165 VEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSK----GG    210
+                     |:::..:...|...:..|.....:.||..:   |....||.:..    ..
+DCUP_BACVZ        88 VDVEIKNGIGPVIDQPVRSAADIEKLGELN---PEQDVPYVLETIRLLVN    134
+
+LCMT1_CRYNB      211 TQLSSPL-------YTLLPLDLRPSPSEPASSISAILSHHVLPQ-----L    248
+                     .||:.||       :||....:...||:..:...|.:  |.:||     :
+DCUP_BACVZ       135 EQLNVPLIGFSGAPFTLASYMIEGGPSKNYNKTKAFM--HSMPQAWKMLM    182
+
+LCMT1_CRYNB      249 DPRLPTLFLAECLFPY---------------------MSPEDSREIIK--    275
+                     |.      ||:.:..|                     ::.||.|:.||  
+DCUP_BACVZ       183 DK------LADMIIVYAKAQINAGAKAIQIFDSWVGALNREDYRQFIKPV    226
+
+LCMT1_CRYNB      276 ----------------WFGETFCSCMG----VVYEMVGLDDSFG------    299
+                                     .||.......|    :..::||||...|      
+DCUP_BACVZ       227 MDRIFRELSAEQVPLIMFGVGASHLAGDWHDLPLDVVGLDWRLGIDDARK    276
+
+LCMT1_CRYNB      300 ----NVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKT    345
+                         ..::.||....|..|..:.   |.:|.....   ||.|.|.    .
+DCUP_BACVZ       277 QGITKTVQGNLDPSLLLAPWEVI---EKKAKAILD---QGMKTDG----F    316
+
+LCMT1_CRYNB      346 LWQIRE---EDVGPEELQRIS    363
+                     ::.:..   .||.||.|::::
+DCUP_BACVZ       317 IFNLGHGVFPDVNPETLKKLT    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 372
+# Identity:      76/372 (20.4%)
+# Similarity:   128/372 (34.4%)
+# Gaps:         115/372 (30.9%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       49 RRRRLRPPVRPPLSLPVA----LTTRSSAAQVGY-LQDPFASLLYRPPMP     93
+                     |..:||..|....:|..|    ||   .|.:|.| :.:.....||...:|
+GTF2I_MOUSE      567 RITKLRKQVEEIFNLKFAQALGLT---EAVKVPYPVFESNPEFLYVEGLP    613
+
+LCMT1_CRYNB       94 QPGAFAPQAVGRARKPPLINVGTHHRTW-GIDRLVDRFLQRGGKQVVSLG    142
+                     :...|        |.|          || ||.|| :|.: ||..::..: 
+GTF2I_MOUSE      614 EGIPF--------RSP----------TWFGIPRL-ERIV-RGSNKIKFV-    642
+
+LCMT1_CRYNB      143 AGSDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGP    192
+                         .:...|:....||.:|.  :|:...|.|||..|           .|
+GTF2I_MOUSE      643 ----VKKPELVVSYLPPGMAS--KINTKALQSPKRPR-----------SP    675
+
+LCMT1_CRYNB      193 SSTAMPPPGHPYTVSKGGTQLSSPLYTLL--PLDLRPS--PSEP-ASSIS    237
+                     .|.:..|   ...|:..|...|||..:.:  |.....|  |.:| ....|
+GTF2I_MOUSE      676 GSNSKVP---EIEVTVEGPNNSSPQTSAVRTPTQTNGSNVPFKPRGREFS    722
+
+LCMT1_CRYNB      238 AILSHHVLPQLDPRLPTLFLAEC---------------LFPYMSPEDSRE    272
+                     ....:..:..|..::..||..:|               ||... |||   
+GTF2I_MOUSE      723 FEAWNAKITDLKQKVENLFNEKCGEALGLKQAVKVPFALFESF-PED---    768
+
+LCMT1_CRYNB      273 IIKWFGETFCSCMGVVYEMVGLDD--------SFG-----NVMKRNLAVR    309
+                                     :.:.||.:        :||     .:::....::
+GTF2I_MOUSE      769 ----------------FYVEGLPEGVPFRRPSTFGIPRLEKILRNKAKIK    802
+
+LCMT1_CRYNB      310 NLSIPGSIFSTPESQAGRFTSPMLQGGKFDS--------AGAKTLWQIRE    351
+                     .:.....:|.|...::....||   ..|.:|        :|.:.| .|.:
+GTF2I_MOUSE      803 FIIKKPEMFETAIKESTSSKSP---PRKINSSPNVNTTASGVEDL-NIIQ    848
+
+LCMT1_CRYNB      352 EDVGPEELQRISKLEILDEIEE    373
+                     ..:..::.:|:||:|...::.|
+GTF2I_MOUSE      849 VTIPDDDNERLSKVEKARQLRE    870
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 242
+# Identity:      49/242 (20.2%)
+# Similarity:    75/242 (31.0%)
+# Gaps:          76/242 (31.4%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      173 TSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLYTLLP    222
+                     |.|...::....|.|...|.....:...|||......|......:|.:  
+ISPH_ACIF5        95 TCPLVTKVHMEVKKYSRDGMEMVLIGHAGHPEVEGTMGQVEEGMMYLV--    142
+
+LCMT1_CRYNB      223 LDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPYMSPEDSRE    272
+                                |::|.:.:      |.||.|.. ||......:|.:|:.|
+ISPH_ACIF5       143 -----------SNVSDVAT------LAPRNPDK-LAYITQTTLSMDDTAE    174
+
+LCMT1_CRYNB      273 IIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLS----------    312
+                     :|......|     .:.|....||.......|..||::|:          
+ISPH_ACIF5       175 VIVALRSRF-----PLIEGPKKDDICYATQNRQDAVKSLAPDVDILLVVG    219
+
+LCMT1_CRYNB      313 IPGSIFSTPESQAG--------------RFTSPMLQG-GKFD-SAGAKTL    346
+                     .|.|..|:..::.|              :......:| ||.. ||||.  
+ISPH_ACIF5       220 APNSSNSSRLAELGTRLGTQTHLIEDAQQLRREWFEGVGKIGISAGAS--    267
+
+LCMT1_CRYNB      347 WQIREEDVGPEELQRISKLEILDEIEELRLVLEHYVIAWGTK    388
+                             .||.|.:    ||:|.:.           .||.:
+ISPH_ACIF5       268 --------APESLVQ----EIMDTLR-----------GWGAR    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      17/62 (27.4%)
+# Similarity:    24/62 (38.7%)
+# Gaps:          25/62 (40.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      311 LSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTL------WQIREEDV    354
+                     |.|||    ...:...|||:    |||     .|.:      |.:.|.| 
+NDUA1_HUMAN       16 LLIPG----LATAYIHRFTN----GGK-----EKRVAHFGYHWSLMERD-     51
+
+LCMT1_CRYNB      355 GPEELQRISKLE    366
+                          :|||.::
+NDUA1_HUMAN       52 -----RRISGVD     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 182
+# Identity:      39/182 (21.4%)
+# Similarity:    60/182 (33.0%)
+# Gaps:          69/182 (37.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       53 LRPPVRPPLSLPV--ALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAP    100
+                     :||.|...:.||.  |:..:|.    |:.||...:|:  .|:.|.....|
+PSRP_SALTI        65 VRPLVFYSIVLPEIRAIILQSE----GFCQDIVQALV--APLQQEMKLDP    108
+
+LCMT1_CRYNB      101 QAVGRARKPPLINVGTHHRTWGI----------------------DRLVD    128
+                     ..:.             |||.|:                      |.:..
+PSRP_SALTI       109 TPIA-------------HRTHGLNPGNLNKYDARIAAIDYTLAHDDGISL    145
+
+LCMT1_CRYNB      129 RFLQRGGKQVVSLGAGSDTRFWRLMSRA--TPPDL----------ARY--    164
+                     |.|.:.  ||:.||          :||.  ||..|          |.|  
+PSRP_SALTI       146 RNLDQA--QVILLG----------VSRCGKTPTSLYLAMQFGIRAANYPF    183
+
+LCMT1_CRYNB      165 VEIDFPHLTSPKAQRIARHRKLYQYLGPSSTA    196
+                     :..|..:||.|.:.:..:|:.....:.|...|
+PSRP_SALTI       184 IADDMDNLTLPTSLKPLQHKLFGLTIDPERLA    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 285
+# Identity:      61/285 (21.4%)
+# Similarity:   103/285 (36.1%)
+# Gaps:          88/285 (30.9%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      122 GIDRLVDRF-LQR----GGKQVVSLGAGSDTRFWRLMSRATPPDLARYVE    166
+                     |||...|:. |||    ..|..:.|.:.|.|                  |
+DNAK_CHESB       244 GIDLKNDKLALQRLKEAAEKAKIELSSSSQT------------------E    275
+
+LCMT1_CRYNB      167 IDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSP    216
+                     |:.|.:|:.:.             ||...|:              :|:..
+DNAK_CHESB       276 INLPFITADQT-------------GPKHLAI--------------KLTRA    298
+
+LCMT1_CRYNB      217 LYTLLPLDLRPSPSEPA------SSISAILSHHV--------LPQLDPRL    252
+                     .:..|..||.....||.      :.:||.....|        :|::...:
+DNAK_CHESB       299 KFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVVLVGGMTRMPKVQETV    348
+
+LCMT1_CRYNB      253 PTLFLAECLFPY--MSPEDSREIIKWFGETFCSCM-GVVYEMVGLD----    295
+                     ...|..|   |:  ::|:   |::..........: |.|.:::.||    
+DNAK_CHESB       349 KNFFGKE---PHKGVNPD---EVVAMGAAIQAGVLQGDVKDVLLLDVTPL    392
+
+LCMT1_CRYNB      296 ----DSFGNVMKRNLAVRNLSIP---GSIFSTPESQAGRFTSPMLQGGKF    338
+                         ::.|.|..| |..||.:||   ..:|||.|......|..:.||.:.
+DNAK_CHESB       393 SLGIETLGGVFTR-LIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGERE    441
+
+LCMT1_CRYNB      339 DSAGAKTLWQIREEDVG-PEELQRISKLEILDEIE    372
+                     .:|..|.|.|.  :.|| |...:.:.::|:..:|:
+DNAK_CHESB       442 MAADNKLLGQF--DLVGIPPAPRGMPQIEVTFDID    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 180
+# Identity:      37/180 (20.6%)
+# Similarity:    62/180 (34.4%)
+# Gaps:          73/180 (40.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      262 FPYMSPEDSREIIKWFGETFCSCMGV-----------------VYEMVGL    294
+                     ||:..|....|:::..||....|:..                 |..:.|:
+DNLJ_ACIC5       412 FPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGVMNIEGM    461
+
+LCMT1_CRYNB      295 DDSFGNVMK---RNLAVRNLSIPGSIFSTPESQ------AGRFTSPMLQG    335
+                     .::.  ||:   |.| |:.:|   .|:|..|.|      .|:.::..|. 
+DNLJ_ACIC5       462 GEAI--VMQLLGRGL-VKTVS---DIYSLTEEQLVSLERMGKKSATALL-    504
+
+LCMT1_CRYNB      336 GKFDSA-----------------GAKTLWQIREE--------DVGPEELQ    360
+                     |:.|.:                 |.:|...:.||        ....|||:
+DNLJ_ACIC5       505 GEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELE    554
+
+LCMT1_CRYNB      361 RISKL---------EILDE------IEELR    375
+                     |::.:         |..||      :|.||
+DNLJ_ACIC5       555 RVNDVGPRVSEAIREFFDEPRNRDLVERLR    584
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    29/69 (42.0%)
+# Gaps:           8/69 (11.6%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       33 RPAPRPALGRCRPPHRRRRRLRPPV---RPPLSLPVALTTRSSAAQVGYL     79
+                     |.||..|....|...::..||...:   ||.::.|..:  .|...:.|| 
+CAPSD_CMVO        22 RSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFV--GSERCKPGY-     68
+
+LCMT1_CRYNB       80 QDPFASLLYRPPMPQPGAF     98
+                       .|.|:..:||....|::
+CAPSD_CMVO        69 --TFTSITLKPPKIDRGSY     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       7/13 (53.8%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       26 PNAAPAHRPAPRP     38
+                     |..|||..|.|.|
+IF3_CHLL2        194 PAPAPAPLPVPAP    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      10/30 (33.3%)
+# Similarity:    15/30 (50.0%)
+# Gaps:          12/30 (40.0%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      174 SPKAQRIARHR-KLYQ---------YLGPS    193
+                     :||  .::.|| ::||         |||.|
+CSRA_HAEI8        36 APK--EVSVHREEIYQRIKQTKDEPYLGSS     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      39/208 (18.8%)
+# Similarity:    71/208 (34.1%)
+# Gaps:          73/208 (35.1%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      215 SPLYTLLPLDLRP-----------SPSEPASS--ISAILSHHVLPQLDPR    251
+                     |..:.:.|:.:.|           :|.|..:.  ::|:.:|.:       
+COAX_CLOBL        78 SKYFNIKPIIVGPGVKTGINIKYDNPKEVGADRIVNAVAAHEI-------    120
+
+LCMT1_CRYNB      252 LPTLFLAECLFPYMSPEDSREIIKWFG--ETFCS------------CMGV    287
+                                 |..|    .||..||  .|||:            |.|:
+COAX_CLOBL       121 ------------YKKP----LIIIDFGTATTFCAVTKEANYLGGTICPGI    154
+
+LCMT1_CRYNB      288 VYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPMLQG--    335
+                     ......|.|....:.:    |..:..||.|.   ::......|.::.|  
+COAX_CLOBL       155 KISSDALFDKAAKLPR----VELVKTPGVIC---KNTVASIQSGIIYGYA    197
+
+LCMT1_CRYNB      336 GKFD---SAGAKTLWQIREED-----------VGPEELQRISKLEILDEI    371
+                     |:.|   |...|.:..:.||:           :..||.:.|.::..:..:
+COAX_CLOBL       198 GQVDYIVSKMKKEMMDLGEEEPFVVATGGFAKLISEESKSIDEINAILTL    247
+
+LCMT1_CRYNB      372 EELRLVLE    379
+                     |.||::.|
+COAX_CLOBL       248 EGLRVIYE    255
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      14/49 (28.6%)
+# Similarity:    20/49 (40.8%)
+# Gaps:           6/49 (12.2%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      229 PSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPYMSPEDSREIIKWF    277
+                     |:|....|.....:.|....||....|..||.   .:|.|:::   |||
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEA---GLSEEETQ---KWF     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 328
+# Identity:      63/328 (19.2%)
+# Similarity:   107/328 (32.6%)
+# Gaps:          96/328 (29.3%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      101 QAVGRAR---KPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDT    147
+                     |||..|:   |.|.|.|........::::::|....||   ..||...| 
+THII_VIBA3       134 QAVESAKVKLKNPDITVKVEVENDKLNQVIERHKGLGG---FPLGTQED-    179
+
+LCMT1_CRYNB      148 RFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAM    197
+                      ...|:|......::.|:.|       .:..::  |...:...||:....
+THII_VIBA3       180 -LLSLISGGFDSGVSSYLHI-------KRGSKV--HYCFFNLGGPAHEIG    219
+
+LCMT1_CRYNB      198 PPPGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASS------------    235
+                     ......|...|.|   ||.....:.:|..|..:|...:            
+THII_VIBA3       220 VKQVSHYLWDKYG---SSAKVKFISIDFEPVVAEILENVEDGQMGVVLKR    266
+
+LCMT1_CRYNB      236 --------------ISAILSHHVLPQ-----------LDPRLPTLFLAEC    260
+                                   |.|:::...|.|           :|....||.|   
+THII_VIBA3       267 MFMRAGGMVAERFGIEALVTGEALGQVSSQTLTNLRHIDNVTDTLIL---    313
+
+LCMT1_CRYNB      261 LFPYMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRN    310
+                               |.:|.|..|....    :...:|.:| |..||....    
+THII_VIBA3       314 ----------RPLINWDKEDIID----LSRKIGTED-FAKVMPEYC----    344
+
+LCMT1_CRYNB      311 LSIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVGPEELQ    360
+                         |.|...|..:|.:        ||.::..||..:::.|:.:....:.
+THII_VIBA3       345 ----GVISKKPTVKAKK--------GKLEAEEAKFNFEVLEQVIENARIM    382
+
+LCMT1_CRYNB      361 RISKL-----EILDEIEELRLVLEHYVI    383
+                     .|..:     |...|:|:::.|.||.|:
+THII_VIBA3       383 DIRDIEKESQEQAPEVEQVQAVAEHAVV    410
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      29/135 (21.5%)
+# Similarity:    46/135 (34.1%)
+# Gaps:          46/135 (34.1%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       96 GAFAPQAVGRAR---KP---PLINVGTHHRTWGIDRLVDRFLQRGGKQVV    139
+                     |..|.:...|.|   ||   |.::.|            |..:....:||.
+RL13_PSEPG        26 GRLATEIATRLRGKHKPEYTPHVDTG------------DYIVVINAEQVR     63
+
+LCMT1_CRYNB      140 SLGAGSDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIAR-------    182
+                     ..||.|..:.:  .|.:..|...:  ||:|..|.:...:|:..       
+RL13_PSEPG        64 VTGAKSSDKMY--YSHSGFPGGIK--EINFEKLIAKAPERVIETAVKGML    109
+
+LCMT1_CRYNB      183 ---------HRKLYQYLGPSSTAMPPPGHPYTVSK    208
+                              :|||..|.|.:        ||:|..:
+RL13_PSEPG       110 PKNPLGRDMYRKLKVYAGAA--------HPHTAQQ    136
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      14/47 (29.8%)
+# Similarity:    20/47 (42.6%)
+# Gaps:          15/47 (31.9%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      119 RTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYV    165
+                     |.|.||  ::..::.|    |..|.|  ||.|.       |.:|.|:
+RR2_ARATH          4 RYWNID--LEEMMRAG----VHFGHG--TRKWN-------PRMAPYI     35
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 260
+# Identity:      59/260 (22.7%)
+# Similarity:    82/260 (31.5%)
+# Gaps:          82/260 (31.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       87 LYRPPMPQPGAFAPQAVGRARKPPLINVGTHHRTWGIDRLVDRFLQRGGK    136
+                     ||..|||..|.....|.|....|             :..::..:.||   
+Y1710_SYNP2      166 LYCAPMPTGGGTVKAAHGILPVP-------------VPAVLQLWQQR---    199
+
+LCMT1_CRYNB      137 QVVSLGAGSDTRFWRLMSRATPPD--LARYVEIDFPHLTSPKAQRIARHR    184
+                     ||.....|.:...      .||..  :|..:..||   ..|.|..:|:..
+Y1710_SYNP2      200 QVPVYSNGIEKEL------VTPTGAAIATTLATDF---CQPPAMTLAKIA    240
+
+LCMT1_CRYNB      185 KLYQYLGPSSTAMPPP-------GHPYTVSKGGTQLSSP-LYTLLPLDLR    226
+                          ||..:..:|.|       ||         |..:| |.|::.|:.:
+Y1710_SYNP2      241 -----LGSGTIDLPLPNLLRLWIGH---------QPETPHLETIVTLETQ    276
+
+LCMT1_CRYNB      227 PSPSEPASSISAILSHHVLPQLD----------PRLPTLFLAECLFPYMS    266
+                     .....|.:...|.........||          .||.||....|  |...
+Y1710_SYNP2      277 IDDLNPQAIAYACEKLQAAGALDVFTQGITMKKNRLGTLLTVIC--PVAL    324
+
+LCMT1_CRYNB      267 PEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPGS    316
+                     .|...||:  |.||  |.:|:               :|:...|  ||...
+Y1710_SYNP2      325 VEICEEIL--FTET--STLGI---------------RRHTQTR--SILQR    353
+
+LCMT1_CRYNB      317 IFSTPESQAG    326
+                     .|.|..:.||
+Y1710_SYNP2      354 RFETVATPAG    363
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      61/316 (19.3%)
+# Similarity:    99/316 (31.3%)
+# Gaps:         116/316 (36.7%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       90 PPMPQPGAFAPQ--------------AVG-RARKPPLINVGTHHR----T    120
+                     ||..:..|:.||              |.| :.||.|...:|...|    .
+WTPC_THEKO        69 PPEKRGLAYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVRELSEV    118
+
+LCMT1_CRYNB      121 WGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVEIDFP    170
+                     .||..|:.|       :..:|..|...|.....:.|..|:|. .::..|.
+WTPC_THEKO       119 LGISHLLKR-------KPKTLSGGEMQRVAIARALAVEPELL-LLDEPFA    160
+
+LCMT1_CRYNB      171 HLTSPKAQRIARHRKLY-QYLGPSSTAMPPPGHPY--TVSKG---GTQLS    214
+                     :|......|:....|.: :.||.::..:.   |.:  .||.|   |..|:
+WTPC_THEKO       161 NLDVQTRGRLINEMKRWRKELGFTALHVT---HSFEEAVSLGDRVGVMLN    207
+
+LCMT1_CRYNB      215 SPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPY    264
+                     ..|..:.|  :|...|.||                               
+WTPC_THEKO       208 GRLVQVGP--VREVFSRPA-------------------------------    224
+
+LCMT1_CRYNB      265 MSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIP    314
+                          |.|:.|:.|                   |.|:::.....|.|...
+WTPC_THEKO       225 -----SEEVAKFLG-------------------FENIVEGLAEGRILRAN    250
+
+LCMT1_CRYNB      315 GSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVG------PEE    358
+                     |.:...|...:||     ::.|            ||.||:.      ...
+WTPC_THEKO       251 GLVIELPIEASGR-----IRVG------------IRPEDIVLSDEPLKSS    283
+
+LCMT1_CRYNB      359 LQRISKLEILDEIEEL    374
+                     ::...:.|:..::|||
+WTPC_THEKO       284 MRNTFQAEVQADVEEL    299
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      64/284 (22.5%)
+# Similarity:    90/284 (31.7%)
+# Gaps:         123/284 (43.3%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      169 FPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLY    218
+                     ||.|.||.:|:        ..||.||.|           :|         
+GRB7_RAT          70 FPELCSPPSQK--------PILGGSSGA-----------RG---------     91
+
+LCMT1_CRYNB      219 TLLPLDLRP-------SPSEPASSI---SAILSHHVLPQLDPRLPTLF--    256
+                      |||.|...       |......|:   :...:.||...|..|...|.  
+GRB7_RAT          92 -LLPRDSSRLCVVKVYSEDGACRSVEVAAGATARHVCEMLVQRAHALSDE    140
+
+LCMT1_CRYNB      257 ---LAECLFPYMS----PEDSREIIK----WFGETFCSCMGVVYEMVGLD    295
+                        |.|| .||::    .||...:::    |              .||.|
+GRB7_RAT         141 NWGLVEC-HPYLALERGLEDHESVVEVQEAW--------------PVGGD    175
+
+LCMT1_CRYNB      296 DSFGNVMKRNLAVRNL--SIPGSIF---------STPES-----------    323
+                     ..|  :.::|.|...|  |.|.::|         .||..           
+GRB7_RAT         176 SRF--IFRKNFAKYELFKSPPHTLFPEKMVSSCLDTPTGISHEDLIQNFL    223
+
+LCMT1_CRYNB      324 QAGRFTSPMLQG-----GKFDSAGAKTLWQ-----IREEDV---------    354
+                     .||.|  |.:||     |....:|.| ||:     :|...:         
+GRB7_RAT         224 NAGSF--PEIQGFLQLRGSGRGSGRK-LWKRFFCFLRRSGLYYSTKGTSK    270
+
+LCMT1_CRYNB      355 GPEELQRISKLEILDEIEELRLVLEHYVIAWGTK    388
+                     .|..||.::      :|.|..:    ||:..|.|
+GRB7_RAT         271 DPRHLQYVA------DINESNV----YVVTQGRK    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      38/188 (20.2%)
+# Similarity:    70/188 (37.2%)
+# Gaps:          43/188 (22.9%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       76 VGYLQDPFASLLYRPPM------------PQPGAFA-------PQAVGRA    106
+                     :|.:...:.:|.:|.|:            |..|..:       |.|:|..
+PSD_RHOPS         42 IGTVLTIWCALFFRDPVRVTPVREGLVVAPADGRVSMVVQMIPPPALGLG     91
+
+LCMT1_CRYNB      107 RKP-PLINV-----GTHHRTWGIDRLVDRFLQRGGKQV-VSLGAGSDTRF    149
+                     .|| |.:::     ..|.....:...|:|.:...||.: ..|...|:...
+PSD_RHOPS         92 DKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPGKFINAELDKASEDNE    141
+
+LCMT1_CRYNB      150 WRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPP    199
+                     ...|..:||......|:|         |..:|  |::..::....|.  .
+PSD_RHOPS        142 RNSMVISTPAGQIGVVQI---------AGLVA--RRIVSFVREGQTL--A    178
+
+LCMT1_CRYNB      200 PGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSIS    237
+                     ||..:.:.:.|::|.    ..||...:|..||..::|:
+PSD_RHOPS        179 PGERFGLIRFGSRLD----VYLPEGAKPLVSEGQTAIA    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 277
+# Identity:      56/277 (20.2%)
+# Similarity:    90/277 (32.5%)
+# Gaps:          88/277 (31.8%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      172 LTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLYTLL    221
+                     |..|::|.:   :.|...|....|......:||.     .|::.||.|.|
+PP156_ARATH        4 LKPPESQLL---KTLTSILTSEKTHFLETLNPYI-----PQITQPLLTSL     45
+
+LCMT1_CRYNB      222 ----PLDLRP---------------------SPSEPASSISAILSHHVLP    246
+                         .|..:|                     ||....|.:.::||||...
+PP156_ARATH       46 LSSPSLAKKPETLVSFFQWAQTSIPEAFPSDSPLPLISVVRSLLSHHKFA     95
+
+LCMT1_CRYNB      247 QLDPRLPTLF------LAEC---LFP--YMSPEDSREIIKWFGETFCS--    283
+                     .....|.:..      |:.|   |.|  ::||..|:.:.......:..  
+PP156_ARATH       96 DAKSLLVSYIRTSDASLSLCNSLLHPNLHLSPPPSKALFDIALSAYLHEG    145
+
+LCMT1_CRYNB      284 ----CMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPG-----SIFSTPESQ    324
+                         .:.:..:|:.|.      :|.||...|..:.|     |.||.  |.
+PP156_ARATH      146 KPHVALQIFQKMIRLK------LKPNLLTCNTLLIGLVRYPSSFSI--SS    187
+
+LCMT1_CRYNB      325 AGRFTSPMLQ-------------------GGKFDSAGAKTLWQIREEDVG    355
+                     |......|::                   .||.:.|.......:.|..|.
+PP156_ARATH      188 AREVFDDMVKIGVSLNVQTFNVLVNGYCLEGKLEDALGMLERMVSEFKVN    237
+
+LCMT1_CRYNB      356 PEE------LQRISKLEILDEIEELRL    376
+                     |:.      |:.:||...|.:::||.|
+PP156_ARATH      238 PDNVTYNTILKAMSKKGRLSDLKELLL    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      13/66 (19.7%)
+# Similarity:    27/66 (40.9%)
+# Gaps:          15/66 (22.7%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      322 ESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVGPEELQRISKLEILDE-    370
+                     :...|||.||             .|.|:.::......|:|.||..:.:. 
+ADRB2_MESAU      234 DKSEGRFHSP-------------NLGQVEQDGRSGHGLRRSSKFCLKEHK    270
+
+LCMT1_CRYNB      371 -IEELRLVLEHYVIAW    385
+                      ::.|.:::..:.:.|
+ADRB2_MESAU      271 ALKTLGIIMGTFTLCW    286
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       8/28 (28.6%)
+# Similarity:    12/28 (42.9%)
+# Gaps:           9/28 (32.1%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      282 CSCMGVVYEMVGLDDSFGNVMKRNLAVR    309
+                     |..:|     :.:||.    ..|.|||:
+ID5B_ADEPA         3 CKDLG-----ISIDDD----NNRRLAVK     21
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      23/106 (21.7%)
+# Similarity:    41/106 (38.7%)
+# Gaps:          24/106 (22.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      283 SCMGVVYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQAGRFTSPM    332
+                     |.:.::..|..|...:|...:    ||:..:   :|:|..:.....|..:
+GPA7_CAEEL        80 SMLSILRAMFHLQIEYGEPDR----VRDSQL---VFATVHANKEELTEEL    122
+
+LCMT1_CRYNB      333 LQGGKFDSAGAKTLWQIREEDVGPEELQRISKLEILDE-----IEEL-RL    376
+                            :|..:.||    .|.|..|..|.|....:|:     ::.| ||
+GPA7_CAEEL       123 -------AAAMQRLW----HDPGVRECYRRSNEYQIDDSAKYFLDNLPRL    161
+
+LCMT1_CRYNB      377 VLEHYV    382
+                     ...:||
+GPA7_CAEEL       162 SSPNYV    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      26/136 (19.1%)
+# Similarity:    45/136 (33.1%)
+# Gaps:          34/136 (25.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      172 LTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKG------------    209
+                     |.:.|.|.:...|.|.:...|........|||......            
+IDI_ECO24         39 LFNAKGQLLVTRRALSKKAWPGVWTNSVCGHPQLGESNEDAVIRRCRYEL     88
+
+LCMT1_CRYNB      210 GTQLSSPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAE    259
+                     |.:::.| .::.| |.|...::|    :.|:.:.|.|        :|.|.
+IDI_ECO24         89 GVEITPP-ESIYP-DFRYRATDP----NGIVENEVCP--------VFAAR    124
+
+LCMT1_CRYNB      260 CLFPYMSPEDSREIIKWFGETFCSCMGVVYEMVGLD    295
+                     ........:|.....:|     |....|::   |:|
+IDI_ECO24        125 TTSALQINDDEVMDYQW-----CDLADVLH---GID    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 365
+# Identity:      72/365 (19.7%)
+# Similarity:   115/365 (31.5%)
+# Gaps:         147/365 (40.3%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB        8 RLFALNYHGAIQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRRRRLRPPV     57
+                     |..||::.|.:......:..|..|.:.|...|.....|.||..     ||
+YHJA_ECOLI       129 RYTALHWAGKVSDEERAEILAWIAKQRAEYYASNDTAPEHRNE-----PV    173
+
+LCMT1_CRYNB       58 RPPLSLPVALTTRSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRAR    107
+                     :|   :|..|.|.:....:|:       .||..|.....:....|...| 
+YHJA_ECOLI       174 QP---IPQKLPTDAQKVALGF-------ALYHDPRLSADSTISCAHCHA-    212
+
+LCMT1_CRYNB      108 KPPLINVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRAT    157
+                         :|.|      |:|          |:: .|:|.|.          |.
+YHJA_ECOLI       213 ----LNAG------GVD----------GRK-TSIGVGG----------AV    231
+
+LCMT1_CRYNB      158 PPDLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVS    207
+                     .|            :.:|.......:.:.: :.|.::|.....|.|    
+YHJA_ECOLI       232 GP------------INAPTVFNSVFNVEQF-WDGRAATLQDQAGGP----    264
+
+LCMT1_CRYNB      208 KGGTQLSSPLYTLLPLDLRPSPSEPAS----SISAILSHHVLPQLDPRLP    253
+                                   ||    :|.|.||    .|.|.|      :.||:|.
+YHJA_ECOLI       265 --------------PL----NPIEMASKSWDEIIAKL------EKDPQLK    290
+
+LCMT1_CRYNB      254 TLFLAECLFPY-MSPEDSREII---------------KW-----------    276
+                     |.||.  ::|. .|.|:..:.|               ||           
+YHJA_ECOLI       291 TQFLE--VYPQGFSGENITDAIAEFEKTLITPDSPFDKWLRGDENALTAQ    338
+
+LCMT1_CRYNB      277 -------FGETFC-SCMGVV------YEMVGL--DDSFGNVMKRNLAVRN    310
+                            |.:..| :|.|.:      :|.:||  |.:||.:...::...|
+YHJA_ECOLI       339 QKKGYQLFKDNKCATCHGGIILGGRSFEPLGLKKDFNFGEITAADIGRMN    388
+
+LCMT1_CRYNB      311 LS----------IPG    315
+                     ::          :||
+YHJA_ECOLI       389 VTKEERDKLRQKVPG    403
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      25/142 (17.6%)
+# Similarity:    49/142 (34.5%)
+# Gaps:          61/142 (43.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      286 GVVYEMVGLD----------------------DSFGNVMKRNLAVRNL--    311
+                     |:.||:|.|:                      :.....::..|.|.|:  
+RIMP_BURPS        13 GLGYELVDLERTGRGMVCVYIDQPAGITIDDCEKVTRQLQHVLTVENIDY     62
+
+LCMT1_CRYNB      312 -----SIPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIRE-----    351
+                          |.||  ...|..:...||       :|  ||::.:..:::     
+RIMP_BURPS        63 ERLEVSSPG--LDRPLKKLADFT-------RF--AGSEAVITLKKPLDGR    101
+
+LCMT1_CRYNB      352 ------------EDVGPEELQRISKLEILD----EIEELRLV    377
+                                 |.:|.|..::..:..:||    :|::.||:
+RIMP_BURPS       102 KTYRGILHAPNGETIGLEFERKKGEAAMLDFTLADIDKARLI    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      16/62 (25.8%)
+# Similarity:    24/62 (38.7%)
+# Gaps:          10/62 (16.1%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      267 PEDSREIIKWFGETFC--SCMGVVYEMVGLDDSFGNVMKRNL--AVRNLS    312
+                     |.....:.|..|.|..  .|..|..|.  :||:....:.||:  .||.  
+RS28_OSTOS         4 PVKPAXVTKNIGRTGSQGQCTQVRVEF--MDDNGNRTINRNVKGPVRE--     49
+
+LCMT1_CRYNB      313 IPGSIFSTPESQ    324
+                       |.|.:..|::
+RS28_OSTOS        50 --GDILTLLEAE     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      17/65 (26.2%)
+# Similarity:    25/65 (38.5%)
+# Gaps:          14/65 (21.5%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       76 VGYLQDPFASLLYRPPM------PQPGAFAPQAVGRARKPPLINVGTHHR    119
+                     |.:|..|.|||.....:      ..||.||     ......|:.|..||.
+HBAC_LITCT        71 VKHLDHPEASLSSLSDLHAFTLRVDPGNFA-----LLSNNILVVVAVHHS    115
+
+LCMT1_CRYNB      120 ---TWGIDRLVDRFL    131
+                        ::...:.:|:||
+HBAC_LITCT       116 DKLSYETHQALDKFL    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 432
+# Identity:      92/432 (21.3%)
+# Similarity:   130/432 (30.1%)
+# Gaps:         145/432 (33.6%)
+# Score: 73.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       32 HRPAPRP--------ALGRCR------PPHRRRRRL--RPPVRPP-----     60
+                     |.|:|:.        |:.|.|      .||.:.:..  ..|.|..     
+RPOA_PRRSS      3365 HLPSPKSLNKSRALVAITRARHGLFIYDPHNQLQEFFNLIPERTDCNLVF   3414
+
+LCMT1_CRYNB       61 --------LSLPVALTTRSSAAQVG----YLQDPFASLLYRP--------     90
+                             ||...|:||.:.|...|    .:.||....|...        
+RPOA_PRRSS      3415 SRGDDLVVLSADNAVTTVAKALGTGPSRFRVSDPRCKSLLAACSASLEGS   3464
+
+LCMT1_CRYNB       91 --PMPQPG------------AFAPQAVGRARKPPLINVGTH--HRTWGID    124
+                       |:||..            ||||.....|...|::   ||  :|.|. |
+RPOA_PRRSS      3465 CMPLPQVAHNLGFYFSPDSPAFAPLPKELAPHWPVV---THQNNRAWP-D   3510
+
+LCMT1_CRYNB      125 RLVDRFL---QRGGKQVVSLG--AGSDTRFWRLMSRATPPDLARYVEI--    167
+                     |||....   .|..|.:|..|  .|..|..      .||..::.|:.:  
+RPOA_PRRSS      3511 RLVASMRPIDARYSKPMVGAGYVVGPSTFL------GTPGVVSYYLTLYI   3554
+
+LCMT1_CRYNB      168 -----DFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQ    212
+                          ..|. |.....|||...:.|........|...| |.:.....||.
+RPOA_PRRSS      3555 RGEPQALPE-TLVSTGRIATDCREYLDAAEEEAAKELP-HAFIGDVKGTT   3602
+
+LCMT1_CRYNB      213 L-------SSPLYTLLPLD--LRPSPSEPASSISAILSHHVLPQLDPRLP    253
+                     :       |..|...||.|  .....|.|..:..|:.:          |.
+RPOA_PRRSS      3603 VGGCHHITSKYLPRTLPKDSVAVVGVSSPGRAAKAMCT----------LT   3642
+
+LCMT1_CRYNB      254 TLFLAECLFPYMSPE----------DSREI--IKWFGET-FCSCMGVVYE    290
+                     .::|.| |.||:.||          |.|::  :.|.|.| :....|:.:.
+RPOA_PRRSS      3643 DVYLPE-LRPYLQPETASKCWKLKLDFRDVRLMVWKGATAYFQLEGLTWS   3691
+
+LCMT1_CRYNB      291 ---------------MVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQA    325
+                                    :|.:|...|........||.......:..||    
+RPOA_PRRSS      3692 ALPDYARFIQLPKDAVVYIDPCIGPATANRKVVRTTDWRADLAVTP----   3737
+
+LCMT1_CRYNB      326 GRFTSPMLQGGKFDSAGAKTLWQIREEDVGPE    357
+                                 :|......|.....||:||:
+RPOA_PRRSS      3738 ------------YDYGAQNILTTAWFEDLGPQ   3757
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      21/93 (22.6%)
+# Similarity:    30/93 (32.3%)
+# Gaps:          31/93 (33.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      122 GIDRLVDRFL-----QRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVE    166
+                     ||.||..||.     .|.|.:|:.:..|:.             ||.|   
+UBIE_PSEAE        51 GIHRLWKRFTIELSGVRSGNRVLDIAGGTG-------------DLTR---     84
+
+LCMT1_CRYNB      167 IDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKG    209
+                      .|..|..|..:.:         |...:.:|...|....:.||
+UBIE_PSEAE        85 -QFSRLVGPTGEVV---------LADINASMLKVGRDKLLDKG    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 311
+# Identity:      63/311 (20.3%)
+# Similarity:    94/311 (30.2%)
+# Gaps:         131/311 (42.1%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      103 VGRARKPPLINV---------GTHHRTWGID--RLVDRFLQRG-GKQVVS    140
+                     |..|.:.|::.|         ..|..:.|.|  .|:|...:.. .::.:.
+FLII_AQUAE       223 VSTADQSPILKVKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIG    272
+
+LCMT1_CRYNB      141 LGAGSDTRFWRLMSRATPPDLARYVEIDFPHLTSPKAQRIARHRKLYQYL    190
+                     |.||.            ||.|..:....|..||     |||.....::  
+FLII_AQUAE       273 LAAGE------------PPTLKGFTPSVFQLLT-----RIAESCGAFK--    303
+
+LCMT1_CRYNB      191 GPSSTAMPPPGHPYTVSKGGTQLSSPLYTLLPLDLRPSPSEPASSISAIL    240
+                     ..|.|.:      :||...|..:|     |.|:         |.|:..:|
+FLII_AQUAE       304 KGSITGI------FTVLVEGDDIS-----LDPI---------ADSLMGVL    333
+
+LCMT1_CRYNB      241 SHHVL-----------PQLDP------RLPTL----------FLAECLFP    263
+                     ..|::           |.:||      .:|.|          |..|.|..
+FLII_AQUAE       334 DGHIILSRKRAVRGLFPAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSK    383
+
+LCMT1_CRYNB      264 YMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLSI    313
+                     :   ||..|:::                :||.....|.:. :..:.||..
+FLII_AQUAE       384 F---EDVEELVR----------------IGLYKGGSNPLV-DKVINNLEK    413
+
+LCMT1_CRYNB      314 PGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVGPEELQRIS    363
+                     ..|.|.                            |..||.|..||     
+FLII_AQUAE       414 VESFFK----------------------------QKPEEKVNFEE-----    430
+
+LCMT1_CRYNB      364 KLEILDEIEEL    374
+                     .|:.||||..|
+FLII_AQUAE       431 SLKALDEIYSL    441
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      35/208 (16.8%)
+# Similarity:    73/208 (35.1%)
+# Gaps:          45/208 (21.6%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      170 PHLTSPKAQRIARHRK-LYQYLGPSSTAMPPPGHPYTVSKGGTQLSSPLY    218
+                     ||.|..:..::.:.:| |.|.|...|........|..:.:|.||...   
+MSS11_VANPO      416 PHPTQQQVHQMQQMQKQLQQQLQQQSVMQGQQQGPMQLQQGQTQSQG---    462
+
+LCMT1_CRYNB      219 TLLPLDLRPSPSEPASSISAILSHHVLPQL------DPRLPTLFLAECLF    262
+                             ...::.|......||...:.||      |..:...:::..:.
+MSS11_VANPO      463 --------QGQAQDAQQQGQPLSQQQMKQLRNGGNVDSNIQQQYMSMMMQ    504
+
+LCMT1_CRYNB      263 PYMSPEDSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMKRNLAVRNLS    312
+                     ..|..:::::|.:...:.      ::.:|..|.......:::|.....||
+MSS11_VANPO      505 MMMLSKNNQQIPQQMQQQ------MMQQMQQLQQQQQQALQQNTGKPQLS    548
+
+LCMT1_CRYNB      313 ------IPGSIFSTPESQAGRFTSPMLQGGKFDSAGAKTLWQIREEDVGP    356
+                           :...:.:||             ||  .|..|:|....|..:...
+MSS11_VANPO      549 HQFVVPVNNQVVTTP-------------GG--SSTSARTKSNARSTNTNK    583
+
+LCMT1_CRYNB      357 EELQRISK    364
+                     ::::.:||
+MSS11_VANPO      584 KKMETVSK    591
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      49/217 (22.6%)
+# Similarity:    71/217 (32.7%)
+# Gaps:          59/217 (27.2%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       18 IQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRRRRLRPPVRPPLSLPVAL     67
+                     :|..||:|          |:..:.||....|..||       .||: |.|
+SPB4_ASPFU       372 VQIDPPSD----------PKSFIHRCGRAGRAGRR-------GLSV-VLL    403
+
+LCMT1_CRYNB       68 TTRSSAAQVGYLQ------DPFASLLYRPPMPQPGAFAPQAVGRARKPPL    111
+                     ........|.:|:      .||:     |.:....|.|..|...|||..|
+SPB4_ASPFU       404 HPGREEDYVSFLEVRKTPVVPFS-----PSISFSDADAAAATATARKAVL    448
+
+LCMT1_CRYNB      112 INVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDT------RFWRLMSR    155
+                     .:...|.|  |....|.........|..|:...||.      :.|.|:..
+SPB4_ASPFU       449 ADRALHDR--GQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKL    496
+
+LCMT1_CRYNB      156 ATPPDLARY-------VEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMP    198
+                     ...|:|..:       :.:|:.:......||..|.::|.|....|     
+SPB4_ASPFU       497 PKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAES-----    541
+
+LCMT1_CRYNB      199 PPGHPYTVSKGGTQLSS    215
+                               |.||.:|
+SPB4_ASPFU       542 ----------GATQSTS    548
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 99
+# Identity:      24/99 (24.2%)
+# Similarity:    38/99 (38.4%)
+# Gaps:          38/99 (38.4%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       62 SLPVALTTRS----------SAAQVGYLQDPFASLLYRPPMPQPGAFAPQ    101
+                     ::|:.:|.||          .|.:.|:|:.     |:..|.....|:.  
+ASSY_MYCTO       163 AIPINVTKRSPFSIDQNVWGRAVETGFLEH-----LWNAPTKDIYAYT--    205
+
+LCMT1_CRYNB      102 AVGRARKPPLINVGTHHRTWGI-DRLVDRFLQRG------GKQVVSLGA    143
+                           :.|.||       ||: |.::..| :||      ||.|..|.|
+ASSY_MYCTO       206 ------EDPTIN-------WGVPDEVIVGF-ERGVPVSVDGKPVSMLAA    240
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      54/236 (22.9%)
+# Similarity:    81/236 (34.3%)
+# Gaps:          98/236 (41.5%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       63 LP--VALTTRSSAAQV------GYLQDPF--ASL-------LYRPPMP--     93
+                     ||  ||....::||.:      |.:|.|.  ||:       :|..|:|  
+ECCB1_MYCS2      284 LPDGVARVNNTTAAALRATNSYGLMQPPAVEASVVAKIPEQVYVSPLPDQ    333
+
+LCMT1_CRYNB       94 -------------------QPGAFAPQA---VGRARKPPLINVGTHHRTW    121
+                                        :||..||:.   .||....|...:||     
+ECCB1_MYCS2      334 PLDVLLRQDSPVLCWSWQREPGDQAPKTTVIAGRRLPLPANAIGT-----    378
+
+LCMT1_CRYNB      122 GIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVEIDFPH    171
+                     |||::       ||...|.:..|   :|.||.|    ||           
+ECCB1_MYCS2      379 GIDQI-------GGDSTVYIEGG---QFVRLQS----PD-----------    403
+
+LCMT1_CRYNB      172 LTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQ----LSSPL    217
+                        |:             :|.|...:.|.|..|.::.....    |:.|:
+ECCB1_MYCS2      404 ---PR-------------VGESMYYIDPQGVRYGIANDDAAKNLGLAGPV    437
+
+LCMT1_CRYNB      218 ---YTLLPLDLRPSPSEPASSISAILSHHVLPQLDP    250
+                        :.::.| |...|  ..|..:|::.|..|| .||
+ECCB1_MYCS2      438 NAPWQVVGL-LVDGP--VLSKEAALIEHDTLP-ADP    469
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    19/44 (43.2%)
+# Gaps:          15/44 (34.1%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      353 DVGPEELQR----ISKLEILDEIEELRL-----------VLEHY    381
+                     |...||::|    .::..:.|.||.:|.           |:|:|
+KCY4_ORYSJ       137 DCSEEEMERRLLGRNQGRVDDNIETIRKRFKVFVESSLPVIEYY    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       8/35 (22.9%)
+# Similarity:    15/35 (42.9%)
+# Gaps:          13/35 (37.1%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      247 QLDPRLPTLFLAECLFPYMSPEDSREIIKWFGETF    281
+                     ::.|.||.         :::|    .::|...|||
+HCP_TRIV2        506 RIGPTLPA---------FLTP----NVVKLLSETF    527
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      20/71 (28.2%)
+# Similarity:    25/71 (35.2%)
+# Gaps:          27/71 (38.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      130 FLQRGGKQVVSLGAGSDTRFWRLM---------------SRATPPDLARY    164
+                     :|.|.|| :..:..|.|.|.|..:               ||.|.|.||| 
+UBX7_YEAST        82 YLIRAGK-IELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAR-    129
+
+LCMT1_CRYNB      165 VEIDFPHLTSPKAQRIARHRK    185
+                              ..|:.|.. |||
+UBX7_YEAST       130 ---------EEKSSRDV-HRK    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      20/77 (26.0%)
+# Similarity:    33/77 (42.9%)
+# Gaps:           9/77 (11.7%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      299 GNVMKRNLAVRNLSIPGSIFSTPE---SQAGRFTSPMLQGGKFDSAGAKT    345
+                     |.|...:..:.|:...|::  |||   :.|.|.....|  |.|  ...:.
+RPOA_ACICJ       199 GQVTDYDRLILNIETNGAV--TPEDAVALAARILQDQL--GMF--INFEE    242
+
+LCMT1_CRYNB      346 LWQIREEDVGPEELQRISKLEILDEIE    372
+                     ..::|.|:..||.....:.|..:||:|
+RPOA_ACICJ       243 PQRLRAEEPRPELPFNPNLLRKVDELE    269
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      14/54 (25.9%)
+# Similarity:    26/54 (48.1%)
+# Gaps:           5/54 ( 9.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB      160 DLARYVEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKG    209
+                     :||...::|...| |.:|..:.....:|::..||...:    ..:|::|.
+YXAD_BACSU        55 ELAESFKLDISTL-SRQAAALEAKELIYRFSDPSDGRV----SLFTITKL     99
+
+LCMT1_CRYNB      210 GTQL    213
+                     |.||
+YXAD_BACSU       100 GKQL    103
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: LCMT1_CRYNB
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 319
+# Identity:      60/319 (18.8%)
+# Similarity:   109/319 (34.2%)
+# Gaps:         102/319 (32.0%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+LCMT1_CRYNB       70 RSSAAQVGYLQDPFASLLYRPPMPQPGAFAPQAVGRARKPPLINVGTHHR    119
+                     :|...||..|:|..|.|.:.         ||.:|.:..:..|.:      
+FADB_SHESR         4 QSPTIQVELLEDNIAKLCFN---------APGSVNKFDRETLAS------     38
+
+LCMT1_CRYNB      120 TWGIDRLVDRFLQRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVEI--    167
+                        :|..:|...|:...|.:.|.:|.||..       ...|:..::.:  
+FADB_SHESR        39 ---LDAALDSIKQQSNIQALVLTSGKDTFI-------VGADITEFLGLFA     78
+
+LCMT1_CRYNB      168 -DFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKGGTQLSSP    216
+                      |...|.|...|..|...||.....|:::|:.           |..|...
+FADB_SHESR        79 QDDAVLLSWVEQANAVFNKLEDLPFPTASAIK-----------GFALGGG    117
+
+LCMT1_CRYNB      217 LYTLLPLDLRPSPSE-----PASSISAILSHHVLPQL--DPRLPTLFLAE    259
+                     ..|:|..|.|.:.:.     |.:.:.      ::|..  ..|||.:..|:
+FADB_SHESR       118 CETILATDFRIADTTAKIGLPETKLG------IIPGFGGTVRLPRVIGAD    161
+
+LCMT1_CRYNB      260 CLFPYMS------PEDSREIIKWFGETFCSCMGVVYEMVG----------    293
+                     ....:::      |||:.::            |.|..:|.          
+FADB_SHESR       162 NALEWITTGKDQRPEDALKV------------GAVDAVVAPEALEAAAIQ    199
+
+LCMT1_CRYNB      294 -LDDSFGNVM----KRNLAVRNLSIP------------GSIFSTPESQAG    326
+                      |.|:....:    :|:..:..|::|            |.:|:.    ||
+FADB_SHESR       200 MLKDAVAEKLDWQARRHRKMSPLTLPKLEAMMSFTTAKGMVFAV----AG    245
+
+LCMT1_CRYNB      327 R-FTSPMLQGGKFDSAGAK    344
+                     : :.:||......:.|..|
+FADB_SHESR       246 KHYPAPMAAVSVVEQAATK    264
+
+
+#---------------------------------------
+#---------------------------------------

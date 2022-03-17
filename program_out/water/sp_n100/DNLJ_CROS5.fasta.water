@@ -1,0 +1,4032 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:27
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/DNLJ_CROS5.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/DNLJ_CROS5.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/DNLJ_CROS5.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 395
+# Identity:      77/395 (19.5%)
+# Similarity:   130/395 (32.9%)
+# Gaps:         131/395 (33.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        21 ANYAYYVLDD-PIMED---------AVYDQLYRELDSLEKEHPQLITPDS     60
+                     |:....|.|| ||..|         :||.....:...|.||....:.||:
+PUR7_VIBVU         4 ADQVLAVNDDLPIRTDKPVHSGKVRSVYWLTEEDSARLIKEKGYNVAPDA     53
+
+DNLJ_CROS5        61 P--TQRVGDQPASQFVSVTHNIPLYSLENAFN-----LEELKAWEKRWQR    103
+                     |  ...:.|: .|.|..:.|.      |:..|     ...|.|....|..
+PUR7_VIBVU        54 PLAIMVISDR-ISAFDCIWHG------EHGLNGVPGKGAALNAISNHWFG     96
+
+DNLJ_CROS5       104 SYEKEEFTSVEYVCEL--------------KIDGSALALTYENGLFVRGV    139
+                     .: ||...:..::.::              ||:  |:...|..|...|..
+PUR7_VIBVU        97 LF-KENGLADSHILDIPHPFVWIVQKAKPVKIE--AICRKYITGSMWRAY    143
+
+DNLJ_CROS5       140 TRGDGT-TGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDR    188
+                     .:|:.. .|.::.:.:...:::|..|...:...|  ::|...:|  |.|.
+PUR7_VIBVU       144 EKGEREFCGIQLPEGLEKDKALPDLLMTPSTKGI--LKGIPGVP--EADD    189
+
+DNLJ_CROS5       189 INQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRL-------------    225
+                     :|..|:...|       |.||......|...:.::.|             
+PUR7_VIBVU       190 VNITRQNIAD-------NFAAFNFSSADDIALYEKLLKDGFGVISEALAN    232
+
+DNLJ_CROS5       226 --QFFAYT----------------LHLEEA---EISSQWESLNY-----L    249
+                       |.|..|                ::::|.   :.|..|::..|     :
+PUR7_VIBVU       233 VGQIFVDTKFEFGYVTDAAGNEKLIYMDEVGTPDSSRIWDAQEYQAGKIV    282
+
+DNLJ_CROS5       250 ENS--GFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTD-GVVVKINN    296
+                     |||  ||.        |||                |.|..| .:::..:.
+PUR7_VIBVU       283 ENSKEGFR--------QFL----------------LNYFPDPDILLNKDR    308
+
+DNLJ_CROS5       297 YSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGR--TGA    339
+                     ...::||....:.|          |||...|....:|:..  ||:
+PUR7_VIBVU       309 MPEREALARDNELP----------EEALMAVSRTYINIAEKITGS    343
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    26/58 (44.8%)
+# Gaps:           3/58 ( 5.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       397 LRPPNT-QPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHW    445
+                     :.||:: :|.:..|  |:....|:.|..:..:.......|.|.|.:.:.:
+Y075_NITWN         1 MTPPHSDRPEDTAD--PKLLEILVCPVTKGPLELDGARRELISRSAKLAY     48
+
+DNLJ_CROS5       446 ASRDALDI    453
+                     ..||.:.|
+Y075_NITWN        49 PIRDGIPI     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      28/129 (21.7%)
+# Similarity:    42/129 (32.6%)
+# Gaps:          49/129 (38.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       145 TTGEEITQNVRT------------IRSIPLKLNIDNPPP-----------    171
+                     ||.|...:.||.            .|::||   :|..||           
+Y3584_PSEAB        6 TTNEGAAEPVRLTTPLGQAIGNLFARALPL---LDGNPPGSLKVFVFGGC     52
+
+DNLJ_CROS5       172 ----IVEVRGEAFLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDP    217
+                         :...||.|.:.. |.:.....|:::..|::..|.....|       
+Y3584_PSEAB       53 AVHLLTHARGSADIDA-EIEAARVLRKDEIMAVYTPPEGYEDG-------     94
+
+DNLJ_CROS5       218 KIVDQRRLQFFA---YT-----LHLEEAE    238
+                        |.|.||.:.   ||     ||.:..|
+Y3584_PSEAB       95 ---DGRDLQVYLDQNYTNALGPLHEDYRE    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      25/126 (19.8%)
+# Similarity:    41/126 (32.5%)
+# Gaps:          50/126 (39.7%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        57 TPDSPTQRVGDQPA-SQFV--SVTHNIPLYSL------------------     85
+                     ||:.|...:.|:.| :.||  ....|:.||:.                  
+BPT_HAHCH         12 TPEHPCSYLDDRLATTMFVDPKADINLDLYTRLSQLGFRRSGNHYYKPRC     61
+
+DNLJ_CROS5        86 ------------ENAFNLEELKAWEKRWQRS-----------YEKEEFTS    112
+                                 ...||  ..::.|:.|:|:           :|:|.|..
+BPT_HAHCH         62 NGCNACIAVRIPTEEFN--RTRSQERTWKRNSDLTVRLRSAQFEQEHFAL    109
+
+DNLJ_CROS5       113 VE-YVCELKIDGSALALT---YENGL    134
+                     .: |:.....||.....|   ||:.|
+BPT_HAHCH        110 YQRYISARHQDGDMYPPTLDQYESFL    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      22/80 (27.5%)
+# Similarity:    31/80 (38.8%)
+# Gaps:          23/80 (28.8%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       609 ITGTLPTLTRNEAK-ALIEQAGGKVTGSVSKKTDYLLVGE----------    647
+                     :||.......|:|. :||..|.|||.||.       |:|:          
+KDPC_CAUVN        27 VTGVAQAAFPNQANGSLIRDADGKVVGSA-------LIGQVFAKPEYFHG     69
+
+DNLJ_CROS5       648 ---KAGSKLTQAEKLGINQ--LSEADLLRL    672
+                        .||:....:...|.|.  |:|..:.||
+KDPC_CAUVN        70 RPSAAGAGYDASASSGSNMGPLNETLIARL     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      31/157 (19.7%)
+# Similarity:    48/157 (30.6%)
+# Gaps:          45/157 (28.7%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       170 PPIVEVRGEAFLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDPKI    219
+                     |.:|::.||..|.|            .||.|..:.....|...:..||:.
+LPXH_XYLFM       100 PCVVDLYGEPTLLL------------HGDLLCTDDIAYQAFRAQTRDPEF    137
+
+DNLJ_CROS5       220 V---------------DQRRLQFFAYTLHLEEAEISSQWESLN-------    247
+                     :               .|.||...|:...|::...|:|:|.:.       
+LPXH_XYLFM       138 IAQFLTQTLSARLAFSQQARLASHAHQSGLKQENDSTQFEKITDVVPADV    187
+
+DNLJ_CROS5       248 ------YLENSGFLVNPHRKLCQFLDEVE-----AYFKQWETARKDLPYM    286
+                           |..|.....:.||.....|...|     .....|......|...
+LPXH_XYLFM       188 AAMFACYGVNRMIHGHTHRPALHMLQVAECACTRVVLGDWYQQGSVLCVD    237
+
+DNLJ_CROS5       287 TDGVVVK    293
+                     .||:|::
+LPXH_XYLFM       238 ADGLVLE    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     8/11 (72.7%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       142 GDGTTGEEITQ    152
+                     |.|.||:::.:
+YERI_SCHPO        44 GSGLTGKQVAK     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 257
+# Identity:      53/257 (20.6%)
+# Similarity:    99/257 (38.5%)
+# Gaps:          77/257 (30.0%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       339 AVTP-MAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEII    387
+                     |:.| ::|.|.:.:|.|        ||.|...:|.:    .|..||.|:.
+RBSA_RUEST        91 ALCPDVSVAENIFMAAT--------NSSRSFLMDYK----GIEAKAREVF    128
+
+DNLJ_CROS5       388 PEVVRV-----LKELRPPNTQPYEMPDRCP-EC-----DSP---LIRPSG    423
+                     .::..:     :::|...|.|..|:..... :|     |.|   |.....
+RBSA_RUEST       129 AQLSSIDPSVLVRDLSISNQQLVEIAKALTLDCRVLILDEPTAALTEAEA    178
+
+DNLJ_CROS5       424 EAVIRCM-NLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLIEN-GLVN    471
+                     :.:.:.| .|:.:.|   ||::.:.|            :|.:.:| ..|:
+RBSA_RUEST       179 QVLFKIMRRLADQGI---SLIYISHR------------MVEIFDNCDRVS    213
+
+DNLJ_CROS5       472 SIADLYYLTPETIANLERMGSKSADNLIKAIEG--------SKQQPFSRV    513
+                     ...|..|:|.:.:|.:      :..::::|:.|        .||:|    
+RBSA_RUEST       214 VFRDGRYVTTQDVAKI------TPADVVRAMVGREIGDLYPEKQRP----    253
+
+DNLJ_CROS5       514 LYGLGIRYVGSVTANLLVENFPSIDQLSQASFA-------SLSSVYGVG-    555
+                            ...|.|..|.|||....::....||:       ..:.:.|.| 
+RBSA_RUEST       254 -------EACSTTEVLRVENLCEAERFHDVSFSLHKGEILGFAGLIGAGR    296
+
+DNLJ_CROS5       556 EEIAQSI    562
+                     .|||:.:
+RBSA_RUEST       297 SEIAKGV    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      10/40 (25.0%)
+# Similarity:    10/40 (25.0%)
+# Gaps:          21/40 (52.5%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       516 GLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVG    555
+                     |||..|.|                     |..|...||.|
+KR195_HUMAN       10 GLGYGYGG---------------------FDDLGYGYGCG     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:      43/237 (18.1%)
+# Similarity:    92/237 (38.8%)
+# Gaps:          76/237 (32.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       441 SLVHWASRDALDI-RGLGEKIVVLLIENGLVNSIADLYY--LTPETIANL    487
+                     |.:.|:....|.| :||.|.:.:  ..:|.:..:::|::  ....:...:
+UPPP_CORDI         7 SQISWSQTIVLSIVQGLTEFLPI--SSSGHLRIVSELFWGKDAGASFTAV     54
+
+DNLJ_CROS5       488 ERMGSKS------ADNLIKAIEG-------SKQQPFS-----RVLYG-LG    518
+                     .::|:::      |.::.|.:.|       .||:.|.     .|:.| |.
+UPPP_CORDI        55 VQLGTEAAVLVYFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGTLP    104
+
+DNLJ_CROS5       519 IRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSI    568
+                     :..||.:..:::.:|..:: .::.:...:.|.|:...|:       |.|.
+UPPP_CORDI       105 VSIVGLLAKDIIRDNLRNM-WITASVLIAFSFVFIAAEK-------WGSK    146
+
+DNLJ_CROS5       569 EKNCDLIKQLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLPTLTR    618
+                     .::.|                  |:|:..:         ||.|....|  
+UPPP_CORDI       147 RRSFD------------------QLTMRDA---------VIMGCAQCL--    167
+
+DNLJ_CROS5       619 NEAKALI---EQAGGKVTG--------SVSKKTDYLL    644
+                         |||   .::||.|:.        .|:.:..:||
+UPPP_CORDI       168 ----ALIPGVSRSGGTVSAGLFVGLDREVATRFSFLL    200
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      28/142 (19.7%)
+# Similarity:    48/142 (33.8%)
+# Gaps:          42/142 (29.6%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5         5 PEIKQRVT---QLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDS----     47
+                     ||:.::||   .|..:.:.|:|.|            ..:..||:|.    
+GREB_ECO57        27 PEVTKKVTWAASLGDRSENADYQY------------NKKRLREIDRRVRY     64
+
+DNLJ_CROS5        48 LEKEHPQLITPDSPTQRVGDQPASQFV------SVTHNIPLYSLENAFNL     91
+                     |.|....|...|...|:.|......:|      .|||...:...:..|..
+GREB_ECO57        65 LTKCMENLKIVDYSPQQEGKVFFGAWVEIENDDGVTHRFRIVGYDEIFGR    114
+
+DNLJ_CROS5        92 EELKAWEKRWQRSYEKEE-----------------FTSVEYV    116
+                     ::..:.:....|:..|:|                 ..::|||
+GREB_ECO57       115 KDYISIDSPMARALLKKEVGDLAVVNTPAGEASWYVNAIEYV    156
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 314
+# Identity:      67/314 (21.3%)
+# Similarity:   115/314 (36.6%)
+# Gaps:          77/314 (24.5%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        31 PIMEDAVYDQLYR--ELDSLEKEHPQLITPDSPTQRVGDQPASQFVSVTH     78
+                     ||:.|:...|::.  |:..:.:|..:..:|.:     ||:   .|::...
+TGT_LEPCP         86 PILTDSGGFQVWSLGEMRKISEEGVRFASPVN-----GDK---LFLTPEV    127
+
+DNLJ_CROS5        79 NIPLYSLENAFNLEELKAWEKRWQR-------SYEKEEFTSVE----YVC    117
+                     ::.:.::.|:..:.:.......||.       :.|||...|:|    :..
+TGT_LEPCP        128 SMQIQTVLNSDIVMQFDECTPYWQGAKNVGHITTEKEARVSMELSLRWAA    177
+
+DNLJ_CROS5       118 ELKID----GSALAL--TYENGLF---------------VRGVTRGDGTT    146
+                     ..|.:    |:..||  ..:.|:|               ..|...|..:.
+TGT_LEPCP        178 RSKAEFARLGNPNALFGIVQGGMFESLREESLNALVELDFPGYAVGGVSV    227
+
+DNLJ_CROS5       147 GEEITQNVRTIRSIPLKLNIDNP-------PPIVEVRGEAFLPLDEFDRI    189
+                     ||...:.:|.:...|..|..|.|       .|...|.|.| ..:|.||.:
+TGT_LEPCP        228 GEPKDEMLRIMNHTPHLLPADKPRYLMGVGTPEDLVDGVA-CGVDMFDCV    276
+
+DNLJ_CROS5       190 NQEREEK--------GDALFANPRNAAAGTLRQLD----------PKIVD    221
+                     ...|..:        ||....|.|:.|  ..|.||          ..:.|
+TGT_LEPCP        277 MPTRNARNGHLFTRYGDLKIRNARHKA--DERPLDETCSCQACKGSTLPD    324
+
+DNLJ_CROS5       222 QRRLQFF--AYTLHLEE-AEISSQWESLNYLENSGFLVNPHRKLCQFLD-    267
+                     .|....|  ||..||:. .|:..  ..|..:.|..:.:|..|::.:.|| 
+TGT_LEPCP        325 GRVTGGFSRAYLHHLDRCGEMLG--PMLASIHNLHYYLNLMREVREALDA    372
+
+DNLJ_CROS5       268 -EVEAYFKQWETAR    280
+                      ..||:..|::..|
+TGT_LEPCP        373 GRFEAFRAQFKADR    386
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 464
+# Identity:      87/464 (18.8%)
+# Similarity:   140/464 (30.2%)
+# Gaps:         204/464 (44.0%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        94 LKAWEKRWQRSYEKEEFTSVEYVCELKIDGS-----ALALTYEN----GL    134
+                     |..:.|...||||:.... |:.|.. ::.||     |:.:.|:|    ||
+CBPQ_HUMAN        53 LAVYGKAQNRSYERLALL-VDTVGP-RLSGSKNLEKAIQIMYQNLQQDGL    100
+
+DNLJ_CROS5       135 ---FVRGVTRGDGTTGEE----ITQNVRTIRSIPLKLNIDNPPPIV----    173
+                        .:..|.......|||    :...:..|..:.|..:|..||..:    
+CBPQ_HUMAN       101 EKVHLEPVRIPHWERGEESAVMLEPRIHKIAILGLGSSIGTPPEGITAEV    150
+
+DNLJ_CROS5       174 --------------EVRGEAFL---PLDEFDRINQEREEKGDALFANPRN    206
+                                   |.||:..:   |...:.|..|.|.:  .|:.|....
+CBPQ_HUMAN       151 LVVTSFDELQRRASEARGKIVVYNQPYINYSRTVQYRTQ--GAVEAAKVG    198
+
+DNLJ_CROS5       207 AAAGTLRQLDPKIVDQRRLQFFAYTLH-------------------LEEA    237
+                     |.|..:|.:         ..|..|:.|                   :|:|
+CBPQ_HUMAN       199 ALASLIRSV---------ASFSIYSPHTGIQEYQDGVPKIPTACITVEDA    239
+
+DNLJ_CROS5       238 EISSQWES-------------LNYLENSGF----------------LVNP    258
+                     |:.|:..|             ..|.:...|                ||:.
+CBPQ_HUMAN       240 EMMSRMASHGIKIVIQLKMGAKTYPDTDSFNTVAEITGSKYPEQVVLVSG    289
+
+DNLJ_CROS5       259 HRKLCQF----LDEVEAYFKQWETAR--KDL---PYMTDGVV--------    291
+                     |......    :|:....|..||...  |||   |..|..:|        
+CBPQ_HUMAN       290 HLDSWDVGQGAMDDGGGAFISWEALSLIKDLGLRPKRTLRLVLWTAEEQG    339
+
+DNLJ_CROS5       292 ------------VKINNYS----------LQKALGFTQKFPRWAIALKYP    319
+                                 |.|:|||          |...|.||            .
+CBPQ_HUMAN       340 GVGAFQYYQLHKVNISNYSLVMESDAGTFLPTGLQFT------------G    377
+
+DNLJ_CROS5       320 AEEAPTLVKNIVVNVGRTGAVTPMAVMEPV-------HLAGTT-------    355
+                     :|:|..:::.:            |::::|:       |..||.       
+CBPQ_HUMAN       378 SEKARAIMEEV------------MSLLQPLNITQVLSHGEGTDINFWIQA    415
+
+DNLJ_CROS5       356 -VQKATL----------HNSDRIAQLDIRVGDTVIIRKAGE---------    385
+                      |..|:|          |:|.         |||:.:....:         
+CBPQ_HUMAN       416 GVPGASLLDDLYKYFFFHHSH---------GDTMTVMDPKQMNVAAAVWA    456
+
+DNLJ_CROS5       386 IIPEVVRVLKELRP    399
+                     ::..||..::|:.|
+CBPQ_HUMAN       457 VVSYVVADMEEMLP    470
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 187
+# Identity:      35/187 (18.7%)
+# Similarity:    66/187 (35.3%)
+# Gaps:          59/187 (31.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5         3 ITPEIKQRVTQLRQQLQKANYAY-YVLDDPIMEDAVYD--QLYRE-----     44
+                     :|.:.:..|.|.|.:..:..:.| |.:...::...:.|  |:|.:     
+PSA6_SOYBN        83 MTADARTLVQQARNEAAEFRFTYGYEMPVDVLAKWIADKSQVYTQHAYMR    132
+
+DNLJ_CROS5        45 -------LDSLEKEH-PQLITPDSPTQRVG---------DQPASQFVSVT     77
+                            :..::.|: |||...|......|         ||.|..|:.  
+PSA6_SOYBN       133 PLGVVAMVLGIDDEYGPQLYKCDPAGHYFGHKATSAGLKDQEAINFLE--    180
+
+DNLJ_CROS5        78 HNIPLYSLEN--AFNLEELKAWEKRWQRSYEKEEFTSVEYVCELKIDGSA    125
+                          ..::|  :|..||.........:|..:|:|.:.    |:::    
+PSA6_SOYBN       181 -----KKMKNDPSFTYEETVQTAISALQSVLQEDFKAT----EIEV----    217
+
+DNLJ_CROS5       126 LALTYENGLFVRGVTRGDG-----TTGEEITQNVRTI    157
+                                 ||.|.|.     .|.:||.:::..|
+PSA6_SOYBN       218 ------------GVVRKDNPEFRVLTTDEIDEHLTAI    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 402
+# Identity:      86/402 (21.4%)
+# Similarity:   140/402 (34.8%)
+# Gaps:         106/402 (26.4%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        84 SLENAFNLEELKAWEKRWQRSYEK----EEFTSVEYVCELKIDGSALALT    129
+                     |::....|::|:. :|..:|.:|:    ::|.|       .::.|.:...
+SCL34_ARATH      161 SVKEEMGLDQLRV-KKNHERDFEEVRSSKQFAS-------NVEDSKVTDM    202
+
+DNLJ_CROS5       130 YENGLFVRGVTRGDGTTGEEITQNVRTIRSI--PLKLNIDNPPPIVEVR-    176
+                     ::..|.:.|..........|| |.:|:.::|  ..|........:|:.| 
+SCL34_ARATH      203 FDKVLLLDGECDPQTLLDSEI-QAIRSSKNIGEKGKKKKKKKSQVVDFRT    251
+
+DNLJ_CROS5       177 -----------GEAFLPLDEFDRINQEREEKGDA------LFANPRNA--    207
+                                |:....|:...:|.|:....|||      .|||...|  
+SCL34_ARATH      252 LLTHCAQAISTGDKTTALEFLLQIRQQSSPLGDAGQRLAHCFANALEARL    301
+
+DNLJ_CROS5       208 --AAGTLRQ-----LDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE    250
+                       :.|.:.|     |...:.|.......||.::|.    ||.:.:|.|..
+SCL34_ARATH      302 QGSTGPMIQTYYNALTSSLKDTAADTIRAYRVYLS----SSPFVTLMYFF    347
+
+DNLJ_CROS5       251 NSGFLVNPHR--KLCQFLDEVEAYFKQWE------TARKDLPYMTDGVVV    292
+                     :...:::..:  .:...:|....|..||.      :.|||:|..     :
+SCL34_ARATH      348 SIWMILDVAKDAPVLHIVDFGILYGFQWPMFIQSISDRKDVPRK-----L    392
+
+DNLJ_CROS5       293 KINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTP    342
+                     :|....|.:. ||.            |||.        :...||..|...
+SCL34_ARATH      393 RITGIELPQC-GFR------------PAER--------IEETGRRLAEYC    421
+
+DNLJ_CROS5       343 MAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIPEVVR    392
+                     .....|........|.   ..:.||..||||..             ||:.
+SCL34_ARATH      422 KRFNVPFEYKAIASQN---WETIRIEDLDIRPN-------------EVLA    455
+
+DNLJ_CROS5       393 VLKELRPPNTQPYE-MPDRCPECDSPLIRPSGEAVIRCMN--LSCEAILR    439
+                     |...||..|.|... ..:.||. |:.|      .:||.||  :...||:.
+SCL34_ARATH      456 VNAGLRLKNLQDETGSEENCPR-DAVL------KLIRNMNPDVFIHAIVN    498
+
+DNLJ_CROS5       440 GS    441
+                     ||
+SCL34_ARATH      499 GS    500
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 140
+# Identity:      30/140 (21.4%)
+# Similarity:    48/140 (34.3%)
+# Gaps:          39/140 (27.9%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       244 ESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLP-------YM    286
+                     |.:...|..||.:.. .||.|..:::   .|:.....||.|       ||
+NDKA_CANLF        23 EIIKRFEQKGFRLIA-MKLIQASEDL---LKEHYIDLKDRPFFAGLVKYM     68
+
+DNLJ_CROS5       287 TDGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAP-TLVKNIVVNVG    335
+                     ..|.||.:    :.:.|... |..|..:....||:..| |:..:..:.||
+NDKA_CANLF        69 QSGPVVAM----VWEGLNVV-KTGRVMLGETNPADSKPGTIRGDFCIQVG    113
+
+DNLJ_CROS5       336 RTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVG    375
+                     |.                      .:|.||.:...:..:|
+NDKA_CANLF       114 RN----------------------IIHGSDSVESAEKEIG    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      37/155 (23.9%)
+# Similarity:    55/155 (35.5%)
+# Gaps:          54/155 (34.8%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       218 KIVDQR--RLQFFAYTLH--------LEEAEISSQWESLNYLENSGFLVN    257
+                     ||:.||  |:.....|.|        :...|.::::..:.|.....::| 
+RS4_CAEEL         62 KILTQRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKGRYVV-    110
+
+DNLJ_CROS5       258 PHR--------KLCQFLDEVEAYFKQWETARKDLPYM--TDGVV------    291
+                      ||        |||:        .|...|..|.:|.:  |||..      
+RS4_CAEEL        111 -HRIQAAEADFKLCK--------VKSVRTVNKGVPVLTTTDGRTIRYPDP    151
+
+DNLJ_CROS5       292 -VKIN-----NYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVG    335
+                      ||:|     |.|.|| :..:.||....:|......           |||
+RS4_CAEEL        152 HVKVNDTIVFNISTQK-ITDSVKFEPGNLAYVTGGR-----------NVG    189
+
+DNLJ_CROS5       336 RTGAV    340
+                     |.|.:
+RS4_CAEEL        190 RVGII    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    16/29 (55.2%)
+# Gaps:           1/29 ( 3.4%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        91 LEELKAWEKRWQRSY-EKEEFTSVEYVCE    118
+                     |.||:|.|:.|..|. ..:|...|:::.|
+G45IP_CHLAE       82 LRELEAEEREWYPSLATMQESLRVKHLAE    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 393
+# Identity:      69/393 (17.6%)
+# Similarity:   136/393 (34.6%)
+# Gaps:         133/393 (33.8%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       275 QWETARKDL---------PYMTDGVVV-KINNYSLQKALGFTQKFPRWAI    314
+                     |.|..|:||         .:.|...:: :||..:.:..     :..:|:.
+DAPEL_OCEIH        4 QLEQIRRDLHQIPELGFQEFKTQAYLLERINEIATENV-----EIKKWST     48
+
+DNLJ_CROS5       315 AL------KYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQK    358
+                     .:      |.||.:           :|....:..:.::|..:|...::.:
+DAPEL_OCEIH       49 GILVYVHGKSPARK-----------IGFRADIDGLPILEQTNLPYASLHE     87
+
+DNLJ_CROS5       359 ATLHNSDRIAQLDIRVG------------DTVIIRKAGEIIPEVVRVLKE    396
+                     ..:|.......:.|.:|            |.:.:.:..|..|...:.:.|
+DAPEL_OCEIH       88 GRMHACGHDLHMTIALGALEKLIQDPINDDVIFVFQPAEEGPGGAKPMLE    137
+
+DNLJ_CROS5       397 LRPPNTQPYEM--PDR------CPECDSPLIRPSGEAVIRCMNLS-----    433
+                          ::.::.  ||.      .||.  |:...|.:|.:...|.|     
+DAPEL_OCEIH      138 -----SEEFQQWKPDMMFALHIAPEL--PVGTVSSKAGLLFANTSELFID    180
+
+DNLJ_CROS5       434 CEAI--------LRGSLVHWASRDALDI-----RGL----GEKIVVLLIE    466
+                     .|.:        |...:...||...:.:     |||    |..|.:..:|
+DAPEL_OCEIH      181 FEGVGGHAAYPHLTKDMTVAASNFVVQLQQIVSRGLNPLDGSVITIGKME    230
+
+DNLJ_CROS5       467 NGLV-NSIADLYYLTPETIANLE-RMGSKSADNLIKAIEGSKQQPFSRVL    514
+                     :|.| |:||:        .|.|| .:.|..||    ||:..|.: .:|::
+DAPEL_OCEIH      231 SGYVQNAIAE--------TARLEGTIRSTDAD----AIDMIKSK-LNRLM    267
+
+DNLJ_CROS5       515 YGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQSIID    564
+                     .|..|.|..::..:                       ||.         :
+DAPEL_OCEIH      268 KGFEISYDCTIKVD-----------------------YGA---------N    285
+
+DNLJ_CROS5       565 WFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLTPFSGKTF    607
+                     ::.:..:...::|.:.|..|.:|     ||.:.:....:|:.|
+DAPEL_OCEIH      286 YYQVVNDATYVQQFENVINQTQT-----ITYQQADAAMTGEDF    323
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:      14/33 (42.4%)
+# Similarity:    20/33 (60.6%)
+# Gaps:           4/33 (12.1%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       643 LLVGEKAGSKLTQAEKL----GINQLSEADLLR    671
+                     :|:|.....|.||:|::    ||.|||..|:||
+KAD_METRJ          4 ILLGPPGAGKGTQSERIVQRFGIPQLSTGDMLR     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      13/36 (36.1%)
+# Similarity:    13/36 (36.1%)
+# Gaps:           0/36 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       309 FPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMA    344
+                     ||....|...||..|....|.....||..|.|.|.|
+ELN_BOVIN        429 FPGIGDAAAAPAAAAAKAAKIGAGGVGALGGVVPGA    464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      22/63 (34.9%)
+# Similarity:    34/63 (54.0%)
+# Gaps:          10/63 (15.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       512 RVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQS    561
+                     |||:  .:.:|||: ..||||   |.:::|.  :.|...|..|.|.:|||
+ASIC2_MOUSE       42 RVLW--AVAFVGSL-GLLLVE---SSERVSY--YFSYQHVTKVDEVVAQS     83
+
+DNLJ_CROS5       562 IIDWFSIEKNCDL    574
+                     ::  |.....|:|
+ASIC2_MOUSE       84 LV--FPAVTLCNL     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      13/44 (29.5%)
+# Similarity:    18/44 (40.9%)
+# Gaps:           6/44 (13.6%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        81 PLYSLENAFNLEELKAWE------KRWQRSYEKEEFTSVEYVCE    118
+                     |:|.|....|..|..|||      |.::...|:.....:.||.|
+DOXA1_XENTR      114 PVYQLNETINYNEEFAWESANQFDKNYKDGLERGLPYPILYVAE    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      20/75 (26.7%)
+# Similarity:    33/75 (44.0%)
+# Gaps:          16/75 (21.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       482 ETIANLERMGSKSADNLIKAIE-GSKQQPFSRVLYGLGIRYVGSVTANLL    530
+                     :|:||: :...|.|:..:||.| .|.|:...|             ||...
+RS20_STRPB         4 KTLANI-KSAIKRAELNVKANEKNSAQKSAMR-------------TAIKA     39
+
+DNLJ_CROS5       531 VENFPSIDQLSQASFASLSSVYGVG    555
+                     .|..|| ::|.:|:.:|:......|
+RS20_STRPB        40 FEANPS-EELFRAASSSIDKAESKG     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      36/160 (22.5%)
+# Similarity:    64/160 (40.0%)
+# Gaps:          24/160 (15.0%)
+# Score: 63.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       140 TRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRI    189
+                     :|......|:..:.||:::.           .|.::..|.....::..:.
+TPM_HAELO         29 SRDAALRAEKAEEEVRSLQK-----------KIQQIENELDQVQEQLSQA     67
+
+DNLJ_CROS5       190 NQEREEKGDALFANPRNAAAGTLR-QLDPKIVDQRRLQFFAYTLHLEEA-    237
+                     |.:.|||..||.|.....||...| ||..:.:::...:....|..|||| 
+TPM_HAELO         68 NSKLEEKDKALQAAEAEVAAHNRRIQLLEEDLERSEERLKIATQKLEEAS    117
+
+DNLJ_CROS5       238 EISSQWESL-NYLENSGFLVNPHRKLC--QFLDEVEAYFKQWETARKDLP    284
+                     :.:.:.|.: ..||        ||.:.  :.:|.:|...|:..|..:|..
+TPM_HAELO        118 QAADESERMRKMLE--------HRSITDEERMDGLEGQLKEARTMAEDAD    159
+
+DNLJ_CROS5       285 YMTDGVVVKI    294
+                     ...|.|..|:
+TPM_HAELO        160 RKYDEVARKL    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 433
+# Identity:      79/433 (18.2%)
+# Similarity:   134/433 (30.9%)
+# Gaps:         132/433 (30.5%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       272 YFKQWE----TARKD---LPYMTDGVVVKINNYSLQKALGFTQKFPRWAI    314
+                     |.|.||    |.|.|   |.|:...::.::.:....:.|....:.| |.|
+LEUC_XANOM         7 YDKLWEMHEVTRRDDGSSLIYIDRHILHEVTSPQAFEGLRLAGRNP-WRI     55
+
+DNLJ_CROS5       315 --ALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATL-    361
+                       .:..|....||      ....|.|.      :|.:....:.:|..|| 
+LEUC_XANOM        56 DANIATPDHNVPT------TRAERQGG------LESISDEVSRLQVQTLD     93
+
+DNLJ_CROS5       362 HNSDRIAQLDIRVGDT--VIIRKAGEIIPEVVRVLKELRPPNTQPYEMPD    409
+                     .|.|....|:.::.|.  .|:...|   ||             |...:|.
+LEUC_XANOM        94 ENCDDFGILEFKMNDARQGIVHVVG---PE-------------QGATLPG    127
+
+DNLJ_CROS5       410 RCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEK    459
+                     ....|........|..              |:|.|          |:|..
+LEUC_XANOM       128 MTVVCGDSHTSTHGAF--------------GALAH----------GIGTS    153
+
+DNLJ_CROS5       460 IVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQP    509
+                     .|                    |.:...:.:.:|...||...:||:  .|
+LEUC_XANOM       154 EV--------------------EHVLATQCLITKKMKNLQVRVEGT--LP    181
+
+DNLJ_CROS5       510 FS--------RVLYGLG--------IRYVGSVTANLLVENFPSIDQLSQA    543
+                     |.        .|:..:|        :.:.||....|.:|...:|..:|..
+LEUC_XANOM       182 FGVTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALSMEGRMTICNMSIE    231
+
+DNLJ_CROS5       544 SFASLSSV--------YGVGEEIAQSIIDWFSI-----------EKNCDL    574
+                     :.|.:..|        |..|...|....||.:.           :.:.|.
+LEUC_XANOM       232 AGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVSDPDAHFDT    281
+
+DNLJ_CROS5       575 IKQLKKVGLQLET---TSSEQITVEPSLTPFSGKTFVITGTLPTLTRNEA    621
+                     :.:|....::.:.   ||.|.:.......|...     |...|| .||..
+LEUC_XANOM       282 VVELHAEDIKPQVSWGTSPEMVLAIDQHVPDPA-----TEQDPT-KRNSI    325
+
+DNLJ_CROS5       622 KALIEQAGGKVTGSVSK-KTDYLLVGEKAGSKL    653
+                     :..::..|.|...:::. :.|.:.:|....|::
+LEUC_XANOM       326 ERALKYMGLKANQAITDIRLDRVFIGSCTNSRI    358
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       4/12 (33.3%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       584 QLETTSSEQITV    595
+                     ::.||.:..||:
+LPT_ESCF3          3 RISTTITTTITI     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      31/153 (20.3%)
+# Similarity:    62/153 (40.5%)
+# Gaps:          47/153 (30.7%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       450 ALDIRGLGEKI---VVLLIENGLVNSIADLYYLT---PETIANLERMGSK    493
+                     ||||..:.|::   .||.::. |::::.:.:.:|   |..:|.....|:.
+RL7_THET8          2 ALDIERIKEELSQATVLELKQ-LIDALKEAWGVTAAAPVAVAAAPAAGAA     50
+
+DNLJ_CROS5       494 SA--------DNLIKAIEGSKQQPFS--RVLYGLGIRYVGSVTANLLVEN    533
+                     :|        |.::|.....|.:...  |.:.|||::     .|..|.|.
+RL7_THET8         51 AAPAEEKTEFDVILKEAGAKKLEVIKELRAITGLGLK-----EAKDLAEK     95
+
+DNLJ_CROS5       534 FPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGL    583
+                     ...:.:             ||.::.|:            ::.|:|:.||.
+RL7_THET8         96 GGPVKE-------------GVSKQEAE------------EIKKKLEAVGA    120
+
+DNLJ_CROS5       584 QLE    586
+                     .:|
+RL7_THET8        121 VVE    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      28/90 (31.1%)
+# Similarity:    36/90 (40.0%)
+# Gaps:          23/90 (25.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       320 AEEAPTLVKNIVVNVGRTGAV-----TPMAV-MEPVHLAGTTVQKATLHN    363
+                     |.||.|:.|.:.....||.|.     |..|: ..||.:|...:       
+HEM1_METCA       126 AREAGTVGKILTKLFHRTFAAAKKVRTDTAIGCSPVSVAFAAI-------    168
+
+DNLJ_CROS5       364 SDRIAQLDIRVGD-----TVIIRKAGEIIPEVVRVLKELR    398
+                       |:||   |:.|     |.|:..|||.|....|.|.|.|
+HEM1_METCA       169 --RLAQ---RIFDDLGDLTAILVGAGETIELTARHLTENR    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      29/143 (20.3%)
+# Similarity:    49/143 (34.3%)
+# Gaps:          52/143 (36.4%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       525 VTANLLVENFPS-----IDQLSQASFASLSSV--------YGVGEEIAQS    561
+                     :|.||::..|.:     :.:...|.|:.:..|        ..:..|:|..
+XYLB_KLEPN       118 ITGNLMMPGFTAPKLLWVQRHEAAVFSQVDKVLLPKDYLRLRMTGELASD    167
+
+DNLJ_CROS5       562 IID-----WFSIEKN---------CDLIKQLKKVGLQLETTSSEQITVEP    597
+                     :.|     |..:.:.         |||.:.                 ..|
+XYLB_KLEPN       168 MSDAAGTMWLDVARRDWSDEMLAACDLSRD-----------------AMP    200
+
+DNLJ_CROS5       598 SLTPFSGKTFVITGTL-PTLTR--NEAKALIEQAGG-KVTGSV    636
+                     :|  |.|..  :||.| |.:.:  |...||:...|| ...|:|
+XYLB_KLEPN       201 AL--FEGSD--VTGQLRPEVAQAWNMPPALVVGGGGDNAAGAV    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      32/168 (19.0%)
+# Similarity:    54/168 (32.1%)
+# Gaps:          58/168 (34.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5         2 TITPEIKQRVTQLRQQLQKANYA---------------------------     24
+                     |..|::...:||:::.|.:....                           
+RECR_NOVAD        37 TALPQLLNALTQVQELLVECGVCGNVDTSNPCGICTDHRRDQRSICVVEE     86
+
+DNLJ_CROS5        25 ---YYVLDDPIMEDAVYDQLYRELDSLEKEHPQLITPDSPTQRVGDQPAS     71
+                        .:.||...:....|..|...|.:||...|:.:|..|...||. |...
+RECR_NOVAD        87 VADLWALDRARLFTGKYHVLGGRLSALEGVRPEDLTIGSLLDRVA-QGGI    135
+
+DNLJ_CROS5        72 QFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYEKEEFTSVEYVCELKI    121
+                     ..|.:..|..|                         |..|:..|:.| ::
+RECR_NOVAD       136 DEVVLAMNATL-------------------------EGQTTAHYIAE-RL    159
+
+DNLJ_CROS5       122 DGSALALT-YENGLFVRG    138
+                     :|:|:.:| ..:||.|.|
+RECR_NOVAD       160 EGAAVRVTQLAHGLPVGG    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      28/146 (19.2%)
+# Similarity:    58/146 (39.7%)
+# Gaps:          52/146 (35.6%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       475 DLYYLTPETIANLERMG---SKSADNLIK---------AIEGS-------    505
+                     |::.:.|||    ::.|   |.|.::.::         |::|:       
+SURE_METNO        29 DVWVVAPET----DQSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDCVIM     74
+
+DNLJ_CROS5       506 ------KQQPFSRVLYGLG--------IRYVGSVTANL--LVENFPSIDQ    539
+                           |::....||.|:.        :.|.|:|...:  .:....||  
+SURE_METNO        75 GVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSI--    122
+
+DNLJ_CROS5       540 LSQASFASLSSVYGVGEEIAQSIIDWF-SIEKNCDLIKQLKKVGLQ    584
+                            :||..||||   .::.:.|. :.|.....|:::.:.|::
+SURE_METNO       123 -------ALSQAYGVG---GRANVKWHTAAEHGARTIRRILEAGIE    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      11/48 (22.9%)
+# Similarity:    18/48 (37.5%)
+# Gaps:           7/48 (14.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       247 NYLENSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKI    294
+                     ||:..:..:..||.|       .|.||.......:.:|....||:..:
+CYB_ARTIO        255 NYIPANPLITPPHIK-------PEWYFLFAYAILRSIPNKLGGVLALV    295
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 249
+# Identity:      46/249 (18.5%)
+# Similarity:    86/249 (34.5%)
+# Gaps:          70/249 (28.1%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         4 TPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHP     53
+                     |..:|:.:.....::..|.::.::...||.|  ..::..:..|.|.....
+IOLE_BACHK        55 TVVLKKSLELRNLEIASAWFSTFLTTKPIEE--TVEEFIKHRDFLHGMGA    102
+
+DNLJ_CROS5        54 QLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELK--------     95
+                     ::|.       |.:|..|  :....::||:..:..|..||.:        
+IOLE_BACHK       103 KVIV-------VSEQGHS--IQGLMDVPLFKNKPVFTEEEWEKLADGLHH    143
+
+DNLJ_CROS5        96 ----AWEKRWQRSYEKEEFTSVEYVCELK-----IDGSALALTYENGLFV    136
+                         |.||.....|.....|.|:...|::     .|.:.::|.::.|..|
+IOLE_BACHK       144 LGKLAQEKGLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGHLV    193
+
+DNLJ_CROS5       137 RGVTRGDGTTGEE----ITQNVRTIRSIPLKLNIDNPPPIVE--------    174
+                             .:|||    :.:.:..|:.:.||   |....:|:        
+IOLE_BACHK       194 --------FSGEEPLYILKKYLPRIKHVHLK---DIRQEVVDVVKEKELS    232
+
+DNLJ_CROS5       175 -----------VRGEAFLPLDEFDRINQEREEKG--------DALFANP    204
+                                |.|:..:..||...|......:|        |...|||
+IOLE_BACHK       233 FLQAVKNGAFTVPGDGVIVFDEVFTILANSNYQGWFVVEAEQDPALANP    281
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 442
+# Identity:      91/442 (20.6%)
+# Similarity:   156/442 (35.3%)
+# Gaps:         118/442 (26.7%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       119 LKIDGSALALTY------ENGLFVRGVTRGDGTTGEEIT-----QNVRTI    157
+                     |.|:..:.:|.:      |..|..:|:....|......|     :.|:|:
+ACKA_STAAT         6 LAINAGSSSLKFQLIRMPEEELVTKGLVERIGLKDSIFTIEVNGEKVKTV     55
+
+DNLJ_CROS5       158 RSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQ-----EREEKGDALFA    202
+                     :.|  |.:::    .|::..:||...:..:.||.     .|...|...| 
+ACKA_STAAT        56 QDI--KDHVE----AVDIMLDAFKAHNIINDINDIDGTGHRVVHGGEKF-     98
+
+DNLJ_CROS5       203 NPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLENS    252
+                      |.:.|          |.|:            .|.|| .:...|..|.|.
+ACKA_STAAT        99 -PESVA----------ITDE------------VEKEI-EELSELAPLHNP    124
+
+DNLJ_CROS5       253 GFL--VNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ    300
+                     ..|  :...|||...:..|..:...:.....:..|:.........:|.::
+ACKA_STAAT       125 ANLMGIRAFRKLLPNIPHVAIFDTAFHQTMPEKAYLYSLPYHYYKDYGIR    174
+
+DNLJ_CROS5       301 KALGF---TQKF--PRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPM--    343
+                     | .||   :.||  .|.|..|..|.|:    ::.|..::|...::..:  
+ACKA_STAAT       175 K-YGFHGTSHKFVSQRAAEMLDKPIED----LRIISCHIGNGASIAAIDG    219
+
+DNLJ_CROS5       344 -----AVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIP    388
+                          ..|....|||.|:       ..|...:|..: ...|:.|.|:...
+ACKA_STAAT       220 GKSIDTSMGFTPLAGVTM-------GTRSGNIDPAL-IPFIMEKTGKTAE    261
+
+DNLJ_CROS5       389 EVVRVLKE---LRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCE    435
+                     :|:.:|.:   |...:....::.|...|.:|...|..       |.|...
+ACKA_STAAT       262 QVLEILNKESGLLGLSGTSSDLRDLSEEAESGKARSQ-------MALDVF    304
+
+DNLJ_CROS5       436 AILRGSLVH-----WASR-DALDI----RGLGEKIVVLLIENGLVNSIAD    475
+                     |    |.:|     :|:| ..:|:    .|:||            ||:. 
+ACKA_STAAT       305 A----SKIHKYIGSYAARMHGVDVIVFTAGIGE------------NSVE-    337
+
+DNLJ_CROS5       476 LYYLTPETIANLERMG----SKSADNLIKAIEGSKQQPFSRV    513
+                        :..:.:..||.||    .|..:||::..||....|.|.|
+ACKA_STAAT       338 ---IRAKVLEGLEFMGVYWDPKKNENLLRGKEGFINYPHSPV    376
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      20/65 (30.8%)
+# Similarity:    25/65 (38.5%)
+# Gaps:          18/65 (27.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       327 VKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATL------HNSDRIAQ-    369
+                     |..:|.|...|      .:...:.|.||..||...      |..|:||: 
+HIS7_BURTA         3 VAEVVRNTSET------QIRVKIDLDGTGRQKLATGVPFLDHMLDQIARH     46
+
+DNLJ_CROS5       370 ----LDIRV-GDTVI    379
+                         |||.. |||.|
+HIS7_BURTA        47 GLVDLDIEAHGDTHI     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 208
+# Identity:      43/208 (20.7%)
+# Similarity:    72/208 (34.6%)
+# Gaps:          83/208 (39.9%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       346 MEPVHLAGT----TVQKATLHNS-----DRIAQLDIRVGDTVIIRKAGEI    386
+                     |:.:.:||.    :..:.|.||:     ||||||:   |.:::.::.|.:
+PTH_GEOLS          1 MDTIVIAGLGNPGSKYQWTRHNAGFLFLDRIAQLE---GLSIVRKQFGGL     47
+
+DNLJ_CROS5       387 IPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEA    436
+                     ..|..|..|.|                   .|::|.     ..||||   
+PTH_GEOLS         48 TAEWERKGKRL-------------------VLLKPQ-----TFMNLS---     70
+
+DNLJ_CROS5       437 ILRGSLVHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETI--    484
+                                         |..::..|          ..|.|.|:.:  
+PTH_GEOLS         71 --------------------GRSVMPAL----------QFYKLKPDQLIV     90
+
+DNLJ_CROS5       485 -----------ANLERMGSKSADNLIKAI-EGSKQQPFSRVLYGLGIRYV    522
+                                |.|::.|.....|.:::| |...:..|.|:..|:|....
+PTH_GEOLS         91 VHDEIDLALGAARLKQGGGHGGQNGLRSIMELLGKGDFVRLRLGIGRPPH    140
+
+DNLJ_CROS5       523 GSVTANLL    530
+                     |.||.::|
+PTH_GEOLS        141 GDVTNHVL    148
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 451
+# Identity:      80/451 (17.7%)
+# Similarity:   136/451 (30.2%)
+# Gaps:         172/451 (38.1%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        33 MED--AVYDQLY---RELDSLE-KEHP----------------QLITPDS     60
+                     |||  .|.|:.|   |.|||.| .|.|                ..:.|..
+TAF3_XENLA        95 MEDDETVNDENYLSKRPLDSPETMEMPFAKRIRLMNNKGDILDGSLEPRE    144
+
+DNLJ_CROS5        61 PTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYEKEEF    110
+                     |...:..|.....:|..|                                
+TAF3_XENLA       145 PLSSINSQKVPSVLSPAH--------------------------------    162
+
+DNLJ_CROS5       111 TSVEYVCELKIDGSALALTYENGLFVRGVTRGDG--------------TT    146
+                              |||...|.::|.:.:.:..|::...              :.
+TAF3_XENLA       163 ---------KIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSK    203
+
+DNLJ_CROS5       147 GEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEK    196
+                     |....|.:::.::.|:...|.:|     :|.....|        :||:..
+TAF3_XENLA       204 GGSPGQKIKSPKATPISTVIGSP-----IRSPKSGP--------KERKSP    240
+
+DNLJ_CROS5       197 GDA------------LFANPRNAAAGT-----LRQLDPKI------VDQR    223
+                     |.|            |.|.|......|     |..|..||      :.|.
+TAF3_XENLA       241 GCAKSPKSPKSPKVPLAAPPPAIKTETPNRTPLATLSEKIGRENIQIKQN    290
+
+DNLJ_CROS5       224 RLQFFAYTLHLEEAEISSQWESL--NYLENSGFLVNPHRKLCQFLDEVEA    271
+                     :....:..|::   ||.|:..|:  |.:|                |.::|
+TAF3_XENLA       291 QTPLDSDQLNV---EIPSKKPSIADNTIE----------------DSIDA    321
+
+DNLJ_CROS5       272 YFKQWETARKDLPY-MTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPA    320
+                     ...:....::..|: .:.|...:...::..|.|..::        |..|.
+TAF3_XENLA       322 VIARACAEQEPDPFEFSSGSESEGEVFTSPKRLNISE--------LTTPK    363
+
+DNLJ_CROS5       321 EEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQL    370
+                     ..|..      :|.|:|.:.:       |..:|.|      .:||....:
+TAF3_XENLA       364 VSASG------INPGKTSSTS-------VPASGGT------SSSDISWTM    394
+
+DNLJ_CROS5       371 DIRVGDTVIIRKAGEIIPEVVRVLKELRPPNTQP-YEMPDRCPECDSPLI    419
+                     |..:.:  :|||..:..|...       |.|..| :..|...|....||:
+TAF3_XENLA       395 DDSINE--VIRKVSQETPTNT-------PANNPPCFSSPSASPPTPEPLL    435
+
+DNLJ_CROS5       420 R    420
+                     :
+TAF3_XENLA       436 K    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 676
+# Identity:     676/676 (100.0%)
+# Similarity:   676/676 (100.0%)
+# Gaps:           0/676 ( 0.0%)
+# Score: 3448.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         1 MTITPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEK     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5         1 MTITPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEK     50
+
+DNLJ_CROS5        51 EHPQLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKR    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5        51 EHPQLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKR    100
+
+DNLJ_CROS5       101 WQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEI    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       101 WQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEI    150
+
+DNLJ_CROS5       151 TQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEKGDAL    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       151 TQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEKGDAL    200
+
+DNLJ_CROS5       201 FANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       201 FANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE    250
+
+DNLJ_CROS5       251 NSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       251 NSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ    300
+
+DNLJ_CROS5       301 KALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVH    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       301 KALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVH    350
+
+DNLJ_CROS5       351 LAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRPP    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       351 LAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRPP    400
+
+DNLJ_CROS5       401 NTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDA    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       401 NTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDA    450
+
+DNLJ_CROS5       451 LDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIK    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       451 LDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIK    500
+
+DNLJ_CROS5       501 AIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSS    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       501 AIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSS    550
+
+DNLJ_CROS5       551 VYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLT    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       551 VYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLT    600
+
+DNLJ_CROS5       601 PFSGKTFVITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAG    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DNLJ_CROS5       601 PFSGKTFVITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAG    650
+
+DNLJ_CROS5       651 SKLTQAEKLGINQLSEADLLRLLNSE    676
+                     ||||||||||||||||||||||||||
+DNLJ_CROS5       651 SKLTQAEKLGINQLSEADLLRLLNSE    676
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 411
+# Identity:      88/411 (21.4%)
+# Similarity:   147/411 (35.8%)
+# Gaps:          86/411 (20.9%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       314 IALKYPAEE---APTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKAT    360
+                     :|:....||   .|.:|:..|..|...|.|....|:||  .|...:  |.
+MUTS_MYXXD        92 VAICEQVEEPGNGPGIVRREVTRVITPGMVLDEEVLEP--QASNFL--AA    137
+
+DNLJ_CROS5       361 LHNSDR---IAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRPPNTQPYEM    407
+                     :..:|:   .|.|:...|:.:.:...|  |.|:...|..:.|   :...:
+MUTS_MYXXD       138 VSWNDKGWGAALLEASTGEFMALEAPG--IAELAESLSRVEP---RELLV    182
+
+DNLJ_CROS5       408 PD---RCPECDSPLIR-------PSGEAVIRCMNLSCE-----AILRGSL    442
+                     ||   ..||....|.|       ..|||.      |.|     ..||.  
+MUTS_MYXXD       183 PDGKRDAPEVAQLLARLVRTPAVAEGEAA------SFEPTRAAGYLRS--    224
+
+DNLJ_CROS5       443 VHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLER---    489
+                      |:|.: :|...||.:..:........:..:.|........:..|.|   
+MUTS_MYXXD       225 -HFAVQ-SLSAFGLDDAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQER    272
+
+DNLJ_CROS5       490 -----MGSKSADNL--IKAI-----EGSKQQPFSRVLYGLGIRYVGSVTA    527
+                          |...|..||  ::::     :||......:.:..||.|.:....|
+MUTS_MYXXD       273 GGNLLMDESSRANLEVLRSLRDGGRKGSLLGVLDKTVTSLGARKLARWLA    322
+
+DNLJ_CROS5       528 NLLVENFPSID-QLSQASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLI-    575
+                     :.| .:.|.|. :|......|..||:  .||:|..:.:...:|:.|..: 
+MUTS_MYXXD       323 SPL-GSLPEIHARLDAVEELSGRSVW--REELAGILKEVGDLERLCGRLS    369
+
+DNLJ_CROS5       576 ------KQLKKVGLQLETTSSEQITV----EPSLTPFSGKTFVITGTLPT    615
+                           :.|:.:||.|.........:    .|.|...:|.    ...||.
+MUTS_MYXXD       370 LGAGNARDLRALGLSLAQLPRVVAVLARCESPLLKSLTGP----LSALPE    415
+
+DNLJ_CROS5       616 LTRNEAKALIEQA------GGKVTGSVSKKTDYLLVGEKAGSKL------    653
+                     |....::|:.|:.      ||.:......:.|.|:....:|..|      
+MUTS_MYXXD       416 LAELLSRAVAEEPPVTLKDGGMIRAGFHAELDKLVALSTSGKDLLLQIEQ    465
+
+DNLJ_CROS5       654 TQAEKLGINQL    664
+                     .:.|:.||:.|
+MUTS_MYXXD       466 REKERTGISSL    476
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 393
+# Identity:      74/393 (18.8%)
+# Similarity:   126/393 (32.1%)
+# Gaps:         148/393 (37.7%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       243 WESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMT-----    287
+                     |:|||.::     .........||..:..:..|.....|..||:|     
+NOSO_STAAC        68 WDSLNVID-----ARDVTDEASFLSSITYHITQATNEGKLKPYITIYAPK    112
+
+DNLJ_CROS5       288 DGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRT    337
+                     ||  .||.|..|.:..|:..        ...|||:..|.:.|   ::|..
+NOSO_STAAC       113 DG--PKIFNNQLIRYAGYDN--------CGDPAEKEVTRLAN---HLGWK    149
+
+DNLJ_CROS5       338 GAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGD--TVIIRKAGE    385
+                     |..|...|:..::               ::....::..:  |.:|::   
+NOSO_STAAC       150 GKGTNFDVLPLIY---------------QLPNESVKFYEYPTSLIKE---    181
+
+DNLJ_CROS5       386 IIPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCE    435
+                      :|.......:||..|.:.|.:|                 :|..|:|.. 
+NOSO_STAAC       182 -VPIEHNHYPKLRKLNLKWYAVP-----------------IISNMDLKI-    212
+
+DNLJ_CROS5       436 AILRGSLVH-------WASRDALDIRGLGEKIVVLLIENGLVNSIADLYY    478
+                         |.:|:       |                .::.|.|:.|.|.|..|
+NOSO_STAAC       213 ----GGIVYPTAPFNGW----------------YMVTEIGVRNFIDDYRY    242
+
+DNLJ_CROS5       479 LTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTAN    528
+                     ...|.:|:     :...|.|       |...|::              ..
+NOSO_STAAC       243 NLLEKVAD-----AFEFDTL-------KNNSFNK--------------DR    266
+
+DNLJ_CROS5       529 LLVE-NFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQ    577
+                     .||| |:               :||...::...||:|..:..|..:|.: 
+NOSO_STAAC       267 ALVELNY---------------AVYHSFKKEGVSIVDHLTAAKQFELFE-    300
+
+DNLJ_CROS5       578 LKKVGLQLETTSSEQITVEPSLTPFSGK-TFVITGTLPTLTRN    619
+                           :.|.....|:|         || :::.....||||.|
+NOSO_STAAC       301 ------RNEAQQGRQVT---------GKWSWLAPPLSPTLTSN    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      28/139 (20.1%)
+# Similarity:    49/139 (35.3%)
+# Gaps:          54/139 (38.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        34 EDAVYDQLYRELDSLEKEHPQLITPDSPTQRVGDQPASQ--------FVS     75
+                     |:....::..:.||:|::              ||:|..|        ||:
+RBM8A_MOUSE       43 EEGSRARMREDYDSVEQD--------------GDEPGPQRSVEGWILFVT     78
+
+DNLJ_CROS5        76 VTH-------------------NIPLYSLENAFNLEELKAWEKRWQR-SY    105
+                     ..|                   ||.|       ||:....:.|.:.. .|
+RBM8A_MOUSE       79 GVHEEATEEDIHDKFAEYGEIKNIHL-------NLDRRTGYLKGYTLVEY    121
+
+DNLJ_CROS5       106 E--KEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRG    142
+                     |  ||...::|.:....:.|..:::.:   .||||..:|
+RBM8A_MOUSE      122 ETYKEAQAAMEGLNGQDLMGQPISVDW---CFVRGPPKG    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       7/18 (38.9%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       426 VIRCMNLSCEAILRGSLV    443
+                     :|..:..:|||.|..||:
+NU4LM_ARCPU       61 IILLVFAACEAALGLSLL     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:      41/154 (26.6%)
+# Similarity:    61/154 (39.6%)
+# Gaps:          28/154 (18.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       370 LDIRVGDT----VIIRKAGEIIPEVVRVLKELRPPNTQPYEMPDRCPECD    415
+                     |.|.:|.|    .:|...|:|     |..:||..|.:|   .|:...:..
+NANK_ECOLI         4 LAIDIGGTKLAAALIGADGQI-----RDRRELPTPASQ---TPEALRDAL     45
+
+DNLJ_CROS5       416 SPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLI    465
+                     |.|:.|......|....|...|..|||:      ||:...||.     |:
+NANK_ECOLI        46 SALVSPLQAHAQRVAIASTGIIRDGSLL------ALNPHNLGG-----LL     84
+
+DNLJ_CROS5       466 ENGLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGS-KQQPFSRVL    514
+                     ...||.::..|..|  .|||..:...:..|:  .:|::|. ....|..|.
+NANK_ECOLI        85 HFPLVKTLEQLTNL--PTIAINDAQAAAWAE--FQALDGDITDMVFITVS    130
+
+DNLJ_CROS5       515 YGLG    518
+                     .|:|
+NANK_ECOLI       131 TGVG    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 404
+# Identity:      70/404 (17.3%)
+# Similarity:   127/404 (31.4%)
+# Gaps:         149/404 (36.9%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        45 LDSLEKEHPQLI--------TPDSPTQRVGDQPAS-QFVSVTHNIPLYSL     85
+                     ||.::|.:|..|        ..::...|:.....: .|:..|||:     
+MIAB_MYCPE       116 LDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFNVDFIFGTHNV-----    160
+
+DNLJ_CROS5        86 ENAFNLEELKAWEKR-----W------------QRSYEKEEFTSVEYVC-    117
+                     ....||.|...:||.     |            :|:...:.|.:|.|.| 
+MIAB_MYCPE       161 HRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNVMYGCD    210
+
+DNLJ_CROS5       118 ------------------------------------ELKIDG---SALAL    128
+                                                         |:.:.|   ::..:
+MIAB_MYCPE       211 KFCTYCIVPMTRGKIRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGI    260
+
+DNLJ_CROS5       129 TYENG---LFVRGVTRGDGTTGEEITQNVRTIRSIPLKLN---IDNPPPI    172
+                     .::||   || ..:......||.|   .||...|.|....   :|.....
+MIAB_MYCPE       261 DFDNGENYLF-NNLLEDVAKTGIE---RVRFTTSNPWNFTRSIVDTMKKY    306
+
+DNLJ_CROS5       173 VEVRGEAFLPLDEFD-----RINQERE-----EKGDALFANPRNAAA---    209
+                     ..:.....||:...|     ::|:..:     :..|.:.||..|.:.   
+MIAB_MYCPE       307 PNIMPHIHLPIQSGDETILKKMNRPMKIGDYIDLVDYIRANIPNCSITTD    356
+
+DNLJ_CROS5       210 -------GTLRQLDPKIVDQRRLQF-----FAYT--------LHLEEAEI    239
+                            .|..|.:..:...:|::|     |.|:        :..:|..:
+MIAB_MYCPE       357 LIVGFPNETKEQFNKTLELYKRIEFDNAFTFIYSKRDGTVAAIIPDEIPL    406
+
+DNLJ_CROS5       240 SSQWESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWETAR---KDLPYM    286
+                     |.:.|.|                 |.|:|:...|.:....:   |.|..:
+MIAB_MYCPE       407 SEKKERL-----------------QELNEMVKTFSKKNNEKYVNKVLDVL    439
+
+DNLJ_CROS5       287 TDGVVVK----INNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVV    332
+                     .||...|    |:.||           |:|.:.....:.::..:||.::.
+MIAB_MYCPE       440 VDGPSKKDKTVISGYS-----------PQWKVVNFTGSAKSGEIVKVLIT    478
+
+DNLJ_CROS5       333 NVGR    336
+                     :..|
+MIAB_MYCPE       479 SASR    482
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      50/263 (19.0%)
+# Similarity:    90/263 (34.2%)
+# Gaps:          76/263 (28.9%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       233 HLEE---AEISSQWESLNYLENSGFLVNPHRKLCQFLDEVE---------    270
+                     |:::   .|.|...|.:..:...|.|:....:....|.:|.         
+NADK_STAES        23 HMKDFQMVEDSENPEIVISVGGDGTLLQAFHQYSHMLSKVAFVGIHTGHL     72
+
+DNLJ_CROS5       271 AYFKQWETARKDLPYMTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPA    320
+                     .::..|      ||:..:.::::|||...|              .::||.
+NADK_STAES        73 GFYADW------LPHEVEKLIIEINNSEFQ--------------VIEYPL    102
+
+DNLJ_CROS5       321 EEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQL    370
+                     .|       ::|.....|       .|..:||.......|.:.|..:..:
+NADK_STAES       103 LE-------LIVRYNDNG-------YETRYLALNEATMKTENGSTLVVDV    138
+
+DNLJ_CROS5       371 DIR-------VGDTVII---------RKA--GEIIPEVVRVLK--ELRPP    400
+                     :||       .||.:.|         .||  |.:|...:..::  |:...
+NADK_STAES       139 NIRGKHFERFRGDGLCISTPSGSTAYNKALGGALIHPSLEAMQIAEIASI    188
+
+DNLJ_CROS5       401 NTQPYE---MPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWAS    447
+                     |.:.:.   .|...|:..:.||.|.....||      ..|...|:.| .:
+NADK_STAES       189 NNRVFRTVGSPLVLPKHHTCLITPVNHDTIR------TTIDHVSIKH-KN    231
+
+DNLJ_CROS5       448 RDALDIRGLGEKI    460
+                     .:|:..|...||:
+NADK_STAES       232 VNAIQYRVANEKV    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 607
+# Identity:     121/607 (19.9%)
+# Similarity:   203/607 (33.4%)
+# Gaps:         214/607 (35.3%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       122 DGSAL-------ALTYENGLFVRGVTRGDGTTGEEITQNVRTIRSIPLKL    164
+                     ||:|:       |.|:.:|....|::.|| ...|:::   .|..|..|.|
+TRPG_CAEEL       217 DGNAVPTTSQAQAQTFNSGRQTTGMSSGD-RLNEDVS---ATANSAQLVL    262
+
+DNLJ_CROS5       165 NIDNPPPIV-EVR-GEAFLPLDEFDRINQEREEKGDALF-ANPRN---AA    208
+                         |.|:. ::| .|:.:.|:..:.:.:....:..:.| |:.|:   ..
+TRPG_CAEEL       263 ----PTPLFNQMRFTESNMSLNRHNWVRETFTRRECSRFIASSRDLHKCG    308
+
+DNLJ_CROS5       209 AGTLR-------QLDPKIVDQRRLQFFAYTLHLEEA--------EISSQ-    242
+                     .|..|       :|..:.:.|:|     ....||:.        :|::| 
+TRPG_CAEEL       309 CGRTRDAHRNIPELTSEFLRQKR-----SVAALEQQRSISNVNDDINTQN    353
+
+DNLJ_CROS5       243 ----------WE--------SLNYLENSGFLVNPHRKLCQFL----DEVE    270
+                               |.        :.|......|...||....|::    |...
+TRPG_CAEEL       354 MYTKRGANEKWSLRKHTVSLATNAFGQVEFQGGPHPYKAQYVRVNFDTEP    403
+
+DNLJ_CROS5       271 AYFKQ-----WETARKDLPYMTDGVVVKINNYSLQ------------KAL    303
+                     ||...     |:.:...|.....|   ..:|:.||            ||.
+TRPG_CAEEL       404 AYIMSLFEHVWQISPPRLIITVHG---GTSNFDLQPKLARVFRKGLLKAA    450
+
+DNLJ_CROS5       304 GFTQKFPRWAI-------ALKYPA---EEAPTLVKNIVVNVGRTGAVTPM    343
+                     ..|   ..|.|       .:|:.|   |.|.:..:|.:|.:|    :.|.
+TRPG_CAEEL       451 STT---GAWIITSGCDTGVVKHVAAALEGAQSAQRNKIVCIG----IAPW    493
+
+DNLJ_CROS5       344 AVME------------PVHLAGTTVQKATLHNSDRIAQLDI-----RVGD    376
+                     .:::            |.:.:.:..:...|:|......|..     |.|.
+TRPG_CAEEL       494 GLLKKREDFIGQDKTVPYYPSSSKGRFTGLNNRHSYFLLVDNGTVGRYGA    543
+
+DNLJ_CROS5       377 TVIIRKAGEI--------------IPEVVRVLK----ELRPPNTQPYEMP    408
+                     .||:||..|:              :|.|..||:    .:|........:|
+TRPG_CAEEL       544 EVILRKRLEMYISQKQKIFGGTRSVPVVCVVLEGGSCTIRSVLDYVTNVP    593
+
+DNLJ_CROS5       409 DRCP--ECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWA----SRDAL-    451
+                      |.|  .||.     ||.|              ..|:.:|    :.|.| 
+TRPG_CAEEL       594 -RVPVVVCDG-----SGRA--------------ADLLAFAHQNVTEDGLL    623
+
+DNLJ_CROS5       452 --DIRGLGEKIVVLLIENGLVNSIADLYYLTPE-----------TIANLE    488
+                       |||    :.|:||:|.....|.|..:.|..|           ||..|.
+TRPG_CAEEL       624 PDDIR----RQVLLLVETTFGCSEAAAHRLLHELTVCAQHKNLLTIFRLG    669
+
+DNLJ_CROS5       489 RMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSID    538
+                     ..|....|:.|                         :||.|..:|..:.|
+TRPG_CAEEL       670 EQGEHDVDHAI-------------------------LTALLKGQNLSAAD    694
+
+DNLJ_CROS5       539 QLSQASF-----ASLSSVYGVGEEIAQSIIDWFSIE----KNCDLIKQLK    579
+                     ||:.|..     .:.|.|:.:|.|..|:.:....:|    ...|.::.|.
+TRPG_CAEEL       695 QLALALAWNRVDIARSDVFAMGHEWPQAALHNAMMEALIHDRVDFVRLLL    744
+
+DNLJ_CROS5       580 KVGLQLE    586
+                     :.|:.::
+TRPG_CAEEL       745 EQGINMQ    751
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 284
+# Identity:      64/284 (22.5%)
+# Similarity:   105/284 (37.0%)
+# Gaps:          67/284 (23.6%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       386 IIPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLS--    433
+                     :.|...:||:||....|:...:.|:.|          |::.|..:|||  
+MSHD_MYCMM        31 VAPVGEQVLRELAQQRTEHLLVEDQSP----------GKSAIGYLNLSPA     70
+
+DNLJ_CROS5       434 --CEAILRGSLVHWASRDALDIRGLGEKIV-VLLIENGLVNSIADLYYLT    480
+                       .:|.:...:||..:|.    ||:...:| ..|.:.|..|.......|.
+MSHD_MYCMM        71 HGADAAMAELVVHPQARR----RGIATAMVRAALAKTGGRNQFWAHGTLA    116
+
+DNLJ_CROS5       481 PETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIR-YVGSVTANL    529
+                     |.. |....:|......|::.....:|.|...:..||.|| |.|:     
+MSHD_MYCMM       117 PAQ-ATASALGLTPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGT-----    160
+
+DNLJ_CROS5       530 LVENFPSIDQLSQASFASLSSVYGVGE-EIAQSIID-WFSIEKNCDLIKQ    577
+                       |:...:.:::.|:||......|..| ::|:...: ||.          
+MSHD_MYCMM       161 --EDDAELLRVNNAAFAYHPEQGGWTEADLAERRGEPWFD----------    198
+
+DNLJ_CROS5       578 LKKVGLQLETTSSE----QITVEPSLTPFS-----------GKTFVITGT    612
+                       ..||.|....||    ....:|.|..|.           |:.:|: |.
+MSHD_MYCMM       199 --PAGLFLALEGSEGAEDSPRGQPRLLGFHWTKIHLDDPGLGEVYVL-GV    245
+
+DNLJ_CROS5       613 LP---------TLTRNEAKALIEQAGGKVTGSVS    637
+                     .|         |||....::|.::.|.:..|..|
+MSHD_MYCMM       246 DPAAQGRGLGRTLTMIGLRSLAQRLGDRDLGRES    279
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      26/132 (19.7%)
+# Similarity:    44/132 (33.3%)
+# Gaps:          55/132 (41.7%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       449 DALDIRGL--GEKIVVLLIENG--LVNSIADLYYLTPETIANLERMGSKS    494
+                     |.:|...|  ||::.|:.|.||  ||.     |.||.|.           
+PAND_THEFY        31 DLMDAANLVDGEQVHVVNITNGHRLVT-----YVLTGER-----------     64
+
+DNLJ_CROS5       495 ADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVEN----FPSIDQL    540
+                                          |.|:..:....|.|:...    ..|..||
+PAND_THEFY        65 ---------------------GSGVIGINGAAARLVAPGDLVIIISYVQL     93
+
+DNLJ_CROS5       541 SQASFA----------SLSSVYGVGEEIAQSI    562
+                     ::|..|          :.:.:..:|:::|:.:
+PAND_THEFY        94 TEAERATHRPHVVHVDANNRIVALGDDLAEPV    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:      77/406 (19.0%)
+# Similarity:   138/406 (34.0%)
+# Gaps:         121/406 (29.8%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       334 VGRTGAVTPM-----AVMEP---VHLAGTTVQKATLHNSDRI----AQLD    371
+                     |.:||::||:     |..||   ...|..|.:|.| :.:|::    :..|
+LIPA_ASPOR        18 VPQTGSITPISRRTYATTEPSPSATGAPATARKRT-NFTDKLNAGPSFAD     66
+
+DNLJ_CROS5       372 IRVG---------------DTVIIRKAGE-------------IIPE---V    390
+                     ...|               .|.::..||.             .||:   .
+LIPA_ASPOR        67 FVSGGEDNAPLEPSEAYALKTAMVGPAGRKKEMTRLPSWLKTPIPDSKNY    116
+
+DNLJ_CROS5       391 VRVLKELRPPNTQPYEMPDRCP---ECDSPLIRPSGEAVIRCMNLSCEAI    437
+                     .|:.|:||..|........|||   :|.....:.:..|.|..|..:|...
+LIPA_ASPOR       117 QRLKKDLRGLNLHTVCEEARCPNISDCWGGSDKSAATATIMLMGDTCTRG    166
+
+DNLJ_CROS5       438 LRGSLVHWASR-------------DALDIRGLGEKIVVLLIENGLVNSIA    474
+                     .|...|....|             :|:....||..::..:..:.|.:..|
+LIPA_ASPOR       167 CRFCSVKTNRRPPPLDPHEPENTAEAISRWSLGYVVLTSVDRDDLADGGA    216
+
+DNLJ_CROS5       475 DLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLG----IR    520
+                     ..:   .||:..:::   |....|::.:.|..          ||    ::
+LIPA_ASPOR       217 RHF---AETVIKIKQ---KKPSMLVECLTGDY----------LGDLEMVK    250
+
+DNLJ_CROS5       521 YVGSVTANLLVENFPSIDQLS------QASFASLSSVYGVGEEIAQSIID    564
+                     .|.....::...|..:::.|:      :|:|.....|....::....:|.
+LIPA_ASPOR       251 LVARSGLDVYAHNVETVEALTPFVRDRRATFQQSLRVLEAAKQARPDLIT    300
+
+DNLJ_CROS5       565 WFSI--------EKNCDLIKQLKKVGLQLET------TSSEQITVEPSLT    600
+                     ..|:        |:..|.::||:.||:.:.|      .:...:.|...:|
+LIPA_ASPOR       301 KTSLMLGFGETEEQLWDALRQLRSVGVDVVTFGQYMRPTKRHMPVHEYVT    350
+
+DNLJ_CROS5       601 PFS-----------GKTFVITGTLPTLTRNEAKALIEQ----------AG    629
+                     |..           |..:..:|.|...:....:|.||.          ||
+LIPA_ASPOR       351 PDQFELWRQRALDMGFLYCASGPLVRSSYKAGEAFIENVLKKRRAAGTAG    400
+
+DNLJ_CROS5       630 GKVTGS    635
+                     ..||.|
+LIPA_ASPOR       401 ESVTDS    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:      39/190 (20.5%)
+# Similarity:    69/190 (36.3%)
+# Gaps:          40/190 (21.1%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       457 GEKIVVLLIENGLVNSIADLYYLTPETIANLE-----------RMGSKSA    495
+                     |..:.|..:..|.:::.|.:....|.|.....           .|..|.:
+FLGI_PECAS       156 GSSVQVNQLAGGRISNGAVIERELPSTFGTSNTIMLQLKNDDFSMAQKVS    205
+
+DNLJ_CROS5       496 DNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASF    545
+                     |.:.::..|....|            :.|.|..:|..:..|    ||..|
+FLGI_PECAS       206 DAINRSGYGGTASP------------LDSRTIQVLAPHGNS----SQVRF    239
+
+DNLJ_CROS5       546 -ASLSSV-YGVGEEIAQSIID--WFSIEKNCDLIKQLKKVGL-QLETTSS    590
+                      |.:.:: ..||.:.|:.:|:  ..|:..|.|:......:.. .|..|.:
+FLGI_PECAS       240 LADVQNIEVNVGIQDAKVVINSRTGSVVMNRDVTLDSCAIAQGNLSVTIN    289
+
+DNLJ_CROS5       591 EQITVEPSLTPFSGKTFVITGTLPTLTRNEAKALIEQAGG    630
+                     :|..|....|||.|...|:|        .:.:..::|.||
+FLGI_PECAS       290 QQANVSQPNTPFGGGQTVVT--------PQTEISVQQTGG    321
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 187
+# Identity:      33/187 (17.6%)
+# Similarity:    65/187 (34.8%)
+# Gaps:          25/187 (13.4%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       429 CMNLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYY    478
+                     |:|.....|..| |........||:.|...||...:|.|.:.:....::.
+LDH_BORAP         71 CVNADIVVITAG-LNQKPGETRLDLVGKNSKIFKDIITNVVSSGFDGIFV    119
+
+DNLJ_CROS5       479 LTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTAN    528
+                     :....:..:..:..|.:...|..:.|:     ..:|....:||..|...|
+LDH_BORAP        120 IASNPVDIMTYVTMKYSKFPIHKVIGT-----GTILDTSRLRYFLSDRFN    164
+
+DNLJ_CROS5       529 LLVENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDW----FSIEKNCDL    574
+                     :..:|..|               |.:||....|.:.|    .:::...:.
+LDH_BORAP        165 VNTQNIHS---------------YVMGEHGDSSFVTWDETKIAMKPLSEY    199
+
+DNLJ_CROS5       575 IKQLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITG    611
+                     :.:.|...|:|:....:.:.....:....|.|:...|
+LDH_BORAP        200 LSEGKITELELDEIHKKVVNAAYEVIKLKGATYYAIG    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      24/90 (26.7%)
+# Similarity:    34/90 (37.8%)
+# Gaps:          26/90 (28.9%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        36 AVY-DQLYRELDS---LEKEHPQLITPDSPTQRVGDQPASQFVSVTHNIP     81
+                     |.| |..|.:.||   ::||  ..|:......|.|:.|..        :.
+EXGB_EMENI       290 AAYDDHRYVKWDSSVAVDKE--SYISASCVDDRGGNWPTI--------VG    329
+
+DNLJ_CROS5        82 LYSLENAFNLEELKAWE--------KRW----QRSYEKEE    109
+                     .:||....|:|....||        .||    ..:|||:|
+EXGB_EMENI       330 EWSLSVPDNVEHTADWEPSSNTDFYARWFAAQAIAYEKQE    369
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      42/236 (17.8%)
+# Similarity:    87/236 (36.9%)
+# Gaps:          87/236 (36.9%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       448 RDALDIRGLG-----EKIVVLLIE-NGLVNSIADLYYLTPETIANLERMG    491
+                     |:.|.:|..|     |:|..||:| :..:.|||:|...:......:|:: 
+KTHY_CHLP8        29 REVLTLREPGGTPVAEQIRELLLESHNDITSIAELLLFSASRAELMEKI-     77
+
+DNLJ_CROS5       492 SKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLS    541
+                           ::.|:|..                     .:::::.|       
+KTHY_CHLP8        78 ------IVPALEDG---------------------CDVILDRF-------     93
+
+DNLJ_CROS5       542 QASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQLKKV---GLQLETT    588
+                        |.|.::..|.|..:            |.|::.::.::   |::.:.|
+KTHY_CHLP8        94 ---FDSTTAYQGYGRGL------------NLDMLAEINRIASHGIRPDIT    128
+
+DNLJ_CROS5       589 SSEQITVEPS-LTPFSGKTFVITGTLPTLTRNEAKALIEQAGGKVTGSVS    637
+                     ....:|.|.: |..||.|      :||....:|                 
+KTHY_CHLP8       129 FYLDLTPEDALLRKFSEK------SLPLAFESE-----------------    155
+
+DNLJ_CROS5       638 KKTDYLLVGEKAGSKLTQAEKLGINQLSEADLLRLL    673
+                      :.|.:   |.:|.:..|..:.|.:.:.||:..|::
+KTHY_CHLP8       156 -ELDRM---ENSGLEFYQRVRAGYHAILEAEPQRII    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 695
+# Identity:     124/695 (17.8%)
+# Similarity:   211/695 (30.4%)
+# Gaps:         299/695 (43.0%)
+# Score: 72.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        35 DAVYDQLYRELDSLEKEHPQLITPD-----------------SPTQR---     64
+                     |.:.|||..:::.|...:|.:...|                 ..|.|   
+SECA2_MYCTO      222 DVLRDQLVTDVNDLVSPNPDVALIDEADSVLVDEALVPLVLAGTTHRETP    271
+
+DNLJ_CROS5        65 -----------VGDQPASQF---------VSVTHN-----------IPLY     83
+                                |||:.|.::         |.:|.:           |.||
+SECA2_MYCTO      272 RLEIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVEKALGGIDLY    321
+
+DNLJ_CROS5        84 SLE-----------------------------------NAF--NLEELKA     96
+                     |.|                                   ||.  .:.:|:.
+SECA2_MYCTO      322 SEEHVGTTLTEVNVALHAHVLLQRDVHYIVRDDAVHLINASRGRIAQLQR    371
+
+DNLJ_CROS5        97 WEKRWQRSYEKEEFTSVEYVCEL--KIDGSALALTYENGLFVRGVTRGDG    144
+                     |....|.:.|.:|........|:  .|...||...|..   |.|:|....
+SECA2_MYCTO      372 WPDGLQAAVEAKEGIETTETGEVLDTITVQALINRYAT---VCGMTGTAL    418
+
+DNLJ_CROS5       145 TTGEEITQNVRT-IRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRIN---    190
+                     ..||::.|..:. :..||     .|.|.|.|         ||.||:.   
+SECA2_MYCTO      419 AAGEQLRQFYQLGVSPIP-----PNKPNIRE---------DEADRVYITT    454
+
+DNLJ_CROS5       191 -----------QEREEKGDALFANPRNAAAG------TLRQLDPKIV---    220
+                                .|..::|..:....|:.|..      .:|:..|.:|   
+SECA2_MYCTO      455 AAKNDGIVEHITEVHQRGQPVLVGTRDVAESEELHERLVRRGVPAVVLNA    504
+
+DNLJ_CROS5       221 ----DQRRL-----QFFAYTLHLEEA----EI----SSQWESLNYLENSG    253
+                         ::.|:     ::.|.|:..:.|    :|    |.:.:.....|..|
+SECA2_MYCTO      505 KNDAEEARVIAEAGKYGAVTVSTQMAGRGTDIRLGGSDEADHDRVAELGG    554
+
+DNLJ_CROS5       254 F-LVNPHRKLCQFLDE-------------VEAYFKQWETARKDLPYMTDG    289
+                     . :|...|...:.||.             ...:|..||         .|.
+SECA2_MYCTO      555 LHVVGTGRHHTERLDNQLRGRAGRQGDPGSSVFFSSWE---------DDV    595
+
+DNLJ_CROS5       290 VVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGA    339
+                     |...:::..|..|                 .:|...:|.      .|||:
+SECA2_MYCTO      596 VAANLDHNKLPMA-----------------TDENGRIVS------PRTGS    622
+
+DNLJ_CROS5       340 VTPMAVMEPVHLAGTTVQKATLHNSDRIAQ---LDIRVGD----------    376
+                     :                    |.::.|:|:   ||:....          
+SECA2_MYCTO      623 L--------------------LDHAQRVAEGRLLDVHANTWRYNQLIAQQ    652
+
+DNLJ_CROS5       377 -TVIIRKAGEIIPEVV--RVLKELRPPNTQPYEMPDRCPECDSPLIRPSG    423
+                      .:|:.:...::..|.  ..|.||.|...:  |:.|:..|          
+SECA2_MYCTO      653 RAIIVERRNTLLRTVTAREELAELAPKRYE--ELSDKVSE----------    690
+
+DNLJ_CROS5       424 EAVIRCMNLSCEAILRGSLVH----WAS--------RDALDIRGLGEKIV    461
+                         ..:...|..|:   |.|    ||.        |:::.:|.||.:  
+SECA2_MYCTO      691 ----ERLETICRQIM---LYHLDRGWADHLAYLADIRESIHLRALGRQ--    731
+
+DNLJ_CROS5       462 VLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFS    511
+                              |.:.:.:.:..:..|:|      :||    |||.: ||.|.
+SECA2_MYCTO      732 ---------NPLDEFHRMAVDAFASL------AAD----AIEAA-QQTFE    761
+
+DNLJ_CROS5       512 RVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGE    556
+                                   |||:| ::.|.:| ||:.:..:.:..|.|.:
+SECA2_MYCTO      762 --------------TANVL-DHEPGLD-LSKLARPTSTWTYMVND    790
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:     9/22 (40.9%)
+# Gaps:          10/22 (45.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       420 RPSGEA----------VIRCMN    431
+                     ||:|..          |.||:|
+DB108_HUMAN       30 RPNGSCRDFCLETEIHVGRCLN     51
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 362
+# Identity:      72/362 (19.9%)
+# Similarity:   116/362 (32.0%)
+# Gaps:         106/362 (29.3%)
+# Score: 57.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       338 GAVTPMAV---MEPVHLAGTTVQKATLHNS---DRIAQLDIRVGDTVIIR    381
+                     ||..|.||   .:|     ..:...|.|.:   ||:....::.|...::.
+LCMT1_CRYNB       96 GAFAPQAVGRARKP-----PLINVGTHHRTWGIDRLVDRFLQRGGKQVVS    140
+
+DNLJ_CROS5       382 KAGEIIPEVVRVLKELRPPNTQPYEMPDRCPECDSP-LIRPSGEAVIRCM    430
+                     ..........|::....||:...|      .|.|.| |..|..:.:.|..
+LCMT1_CRYNB      141 LGAGSDTRFWRLMSRATPPDLARY------VEIDFPHLTSPKAQRIARHR    184
+
+DNLJ_CROS5       431 NLSCEAILRGSLVHWASRDALDIRGLGEKIVVL-------LIENGLVNSI    473
+                     .|                    .:.||.....:       .:..|.....
+LCMT1_CRYNB      185 KL--------------------YQYLGPSSTAMPPPGHPYTVSKGGTQLS    214
+
+DNLJ_CROS5       474 ADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVG    523
+                     :.||.|.|     |:             :..|..:|.|            
+LCMT1_CRYNB      215 SPLYTLLP-----LD-------------LRPSPSEPAS------------    234
+
+DNLJ_CROS5       524 SVTANLLVENFPSIDQ------LSQASFASLSSVYGVGEEIAQSIIDWFS    567
+                     |::|.|.....|.:|.      |::..|..:|      .|.::.||.||.
+LCMT1_CRYNB      235 SISAILSHHVLPQLDPRLPTLFLAECLFPYMS------PEDSREIIKWFG    278
+
+DNLJ_CROS5       568 IEKNCDLIKQL-KKVGL--QLETTSSEQITVEPSLTPFSGKTFVITGTLP    614
+                      |..|..:..: :.|||  .........:.|         :...|.|::.
+LCMT1_CRYNB      279 -ETFCSCMGVVYEMVGLDDSFGNVMKRNLAV---------RNLSIPGSIF    318
+
+DNLJ_CROS5       615 TLTRNEAKALIEQ--AGGKVTGSVSKKTDYLLVGEKAG-SKLTQAEKLGI    661
+                     :...::|......  .|||. .|...||.:.:..|..| .:|.:..||.|
+LCMT1_CRYNB      319 STPESQAGRFTSPMLQGGKF-DSAGAKTLWQIREEDVGPEELQRISKLEI    367
+
+DNLJ_CROS5       662 NQLSEADLLRLL    673
+                       |.|.:.|||:
+LCMT1_CRYNB      368 --LDEIEELRLV    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      29/120 (24.2%)
+# Similarity:    44/120 (36.7%)
+# Gaps:          43/120 (35.8%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       104 SYEKEEFTSVEYVCEL-----------------KIDGSALALTYENGLFV    136
+                     |.:|::..::|.|..|                 ||.|..:|:.......|
+PTGA_SALTY        12 SDDKKDTGTIEIVAPLSGEIVNIEDVPDVVFAEKIVGDGIAIKPTGNKMV     61
+
+DNLJ_CROS5       137 RGVTRGDGTTGEEI-TQNVRTIRS-----IPLKLNIDNPPPIVEVRGEAF    180
+                     ..|   |||.|:.. |.:..:|.|     :.:...||.    ||::||.|
+PTGA_SALTY        62 APV---DGTIGKIFETNHAFSIESDSGIELFVHFGIDT----VELKGEGF    104
+
+DNLJ_CROS5       181 L-------------PLDEFD    187
+                     .             |:.|||
+PTGA_SALTY       105 KRIAEEGQRVKVGDPVIEFD    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      18/60 (30.0%)
+# Similarity:    27/60 (45.0%)
+# Gaps:          18/60 (30.0%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5         8 KQRVTQ----LRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHP     53
+                     |||:.:    |||.|:|.......|||.:       .:||:|.||.:.  
+RR14_CRYJA        13 KQRLERKYNLLRQSLKKEMSEVSSLDDKL-------DIYRKLQSLPRN--     53
+
+DNLJ_CROS5        54 QLITPDSPTQ     63
+                          .:||:
+RR14_CRYJA        54 -----SAPTR     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      56/222 (25.2%)
+# Similarity:    82/222 (36.9%)
+# Gaps:          47/222 (21.2%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       490 MGSKSA--DNLIKAIEGSK--------------QQPFSRVL---YGL-GI    519
+                     |..:.|  |..:||..|.|              .||..|.|   ||| .|
+DCUP_BACVZ         1 MSKREAFNDTFLKAARGEKTNHVPVWYMRQAGRSQPEYRKLKEKYGLVEI     50
+
+DNLJ_CROS5       520 RYVGSVTA---NLLVENFPSIDQ--LSQASFASLSSV-------YGVGEE    557
+                     .:...:.|   .|.||.: .:|.  |.:.....|..:       .|:|..
+DCUP_BACVZ        51 THQPELCAYVTRLPVEQY-GVDAAILYKDIMTPLPYIGVDVEIKNGIGPV     99
+
+DNLJ_CROS5       558 IAQSIIDWFSIEKNCDLIKQLKKVGLQLETTS---SEQITVEPSLTPFSG    604
+                     |.|.:.....|||..:|..: :.|...|||..   :||:.|  .|..|||
+DCUP_BACVZ       100 IDQPVRSAADIEKLGELNPE-QDVPYVLETIRLLVNEQLNV--PLIGFSG    146
+
+DNLJ_CROS5       605 KTFVITGTL----PTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEK--    648
+                     ..|.:...:    |:...|:.||.:..........:.|..|.::|..|  
+DCUP_BACVZ       147 APFTLASYMIEGGPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIVYAKAQ    196
+
+DNLJ_CROS5       649 --AGSKLTQAEKLGINQLSEAD    668
+                       ||:|..|.....:..|:..|
+DCUP_BACVZ       197 INAGAKAIQIFDSWVGALNRED    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 722
+# Identity:     139/722 (19.3%)
+# Similarity:   251/722 (34.8%)
+# Gaps:         212/722 (29.4%)
+# Score: 85.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        10 RVTQLRQQLQ---KANYAYYV-------LDDPIMEDAVYDQLYRELDSLE     49
+                     |:|.||:|::   :..||..:       :..|:.:..|.| ||  ::.| 
+GTF2I_MOUSE      357 RITDLRKQVEELFERKYAQAIKAKGPVTIPYPLFQSHVED-LY--VEGL-    402
+
+DNLJ_CROS5        50 KEHPQLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEK     99
+                        |:.|    |.:|    |:      |:.||        .||.:...::
+GTF2I_MOUSE      403 ---PEGI----PFRR----PS------TYGIP--------RLERILLAKE    427
+
+DNLJ_CROS5       100 RWQRSYEKEEFTSVEYVCELKIDGSALALTYE------------NGLFVR    137
+                     |.:...:|.|..:.... :|::|..|..:..|            :.||.:
+GTF2I_MOUSE      428 RIRFVIKKHELLNSTRE-DLQLDKPASGVKEEWYARITKLRKMVDQLFCK    476
+
+DNLJ_CROS5       138 GVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFD    187
+                     ......|:| |......:...:.|..|.::..|..:..|..::..:...:
+GTF2I_MOUSE      477 KFAEALGST-EAKAVPYQKFEAHPNDLYVEGLPENIPFRSPSWYGIPRLE    525
+
+DNLJ_CROS5       188 RINQ---------EREE---KGDALFANPR---------NAAAGTLRQLD    216
+                     :|.|         :|.|   ........||         |.....||:..
+GTF2I_MOUSE      526 KIIQVGNRIKFVIKRPELLTHSTTEVTQPRTNTPVKEDWNVRITKLRKQV    575
+
+DNLJ_CROS5       217 PKIVDQRRLQFFAYTLHLEEA--------EISSQW-------ESLNYLEN    251
+                     .:|.:.:    ||..|.|.||        |.:.::       |.:.:...
+GTF2I_MOUSE      576 EEIFNLK----FAQALGLTEAVKVPYPVFESNPEFLYVEGLPEGIPFRSP    621
+
+DNLJ_CROS5       252 SGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ-    300
+                     :.|.:....::.:..::::...|:.|..   :.|:..|:..|||..:|| 
+GTF2I_MOUSE      622 TWFGIPRLERIVRGSNKIKFVVKKPELV---VSYLPPGMASKINTKALQS    668
+
+DNLJ_CROS5       301 ----KALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVM    346
+                         ::.|...|.|...:.::.|...:|                ...||.
+GTF2I_MOUSE      669 PKRPRSPGSNSKVPEIEVTVEGPNNSSP----------------QTSAVR    702
+
+DNLJ_CROS5       347 EPVHLAGTTVQ--------KATLHNSDRIAQLDIRVGDTVIIRKAGEI--    386
+                     .|....|:.|.        .....|: :|..|..:| :.:...|.||.  
+GTF2I_MOUSE      703 TPTQTNGSNVPFKPRGREFSFEAWNA-KITDLKQKV-ENLFNEKCGEALG    750
+
+DNLJ_CROS5       387 IPEVVRVLKELRPPNTQPYEMPDRCPEC--------DSPLIRPSGEAVIR    428
+                     :.:.|:|          |:.:.:..||.        ..|..|||...:.|
+GTF2I_MOUSE      751 LKQAVKV----------PFALFESFPEDFYVEGLPEGVPFRRPSTFGIPR    790
+
+DNLJ_CROS5       429 CMNLSCEAILRG-----------SLVHWASRDALDIRGLGEKIVVLLIEN    467
+                          .|.|||.           .:...|.:::...:....||......|
+GTF2I_MOUSE      791 -----LEKILRNKAKIKFIIKKPEMFETAIKESTSSKSPPRKINSSPNVN    835
+
+DNLJ_CROS5       468 GLVNSIADLYYLTPETIANLERMGSKSADN-LIKAIEGSKQ------QPF    510
+                     ...:.:.||         |:.::.....|| .:..:|.::|      ..|
+GTF2I_MOUSE      836 TTASGVEDL---------NIIQVTIPDDDNERLSKVEKARQLREQVNDLF    876
+
+DNLJ_CROS5       511 SRVL---YGLG----IRYVGSVTAN---LLVENFPSIDQLSQASFASLSS    550
+                     ||..   .|:|    :.| ..:|.|   ::|:..|........|:..:||
+GTF2I_MOUSE      877 SRKFGEAIGMGFPVKVPY-RKITINPGCVVVDGMPPGVSFKAPSYLEISS    925
+
+DNLJ_CROS5       551 VYGV---GEEIAQSIIDWF-SIEKNCDLIKQLKKVG-----------LQL    585
+                     :..:   .|.|..::|..| .:..|..|:.|.:..|           |::
+GTF2I_MOUSE      926 MRRILDSAEFIKFTVIRPFPGLVINNQLVDQNESEGPVIQESAEASQLEV    975
+
+DNLJ_CROS5       586 -------ETTSSEQITVEPSLT    600
+                            ||..|.||..||..|
+GTF2I_MOUSE      976 PVTEEIKETDGSSQIKQEPDPT    997
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 385
+# Identity:      76/385 (19.7%)
+# Similarity:   145/385 (37.7%)
+# Gaps:         104/385 (27.0%)
+# Score: 69.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       198 DALFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLN    247
+                     |.|.||||...||..|.:  :||| |.|:.|...:::.. |:......:.
+ISPH_ACIF5         2 DILLANPRGFCAGVNRAI--QIVD-RALELFGAPIYVRH-EVVHNRHVVE     47
+
+DNLJ_CROS5       248 YLENSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLP------YMTDGVV    291
+                     .|...|.:         |::|::           ::|      :...||.
+ISPH_ACIF5        48 DLRARGAI---------FVEELD-----------EVPDAATVIFSAHGVP     77
+
+DNLJ_CROS5       292 VKINNYSLQKALG-FTQKFP---RWAIALKYPAEEAPTLVKNIVVNVGRT    337
+                     :.:..::..:.|. |....|   :..:.:|..:.:...:|  ::.:.|..
+ISPH_ACIF5        78 IAVREHAAARGLSVFDATCPLVTKVHMEVKKYSRDGMEMV--LIGHAGHP    125
+
+DNLJ_CROS5       338 GAVTPMAVMEP--VHLAGTTVQKATL--HNSDRIA---QLDIRVGDTVII    380
+                     .....|..:|.  ::|.......|||  .|.|::|   |..:.:.||.  
+ISPH_ACIF5       126 EVEGTMGQVEEGMMYLVSNVSDVATLAPRNPDKLAYITQTTLSMDDTA--    173
+
+DNLJ_CROS5       381 RKAGEIIPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCM    430
+                             ||:..|:. |.|..:..:..|.|                   
+ISPH_ACIF5       174 --------EVIVALRS-RFPLIEGPKKDDIC-------------------    195
+
+DNLJ_CROS5       431 NLSCEAILRGSLVHWASRDALD-IRGLGEKIVVLLIENGLVNSIADLYYL    479
+                                   :|:::..| ::.|...:.:||:. |..||      .
+ISPH_ACIF5       196 --------------YATQNRQDAVKSLAPDVDILLVV-GAPNS------S    224
+
+DNLJ_CROS5       480 TPETIANL-ERMGSKSADNLIKAIEGSKQQPFSRVLYG-LGIRYVGSVTA    527
+                     ....:|.| .|:|:::  :||:..:..:::.|..|  | :||....|...
+ISPH_ACIF5       225 NSSRLAELGTRLGTQT--HLIEDAQQLRREWFEGV--GKIGISAGASAPE    270
+
+DNLJ_CROS5       528 NLLVENFPSIDQLSQASFASLSSVYGVGEEIAQSI    562
+                     :|:.|   .:|.|..........:.||.|::..|:
+ISPH_ACIF5       271 SLVQE---IMDTLRGWGARVPQEMPGVEEKVTFSL    302
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      11/55 (20.0%)
+# Similarity:    16/55 (29.1%)
+# Gaps:          29/55 (52.7%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       444 HWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSK    493
+                     ||:                 |:|.....|..|.||:            ||
+NDUA1_HUMAN       44 HWS-----------------LMERDRRISGVDRYYV------------SK     64
+
+DNLJ_CROS5       494 SADNL    498
+                     ..:|:
+NDUA1_HUMAN       65 GLENI     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 333
+# Identity:      64/333 (19.2%)
+# Similarity:   109/333 (32.7%)
+# Gaps:         116/333 (34.8%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       285 YMTDGVVVKINNYSLQKALGFT--QKFPRWAIALKYPAEEAPTLVKNIVV    332
+                     |::||..:      ..:.||..  .:||....::..|          .|.
+PSRP_SALTI        11 YISDGTAI------TAEVLGHAVMSQFPVTISSITLP----------FVE     44
+
+DNLJ_CROS5       333 NVGRTGAVTPM--AVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVII    380
+                     |..|..||...  |:.:.     |.|:....::   |...:||   .:|:
+PSRP_SALTI        45 NESRARAVKDQIDAIYQQ-----TGVRPLVFYS---IVLPEIR---AIIL     83
+
+DNLJ_CROS5       381 RKAG---EIIPEVVRVLKE---------------LRPPNTQPYEMPDRCP    412
+                     :..|   :|:..:|..|::               |.|.|...|:.  |..
+PSRP_SALTI        84 QSEGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGLNPGNLNKYDA--RIA    131
+
+DNLJ_CROS5       413 ECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVV    462
+                     ..|..|                           |..|.:.:|.|.:..|:
+PSRP_SALTI       132 AIDYTL---------------------------AHDDGISLRNLDQAQVI    154
+
+DNLJ_CROS5       463 LLIENGLVNSIADLYYLTPETIANLERMGSKSA---------DNLIKAIE    503
+                     ||   |:...     ..||.::....:.|.::|         |||...  
+PSRP_SALTI       155 LL---GVSRC-----GKTPTSLYLAMQFGIRAANYPFIADDMDNLTLP--    194
+
+DNLJ_CROS5       504 GSKQQPFSRVLYGLGI----------------RYVGSVTANLLVENFPSI    537
+                      :..:|....|:||.|                ||.......:.|....::
+PSRP_SALTI       195 -TSLKPLQHKLFGLTIDPERLAAIREERRENSRYASLRQCRMEVAEVEAL    243
+
+DNLJ_CROS5       538 DQLSQASFASLSSVYGVGEEIAQSIIDWFSIEK    570
+                     .:.:|....: |:.|.| ||||..|:|...:.:
+PSRP_SALTI       244 YRKNQIPCLN-STNYSV-EEIATKILDIMGLNR    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      49/202 (24.3%)
+# Similarity:    76/202 (37.6%)
+# Gaps:          44/202 (21.8%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       119 LKIDGSALALTYE--NGLFVRGVTRGDG---------TTGEEITQNVRTI    157
+                     |.:|.:.|:|..|  .|:|.|.:.|...         :|.|: .||..||
+DNAK_CHESB       385 LLLDVTPLSLGIETLGGVFTRLIDRNTTIPTKKSQVFSTAED-NQNAVTI    433
+
+DNLJ_CROS5       158 RSI--PLKLNIDN-----------PP-----PIVEVRGEAFLPLDEFDRI    189
+                     |..  ..::..||           ||     |.:||.    ..:|....:
+DNAK_CHESB       434 RVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVT----FDIDANGIV    479
+
+DNLJ_CROS5       190 NQEREEKGDALFANPRNAAAGTLRQLD-PKIVDQRRLQFFAYTLHLEEAE    238
+                     |...::||.......|..|:|.|...: .|:|........|.....|..|
+DNAK_CHESB       480 NVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKRRETVE    529
+
+DNLJ_CROS5       239 ISSQWESLNYLENSGFLVNPHRKLCQFLDEV-EAYFKQWETARKDLPYMT    287
+                     :.:|.|:|        :.:..:.|..:.|:| |...|..|.|..:|...|
+DNAK_CHESB       530 VKNQAEAL--------IHSTEKSLKDYGDKVSEDDRKAIENAIAELKTAT    571
+
+DNLJ_CROS5       288 DG    289
+                     :|
+DNAK_CHESB       572 EG    573
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 676
+# Identity:     315/676 (46.6%)
+# Similarity:   441/676 (65.2%)
+# Gaps:          16/676 ( 2.4%)
+# Score: 1539.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         9 QRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHPQLITP     58
+                     |::..||:.::...|.|||.|.|.::|..:|:|.|:|..||.|||:||||
+DNLJ_ACIC5         8 QQIESLRESIRHHEYLYYVQDQPEIDDLAFDELMRKLQRLEAEHPELITP     57
+
+DNLJ_CROS5        59 DSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYEKE    108
+                     ||||||||.:|...|..|.|:.|:.||:|..:.|||:.||:|.:.  :..
+DNLJ_ACIC5        58 DSPTQRVGGKPKEGFAKVAHSRPMLSLDNVNSEEELRDWERRVRE--QAG    105
+
+DNLJ_CROS5       109 EFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEITQNVRTIR    158
+                     :...:|||||.|:||.::||.|.:|...||:|||||..||::|.||||||
+DNLJ_ACIC5       106 QNAEIEYVCEYKLDGLSMALHYRDGQLARGLTRGDGEIGEDVTTNVRTIR    155
+
+DNLJ_CROS5       159 SIPL-----KLNIDNPPPIVEVRGEAFLPLDEFDRINQEREEKGDALFAN    203
+                     |:||     ||.....|...|||||..:|...|:::|:|||.:|.|..||
+DNLJ_ACIC5       156 SVPLSIADGKLQQAKMPANFEVRGEVVMPFTAFEKLNEEREAQGLAPAAN    205
+
+DNLJ_CROS5       204 PRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAE--ISSQWESLNYLEN    251
+                     ||||||||:|.|:|.||.||||.|:||....|:.|  ...|.|:|:.|..
+DNLJ_ACIC5       206 PRNAAAGTIRTLEPNIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALAT    255
+
+DNLJ_CROS5       252 SGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQK    301
+                     .||.||.||...:.::.|..:..:.|..|..|.|..||||||:|:..||:
+DNLJ_ACIC5       256 LGFRVNQHRHAAKSIETVVEFVNRAEEHRSRLGYEIDGVVVKVNSAVLQR    305
+
+DNLJ_CROS5       302 ALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHL    351
+                     .||:|.:.||||:|.|:.|....|.|::|.|.|||||.:||:|.:.||.:
+DNLJ_ACIC5       306 RLGYTGRAPRWAVAYKFAARSGVTQVEDIQVQVGRTGKLTPVAWLAPVQV    355
+
+DNLJ_CROS5       352 AGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKEL-RPP    400
+                     .||||.:|||||:|.|.:|.:|:||.|.|.:.|::||:||.|:.:. .|.
+DNLJ_ACIC5       356 GGTTVTRATLHNADEIERLGLRIGDFVRIERGGDVIPKVVEVVDDAEHPR    405
+
+DNLJ_CROS5       401 NTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDA    450
+                     .|:.:..|..||.|.|.::|..|||..||:|..|.|.||.||:|:|||..
+DNLJ_ACIC5       406 GTKHFHFPHACPACGSEVVRTPGEADYRCVNTDCPARLRESLLHFASRGV    455
+
+DNLJ_CROS5       451 LDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLIK    500
+                     ::|.|:||.||:.|:..|||.:::|:|.||.|.:.:|||||.|||..|:.
+DNLJ_ACIC5       456 MNIEGMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSATALLG    505
+
+DNLJ_CROS5       501 AIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSS    550
+                     .|:.|:|.|..|||:|||||:||..||..|.|.:.|:|.|.|||...|..
+DNLJ_ACIC5       506 EIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASREELER    555
+
+DNLJ_CROS5       551 VYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLT    600
+                     |..||..::::|.::|...:|.||:::|::.||:. |....:.|     :
+DNLJ_ACIC5       556 VNDVGPRVSEAIREFFDEPRNRDLVERLREAGLRF-TGEKRKKT-----S    599
+
+DNLJ_CROS5       601 PFSGKTFVITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAG    650
+                     ..:|.|||:|||||.|:|:|||..||.|||.|:|||||||:|::.|..||
+DNLJ_ACIC5       600 QLAGLTFVLTGTLPGLSRDEAKGKIENAGGHVSGSVSKKTNYVVAGADAG    649
+
+DNLJ_CROS5       651 SKLTQAEKLGINQLSEADLLRLLNSE    676
+                     |||.:|..||:..:.||.|:::|.:|
+DNLJ_ACIC5       650 SKLEKANSLGVPVIDEAALIKMLETE    675
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      28/148 (18.9%)
+# Similarity:    47/148 (31.8%)
+# Gaps:          57/148 (38.5%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        31 PIMEDAVYDQLYRELDSLEK---------EHPQLITPDSPTQRVGDQPAS     71
+                     |...||.:..|.::|..|.|         .||..:    .::|.  :|..
+CAPSD_CMVO        25 PSSADANFRVLSQQLSRLNKTLAAGRPTINHPTFV----GSERC--KPGY     68
+
+DNLJ_CROS5        72 QFVSVTHNIPLYSLENAFNLEELKAWEKRW-----QRSYEKE--------    108
+                     .|.|:|...|        .::....:.||.     ...|:|:        
+CAPSD_CMVO        69 TFTSITLKPP--------KIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIR    110
+
+DNLJ_CROS5       109 -----EFTSVEYVCELKI----------------DGSALALTYENGLF    135
+                          :|.|..:|...|:                ||::..|.|:...|
+CAPSD_CMVO       111 VNPLPKFDSTVWVTVRKVPASSDLSVAAISAMFADGASPVLVYQYAAF    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      28/105 (26.7%)
+# Similarity:    42/105 (40.0%)
+# Gaps:          30/105 (28.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       143 DGTTGEEITQNVRTI--RSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRIN    190
+                     |||     .|.::||  |.:....|:|    ::||:..|..|:.:.|.: 
+IF3_CHLL2         32 DGT-----QQVMKTIEARRMAEDRNLD----LIEVQPNAEPPVCKLDNL-     71
+
+DNLJ_CROS5       191 QEREEKGDALFAN-------PRNAAAGTLRQL--DPKIVDQRRLQFFAYT    231
+                           |..||..       .:.....||::|  .|. .|:....|  .|
+IF3_CHLL2         72 ------GKLLFKMDKRDKDLKKKQKTTTLKELRFHPN-TDKHDFDF--KT    112
+
+DNLJ_CROS5       232 LHLEE    236
+                     .||||
+IF3_CHLL2        113 AHLEE    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      16/60 (26.7%)
+# Similarity:    30/60 (50.0%)
+# Gaps:           9/60 (15.0%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       139 VTRGDGTT---GEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDE    185
+                     :||..|.:   |::|:..|.::|...:||.::.|..:...|.|.      
+CSRA_HAEI8         4 LTRKVGESVLIGDDISITVLSVRGNQVKLGVEAPKEVSVHREEI------     47
+
+DNLJ_CROS5       186 FDRINQEREE    195
+                     :.||.|.::|
+CSRA_HAEI8        48 YQRIKQTKDE     57
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 263
+# Identity:      53/263 (20.2%)
+# Similarity:    95/263 (36.1%)
+# Gaps:          79/263 (30.0%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       461 VVLLIENGLVNSIADLYYLTPETIAN--LERMGSKSADNL-IKAIE--GS    505
+                     ::|:::.|..|.:..: |...|.|||  |.....::||.. |:.||  ..
+COAX_CLOBL         1 MILVLDVGNTNIVLGI-YKNKELIANWRLATDNKRTADEYGIQVIELFSH     49
+
+DNLJ_CROS5       506 KQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVG    555
+                     ....||.:   .|: .:.||..|::.    |::.:....|.....:.|.|
+COAX_CLOBL        50 NNLSFSDI---EGV-IISSVVPNIMY----SLEHMISKYFNIKPIIVGPG     91
+
+DNLJ_CROS5       556 --------------------------EEIAQS---IIDWFSIEKNCDLIK    576
+                                               .||.:.   |||:.:....|.:.|
+COAX_CLOBL        92 VKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIIIDFGTATTFCAVTK    141
+
+DNLJ_CROS5       577 QLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLP---------TLT    617
+                     :...:|          .|:.|.:...|...|.....||         .:.
+COAX_CLOBL       142 EANYLG----------GTICPGIKISSDALFDKAAKLPRVELVKTPGVIC    181
+
+DNLJ_CROS5       618 RNEAKALIEQAG------GKVTGSVSK-KTDYLLVGEK--------AGSK    652
+                     :|...::  |:|      |:|...||| |.:.:.:||:        ..:|
+COAX_CLOBL       182 KNTVASI--QSGIIYGYAGQVDYIVSKMKKEMMDLGEEEPFVVATGGFAK    229
+
+DNLJ_CROS5       653 LTQAEKLGINQLS    665
+                     |...|...|::::
+COAX_CLOBL       230 LISEESKSIDEIN    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           4/27 (14.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        82 LYSLENAFNLEELKAWEK----RWQRS    104
+                     |.:.|...:.||.:.|.|    :|:||
+HOP_BOVIN         35 LIAAEAGLSEEETQKWFKQRLAQWRRS     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 584
+# Identity:     109/584 (18.7%)
+# Similarity:   185/584 (31.7%)
+# Gaps:         218/584 (37.3%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         5 PEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSL----EK     50
+                     |||..:...:|::..|           |:|..:...|.|..:|:    .:
+THII_VIBA3         9 PEIFVKSESVRKRFTK-----------ILERNIRTILQRRTESVAVFNRR     47
+
+DNLJ_CROS5        51 EHPQLITPDSP----------TQRVG-----DQPASQFVSVTHNIPLYSL     85
+                     :|.: :|.:|.          ||..|     :...|:|..: |||....|
+THII_VIBA3        48 DHIE-VTSESDKYFKETLEVLTQTPGIHHSLEVQQSEFKDL-HNIYEQVL     95
+
+DNLJ_CROS5        86 ENAFNLEELKAWEKRWQRSYEKEEFTSVE---YVCELKIDGSALALTYEN    132
+                     |.:..|.|.|.:..|.:|. .|.:|||:|   ||                
+THII_VIBA3        96 ERSGALIEGKTFSVRAKRR-GKHDFTSIELERYV----------------    128
+
+DNLJ_CROS5       133 GLFVRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLP    182
+                                   |..:.|.|.:     .|:.:.||...|:|..|.   
+THII_VIBA3       129 --------------GGGLNQAVES-----AKVKLKNPDITVKVEVEN---    156
+
+DNLJ_CROS5       183 LDEFDRINQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTL    232
+                         |::||                            |.:|......:.|
+THII_VIBA3       157 ----DKLNQ----------------------------VIERHKGLGGFPL    174
+
+DNLJ_CROS5       233 HLEEAEISSQWESLNYLENSGFLVNPHRKLCQFLDE-VEAYFKQWETARK    281
+                     ..:|..:|        |.:.||            |. |.:|......::.
+THII_VIBA3       175 GTQEDLLS--------LISGGF------------DSGVSSYLHIKRGSKV    204
+
+DNLJ_CROS5       282 DLPYMTDG-----VVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTL    326
+                     ...:...|     :.||..::.|....|.:.|       :|:.:.:...:
+THII_VIBA3       205 HYCFFNLGGPAHEIGVKQVSHYLWDKYGSSAK-------VKFISIDFEPV    247
+
+DNLJ_CROS5       327 VKNIVVNV--GRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRV    374
+                     |..|:.||  |:.|.|.....|.    ||..|.:              |.
+THII_VIBA3       248 VAEILENVEDGQMGVVLKRMFMR----AGGMVAE--------------RF    279
+
+DNLJ_CROS5       375 GDTVIIRKAGEIIPEV-VRVLKELRPPNTQPYEMPDRCPECDSPLIRPSG    423
+                     |...::  .||.:.:| .:.|..||..:.          ..|:.::||  
+THII_VIBA3       280 GIEALV--TGEALGQVSSQTLTNLRHIDN----------VTDTLILRP--    315
+
+DNLJ_CROS5       424 EAVIRCMNLSCEAILRGSLVHWASRDALDI-RGLGEKIVVLLIENGLVNS    472
+                                       |::|...|.:|: |.:|.:             
+THII_VIBA3       316 ------------------LINWDKEDIIDLSRKIGTE-------------    334
+
+DNLJ_CROS5       473 IADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYV    522
+                       |...:.|      |..|..|....:||.:|..:...::    .....:
+THII_VIBA3       335 --DFAKVMP------EYCGVISKKPTVKAKKGKLEAEEAK----FNFEVL    372
+
+DNLJ_CROS5       523 GSVTANLLVENFPSIDQLSQASFASLSSVYGVGE    556
+                     ..|..|..:.:...|::.||.....:..|..|.|
+THII_VIBA3       373 EQVIENARIMDIRDIEKESQEQAPEVEQVQAVAE    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      20/69 (29.0%)
+# Similarity:    34/69 (49.3%)
+# Gaps:          10/69 (14.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       457 GEKIVVLLIENGLV---NSIADLYYL---TPETI--ANLERMGSKSADNL    498
+                     |:.|||:..|...|   .|...:||.   .|..|  .|.|::.:|:.:.:
+RL13_PSEPG        51 GDYIVVINAEQVRVTGAKSSDKMYYSHSGFPGGIKEINFEKLIAKAPERV    100
+
+DNLJ_CROS5       499 IK-AIEGS-KQQPFSRVLY    515
+                     |: |::|. .:.|..|.:|
+RL13_PSEPG       101 IETAVKGMLPKNPLGRDMY    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      21/80 (26.2%)
+# Similarity:    34/80 (42.5%)
+# Gaps:          25/80 (31.2%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       604 GKTFVITGTLPTLTRNEAKALIEQA--------------GGKVTG-SVSK    638
+                     ||.|:|.|     |:|:|..|:.:|              ||.:|. |.::
+RR2_ARATH         68 GKQFLIVG-----TKNKAADLVSRAAIRARCHYVNKKWLGGMLTNWSTTE    112
+
+DNLJ_CROS5       639 KTDYLLVGEKAGSKLTQAEKLGINQLSEAD    668
+                     |..:     |.....|:.:..|.|:|.:.|
+RR2_ARATH        113 KRLH-----KFRDLRTEQKTEGFNRLPKRD    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      58/316 (18.4%)
+# Similarity:    92/316 (29.1%)
+# Gaps:         132/316 (41.8%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         3 ITPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEH     52
+                     |.|.....|.||.||.|...|:                     :.:||| 
+Y1710_SYNP2      184 ILPVPVPAVLQLWQQRQVPVYS---------------------NGIEKE-    211
+
+DNLJ_CROS5        53 PQLITPDS---PTQRVGD--QPASQFV------SVTHNIPLYSLENAFNL     91
+                       |:||..   .|....|  ||.:..:      |.|.::||.:|      
+Y1710_SYNP2      212 --LVTPTGAAIATTLATDFCQPPAMTLAKIALGSGTIDLPLPNL------    253
+
+DNLJ_CROS5        92 EELKAWEKRWQRSYEKEEFTSVE------------YVCELKIDGSALALT    129
+                       |:.|......:...|...::|            |.||......||   
+Y1710_SYNP2      254 --LRLWIGHQPETPHLETIVTLETQIDDLNPQAIAYACEKLQAAGAL---    298
+
+DNLJ_CROS5       130 YENGLFVRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEA    179
+                        .:|.:|:|......|..:|              :..|..:||:..| 
+Y1710_SYNP2      299 ---DVFTQGITMKKNRLGTLLT--------------VICPVALVEICEE-    330
+
+DNLJ_CROS5       180 FLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRLQFFA    229
+                                        .||.  ..:..|..|....:.:.|||.:..|
+Y1710_SYNP2      331 -------------------ILFT--ETSTLGIRRHTQTRSILQRRFETVA    359
+
+DNLJ_CROS5       230 -----------------YTLHLEEAEISS-------QWESLNYLENSGFL    255
+                                      |.:..|..::.:       .|:::         
+Y1710_SYNP2      360 TPAGEIQLKIGYRGDKIYNVQPEYEDVKAIAQQTGQSWQAI---------    400
+
+DNLJ_CROS5       256 VNPHRKLCQFLDEVEA    271
+                       ..:.||||..:.|:
+Y1710_SYNP2      401 --AQQALCQFPRDAES    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      56/222 (25.2%)
+# Similarity:    79/222 (35.6%)
+# Gaps:          66/222 (29.7%)
+# Score: 58.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       136 VRGVTRGDG----TTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFL    181
+                     :.|:...|.    ..||:||               |.||   |.||.|::
+WTPC_THEKO        47 IAGIIEPDSGRIFLNGEDIT---------------DLPP---EKRGLAYI     78
+
+DNLJ_CROS5       182 PLDEFDRINQEREEKGDALFANPR---NAAAGTLRQLDPKIVDQRRLQFF    228
+                     |             :..|||.|..   |.|.|...:..||....|:::..
+WTPC_THEKO        79 P-------------QNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVREL    115
+
+DNLJ_CROS5       229 AYTL---HL--EEAEISSQWESLNYLENSGFLVNPHRKLCQFLDEVEAYF    273
+                     :..|   ||  .:.:..|..|...........|.|...|   |||..|  
+WTPC_THEKO       116 SEVLGISHLLKRKPKTLSGGEMQRVAIARALAVEPELLL---LDEPFA--    160
+
+DNLJ_CROS5       274 KQWETARKDLPYMTDGVVVKINNYS-LQKALGFTQKFPRWAIALKYPAEE    322
+                             :|...|.|.:  ||... .:|.||||      |:.:.:..||
+WTPC_THEKO       161 --------NLDVQTRGRL--INEMKRWRKELGFT------ALHVTHSFEE    194
+
+DNLJ_CROS5       323 APTLVKNIVVNV-GRTGAVTPM    343
+                     |.:|...:.|.: ||...|.|:
+WTPC_THEKO       195 AVSLGDRVGVMLNGRLVQVGPV    216
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 267
+# Identity:      55/267 (20.6%)
+# Similarity:    95/267 (35.6%)
+# Gaps:          67/267 (25.1%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       399 PPNTQ-PYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWAS    447
+                     ||:|. |.:|...|  .|:|......:.:...:|......::|       
+GRB7_RAT         193 PPHTLFPEKMVSSC--LDTPTGISHEDLIQNFLNAGSFPEIQG-------    233
+
+DNLJ_CROS5       448 RDALDIRGLG--------EKIVVLLIENGLVNSIADLYYLTPETI---AN    486
+                       .|.:||.|        ::....|..:|       |||.|..|.   .:
+GRB7_RAT         234 --FLQLRGSGRGSGRKLWKRFFCFLRRSG-------LYYSTKGTSKDPRH    274
+
+DNLJ_CROS5       487 LERMGSKSADNLIKAIEGSKQQPFSRVLYGLGIRYVGSVTANLL------    530
+                     |:.:...:..|:....:|.|       |||:...:...|..|.|      
+GRB7_RAT         275 LQYVADINESNVYVVTQGRK-------LYGIPTDFGFCVKPNKLRNGHKG    317
+
+DNLJ_CROS5       531 VENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQLKK    580
+                     :..|.|.|:.|:..:.|...::..|.::.::             .:|.:.
+GRB7_RAT         318 LHIFCSEDEQSRTCWLSAFRLFKYGVQLYKN-------------YQQAQS    354
+
+DNLJ_CROS5       581 VGLQLETTSSEQITVEPSLTPFSGKTFV---ITGTLPTLTRNEAKALIEQ    627
+                     ..|:|....|      |.|...|..|.|   .:|....:..|..:||  .
+GRB7_RAT         355 RHLRLSYLGS------PPLRSVSDNTLVAMDFSGHAGRVIENPQEAL--S    396
+
+DNLJ_CROS5       628 AGGKVTGSVSKKTDYLL    644
+                     |..:...:..|||::.|
+GRB7_RAT         397 AATEEAQAWRKKTNHRL    413
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      35/164 (21.3%)
+# Similarity:    52/164 (31.7%)
+# Gaps:          33/164 (20.1%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       288 DGVVVKINNYSLQKALGFTQK-FPRWAIALKYPAEEAPTLVKNIVVNVGR    336
+                     ||.|..:.......|||...| .||.:|.:.         |.|..||...
+PSD_RHOPS         73 DGRVSMVVQMIPPPALGLGDKPLPRVSIFMS---------VFNCHVNRSP    113
+
+DNLJ_CROS5       337 TGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGEI    386
+                     ........:..|.......:.||:..|......:....|...:::.||.:
+PSD_RHOPS        114 VAGRVERIIYSPGKFINAELDKASEDNERNSMVISTPAGQIGVVQIAGLV    163
+
+DNLJ_CROS5       387 IPEVVRVLKE---LRP----------PNTQPYEMPDRCPECDSPLIRP--    421
+                     ...:|..::|   |.|          .....|     .||...||:..  
+PSD_RHOPS        164 ARRIVSFVREGQTLAPGERFGLIRFGSRLDVY-----LPEGAKPLVSEGQ    208
+
+DNLJ_CROS5       422 ---SGEAVIRCMNL    432
+                        :||.|:...||
+PSD_RHOPS        209 TAIAGETVLADFNL    222
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 474
+# Identity:      94/474 (19.8%)
+# Similarity:   170/474 (35.9%)
+# Gaps:         154/474 (32.5%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       260 RKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVK-INNYSLQKALGFTQK    308
+                     :.|...|...:.:|  .||....:|.:|..::.. :::.||.|.......
+PP156_ARATH       13 KTLTSILTSEKTHF--LETLNPYIPQITQPLLTSLLSSPSLAKKPETLVS     60
+
+DNLJ_CROS5       309 FPRWA---IALKYPAEEAPTLV---------------KNIVVNVGRTGAV    340
+                     |.:||   |...:|::....|:               |:::|:..||.. 
+PP156_ARATH       61 FFQWAQTSIPEAFPSDSPLPLISVVRSLLSHHKFADAKSLLVSYIRTSD-    109
+
+DNLJ_CROS5       341 TPMAVMEPVHLAGTTVQKATLHNSDRI------AQLDIRVGDTVIIRK--    382
+                                |..::..:.||.:..:      |..||.:...:...|  
+PP156_ARATH      110 -----------ASLSLCNSLLHPNLHLSPPPSKALFDIALSAYLHEGKPH    148
+
+DNLJ_CROS5       383 -AGEIIPEVVRV-LKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCM    430
+                      |.:|..:::|: ||    ||.                            
+PP156_ARATH      149 VALQIFQKMIRLKLK----PNL----------------------------    166
+
+DNLJ_CROS5       431 NLSCEAILRGSLVHWASRDAL--------DIRGLGEKIVVLLIENGLVNS    472
+                      |:|..:|.| ||.:.|..::        |:..:|..:.|... |.|||.
+PP156_ARATH      167 -LTCNTLLIG-LVRYPSSFSISSAREVFDDMVKIGVSLNVQTF-NVLVNG    213
+
+DNLJ_CROS5       473 IADLYYL---TPETIANLERMGSK---SADN-----LIKAIEGSKQQPFS    511
+                         |.|   ..:.:..||||.|:   :.||     ::||:  ||:...|
+PP156_ARATH      214 ----YCLEGKLEDALGMLERMVSEFKVNPDNVTYNTILKAM--SKKGRLS    257
+
+DNLJ_CROS5       512 -----------------RVLYG---LGIRYVGSVTANLLVENFPSIDQLS    541
+                                      ||.|.   .|...:||     |.|.|..::.:.
+PP156_ARATH      258 DLKELLLDMKKNGLVPNRVTYNNLVYGYCKLGS-----LKEAFQIVELMK    302
+
+DNLJ_CROS5       542 QASFASLSSVYGVGEEIAQSIIDWFSIEKNCDLIKQLKKVGLQLETTSSE    591
+                     |.:.......|.:   :...:.:..|:.:..:|:..:|.:.||       
+PP156_ARATH      303 QTNVLPDLCTYNI---LINGLCNAGSMREGLELMDAMKSLKLQ-------    342
+
+DNLJ_CROS5       592 QITVEPSLTPFSGKTFVITGTLPTLTRNEAKALIEQ------AGGKVTGS    635
+                          |.:..::   .:|.|........||:.|:||      ...:||.:
+PP156_ARATH      343 -----PDVVTYN---TLIDGCFELGLSLEARKLMEQMENDGVKANQVTHN    384
+
+DNLJ_CROS5       636 VSKKTDYLLVGEKAGSKLTQAEKL    659
+                     :|.|  :|...||..:...:.::|
+PP156_ARATH      385 ISLK--WLCKEEKREAVTRKVKEL    406
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      14/43 (32.6%)
+# Similarity:    24/43 (55.8%)
+# Gaps:           6/43 (14.0%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       616 LTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAGSKLTQAEK    658
+                     |.|:.:||.    |...:.:.:.||||:  ||.:|.:|.|.::
+ADRB2_MESAU      342 LRRSSSKAY----GNGYSSNSNGKTDYM--GEASGCQLGQEKE    378
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       4/19 (21.1%)
+# Similarity:    12/19 (63.2%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       363 NSDRIAQLDIRVGDTVIIR    381
+                     :.|...:|.::.||.::::
+ID5B_ADEPA        11 DDDNNRRLAVKEGDPLVVQ     29
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      26/144 (18.1%)
+# Similarity:    50/144 (34.7%)
+# Gaps:          42/144 (29.2%)
+# Score: 47.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       326 LVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQ------------------    357
+                     ::|.:::..|.:|..|.:..|..:|..|.:.|                  
+GPA7_CAEEL        33 IIKLLLLGAGESGKSTILKQMRILHKDGFSQQDLEMIRPVVYSNCIHSML     82
+
+DNLJ_CROS5       358 ---KATLHNSDRIAQLDIRVGDTVII-----RKAGEIIPEVVRVLKEL-R    398
+                        :|..|......:.| ||.|:.::     ....|:..|:...::.| .
+GPA7_CAEEL        83 SILRAMFHLQIEYGEPD-RVRDSQLVFATVHANKEELTEELAAAMQRLWH    131
+
+DNLJ_CROS5       399 PP-------NTQPYEMP-------DRCPECDSPLIRPSGEAVIR    428
+                     .|       .:..|::.       |..|...||...||.:.::|
+GPA7_CAEEL       132 DPGVRECYRRSNEYQIDDSAKYFLDNLPRLSSPNYVPSEQDLLR    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      17/74 (23.0%)
+# Similarity:    29/74 (39.2%)
+# Gaps:          15/74 (20.3%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        34 EDAVYDQLYRELDSLEKEHPQLITPD------SPTQRVGDQPASQFVSVT     77
+                     ||||..:...|| .:|...|:.|.||      .|...|.::....|.:.|
+IDI_ECO24         77 EDAVIRRCRYEL-GVEITPPESIYPDFRYRATDPNGIVENEVCPVFAART    125
+
+DNLJ_CROS5        78 HNIPLYSLENAFNLEELKAWEKRW    101
+                             .:|..:.:.:..:.:|
+IDI_ECO24        126 --------TSALQINDDEVMDYQW    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 356
+# Identity:      63/356 (17.7%)
+# Similarity:   106/356 (29.8%)
+# Gaps:         110/356 (30.9%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       267 DEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQKALGFTQKFPRWA--I    314
+                     ||..|....|...::...|.::....:..|..:|.   ..||.|..|  :
+YHJA_ECOLI       141 DEERAEILAWIAKQRAEYYASNDTAPEHRNEPVQP---IPQKLPTDAQKV    187
+
+DNLJ_CROS5       315 ALKYPAEEAPTLVKNIVV------------------NVGRTGAVTPMAVM    346
+                     ||.:.....|.|..:..:                  ::|..|||.|    
+YHJA_ECOLI       188 ALGFALYHDPRLSADSTISCAHCHALNAGGVDGRKTSIGVGGAVGP----    233
+
+DNLJ_CROS5       347 EPVHLAGTTVQKATLHNS---------DRIAQLDIRVGDTVI--IRKAGE    385
+                              :...|:.||         .|.|.|..:.|...:  |..|.:
+YHJA_ECOLI       234 ---------INAPTVFNSVFNVEQFWDGRAATLQDQAGGPPLNPIEMASK    274
+
+DNLJ_CROS5       386 IIPEVVRVLK----------ELRPPNTQPYEMPDRCPECDSPLIRPSGEA    425
+                     ...|::..|:          |:.|.......:.|...|.:..||.|.   
+YHJA_ECOLI       275 SWDEIIAKLEKDPQLKTQFLEVYPQGFSGENITDAIAEFEKTLITPD---    321
+
+DNLJ_CROS5       426 VIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLIEN-------G    468
+                                   .....|...|...:....:|...|..:|       |
+YHJA_ECOLI       322 --------------SPFDKWLRGDENALTAQQKKGYQLFKDNKCATCHGG    357
+
+DNLJ_CROS5       469 LV---NSIADL-----YYLTPETIANLERMG--SKSADNLIKAIEGSKQQ    508
+                     ::   .|...|     :.....|.|::.||.  .:..|.|.:.:.|.:..
+YHJA_ECOLI       358 IILGGRSFEPLGLKKDFNFGEITAADIGRMNVTKEERDKLRQKVPGLRNV    407
+
+DNLJ_CROS5       509 PFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEI    558
+                     ..:...:..|              :.|::|     ....|...|.||:|:
+YHJA_ECOLI       408 ALTAPYFHRG--------------DVPTLD-----GAVKLMLRYQVGKEL    438
+
+DNLJ_CROS5       559 AQSIID    564
+                     .|..:|
+YHJA_ECOLI       439 PQEDVD    444
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      28/115 (24.3%)
+# Similarity:    46/115 (40.0%)
+# Gaps:          26/115 (22.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       571 NCDLI-KQLKKVGLQLETTSSEQITV-EPSL----------TPFSGKTFV    608
+                     :|:.: :||:.| |.:|....|::.| .|.|          |.|:|...|
+RIMP_BURPS        43 DCEKVTRQLQHV-LTVENIDYERLEVSSPGLDRPLKKLADFTRFAGSEAV     91
+
+DNLJ_CROS5       609 ITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAGSKLTQAEK    658
+                     ||...|...|...:.::....|:..|...::..    ||.|....|    
+RIMP_BURPS        92 ITLKKPLDGRKTYRGILHAPNGETIGLEFERKK----GEAAMLDFT----    133
+
+DNLJ_CROS5       659 LGINQLSEADLLRLL    673
+                          |::.|..||:
+RIMP_BURPS       134 -----LADIDKARLI    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       322 EAPTLVKNIVVNVGRTGA    339
+                     :.|.....:..|:||||:
+RS28_OSTOS         2 DKPVKPAXVTKNIGRTGS     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      24/117 (20.5%)
+# Similarity:    43/117 (36.8%)
+# Gaps:          18/117 (15.4%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       226 QFFAYTLH---LEEAEISSQWESLNYLENSGFLVNPHRKLCQFLDEVEAY    272
+                     |:.|..||   |...:..:.:.:.::..||..|.|..:|:...|.:...:
+HBAC_LITCT        24 QYGAEALHRMFLCHPQTKTYFPNFDFHANSAHLKNHGKKVMNALTDAVKH     73
+
+DNLJ_CROS5       273 FKQWE---TARKDLPYMT-----DGVVVKINNYSLQKALGFTQKFPRWAI    314
+                     ....|   ::..||...|     ....:..||..:..|:..:.|      
+HBAC_LITCT        74 LDHPEASLSSLSDLHAFTLRVDPGNFALLSNNILVVVAVHHSDK------    117
+
+DNLJ_CROS5       315 ALKYPAEEAPTLVKNIV    331
+                      |.|...:|.....|:|
+HBAC_LITCT       118 -LSYETHQALDKFLNVV    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 398
+# Identity:      89/398 (22.4%)
+# Similarity:   154/398 (38.7%)
+# Gaps:          91/398 (22.9%)
+# Score: 108.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       200 LFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYL    249
+                     ||:.|.|....:.....|        :..|..|.||:.::   ||.:.  
+RPOA_PRRSS      1174 LFSTPSNPVGSSCDHDSP--------ECHAELLALEQRQL---WEPVR--   1210
+
+DNLJ_CROS5       250 ENSGFLVNPHRKLCQFLDEVEAYFKQ-WETARKDLPYMTD---GVVVKIN    295
+                        |.:|.|...||..|.::....:. |....: |..:||   .:|..::
+RPOA_PRRSS      1211 ---GLVVGPSGLLCVILGKLLGGSRHLWHVILR-LCMLTDLALSLVYVVS   1256
+
+DNLJ_CROS5       296 NYSLQKALGFTQKFPRWAIALK-YPAEEAPTLVKNIVVNVGRTGAVTPMA    344
+                     .....|..|...:.....:||. :|...|   .:|.:.:: .....||..
+RPOA_PRRSS      1257 QGRCHKCWGKCIRTAPAEVALNVFPFSRA---TRNSLTSL-CDRFQTPKG   1302
+
+DNLJ_CROS5       345 VMEPVHLA----GTTVQKATLHNSDR----IAQLDIR--VGDTV------    378
+                     | :|||||    |....::.:|...:    .|.||.:  ...||      
+RPOA_PRRSS      1303 V-DPVHLATGWRGCWRGESPIHQPHQKPIAYANLDEKKISAQTVVAVPYD   1351
+
+DNLJ_CROS5       379 ---------IIRKAGEII----PEVVRVLKELRPPNTQPY--EMPDRCPE    413
+                              :::..|.|:    |||||| .|:  |.:.|:  ::|.. |:
+RPOA_PRRSS      1352 PSQAIKCLKVLQAGGAIVDQPTPEVVRV-SEI--PFSAPFFPKVPVN-PD   1397
+
+DNLJ_CROS5       414 CDSPLIRPSGEAVIRCMNLSCEAIL-RGS---LVHWASRDALDIRGLGEK    459
+                     |...:...:..|.:||...:.:.:| ||:   |.....||:...:..|..
+RPOA_PRRSS      1398 CRIVVDSDTFVAAVRCGYSTAQLVLGRGNFAKLNQTPLRDSASTKTTGGA   1447
+
+DNLJ_CROS5       460 IVVLLIEN----GLVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGS    505
+                     ...|.:..    .||:.|..|::.:|:.      .|..:||...      
+RPOA_PRRSS      1448 SYTLAVAQVSVWTLVHFILGLWFTSPQV------CGRGTADPWC------   1485
+
+DNLJ_CROS5       506 KQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQASFASLSSVYG    553
+                      ..|||...||.|:    ..::.|.|    |.|.::...|::::.:.|
+RPOA_PRRSS      1486 -SNPFSYPAYGPGV----VCSSRLCV----SADGVTLPLFSAVAQLSG   1524
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      48/254 (18.9%)
+# Similarity:    89/254 (35.0%)
+# Gaps:          67/254 (26.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        61 PTQRVG------DQPASQFVSVTHNIPL-YSLENAFNLEELKAW--EKRW    101
+                     ||...|      .|.|.:...|.|::.. |.|.|     :|.:.  .:.|
+UBIE_PSEAE        12 PTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMN-----DLMSGGIHRLW     56
+
+DNLJ_CROS5       102 QRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEIT    151
+                     :|      || :| :..::.....|.:....|...|..:|..|.|||.:.
+UBIE_PSEAE        57 KR------FT-IE-LSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVL     98
+
+DNLJ_CROS5       152 QNV-----RTIRSIPLKLNIDNPPPIVEVRGEAF-LPLDEFDRIN-----    190
+                     .::     :..|...|...:......|:...|.. .|.:.||.:.     
+UBIE_PSEAE        99 ADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGL    148
+
+DNLJ_CROS5       191 QEREEKGDAL-----------------FANPR--------NAAAGTLRQL    215
+                     :....|.:|:                 |:.|.        :|.:.:|..|
+UBIE_PSEAE       149 RNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPL    198
+
+DNLJ_CROS5       216 DPKIV--DQRRLQFFAYTLH-------LEEAEISSQWESLNYLENSGFLV    256
+                     ..|:|  |....::.|.::.       |:...:.:.::.:.|...:|.:|
+UBIE_PSEAE       199 MGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRVTYHNMTGGIV    248
+
+DNLJ_CROS5       257 NPHR    260
+                     ..||
+UBIE_PSEAE       249 ALHR    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:      99/576 (17.2%)
+# Similarity:   180/576 (31.2%)
+# Gaps:         214/576 (37.2%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        94 LKAWEKRWQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGD    143
+                     :|...:..|:||.|.  .|..|:..||:.|..::   ..|:::..:....
+FLII_AQUAE         1 MKGIRRNLQKSYLKR--CSEMYLRGLKVSGEIVS---AKGIYLEAILPFA     45
+
+DNLJ_CROS5       144 GTTGE-EITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLPLDEFDRINQE    192
+                     ....| ||..|.|.||...:..:.|.   ::.:..|....|.:.|::..:
+FLII_AQUAE        46 NIGNEVEIQSNSRRIRGEVIGFSGDK---VLVMPYEPVFGLRKGDKVLLK     92
+
+DNLJ_CROS5       193 RE----EKGDAL-------FANPRNAA--------AGTLRQLDPKIVDQR    223
+                     .|    :.|:.:       |.||.:..        ...|.|::|...::.
+FLII_AQUAE        93 NELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQINPLYRERI    142
+
+DNLJ_CROS5       224 RLQFFAYTLHLEEAEISSQWESLNYLENSGF-------LVNPH-------    259
+                     |..|......:.......:.:.:.....:|.       ::..|       
+FLII_AQUAE       143 REVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKSTLLGMITRHSKADVVV    192
+
+DNLJ_CROS5       260 --------RKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQK    301
+                             |::.:||:||                        :....|:|
+FLII_AQUAE       193 LALIGERGREVKEFLEEV------------------------LGEEGLKK    218
+
+DNLJ_CROS5       302 ALGFTQKFPRWAIALKYPAEEAPTL-VKNIVVNVGRTGAVTPMAVMEPVH    350
+                                ::.:...|:::|.| ||         ||::  ||:...|
+FLII_AQUAE       219 -----------SVVVVSTADQSPILKVK---------GAIS--AVVHAHH    246
+
+DNLJ_CROS5       351 LAGTTVQKATLHNS-DRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRP    399
+                     .|........|.:| .|:|.....:|     ..|||             |
+FLII_AQUAE       247 FASQGKDVLLLMDSITRLALAQREIG-----LAAGE-------------P    278
+
+DNLJ_CROS5       400 PNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRD    449
+                     |..:.:              .||...::..:..||.|..:||:.      
+FLII_AQUAE       279 PTLKGF--------------TPSVFQLLTRIAESCGAFKKGSIT------    308
+
+DNLJ_CROS5       450 ALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLERMGSKSADNLI    499
+                              .|..:|:|       .|...|.|            .||:|:
+FLII_AQUAE       309 ---------GIFTVLVE-------GDDISLDP------------IADSLM    330
+
+DNLJ_CROS5       500 KAIEGSKQQPFSRVLYGLGIRYVGSVTANLLVENFPSIDQLSQAS-----    544
+                     ..::|.......|.:.||                ||::|.:...|     
+FLII_AQUAE       331 GVLDGHIILSRKRAVRGL----------------FPAVDPVRSLSRLMPK    364
+
+DNLJ_CROS5       545 ------------FASLSSVYGVGEEI---------AQSIIDWFSIEKNCD    573
+                                 |..:.|.:...||:         :..::|        .
+FLII_AQUAE       365 LVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGGSNPLVD--------K    406
+
+DNLJ_CROS5       574 LIKQLKKVGLQLETTSSEQITVEPSL    599
+                     :|..|:||....:....|::..|.||
+FLII_AQUAE       407 VINNLEKVESFFKQKPEEKVNFEESL    432
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      56/292 (19.2%)
+# Similarity:   100/292 (34.2%)
+# Gaps:          81/292 (27.7%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       378 VIIRKAGEIIP-----EVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPS    422
+                     :::.|..:.||     ::::.:::|:....|..:.....|:.....:.|.
+MSS11_VANPO      506 MMLSKNNQQIPQQMQQQMMQQMQQLQQQQQQALQQNTGKPQLSHQFVVPV    555
+
+DNLJ_CROS5       423 GEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLG---EKIVVLLIENGL    469
+                     ...|:....        ||..  ::|...:.|...   :|:..:..:|  
+MSS11_VANPO      556 NNQVVTTPG--------GSST--SARTKSNARSTNTNKKKMETVSKKN--    593
+
+DNLJ_CROS5       470 VNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLGI    519
+                      |..:|:.  :|.||..:....| |..|:|.:.:|:              
+MSS11_VANPO      594 -NKRSDIN--SPATIVPISTPTS-SDGNIISSTQGT--------------    625
+
+DNLJ_CROS5       520 RYVGSVTANLLVENFPSIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIE    569
+                                  |||.:: ||||. ...|...|.||             
+MSS11_VANPO      626 -------------NFPIVN-LSQAP-TPTSKAEGDGE-------------    647
+
+DNLJ_CROS5       570 KNCDLIKQLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLPTLTRN    619
+                          ..|.||...:...|.:..::..   ||.:|.|   ..:.|..|..
+MSS11_VANPO      648 -----AGQNKKRRRKKPKTPNTNVSAS---TPTAGNT---ANSTPVTTSG    686
+
+DNLJ_CROS5       620 EAKALIEQAGGKVTGSVSKKTDYLLVGEKAGSKLTQAEKLGI    661
+                     ...:::    |..|.|..|:|....|....||..|...:|.|
+MSS11_VANPO      687 VNSSVV----GSATTSNDKRTPSNTVANNDGSMQTNVNELDI    724
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 720
+# Identity:     137/720 (19.0%)
+# Similarity:   234/720 (32.5%)
+# Gaps:         241/720 (33.5%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5         7 IKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHPQLI     56
+                     :.:::.:|.:.::| ::...::..|..|.|  .|:|..|.||...||...
+SPB4_ASPFU        72 VVEKLLRLEEPIKK-HHVGAIIISPTRELA--SQIYNVLSSLLAFHPPSA    118
+
+DNLJ_CROS5        57 TPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYE    106
+                     ...:|::. .|.|..:|.|.|                             
+SPB4_ASPFU       119 AAINPSED-DDAPRPKFPSST-----------------------------    138
+
+DNLJ_CROS5       107 KEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEIT----Q    152
+                           ::.|.:|.:.||.                   |..|:::    :
+SPB4_ASPFU       139 ------LKVVPQLLLGGST-------------------TPAEDLSTFLKR    163
+
+DNLJ_CROS5       153 NVRTIRSIPLKLNIDNPPPIVEVRGEAF--LPLDEFDRINQEREEKGDAL    200
+                     :...:.|.|.:|......|.|.....:|  |.|||.||:          |
+SPB4_ASPFU       164 SPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRL----------L    203
+
+DNLJ_CROS5       201 FANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE    250
+                     ....:......||:| ||   |||...|:       |.:|   |:::.:.
+SPB4_ASPFU       204 DLGFKETLQNILRRL-PK---QRRTGLFS-------ASVS---EAVDQIV    239
+
+DNLJ_CROS5       251 NSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ    300
+                     ..| |.||.:.:.:...                   ..||..|....|||
+SPB4_ASPFU       240 RVG-LRNPVKVMVKVKG-------------------GSGVDDKRTPASLQ    269
+
+DNLJ_CROS5       301 KALGFTQKFPRWAIALKYPAEEAPTLVKNIVV-----NVGRTGAVTPMA-    344
+                     .....|....::|...:..:...||.:|.|..     .|....|:.|:. 
+SPB4_ASPFU       270 MTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLL    319
+
+DNLJ_CROS5       345 ----VMEPVHLAGTTVQKATLHNSDR-IAQLDIRVGDTVIIRKAGEIIPE    389
+                         ::.|:|  |.........|.:| |...|..:..|..:...|..||.
+SPB4_ASPFU       320 GDDFLLIPLH--GKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPS    367
+
+DNLJ_CROS5       390 VVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILR    439
+                     |..|: ::.|| :.|.....||..        :|.|              
+SPB4_ASPFU       368 VDLVV-QIDPP-SDPKSFIHRCGR--------AGRA--------------    393
+
+DNLJ_CROS5       440 GSLVHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLER    489
+                                 ..|||.    |:|:..|                     
+SPB4_ASPFU       394 ------------GRRGLS----VVLLHPG---------------------    406
+
+DNLJ_CROS5       490 MGSKSADNLIKAIEGSKQQ--PFS-RVLYGLGIRYVGSVTANLLVENFPS    536
+                         ..::.:..:|..|..  ||| .:.:........:.||...|....:
+SPB4_ASPFU       407 ----REEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRA    452
+
+DNLJ_CROS5       537 IDQLSQASFAS---------LSSVYGVGEEIAQSIIDWFSIEKNCDLIKQ    577
+                     :....|.:|.|         .||::.|.:      :||.::.|...|:| 
+SPB4_ASPFU       453 LHDRGQKAFVSWLRSYSKHQASSIFRVSD------LDWEALGKAWGLLK-    495
+
+DNLJ_CROS5       578 LKKVGLQLETTSSEQITVEPSLTPFSG-KTFVITGTLPTLT-------RN    619
+                     |.|:               |.|..|:| ||..::.......       :.
+SPB4_ASPFU       496 LPKM---------------PELKNFTGDKTLGMSLDWDNYAYKDKQREKR    530
+
+DNLJ_CROS5       620 EAKALIEQAGGKVTGSVSKK---TDYLLVGEKAGS----------KLTQA    656
+                     ..:.|.|.|....|.|.|.|   |:.:...::|.|          |.::.
+SPB4_ASPFU       531 RKELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKRREQKKSKQ    580
+
+DNLJ_CROS5       657 EKLGINQLSEADLLRLLNSE    676
+                     ||....:::|.:..::|.:|
+SPB4_ASPFU       581 EKARWEKMTEEEKQKVLETE    600
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 396
+# Identity:      75/396 (18.9%)
+# Similarity:   129/396 (32.6%)
+# Gaps:         128/396 (32.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       313 AIALKYPAEEAPTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLH    362
+                     ::|:.:..:|....|..:.:::|:.|  ..|.|:....|....|:...:.
+ASSY_MYCTO        16 SVAISWIGKETGREVVAVAIDLGQGG--EHMDVIRQRALDCGAVEAVVVD     63
+
+DNLJ_CROS5       363 NSDRIAQLDIRVGDTVIIRKAGEIIPEVVRVLKELRPPNTQPYEMPDRCP    412
+                     ..|..|:              |..:|.|:         |...|  .||.|
+ASSY_MYCTO        64 ARDEFAE--------------GYCLPTVL---------NNALY--MDRYP     88
+
+DNLJ_CROS5       413 ECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVV    462
+                      ..|.:.||          |..:.::..:..|.....|....|.|...| 
+ASSY_MYCTO        89 -LVSAISRP----------LIVKHLVAAAREHGGGIVAHGCTGKGNDQV-    126
+
+DNLJ_CROS5       463 LLIENGLVNSIADLYYLTP--ETIANLERMGSKSADNLIKAIEGSKQQPF    510
+                      ..|.|..:...||..|.|  :.....|:..:.:.:|.| .|..:|:.||
+ASSY_MYCTO       127 -RFEVGFASLAPDLEVLAPVRDYAWTREKAIAFAEENAI-PINVTKRSPF    174
+
+DNLJ_CROS5       511 S--RVLYGLGIR-----------------YVGSVTAN-------------    528
+                     |  :.::|..:.                 |....|.|             
+ASSY_MYCTO       175 SIDQNVWGRAVETGFLEHLWNAPTKDIYAYTEDPTINWGVPDEVIVGFER    224
+
+DNLJ_CROS5       529 ---LLVENFP-----SIDQLSQASFASLSSVYGVGEEIAQSIIDWFSIEK    570
+                        :.|:..|     :|::|::.:.|.     |||               
+ASSY_MYCTO       225 GVPVSVDGKPVSMLAAIEELNRRAGAQ-----GVG---------------    254
+
+DNLJ_CROS5       571 NCDLIKQLKKVGLQLET--------------TSSEQITVEPSLTPFSGKT    606
+                     ..|:::. :.||::...              |..|.:|:|..|..|..:|
+ASSY_MYCTO       255 RLDVVED-RLVGIKSREIYEAPGAMVLITAHTELEHVTLERELGRFKRQT    303
+
+DNLJ_CROS5       607 ------FVITGTLPTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVG    646
+                           .|..|    |..:..||.:|....|....||.:...:|.|
+ASSY_MYCTO       304 DQRWAELVYDG----LWYSPLKAALEAFVAKTQEHVSGEVRLVLHG    345
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      50/240 (20.8%)
+# Similarity:    81/240 (33.8%)
+# Gaps:          77/240 (32.1%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5         3 ITPEIKQRVTQLRQQLQKANYAYYVLDDPIMEDAVY----DQLY------     42
+                     :.|:...||........:|..:|.::..|.:|.:|.    :|:|      
+ECCB1_MYCS2      283 VLPDGVARVNNTTAAALRATNSYGLMQPPAVEASVVAKIPEQVYVSPLPD    332
+
+DNLJ_CROS5        43 RELDSLEKEHPQLITPDSPT------QRVGDQPASQFVSVTHNIPLYSLE     86
+                     :.||.|.::       |||.      :..|||.....|.....:||.:  
+ECCB1_MYCS2      333 QPLDVLLRQ-------DSPVLCWSWQREPGDQAPKTTVIAGRRLPLPA--    373
+
+DNLJ_CROS5        87 NAFNLEELKAWEKRWQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFV    136
+                     ||..                    |.::.:      |....:..|.|.||
+ECCB1_MYCS2      374 NAIG--------------------TGIDQI------GGDSTVYIEGGQFV    397
+
+DNLJ_CROS5       137 RGVTRGDGTTGEEI----TQNVR-------TIRSIPLKLNIDNPPPIVE-    174
+                     | :...|...||.:    .|.||       ..:::.|...::.|..:|. 
+ECCB1_MYCS2      398 R-LQSPDPRVGESMYYIDPQGVRYGIANDDAAKNLGLAGPVNAPWQVVGL    446
+
+DNLJ_CROS5       175 -VRGEAF---LPLDEFDRINQEREEKGDALFANPRNAAAG    210
+                      |.|...   ..|.|.|.:..:         .|||..|:|
+ECCB1_MYCS2      447 LVDGPVLSKEAALIEHDTLPAD---------PNPRKVASG    477
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      18/62 (29.0%)
+# Similarity:    23/62 (37.1%)
+# Gaps:          10/62 (16.1%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5       614 PTLTRNEAKALIEQAGGKVTGSVSKKTDYLLVGEKAGSKLTQ----AEKL    659
+                     ||:...:.:......|.|      |.|...::|.....|.||    .|..
+KCY4_ORYSJ         8 PTVVAGQEEVTDNMLGDK------KVTVVFVLGGPGSGKGTQCANIVEHF     51
+
+DNLJ_CROS5       660 GINQLSEADLLR    671
+                     |...||..||||
+KCY4_ORYSJ        52 GFIHLSAGDLLR     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 460
+# Identity:      98/460 (21.3%)
+# Similarity:   152/460 (33.0%)
+# Gaps:         155/460 (33.7%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       229 AYTLHLEEAEISSQWESLNYLENSGFLVNPHRKLCQFLDEVEAYFKQWET    278
+                     ||..|  ..|::...||| |:.....|.|        ||..:...:.|  
+HCP_TRIV2        159 AYAFH--ALELNQHDESL-YIFFHEVLAN--------LDAQDKSLQDW--    195
+
+DNLJ_CROS5       279 ARKDLPYMTDGVVVKINNYSLQKAL-----GFTQKFPRWAIALKYPAEEA    323
+                       .||       .:|:...:| ||:     |.|:.|              
+HCP_TRIV2        196 --LDL-------TLKVGQMNL-KAMELLDAGNTETF--------------    221
+
+DNLJ_CROS5       324 PTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRI----AQ    369
+                                   |..||..|  |:   |.||.||.|.:...:    |.
+HCP_TRIV2        222 --------------GHPTPTTV--PL---GHTVGKAILVSGHDLLALKAV    252
+
+DNLJ_CROS5       370 LDIRVGDTVIIRKAGEIIP-EVVRVLKELRPP---------NTQPYEMPD    409
+                     |:...|..:.:...||::| .....||:..|.         ..|.:|. :
+HCP_TRIV2        253 LEQTSGTGIKVYTHGELLPAHGYPKLKQTHPHLYGHYGTAWQNQTHEF-E    301
+
+DNLJ_CROS5       410 RCP-------ECDSP----------LIRPSGEAVIRCMNLSCEAILRGSL    442
+                     |.|       .|..|          .:.|.|...::  ::|...|   ||
+HCP_TRIV2        302 RFPGAIVMTTNCLMPPHETYKDKVFTLGPVGYPGLQ--HISIHDI---SL    346
+
+DNLJ_CROS5       443 VHWASRDALDIRGLGE----KIVVLLIENGLVNSIADLYYLTPETIANLE    488
+                     |   .:.||::.|..|    |.|........|..:||       |:.|..
+HCP_TRIV2        347 V---IQKALELPGFTEDSEQKTVTTGFARNAVLGVAD-------TVINAV    386
+
+DNLJ_CROS5       489 RMGSKSADNLIKAIEGSK-----------QQPFSRVLYGLGIRYVGSVTA    527
+                     :.|......|:...:|:|           :.|...|:..||.........
+HCP_TRIV2        387 KQGDIRHFFLVGGCDGAKPGRNYYSDLVEKIPNDCVVLTLGCGKFRFFDQ    436
+
+DNLJ_CROS5       528 NL-LVENFPSIDQLSQASFA--------SLSSVY--GVGEEIAQSIIDWF    566
+                     || .:...|.:..|.|.:.|        :|::.:  .|.:.....|:.|:
+HCP_TRIV2        437 NLGDIGGIPRLLDLGQCNDAYSAIQIAVALANTFEVNVNQLPLSMILSWY    486
+
+DNLJ_CROS5       567 SIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLTPFSGKTFVITGTLPTL    616
+                     . :|...::..|..:|:|       .|.:.|:|..|             |
+HCP_TRIV2        487 E-QKAIAVLLTLLYLGIQ-------NIRIGPTLPAF-------------L    515
+
+DNLJ_CROS5       617 TRNEAKALIE    626
+                     |.|..|.|.|
+HCP_TRIV2        516 TPNVVKLLSE    525
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 367
+# Identity:      74/367 (20.2%)
+# Similarity:   115/367 (31.3%)
+# Gaps:         125/367 (34.1%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        84 SLENAFNLEELK----------AWEKRWQRSYEKEEFTSVEYVCELKIDG    123
+                     |:|.|.| :.:|          |.:.:|.:|:.|.:..|::.:.|..|..
+UBX7_YEAST         9 SVEEAIN-DSIKEGVVLAVYNTARDDQWLKSWFKGDDVSLDTLAEHSIWL     57
+
+DNLJ_CROS5       124 SALALTYENGLFVRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPIV    173
+                     ..:..|.:..||            |::..||..             |.|.
+UBX7_YEAST        58 RLVKDTEQFQLF------------EQVFPNVVV-------------PSIY     82
+
+DNLJ_CROS5       174 EVR-GEAFLPLDEFDRINQE--------------------------REEK    196
+                     .:| |:..|.:...|..:.|                          ||||
+UBX7_YEAST        83 LIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGESSSRETNPGLAREEK    132
+
+DNLJ_CROS5       197 G--DALFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWE    244
+                     .  |....|.|...|.|..::      |||.|.....|..||.|...:..
+UBX7_YEAST       133 SSRDVHRKNARERIAETTLEI------QRREQLKQRKLAEEERERIIRLV    176
+
+DNLJ_CROS5       245 SLNYLENSGFLVNPHRKLCQFLD-----EVEAYFKQWETARKDLPY----    285
+                     ..:..|........||.    ||     :|..|.|..:........    
+UBX7_YEAST       177 RADRAERKALDETHHRT----LDDDKPLDVHDYIKDAQKLHSSKCVLQIR    222
+
+DNLJ_CROS5       286 MTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEEAPTLVKNIVVNVG    335
+                     ||||..:| :.::..:.|...:|   |                   |:|.
+UBX7_YEAST       223 MTDGKTLK-HEFNSSETLNDVRK---W-------------------VDVN    249
+
+DNLJ_CROS5       336 RTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVGDTVIIRKAGE    385
+                     ||....|.:    .|..   :.:.|..:||.:..|:..           |
+UBX7_YEAST       250 RTDGDCPYS----FHRG---IPRVTFKDSDELKTLETL-----------E    281
+
+DNLJ_CROS5       386 IIPEVVRVLKELRPPNT    402
+                     :.|....:||.|...|:
+UBX7_YEAST       282 LTPRSALLLKPLETQNS    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 528
+# Identity:      95/528 (18.0%)
+# Similarity:   161/528 (30.5%)
+# Gaps:         219/528 (41.5%)
+# Score: 62.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5        41 LYRELDSLEKEHPQLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFN     90
+                     |.|...||.|.....|.|.:...||.            .|....||..|.
+RPOA_ACICJ         9 LQRNWQSLRKPEKLDIEPGADDTRVA------------TIIAEPLERGFG     46
+
+DNLJ_CROS5        91 LEELKAWEKRWQRSYEKEEFTSVEYVCELKIDG-----SALALTYENGLF    135
+                     |....|..:....|......|||      :|||     |::|        
+RPOA_ACICJ        47 LTLGNALRRVLLSSLHGAAVTSV------RIDGVLHEFSSIA--------     82
+
+DNLJ_CROS5       136 VRGVTRGDGTTGEEITQNVRTIRSIPLKLNIDNPPPI-VEVRGEAFLPLD    184
+                       ||.       |::|..|..|:.|.::::.|.|..: |...|       
+RPOA_ACICJ        83 --GVR-------EDVTDIVLNIKQIAVRMHGDGPKRMTVSATG-------    116
+
+DNLJ_CROS5       185 EFDRINQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHL    234
+                                        |....||.::                 |.| 
+RPOA_ACICJ       117 -------------------PCEVTAGMIQ-----------------TGH-    129
+
+DNLJ_CROS5       235 EEAEISSQWESLNYLENSGFLVNPHRKLCQFLDE---------VEA---Y    272
+                      :.|:                :||...:|. ||:         ||:   |
+RPOA_ACICJ       130 -DIEV----------------MNPELVICT-LDDGATLGMEFTVESGRGY    161
+
+DNLJ_CROS5       273 FKQWETARKDLPYMTDGVVVKINNYSLQKALGFTQKFPRWAIALKYPAEE    322
+                     ........:|.|.   |::...:.||..:.:.:..:..|......|    
+RPOA_ACICJ       162 VPAAANRPEDAPI---GLIPVDSIYSPVRRVSYRVEPTRVGQVTDY----    204
+
+DNLJ_CROS5       323 APTLVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDI    372
+                          ..:::|:...|||||   .:.|.||...:|       |::     
+RPOA_ACICJ       205 -----DRLILNIETNGAVTP---EDAVALAARILQ-------DQL-----    234
+
+DNLJ_CROS5       373 RVGDTVIIRKAGEII----PEVVRVLKELRPPNTQPYEMPDRCPECDSPL    418
+                                |..|    |:.:|. :|.||      |:|     .:..|
+RPOA_ACICJ       235 -----------GMFINFEEPQRLRA-EEPRP------ELP-----FNPNL    261
+
+DNLJ_CROS5       419 IRPSGEAVIRCMNLSCEAILRGSLVHWASRDALDIRGLGEKIVVLLIENG    468
+                     :|...|..:...:.:|                              ::|.
+RPOA_ACICJ       262 LRKVDELELSVRSANC------------------------------LKND    281
+
+DNLJ_CROS5       469 LVNSIADLYYLTPETIANLERMGSKSADNLIKAIEGSKQQPFSRVLYGLG    518
+                     .:..|.||...:.:.:......|.||.:.:.:.:..          .|||
+RPOA_ACICJ       282 NIVYIGDLVQKSEQEMLRTPNFGRKSLNEIKEVLSA----------MGLG    321
+
+DNLJ_CROS5       519 IRYVGSVTANLLVENFP--SIDQLSQAS    544
+                     :        .::|:::|  :|::|.:.|
+RPOA_ACICJ       322 L--------GMVVQDWPPENIEELVKRS    341
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 134
+# Identity:      28/134 (20.9%)
+# Similarity:    51/134 (38.1%)
+# Gaps:          27/134 (20.1%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+DNLJ_CROS5       168 NPPPIVEVRGEAFLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDP    217
+                     ||..::|.....|:....:  ::|..:..|     |...::...|||||.
+YXAD_BACSU         5 NPVELIEYELTTFIRRAVY--LDQSEKRTG-----NLERSSYLLLRQLDE     47
+
+DNLJ_CROS5       218 KIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE--------NSG----FL    255
+                       ....|::..|.:..|:.:.:|.|..:|...|        :.|    |.
+YXAD_BACSU        48 --FGPARVKELAESFKLDISTLSRQAAALEAKELIYRFSDPSDGRVSLFT     95
+
+DNLJ_CROS5       256 VNPHRKLC------QFLDEVEAYFKQWETARKDL    283
+                     :....|..      :.|:..|...|:|.|..|::
+YXAD_BACSU        96 ITKLGKQLLKADQQKRLERYEQMLKEWSTQEKEM    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DNLJ_CROS5
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 612
+# Identity:     118/612 (19.3%)
+# Similarity:   208/612 (34.0%)
+# Gaps:         201/612 (32.8%)
+# Score: 66.0
+# 
+#
+#=======================================
+
+DNLJ_CROS5        45 LDSLEKE---HPQLITPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNL     91
+                     |||::::   ...::|....|..||       ..:|..:.|::.::|.  
+FADB_SHESR        43 LDSIKQQSNIQALVLTSGKDTFIVG-------ADITEFLGLFAQDDAV--     83
+
+DNLJ_CROS5        92 EELKAWEKRWQRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTR    141
+                       |.:|.::....:.|.|                 .|.:.....::|...
+FADB_SHESR        84 --LLSWVEQANAVFNKLE-----------------DLPFPTASAIKGFAL    114
+
+DNLJ_CROS5       142 GDG-----TTGEEITQNVRTIRSIPLKLNIDNPPPIVEVRGEAFLP----    182
+                     |.|     .|...|......|.....||.|     |....|...||    
+FADB_SHESR       115 GGGCETILATDFRIADTTAKIGLPETKLGI-----IPGFGGTVRLPRVIG    159
+
+DNLJ_CROS5       183 ----LDEFDRINQEREEKGDALFANPRNAAAGTLRQLDPKIVDQRRLQFF    228
+                         |:.......:|.|  |||.....:|...      |:.::...:|. 
+FADB_SHESR       160 ADNALEWITTGKDQRPE--DALKVGAVDAVVA------PEALEAAAIQM-    200
+
+DNLJ_CROS5       229 AYTLHLEEAEISS-QWESLNYLENSGFLVNPHRKLCQF-LDEVEAYFKQW    276
+                          |::|.... .|::           ..|||:... |.::|| ...:
+FADB_SHESR       201 -----LKDAVAEKLDWQA-----------RRHRKMSPLTLPKLEA-MMSF    233
+
+DNLJ_CROS5       277 ETARKDLPYMTDGVVVKINNYSLQKALGFTQKFPRWAIALK-YPAEEAPT    325
+                     .||:        |:|                    :|:|.| |||..|..
+FADB_SHESR       234 TTAK--------GMV--------------------FAVAGKHYPAPMAAV    255
+
+DNLJ_CROS5       326 LVKNIVVNVGRTGAVTPMAVMEPVHLAGTTVQKATLHNSDRIAQLDIRVG    375
+                     .|.......||:.|: .:.....:.||.|.|.||.         :.|.:.
+FADB_SHESR       256 SVVEQAATKGRSDAL-QIEHQAFIKLAKTDVAKAL---------IGIFLN    295
+
+DNLJ_CROS5       376 DTVI---IRKAGEIIPEVVRVLKELRPPNTQPYEMPDRCPECDSPLIRPS    422
+                     |.::   .:|||::..:|                        .|..:..:
+FADB_SHESR       296 DQLVKGKAKKAGKLAKDV------------------------KSAAVLGA    321
+
+DNLJ_CROS5       423 GEAVIRCMNLSCEAILRGS--LVHWASRDALDIRGLGEKIVVLLIENGLV    470
+                     |   |....::.::..:|:  ::...::.|||: ||||...:|..:....
+FADB_SHESR       322 G---IMGGGIAYQSASKGTPIVMKDIAQPALDL-GLGEAAKLLSAQVARG    367
+
+DNLJ_CROS5       471 NSIADLYYLTPETIAN--------LERMGSKSADNLIKAIEGSKQQPFSR    512
+                     .|       |||.:|.        |:......||.:::|:   .:.|   
+FADB_SHESR       368 RS-------TPEKMAKVLNNITPALDYAPVNHADVVVEAV---VEHP---    404
+
+DNLJ_CROS5       513 VLYGLGIRYVGSVTANLL--VENFPSIDQLSQASFASLSSVYGVGEEIAQ    560
+                                .|.|.:|  ||.:.|.|    |..||.:|...: ..:|:
+FADB_SHESR       405 -----------KVKAQVLAEVEQYVSED----AIIASNTSTISI-NLLAK    438
+
+DNLJ_CROS5       561 SI--------IDWFSIEKNCDLIKQLKKVGLQLETTSSEQITVEPSLTPF    602
+                     |:        :.:|:......|::.::.     |.:|.|.|....:....
+FADB_SHESR       439 SMKKPERFCGMHFFNPVHKMPLVEVIRG-----EHSSEETIASVVAYASK    483
+
+DNLJ_CROS5       603 SGKTFVITGTLP    614
+                     .|||.::....|
+FADB_SHESR       484 MGKTPIVVNDCP    495
+
+
+#---------------------------------------
+#---------------------------------------

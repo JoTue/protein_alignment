@@ -1,0 +1,3048 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:44
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/SURE_METNO.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/SURE_METNO.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/SURE_METNO.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 295
+# Identity:      56/295 (19.0%)
+# Similarity:    95/295 (32.2%)
+# Gaps:         126/295 (42.7%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+SURE_METNO         2 RILVTNDD-------GIHAPGLKVL-----EEIARELSDDVWVVAPETDQ     39
+                     ::|..|||       .:|:..::.:     |:.||.:.:..:.|||:.  
+PUR7_VIBVU         6 QVLAVNDDLPIRTDKPVHSGKVRSVYWLTEEDSARLIKEKGYNVAPDA--     53
+
+SURE_METNO        40 SGVSHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVL     89
+                                ||.:..:::...|.     ||:..|      |.|    |
+PUR7_VIBVU        54 -----------PLAIMVISDRISAF-----DCIWHG------EHG----L     77
+
+SURE_METNO        90 SGVNRGQNVAEDVTYSGTVA-----GAMEGTILG--------------VR    120
+                     :|| .|:..|.:...:....     |..:..||.              |:
+PUR7_VIBVU        78 NGV-PGKGAALNAISNHWFGLFKENGLADSHILDIPHPFVWIVQKAKPVK    126
+
+SURE_METNO       121 SIALSQAYGVGGRANVKWHTAAEHGARTIRRI-LEAGIE-----------    158
+                     ..|:.:.|..|.    .|. |.|.|.|....| |..|:|           
+PUR7_VIBVU       127 IEAICRKYITGS----MWR-AYEKGEREFCGIQLPEGLEKDKALPDLLMT    171
+
+SURE_METNO       159 ----------PGIL----VNV------------NFPDCEPEAV------E    176
+                               ||:.    ||:            ||...:..|:      :
+PUR7_VIBVU       172 PSTKGILKGIPGVPEADDVNITRQNIADNFAAFNFSSADDIALYEKLLKD    221
+
+SURE_METNO       177 GIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGHGTD    221
+                     |..|:::.:.|...:.:|                 .:||.|:.||
+PUR7_VIBVU       222 GFGVISEALANVGQIFVD-----------------TKFEFGYVTD    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       6/28 (21.4%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           0/28 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+SURE_METNO         9 DGIHAPGLKVLEEIARELSDDVWVVAPE     36
+                     ||.....:....::|..:.|.:.::.||
+Y075_NITWN        33 DGARRELISRSAKLAYPIRDGIPIMLPE     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      17/72 (23.6%)
+# Similarity:    28/72 (38.9%)
+# Gaps:          23/72 (31.9%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+SURE_METNO       169 DCEPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGH    218
+                     |.|.||       |:.:|..:::|:....:|              :|.|.
+Y3584_PSEAB       67 DAEIEA-------ARVLRKDEIMAVYTPPEG--------------YEDGD     95
+
+SURE_METNO       219 GTDLKAIAENRI--AVTPLRLD    238
+                     |.||:...:...  |:.||..|
+Y3584_PSEAB       96 GRDLQVYLDQNYTNALGPLHED    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    19/43 (44.2%)
+# Gaps:          12/43 (27.9%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+SURE_METNO       186 RNQQLLAI---DERLDGRGNPYFWLAFAKARFEPGHGTDLKAI    225
+                     ::.:||||   |...||....|.:       |:|..  |.:|:
+BPT_HAHCH        149 KDSKLLAIAVTDRTTDGLSAIYTF-------FDPNE--DKRAL    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      24/85 (28.2%)
+# Similarity:    32/85 (37.6%)
+# Gaps:          13/85 (15.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+SURE_METNO       172 PEAVEGIAVVAQGMRNQQLLAIDERLDGR--GNPYFWLAFAKARFEPGH-    218
+                     |.||.|:|..|  ..||...::....||:  |:......|||..:..|. 
+KDPC_CAUVN        24 PLAVTGVAQAA--FPNQANGSLIRDADGKVVGSALIGQVFAKPEYFHGRP     71
+
+SURE_METNO       219 ---GTDLKAIAENRIAVTPLRLDL-----TDEPTL    245
+                        |....|.|.:...:.||...|     ||...|
+KDPC_CAUVN        72 SAAGAGYDASASSGSNMGPLNETLIARLKTDAAAL    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      18/50 (36.0%)
+# Similarity:    21/50 (42.0%)
+# Gaps:          13/50 (26.0%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+SURE_METNO       201 GNPYFWLAFAKARFEPGH-----GTDLKAIAENRIAVTPLRLDLTDEPTL    245
+                     |.|.:        |.||:     |.|..|.|..||...|..:||..||||
+LPXH_XYLFM        70 GTPLY--------FMPGNRDFLVGADYAARAGFRILPDPCVVDLYGEPTL    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:      11/27 (40.7%)
+# Similarity:    15/27 (55.6%)
+# Gaps:           7/27 (25.9%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+SURE_METNO        86 DLVLSGVNRGQNVAEDVTYSGTVAGAM    112
+                     |||.||:. |:.||:      |..||:
+YERI_SCHPO        41 DLVGSGLT-GKQVAK------TCLGAV     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      35/171 (20.5%)
+# Similarity:    58/171 (33.9%)
+# Gaps:          63/171 (36.8%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+SURE_METNO        72 VIMGVRHILKERGPDLVLSGVN-----------RGQNVAEDVTYSGTVAG    110
+                     ||:.:.::.|..||...|.||:           .|:|.|...|....:.|
+RBSA_RUEST         5 VILQISNLTKSFGPVKALKGVDFELRRGEIHAIAGENGAGKSTLMNIIDG     54
+
+SURE_METNO       111 ---------AMEGTILGVRSIALSQAYGVG--------------------    131
+                              .::||.:.:.|.|.:|..|:|                    
+RBSA_RUEST        55 ILQPDSGEIRLDGTPVEIPSPAAAQKMGIGFVHQEIALCPDVSVAENIFM    104
+
+SURE_METNO       132 -----GRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVE    176
+                          .|:.:..:...|..||.:...| :.|:|.:||.            
+RBSA_RUEST       105 AATNSSRSFLMDYKGIEAKAREVFAQL-SSIDPSVLVR------------    141
+
+SURE_METNO       177 GIAVVAQGMRNQQLLAIDERL    197
+                          ...:.||||:.|.:.|
+RBSA_RUEST       142 -----DLSISNQQLVEIAKAL    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      15/81 (18.5%)
+# Similarity:    23/81 (28.4%)
+# Gaps:          21/81 (25.9%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+SURE_METNO       102 VTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRR    151
+                     :.|.|...|.:              .||.||..::.:....  |..:.||
+KR195_HUMAN        1 MNYYGNYYGGL--------------GYGYGGFDDLGYGYGC--GCGSFRR     34
+
+SURE_METNO       152 ILEAGIEPGI-----LVNVNFPDCEPEAVEG    177
+                     :...|...|.     .....:..|.|....|
+KR195_HUMAN       35 LGYGGGYGGYGYGSGFGGYGYRSCRPSCYGG     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      34/146 (23.3%)
+# Similarity:    52/146 (35.6%)
+# Gaps:          62/146 (42.5%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+SURE_METNO        67 TPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTI    116
+                     |..|.||||....|      .::.||:|.         .|||:.   |..
+UPPP_CORDI       154 TMRDAVIMGCAQCL------ALIPGVSRS---------GGTVSA---GLF    185
+
+SURE_METNO       117 LGV-RSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNV    165
+                     :|: |.:|...::                 ...|..:|.:|:       .
+UPPP_CORDI       186 VGLDREVATRFSF-----------------LLAIPAVLASGL-------F    211
+
+SURE_METNO       166 NFPDC-EPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFA    210
+                     :.||. .|:|.:    .|.||:    ||:     |.|     :|||
+UPPP_CORDI       212 SLPDAFAPDAGQ----AASGMQ----LAV-----GTG-----IAFA    239
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       4/7 (57.1%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+SURE_METNO         5 VTNDDGI     11
+                     :.||||:
+GREB_ECO57        93 IENDDGV     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 186
+# Identity:      38/186 (20.4%)
+# Similarity:    60/186 (32.3%)
+# Gaps:          76/186 (40.9%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+SURE_METNO        64 VKGT-PSDCVIMGVR-------HILKERGPDLV--LSGVNRGQNVAEDVT    103
+                     |||. |.|...||.:       |:....|.|::  ..|::|.:|....:.
+TGT_LEPCP         39 VKGVMPRDLETMGAQIILGNTFHLWMRPGQDVMAQFGGLHRFENWTRPIL     88
+
+SURE_METNO       104 YSGTVAGAMEGTILG-VRSIALSQAYGVGGRANVKWHTAAEHGAR-----    147
+                        |.:|..:...|| :|.|                   :|.|.|     
+TGT_LEPCP         89 ---TDSGGFQVWSLGEMRKI-------------------SEEGVRFASPV    116
+
+SURE_METNO       148 -------------TIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQG    184
+                                  .|:.:|.:.|.      :.|.:|.|        ..||
+TGT_LEPCP        117 NGDKLFLTPEVSMQIQTVLNSDIV------MQFDECTP--------YWQG    152
+
+SURE_METNO       185 MRN------QQLLAIDERLDGRGNPYFWLAFAKARF    214
+                     .:|      ::...:...|..|     |.|.:||.|
+TGT_LEPCP        153 AKNVGHITTEKEARVSMELSLR-----WAARSKAEF    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      36/168 (21.4%)
+# Similarity:    65/168 (38.7%)
+# Gaps:          40/168 (23.8%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+SURE_METNO        66 GTPSDCVIMGVRHI-----LKERGPDLVLSGVNRGQNVAED---VTYSGT    107
+                     |||.:.:...|..:     |:.|..:.      ||:.|..:   :.||.|
+CBPQ_HUMAN       140 GTPPEGITAEVLVVTSFDELQRRASEA------RGKIVVYNQPYINYSRT    183
+
+SURE_METNO       108 V----AGAMEGTILG-----VRSIALSQAY----GV----GGRANVKWHT    140
+                     |    .||:|...:|     :||:|....|    |:    .|...:....
+CBPQ_HUMAN       184 VQYRTQGAVEAAKVGALASLIRSVASFSIYSPHTGIQEYQDGVPKIPTAC    233
+
+SURE_METNO       141 AAEHGARTIRRILEAGIEPGILVNV---NFPDCEPEAVEGIAVVAQGMRN    187
+                     .....|..:.|:...||:..|.:.:   .:||  .::...:|.:......
+CBPQ_HUMAN       234 ITVEDAEMMSRMASHGIKIVIQLKMGAKTYPD--TDSFNTVAEITGSKYP    281
+
+SURE_METNO       188 QQLLAIDERLD----GRG    201
+                     :|::.:...||    |:|
+CBPQ_HUMAN       282 EQVVLVSGHLDSWDVGQG    299
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      36/168 (21.4%)
+# Similarity:    58/168 (34.5%)
+# Gaps:          55/168 (32.7%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+SURE_METNO        60 TRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAEDVT------    103
+                     |...|:|..|.||   |.|   ::.||.:|...:        ||      
+PSA6_SOYBN        38 TSIGVRGKDSICV---VTH---KKVPDKLLDNTS--------VTHLFPIT     73
+
+SURE_METNO       104 -YSGTVAGAMEGTILGVRSIALSQA------YGVGGRANV--KW-----H    139
+                      |.|.:|..|......:...|.::|      ||.....:|  ||     .
+PSA6_SOYBN        74 KYLGLLATGMTADARTLVQQARNEAAEFRFTYGYEMPVDVLAKWIADKSQ    123
+
+SURE_METNO       140 TAAEHGARTIRRILEAGIEP-GILVNVNFPD---------CEPEA-VEGI    178
+                     ...:|          |.:.| |::..|...|         |:|.. ..|.
+PSA6_SOYBN       124 VYTQH----------AYMRPLGVVAMVLGIDDEYGPQLYKCDPAGHYFGH    163
+
+SURE_METNO       179 AVVAQGMRNQQLLAIDER    196
+                     ...:.|:::|:.:...|:
+PSA6_SOYBN       164 KATSAGLKDQEAINFLEK    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      12/50 (24.0%)
+# Similarity:    26/50 (52.0%)
+# Gaps:           4/50 ( 8.0%)
+# Score: 50.5
+# 
+#
+#=======================================
+
+SURE_METNO        46 LSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRG     95
+                     |::|..|||:.:.:...:.:..|.|.|:..:|::    .||:.:..:..|
+SCL34_ARATH      454 LAVNAGLRLKNLQDETGSEENCPRDAVLKLIRNM----NPDVFIHAIVNG    499
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    24/72 (33.3%)
+# Gaps:          33/72 (45.8%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+SURE_METNO       176 EGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPG--------    217
+                     ||:.||..|   :.:|       |..||        |..:||        
+NDKA_CANLF        79 EGLNVVKTG---RVML-------GETNP--------ADSKPGTIRGDFCI    110
+
+SURE_METNO       218 -------HGTDLKAIAENRIAV    232
+                            ||:|....||..|.:
+NDKA_CANLF       111 QVGRNIIHGSDSVESAEKEIGL    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 166
+# Identity:      32/166 (19.3%)
+# Similarity:    58/166 (34.9%)
+# Gaps:          52/166 (31.3%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+SURE_METNO        19 LEEIARELSDDVWVVAPETDQSGVSHSLSLND-PLRLRRVAETRFAVKGT     67
+                     ::.:|.|.:::.:.:..:|....|.|.:...: ..:|.:|...|...||.
+RS4_CAEEL         86 MDVVAIERTNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGV    135
+
+SURE_METNO        68 P-------------------SDCVIMGVRHILKERGPDLV------LSGV     92
+                     |                   :|.::.   :|..::..|.|      |:.|
+RS4_CAEEL        136 PVLTTTDGRTIRYPDPHVKVNDTIVF---NISTQKITDSVKFEPGNLAYV    182
+
+SURE_METNO        93 NRGQNV--------------AEDVTYSGTVAGAMEGTILGVRSIALSQAY    128
+                     ..|:||              |.|:.:....||....|       .:|..:
+RS4_CAEEL        183 TGGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFAT-------RISNVF    225
+
+SURE_METNO       129 --GVGGRANVKWHTAA    142
+                       |.|.:|.|...|.|
+RS4_CAEEL        226 VIGKGNKALVSLPTGA    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      16/70 (22.9%)
+# Similarity:    28/70 (40.0%)
+# Gaps:          14/70 (20.0%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+SURE_METNO       137 KWHTAAEHGARTIRRI-LEAGIEPGILVNVNFPDCEP----EAVE-----    176
+                     :|.....:.|:...|. ..:|:.||.|    :|..|.    ||.|     
+G45IP_CHLAE       49 RWQLGPRYAAKQFARYGAASGVAPGSL----WPSPEQLRELEAEEREWYP     94
+
+SURE_METNO       177 GIAVVAQGMRNQQLLAIDER    196
+                     .:|.:.:.:|.:.|....:|
+G45IP_CHLAE       95 SLATMQESLRVKHLAEEQKR    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 212
+# Identity:      40/212 (18.9%)
+# Similarity:    74/212 (34.9%)
+# Gaps:          78/212 (36.8%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+SURE_METNO        11 IHAPG--------LKVLEEIARE-LSDDV-WVVAPETDQSGVSHSLSLND     50
+                     :||.|        |..||::.:: ::||| :|..|..:..|         
+DAPEL_OCEIH       90 MHACGHDLHMTIALGALEKLIQDPINDDVIFVFQPAEEGPG---------    130
+
+SURE_METNO        51 PLRLRRVAETRFAVKGTPSDCVIMGVRHILKER-----GPDLVLSGVNRG     95
+                                             |.:.:|:..     .||::.:     
+DAPEL_OCEIH      131 ------------------------GAKPMLESEEFQQWKPDMMFA-----    151
+
+SURE_METNO        96 QNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHT-----    140
+                     .::|.::.. |||: :..|.:....|.......||||.|.....|     
+DAPEL_OCEIH      152 LHIAPELPV-GTVS-SKAGLLFANTSELFIDFEGVGGHAAYPHLTKDMTV    199
+
+SURE_METNO       141 AAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGMRN---    187
+                     ||.:....:::|:..|:.|               ::|..:....|.:   
+DAPEL_OCEIH      200 AASNFVVQLQQIVSRGLNP---------------LDGSVITIGKMESGYV    234
+
+SURE_METNO       188 QQLLAIDERLDG    199
+                     |..:|...||:|
+DAPEL_OCEIH      235 QNAIAETARLEG    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:      30/121 (24.8%)
+# Similarity:    45/121 (37.2%)
+# Gaps:          30/121 (24.8%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+SURE_METNO        46 LSLNDPLRLRRVAETRFAVK--------GTPSDCVIMGVRHILKER--GP     85
+                     ||..|.||....|.|...::        |..||.:::|   |:.:|  .|
+KAD_METRJ         29 LSTGDMLRAAVAAGTPVGLEAKAVMESGGLVSDRIVVG---IVADRIEEP     75
+
+SURE_METNO        86 D----LVLSGVNRGQNVAEDVTYSGTVAGAME-GTILGVRSIALSQAYGV    130
+                     |    .:|.|..|            |||.|.. |.:|..:.::||....:
+KAD_METRJ         76 DARRGFILDGFPR------------TVAQAEALGEMLASKGLSLSAVVEL    113
+
+SURE_METNO       131 GGRANVKWHTAAEHGARTIRR    151
+                     ....|.......:..|.|:.|
+KAD_METRJ        114 KVDENALVGRIEKRAAETLAR    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      38/135 (28.1%)
+# Similarity:    50/135 (37.0%)
+# Gaps:          27/135 (20.0%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+SURE_METNO        91 GVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHT    140
+                     |:..|..||..|   |.|.|.  |.:.|| .:|.....|.||........
+ELN_BOVIN        498 GLGPGVGVAPGV---GVVPGV--GVVPGV-GVAPGIGLGPGGVIGAGVPA    541
+
+SURE_METNO       141 AAEHGARTIRRI-------LEAGIEPGILVNVNFPDCEPEAVEGIAVVAQ    183
+                     ||:..|:...:.       |.||: ||:.|....|..      |:.....
+ELN_BOVIN        542 AAKSAAKAAAKAQFRAAAGLPAGV-PGLGVGAGVPGL------GVGAGVP    584
+
+SURE_METNO       184 GMRNQQLLAIDERLDGRGNPYFWLAFAK-ARFEPG    217
+                     |      |.:...:.|.|.....||.|| |:|.||
+ELN_BOVIN        585 G------LGVGAGVPGPGAVPGTLAAAKAAKFGPG    613
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      14/48 (29.2%)
+# Similarity:    24/48 (50.0%)
+# Gaps:           4/48 ( 8.3%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SURE_METNO         4 LVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETD-QSGVS---HSLS     47
+                     |:|...|....||:::.:|.::....:|....||. ::||.   ||.|
+ASIC2_MOUSE      205 LLTTVKGGTGNGLEIMLDIQQDEYLPIWGETEETTFEAGVKVQIHSQS    252
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      19/94 (20.2%)
+# Similarity:    31/94 (33.0%)
+# Gaps:          32/94 (34.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+SURE_METNO       129 GVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNF-PDCEPEAVEG    177
+                     |:.|::...|          :.|||.:.....:::.||| .|.|...|..
+DOXA1_XENTR       42 GIRGKSRSIW----------LFRILTSLFIGAVILAVNFTSDWETGIVTA     81
+
+SURE_METNO       178 IAVVAQ--------------GMRNQQLLAIDERLDGRGNPYFWL    207
+                     ..|...              |::...:..|       |||.:.|
+DOXA1_XENTR       82 TTVYKSFSHSMLNASIGLWIGLKGVNITLI-------GNPVYQL    118
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      12/41 (29.3%)
+# Similarity:    23/41 (56.1%)
+# Gaps:           3/41 ( 7.3%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+SURE_METNO       115 TILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEA    155
+                     |:..::| |:.:| .:..:||.| ::|.:...||..:..||
+RS20_STRPB         5 TLANIKS-AIKRA-ELNVKANEK-NSAQKSAMRTAIKAFEA     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      17/90 (18.9%)
+# Similarity:    36/90 (40.0%)
+# Gaps:          20/90 (22.2%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+SURE_METNO        12 HAPGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLNDPLRLRRVAETR     61
+                     |...:::|||......:.:.:...:.:::    |.:.::..|:|::.|.|
+TPM_HAELO         88 HNRRIQLLEEDLERSEERLKIATQKLEEA----SQAADESERMRKMLEHR    133
+
+SURE_METNO        62 FAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAED    101
+                     ........|    |:...|||            .:.:|||
+TPM_HAELO        134 SITDEERMD----GLEGQLKE------------ARTMAED    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:      61/253 (24.1%)
+# Similarity:    93/253 (36.8%)
+# Gaps:          68/253 (26.9%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+SURE_METNO         4 LVTNDDG-------IHAPGLKVLEEIARELSDDVWVVAPE----TDQSGV     42
+                     ||::.|.       :||      |:|..::|   |..:||    .||. |
+LEUC_XANOM       271 LVSDPDAHFDTVVELHA------EDIKPQVS---WGTSPEMVLAIDQH-V    310
+
+SURE_METNO        43 SHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGV     92
+                     ....:..||.: |...|......|..::..|..:|       .|.|..|.
+LEUC_XANOM       311 PDPATEQDPTK-RNSIERALKYMGLKANQAITDIR-------LDRVFIGS    352
+
+SURE_METNO        93 NRGQNVAEDVTYSGTVAGAMEGTILGVRSIA--LSQAYGVGGRANVKWHT    140
+                     .....: ||:..:..||..        |.:|  :.||..|.|...||...
+LEUC_XANOM       353 CTNSRI-EDLRAAAAVAKG--------RKVASTIKQALVVPGSGLVKAQA    393
+
+SURE_METNO       141 AAEHGARTIRRILEAGI---EPG--ILVNVNFPDCEPEAVEGIAVVAQGM    185
+                     .|| |...:  .|:||.   |||  :.:.:| ||   :...|....:...
+LEUC_XANOM       394 EAE-GLDKV--FLDAGFEWREPGCSMCLAMN-PD---KLGSGEHCASTSN    436
+
+SURE_METNO       186 RNQQLLAIDERLDGRG------NPYFWLAFAKARFEPGHGTDLKAIAENR    229
+                     ||      .|...|.|      :|    |.|.|....||..|::.:.::.
+LEUC_XANOM       437 RN------FEGRQGAGGRTHLVSP----AMAAAAAVSGHFVDVRELGDSG    476
+
+SURE_METNO       230 IAV    232
+                     :.:
+LEUC_XANOM       477 VGI    479
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       4/11 (36.4%)
+# Similarity:     6/11 (54.5%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+SURE_METNO       236 RLDLTDEPTLT    246
+                     |:..|...|:|
+LPT_ESCF3          3 RISTTITTTIT     13
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 112
+# Identity:      24/112 (21.4%)
+# Similarity:    44/112 (39.3%)
+# Gaps:          29/112 (25.9%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SURE_METNO       113 EGTILGVRSI--ALSQAYGVGGRANVKWHTAAEHGARTIRR---------    151
+                     :.|:|.::.:  ||.:|:||...|.|....|...||.....         
+RL7_THET8         14 QATVLELKQLIDALKEAWGVTAAAPVAVAAAPAAGAAAAPAEEKTEFDVI     63
+
+SURE_METNO       152 ILEAGIEPGILVNVNFPDCEPEAVEGIAV------------VAQGMRNQQ    189
+                     :.|||.:...::.      |..|:.|:.:            |.:|:..|:
+RL7_THET8         64 LKEAGAKKLEVIK------ELRAITGLGLKEAKDLAEKGGPVKEGVSKQE    107
+
+SURE_METNO       190 LLAIDERLDGRG    201
+                     ...|.::|:..|
+RL7_THET8        108 AEEIKKKLEAVG    119
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      34/138 (24.6%)
+# Similarity:    52/138 (37.7%)
+# Gaps:          32/138 (23.2%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SURE_METNO         4 LVTNDDGIHA--PGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLNDP     51
+                     |.|.||..|.  ..||..:|.|.:        |.|.....|.|.||.   
+HEM1_METCA       295 LYTVDDLQHTVEENLKTRQEAALQ--------AEEIIDLEVEHFLSW---    333
+
+SURE_METNO        52 LRLRRVAETRFAVKGTPSDCVIMGVR---HILKERGPDLVLSGVNRGQNV     98
+                     ||.:...||            |..||   .:.::......|..:.||::.
+HEM1_METCA       334 LRAQAATET------------IRDVRRQAELHRDAALQRALRELRRGKSA    371
+
+SURE_METNO        99 AEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANV    136
+                     .:.:.:   :|..:...|:...|..:.|| ||..||::
+HEM1_METCA       372 EDTLRW---LADTLTNKIIHAPSSQIWQA-GVNERADI    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 157
+# Identity:      31/157 (19.7%)
+# Similarity:    46/157 (29.3%)
+# Gaps:          48/157 (30.6%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SURE_METNO        85 PDLVLSGVNRGQNVAEDVTY--------------SGTVAGAMEGTILGVR    120
+                     |.||:.|  .|.|.|..|..              ||......||.:....
+XYLB_KLEPN       224 PALVVGG--GGDNAAGAVGIGMADAGQAMLSLGTSGVYFAVSEGFLSKPE    271
+
+SURE_METNO       121 SIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDC    170
+                     |...|..:...||    ||..:                    |.::...|
+XYLB_KLEPN       272 SAVHSFCHACRGR----WHLMS--------------------VMLSAASC    297
+
+SURE_METNO       171 EPEAVE--GIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGH    218
+                     ...|.:  |:|.|      ..|:|..:..|....|.::|.:......|.:
+XYLB_KLEPN       298 LDWAAKLTGLASV------PALIAAAQTADESAGPVWFLPYLSGERTPHN    341
+
+SURE_METNO       219 GTDLKAI    225
+                     ....|.:
+XYLB_KLEPN       342 NPQAKGV    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      31/119 (26.1%)
+# Similarity:    48/119 (40.3%)
+# Gaps:          28/119 (23.5%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+SURE_METNO        18 VLEEIARELSDDVWVVAPETDQSGVSHSLSLNDPLRLRRVAETRFAVKGT     67
+                     |:||:|     |:|.:......:|..|.|.       .|::    |::|.
+RECR_NOVAD        83 VVEEVA-----DLWALDRARLFTGKYHVLG-------GRLS----ALEGV    116
+
+SURE_METNO        68 -PSDCVIMGVRHILKERGPDLVLSGVN---RGQNVAEDVTYSGTVAGAME    113
+                      |.|..|..:...:.:.|.|.|:..:|   .||..|.      .:|..:|
+RECR_NOVAD       117 RPEDLTIGSLLDRVAQGGIDEVVLAMNATLEGQTTAH------YIAERLE    160
+
+SURE_METNO       114 GTILGVRSIALSQAYGVGG    132
+                     |.  .||...|:....|||
+RECR_NOVAD       161 GA--AVRVTQLAHGLPVGG    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     253/253 (100.0%)
+# Similarity:   253/253 (100.0%)
+# Gaps:           0/253 ( 0.0%)
+# Score: 1296.0
+# 
+#
+#=======================================
+
+SURE_METNO         1 MRILVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLND     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SURE_METNO         1 MRILVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLND     50
+
+SURE_METNO        51 PLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAE    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SURE_METNO        51 PLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAE    100
+
+SURE_METNO       101 DVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIR    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SURE_METNO       101 DVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIR    150
+
+SURE_METNO       151 RILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGR    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SURE_METNO       151 RILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGR    200
+
+SURE_METNO       201 GNPYFWLAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPTLTRFAQ    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SURE_METNO       201 GNPYFWLAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPTLTRFAQ    250
+
+SURE_METNO       251 VFG    253
+                     |||
+SURE_METNO       251 VFG    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    19/58 (32.8%)
+# Gaps:          25/58 (43.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+SURE_METNO       201 GNPYFWLAFAKARFEPGHGTDLKAIAENRIAVTP-LRLDL---------T    240
+                     |...||.|               .:..|.::..| :..||         .
+CYB_ARTIO        136 GQMSFWGA---------------TVITNLLSAIPYIETDLVQWIWGGFSV    170
+
+SURE_METNO       241 DEPTLTRF    248
+                     |:.|||||
+CYB_ARTIO        171 DKATLTRF    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+SURE_METNO         5 VTNDDGIHAPGLKVL     19
+                     :.:.|.:|..|.||:
+IOLE_BACHK        91 IKHRDFLHGMGAKVI    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      43/215 (20.0%)
+# Similarity:    65/215 (30.2%)
+# Gaps:          79/215 (36.7%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SURE_METNO        41 GVSHSL-------SLNDPLRLRRVAETRF-------AVKGTPSDCVIMGV     76
+                     |.||..       .|:.|:...|:.....       |:.|..|....||.
+ACKA_STAAT       180 GTSHKFVSQRAAEMLDKPIEDLRIISCHIGNGASIAAIDGGKSIDTSMGF    229
+
+SURE_METNO        77 RHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQ    126
+                               ..|:||..|       |.||.:..|:...|:         
+ACKA_STAAT       230 ----------TPLAGVTMG-------TRSGNIDPALIPFIM---------    253
+
+SURE_METNO       127 AYGVGGRANVKWHTAAEHGARTIRRILE-AGIEPGIL----VNVNFPDCE    171
+                                     |...:|..::|| ...|.|:|    .:.:..|..
+ACKA_STAAT       254 ----------------EKTGKTAEQVLEILNKESGLLGLSGTSSDLRDLS    287
+
+SURE_METNO       172 PEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGHGTD    221
+                     .||..|.|      |:|..|.:     .....:.::....||.   ||.|
+ACKA_STAAT       288 EEAESGKA------RSQMALDV-----FASKIHKYIGSYAARM---HGVD    323
+
+SURE_METNO       222 L----KAIAENRIAV    232
+                     :    ..|.||.:.:
+ACKA_STAAT       324 VIVFTAGIGENSVEI    338
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      29/122 (23.8%)
+# Similarity:    47/122 (38.5%)
+# Gaps:          15/122 (12.3%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+SURE_METNO        54 LRRVAETRFAVK----GTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVA     99
+                     :|..:||:..||    ||....:..||..:      |.:|..:.|...|.
+HIS7_BURTA         7 VRNTSETQIRVKIDLDGTGRQKLATGVPFL------DHMLDQIARHGLVD     50
+
+SURE_METNO       100 EDVTYSGTVAGAMEGTILGVRSIALSQAY--GVGGRANVK--WHTAAEHG    145
+                     .|:...|........|:..| .|.|.||.  .||.:..::  .|:.....
+HIS7_BURTA        51 LDIEAHGDTHIDDHHTVEDV-GITLGQAVAKAVGDKKGIRRYGHSYVPLD     99
+
+SURE_METNO       146 ARTIRRILEAGIEPGILVNVNF    167
+                     ....|.:::....||:..:|.|
+HIS7_BURTA       100 EALSRVVIDFSGRPGLEFHVPF    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      29/141 (20.6%)
+# Similarity:    53/141 (37.6%)
+# Gaps:          44/141 (31.2%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+SURE_METNO       132 GRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVV    181
+                     |....:|....:      |.:|   ::|...:|::.....|      |:.
+PTH_GEOLS         45 GGLTAEWERKGK------RLVL---LKPQTFMNLSGRSVMP------ALQ     79
+
+SURE_METNO       182 AQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEP--GHG--TDLKAIAE    227
+                     ...::..||:.:.:.:|        ||...||.:.  |||  ..|::|.|
+PTH_GEOLS         80 FYKLKPDQLIVVHDEID--------LALGAARLKQGGGHGGQNGLRSIME    121
+
+SURE_METNO       228 ---------NRIAV-TPLRLDLTDE-------PTLTRFAQV    251
+                              .|:.: .|...|:|:.       |.:..||:|
+PTH_GEOLS        122 LLGKGDFVRLRLGIGRPPHGDVTNHVLGVFTPPEMEIFARV    162
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 88
+# Identity:      17/88 (19.3%)
+# Similarity:    33/88 (37.5%)
+# Gaps:          31/88 (35.2%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+SURE_METNO       163 VNVNFPDCEPEAVEGI------AVVAQGMRNQQLLAIDERLDGRGNPYFW    206
+                     :||..|..:|...:..      ||:|:....|:           .:|   
+TAF3_XENLA       299 LNVEIPSKKPSIADNTIEDSIDAVIARACAEQE-----------PDP---    334
+
+SURE_METNO       207 LAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPT    244
+                            ||...|::    :|..:..:|.||::::..|
+TAF3_XENLA       335 -------FEFSSGSE----SEGEVFTSPKRLNISELTT    361
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      28/146 (19.2%)
+# Similarity:    58/146 (39.7%)
+# Gaps:          52/146 (35.6%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+SURE_METNO        29 DVWVVAPET----DQSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDCVIM     74
+                     |::.:.|||    ::.|   |.|.::.::         |::|:       
+DNLJ_CROS5       475 DLYYLTPETIANLERMG---SKSADNLIK---------AIEGS-------    505
+
+SURE_METNO        75 GVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSI--    122
+                           |::....||.|:.        :.|.|:|...:  .:....||  
+DNLJ_CROS5       506 ------KQQPFSRVLYGLG--------IRYVGSVTANL--LVENFPSIDQ    539
+
+SURE_METNO       123 -------ALSQAYGVG---GRANVKWHTAAEHGARTIRRILEAGIE    158
+                            :||..||||   .::.:.|. :.|.....|:::.:.|::
+DNLJ_CROS5       540 LSQASFASLSSVYGVGEEIAQSIIDWF-SIEKNCDLIKQLKKVGLQ    584
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 198
+# Identity:      40/198 (20.2%)
+# Similarity:    66/198 (33.3%)
+# Gaps:          54/198 (27.3%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+SURE_METNO        11 IHAPGLKVLEEIARELSDDVWVV------APETDQ------------SGV     42
+                     :.|||:..|.|....:.....:|      |||..|            .|.
+MUTS_MYXXD       160 LEAPGIAELAESLSRVEPRELLVPDGKRDAPEVAQLLARLVRTPAVAEGE    209
+
+SURE_METNO        43 SHSLSLNDPLRLRRVAETRFAVKGTPS---------------------DC     71
+                     :.|.   :|.|......:.|||:...:                     |.
+MUTS_MYXXD       210 AASF---EPTRAAGYLRSHFAVQSLSAFGLDDAPLAAGAAGAALRYLKDT    256
+
+SURE_METNO        72 VIMGVRHI----LKERGPDLVLSGVNRGQ----NVAEDVTYSGTVAGAME    113
+                     ......|:    .:|||.:|::...:|..    ....|....|::.|.::
+MUTS_MYXXD       257 QKTAAAHVDRLSRQERGGNLLMDESSRANLEVLRSLRDGGRKGSLLGVLD    306
+
+SURE_METNO       114 GTI--LGVRSIA--LSQAYGVGGRANVKWHTAAEHGARTIRRILEAGI    157
+                     .|:  ||.|.:|  |:...|.....:.:.....|...|::.|...|||
+MUTS_MYXXD       307 KTVTSLGARKLARWLASPLGSLPEIHARLDAVEELSGRSVWREELAGI    354
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      13/51 (25.5%)
+# Similarity:    22/51 (43.1%)
+# Gaps:           4/51 ( 7.8%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+SURE_METNO       162 LVNVNFPDCEPEAVEGIAVV--AQGMRNQQLLAIDERLDGR--GNPYFWL    207
+                     ||.:|:........||:::|  ....:..:|...:|...||  ...:.||
+NOSO_STAAC       268 LVELNYAVYHSFKKEGVSIVDHLTAAKQFELFERNEAQQGRQVTGKWSWL    317
+
+SURE_METNO       208 A    208
+                     |
+NOSO_STAAC       318 A    318
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           1/25 ( 4.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SURE_METNO        90 SGVNRGQNVAEDVTYSGTVAGAMEG    114
+                     :|..:|..:.|..||....| ||||
+RBM8A_MOUSE      110 TGYLKGYTLVEYETYKEAQA-AMEG    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       8/29 (27.6%)
+# Similarity:     9/29 (31.0%)
+# Gaps:          10/29 (34.5%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+SURE_METNO       203 PYFWLAFAKARFEPG----------HGTD    221
+                     |...|.||......|          :|||
+NU4LM_ARCPU       60 PIILLVFAACEAALGLSLLVMVSNTYGTD     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 205
+# Identity:      37/205 (18.0%)
+# Similarity:    69/205 (33.7%)
+# Gaps:          71/205 (34.6%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+SURE_METNO        11 IHAPGLKVLEEIAR----------------------ELSDDVWVVAPETD     38
+                     :|.|.:|.||::..                      :::|.|::    |.
+NANK_ECOLI        84 LHFPLVKTLEQLTNLPTIAINDAQAAAWAEFQALDGDITDMVFI----TV    129
+
+SURE_METNO        39 QSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDCVIM--------GVRHIL     80
+                     .:||.                     .|..|.|.::        .:.|.|
+NANK_ECOLI       130 STGVG---------------------GGVVSGCKLLTGPGGLAGHIGHTL    158
+
+SURE_METNO        81 KE-RGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYG    129
+                     .: .||   :.|..| ....|.:.....:|.|.:|.:.|..:..:   :.
+NANK_ECOLI       159 ADPHGP---VCGCGR-TGCVEAIASGRGIAAAAQGELAGADAKTI---FT    201
+
+SURE_METNO       130 VGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIA    179
+                     ..|:.:.:........|||:.|:: |.|:.       ..||:...|.|..
+NANK_ECOLI       202 RAGQGDEQAQQLIHRSARTLARLI-ADIKA-------TTDCQCVVVGGSV    243
+
+SURE_METNO       180 VVAQG    184
+                     .:|:|
+NANK_ECOLI       244 GLAEG    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:      38/201 (18.9%)
+# Similarity:    71/201 (35.3%)
+# Gaps:          61/201 (30.3%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+SURE_METNO         2 RILVTNDD-----GIHAPG--LKVLEEI--ARELSDDVWVVAPETDQSGV     42
+                     |||.:|.:     |.|...  |.:||::  .:.|..:||     :.:..|
+MIAB_MYCPE       143 RILKSNFNVDFIFGTHNVHRILNLLEQVIFEKNLVVEVW-----SHEGNV    187
+
+SURE_METNO        43 SHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGV     92
+                     ..:|.......|:......:......:.|::...|..::.|..:.:|..|
+MIAB_MYCPE       188 IENLPSKRTNNLKGFVNVMYGCDKFCTYCIVPMTRGKIRSRRKEDILDEV    237
+
+SURE_METNO        93 NRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGV--GGRANVKWHT    140
+                     :  |.::|         |..|.|::|..    ..:||:  ....|..::.
+MIAB_MYCPE       238 H--QMISE---------GYKEVTLIGQN----VNSYGIDFDNGENYLFNN    272
+
+SURE_METNO       141 AAEHGARTIRRILEAGIE-----------------------PGILVNVNF    167
+                     ..|..|:|       |||                       |.|:.:::.
+MIAB_MYCPE       273 LLEDVAKT-------GIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHL    315
+
+SURE_METNO       168 P    168
+                     |
+MIAB_MYCPE       316 P    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      22/97 (22.7%)
+# Similarity:    37/97 (38.1%)
+# Gaps:           8/97 ( 8.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+SURE_METNO       130 VGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIA    179
+                     |||...:.  .|....:..:.::...||..|.|  ..:.|..|..||.:.
+NADK_STAES        42 VGGDGTLL--QAFHQYSHMLSKVAFVGIHTGHL--GFYADWLPHEVEKLI     87
+
+SURE_METNO       180 VVAQGMRNQ----QLLAIDERLDGRGNPYFWLAFAKARFEPGHGTDL    222
+                     :.......|    .||.:..|.:..|....:||..:|..:..:|:.|
+NADK_STAES        88 IEINNSEFQVIEYPLLELIVRYNDNGYETRYLALNEATMKTENGSTL    134
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 143
+# Identity:      32/143 (22.4%)
+# Similarity:    55/143 (38.5%)
+# Gaps:          47/143 (32.9%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+SURE_METNO        88 VLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVR----SIALSQAYGVGGR    133
+                     :|:.:.:|||::           |.:...|.:.    .||.|..:.:|. 
+TRPG_CAEEL       680 ILTALLKGQNLS-----------AADQLALALAWNRVDIARSDVFAMGH-    717
+
+SURE_METNO       134 ANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGI-AVVA    182
+                        :|..||.|.|     ::||.|.              :.|:.: .::.
+TRPG_CAEEL       718 ---EWPQAALHNA-----MMEALIH--------------DRVDFVRLLLE    745
+
+SURE_METNO       183 QGMRNQQLLAIDERLD-------GRGNPYFWLAFAKARFEPGH    218
+                     ||:..|:.|.| .|||       |..|..|::.....|...|:
+TRPG_CAEEL       746 QGINMQKFLTI-SRLDELYNTDKGPPNTLFYIVRDVVRVRQGY    787
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      48/251 (19.1%)
+# Similarity:    87/251 (34.7%)
+# Gaps:          78/251 (31.1%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+SURE_METNO         6 TNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSH-----------     44
+                     |..||:...|.:||.|:|::.::.:.|......:|.:.:           
+MSHD_MYCMM        26 TQVDGVAPVGEQVLRELAQQRTEHLLVEDQSPGKSAIGYLNLSPAHGADA     75
+
+SURE_METNO        45 ---SLSLNDPLRLRRVA-------------ETRFAVKGT--PSDCV----     72
+                        .|.::...|.|.:|             ..:|...||  |:...    
+MSHD_MYCMM        76 AMAELVVHPQARRRGIATAMVRAALAKTGGRNQFWAHGTLAPAQATASAL    125
+
+SURE_METNO        73 -IMGVRHILKERG-----PDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTI    116
+                      :..||.:::.|.     |:.|:      .|..:..||:||...|   .:
+MSHD_MYCMM       126 GLTPVRELVQMRRSLRQLPEPVI------PNGLQIRTYAGTEDDA---EL    166
+
+SURE_METNO       117 LGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEP-----GI    161
+                     |.|.:.|.:            :|  .|.|..|...:.|...||     |:
+MSHD_MYCMM       167 LRVNNAAFA------------YH--PEQGGWTEADLAERRGEPWFDPAGL    202
+
+SURE_METNO       162 LVNVNFPDCEPEAVEG-----------IAVVAQGMRNQQLLAIDERLDGR    200
+                     .:.:...:...::..|           |.:...|:....:|.:|....||
+MSHD_MYCMM       203 FLALEGSEGAEDSPRGQPRLLGFHWTKIHLDDPGLGEVYVLGVDPAAQGR    252
+
+SURE_METNO       201 G    201
+                     |
+MSHD_MYCMM       253 G    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 158
+# Identity:      31/158 (19.6%)
+# Similarity:    55/158 (34.8%)
+# Gaps:          51/158 (32.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SURE_METNO        88 VLSG-VNRGQNVAEDVTYSGTV---------AGAMEGTILGVRSIALSQA    127
+                     :|:| ::|......|:.|.|::         |..::|..:.|.:|     
+PAND_THEFY         5 MLNGKIHRATVTHADLHYVGSITIDADLMDAANLVDGEQVHVVNI-----     49
+
+SURE_METNO       128 YGVGGRANVKWHTAAEHGARTI------RRILEAGIEPGILVNVNFPDCE    171
+                       ..|...|.:....|.|:..|      .|::..|....|:..|...:.|
+PAND_THEFY        50 --TNGHRLVTYVLTGERGSGVIGINGAAARLVAPGDLVIIISYVQLTEAE     97
+
+SURE_METNO       172 -----PEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEP    216
+                          |..|...|       |.:::|:.:.|                .||
+PAND_THEFY        98 RATHRPHVVHVDA-------NNRIVALGDDL----------------AEP    124
+
+SURE_METNO       217 GHGTDLKA    224
+                     ..|:|.|:
+PAND_THEFY       125 VPGSDQKS    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           2/22 ( 9.1%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+SURE_METNO       142 AEHGARTIRRILEAGIEPGILV    163
+                     |.|.|.|:.:|.:.  :|.:||
+LIPA_ASPOR       216 ARHFAETVIKIKQK--KPSMLV    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 120
+# Identity:      27/120 (22.5%)
+# Similarity:    45/120 (37.5%)
+# Gaps:          16/120 (13.3%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SURE_METNO        27 SDDVWVVAPETDQS--GVSHSLSLNDP----LRLRRVAETR-------FA     63
+                     |.|..:..|.|.||  .:...|.:..|    ::|:.||...       |.
+FLGI_PECAS        52 SGDQTMQTPFTTQSLTNMLSQLGITVPAGTNMQLKNVAAVMVTAELPPFG    101
+
+SURE_METNO        64 VKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAME    113
+                     ..|...|.|:..:.:....||..|:::.:....|....:.....:.|. .
+FLGI_PECAS       102 RTGQNIDIVVSSLGNAKSLRGGTLLMTPLKGVDNQVYALAQGNVLVGG-A    150
+
+SURE_METNO       114 GTILGVRSIALSQAYGVGGR    133
+                     |...|..|:.::|.  .|||
+FLGI_PECAS       151 GASAGGSSVQVNQL--AGGR    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      21/116 (18.1%)
+# Similarity:    40/116 (34.5%)
+# Gaps:          38/116 (32.8%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+SURE_METNO        66 GTPSDCV---IMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAM    112
+                     ||..|||   |:.:...|.::..:..|..|.:...:.:|: .:..|:...
+LDH_BORAP         66 GTYKDCVNADIVVITAGLNQKPGETRLDLVGKNSKIFKDI-ITNVVSSGF    114
+
+SURE_METNO       113 EG-------------------------TILGVRSIA--------LSQAYG    129
+                     :|                         .::|..:|.        ||..:.
+LDH_BORAP        115 DGIFVIASNPVDIMTYVTMKYSKFPIHKVIGTGTILDTSRLRYFLSDRFN    164
+
+SURE_METNO       130 VGGRANVKWHTAAEHG    145
+                     |..: |:..:...|||
+LDH_BORAP        165 VNTQ-NIHSYVMGEHG    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      21/103 (20.4%)
+# Similarity:    37/103 (35.9%)
+# Gaps:          23/103 (22.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SURE_METNO       136 VKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGM    185
+                     ::|.|.:.|.....|.:       |:|..||      |.|:. |..|..|
+EXGB_EMENI       204 LEWMTTSIHQNNKFRNV-------GMLEIVN------EPVQN-ADQASSM    239
+
+SURE_METNO       186 RNQ-------QLLAIDERLDGRGNPYFWLAFAKARFEPGHGTDLKAIAEN    228
+                     .|.       ::...:..|....|.|..:.....::  |.|...:::.:|
+EXGB_EMENI       240 INSYYPSAFTRIRNTESSLGITSNNYLHIQMMNEKW--GSGDPTQSLTDN    287
+
+SURE_METNO       229 RIA    231
+                     ..|
+EXGB_EMENI       288 YFA    290
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 252
+# Identity:      53/252 (21.0%)
+# Similarity:    82/252 (32.5%)
+# Gaps:          90/252 (35.7%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+SURE_METNO         9 DGIHAPGLKV--------LEEIARELSDDVWVVAPETDQSGVSHSLSLND     50
+                     :||...|...        |:|..||:                   |:|.:
+KTHY_CHLP8         6 EGIDGAGKSTQVVKLKRHLQERGREV-------------------LTLRE     36
+
+SURE_METNO        51 PLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAE    100
+                     |             .|||   |...:|.:|.|...|:.        ::||
+KTHY_CHLP8        37 P-------------GGTP---VAEQIRELLLESHNDIT--------SIAE     62
+
+SURE_METNO       101 DVTYSGTVAGAMEGTILGV-------------RSIALSQAYGVGGRANVK    137
+                     .:.:|.:.|..||..|:..             .|....|.||.|    :.
+KTHY_CHLP8        63 LLLFSASRAELMEKIIVPALEDGCDVILDRFFDSTTAYQGYGRG----LN    108
+
+SURE_METNO       138 WHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGMRN    187
+                     ....||     |.||...||.|.|..   :.|..||.    |::.:....
+KTHY_CHLP8       109 LDMLAE-----INRIASHGIRPDITF---YLDLTPED----ALLRKFSEK    146
+
+SURE_METNO       188 QQLLAID----ERLDGRGNPYFWLAFAKARFEPGHGTDLKAIAENRIAVT    233
+                     ...||.:    :|::..|..::      .|...|:...|:|..:..|.:.
+KTHY_CHLP8       147 SLPLAFESEELDRMENSGLEFY------QRVRAGYHAILEAEPQRIIMID    190
+
+SURE_METNO       234 PL    235
+                     .|
+KTHY_CHLP8       191 AL    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      43/200 (21.5%)
+# Similarity:    68/200 (34.0%)
+# Gaps:          77/200 (38.5%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+SURE_METNO        22 IARELSDDVWVVAPETDQSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDC     71
+                     |..:.:|.|::.....:...|.|...::.              :|.|   
+SECA2_MYCTO      442 IREDEADRVYITTAAKNDGIVEHITEVHQ--------------RGQP---    474
+
+SURE_METNO        72 VIMGVRHI---------LKERG-PDLVLSGVNRGQN---VAEDVTYSG-T    107
+                     |::|.|.:         |..|| |.:||:..|..:.   :||...|.. |
+SECA2_MYCTO      475 VLVGTRDVAESEELHERLVRRGVPAVVLNAKNDAEEARVIAEAGKYGAVT    524
+
+SURE_METNO       108 VAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGI    157
+                     |:..|.|....:|         :||      ...|:|.     |:.|.| 
+SECA2_MYCTO      525 VSTQMAGRGTDIR---------LGG------SDEADHD-----RVAELG-    553
+
+SURE_METNO       158 EPGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGR----GNP    203
+                                        |:.||..|..:.:.|  |.:|.||    |:|
+SECA2_MYCTO      554 -------------------GLHVVGTGRHHTERL--DNQLRGRAGRQGDP    582
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           1/20 ( 5.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+SURE_METNO       153 LEAGIEPGILVNVNFPDCEP    172
+                     ||..|..|..:| :.|.|.|
+DB108_HUMAN       40 LETEIHVGRCLN-SRPCCLP     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 184
+# Identity:      41/184 (22.3%)
+# Similarity:    69/184 (37.5%)
+# Gaps:          40/184 (21.7%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SURE_METNO        34 APETDQSGVS-----HSLSLNDP-LRLRRVAETRFAVKGTPSD-------     70
+                     :|....|.:|     |.|...|| |....:||..|... :|.|       
+LCMT1_CRYNB      228 SPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPYM-SPEDSREIIKW    276
+
+SURE_METNO        71 -----CVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGT    115
+                          |..|||  :.:..|.|.....|.:......:::..|::....|..
+LCMT1_CRYNB      277 FGETFCSCMGV--VYEMVGLDDSFGNVMKRNLAVRNLSIPGSIFSTPESQ    324
+
+SURE_METNO       116 ILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNV    165
+                     .....|..|.     ||    |:.:|   ||:|:.:|.|..:.|..|..:
+LCMT1_CRYNB      325 AGRFTSPMLQ-----GG----KFDSA---GAKTLWQIREEDVGPEELQRI    362
+
+SURE_METNO       166 NFPDCEPEAVEGIA------VVAQGMRNQQLLAI    193
+                     :..:...| :|.:.      |:|.|.:.:.:.:|
+LCMT1_CRYNB      363 SKLEILDE-IEELRLVLEHYVIAWGTKGECMSSI    395
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      12/39 (30.8%)
+# Similarity:    20/39 (51.3%)
+# Gaps:           6/39 (15.4%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+SURE_METNO       160 GILVNV-NFPD---CEPEAVEGIAVVAQGMRNQQLLAID    194
+                     |.:||: :.||   .|....:|||:...|  |:.:..:|
+PTGA_SALTY        29 GEIVNIEDVPDVVFAEKIVGDGIAIKPTG--NKMVAPVD     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      22/83 (26.5%)
+# Similarity:    38/83 (45.8%)
+# Gaps:          18/83 (21.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SURE_METNO        20 EEIARELSDDVWVVAPETDQSGVSHSL-SL---NDPLRLRRVAETRFAVK     65
+                     :.:.:|:|:    |:...|:..:...| ||   :.|.||||    |....
+RR14_CRYJA        25 QSLKKEMSE----VSSLDDKLDIYRKLQSLPRNSAPTRLRR----RCLKT     66
+
+SURE_METNO        66 GTP----SDCVIMGVRHILKERGPDLVLSGVNR     94
+                     |.|    .|..:.|  :|::|.....:|:||.:
+RR14_CRYJA        67 GRPRANYRDFELSG--YIIREMAHACLLAGVTK     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 108
+# Identity:      22/108 (20.4%)
+# Similarity:    43/108 (39.8%)
+# Gaps:          28/108 (25.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+SURE_METNO        18 VLEEIARELSDDV----------------WVVAPETDQSGVSHSLSLNDP     51
+                     |::.|.||||.:.                |...| .|..|:...|.::| 
+DCUP_BACVZ       226 VMDRIFRELSAEQVPLIMFGVGASHLAGDWHDLP-LDVVGLDWRLGIDD-    273
+
+SURE_METNO        52 LRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGV-------NR     94
+                     .|.:.:.:|   |:|.....:::....:::::...::..|:       |.
+DCUP_BACVZ       274 ARKQGITKT---VQGNLDPSLLLAPWEVIEKKAKAILDQGMKTDGFIFNL    320
+
+SURE_METNO        95 GQNVAEDV    102
+                     |..|..||
+DCUP_BACVZ       321 GHGVFPDV    328
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      46/211 (21.8%)
+# Similarity:    86/211 (40.8%)
+# Gaps:          37/211 (17.5%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+SURE_METNO        15 GLKVLEEIARELSDDVWVV-APETDQSGVSHSLSLNDPLRLRRVAETRFA     63
+                     |:..||:|.|..:...::: .||..::.:..|.|...|.|         .
+GTF2I_MOUSE      787 GIPRLEKILRNKAKIKFIIKKPEMFETAIKESTSSKSPPR---------K    827
+
+SURE_METNO        64 VKGTPS-DCVIMGVR--HILKERGPD---LVLSGVNRGQNVAEDVT--YS    105
+                     :..:|: :....||.  :|::...||   ..||.|.:.:.:.|.|.  :|
+GTF2I_MOUSE      828 INSSPNVNTTASGVEDLNIIQVTIPDDDNERLSKVEKARQLREQVNDLFS    877
+
+SURE_METNO       106 ---GTVAGAMEGTILGVRSIALSQAYGV--GGRANVKWHTAAEHGARTIR    150
+                        |...|......:..|.|.::....|  |....|.:...:.....::|
+GTF2I_MOUSE      878 RKFGEAIGMGFPVKVPYRKITINPGCVVVDGMPPGVSFKAPSYLEISSMR    927
+
+SURE_METNO       151 RILEAG--IE-------PGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLL    191
+                     |||::.  |:       ||:::|....| :.|: ||..:......:|..:
+GTF2I_MOUSE      928 RILDSAEFIKFTVIRPFPGLVINNQLVD-QNES-EGPVIQESAEASQLEV    975
+
+SURE_METNO       192 AIDERL---DG    199
+                     .:.|.:   ||
+GTF2I_MOUSE      976 PVTEEIKETDG    986
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    26/54 (48.1%)
+# Gaps:           4/54 ( 7.4%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+SURE_METNO        10 GIHAPGLKVLEEIARELSDDV--WVVAPETDQSGVSHSLSLNDPLRLRRV     57
+                     ||.| |....|.:.:|:.|.:  |......:..||...::.:.||.|.: 
+ISPH_ACIF5       261 GISA-GASAPESLVQEIMDTLRGWGARVPQEMPGVEEKVTFSLPLALIQ-    308
+
+SURE_METNO        58 AETR     61
+                     |:||
+ISPH_ACIF5       309 AQTR    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      12/34 (35.3%)
+# Similarity:    14/34 (41.2%)
+# Gaps:           2/34 ( 5.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+SURE_METNO        61 RFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNR     94
+                     ||...|........|....|.||  |..:|||:|
+NDUA1_HUMAN       28 RFTNGGKEKRVAHFGYHWSLMER--DRRISGVDR     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:       9/47 (19.1%)
+# Similarity:    22/47 (46.8%)
+# Gaps:          10/47 (21.3%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SURE_METNO       143 EHGARTIRRILEA-----GIEPGILVNVNFPDCEPEAVEGIAVVAQG    184
+                     |..||.::..::|     |:.|.:..::..|:     :..|.:.::|
+PSRP_SALTI        46 ESRARAVKDQIDAIYQQTGVRPLVFYSIVLPE-----IRAIILQSEG     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 221
+# Identity:      42/221 (19.0%)
+# Similarity:    71/221 (32.1%)
+# Gaps:          82/221 (37.1%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+SURE_METNO        38 DQSGVSHSL---------SLNDPLRLRRVAETRFAVK------GTPSDCV     72
+                     ||:|..|..         ||.:.|..|.:...|.|:|      |...:.|
+DNAK_CHESB       284 DQTGPKHLAIKLTRAKFESLVEDLVTRTIEPCRAALKDAGLSAGEIDEVV    333
+
+SURE_METNO        73 IMG-------VRHILKE---RGPDLVLSGVNRGQNVAEDVTYSGTV-AGA    111
+                     ::|       |:..:|.   :.|       ::|.|..|.|.....: ||.
+DNAK_CHESB       334 LVGGMTRMPKVQETVKNFFGKEP-------HKGVNPDEVVAMGAAIQAGV    376
+
+SURE_METNO       112 MEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEP--    159
+                     ::|.:..|..:.::.                          |..|||.  
+DNAK_CHESB       377 LQGDVKDVLLLDVTP--------------------------LSLGIETLG    400
+
+SURE_METNO       160 GILV-----NVNFPDCEPEAVEGI-----AVVAQGMRNQQLLAIDERLDG    199
+                     |:..     |...|..:.:.....     ||..:..:.::.:|.|.:|.|
+DNAK_CHESB       401 GVFTRLIDRNTTIPTKKSQVFSTAEDNQNAVTIRVFQGEREMAADNKLLG    450
+
+SURE_METNO       200 -----------RGNPYFWLAF    209
+                                ||.|...:.|
+DNAK_CHESB       451 QFDLVGIPPAPRGMPQIEVTF    471
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 175
+# Identity:      35/175 (20.0%)
+# Similarity:    57/175 (32.6%)
+# Gaps:          48/175 (27.4%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+SURE_METNO        77 RHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQ    126
+                     ||..|  ..:.|:..|||.:.....:.|.      ::|.::.|.|..|.:
+DNLJ_ACIC5       264 RHAAK--SIETVVEFVNRAEEHRSRLGYE------IDGVVVKVNSAVLQR    305
+
+SURE_METNO       127 AYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVE    176
+                     ..|..||| .:|..|.:..||:                            
+DNLJ_ACIC5       306 RLGYTGRA-PRWAVAYKFAARS----------------------------    326
+
+SURE_METNO       177 GIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGHGTDLKAIA    226
+                            |:...:.:.:.....|:..|..||    |..:.|..|..:|..
+DNLJ_ACIC5       327 -------GVTQVEDIQVQVGRTGKLTPVAWL----APVQVGGTTVTRATL    365
+
+SURE_METNO       227 ENRIAVTPLRLDLTDEPTLTRFAQV    251
+                     .|...:..|.|.:.|...:.|...|
+DNLJ_ACIC5       366 HNADEIERLGLRIGDFVRIERGGDV    390
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           1/21 ( 4.8%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+SURE_METNO       221 DLKAIAENRIAVTPL-RLDLT    240
+                     |.|.::..:|.|.|| :.|.|
+CAPSD_CMVO       100 DKKLVSRIQIRVNPLPKFDST    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    16/34 (47.1%)
+# Gaps:           1/34 ( 2.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SURE_METNO        56 RVAETRFAVK-GTPSDCVIMGVRHILKERGPDLV     88
+                     ||.|.|...: ||......:..|.:.::|..||:
+IF3_CHLL2         22 RVPEVRIVFQDGTQQVMKTIEARRMAEDRNLDLI     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      12/45 (26.7%)
+# Similarity:    17/45 (37.8%)
+# Gaps:           7/45 (15.6%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+SURE_METNO       115 TILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEP    159
+                     |:|.||...:.  .||.....|     :.|.....:||.:...||
+CSRA_HAEI8        21 TVLSVRGNQVK--LGVEAPKEV-----SVHREEIYQRIKQTKDEP     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 104
+# Identity:      23/104 (22.1%)
+# Similarity:    43/104 (41.3%)
+# Gaps:          18/104 (17.3%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SURE_METNO        95 GQNVAEDVTYSGTVAGAMEGTILG--VRSIALSQAYGVGGRANVKWHTAA    142
+                     |..|.|..:::......:||.|:.  |.:|..|..:.:....|:|     
+COAX_CLOBL        40 GIQVIELFSHNNLSFSDIEGVIISSVVPNIMYSLEHMISKYFNIK-----     84
+
+SURE_METNO       143 EHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGI--AVVAQGMRNQQL    190
+                            ..|:..|::.||  |:.:.:.:....:.|  ||.|..:..:.|
+COAX_CLOBL        85 -------PIIVGPGVKTGI--NIKYDNPKEVGADRIVNAVAAHEIYKKPL    125
+
+SURE_METNO       191 LAID    194
+                     :.||
+COAX_CLOBL       126 IIID    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:    13/17 (76.5%)
+# Gaps:           1/17 ( 5.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+SURE_METNO        55 RRVAETRFAVKGTPSDC     71
+                     :|:|:.|.: :|.||:|
+HOP_BOVIN         53 QRLAQWRRS-EGLPSEC     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      23/136 (16.9%)
+# Similarity:    53/136 (39.0%)
+# Gaps:          32/136 (23.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SURE_METNO        50 DPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVA     99
+                     |.:.|.|...|....|..|..|.::..:..:|.:          :|:..|
+THII_VIBA3       323 DIIDLSRKIGTEDFAKVMPEYCGVISKKPTVKAK----------KGKLEA    362
+
+SURE_METNO       100 EDVTYSGTVAGAM--EGTILGVRSIALSQAYGVGGRANVKWHTAAEHGAR    147
+                     |:..::..|...:  ...|:.:|.|                ...::..|.
+THII_VIBA3       363 EEAKFNFEVLEQVIENARIMDIRDI----------------EKESQEQAP    396
+
+SURE_METNO       148 TIRRILEAGIEPGILVNVNFPDCEPEA---VEGIAV    180
+                     .:.:: :|..|..:::::..||.|.|:   ::|:.:
+THII_VIBA3       397 EVEQV-QAVAEHAVVLDIRSPDEEDESPLEIDGVEI    431
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      19/77 (24.7%)
+# Similarity:    24/77 (31.2%)
+# Gaps:          36/77 (46.8%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+SURE_METNO         3 ILVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSHS-------     45
+                     |:|.|.:.:...|.|                  .:|:...|||       
+RL13_PSEPG        54 IVVINAEQVRVTGAK------------------SSDKMYYSHSGFPGGIK     85
+
+SURE_METNO        46 ------LSLNDPLRLRRVAETRFAVKG     66
+                           |....|   .||.||  ||||
+RL13_PSEPG        86 EINFEKLIAKAP---ERVIET--AVKG    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:      20/101 (19.8%)
+# Similarity:    41/101 (40.6%)
+# Gaps:          19/101 (18.8%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+SURE_METNO        36 ETDQSGVSHSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGP     85
+                     ||...|:.:...|.|.:.:....|...|::    :|:.:|:        |
+RR2_ARATH        149 ETYLGGIKYMTGLPDIVIILDQQEEYTALR----ECITLGI--------P    186
+
+SURE_METNO        86 DLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGV-GGRA    134
+                     .:.|...|...::| |::..     |.:..|..:|.|.....:.: .||:
+RR2_ARATH        187 TISLIDTNCNPDLA-DISIP-----ANDDAIASIRFILNKLVFAICEGRS    230
+
+SURE_METNO       135 N    135
+                     :
+RR2_ARATH        231 S    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      31/129 (24.0%)
+# Similarity:    46/129 (35.7%)
+# Gaps:          46/129 (35.7%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SURE_METNO        96 QNVA-EDVTYSGTV--------AGAME------GTILGVRSIALSQAY--    128
+                     ||:| .:.|..||.        .||.:      ||.||:..:.:.:.|  
+Y1710_SYNP2      120 QNLAIAEATVHGTTPEQVHFHEVGATDALVDIVGTCLGLDWLEIDELYCA    169
+
+SURE_METNO       129 --GVGGRANVKWHTAAEHGARTI-----------RR--ILEAGIE-----    158
+                       ..|| ..||    |.||...:           |:  :...|||     
+Y1710_SYNP2      170 PMPTGG-GTVK----AAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELVT    214
+
+SURE_METNO       159 ---PGILVNVNFPDCEPEAVEGIAVVAQG    184
+                        ..|...:....|:|.|:. :|.:|.|
+Y1710_SYNP2      215 PTGAAIATTLATDFCQPPAMT-LAKIALG    242
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 261
+# Identity:      48/261 (18.4%)
+# Similarity:    94/261 (36.0%)
+# Gaps:          71/261 (27.2%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+SURE_METNO        28 DDVWVVAPETDQSGVSH---------SLSLND----PLRLRRVAETRFAV     64
+                     :|:..:.||  :.|:::         ::|:.|    .|::|:|.:.....
+WTPC_THEKO        63 EDITDLPPE--KRGLAYIPQNYALFPNMSVFDNIAFGLKVRKVPKAEIGR    110
+
+SURE_METNO        65 KGTPSDCVIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEG    114
+                     | ......::|:.|:|| |.|..:..|..:...:|.        |.|:|.
+WTPC_THEKO       111 K-VRELSEVLGISHLLK-RKPKTLSGGEMQRVAIAR--------ALAVEP    150
+
+SURE_METNO       115 TILGVRSIALSQAYG---VGGRANV-----KWHT----AAEHGARTIRRI    152
+                     .:|     .|.:.:.   |..|..:     :|..    .|.|...:....
+WTPC_THEKO       151 ELL-----LLDEPFANLDVQTRGRLINEMKRWRKELGFTALHVTHSFEEA    195
+
+SURE_METNO       153 LEAGIEPGILVNVNFPDCEP-------EAVEGIAVVAQGMRNQQLLAIDE    195
+                     :..|...|:::|.......|       .|.|.:|         :.|..:.
+WTPC_THEKO       196 VSLGDRVGVMLNGRLVQVGPVREVFSRPASEEVA---------KFLGFEN    236
+
+SURE_METNO       196 RLDGRGNPYFWLAFAKARFEPGHG----TDLKAIAENRIAVTPLRLDLTD    241
+                     .::|         .|:.|....:|    ..::|....|:.:.|..:.|:|
+WTPC_THEKO       237 IVEG---------LAEGRILRANGLVIELPIEASGRIRVGIRPEDIVLSD    277
+
+SURE_METNO       242 EPTLTRFAQVF    252
+                     ||..:.....|
+WTPC_THEKO       278 EPLKSSMRNTF    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      17/65 (26.2%)
+# Similarity:    26/65 (40.0%)
+# Gaps:          17/65 (26.2%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SURE_METNO       175 VEGIAVVAQGMRNQQ--------LLAIDERL----DGRGNPYFWLAFAKA    212
+                     |:|:.:|.:..||.|        |..:...|    :..|..||.:...:.
+GRB7_RAT         454 VDGVFLVRESQRNPQGFVLSLCHLQKVKHYLILPSEDEGCLYFSMDDGQT    503
+
+SURE_METNO       213 RFEPGHGTDLKAIAE    227
+                     ||     |||..:.|
+GRB7_RAT         504 RF-----TDLLQLVE    513
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      33/164 (20.1%)
+# Similarity:    51/164 (31.1%)
+# Gaps:          44/164 (26.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+SURE_METNO        45 SLSLNDPLRLRRVAE----------TRFAVKGTPSDCVIMGVRHILKERG     84
+                     :|...||:|:..|.|          ....|:..|...:.:|         
+PSD_RHOPS         51 ALFFRDPVRVTPVREGLVVAPADGRVSMVVQMIPPPALGLG---------     91
+
+SURE_METNO        85 PDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRA    134
+                      |..|..|:...:|.........|||.:|..|           |..|...
+PSD_RHOPS         92 -DKPLPRVSIFMSVFNCHVNRSPVAGRVERII-----------YSPGKFI    129
+
+SURE_METNO       135 NVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCEPEAVEGIAV--VA    182
+                     |.:...|:|...|....|.....:.|::           .:.|:..  :.
+PSD_RHOPS        130 NAELDKASEDNERNSMVISTPAGQIGVV-----------QIAGLVARRIV    168
+
+SURE_METNO       183 QGMRNQQLLAIDER    196
+                     ..:|..|.||..||
+PSD_RHOPS        169 SFVREGQTLAPGER    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      20/73 (27.4%)
+# Similarity:    29/73 (39.7%)
+# Gaps:          13/73 (17.8%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SURE_METNO       102 VTYSGTVAGAME-GTILGVRSIALSQAYGVGGRAN-------VKWHTAAE    143
+                     |||:..:.|..| |..|..|.: :.|....|.:||       :||....|
+PP156_ARATH      346 VTYNTLIDGCFELGLSLEARKL-MEQMENDGVKANQVTHNISLKWLCKEE    394
+
+SURE_METNO       144 HGARTIRRILEA----GIEPGIL    162
+                     ......|::.|.    |..|.|:
+PP156_ARATH      395 KREAVTRKVKELVDMHGFSPDIV    417
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      22/92 (23.9%)
+# Similarity:    36/92 (39.1%)
+# Gaps:          21/92 (22.8%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+SURE_METNO         3 ILVTNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLNDPL     52
+                     :|.||  |.|.|...|.||     .|:.|||......|.:..::...:.|
+ADRB2_MESAU       11 LLTTN--GSHVPDHDVTEE-----RDEAWVVGMAILMSVIVLAIVFGNVL     53
+
+SURE_METNO        53 RLRRVAE-------TRFAVKGTPSDCVIMGV-------RHIL     80
+                     .:..:|:       |.:.:.......::||:       .|||
+ADRB2_MESAU       54 VITAIAKFERLQTVTNYFITSLACADLVMGLAVVPFGASHIL     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       8/31 (25.8%)
+# Similarity:    14/31 (45.2%)
+# Gaps:           7/31 (22.6%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+SURE_METNO        70 DCVIMGV-------RHILKERGPDLVLSGVN     93
+                     :|..:|:       |.:..:.|..||:..||
+ID5B_ADEPA         2 ECKDLGISIDDDNNRRLAVKEGDPLVVQFVN     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      16/68 (23.5%)
+# Similarity:    28/68 (41.2%)
+# Gaps:          19/68 (27.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+SURE_METNO        12 HAPGLK---------VLEEIARELSDDVWVVAPETDQSGVSHSLSLNDPL     52
+                     |.||::         .:::.|:...|::    |..  |..::..|..|.|
+GPA7_CAEEL       131 HDPGVRECYRRSNEYQIDDSAKYFLDNL----PRL--SSPNYVPSEQDLL    174
+
+SURE_METNO        53 RLR----RVAETRFAVKG     66
+                     |.|    .:.|..|.:||
+GPA7_CAEEL       175 RTRIKTTGITEVLFELKG    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      18/93 (19.4%)
+# Similarity:    25/93 (26.9%)
+# Gaps:          36/93 (38.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+SURE_METNO       189 QLLAIDERLDGRGNPYFW----------------LAFAKARFEPG-----    217
+                     |||.....|..:..|..|                ....:.|:|.|     
+IDI_ECO24         45 QLLVTRRALSKKAWPGVWTNSVCGHPQLGESNEDAVIRRCRYELGVEITP     94
+
+SURE_METNO       218 ----------HGTDLKAIAENRI-----AVTPLRLDLTDEPTL    245
+                               ..||...|.||.:     |.|...|.:.|:..:
+IDI_ECO24         95 PESIYPDFRYRATDPNGIVENEVCPVFAARTTSALQINDDEVM    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 92
+# Identity:      21/92 (22.8%)
+# Similarity:    29/92 (31.5%)
+# Gaps:          34/92 (37.0%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+SURE_METNO       114 GTILGVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILV    163
+                     |.|||.||.   :..|:....|....|||:.|...:.:            
+YHJA_ECOLI       357 GIILGGRSF---EPLGLKKDFNFGEITAADIGRMNVTK------------    391
+
+SURE_METNO       164 NVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYF    205
+                              |..:.:.....|:||..|.|          |||
+YHJA_ECOLI       392 ---------EERDKLRQKVPGLRNVALTA----------PYF    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      21/70 (30.0%)
+# Similarity:    35/70 (50.0%)
+# Gaps:          17/70 (24.3%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+SURE_METNO         5 VTNDDGIHAPGLKVLEEIARELSDDVWVVAPETDQSGVSHSLSLNDPLRL     54
+                     :|.||         .|::.|:|...:.|...:.::..|| |..|:.|  |
+RIMP_BURPS        39 ITIDD---------CEKVTRQLQHVLTVENIDYERLEVS-SPGLDRP--L     76
+
+SURE_METNO        55 RRVAE-TRFAVKGTPSDCVI     73
+                     :::|: ||||    .|:.||
+RIMP_BURPS        77 KKLADFTRFA----GSEAVI     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:       9/32 (28.1%)
+# Similarity:    18/32 (56.2%)
+# Gaps:           2/32 ( 6.2%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+SURE_METNO       143 EHGARTIRRILEAGIEPGILVNVNFPDCEPEA    174
+                     ::|.|||.|.::..:..|.::.:  .:.|.||
+RS28_OSTOS        33 DNGNRTINRNVKGPVREGDILTL--LEAEREA     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    20/46 (43.5%)
+# Gaps:          10/46 (21.7%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+SURE_METNO        35 PETDQSGVS--HSLSLNDPLRLRRVAETRFAVKGTPSDCVIMGVRH     78
+                     ||...|.:|  |:.:|       ||....||:... :..|::.|.|
+HBAC_LITCT        77 PEASLSSLSDLHAFTL-------RVDPGNFALLSN-NILVVVAVHH    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 257
+# Identity:      52/257 (20.2%)
+# Similarity:    85/257 (33.1%)
+# Gaps:          97/257 (37.7%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+SURE_METNO         9 DGIHAPGLKVLEEIA-RELSDDVWV-------VAPETDQSGVSHSLSLND     50
+                     :|:|.. ::|...:| |.||.:..|       |||.....|:.       
+RPOA_PRRSS       495 NGVHWE-VEVRSGMAPRSLSRECVVGVCSEGCVAPPYPADGLP-------    536
+
+SURE_METNO        51 PLRLRRVAETRFAVKGTPSDCVIMGVRHILKERGP------DLVL-----     89
+                         :|..|...:....|||||..|:...|.:..|      |.:|     
+RPOA_PRRSS       537 ----KRALEALASAYRLPSDCVSSGIADFLADPPPQEFWTLDKMLTSPSP    582
+
+SURE_METNO        90 --SGVNRGQNVAEDVTYSGTVAGAMEGTIL--------------------    117
+                       ||.:....:..:|.  ....||.||..:                    
+RPOA_PRRSS       583 ERSGFSSLYKLLLEVV--PQKCGATEGAFVYAVERMLKDCPSPEQAMALL    630
+
+SURE_METNO       118 --------GVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEP    159
+                             ...|::|.:.:..|..|:  :..|.:...|:          |
+RPOA_PRRSS       631 AKIKVPSSKAPSVSLDECFPAGVPAD--FEPAFQERPRS----------P    668
+
+SURE_METNO       160 GILVNVNFPDCEPEA--VEGIA---------------VVAQGMRNQQLLA    192
+                     |..|.:    |.|:|  .||.|               .:|:|..|:|:..
+RPOA_PRRSS       669 GAAVAL----CSPDAKGFEGTASEEAQESGHKAVHAVPLAEGPNNEQVQV    714
+
+SURE_METNO       193 I-DERLD    198
+                     : .|:|:
+RPOA_PRRSS       715 VAGEQLE    721
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      36/172 (20.9%)
+# Similarity:    61/172 (35.5%)
+# Gaps:          54/172 (31.4%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+SURE_METNO        48 LNDPLRLRRVAE----TRFAVKGTP----------------------SDC     71
+                     :|||   |:.|:    |.|..:..|                      :|.
+UBIE_PSEAE         1 MNDP---RKGADAEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDL     47
+
+SURE_METNO        72 VIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRS    121
+                     :..|:..:.|..  .:.||||..|..|.:       :||   ||  |..:
+UBIE_PSEAE        48 MSGGIHRLWKRF--TIELSGVRSGNRVLD-------IAG---GT--GDLT     83
+
+SURE_METNO       122 IALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCE    171
+                     ...|:..|..|..     ..|:..|..::...:..::.|:..||:|...:
+UBIE_PSEAE        84 RQFSRLVGPTGEV-----VLADINASMLKVGRDKLLDKGVSGNVSFVQAD    128
+
+SURE_METNO       172 PEAVE------GIAVVAQGMRN    187
+                     .|.:.      ....:|.|:||
+UBIE_PSEAE       129 AEKLPFPDNHFDCVTIAFGLRN    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      50/213 (23.5%)
+# Similarity:    79/213 (37.1%)
+# Gaps:          83/213 (39.0%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+SURE_METNO        50 DPL---RLRRVAETRFAVKGTPSDCVIMGVRHILKERGPDLVLSGVNRGQ     96
+                     :||   |:|.|.:|              |||.:       ..|..:.:||
+FLII_AQUAE       135 NPLYRERIREVFDT--------------GVRSV-------NALFTLGKGQ    163
+
+SURE_METNO        97 NVAEDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAA----    142
+                     .:.   .::|  ||..:.|:||:                :..|:.|    
+FLII_AQUAE       164 KIG---IFAG--AGVGKSTLLGM----------------ITRHSKADVVV    192
+
+SURE_METNO       143 -----EHGARTIRRIL-----EAGIEPGILVNVNFPDCEP-EAVEGI--A    179
+                          |.| |.::..|     |.|::..::| |:..|..| ..|:|.  |
+FLII_AQUAE       193 LALIGERG-REVKEFLEEVLGEEGLKKSVVV-VSTADQSPILKVKGAISA    240
+
+SURE_METNO       180 VV------AQG------MRNQQLLAIDERLDG--RGNPYFWLAFAKARFE    215
+                     ||      :||      |.:...||:.:|..|  .|.|.....|..:.|:
+FLII_AQUAE       241 VVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKGFTPSVFQ    290
+
+SURE_METNO       216 PGHGTDLKAIAEN    228
+                     .     |..|||:
+FLII_AQUAE       291 L-----LTRIAES    298
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      12/31 (38.7%)
+# Similarity:    16/31 (51.6%)
+# Gaps:           9/31 (29.0%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+SURE_METNO        45 SLSLNDPLRLRRVAETRFAVKGTPSDCVIMG     75
+                     |:.|||..:|       |.:.|.|:|  |||
+MSS11_VANPO      788 SMGLNDGFQL-------FDMDGFPND--IMG    809
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:      41/203 (20.2%)
+# Similarity:    71/203 (35.0%)
+# Gaps:          56/203 (27.6%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SURE_METNO        15 GLKVLEEIARELSDDVWVVAP-------ETDQSGVSHSLSLNDPLRLRRV     57
+                     |:..|..|...|..|.:::.|       ...|...:..::.:||..|   
+SPB4_ASPFU       307 GVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAIL---    353
+
+SURE_METNO        58 AETRFAVKG--TPS-DCVIM--------------GVRHILKERGPDLVLS     90
+                     ..|..|.:|  .|| |.|:.              |.......||..:||.
+SPB4_ASPFU       354 LTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLL    403
+
+SURE_METNO        91 GVNRGQN--------------VAEDVTYSGTVAGAMEGT----ILGVRSI    122
+                     ...|.::              .:..:::|...|.|...|    :|..|::
+SPB4_ASPFU       404 HPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRAL    453
+
+SURE_METNO       123 ALSQAYGVGGRANVKW-HTAAEHGARTIRRILEAGIEP-----GILVNVN    166
+                          :..|.:|.|.| .:.::|.|.:|.|:.:...|.     |:|....
+SPB4_ASPFU       454 -----HDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPK    498
+
+SURE_METNO       167 FPD    169
+                     .|:
+SPB4_ASPFU       499 MPE    501
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 168
+# Identity:      36/168 (21.4%)
+# Similarity:    59/168 (35.1%)
+# Gaps:          50/168 (29.8%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+SURE_METNO        13 APGLKVLEEIARELSDDVWV---VAPETDQSGVSHSLSLNDPLRL-----     54
+                     ||.|:||..:    .|..|.   .....:::.:..:::...|..:     
+ASSY_MYCTO       136 APDLEVLAPV----RDYAWTREKAIAFAEENAIPINVTKRSPFSIDQNVW    181
+
+SURE_METNO        55 RRVAETRF-----------AVKGTPSDCVIMGVRHILKERGPDLVLSGVN     93
+                     .|..||.|           ....|....:..||        ||.|:.|..
+ASSY_MYCTO       182 GRAVETGFLEHLWNAPTKDIYAYTEDPTINWGV--------PDEVIVGFE    223
+
+SURE_METNO        94 RGQNVAED---VTYSGTV------AGA--------MEGTILGVRSIALSQ    126
+                     ||..|:.|   |:....:      |||        :|..::|::|..:.:
+ASSY_MYCTO       224 RGVPVSVDGKPVSMLAAIEELNRRAGAQGVGRLDVVEDRLVGIKSREIYE    273
+
+SURE_METNO       127 AYGVGGRANVKWHTAAEH    144
+                     |  .|....:..||..||
+ASSY_MYCTO       274 A--PGAMVLITAHTELEH    289
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      46/240 (19.2%)
+# Similarity:    65/240 (27.1%)
+# Gaps:         102/240 (42.5%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SURE_METNO        31 WVVAPETDQSGVSHSLSLNDPLRLRRVAET---RFAVKGTPSDCVIMGVR     77
+                     |::.     .|..||:.|.|    |.|...   ....|.||   :..|:.
+ECCB1_MYCS2      198 WLIT-----EGGRHSIDLAD----RAVTSAVGIPVTAKPTP---ISQGLF    235
+
+SURE_METNO        78 HILKERGP-------------------DLVLSGVNRGQNVAEDVTY----    104
+                     :.|..|||                   :||:..|.|....::...|    
+ECCB1_MYCS2      236 NALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRTATESDPQHYVVLP    285
+
+SURE_METNO       105 ------SGTVAGAMEGTILGVRSIALSQAYGVGGRANVK-----------    137
+                           :.|.|.|:..|    .|..|.|...|......|           
+ECCB1_MYCS2      286 DGVARVNNTTAAALRAT----NSYGLMQPPAVEASVVAKIPEQVYVSPLP    331
+
+SURE_METNO       138 ----------------WHTAAEHGARTIRRILEAG---------------    156
+                                     |....|.|.:..:..:.||               
+ECCB1_MYCS2      332 DQPLDVLLRQDSPVLCWSWQREPGDQAPKTTVIAGRRLPLPANAIGTGID    381
+
+SURE_METNO       157 ---------IEPGILVNVNFPDCEPEAVEGIAVV-AQGMR    186
+                              ||.|..|.:..||  |...|.:..: .||:|
+ECCB1_MYCS2      382 QIGGDSTVYIEGGQFVRLQSPD--PRVGESMYYIDPQGVR    419
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      34/149 (22.8%)
+# Similarity:    57/149 (38.3%)
+# Gaps:          32/149 (21.5%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SURE_METNO       108 VAGAMEGT--ILGVRSIALSQAYGVGGR------ANVKWHTAAEH--GAR    147
+                     |||..|.|  :||.:.:.:....|..|.      ||:..|....|  ...
+KCY4_ORYSJ        11 VAGQEEVTDNMLGDKKVTVVFVLGGPGSGKGTQCANIVEHFGFIHLSAGD     60
+
+SURE_METNO       148 TIRRILEAGIEPGILVNVNFPDCEPEAVEGIAVVAQGMRNQQLLAIDERL    197
+                     .:|..:::|.|.|.::       |....||..|.::    ..:..:.|.:
+KCY4_ORYSJ        61 LLRAEIKSGSENGTMI-------ENMIKEGKIVPSE----VTIKLLQEAM     99
+
+SURE_METNO       198 DGRGNPYFWL-AFAKARFEPGHGTDLKAIAENRIAVTP---LRLDLTDE    242
+                     ...||..|.: .|.:       ..:.:|..||...:||   |..|.::|
+KCY4_ORYSJ       100 IKSGNDKFLIDGFPR-------NEENRAAFENVTKITPAFVLFFDCSEE    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      24/96 (25.0%)
+# Similarity:    34/96 (35.4%)
+# Gaps:          26/96 (27.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+SURE_METNO        28 DDVWVVAPETDQSGVSH------SLSLNDPLRL--------RRVAETRFA     63
+                     |.|:.:.| ....|:.|      ||.:...|.|        ::...|.||
+HCP_TRIV2        323 DKVFTLGP-VGYPGLQHISIHDISLVIQKALELPGFTEDSEQKTVTTGFA    371
+
+SURE_METNO        64 ------VKGTPSDCVIMG-VRHILKERGPDLVLSGVNRGQNVAEDV    102
+                           |..|..:.|..| :||.....|.|    |...|:|...|:
+HCP_TRIV2        372 RNAVLGVADTVINAVKQGDIRHFFLVGGCD----GAKPGRNYYSDL    413
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      35/155 (22.6%)
+# Similarity:    59/155 (38.1%)
+# Gaps:          25/155 (16.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+SURE_METNO       113 EGTILGVRSIALS----QAYGVGGRANVKWHTAAEHG--ARTIRRILEAG    156
+                     ||.:|.|.:.|..    :::..|.  :|...|.|||.  .|.::...:..
+UBX7_YEAST        20 EGVVLAVYNTARDDQWLKSWFKGD--DVSLDTLAEHSIWLRLVKDTEQFQ     67
+
+SURE_METNO       157 IEPGILVNVNFPDCEPEAVEGIAVVAQGMRN---QQLLA---IDERLDGR    200
+                     :...:..||..|.........|.::.||..:   ::|||   |.::..|.
+UBX7_YEAST        68 LFEQVFPNVVVPSIYLIRAGKIELIIQGEDDRHWEKLLACIGIKDKKAGE    117
+
+SURE_METNO       201 G-----NPYFWLAFAKARFEPGHGTDLKAIAENRIAVTPLRLDLTDEPTL    245
+                     .     ||      ..||.|.......:..|..|||.|.|.:...::...
+UBX7_YEAST       118 SSSRETNP------GLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQ    161
+
+SURE_METNO       246 TRFAQ    250
+                     .:.|:
+UBX7_YEAST       162 RKLAE    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      49/230 (21.3%)
+# Similarity:    78/230 (33.9%)
+# Gaps:          89/230 (38.7%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+SURE_METNO         3 ILVTNDDGIHAPGLKVLEEIARELSDDVWVVA----PETDQSGVSHSLSL     48
+                     ::.|.|||. ..|::...|..|.     :|.|    ||....|:....|:
+RPOA_ACICJ       139 VICTLDDGA-TLGMEFTVESGRG-----YVPAAANRPEDAPIGLIPVDSI    182
+
+SURE_METNO        49 NDPLRLRRVA---------------------ETRFAVKGTPSDCVIMGVR     77
+                     ..|  :|||:                     ||..||  ||.|.|.:..|
+RPOA_ACICJ       183 YSP--VRRVSYRVEPTRVGQVTDYDRLILNIETNGAV--TPEDAVALAAR    228
+
+SURE_METNO        78 HILKERG-----------------PDL-----VLSGVN------RGQNVA     99
+                     .:..:.|                 |:|     :|..|:      |..|..
+RPOA_ACICJ       229 ILQDQLGMFINFEEPQRLRAEEPRPELPFNPNLLRKVDELELSVRSANCL    278
+
+SURE_METNO       100 --EDVTYSGTVAGAMEGTILGVRSIALSQAYGVGGRANVKWHTAAEHGAR    147
+                       :::.|.|.:....|..:|...:.         ||.::          .
+RPOA_ACICJ       279 KNDNIVYIGDLVQKSEQEMLRTPNF---------GRKSL----------N    309
+
+SURE_METNO       148 TIRRILEA-GIEPGILVNVNFPDCEPEAVE    176
+                     .|:.:|.| |:..|::|.    |..||.:|
+RPOA_ACICJ       310 EIKEVLSAMGLGLGMVVQ----DWPPENIE    335
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:       8/41 (19.5%)
+# Similarity:    18/41 (43.9%)
+# Gaps:           9/41 (22.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+SURE_METNO        20 EEIARELSDDVWVVAPETDQSGVSHSLSLNDPLRLRRVAET     60
+                     |:....|....:::..:.|:.|         |.|::.:||:
+YXAD_BACSU        28 EKRTGNLERSSYLLLRQLDEFG---------PARVKELAES     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SURE_METNO
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      35/156 (22.4%)
+# Similarity:    54/156 (34.6%)
+# Gaps:          43/156 (27.6%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+SURE_METNO        87 LVLSGVNRGQ---NVAEDVTYSGTVAGAMEG--------TIL--------    117
+                     ::||.|.:..   |..||:.:  ..|.|::|        |||        
+FADB_SHESR        83 VLLSWVEQANAVFNKLEDLPF--PTASAIKGFALGGGCETILATDFRIAD    130
+
+SURE_METNO       118 -----GVRSIALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGIL    162
+                          |:....|....|.||...:.....|::....|....:...|..:.
+FADB_SHESR       131 TTAKIGLPETKLGIIPGFGGTVRLPRVIGADNALEWITTGKDQRPEDALK    180
+
+SURE_METNO       163 VNVNFPDCEPEAVEGIAVVAQGMRNQQLL--AIDERLDGRGNPYFWLAFA    210
+                     |........|||:|..|:        |:|  |:.|:||       |.|..
+FADB_SHESR       181 VGAVDAVVAPEALEAAAI--------QMLKDAVAEKLD-------WQARR    215
+
+SURE_METNO       211 KARFEP    216
+                     ..:..|
+FADB_SHESR       216 HRKMSP    221
+
+
+#---------------------------------------
+#---------------------------------------

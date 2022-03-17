@@ -1,0 +1,318 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:27:15
+# Commandline: water
+#    [-asequence] data/sp_n10_0_400_separate/KCC1A_MOUSE.fasta
+#    [-bsequence] data/sp_n10_0_400
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10_0_400/KCC1A_MOUSE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10_0_400/KCC1A_MOUSE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: NADK_ACIET
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 199
+# Identity:      42/199 (21.1%)
+# Similarity:    66/199 (33.2%)
+# Gaps:          76/199 (38.2%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+KCC1A_MOUSE       67 IAVLHKIKHPNIVALDDIYESGGHLYLIMQLVSGGELFDRIVEKGFYTER    116
+                     :||:.|...|..|:..|               |..::.:.|.:  |.|::
+NADK_ACIET         8 VAVIGKYPGPGAVSASD---------------SARQIIESIAQ--FVTQQ     40
+
+KCC1A_MOUSE      117 DASRLIFQVLDAVKYLHDLGIVHRDLKPENLLYYSLDEDSKIMISDFGLS    166
+                     |..    ..|:|....| .|:..         |::||.:        |:.
+NADK_ACIET        41 DCE----LTLEAETAAH-TGLTQ---------YHTLDVE--------GIG     68
+
+KCC1A_MOUSE      167 KMED-------PGSVLSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAY    209
+                     :..|       .|::|.......||..|.|        .::...:|.|..
+NADK_ACIET        69 RQCDLCLVVGGDGTMLGVGRRLAGYGTPLV--------GINQGRLGFITD    110
+
+KCC1A_MOUSE      210 ILLCGYPPFYDENDAKLFEQILKAEYEFDSPYWDDISDSAKDFIRHLME    258
+                     |.|.||      .||  ...||..:||.|              :|.||:
+NADK_ACIET       111 IPLEGY------QDA--LTPILHGDYEED--------------VRPLMQ    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: PSBA_ANGEV
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      15/76 (19.7%)
+# Similarity:    29/76 (38.2%)
+# Gaps:          31/76 (40.8%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE       73 IKHP-NIVALDDIYESGGHLYLIM--QLVSGG------------------    101
+                     :.|| :::.:..::  ||.|:..|  .||:..                  
+PSBA_ANGEV       193 LMHPFHMLGVAGVF--GGSLFSAMHGSLVTSSLIRETTENESANAGYKFG    240
+
+KCC1A_MOUSE      102 ---ELFDRIVEKGFYTERDASRLIFQ    124
+                        |.::.:...|::     .|||||
+PSBA_ANGEV       241 QEEETYNIVAAHGYF-----GRLIFQ    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: Y128_RICFE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    21/44 (47.7%)
+# Gaps:           0/44 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE      143 KPENLLYYSLDEDSKIMISDFGLSKMEDPGSVLSTACGTPGYVA    186
+                     |.:..||.||.::::..:::....|.:...|.|.|...:|...|
+Y128_RICFE        73 KKKRELYNSLSKEAQNFLAEQQKYKQKLSISKLPTEDDSPNNTA    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: RPOA_STAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 126
+# Identity:      27/126 (21.4%)
+# Similarity:    48/126 (38.1%)
+# Gaps:          38/126 (30.2%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE       72 KIKHPNIVALDDIYESGGHLYLIMQLVSGGELFDRIVEKGFYTERDAS--    119
+                     :|:.|.|..::           |.:....|:.....:|:|:.|....|  
+RPOA_STAAN         3 EIEKPRIETIE-----------ISEDAKFGKFVVEPLERGYGTTLGNSLR     41
+
+KCC1A_MOUSE      120 RLIFQVLD--AVKYLHDLGIVHR----------------DLKPENLLYYS    151
+                     |::...|.  ||||:...|::|.                ::|...|..||
+RPOA_STAAN        42 RILLSSLPGAAVKYIEIEGVLHEFSAVDNVVEDVSTIIMNIKQLALKIYS     91
+
+KCC1A_MOUSE      152 LDEDSKIMISDFGLSKMEDPGSVLST    177
+                      :||..:.|.      :.|.|.|.::
+RPOA_STAAN        92 -EEDKTLEID------VRDEGEVTAS    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: CYB_PLEAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      26/144 (18.1%)
+# Similarity:    52/144 (36.1%)
+# Gaps:          39/144 (27.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE       94 IMQLVSGGELFDRIVEKGFYTERDASRLIF------QVLDAVKYLHDLGI    137
+                     :::.:.||...|:.....|:    |...:|      .|:..:.:||:.|.
+CYB_PLEAU        160 LVEWIWGGFSVDKATLTRFF----AFHFLFPFIISAMVMGHLLFLHETGS    205
+
+KCC1A_MOUSE      138 VHRDLKPENL------LYYSLDEDSKIMISDFGL--------SKMEDPGS    173
+                     .:....|.|:      .||::.:...:::....|        ..:.||.:
+CYB_PLEAU        206 NNPTGIPSNMDMIPFHPYYTIKDILGLLVMIMSLLALVLFSPDMLGDPDN    255
+
+KCC1A_MOUSE      174 VL-STACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYP    216
+                     .. :....||.::.||             |.. :.||.:|...|
+CYB_PLEAU        256 YSPANPLNTPPHIKPE-------------WYF-LFAYAILRSIP    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: RPO8_SACSH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      18/66 (27.3%)
+# Similarity:    25/66 (37.9%)
+# Gaps:          15/66 (22.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE      132 LHDLGIVHRDLKPENLLY--------YSLDEDSKIMISDFGLSKMEDPGS    173
+                     |.:|.|:|......|:.:        :|..|..|..||...||...|   
+RPO8_SACSH        23 LKNLSIIHMSCNDFNISFDIIDSINIFSQKEKVKAFISKNRLSYTND---     69
+
+KCC1A_MOUSE      174 VLSTACGTPGYVAPEV    189
+                        ..|| .||:..|:
+RPO8_SACSH        70 ---DFCG-HGYIVTEL     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: G3P_SULIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 142
+# Identity:      34/142 (23.9%)
+# Similarity:    51/142 (35.9%)
+# Gaps:          32/142 (22.5%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+KCC1A_MOUSE      124 QVLDAVKYLHDLGIVH-RDLKPENLLYYSLDEDSKIMISDFGLSKMEDPG    172
+                     :|.||:....|:.:|. ....|....:.:..:..||.:....:.|.|:.|
+G3P_SULIN         15 RVADAILKQPDMRLVGVAKTSPNYEAFIAHRKGIKIYVPQQSIKKFEESG     64
+
+KCC1A_MOUSE      173 SVLSTACGTPGYVAPEVLAQKPYSKAVDCWSIGVIAYILLCGYPPFYDEN    222
+                     ..::      |.:...|   |.....||....||.|.     |.|.|.:.
+G3P_SULIN         65 IPVA------GTIEDLV---KASDIVVDTTPNGVGAQ-----YKPIYQQF    100
+
+KCC1A_MOUSE      223 DAK-LFEQILKAEYEFDSPYWDDISDSA---------KDFIR    254
+                     ... :|:...|||..       |||.||         |.:||
+G3P_SULIN        101 QRNAIFQGGEKAEVA-------DISFSALCNYDEALGKKYIR    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: BLP1_PSEAI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       9/29 (31.0%)
+# Similarity:    10/29 (34.5%)
+# Gaps:           6/29 (20.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+KCC1A_MOUSE      221 ENDAKLFEQILKAEYEF------DSPYWD    243
+                     |.|.|..|..|.|....      :..|||
+BLP1_PSEAI        26 EQDVKAIEVSLSARIGVSVLDTQNGEYWD     54
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: PA2AA_ACAAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       3/7 (42.9%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE       48 IKCIAKK     54
+                     |:|..|:
+PA2AA_ACAAN        9 IRCANKR     15
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: KCC1A_MOUSE
+# 2: KCC1A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 374
+# Identity:     374/374 (100.0%)
+# Similarity:   374/374 (100.0%)
+# Gaps:           0/374 ( 0.0%)
+# Score: 1985.0
+# 
+#
+#=======================================
+
+KCC1A_MOUSE        1 MPGAVEGPRWKQAEDIRDIYDFRDVLGTGAFSEVILAEDKRTQKLVAIKC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE        1 MPGAVEGPRWKQAEDIRDIYDFRDVLGTGAFSEVILAEDKRTQKLVAIKC     50
+
+KCC1A_MOUSE       51 IAKKALEGKEGSMENEIAVLHKIKHPNIVALDDIYESGGHLYLIMQLVSG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE       51 IAKKALEGKEGSMENEIAVLHKIKHPNIVALDDIYESGGHLYLIMQLVSG    100
+
+KCC1A_MOUSE      101 GELFDRIVEKGFYTERDASRLIFQVLDAVKYLHDLGIVHRDLKPENLLYY    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE      101 GELFDRIVEKGFYTERDASRLIFQVLDAVKYLHDLGIVHRDLKPENLLYY    150
+
+KCC1A_MOUSE      151 SLDEDSKIMISDFGLSKMEDPGSVLSTACGTPGYVAPEVLAQKPYSKAVD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE      151 SLDEDSKIMISDFGLSKMEDPGSVLSTACGTPGYVAPEVLAQKPYSKAVD    200
+
+KCC1A_MOUSE      201 CWSIGVIAYILLCGYPPFYDENDAKLFEQILKAEYEFDSPYWDDISDSAK    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE      201 CWSIGVIAYILLCGYPPFYDENDAKLFEQILKAEYEFDSPYWDDISDSAK    250
+
+KCC1A_MOUSE      251 DFIRHLMEKDPEKRFTCEQALQHPWIAGDTALDKNIHQSVSEQIKKNFAK    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE      251 DFIRHLMEKDPEKRFTCEQALQHPWIAGDTALDKNIHQSVSEQIKKNFAK    300
+
+KCC1A_MOUSE      301 SKWKQAFNATAVVRHMRKLQLGTSQEGQGQTGSHGELLTPTAGGPAAGCC    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+KCC1A_MOUSE      301 SKWKQAFNATAVVRHMRKLQLGTSQEGQGQTGSHGELLTPTAGGPAAGCC    350
+
+KCC1A_MOUSE      351 CRDCCVEPGSELPPAPPPSSRAMD    374
+                     ||||||||||||||||||||||||
+KCC1A_MOUSE      351 CRDCCVEPGSELPPAPPPSSRAMD    374
+
+
+#---------------------------------------
+#---------------------------------------

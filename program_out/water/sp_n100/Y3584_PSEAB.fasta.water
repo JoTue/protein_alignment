@@ -1,0 +1,2868 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:34
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/Y3584_PSEAB.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/Y3584_PSEAB.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/Y3584_PSEAB.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      28/130 (21.5%)
+# Similarity:    49/130 (37.7%)
+# Gaps:          41/130 (31.5%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       33 LPLLDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIM     82
+                     ||:....|..|.||     .:|:.||          |.::||::::    
+PUR7_VIBVU        14 LPIRTDKPVHSGKV-----RSVYWLT----------EEDSARLIKE----     44
+
+Y3584_PSEAB       83 AVYTPPEGYEDGDGRDLQVYLDQNYTNALGPL-HEDYRERAIPMEGFEGE    131
+                           :||.......|.:.:..:..:|...: |.::....:|.:|    
+PUR7_VIBVU        45 ------KGYNVAPDAPLAIMVISDRISAFDCIWHGEHGLNGVPGKG----     84
+
+Y3584_PSEAB      132 QPLHIFVAAGVDLAISK--LGRFTENDQYD    159
+                             |.:: |||.  .|.|.||...|
+PUR7_VIBVU        85 --------AALN-AISNHWFGLFKENGLAD    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    11/27 (40.7%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       14 PVRLTTPLGQAIGNLFARALPLLDGNP     40
+                     |:.|.....:.|......|.|:.||.|
+Y075_NITWN        29 PLELDGARRELISRSAKLAYPIRDGIP     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 214
+# Identity:     214/214 (100.0%)
+# Similarity:   214/214 (100.0%)
+# Gaps:           0/214 ( 0.0%)
+# Score: 1103.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTNEGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFVFG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y3584_PSEAB        1 MTLLETTNEGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFVFG     50
+
+Y3584_PSEAB       51 GCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQ    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y3584_PSEAB       51 GCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQ    100
+
+Y3584_PSEAB      101 VYLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y3584_PSEAB      101 VYLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLG    150
+
+Y3584_PSEAB      151 RFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVI    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y3584_PSEAB      151 RFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVI    200
+
+Y3584_PSEAB      201 AKYLEDGRDATSGS    214
+                     ||||||||||||||
+Y3584_PSEAB      201 AKYLEDGRDATSGS    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    20/41 (48.8%)
+# Gaps:          10/41 (24.4%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       67 DAEIEAARVLRK--DEIMAVYT---PPEGYEDGDGRDLQVY    102
+                     |:::.|..|..:  |.:.|:||   |.|     |.|.|.||
+BPT_HAHCH        150 DSKLLAIAVTDRTTDGLSAIYTFFDPNE-----DKRALGVY    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      18/62 (29.0%)
+# Similarity:    25/62 (40.3%)
+# Gaps:          12/62 (19.4%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       60 ARGSADIDAEIEAARVLRKDEIMAVYTPPEGYED-----GDGRDLQVYLD    104
+                     |.||...||:   .:|:....|..|:..||.:..     |.|.|......
+KDPC_CAUVN        39 ANGSLIRDAD---GKVVGSALIGQVFAKPEYFHGRPSAAGAGYDASASSG     85
+
+Y3584_PSEAB      105 QNYTNALGPLHE    116
+                     .|    :|||:|
+KDPC_CAUVN        86 SN----MGPLNE     93
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      16/82 (19.5%)
+# Similarity:    29/82 (35.4%)
+# Gaps:          18/82 (22.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      144 LAISKLGRFT----------ENDQYDIEQLIECGRVDV-GQFVTLATEAI    182
+                     ||.|:..|..          |||....|::.:....|| ..|.......:
+LPXH_XYLFM       150 LAFSQQARLASHAHQSGLKQENDSTQFEKITDVVPADVAAMFACYGVNRM    199
+
+Y3584_PSEAB      183 DYAVGNRSAM-------LGCLKLVIAKYLEDG    207
+                     .:...:|.|:       ..|.::|:..:.:.|
+LPXH_XYLFM       200 IHGHTHRPALHMLQVAECACTRVVLGDWYQQG    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:    10/14 (71.4%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      191 AMLGCLKLVIAKYL    204
+                     :::|.:.|::..||
+YERI_SCHPO        17 SLIGIVFLLVLSYL     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 161
+# Identity:      32/161 (19.9%)
+# Similarity:    56/161 (34.8%)
+# Gaps:          61/161 (37.9%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       60 ARGSADIDAEIEAARVLRKDEIMAVYTPPEGYED--------------GD     95
+                     |:|...::.:: ..|:....|.:|:    ..|:|              ||
+RBSA_RUEST       300 AKGVCALEGQV-TGRLWLNGEPLAL----RDYQDSIDAGIVYLSEDRKGD    344
+
+Y3584_PSEAB       96 GRDLQVYLDQNYTNALGPLHEDYRERAIPM--EGFEGEQPLHIFVAAGVD    143
+                     |    |:||.:..:.:..|..:....|:.:  .|.|.||           
+RBSA_RUEST       345 G----VFLDMSIASNVSALKVEQVASALGLIQPGREIEQ-----------    379
+
+Y3584_PSEAB      144 LAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRSAML    193
+                       ..:|||         :..::||        ||.......:.||:.   
+RBSA_RUEST       380 --ADRLGR---------KLNLKCG--------TLQDPVSSLSGGNQQ---    407
+
+Y3584_PSEAB      194 GCLKLVIAKYL    204
+                        |:.:||.|
+RBSA_RUEST       408 ---KVALAKML    415
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     6/10 (60.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       42 GSLKVFVFGG     51
+                     ||.:...:||
+KR195_HUMAN       30 GSFRRLGYGG     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      15/55 (27.3%)
+# Similarity:    20/55 (36.4%)
+# Gaps:          13/55 (23.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      167 GRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAK--------YLEDGR    208
+                     |.|..|.||     .:|..|..|.:.|..:..|:|.        :..|..
+UPPP_CORDI       178 GTVSAGLFV-----GLDREVATRFSFLLAIPAVLASGLFSLPDAFAPDAG    222
+
+Y3584_PSEAB      209 DATSG    213
+                     .|.||
+UPPP_CORDI       223 QAASG    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      22/75 (29.3%)
+# Similarity:    30/75 (40.0%)
+# Gaps:          19/75 (25.3%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       33 LPLLDGNPPGSLKVFVFGGCAVHL-----LTH---------ARGSAD-ID     67
+                     |.::|.:|....|||.  |..|.:     :||         ..|..| |.
+GREB_ECO57        72 LKIVDYSPQQEGKVFF--GAWVEIENDDGVTHRFRIVGYDEIFGRKDYIS    119
+
+Y3584_PSEAB       68 AEIEAARVLRKDEI--MAVYTPPEG     90
+                     .:...||.|.|.|:  :||...|.|
+GREB_ECO57       120 IDSPMARALLKKEVGDLAVVNTPAG    144
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:      46/237 (19.4%)
+# Similarity:    77/237 (32.5%)
+# Gaps:          93/237 (39.2%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        7 TNEGAAEPVRLT-------TPLGQAIGNLFARALPLLDGNPPGSLKVFVF     49
+                     |.||.|...|||       ||:...:|..             |::|    
+TGT_LEPCP          8 TTEGHARRGRLTLNHGVVETPIFMPVGTY-------------GTVK----     40
+
+Y3584_PSEAB       50 GGCAVHLLTHARGSADIDAEIEAARVLRKD----------EIMAVYTPPE     89
+                                 |....|.|...|:::..:          ::||.:....
+TGT_LEPCP         41 ------------GVMPRDLETMGAQIILGNTFHLWMRPGQDVMAQFGGLH     78
+
+Y3584_PSEAB       90 GYED------GDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQP    133
+                     .:|:      .|....||:       :||.:      |.|..||.....|
+TGT_LEPCP         79 RFENWTRPILTDSGGFQVW-------SLGEM------RKISEEGVRFASP    115
+
+Y3584_PSEAB      134 LH---IFVAAGVDLAISKLGRFTENDQYDIEQLIEC-----GRVDVGQFV    175
+                     ::   :|:...|.:.|.     |..:...:.|..||     |..:||...
+TGT_LEPCP        116 VNGDKLFLTPEVSMQIQ-----TVLNSDIVMQFDECTPYWQGAKNVGHIT    160
+
+Y3584_PSEAB      176 T--------------LATEAIDYA-VGNRSAMLGCLK    197
+                     |              .|....::| :||.:|:.|.::
+TGT_LEPCP        161 TEKEARVSMELSLRWAARSKAEFARLGNPNALFGIVQ    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      11/34 (32.4%)
+# Similarity:    18/34 (52.9%)
+# Gaps:           9/34 (26.5%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       70 IEAARV------LRKDEIMAVYTPPEG---YEDG     94
+                     :|||:|      :|.....::|:|..|   |:||
+CBPQ_HUMAN       192 VEAAKVGALASLIRSVASFSIYSPHTGIQEYQDG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      17/44 (38.6%)
+# Similarity:    20/44 (45.5%)
+# Gaps:           4/44 ( 9.1%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      142 VDLAISKLGRFTENDQYDIEQLIECG--RVDVGQFVTLATEAID    183
+                     |..|||.|....:.|....|  ||.|  |.|..:|..|.|:.||
+PSA6_SOYBN       195 VQTAISALQSVLQEDFKATE--IEVGVVRKDNPEFRVLTTDEID    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 133
+# Identity:      29/133 (21.8%)
+# Similarity:    49/133 (36.8%)
+# Gaps:          52/133 (39.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       25 IGNLFARALPLLDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAAR     74
+                     :.::|.:.| ||||.            |....|        :|:||:|.|
+SCL34_ARATH      199 VTDMFDKVL-LLDGE------------CDPQTL--------LDSEIQAIR    227
+
+Y3584_PSEAB       75 ------------VLRKDEIMAVYTPPEGYEDGDGRDLQVYLDQ-----NY    107
+                                 ..:|.:::            |.|.|..:..|     :.
+SCL34_ARATH      228 SSKNIGEKGKKKKKKKSQVV------------DFRTLLTHCAQAISTGDK    265
+
+Y3584_PSEAB      108 TNALGPLHEDYRERAIPMEGFEGEQPLHIFVAA    140
+                     |.||..|.: .|:::.|: |..|::..|.|..|
+SCL34_ARATH      266 TTALEFLLQ-IRQQSSPL-GDAGQRLAHCFANA    296
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:       9/37 (24.3%)
+# Similarity:    16/37 (43.2%)
+# Gaps:           1/37 ( 2.7%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       71 EAARVLRKDEIMAVYTPPEGYEDGDGR-DLQVYLDQN    106
+                     |...|::...:|...|.|...:.|..| |..:.:.:|
+NDKA_CANLF        79 EGLNVVKTGRVMLGETNPADSKPGTIRGDFCIQVGRN    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      22/83 (26.5%)
+# Similarity:    34/83 (41.0%)
+# Gaps:          24/83 (28.9%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        4 LETTNEGAAEPVRLTTPLGQAIG--------------NLFARALPLLDGN     39
+                     :.|.|:|.  || |||..|:.|.              |:..:.:......
+RS4_CAEEL        128 VRTVNKGV--PV-LTTTDGRTIRYPDPHVKVNDTIVFNISTQKITDSVKF    174
+
+Y3584_PSEAB       40 PPGSLKVFVFGG---CAVHLLTHAR---GSADI     66
+                     .||:| .:|.||   ..|.::.|..   |::||
+RS4_CAEEL        175 EPGNL-AYVTGGRNVGRVGIIGHRERLPGASDI    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 112
+# Identity:      22/112 (19.6%)
+# Similarity:    43/112 (38.4%)
+# Gaps:          15/112 (13.4%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       83 AVYTPPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQ    132
+                     :::..||...:.:..:.:.|      .:|..:.|..|.:.:..|....|:
+G45IP_CHLAE       74 SLWPSPEQLRELEAEEREWY------PSLATMQESLRVKHLAEEQKRRER    117
+
+Y3584_PSEAB      133 PLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLATEA-    181
+                     ..||..      .::|:.:...|.|....:..|..:.|..:...|..|| 
+G45IP_CHLAE      118 EQHIAE------CMAKMPQMIVNWQQQQRERWEKAQADKERRARLQAEAQ    161
+
+Y3584_PSEAB      182 --IDYAVGNRSA    191
+                       :.|.|..:||
+G45IP_CHLAE      162 ELLGYQVNPKSA    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      54/268 (20.1%)
+# Similarity:    82/268 (30.6%)
+# Gaps:          93/268 (34.7%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTN-------EG----AAEPVRLTTPLGQAIGNLFARALPLLDGN     39
+                     :.:||.||       ||    ....:.:|..||         ||..|..:
+DAPEL_OCEIH       72 LPILEQTNLPYASLHEGRMHACGHDLHMTIALG---------ALEKLIQD    112
+
+Y3584_PSEAB       40 PPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPE     89
+                     |.....:|||     .......|.|....|.|..:..:.|.:.|::..||
+DAPEL_OCEIH      113 PINDDVIFVF-----QPAEEGPGGAKPMLESEEFQQWKPDMMFALHIAPE    157
+
+Y3584_PSEAB       90 ----------------------GYEDGDGRDLQVYLDQNYTNA-------    110
+                                           .:|...|.....:|.::.|.|       
+DAPEL_OCEIH      158 LPVGTVSSKAGLLFANTSELFIDFEGVGGHAAYPHLTKDMTVAASNFVVQ    207
+
+Y3584_PSEAB      111 ------------------LGPLHEDYRERAIPMEGFEGEQPLHIFVAAGV    142
+                                       :|.:...|.:.|| .|....|..:....|..:
+DAPEL_OCEIH      208 LQQIVSRGLNPLDGSVITIGKMESGYVQNAI-AETARLEGTIRSTDADAI    256
+
+Y3584_PSEAB      143 DLAISKLGRFTENDQYDIEQLIECGRVDVG--------------QF--VT    176
+                     |:..|||.|..:..:...:..|   :||.|              ||  |.
+DAPEL_OCEIH      257 DMIKSKLNRLMKGFEISYDCTI---KVDYGANYYQVVNDATYVQQFENVI    303
+
+Y3584_PSEAB      177 LATEAIDYAVGNRSAMLG    194
+                     ..|:.|.|...: :||.|
+DAPEL_OCEIH      304 NQTQTITYQQAD-AAMTG    320
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      20/77 (26.0%)
+# Similarity:    31/77 (40.3%)
+# Gaps:          27/77 (35.1%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       58 THARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQVYLDQNY    107
+                     |.|||.|           :|||:      .||.::    :.|:.|..|. 
+KAD_METRJ        131 TLARGQA-----------VRKDD------TPEVFK----QRLEAYRAQT-    158
+
+Y3584_PSEAB      108 TNALGPLHEDYRERAIPMEGFEGEQPL    134
+                         .||...|.::. .:|..:|.||:
+KAD_METRJ        159 ----APLSAYYAQKG-TLETVDGMQPI    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      15/48 (31.2%)
+# Similarity:    19/48 (39.6%)
+# Gaps:          14/48 (29.2%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       10 GAAEPVRLTTPLGQAIGNLFARALPLLDGNPP----GSLKVFVFGGCA     53
+                     ||.:|.    |:|...|.|.      :.|.||    |:|....|.|.|
+ELN_BOVIN        699 GAGQPF----PIGGGAGGLG------VGGKPPKPFGGALGALGFPGGA    736
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 95
+# Identity:      19/95 (20.0%)
+# Similarity:    33/95 (34.7%)
+# Gaps:          26/95 (27.4%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTNEGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFVFG     50
+                     |.|.|:.:||:.:|..:         .:||....|     .|...:||:|
+ASIC2_MOUSE        1 MDLKESPSEGSLQPSSI---------QIFANTSTL-----HGIRHIFVYG     36
+
+Y3584_PSEAB       51 GCAVHLLTHA------------RGSADIDAEIEAARVLRKDEIMA     83
+                     ...:..:..|            ..|..:........|.:.||::|
+ASIC2_MOUSE       37 PLTIRRVLWAVAFVGSLGLLLVESSERVSYYFSYQHVTKVDEVVA     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      11/40 (27.5%)
+# Similarity:    15/40 (37.5%)
+# Gaps:          14/40 (35.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      104 DQNYTNALGPLHEDYRERAIP------MEGFEGEQPLHIF    137
+                     |:||.:.|        ||.:|      .|.|....|..:|
+DOXA1_XENTR      137 DKNYKDGL--------ERGLPYPILYVAEKFTINSPCGLF    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       9/26 (34.6%)
+# Similarity:    13/26 (50.0%)
+# Gaps:           2/26 ( 7.7%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      125 MEGFEGEQPLHIFVAA--GVDLAISK    148
+                     ::.||......:|.||  .:|.|.||
+RS20_STRPB        37 IKAFEANPSEELFRAASSSIDKAESK     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      16/64 (25.0%)
+# Similarity:    27/64 (42.2%)
+# Gaps:           2/64 ( 3.1%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      125 MEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQF    174
+                     |:|.||:......:|...|....::.|.....:.|:|:..|  |.:.|:.
+TPM_HAELO        141 MDGLEGQLKEARTMAEDADRKYDEVARKLAMVEADLERAEE--RAETGET    188
+
+Y3584_PSEAB      175 VTLATEAIDYAVGN    188
+                     ..:..|.....|||
+TPM_HAELO        189 KIVELEEELRVVGN    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      30/151 (19.9%)
+# Similarity:    54/151 (35.8%)
+# Gaps:          49/151 (32.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       45 KVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEG----     90
+                     :||: |.|....:...|.:|.:....:.|..:::    |:..|..|    
+LEUC_XANOM       347 RVFI-GSCTNSRIEDLRAAAAVAKGRKVASTIKQ----ALVVPGSGLVKA    391
+
+Y3584_PSEAB       91 YEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPM---------------    125
+                     ..:.:|.| :|:||..:         ::||....|               
+LEUC_XANOM       392 QAEAEGLD-KVFLDAGF---------EWREPGCSMCLAMNPDKLGSGEHC    431
+
+Y3584_PSEAB      126 -----EGFEGEQ----PLHIFVAAGVDLAISKLGRFTENDQYDIEQLIEC    166
+                          ..|||.|    ..|: |:..:..|.:..|.|.     |:.:|.:.
+LEUC_XANOM       432 ASTSNRNFEGRQGAGGRTHL-VSPAMAAAAAVSGHFV-----DVRELGDS    475
+
+Y3584_PSEAB      167 G    167
+                     |
+LEUC_XANOM       476 G    476
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     6/10 (60.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        2 TLLETTNEGA     11
+                     |:..||..||
+LPT_ESCF3         11 TITITTGNGA     20
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      24/102 (23.5%)
+# Similarity:    35/102 (34.3%)
+# Gaps:          24/102 (23.5%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       66 IDAEIEAARVLRKDEIMAVYTPPEG---------------YEDGDGRDLQ    100
+                     |||..||..|.....:.....|..|               .::...:.|:
+RL7_THET8         24 IDALKEAWGVTAAAPVAVAAAPAAGAAAAPAEEKTEFDVILKEAGAKKLE     73
+
+Y3584_PSEAB      101 VYLDQNYTNALGPLHE--DYRERAIPM-EGFEGEQPLHI-----FVAAGV    142
+                     |..:......|| |.|  |..|:..|: ||...::...|     .|.|.|
+RL7_THET8         74 VIKELRAITGLG-LKEAKDLAEKGGPVKEGVSKQEAEEIKKKLEAVGAVV    122
+
+Y3584_PSEAB      143 DL    144
+                     :|
+RL7_THET8        123 EL    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      38/164 (23.2%)
+# Similarity:    54/164 (32.9%)
+# Gaps:          70/164 (42.7%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       10 GAAEPVRLTTP--LGQAIGNL------FARALPLLDGNPPGSLKVFVFGG     51
+                     ||.|.:.||..  ....||:|      |.||..|.:          .|||
+HEM1_METCA       187 GAGETIELTARHLTENRIGHLIIANRTFDRAHTLAN----------QFGG    226
+
+Y3584_PSEAB       52 CAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQV    101
+                     .|:.|             .|..:.|.|.:|:...|         |..|.:
+HEM1_METCA       227 FAISL-------------EELPKHLAKADIIVAST---------GSPLPI    254
+
+Y3584_PSEAB      102 YLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGR    151
+                     ....::.:||       |.|.        .:|:.|     ||||:.:   
+HEM1_METCA       255 LGKGSFESAL-------RSRR--------HKPMFI-----VDLAVPR---    281
+
+Y3584_PSEAB      152 FTENDQYDIEQLIE    165
+                            |||..:|
+HEM1_METCA       282 -------DIEPEVE    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      23/72 (31.9%)
+# Similarity:    27/72 (37.5%)
+# Gaps:          27/72 (37.5%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       33 LPLLDG-----NPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLR     77
+                     ||.|.|     |.|.:..|| ||      |||..|.|::     |..||.
+XYLB_KLEPN       330 LPYLSGERTPHNNPQAKGVF-FG------LTHQHGPAEL-----ARAVLE    367
+
+Y3584_PSEAB       78 KDEIMAVYTPPEGYEDGDGRDL     99
+                               ..||...||.|:
+XYLB_KLEPN       368 ----------GVGYALADGMDV    379
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      24/78 (30.8%)
+# Similarity:    28/78 (35.9%)
+# Gaps:          27/78 (34.6%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      161 EQLIE---CGRVDVGQFVTLATEAIDYAVGNRS-------AMLGCL---K    197
+                     |.|:|   ||.||......:.|   |:....||       |.|..|   :
+RECR_NOVAD        51 ELLVECGVCGNVDTSNPCGICT---DHRRDQRSICVVEEVADLWALDRAR     97
+
+Y3584_PSEAB      198 LVIAKY---------LEDGR--DATSGS    214
+                     |...||         ||..|  |.|.||
+RECR_NOVAD        98 LFTGKYHVLGGRLSALEGVRPEDLTIGS    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      17/72 (23.6%)
+# Similarity:    28/72 (38.9%)
+# Gaps:          23/72 (31.9%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       67 DAEIEA-------ARVLRKDEIMAVYTPPEG--------------YEDGD     95
+                     |.|.||       |:.:|..:::|:....:|              :|.|.
+SURE_METNO       169 DCEPEAVEGIAVVAQGMRNQQLLAIDERLDGRGNPYFWLAFAKARFEPGH    218
+
+Y3584_PSEAB       96 GRDLQVYLDQNYTNALGPLHED    117
+                     |.||:...:...  |:.||..|
+SURE_METNO       219 GTDLKAIAENRI--AVTPLRLD    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      15/50 (30.0%)
+# Similarity:    22/50 (44.0%)
+# Gaps:          12/50 (24.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       15 VRLTTPLGQAIGNLFARALPLLDGNPPGSLKVF-----VFGGC-AVHLLT     58
+                     :|.|.||.:.|.:.|      :|...|.||..:     :.|.| .|.:||
+CYB_ARTIO          4 IRKTHPLLKIINSSF------VDLPAPSSLSSWWNFGSLLGVCLGVQILT     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       6/9 (66.7%)
+# Similarity:     8/9 (88.9%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      128 FEGEQPLHI    136
+                     |.||:||:|
+IOLE_BACHK       194 FSGEEPLYI    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      13/40 (32.5%)
+# Similarity:    19/40 (47.5%)
+# Gaps:           1/40 ( 2.5%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       54 VHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYED     93
+                     |.::....|..:...||. |:||...|.|.||..|:..|:
+ACKA_STAAT       322 VDVIVFTAGIGENSVEIR-AKVLEGLEFMGVYWDPKKNEN    360
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 229
+# Identity:      44/229 (19.2%)
+# Similarity:    68/229 (29.7%)
+# Gaps:          67/229 (29.3%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTNEGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFVFG     50
+                     |.:.|.....:...:|:...|........|..:|.||             
+HIS7_BURTA         1 MRVAEVVRNTSETQIRVKIDLDGTGRQKLATGVPFLD-------------     37
+
+Y3584_PSEAB       51 GCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQ    100
+                         |:|........:|.:|||......|:...|            .|:.
+HIS7_BURTA        38 ----HMLDQIARHGLVDLDIEAHGDTHIDDHHTV------------EDVG     71
+
+Y3584_PSEAB      101 VYLDQNYTNALG-------------PLHEDYRERAIPMEGFEGEQPLHI-    136
+                     :.|.|....|:|             ||.|......|...|..|.: .|: 
+HIS7_BURTA        72 ITLGQAVAKAVGDKKGIRRYGHSYVPLDEALSRVVIDFSGRPGLE-FHVP    120
+
+Y3584_PSEAB      137 FVAA-----GVDLAISKLGRFTE--------------NDQYDIEQLIECG    167
+                     |..|     .|||:|.....|..              |..:.:|.:.:. 
+HIS7_BURTA       121 FTRARIGTFDVDLSIEFFRGFVNHAGVTLHIDNLRGVNAHHQLETVFKA-    169
+
+Y3584_PSEAB      168 RVDVGQFVTLATEAIDYAVGNRSAMLGCL    196
+                        .|:.:.:|.|..:.|.|...:..|.|
+HIS7_BURTA       170 ---FGRALRMAVELDERAAGQIPSTKGSL    195
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    18/38 (47.4%)
+# Gaps:           5/38 (13.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       79 DEIMAVYTPPE-----GYEDGDGRDLQVYLDQNYTNAL    111
+                     :.::.|:||||     ...||....|:..||:....|:
+PTH_GEOLS        145 NHVLGVFTPPEMEIFARVLDGALDMLETALDEGVPKAM    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      12/54 (22.2%)
+# Similarity:    25/54 (46.3%)
+# Gaps:           3/54 ( 5.6%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       83 AVYTPPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQ    132
+                     |:..||.|.:|.:  |.:.|: .:|...:....|:..|..:|.:|....:
+TAF3_XENLA        34 ALQFPPPGSKDAE--DRKEYI-PDYLPLIISSQEEEEEEQVPTDGGTSAE     80
+
+Y3584_PSEAB      133 PLHI    136
+                     .:.:
+TAF3_XENLA        81 AMQV     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 129
+# Identity:      28/129 (21.7%)
+# Similarity:    42/129 (32.6%)
+# Gaps:          49/129 (38.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        6 TTNEGAAEPVRLTTPLGQAIGNLFARALPL---LDGNPPGSLKVFVFGGC     52
+                     ||.|...:.||.            .|::||   :|..||           
+DNLJ_CROS5       145 TTGEEITQNVRT------------IRSIPLKLNIDNPPP-----------    171
+
+Y3584_PSEAB       53 AVHLLTHARGSADIDA-EIEAARVLRKDEIMAVYTPPEGYEDG-------     94
+                         :...||.|.:.. |.:.....|:::..|::..|.....|       
+DNLJ_CROS5       172 ----IVEVRGEAFLPLDEFDRINQEREEKGDALFANPRNAAAGTLRQLDP    217
+
+Y3584_PSEAB       95 ---DGRDLQVYLDQNYTNALGPLHEDYRE    120
+                        |.|.||.:.   ||     ||.:..|
+DNLJ_CROS5       218 KIVDQRRLQFFA---YT-----LHLEEAE    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 234
+# Identity:      61/234 (26.1%)
+# Similarity:    83/234 (35.5%)
+# Gaps:          83/234 (35.5%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        9 EGAA---EPVRLTTPLGQ--AIGNLFARAL---PLLDGNPPGSLKVFVFG     50
+                     ||.|   ||.|....|..  |:.:|.|..|   ||..|          ..
+MUTS_MYXXD       207 EGEAASFEPTRAAGYLRSHFAVQSLSAFGLDDAPLAAG----------AA    246
+
+Y3584_PSEAB       51 GCAVHLL--THARGSADID------------------AEIEAARVLRKDE     80
+                     |.|:..|  |....:|.:|                  |.:|..|.||   
+MUTS_MYXXD       247 GAALRYLKDTQKTAAAHVDRLSRQERGGNLLMDESSRANLEVLRSLR---    293
+
+Y3584_PSEAB       81 IMAVYTPPEGYEDGDGR--DLQVYLDQNYTNALGPLHEDYRERAIPMEGF    128
+                                 || ||  .|...||:..| :|| ..:..|..|.|:   
+MUTS_MYXXD       294 ------------DG-GRKGSLLGVLDKTVT-SLG-ARKLARWLASPL---    325
+
+Y3584_PSEAB      129 EGEQP-LHIFVAAGVDLAISKLGRFTENDQY--------DIEQLIECGRV    169
+                      |..| :|    |.:|......||....::.        |:|:|  |||:
+MUTS_MYXXD       326 -GSLPEIH----ARLDAVEELSGRSVWREELAGILKEVGDLERL--CGRL    368
+
+Y3584_PSEAB      170 DVGQFVTLATEAIDY-AVGNRSAMLGCLKLVIAK    202
+                     .:|     |..|.|. |:|...|.|..:..|:|:
+MUTS_MYXXD       369 SLG-----AGNARDLRALGLSLAQLPRVVAVLAR    397
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      28/138 (20.3%)
+# Similarity:    45/138 (32.6%)
+# Gaps:          54/138 (39.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       97 RDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAI    146
+                     ::.|.:::..|...      .|..:.|       .:.||     .::|.|
+NOSO_STAAC         4 KEAQAFIENMYKEC------HYETQII-------NKRLH-----DIELEI     35
+
+Y3584_PSEAB      147 SKLGRFTENDQYDIEQLI-----------EC-GRV--------------D    170
+                     .:.|.:|..:    |:||           .| ||:              |
+NOSO_STAAC        36 KETGTYTHTE----EELIYGAKMAWRNSNRCIGRLFWDSLNVIDARDVTD     81
+
+Y3584_PSEAB      171 VGQFVTLATEAIDYAVGNRSAMLGCLKLVIAKYL-EDG    207
+                     ...|::..|..|..|...     |.||..|..|. :||
+NOSO_STAAC        82 EASFLSSITYHITQATNE-----GKLKPYITIYAPKDG    114
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 116
+# Identity:      27/116 (23.3%)
+# Similarity:    45/116 (38.8%)
+# Gaps:          45/116 (38.8%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       37 DGNPPGSLK------VFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDE     80
+                     ||:.||..:      :||.|   ||               |.|   .:::
+RBM8A_MOUSE       60 DGDEPGPQRSVEGWILFVTG---VH---------------EEA---TEED     88
+
+Y3584_PSEAB       81 IMAVYTPPEGYEDGDGRDLQVYLD------QNYTNALGPLHEDYRERAIP    124
+                     |...:.     |.|:.:::.:.||      :.||..   .:|.|:|....
+RBM8A_MOUSE       89 IHDKFA-----EYGEIKNIHLNLDRRTGYLKGYTLV---EYETYKEAQAA    130
+
+Y3584_PSEAB      125 MEGFEGE----QPLHI    136
+                     |||..|:    ||:.:
+RBM8A_MOUSE      131 MEGLNGQDLMGQPISV    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      10/36 (27.8%)
+# Similarity:    15/36 (41.7%)
+# Gaps:           3/36 ( 8.3%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      134 LHIFVAAGVDLAISKLGRFTENDQYDIEQ---LIEC    166
+                     |.:|.|....|.:|.|...:.....|..|   |::|
+NU4LM_ARCPU       63 LLVFAACEAALGLSLLVMVSNTYGTDYVQNLNLLQC     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       9/20 (45.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      159 DIEQLIECGRVDVGQFVTLA    178
+                     ||:...:|..|.||..|.||
+NANK_ECOLI       227 DIKATTDCQCVVVGGSVGLA    246
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 200
+# Identity:      38/200 (19.0%)
+# Similarity:    66/200 (33.0%)
+# Gaps:          70/200 (35.0%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       22 GQAIGNLFARALPLLDGNPPGSLKVFV---FG---GCAVHLLTHARGSAD     65
+                     |..|.||.::.        ..:||.||   :|   .|...::...||.  
+MIAB_MYCPE       185 GNVIENLPSKR--------TNNLKGFVNVMYGCDKFCTYCIVPMTRGK--    224
+
+Y3584_PSEAB       66 IDAEIEAARVLRKDEIM-AVYTP-PEGYEDGD--GRDLQVY---LDQNYT    108
+                            .|..||::|: .|:.. .|||::..  |:::..|   .|....
+MIAB_MYCPE       225 -------IRSRRKEDILDEVHQMISEGYKEVTLIGQNVNSYGIDFDNGEN    267
+
+Y3584_PSEAB      109 NALGPLHEDYRERAIPMEGFEGEQP--------------------LHIFV    138
+                     .....|.||..:..|....|....|                    :|:.:
+MIAB_MYCPE       268 YLFNNLLEDVAKTGIERVRFTTSNPWNFTRSIVDTMKKYPNIMPHIHLPI    317
+
+Y3584_PSEAB      139 AAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGN    188
+                     .:|.:..:.|:.|                .:.:|.::.|    :||...|
+MIAB_MYCPE       318 QSGDETILKKMNR----------------PMKIGDYIDL----VDYIRAN    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 114
+# Identity:      21/114 (18.4%)
+# Similarity:    44/114 (38.6%)
+# Gaps:          44/114 (38.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       94 GDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVD    143
+                     |||..||.:  ..|::.|..:                         |.|.
+NADK_STAES        44 GDGTLLQAF--HQYSHMLSKV-------------------------AFVG     66
+
+Y3584_PSEAB      144 LAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRSAML    193
+                     :....||.:.:...:::|:||.  .::..:|     :.|:|.:       
+NADK_STAES        67 IHTGHLGFYADWLPHEVEKLII--EINNSEF-----QVIEYPL-------    102
+
+Y3584_PSEAB      194 GCLKLVIAKYLEDG    207
+                       |:|:: :|.::|
+NADK_STAES       103 --LELIV-RYNDNG    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 138
+# Identity:      32/138 (23.2%)
+# Similarity:    48/138 (34.8%)
+# Gaps:          29/138 (21.0%)
+# Score: 51.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       43 SLKVFVFGG-------CAVHLLTHARGSADIDAEIEAARVLRKDEIMAVY     85
+                     |.|..:|||       |.|    ...||..|.:.:        |.:..|.
+TRPG_CAEEL       556 SQKQKIFGGTRSVPVVCVV----LEGGSCTIRSVL--------DYVTNVP    593
+
+Y3584_PSEAB       86 TPPEGYEDGDGR--DLQVYLDQNYTNALGPLHEDYRERAIPM-------E    126
+                     ..|....||.||  ||..:..||.|.. |.|.:|.|.:.:.:       .
+TRPG_CAEEL       594 RVPVVVCDGSGRAADLLAFAHQNVTED-GLLPDDIRRQVLLLVETTFGCS    642
+
+Y3584_PSEAB      127 GFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLI    164
+                     .....:.||..........:..:.|..|..::|::..|
+TRPG_CAEEL       643 EAAAHRLLHELTVCAQHKNLLTIFRLGEQGEHDVDHAI    680
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:      46/236 (19.5%)
+# Similarity:    71/236 (30.1%)
+# Gaps:         122/236 (51.7%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       14 PVRLTTPLGQAIGNLFARALPLLDGNP--PGSLKVFVFGGCAVHLLTHAR     61
+                     |||....:.:::     |.||    .|  |..|::..:.|          
+MSHD_MYCMM       129 PVRELVQMRRSL-----RQLP----EPVIPNGLQIRTYAG----------    159
+
+Y3584_PSEAB       62 GSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQVYLDQNYTNAL    111
+                       .:.|||:     ||.:.....|.|.:|               .:|.| 
+MSHD_MYCMM       160 --TEDDAEL-----LRVNNAAFAYHPEQG---------------GWTEA-    186
+
+Y3584_PSEAB      112 GPLHEDYRERA-----------IPMEGFEGE------QP---------LH    135
+                          |..||.           :.:||.||.      ||         :|
+MSHD_MYCMM       187 -----DLAERRGEPWFDPAGLFLALEGSEGAEDSPRGQPRLLGFHWTKIH    231
+
+Y3584_PSEAB      136 I-------FVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLA    178
+                     :       ....|||.|....|                    :|:.:|: 
+MSHD_MYCMM       232 LDDPGLGEVYVLGVDPAAQGRG--------------------LGRTLTM-    260
+
+Y3584_PSEAB      179 TEAIDYAVGNRSAMLGCLKLVIAKYLED---GRDAT    211
+                            :|.||         :|:.|.|   ||::|
+MSHD_MYCMM       261 -------IGLRS---------LAQRLGDRDLGREST    280
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      25/98 (25.5%)
+# Similarity:    41/98 (41.8%)
+# Gaps:           7/98 ( 7.1%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       32 ALPLLDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEI     81
+                     |..|:||.....:.:........::||..|||..|.....|||::...::
+PAND_THEFY        35 AANLVDGEQVHVVNITNGHRLVTYVLTGERGSGVIGINGAAARLVAPGDL     84
+
+Y3584_PSEAB       82 MAV--YTPPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEG    127
+                     :.:  |......|....|...|::|.|  |.:..|.:|..|   |:.|
+PAND_THEFY        85 VIIISYVQLTEAERATHRPHVVHVDAN--NRIVALGDDLAE---PVPG    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      23/84 (27.4%)
+# Similarity:    38/84 (45.2%)
+# Gaps:          25/84 (29.8%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      113 PLHED--------YRERAIPMEGFEGEQPLHIFVAAGVDLAIS-KLGRFT    153
+                     |:||.        :|:||:.| ||       ::.|:|..:..| |.|   
+LIPA_ASPOR       344 PVHEYVTPDQFELWRQRALDM-GF-------LYCASGPLVRSSYKAG---    382
+
+Y3584_PSEAB      154 ENDQYDIEQLIECGRV--DVGQFVTLATEAIDYA    185
+                        :..||.:::..|.  ..|:.||.:..|:|.|
+LIPA_ASPOR       383 ---EAFIENVLKKRRAAGTAGESVTDSKAAVDEA    413
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 103
+# Identity:      22/103 (21.4%)
+# Similarity:    36/103 (35.0%)
+# Gaps:          27/103 (26.2%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       93 DGDG-RDLQV-YLDQNYTNALG------PLHEDYRERAIPMEGFEGEQPL    134
+                     ||.| :.:|. :..|:.||.|.      |...:.:.:.:.......|.|.
+FLGI_PECAS        50 DGSGDQTMQTPFTTQSLTNMLSQLGITVPAGTNMQLKNVAAVMVTAELPP     99
+
+Y3584_PSEAB      135 HIFVAAGVDLAISKLG---------------RFTENDQYDIEQLIECGRV    169
+                     .......:|:.:|.||               :..:|..|.:.|    |.|
+FLGI_PECAS       100 FGRTGQNIDIVVSSLGNAKSLRGGTLLMTPLKGVDNQVYALAQ----GNV    145
+
+Y3584_PSEAB      170 DVG    172
+                     .||
+FLGI_PECAS       146 LVG    148
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      18/94 (19.1%)
+# Similarity:    35/94 (37.2%)
+# Gaps:          35/94 (37.2%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       87 PPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEG------    130
+                     |.|...|..|::.:::.| ..||.:.             .||:|      
+LDH_BORAP         87 PGETRLDLVGKNSKIFKD-IITNVVS-------------SGFDGIFVIAS    122
+
+Y3584_PSEAB      131 --------------EQPLHIFVAAGVDLAISKLGRFTENDQYDI    160
+                                   :.|:|..:..|..|..|:| |:..:|::::
+LDH_BORAP        123 NPVDIMTYVTMKYSKFPIHKVIGTGTILDTSRL-RYFLSDRFNV    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      16/54 (29.6%)
+# Similarity:    23/54 (42.6%)
+# Gaps:          13/54 (24.1%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      157 QYDIEQLIECG----RVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAK    202
+                     |.||.|:::.|    |:.||.::   .|.:.||........|      ..
+EXGB_EMENI       108 QDDINQMVQYGLNTIRIPVGYWL---KEDLVYADSEHFPKGG------IG    148
+
+Y3584_PSEAB      203 YLED    206
+                     ||||
+EXGB_EMENI       149 YLED    152
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      22/98 (22.4%)
+# Similarity:    34/98 (34.7%)
+# Gaps:          24/98 (24.5%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      123 IPMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVG    172
+                     |..||.:|         ||....:.||.|..:....::..|.|.|...|.
+KTHY_CHLP8         3 ITFEGIDG---------AGKSTQVVKLKRHLQERGREVLTLREPGGTPVA     43
+
+Y3584_PSEAB      173 Q-----------FVTLATEAIDYAVGNRSAMLGCLKLVIAKYLEDGRD    209
+                     :           .:|...|.:.::......|    :.:|...||||.|
+KTHY_CHLP8        44 EQIRELLLESHNDITSIAELLLFSASRAELM----EKIIVPALEDGCD     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 106
+# Identity:      25/106 (23.6%)
+# Similarity:    43/106 (40.6%)
+# Gaps:          12/106 (11.3%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      103 LDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGRF    152
+                     |...:...||...|..|.|::.......|     :.....||:..||.:.
+SECA2_MYCTO       42 LSSRFWRLLGASTEKNRSRSLADVTASAE-----YDKEAADLSDEKLRKA     86
+
+Y3584_PSEAB      153 TENDQYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRS---AMLGCLKLV    199
+                     .  ...:::.|.|  ..|:.||:.:|.||.:...|.|.   .:||.|:::
+SECA2_MYCTO       87 A--GLLNLDDLAE--SADIPQFLAIAREAAERRTGLRPFDVQLLGALRML    132
+
+Y3584_PSEAB      200 IAKYLE    205
+                     ....:|
+SECA2_MYCTO      133 AGDVIE    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:       9/37 (24.3%)
+# Similarity:    12/37 (32.4%)
+# Gaps:          17/37 (45.9%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       40 PPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVL     76
+                     |.||.:.|    |             ::.||...|.|
+DB108_HUMAN       31 PNGSCRDF----C-------------LETEIHVGRCL     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 114
+# Identity:      21/114 (18.4%)
+# Similarity:    38/114 (33.3%)
+# Gaps:          42/114 (36.8%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       80 EIMAVYTPPEGYEDGDGRDLQVYLDQNYTNALGPLHE-------------    116
+                     |.:..|..||     |.|::..:..:.:.:.:|.::|             
+LCMT1_CRYNB      259 ECLFPYMSPE-----DSREIIKWFGETFCSCMGVVYEMVGLDDSFGNVMK    303
+
+Y3584_PSEAB      117 ---DYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQL    163
+                        ..|..:||...|...:              |:.||||       ..:
+LCMT1_CRYNB      304 RNLAVRNLSIPGSIFSTPE--------------SQAGRFT-------SPM    332
+
+Y3584_PSEAB      164 IECGRVDVGQFVTL    177
+                     ::.|:.|.....||
+LCMT1_CRYNB      333 LQGGKFDSAGAKTL    346
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    17/47 (36.2%)
+# Gaps:          13/47 (27.7%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      129 EGEQPLHIFVAAGVDLAISK---LGRFTENDQYDIEQLIECGRVDVG    172
+                     |.:..:.:||..|:|....|   ..|..|..|          ||.||
+PTGA_SALTY        81 ESDSGIELFVHFGIDTVELKGEGFKRIAEEGQ----------RVKVG    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       7/26 (26.9%)
+# Similarity:    11/26 (42.3%)
+# Gaps:           0/26 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       35 LLDGNPPGSLKVFVFGGCAVHLLTHA     60
+                     |..|.|..:.:.|...|..:..:.||
+RR14_CRYJA        64 LKTGRPRANYRDFELSGYIIREMAHA     89
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 136
+# Identity:      29/136 (21.3%)
+# Similarity:    49/136 (36.0%)
+# Gaps:          50/136 (36.8%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       73 ARVLRKDEIMAVYTP-PEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRER    121
+                     |.:|.||    :.|| |           .:.:|....|.:||:.      
+DCUP_BACVZ        72 AAILYKD----IMTPLP-----------YIGVDVEIKNGIGPVI------    100
+
+Y3584_PSEAB      122 AIPMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDV    171
+                              :||    |.:..|  |.|||..  |.:.|:..::|..|:.|
+DCUP_BACVZ       101 ---------DQP----VRSAAD--IEKLGEL--NPEQDVPYVLETIRLLV    133
+
+Y3584_PSEAB      172 GQFVTLATEAIDYAVGNRSAMLGCLKLVIAKYLEDG    207
+                     .:.:.:.      .:|...|     ...:|.|:.:|
+DCUP_BACVZ       134 NEQLNVP------LIGFSGA-----PFTLASYMIEG    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      47/202 (23.3%)
+# Similarity:    74/202 (36.6%)
+# Gaps:          60/202 (29.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       11 AAEPVRLTTPLGQA-IGNLFARALPLLDGNP---PGSLKV----------     46
+                     |..||.:..||.|: :.:|:...||  :|.|   |.:..:          
+GTF2I_MOUSE      379 AKGPVTIPYPLFQSHVEDLYVEGLP--EGIPFRRPSTYGIPRLERILLAK    426
+
+Y3584_PSEAB       47 ----FVFGGCAVH-LLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGY     91
+                         ||.   ..| ||...|....:|......    |:|..|..|     
+GTF2I_MOUSE      427 ERIRFVI---KKHELLNSTREDLQLDKPASGV----KEEWYARIT-----    464
+
+Y3584_PSEAB       92 EDGDGRDLQVYLDQ----NYTNALGPLHEDYRERAIPMEGFEGEQPLHIF    137
+                           .|:..:||    .:..|||    ....:|:|.:.||. .|..::
+GTF2I_MOUSE      465 ------KLRKMVDQLFCKKFAEALG----STEAKAVPYQKFEA-HPNDLY    503
+
+Y3584_PSEAB      138 VAAGVDLAISKLGRFTENDQYDI---EQLIECG-RVDVGQFVTLATEAID    183
+                     | .|:...|.    |.....|.|   |::|:.| |:   :||....|.:.
+GTF2I_MOUSE      504 V-EGLPENIP----FRSPSWYGIPRLEKIIQVGNRI---KFVIKRPELLT    545
+
+Y3584_PSEAB      184 YA    185
+                     ::
+GTF2I_MOUSE      546 HS    547
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 112
+# Identity:      28/112 (25.0%)
+# Similarity:    44/112 (39.3%)
+# Gaps:          21/112 (18.8%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       23 QAIGNLFARALPLLDGNPPGSLKVFVFGGCAVHLLTH--ARGSADIDA--     68
+                     :|.|.:|...   ||..|..:..:|...|..:.:..|  |||.:..||  
+ISPH_ACIF5        50 RARGAIFVEE---LDEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATC     96
+
+Y3584_PSEAB       69 ------EIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQV-----YLDQNY    107
+                           .:|..:..| |.:..|.....|:.:.:|...||     ||..|.
+ISPH_ACIF5        97 PLVTKVHMEVKKYSR-DGMEMVLIGHAGHPEVEGTMGQVEEGMMYLVSNV    145
+
+Y3584_PSEAB      108 TN--ALGPLHED    117
+                     ::  .|.|.:.|
+ISPH_ACIF5       146 SDVATLAPRNPD    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:       8/42 (19.0%)
+# Similarity:    17/42 (40.5%)
+# Gaps:          10/42 (23.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      134 LHIFVAAGVDLAISKLG----------RFTENDQYDIEQLIE    165
+                     :|.|...|.:..::..|          |.:..|:|.:.:.:|
+NDUA1_HUMAN       26 IHRFTNGGKEKRVAHFGYHWSLMERDRRISGVDRYYVSKGLE     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       8/20 (40.0%)
+# Similarity:    12/20 (60.0%)
+# Gaps:           2/20 (10.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       66 IDAEIEAARVLRKDEIMAVY     85
+                     ::.|..|..|  ||:|.|:|
+PSRP_SALTI        43 VENESRARAV--KDQIDAIY     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 250
+# Identity:      54/250 (21.6%)
+# Similarity:    86/250 (34.4%)
+# Gaps:          89/250 (35.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        9 EGAAEPVRL--TTPLG---QAIGNLFARALPLLDGN---PPGSLKVF---     47
+                     :|..:.|.|  .|||.   :.:|.:|.|   |:|.|   |....:||   
+DNAK_CHESB       378 QGDVKDVLLLDVTPLSLGIETLGGVFTR---LIDRNTTIPTKKSQVFSTA    424
+
+Y3584_PSEAB       48 ----------VFGG--------------CAVHLLTHARG------SADID     67
+                               ||.|              ..|.:....||      :.|||
+DNAK_CHESB       425 EDNQNAVTIRVFQGEREMAADNKLLGQFDLVGIPPAPRGMPQIEVTFDID    474
+
+Y3584_PSEAB       68 A-------------------EIEAARVLRKDEIMAVYTPPEGYEDGDGRD     98
+                     |                   .|:|:..|...||..:....|...:.|.:.
+DNAK_CHESB       475 ANGIVNVSAKDKGTGKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKR    524
+
+Y3584_PSEAB       99 LQVYLDQNYTNALGPLH------EDYRERAIPMEGFEGEQPLHIFVAAGV    142
+                     .:....:|...||  :|      :||.::.     .|.::       ..:
+DNAK_CHESB       525 RETVEVKNQAEAL--IHSTEKSLKDYGDKV-----SEDDR-------KAI    560
+
+Y3584_PSEAB      143 DLAISKLGRFTENDQYD-----IEQLIECGRVDVGQFVTLATEAIDYAVG    187
+                     :.||::|...||.:..|     ...|.|.. :.:||.|..|::|.:.|.|
+DNAK_CHESB       561 ENAIAELKTATEGEDADAIRAKTTALAEAS-MKLGQAVYEASQAENAAGG    609
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      20/77 (26.0%)
+# Similarity:    32/77 (41.6%)
+# Gaps:          18/77 (23.4%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       61 RGSADIDAEIEAARVLRKDEI-MAVYTPPEGYEDGDGRDLQVYLDQNYTN    109
+                     |..|..:||||.....:.|.: ||::     |.||.       |.:..|.
+DNLJ_ACIC5       101 REQAGQNAEIEYVCEYKLDGLSMALH-----YRDGQ-------LARGLTR    138
+
+Y3584_PSEAB      110 ALGPLHEDYRE-----RAIPMEGFEGE    131
+                     ..|.:.||...     |::|:...:|:
+DNLJ_ACIC5       139 GDGEIGEDVTTNVRTIRSVPLSIADGK    165
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 102
+# Identity:      26/102 (25.5%)
+# Similarity:    39/102 (38.2%)
+# Gaps:          19/102 (18.6%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      113 PLHEDYRERAIPMEGFEGEQPLHI--FVAAGVDLAISKLGRFTENDQYDI    160
+                     |...|....||.....:|..|:.:  :.|.||. |.:||       .||:
+CAPSD_CMVO       129 PASSDLSVAAISAMFADGASPVLVYQYAAFGVQ-ANNKL-------LYDL    170
+
+Y3584_PSEAB      161 EQLIECGRVDVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAKYLEDGRDA    210
+                     ..:    |.|:|.....|.     .|.::...|...:||:...:|..|..
+CAPSD_CMVO       171 SAM----RADIGDMRKYAV-----LVYSKDDALETDELVLHVDIEHQRIP    211
+
+Y3584_PSEAB      211 TS    212
+                     ||
+CAPSD_CMVO       212 TS    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    18/38 (47.4%)
+# Gaps:           2/38 ( 5.3%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       67 DAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQVYLD    104
+                     |..:|.|.  |..|.::..:..:|....:|:.|.||.:
+IF3_CHLL2        140 DKGLELAE--RLTERLSCVSNRDGDPKFEGKKLFVYFE    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     8/12 (66.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      138 VAAGVDLAISKL    149
+                     |..|.|::|:.|
+CSRA_HAEI8        12 VLIGDDISITVL     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    19/47 (40.4%)
+# Gaps:          15/47 (31.9%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      139 AAGVDLAISKLGRFTENDQYDIEQLIECGR-----VDVGQFVTLATE    180
+                     |..||..:||:.:          ::::.|.     |..|.|..|.:|
+COAX_CLOBL       197 AGQVDYIVSKMKK----------EMMDLGEEEPFVVATGGFAKLISE    233
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       3/8 (37.5%)
+# Similarity:     4/8 (50.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      119 RERAIPME    126
+                     |...:|.|
+HOP_BOVIN         60 RSEGLPSE     67
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      41/185 (22.2%)
+# Similarity:    54/185 (29.2%)
+# Gaps:          74/185 (40.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       47 FVFGGCA--------VHLLTHARGSA------DIDAEIEAARVLRKDEIM     82
+                     |..||.|        .|.|....||:      .||.|...|.:|      
+THII_VIBA3       209 FNLGGPAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVVAEIL------    252
+
+Y3584_PSEAB       83 AVYTPPEGYEDGD---------------------------GRDLQVYLDQ    105
+                           |..|||.                           |..|.....|
+THII_VIBA3       253 ------ENVEDGQMGVVLKRMFMRAGGMVAERFGIEALVTGEALGQVSSQ    296
+
+Y3584_PSEAB      106 NYTN-----------ALGPL----HEDYRE--RAIPMEGFEGEQPLHIFV    138
+                     ..||           .|.||    .||..:  |.|..|.|....|.:..|
+THII_VIBA3       297 TLTNLRHIDNVTDTLILRPLINWDKEDIIDLSRKIGTEDFAKVMPEYCGV    346
+
+Y3584_PSEAB      139 AAGVDLAISKLGRF-TENDQYD---IEQLIECGRV    169
+                     .:......:|.|:. .|..:::   :||:||..|:
+THII_VIBA3       347 ISKKPTVKAKKGKLEAEEAKFNFEVLEQVIENARI    381
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    11/22 (50.0%)
+# Gaps:           3/22 (13.6%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       35 LLDGNPPGS---LKVFVFGGCA     53
+                     :|..||.|.   .|:.|:.|.|
+RL13_PSEPG       108 MLPKNPLGRDMYRKLKVYAGAA    129
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       6/13 (46.2%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           2/13 (15.4%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       98 DLQVYLDQ--NYT    108
+                     |:.:.|||  .||
+RR2_ARATH        163 DIVIILDQQEEYT    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      19/59 (32.2%)
+# Similarity:    26/59 (44.1%)
+# Gaps:           4/59 ( 6.8%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      127 GFEGEQPLHIFVAAGVDLAISK--LGRFTENDQYDI--EQLIECGRVDVG    172
+                     |..|:..|...:..||.|...|  |.|.....:||:  |.:|..|:....
+Y1710_SYNP2       12 GIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAETVIRQGQRATK     61
+
+Y3584_PSEAB      173 QFVTLATEA    181
+                     .||.|.|:|
+Y1710_SYNP2       62 VFVDLKTKA     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 211
+# Identity:      49/211 (23.2%)
+# Similarity:    70/211 (33.2%)
+# Gaps:          68/211 (32.2%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       12 AEPVRLTTPLGQAIG--NLFARALPLLDGNPPGSL-KVFVFGGCAV--HL     56
+                     ||..|....|.:.:|  :|..|....|.|   |.: :|.:....||  .|
+WTPC_THEKO       106 AEIGRKVRELSEVLGISHLLKRKPKTLSG---GEMQRVAIARALAVEPEL    152
+
+Y3584_PSEAB       57 LTHARGSADIDAE-----IEAARVLRKD----EIMAVYTPPEGYEDGD--     95
+                     |......|::|.:     |...:..||:    .:...::..|....||  
+WTPC_THEKO       153 LLLDEPFANLDVQTRGRLINEMKRWRKELGFTALHVTHSFEEAVSLGDRV    202
+
+Y3584_PSEAB       96 -----GRDLQVYLDQNYTNALGPLHEDY----RERAIPMEGF----EGEQ    132
+                          ||.:||          ||:.|.:    .|......||    ||..
+WTPC_THEKO       203 GVMLNGRLVQV----------GPVREVFSRPASEEVAKFLGFENIVEGLA    242
+
+Y3584_PSEAB      133 PLHIFVAAG--VDLAISKLGR------------------------FTEND    156
+                     ...|..|.|  ::|.|...||                        |....
+WTPC_THEKO       243 EGRILRANGLVIELPIEASGRIRVGIRPEDIVLSDEPLKSSMRNTFQAEV    292
+
+Y3584_PSEAB      157 QYDIEQLIECG    167
+                     |.|:|:|.|.|
+WTPC_THEKO       293 QADVEELGELG    303
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 54
+# Identity:      13/54 (24.1%)
+# Similarity:    18/54 (33.3%)
+# Gaps:          18/54 (33.3%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       34 PLLDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMA     83
+                     |..|..|||.:|                  ......|.::|.||::|..|
+GRB7_RAT          29 PPPDNPPPGDVK------------------RSQPLPIPSSRKLREEEFQA     60
+
+Y3584_PSEAB       84 VYTP     87
+                     ...|
+GRB7_RAT          61 TSLP     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 97
+# Identity:      22/97 (22.7%)
+# Similarity:    39/97 (40.2%)
+# Gaps:          24/97 (24.7%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       13 EPVRLTTPL--GQAIGNLFARALPLLDGNPPGSL--------KVFVF---     49
+                     :|||: ||:  |..:.....|...::...||.:|        :|.:|   
+PSD_RHOPS         56 DPVRV-TPVREGLVVAPADGRVSMVVQMIPPPALGLGDKPLPRVSIFMSV    104
+
+Y3584_PSEAB       50 GGC---------AVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTP     87
+                     ..|         .|..:.::.|.. |:||::.|....:...|.:.||
+PSD_RHOPS        105 FNCHVNRSPVAGRVERIIYSPGKF-INAELDKASEDNERNSMVISTP    150
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      10/37 (27.0%)
+# Similarity:    19/37 (51.4%)
+# Gaps:           3/37 ( 8.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       70 IEAARVLRKDEIMAVYTPPEGYEDGDGRDLQVYLDQN    106
+                     :|..::...||::..::   |......|||||..::|
+PP156_ARATH      671 MEDGKLSETDELLKKFS---GKFGSMKRDLQVETEKN    704
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      22/81 (27.2%)
+# Similarity:    30/81 (37.0%)
+# Gaps:          23/81 (28.4%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       23 QAIGNLFARALPLLD---GNPPGSLKVFVFGGCAVHLLTHARG-------     62
+                     |.:.|.|..:|...|   |     |.|..||  |.|:|.....       
+ADRB2_MESAU       65 QTVTNYFITSLACADLVMG-----LAVVPFG--ASHILMKMWNFGNFWCE    107
+
+Y3584_PSEAB       63 ---SAD---IDAEIEAARVLRKDEIMAVYTP     87
+                        |.|   :.|.||...|:..|..:|:.:|
+ADRB2_MESAU      108 FWTSIDVLCVTASIETLCVIAVDRYIAITSP    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       7/20 (35.0%)
+# Similarity:    12/20 (60.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       21 LGQAIGNLFARALPLLDGNP     40
+                     ||.:|.:...|.|.:.:|:|
+ID5B_ADEPA         6 LGISIDDDNNRRLAVKEGDP     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      15/50 (30.0%)
+# Similarity:    24/50 (48.0%)
+# Gaps:           6/50 (12.0%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      157 QYDIEQLIECGRVDVGQFVTLATEAIDYAVGNRSAML-GCLKLVIAKYLE    205
+                     |:..|||....:.::....|.||:     ..|...:| .||.::|||.|:
+GPA7_CAEEL       303 QWKFEQLNRSSQREIYCHHTCATD-----TNNVQFVLDACLDMIIAKNLK    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      23/113 (20.4%)
+# Similarity:    37/113 (32.7%)
+# Gaps:          41/113 (36.3%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       62 GSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQVYLDQNYTNAL    111
+                     |.::.||.|...|.    |:....||||.                     
+IDI_ECO24         73 GESNEDAVIRRCRY----ELGVEITPPES---------------------     97
+
+Y3584_PSEAB      112 GPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIE    161
+                       ::.|:|.||....|....:...:|.|           |.|...|.:.:
+IDI_ECO24         98 --IYPDFRYRATDPNGIVENEVCPVFAA-----------RTTSALQINDD    134
+
+Y3584_PSEAB      162 QLIE---CGRVDV    171
+                     ::::   |...||
+IDI_ECO24        135 EVMDYQWCDLADV    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      28/123 (22.8%)
+# Similarity:    46/123 (37.4%)
+# Gaps:          45/123 (36.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        8 NEGAAEPVRLTTPLGQAIGNLFA----------------RALPLLD--GN     39
+                     |.|..:..:.:..:|.|:|.:.|                ||..|.|  |.
+YHJA_ECOLI       214 NAGGVDGRKTSIGVGGAVGPINAPTVFNSVFNVEQFWDGRAATLQDQAGG    263
+
+Y3584_PSEAB       40 PPGSLKVFVFGGCAVHLLTHARGSAD-IDAEIEAARVLRKDEIMAVYTPP     88
+                     ||            ::.:..|..|.| |.|::|....| |.:.:.||  |
+YHJA_ECOLI       264 PP------------LNPIEMASKSWDEIIAKLEKDPQL-KTQFLEVY--P    298
+
+Y3584_PSEAB       89 EGYEDGDGRDLQVYLDQNYTNAL    111
+                     :|:.           .:|.|:|:
+YHJA_ECOLI       299 QGFS-----------GENITDAI    310
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      19/71 (26.8%)
+# Similarity:    33/71 (46.5%)
+# Gaps:           9/71 (12.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       90 GYE----DGDGRDLQ-VYLDQNYTNALGPLHEDYR--ERAIPMEGFEGEQ    132
+                     |||    :..||.:. ||:||.....:....:..|  :..:.:|..:.|:
+RIMP_BURPS        15 GYELVDLERTGRGMVCVYIDQPAGITIDDCEKVTRQLQHVLTVENIDYER     64
+
+Y3584_PSEAB      133 PLHIFVAAGVDLAISKLGRFT    153
+                      |.: .:.|:|..:.||..||
+RIMP_BURPS        65 -LEV-SSPGLDRPLKKLADFT     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    16/42 (38.1%)
+# Gaps:           8/42 (19.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       83 AVYTPPEGYEDGDGRDLQV---YLDQN-----YTNALGPLHE    116
+                     |..|...|.....|:..||   ::|.|     ..|..||:.|
+RS28_OSTOS         8 AXVTKNIGRTGSQGQCTQVRVEFMDDNGNRTINRNVKGPVRE     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      168 RVDVGQFVTLATEAI    182
+                     |||.|.|..|:...:
+HBAC_LITCT        93 RVDPGNFALLSNNIL    107
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 294
+# Identity:      52/294 (17.7%)
+# Similarity:    84/294 (28.6%)
+# Gaps:         115/294 (39.1%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTNEGAAE----PVRLTTPLGQAIGNLFARALPLLDGNPPGSLKV     46
+                     :::.||.:.|.::    .|...||:....|.......||.:..|      
+RPOA_PRRSS      2174 VSVQETRSLGGSKFSVCTVVSNTPVDALTGIPLQTPTPLFENGP------   2217
+
+Y3584_PSEAB       47 FVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDG     96
+                                 ..||..| |..:|.         |..:....|:.:.:|
+RPOA_PRRSS      2218 ------------RHRGEED-DLRVER---------MKKHCVSLGFHNING   2245
+
+Y3584_PSEAB       97 RDLQVYL--------------DQNYTN--ALGPLHEDYRER------AIP    124
+                     :   ||.              |..||.  |......|||:|      ..|
+RPOA_PRRSS      2246 K---VYCKIWDKSTGDTFYTDDSRYTQDLAFQDRSADYRDRDYEGVQTAP   2292
+
+Y3584_PSEAB      125 MEGFE--GEQPLHIFVAAGV----------------------------DL    144
+                     .:||:  .|.|:...|..|:                            :.
+RPOA_PRRSS      2293 QQGFDPKSETPIGTVVIGGITYNRYLIKGKEVLVPKPDNCLEAAKLSLEQ   2342
+
+Y3584_PSEAB      145 AISKLGRFTENDQYDIEQ-------------------------LIECGRV    169
+                     |::.:|:..:....::|:                         |..||| 
+RPOA_PRRSS      2343 ALAGMGQTCDLTAAEVEKLRRIISQLQGLTTEQALNCLLAASGLTRCGR-   2391
+
+Y3584_PSEAB      170 DVGQFVTLATEAIDYAVGNRSAMLGCLKLVIAKYLEDGRDATSG    213
+                       |..|...|........:|:..||.|.|.:....|..:....|
+RPOA_PRRSS      2392 --GGLVVTETAVKIVKYHSRTFTLGPLDLKVTSEAEVKKSTEQG   2433
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      35/172 (20.3%)
+# Similarity:    57/172 (33.1%)
+# Gaps:          50/172 (29.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       16 RLTTPLGQAI-GNLFARAL-----PLLDGNPPGSLKVFV--------FGG     51
+                     ||..|.|:.: .::.|..|     .|||....|::. ||        |..
+UBIE_PSEAE        88 RLVGPTGEVVLADINASMLKVGRDKLLDKGVSGNVS-FVQADAEKLPFPD    136
+
+Y3584_PSEAB       52 CAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQV    101
+                     .....:|.|.|..::..:.||.|     .::.|..|       .||.|.:
+UBIE_PSEAE       137 NHFDCVTIAFGLRNVTHKDEAIR-----SMLRVLKP-------GGRLLVL    174
+
+Y3584_PSEAB      102 YLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGR    151
+                     ...:..:|.|...::.|....:|:                       :|:
+UBIE_PSEAE       175 EFSKPSSNLLSKAYDAYSFSLLPL-----------------------MGK    201
+
+Y3584_PSEAB      152 FTENDQYDIEQLIECGRVDVGQ    173
+                     ...||......|.|..|:...|
+UBIE_PSEAE       202 LVTNDSESYRYLAESIRMHPDQ    223
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      44/178 (24.7%)
+# Similarity:    73/178 (41.0%)
+# Gaps:          54/178 (30.3%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB       74 RVLRKDEIMAVYT--------------PPEGYEDGDGRDLQVYLDQNYTN    109
+                     :||.|:|:::..|              |.:|...|...:..:.|.|    
+FLII_AQUAE        88 KVLLKNELVSTKTGNGVVGKVVDPFGNPLDGGFIGFVEEKGLELPQ----    133
+
+Y3584_PSEAB      110 ALGPLHEDYRERAIPMEGFE------------GE-QPLHIFVAAGVDLAI    146
+                      :.||   ||||.  .|.|:            |: |.:.||..|||..: 
+FLII_AQUAE       134 -INPL---YRERI--REVFDTGVRSVNALFTLGKGQKIGIFAGAGVGKS-    176
+
+Y3584_PSEAB      147 SKLGRFTENDQYDIEQLI---ECGRVDVGQFV--TLATEAIDYAV-----    186
+                     :.||..|.:.:.|:..|.   |.|| :|.:|:  .|..|.:..:|     
+FLII_AQUAE       177 TLLGMITRHSKADVVVLALIGERGR-EVKEFLEEVLGEEGLKKSVVVVST    225
+
+Y3584_PSEAB      187 GNRSAML---GCLKLVI--AKYLEDGRD    209
+                     .::|.:|   |.:..|:  ..:...|:|
+FLII_AQUAE       226 ADQSPILKVKGAISAVVHAHHFASQGKD    253
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    19/38 (50.0%)
+# Gaps:          10/38 (26.3%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      100 QVYLDQNYT-----NALG-----PLHEDYRERAIPMEG    127
+                     ||.::||.|     :.:|     |.:::|:..:.|..|
+MSS11_VANPO      188 QVQMNQNSTGNSSRSGMGTPIANPSNQNYQHSSNPNSG    225
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:      36/195 (18.5%)
+# Similarity:    63/195 (32.3%)
+# Gaps:          68/195 (34.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       76 LRKDEIMAVYTPPEGYEDGDGRDL--QVYLDQNYTNALGPLHEDYRERAI    123
+                     ::|..:.|:...|.       |:|  |:|   |..::|...|........
+SPB4_ASPFU        83 IKKHHVGAIIISPT-------RELASQIY---NVLSSLLAFHPPSAAAIN    122
+
+Y3584_PSEAB      124 PMEGFEGEQP------------------------LHIFVAAGVDLAISKL    149
+                     |.|..:..:|                        |..|:....::.:|..
+SPB4_ASPFU       123 PSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVLVSTP    172
+
+Y3584_PSEAB      150 GRFTE----------NDQYDIEQLIECGR-VDVGQFVTL-----------    177
+                     ||..|          ...:::..|.|..| :|:|...||           
+SPB4_ASPFU       173 GRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRLPKQR    222
+
+Y3584_PSEAB      178 --------ATEAID--YAVGNRSAMLGCLKLVIAKYLEDGRDATS    212
+                             .:||:|  ..||.|:.:...:|:.....::|.|...|
+SPB4_ASPFU       223 RTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPAS    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      20/79 (25.3%)
+# Similarity:    33/79 (41.8%)
+# Gaps:          30/79 (38.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      139 AAGVD--LAISKLGRFTENDQYDIEQLIECGR------VDVGQFVTLATE    180
+                     :.|:|  :|||.:|:             |.||      :|:||    ..|
+ASSY_MYCTO        10 SGGLDTSVAISWIGK-------------ETGREVVAVAIDLGQ----GGE     42
+
+Y3584_PSEAB      181 AIDYAVGNRSAMLGCLKLVIAKYLEDGRD    209
+                     .:| .:..|:...|.::.|:.    |.||
+ASSY_MYCTO        43 HMD-VIRQRALDCGAVEAVVV----DARD     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      17/76 (22.4%)
+# Similarity:    27/76 (35.5%)
+# Gaps:          17/76 (22.4%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB      130 GEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQFVTLAT    179
+                     |:|.....|.||..|.:......|..||...:..:   .::.||||.|.:
+ECCB1_MYCS2      355 GDQAPKTTVIAGRRLPLPANAIGTGIDQIGGDSTV---YIEGGQFVRLQS    401
+
+Y3584_PSEAB      180 --------------EAIDYAVGNRSA    191
+                                   :.:.|.:.|..|
+ECCB1_MYCS2      402 PDPRVGESMYYIDPQGVRYGIANDDA    427
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      19/73 (26.0%)
+# Similarity:    34/73 (46.6%)
+# Gaps:          16/73 (21.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      136 IFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQF-VTLATEAIDY    184
+                     |.::|| ||..:::...:||... ||.:|:.|::...:. :.|..||:  
+KCY4_ORYSJ        54 IHLSAG-DLLRAEIKSGSENGTM-IENMIKEGKIVPSEVTIKLLQEAM--     99
+
+Y3584_PSEAB      185 AVGNRSAMLGCLKLVIAKYLEDG    207
+                                :|....|:|.||
+KCY4_ORYSJ       100 -----------IKSGNDKFLIDG    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 227
+# Identity:      53/227 (23.3%)
+# Similarity:    76/227 (33.5%)
+# Gaps:          80/227 (35.2%)
+# Score: 87.5
+# 
+#
+#=======================================
+
+Y3584_PSEAB        1 MTLLETTN-EGAAEPVRLTTPLGQAIGNLFARALPLLDGNPPGSLKVFV-     48
+                     |.||:..| |....|...|.|||..:|...     |:.|:...:||..: 
+HCP_TRIV2        210 MELLDAGNTETFGHPTPTTVPLGHTVGKAI-----LVSGHDLLALKAVLE    254
+
+Y3584_PSEAB       49 -FGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYED----     93
+                      ..|..:.:.||.                   |::    |..||..    
+HCP_TRIV2        255 QTSGTGIKVYTHG-------------------ELL----PAHGYPKLKQT    281
+
+Y3584_PSEAB       94 --------GDGRDLQVYLDQNY-------TNALGPLHEDYRERAIPM--E    126
+                             |.....|.:..:.:       ||.|.|.||.|:::...:  .
+HCP_TRIV2        282 HPHLYGHYGTAWQNQTHEFERFPGAIVMTTNCLMPPHETYKDKVFTLGPV    331
+
+Y3584_PSEAB      127 GFEGEQPLHIFVAAGVDLAISK---LGRFTENDQYDIEQLIECGRVDVGQ    173
+                     |:.|.|.:.|.   .:.|.|.|   |..|||    |.||           
+HCP_TRIV2        332 GYPGLQHISIH---DISLVIQKALELPGFTE----DSEQ-----------    363
+
+Y3584_PSEAB      174 FVTLATEAIDYAVGNRSAMLGCLKLVI    200
+                         .|....:|   |:|:||....||
+HCP_TRIV2        364 ----KTVTTGFA---RNAVLGVADTVI    383
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      16/52 (30.8%)
+# Similarity:    22/52 (42.3%)
+# Gaps:          15/52 (28.8%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB        5 ETTNEGAAEPVRLTTPL-GQAIGNLF------------ARALPLLDGNPP     41
+                     |.|::.....||.:||| |.|..:.|            |.|.|:|  .|.
+UBX7_YEAST       335 EETSKPNRHEVRSSTPLSGAASSSCFQYNNVREPVQSSAHASPML--TPS    382
+
+Y3584_PSEAB       42 GS     43
+                     |:
+UBX7_YEAST       383 GT    384
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      32/155 (20.6%)
+# Similarity:    56/155 (36.1%)
+# Gaps:          24/155 (15.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       36 LDGNPPGSLKVFVFGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVY     85
+                     :.|:.|..:.|...|.|.|     ..|......:||   |:..:.::.. 
+RPOA_ACICJ       102 MHGDGPKRMTVSATGPCEV-----TAGMIQTGHDIE---VMNPELVICT-    142
+
+Y3584_PSEAB       86 TPPEGYEDGD--GRDLQVYLDQNYTNALGPLHEDYRERAIPMEGFEGEQP    133
+                          .:||.  |.:..|...:.|..|.....||.....||::..  ..|
+RPOA_ACICJ       143 -----LDDGATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSI--YSP    185
+
+Y3584_PSEAB      134 LHIFVAAGVDLAISKLGRFTENDQYDIEQLIEC-GRVDVGQFVTLATEAI    182
+                     :.   .....:..:::|:.|:.|:..:.  ||. |.|.....|.||...:
+RPOA_ACICJ       186 VR---RVSYRVEPTRVGQVTDYDRLILN--IETNGAVTPEDAVALAARIL    230
+
+Y3584_PSEAB      183 DYAVG    187
+                     ...:|
+RPOA_ACICJ       231 QDQLG    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      21/87 (24.1%)
+# Similarity:    36/87 (41.4%)
+# Gaps:           4/87 ( 4.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB      124 PMEGFEGEQPLHIFVAAGVDLAISKLGRFTENDQYDIEQLIECGRVDVGQ    173
+                     |:|..|.|....|..|..:|.:..:.|....:....:.||.|.|...|.:
+YXAD_BACSU         6 PVELIEYELTTFIRRAVYLDQSEKRTGNLERSSYLLLRQLDEFGPARVKE     55
+
+Y3584_PSEAB      174 FVTLATEAIDYAVGNRSAMLGCLKLVIAKYLE--DGR    208
+                     ..  .:..:|.:..:|.|.....|.:|.::.:  |||
+YXAD_BACSU        56 LA--ESFKLDISTLSRQAAALEAKELIYRFSDPSDGR     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y3584_PSEAB
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 167
+# Identity:      36/167 (21.6%)
+# Similarity:    62/167 (37.1%)
+# Gaps:          57/167 (34.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+Y3584_PSEAB       10 GAAEPVRL---------TTP--LGQAIGNLFARALPLLDGNPPGSLKVFV     48
+                     |..|..:|         :||  :.:.:.|:    .|.||..|.....|.|
+FADB_SHESR       352 GLGEAAKLLSAQVARGRSTPEKMAKVLNNI----TPALDYAPVNHADVVV    397
+
+Y3584_PSEAB       49 FGGCAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYT------------     86
+                     ..     ::.|.:..|.:.||:|  :.:.:|.|:|..|            
+FADB_SHESR       398 EA-----VVEHPKVKAQVLAEVE--QYVSEDAIIASNTSTISINLLAKSM    440
+
+Y3584_PSEAB       87 -PPEGYEDGDGRDLQVYLDQNYTNALGPLHEDYRERAIPM-EGFEGEQPL    134
+                      .||.           :...::.|   |:|:      :|: |...||...
+FADB_SHESR       441 KKPER-----------FCGMHFFN---PVHK------MPLVEVIRGEHSS    470
+
+Y3584_PSEAB      135 HIFVAAGVDLAISKLGR    151
+                     ...:|:.|..| ||:|:
+FADB_SHESR       471 EETIASVVAYA-SKMGK    486
+
+
+#---------------------------------------
+#---------------------------------------

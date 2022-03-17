@@ -1,0 +1,3144 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:42
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/UBIE_PSEAE.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/UBIE_PSEAE.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/UBIE_PSEAE.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 278
+# Identity:      63/278 (22.7%)
+# Similarity:    97/278 (34.9%)
+# Gaps:         102/278 (36.7%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        25 QKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVR--SGNRV     72
+                     ||||.|.  ..::..||      ::|.:.|.:::...|..|::  .|   
+PUR7_VIBVU       120 QKAKPVK--IEAICRKY------ITGSMWRAYEKGEREFCGIQLPEG---    158
+
+UBIE_PSEAE        73 LDIAGGTGDLTRQFSRLVGPTGEVVLADI----NASMLKVGRDKLLDKGV    118
+                     |:......||      |:.|:.:.:|..|    .|..:.:.|..:.|...
+PUR7_VIBVU       159 LEKDKALPDL------LMTPSTKGILKGIPGVPEADDVNITRQNIADNFA    202
+
+UBIE_PSEAE       119 SGNVSFVQAD----AEKL-----------------PFPDNHFD--CVTIA    145
+                     :.|  |..||    .|||                 .|.|..|:  .||.|
+PUR7_VIBVU       203 AFN--FSSADDIALYEKLLKDGFGVISEALANVGQIFVDTKFEFGYVTDA    250
+
+UBIE_PSEAE       146 FGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSL    195
+                     .|...:.:.||.                   ..|.|   |:.:||..:. 
+PUR7_VIBVU       251 AGNEKLIYMDEV-------------------GTPDS---SRIWDAQEYQ-    277
+
+UBIE_PSEAE       196 LPLMGKLVTNDSESYR-----------YLAESIRMHPDQETL--------    226
+                        .||:|.|..|.:|           .|....|| |::|.|        
+PUR7_VIBVU       278 ---AGKIVENSKEGFRQFLLNYFPDPDILLNKDRM-PEREALARDNELPE    323
+
+UBIE_PSEAE       227 KAMMVEAGFDRVTYHN----MTGGIVAL    250
+                     :|:|..:.    ||.|    :||..:.|
+PUR7_VIBVU       324 EALMAVSR----TYINIAEKITGSAIVL    347
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       5/20 (25.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        73 LDIAGGTGDLTRQFSRLVGP     92
+                     |::.|...:|..:.::|..|
+Y075_NITWN        30 LELDGARRELISRSAKLAYP     49
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      35/172 (20.3%)
+# Similarity:    57/172 (33.1%)
+# Gaps:          50/172 (29.1%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        88 RLVGPTGEVVLADINASMLKVGRDKLLDKGVSGNVS-FVQADAEKLPFPD    136
+                     ||..|.|:.: .::.|..|     .|||....|::. ||        |..
+Y3584_PSEAB       16 RLTTPLGQAI-GNLFARAL-----PLLDGNPPGSLKVFV--------FGG     51
+
+UBIE_PSEAE       137 NHFDCVTIAFGLRNVTHKDEAIR-----SMLRVLKP-------GGRLLVL    174
+                     .....:|.|.|..::..:.||.|     .::.|..|       .||.|.:
+Y3584_PSEAB       52 CAVHLLTHARGSADIDAEIEAARVLRKDEIMAVYTPPEGYEDGDGRDLQV    101
+
+UBIE_PSEAE       175 EFSKPSSNLLSKAYDAYSFSLLPL-----------------------MGK    201
+                     ...:..:|.|...::.|....:|:                       :|:
+Y3584_PSEAB      102 YLDQNYTNALGPLHEDYRERAIPMEGFEGEQPLHIFVAAGVDLAISKLGR    151
+
+UBIE_PSEAE       202 LVTNDSESYRYLAESIRMHPDQ    223
+                     ...||......|.|..|:...|
+Y3584_PSEAB      152 FTENDQYDIEQLIECGRVDVGQ    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 141
+# Identity:      30/141 (21.3%)
+# Similarity:    45/141 (31.9%)
+# Gaps:          40/141 (28.4%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       137 NHF---------DCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFS    177
+                     ||:         .|:.:    |..|.:....||..|..|....|.|    
+BPT_HAHCH         54 NHYYKPRCNGCNACIAV----RIPTEEFNRTRSQERTWKRNSDLTV----     95
+
+UBIE_PSEAE       178 KPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESY-----RYLAESIRMHPD    222
+                         .|.|..::...|:|..........|.:.|     :|  ||..:...
+BPT_HAHCH         96 ----RLRSAQFEQEHFALYQRYISARHQDGDMYPPTLDQY--ESFLLEAR    139
+
+UBIE_PSEAE       223 QETL-------KAMMVEAGFDRVTYHNMTGGIVALHRGIKP    256
+                     .|||       ..::..|..||.     |.|:.|::....|
+BPT_HAHCH        140 SETLFIEFRKDSKLLAIAVTDRT-----TDGLSAIYTFFDP    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      31/128 (24.2%)
+# Similarity:    51/128 (39.8%)
+# Gaps:          27/128 (21.1%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        76 AGGTG-DLTRQFSRLVGPTGEVVLADI--NASMLK-------VGRDKLLD    115
+                     |.|.| |.:......:||..|.::|.:  :|:.|:       :..|.:..
+KDPC_CAUVN        73 AAGAGYDASASSGSNMGPLNETLIARLKTDAAALRAENPGVAIPADAVTT    122
+
+UBIE_PSEAE       116 KGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVL    165
+                     .|...:.....|:|        .|....:| |.|.|..||.......:|.
+KDPC_CAUVN       123 SGSGLDPDISPANA--------RFQAPRVA-GARGVPEKDVTALIDAQVQ    163
+
+UBIE_PSEAE       166 KPGGRLLVLEF-SKPSSNL--LSKAYDA    190
+                     :|     :|.| .:|..|:  |::|.||
+KDPC_CAUVN       164 QP-----LLGFIGQPRVNVLALNRALDA    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 218
+# Identity:      46/218 (21.1%)
+# Similarity:    70/218 (32.1%)
+# Gaps:          70/218 (32.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        42 DLMNDLMSGGIHRLWKRFTIE-LSGVRSGNRVLDIAGGTGDLTRQFSRLV     90
+                     ||..|.:...:..|:.||..| :||.       |.....|||   |...:
+LPXH_XYLFM         8 DLHLDPLRPVVTELFLRFLREQVSGA-------DALYILGDL---FEVWI     47
+
+UBIE_PSEAE        91 GPTGEVVLADINASMLKVGRDKLLDKG-----VSGNVSFVQADAEKLPFP    135
+                     |......:||:.|:.|:.    ..|.|     :.||..|           
+LPXH_XYLFM        48 GDDMPSEVADMVAAALRT----YADAGTPLYFMPGNRDF-----------     82
+
+UBIE_PSEAE       136 DNHFDCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLS    185
+                                    :...|.|.|:..|:|             |...:: 
+LPXH_XYLFM        83 ---------------LVGADYAARAGFRIL-------------PDPCVV-    103
+
+UBIE_PSEAE       186 KAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPD------QETLKAM    229
+                        |.|....|.|.|.|:..|..:|:......| .|:      .:||.|.
+LPXH_XYLFM       104 ---DLYGEPTLLLHGDLLCTDDIAYQAFRAQTR-DPEFIAQFLTQTLSAR    149
+
+UBIE_PSEAE       230 MVEAGFDRVTYHNMTGGI    247
+                     :..:...|:..|....|:
+LPXH_XYLFM       150 LAFSQQARLASHAHQSGL    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       8/23 (34.8%)
+# Similarity:    13/23 (56.5%)
+# Gaps:           1/23 ( 4.3%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        30 VAEVFHSVAAKYDLMNDLMSGGI     52
+                     |.....|:.|: .||:||:..|:
+YERI_SCHPO        26 VLSYLFSIEAE-TLMHDLVGSGL     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:      50/241 (20.7%)
+# Similarity:    79/241 (32.8%)
+# Gaps:          90/241 (37.3%)
+# Score: 56.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        22 PESQKAKKV-------------AEVFHSVAAKYDLMNDLMSGGIHRLWKR     58
+                     ||.|:.:..             ||.||.|           |..:|   |.
+RBSA_RUEST       248 PEKQRPEACSTTEVLRVENLCEAERFHDV-----------SFSLH---KG    283
+
+UBIE_PSEAE        59 FTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGE-VVLAD----INA    103
+                     ..:..:|:....| .:||.|...|..|.:..:...|| :.|.|    |:|
+RBSA_RUEST       284 EILGFAGLIGAGR-SEIAKGVCALEGQVTGRLWLNGEPLALRDYQDSIDA    332
+
+UBIE_PSEAE       104 SMLKVGRDK-----LLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGL    148
+                     .::.:..|:     .||..::.|||.:                       
+RBSA_RUEST       333 GIVYLSEDRKGDGVFLDMSIASNVSAL-----------------------    359
+
+UBIE_PSEAE       149 RNVTHKDEAIRSMLRVLKPG---------GRLLVLE---FSKPSSNLLSK    186
+                          |.|.:.|.|.:::||         ||.|.|:   ...|.|:|...
+RBSA_RUEST       360 -----KVEQVASALGLIQPGREIEQADRLGRKLNLKCGTLQDPVSSLSGG    404
+
+UBIE_PSEAE       187 AYDAYSFSLL------------PLMGKLVTNDSESYRYLAE    215
+                     .....:.:.:            |..|..|...:|.||.|.:
+RBSA_RUEST       405 NQQKVALAKMLSVNPRLIFLDEPTRGVDVGAKAEIYRILRD    445
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     7/17 (41.2%)
+# Gaps:           6/17 (35.3%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       178 KPSSNLLSKAYDAYSFS    194
+                     :||      .|..|.||
+KR195_HUMAN       59 RPS------CYGGYGFS     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      13/39 (33.3%)
+# Similarity:    19/39 (48.7%)
+# Gaps:           4/39 (10.3%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       110 RDKLLDKGVSGNV----SFVQADAEKLPFPDNHFDCVTI    144
+                     ||.|.:..::.:|    |||...|||.......||.:|:
+UPPP_CORDI       117 RDNLRNMWITASVLIAFSFVFIAAEKWGSKRRSFDQLTM    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      11/47 (23.4%)
+# Similarity:    20/47 (42.6%)
+# Gaps:          13/47 (27.7%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       146 FGLRNVTHKDEAI-RSMLR--------VLKPGGR----LLVLEFSKP    179
+                     ||.::....|..: |::|:        |..|.|.    :..:|:.||
+GREB_ECO57       112 FGRKDYISIDSPMARALLKKEVGDLAVVNTPAGEASWYVNAIEYVKP    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 197
+# Identity:      41/197 (20.8%)
+# Similarity:    67/197 (34.0%)
+# Gaps:          57/197 (28.9%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        73 LDIAG------GTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLDK    116
+                     ||..|      ..|:...:..|::..|..::.||....::.||..:.|..
+TGT_LEPCP        215 LDFPGYAVGGVSVGEPKDEMLRIMNHTPHLLPADKPRYLMGVGTPEDLVD    264
+
+UBIE_PSEAE       117 GVSGNVSFVQADAEKLPFPDNHFDCVT-----------IAFG---LRNVT    152
+                     ||:..|..              ||||.           ..:|   :||..
+TGT_LEPCP        265 GVACGVDM--------------FDCVMPTRNARNGHLFTRYGDLKIRNAR    300
+
+UBIE_PSEAE       153 HK------DE--AIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAY----DA    190
+                     ||      ||  :.::......|.||:         :...|:||    |.
+TGT_LEPCP        301 HKADERPLDETCSCQACKGSTLPDGRV---------TGGFSRAYLHHLDR    341
+
+UBIE_PSEAE       191 YSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDR    237
+                     ....|.|::..:  ::...|..|...:|...|....:|...:...||
+TGT_LEPCP        342 CGEMLGPMLASI--HNLHYYLNLMREVREALDAGRFEAFRAQFKADR    386
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 153
+# Identity:      30/153 (19.6%)
+# Similarity:    52/153 (34.0%)
+# Gaps:          52/153 (34.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        13 TTHFGYQNVPESQKAKKVAEVFHSVAA-----------KY----------     41
+                     |..:..|...|:.|...:|.:..|||:           :|          
+CBPQ_HUMAN       183 TVQYRTQGAVEAAKVGALASLIRSVASFSIYSPHTGIQEYQDGVPKIPTA    232
+
+UBIE_PSEAE        42 -------DLMNDLMSGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTR     84
+                            ::|:.:.|.||     :..|:|.          :...|...|.
+CBPQ_HUMAN       233 CITVEDAEMMSRMASHGI-----KIVIQLK----------MGAKTYPDTD    267
+
+UBIE_PSEAE        85 QFSRLVGPTG-----EVVLADINASMLKVGRDKLLDKGVSGNVSFVQADA    129
+                     .|:.:...||     :|||...:.....||:..:.|    |..:|:..:|
+CBPQ_HUMAN       268 SFNTVAEITGSKYPEQVVLVSGHLDSWDVGQGAMDD----GGGAFISWEA    313
+
+UBIE_PSEAE       130 EKL    132
+                     ..|
+CBPQ_HUMAN       314 LSL    316
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      20/105 (19.0%)
+# Similarity:    30/105 (28.6%)
+# Gaps:          38/105 (36.2%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       162 LRVLKPGGRLLVLEFS--------------------------KPSSNLLS    185
+                     :.:..|.|||..:|::                          |....||.
+PSA6_SOYBN        13 ITIFSPEGRLFQVEYAFKAVKAAGITSIGVRGKDSICVVTHKKVPDKLLD     62
+
+UBIE_PSEAE       186 KAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGF    235
+                     .....:.|.:...:|.|.|..:...|.|.:..|.            ||..
+PSA6_SOYBN        63 NTSVTHLFPITKYLGLLATGMTADARTLVQQARN------------EAAE    100
+
+UBIE_PSEAE       236 DRVTY    240
+                     .|.||
+PSA6_SOYBN       101 FRFTY    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    22/42 (52.4%)
+# Gaps:          11/42 (26.2%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       179 PSSNLLSKAYD--------AYSFSLLP---LMGKLVTNDSES    209
+                     |:.:|::.::|        |||....|   :|.|.:.:|:||
+SCL34_ARATH       85 PADSLITNSWDASGSIDESAYSADPQPVNEIMVKSMFSDAES    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      32/144 (22.2%)
+# Similarity:    53/144 (36.8%)
+# Gaps:          47/144 (32.6%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        37 VAAKYDLMNDLMSGGIHR-----LWKRFTIELSGVRSGNRVLDIAGGTGD     81
+                     :|.|.|        |:.|     :.|||  |..|.|.  ..:.:...:.|
+NDKA_CANLF         9 IAIKPD--------GVQRSLVGEIIKRF--EQKGFRL--IAMKLIQASED     46
+
+UBIE_PSEAE        82 LTRQ----------FSRLV-----GPTGEVVLADINASMLKVGRDKLLDK    116
+                     |.::          |:.||     ||...:|...:|  ::|.||..|   
+NDKA_CANLF        47 LLKEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLN--VVKTGRVML---     91
+
+UBIE_PSEAE       117 GVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRS    160
+                        |..:    .|:..|.......|:.:.   ||:.|..:::.|
+NDKA_CANLF        92 ---GETN----PADSKPGTIRGDFCIQVG---RNIIHGSDSVES    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 79
+# Identity:      18/79 (22.8%)
+# Similarity:    33/79 (41.8%)
+# Gaps:          12/79 (15.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        83 TRQFSRLVGPT-GEVVLADINAS-----MLKVGRDKLLDKGVSGNVSFVQ    126
+                     |.::.|::..| |..|:..|.|:     :.||...:.::|||.   ....
+RS4_CAEEL         94 TNEYFRMLYDTKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVP---VLTT    140
+
+UBIE_PSEAE       127 ADAEKLPFPDNHF---DCVTIAFGLRNVT    152
+                     .|...:.:||.|.   |.:......:.:|
+RS4_CAEEL        141 TDGRTIRYPDPHVKVNDTIVFNISTQKIT    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:       8/28 (28.6%)
+# Similarity:    14/28 (50.0%)
+# Gaps:           0/28 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE         5 RKGADAEPTTHFGYQNVPESQKAKKVAE     32
+                     |....||.....|||..|:|.:.:::.:
+G45IP_CHLAE      153 RARLQAEAQELLGYQVNPKSARFQELLQ    180
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      28/122 (23.0%)
+# Similarity:    49/122 (40.2%)
+# Gaps:          30/122 (24.6%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        46 DLMSGGIHRLWKRFTIELS---GVRSGNRVLDIAGGTGDLT--RQFSRLV     90
+                     |::...::||.|.|.|...   .|..|.....:   ..|.|  :||..::
+DAPEL_OCEIH      257 DMIKSKLNRLMKGFEISYDCTIKVDYGANYYQV---VNDATYVQQFENVI    303
+
+UBIE_PSEAE        91 GPTGEVVLADINASMLKVGRD--KLLDKGVSGNVSFVQADAEKLPFPDNH    138
+                     ..|..:.....:|:|  .|.|  .:| |.:.|.:.::..|:         
+DAPEL_OCEIH      304 NQTQTITYQQADAAM--TGEDFGDML-KEIPGFMFWLGVDS---------    341
+
+UBIE_PSEAE       139 FDCVTIAFGLRN--VTHKDEAI    158
+                           ::||.|  :..|:|||
+DAPEL_OCEIH      342 ------SYGLHNARLNPKEEAI    357
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 209
+# Identity:      45/209 (21.5%)
+# Similarity:    70/209 (33.5%)
+# Gaps:          66/209 (31.6%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        54 RLWKRFTI-ELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADIN    102
+                     |:.:||.| :||              |||:.|.......|.|      :.
+KAD_METRJ         19 RIVQRFGIPQLS--------------TGDMLRAAVAAGTPVG------LE     48
+
+UBIE_PSEAE       103 ASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPD--NHFDCVTIAFGLRN    150
+                     |..:......:.|:.|.|.|      |:::..||  ..|    |..|...
+KAD_METRJ         49 AKAVMESGGLVSDRIVVGIV------ADRIEEPDARRGF----ILDGFPR     88
+
+UBIE_PSEAE       151 VTHKDEAIRSMLR----------VLKPGGRLLVLEFSKPSSNLLSKAYDA    190
+                     ...:.||:..||.          .||.....||....|.::..|::    
+KAD_METRJ         89 TVAQAEALGEMLASKGLSLSAVVELKVDENALVGRIEKRAAETLAR----    134
+
+UBIE_PSEAE       191 YSFSLLPLMGKLVTNDS---------ESYRYLAESIRMHPDQE-TLKAMM    230
+                              |:.|..|.         |:||.....:..:..|: ||:.:.
+KAD_METRJ        135 ---------GQAVRKDDTPEVFKQRLEAYRAQTAPLSAYYAQKGTLETVD    175
+
+UBIE_PSEAE       231 VEAGFDRVT    239
+                     .....|:||
+KAD_METRJ        176 GMQPIDKVT    184
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    14/38 (36.8%)
+# Gaps:           6/38 (15.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        63 LSGVRSGNRVLDIAGGTGDL------TRQFSRLVGPTG     94
+                     |.||....:...|.||.|.|      .:.|...:|..|
+ELN_BOVIN        694 LGGVLGAGQPFPIGGGAGGLGVGGKPPKPFGGALGALG    731
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      25/117 (21.4%)
+# Similarity:    47/117 (40.2%)
+# Gaps:          37/117 (31.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       133 PF--PDNHFDCVTIAFGLRNVTHKDE---AIRSMLRVLKPGGRLLVLEF-    176
+                     ||  |:.|.:|...|.||  :..||.   ..|:...:.:....|.:::. 
+ASIC2_MOUSE      332 PFCTPEQHKECAEPALGL--LAEKDSNYCLCRTPCNLTRYNKELSMVKIP    379
+
+UBIE_PSEAE       177 SKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETL    226
+                     ||.|:..|.|.:                |.||  :|::|:|         
+ASIC2_MOUSE      380 SKTSAKYLEKKF----------------NKSE--KYISENI---------    402
+
+UBIE_PSEAE       227 KAMMVEAGFDRVTYHNM    243
+                       ::::..|:.:.|..:
+ASIC2_MOUSE      403 --LVLDIFFEALNYETI    417
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      11/42 (26.2%)
+# Similarity:    17/42 (40.5%)
+# Gaps:           6/42 (14.3%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       216 SIRMHPDQET--LKAMMVEAGFDRVTYHNMTGGIVALHRGIK    255
+                     ::....|.||  :.|..|...|.    |:|....:.|..|:|
+DOXA1_XENTR       67 AVNFTSDWETGIVTATTVYKSFS----HSMLNASIGLWIGLK    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       5/16 (31.2%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       149 RNVTHKDEAIRSMLRV    164
+                     :.:.||::|.|...|:
+RS20_STRPB        62 KGLIHKNKASRDKARL     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 240
+# Identity:      43/240 (17.9%)
+# Similarity:    75/240 (31.2%)
+# Gaps:          87/240 (36.2%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        19 QNVPESQKAKKVAEVFHSVAAKYDLMNDL---------MSGGIHRLWKRF     59
+                     |...||::.:|:.|  |......:.|:.|         |:....|.:...
+TPM_HAELO        118 QAADESERMRKMLE--HRSITDEERMDGLEGQLKEARTMAEDADRKYDEV    165
+
+UBIE_PSEAE        60 TIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVG    109
+                     ..:|:.|.:            ||.|...|  ..|||..:.::...:..||
+TPM_HAELO        166 ARKLAMVEA------------DLERAEER--AETGETKIVELEEELRVVG    201
+
+UBIE_PSEAE       110 RDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIR    159
+                               .|:..::...||                   ...|:|...
+TPM_HAELO        202 ----------NNLKSLEVSEEK-------------------ALQKEETYE    222
+
+UBIE_PSEAE       160 SMLRVLKPGGRL----LVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTN    205
+                     ..:|.:.  .||    ...||::.|...|.|..|.....|:        .
+TPM_HAELO        223 GQIRQMT--SRLQEAEARAEFAERSVQKLQKEVDRLEDELV--------Q    262
+
+UBIE_PSEAE       206 DSESYRYLAESIRMHPDQETLKAMMVEAGFDRVTYHNMTG    245
+                     :.|.|:.:::.:    ||               |:..:||
+TPM_HAELO        263 EKEKYKAISDEL----DQ---------------TFSELTG    283
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      37/146 (25.3%)
+# Similarity:    48/146 (32.9%)
+# Gaps:          37/146 (25.3%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        44 MNDLMSGGIHRLWKRFTIELSG--VRSGNRVLDIAGGTGDLTRQFSRLVG     91
+                     |||...|.:|.:.......|.|  |..|:......|..|.|.....    
+LEUC_XANOM       106 MNDARQGIVHVVGPEQGATLPGMTVVCGDSHTSTHGAFGALAHGIG----    151
+
+UBIE_PSEAE        92 PTGEV--VLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHF    139
+                      |.||  |||   ...|...:.|.|...|.|                   
+LEUC_XANOM       152 -TSEVEHVLA---TQCLITKKMKNLQVRVEG-------------------    178
+
+UBIE_PSEAE       140 DCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLS    185
+                        |:.||   ||.||..:..:.::...||....|||:..:...||
+LEUC_XANOM       179 ---TLPFG---VTAKDIVLAVIGKIGTAGGNGHALEFAGSAIRALS    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       3/6 (50.0%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 16.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       142 VTIAFG    147
+                     :||..|
+LPT_ESCF3         12 ITITTG     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      13/52 (25.0%)
+# Similarity:    22/52 (42.3%)
+# Gaps:          15/52 (28.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        95 EVVLADINASMLKVGRD-------------KLLDKG--VSGNVSFVQADA    129
+                     :|:|.:..|..|:|.::             .|.:||  |...||..:|:.
+RL7_THET8         61 DVILKEAGAKKLEVIKELRAITGLGLKEAKDLAEKGGPVKEGVSKQEAEE    110
+
+UBIE_PSEAE       130 EK    131
+                     .|
+RL7_THET8        111 IK    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 247
+# Identity:      52/247 (21.1%)
+# Similarity:    91/247 (36.8%)
+# Gaps:          63/247 (25.5%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        18 YQNVPESQKAKKV-AEVFH-SVAAKYDLMNDLMSGGIHRLWKRFTIELSG     65
+                     ||...|:....|: .::|| :.||...:..|...|     ....::..:.
+HEM1_METCA       123 YQAAREAGTVGKILTKLFHRTFAAAKKVRTDTAIG-----CSPVSVAFAA    167
+
+UBIE_PSEAE        66 VRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLD    115
+                     :|...|:.|   ..||||   :.||| .||.:  ::.|..|...|   :.
+HEM1_METCA       168 IRLAQRIFD---DLGDLT---AILVG-AGETI--ELTARHLTENR---IG    205
+
+UBIE_PSEAE       116 KGVSGNVSFVQA------------DAEKLPFPDNHFDCVTIAFG----LR    149
+                     ..:..|.:|.:|            ..|:||......|.:..:.|    :.
+HEM1_METCA       206 HLIIANRTFDRAHTLANQFGGFAISLEELPKHLAKADIIVASTGSPLPIL    255
+
+UBIE_PSEAE       150 NVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLM    199
+                     .....:.|:||  |..||   :.:::.:.|.             .:.|.:
+HEM1_METCA       256 GKGSFESALRS--RRHKP---MFIVDLAVPR-------------DIEPEV    287
+
+UBIE_PSEAE       200 GKLVTNDSESYRYLAESIRMHPDQETLK-----AMMVEAGFDRVTYH    241
+                     .:|    .:.|.|..:.:: |..:|.||     |:..|...|....|
+HEM1_METCA       288 EQL----QDVYLYTVDDLQ-HTVEENLKTRQEAALQAEEIIDLEVEH    329
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      33/115 (28.7%)
+# Similarity:    51/115 (44.3%)
+# Gaps:          37/115 (32.2%)
+# Score: 64.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         2 NDPR-KGADAEPTTHFG--YQNVPESQKAKKVAE-----------VFHSV     37
+                     |:|: ||      ..||  :|:.| ::.|:.|.|           |.|:.
+XYLB_KLEPN       341 NNPQAKG------VFFGLTHQHGP-AELARAVLEGVGYALADGMDVVHAC    383
+
+UBIE_PSEAE        38 AAKYDLMNDLMSGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFS     87
+                     |.|.:.:. |:.||..|.|::...::||::     ||...| ||      
+XYLB_KLEPN       384 AIKPEAIT-LIGGGRARYWRQMLADISGLQ-----LDYRTG-GD------    420
+
+UBIE_PSEAE        88 RLVGPT-GEVVLADI    101
+                       |||. |...||.:
+XYLB_KLEPN       421 --VGPALGAARLAHV    433
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      29/105 (27.6%)
+# Similarity:    45/105 (42.9%)
+# Gaps:          12/105 (11.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        47 LMSGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEV     96
+                     |.:|..|.|..|.: .|.|||..:..:      |.|..:.::  |...||
+RECR_NOVAD        98 LFTGKYHVLGGRLS-ALEGVRPEDLTI------GSLLDRVAQ--GGIDEV    138
+
+UBIE_PSEAE        97 VLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPD--NHFDCVTI    144
+                     ||| :||::........:.:.:.|....|...|..||...  ::.|..|:
+RECR_NOVAD       139 VLA-MNATLEGQTTAHYIAERLEGAAVRVTQLAHGLPVGGELDYLDEGTL    187
+
+UBIE_PSEAE       145 AFGLR    149
+                     |..||
+RECR_NOVAD       188 AQALR    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 172
+# Identity:      36/172 (20.9%)
+# Similarity:    61/172 (35.5%)
+# Gaps:          54/172 (31.4%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         1 MNDP---RKGADAEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDL     47
+                     :|||   |:.|:    |.|..:..|                      :|.
+SURE_METNO        48 LNDPLRLRRVAE----TRFAVKGTP----------------------SDC     71
+
+UBIE_PSEAE        48 MSGGIHRLWKRF--TIELSGVRSGNRVLD-------IAG---GT--GDLT     83
+                     :..|:..:.|..  .:.||||..|..|.:       :||   ||  |..:
+SURE_METNO        72 VIMGVRHILKERGPDLVLSGVNRGQNVAEDVTYSGTVAGAMEGTILGVRS    121
+
+UBIE_PSEAE        84 RQFSRLVGPTGEV-----VLADINASMLKVGRDKLLDKGVSGNVSFVQAD    128
+                     ...|:..|..|..     ..|:..|..::...:..::.|:..||:|...:
+SURE_METNO       122 IALSQAYGVGGRANVKWHTAAEHGARTIRRILEAGIEPGILVNVNFPDCE    171
+
+UBIE_PSEAE       129 AEKLPFPDNHFDCVTIAFGLRN    150
+                     .|.:.      ....:|.|:||
+SURE_METNO       172 PEAVE------GIAVVAQGMRN    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      24/135 (17.8%)
+# Similarity:    43/135 (31.9%)
+# Gaps:          48/135 (35.6%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       119 SGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVLKPG    168
+                     |.|.:.:.:|.:.:||                  |....|:.:|      
+CYB_ARTIO        205 SNNPTGIPSDPDMIPF------------------HPYYTIKDIL------    230
+
+UBIE_PSEAE       169 GRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESY---RYLAE    215
+                     |.|::|.                :.:.|.|....:..|.::|   ..|..
+CYB_ARTIO        231 GFLMMLT----------------ALATLVLFSPYLLGDPDNYIPANPLIT    264
+
+UBIE_PSEAE       216 SIRMHPDQETLKAMMVEAGFDRVTYHNMTGGIVAL    250
+                     ...:.|:...|.|..:.....     |..||::||
+CYB_ARTIO        265 PPHIKPEWYFLFAYAILRSIP-----NKLGGVLAL    294
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      30/135 (22.2%)
+# Similarity:    49/135 (36.3%)
+# Gaps:          42/135 (31.1%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        30 VAEVFHSVAAKYDL---MN---------DLMSGGIHRLWKRFTIELSGVR     67
+                     |:|..||:....|:   .|         :.::.|:|.|.|     |:..:
+IOLE_BACHK       107 VSEQGHSIQGLMDVPLFKNKPVFTEEEWEKLADGLHHLGK-----LAQEK    151
+
+UBIE_PSEAE        68 SGNRVLDIAGGTG-DLTRQFSRLVG-----------PTGEVV--------     97
+                     ..:.|.....||| ..|.:..:|:.           .||.:|        
+IOLE_BACHK       152 GLHIVYHHHMGTGVQTTTEIEKLMDMTDPALVSLLFDTGHLVFSGEEPLY    201
+
+UBIE_PSEAE        98 -----LADINASMLKVGRDKLLDKGVSGNVSFVQA    127
+                          |..|....||..|.:::|......:||:||
+IOLE_BACHK       202 ILKKYLPRIKHVHLKDIRQEVVDVVKEKELSFLQA    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      21/74 (28.4%)
+# Similarity:    32/74 (43.2%)
+# Gaps:          16/74 (21.6%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        66 VRSGNRVLDIAGGTG-DLTRQFSRLVGPT-----GEVVLADINASMLKVG    109
+                     :.:|..:..|.||.. |.:..|:.|.|.|     |.:..|.|...|.|.|
+ACKA_STAAT       208 IGNGASIAAIDGGKSIDTSMGFTPLAGVTMGTRSGNIDPALIPFIMEKTG    257
+
+UBIE_PSEAE       110 RD-----KLLDK-----GVSGNVS    123
+                     :.     ::|:|     |:||..|
+ACKA_STAAT       258 KTAEQVLEILNKESGLLGLSGTSS    281
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      21/93 (22.6%)
+# Similarity:    38/93 (40.9%)
+# Gaps:          16/93 (17.2%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        39 AKYDLMN-DLMSGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFS     87
+                     |::.|:: |:.:.|...:....|:|..|:..|..|....|....: |::.
+HIS7_BURTA        44 ARHGLVDLDIEAHGDTHIDDHHTVEDVGITLGQAVAKAVGDKKGI-RRYG     92
+
+UBIE_PSEAE        88 RLVGPTGEV---VLADINASMLKVGRDKLLDKGVSGNVSFVQA    127
+                     ....|..|.   |:.|.:      ||     .|:..:|.|.:|
+HIS7_BURTA        93 HSYVPLDEALSRVVIDFS------GR-----PGLEFHVPFTRA    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      36/163 (22.1%)
+# Similarity:    60/163 (36.8%)
+# Gaps:          41/163 (25.2%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        50 GGIHRLWKRFTIELSGVRSGNRV--------LDIAGGTGDLTRQFSRLVG     91
+                     ||:...|:         |.|.|:        ::::|.:.....||.:|..
+PTH_GEOLS         45 GGLTAEWE---------RKGKRLVLLKPQTFMNLSGRSVMPALQFYKLKP     85
+
+UBIE_PSEAE        92 PTGEVVLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDC    141
+                     ....||..:|:   |.:|..:|...|..|..:.:::..|.|    ...|.
+PTH_GEOLS         86 DQLIVVHDEID---LALGAARLKQGGGHGGQNGLRSIMELL----GKGDF    128
+
+UBIE_PSEAE       142 VTIAFGLRNVTHKDEAIRSMLRVLKP----------GGRLLVLEFS----    177
+                     |.:..|:....|.| ....:|.|..|          .|.|.:||.:    
+PTH_GEOLS        129 VRLRLGIGRPPHGD-VTNHVLGVFTPPEMEIFARVLDGALDMLETALDEG    177
+
+UBIE_PSEAE       178 --KPSSNLLSKAY    188
+                       |..|...:|:|
+PTH_GEOLS        178 VPKAMSLFNNKSY    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     8/14 (57.1%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        19 QNVPESQKAKKVAE     32
+                     :.|.|.:|.||..|
+TAF3_XENLA       637 EKVKEKEKEKKEKE    650
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      48/254 (18.9%)
+# Similarity:    89/254 (35.0%)
+# Gaps:          67/254 (26.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        12 PTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMN-----DLMSGGIHRLW     56
+                     ||...|      .|.|.:...|.|::.. |.|.|     :|.:.  .:.|
+DNLJ_CROS5        61 PTQRVG------DQPASQFVSVTHNIPL-YSLENAFNLEELKAW--EKRW    101
+
+UBIE_PSEAE        57 KR------FT-IE-LSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVL     98
+                     :|      || :| :..::.....|.:....|...|..:|..|.|||.:.
+DNLJ_CROS5       102 QRSYEKEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEIT    151
+
+UBIE_PSEAE        99 ADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGL    148
+                     .::     :..|...|...:......|:...|.. .|.:.||.:.     
+DNLJ_CROS5       152 QNV-----RTIRSIPLKLNIDNPPPIVEVRGEAF-LPLDEFDRIN-----    190
+
+UBIE_PSEAE       149 RNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPL    198
+                     :....|.:|:                 |:.|.        :|.:.:|..|
+DNLJ_CROS5       191 QEREEKGDAL-----------------FANPR--------NAAAGTLRQL    215
+
+UBIE_PSEAE       199 MGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRVTYHNMTGGIV    248
+                     ..|:|  |....::.|.::.       |:...:.:.::.:.|...:|.:|
+DNLJ_CROS5       216 DPKIV--DQRRLQFFAYTLH-------LEEAEISSQWESLNYLENSGFLV    256
+
+UBIE_PSEAE       249 ALHR    252
+                     ..||
+DNLJ_CROS5       257 NPHR    260
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 222
+# Identity:      48/222 (21.6%)
+# Similarity:    84/222 (37.8%)
+# Gaps:          50/222 (22.5%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        56 WKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSR-----LVGPTGEVVLAD    100
+                     |....:|.|   :|..:...|.|..:|....||     |:.|.|:....:
+MUTS_MYXXD       145 WGAALLEAS---TGEFMALEAPGIAELAESLSRVEPRELLVPDGKRDAPE    191
+
+UBIE_PSEAE       101 INASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTI-AFGLR    149
+                     :...:.::.|...:.:|.:.:....:|..    :..:||...:: ||||.
+MUTS_MYXXD       192 VAQLLARLVRTPAVAEGEAASFEPTRAAG----YLRSHFAVQSLSAFGLD    237
+
+UBIE_PSEAE       150 NVTHKDEAIRSMLRVLKP-----------------GGRLLVLEFSKPSSN    182
+                     :......|..:.||.||.                 ||.||:.|.|:.:..
+MUTS_MYXXD       238 DAPLAAGAAGAALRYLKDTQKTAAAHVDRLSRQERGGNLLMDESSRANLE    287
+
+UBIE_PSEAE       183 LLSKAYD-AYSFSLLPLMGKLVTN--DSESYRYLAESIRMHPD-------    222
+                     :|....| ....|||.::.|.||:  ..:..|:||..:...|:       
+MUTS_MYXXD       288 VLRSLRDGGRKGSLLGVLDKTVTSLGARKLARWLASPLGSLPEIHARLDA    337
+
+UBIE_PSEAE       223 ----------QETLKAMMVEAG    234
+                               :|.|..::.|.|
+MUTS_MYXXD       338 VEELSGRSVWREELAGILKEVG    359
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      21/84 (25.0%)
+# Similarity:    33/84 (39.3%)
+# Gaps:          23/84 (27.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       130 EKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRV-LKPGGRL-------    171
+                     :::|...||:.      .||.:..|..|:..:..: ||.||.:       
+NOSO_STAAC       180 KEVPIEHNHYP------KLRKLNLKWYAVPIISNMDLKIGGIVYPTAPFN    223
+
+UBIE_PSEAE       172 ---LVLEFSKPS------SNLLSKAYDAYSFSLL    196
+                        :|.|....:      .|||.|..||:.|..|
+NOSO_STAAC       224 GWYMVTEIGVRNFIDDYRYNLLEKVADAFEFDTL    257
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    15/42 (35.7%)
+# Gaps:           2/42 ( 4.8%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        32 EVFHSVAAKYDLMN--DLMSGGIHRLWKRFTIELSGVRSGNR     71
+                     |.:....|..:.:|  |||...|...|........|.|.|.|
+RBM8A_MOUSE      122 ETYKEAQAAMEGLNGQDLMGQPISVDWCFVRGPPKGKRRGGR    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       137 NHFDCVTIA    145
+                     |||...::|
+NU4LM_ARCPU       51 NHFTLASMA     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      19/66 (28.8%)
+# Similarity:    25/66 (37.9%)
+# Gaps:          11/66 (16.7%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        65 GVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLL    114
+                     ||.||.::|...||          |.|..|. .|||.:..:...||...:
+NANK_ECOLI       136 GVVSGCKLLTGPGG----------LAGHIGH-TLADPHGPVCGCGRTGCV    174
+
+UBIE_PSEAE       115 DKGVSGNVSFVQADAE    130
+                     :...||......|..|
+NANK_ECOLI       175 EAIASGRGIAAAAQGE    190
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 257
+# Identity:      49/257 (19.1%)
+# Similarity:    99/257 (38.5%)
+# Gaps:          66/257 (25.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        21 VPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVRSGN     70
+                     :|:.::|:|..:....:...:::..::::.|   ..|.:.|:..|.:|..
+MIAB_MYCPE        21 LPDIRQARKRIKKADIIKDGFEIPANIINYG---EGKTYHIKTFGCQSNL     67
+
+UBIE_PSEAE        71 R-------VLDIAG-------GTGDLTRQFSRLVGPTGE-VVLADINASM    105
+                     |       :|::.|       .|.||....:..|....| .|.|||.   
+MIAB_MYCPE        68 RDTEVMMGMLELIGYEYNEDVNTSDLVLLNTCAVREHAESKVFADIG---    114
+
+UBIE_PSEAE       106 LKVGRDKLLDKGVSGNVSFV--------QADAEKLPFPDNHFDCVTIAFG    147
+                            :||:....|.:|:        |.:|.......::|: |...||
+MIAB_MYCPE       115 -------ILDRIKKSNPNFIFGVCGCMAQEEAVVNRILKSNFN-VDFIFG    156
+
+UBIE_PSEAE       148 LRNVTHK-----DEAI---RSMLRVLKPGGRLLVLEFSKPSSNLLSKAYD    189
+                     ..|| |:     ::.|   ..::.|....|.::....||.::||......
+MIAB_MYCPE       157 THNV-HRILNLLEQVIFEKNLVVEVWSHEGNVIENLPSKRTNNLKGFVNV    205
+
+UBIE_PSEAE       190 AY------SFSLLPL-MGKLVTNDSESYRYLAESIRMHPDQETLKAMMVE    232
+                     .|      ::.::|: .||:.:...|.   :.:.:.          .|:.
+MIAB_MYCPE       206 MYGCDKFCTYCIVPMTRGKIRSRRKED---ILDEVH----------QMIS    242
+
+UBIE_PSEAE       233 AGFDRVT    239
+                     .|:..||
+MIAB_MYCPE       243 EGYKEVT    249
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:      37/185 (20.0%)
+# Similarity:    63/185 (34.1%)
+# Gaps:          58/185 (31.4%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        77 GGTGDLTR---QFSRLVGP-------TG-------------EVVLADINA    103
+                     ||.|.|.:   |:|.::..       ||             |.::.:||.
+NADK_STAES        43 GGDGTLLQAFHQYSHMLSKVAFVGIHTGHLGFYADWLPHEVEKLIIEINN     92
+
+UBIE_PSEAE       104 SMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTH    153
+                     |..:|....||:..|..|              ||.::  |....|...|.
+NADK_STAES        93 SEFQVIEYPLLELIVRYN--------------DNGYE--TRYLALNEATM    126
+
+UBIE_PSEAE       154 KDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLV    203
+                     |.|           .|..||::.     |:..|.::.:....|.:.   .
+NADK_STAES       127 KTE-----------NGSTLVVDV-----NIRGKHFERFRGDGLCIS---T    157
+
+UBIE_PSEAE       204 TNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRV    238
+                     .:.|.:|........:||..|.::...:.:..:||
+NADK_STAES       158 PSGSTAYNKALGGALIHPSLEAMQIAEIASINNRV    192
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:      35/163 (21.5%)
+# Similarity:    55/163 (33.7%)
+# Gaps:          53/163 (32.5%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         5 RKGADAEPTTHFG---YQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSGG     51
+                     ||...:..|..||   :|..|...||:.|...|.:..|.      :||..
+TRPG_CAEEL       367 RKHTVSLATNAFGQVEFQGGPHPYKAQYVRVNFDTEPAY------IMSLF    410
+
+UBIE_PSEAE        52 IHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADI    101
+                     .| :|:        :.....::.:.|||.:.                 |:
+TRPG_CAEEL       411 EH-VWQ--------ISPPRLIITVHGGTSNF-----------------DL    434
+
+UBIE_PSEAE       102 NASMLKVGRDKLL---------------DKGVSGNVSFVQADAEKLPFPD    136
+                     ...:.:|.|..||               |.||..:|:.....|:..  ..
+TRPG_CAEEL       435 QPKLARVFRKGLLKAASTTGAWIITSGCDTGVVKHVAAALEGAQSA--QR    482
+
+UBIE_PSEAE       137 NHFDCVTIA-FGL    148
+                     |...|:.|| :||
+TRPG_CAEEL       483 NKIVCIGIAPWGL    495
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      42/206 (20.4%)
+# Similarity:    67/206 (32.5%)
+# Gaps:          66/206 (32.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         4 PRKGAD---AEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSG     50
+                     |..|||   ||...|      |::::......:..:..||        :|
+MSHD_MYCMM        69 PAHGADAAMAELVVH------PQARRRGIATAMVRAALAK--------TG    104
+
+UBIE_PSEAE        51 GIHRLWKRFTI----------------ELSGVRSGNRVLDIAGGTGDLTR     84
+                     |.::.|...|:                ||..:|..             .|
+MSHD_MYCMM       105 GRNQFWAHGTLAPAQATASALGLTPVRELVQMRRS-------------LR    141
+
+UBIE_PSEAE        85 QFSRLVGPTGEVVL----ADINASMLKVGRDKLLDKGVSGNVSFVQAD-A    129
+                     |....|.|.|..:.    .:.:|.:|:|...........|  .:.:|| |
+MSHD_MYCMM       142 QLPEPVIPNGLQIRTYAGTEDDAELLRVNNAAFAYHPEQG--GWTEADLA    189
+
+UBIE_PSEAE       130 EKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVL----------KPG-    168
+                     |:...|  .||...:...|......:::.|...|:|          .|| 
+MSHD_MYCMM       190 ERRGEP--WFDPAGLFLALEGSEGAEDSPRGQPRLLGFHWTKIHLDDPGL    237
+
+UBIE_PSEAE       169 GRLLVL    174
+                     |.:.||
+MSHD_MYCMM       238 GEVYVL    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      38/176 (21.6%)
+# Similarity:    62/176 (35.2%)
+# Gaps:          77/176 (43.8%)
+# Score: 45.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        36 SVAAKYDLMN--DLMSG---------GIHRLWKRFTIELSGVRSGNRVLD     74
+                     |:....|||:  :|:.|         ..|||   .|..|:|.| |:.|:.
+PAND_THEFY        25 SITIDADLMDAANLVDGEQVHVVNITNGHRL---VTYVLTGER-GSGVIG     70
+
+UBIE_PSEAE        75 IAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLDKGVSGNVSF    124
+                     |.|..       :|||.| |::|:.                      :|:
+PAND_THEFY        71 INGAA-------ARLVAP-GDLVII----------------------ISY     90
+
+UBIE_PSEAE       125 VQ-ADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLV    173
+                     || .:||:                   .||:...:.     :....|::.
+PAND_THEFY        91 VQLTEAER-------------------ATHRPHVVH-----VDANNRIVA    116
+
+UBIE_PSEAE       174 L--EFSKPSSNLLSKAYDAYSFSLLP    197
+                     |  :.::|     ....|..|.:|||
+PAND_THEFY       117 LGDDLAEP-----VPGSDQKSGALLP    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 190
+# Identity:      40/190 (21.1%)
+# Similarity:    59/190 (31.1%)
+# Gaps:          64/190 (33.7%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        94 GEVVLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVT    143
+                     |.|||..::       ||.|.|.|.......|....:|.|          
+LIPA_ASPOR       199 GYVVLTSVD-------RDDLADGGARHFAETVIKIKQKKP----------    231
+
+UBIE_PSEAE       144 IAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKA-YDAYS    192
+                                     |||.....|..|..||..|    |:::: .|.|:
+LIPA_ASPOR       232 ----------------SMLVECLTGDYLGDLEMVK----LVARSGLDVYA    261
+
+UBIE_PSEAE       193 F------SLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMV-----    231
+                     .      :|.|.:........:|.|.|..:.:..||..|..::|:     
+LIPA_ASPOR       262 HNVETVEALTPFVRDRRATFQQSLRVLEAAKQARPDLITKTSLMLGFGET    311
+
+UBIE_PSEAE       232 ------------EAGFDRVT---YHNMTGGIVALHRGIKP    256
+                                 ..|.|.||   |...|...:.:|..:.|
+LIPA_ASPOR       312 EEQLWDALRQLRSVGVDVVTFGQYMRPTKRHMPVHEYVTP    351
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 266
+# Identity:      56/266 (21.1%)
+# Similarity:    92/266 (34.6%)
+# Gaps:         100/266 (37.6%)
+# Score: 68.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        58 RFTIELSGVRSGNRVLD---IAG--GTGDLTRQ-------FSRLVGPTGE     95
+                     |..:.:.||| ||.::.   :.|  |:||.|.|       .:.::...|.
+FLGI_PECAS        27 RDLVNIQGVR-GNALIGYGLVVGLDGSGDQTMQTPFTTQSLTNMLSQLGI     75
+
+UBIE_PSEAE        96 VVLADINASMLKVGRDKLLDKGVSGNVSFVQADAEKLPF--PDNHFDCVT    143
+                     .|.|..|..:              .||:.|...||..||  ...:.|.|.
+FLGI_PECAS        76 TVPAGTNMQL--------------KNVAAVMVTAELPPFGRTGQNIDIVV    111
+
+UBIE_PSEAE       144 IAFG--------------LRNVTHKDEAIR---------------SMLRV    164
+                     .:.|              |:.|.::..|:.               |.::|
+FLGI_PECAS       112 SSLGNAKSLRGGTLLMTPLKGVDNQVYALAQGNVLVGGAGASAGGSSVQV    161
+
+UBIE_PSEAE       165 LK-PGGRL---LVLEFSKPSS----------------NLLSKAYDA----    190
+                     .: .|||:   .|:|...||:                ::..|..||    
+FLGI_PECAS       162 NQLAGGRISNGAVIERELPSTFGTSNTIMLQLKNDDFSMAQKVSDAINRS    211
+
+UBIE_PSEAE       191 -YSFSLLPLMGKLVTNDSESYRYLA-----ESIRMHPDQETLKAMMVEAG    234
+                      |..:..||       ||.:.:.||     ..:|...|.:.::   |..|
+FLGI_PECAS       212 GYGGTASPL-------DSRTIQVLAPHGNSSQVRFLADVQNIE---VNVG    251
+
+UBIE_PSEAE       235 FD--RVTYHNMTGGIV    248
+                     ..  :|..::.||.:|
+FLGI_PECAS       252 IQDAKVVINSRTGSVV    267
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 183
+# Identity:      42/183 (23.0%)
+# Similarity:    67/183 (36.6%)
+# Gaps:          63/183 (34.4%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        66 VRSGNRVLDIAGGTGD-----LTRQFSRLVGPTGEVVLADINASMLKVGR    110
+                     ::|...||..|||.|.     ||...|.:    .|:|:.|:|       .
+LDH_BORAP          2 LKSNKVVLIGAGGVGSSFAYALTIDNSLV----HELVIIDVN-------E     40
+
+UBIE_PSEAE       111 DKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRS    160
+                     ||.  ||...:::..|...:|         .:.:.||    |:|| .:.:
+LDH_BORAP         41 DKA--KGEVMDLNHGQMFLKK---------NINVLFG----TYKD-CVNA     74
+
+UBIE_PSEAE       161 MLRVL------KPGGRLLVLE------FSKPSSNLLSKAYDA--------    190
+                     .:.|:      |||...|.|.      |....:|::|..:|.        
+LDH_BORAP         75 DIVVITAGLNQKPGETRLDLVGKNSKIFKDIITNVVSSGFDGIFVIASNP    124
+
+UBIE_PSEAE       191 ----------YS-FSLLPLMGKLVTNDSESYRY    212
+                               || |.:..::|.....|:...||
+LDH_BORAP        125 VDIMTYVTMKYSKFPIHKVIGTGTILDTSRLRY    157
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      15/78 (19.2%)
+# Similarity:    33/78 (42.3%)
+# Gaps:          12/78 (15.4%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        20 NVPESQKAKKVA--EVFHSVAAKYD----LMNDLMSGGIHRLWKRFTIEL     63
+                     ::.::.|.:.|.  |:.:......|    ::|........|:  |.|...
+EXGB_EMENI       210 SIHQNNKFRNVGMLEIVNEPVQNADQASSMINSYYPSAFTRI--RNTESS    257
+
+UBIE_PSEAE        64 SGVRSGN----RVLDIAGGTGDLTRQFS     87
+                     .|:.|.|    ::::...|:||.|:..:
+EXGB_EMENI       258 LGITSNNYLHIQMMNEKWGSGDPTQSLT    285
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      30/124 (24.2%)
+# Similarity:    47/124 (37.9%)
+# Gaps:          41/124 (33.1%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       153 HKDEAIRSMLRVLKPGG-------RLLVLEFSKPSSNLLSKAYD--AYSF    193
+                     |..|..|.:|.:.:|||       |.|:||    |.|.::...:  .:|.
+KTHY_CHLP8        23 HLQERGREVLTLREPGGTPVAEQIRELLLE----SHNDITSIAELLLFSA     68
+
+UBIE_PSEAE       194 SLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRVT-YHN    242
+                     |...||.|::.                |..|....::::..||..| |..
+KTHY_CHLP8        69 SRAELMEKIIV----------------PALEDGCDVILDRFFDSTTAYQG    102
+
+UBIE_PSEAE       243 MTGGI----------VALHRGIKP    256
+                     ...|:          :|.| ||:|
+KTHY_CHLP8       103 YGRGLNLDMLAEINRIASH-GIRP    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 202
+# Identity:      47/202 (23.3%)
+# Similarity:    70/202 (34.7%)
+# Gaps:          64/202 (31.7%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        80 GDLTRQFSRLVGPTGEV----VLADINASMLKVGRDK----LLDKGVSGN    121
+                     |.|:.:|.||:|.:.|.    .|||:.||   ...||    |.|:.:...
+SECA2_MYCTO       40 GRLSSRFWRLLGASTEKNRSRSLADVTAS---AEYDKEAADLSDEKLRKA     86
+
+UBIE_PSEAE       122 VSFVQAD--AEKLPFPDNHFDCVTIA-------FGLRNVTHKDEAIRSML    162
+                     ...:..|  ||....|    ..:.||       .|||..   |..:...|
+SECA2_MYCTO       87 AGLLNLDDLAESADIP----QFLAIAREAAERRTGLRPF---DVQLLGAL    129
+
+UBIE_PSEAE       163 RVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLL----------------    196
+                     |:|...    |:|.:......|:.|..|..::|.                
+SECA2_MYCTO      130 RMLAGD----VIEMATGEGKTLAGAIAAAGYALAGRHVHVVTINDYLARR    175
+
+UBIE_PSEAE       197 ------PLMGKL------VTNDSESYRYLAESIRMHPDQETLKAMMVEAG    234
+                           ||:..:      :|.||     ..:..|...|::...|.:.|.|
+SECA2_MYCTO      176 DAEWMGPLLDAMGLTVGWITADS-----TPDERRTAYDRDVTYASVNEIG    220
+
+UBIE_PSEAE       235 FD    236
+                     ||
+SECA2_MYCTO      221 FD    222
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        16 FGYQNVPESQKAKKVAE     32
+                     |..|.:|...|.|::.|
+DB108_HUMAN       13 FMSQVLPAKGKFKEICE     29
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      21/93 (22.6%)
+# Similarity:    30/93 (32.3%)
+# Gaps:          31/93 (33.3%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        51 GIHRLWKRFTIELSGVRSGNRVLDIAGGTG-------------DLTR---     84
+                     ||.||..||.     .|.|.:|:.:..|:.             ||.|   
+LCMT1_CRYNB      122 GIDRLVDRFL-----QRGGKQVVSLGAGSDTRFWRLMSRATPPDLARYVE    166
+
+UBIE_PSEAE        85 -QFSRLVGPTGEVV---------LADINASMLKVGRDKLLDKG    117
+                      .|..|..|..:.:         |...:.:|...|....:.||
+LCMT1_CRYNB      167 IDFPHLTSPKAQRIARHRKLYQYLGPSSTAMPPPGHPYTVSKG    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      33/131 (25.2%)
+# Similarity:    54/131 (41.2%)
+# Gaps:          38/131 (29.0%)
+# Score: 53.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        72 VLDIAGGTGDLTRQFSRLVGP-TGEVV----LADINASMLKVGRDKLLDK    116
+                     |.|....||.:     .:|.| :||:|    :.|:      |..:|::..
+PTGA_SALTY        11 VSDDKKDTGTI-----EIVAPLSGEIVNIEDVPDV------VFAEKIVGD     49
+
+UBIE_PSEAE       117 GV----SGN--VSFVQADAEKLPFPDNHFDCVT--------IAFGLRNVT    152
+                     |:    :||  |:.|.....|: |..||...:.        :.||:..|.
+PTGA_SALTY        50 GIAIKPTGNKMVAPVDGTIGKI-FETNHAFSIESDSGIELFVHFGIDTVE     98
+
+UBIE_PSEAE       153 HKDEAIRSMLRVLKPGGRLL----VLEFSKP    179
+                     .|.|..:   |:.:.|.|:.    |:||..|
+PTGA_SALTY        99 LKGEGFK---RIAEEGQRVKVGDPVIEFDLP    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      16/69 (23.2%)
+# Similarity:    32/69 (46.4%)
+# Gaps:           5/69 ( 7.2%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       184 LSKAYDAYSFSLLPLMGKLVTNDS--ESYRYLAESIRMHPDQETLKAMMV    231
+                     |.:.|:....||...|.::.:.|.  :.||.| :|:..:.....|:...:
+RR14_CRYJA        16 LERKYNLLRQSLKKEMSEVSSLDDKLDIYRKL-QSLPRNSAPTRLRRRCL     64
+
+UBIE_PSEAE       232 EAGFDRVTYHN--MTGGIV    248
+                     :.|..|..|.:  ::|.|:
+RR14_CRYJA        65 KTGRPRANYRDFELSGYII     83
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:      26/117 (22.2%)
+# Similarity:    47/117 (40.2%)
+# Gaps:          30/117 (25.6%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       146 FGLRNVTHKDE--AIRSMLRVLKPG--GRLLVLEFSKP---------SSN    182
+                     :||..:||:.|  |..:.|.|.:.|  ..:|..:...|         ..|
+DCUP_BACVZ        45 YGLVEITHQPELCAYVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIKN     94
+
+UBIE_PSEAE       183 LLSKAYD--AYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQE------    224
+                     .:....|  ..|.:.:..:|:|  |..:...|:.|:||:..:::      
+DCUP_BACVZ        95 GIGPVIDQPVRSAADIEKLGEL--NPEQDVPYVLETIRLLVNEQLNVPLI    142
+
+UBIE_PSEAE       225 -------TLKAMMVEAG    234
+                            ||.:.|:|.|
+DCUP_BACVZ       143 GFSGAPFTLASYMIEGG    159
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 169
+# Identity:      44/169 (26.0%)
+# Similarity:    61/169 (36.1%)
+# Gaps:          52/169 (30.8%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         1 MNDPRKGADAEPTTHFGYQNVPESQK------AKKVAEVFHSVAAK---Y     41
+                     ::.|..|...|     .|..:.:.:|      .||.||...|..||   |
+GTF2I_MOUSE      448 LDKPASGVKEE-----WYARITKLRKMVDQLFCKKFAEALGSTEAKAVPY    492
+
+UBIE_PSEAE        42 DLM----NDL-MSG-------------GIHRLWKRFTIELSGVRSGNRVL     73
+                     ...    ||| :.|             ||.||.|.       ::.|||:.
+GTF2I_MOUSE      493 QKFEAHPNDLYVEGLPENIPFRSPSWYGIPRLEKI-------IQVGNRIK    535
+
+UBIE_PSEAE        74 DIAGGTGDLTRQFSRLVGP-TGEVVLADINASMLKVGRDKLLDKGVSG--    120
+                     .:......||...:.:..| |...|..|.|..:.|      |.|.|..  
+GTF2I_MOUSE      536 FVIKRPELLTHSTTEVTQPRTNTPVKEDWNVRITK------LRKQVEEIF    579
+
+UBIE_PSEAE       121 NVSFVQA----DAEKLPFP    135
+                     |:.|.||    :|.|:|:|
+GTF2I_MOUSE      580 NLKFAQALGLTEAVKVPYP    598
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      13/67 (19.4%)
+# Similarity:    27/67 (40.3%)
+# Gaps:          11/67 (16.4%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        22 PESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVRSG--     69
+                     |.|..:.::||:...:..:..|:.|...  :.|.|.....:: |:.:|  
+ISPH_ACIF5       221 PNSSNSSRLAELGTRLGTQTHLIEDAQQ--LRREWFEGVGKI-GISAGAS    267
+
+UBIE_PSEAE        70 ------NRVLDIAGGTG     80
+                           ..::|...|.|
+ISPH_ACIF5       268 APESLVQEIMDTLRGWG    284
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     6/12 (50.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE         7 GADAEPTTHFGY     18
+                     |...:...||||
+NDUA1_HUMAN       32 GGKEKRVAHFGY     43
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 226
+# Identity:      47/226 (20.8%)
+# Similarity:    85/226 (37.6%)
+# Gaps:          60/226 (26.5%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        53 HRLWKRFTIELSG-----VRSGNRVLDIAGGTGDLTRQFSRLVGPTG---     94
+                     |.:..:|.:.:|.     |.:.:|...:..       |...:...||   
+PSRP_SALTI        25 HAVMSQFPVTISSITLPFVENESRARAVKD-------QIDAIYQQTGVRP     67
+
+UBIE_PSEAE        95 ----EVVLADINASMLK---------------VGRDKLLD--------KG    117
+                         .:||.:|.|.:|:               :.::..||        .|
+PSRP_SALTI        68 LVFYSIVLPEIRAIILQSEGFCQDIVQALVAPLQQEMKLDPTPIAHRTHG    117
+
+UBIE_PSEAE       118 VS-GNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVLK    166
+                     :: ||::...|....:.:...|.|.::    |||:   |:|...:|.|.:
+PSRP_SALTI       118 LNPGNLNKYDARIAAIDYTLAHDDGIS----LRNL---DQAQVILLGVSR    160
+
+UBIE_PSEAE       167 ----PGGRLLVLEFSKPSSNLLSKAYDAYSF----SLLPLMGKL--VTND    206
+                         |....|.::|...::|....|.|..:.    ||.||..||  :|.|
+PSRP_SALTI       161 CGKTPTSLYLAMQFGIRAANYPFIADDMDNLTLPTSLKPLQHKLFGLTID    210
+
+UBIE_PSEAE       207 SESYRYLAESIRMHPDQETLKAMMVE    232
+                     .|....:.|..|.:....:|:...:|
+PSRP_SALTI       211 PERLAAIREERRENSRYASLRQCRME    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 251
+# Identity:      54/251 (21.5%)
+# Similarity:    86/251 (34.3%)
+# Gaps:          79/251 (31.5%)
+# Score: 60.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        65 GVRSGNRVLDIAGGTGDLTRQFSRLVGP-TGEVVLADIN---ASMLKVGR    110
+                     |.:....|:.:.....|..||.::..|. .|..||..||   |:.|..|.
+DNAK_CHESB       132 GEKVEKAVITVPAYFNDAQRQATKDAGKIAGLEVLRIINEPTAAALAYGL    181
+
+UBIE_PSEAE       111 DKLLDKGVS----GNVSFVQADAEKLPFPDNHFDCVTI---------AFG    147
+                     ||...|.::    |..:|   |...|...|..|:..:.         .|.
+DNAK_CHESB       182 DKKEGKTIAVYDLGGGTF---DISILEIGDGVFEVKSTNGDTFLGGEDFD    228
+
+UBIE_PSEAE       148 LRNVTH------KDEAI-----RSMLRVLKPGGRLLVLEFSKPSSNLLSK    186
+                     :|.|.:      |::.|     :..|:.||.......:|.|..|...:: 
+DNAK_CHESB       229 MRLVNYLADEFKKEQGIDLKNDKLALQRLKEAAEKAKIELSSSSQTEIN-    277
+
+UBIE_PSEAE       187 AYDAYSFSLLPLMGKLVTNDSESYRYLA--------ESI-------RMHP    221
+                              ||    .:|.|....::||        ||:       .:.|
+DNAK_CHESB       278 ---------LP----FITADQTGPKHLAIKLTRAKFESLVEDLVTRTIEP    314
+
+UBIE_PSEAE       222 DQETLKAMMVEAG-FDRVTYHNMTGGIVAL---------------HRGIK    255
+                     .:..||...:.|| .|.|.   :.||:..:               |:|:.
+DNAK_CHESB       315 CRAALKDAGLSAGEIDEVV---LVGGMTRMPKVQETVKNFFGKEPHKGVN    361
+
+UBIE_PSEAE       256 P    256
+                     |
+DNAK_CHESB       362 P    362
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 159
+# Identity:      34/159 (21.4%)
+# Similarity:    56/159 (35.2%)
+# Gaps:          39/159 (24.5%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        80 GDLTRQFSRLVGPTGEVVLAD---INASMLKVGRDKLLDKGVSGNVSFVQ    126
+                     |.|.|..:|..|..||.|..:   |.:..|.:...||....:..|  |..
+DNLJ_ACIC5       130 GQLARGLTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPAN--FEV    177
+
+UBIE_PSEAE       127 ADAEKLPFPDNHFDCVT---IAFGLRNVTHKDEAIRSMLRVLKPGGRLLV    173
+                     .....:||  ..|:.:.   .|.||....:...|....:|.|:|      
+DNLJ_ACIC5       178 RGEVVMPF--TAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEP------    219
+
+UBIE_PSEAE       174 LEFSKPSSNLLS-KAYDAYSFSLLPLMGKLVTNDSE--------------    208
+                             |::: :..|.|::..|...|:....:.|              
+DNLJ_ACIC5       220 --------NIVAQRRLDFYAYFALTEKGEDAFGEQEEALDALATLGFRVN    261
+
+UBIE_PSEAE       209 SYRYLAESI    217
+                     .:|:.|:||
+DNLJ_ACIC5       262 QHRHAAKSI    270
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      16/56 (28.6%)
+# Similarity:    28/56 (50.0%)
+# Gaps:          10/56 (17.9%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        65 GVRSGNRVL-DIAGGTGDL--TRQFSRLVG------PTGEVVL-ADINAS    104
+                     ||::.|::| |::....|:  .|:::.||.      .|.|:|| .||...
+CAPSD_CMVO       159 GVQANNKLLYDLSAMRADIGDMRKYAVLVYSKDDALETDELVLHVDIEHQ    208
+
+UBIE_PSEAE       105 MLKVGR    110
+                     .:...|
+CAPSD_CMVO       209 RIPTSR    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      13/55 (23.6%)
+# Similarity:    23/55 (41.8%)
+# Gaps:          13/55 (23.6%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        19 QNVPESQKAKKVAEV-FHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVR     67
+                     :::.:.||...:.|: ||....|:|.  |..:..:...          :|
+IF3_CHLL2         83 KDLKKKQKTTTLKELRFHPNTDKHDF--DFKTAHLEEF----------LR    120
+
+UBIE_PSEAE        68 SGNRV     72
+                     .||||
+IF3_CHLL2        121 KGNRV    125
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       8/30 (26.7%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           2/30 ( 6.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        82 LTRQF--SRLVGPTGEVVLADINASMLKVG    109
+                     |||:.  |.|:|....:.:..:..:.:|:|
+CSRA_HAEI8         4 LTRKVGESVLIGDDISITVLSVRGNQVKLG     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      16/98 (16.3%)
+# Similarity:    39/98 (39.8%)
+# Gaps:          15/98 (15.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        61 IELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEV--VLADINASMLKV    108
+                     ::..||...|.|..|..|.         :.|..|:|  :::.:...|:.:
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGI---------IYGYAGQVDYIVSKMKKEMMDL    214
+
+UBIE_PSEAE       109 GRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDE    156
+                     |.::.......|....:..:::.:    :..:.:....|||.:..|::
+COAX_CLOBL       215 GEEEPFVVATGGFAKLISEESKSI----DEINAILTLEGLRVIYEKNK    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      12/32 (37.5%)
+# Similarity:    14/32 (43.8%)
+# Gaps:           1/32 ( 3.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       204 TNDS-ESYRYLAESIRMHPDQETLKAMMVEAG    234
+                     |.|. |...|....:..|||..||..:..|||
+HOP_BOVIN         10 TEDQVEILEYNFNKVNKHPDPTTLCLIAAEAG     41
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 271
+# Identity:      62/271 (22.9%)
+# Similarity:    98/271 (36.2%)
+# Gaps:          81/271 (29.9%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        23 ESQK-AKKVAEVF-------HSVAAKYDLMNDLMSGGIHRLWKRFTIELS     64
+                     ||.| .|:..||.       ||:..:.....||     |.:::: .:|.|
+THII_VIBA3        55 ESDKYFKETLEVLTQTPGIHHSLEVQQSEFKDL-----HNIYEQ-VLERS     98
+
+UBIE_PSEAE        65 GVRSGNRVLDIAG---GTGDLTR-QFSRLVG-------PTGEVVLADINA    103
+                     |.....:...:..   |..|.|. :..|.||       .:.:|.|.:.:.
+THII_VIBA3        99 GALIEGKTFSVRAKRRGKHDFTSIELERYVGGGLNQAVESAKVKLKNPDI    148
+
+UBIE_PSEAE       104 SM-LKVGRDKL-----LDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFG    147
+                     :: ::|..|||     ..||:.|.....|.|...|           |:.|
+THII_VIBA3       149 TVKVEVENDKLNQVIERHKGLGGFPLGTQEDLLSL-----------ISGG    187
+
+UBIE_PSEAE       148 LRNVTHKDEAIRSMLRVLKPGGRLLVLEFS----------KPSSNLLSKA    187
+                     .      |..:.|.|.: |.|.::....|:          |..|:.|   
+THII_VIBA3       188 F------DSGVSSYLHI-KRGSKVHYCFFNLGGPAHEIGVKQVSHYL---    227
+
+UBIE_PSEAE       188 YDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQE---TLKAMMVEAG    234
+                     :|.|..|   ...|.::.|.|.  .:||.:....|.:   .||.|.:.| 
+THII_VIBA3       228 WDKYGSS---AKVKFISIDFEP--VVAEILENVEDGQMGVVLKRMFMRA-    271
+
+UBIE_PSEAE       235 FDRVTYHNMTGGIVALHRGIK    255
+                               ||:||...||:
+THII_VIBA3       272 ----------GGMVAERFGIE    282
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 130
+# Identity:      36/130 (27.7%)
+# Similarity:    54/130 (41.5%)
+# Gaps:          28/130 (21.5%)
+# Score: 59.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        57 KRFTIELSGVRSGNRVLDIAGGT-GDLTRQF-SRLVG----------PTG     94
+                     |.||.:...|:....|:|.||.| |.|..:. :||.|          .||
+RL13_PSEPG         2 KTFTAKPETVKREWFVVDAAGQTLGRLATEIATRLRGKHKPEYTPHVDTG     51
+
+UBIE_PSEAE        95 EVVLADINASMLKVGRDKLLDK------GVSGNVSFVQADAEKL--PFPD    136
+                     :.::. |||..::|...|..||      |..|.:.  :.:.|||  ..|:
+RL13_PSEPG        52 DYIVV-INAEQVRVTGAKSSDKMYYSHSGFPGGIK--EINFEKLIAKAPE     98
+
+UBIE_PSEAE       137 NHFDCVTIAFGLRNVTHKDEAIRSMLRVLK    166
+                     .     .|...::.:..|:...|.|.|.||
+RL13_PSEPG        99 R-----VIETAVKGMLPKNPLGRDMYRKLK    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      20/81 (24.7%)
+# Similarity:    34/81 (42.0%)
+# Gaps:          17/81 (21.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        44 MNDLMSGGIH-----RLWK-RFTIELSGVRSGNRVLDIAGGTGDLTRQFS     87
+                     :.::|..|:|     |.|. |....:|..|.|..::       :|||. :
+RR2_ARATH         10 LEEMMRAGVHFGHGTRKWNPRMAPYISAKRKGIHII-------NLTRT-A     51
+
+UBIE_PSEAE        88 RLVGPTGEVVL--ADINASMLKVG-RDKLLD    115
+                     |.:....::|.  |......|.|| ::|..|
+RR2_ARATH         52 RFLSEACDLVFDAASRGKQFLIVGTKNKAAD     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    29/69 (42.0%)
+# Gaps:          18/69 (26.1%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        65 GVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVG--RDK    112
+                     |:|...:...|      |.|:|..:..|.||:        .||:|  .||
+Y1710_SYNP2      340 GIRRHTQTRSI------LQRRFETVATPAGEI--------QLKIGYRGDK    375
+
+UBIE_PSEAE       113 LLDKGVSGNVSFVQADAEK    131
+                     :.:  |......|:|.|::
+Y1710_SYNP2      376 IYN--VQPEYEDVKAIAQQ    392
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 182
+# Identity:      45/182 (24.7%)
+# Similarity:    78/182 (42.9%)
+# Gaps:          58/182 (31.9%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        16 FG--YQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIEL     63
+                     ||  .:.||:::..:||.|           :::::  ||..|.||....|
+WTPC_THEKO        96 FGLKVRKVPKAEIGRKVRE-----------LSEVL--GISHLLKRKPKTL    132
+
+UBIE_PSEAE        64 SGVRSGNRVLDIAGGTGDLTR-QFSRLVGPTGEVVLADINASMLKV-GRD    111
+                     ||              |::.| ..:|.:....|::|.|...:.|.| .|.
+WTPC_THEKO       133 SG--------------GEMQRVAIARALAVEPELLLLDEPFANLDVQTRG    168
+
+UBIE_PSEAE       112 KLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHK-DEAIRS    160
+                     :|:::        ::...::|.|...|            |||. :||:..
+WTPC_THEKO       169 RLINE--------MKRWRKELGFTALH------------VTHSFEEAVSL    198
+
+UBIE_PSEAE       161 MLRV-LKPGGRLL----VLE-FSKPSSNLLSK    186
+                     ..|| :...|||:    |.| ||:|:|..::|
+WTPC_THEKO       199 GDRVGVMLNGRLVQVGPVREVFSRPASEEVAK    230
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      70/320 (21.9%)
+# Similarity:    95/320 (29.7%)
+# Gaps:         134/320 (41.9%)
+# Score: 54.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        18 YQNVPESQKAKKVAE----VFHSVAAKYDLM-------------------     44
+                     :::|.|.|:|..|..    :|....|||:|.                   
+GRB7_RAT         160 HESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPPHTLFPEKMVSSCLDT    209
+
+UBIE_PSEAE        45 ------NDLMS----------------------GGIHRLWKRFTIELSGV     66
+                           .||:.                      |...:|||||...|.  
+GRB7_RAT         210 PTGISHEDLIQNFLNAGSFPEIQGFLQLRGSGRGSGRKLWKRFFCFLR--    257
+
+UBIE_PSEAE        67 RSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLDK    116
+                     |||  :.....||....|...         .:||||.|            
+GRB7_RAT         258 RSG--LYYSTKGTSKDPRHLQ---------YVADINES------------    284
+
+UBIE_PSEAE       117 GVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHK--------DEAI    158
+                         ||..|....:....|.:...||. ...||| .||        ||..
+GRB7_RAT         285 ----NVYVVTQGRKLYGIPTDFGFCVK-PNKLRN-GHKGLHIFCSEDEQS    328
+
+UBIE_PSEAE       159 R----SMLRVLKPG-----------GRLLVLEF--SKPSSNLLSKAYDAY    191
+                     |    |..|:.|.|           .|.|.|.:  |.|..::......|.
+GRB7_RAT         329 RTCWLSAFRLFKYGVQLYKNYQQAQSRHLRLSYLGSPPLRSVSDNTLVAM    378
+
+UBIE_PSEAE       192 SFSLLPLMGKLVTNDSESYRYLAESIRMHPDQETLKAMMVEA-GFDRVTY    240
+                     .||  ...|:::.|                .||.|.|...|| .:.:.|.
+GRB7_RAT         379 DFS--GHAGRVIEN----------------PQEALSAATEEAQAWRKKTN    410
+
+UBIE_PSEAE       241 HNMT-----GGI---VALHR    252
+                     |.::     .|:   .|:||
+GRB7_RAT         411 HRLSLPTPCSGLSLSAAIHR    430
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      16/48 (33.3%)
+# Similarity:    23/48 (47.9%)
+# Gaps:           9/48 (18.8%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        57 KRFTIELSGVRSGNRVLDI--AGGTGDLTRQFSRLVGPTGEVVLADIN    102
+                     :||.:    :|.|:| ||:  ..|...|..:....:  .||.||||.|
+PSD_RHOPS        181 ERFGL----IRFGSR-LDVYLPEGAKPLVSEGQTAI--AGETVLADFN    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 188
+# Identity:      47/188 (25.0%)
+# Similarity:    73/188 (38.8%)
+# Gaps:          60/188 (31.9%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       122 VSFVQ-ADA-----EKLPFPDNH---------FDCVTIAFGLRNVTHKD-    155
+                     ||::: :||     ..|..|:.|         ||....|:......|.. 
+PP156_ARATH      102 VSYIRTSDASLSLCNSLLHPNLHLSPPPSKALFDIALSAYLHEGKPHVAL    151
+
+UBIE_PSEAE       156 EAIRSMLRV-LKPG----GRLLVLEFSKPSSNLLSKAYDAY---------    191
+                     :..:.|:|: |||.    ..||:.....|||..:|.|.:.:         
+PP156_ARATH      152 QIFQKMIRLKLKPNLLTCNTLLIGLVRYPSSFSISSAREVFDDMVKIGVS    201
+
+UBIE_PSEAE       192 ----SFSLLP----LMGKLVTNDSESYRYLAESIRMHPDQET----LKAM    229
+                         :|::|.    |.|||........|.::| .:::||..|    ||||
+PP156_ARATH      202 LNVQTFNVLVNGYCLEGKLEDALGMLERMVSE-FKVNPDNVTYNTILKAM    250
+
+UBIE_PSEAE       230 ---------------MVEAGF--DRVTYHNMTGGIVAL    250
+                                    |.:.|.  :||||:|:..|...|
+PP156_ARATH      251 SKKGRLSDLKELLLDMKKNGLVPNRVTYNNLVYGYCKL    288
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      13/37 (35.1%)
+# Similarity:    17/37 (45.9%)
+# Gaps:           6/37 (16.2%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       118 VSGNVSFVQADA--EKLPFPDNHF----DCVTIAFGL    148
+                     |.|||..:.|.|  |:|....|:|    .|..:..||
+ADRB2_MESAU       48 VFGNVLVITAIAKFERLQTVTNYFITSLACADLVMGL     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       6/9 (66.7%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       122 VSFVQADAE    130
+                     |.||.||.|
+ID5B_ADEPA        28 VQFVNADRE     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      29/144 (20.1%)
+# Similarity:    56/144 (38.9%)
+# Gaps:          13/144 ( 9.0%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        23 ESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVRSGNRV     72
+                     |..:.:....||.:|.|..:.:.:.::..:.|||....:.....||....
+GPA7_CAEEL        97 EPDRVRDSQLVFATVHANKEELTEELAAAMQRLWHDPGVRECYRRSNEYQ    146
+
+UBIE_PSEAE        73 LDIAGGTGDLTRQF----SRLVGPTGEVVLADINASMLK-VGRDKLLD--    115
+                     :|      |..:.|    .||..|.......|:..:.:| .|..::|.  
+GPA7_CAEEL       147 ID------DSAKYFLDNLPRLSSPNYVPSEQDLLRTRIKTTGITEVLFEL    190
+
+UBIE_PSEAE       116 KGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIR    159
+                     ||::..|..|.....:.....:.||.|.....:.:::..|:.:|
+GPA7_CAEEL       191 KGLTFRVIDVGGQRSERKKWIHCFDNVNAIIFISSLSEYDQTLR    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    15/34 (44.1%)
+# Gaps:           6/34 (17.6%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        88 RLVGPTGEV------VLADINASMLKVGRDKLLD    115
+                     |...|.|.|      |.|....|.|::..|:::|
+IDI_ECO24        105 RATDPNGIVENEVCPVFAARTTSALQINDDEVMD    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 160
+# Identity:      37/160 (23.1%)
+# Similarity:    52/160 (32.5%)
+# Gaps:          71/160 (44.4%)
+# Score: 61.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        17 GYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGV     66
+                     |.:|...:|:.|           .|.|..|......|          .|:
+YHJA_ECOLI       330 GDENALTAQQKK-----------GYQLFKDNKCATCH----------GGI    358
+
+UBIE_PSEAE        67 RSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADI-NASMLKVGRDKLLD    115
+                     ..|.|..:..|    |.:.|:     .||:..||| ..::.|..||||  
+YHJA_ECOLI       359 ILGGRSFEPLG----LKKDFN-----FGEITAADIGRMNVTKEERDKL--    397
+
+UBIE_PSEAE       116 KGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVT------HK-----    154
+                                  .:|:|             |||||.      |:     
+YHJA_ECOLI       398 -------------RQKVP-------------GLRNVALTAPYFHRGDVPT    421
+
+UBIE_PSEAE       155 -DEAIRSMLR    163
+                      |.|::.|||
+YHJA_ECOLI       422 LDGAVKLMLR    431
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      20/91 (22.0%)
+# Similarity:    35/91 (38.5%)
+# Gaps:          21/91 (23.1%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       140 DCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYD    189
+                     ||..:...|::|...:......|.|..||       ..:|...|......
+RIMP_BURPS        43 DCEKVTRQLQHVLTVENIDYERLEVSSPG-------LDRPLKKLADFTRF     85
+
+UBIE_PSEAE       190 AYSFSLL----PLMGKLVTNDSESYRYLAESIRMHPDQETL    226
+                     |.|.:::    ||.|:      ::||.:..:    |:.||:
+RIMP_BURPS        86 AGSEAVITLKKPLDGR------KTYRGILHA----PNGETI    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:       8/48 (16.7%)
+# Similarity:    21/48 (43.8%)
+# Gaps:           7/48 (14.6%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        90 VGPTG-EVVLADINASMLKVGRDKLLDKGVSGNV------SFVQADAE    130
+                     :|.|| :.....:....:....::.:::.|.|.|      :.::|:.|
+RS28_OSTOS        14 IGRTGSQGQCTQVRVEFMDDNGNRTINRNVKGPVREGDILTLLEAERE     61
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:      28/127 (22.0%)
+# Similarity:    45/127 (35.4%)
+# Gaps:          52/127 (40.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        69 GNRVLDIAGGTGDLTRQFSRLVGPTGEV-VLADINASMLKVGRDKLLDKG    117
+                     |.:|::.      ||.....|..|...: .|:|::|..|:|      |.|
+HBAC_LITCT        60 GKKVMNA------LTDAVKHLDHPEASLSSLSDLHAFTLRV------DPG     97
+
+UBIE_PSEAE       118 ----VSGNVSFVQA--DAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSM    161
+                         :|.|:..|.|  .::||.:.                ||  :|:...
+HBAC_LITCT        98 NFALLSNNILVVVAVHHSDKLSYE----------------TH--QALDKF    129
+
+UBIE_PSEAE       162 LRVLKPGGRLLVLEFSKPSSNLLSKAY    188
+                     |.|:               |.||:..|
+HBAC_LITCT       130 LNVV---------------SGLLTSKY    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 292
+# Identity:      59/292 (20.2%)
+# Similarity:   104/292 (35.6%)
+# Gaps:          99/292 (33.9%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         2 NDPRKGADAEPTTHFGYQNVPESQKAKK--VAEVFHSVAAKYDLMNDLMS     49
+                     |.||         |.|.::....::.||  |:..||::           :
+RPOA_PRRSS      2215 NGPR---------HRGEEDDLRVERMKKHCVSLGFHNI-----------N   2244
+
+UBIE_PSEAE        50 GGIH-RLW------------KRFTIELS-GVRSGN-RVLDIAGGTGDLTR     84
+                     |.:: ::|            .|:|.:|: ..||.: |..|..|......:
+RPOA_PRRSS      2245 GKVYCKIWDKSTGDTFYTDDSRYTQDLAFQDRSADYRDRDYEGVQTAPQQ   2294
+
+UBIE_PSEAE        85 QFS-RLVGPTGEVVLADI--NASMLKVGRDKLLDK---------------    116
+                     .|. :...|.|.||:..|  |..::| |::.|:.|               
+RPOA_PRRSS      2295 GFDPKSETPIGTVVIGGITYNRYLIK-GKEVLVPKPDNCLEAAKLSLEQA   2343
+
+UBIE_PSEAE       117 --GVSGNVSFVQADAEKLP---------FPDNHFDCVTIAFGLRNVTHKD    155
+                       |:........|:.|||.         ..:...:|:..|.||.....  
+RPOA_PRRSS      2344 LAGMGQTCDLTAAEVEKLRRIISQLQGLTTEQALNCLLAASGLTRCGR--   2391
+
+UBIE_PSEAE       156 EAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTN    205
+                                  |.|:|.|     :.:....|.:.:|:|.||..| ||:
+RPOA_PRRSS      2392 -------------GGLVVTE-----TAVKIVKYHSRTFTLGPLDLK-VTS   2422
+
+UBIE_PSEAE       206 DSESYRYLAES-----------IRMHPDQETLKAMMVEAGFD    236
+                     ::|..:...:.           |.|.|...:|..::::.|.|
+RPOA_PRRSS      2423 EAEVKKSTEQGHAVVANLCSGVILMRPHPPSLVDVLLKPGLD   2464
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 256
+# Identity:     256/256 (100.0%)
+# Similarity:   256/256 (100.0%)
+# Gaps:           0/256 ( 0.0%)
+# Score: 1316.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE         1 MNDPRKGADAEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBIE_PSEAE         1 MNDPRKGADAEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSG     50
+
+UBIE_PSEAE        51 GIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLAD    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBIE_PSEAE        51 GIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLAD    100
+
+UBIE_PSEAE       101 INASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRN    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBIE_PSEAE       101 INASMLKVGRDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRN    150
+
+UBIE_PSEAE       151 VTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBIE_PSEAE       151 VTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMG    200
+
+UBIE_PSEAE       201 KLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRVTYHNMTGGIVAL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+UBIE_PSEAE       201 KLVTNDSESYRYLAESIRMHPDQETLKAMMVEAGFDRVTYHNMTGGIVAL    250
+
+UBIE_PSEAE       251 HRGIKP    256
+                     ||||||
+UBIE_PSEAE       251 HRGIKP    256
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 178
+# Identity:      36/178 (20.2%)
+# Similarity:    71/178 (39.9%)
+# Gaps:          55/178 (30.9%)
+# Score: 42.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        71 RVLDIAGG--TGDLTRQFSRLV-------GPTGEVVLADINASMLKVGRD    111
+                     |:.:..|.  .|.:|..|:.||       .|..:.::..::..:: :.|.
+FLII_AQUAE       294 RIAESCGAFKKGSITGIFTVLVEGDDISLDPIADSLMGVLDGHII-LSRK    342
+
+UBIE_PSEAE       112 KLLDKGVSGNVSFVQADAEKLP--FPDNHFDCVTIAFGLRNVTHKDEAIR    159
+                     :.: :|:...|..|::.:..:|  ..:.||   ..|...:.|..|.|.:.
+FLII_AQUAE       343 RAV-RGLFPAVDPVRSLSRLMPKLVSEEHF---MKANFFKEVLSKFEDVE    388
+
+UBIE_PSEAE       160 SMLRV-LKPGGRLLVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTN--D    206
+                     .::|: |..||           ||              ||:.|::.|  .
+FLII_AQUAE       389 ELVRIGLYKGG-----------SN--------------PLVDKVINNLEK    413
+
+UBIE_PSEAE       207 SESYRYLAESIRMHPD-----QETLKAM    229
+                     .||:      .:..|:     :|:|||:
+FLII_AQUAE       414 VESF------FKQKPEEKVNFEESLKAL    435
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      16/68 (23.5%)
+# Similarity:    29/68 (42.6%)
+# Gaps:           1/68 ( 1.5%)
+# Score: 43.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       175 EFSKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHPDQE    224
+                     || |...|..:.|...|:|:::.......|:....|.::...:..:...|
+MSS11_VANPO       30 EF-KSDLNEAANAQPKYNFNIMVSDAMAKTSKQLLYAHIYNYLLHNKHLE     78
+
+UBIE_PSEAE       225 TLKAMMVEAGFDRVTYHN    242
+                     |.|..:.||....:|.:|
+MSS11_VANPO       79 TAKQFLKEADVPLLTGNN     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      50/233 (21.5%)
+# Similarity:    79/233 (33.9%)
+# Gaps:          80/233 (34.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        49 SGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVL     98
+                     ||...|.|...|..||     ..||:.....|     |:|:..       
+SPB4_ASPFU         7 SGTSLRAWDAVTPALS-----EWVLEAMSSMG-----FTRMTP-------     39
+
+UBIE_PSEAE        99 ADINASMLKVGRDKLLDKGVSGN---VSFVQADAEKL-----PFPDNHFD    140
+                     ...:|..|.:....::.:.|:|:   :||:....|||     |...:|..
+SPB4_ASPFU        40 VQASAIPLFMAHKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVG     89
+
+UBIE_PSEAE       141 CVTI------------------AF-----GLRNVTHKDEAIR-----SML    162
+                     .:.|                  ||     ...|.:..|:|.|     |.|
+SPB4_ASPFU        90 AIIISPTRELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTL    139
+
+UBIE_PSEAE       163 RV---LKPGGRLLVLE----FSKPSSNLLSKAYDAYSFSLLPLMGKLVTN    205
+                     :|   |..||.....|    |.|.|.|:           |:...|:|:. 
+SPB4_ASPFU       140 KVVPQLLLGGSTTPAEDLSTFLKRSPNV-----------LVSTPGRLLE-    177
+
+UBIE_PSEAE       206 DSESYRYLAESIRMHPDQETLKAMMVEAGFDRV    238
+                            |..|..:|..|.:.:.::::.. ||:
+SPB4_ASPFU       178 -------LLSSPHVHCPQSSFEMLVLDEA-DRL    202
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 156
+# Identity:      42/156 (26.9%)
+# Similarity:    59/156 (37.8%)
+# Gaps:          40/156 (25.6%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE         2 NDPRKGADA---EPTTHFGY---------QNVPESQKAKKVAEVFHSVAA     39
+                     |.|.|...|   :||.::|.         :.||.|...|.|:    .:||
+ASSY_MYCTO       195 NAPTKDIYAYTEDPTINWGVPDEVIVGFERGVPVSVDGKPVS----MLAA    240
+
+UBIE_PSEAE        40 KYDLMNDLMSGGIHRLWKRFTIE--LSGVRS-------GNRVLDIAGGTG     80
+                     ..:|.....:.|:.||   ..:|  |.|::|       |..|| |...|.
+ASSY_MYCTO       241 IEELNRRAGAQGVGRL---DVVEDRLVGIKSREIYEAPGAMVL-ITAHTE    286
+
+UBIE_PSEAE        81 ----DLTRQFSRLVGPT----GEVVLADINASMLKVGRDKLLDK---GVS    119
+                         .|.|:..|....|    .|:|...:..|.||...:..:.|   .||
+ASSY_MYCTO       287 LEHVTLERELGRFKRQTDQRWAELVYDGLWYSPLKAALEAFVAKTQEHVS    336
+
+UBIE_PSEAE       120 GNVSFV    125
+                     |.|..|
+ASSY_MYCTO       337 GEVRLV    342
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      34/179 (19.0%)
+# Similarity:    61/179 (34.1%)
+# Gaps:          51/179 (28.5%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE         5 RKGAD---AEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMN-----D     46
+                     ::|:|   .:.||:..|..:|.|.:.:   .|::..:|:..|.|     .
+ECCB1_MYCS2       70 KQGSDQLLVDRTTNQLYVMLPGSNQLR---PVYNLTSARLVLGNASNPVA    116
+
+UBIE_PSEAE        47 LMSGGIHRLWKRFTIELSGVRSGN--------------------------     70
+                     :.|..::|:.|..:|.:.|.....                          
+ECCB1_MYCS2      117 VKSEELNRISKGQSIGIPGAPYATPTGTPASQWTLCDTVAKPDSSAPKVE    166
+
+UBIE_PSEAE        71 -----RVLDIAGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDK--L    113
+                          |.|.|..|.|.:......||...|      .|..:.:.||..  |
+ECCB1_MYCS2      167 TSILIRTLAIDSGVGPIRADQGMLVSYEG------ANWLITEGGRHSIDL    210
+
+UBIE_PSEAE       114 LDKGVSGNVSFVQADAEKLPFPDNHFDCV    142
+                     .|:.|:..|. :...|:..|.....|:.:
+ECCB1_MYCS2      211 ADRAVTSAVG-IPVTAKPTPISQGLFNAL    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 192
+# Identity:      42/192 (21.9%)
+# Similarity:    69/192 (35.9%)
+# Gaps:          51/192 (26.6%)
+# Score: 51.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        36 SVAAKYDLMNDLMSGGIHRLWKRFTI--ELSGVRSGN-----RVLDIAG-     77
+                     :|.|..:.:.|.|.|.     |:.|:  .|.|..||.     .:::..| 
+KCY4_ORYSJ         9 TVVAGQEEVTDNMLGD-----KKVTVVFVLGGPGSGKGTQCANIVEHFGF     53
+
+UBIE_PSEAE        78 ---GTGDLTRQFSRLVGPTG---------------EVVLADINASMLKVG    109
+                        ..|||.|...:.....|               ||.:..:..:|:|.|
+KCY4_ORYSJ        54 IHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIKSG    103
+
+UBIE_PSEAE       110 RDKLLDKGVSGNVSFVQADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIR    159
+                     .||.|..|      |.:.:..:..|  .:...:|.||.|.....::|..|
+KCY4_ORYSJ       104 NDKFLIDG------FPRNEENRAAF--ENVTKITPAFVLFFDCSEEEMER    145
+
+UBIE_PSEAE       160 SMLRVLKPGGRLLVLEFSKPSSNL--LSKAYDAYSFSLLPLM    199
+                               |||.....:...|:  :.|.:..:..|.||::
+KCY4_ORYSJ       146 ----------RLLGRNQGRVDDNIETIRKRFKVFVESSLPVI    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      46/213 (21.6%)
+# Similarity:    73/213 (34.3%)
+# Gaps:          56/213 (26.3%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE         6 KGADAEPTTHFGYQNVPESQKAKKVAEVFHSVAAKYDLMNDLMSGGIHRL     55
+                     ||..|     :.:..:..:|..:.:...||.|.|..|..:..:..     
+HCP_TRIV2        155 KGVAA-----YAFHALELNQHDESLYIFFHEVLANLDAQDKSLQD-----    194
+
+UBIE_PSEAE        56 WKRFTIELSGVR-SGNRVLDIAGGTGDLTRQFSRLVGPTGEVVLADINAS    104
+                     |...|:::..:. ....:|| ||.|..........| |.|..|    ..:
+HCP_TRIV2        195 WLDLTLKVGQMNLKAMELLD-AGNTETFGHPTPTTV-PLGHTV----GKA    238
+
+UBIE_PSEAE       105 MLKVGRDKLLDKGV----SGNVSFVQADAEKLP---FPD---------NH    138
+                     :|..|.|.|..|.|    ||....|....|.||   :|.         .|
+HCP_TRIV2        239 ILVSGHDLLALKAVLEQTSGTGIKVYTHGELLPAHGYPKLKQTHPHLYGH    288
+
+UBIE_PSEAE       139 FDCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLEFSKPSSNLLSKAY    188
+                     :     ....:|.||:.|..        ||..::       ::|.|...:
+HCP_TRIV2        289 Y-----GTAWQNQTHEFERF--------PGAIVM-------TTNCLMPPH    318
+
+UBIE_PSEAE       189 DAYS---FSLLPL    198
+                     :.|.   |:|.|:
+HCP_TRIV2        319 ETYKDKVFTLGPV    331
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      20/80 (25.0%)
+# Similarity:    29/80 (36.2%)
+# Gaps:          16/80 (20.0%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE       147 GLRNVTHKDEAIRSMLRVLK--PGGRLLVLEFSKPSSNLLSKAYDAYSFS    194
+                     |:..||.||......|..|:  |...||:......:|.|.....:..|  
+UBX7_YEAST       262 GIPRVTFKDSDELKTLETLELTPRSALLLKPLETQNSGLSVTGMEGPS--    309
+
+UBIE_PSEAE       195 LLPLMGKLVTNDSESYRYLAESIRMHPDQE    224
+                        |:|:|         |...|...|.|::
+UBX7_YEAST       310 ---LLGRL---------YKGFSTWWHNDKD    327
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 132
+# Identity:      28/132 (21.2%)
+# Similarity:    50/132 (37.9%)
+# Gaps:          34/132 (25.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+UBIE_PSEAE        60 TIELSGVRSGNRVLDIAGGTGDLT------RQFSRLV---GPTGEVVLA-     99
+                     ::.:.||.  :....|||...|:|      :|.:..:   ||....|.| 
+RPOA_ACICJ        68 SVRIDGVL--HEFSSIAGVREDVTDIVLNIKQIAVRMHGDGPKRMTVSAT    115
+
+UBIE_PSEAE       100 ---DINASMLKVGRD----------KLLDKGVSGNVSF-VQADAEKLPFP    135
+                        ::.|.|::.|.|          ..||.|.:..:.| |::....:|..
+RPOA_ACICJ       116 GPCEVTAGMIQTGHDIEVMNPELVICTLDDGATLGMEFTVESGRGYVPAA    165
+
+UBIE_PSEAE       136 DNHFDCVTIAF--------GLRNVTHKDEAIR    159
+                     .|..:...|..        .:|.|:::.|..|
+RPOA_ACICJ       166 ANRPEDAPIGLIPVDSIYSPVRRVSYRVEPTR    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    23/56 (41.1%)
+# Gaps:          14/56 (25.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE       172 LVLEFSKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSESYRYLAESIRMHP    221
+                     |:..||.||...:|      .|::..|..:|:..|.:.        |:..
+YXAD_BACSU        79 LIYRFSDPSDGRVS------LFTITKLGKQLLKADQQK--------RLER    114
+
+UBIE_PSEAE       222 DQETLK    227
+                     .::.||
+YXAD_BACSU       115 YEQMLK    120
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: UBIE_PSEAE
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 268
+# Identity:      51/268 (19.0%)
+# Similarity:    91/268 (34.0%)
+# Gaps:          98/268 (36.6%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+UBIE_PSEAE        26 KAKKVAEVFHSVAAKYDLMNDLMSGGIHRLWKRFTIELSGVRSGNRVLDI     75
+                     ||||..::...|.:...|...:|.|||            ..:|.::    
+FADB_SHESR       302 KAKKAGKLAKDVKSAAVLGAGIMGGGI------------AYQSASK----    335
+
+UBIE_PSEAE        76 AGGTGDLTRQFSRLVGPTGEVVLADINASMLKVGRDKLLDKGVSGNVSFV    125
+                       ||               .:|:.||....|.:|..:.. |.:|..|:..
+FADB_SHESR       336 --GT---------------PIVMKDIAQPALDLGLGEAA-KLLSAQVARG    367
+
+UBIE_PSEAE       126 QADAEKLPFPDNHFDCVTIAFGLRNVTHKDEAIRSMLRVLKPGGRLLVLE    175
+                     ::..||:....|:   :|.|.....|.|.|..:.:            |:|
+FADB_SHESR       368 RSTPEKMAKVLNN---ITPALDYAPVNHADVVVEA------------VVE    402
+
+UBIE_PSEAE       176 FSKPSSNLLSKAYDAYSFSLLPLMGKLVTNDSE-SYRYLAESIRM-----    219
+                     ..|..:.:|::.....|...:     :.:|.|. |...||:|::.     
+FADB_SHESR       403 HPKVKAQVLAEVEQYVSEDAI-----IASNTSTISINLLAKSMKKPERFC    447
+
+UBIE_PSEAE       220 --------------------HPDQETLKAMMVEA--------------GF    235
+                                         |..:||:.:::..|              ||
+FADB_SHESR       448 GMHFFNPVHKMPLVEVIRGEHSSEETIASVVAYASKMGKTPIVVNDCPGF    497
+
+UBIE_PSEAE       236 --DRVTYHNMTG--GIVA    249
+                       :||.:....|  |::|
+FADB_SHESR       498 FVNRVLFPYFAGFNGLLA    515
+
+
+#---------------------------------------
+#---------------------------------------

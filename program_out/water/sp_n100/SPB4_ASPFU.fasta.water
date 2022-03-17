@@ -1,0 +1,3872 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:45
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/SPB4_ASPFU.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/SPB4_ASPFU.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/SPB4_ASPFU.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 360
+# Identity:      80/360 (22.2%)
+# Similarity:   129/360 (35.8%)
+# Gaps:          63/360 (17.5%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       236 DQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTY-LTTPPSHKFAAL    284
+                     ||::.|....|::....|..|          .::..| ||...|.:.  :
+PUR7_VIBVU         5 DQVLAVNDDLPIRTDKPVHSG----------KVRSVYWLTEEDSARL--I     42
+
+SPB4_ASPFU       285 KRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQA    334
+                     |....:|.|.....|..:|     |.:||.       |.:   .||:|..
+PUR7_VIBVU        43 KEKGYNVAPDAPLAIMVIS-----DRISAF-------DCI---WHGEHGL     77
+
+SPB4_ASPFU       335 N-VRQKN--FNRFINSHDPAILLTTDVA-ARGLDIPSVDL-VVQIDPPSD    379
+                     | |..|.  .|. |::|...:.....:| :..||||...: :||...|..
+PUR7_VIBVU        78 NGVPGKGAALNA-ISNHWFGLFKENGLADSHILDIPHPFVWIVQKAKPVK    126
+
+SPB4_ASPFU       380 PKSFIHR-----CGRAGRAGRRGLSVVLLHPGREEDYV--SFLEVRKT--    420
+                     .::...:     ..||...|.|....:.|..|.|:|..  ..|....|  
+PUR7_VIBVU       127 IEAICRKYITGSMWRAYEKGEREFCGIQLPEGLEKDKALPDLLMTPSTKG    176
+
+SPB4_ASPFU       421 -----PVVPFSPSISFSDADAAAATATARKAVLADRALHDRGQKAFVSWL    465
+                          |.||.:..::.:..:.|...|....:...|.||:::..|.....:
+PUR7_VIBVU       177 ILKGIPGVPEADDVNITRQNIADNFAAFNFSSADDIALYEKLLKDGFGVI    226
+
+SPB4_ASPFU       466 RSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMPELKNFTGDKTLGMSL    515
+                      |.:......||..:..::..:..|.|..||..|.|:      .|...|.
+PUR7_VIBVU       227 -SEALANVGQIFVDTKFEFGYVTDAAGNEKLIYMDEV------GTPDSSR    269
+
+SPB4_ASPFU       516 DWDNYAYK-----DKQREKRRKELLQEAAESGATQSTSNKRRATESVAWS    560
+                     .||...|:     :..:|..|:.||....:   .....||.|..|..|.:
+PUR7_VIBVU       270 IWDAQEYQAGKIVENSKEGFRQFLLNYFPD---PDILLNKDRMPEREALA    316
+
+SPB4_ASPFU       561 QQAESKNKKL    570
+                     :..|...:.|
+PUR7_VIBVU       317 RDNELPEEAL    326
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      15/50 (30.0%)
+# Similarity:    18/50 (36.0%)
+# Gaps:          11/50 (22.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       404 HPGREEDYV--SFLEVRKTPVV--PFSPSISFSDADAAAATATARKAVLA    449
+                     |..|.||..  ..||:...||.  |.       :.|.|.....:|.|.||
+Y075_NITWN         5 HSDRPEDTADPKLLEILVCPVTKGPL-------ELDGARRELISRSAKLA     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:      36/195 (18.5%)
+# Similarity:    63/195 (32.3%)
+# Gaps:          68/195 (34.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        83 IKKHHVGAIIISPT-------RELASQIY---NVLSSLLAFHPPSAAAIN    122
+                     ::|..:.|:...|.       |:|  |:|   |..::|...|........
+Y3584_PSEAB       76 LRKDEIMAVYTPPEGYEDGDGRDL--QVYLDQNYTNALGPLHEDYRERAI    123
+
+SPB4_ASPFU       123 PSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVLVSTP    172
+                     |.|..:..:|                        |..|:....::.:|..
+Y3584_PSEAB      124 PMEGFEGEQP------------------------LHIFVAAGVDLAISKL    149
+
+SPB4_ASPFU       173 GRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRLPKQR    222
+                     ||..|          ...:::..|.|..| :|:|...||           
+Y3584_PSEAB      150 GRFTE----------NDQYDIEQLIECGR-VDVGQFVTL-----------    177
+
+SPB4_ASPFU       223 RTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPAS    267
+                             .:||:|  ..||.|:.:...:|:.....::|.|...|
+Y3584_PSEAB      178 --------ATEAID--YAVGNRSAMLGCLKLVIAKYLEDGRDATS    212
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      13/48 (27.1%)
+# Similarity:    20/48 (41.7%)
+# Gaps:          11/48 (22.9%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       174 RLLELLSSPHVHC----PQSSFEMLVLDEAD-------RLLDLGFKET    210
+                     |.|...::|...|    .:.:..|.|..:||       ||..|||:.:
+BPT_HAHCH          5 RTLVFYATPEHPCSYLDDRLATTMFVDPKADINLDLYTRLSQLGFRRS     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 81
+# Identity:      21/81 (25.9%)
+# Similarity:    34/81 (42.0%)
+# Gaps:          19/81 (23.5%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       354 LTTDVAARGLDIPSV----DLVVQ----IDPPSDPKSFIHRCGRAGRAGR    395
+                     |.||.||...:.|.|    |.|..    :||...|.:...:..|.  ||.
+KDPC_CAUVN        99 LKTDAAALRAENPGVAIPADAVTTSGSGLDPDISPANARFQAPRV--AGA    146
+
+SPB4_ASPFU       396 RGLSVVLLHPGREEDYVSFLEVR-KTPVVPF    425
+                     ||:.        |:|..:.::.: :.|::.|
+KDPC_CAUVN       147 RGVP--------EKDVTALIDAQVQQPLLGF    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 135
+# Identity:      35/135 (25.9%)
+# Similarity:    59/135 (43.7%)
+# Gaps:          25/135 (18.5%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       465 LRSYSKHQASSIFRVSDLDWEALGKAW----GLLKLPKMPELKNFTGDKT    510
+                     ||:|:.......|...:.|: .:|..:    |...||. |.:.:..|:.|
+LPXH_XYLFM        63 LRTYADAGTPLYFMPGNRDF-LVGADYAARAGFRILPD-PCVVDLYGEPT    110
+
+SPB4_ASPFU       511 L---GMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRATESV    557
+                     |   |..|..|:.||:..:.:.|..|.:.:.    .||:.|.:      :
+LPXH_XYLFM       111 LLLHGDLLCTDDIAYQAFRAQTRDPEFIAQF----LTQTLSAR------L    150
+
+SPB4_ASPFU       558 AWSQQAESKNKKLKRREQKKSKQE--KARWEKMTE    590
+                     |:||||    :......|...|||  ..::||:|:
+LPXH_XYLFM       151 AFSQQA----RLASHAHQSGLKQENDSTQFEKITD    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      15/77 (19.5%)
+# Similarity:    31/77 (40.3%)
+# Gaps:          19/77 (24.7%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        17 VTPALSEWVLEAMSSMGFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKTL     66
+                     |:|.|:: ....:|.:|...:..:..    ||....:.::..:.|||.| 
+YERI_SCHPO         5 VSPGLAK-ACTGLSLIGIVFLLVLSY----LFSIEAETLMHDLVGSGLT-     48
+
+SPB4_ASPFU        67 SFLIPVVEKLLRLEEPIKKHHVGAIII     93
+                                  .:.:.|..:||::|
+YERI_SCHPO        49 -------------GKQVAKTCLGAVVI     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 495
+# Identity:      92/495 (18.6%)
+# Similarity:   158/495 (31.9%)
+# Gaps:         170/495 (34.3%)
+# Score: 62.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        56 VEAVTG-SGKTLSFLIPVVEKLL-------RLE-EPI--------KKHHV     88
+                     :.|:.| :|...|.|:.:::.:|       ||: .|:        :|..:
+RBSA_RUEST        34 IHAIAGENGAGKSTLMNIIDGILQPDSGEIRLDGTPVEIPSPAAAQKMGI     83
+
+SPB4_ASPFU        89 G----AIIISPTRELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKF    134
+                     |    .|.:.|...:|..|:             .||.|.|.         
+RBSA_RUEST        84 GFVHQEIALCPDVSVAENIF-------------MAATNSSR---------    111
+
+SPB4_ASPFU       135 PSSTLKVVPQLLLGGSTTPAEDLSTFLKRS---PNVLVS----TPGRLLE    177
+                              ..|:......|:....|.:.|   |:|||.    :..:|:|
+RBSA_RUEST       112 ---------SFLMDYKGIEAKAREVFAQLSSIDPSVLVRDLSISNQQLVE    152
+
+SPB4_ASPFU       178 LLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRLPKQ------    221
+                     :..:..:.|     .:|:|||....|.....:.|..|:|||..|      
+RBSA_RUEST       153 IAKALTLDC-----RVLILDEPTAALTEAEAQVLFKIMRRLADQGISLIY    197
+
+SPB4_ASPFU       222 ------------RRTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGV    259
+                                 .|..:|..........:.::...:.|:.||..:.|...
+RBSA_RUEST       198 ISHRMVEIFDNCDRVSVFRDGRYVTTQDVAKITPADVVRAMVGREIGDLY    247
+
+SPB4_ASPFU       260 DDKRTPASLQMTYLTTPPS--------------HK-----FAAL-----K    285
+                     .:|:.|.:...|.:....:              ||     ||.|     .
+RBSA_RUEST       248 PEKQRPEACSTTEVLRVENLCEAERFHDVSFSLHKGEILGFAGLIGAGRS    297
+
+SPB4_ASPFU       286 RIVSSV---------------QPTPLKTIFFVSTCSGVDYLSAILPLLLG    320
+                     .|...|               :|..|:. :..|..:|:.|||....   |
+RBSA_RUEST       298 EIAKGVCALEGQVTGRLWLNGEPLALRD-YQDSIDAGIVYLSEDRK---G    343
+
+SPB4_ASPFU       321 DDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPSVDL    370
+                     |...|                :..|.|:..|:.:....:|.||..|..::
+RBSA_RUEST       344 DGVFL----------------DMSIASNVSALKVEQVASALGLIQPGREI    377
+
+SPB4_ASPFU       371 VVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLHPGREEDYVSFL-----    415
+                                      .:|.|.||:    :.|..|..:|.||.|     
+RBSA_RUEST       378 -----------------EQADRLGRK----LNLKCGTLQDPVSSLSGGNQ    406
+
+SPB4_ASPFU       416 -EVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALHDRGQK    459
+                      :|....::..:|.:.|.|.........|:..:.  |.|.|..::
+RBSA_RUEST       407 QKVALAKMLSVNPRLIFLDEPTRGVDVGAKAEIY--RILRDLAEE    449
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     5/11 (45.5%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       387 CGRAGRAGRRG    397
+                     ||...|.|..|
+KR195_HUMAN       29 CGSFRRLGYGG     39
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 216
+# Identity:      43/216 (19.9%)
+# Similarity:    66/216 (30.6%)
+# Gaps:          75/216 (34.7%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        33 GFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKTLSFLIPV-----VEKLL     77
+                     |.|...|:.:|      .|..:|.|...|.....||...|     ...|:
+UPPP_CORDI        22 GLTEFLPISSS------GHLRIVSELFWGKDAGASFTAVVQLGTEAAVLV     65
+
+SPB4_ASPFU        78 RLEEPIKK------------------HHVGAIIISPT-------------     96
+                     ...:.|.|                  :.:|.::|..|             
+UPPP_CORDI        66 YFAKDIAKILTGWFRGLFDKKQRGFDYRMGWMVIVGTLPVSIVGLLAKDI    115
+
+SPB4_ASPFU        97 -RELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTLK-----    140
+                      |:....::...|.|:||.....||    |...:.|..|...|::     
+UPPP_CORDI       116 IRDNLRNMWITASVLIAFSFVFIAA----EKWGSKRRSFDQLTMRDAVIM    161
+
+SPB4_ASPFU       141 -------VVPQLLLGGSTTPA-------EDLST---FLKRSPNVLVSTPG    173
+                            ::|.:...|.|..|       .:::|   ||...|.||.|   
+UPPP_CORDI       162 GCAQCLALIPGVSRSGGTVSAGLFVGLDREVATRFSFLLAIPAVLAS---    208
+
+SPB4_ASPFU       174 RLLELLSSPHVHCPQS    189
+                        .|.|.|....|.:
+UPPP_CORDI       209 ---GLFSLPDAFAPDA    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      23/86 (26.7%)
+# Similarity:    35/86 (40.7%)
+# Gaps:          15/86 (17.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       484 WEALGKAWGLLKLPKMPEL-KNFTGDKTLGMSLDWDNYAYKDKQ-RE-KR    530
+                     :|.|.:....|...:.||: |..|...:||...:..:|.|..|: || .|
+GREB_ECO57        11 YEKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLREIDR     60
+
+SPB4_ASPFU       531 RKELLQEAAESGATQSTSNKRRATESVAWSQQAESK    566
+                     |...|.:..|:            .:.|.:|.|.|.|
+GREB_ECO57        61 RVRYLTKCMEN------------LKIVDYSPQQEGK     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:      24/124 (19.4%)
+# Similarity:    43/124 (34.7%)
+# Gaps:          29/124 (23.4%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       143 PQLLLGGSTT--PAEDLSTFLKRSPNVLVSTPGRLLELLSSPH-----VH    185
+                     |...:||.:.  |.:::...:..:|::|.:...|.|..:.:|.     |.
+TGT_LEPCP        218 PGYAVGGVSVGEPKDEMLRIMNHTPHLLPADKPRYLMGVGTPEDLVDGVA    267
+
+SPB4_ASPFU       186 CPQSSFEMLVLDE-------ADRLLDLGFKETLQNILRR-----------    217
+                     |....|:.::...       ..|..||..:........|           
+TGT_LEPCP        268 CGVDMFDCVMPTRNARNGHLFTRYGDLKIRNARHKADERPLDETCSCQAC    317
+
+SPB4_ASPFU       218 ----LPKQRRTGLFSASVSEAVDQ    237
+                         ||..|.||.||.:....:|:
+TGT_LEPCP        318 KGSTLPDGRVTGGFSRAYLHHLDR    341
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 347
+# Identity:      78/347 (22.5%)
+# Similarity:   127/347 (36.6%)
+# Gaps:          81/347 (23.3%)
+# Score: 81.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        25 VLEAMSSMGFTRMTPVQ--ASAIPLFMAHKDVVVEAVTGSGKTLSFLIPV     72
+                     :|...||:|    ||.:  .:.:.:..:..::...|....||.:.:..|.
+CBPQ_HUMAN       132 ILGLGSSIG----TPPEGITAEVLVVTSFDELQRRASEARGKIVVYNQPY    177
+
+SPB4_ASPFU        73 VEKLLRLEEPIKKHHVGAIIISPTRELASQIYNVLS-SLLAFHP------    115
+                     :    .....::....||:..:....|||.|.:|.| |:.:.|.      
+CBPQ_HUMAN       178 I----NYSRTVQYRTQGAVEAAKVGALASLIRSVASFSIYSPHTGIQEYQ    223
+
+SPB4_ASPFU       116 ------PSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLST    159
+                           |:|..   :.:|.....:..|..:|:|.||.:|..|.|..|   
+CBPQ_HUMAN       224 DGVPKIPTACI---TVEDAEMMSRMASHGIKIVIQLKMGAKTYPDTD---    267
+
+SPB4_ASPFU       160 FLKRSPNVLVSTPGRLLE---LLSSPHVHC-------------PQSSFEM    193
+                         |.|.:....|....   :|.|.|:..             ...|:|.
+CBPQ_HUMAN       268 ----SFNTVAEITGSKYPEQVVLVSGHLDSWDVGQGAMDDGGGAFISWEA    313
+
+SPB4_ASPFU       194 LVLDEADRLLDLGF--KETLQNILRRLPKQRRTGLFSASVSEAVDQIVRV    241
+                     |.|     :.|||.  |.||:.:|....:|...|.|.      ..|:.:|
+CBPQ_HUMAN       314 LSL-----IKDLGLRPKRTLRLVLWTAEEQGGVGAFQ------YYQLHKV    352
+
+SPB4_ASPFU       242 GLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKF-AALKRIVSS    290
+                     .:.|...||....|      ...|..||.|     .|.|. |.::.::|.
+CBPQ_HUMAN       353 NISNYSLVMESDAG------TFLPTGLQFT-----GSEKARAIMEEVMSL    391
+
+SPB4_ASPFU       291 VQPTPLKTIFFVSTCSGVD---YLSAILP--LLLGDDFLLIPLHGKH    332
+                     :||..:..:  :|...|.|   ::.|.:|  .||.|.:.....|..|
+CBPQ_HUMAN       392 LQPLNITQV--LSHGEGTDINFWIQAGVPGASLLDDLYKYFFFHHSH    436
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 219
+# Identity:      43/219 (19.6%)
+# Similarity:    75/219 (34.2%)
+# Gaps:          69/219 (31.5%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       238 IVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRI    287
+                     |..:|:|....:.|       |..|:.|..|   ...|..:|.|...|  
+PSA6_SOYBN        37 ITSIGVRGKDSICV-------VTHKKVPDKL---LDNTSVTHLFPITK--     74
+
+SPB4_ASPFU       288 VSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVR    337
+                                           ||..:...:..|...|:     .||...
+PSA6_SOYBN        75 ----------------------YLGLLATGMTADARTLV-----QQARNE     97
+
+SPB4_ASPFU       338 QKNFNRFINSHDPAILLTTDVAARGLDIPS--------------VDLVVQ    373
+                     ...| ||...::    :..||.|:.:...|              |.:|:.
+PSA6_SOYBN        98 AAEF-RFTYGYE----MPVDVLAKWIADKSQVYTQHAYMRPLGVVAMVLG    142
+
+SPB4_ASPFU       374 IDPPSDPKSFIHRCGRAGR-AGRRGLSVVLLHPGREEDYVSFLEVRKTPV    422
+                     ||....|:  :::|..||. .|.:..|..|    ::::.::|||.:    
+PSA6_SOYBN       143 IDDEYGPQ--LYKCDPAGHYFGHKATSAGL----KDQEAINFLEKK----    182
+
+SPB4_ASPFU       423 VPFSPSISFSDADAAAATA    441
+                     :...||.::.:....|.:|
+PSA6_SOYBN       183 MKNDPSFTYEETVQTAISA    201
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 330
+# Identity:      68/330 (20.6%)
+# Similarity:   113/330 (34.2%)
+# Gaps:         107/330 (32.4%)
+# Score: 60.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       340 NFNRFINSHD-----PAILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFI    384
+                     ||:..:|..:     |.:|  ||        |..|   |..||||..   
+SCL34_ARATH        4 NFSESLNGFEYFDGNPNLL--TD--------PMED---QYPPPSDTL---     37
+
+SPB4_ASPFU       385 HRCGRAGRAGRRGLSVVLLHPG----REEDYVSFLEVRKT-----PVVPF    425
+                               .:.:|.:|:...    ::..:...|.:|||     .|:..
+SCL34_ARATH       38 ----------LKYVSEILMEESNGDYKQSMFYDSLALRKTEEMLQQVITD     77
+
+SPB4_ASPFU       426 SPSISFSDADAAAATATARKAVLADRALHDRGQKAFVSWLRSYSKHQASS    475
+                     |.:.|||.||:....:......:        .:.|:.:..:..::....|
+SCL34_ARATH       78 SQNQSFSPADSLITNSWDASGSI--------DESAYSADPQPVNEIMVKS    119
+
+SPB4_ASPFU       476 IFRVSDLDWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDWDNYAYKDK    525
+                     :|  ||        |...|:..|..|    ...|.|..|..|  ....|.
+SCL34_ARATH      120 MF--SD--------AESALQFKKGVE----EASKFLPNSDQW--VINLDI    153
+
+SPB4_ASPFU       526 QREKRRKELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKRREQ    575
+                     :|.:||..:.:|                   :...|....||.:....|.
+SCL34_ARATH      154 ERSERRDSVKEE-------------------MGLDQLRVKKNHERDFEEV    184
+
+SPB4_ASPFU       576 KKSKQEKARWE--KMT-----------EEEKQKVLETE-------KMVEE    605
+                     :.|||..:..|  |:|           |.:.|.:|::|       |.:.|
+SCL34_ARATH      185 RSSKQFASNVEDSKVTDMFDKVLLLDGECDPQTLLDSEIQAIRSSKNIGE    234
+
+SPB4_ASPFU       606 LRKKNEEERR----LRRAVAKAAGAKADGD    631
+                     ..||.::::.    .|..:...|.|.:.||
+SCL34_ARATH      235 KGKKKKKKKSQVVDFRTLLTHCAQAISTGD    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 98
+# Identity:      23/98 (23.5%)
+# Similarity:    39/98 (39.8%)
+# Gaps:          18/98 (18.4%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       159 TFLKRSPN-VLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGF    207
+                     ||:...|: |..|..|.:::...       |..|.::.:.......|| .
+NDKA_CANLF         7 TFIAIKPDGVQRSLVGEIIKRFE-------QKGFRLIAMKLIQASEDL-L     48
+
+SPB4_ASPFU       208 KETLQNILRR-----LPKQRRTGLFSASVSEAVDQI----VRVGLRNP    246
+                     ||...::..|     |.|..::|...|.|.|.::.:    |.:|..||
+NDKA_CANLF        49 KEHYIDLKDRPFFAGLVKYMQSGPVVAMVWEGLNVVKTGRVMLGETNP     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 305
+# Identity:      50/305 (16.4%)
+# Similarity:    92/305 (30.2%)
+# Gaps:         112/305 (36.7%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        20 ALSEWVLEAMSSMGFTRMTP-----VQASAIPLFMAHKDVVVEAVTGSGK     64
+                     |.|.|:|:.:..:...|..|     .::..:.||:.::.......|.:.|
+RS4_CAEEL         13 APSHWMLDKLGGVFAVRPNPGPHKLRESLPLSLFLRNRLKYALNYTEAKK     62
+
+SPB4_ASPFU        65 TLSFLIPVVEKLLRLEEPIKKHH------VGAIIISPTRELASQIYNVLS    108
+                     .|:      ::::|::..::..|      :..:.|..|.|....:|:...
+RS4_CAEEL         63 ILT------QRVVRVDGKVRTCHKFPTGFMDVVAIERTNEYFRMLYDTKG    106
+
+SPB4_ASPFU       109 SLLAFHPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLS    158
+                     ..:.....:|.|     |....:.|...:..|.||               
+RS4_CAEEL        107 RYVVHRIQAAEA-----DFKLCKVKSVRTVNKGVP---------------    136
+
+SPB4_ASPFU       159 TFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFK    208
+                             ||.:|.||.:. ...|||                        
+RS4_CAEEL        137 --------VLTTTDGRTIR-YPDPHV------------------------    153
+
+SPB4_ASPFU       209 ETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKV----MVKVK    254
+                                |...|.:|:.|..:..|.         ||.    :..|.
+RS4_CAEEL        154 -----------KVNDTIVFNISTQKITDS---------VKFEPGNLAYVT    183
+
+SPB4_ASPFU       255 GGSGV-------DDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLK    297
+                     ||..|       ..:|.|.:..:.::.....|.||           |.:.
+RS4_CAEEL        184 GGRNVGRVGIIGHRERLPGASDIIHIKDSAGHSFA-----------TRIS    222
+
+SPB4_ASPFU       298 TIFFV    302
+                     .:|.:
+RS4_CAEEL        223 NVFVI    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 176
+# Identity:      36/176 (20.5%)
+# Similarity:    70/176 (39.8%)
+# Gaps:          33/176 (18.8%)
+# Score: 91.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       470 KHQASSIFRVSDLDWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDW--    517
+                     ::.|....|.......|.|..|     |...:|:....::.     :|  
+G45IP_CHLAE       55 RYAAKQFARYGAASGVAPGSLW-----PSPEQLRELEAEER-----EWYP     94
+
+SPB4_ASPFU       518 ------DNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRATESVAWSQ    561
+                           ::...|....|::|:|..|..||..|       :.....|.|.|
+G45IP_CHLAE       95 SLATMQESLRVKHLAEEQKRREREQHIAECMA-------KMPQMIVNWQQ    137
+
+SPB4_ASPFU       562 QAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETEKMVEELRKK--    609
+                     |...:.:|.:..::::::.:....|.:..:...|....::::::|.||  
+G45IP_CHLAE      138 QQRERWEKAQADKERRARLQAEAQELLGYQVNPKSARFQELLQDLEKKER    187
+
+SPB4_ASPFU       610 ---NEEERRLR---RAVAKAAGAKAD    629
+                        .||::|.:   ||.|.||.|..|
+G45IP_CHLAE      188 KRLKEEKQRQKQEARAAALAAAAAQD    213
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      10/40 (25.0%)
+# Similarity:    20/40 (50.0%)
+# Gaps:           4/40 (10.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        64 KTLSFLIPVVEKLLRLEEPIKKHHVGAIII----SPTREL     99
+                     ||.::|:..:.::......|||...|.::.    ||.|::
+DAPEL_OCEIH       24 KTQAYLLERINEIATENVEIKKWSTGILVYVHGKSPARKI     63
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      14/43 (32.6%)
+# Similarity:    21/43 (48.8%)
+# Gaps:           1/43 ( 2.3%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        33 GFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKTLSFLIPVVEK     75
+                     ||.| |..||.|:...:|.|.:.:.||.......:.|:..:||
+KAD_METRJ         85 GFPR-TVAQAEALGEMLASKGLSLSAVVELKVDENALVGRIEK    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      24/91 (26.4%)
+# Similarity:    33/91 (36.3%)
+# Gaps:          22/91 (24.2%)
+# Score: 52.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       358 VAARGLDIPSVDLVVQIDPPSDPKSFIH--RCGRAGRAGRRGLSVVLLHP    405
+                     |...|:.:|.|.:...:.|.:..|:...  :.|..|..|..|:....|.|
+ELN_BOVIN        377 VGVPGVGVPGVGVPGALSPAATAKAAAKAAKFGARGAVGIGGIPTFGLGP    426
+
+SPB4_ASPFU       406 GREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKA    446
+                     |      .|            |.|  .||.||.|.|.|:.|
+ELN_BOVIN        427 G------GF------------PGI--GDAAAAPAAAAAKAA    447
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 155
+# Identity:      29/155 (18.7%)
+# Similarity:    47/155 (30.3%)
+# Gaps:          60/155 (38.7%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       290 SVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHG---------    330
+                     |:||:.::.....||..|:.::....||.:......:...|         
+ASIC2_MOUSE       11 SLQPSSIQIFANTSTLHGIRHIFVYGPLTIRRVLWAVAFVGSLGLLLVES     60
+
+SPB4_ASPFU       331 ----------KHQANVRQK-------------NFNRFINSHDPAILLTTD    357
+                               :|...|.:.             |.|.|..|.    |.|.|
+ASIC2_MOUSE       61 SERVSYYFSYQHVTKVDEVVAQSLVFPAVTLCNLNGFRFSR----LTTND    106
+
+SPB4_ASPFU       358 VAARGLDIPSVDLVVQIDPP--SDPK----------------------SF    383
+                     :...|..:..:|:.:||..|  :||.                      .|
+ASIC2_MOUSE      107 LYHAGELLALLDVNLQIPDPHLADPTVLEALRQKANFKHYKPKQFSMLEF    156
+
+SPB4_ASPFU       384 IHRCG    388
+                     :||.|
+ASIC2_MOUSE      157 LHRVG    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       9/23 (39.1%)
+# Similarity:    13/23 (56.5%)
+# Gaps:           4/23 (17.4%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       412 VSFLEVRKTPVVPFSPSISFSDA    434
+                     :||..||:.||.    :|.|.:|
+DOXA1_XENTR      220 ISFASVRQAPVC----NIHFGNA    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      18/70 (25.7%)
+# Similarity:    30/70 (42.9%)
+# Gaps:          22/70 (31.4%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       530 RRKELLQEAAESGATQSTSNK---------------RRATESVAWSQQAE    564
+                     :|.||..:|.|..:.|.::.:               |.|:.|:   .:||
+RS20_STRPB        14 KRAELNVKANEKNSAQKSAMRTAIKAFEANPSEELFRAASSSI---DKAE     60
+
+SPB4_ASPFU       565 SKNKKLKRREQKKSKQEKAR    584
+                     ||....|    .|:.::|||
+RS20_STRPB        61 SKGLIHK----NKASRDKAR     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 127
+# Identity:      32/127 (25.2%)
+# Similarity:    55/127 (43.3%)
+# Gaps:          17/127 (13.4%)
+# Score: 81.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       523 KDKQREKRRKELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKR    572
+                     |..|..|..|:...:.||:...||.....||.::   .::..|..||:::
+TPM_HAELO          6 KKMQAMKLEKDNAVDRAETAEQQSRDAALRAEKA---EEEVRSLQKKIQQ     52
+
+SPB4_ASPFU       573 REQKKSK-QEKARWEKMTEEEKQKVLETE-----------KMVEELRKKN    610
+                     .|.:..: ||:........|||.|.|:..           :::||..:::
+TPM_HAELO         53 IENELDQVQEQLSQANSKLEEKDKALQAAEAEVAAHNRRIQLLEEDLERS    102
+
+SPB4_ASPFU       611 EEERRLRRAVAKAAGAKADGDDEEEFQ    637
+                     ||  ||:.|..|...|....|:.|..:
+TPM_HAELO        103 EE--RLKIATQKLEEASQAADESERMR    127
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      23/91 (25.3%)
+# Similarity:    32/91 (35.2%)
+# Gaps:          33/91 (36.3%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       387 CGRAGRAGRR-GLSVVLLHPGREEDYVSFLEVRKTPVVPFSP--------    427
+                     |..:..||.| |:..|      :|..:::::.|     ||:|        
+LEUC_XANOM       226 CNMSIEAGARVGMVAV------DEKTIAYVKGR-----PFAPKGADWDAA    264
+
+SPB4_ASPFU       428 ----SISFSDADAAAATATARKAVLADRALHDRGQKAFVSW    464
+                         |...||.||...|..         .||....|..|||
+LEUC_XANOM       265 VALWSTLVSDPDAHFDTVV---------ELHAEDIKPQVSW    296
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       7/24 (29.2%)
+# Similarity:    12/24 (50.0%)
+# Gaps:           5/24 (20.8%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       284 LKRIVSSVQPTPLKTIFFVSTCSG    307
+                     :|||     .|.:.|...::|.:|
+LPT_ESCF3          1 MKRI-----STTITTTITITTGNG     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      24/89 (27.0%)
+# Similarity:    35/89 (39.3%)
+# Gaps:          31/89 (34.8%)
+# Score: 48.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       483 DWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRK    532
+                     :::.:.|..|..||..:.||:..||   ||:               |..|
+RL7_THET8         59 EFDVILKEAGAKKLEVIKELRAITG---LGL---------------KEAK     90
+
+SPB4_ASPFU       533 ELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLK    571
+                     :|    ||.|..        ..|.|: .|:||...|||:
+RL7_THET8         91 DL----AEKGGP--------VKEGVS-KQEAEEIKKKLE    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 406
+# Identity:      79/406 (19.5%)
+# Similarity:   134/406 (33.0%)
+# Gaps:         113/406 (27.8%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       258 GVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSG    307
+                     ||:....|.|:: ..|..|.....:||:.::...|   :.....:|||:.
+HEM1_METCA         7 GVNHTTAPVSIR-ERLAFPAEQLQSALRDLIDLPQ---VGEAAILSTCNR     52
+
+SPB4_ASPFU       308 VDYLSAILPLLLGDDFLLIPLHGKHQANV-------RQ---KNFNRFINS    347
+                     .:              :...|.|:.|..:       ||   ::.::::.|
+HEM1_METCA        53 TE--------------VYCELDGRDQRPIVDWMCDQRQFDDQDISQYLYS     88
+
+SPB4_ASPFU       348 H-DPAILLTTDVAARGLD---IPSVDLVVQIDPPSDPKSFIHRCGRAGRA    393
+                     | |...:......|.|||   :....::.|:      |:.......||..
+HEM1_METCA        89 HFDAGTIRHMFRVACGLDSMILGEPQILGQM------KTAYQAAREAGTV    132
+
+SPB4_ASPFU       394 GRRGLSVVLLHPGREEDYVSFLEVRKTPVVPFSP-SISFS----------    432
+                     |:  :...|.|    ..:.:..:||....:..|| |::|:          
+HEM1_METCA       133 GK--ILTKLFH----RTFAAAKKVRTDTAIGCSPVSVAFAAIRLAQRIFD    176
+
+SPB4_ASPFU       433 ---DADAAAATA------TAR--------KAVLADRALHDRGQK------    459
+                        |..|....|      |||        ..::|:|.. ||...      
+HEM1_METCA       177 DLGDLTAILVGAGETIELTARHLTENRIGHLIIANRTF-DRAHTLANQFG    225
+
+SPB4_ASPFU       460 AFVSWLRSYSKH--QASSIFRVSDLDWEALGKAWGLLKLPKMPELKNFTG    507
+                     .|...|....||  :|..|...:......|||......|........|..
+HEM1_METCA       226 GFAISLEELPKHLAKADIIVASTGSPLPILGKGSFESALRSRRHKPMFIV    275
+
+SPB4_ASPFU       508 DKTLGMSLD------WDNYAY--KDKQRE-----KRRKELLQEAAE----    540
+                     |..:...::      .|.|.|  .|.|..     |.|:|...:|.|    
+HEM1_METCA       276 DLAVPRDIEPEVEQLQDVYLYTVDDLQHTVEENLKTRQEAALQAEEIIDL    325
+
+SPB4_ASPFU       541 -----------SGATQSTSNKRRATESVAWSQQAESKNKKLKRREQKKSK    579
+                                ..||::..:.||..|    ..:..:..:.|:...:.||.
+HEM1_METCA       326 EVEHFLSWLRAQAATETIRDVRRQAE----LHRDAALQRALRELRRGKSA    371
+
+SPB4_ASPFU       580 QEKARW    585
+                     ::..||
+HEM1_METCA       372 EDTLRW    377
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 254
+# Identity:      52/254 (20.5%)
+# Similarity:    85/254 (33.5%)
+# Gaps:          84/254 (33.1%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       239 VRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPS--HKFAALKR    286
+                     |.:|:.:..:.|:.: |.|||     ..::...:|:.|.|  |.|....|
+XYLB_KLEPN       239 VGIGMADAGQAMLSL-GTSGV-----YFAVSEGFLSKPESAVHSFCHACR    282
+
+SPB4_ASPFU       287 ---IVSSVQPTPLKTIFFVSTCSGVDYLSAI----------------LPL    317
+                        .:.||..:....:.:.:..:|:..:.|:                ||.
+XYLB_KLEPN       283 GRWHLMSVMLSAASCLDWAAKLTGLASVPALIAAAQTADESAGPVWFLPY    332
+
+SPB4_ASPFU       318 LLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPS    367
+                     |.|:   ..| |...||   :..|....:.|.||.|....:...|..:  
+XYLB_KLEPN       333 LSGE---RTP-HNNPQA---KGVFFGLTHQHGPAELARAVLEGVGYAL--    373
+
+SPB4_ASPFU       368 VDLVVQIDPPSDPKSFIHRC------------GRAGRAGRRGLSVVLLHP    405
+                               :|....:|.|            ||| |..|:.|:.:   .
+XYLB_KLEPN       374 ----------ADGMDVVHACAIKPEAITLIGGGRA-RYWRQMLADI---S    409
+
+SPB4_ASPFU       406 GREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALHD    455
+                     |.:.||                   .:..|...|...||   ||..|:||
+XYLB_KLEPN       410 GLQLDY-------------------RTGGDVGPALGAAR---LAHVAVHD    437
+
+SPB4_ASPFU       456 RGQK    459
+                     ...:
+XYLB_KLEPN       438 EADR    441
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      11/32 (34.4%)
+# Similarity:    14/32 (43.8%)
+# Gaps:           5/32 (15.6%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       209 ETLQNILRRLPKQRRTGLFSASVSEAVDQIVR    240
+                     |.|...|.|||     ||...|...||..:::
+RECR_NOVAD         7 EALSGALARLP-----GLGPRSARRAVLWLIK     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:      41/206 (19.9%)
+# Similarity:    70/206 (34.0%)
+# Gaps:          62/206 (30.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       307 GVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAIL---    353
+                     |:..|..|...|..|.:::.|       ...|...:..::.:||..|   
+SURE_METNO        15 GLKVLEEIARELSDDVWVVAP-------ETDQSGVSHSLSLNDPLRLRRV     57
+
+SPB4_ASPFU       354 LTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRC---GRAGRAGRRGLSV    400
+                     ..|..|.:|             .|||       |   |.......||..:
+SURE_METNO        58 AETRFAVKG-------------TPSD-------CVIMGVRHILKERGPDL     87
+
+SPB4_ASPFU       401 VLLHPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLAD    450
+                     ||....|.::              .:..:::|...|.|...|    :|..
+SURE_METNO        88 VLSGVNRGQN--------------VAEDVTYSGTVAGAMEGT----ILGV    119
+
+SPB4_ASPFU       451 RAL-----HDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLK    495
+                     |::     :..|.:|.|.| .:.::|.|.:|.|:.:...|.     |:|.
+SURE_METNO       120 RSIALSQAYGVGGRANVKW-HTAAEHGARTIRRILEAGIEP-----GILV    163
+
+SPB4_ASPFU       496 LPKMPE    501
+                     ....|:
+SURE_METNO       164 NVNFPD    169
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      15/52 (28.8%)
+# Similarity:    20/52 (38.5%)
+# Gaps:          13/52 (25.0%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       277 PSHKFAALKRIVSSVQP-TPLKTIFFVSTCSGVDYLSAILPLLLGDDFLL    325
+                     |.|.:..:|.|:..:.. |.|.|:...|            |.||||....
+CYB_ARTIO        219 PFHPYYTIKDILGFLMMLTALATLVLFS------------PYLLGDPDNY    256
+
+SPB4_ASPFU       326 IP    327
+                     ||
+CYB_ARTIO        257 IP    258
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      21/82 (25.6%)
+# Similarity:    37/82 (45.1%)
+# Gaps:          17/82 (20.7%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        26 LEAMSSMGFTRMT--PVQASAIPLFMAHKDVV------VEAVTGSGKTLS     67
+                     ||..|:...|.:|  |:: ..:..|:.|:|.:      |..|:..|.::.
+IOLE_BACHK        67 LEIASAWFSTFLTTKPIE-ETVEEFIKHRDFLHGMGAKVIVVSEQGHSIQ    115
+
+SPB4_ASPFU        68 FLIPV---VEKLLRLEEPIKK-----HHVGAI     91
+                     .|:.|   ..|.:..||..:|     ||:|.:
+IOLE_BACHK       116 GLMDVPLFKNKPVFTEEEWEKLADGLHHLGKL    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 412
+# Identity:      77/412 (18.7%)
+# Similarity:   128/412 (31.1%)
+# Gaps:         148/412 (35.9%)
+# Score: 53.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        57 EAVTGSGKTLSFLIPVVEKLLRLE---EPIK-----KHHVGAIIISPTRE     98
+                     |.||   |.|...|.:.:.:..:|   |.:|     |.||.|:.|...  
+ACKA_STAAT        26 ELVT---KGLVERIGLKDSIFTIEVNGEKVKTVQDIKDHVEAVDIMLD--     70
+
+SPB4_ASPFU        99 LASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTL------KVV    142
+                      |.:.:|:::.:..........::..|       |||.|..      |.:
+ACKA_STAAT        71 -AFKAHNIINDINDIDGTGHRVVHGGE-------KFPESVAITDEVEKEI    112
+
+SPB4_ASPFU       143 PQLL-LGGSTTPAE--DLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQS    189
+                     .:|. |.....||.  .:..|.|..||:              |||     
+ACKA_STAAT       113 EELSELAPLHNPANLMGIRAFRKLLPNI--------------PHV-----    143
+
+SPB4_ASPFU       190 SFEMLVLDEADRLLDLGFKETL--QNILRRLPKQ-------RRTGLFSAS    230
+                                .:.|..|.:|:  :..|..||..       |:.|....|
+ACKA_STAAT       144 -----------AIFDTAFHQTMPEKAYLYSLPYHYYKDYGIRKYGFHGTS    182
+
+SPB4_ASPFU       231 -------VSEAVD------QIVRVGLRNPVKVMVKVKGGSGVDDKRTPAS    267
+                            .:|.:|      :|:...:.|...: ..:.||..:|       
+ACKA_STAAT       183 HKFVSQRAAEMLDKPIEDLRIISCHIGNGASI-AAIDGGKSID-------    224
+
+SPB4_ASPFU       268 LQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPL    317
+                                          :|:..|||..:...:....:|  .|::|.
+ACKA_STAAT       225 ---------------------TSMGFTPLAGVTMGTRSGNID--PALIPF    251
+
+SPB4_ASPFU       318 LLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPS    367
+                     ::...       ||....|.:              :|..:....||...|
+ACKA_STAAT       252 IMEKT-------GKTAEQVLE--------------ILNKESGLLGLSGTS    280
+
+SPB4_ASPFU       368 VDLVVQIDPPSDPK-----------SFIHRCGRAGRAGRRGLSVVLLHPG    406
+                     .||....:.....|           |.||:...:..|...|:.|::...|
+ACKA_STAAT       281 SDLRDLSEEAESGKARSQMALDVFASKIHKYIGSYAARMHGVDVIVFTAG    330
+
+SPB4_ASPFU       407 REEDYVSFLEVR    418
+                     ..|:.|   |:|
+ACKA_STAAT       331 IGENSV---EIR    339
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      12/37 (32.4%)
+# Similarity:    20/37 (54.1%)
+# Gaps:           3/37 ( 8.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       235 VDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMT    271
+                     :|||.|.||   |.:.::..|.:.:||..|...:.:|
+HIS7_BURTA        40 LDQIARHGL---VDLDIEAHGDTHIDDHHTVEDVGIT     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      12/45 (26.7%)
+# Similarity:    19/45 (42.2%)
+# Gaps:          17/45 (37.8%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       468 YSKHQASSIF--RVSDL---------------DWEALGKAWGLLK    495
+                     :::|.|..:|  |::.|               :||..||...|||
+PTH_GEOLS         18 WTRHNAGFLFLDRIAQLEGLSIVRKQFGGLTAEWERKGKRLVLLK     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 660
+# Identity:     122/660 (18.5%)
+# Similarity:   213/660 (32.3%)
+# Gaps:         242/660 (36.7%)
+# Score: 113.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        72 VVEKLLRLEEPIKKHHVGAI--IISPTRELASQIYNV-LSSLLAFHPPSA    118
+                     :::..|...||:...:...:  ::||..::.||..:| .|..:...|.|.
+TAF3_XENLA       135 ILDGSLEPREPLSSINSQKVPSVLSPAHKIDSQDLDVSYSDQIMLSPVSK    184
+
+SPB4_ASPFU       119 AAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVL    168
+                     :...|..:..:..||..|.          |||  |.:.:     :||.  
+TAF3_XENLA       185 SQAPPPSESKSLIPKTKSK----------GGS--PGQKI-----KSPK--    215
+
+SPB4_ASPFU       169 VSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRL    218
+                      :||  :..::.|| :..|:|.                            
+TAF3_XENLA       216 -ATP--ISTVIGSP-IRSPKSG----------------------------    233
+
+SPB4_ASPFU       219 PKQRRTGLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASL    268
+                     ||:|                               |........::|.|.
+TAF3_XENLA       234 PKER-------------------------------KSPGCAKSPKSPKSP    252
+
+SPB4_ASPFU       269 QMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLL    318
+                     ::.....||:.|.....|       |||.|                |...
+TAF3_XENLA       253 KVPLAAPPPAIKTETPNR-------TPLAT----------------LSEK    279
+
+SPB4_ASPFU       319 LGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTT--DVAARGLDIP    366
+                     :|.:.:.|.   ::|..:.....|..|.|..|:|...|  |         
+TAF3_XENLA       280 IGRENIQIK---QNQTPLDSDQLNVEIPSKKPSIADNTIED---------    317
+
+SPB4_ASPFU       367 SVDLVVQ---IDPPSDPKSFIHRCGRAGRA----GRRGLSVVL-------    402
+                     |:|.|:.   .:...||..|.......|..    .|..:|.:.       
+TAF3_XENLA       318 SIDAVIARACAEQEPDPFEFSSGSESEGEVFTSPKRLNISELTTPKVSAS    367
+
+SPB4_ASPFU       403 -LHPGRE--------------------EDYVSFLEVRK----TPV-VPFS    426
+                      ::||:.                    :|.::.: :||    ||. .|.:
+TAF3_XENLA       368 GINPGKTSSTSVPASGGTSSSDISWTMDDSINEV-IRKVSQETPTNTPAN    416
+
+SPB4_ASPFU       427 PSISFSDADAAAATATARKAVLADRA------------------------    452
+                     ....||...|:..|......|..|:|                        
+TAF3_XENLA       417 NPPCFSSPSASPPTPEPLLKVFEDKAKLPPPVELKKKTKKEQRAKKKKDK    466
+
+SPB4_ASPFU       453 --LHDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEAL--GKA-W------    491
+                       |.|:.        ||..|::..|..:..|.:.:..  ||. |      
+TAF3_XENLA       467 DKLKDKE--------RSKDKNKDRSKDKEKDKEKDGTKDGKVLWKDSNKD    508
+
+SPB4_ASPFU       492 -----GLLKLPKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKE---    533
+                          ...||....|:.:.:..|......|.:.:..|.|.:||.:|:   
+TAF3_XENLA       509 EDSELHRFKLKDFNEIDSKSKQKENCGKKDKEKHKDKKKDKEKGKKDKDK    558
+
+SPB4_ASPFU       534 -----LLQEAAESGATQ-------------STSNKRR-----ATESVAWS    560
+                          ..:|..:|.:|.             ||.|..|     ::.|....
+TAF3_XENLA       559 KGKDKTKEEKMKSPSTPIMLSSKDIALPMISTPNTVRLPSLLSSMSPLLP    608
+
+SPB4_ASPFU       561 QQAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETEKMVEELRKKN    610
+                     ::...:.:|.|.:::||.|:||.:     :::|:||.|.||..:|..|:.
+TAF3_XENLA       609 EKLFEEKEKSKEKDKKKDKKEKKK-----KKDKEKVKEKEKEKKEKEKEK    653
+
+SPB4_ASPFU       611 EEERRLRRAV    620
+                     |:|::.:..|
+TAF3_XENLA       654 EKEKKEKEKV    663
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 720
+# Identity:     137/720 (19.0%)
+# Similarity:   234/720 (32.5%)
+# Gaps:         241/720 (33.5%)
+# Score: 80.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        72 VVEKLLRLEEPIKK-HHVGAIIISPTRELA--SQIYNVLSSLLAFHPPSA    118
+                     :.:::.:|.:.::| ::...::..|..|.|  .|:|..|.||...||...
+DNLJ_CROS5         7 IKQRVTQLRQQLQKANYAYYVLDDPIMEDAVYDQLYRELDSLEKEHPQLI     56
+
+SPB4_ASPFU       119 AAINPSED-DDAPRPKFPSST-----------------------------    138
+                     ...:|::. .|.|..:|.|.|                             
+DNLJ_CROS5        57 TPDSPTQRVGDQPASQFVSVTHNIPLYSLENAFNLEELKAWEKRWQRSYE    106
+
+SPB4_ASPFU       139 ------LKVVPQLLLGGST-------------------TPAEDLSTFLKR    163
+                           ::.|.:|.:.||.                   |..|:::    :
+DNLJ_CROS5       107 KEEFTSVEYVCELKIDGSALALTYENGLFVRGVTRGDGTTGEEIT----Q    152
+
+SPB4_ASPFU       164 SPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRL----------L    203
+                     :...:.|.|.:|......|.|.....:|  |.|||.||:          |
+DNLJ_CROS5       153 NVRTIRSIPLKLNIDNPPPIVEVRGEAF--LPLDEFDRINQEREEKGDAL    200
+
+SPB4_ASPFU       204 DLGFKETLQNILRRL-PK---QRRTGLFS-------ASVS---EAVDQIV    239
+                     ....:......||:| ||   |||...|:       |.:|   |:::.:.
+DNLJ_CROS5       201 FANPRNAAAGTLRQLDPKIVDQRRLQFFAYTLHLEEAEISSQWESLNYLE    250
+
+SPB4_ASPFU       240 RVG-LRNPVKVMVKVKG-------------------GSGVDDKRTPASLQ    269
+                     ..| |.||.:.:.:...                   ..||..|....|||
+DNLJ_CROS5       251 NSGFLVNPHRKLCQFLDEVEAYFKQWETARKDLPYMTDGVVVKINNYSLQ    300
+
+SPB4_ASPFU       270 MTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLL    319
+                     .....|....::|...:..:...||.:|.|..     .|....|:.|:. 
+DNLJ_CROS5       301 KALGFTQKFPRWAIALKYPAEEAPTLVKNIVV-----NVGRTGAVTPMA-    344
+
+SPB4_ASPFU       320 GDDFLLIPLH--GKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPS    367
+                         ::.|:|  |.........|.:| |...|..:..|..:...|..||.
+DNLJ_CROS5       345 ----VMEPVHLAGTTVQKATLHNSDR-IAQLDIRVGDTVIIRKAGEIIPE    389
+
+SPB4_ASPFU       368 VDLVV-QIDPP-SDPKSFIHRCGR--------AGRA--------------    393
+                     |..|: ::.|| :.|.....||..        :|.|              
+DNLJ_CROS5       390 VVRVLKELRPPNTQPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILR    439
+
+SPB4_ASPFU       394 ------------GRRGLS----VVLLHPG---------------------    406
+                                 ..|||.    |:|:..|                     
+DNLJ_CROS5       440 GSLVHWASRDALDIRGLGEKIVVLLIENGLVNSIADLYYLTPETIANLER    489
+
+SPB4_ASPFU       407 ----REEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRA    452
+                         ..::.:..:|..|..  ||| .:.:........:.||...|....:
+DNLJ_CROS5       490 MGSKSADNLIKAIEGSKQQ--PFS-RVLYGLGIRYVGSVTANLLVENFPS    536
+
+SPB4_ASPFU       453 LHDRGQKAFVSWLRSYSKHQASSIFRVSD------LDWEALGKAWGLLK-    495
+                     :....|.:|.|         .||::.|.:      :||.::.|...|:| 
+DNLJ_CROS5       537 IDQLSQASFAS---------LSSVYGVGEEIAQSIIDWFSIEKNCDLIKQ    577
+
+SPB4_ASPFU       496 LPKM---------------PELKNFTGDKTLGMSLDWDNYAYKDKQREKR    530
+                     |.|:               |.|..|:| ||..::.......       :.
+DNLJ_CROS5       578 LKKVGLQLETTSSEQITVEPSLTPFSG-KTFVITGTLPTLT-------RN    619
+
+SPB4_ASPFU       531 RKELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKRREQKKSKQ    580
+                     ..:.|.|.|....|.|.|.|   |:.:...::|.|          |.::.
+DNLJ_CROS5       620 EAKALIEQAGGKVTGSVSKK---TDYLLVGEKAGS----------KLTQA    656
+
+SPB4_ASPFU       581 EKARWEKMTEEEKQKVLETE    600
+                     ||....:::|.:..::|.:|
+DNLJ_CROS5       657 EKLGINQLSEADLLRLLNSE    676
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:     116/576 (20.1%)
+# Similarity:   178/576 (30.9%)
+# Gaps:         237/576 (41.1%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       169 VSTPGRLL--ELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILR    216
+                     |.|||.:|  |:|.      ||:|..:..:...|:    |:...|     
+MUTS_MYXXD       115 VITPGMVLDEEVLE------PQASNFLAAVSWNDK----GWGAAL-----    149
+
+SPB4_ASPFU       217 RLPKQRRTGLFSA----SVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDK    262
+                        .:..||.|.|    .::|..:.:.||   .|.:::|.    .|..|.
+MUTS_MYXXD       150 ---LEASTGEFMALEAPGIAELAESLSRV---EPRELLVP----DGKRDA    189
+
+SPB4_ASPFU       263 RTPASLQMTYLTTPPSHKFAALKRIVSSVQPTP----LKTIFFVSTCS--    306
+                     ...|.|....:.||     |..:...:|.:||.    |::.|.|.:.|  
+MUTS_MYXXD       190 PEVAQLLARLVRTP-----AVAEGEAASFEPTRAAGYLRSHFAVQSLSAF    234
+
+SPB4_ASPFU       307 GVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTT    356
+                     |:|    ..||..|                                  ..
+MUTS_MYXXD       235 GLD----DAPLAAG----------------------------------AA    246
+
+SPB4_ASPFU       357 DVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLHPG    406
+                     ..|.|.|.          |......:.:.|..|..|.|.      ||   
+MUTS_MYXXD       247 GAALRYLK----------DTQKTAAAHVDRLSRQERGGN------LL---    277
+
+SPB4_ASPFU       407 REEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVL---ADRAL    453
+                     .:|...:.|||.:          |..|.        .||..|   .|:.:
+MUTS_MYXXD       278 MDESSRANLEVLR----------SLRDG--------GRKGSLLGVLDKTV    309
+
+SPB4_ASPFU       454 HDRGQKAFVSWL----------------------RSYSKHQASSIFR-VS    480
+                     ...|.:....||                      ||..:.:.:.|.: |.
+MUTS_MYXXD       310 TSLGARKLARWLASPLGSLPEIHARLDAVEELSGRSVWREELAGILKEVG    359
+
+SPB4_ASPFU       481 DL---------------DWEALGKAWGLLKLPKM---------PELKNFT    506
+                     ||               |..|||.:  |.:||::         |.||:.|
+MUTS_MYXXD       360 DLERLCGRLSLGAGNARDLRALGLS--LAQLPRVVAVLARCESPLLKSLT    407
+
+SPB4_ASPFU       507 G--------------------------------------DKTLGMSLDWD    518
+                     |                                      ||.:.:|....
+MUTS_MYXXD       408 GPLSALPELAELLSRAVAEEPPVTLKDGGMIRAGFHAELDKLVALSTSGK    457
+
+SPB4_ASPFU       519 NYAYKDKQREKRRKELLQEAAESGATQSTSNKRRATESVAWSQQAESKN-    567
+                     :...:.:||||.|            |..:|.|.|..:...:..:....| 
+MUTS_MYXXD       458 DLLLQIEQREKER------------TGISSLKVRYNKVFGYYLEVTKSNL    495
+
+SPB4_ASPFU       568 ----KKLKRREQKKSKQ-----EKARWEK--MTEEEKQKVLETEKMVEEL    606
+                         |...|::...:.:     |...:|:  :|.||::..||.: :.|||
+MUTS_MYXXD       496 DRVPKDYIRKQTTVNSERFVTPELKEYEEQVLTAEERRCALEIQ-LFEEL    544
+
+SPB4_ASPFU       607 RKK-NEEERRLRRAVAKAAGAKADGD    631
+                     |.: .....|:|    .||.|.|.||
+MUTS_MYXXD       545 RAQVVSAAPRIR----SAAEAVATGD    566
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 332
+# Identity:      57/332 (17.2%)
+# Similarity:   106/332 (31.9%)
+# Gaps:         100/332 (30.1%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       227 FSASVSEAVDQIVRVGLRNPVKVMVKVKGG-----------SGVDDKRTP    265
+                     |.:|::..:.|....|...|...:...|.|           :|.|:...|
+NOSO_STAAC        85 FLSSITYHITQATNEGKLKPYITIYAPKDGPKIFNNQLIRYAGYDNCGDP    134
+
+SPB4_ASPFU       266 ASLQMTYLTTPPSHKFAALK-RIVSSVQPTPLKTIFFVSTCSGVDYLSAI    314
+                     |..::|.|......|..... .::..:...|.:::.|      .:|.:::
+NOSO_STAAC       135 AEKEVTRLANHLGWKGKGTNFDVLPLIYQLPNESVKF------YEYPTSL    178
+
+SPB4_ASPFU       315 LPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDVAARGLD    364
+                     :.        .:|:...|...:|:.|    :..:...|:...|:...|:.
+NOSO_STAAC       179 IK--------EVPIEHNHYPKLRKLN----LKWYAVPIISNMDLKIGGIV    216
+
+SPB4_ASPFU       365 IPSVD-----LVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLHPGREE    409
+                     .|:..     :|.:|    ..::||                        :
+NOSO_STAAC       217 YPTAPFNGWYMVTEI----GVRNFI------------------------D    238
+
+SPB4_ASPFU       410 DY-VSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALHDRGQ    458
+                     || .:.||               ..|||.........:...||||.:...
+NOSO_STAAC       239 DYRYNLLE---------------KVADAFEFDTLKNNSFNKDRALVELNY    273
+
+SPB4_ASPFU       459 KAFVSWLR---SYSKH-QASSIFRVSDLDWEALGK----AWGLLKLPKMP    500
+                     ..:.|:.:   |...| .|:..|.:.:.:....|:    .|..|..|..|
+NOSO_STAAC       274 AVYHSFKKEGVSIVDHLTAAKQFELFERNEAQQGRQVTGKWSWLAPPLSP    323
+
+SPB4_ASPFU       501 ELKNFTGDKTLGMSLDWD------NYAYKDKQ    526
+                     .|       |......:|      |:.||.|:
+NOSO_STAAC       324 TL-------TSNYHHGYDNTVKDPNFFYKKKE    348
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:      27/128 (21.1%)
+# Similarity:    44/128 (34.4%)
+# Gaps:          42/128 (32.8%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       507 GDKTLGMSLDWDNYAYKDKQREKRRK-------------------ELLQE    537
+                     |.:...|..|.|...:|.|::.|:||                   .:.|:
+RBM8A_MOUSE       11 GGEDFAMDEDGDESIHKLKEKAKKRKGRGFGSEEGSRARMREDYDSVEQD     60
+
+SPB4_ASPFU       538 AAESGATQS--------TSNKRRATES---VAWSQQAESKN--KKLKRR-    573
+                     ..|.|..:|        |.....|||.   ..:::..|.||  ..|.|| 
+RBM8A_MOUSE       61 GDEPGPQRSVEGWILFVTGVHEEATEEDIHDKFAEYGEIKNIHLNLDRRT    110
+
+SPB4_ASPFU       574 ---------EQKKSKQEKARWEKMTEEE    592
+                              |.:..|:.:|..|.:..::
+RBM8A_MOUSE      111 GYLKGYTLVEYETYKEAQAAMEGLNGQD    138
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      18/68 (26.5%)
+# Similarity:    29/68 (42.6%)
+# Gaps:           4/68 ( 5.9%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       300 FFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHD    349
+                     |.||....:.|.|.::..||..:.:::.|.......:...:|.  :.|..
+NU4LM_ARCPU       12 FIVSFMGLLMYRSHLMSSLLCLEGMMLSLFVMMSMTILSNHFT--LASMA     59
+
+SPB4_ASPFU       350 PAILLTTDV--AARGLDI    365
+                     |.|||....  ||.||.:
+NU4LM_ARCPU       60 PIILLVFAACEAALGLSL     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:      25/105 (23.8%)
+# Similarity:    44/105 (41.9%)
+# Gaps:          28/105 (26.7%)
+# Score: 48.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        18 TPA--LSEWVLEAMSSMGFTRMTPVQASAIPLFMAHKDVVVEAVTGSGKT     65
+                     |||  ..|.:.:|:|::    ::|:|        ||...|..|.||..:.
+NANK_ECOLI        32 TPASQTPEALRDALSAL----VSPLQ--------AHAQRVAIASTGIIRD     69
+
+SPB4_ASPFU        66 LSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIYNVLSSLLAFHP    115
+                     .|.|            .:..|::|.::..|..:...|:.|:  ..:|.:.
+NANK_ECOLI        70 GSLL------------ALNPHNLGGLLHFPLVKTLEQLTNL--PTIAIND    105
+
+SPB4_ASPFU       116 PSAAA    120
+                     ..|||
+NANK_ECOLI       106 AQAAA    110
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 89
+# Identity:      20/89 (22.5%)
+# Similarity:    36/89 (40.4%)
+# Gaps:          26/89 (29.2%)
+# Score: 58.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       161 LKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLG-FKE    209
+                     :|:.||::             ||:|.|..|.:..:|.:.:|.:.:| :.:
+MIAB_MYCPE       303 MKKYPNIM-------------PHIHLPIQSGDETILKKMNRPMKIGDYID    339
+
+SPB4_ASPFU       210 TLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVK    248
+                     .:..|...:|          :.|...|.|  ||..|..|
+MIAB_MYCPE       340 LVDYIRANIP----------NCSITTDLI--VGFPNETK    366
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      16/74 (21.6%)
+# Similarity:    23/74 (31.1%)
+# Gaps:          34/74 (45.9%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       335 NVRQKNFNRFINSHDPAILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFI    384
+                     |:|.|:|.||                ||..:       .|..||...:: 
+NADK_STAES       139 NIRGKHFERF----------------RGDGL-------CISTPSGSTAY-    164
+
+SPB4_ASPFU       385 HRCGRAGRAGRRGLSVVLLHPGRE    408
+                               .:.|...|:||..|
+NADK_STAES       165 ----------NKALGGALIHPSLE    178
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 680
+# Identity:     128/680 (18.8%)
+# Similarity:   222/680 (32.6%)
+# Gaps:         228/680 (33.5%)
+# Score: 77.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       138 TLKVVPQLLLGGSTT--PAEDLSTFLKRSPNVLVSTPGRLLELLSSPHVH    185
+                     ::.||..:|.|||.|  ...|..|.:.|.|.|:....||..:||:..|.:
+TRPG_CAEEL       567 SVPVVCVVLEGGSCTIRSVLDYVTNVPRVPVVVCDGSGRAADLLAFAHQN    616
+
+SPB4_ASPFU       186 CPQSSF-------EMLVLDE---------ADRLL-DLGFKETLQNILR--    216
+                     ..:...       ::|:|.|         |.||| :|......:|:|.  
+TRPG_CAEEL       617 VTEDGLLPDDIRRQVLLLVETTFGCSEAAAHRLLHELTVCAQHKNLLTIF    666
+
+SPB4_ASPFU       217 RLPKQRR--------TGLFSASVSEAVDQIV-------------------    239
+                     ||.:|..        |.|.......|.||:.                   
+TRPG_CAEEL       667 RLGEQGEHDVDHAILTALLKGQNLSAADQLALALAWNRVDIARSDVFAMG    716
+
+SPB4_ASPFU       240 ----RVGLRNPVK----------VMVKVKGGSGVDDKRTPASLQMTYLTT    275
+                         :..|.|.:.          |.:.::.|..:....|.:.|...|.|.
+TRPG_CAEEL       717 HEWPQAALHNAMMEALIHDRVDFVRLLLEQGINMQKFLTISRLDELYNTD    766
+
+SPB4_ASPFU       276 --PPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDF    323
+                       ||:..|..::.:|...|....|          :..:..::..|:|:.:
+TRPG_CAEEL       767 KGPPNTLFYIVRDVVRVRQGYRFK----------LPDIGLVIEKLMGNSY    806
+
+SPB4_ASPFU       324 LLIPLHGKHQANVRQKNFNRFINSHDPAILLTTD--------VAAR----    361
+                     .......:.:...:|: ..|..::...|:.:.:.        :|:|    
+TRPG_CAEEL       807 QCSYTTSEFRDKYKQR-MKRVKHAQKKAMGVFSSRPSRTGSGIASRQSTE    855
+
+SPB4_ASPFU       362 -------GLDIPSV--DLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVL    402
+                            |..:..|  :.....|||.||     ...|:..:|.|.||..:
+TRPG_CAEEL       856 GMGGVGGGSSVAGVFGNSFGNQDPPLDP-----HVNRSALSGSRALSNHI    900
+
+SPB4_ASPFU       403 L-----------HP------------GREEDYVSFLEVRKTPV-------    422
+                     |           :|            |.|.|.    |:..|..       
+TRPG_CAEEL       901 LWRSAFRGNFPANPMRPPNLGDSRDCGSEFDE----ELSLTSASDGSQTE    946
+
+SPB4_ASPFU       423 ----VPFSPSISFS-----------------DADAAAATATARKAVLADR    451
+                         .|:|..:.::                 :|.|.|..|......||..
+TRPG_CAEEL       947 PDFRYPYSELMIWAVLTKRQDMAMCMWQHGEEAMAKALVACRLYKSLATE    996
+
+SPB4_ASPFU       452 ALHDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGL-----LKL    496
+                     |..|..:......|:.|::.     ||:  |..|.|...:.:     |:|
+TRPG_CAEEL       997 AAEDYLEVEICEELKKYAEE-----FRI--LSLELLDHCYHVDDAQTLQL   1039
+
+SPB4_ASPFU       497 PKMPELKNFTGDKTLGMSLDWDNYAYKD----------------KQRE--    528
+                     ... ||.|::.:..|.:::..:|..:..                :.|.  
+TRPG_CAEEL      1040 LTY-ELSNWSNETCLALAVIVNNKHFLAHPCCQILLADLWHGGLRMRTHS   1088
+
+SPB4_ASPFU       529 -------------------KRRKELL---QEAAE--------SGATQSTS    548
+                                        |.|:|||   |.|||        |.::.|:|
+TRPG_CAEEL      1089 NIKVVLGLICPPFIQMLEFKTREELLNQPQTAAEHQNDMNYSSSSSSSSS   1138
+
+SPB4_ASPFU       549 NKRRATESVAWSQQAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLE    598
+                     :...::.|.:.|.:.:.........:||::::        |.:...:.|.
+TRPG_CAEEL      1139 SSSSSSSSDSSSFEDDDDENNAHNHDQKRTRK--------TSQGSAQSLN   1180
+
+SPB4_ASPFU       599 TEKMVEELR---KKNEEERRLRRAVAKAAG    625
+                     ...:....|   ||||:..|...|.|..||
+TRPG_CAEEL      1181 ITSLFHSRRRKAKKNEKCDRETDASACEAG   1210
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 333
+# Identity:      68/333 (20.4%)
+# Similarity:   110/333 (33.0%)
+# Gaps:         102/333 (30.6%)
+# Score: 61.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       162 KRSPNVLV--STPGR-LLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFK    208
+                     :|:.::||  .:||: .:..|:....|...::...||:.           
+MSHD_MYCMM        45 QRTEHLLVEDQSPGKSAIGYLNLSPAHGADAAMAELVVH-----------     83
+
+SPB4_ASPFU       209 ETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRN-------------    245
+                               |:.||.|:.:|.|..|   :.:.|.||             
+MSHD_MYCMM        84 ----------PQARRRGIATAMVRAA---LAKTGGRNQFWAHGTLAPAQA    120
+
+SPB4_ASPFU       246 --------PVKVMVKVKGG-SGVDDKRTPASLQM-TYLTTPPSHKFAALK    285
+                             ||:.:|:::.. ..:.:...|..||: ||..|....:...:.
+MSHD_MYCMM       121 TASALGLTPVRELVQMRRSLRQLPEPVIPNGLQIRTYAGTEDDAELLRVN    170
+
+SPB4_ASPFU       286 RIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDF-----LLIPLHG    330
+                     ....:..|.           .| .:..|.|....|:.:     |.:.|.|
+MSHD_MYCMM       171 NAAFAYHPE-----------QG-GWTEADLAERRGEPWFDPAGLFLALEG    208
+
+SPB4_ASPFU       331 KHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPSVD--LVVQIDPPS    378
+                     ...|....:...|.:..|...|         .||.|.:.  .|:.:||.:
+MSHD_MYCMM       209 SEGAEDSPRGQPRLLGFHWTKI---------HLDDPGLGEVYVLGVDPAA    249
+
+SPB4_ASPFU       379 DPKSFIHRCGR----------AGRAGRRGLSVVLLHPGREEDYVSFLEVR    418
+                     ..:..    ||          |.|.|.|.|       |||...:.::|..
+MSHD_MYCMM       250 QGRGL----GRTLTMIGLRSLAQRLGDRDL-------GRESTVMLYVESD    288
+
+SPB4_ASPFU       419 KTPVVPFSPSISFS--DADAAAATATARKAVLA    449
+                     ....|.....:.||  ..|.|.|.| |..|.||
+MSHD_MYCMM       289 NIAAVRTYQGLGFSTHSVDTAYALA-APDAALA    320
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 119
+# Identity:      29/119 (24.4%)
+# Similarity:    48/119 (40.3%)
+# Gaps:          24/119 (20.2%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       328 LHGK-HQANVRQKNFNRFINSHDPAILLTTDV--AARGLDIPSVDLVVQI    374
+                     |:|| |:|.|...:.: ::.|    |.:..|:  ||..:|...|. ||.|
+PAND_THEFY         6 LNGKIHRATVTHADLH-YVGS----ITIDADLMDAANLVDGEQVH-VVNI     49
+
+SPB4_ASPFU       375 DPPSDPKSFIHRCGRAGRAGRRGLSVV--------LLHPGREEDYVSFLE    416
+                     ...       ||.......|.||..|:        |:.||.....:|:::
+PAND_THEFY        50 TNG-------HRLVTYVLTGERGSGVIGINGAAARLVAPGDLVIIISYVQ     92
+
+SPB4_ASPFU       417 VRKTPVVPFSPSISFSDAD    435
+                     :.:.......|.:...||:
+PAND_THEFY        93 LTEAERATHRPHVVHVDAN    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 286
+# Identity:      61/286 (21.3%)
+# Similarity:    97/286 (33.9%)
+# Gaps:         101/286 (35.3%)
+# Score: 78.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU         3 PKPPSGTSLRAWDAVTPALSEWVLEAMSSMGFTRMTPVQ-----------     41
+                     |..|..|:        .|:|.|      |:|:..:|.|.           
+LIPA_ASPOR       183 PHEPENTA--------EAISRW------SLGYVVLTSVDRDDLADGGARH    218
+
+SPB4_ASPFU        42 --ASAIPLFMAHKDVVVEAVTGSGKTLSFL--IPVVEKLLRLEEPIKKHH     87
+                       .:.|.:......::||.:||     .:|  :.:|:.:.|....:..|:
+LIPA_ASPOR       219 FAETVIKIKQKKPSMLVECLTG-----DYLGDLEMVKLVARSGLDVYAHN    263
+
+SPB4_ASPFU        88 VGAI-----IISPTRELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRP    132
+                     |..:     .:...|....|...||                 |.....||
+LIPA_ASPOR       264 VETVEALTPFVRDRRATFQQSLRVL-----------------EAAKQARP    296
+
+SPB4_ASPFU       133 KFPSSTLKVVPQLLLGGSTTPAEDLSTFLK--RSPNVLVSTPGRLLELLS    180
+                     ...:.|     .|:||...| .|.|...|:  ||..|.|.|.|:.:.   
+LIPA_ASPOR       297 DLITKT-----SLMLGFGET-EEQLWDALRQLRSVGVDVVTFGQYMR---    337
+
+SPB4_ASPFU       181 SP-------HVHCPQSSFEMLVLDEADRLLDLGF----------------    207
+                      |       |.:.....||:.    ..|.||:||                
+LIPA_ASPOR       338 -PTKRHMPVHEYVTPDQFELW----RQRALDMGFLYCASGPLVRSSYKAG    382
+
+SPB4_ASPFU       208 KETLQNILRRLPKQRRTGLFSASVSE---AVDQIVR    240
+                     :..::|:|:   |:|..|....||::   |||:..|
+LIPA_ASPOR       383 EAFIENVLK---KRRAAGTAGESVTDSKAAVDEATR    415
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 345
+# Identity:      71/345 (20.6%)
+# Similarity:   129/345 (37.4%)
+# Gaps:          78/345 (22.6%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        18 TPALSEWVLEAMSSMGFTRMTPVQASAIPLFMAHKDVVVEAVTGS----G     63
+                     ||..::.:...:|.:|.|  .|...:     |..|:|....||..    |
+FLGI_PECAS        59 TPFTTQSLTNMLSQLGIT--VPAGTN-----MQLKNVAAVMVTAELPPFG    101
+
+SPB4_ASPFU        64 KTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIY-----NVL-    107
+                     :|...:..||..|    ...|....|.::::|.:.:.:|:|     ||| 
+FLGI_PECAS       102 RTGQNIDIVVSSL----GNAKSLRGGTLLMTPLKGVDNQVYALAQGNVLV    147
+
+SPB4_ASPFU       108 ---------SSL----LAFHPPSAAAINPSEDDDAPRPKFPSS--TLKVV    142
+                              ||:    ||....|..|:...|        .||:  |...:
+FLGI_PECAS       148 GGAGASAGGSSVQVNQLAGGRISNGAVIERE--------LPSTFGTSNTI    189
+
+SPB4_ASPFU       143 PQLLLGGSTTPAEDLSTFLKRSPNVLVSTP--GRLLELLSSPHVHCPQSS    190
+                     ...|.....:.|:.:|..:.||.....::|  .|.:::| :||.:..|..
+FLGI_PECAS       190 MLQLKNDDFSMAQKVSDAINRSGYGGTASPLDSRTIQVL-APHGNSSQVR    238
+
+SPB4_ASPFU       191 FEMLVLDEADRLLDLGFKETLQNILRRLPKQRRTG--------------L    226
+                     |   :.|..:..:::|.::.      ::....|||              :
+FLGI_PECAS       239 F---LADVQNIEVNVGIQDA------KVVINSRTGSVVMNRDVTLDSCAI    279
+
+SPB4_ASPFU       227 FSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLTTP    276
+                     ...::|..::|...|...|     ....||..|...:|..|:|.|.....
+FLGI_PECAS       280 AQGNLSVTINQQANVSQPN-----TPFGGGQTVVTPQTEISVQQTGGVLQ    324
+
+SPB4_ASPFU       277 PSHKFAALKRIV---SSVQPTPLKTIFFVSTCSGVDYLSAILPLL    318
+                     ..:..|.|..:|   :|:..||::.:..:........|.|.|.::
+FLGI_PECAS       325 RVNSSANLNNVVRALNSLGATPMELMSILQAMQSAGCLRAKLEII    369
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 213
+# Identity:      40/213 (18.8%)
+# Similarity:    64/213 (30.0%)
+# Gaps:          96/213 (45.1%)
+# Score: 49.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       160 FLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLV--LDE--ADRLLDL    205
+                     |||::.|||..|           :..|..:...::.  |::  .:..|||
+LDH_BORAP         56 FLKKNINVLFGT-----------YKDCVNADIVVITAGLNQKPGETRLDL     94
+
+SPB4_ASPFU       206 G------FKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKV    249
+                     .      ||:.:.|:                ||...|.|..:. .|||.:
+LDH_BORAP         95 VGKNSKIFKDIITNV----------------VSSGFDGIFVIA-SNPVDI    127
+
+SPB4_ASPFU       250 MVKVKGGSGVDDKRTPASLQMTYLTTP----PSHKFAALKRIVSSVQPTP    295
+                                         |||:|..    |.||......|:.:.:   
+LDH_BORAP        128 --------------------MTYVTMKYSKFPIHKVIGTGTILDTSR---    154
+
+SPB4_ASPFU       296 LKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFI    345
+                                        |...|.|.|           ||..:|.:.::
+LDH_BORAP        155 -------------------LRYFLSDRF-----------NVNTQNIHSYV    174
+
+SPB4_ASPFU       346 -NSHDPAILLTTD    357
+                      ..|..:..:|.|
+LDH_BORAP        175 MGEHGDSSFVTWD    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      43/217 (19.8%)
+# Similarity:    62/217 (28.6%)
+# Gaps:         109/217 (50.2%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       371 VVQIDPPSDPKSFI----HRCGRAGRAGRRGLSVVLLH------------    404
+                     :|..|....||..|    ..||.|..||.  ..::.||            
+EXGB_EMENI       134 LVYADSEHFPKGGIGYLEDVCGWASDAGM--YIIIDLHGAPGAQQPKQPF    181
+
+SPB4_ASPFU       405 -------PGREEDY------------------------VSFLEVRKTPVV    423
+                            ||..:||                        |..||:...|| 
+EXGB_EMENI       182 TGQYAPNPGFYQDYQYDRALEFLEWMTTSIHQNNKFRNVGMLEIVNEPV-    230
+
+SPB4_ASPFU       424 PFSPSISFSDADAAAATATARKAVLADRALHDRGQKAFVSWLRSY-----    468
+                             .:||.|:                        |.:.||     
+EXGB_EMENI       231 --------QNADQAS------------------------SMINSYYPSAF    248
+
+SPB4_ASPFU       469 --SKHQASSIFRVSD--LDWEALGKAWGLLKLPKMPELKNFTGDKTLGMS    514
+                       .::..||:...|:  |..:.:.:.||             :||.|..::
+EXGB_EMENI       249 TRIRNTESSLGITSNNYLHIQMMNEKWG-------------SGDPTQSLT    285
+
+SPB4_ASPFU       515 LDWDNY--AYKDKQREK    529
+                        |||  ||.|.:..|
+EXGB_EMENI       286 ---DNYFAAYDDHRYVK    299
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 269
+# Identity:      56/269 (20.8%)
+# Similarity:    90/269 (33.5%)
+# Gaps:          94/269 (34.9%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        54 VVVEAVTGSGKTLSFLIPVVE----------KLLRLEEPIKKHHVGAIII     93
+                     :..|.:.|:||:..    ||:          ::|.|.||     .|..:.
+KTHY_CHLP8         3 ITFEGIDGAGKSTQ----VVKLKRHLQERGREVLTLREP-----GGTPVA     43
+
+SPB4_ASPFU        94 SPTRELASQIYNVLSS---LLAFHPPSAAAINPSEDDDAPRPKFPSSTLK    140
+                     ...|||..:.:|.::|   ||.|....|..:...                
+KTHY_CHLP8        44 EQIRELLLESHNDITSIAELLLFSASRAELMEKI----------------     77
+
+SPB4_ASPFU       141 VVPQLLLG---------GSTTPAEDLSTFLKRSPNVLVSTPGRLLELLSS    181
+                     :||.|..|         .|||..:..               ||.|.|   
+KTHY_CHLP8        78 IVPALEDGCDVILDRFFDSTTAYQGY---------------GRGLNL---    109
+
+SPB4_ASPFU       182 PHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRLPKQRRTGLFS---    228
+                               :||.  |.:|:...|.:..:...|...|:......||   
+KTHY_CHLP8       110 ----------DMLA--EINRIASHGIRPDITFYLDLTPEDALLRKFSEKS    147
+
+SPB4_ASPFU       229 ---ASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQM--TYL    273
+                        |..||.:|::...||    :...:|:.|.....:..|..:.|  ..|
+KTHY_CHLP8       148 LPLAFESEELDRMENSGL----EFYQRVRAGYHAILEAEPQRIIMIDALL    193
+
+SPB4_ASPFU       274 TTPPSHKFAALKRIVSSVQ    292
+                     |....|     ::|:|::|
+KTHY_CHLP8       194 TPQEIH-----RKILSALQ    207
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 466
+# Identity:      79/466 (17.0%)
+# Similarity:   132/466 (28.3%)
+# Gaps:         182/466 (39.1%)
+# Score: 80.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        55 VVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIY    104
+                     |:|..||.||||:..|......|      ...||..:.|:.  .||.:..
+SECA2_MYCTO      136 VIEMATGEGKTLAGAIAAAGYAL------AGRHVHVVTIND--YLARRDA    177
+
+SPB4_ASPFU       105 NVLSSLLAFHPPSAAAINPSEDDDAPRPKFP-----SSTLKVVPQLLLGG    149
+                     ..:..||.....:...|......|..|..:.     :|..::...:|...
+SECA2_MYCTO      178 EWMGPLLDAMGLTVGWITADSTPDERRTAYDRDVTYASVNEIGFDVLRDQ    227
+
+SPB4_ASPFU       150 STTPAEDLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEA    199
+                     ..|...||.     |||.                        ::.::|||
+SECA2_MYCTO      228 LVTDVNDLV-----SPNP------------------------DVALIDEA    248
+
+SPB4_ASPFU       200 DRLLDLGFKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNP---    246
+                     |.:|                           |.||:..:|..|..:.   
+SECA2_MYCTO      249 DSVL---------------------------VDEALVPLVLAGTTHRETP    271
+
+SPB4_ASPFU       247 ----VKVMVKVKGGSGVDDK-RTPASLQMTYLTTPPSHKFAALKRIVSSV    291
+                         ::::.::.|....|:. .|.:..:..:||...:.|..         
+SECA2_MYCTO      272 RLEIIRLVAELVGDKDADEYFATDSDNRNVHLTEHGARKVE---------    312
+
+SPB4_ASPFU       292 QPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNF    341
+                                ....|:|                  |:.:..........
+SECA2_MYCTO      313 -----------KALGGID------------------LYSEEHVGTTLTEV    333
+
+SPB4_ASPFU       342 NRFINSHDPAILLTTDV-------------AARG----------------    362
+                     |..:::|   :||..||             |:||                
+SECA2_MYCTO      334 NVALHAH---VLLQRDVHYIVRDDAVHLINASRGRIAQLQRWPDGLQAAV    380
+
+SPB4_ASPFU       363 --------------LDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGL    398
+                                   ||..:|..::        ..:...||..|.|...| 
+SECA2_MYCTO      381 EAKEGIETTETGEVLDTITVQALI--------NRYATVCGMTGTALAAG-    421
+
+SPB4_ASPFU       399 SVVLLHPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVL    448
+                               |....|.::..:|:.|..|:|...:||....|..|:...:
+SECA2_MYCTO      422 ----------EQLRQFYQLGVSPIPPNKPNIREDEADRVYITTAAKNDGI    461
+
+SPB4_ASPFU       449 ADR--ALHDRGQKAFV    462
+                     .:.  .:|.|||...|
+SECA2_MYCTO      462 VEHITEVHQRGQPVLV    477
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 80
+# Identity:      18/80 (22.5%)
+# Similarity:    24/80 (30.0%)
+# Gaps:          40/80 (50.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       298 TIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKN-------    340
+                     ||||        ::|.:|           |..||.:....:.|       
+DB108_HUMAN        9 TIFF--------FMSQVL-----------PAKGKFKEICERPNGSCRDFC     39
+
+SPB4_ASPFU       341 ------FNRFINS--------HDPAILLTT    356
+                           ..|.:||        |.|.|..||
+DB108_HUMAN       40 LETEIHVGRCLNSRPCCLPLGHQPRIESTT     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 217
+# Identity:      49/217 (22.6%)
+# Similarity:    71/217 (32.7%)
+# Gaps:          59/217 (27.2%)
+# Score: 70.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       372 VQIDPPSD----------PKSFIHRCGRAGRAGRR-------GLSV-VLL    403
+                     :|..||:|          |:..:.||....|..||       .||: |.|
+LCMT1_CRYNB       18 IQTPPPTDPNAAPAHRPAPRPALGRCRPPHRRRRRLRPPVRPPLSLPVAL     67
+
+SPB4_ASPFU       404 HPGREEDYVSFLEVRKTPVVPFS-----PSISFSDADAAAATATARKAVL    448
+                     ........|.:|:      .||:     |.:....|.|..|...|||..|
+LCMT1_CRYNB       68 TTRSSAAQVGYLQ------DPFASLLYRPPMPQPGAFAPQAVGRARKPPL    111
+
+SPB4_ASPFU       449 ADRALHDR--GQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKL    496
+                     .:...|.|  |....|.........|..|:...||.      :.|.|:..
+LCMT1_CRYNB      112 INVGTHHRTWGIDRLVDRFLQRGGKQVVSLGAGSDT------RFWRLMSR    155
+
+SPB4_ASPFU       497 PKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAES-----    541
+                     ...|:|..:       :.:|:.:......||..|.::|.|....|     
+LCMT1_CRYNB      156 ATPPDLARY-------VEIDFPHLTSPKAQRIARHRKLYQYLGPSSTAMP    198
+
+SPB4_ASPFU       542 ----------GATQSTS    548
+                               |.||.:|
+LCMT1_CRYNB      199 PPGHPYTVSKGGTQLSS    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 164
+# Identity:      30/164 (18.3%)
+# Similarity:    55/164 (33.5%)
+# Gaps:          65/164 (39.6%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       241 VGLRNPVKVMVKVKGGSGVDDKR--------TPASLQMTYLTTPPSHKFA    282
+                     :||.:.:|.:|.       |||:        .|.|.::..:...|...||
+PTGA_SALTY         1 MGLFDKLKSLVS-------DDKKDTGTIEIVAPLSGEIVNIEDVPDVVFA     43
+
+SPB4_ASPFU       283 ALKRIVS---SVQPTPLKTI----------------FFVSTCSGVDYLSA    313
+                       ::||.   :::||..|.:                |.:.:.||::    
+PTGA_SALTY        44 --EKIVGDGIAIKPTGNKMVAPVDGTIGKIFETNHAFSIESDSGIE----     87
+
+SPB4_ASPFU       314 ILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDVAARGL    363
+                                |....|.....::.:.|.|              :|..|.
+PTGA_SALTY        88 -----------LFVHFGIDTVELKGEGFKR--------------IAEEGQ    112
+
+SPB4_ASPFU       364 DIPSVDLVVQIDPP    377
+                     .:...|.|::.|.|
+PTGA_SALTY       113 RVKVGDPVIEFDLP    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      21/75 (28.0%)
+# Similarity:    38/75 (50.7%)
+# Gaps:           9/75 (12.0%)
+# Score: 64.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       568 KKLKRREQKKSKQEKARWEKMTEEEKQKVLETEKMVEEL---RK-----K    609
+                     |.|.:||:||.:.|: ::..:.:..|:::.|...:.::|   ||     :
+RR14_CRYJA         4 KSLIQREKKKQRLER-KYNLLRQSLKKEMSEVSSLDDKLDIYRKLQSLPR     52
+
+SPB4_ASPFU       610 NEEERRLRRAVAKAAGAKADGDDEE    634
+                     |....||||...|....:|:..|.|
+RR14_CRYJA        53 NSAPTRLRRRCLKTGRPRANYRDFE     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 313
+# Identity:      59/313 (18.8%)
+# Similarity:    98/313 (31.3%)
+# Gaps:         119/313 (38.0%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       326 IPLHGKHQANVRQKNFNRFIN-------SHDP---AILLTTDVAARGLD-    364
+                     :|:....||...|..:.:...       :|.|   |.:....|...|:| 
+DCUP_BACVZ        23 VPVWYMRQAGRSQPEYRKLKEKYGLVEITHQPELCAYVTRLPVEQYGVDA     72
+
+SPB4_ASPFU       365 ----------IPSVDLVVQ--------IDPPSDPKSFIHRCGRAGRAGRR    396
+                               :|.:.:.|:        ||.|....:.|.:.|.       
+DCUP_BACVZ        73 AILYKDIMTPLPYIGVDVEIKNGIGPVIDQPVRSAADIEKLGE-------    115
+
+SPB4_ASPFU       397 GLSVVLLHPGREEDYVSFLEVRK--------TPVVPFS------------    426
+                           |:|.::..||  ||..:        .|::.||            
+DCUP_BACVZ       116 ------LNPEQDVPYV--LETIRLLVNEQLNVPLIGFSGAPFTLASYMIE    157
+
+SPB4_ASPFU       427 --PSISFSDADAAAATATARKAVLAD----------RALHDRGQKA---F    461
+                       ||.:::...|...:......:|.|          :|..:.|.||   |
+DCUP_BACVZ       158 GGPSKNYNKTKAFMHSMPQAWKMLMDKLADMIIVYAKAQINAGAKAIQIF    207
+
+SPB4_ASPFU       462 VSWL--------RSYSKHQASSIFR---------------VSDL--DW--    484
+                     .||:        |.:.|.....|||               .|.|  ||  
+DCUP_BACVZ       208 DSWVGALNREDYRQFIKPVMDRIFRELSAEQVPLIMFGVGASHLAGDWHD    257
+
+SPB4_ASPFU       485 ---EALGKAW--GLLKLPKMPELKNFTGDKTLGMSL-DWDNYAYKDKQRE    528
+                        :.:|..|  |:....|....|...|:....:.| .|:..       |
+DCUP_BACVZ       258 LPLDVVGLDWRLGIDDARKQGITKTVQGNLDPSLLLAPWEVI-------E    300
+
+SPB4_ASPFU       529 KRRKELLQEAAES    541
+                     |:.|.:|.:..::
+DCUP_BACVZ       301 KKAKAILDQGMKT    313
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 665
+# Identity:     140/665 (21.1%)
+# Similarity:   224/665 (33.7%)
+# Gaps:         212/665 (31.9%)
+# Score: 95.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU         3 PKPPSGTSLRA------------WDAVTPALSEWVLE--------AMSSM     32
+                     |.||......|            |:|....|.:.|.|        |:.:.
+GTF2I_MOUSE      331 PPPPVPEPANAGKRKVREFNFEKWNARITDLRKQVEELFERKYAQAIKAK    380
+
+SPB4_ASPFU        33 GFTRMTPVQASAIPLFMAH-KDVVVEAVTGS---GKTLSFLIPVVEKLL-     77
+                     |     || ....|||.:| :|:.||.:...   .:..::.||.:|::| 
+GTF2I_MOUSE      381 G-----PV-TIPYPLFQSHVEDLYVEGLPEGIPFRRPSTYGIPRLERILL    424
+
+SPB4_ASPFU        78 ---RLEEPIKKHHVGAIIISPTRELASQIYNVLSSLLAFHPPSAAAINPS    124
+                        |:...||||.    :::.|||          .|....|.|..    .
+GTF2I_MOUSE      425 AKERIRFVIKKHE----LLNSTRE----------DLQLDKPASGV----K    456
+
+SPB4_ASPFU       125 EDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVLVSTPGR    174
+                     |:..|...|.    .|:|.||              |.|:....|.||..:
+GTF2I_MOUSE      457 EEWYARITKL----RKMVDQL--------------FCKKFAEALGSTEAK    488
+
+SPB4_ASPFU       175 LLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNILRRLPKQRRT    224
+                     .:          |...||.       ...||..:...:||..|.|..  .
+GTF2I_MOUSE      489 AV----------PYQKFEA-------HPNDLYVEGLPENIPFRSPSW--Y    519
+
+SPB4_ASPFU       225 GLFSASVSEAVDQIVRVGLRNPVKVMVK-----VKGGSGVDDKRTPA---    266
+                     |:      ..:::|::||  |.:|.::|     ....:.|...||..   
+GTF2I_MOUSE      520 GI------PRLEKIIQVG--NRIKFVIKRPELLTHSTTEVTQPRTNTPVK    561
+
+SPB4_ASPFU       267 ---SLQMTYLTTPPSH----KFAALKRIVSSVQ-PTPL-----KTIFFVS    303
+                        ::::|.|......    |||....:..:|: |.|:     :.::...
+GTF2I_MOUSE      562 EDWNVRITKLRKQVEEIFNLKFAQALGLTEAVKVPYPVFESNPEFLYVEG    611
+
+SPB4_ASPFU       304 TCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAIL    353
+                     ...|:.:.|   |...|     ||   :.:..||..|..:|:        
+GTF2I_MOUSE      612 LPEGIPFRS---PTWFG-----IP---RLERIVRGSNKIKFV--------    642
+
+SPB4_ASPFU       354 LTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLL    403
+                                :...:|||...||          |.|.:...:.|.    
+GTF2I_MOUSE      643 -----------VKKPELVVSYLPP----------GMASKINTKALQ----    667
+
+SPB4_ASPFU       404 HPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRAL    453
+                     .|.|.....|..:|.:..|....|:.| |...:|..|.|....  ::...
+GTF2I_MOUSE      668 SPKRPRSPGSNSKVPEIEVTVEGPNNS-SPQTSAVRTPTQTNG--SNVPF    714
+
+SPB4_ASPFU       454 HDRGQK-AFVSWLRSYS--KHQASSIFRVSDLDWEALGKAWGL---LKLP    497
+                     ..||:: :|.:|....:  |.:..::|.      |..|:|.||   :|:|
+GTF2I_MOUSE      715 KPRGREFSFEAWNAKITDLKQKVENLFN------EKCGEALGLKQAVKVP    758
+
+SPB4_ASPFU       498 --------------KMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKE    533
+                                   .:||...|....|.|:.........|.|.:...:|.
+GTF2I_MOUSE      759 FALFESFPEDFYVEGLPEGVPFRRPSTFGIPRLEKILRNKAKIKFIIKKP    808
+
+SPB4_ASPFU       534 LLQEAAESGATQSTSNKRRATESVAWSQQA--------------ESKNKK    569
+                     .:.|.|...:|.|.|..|:...|...:..|              :..|::
+GTF2I_MOUSE      809 EMFETAIKESTSSKSPPRKINSSPNVNTTASGVEDLNIIQVTIPDDDNER    858
+
+SPB4_ASPFU       570 LKRREQKKSKQEKAR    584
+                     |       ||.||||
+GTF2I_MOUSE      859 L-------SKVEKAR    866
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 303
+# Identity:      55/303 (18.2%)
+# Similarity:   104/303 (34.3%)
+# Gaps:          92/303 (30.4%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       305 CSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFI---------    345
+                     |:||:....|:...|  :....|::.:|:.     ..||.:         
+ISPH_ACIF5        12 CAGVNRAIQIVDRAL--ELFGAPIYVRHEV-----VHNRHVVEDLRARGA     54
+
+SPB4_ASPFU       346 -----------------NSHDPAILLTTDVAARGLDI--PSVDLVVQIDP    376
+                                      ::|...|.:....|||||.:  .:..||.::. 
+ISPH_ACIF5        55 IFVEELDEVPDAATVIFSAHGVPIAVREHAAARGLSVFDATCPLVTKVH-    103
+
+SPB4_ASPFU       377 PSDPKSFIHRCGRAGRAGRRGLSVVLL----HP------GREEDYVSFLE    416
+                      .:.|.:          .|.|:.:||:    ||      |:.|:.:.:|.
+ISPH_ACIF5       104 -MEVKKY----------SRDGMEMVLIGHAGHPEVEGTMGQVEEGMMYLV    142
+
+SPB4_ASPFU       417 VRKTPVVPFSP------------SISFSDADAAAATATARKAVLADRALH    454
+                     ...:.|...:|            ::|..|      ||....|:.:...|.
+ISPH_ACIF5       143 SNVSDVATLAPRNPDKLAYITQTTLSMDD------TAEVIVALRSRFPLI    186
+
+SPB4_ASPFU       455 DRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMPELKN    504
+                     :..:|..:.:.....:....|:  ..|:|         :|.:...|...|
+ISPH_ACIF5       187 EGPKKDDICYATQNRQDAVKSL--APDVD---------ILLVVGAPNSSN    225
+
+SPB4_ASPFU       505 FTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRAT    554
+                     .:....||..|....:..:|.|  :.|:|..:...:.|.:...|    |.
+ISPH_ACIF5       226 SSRLAELGTRLGTQTHLIEDAQ--QLRREWFEGVGKIGISAGAS----AP    269
+
+SPB4_ASPFU       555 ESV    557
+                     ||:
+ISPH_ACIF5       270 ESL    272
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      10/34 (29.4%)
+# Similarity:    16/34 (47.1%)
+# Gaps:           4/34 (11.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       362 GLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGR    395
+                     ||.:..|.|::    |....::|||....|:..|
+NDUA1_HUMAN        8 GLSVMGVCLLI----PGLATAYIHRFTNGGKEKR     37
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:      36/151 (23.8%)
+# Similarity:    54/151 (35.8%)
+# Gaps:          45/151 (29.8%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       191 FEMLVLDEADRLLDLGFKETLQNILRRL-------------PKQRRT-GL    226
+                     |..:||.|. |.:.|..:...|:|::.|             |...|| ||
+PSRP_SALTI        70 FYSIVLPEI-RAIILQSEGFCQDIVQALVAPLQQEMKLDPTPIAHRTHGL    118
+
+SPB4_ASPFU       227 FSASVSE------AVDQIVR----VGLRNPVKVMVKVKGGSGVDDKRTPA    266
+                     ...::::      |:|..:.    :.|||..:..|.:.|.|...  :||.
+PSRP_SALTI       119 NPGNLNKYDARIAAIDYTLAHDDGISLRNLDQAQVILLGVSRCG--KTPT    166
+
+SPB4_ASPFU       267 SL------------------QMTYLTTPPSHKFAALKRIVSSVQPTPLKT    298
+                     ||                  .|..||.|.|.|....|....::.|..|..
+PSRP_SALTI       167 SLYLAMQFGIRAANYPFIADDMDNLTLPTSLKPLQHKLFGLTIDPERLAA    216
+
+SPB4_ASPFU       299 I    299
+                     |
+PSRP_SALTI       217 I    217
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 179
+# Identity:      47/179 (26.3%)
+# Similarity:    74/179 (41.3%)
+# Gaps:          38/179 (21.2%)
+# Score: 75.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       483 DWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDWD-----NYAYKDKQR    527
+                     |.:.||: :.|:.:|..|.     |...:.::.|.|     |.:.|||..
+DNAK_CHESB       445 DNKLLGQ-FDLVGIPPAPR-----GMPQIEVTFDIDANGIVNVSAKDKGT    488
+
+SPB4_ASPFU       528 EKRRK------------ELLQEAAESGATQSTSNKRRATESVAWSQQAE-    564
+                     .|.::            |:.:...::.|......|||  |:|....||| 
+DNAK_CHESB       489 GKEQQIRIQASGGLSDAEIEKMVKDAEANAEADKKRR--ETVEVKNQAEA    536
+
+SPB4_ASPFU       565 ---SKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETE-KMVEELRKKN    610
+                        |..|.||....|.|:.::...|....|.|   ..|| :..:.:|.|.
+DNAK_CHESB       537 LIHSTEKSLKDYGDKVSEDDRKAIENAIAELK---TATEGEDADAIRAKT    583
+
+SPB4_ASPFU       611 ----EEERRLRRAVAKAAGAK-ADGDDEE    634
+                         |...:|.:||.:|:.|: |.|..||
+DNAK_CHESB       584 TALAEASMKLGQAVYEASQAENAAGGTEE    612
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 536
+# Identity:     107/536 (20.0%)
+# Similarity:   182/536 (34.0%)
+# Gaps:         142/536 (26.5%)
+# Score: 67.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       146 LLGGSTTPAEDLSTFLKRSPNVLVSTPGRLLELLSSP-------HVHCPQ    188
+                     |..|.....||::|.::...:|.:|.....|:....|       .|..|.
+DNLJ_ACIC5       136 LTRGDGEIGEDVTTNVRTIRSVPLSIADGKLQQAKMPANFEVRGEVVMPF    185
+
+SPB4_ASPFU       189 SSFEMLVLD-EADRLLDLGFKE-----TLQNILRRLPKQRRTGLFS----    228
+                     ::||.|..: ||..|.......     |::.:...:..|||...::    
+DNLJ_ACIC5       186 TAFEKLNEEREAQGLAPAANPRNAAAGTIRTLEPNIVAQRRLDFYAYFAL    235
+
+SPB4_ASPFU       229 --------ASVSEAVDQIVRVGLR--------NPVKVMVKVKGGS-----    257
+                             ....||:|.:..:|.|        ..::.:|:....:     
+DNLJ_ACIC5       236 TEKGEDAFGEQEEALDALATLGFRVNQHRHAAKSIETVVEFVNRAEEHRS    285
+
+SPB4_ASPFU       258 -------GVDDKRTPASLQ--MTYLTTPP----SHKFAALKRIVSSVQPT    294
+                            ||..|...|.||  :.|....|    ::|||| :..|:.|:..
+DNLJ_ACIC5       286 RLGYEIDGVVVKVNSAVLQRRLGYTGRAPRWAVAYKFAA-RSGVTQVEDI    334
+
+SPB4_ASPFU       295 PLKTIFFVSTCSGVDYLSAILPLLLGDDFLL-IPLHGK---HQANVRQKN    340
+                     .::    |.....:..::.:.|:.:|...:. ..||..   .:..:|..:
+DNLJ_ACIC5       335 QVQ----VGRTGKLTPVAWLAPVQVGGTTVTRATLHNADEIERLGLRIGD    380
+
+SPB4_ASPFU       341 FNRFINSHDPAILLTTDVAARGLD-IPSVDLVVQIDPPSDPKS-----FI    384
+                     |.|.               .||.| ||.|  |..:|....|:.     |.
+DNLJ_ACIC5       381 FVRI---------------ERGGDVIPKV--VEVVDDAEHPRGTKHFHFP    413
+
+SPB4_ASPFU       385 HRCGRAGRAGRRGLSVVLLHPGREEDY------------VSFLEVRKTPV    422
+                     |.|...|       |.|:..|| |.||            .|.|......|
+DNLJ_ACIC5       414 HACPACG-------SEVVRTPG-EADYRCVNTDCPARLRESLLHFASRGV    455
+
+SPB4_ASPFU       423 VPFSPSISFSDADAAAATATARKAV--------LADR---ALHDRGQKAF    461
+                     :...     ...:|.......|..|        |.:.   :|...|:|:.
+DNLJ_ACIC5       456 MNIE-----GMGEAIVMQLLGRGLVKTVSDIYSLTEEQLVSLERMGKKSA    500
+
+SPB4_ASPFU       462 VSWLRSYSKHQASSIFR---------VSDLDWEALGKAWG---LLKLPKM    499
+                     .:.|....|.:.:.:.|         |.:...:||.:.:|   .|.....
+DNLJ_ACIC5       501 TALLGEIDKSRQAPLDRVLFGLGIRFVGERTAQALAEEYGSMDALMQASR    550
+
+SPB4_ASPFU       500 PELK--NFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQST    547
+                     .||:  |..|.:.        :.|.::...|.|.::|::...|:| .:.|
+DNLJ_ACIC5       551 EELERVNDVGPRV--------SEAIREFFDEPRNRDLVERLREAG-LRFT    591
+
+SPB4_ASPFU       548 SNKRRATESVAWSQQAESKNKKLKRREQKKSKQEKA    583
+                     ..||:.|..:|......:.......|::.|.|.|.|
+DNLJ_ACIC5       592 GEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIENA    627
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      22/93 (23.7%)
+# Similarity:    36/93 (38.7%)
+# Gaps:          30/93 (32.3%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       372 VQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLHPGREEDY----VSFLEV    417
+                     :.:.||        :..|....|:|     ||.|....:|    ||.:::
+CAPSD_CMVO        73 ITLKPP--------KIDRGSYYGKR-----LLLPDSVTEYDKKLVSRIQI    109
+
+SPB4_ASPFU       418 RKTPVVPFSPSI--------SFSDADAAAATATARKAVLADRA    452
+                     |..|:..|..::        :.||...||.:     |:.||.|
+CAPSD_CMVO       110 RVNPLPKFDSTVWVTVRKVPASSDLSVAAIS-----AMFADGA    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      19/91 (20.9%)
+# Similarity:    40/91 (44.0%)
+# Gaps:          18/91 (19.8%)
+# Score: 44.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       564 ESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETEKMVEELRKKNEEE    613
+                     :.::|.||:: ||.:..::.|:...|::.... .:|..:.|.|||.|...
+IF3_CHLL2         79 DKRDKDLKKK-QKTTTLKELRFHPNTDKHDFD-FKTAHLEEFLRKGNRVR    126
+
+SPB4_ASPFU       614 RRL----RRAVAKAAGAK------------ADGDDEEEFQG    638
+                     ..:    |..:.|..|.:            ::.|.:.:|:|
+IF3_CHLL2        127 ATIVFLGRSIIYKDKGLELAERLTERLSCVSNRDGDPKFEG    167
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       6/36 (16.7%)
+# Similarity:    18/36 (50.0%)
+# Gaps:           2/36 ( 5.6%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       351 AILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHR    386
+                     ::|:..|::...|.:....:.:.::.|.:..  :||
+CSRA_HAEI8        11 SVLIGDDISITVLSVRGNQVKLGVEAPKEVS--VHR     44
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 237
+# Identity:      51/237 (21.5%)
+# Similarity:    92/237 (38.8%)
+# Gaps:          66/237 (27.8%)
+# Score: 69.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        45 IPLFMAHKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKH-HVGAIII     93
+                     |.|| :|.::....:  .|..:|.::|.:  :..||..|.|: ::..||:
+COAX_CLOBL        44 IELF-SHNNLSFSDI--EGVIISSVVPNI--MYSLEHMISKYFNIKPIIV     88
+
+SPB4_ASPFU        94 SP------------TREL-ASQIYNVLSSLLAFHPPSAAAINPSEDDDAP    130
+                     .|            .:|: |.:|.|.:::...:..|....      |...
+COAX_CLOBL        89 GPGVKTGINIKYDNPKEVGADRIVNAVAAHEIYKKPLIII------DFGT    132
+
+SPB4_ASPFU       131 RPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSPNVLVSTPGRL--LEL    178
+                     ...|.:.|.:.   ..|||:..|.      :|.|.:.|.....:|  :||
+COAX_CLOBL       133 ATTFCAVTKEA---NYLGGTICPG------IKISSDALFDKAAKLPRVEL    173
+
+SPB4_ASPFU       179 LSSPHVHCPQS--------------SFEMLVLDEADRLLDLGFKETLQNI    214
+                     :.:|.|.|..:              ..:.:|......::|||.:|     
+COAX_CLOBL       174 VKTPGVICKNTVASIQSGIIYGYAGQVDYIVSKMKKEMMDLGEEE-----    218
+
+SPB4_ASPFU       215 LRRLPKQRRTGLFSASVSE---AVDQIVRV----GLR    244
+                         |....||.|:..:||   ::|:|..:    |||
+COAX_CLOBL       219 ----PFVVATGGFAKLISEESKSIDEINAILTLEGLR    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       9/22 (40.9%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           2/22 ( 9.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       333 QANVRQKNFNRFINSH-DPAIL    353
+                     |..:.:.|||: :|.| ||..|
+HOP_BOVIN         13 QVEILEYNFNK-VNKHPDPTTL     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 491
+# Identity:      91/491 (18.5%)
+# Similarity:   159/491 (32.4%)
+# Gaps:         166/491 (33.8%)
+# Score: 66.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       160 FLKRSPNVLVSTPGRLLELLSSPHVH----CPQSSFEML------VLDEA    199
+                     :.|.:..||..|||          :|    ..||.|:.|      ||:.:
+THII_VIBA3        59 YFKETLEVLTQTPG----------IHHSLEVQQSEFKDLHNIYEQVLERS     98
+
+SPB4_ASPFU       200 DRLLDLGFKETLQNILRRLPKQRRTGL-----FSASVSEAVDQIVRVGLR    244
+                     ..|::   .:|.....:|..|...|.:     ....:::||:. .:|.|:
+THII_VIBA3        99 GALIE---GKTFSVRAKRRGKHDFTSIELERYVGGGLNQAVES-AKVKLK    144
+
+SPB4_ASPFU       245 NP-VKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIV---SS    290
+                     || :.|.|:|:     :||                     |.:::   ..
+THII_VIBA3       145 NPDITVKVEVE-----NDK---------------------LNQVIERHKG    168
+
+SPB4_ASPFU       291 VQPTPLKTIFFVSTCSGVDYLSAILPLLLG--DDFLLIPLHGKHQANVRQ    338
+                     :...||.|            ...:|.|:.|  |..:...||.|       
+THII_VIBA3       169 LGGFPLGT------------QEDLLSLISGGFDSGVSSYLHIK-------    199
+
+SPB4_ASPFU       339 KNFNRFINSHDPAILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRC-    387
+                                           ||                   |.:|.| 
+THII_VIBA3       200 ----------------------RG-------------------SKVHYCF    208
+
+SPB4_ASPFU       388 ----GRAGRAGRRGLSVVLLHPGREEDYVSFLEVRKTPVVPFSPSISFSD    433
+                         |.|...|.:.:|..|.........|.|:.:...|||   ..|..:.
+THII_VIBA3       209 FNLGGPAHEIGVKQVSHYLWDKYGSSAKVKFISIDFEPVV---AEILENV    255
+
+SPB4_ASPFU       434 ADAAAATATARKAVLADRALHDR-GQKAFVSWLRSYSKHQASSIFRVSDL    482
+                     .|........|..:.|...:.:| |.:|.|:                   
+THII_VIBA3       256 EDGQMGVVLKRMFMRAGGMVAERFGIEALVT-------------------    286
+
+SPB4_ASPFU       483 DWEALGKAWGLLKLPKMPELKNFTGDKTLGMSLDWDNYAYKDKQREKRRK    532
+                      .||||:. ....|..:..:.|.|....|...::||.....|..|:...:
+THII_VIBA3       287 -GEALGQV-SSQTLTNLRHIDNVTDTLILRPLINWDKEDIIDLSRKIGTE    334
+
+SPB4_ASPFU       533 ELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKR----------    572
+                     :..:...|.....|.....:|.:....:::|:...:.|::          
+THII_VIBA3       335 DFAKVMPEYCGVISKKPTVKAKKGKLEAEEAKFNFEVLEQVIENARIMDI    384
+
+SPB4_ASPFU       573 REQKKSKQEKARWEKMTEEEKQKVLETEKMVEELRKKNEEE    613
+                     |:.:|..||:|     .|.|:.:.:....:|.::|..:||:
+THII_VIBA3       385 RDIEKESQEQA-----PEVEQVQAVAEHAVVLDIRSPDEED    420
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      13/46 (28.3%)
+# Similarity:    25/46 (54.3%)
+# Gaps:           2/46 ( 4.3%)
+# Score: 43.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       581 EKARWEKMTEEEKQKVLETEKMVEELRKKNEEERRLRRAVAKAAGA    626
+                     ::..:||:..:..::|:||  .|:.:..||...|.:.|.:...|||
+RL13_PSEPG        85 KEINFEKLIAKAPERVIET--AVKGMLPKNPLGRDMYRKLKVYAGA    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:      25/131 (19.1%)
+# Similarity:    46/131 (35.1%)
+# Gaps:          47/131 (35.9%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       223 RTGLFSASVSEAVD----------QIVRVGLRNPVKVMVK---VKGGSGV    259
+                     ||..|   :|||.|          |.:.||.:|....:|.   ::.....
+RR2_ARATH         49 RTARF---LSEACDLVFDAASRGKQFLIVGTKNKAADLVSRAAIRARCHY     95
+
+SPB4_ASPFU       260 DDKRTPASLQMTYLTTPPS-HKF--------------------AALKRIV    288
+                     .:|:....:...:.||... |||                    |.|||.:
+RR2_ARATH         96 VNKKWLGGMLTNWSTTEKRLHKFRDLRTEQKTEGFNRLPKRDAAVLKRQL    145
+
+SPB4_ASPFU       289 SSVQPTPLKTIFFVSTCSGVDYLSAILPLLL    319
+                     |.::          :...|:.|::.:..:::
+RR2_ARATH        146 SRLE----------TYLGGIKYMTGLPDIVI    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 149
+# Identity:      30/149 (20.1%)
+# Similarity:    51/149 (34.2%)
+# Gaps:          37/149 (24.8%)
+# Score: 57.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       253 VKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFV    302
+                     ||...|:.....||.||:......|.:.....|.:|     ||  |...:
+Y1710_SYNP2      178 VKAAHGILPVPVPAVLQLWQQRQVPVYSNGIEKELV-----TP--TGAAI    220
+
+SPB4_ASPFU       303 STCSGVDYLS----AILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSH    348
+                     :|....|:..    .:..:.||...:.:||          .|..|....|
+Y1710_SYNP2      221 ATTLATDFCQPPAMTLAKIALGSGTIDLPL----------PNLLRLWIGH    260
+
+SPB4_ASPFU       349 DPAILLTTDVAARGLDIPSVDLVVQIDPPSD---PKSFIHRCGRAGRAG    394
+                     .|             :.|.::.:|.::...|   |::..:.|.:...||
+Y1710_SYNP2      261 QP-------------ETPHLETIVTLETQIDDLNPQAIAYACEKLQAAG    296
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 230
+# Identity:      55/230 (23.9%)
+# Similarity:    93/230 (40.4%)
+# Gaps:          48/230 (20.9%)
+# Score: 81.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        91 IIISPTRELASQIYNVLSSLLAFHPPSAAAINPSED-DDAPRPK------    133
+                     ||:.|:....:.:..|::.::  .|.|.......|| .|.|..|      
+WTPC_THEKO        31 IILGPSGAGKTVLLEVIAGII--EPDSGRIFLNGEDITDLPPEKRGLAYI     78
+
+SPB4_ASPFU       134 ------FPSST--------LKV--VPQLLLGGSTTPAED---LSTFLKRS    164
+                           ||:.:        |||  ||:..:|.......:   :|..|||.
+WTPC_THEKO        79 PQNYALFPNMSVFDNIAFGLKVRKVPKAEIGRKVRELSEVLGISHLLKRK    128
+
+SPB4_ASPFU       165 PNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQNI    214
+                     |..|.....:.:.:..:..|. |    |:|:|||....||:..:..|.|.
+WTPC_THEKO       129 PKTLSGGEMQRVAIARALAVE-P----ELLLLDEPFANLDVQTRGRLINE    173
+
+SPB4_ASPFU       215 LRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKVMVK---VKGGSGVDD    261
+                     ::|..|:  .|..:..|:.:.::.|.:|.|  |.||:.   |:.|...:.
+WTPC_THEKO       174 MKRWRKE--LGFTALHVTHSFEEAVSLGDR--VGVMLNGRLVQVGPVREV    219
+
+SPB4_ASPFU       262 KRTPASLQMTYLTTPPSHKFAALKRIVSSV    291
+                     ...|||.::.        ||...:.||..:
+WTPC_THEKO       220 FSRPASEEVA--------KFLGFENIVEGL    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:     111/576 (19.3%)
+# Similarity:   193/576 (33.5%)
+# Gaps:         194/576 (33.7%)
+# Score: 55.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       117 SAAAINPSEDDDAPRPKFPSST-----------LKVVPQLLLGGSTTPAE    155
+                     |.:.::.|.:|..|.|..|..|           :|....|.:..|....|
+GRB7_RAT           6 SPSHLSSSPEDVCPTPGTPPETPPPPDNPPPGDVKRSQPLPIPSSRKLRE     55
+
+SPB4_ASPFU       156 D--LSTFLKRSPN---VLVSTPGR--LLELLSSPHVHCPQSSFEMLVL--    196
+                     :  .:|.|...||   .|.|.|.:  :|...|......|:.|..:.|:  
+GRB7_RAT          56 EEFQATSLPSIPNPFPELCSPPSQKPILGGSSGARGLLPRDSSRLCVVKV    105
+
+SPB4_ASPFU       197 ---DEADRLLDLGFKETLQNILRRLPKQRRT------GLFSASVSEAVDQ    237
+                        |.|.|.:::....|.:::...|.::...      ||.......|:::
+GRB7_RAT         106 YSEDGACRSVEVAAGATARHVCEMLVQRAHALSDENWGLVECHPYLALER    155
+
+SPB4_ASPFU       238 IVRVGLRNPVKVMV-----KVKGGSGVDDKRTPASLQMTYLTTPPSHKFA    282
+                         ||.:...|:.     .|.|.|....::..|..::  ..:||...|.
+GRB7_RAT         156 ----GLEDHESVVEVQEAWPVGGDSRFIFRKNFAKYEL--FKSPPHTLFP    199
+
+SPB4_ASPFU       283 ALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFL----LIPL    328
+                       :::|||...||          :|:.:...|...|....|.    .:.|
+GRB7_RAT         200 --EKMVSSCLDTP----------TGISHEDLIQNFLNAGSFPEIQGFLQL    237
+
+SPB4_ASPFU       329 HGKHQANVRQ--KNFNRFI-----------NSHDPAIL-LTTDVAARGLD    364
+                     .|..:.:.|:  |.|..|:           .|.||..| ...|:     :
+GRB7_RAT         238 RGSGRGSGRKLWKRFFCFLRRSGLYYSTKGTSKDPRHLQYVADI-----N    282
+
+SPB4_ASPFU       365 IPSVDLVVQ----IDPPSD------PKSFIHRCGRAGRAGRRGLSVVLLH    404
+                     ..:|.:|.|    ...|:|      |...        |.|.:||.:    
+GRB7_RAT         283 ESNVYVVTQGRKLYGIPTDFGFCVKPNKL--------RNGHKGLHI----    320
+
+SPB4_ASPFU       405 PGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALH    454
+                                               |...|..:.|..     |:...|.
+GRB7_RAT         321 --------------------------FCSEDEQSRTCW-----LSAFRLF    339
+
+SPB4_ASPFU       455 DRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMPELKN    504
+                     ..|.:.:.::.::.|:|     .|:|.|.               .|.|::
+GRB7_RAT         340 KYGVQLYKNYQQAQSRH-----LRLSYLG---------------SPPLRS    369
+
+SPB4_ASPFU       505 FTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRAT    554
+                      ..|.|| :::|:..:|       .|..|..|||. |.||:         
+GRB7_RAT         370 -VSDNTL-VAMDFSGHA-------GRVIENPQEAL-SAATE---------    400
+
+SPB4_ASPFU       555 ESVAWSQQAESKNKKLK--------------RREQKKSKQEKARW--EKM    588
+                     |:.||.::.   |.:|.              .|.|.        |  .::
+GRB7_RAT         401 EAQAWRKKT---NHRLSLPTPCSGLSLSAAIHRTQP--------WFHGRI    439
+
+SPB4_ASPFU       589 TEEEKQKVLETEKMVEELRKKNEEER    614
+                     :.||.|:::..:.:|:.:....|.:|
+GRB7_RAT         440 SREESQRLIGQQGLVDGVFLVRESQR    465
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 194
+# Identity:      45/194 (23.2%)
+# Similarity:    68/194 (35.1%)
+# Gaps:          50/194 (25.8%)
+# Score: 55.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       291 VQPTPLKTIFFVSTCSG-VDYLSAILP---LLLGDDFLLIPLHGKHQANV    336
+                     |:.||::....|:...| |..:..::|   |.|||.    ||   .:.::
+PSD_RHOPS         58 VRVTPVREGLVVAPADGRVSMVVQMIPPPALGLGDK----PL---PRVSI    100
+
+SPB4_ASPFU       337 RQKNFNRFINS-----------HDPAILLTTDVAARGLDIPSVDLVVQID    375
+                     ....||..:|.           :.|...:..::.....|.....:|:   
+PSD_RHOPS        101 FMSVFNCHVNRSPVAGRVERIIYSPGKFINAELDKASEDNERNSMVI---    147
+
+SPB4_ASPFU       376 PPSDPKSFIHRCGRAGRAGRRGLSVV----LLHPGREEDYVSF-------    414
+                       |.|...|.....||...||.:|.|    .|.||.....:.|       
+PSD_RHOPS        148 --STPAGQIGVVQIAGLVARRIVSFVREGQTLAPGERFGLIRFGSRLDVY    195
+
+SPB4_ASPFU       415 LEVRKTPVVPFSPSISFSDADAAAATATARKAVLADRALHDRGQ    458
+                     |.....|:|            :...||.|.:.||||..|.|.|:
+PSD_RHOPS        196 LPEGAKPLV------------SEGQTAIAGETVLADFNLGDGGR    227
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 736
+# Identity:     140/736 (19.0%)
+# Similarity:   238/736 (32.3%)
+# Gaps:         225/736 (30.6%)
+# Score: 67.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU        64 KTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIYNVLSSLLAF    113
+                     :||:..||      ::.:|:    :.:::.||:  ||.:    ..:|::|
+PP156_ARATH       28 ETLNPYIP------QITQPL----LTSLLSSPS--LAKK----PETLVSF     61
+
+SPB4_ASPFU       114 HPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAED-LSTFLK    162
+                     ...:..:|..:...|:|.|     .:.||..||.......|:. |.::::
+PP156_ARATH       62 FQWAQTSIPEAFPSDSPLP-----LISVVRSLLSHHKFADAKSLLVSYIR    106
+
+SPB4_ASPFU       163 RS------------PNVLVSTP--GRLLELLSSPHVHCPQSSFEMLVLDE    198
+                     .|            ||:.:|.|  ..|.::..|.::|..:....:.:..:
+PP156_ARATH      107 TSDASLSLCNSLLHPNLHLSPPPSKALFDIALSAYLHEGKPHVALQIFQK    156
+
+SPB4_ASPFU       199 ADRLL---DLGFKETLQNILRRLPKQRRTGLFS-ASVSEAVDQIVRVGLR    244
+                     ..||.   :|....||...|.|.|..     || :|..|..|.:|::|:.
+PP156_ARATH      157 MIRLKLKPNLLTCNTLLIGLVRYPSS-----FSISSAREVFDDMVKIGVS    201
+
+SPB4_ASPFU       245 NPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPT    294
+                     ..|:....:..|..::.|...|              ...|:|:||..:..
+PP156_ARATH      202 LNVQTFNVLVNGYCLEGKLEDA--------------LGMLERMVSEFKVN    237
+
+SPB4_ASPFU       295 PLKTIF--FVSTCSGVDYLSAILPLLLG----------------------    320
+                     |....:  .:...|....||.:..|||.                      
+PP156_ARATH      238 PDNVTYNTILKAMSKKGRLSDLKELLLDMKKNGLVPNRVTYNNLVYGYCK    287
+
+SPB4_ASPFU       321 -----DDFLLIPLHGKHQANVRQK--NFNRFINSHDPAILLTTDVAARGL    363
+                          :.|.::.|  ..|.||...  .:|..||.     |........||
+PP156_ARATH      288 LGSLKEAFQIVEL--MKQTNVLPDLCTYNILING-----LCNAGSMREGL    330
+
+SPB4_ASPFU       364 DIPSVDLVVQIDPPSDPKSF---IHRCGRAGRAGRRGLSVVLLHPGREED    410
+                     ::......:::.|  |..::   |..|...|.:    |....|....|.|
+PP156_ARATH      331 ELMDAMKSLKLQP--DVVTYNTLIDGCFELGLS----LEARKLMEQMEND    374
+
+SPB4_ASPFU       411 YVSFLEV-------------------RKTPVV----PFSPSI--------    429
+                     .|...:|                   ||...:    .|||.|        
+PP156_ARATH      375 GVKANQVTHNISLKWLCKEEKREAVTRKVKELVDMHGFSPDIVTYHTLIK    424
+
+SPB4_ASPFU       430 ---SFSDADAAA-----------------------ATATARKAVLADRAL    453
+                        ...|...|.                       |....||...|...|
+PP156_ARATH      425 AYLKVGDLSGALEMMREMGQKGIKMNTITLNTILDALCKERKLDEAHNLL    474
+
+SPB4_ASPFU       454 HDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKM-PEL    502
+                     :...::.|:....:|.. .....||...:: :|| :.|..:|..|: |.:
+PP156_ARATH      475 NSAHKRGFIVDEVTYGT-LIMGFFREEKVE-KAL-EMWDEMKKVKITPTV    521
+
+SPB4_ASPFU       503 KNFT---------GDKTLGMSLDWDNYA-----------------YKDKQ    526
+                     ..|.         |...|.|. .:|..|                 |..:.
+PP156_ARATH      522 STFNSLIGGLCHHGKTELAME-KFDELAESGLLPDDSTFNSIILGYCKEG    570
+
+SPB4_ASPFU       527 REKRRKE-------------------LLQEAAESGATQSTSN------KR    551
+                     |.::..|                   ||....:.|.|:...|      :.
+PP156_ARATH      571 RVEKAFEFYNESIKHSFKPDNYTCNILLNGLCKEGMTEKALNFFNTLIEE    620
+
+SPB4_ASPFU       552 RATESVAWSQ--QAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLET    599
+                     |..::|.::.  .|..|:||||......|:.|    ||..|.::......
+PP156_ARATH      621 REVDTVTYNTMISAFCKDKKLKEAYDLLSEME----EKGLEPDRFTYNSF    666
+
+SPB4_ASPFU       600 EKMVEELRKKNEEERRLRRAVAKAAGAKADGDDEEE    635
+                     ..::.|..|.:|.:..|::...|....|.|...|.|
+PP156_ARATH      667 ISLLMEDGKLSETDELLKKFSGKFGSMKRDLQVETE    702
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 115
+# Identity:      23/115 (20.0%)
+# Similarity:    40/115 (34.8%)
+# Gaps:          35/115 (30.4%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        21 LSEWVLEAMSSMGFTRMTPVQ--------ASAIPLFMAHKDVVVEAVTG-     61
+                     |..|::.     |.|...|:|        ..||..:  ||:...:..|. 
+ADRB2_MESAU      155 LMVWIVS-----GLTSFLPIQMHWYRATHQKAIDCY--HKETCCDFFTNQ    197
+
+SPB4_ASPFU        62 ----SGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELAS-QIYNV    106
+                         :...:||.:|:|              |...:.|...::|. |:..:
+ADRB2_MESAU      198 AYAIASSIVSFYVPLV--------------VMVFVYSRVFQVAKRQLQKI    233
+
+SPB4_ASPFU       107 LSSLLAFHPPSAAAI    121
+                     ..|...||.|:...:
+ADRB2_MESAU      234 DKSEGRFHSPNLGQV    248
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       7/11 (63.6%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       509 KTLGMSLDWDN    519
+                     |.||:|:|.||
+ID5B_ADEPA         4 KDLGISIDDDN     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      11/31 (35.5%)
+# Similarity:    17/31 (54.8%)
+# Gaps:           3/31 ( 9.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       133 KFPSSTLKVVPQLLLGGSTTPAEDLSTFLKR    163
+                     |..|.:|:::..||||...:   ..||.||:
+GPA7_CAEEL        25 KDQSMSLRIIKLLLLGAGES---GKSTILKQ     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      19/61 (31.1%)
+# Similarity:    27/61 (44.3%)
+# Gaps:           9/61 (14.8%)
+# Score: 41.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       178 LLSSPHVHCPQSSFEMLVLDEADRLLDLGFKETLQN------ILRR-LPK    220
+                     ||::..|  |..:.|......||..|.|.|...|.|      :.|| |.|
+IDI_ECO24          8 LLNAQGV--PTGTLEKYAAHTADTRLHLAFSSWLFNAKGQLLVTRRALSK     55
+
+SPB4_ASPFU       221 QRRTGLFSASV    231
+                     :...|:::.||
+IDI_ECO24         56 KAWPGVWTNSV     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 145
+# Identity:      33/145 (22.8%)
+# Similarity:    53/145 (36.6%)
+# Gaps:          24/145 (16.6%)
+# Score: 59.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       498 KMPELKNFTGDKTLGMSLDWD-NYAYKDKQREKRRKELLQEAAESGATQS    546
+                     ::|......|.|.|   :|:| ...||....|..|..||   |:...:||
+YHJA_ECOLI        68 ELPAYYYIPGAKQL---MDYDIKLGYKSFNLEAVRAALL---ADKPVSQS    111
+
+SPB4_ASPFU       547 TSNKRRATESVAWSQQAESKNKKLKRREQKKSKQEKARWE-KMTEEEKQK    595
+                     ..||      :.|..|.|:         ...::.....|. |:::||:.:
+YHJA_ECOLI       112 DLNK------IEWVMQYET---------MPPTRYTALHWAGKVSDEERAE    146
+
+SPB4_ASPFU       596 VLE-TEKMVEELRKKNEEERRLRRAVAKAAGAKADGDDEEEFQGF    639
+                     :|. ..|...|....|:.....|....:....|...|.::...||
+YHJA_ECOLI       147 ILAWIAKQRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKVALGF    191
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 146
+# Identity:      26/146 (17.8%)
+# Similarity:    43/146 (29.5%)
+# Gaps:          55/146 (37.7%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       259 VDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGV    308
+                     ||.:||...:...|:..|........:::...:|        .|.|...:
+RIMP_BURPS        19 VDLERTGRGMVCVYIDQPAGITIDDCEKVTRQLQ--------HVLTVENI     60
+
+SPB4_ASPFU       309 DYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDPAILLTTDV    358
+                     ||           :.|.:...|..:...:..:|.||..|           
+RIMP_BURPS        61 DY-----------ERLEVSSPGLDRPLKKLADFTRFAGS-----------     88
+
+SPB4_ASPFU       359 AARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLH    404
+                               :.|:.:..|.|           ||...||    :||
+RIMP_BURPS        89 ----------EAVITLKKPLD-----------GRKTYRG----ILH    109
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 60
+# Identity:      14/60 (23.3%)
+# Similarity:    22/60 (36.7%)
+# Gaps:          14/60 (23.3%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       374 IDPPSDPKSFIHRCGRAGRAGR--------------RGLSVVLLHPGREE    409
+                     :|.|..|.......||.|..|:              |.::..:..|.||.
+RS28_OSTOS         1 MDKPVKPAXVTKNIGRTGSQGQCTQVRVEFMDDNGNRTINRNVKGPVREG     50
+
+SPB4_ASPFU       410 DYVSFLEVRK    419
+                     |.::.||..:
+RS28_OSTOS        51 DILTLLEAER     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:      29/139 (20.9%)
+# Similarity:    45/139 (32.4%)
+# Gaps:          37/139 (26.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       305 CSGVDYLSAILPLLL--GDDFLLIPLHGKHQANVRQK----NFNRFINS-    347
+                     |....::.||.|.|.  .:.:....||.....:.:.|    ||:...|| 
+HBAC_LITCT         5 CDDKAHIRAIWPCLASHAEQYGAEALHRMFLCHPQTKTYFPNFDFHANSA     54
+
+SPB4_ASPFU       348 ----HDPAILLTTDVAARGLDIPSVDL---------VVQIDPPSDPKSFI    384
+                         |...::.....|.:.||.|...|         .:::||        
+HBAC_LITCT        55 HLKNHGKKVMNALTDAVKHLDHPEASLSSLSDLHAFTLRVDP--------     96
+
+SPB4_ASPFU       385 HRCGRAGRAGRRGLSVVLLHPGREEDYVS------FLEV    417
+                        |.........|.||.:|...:..|.:      ||.|
+HBAC_LITCT        97 ---GNFALLSNNILVVVAVHHSDKLSYETHQALDKFLNV    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 576
+# Identity:     123/576 (21.4%)
+# Similarity:   173/576 (30.0%)
+# Gaps:         208/576 (36.1%)
+# Score: 79.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       111 LAFHPPSAAAINPSEDDD------APRPKFPSSTLKVVPQLLLGGSTTPA    154
+                     |||...||    ...|.|      ||:..|...:...:..:::||.|   
+RPOA_PRRSS      2271 LAFQDRSA----DYRDRDYEGVQTAPQQGFDPKSETPIGTVVIGGIT---   2313
+
+SPB4_ASPFU       155 EDLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEADRLLD    204
+                       .:.:|.:...|||..|...||...             |.|::|  |..
+RPOA_PRRSS      2314 --YNRYLIKGKEVLVPKPDNCLEAAK-------------LSLEQA--LAG   2346
+
+SPB4_ASPFU       205 LGFK--------ETLQNILRRL----PKQRRTGLFSAS-----------V    231
+                     :|..        |.|:.|:.:|    .:|....|.:||           |
+RPOA_PRRSS      2347 MGQTCDLTAAEVEKLRRIISQLQGLTTEQALNCLLAASGLTRCGRGGLVV   2396
+
+SPB4_ASPFU       232 SEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKF    281
+                     :|...:||:...|......:.:|..|..:.|:          :|...|..
+RPOA_PRRSS      2397 TETAVKIVKYHSRTFTLGPLDLKVTSEAEVKK----------STEQGHAV   2436
+
+SPB4_ASPFU       282 AALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLL------    325
+                     .|                   :.||||..:....|.|:  |.||      
+RPOA_PRRSS      2437 VA-------------------NLCSGVILMRPHPPSLV--DVLLKPGLDT   2465
+
+SPB4_ASPFU       326 ----IPLHGKHQANVRQKNFNRFINSHDPAIL-LTTDV-----AARGLDI    365
+                         .|.||.....|....:: |..:...|.| |:..:     ..|| |.
+RPOA_PRRSS      2466 KPGIQPGHGAGNMGVDGSTWD-FETAPTKAELELSKQIIQACEVRRG-DA   2513
+
+SPB4_ASPFU       366 PSVDLVVQIDP------------------------PSDPKSFIHRC----    387
+                     |::.|..::.|                        |.|.||.||..    
+RPOA_PRRSS      2514 PNLQLPYKLYPVRGDPERHGGRLINTRFGDLSYKTPQDTKSAIHAACCLH   2563
+
+SPB4_ASPFU       388 --GRAGRAGRRGLSVVLLHPGREEDYVSFLEVRKTPVVPFS--------P    427
+                       |.....|:..|...|.|  ..|.||        |.||:|        |
+RPOA_PRRSS      2564 PNGAPVSDGKSTLGTTLQH--GFELYV--------PTVPYSVMEYLDSRP   2603
+
+SPB4_ASPFU       428 SISFSDADAAAATATARKAVLADRALHDRGQKAFVSWLRSYSKHQASSIF    477
+                     ...|.......:     ||...|...:|...:.||          ...:.
+RPOA_PRRSS      2604 DTPFMCTKHGTS-----KAAAEDLQKYDLSTQGFV----------LPGVL   2638
+
+SPB4_ASPFU       478 R-VSDLDWEALGKAWGLLKLPKMPELKN----FTGDK-------------    509
+                     | |....:..:|||..|. ||.....||    ..|.:             
+RPOA_PRRSS      2639 RLVRRFIFGHIGKAPPLF-LPSTYPAKNSMAGINGQRFPTKDVQSIPEID   2687
+
+SPB4_ASPFU       510 ---TLGMSLDWD---------NYAYKDKQR----EKRRKELLQEAAESGA    543
+                        ...:..:|.         .|..|.|.|    ......|...:|.||.
+RPOA_PRRSS      2688 EMCARAVKENWQTVTPCTLKKQYCSKPKTRTILGTNNFIALAHRSALSGV   2737
+
+SPB4_ASPFU       544 TQSTSNKRRATESVAW-SQQAESKNK    568
+                     ||:...|       || |..|..|||
+RPOA_PRRSS      2738 TQAFMKK-------AWKSPIALGKNK   2756
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 233
+# Identity:      50/233 (21.5%)
+# Similarity:    79/233 (33.9%)
+# Gaps:          80/233 (34.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU         7 SGTSLRAWDAVTPALS-----EWVLEAMSSMG-----FTRMTP-------     39
+                     ||...|.|...|..||     ..||:.....|     |:|:..       
+UBIE_PSEAE        49 SGGIHRLWKRFTIELSGVRSGNRVLDIAGGTGDLTRQFSRLVGPTGEVVL     98
+
+SPB4_ASPFU        40 VQASAIPLFMAHKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVG     89
+                     ...:|..|.:....::.:.|:|:   :||:....|||     |...:|..
+UBIE_PSEAE        99 ADINASMLKVGRDKLLDKGVSGN---VSFVQADAEKL-----PFPDNHFD    140
+
+SPB4_ASPFU        90 AIIISPTRELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTL    139
+                     .:.|                  ||     ...|.:..|:|.|     |.|
+UBIE_PSEAE       141 CVTI------------------AF-----GLRNVTHKDEAIR-----SML    162
+
+SPB4_ASPFU       140 KVVPQLLLGGSTTPAEDLSTFLKRSPNV-----------LVSTPGRLLE-    177
+                     :|   |..||.....|    |.|.|.|:           |:...|:|:. 
+UBIE_PSEAE       163 RV---LKPGGRLLVLE----FSKPSSNLLSKAYDAYSFSLLPLMGKLVTN    205
+
+SPB4_ASPFU       178 -------LLSSPHVHCPQSSFEMLVLDEA-DRL    202
+                            |..|..:|..|.:.:.::::.. ||:
+UBIE_PSEAE       206 DSESYRYLAESIRMHPDQETLKAMMVEAGFDRV    238
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 316
+# Identity:      75/316 (23.7%)
+# Similarity:   110/316 (34.8%)
+# Gaps:         115/316 (36.4%)
+# Score: 65.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        53 DVVVEAVTGS-GKTL-SFLIPVVEKLLRLEEPIKKHHV------------     88
+                     ||||.|:.|. |:.: .||    |::|. ||.:||..|            
+FLII_AQUAE       189 DVVVLALIGERGREVKEFL----EEVLG-EEGLKKSVVVVSTADQSPILK    233
+
+SPB4_ASPFU        89 --GAI-IISPTRELASQIYNVL---------------SSLLAFHPPSAAA    120
+                       ||| .:......|||..:||               ..|.|..||:...
+FLII_AQUAE       234 VKGAISAVVHAHHFASQGKDVLLLMDSITRLALAQREIGLAAGEPPTLKG    283
+
+SPB4_ASPFU       121 INPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTPAEDLSTFLKRSP----N    166
+                     ..||                 |.|||    |..||....|.|.|.    .
+FLII_AQUAE       284 FTPS-----------------VFQLL----TRIAESCGAFKKGSITGIFT    312
+
+SPB4_ASPFU       167 VLVSTPGRLLELLSSPHVHCPQSSFEMLVLD--------EADRLLDLGFK    208
+                     |||......|:         |.:...|.|||        .|.|.| ....
+FLII_AQUAE       313 VLVEGDDISLD---------PIADSLMGVLDGHIILSRKRAVRGL-FPAV    352
+
+SPB4_ASPFU       209 ETLQNILRRLPKQ------RRTGLFSASVS--EAVDQIVRVGLRNPVKVM    250
+                     :.::::.|.:||.      .:...|...:|  |.|:::||:||       
+FLII_AQUAE       353 DPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGL-------    395
+
+SPB4_ASPFU       251 VKVKGGSG-VDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTI    299
+                       .||||. :.||                 ....|:::.|..:..|.:.:
+FLII_AQUAE       396 --YKGGSNPLVDK-----------------VINNLEKVESFFKQKPEEKV    426
+
+SPB4_ASPFU       300 FFVSTCSGVDYLSAIL    315
+                     .|..:...:|.:.::|
+FLII_AQUAE       427 NFEESLKALDEIYSLL    442
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 426
+# Identity:      66/426 (15.5%)
+# Similarity:   153/426 (35.9%)
+# Gaps:         139/426 (32.6%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       313 AILPLLLGDDFLLIPLHGKHQANVRQKNFN--------RFINSHDPAILL    354
+                     |.:|||.|::...:.:.....|.:.|.:.|        ..:|::|..:|.
+MSS11_VANPO       87 ADVPLLTGNNNDDVAVKNPTAATLSQNDLNPRELLPTKMLMNANDTFLLE    136
+
+SPB4_ASPFU       355 -------------TTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGR--    389
+                                  |:|::|...:....|.:..|.|.|: |....|..|  
+MSS11_VANPO      137 WWEYFSSVYDFVDTSDLSALQNNDFLQDRIFPILPTSN-KVPTQRYSRQQ    185
+
+SPB4_ASPFU       390 ----------AGRAGRRGLSVVLLHPGREEDYVSFLEVRKTPVVPFSPSI    429
+                               .|.:.|.|:...:.:|..:....|                
+MSS11_VANPO      186 SDQVQMNQNSTGNSSRSGMGTPIANPSNQNYQHS----------------    219
+
+SPB4_ASPFU       430 SFSDADAAAATATARKAV---------------LADRALHDRGQKAFVSW    464
+                       |:.::...|:||....               .|.:.|:.:.|...|  
+MSS11_VANPO      220 --SNPNSGTPTSTANNNTNNNNNNNSNNNNSKQFAQQTLNSQLQNGVV--    265
+
+SPB4_ASPFU       465 LRSYSKHQ------------ASSIFRVSDLDWEALGKAWGLLK-------    495
+                        |..:|            :|.|.....:|.:.  :...|||       
+MSS11_VANPO      266 ---YPSNQNGQQHARRPQSVSSDISNTMSMDEQQ--QQMNLLKQVNSQNP    310
+
+SPB4_ASPFU       496 -----------------LPKMP-ELKNFTGDKTLGMS-LDWDNYAYKDKQ    526
+                                      .|..| ...|..|:....:| ::| |...:::.
+MSS11_VANPO      311 QLMNNMLFQNVQQQSSSSPNTPVSANNVDGNGQFPISKMNW-NRIQRERM    359
+
+SPB4_ASPFU       527 REKRRKELLQEAAESGATQSTSNKRRATESVAWSQQAESKNKKLKRREQK    576
+                     |..|:::.::        |....::|...:....||.:.:::..:::.|:
+MSS11_VANPO      360 RIMRQQQQIR--------QQQMQQQRPQPNQQQIQQQQQRSQLPQQQAQQ    401
+
+SPB4_ASPFU       577 KSKQEKARWEKMTEEEK-----QKVLETEKMVEELRKKNEEE--------    613
+                     :.:|.|   ::::::::     |:|.:.::|.::|:::.:::        
+MSS11_VANPO      402 RIQQAK---QQVSQQQRPHPTQQQVHQMQQMQKQLQQQLQQQSVMQGQQQ    448
+
+SPB4_ASPFU       614 --RRLRRAVAKAAGAKADGDDEEEFQ    637
+                       .:|::...::.|.....|.:::.|
+MSS11_VANPO      449 GPMQLQQGQTQSQGQGQAQDAQQQGQ    474
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 640
+# Identity:     640/640 (100.0%)
+# Similarity:   640/640 (100.0%)
+# Gaps:           0/640 ( 0.0%)
+# Score: 3247.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU         1 MAPKPPSGTSLRAWDAVTPALSEWVLEAMSSMGFTRMTPVQASAIPLFMA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU         1 MAPKPPSGTSLRAWDAVTPALSEWVLEAMSSMGFTRMTPVQASAIPLFMA     50
+
+SPB4_ASPFU        51 HKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU        51 HKDVVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTRELA    100
+
+SPB4_ASPFU       101 SQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGS    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       101 SQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGS    150
+
+SPB4_ASPFU       151 TTPAEDLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEAD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       151 TTPAEDLSTFLKRSPNVLVSTPGRLLELLSSPHVHCPQSSFEMLVLDEAD    200
+
+SPB4_ASPFU       201 RLLDLGFKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKVM    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       201 RLLDLGFKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLRNPVKVM    250
+
+SPB4_ASPFU       251 VKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIF    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       251 VKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRIVSSVQPTPLKTIF    300
+
+SPB4_ASPFU       301 FVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDP    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       301 FVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQKNFNRFINSHDP    350
+
+SPB4_ASPFU       351 AILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSV    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       351 AILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGRAGRAGRRGLSV    400
+
+SPB4_ASPFU       401 VLLHPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLAD    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       401 VLLHPGREEDYVSFLEVRKTPVVPFSPSISFSDADAAAATATARKAVLAD    450
+
+SPB4_ASPFU       451 RALHDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMP    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       451 RALHDRGQKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMP    500
+
+SPB4_ASPFU       501 ELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNK    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       501 ELKNFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNK    550
+
+SPB4_ASPFU       551 RRATESVAWSQQAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETE    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       551 RRATESVAWSQQAESKNKKLKRREQKKSKQEKARWEKMTEEEKQKVLETE    600
+
+SPB4_ASPFU       601 KMVEELRKKNEEERRLRRAVAKAAGAKADGDDEEEFQGFD    640
+                     ||||||||||||||||||||||||||||||||||||||||
+SPB4_ASPFU       601 KMVEELRKKNEEERRLRRAVAKAAGAKADGDDEEEFQGFD    640
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 320
+# Identity:      56/320 (17.5%)
+# Similarity:   101/320 (31.6%)
+# Gaps:         113/320 (35.3%)
+# Score: 52.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       330 GKHQANVRQKNFNRFINSHDPAILLTTDVAARGLDIPSV----------D    369
+                     |:|...:||:..:  ..:.:..::...|..|.|..:|:|          .
+ASSY_MYCTO        41 GEHMDVIRQRALD--CGAVEAVVVDARDEFAEGYCLPTVLNNALYMDRYP     88
+
+SPB4_ASPFU       370 LVVQIDPPSDPKSFIHRCGRAGRAGRRGLSVVLLH--PGREEDYVSF---    414
+                     ||..|..|...|..:       .|.|.....::.|  .|:..|.|.|   
+ASSY_MYCTO        89 LVSAISRPLIVKHLV-------AAAREHGGGIVAHGCTGKGNDQVRFEVG    131
+
+SPB4_ASPFU       415 -------LEVRKTPVVPFS----PSISFSDADAAAATATARKAVLADRAL    453
+                            ||| ..||..::    .:|:|::.:|.....|.|.....|:.:
+ASSY_MYCTO       132 FASLAPDLEV-LAPVRDYAWTREKAIAFAEENAIPINVTKRSPFSIDQNV    180
+
+SPB4_ASPFU       454 HDRG-QKAFVSWLRSYSKHQASSIFRVSDLDWEALGKAWGLLKLPKMPEL    502
+                     ..|. :..|:..|                  |.|..|           ::
+ASSY_MYCTO       181 WGRAVETGFLEHL------------------WNAPTK-----------DI    201
+
+SPB4_ASPFU       503 KNFTGDKTLGMSLDWDNYAYKDKQREKRRKELLQEAAESGATQSTS----    548
+                     ..:|.|.|:       |:...|:         :....|.|...|..    
+ASSY_MYCTO       202 YAYTEDPTI-------NWGVPDE---------VIVGFERGVPVSVDGKPV    235
+
+SPB4_ASPFU       549 ---------NKRRATESVAWSQQAESKNKKLKRREQKKS-----------    578
+                              |:|...:.|......|.:...:|.||..::           
+ASSY_MYCTO       236 SMLAAIEELNRRAGAQGVGRLDVVEDRLVGIKSREIYEAPGAMVLITAHT    285
+
+SPB4_ASPFU       579 -------KQEKARWEKMTEE    591
+                            ::|..|:::.|::
+ASSY_MYCTO       286 ELEHVTLERELGRFKRQTDQ    305
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 437
+# Identity:      83/437 (19.0%)
+# Similarity:   141/437 (32.3%)
+# Gaps:         152/437 (34.8%)
+# Score: 70.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU        33 GFTRMTPVQASAIPLFMAH-KDVVVEAVTG--------------SGKTLS     67
+                     ||...|.||.|.....:.. :..:|...|.              :|..:|
+ECCB1_MYCS2        3 GFRLTTKVQVSGWRFLLRRVEHAIVRRDTRMFDDPLQFYSRAVFAGVVVS     52
+
+SPB4_ASPFU        68 FLIPVVEKLLRLEEPIKKHHVGAIIISPTRELASQIYNVLSSLLAFHPPS    117
+                     .||.:...|:...:|:.|.....:::..|   .:|:|.:|        |.
+ECCB1_MYCS2       53 VLICLGAALMAYFKPLGKQGSDQLLVDRT---TNQLYVML--------PG     91
+
+SPB4_ASPFU       118 AAAINPSEDDDAPRPKFPSSTLKVVPQLLLGGSTTP----AEDLSTFLKR    163
+                     :..:.|..:..:.|             |:||.::.|    :|:|:...|.
+ECCB1_MYCS2       92 SNQLRPVYNLTSAR-------------LVLGNASNPVAVKSEELNRISKG    128
+
+SPB4_ASPFU       164 S----PNVLVSTP-------GRLLELLSSPHVHCPQSSFEMLV-------    195
+                     .    |....:||       ..|.:.::.|....|:....:|:       
+ECCB1_MYCS2      129 QSIGIPGAPYATPTGTPASQWTLCDTVAKPDSSAPKVETSILIRTLAIDS    178
+
+SPB4_ASPFU       196 -----------------------------LDEADRLLD--LGFKETLQNI    214
+                                                  :|.|||.:.  :|...|.:  
+ECCB1_MYCS2      179 GVGPIRADQGMLVSYEGANWLITEGGRHSIDLADRAVTSAVGIPVTAK--    226
+
+SPB4_ASPFU       215 LRRLPKQRRTGLFSASVSEA---VDQIVRVGLRNPVKVMVKVKGGS----    257
+                         |.....|||:|..:..   :.||...|..|.|.:...:..||    
+ECCB1_MYCS2      227 ----PTPISQGLFNALPNRGPWQLPQIPAAGAPNSVGLPENLVIGSVFRT    272
+
+SPB4_ASPFU       258 --------------GVD--DKRTPASLQMTY---LTTPPSHKFAALKRIV    288
+                                   ||.  :..|.|:|:.|.   |..||:.:.:.:.:|.
+ECCB1_MYCS2      273 ATESDPQHYVVLPDGVARVNNTTAAALRATNSYGLMQPPAVEASVVAKIP    322
+
+SPB4_ASPFU       289 SSVQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQ    338
+                     ..|..:||..                .||    |.||     :..:.|..
+ECCB1_MYCS2      323 EQVYVSPLPD----------------QPL----DVLL-----RQDSPVLC    347
+
+SPB4_ASPFU       339 KNFNRFINSHDPAILLTTDVAARGLDIPSVDLVVQID    375
+                     .::.|......|.   ||.:|.|.|.:|:..:...||
+ECCB1_MYCS2      348 WSWQREPGDQAPK---TTVIAGRRLPLPANAIGTGID    381
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 144
+# Identity:      29/144 (20.1%)
+# Similarity:    49/144 (34.0%)
+# Gaps:          34/144 (23.6%)
+# Score: 46.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       225 GLFSASVSEAVDQIVRVGLRNPVKVMVKVKGGSGVDDKRTPASLQMTYLT    274
+                     |....|..:.:...::.|..|...:...:|.|..|..:.|...||...:.
+KCY4_ORYSJ        52 GFIHLSAGDLLRAEIKSGSENGTMIENMIKEGKIVPSEVTIKLLQEAMIK    101
+
+SPB4_ASPFU       275 T----------PPSHKFAALKRIVSSVQPTPLKTIFFVSTCSGVDYLSAI    314
+                     :          |.:.:..|....|:.:  ||...:||  .||..:....:
+KCY4_ORYSJ       102 SGNDKFLIDGFPRNEENRAAFENVTKI--TPAFVLFF--DCSEEEMERRL    147
+
+SPB4_ASPFU       315 LPLLLGDDFLLIPLHGKHQANVR------QKNFNRFINSHDPAI    352
+                     |              |::|..|.      :|.|..|:.|..|.|
+KCY4_ORYSJ       148 L--------------GRNQGRVDDNIETIRKRFKVFVESSLPVI    177
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 484
+# Identity:      97/484 (20.0%)
+# Similarity:   163/484 (33.7%)
+# Gaps:         148/484 (30.6%)
+# Score: 86.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU         8 GTSLRAWDAV-----TPALSEWVLEAMSSMGFTRMTPVQASAIPLFMAHK     52
+                     |.....|.|.     ..||.:.::..:..:.   ...:||.::.|.....
+HCP_TRIV2         12 GDVCHQWGACGKSPEVDALQDLLVHCLRGLS---QVALQAKSLGLATRET     58
+
+SPB4_ASPFU        53 D-----VVVEAVTGSGKTLSFLIPVVEKLLRLEEPIKKHHVGAIIISPTR     97
+                     |     ::...:|....:.|..|..|.:.:.|.|.:|      :.|..|.
+HCP_TRIV2         59 DEFTCEMLFSTLTNVNFSTSDFISFVNRAIALRESLK------LQIQATG    102
+
+SPB4_ASPFU        98 ELASQIYNVLSSLLAFHPPSAAAINPSEDDDAPRPKFPSSTLKVVPQLLL    147
+                     ....|     |::.:|.|                   .|.|.|.:.|   
+HCP_TRIV2        103 NAVIQ-----SAINSFQP-------------------ASDTQKQIQQ---    125
+
+SPB4_ASPFU       148 GGSTTPAEDLS-TFLKRS-PNV-LVSTPGRLLELLSSPHVHCPQSSFEML    194
+                           .:||. .|:.:| .|| :.|....||..|.....:    :|..|
+HCP_TRIV2        126 ------GKDLEFEFISQSAKNVDIFSLKLTLLYGLKGVAAY----AFHAL    165
+
+SPB4_ASPFU       195 VLDEADRLLDLGFKETLQNILRRLPKQRRTGLFSASVSEAVDQIVRVGLR    244
+                     .|::.|..|.:.|.|.|.|    |..|.:      |:.:.:|..::||..
+HCP_TRIV2        166 ELNQHDESLYIFFHEVLAN----LDAQDK------SLQDWLDLTLKVGQM    205
+
+SPB4_ASPFU       245 NPVKVMVKVKGGSGVDDKRTPASLQMTYLT----TPPSHKFAALKRIVSS    290
+                     |...:.:...|.:......||.::.:.:..    ....|...|||.::..
+HCP_TRIV2        206 NLKAMELLDAGNTETFGHPTPTTVPLGHTVGKAILVSGHDLLALKAVLEQ    255
+
+SPB4_ASPFU       291 VQPTPLKTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHG----------    330
+                     ...|.:|....                  |:   |:|.||          
+HCP_TRIV2        256 TSGTGIKVYTH------------------GE---LLPAHGYPKLKQTHPH    284
+
+SPB4_ASPFU       331 --KHQANVRQK---NFNRFINSHDPAILLTTDVAARGLDIPSVDLVVQID    375
+                       .|.....|.   .|.||    ..||::||:.               :.
+HCP_TRIV2        285 LYGHYGTAWQNQTHEFERF----PGAIVMTTNC---------------LM    315
+
+SPB4_ASPFU       376 PPSDPKSFIHRCGRAGRAGRRGLSVVLLHPGREEDYVSFLEVRKTPVVPF    425
+                     ||.:  ::..:....|..|..||..:.:|.      :| |.::|...:| 
+HCP_TRIV2        316 PPHE--TYKDKVFTLGPVGYPGLQHISIHD------IS-LVIQKALELP-    355
+
+SPB4_ASPFU       426 SPSISFSDADAAAATAT---ARKAVL--ADRALH    454
+                         .|:: |:...|.|   ||.|||  ||..::
+HCP_TRIV2        356 ----GFTE-DSEQKTVTTGFARNAVLGVADTVIN    384
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 86
+# Identity:      20/86 (23.3%)
+# Similarity:    39/86 (45.3%)
+# Gaps:          19/86 (22.1%)
+# Score: 65.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       536 QEAAESGATQSTSNKRRATESVAWSQQAESKNKK---------LKRREQK    576
+                     ::|.||.:.::.....|..:|   |:....||.:         ::||||.
+UBX7_YEAST       113 KKAGESSSRETNPGLAREEKS---SRDVHRKNARERIAETTLEIQRREQL    159
+
+SPB4_ASPFU       577 KSKQEKARWEKMTEEEKQKVLETEKMVEELRKKNEE    612
+                     |.:       |:.|||:::::...:.....||..:|
+UBX7_YEAST       160 KQR-------KLAEEERERIIRLVRADRAERKALDE    188
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 264
+# Identity:      52/264 (19.7%)
+# Similarity:    81/264 (30.7%)
+# Gaps:         113/264 (42.8%)
+# Score: 56.0
+# 
+#
+#=======================================
+
+SPB4_ASPFU       163 RSPNVLVSTPG----RLLELLSSPHVHCPQSSFEMLVLDEADRLLDLGFK    208
+                     |.|..|...||    |:..:::.|                    |:.||.
+RPOA_ACICJ        17 RKPEKLDIEPGADDTRVATIIAEP--------------------LERGFG     46
+
+SPB4_ASPFU       209 ETLQNILRR----------LPKQRRTGL---FS--ASVSEAVDQIV----    239
+                     .||.|.|||          :...|..|:   ||  |.|.|.|..||    
+RPOA_ACICJ        47 LTLGNALRRVLLSSLHGAAVTSVRIDGVLHEFSSIAGVREDVTDIVLNIK     96
+
+SPB4_ASPFU       240 RVGLR----NPVKVMVKVKGGSGV-----------------------DDK    262
+                     ::.:|    .|.::.|...|...|                       || 
+RPOA_ACICJ        97 QIAVRMHGDGPKRMTVSATGPCEVTAGMIQTGHDIEVMNPELVICTLDD-    145
+
+SPB4_ASPFU       263 RTPASLQMTYLT---------------------TPPSHKFAALKRIVSSV    291
+                       .|:|.|.:..                     .|....::.::|:...|
+RPOA_ACICJ       146 --GATLGMEFTVESGRGYVPAAANRPEDAPIGLIPVDSIYSPVRRVSYRV    193
+
+SPB4_ASPFU       292 QPTPLKTIFFVSTCSGVDYLSAILPL-----LLGDDFLLIPLHGKHQANV    336
+                     :||.:..:        .||...||.:     :..:|.:.:      .|.:
+RPOA_ACICJ       194 EPTRVGQV--------TDYDRLILNIETNGAVTPEDAVAL------AARI    229
+
+SPB4_ASPFU       337 RQKNFNRFINSHDP    350
+                     .|.....|||..:|
+RPOA_ACICJ       230 LQDQLGMFINFEEP    243
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:      28/123 (22.8%)
+# Similarity:    49/123 (39.8%)
+# Gaps:          39/123 (31.7%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       522 YKDKQREKRRKEL------------------LQEAAESGATQSTSNKRRA    553
+                     |.| |.|||...|                  ::|.|||.....::..|:|
+YXAD_BACSU        23 YLD-QSEKRTGNLERSSYLLLRQLDEFGPARVKELAESFKLDISTLSRQA     71
+
+SPB4_ASPFU       554 TESVA------WSQQAESK---------NKKLKRREQKKSKQEKARWEKM    588
+                     ....|      :|..::.:         .|:|.:.:|:|..:   |:|:|
+YXAD_BACSU        72 AALEAKELIYRFSDPSDGRVSLFTITKLGKQLLKADQQKRLE---RYEQM    118
+
+SPB4_ASPFU       589 TEEEKQKVLETEKMVEELRKKNE    611
+                     .:|...:  |.|...|.|::.|:
+YXAD_BACSU       119 LKEWSTQ--EKEMFGELLQRMNK    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: SPB4_ASPFU
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 370
+# Identity:      78/370 (21.1%)
+# Similarity:   126/370 (34.1%)
+# Gaps:         115/370 (31.1%)
+# Score: 71.5
+# 
+#
+#=======================================
+
+SPB4_ASPFU       245 NPVKVMVKVKGGSGVDDKRTPASLQMTYLTTPPSHKFAALKRI--VSSVQ    292
+                     |..|:.....|.....|:.|.|||.            |||..|  .|::|
+FADB_SHESR        16 NIAKLCFNAPGSVNKFDRETLASLD------------AALDSIKQQSNIQ     53
+
+SPB4_ASPFU       293 PTPL---KTIFFVSTCSGVDYLSAILPLLLGDDFLLIPLHGKHQANVRQK    339
+                     ...|   |..|.|    |.| ::..|.|...||.:|  |....|||.   
+FADB_SHESR        54 ALVLTSGKDTFIV----GAD-ITEFLGLFAQDDAVL--LSWVEQANA---     93
+
+SPB4_ASPFU       340 NFNRFINSHDPAILLTTDVAARGLDIPSVDLVVQIDPPSDPKSFIHRCGR    389
+                     .||:.                ..|..|:...:                  
+FADB_SHESR        94 VFNKL----------------EDLPFPTASAI------------------    109
+
+SPB4_ASPFU       390 AGRAGRRGLSVVLLHPGREEDYVSFLEVRKTP--VVP-FSPSISFS---D    433
+                     .|.|...|...:|....|..|..:.:.:.:|.  ::| |..::...   .
+FADB_SHESR       110 KGFALGGGCETILATDFRIADTTAKIGLPETKLGIIPGFGGTVRLPRVIG    159
+
+SPB4_ASPFU       434 ADAAAATATARK--------------AVLADRALHDRGQKAFVSWLRSYS    469
+                     ||.|....|..|              ||:|..||                
+FADB_SHESR       160 ADNALEWITTGKDQRPEDALKVGAVDAVVAPEAL----------------    193
+
+SPB4_ASPFU       470 KHQASSIFRVSD-----LDWEA-LGKAWGLLKLPKMPELKNFTGDKTLGM    513
+                       :|::|..:.|     |||:| ..:....|.|||:..:.:||..|.:..
+FADB_SHESR       194 --EAAAIQMLKDAVAEKLDWQARRHRKMSPLTLPKLEAMMSFTTAKGMVF    241
+
+SPB4_ASPFU       514 SLDWDNYAYKDKQREKRRKELLQEAAESGATQSTSNKRRATESVAWSQQA    563
+                     ::     |.|..........::::||..|.:.:...:.:|...:|.:..|
+FADB_SHESR       242 AV-----AGKHYPAPMAAVSVVEQAATKGRSDALQIEHQAFIKLAKTDVA    286
+
+SPB4_ASPFU       564 ES-----KNKKLKRREQKKS    578
+                     ::     .|.:|.:.:.||:
+FADB_SHESR       287 KALIGIFLNDQLVKGKAKKA    306
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,278 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:05
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/ASF1_CRYNJ.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/ASF1_CRYNJ.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/ASF1_CRYNJ.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    13/38 (34.2%)
+# Gaps:          15/38 (39.5%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ        72 FSAPAPAHHLLPSVEPDEILGVTVIIITASYREKEFVR    109
+                     |||||               |.....:.|.||.|:..:
+Y3545_CROS8       50 FSAPA---------------GSRSEALRAEYRIKQLTK     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 57
+# Identity:      12/57 (21.1%)
+# Similarity:    23/57 (40.4%)
+# Gaps:          14/57 (24.6%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+ASF1_CRYNJ       122 ELKENPPSVVQWDKLHRNVLIEKPKVTRFQNNWDSA--------------    157
+                     :|..||..:::...:.:.:|:.:..:|.|....|.|              
+KDPB_SALNS       550 DLDSNPTKLIEVVHIGKQMLMTRGSLTTFSIANDVAKYFAIIPAAFAATY    599
+
+ASF1_CRYNJ       158 PQLNTFD    164
+                     ||||..:
+KDPB_SALNS       600 PQLNALN    606
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       8/21 (38.1%)
+# Similarity:    10/21 (47.6%)
+# Gaps:           2/21 ( 9.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+ASF1_CRYNJ       177 GN--PELFNAPLPPPVQRATA    195
+                     ||  ..|.|..:.|..:||.|
+YEJL_SALNS        38 GNMVTNLINTSVAPAQRRAIA     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 77
+# Identity:      16/77 (20.8%)
+# Similarity:    31/77 (40.3%)
+# Gaps:           8/77 (10.4%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ        24 IKFEAIAPLVEDLDWRL--IYVGSASSEEFDQELDNCSVGPIPAGINAFD     71
+                     |:|.||..:..|...||  :..|..|.....:.:....:|.:||.:....
+UPPP_AROAE        51 IQFAAILAVCWDYRERLARVAAGVGSEPAAQRFVGLLFIGFLPAAVLGLM    100
+
+ASF1_CRYNJ        72 FSAPAPAHHLLPSVEPDEILGVTVIII     98
+                     |      |..:.|:..:.:...|.:::
+UPPP_AROAE       101 F------HSTIKSLLFNPLTVATALVV    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      19/78 (24.4%)
+# Similarity:    32/78 (41.0%)
+# Gaps:          28/78 (35.9%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+ASF1_CRYNJ        80 HLLPSVEPDEILGVTVIIITASY-REKEFVRVG---------YYVNTYYE    119
+                     |::||:.||            .| :.:|..|.|         |.:|..:.
+CBPD_LOPSP       108 HIMPSMNPD------------GYEKSQEGDRGGTVGRNNSNNYDLNRNFP    145
+
+ASF1_CRYNJ       120 DEELK-ENPP-----SVVQWDKLHRNVL    141
+                     |:..: .:||     :|:.|.|.:..||
+CBPD_LOPSP       146 DQFFQVTDPPQPETLAVMSWLKTYPFVL    173
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 34
+# Identity:      11/34 (32.4%)
+# Similarity:    19/34 (55.9%)
+# Gaps:           7/34 (20.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ       125 ENPPSVVQWDKLHRNVLIEKPKVTR--FQNNWDS    156
+                     ::||.|.:  ||.:..|:   ||.|  :.|:.:|
+NDHO_PROM1        12 QSPPKVQK--KLRKGDLV---KVDREKYSNSLES     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       9/26 (34.6%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           1/26 ( 3.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ        41 IYVGSASSEEFDQELDNCSVGPIPAG     66
+                     :|:|. |:..:|:|......|.:|||
+DAPD_SHIBS       206 VYIGQ-STRIYDRETGEIHYGHVPAG    230
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 206
+# Identity:     206/206 (100.0%)
+# Similarity:   206/206 (100.0%)
+# Gaps:           0/206 ( 0.0%)
+# Score: 1096.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ         1 MVNIRNIELLNNPAKFDDPYNFRIKFEAIAPLVEDLDWRLIYVGSASSEE     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASF1_CRYNJ         1 MVNIRNIELLNNPAKFDDPYNFRIKFEAIAPLVEDLDWRLIYVGSASSEE     50
+
+ASF1_CRYNJ        51 FDQELDNCSVGPIPAGINAFDFSAPAPAHHLLPSVEPDEILGVTVIIITA    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASF1_CRYNJ        51 FDQELDNCSVGPIPAGINAFDFSAPAPAHHLLPSVEPDEILGVTVIIITA    100
+
+ASF1_CRYNJ       101 SYREKEFVRVGYYVNTYYEDEELKENPPSVVQWDKLHRNVLIEKPKVTRF    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASF1_CRYNJ       101 SYREKEFVRVGYYVNTYYEDEELKENPPSVVQWDKLHRNVLIEKPKVTRF    150
+
+ASF1_CRYNJ       151 QNNWDSAPQLNTFDGQQPAAELPPSGGNPELFNAPLPPPVQRATAAGGMD    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ASF1_CRYNJ       151 QNNWDSAPQLNTFDGQQPAAELPPSGGNPELFNAPLPPPVQRATAAGGMD    200
+
+ASF1_CRYNJ       201 VDQPMA    206
+                     ||||||
+ASF1_CRYNJ       201 VDQPMA    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       6/12 (50.0%)
+# Similarity:     7/12 (58.3%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ       186 LPPPVQRATAAG    197
+                     :||..||...||
+UBQ10_ARATH       36 IPPDQQRLIFAG     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ASF1_CRYNJ
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 75
+# Identity:      20/75 (26.7%)
+# Similarity:    25/75 (33.3%)
+# Gaps:          26/75 (34.7%)
+# Score: 37.0
+# 
+#
+#=======================================
+
+ASF1_CRYNJ        75 PAPAHHLLPSVEPDEILGVTVIIITASYREKEFVRVGYYVNTYYEDEELK    124
+                     ||.....|..:.|           |.||  :||..|...:      |.:.
+FADB_ACIBS       373 PAQMGETLARIRP-----------TLSY--EEFKEVDIVI------EAVT    403
+
+ASF1_CRYNJ       125 ENPPSVVQWDKLHRNVLIEKPKVTR    149
+                     |||       |:...||.|..|..|
+FADB_ACIBS       404 ENP-------KVKEIVLAETEKNVR    421
+
+
+#---------------------------------------
+#---------------------------------------

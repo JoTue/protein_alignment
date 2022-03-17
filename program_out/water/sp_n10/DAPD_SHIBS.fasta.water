@@ -1,0 +1,330 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:04
+# Commandline: water
+#    [-asequence] data/sp_n10_separate/DAPD_SHIBS.fasta
+#    [-bsequence] data/sp_n10
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n10/DAPD_SHIBS.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n10/DAPD_SHIBS.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: Y3545_CROS8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      10/44 (22.7%)
+# Similarity:    17/44 (38.6%)
+# Gaps:           8/44 (18.2%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS        57 QWLKKAVLLSFRINDNQVIEGAESRYFDKVPMKFADYDEARFQK    100
+                     :|.    |...|..||::..|..:    .|..:||.:...:..|
+Y3545_CROS8        3 EWF----LYLIRCPDNRLYTGITT----DVARRFAQHQRGKGAK     38
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: KDPB_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 296
+# Identity:      52/296 (17.6%)
+# Similarity:    94/296 (31.8%)
+# Gaps:          87/296 (29.4%)
+# Score: 50.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS         4 LQNIIETAFERR----------------------------AEITPTNADT     25
+                     |:.:.:|||.||                            .:|.|.:.:.
+KDPB_SALNS        97 LKGVKKTAFARRLRAPRHDAQADNVPAAELRKGDIVLVKAGDIIPCDGEV    146
+
+DAPD_SHIBS        26 VTREAVNQVIALLDSGALRVAEK-------IDGQWVTHQWLKKAVLLSFR     68
+                     :...|.....|:....|..:.|.       ..|..:...||    :::..
+KDPB_SALNS       147 IEGGASVDESAITGESAPVIRESGGDFASVTGGTRILSDWL----VIACS    192
+
+DAPD_SHIBS        69 INDNQ--------VIEGAESRYFDKVPMKFA----------DYDEARFQK    100
+                     :|..:        ::|||:.|   |.|.:.|          .:..|....
+KDPB_SALNS       193 VNPGETFLDRMIAMVEGAQRR---KTPNEIALTILLIALTIVFLLATATL    239
+
+DAPD_SHIBS       101 EGFRVVPPAAVRQGAFIARNTVLMPSYVNIGAYVDEGTMVDTWATVGSCA    150
+                     ..|......||.....:|....|:|:.:        |.::......|...
+KDPB_SALNS       240 WPFSAWGGNAVSVTVLVALLVCLIPTTI--------GGLLSAIGVAGMSR    281
+
+DAPD_SHIBS       151 QIGKNVHLSGG--VGIGGVLEPLQANPTII------EDNCFIGARSEVVE    192
+                     .:|.||..:.|  |...|.::.|..:.|..      :.:.||.||. |.|
+KDPB_SALNS       282 MLGANVIATSGRAVEAAGDVDVLLLDKTGTITLGNRQASDFIPARG-VDE    330
+
+DAPD_SHIBS       193 GVIVEEGSVISMG----------VYIGQSTRIYDRETGEIHYGHVP    228
+                     ..:.:...:.|:.          :...|...:.:|:...:|...||
+KDPB_SALNS       331 RTLADAAQLASLADETPEGRSIVILAKQRFNLRERDVQSLHATFVP    376
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: YEJL_SALNS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       6/14 (42.9%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           3/14 (21.4%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS         6 NIIETAF---ERRA     16
+                     |:|.|:.   :|||
+YEJL_SALNS        43 NLINTSVAPAQRRA     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: UPPP_AROAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 125
+# Identity:      27/125 (21.6%)
+# Similarity:    47/125 (37.6%)
+# Gaps:          15/125 (12.0%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+DAPD_SHIBS         3 QLQNIIETAFERRAEITPTNADTVTREAVNQVIALLDSGALRVAEKIDGQ     52
+                     |...|:...::.|..:....|...:..|..:.:.||..|.|..|  :.| 
+UPPP_AROAE        52 QFAAILAVCWDYRERLARVAAGVGSEPAAQRFVGLLFIGFLPAA--VLG-     98
+
+DAPD_SHIBS        53 WVTHQWLKKAVLLSFRINDNQVIEGA-----ESR-YFDKV----PMKFAD     92
+                     .:.|..:|..:.....:....|:.|.     |.| |..::    .|::||
+UPPP_AROAE        99 LMFHSTIKSLLFNPLTVATALVVGGVLILWLERRAYHPRINAVDEMRWAD    148
+
+DAPD_SHIBS        93 YDEARFQKEGFRVVPPAAVRQGAFI    117
+                     ..:..|.:....:  |...|.||.|
+UPPP_AROAE       149 ALKVGFAQAAAMI--PGTSRSGATI    171
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: CBPD_LOPSP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       9/22 (40.9%)
+# Similarity:     9/22 (40.9%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS       241 KDGKYSLYCAVIVKKVDAKTRG    262
+                     |||.|.........||.|..||
+CBPD_LOPSP       334 KDGDYWRLLVQGTYKVTASARG    355
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: NDHO_PROM1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:       7/37 (18.9%)
+# Similarity:    17/37 (45.9%)
+# Gaps:           2/37 ( 5.4%)
+# Score: 22.5
+# 
+#
+#=======================================
+
+DAPD_SHIBS        68 RINDNQVIEGAESRYFDKVPMKFADYD--EARFQKEG    102
+                     ::....:::....:|.:.:..|.:|.:  |..||..|
+NDHO_PROM1        20 KLRKGDLVKVDREKYSNSLESKASDTNLPEYIFQGPG     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: DAPD_SHIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 274
+# Identity:     274/274 (100.0%)
+# Similarity:   274/274 (100.0%)
+# Gaps:           0/274 ( 0.0%)
+# Score: 1401.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS         1 MQQLQNIIETAFERRAEITPTNADTVTREAVNQVIALLDSGALRVAEKID     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DAPD_SHIBS         1 MQQLQNIIETAFERRAEITPTNADTVTREAVNQVIALLDSGALRVAEKID     50
+
+DAPD_SHIBS        51 GQWVTHQWLKKAVLLSFRINDNQVIEGAESRYFDKVPMKFADYDEARFQK    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DAPD_SHIBS        51 GQWVTHQWLKKAVLLSFRINDNQVIEGAESRYFDKVPMKFADYDEARFQK    100
+
+DAPD_SHIBS       101 EGFRVVPPAAVRQGAFIARNTVLMPSYVNIGAYVDEGTMVDTWATVGSCA    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DAPD_SHIBS       101 EGFRVVPPAAVRQGAFIARNTVLMPSYVNIGAYVDEGTMVDTWATVGSCA    150
+
+DAPD_SHIBS       151 QIGKNVHLSGGVGIGGVLEPLQANPTIIEDNCFIGARSEVVEGVIVEEGS    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DAPD_SHIBS       151 QIGKNVHLSGGVGIGGVLEPLQANPTIIEDNCFIGARSEVVEGVIVEEGS    200
+
+DAPD_SHIBS       201 VISMGVYIGQSTRIYDRETGEIHYGHVPAGSVVVSGNLPSKDGKYSLYCA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+DAPD_SHIBS       201 VISMGVYIGQSTRIYDRETGEIHYGHVPAGSVVVSGNLPSKDGKYSLYCA    250
+
+DAPD_SHIBS       251 VIVKKVDAKTRGKVGINELLRTID    274
+                     ||||||||||||||||||||||||
+DAPD_SHIBS       251 VIVKKVDAKTRGKVGINELLRTID    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: ASF1_CRYNJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       9/26 (34.6%)
+# Similarity:    15/26 (57.7%)
+# Gaps:           1/26 ( 3.8%)
+# Score: 45.0
+# 
+#
+#=======================================
+
+DAPD_SHIBS       206 VYIGQ-STRIYDRETGEIHYGHVPAG    230
+                     :|:|. |:..:|:|......|.:|||
+ASF1_CRYNJ        41 IYVGSASSEEFDQELDNCSVGPIPAG     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: UBQ10_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 257
+# Identity:      48/257 (18.7%)
+# Similarity:    89/257 (34.6%)
+# Gaps:          58/257 (22.6%)
+# Score: 47.5
+# 
+#
+#=======================================
+
+DAPD_SHIBS        21 TNAD-TVTREAVNQVIALLDSGALRVAEKIDGQWVTHQWLKKAVLLSFRI     69
+                     |.|| .:.:|:...::..|..|.....:.:.|:.:|              
+UBQ10_ARATH       55 TLADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTIT--------------     90
+
+DAPD_SHIBS        70 NDNQVIEGAESRYFDKVPMKFADYDEARFQKEGFRVVPPAAVRQGAFIAR    119
+                          :|...|...|.|..|..|       |||   :||...|       
+UBQ10_ARATH       91 -----LEVESSDTIDNVKAKIQD-------KEG---IPPDQQR-------    118
+
+DAPD_SHIBS       120 NTVLMPSYVNIGAYVDEG-TMVDTWATVGSCAQIGKNVHLSGGVGI----    164
+                            .:..|..:::| |:.|  ..:...:.:...:.|.||:.|    
+UBQ10_ARATH      119 -------LIFAGKQLEDGRTLAD--YNIQKESTLHLVLRLRGGMQIFVKT    159
+
+DAPD_SHIBS       165 -GGVLEPLQANPTIIEDNCFIGARSEVVEGVIVEEGSVISMGVYIGQSTR    213
+                      .|....|:...:...||  :.|:.:..||:..::..:|..|..:.....
+UBQ10_ARATH      160 LTGKTITLEVESSDTIDN--VKAKIQDKEGIPPDQQRLIFAGKQLEDGRT    207
+
+DAPD_SHIBS       214 IYD---RETGEIHYG-HVPAGSVVVSGNLPSKDGKYSLYCAVIVKKVDAK    259
+                     :.|   ::...:|.. .:..|..:....|..|.....:..:..:..|.||
+UBQ10_ARATH      208 LADYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVESSDTIDNVKAK    257
+
+DAPD_SHIBS       260 TRGKVGI    266
+                     .:.|.||
+UBQ10_ARATH      258 IQDKEGI    264
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: DAPD_SHIBS
+# 2: FADB_ACIBS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 201
+# Identity:      49/201 (24.4%)
+# Similarity:    75/201 (37.3%)
+# Gaps:          44/201 (21.9%)
+# Score: 63.5
+# 
+#
+#=======================================
+
+DAPD_SHIBS         8 IETAFERRAEITPTNADTVTRE-AVNQVIA---LLDSGALRVAEKIDGQ-     52
+                     |:.|.|..|..||.......:: ||:.|:|   |||:....|.:.|.|: 
+FADB_ACIBS       161 IDNAVEWMAMATPKKPAAALKDGAVDAVVAADKLLDAATDLVKQAISGRL    210
+
+DAPD_SHIBS        53 -WVTHQWLK-KAV-------LLSFRINDNQVIEGAESRYFDKVPMKFAD-     92
+                      |...:..| :||       :::|......|:..|....: ..|....| 
+FADB_ACIBS       211 NWKAKRQEKLEAVKLNPLEQMMAFNTAKGAVLAKANPAQY-PAPKLLLDS    259
+
+DAPD_SHIBS        93 --------YDEA-RFQKEGF---RVVPPAAVRQGAFIARNTVLMPSYVN-    129
+                             .||| :.:.|||   .|.|.|....|.||....|...|..: 
+FADB_ACIBS       260 LQAGASLARDEALKAEAEGFAKAAVTPQAEALIGLFINDQVVKKASKQHE    309
+
+DAPD_SHIBS       130 IGAYVDEGTMVDTWATVGSCAQIGKNVHLSGGVGIGGVLEPLQANPTIIE    179
+                     .||:           .|...|.:|..: :.||:.....   .:..|.|::
+FADB_ACIBS       310 KGAH-----------PVNQAAVLGAGI-MGGGIAYQAA---SKGTPIIMK    344
+
+DAPD_SHIBS       180 D    180
+                     |
+FADB_ACIBS       345 D    345
+
+
+#---------------------------------------
+#---------------------------------------

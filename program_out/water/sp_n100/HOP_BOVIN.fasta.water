@@ -1,0 +1,2428 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:19
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/HOP_BOVIN.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/HOP_BOVIN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/HOP_BOVIN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      15/63 (23.8%)
+# Similarity:    22/63 (34.9%)
+# Gaps:          26/63 (41.3%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         18 EYNFNKV-------------NKHPDPTTLCLIAAEAGLSEEETQKWFKQR     54
+                     ||...|:             |..|||..|        |:::...:  ::.
+PUR7_VIBVU       275 EYQAGKIVENSKEGFRQFLLNYFPDPDIL--------LNKDRMPE--REA    314
+
+HOP_BOVIN         55 LAQWRRSEGLPSE     67
+                     ||   |...||.|
+PUR7_VIBVU       315 LA---RDNELPEE    324
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         64 LPSECRSV     71
+                     ||.|.|.:
+Y075_NITWN        58 LPEEARKI     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       3/8 (37.5%)
+# Similarity:     4/8 (50.0%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         60 RSEGLPSE     67
+                     |...:|.|
+Y3584_PSEAB      119 RERAIPME    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      13/62 (21.0%)
+# Similarity:    18/62 (29.0%)
+# Gaps:          35/62 (56.5%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQW     58
+                     |||:        ||:..                 |:|.|          |
+BPT_HAHCH         73 PTEE--------FNRTR-----------------SQERT----------W     87
+
+HOP_BOVIN         59 RRSEGLPSECRS     70
+                     :|:..|....||
+BPT_HAHCH         88 KRNSDLTVRLRS     99
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       3/11 (27.3%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEE     46
+                     :|...|:.|::
+KDPC_CAUVN       143 VAGARGVPEKD    153
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      12/51 (23.5%)
+# Similarity:    20/51 (39.2%)
+# Gaps:           2/51 ( 3.9%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         19 YNFNK-VNKHPD-PTTLCLIAAEAGLSEEETQKWFKQRLAQWRRSEGLPS     66
+                     |..|: ::.|.. |....|..||...:......|::|.......::||..
+LPXH_XYLFM       194 YGVNRMIHGHTHRPALHMLQVAECACTRVVLGDWYQQGSVLCVDADGLVL    243
+
+HOP_BOVIN         67 E     67
+                     |
+LPXH_XYLFM       244 E    244
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       4/12 (33.3%)
+# Similarity:     6/12 (50.0%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         61 SEGLPSECRSVT     72
+                     |.||...|..::
+YERI_SCHPO         6 SPGLAKACTGLS     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      13/30 (43.3%)
+# Similarity:    15/30 (50.0%)
+# Gaps:           2/30 ( 6.7%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         29 DPTTLCLIAAEAGLSEEETQKWFK--QRLA     56
+                     |...|.|....|.|:|.|.|..||  :|||
+RBSA_RUEST       160 DCRVLILDEPTAALTEAEAQVLFKIMRRLA    189
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4
+# Identity:       2/4 (50.0%)
+# Similarity:     3/4 (75.0%)
+# Gaps:           0/4 ( 0.0%)
+# Score: 14.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         19 YNFN     22
+                     |.|:
+KR195_HUMAN       66 YGFS     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       7/19 (36.8%)
+# Similarity:     8/19 (42.1%)
+# Gaps:           9/19 (47.4%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQR     54
+                     ||||         ||..:|
+UPPP_CORDI       138 IAAE---------KWGSKR    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      16/62 (25.8%)
+# Similarity:    27/62 (43.5%)
+# Gaps:           3/62 ( 4.8%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNKV--NKHPDPTTLCLIAAEAG-LSEEETQKWFKQRLA     56
+                     |.:..|.|:...|.:  .:.|:.|.....||..| .||....::.|:||.
+GREB_ECO57         7 TREGYEKLKQELNYLWREERPEVTKKVTWAASLGDRSENADYQYNKKRLR     56
+
+HOP_BOVIN         57 QWRRSEGLPSEC     68
+                     :..|.....::|
+GREB_ECO57        57 EIDRRVRYLTKC     68
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         39 EAGLSEEETQKWFKQRLAQWRR     60
+                     ||.:|.|.:.:|..:..|::.|
+TGT_LEPCP        164 EARVSMELSLRWAARSKAEFAR    185
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:       8/32 (25.0%)
+# Similarity:    16/32 (50.0%)
+# Gaps:           1/32 ( 3.1%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          3 TETASGPTEDQVEILE-YNFNKVNKHPDPTTL     33
+                     :|.|....|:.:.:|: .|..:|..|.:.|.:
+CBPQ_HUMAN       378 SEKARAIMEEVMSLLQPLNITQVLSHGEGTDI    409
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:    12/19 (63.2%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         37 AAEAGLSEEETQKWFKQRL     55
+                     |..|||.::|...:.::::
+PSA6_SOYBN       165 ATSAGLKDQEAINFLEKKM    183
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      18/69 (26.1%)
+# Similarity:    23/69 (33.3%)
+# Gaps:          20/69 (29.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEET----QKWFKQR     54
+                     |.|||             :|.|:...|......|.||..    |..|...
+SCL34_ARATH       25 PMEDQ-------------YPPPSDTLLKYVSEILMEESNGDYKQSMFYDS     61
+
+HOP_BOVIN         55 LAQWRRSEGLPSECRSVTD     73
+                     ||..:..|.|.   :.:||
+SCL34_ARATH       62 LALRKTEEMLQ---QVITD     77
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       4/10 (40.0%)
+# Similarity:     7/10 (70.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         43 SEEETQKWFK     52
+                     :|:|...||:
+NDKA_CANLF       126 AEKEIGLWFQ    135
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       5/17 (29.4%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         14 VEILEYNFNKVNKHPDP     30
+                     |.:|.....:..::|||
+RS4_CAEEL        135 VPVLTTTDGRTIRYPDP    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 83
+# Identity:      15/83 (18.1%)
+# Similarity:    31/83 (37.3%)
+# Gaps:          28/83 (33.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          6 ASG-------PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQ     48
+                     |||       |:.:|:..||  ..:...:|...|:........|:||:.:
+G45IP_CHLAE       67 ASGVAPGSLWPSPEQLRELE--AEEREWYPSLATMQESLRVKHLAEEQKR    114
+
+HOP_BOVIN         49 K-------------------WFKQRLAQWRRSE     62
+                     :                   |.:|:..:|.:::
+G45IP_CHLAE      115 REREQHIAECMAKMPQMIVNWQQQQRERWEKAQ    147
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         39 EAGLSEEETQKWFKQRL     55
+                     |.|..|.:||.:..:|:
+DAPEL_OCEIH       17 ELGFQEFKTQAYLLERI     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 24
+# Identity:       8/24 (33.3%)
+# Similarity:    15/24 (62.5%)
+# Gaps:           0/24 ( 0.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQRLAQWR     59
+                     :|....:.:::|.:.|||||..:|
+KAD_METRJ        132 LARGQAVRKDDTPEVFKQRLEAYR    155
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       6/11 (54.5%)
+# Similarity:     9/11 (81.8%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         56 AQWRRSEGLPS     66
+                     ||:|.:.|||:
+ELN_BOVIN        553 AQFRAAAGLPA    563
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    13/27 (48.1%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCL     35
+                     |::...:.||..|||..|:.....|.|
+ASIC2_MOUSE      379 PSKTSAKYLEKKFNKSEKYISENILVL    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       5/25 (20.0%)
+# Similarity:     9/25 (36.0%)
+# Gaps:          13/25 (52.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         27 HPDPTT-------------LCLIAA     38
+                     :|.|.|             :|::.|
+DOXA1_XENTR        9 YPQPRTSFKFDTKIIEIIIICIVTA     33
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       6/9 (66.7%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         37 AAEAGLSEE     45
+                     |.||..|||
+RS20_STRPB        39 AFEANPSEE     47
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    35/84 (41.7%)
+# Gaps:          21/84 (25.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         11 EDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLS---------------EE     45
+                     |::::.::...::.|...:.....|.||||.::               .|
+TPM_HAELO         54 ENELDQVQEQLSQANSKLEEKDKALQAAEAEVAAHNRRIQLLEEDLERSE    103
+
+HOP_BOVIN         46 ETQKWFKQRLAQWRR----SEGLPS--ECRSVTD     73
+                     |..|...|:|.:..:    ||.:..  |.||:||
+TPM_HAELO        104 ERLKIATQKLEEASQAADESERMRKMLEHRSITD    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      15/53 (28.3%)
+# Similarity:    22/53 (41.5%)
+# Gaps:          11/53 (20.8%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         32 TLCLIAAEAGLS------EEETQKWFKQRL-----AQWRRSEGLPSECRS     70
+                     |:|.::.|||..      :|:|..:.|.|.     |.|..:..|.|...|
+LEUC_XANOM       224 TICNMSIEAGARVGMVAVDEKTIAYVKGRPFAPKGADWDAAVALWSTLVS    273
+
+HOP_BOVIN         71 VTD     73
+                     ..|
+LEUC_XANOM       274 DPD    276
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       2/5 (40.0%)
+# Similarity:     4/5 (80.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         31 TTLCL     35
+                     ||:.:
+LPT_ESCF3         10 TTITI     14
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 44
+# Identity:      11/44 (25.0%)
+# Similarity:    17/44 (38.6%)
+# Gaps:          17/44 (38.6%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          6 ASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQK     49
+                     |:.|.|::.|     |:            :|..|||..:.|..|
+RL7_THET8         50 AAAPAEEKTE-----FD------------VILKEAGAKKLEVIK     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       9/33 (27.3%)
+# Similarity:    12/33 (36.4%)
+# Gaps:           0/33 ( 0.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         39 EAGLSEEETQKWFKQRLAQWRRSEGLPSECRSV     71
+                     ||.|..||......:....|.|::......|.|
+HEM1_METCA       314 EAALQAEEIIDLEVEHFLSWLRAQAATETIRDV    346
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:      10/31 (32.3%)
+# Similarity:    11/31 (35.5%)
+# Gaps:           0/31 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         35 LIAAEAGLSEEETQKWFKQRLAQWRRSEGLP     65
+                     ||||.....|.....||...|:..|.....|
+XYLB_KLEPN       313 LIAAAQTADESAGPVWFLPYLSGERTPHNNP    343
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      11/36 (30.6%)
+# Similarity:    18/36 (50.0%)
+# Gaps:           5/36 (13.9%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         35 LIAAEAGLSEEETQKWFKQRL--AQWRRSE---GLP     65
+                     ::|..|.|..:.|..:..:||  |..|.::   |||
+RECR_NOVAD       139 VLAMNATLEGQTTAHYIAERLEGAAVRVTQLAHGLP    174
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       7/17 (41.2%)
+# Similarity:    13/17 (76.5%)
+# Gaps:           1/17 ( 5.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         53 QRLAQWRRS-EGLPSEC     68
+                     :|:|:.|.: :|.||:|
+SURE_METNO        55 RRVAETRFAVKGTPSDC     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 5
+# Identity:       3/5 (60.0%)
+# Similarity:     5/5 (100.0%)
+# Gaps:           0/5 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         63 GLPSE     67
+                     |:||:
+CYB_ARTIO        210 GIPSD    214
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      14/59 (23.7%)
+# Similarity:    25/59 (42.4%)
+# Gaps:          17/59 (28.8%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         13 QVEILEYNFNKV-NKHPDPTTLC--------LIAAEAGLS--------EE     45
+                     ::.:..:|.::| ||:|..|.:.        |..|.|..|        ||
+IOLE_BACHK        36 EMALAGFNGSEVGNKYPRNTVVLKKSLELRNLEIASAWFSTFLTTKPIEE     85
+
+HOP_BOVIN         46 ETQKWFKQR     54
+                     ..:::.|.|
+IOLE_BACHK        86 TVEEFIKHR     94
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    15/27 (55.6%)
+# Gaps:           1/27 ( 3.7%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          1 MSTETASGPTEDQVEILEYNFNKVNKH     27
+                     :|.|..||....|: .|:...:|::|:
+ACKA_STAAT       286 LSEEAESGKARSQM-ALDVFASKIHKY    311
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       3/14 (21.4%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         14 VEILEYNFNKVNKH     27
+                     |..|::..:::.:|
+HIS7_BURTA        33 VPFLDHMLDQIARH     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:      10/25 (40.0%)
+# Similarity:    12/25 (48.0%)
+# Gaps:           2/25 ( 8.0%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQRLAQWRR     60
+                     ||...|||  ..:|.|....|:|.|
+PTH_GEOLS         31 IAQLEGLS--IVRKQFGGLTAEWER     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 69
+# Identity:      19/69 (27.5%)
+# Similarity:    30/69 (43.5%)
+# Gaps:          15/69 (21.7%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          2 STETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWF     51
+                     |:.:||.||.   |.|...|....|.|.|..|          :::|:|  
+TAF3_XENLA       422 SSPSASPPTP---EPLLKVFEDKAKLPPPVEL----------KKKTKK--    456
+
+HOP_BOVIN         52 KQRLAQWRRSEGLPSECRS     70
+                     :||..:.:..:.|..:.||
+TAF3_XENLA       457 EQRAKKKKDKDKLKDKERS    475
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    14/27 (51.9%)
+# Gaps:           4/27 (14.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         35 LIAAEAGLSEEETQKWFKQRLAQWRRS     61
+                     |.:.|...:.||.:.|.|    :|:||
+DNLJ_CROS5        82 LYSLENAFNLEELKAWEK----RWQRS    104
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 67
+# Identity:      18/67 (26.9%)
+# Similarity:    26/67 (38.8%)
+# Gaps:          15/67 (22.4%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         11 EDQV---EILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQ     57
+                     ||.|   |||:......:|..|...:|.:...|.       :.:..||. 
+MUTS_MYXXD        45 EDAVKASEILQITLTARSKGADKVPMCGVPYHAA-------RRYIGRLV-     86
+
+HOP_BOVIN         58 WRRSEGLP-SECRSVTD     73
+                        ||||. :.|..|.:
+MUTS_MYXXD        87 ---SEGLKVAICEQVEE    100
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:       9/38 (23.7%)
+# Similarity:    11/38 (28.9%)
+# Gaps:          18/38 (47.4%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         13 QVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKW     50
+                     |.|:.|.|                  ||....:.|.||
+NOSO_STAAC       295 QFELFERN------------------EAQQGRQVTGKW    314
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       5/18 (27.8%)
+# Similarity:    11/18 (61.1%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         41 GLSEEETQKWFKQRLAQW     58
+                     |:.||.|::....:.|::
+RBM8A_MOUSE       79 GVHEEATEEDIHDKFAEY     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       9/27 (33.3%)
+# Similarity:    11/27 (40.7%)
+# Gaps:           1/27 ( 3.7%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         16 ILEYNFNKVNKHPDPTTLCLIAAEAGL     42
+                     ||..:|...:..| ...|...|.||.|
+NU4LM_ARCPU       48 ILSNHFTLASMAP-IILLVFAACEAAL     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:       9/38 (23.7%)
+# Similarity:    17/38 (44.7%)
+# Gaps:           3/38 ( 7.9%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEETQKWFKQRLAQWRRSEGLPSECRSVTD     73
+                     |...||..:|:.|:...:......|   |.::.::.||
+NANK_ECOLI       199 IFTRAGQGDEQAQQLIHRSARTLAR---LIADIKATTD    233
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      12/43 (27.9%)
+# Similarity:    20/43 (46.5%)
+# Gaps:           8/43 (18.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         17 LEYN--FNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQ     57
+                     :|::  |..:....|.|...:|..|..|||:      |:||.:
+MIAB_MYCPE       379 IEFDNAFTFIYSKRDGTVAAIIPDEIPLSEK------KERLQE    415
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       6/15 (40.0%)
+# Similarity:     7/15 (46.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNKV     24
+                     |.|.|.|...|.|.:
+NADK_STAES       221 TIDHVSIKHKNVNAI    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 28
+# Identity:      10/28 (35.7%)
+# Similarity:    13/28 (46.4%)
+# Gaps:           2/28 ( 7.1%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         24 VNKHPDPTTL--CLIAAEAGLSEEETQK     49
+                     |...|.||.:  .|||..|....|:.:|
+TRPG_CAEEL      1330 VKTPPRPTVIEYILIAYVAAFGLEQVRK   1357
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      16/51 (31.4%)
+# Similarity:    22/51 (43.1%)
+# Gaps:           5/51 ( 9.8%)
+# Score: 54.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          1 MSTETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKW     50
+                     :...|.:| |||..|:|..|......||:....    .||.|:|...:.|
+MSHD_MYCMM       152 LQIRTYAG-TEDDAELLRVNNAAFAYHPEQGGW----TEADLAERRGEPW    196
+
+HOP_BOVIN         51 F     51
+                     |
+MSHD_MYCMM       197 F    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       6/17 (35.3%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         30 PTTLCLIAAEAGLSEEE     46
+                     |..|.:|.:...|:|.|
+PAND_THEFY        81 PGDLVIIISYVQLTEAE     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      19/71 (26.8%)
+# Similarity:    27/71 (38.0%)
+# Gaps:          22/71 (31.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEI-----LEYNFNKVNKHPDPTTLCLIAAEAGL--SEEETQKWFK     52
+                     |.||.|:     |:..|             |..|...|  |..:..:.|.
+LIPA_ASPOR       350 TPDQFELWRQRALDMGF-------------LYCASGPLVRSSYKAGEAFI    386
+
+HOP_BOVIN         53 QRLAQWRRSEGLPSECRSVTD     73
+                     :.:.:.||:.|...|  ||||
+LIPA_ASPOR       387 ENVLKKRRAAGTAGE--SVTD    405
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      12/35 (34.3%)
+# Similarity:    14/35 (40.0%)
+# Gaps:          11/35 (31.4%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         38 AEAGLSEEETQKWFKQRLAQWRRSEG------LPS     66
+                     |.||.|..:.     .:||..|.|.|      |||
+FLGI_PECAS       152 ASAGGSSVQV-----NQLAGGRISNGAVIERELPS    181
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       9/23 (39.1%)
+# Similarity:    12/23 (52.2%)
+# Gaps:           4/23 (17.4%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          6 ASGPTEDQVEILEYNFNKVNKHP     28
+                     ||.|    |:|:.|...|.:|.|
+LDH_BORAP        121 ASNP----VDIMTYVTMKYSKFP    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       4/15 (26.7%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         49 KWFKQRLAQWRRSEG     63
+                     :||..:...:.:.||
+EXGB_EMENI       356 RWFAAQAIAYEKQEG    370
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      13/47 (27.7%)
+# Similarity:    20/47 (42.6%)
+# Gaps:          11/47 (23.4%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          4 ETASGPTEDQV-EILEYNFNKVNKHPDPTT----LCLIAAEAGLSEE     45
+                     |....|..:|: |:|      :..|.|.|:    |...|:.|.|.|:
+KTHY_CHLP8        36 EPGGTPVAEQIRELL------LESHNDITSIAELLLFSASRAELMEK     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      17/62 (27.4%)
+# Similarity:    23/62 (37.1%)
+# Gaps:          13/62 (21.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         11 EDQVEILEYNFNKVNKHPD-------PTTLCLI-----AAEAGLSEEETQ     48
+                     ||.|.....:.||:....|       |.|..|:     .||..|.:....
+SECA2_MYCTO      592 EDDVVAANLDHNKLPMATDENGRIVSPRTGSLLDHAQRVAEGRLLDVHAN    641
+
+HOP_BOVIN         49 KW-FKQRLAQWR     59
+                     .| :.|.:||.|
+SECA2_MYCTO      642 TWRYNQLIAQQR    653
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       4/17 (23.5%)
+# Similarity:     9/17 (52.9%)
+# Gaps:           2/17 (11.8%)
+# Score: 16.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         21 FNKVNKHPDPT--TLCL     35
+                     |.::.:.|:.:  ..||
+DB108_HUMAN       24 FKEICERPNGSCRDFCL     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      14/49 (28.6%)
+# Similarity:    20/49 (40.8%)
+# Gaps:           6/49 (12.2%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEA---GLSEEETQ---KWF     51
+                     |:|....|.....:.|....||....|..||.   .:|.|:::   |||
+LCMT1_CRYNB      229 PSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPYMSPEDSREIIKWF    277
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:      11/43 (25.6%)
+# Similarity:    18/43 (41.9%)
+# Gaps:          10/43 (23.3%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         12 DQVEILEYNFNKVN------KHPDPTTLCLIAAEAGLSEEETQ     48
+                     |.||:....|.::.      |..||    :|..:..|.||:.:
+PTGA_SALTY        95 DTVELKGEGFKRIAEEGQRVKVGDP----VIEFDLPLLEEKAK    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       9/31 (29.0%)
+# Similarity:    15/31 (48.4%)
+# Gaps:          10/31 (32.3%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         11 EDQVEILEYNFNKVNKHP---DPTTL---CL     35
+                     :|:::|    :.|:...|   .||.|   ||
+RR14_CRYJA        38 DDKLDI----YRKLQSLPRNSAPTRLRRRCL     64
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      16/62 (25.8%)
+# Similarity:    24/62 (38.7%)
+# Gaps:          11/62 (17.7%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPD---------PTTLCLIAAEAGLSEEETQ-     48
+                     |.:|...:||.....||:..:         |.||.....|.|.|:...: 
+DCUP_BACVZ       118 PEQDVPYVLETIRLLVNEQLNVPLIGFSGAPFTLASYMIEGGPSKNYNKT    167
+
+HOP_BOVIN         49 KWFKQRLAQ-WR     59
+                     |.|...:.| |:
+DCUP_BACVZ       168 KAFMHSMPQAWK    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      17/87 (19.5%)
+# Similarity:    34/87 (39.1%)
+# Gaps:          31/87 (35.6%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          3 TETASGPTEDQVEILEYNFNKVNKH------------PDPTTLCLIAAEA     40
+                     :||:..| |.:|.|.:.:::...|.            |:|..    |.:.
+GTF2I_MOUSE      300 SETSEDP-EVEVTIEDDDYSPPTKRLKSTEPPPPPPVPEPAN----AGKR    344
+
+HOP_BOVIN         41 GLSEEETQKW--------------FKQRLAQWRRSEG     63
+                     .:.|...:||              |:::.||..:::|
+GTF2I_MOUSE      345 KVREFNFEKWNARITDLRKQVEELFERKYAQAIKAKG    381
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 68
+# Identity:      16/68 (23.5%)
+# Similarity:    23/68 (33.8%)
+# Gaps:          23/68 (33.8%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          8 GPTEDQVEILEYNFNKVNKH--PDPTTLCLIA----------AEAG----     41
+                     ||.:|.:.....|.....|.  ||...|.::.          ||.|    
+ISPH_ACIF5       188 GPKKDDICYATQNRQDAVKSLAPDVDILLVVGAPNSSNSSRLAELGTRLG    237
+
+HOP_BOVIN         42 ----LSEEETQ---KWFK     52
+                         |.|:..|   :||:
+ISPH_ACIF5       238 TQTHLIEDAQQLRREWFE    255
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       4/20 (20.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          7 SGPTEDQVEILEYNFNKVNK     26
+                     :|..|.:|....|:::.:.:
+NDUA1_HUMAN       31 NGGKEKRVAHFGYHWSLMER     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       9/31 (29.0%)
+# Similarity:    17/31 (54.8%)
+# Gaps:           3/31 ( 9.7%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         12 DQVEILEYNFNKVNKHPDPTTLCLIAAEAGL     42
+                     ||.:::....::..|  .||:|.| |.:.|:
+PSRP_SALTI       149 DQAQVILLGVSRCGK--TPTSLYL-AMQFGI    176
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         36 IAAEAGLSEEETQKWFK     52
+                     |.|..|||:.|.:|..|
+DNAK_CHESB       496 IQASGGLSDAEIEKMVK    512
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 93
+# Identity:      19/93 (20.4%)
+# Similarity:    37/93 (39.8%)
+# Gaps:          34/93 (36.6%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         11 EDQVEILEYNFNKVNK--------HPD------PT---------------     31
+                     :||.||.:..|:::.:        ||:      ||               
+DNLJ_ACIC5        27 QDQPEIDDLAFDELMRKLQRLEAEHPELITPDSPTQRVGGKPKEGFAKVA     76
+
+HOP_BOVIN         32 -TLCLIAAEAGLSEEETQKWFKQRLAQWRRSEGLPSECRSVTD     73
+                      :..:::.:...||||.:.| ::|:   |...|..:|...|.:
+DNLJ_ACIC5        77 HSRPMLSLDNVNSEEELRDW-ERRV---REQAGQNAEIEYVCE    115
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:       6/36 (16.7%)
+# Similarity:    13/36 (36.1%)
+# Gaps:          10/36 (27.8%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          3 TETASGPTEDQVEILEYNFNKVNK----------HP     28
+                     :.:|....:....:|....:::||          ||
+CAPSD_CMVO        21 SRSAPSSADANFRVLSQQLSRLNKTLAAGRPTINHP     56
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       6/20 (30.0%)
+# Similarity:     9/20 (45.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNKVNKHPD     29
+                     |..|...|.|..|:..:.|:
+IF3_CHLL2          6 TTTQKPKLTYRVNEQIRVPE     25
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       5/15 (33.3%)
+# Similarity:     7/15 (46.7%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         39 EAGLSEEETQKWFKQ     53
+                     |..:..||..:..||
+CSRA_HAEI8        39 EVSVHREEIYQRIKQ     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       5/10 (50.0%)
+# Similarity:     6/10 (60.0%)
+# Gaps:           0/10 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         31 TTLCLIAAEA     40
+                     ||.|.:..||
+COAX_CLOBL       134 TTFCAVTKEA    143
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      73/73 (100.0%)
+# Similarity:    73/73 (100.0%)
+# Gaps:           0/73 ( 0.0%)
+# Score: 387.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          1 MSTETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKW     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+HOP_BOVIN          1 MSTETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKW     50
+
+HOP_BOVIN         51 FKQRLAQWRRSEGLPSECRSVTD     73
+                     |||||||||||||||||||||||
+HOP_BOVIN         51 FKQRLAQWRRSEGLPSECRSVTD     73
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      12/48 (25.0%)
+# Similarity:    21/48 (43.8%)
+# Gaps:           6/48 (12.5%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQ     57
+                     |||..:::......::|.|      .:.|:.|..|.|..|:..:.|.|
+THII_VIBA3       333 TEDFAKVMPEYCGVISKKP------TVKAKKGKLEAEEAKFNFEVLEQ    374
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:     9/15 (60.0%)
+# Gaps:           1/15 ( 6.7%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         16 ILEYNFNK-VNKHPD     29
+                     |.|.||.| :.|.|:
+RL13_PSEPG        84 IKEINFEKLIAKAPE     98
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    13/38 (34.2%)
+# Gaps:           3/38 ( 7.9%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         25 NKHPDPTTLCLIAAEAGLSEEETQKWFKQRLAQWRRSE     62
+                     ||..|..:...|.|..   ....:||....|..|..:|
+RR2_ARATH         78 NKAADLVSRAAIRARC---HYVNKKWLGGMLTNWSTTE    112
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      19/62 (30.6%)
+# Similarity:    29/62 (46.8%)
+# Gaps:          12/62 (19.4%)
+# Score: 38.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          4 ETASGPT-EDQVEILEYNFNKV-NKHPDPTTLCLIAAEAGLSEEETQKW-     50
+                     ||.:.|. |.|::| .|..:|: |..|:...:..||.:.|      |.| 
+Y1710_SYNP2      356 ETVATPAGEIQLKI-GYRGDKIYNVQPEYEDVKAIAQQTG------QSWQ    398
+
+HOP_BOVIN         51 --FKQRLAQWRR     60
+                       .:|.|.|:.|
+Y1710_SYNP2      399 AIAQQALCQFPR    410
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       9/35 (25.7%)
+# Similarity:    16/35 (45.7%)
+# Gaps:           1/35 ( 2.9%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         29 DPTTLCLIAAEAGLSEEETQKWFKQRLAQWRRSEG     63
+                     :|..|.|....|.| :.:|:......:.:||:..|
+WTPC_THEKO       149 EPELLLLDEPFANL-DVQTRGRLINEMKRWRKELG    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      21/87 (24.1%)
+# Similarity:    34/87 (39.1%)
+# Gaps:          29/87 (33.3%)
+# Score: 49.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          2 STETASGPTEDQV-EIL--------EYNFNKVNKHPDPTTLCLIAAEAGL     42
+                     |.|.|:|.|...| |:|        :.|:..|..||      .:|.|.||
+GRB7_RAT         114 SVEVAAGATARHVCEMLVQRAHALSDENWGLVECHP------YLALERGL    157
+
+HOP_BOVIN         43 SEEET-----QKW---------FKQRLAQWRRSEGLP     65
+                     .:.|:     :.|         |::..|::...:..|
+GRB7_RAT         158 EDHESVVEVQEAWPVGGDSRFIFRKNFAKYELFKSPP    194
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:       9/41 (22.0%)
+# Similarity:    16/41 (39.0%)
+# Gaps:          11/41 (26.8%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQK     49
+                     |...:||.:.|:..|           .|.||...:.|:.::
+PSD_RHOPS        113 PVAGRVERIIYSPGK-----------FINAELDKASEDNER    142
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      14/63 (22.2%)
+# Similarity:    29/63 (46.0%)
+# Gaps:          10/63 (15.9%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          8 GPTEDQVEILEYNFNKVNKHPDPTT----LCLIAAEAGLSEEETQKWFKQ     53
+                     |..||.:.:||...::...:||..|    |..::.:..||:      .|:
+PP156_ARATH      218 GKLEDALGMLERMVSEFKVNPDNVTYNTILKAMSKKGRLSD------LKE    261
+
+HOP_BOVIN         54 RLAQWRRSEGLPS     66
+                     .|...:::..:|:
+PP156_ARATH      262 LLLDMKKNGLVPN    274
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         32 TLCLIAAE     39
+                     |||:||.:
+ADRB2_MESAU      123 TLCVIAVD    130
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         26 KHPDPTTLCLIAAE     39
+                     |..||..:..:.|:
+ID5B_ADEPA        21 KEGDPLVVQFVNAD     34
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      16/72 (22.2%)
+# Similarity:    29/72 (40.3%)
+# Gaps:          16/72 (22.2%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         12 DQVEILEYNFNKVNKHPDPTTLCLIAA------EAGLSE----------E     45
+                     |:|...:..|..|:.:.:..|..|.||      :.|:.|          :
+GPA7_CAEEL        99 DRVRDSQLVFATVHANKEELTEELAAAMQRLWHDPGVRECYRRSNEYQID    148
+
+HOP_BOVIN         46 ETQKWFKQRLAQWRRSEGLPSE     67
+                     ::.|:|...|.:......:|||
+GPA7_CAEEL       149 DSAKYFLDNLPRLSSPNYVPSE    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       4/20 (20.0%)
+# Similarity:    10/20 (50.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          2 STETASGPTEDQVEILEYNF     21
+                     :..|.|....:..|:::|.:
+IDI_ECO24        122 AARTTSALQINDDEVMDYQW    141
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      12/46 (26.1%)
+# Similarity:    20/46 (43.5%)
+# Gaps:           4/46 ( 8.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          4 ETASGPTEDQVEILEYNFN----KVNKHPDPTTLCLIAAEAGLSEE     45
+                     :.|.||..:.:|:...:::    |:.|.|...|..|.....|.|.|
+YHJA_ECOLI       259 DQAGGPPLNPIEMASKSWDEIIAKLEKDPQLKTQFLEVYPQGFSGE    304
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       6/22 (27.3%)
+# Similarity:    14/22 (63.6%)
+# Gaps:           1/22 ( 4.5%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         33 LCL-IAAEAGLSEEETQKWFKQ     53
+                     :|: |...||::.::.:|..:|
+RIMP_BURPS        29 VCVYIDQPAGITIDDCEKVTRQ     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      10/36 (27.8%)
+# Similarity:    20/36 (55.6%)
+# Gaps:           6/36 (16.7%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNK-VNKH-----PDPTTLCLIAAE     39
+                     |:.:||.::.|.|: :|::     .:...|.|:.||
+RS28_OSTOS        24 TQVRVEFMDDNGNRTINRNVKGPVREGDILTLLEAE     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       3/6 (50.0%)
+# Similarity:     3/6 (50.0%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         27 HPDPTT     32
+                     ||...|
+HBAC_LITCT        37 HPQTKT     42
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:       8/35 (22.9%)
+# Similarity:    17/35 (48.6%)
+# Gaps:           4/35 (11.4%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         16 ILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKW     50
+                     ::||    ::..||...:|.....:..:.|:.||:
+RPOA_PRRSS      2595 VMEY----LDSRPDTPFMCTKHGTSKAAAEDLQKY   2625
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      12/32 (37.5%)
+# Similarity:    14/32 (43.8%)
+# Gaps:           1/32 ( 3.1%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         10 TEDQVEILEYNFNKVNKHPDPTTLCLIAAEAG     41
+                     |.|. |...|....:..|||..||..:..|||
+UBIE_PSEAE       204 TNDS-ESYRYLAESIRMHPDQETLKAMMVEAG    234
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 72
+# Identity:      18/72 (25.0%)
+# Similarity:    23/72 (31.9%)
+# Gaps:          26/72 (36.1%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          9 PTEDQVEIL---------EYNFNKVN-------KHPDPTTLCLIAAEAGL     42
+                     |..|.|..|         |.:|.|.|       |..|...|..|....|.
+FLII_AQUAE       350 PAVDPVRSLSRLMPKLVSEEHFMKANFFKEVLSKFEDVEELVRIGLYKGG    399
+
+HOP_BOVIN         43 SE----------EETQKWFKQR     54
+                     |.          |:.:.:|||:
+FLII_AQUAE       400 SNPLVDKVINNLEKVESFFKQK    421
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 49
+# Identity:      15/49 (30.6%)
+# Similarity:    22/49 (44.9%)
+# Gaps:           6/49 (12.2%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          7 SGPTEDQVEILE----YNFNKVN--KHPDPTTLCLIAAEAGLSEEETQK     49
+                     |.||.....|:.    .||..||  :.|.||:......|||.:::..:|
+MSS11_VANPO      609 STPTSSDGNIISSTQGTNFPIVNLSQAPTPTSKAEGDGEAGQNKKRRRK    657
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       9/22 (40.9%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           2/22 ( 9.1%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         13 QVEILEYNFNK-VNKHPDPTTL     33
+                     |..:.:.|||: :|.| ||..|
+SPB4_ASPFU       333 QANVRQKNFNRFINSH-DPAIL    353
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       9/33 (27.3%)
+# Similarity:    14/33 (42.4%)
+# Gaps:           4/33 (12.1%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         30 PTTLCLIAAEAGLS----EEETQKWFKQRLAQW     58
+                     |..:.||.|...|.    |.|..::.:|...:|
+ASSY_MYCTO       275 PGAMVLITAHTELEHVTLERELGRFKRQTDQRW    307
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      12/64 (18.8%)
+# Similarity:    21/64 (32.8%)
+# Gaps:          17/64 (26.6%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+HOP_BOVIN          2 STETASGPTEDQVEILEYNFNKVNK----------HPDPT-------TLC     34
+                     |.....|...:.|.:.....|:::|          :..||       |||
+ECCB1_MYCS2      103 SARLVLGNASNPVAVKSEELNRISKGQSIGIPGAPYATPTGTPASQWTLC    152
+
+HOP_BOVIN         35 LIAAEAGLSEEETQ     48
+                     ...|:...|..:.:
+ECCB1_MYCS2      153 DTVAKPDSSAPKVE    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     7/14 (50.0%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          8 GPTEDQVEILEYNF     21
+                     |..:|.:|.:...|
+KCY4_ORYSJ       153 GRVDDNIETIRKRF    166
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    13/22 (59.1%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+HOP_BOVIN         14 VEILEYNFNKVNKHPDPTTLCL     35
+                     :|:|:....:...||.|||:.|
+HCP_TRIV2        210 MELLDAGNTETFGHPTPTTVPL    231
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 65
+# Identity:      16/65 (24.6%)
+# Similarity:    27/65 (41.5%)
+# Gaps:           6/65 ( 9.2%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          2 STETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAE----AGLSEEET     47
+                     |.||..|...::....:.:.....:....|||.:...|    ..|:|||.
+UBX7_YEAST       120 SRETNPGLAREEKSSRDVHRKNARERIAETTLEIQRREQLKQRKLAEEER    169
+
+HOP_BOVIN         48 QKWFKQRLAQWRRSE     62
+                     ::..  ||.:..|:|
+UBX7_YEAST       170 ERII--RLVRADRAE    182
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 45
+# Identity:      11/45 (24.4%)
+# Similarity:    21/45 (46.7%)
+# Gaps:           1/45 ( 2.2%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          3 TETASGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEET     47
+                     |.:|:||.|....:::...:....:|: ..:|.:...|.|..|.|
+RPOA_ACICJ       111 TVSATGPCEVTAGMIQTGHDIEVMNPE-LVICTLDDGATLGMEFT    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      11/56 (19.6%)
+# Similarity:    26/56 (46.4%)
+# Gaps:          13/56 (23.2%)
+# Score: 36.0
+# 
+#
+#=======================================
+
+HOP_BOVIN          7 SGPTEDQVEILEYNFNKVNKHPDPTTLCLIAAEAGLSEEETQKWFKQRLA     56
+                     |.|::.:|.:  :...|:.|.       |:.|:    :::..:.::|.|.
+YXAD_BACSU        84 SDPSDGRVSL--FTITKLGKQ-------LLKAD----QQKRLERYEQMLK    120
+
+HOP_BOVIN         57 QWRRSE     62
+                     :|...|
+YXAD_BACSU       121 EWSTQE    126
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HOP_BOVIN
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 94
+# Identity:      20/94 (21.3%)
+# Similarity:    27/94 (28.7%)
+# Gaps:          41/94 (43.6%)
+# Score: 41.5
+# 
+#
+#=======================================
+
+HOP_BOVIN         13 QVEILEYNFNK--------VNKHPDPTTLCLIAAEAGLSEEET-------     47
+                     |||:||.|..|        |||....|...|.||...:.::..       
+FADB_SHESR         9 QVELLEDNIAKLCFNAPGSVNKFDRETLASLDAALDSIKQQSNIQALVLT     58
+
+HOP_BOVIN         48 --------------------------QKWFKQRLAQWRRSEGLP     65
+                                               ..|.:|..|.:.:.|.||
+FADB_SHESR        59 SGKDTFIVGADITEFLGLFAQDDAVLLSWVEQANAVFNKLEDLP    102
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,2432 @@
+########################################
+# Program: water
+# Rundate: Thu 17 Mar 2022 21:42:21
+# Commandline: water
+#    [-asequence] data/sp_n100_separate/Y075_NITWN.fasta
+#    [-bsequence] data/sp_n100
+#    -gapopen 10
+#    -gapextend 0.5
+#    -outfile program_out/water/sp_n100/Y075_NITWN.fasta.water
+#    -aformat3 srspair
+# Align_format: srspair
+# Report_file: program_out/water/sp_n100/Y075_NITWN.fasta.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PUR7_VIBVU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      19/58 (32.8%)
+# Similarity:    28/58 (48.3%)
+# Gaps:           6/58 (10.3%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y075_NITWN        13 ADPKLLEI---LVCPVTKG-PLELDGARRELISRSAKLAYP--IRDGIPI     56
+                     ||..:|:|   .|..|.|. |::::...|:.|:.|...||.  .|:...|
+PUR7_VIBVU       104 ADSHILDIPHPFVWIVQKAKPVKIEAICRKYITGSMWRAYEKGEREFCGI    153
+
+Y075_NITWN        57 MLPEEARK     64
+                     .|||...|
+PUR7_VIBVU       154 QLPEGLEK    161
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: Y075_NITWN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 66
+# Identity:      66/66 (100.0%)
+# Similarity:    66/66 (100.0%)
+# Gaps:           0/66 ( 0.0%)
+# Score: 341.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYPI     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYPI     50
+
+Y075_NITWN        51 RDGIPIMLPEEARKIE     66
+                     ||||||||||||||||
+Y075_NITWN        51 RDGIPIMLPEEARKIE     66
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: Y3584_PSEAB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 27
+# Identity:       8/27 (29.6%)
+# Similarity:    11/27 (40.7%)
+# Gaps:           0/27 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y075_NITWN        29 PLELDGARRELISRSAKLAYPIRDGIP     55
+                     |:.|.....:.|......|.|:.||.|
+Y3584_PSEAB       14 PVRLTTPLGQAIGNLFARALPLLDGNP     40
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: BPT_HAHCH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      11/36 (30.6%)
+# Similarity:    12/36 (33.3%)
+# Gaps:          14/36 (38.9%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPED--------------TADPKLLEILV     22
+                     |.||..|:.|.              ..|.|||.|.|
+BPT_HAHCH        123 MYPPTLDQYESFLLEARSETLFIEFRKDSKLLAIAV    158
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: KDPC_CAUVN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      13/48 (27.1%)
+# Similarity:    19/48 (39.6%)
+# Gaps:          18/48 (37.5%)
+# Score: 24.5
+# 
+#
+#=======================================
+
+Y075_NITWN        15 PKLLEILVCPVTKG---PLELDGARRELISRSAKLAYP-------IRD     52
+                     |.|:.:.:..|..|   ||.:.|.        |:.|:|       |||
+KDPC_CAUVN         7 PALVSMGLFTVLLGLAYPLAVTGV--------AQAAFPNQANGSLIRD     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LPXH_XYLFM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       6/23 (26.1%)
+# Similarity:    11/23 (47.8%)
+# Gaps:           4/23 (17.4%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTADPKLLEILVCPVTK     27
+                     |:.||.    ..:|::..|..|:
+LPXH_XYLFM       203 HTHRPA----LHMLQVAECACTR    221
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: YERI_SCHPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     8/13 (61.5%)
+# Gaps:           3/13 (23.1%)
+# Score: 20.0
+# 
+#
+#=======================================
+
+Y075_NITWN        39 LISRSAKLAYPIR     51
+                     ::||..|   |:|
+YERI_SCHPO        75 IVSRYQK---PVR     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RBSA_RUEST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y075_NITWN        52 DGIPIMLPEEA     62
+                     ||.|:.:|..|
+RBSA_RUEST        66 DGTPVEIPSPA     76
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: KR195_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4
+# Identity:       3/4 (75.0%)
+# Similarity:     3/4 (75.0%)
+# Gaps:           0/4 ( 0.0%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+Y075_NITWN         6 SDRP      9
+                     |.||
+KR195_HUMAN       57 SCRP     60
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: UPPP_CORDI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:      11/30 (36.7%)
+# Similarity:    16/30 (53.3%)
+# Gaps:           4/30 (13.3%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+Y075_NITWN        34 GARRELISR-SAKLAYP--IRDGIPIMLPE     60
+                     |..||:.:| |..||.|  :..|: ..||:
+UPPP_CORDI       187 GLDREVATRFSFLLAIPAVLASGL-FSLPD    215
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: GREB_ECO57
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     5/6 (83.3%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y075_NITWN         7 DRPEDT     12
+                     :|||.|
+GREB_ECO57        25 ERPEVT     30
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: TGT_LEPCP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       7/33 (21.2%)
+# Similarity:    15/33 (45.5%)
+# Gaps:           0/33 ( 0.0%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Y075_NITWN        34 GARRELISRSAKLAYPIRDGIPIMLPEEARKIE     66
+                     |..|::.....:.|.|:......:.||.:.:|:
+TGT_LEPCP        100 GEMRKISEEGVRFASPVNGDKLFLTPEVSMQIQ    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: CBPQ_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:    15/22 (68.2%)
+# Gaps:           3/22 (13.6%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+Y075_NITWN         4 PHSDRPEDTA---DPKLLEILV     22
+                     ||.:|.|::|   :|::.:|.:
+CBPQ_HUMAN       111 PHWERGEESAVMLEPRIHKIAI    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PSA6_SOYBN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       7/23 (30.4%)
+# Similarity:    10/23 (43.5%)
+# Gaps:           1/23 ( 4.3%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTADPKLLEILVCPVTK     27
+                     |...|:...|...:..|. |:||
+PSA6_SOYBN        53 HKKVPDKLLDNTSVTHLF-PITK     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: SCL34_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 25
+# Identity:       9/25 (36.0%)
+# Similarity:    13/25 (52.0%)
+# Gaps:           3/25 (12.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDR---PEDTADPKLLEILV     22
+                     :|.|..|:   |.||....:.|||:
+SCL34_ARATH       22 LTDPMEDQYPPPSDTLLKYVSEILM     46
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NDKA_CANLF
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 13
+# Identity:       5/13 (38.5%)
+# Similarity:     7/13 (53.8%)
+# Gaps:           0/13 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y075_NITWN        33 DGARRELISRSAK     45
+                     ||.:|.|:....|
+NDKA_CANLF        14 DGVQRSLVGEIIK     26
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RS4_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    16/43 (37.2%)
+# Gaps:           3/43 ( 7.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y075_NITWN        26 TKGPL---ELDGARRELISRSAKLAYPIRDGIPIMLPEEARKI     65
+                     |||..   .:..|..:......|....:..|:|::...:.|.|
+RS4_CAEEL        104 TKGRYVVHRIQAAEADFKLCKVKSVRTVNKGVPVLTTTDGRTI    146
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: G45IP_CHLAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+Y075_NITWN        59 PEEARKIE     66
+                     ||:.|::|
+G45IP_CHLAE       79 PEQLRELE     86
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DAPEL_OCEIH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      11/38 (28.9%)
+# Similarity:    15/38 (39.5%)
+# Gaps:          12/38 (31.6%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y075_NITWN        20 ILVCPVTKGPLELDGARRELISRSAKLAYPIRDGIPIM     57
+                     |||....|.|....|.|.::            ||:||:
+DAPEL_OCEIH       50 ILVYVHGKSPARKIGFRADI------------DGLPIL     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: KAD_METRJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    17/42 (40.5%)
+# Gaps:          17/42 (40.5%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y075_NITWN        27 KGPLE-LDGARRELISRSAKLAYPI----RDGIPIMLPEEAR     63
+                     ||.|| :||.:            ||    .|.:.::.|.|.|
+KAD_METRJ        168 KGTLETVDGMQ------------PIDKVTADLMAVLEPHEER    197
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ELN_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      10/40 (25.0%)
+# Similarity:    13/40 (32.5%)
+# Gaps:           0/40 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y075_NITWN        15 PKLLEILVCPVTKGPLELDGARRELISRSAKLAYPIRDGI     54
+                     |||......|...|.|........:...:.|..||...|:
+ELN_BOVIN        222 PKLPAGYGLPYKTGKLPYGFGPGGVAGSAGKAGYPTGTGV    261
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ASIC2_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       8/18 (44.4%)
+# Similarity:     9/18 (50.0%)
+# Gaps:           6/18 (33.3%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+Y075_NITWN         4 PHSDRPEDTADPKLLEIL     21
+                     ||      .|||.:||.|
+ASIC2_MOUSE      126 PH------LADPTVLEAL    137
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DOXA1_XENTR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       7/14 (50.0%)
+# Similarity:    11/14 (78.6%)
+# Gaps:           1/14 ( 7.1%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y075_NITWN        14 DPKLLE-ILVCPVT     26
+                     |.|::| |::|.||
+DOXA1_XENTR       19 DTKIIEIIIICIVT     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RS20_STRPB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 21
+# Identity:       7/21 (33.3%)
+# Similarity:    12/21 (57.1%)
+# Gaps:           0/21 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+Y075_NITWN        26 TKGPLELDGARRELISRSAKL     46
+                     :||.:..:.|.|:....:|||
+RS20_STRPB        61 SKGLIHKNKASRDKARLAAKL     81
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: TPM_HAELO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       6/16 (37.5%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y075_NITWN        31 ELDGARRELISRSAKL     46
+                     |||..:.:|...::||
+TPM_HAELO         56 ELDQVQEQLSQANSKL     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LEUC_XANOM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       8/22 (36.4%)
+# Similarity:    10/22 (45.5%)
+# Gaps:           4/22 (18.2%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+Y075_NITWN        24 PVTKGPLELDGARRELISRSAK     45
+                     |.|    |.|..:|..|.|:.|
+LEUC_XANOM       313 PAT----EQDPTKRNSIERALK    330
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LPT_ESCF3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4
+# Identity:       2/4 (50.0%)
+# Similarity:     3/4 (75.0%)
+# Gaps:           0/4 ( 0.0%)
+# Score: 13.0
+# 
+#
+#=======================================
+
+Y075_NITWN        25 VTKG     28
+                     :|.|
+LPT_ESCF3         14 ITTG     17
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RL7_THET8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       5/16 (31.2%)
+# Similarity:    10/16 (62.5%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y075_NITWN        49 PIRDGIPIMLPEEARK     64
+                     |:::|:.....||.:|
+RL7_THET8         98 PVKEGVSKQEAEEIKK    113
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: HEM1_METCA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:      10/29 (34.5%)
+# Similarity:    13/29 (44.8%)
+# Gaps:           4/29 (13.8%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y075_NITWN        12 TADPKLLEILVCPVTKGPLELDGARRELI     40
+                     ||...:.|.|..|..    :|..|.|:||
+HEM1_METCA        12 TAPVSIRERLAFPAE----QLQSALRDLI     36
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: XYLB_KLEPN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      12/46 (26.1%)
+# Similarity:    17/46 (37.0%)
+# Gaps:          10/46 (21.7%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+Y075_NITWN        28 GPLELDGARRELISRSAKLAYPIRDGIPIML----------PEEAR     63
+                     |.:.||.|||:............||.:|.:.          ||.|:
+XYLB_KLEPN       173 GTMWLDVARRDWSDEMLAACDLSRDAMPALFEGSDVTGQLRPEVAQ    218
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RECR_NOVAD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 63
+# Identity:      14/63 (22.2%)
+# Similarity:    24/63 (38.1%)
+# Gaps:          18/63 (28.6%)
+# Score: 28.5
+# 
+#
+#=======================================
+
+Y075_NITWN         8 RPEDTADPKLLEILVCPVTKGPLE---------LDGAR-----RELISRS     43
+                     ||||.....||:    .|.:|.::         |:|..     .|.:..:
+RECR_NOVAD       117 RPEDLTIGSLLD----RVAQGGIDEVVLAMNATLEGQTTAHYIAERLEGA    162
+
+Y075_NITWN        44 AKLAYPIRDGIPI     56
+                     |.....:..|:|:
+RECR_NOVAD       163 AVRVTQLAHGLPV    175
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: SURE_METNO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       6/18 (33.3%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y075_NITWN        29 PLELDGARRELISRSAKL     46
+                     ||.||......::|.|::
+SURE_METNO       234 PLRLDLTDEPTLTRFAQV    251
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: CYB_ARTIO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 10
+# Identity:       6/10 (60.0%)
+# Similarity:     8/10 (80.0%)
+# Gaps:           1/10 (10.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPE     10
+                     :||||. :||
+CYB_ARTIO        263 ITPPHI-KPE    271
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: IOLE_BACHK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       5/11 (45.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y075_NITWN        11 DTADPKLLEIL     21
+                     |..||.|:.:|
+IOLE_BACHK       176 DMTDPALVSLL    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ACKA_STAAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      13/42 (31.0%)
+# Similarity:    18/42 (42.9%)
+# Gaps:           8/42 (19.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y075_NITWN        25 VTKGPLELDGARR-----ELISRSAKLAYPIRD---GIPIML     58
+                     ||||.:|..|.:.     |:.....|....|:|   .:.|||
+ACKA_STAAT        28 VTKGLVERIGLKDSIFTIEVNGEKVKTVQDIKDHVEAVDIML     69
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: HIS7_BURTA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      13/37 (35.1%)
+# Similarity:    18/37 (48.6%)
+# Gaps:          13/37 (35.1%)
+# Score: 34.0
+# 
+#
+#=======================================
+
+Y075_NITWN        30 LELDGARRELISRSAKLAYPIRDGIPI---MLPEEAR     63
+                     ::|||..|:      |||    .|:|.   ||.:.||
+HIS7_BURTA        19 IDLDGTGRQ------KLA----TGVPFLDHMLDQIAR     45
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PTH_GEOLS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    19/56 (33.9%)
+# Gaps:          17/56 (30.4%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y075_NITWN         3 PPHSDRPEDTA---DPKLLEILVCPVTKGPLELDGARRELISRSAKLAYP     49
+                     |||.|......   .|..:||. ..|..|.|::             |...
+PTH_GEOLS        138 PPHGDVTNHVLGVFTPPEMEIF-ARVLDGALDM-------------LETA    173
+
+Y075_NITWN        50 IRDGIP     55
+                     :.:|:|
+PTH_GEOLS        174 LDEGVP    179
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: TAF3_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      17/78 (21.8%)
+# Similarity:    29/78 (37.2%)
+# Gaps:          14/78 (17.9%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRS-------     43
+                     ::|.|....:|.......:|::.||:|.........:.||.::       
+TAF3_XENLA       158 LSPAHKIDSQDLDVSYSDQIMLSPVSKSQAPPPSESKSLIPKTKSKGGSP    207
+
+Y075_NITWN        44 -----AKLAYPIRD--GIPIMLPEEARK     64
+                          :..|.||..  |.||..|:...|
+TAF3_XENLA       208 GQKIKSPKATPISTVIGSPIRSPKSGPK    235
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DNLJ_CROS5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      13/58 (22.4%)
+# Similarity:    26/58 (44.8%)
+# Gaps:           3/58 ( 5.2%)
+# Score: 31.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTAD--PKLLEILVCPVTKGPLELDGARRELISRSAKLAY     48
+                     :.||:: :|.:..|  |:....|:.|..:..:.......|.|.|.:.:.:
+DNLJ_CROS5       397 LRPPNT-QPYEMPDRCPECDSPLIRPSGEAVIRCMNLSCEAILRGSLVHW    445
+
+Y075_NITWN        49 PIRDGIPI     56
+                     ..||.:.|
+DNLJ_CROS5       446 ASRDALDI    453
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: MUTS_MYXXD
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      15/47 (31.9%)
+# Similarity:    24/47 (51.1%)
+# Gaps:           8/47 (17.0%)
+# Score: 39.0
+# 
+#
+#=======================================
+
+Y075_NITWN        15 PKLLEILV-C--PVTK---GPLELDGARRELISRSAKLAYPI--RDG     53
+                     |:::.:|. |  |:.|   |||.......||:||:.....|:  :||
+MUTS_MYXXD       389 PRVVAVLARCESPLLKSLTGPLSALPELAELLSRAVAEEPPVTLKDG    435
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NOSO_STAAC
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      10/38 (26.3%)
+# Similarity:    19/38 (50.0%)
+# Gaps:           6/38 (15.8%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y075_NITWN        33 DGARRELISRSAKLAYPIR----DGIPIM--LPEEARK     64
+                     |.|.:|:...:..|.:..:    |.:|::  ||.|:.|
+NOSO_STAAC       133 DPAEKEVTRLANHLGWKGKGTNFDVLPLIYQLPNESVK    170
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RBM8A_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 19
+# Identity:       5/19 (26.3%)
+# Similarity:     8/19 (42.1%)
+# Gaps:           0/19 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLE     19
+                     :|..|.:..|:....|..|
+RBM8A_MOUSE       77 VTGVHEEATEEDIHDKFAE     95
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NU4LM_ARCPU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       3/7 (42.9%)
+# Similarity:     5/7 (71.4%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 18.0
+# 
+#
+#=======================================
+
+Y075_NITWN        17 LLEILVC     23
+                     |:..|:|
+NU4LM_ARCPU       26 LMSSLLC     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NANK_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      16/50 (32.0%)
+# Similarity:    18/50 (36.0%)
+# Gaps:          12/50 (24.0%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y075_NITWN         4 PHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYPIRDG     53
+                     |.|..||...|  .|..||     .||:....|..:.|...     ||||
+NANK_ECOLI        33 PASQTPEALRD--ALSALV-----SPLQAHAQRVAIASTGI-----IRDG     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: MIAB_MYCPE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      17/61 (27.9%)
+# Similarity:    27/61 (44.3%)
+# Gaps:          11/61 (18.0%)
+# Score: 30.5
+# 
+#
+#=======================================
+
+Y075_NITWN         9 PEDTADP--KLLEILVCPVTKGPLELDGARRELIS-RSAKLAYPIRDGIP     55
+                     |.:|.:.  |.||:.      ..:|.|.|...:.| |...:|..|.|.||
+MIAB_MYCPE       362 PNETKEQFNKTLELY------KRIEFDNAFTFIYSKRDGTVAAIIPDEIP    405
+
+Y075_NITWN        56 IMLPEEARKIE     66
+                       |.|:..:::
+MIAB_MYCPE       406 --LSEKKERLQ    414
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NADK_STAES
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+Y075_NITWN        53 GIPIMLPE     60
+                     |.|::||:
+NADK_STAES       197 GSPLVLPK    204
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: TRPG_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    18/36 (50.0%)
+# Gaps:          11/36 (30.6%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y075_NITWN        11 DTADPKLLEILVCPVTKGPLELDGARRELISRSAKL     46
+                     |||      :.|||.   |::  .||||...|:.::
+TRPG_CAEEL        38 DTA------VSVCPT---PIQ--QARRESSCRNLEM     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: MSHD_MYCMM
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 85
+# Identity:      17/85 (20.0%)
+# Similarity:    30/85 (35.3%)
+# Gaps:          31/85 (36.5%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCP----------VTKGPLELDGARREL-     39
+                     ::|.|.      ||..:.|::|.|          :.:..|...|.|.:. 
+MSHD_MYCMM        67 LSPAHG------ADAAMAELVVHPQARRRGIATAMVRAALAKTGGRNQFW    110
+
+Y075_NITWN        40 ---------ISRSAKLAYPIRDGIPI-----MLPE     60
+                              .:.||....|:|:.:.:     .|||
+MSHD_MYCMM       111 AHGTLAPAQATASALGLTPVRELVQMRRSLRQLPE    145
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PAND_THEFY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 14
+# Identity:       4/14 (28.6%)
+# Similarity:     9/14 (64.3%)
+# Gaps:           0/14 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y075_NITWN        28 GPLELDGARRELIS     41
+                     |.:.::||...|::
+PAND_THEFY        67 GVIGINGAAARLVA     80
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LIPA_ASPOR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      19/64 (29.7%)
+# Similarity:    27/64 (42.2%)
+# Gaps:          11/64 (17.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+Y075_NITWN         3 PPHSD--RPEDTADP----KLLEILVCPVTKGPLELDGARRELISRSAKL     46
+                     ||..|  .||:||:.    .|..:::..|.:..|...|||     ..|:.
+LIPA_ASPOR       178 PPPLDPHEPENTAEAISRWSLGYVVLTSVDRDDLADGGAR-----HFAET    222
+
+Y075_NITWN        47 AYPIRDGIPIMLPE     60
+                     ...|:...|.||.|
+LIPA_ASPOR       223 VIKIKQKKPSMLVE    236
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: FLGI_PECAS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 33
+# Identity:       8/33 (24.2%)
+# Similarity:    17/33 (51.5%)
+# Gaps:           0/33 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y075_NITWN        19 EILVCPVTKGPLELDGARRELISRSAKLAYPIR     51
+                     :.:|.|.|:..::..|...:.::.||.|...:|
+FLGI_PECAS       305 QTVVTPQTEISVQQTGGVLQRVNSSANLNNVVR    337
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LDH_BORAP
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       8/29 (27.6%)
+# Similarity:    18/29 (62.1%)
+# Gaps:           3/29 (10.3%)
+# Score: 25.5
+# 
+#
+#=======================================
+
+Y075_NITWN        19 EILVCPVTKGPLELDG-ARRELISRSAKL     46
+                     :|:|  :|.|..:..| .|.:|:.:::|:
+LDH_BORAP         75 DIVV--ITAGLNQKPGETRLDLVGKNSKI    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: EXGB_EMENI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y075_NITWN         7 DRPEDTAD     14
+                     |..|.|||
+EXGB_EMENI       337 DNVEHTAD    344
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: KTHY_CHLP8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      14/58 (24.1%)
+# Similarity:    22/58 (37.9%)
+# Gaps:           7/58 (12.1%)
+# Score: 27.5
+# 
+#
+#=======================================
+
+Y075_NITWN         9 PEDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYP-IRDGIPIM     57
+                     |||....|..|..:      ||..:....:.:..|....|. :|.|...:
+KTHY_CHLP8       135 PEDALLRKFSEKSL------PLAFESEELDRMENSGLEFYQRVRAGYHAI    178
+
+Y075_NITWN        58 LPEEARKI     65
+                     |..|.::|
+KTHY_CHLP8       179 LEAEPQRI    186
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: SECA2_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 76
+# Identity:      23/76 (30.3%)
+# Similarity:    30/76 (39.5%)
+# Gaps:          15/76 (19.7%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+Y075_NITWN         6 SDRPE----DTADPKLL-EILVCPVTKGPLELDGARRELISRSAKLA---     47
+                     |..|:    |.||..|: |.||..|..|....:..|.|:|...|:|.   
+SECA2_MYCTO      237 SPNPDVALIDEADSVLVDEALVPLVLAGTTHRETPRLEIIRLVAELVGDK    286
+
+Y075_NITWN        48 ------YPIRDGIPIMLPEE-ARKIE     66
+                           ....|...:.|.|. |||:|
+SECA2_MYCTO      287 DADEYFATDSDNRNVHLTEHGARKVE    312
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DB108_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 12
+# Identity:       5/12 (41.7%)
+# Similarity:     5/12 (41.7%)
+# Gaps:           0/12 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTADPK     16
+                     |..|.|.|...|
+DB108_HUMAN       61 HQPRIESTTPKK     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: LCMT1_CRYNB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 109
+# Identity:      25/109 (22.9%)
+# Similarity:    37/109 (33.9%)
+# Gaps:          51/109 (46.8%)
+# Score: 36.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDR------------PEDTADPKLLEILVCP-----VTKG-----     28
+                     :|.|.:.|            |..||.|.       |     |:||     
+LCMT1_CRYNB      172 LTSPKAQRIARHRKLYQYLGPSSTAMPP-------PGHPYTVSKGGTQLS    214
+
+Y075_NITWN        29 -------PLELDGARRELISR-SAKLAYPIRDGI--------------PI     56
+                            ||:|..:..|..|. ||.|::.:...:              |.
+LCMT1_CRYNB      215 SPLYTLLPLDLRPSPSEPASSISAILSHHVLPQLDPRLPTLFLAECLFPY    264
+
+Y075_NITWN        57 MLPEEARKI     65
+                     |.||::|:|
+LCMT1_CRYNB      265 MSPEDSREI    273
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PTGA_SALTY
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 40
+# Identity:      11/40 (27.5%)
+# Similarity:    19/40 (47.5%)
+# Gaps:           9/40 (22.5%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+Y075_NITWN        30 LELDGARRELISRSAKLAYPIRDGIPI------MLPEEAR     63
+                     :||.|   |...|.|:....::.|.|:      :|.|:|:
+PTGA_SALTY        97 VELKG---EGFKRIAEEGQRVKVGDPVIEFDLPLLEEKAK    133
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RR14_CRYJA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 11
+# Identity:       6/11 (54.5%)
+# Similarity:     7/11 (63.6%)
+# Gaps:           0/11 ( 0.0%)
+# Score: 28.0
+# 
+#
+#=======================================
+
+Y075_NITWN        35 ARRELISRSAK     45
+                     ||:.||.|..|
+RR14_CRYJA         2 ARKSLIQREKK     12
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DCUP_BACVZ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 62
+# Identity:      15/62 (24.2%)
+# Similarity:    26/62 (41.9%)
+# Gaps:          13/62 (21.0%)
+# Score: 33.0
+# 
+#
+#=======================================
+
+Y075_NITWN        10 EDTADPKLLEILVCP-VTKGPLELDGARRELISRSAKLAYP-------IR     51
+                     |.|..|:|     |. ||:.|:|..|....::.:......|       |:
+DCUP_BACVZ        49 EITHQPEL-----CAYVTRLPVEQYGVDAAILYKDIMTPLPYIGVDVEIK     93
+
+Y075_NITWN        52 DGIPIMLPEEAR     63
+                     :||..::.:..|
+DCUP_BACVZ        94 NGIGPVIDQPVR    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: GTF2I_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      13/56 (23.2%)
+# Similarity:    28/56 (50.0%)
+# Gaps:           8/56 (14.3%)
+# Score: 39.5
+# 
+#
+#=======================================
+
+Y075_NITWN        10 EDTADPKLLEILVCPVTKGPLELDGARREL-ISRSAKLAYPI---RDGIP     55
+                     |::.||...:..:    :||.|.||...:| :|::.:.::..   .:|..
+GTF2I_MOUSE      241 EESEDPDYYQYNI----QGPSETDGVDEKLPLSKALQGSHHSSEGNEGTE    286
+
+Y075_NITWN        56 IMLPEE     61
+                     :.:|.|
+GTF2I_MOUSE      287 VEVPAE    292
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ISPH_ACIF5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      11/51 (21.6%)
+# Similarity:    27/51 (52.9%)
+# Gaps:           9/51 (17.6%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y075_NITWN        10 EDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYPIRDGIPIMLP     59
+                     :|||     |::|...::.|| ::|.:::.|..:.:..   :|.:..:.|
+ISPH_ACIF5       170 DDTA-----EVIVALRSRFPL-IEGPKKDDICYATQNR---QDAVKSLAP    210
+
+Y075_NITWN        60 E     60
+                     :
+ISPH_ACIF5       211 D    211
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: NDUA1_HUMAN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       2/7 (28.6%)
+# Similarity:     6/7 (85.7%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 19.0
+# 
+#
+#=======================================
+
+Y075_NITWN        53 GIPIMLP     59
+                     |:.:::|
+NDUA1_HUMAN       13 GVCLLIP     19
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PSRP_SALTI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      14/64 (21.9%)
+# Similarity:    29/64 (45.3%)
+# Gaps:          16/64 (25.0%)
+# Score: 29.5
+# 
+#
+#=======================================
+
+Y075_NITWN        17 LLEILVCPVTKGPLELD-------------GARRELISRSAKLAYPIR--     51
+                     :::.||.|:.: .::||             |...:..:|.|.:.|.:.  
+PSRP_SALTI        92 IVQALVAPLQQ-EMKLDPTPIAHRTHGLNPGNLNKYDARIAAIDYTLAHD    140
+
+Y075_NITWN        52 DGIPIMLPEEARKI     65
+                     |||.:...::|:.|
+PSRP_SALTI       141 DGISLRNLDQAQVI    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DNAK_CHESB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 36
+# Identity:      12/36 (33.3%)
+# Similarity:    17/36 (47.2%)
+# Gaps:           2/36 ( 5.6%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+Y075_NITWN        11 DTADPKLLEILVCPVTKGPLELDGARRELISRSAKL     46
+                     |..|..||:  |.|::.|...|.|....||.|:..:
+DNAK_CHESB       380 DVKDVLLLD--VTPLSLGIETLGGVFTRLIDRNTTI    413
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: DNLJ_ACIC5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 47
+# Identity:      14/47 (29.8%)
+# Similarity:    25/47 (53.2%)
+# Gaps:           1/47 ( 2.1%)
+# Score: 42.0
+# 
+#
+#=======================================
+
+Y075_NITWN        21 LVCPVTKGPLELDGARRELISRSAKLAYPIRDGIPIMLPEEAR-KIE     66
+                     ||..:.:..|...|.:|:..|:.|.|.:.:...:|.:..:||: |||
+DNLJ_ACIC5       579 LVERLREAGLRFTGEKRKKTSQLAGLTFVLTGTLPGLSRDEAKGKIE    625
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: CAPSD_CMVO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    17/42 (40.5%)
+# Gaps:          15/42 (35.7%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDR----------PEDTA--DPKL---LEILVCPVTK     27
+                     :.||..||          |:...  |.||   ::|.|.|:.|
+CAPSD_CMVO        75 LKPPKIDRGSYYGKRLLLPDSVTEYDKKLVSRIQIRVNPLPK    116
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: IF3_CHLL2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 73
+# Identity:      17/73 (23.3%)
+# Similarity:    29/73 (39.7%)
+# Gaps:          14/73 (19.2%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTADPKLLEILVC-------PVTKGP-----LELDGARRELISR     42
+                     :.|:..:.|: :|.|.|.|       |..:|.     .|.|..:.:...|
+IF3_CHLL2        138 YKDKGLELAE-RLTERLSCVSNRDGDPKFEGKKLFVYFEPDKKKIDAFER    186
+
+Y075_NITWN        43 -SAKLAYPIRDGIPIMLPEEARK     64
+                      .||.:.|.....|:.:|...:|
+IF3_CHLL2        187 IKAKTSGPAPAPAPLPVPAPEQK    209
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: CSRA_HAEI8
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16
+# Identity:       5/16 (31.2%)
+# Similarity:     8/16 (50.0%)
+# Gaps:           0/16 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y075_NITWN        27 KGPLELDGARRELISR     42
+                     :.|.|:...|.|:..|
+CSRA_HAEI8        35 EAPKEVSVHREEIYQR     50
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: COAX_CLOBL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      10/32 (31.2%)
+# Similarity:    13/32 (40.6%)
+# Gaps:           8/32 (25.0%)
+# Score: 26.5
+# 
+#
+#=======================================
+
+Y075_NITWN        23 CPVTKGPLELDG--------ARRELISRSAKL     46
+                     |.|||....|.|        :...|..::|||
+COAX_CLOBL       137 CAVTKEANYLGGTICPGIKISSDALFDKAAKL    168
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: HOP_BOVIN
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       4/8 (50.0%)
+# Similarity:     5/8 (62.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+Y075_NITWN        58 LPEEARKI     65
+                     ||.|.|.:
+HOP_BOVIN         64 LPSECRSV     71
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: THII_VIBA3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8
+# Identity:       5/8 (62.5%)
+# Similarity:     7/8 (87.5%)
+# Gaps:           0/8 ( 0.0%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y075_NITWN        27 KGPLELDG     34
+                     :.|||:||
+THII_VIBA3       421 ESPLEIDG    428
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RL13_PSEPG
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:       8/23 (34.8%)
+# Similarity:    11/23 (47.8%)
+# Gaps:           2/23 ( 8.7%)
+# Score: 21.5
+# 
+#
+#=======================================
+
+Y075_NITWN        27 KGPLELDGARRELISRSAKLAYP     49
+                     |.||..|..|:..:...|  |:|
+RL13_PSEPG       111 KNPLGRDMYRKLKVYAGA--AHP    131
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RR2_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 7
+# Identity:       4/7 (57.1%)
+# Similarity:     7/7 (100.0%)
+# Gaps:           0/7 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y075_NITWN        38 ELISRSA     44
+                     :|:||:|
+RR2_ARATH         82 DLVSRAA     88
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: Y1710_SYNP2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 61
+# Identity:      12/61 (19.7%)
+# Similarity:    21/61 (34.4%)
+# Gaps:          11/61 (18.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y075_NITWN        16 KLLEILVCP-----------VTKGPLELDGARRELISRSAKLAYPIRDGI     54
+                     |.:..|.||           :..|.:.|:..:.:|........|.:|...
+Y1710_SYNP2        2 KKIAYLECPTGIAGDMCLGALIDGGVPLEYLKNQLNRLGIAAEYDLRAET     51
+
+Y075_NITWN        55 PIMLPEEARKI     65
+                     .|...:.|.|:
+Y1710_SYNP2       52 VIRQGQRATKV     62
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: WTPC_THEKO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      17/59 (28.8%)
+# Similarity:    29/59 (49.2%)
+# Gaps:          15/59 (25.4%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y075_NITWN        14 DPKLLEILVCPV------TKGPL--ELDGARREL------ISRSAKLAYP     49
+                     :|:|| :|..|.      |:|.|  |:...|:||      ::.|.:.|..
+WTPC_THEKO       149 EPELL-LLDEPFANLDVQTRGRLINEMKRWRKELGFTALHVTHSFEEAVS    197
+
+Y075_NITWN        50 IRDGIPIML     58
+                     :.|.:.:||
+WTPC_THEKO       198 LGDRVGVML    206
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: GRB7_RAT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      21/78 (26.9%)
+# Similarity:    26/78 (33.3%)
+# Gaps:          28/78 (35.9%)
+# Score: 40.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPH-SDRPEDTADPKLLEILVCPVTKGPLEL----DGARRELISRSAK     45
+                     ::|.| |..|||          |||....|.|.    |......:.||..
+GRB7_RAT           5 LSPSHLSSSPED----------VCPTPGTPPETPPPPDNPPPGDVKRSQP     44
+
+Y075_NITWN        46 LAYP----IRD---------GIPIMLPE     60
+                     |..|    :|:         .||...||
+GRB7_RAT          45 LPIPSSRKLREEEFQATSLPSIPNPFPE     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PSD_RHOPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 122
+# Identity:      20/122 (16.4%)
+# Similarity:    36/122 (29.5%)
+# Gaps:          57/122 (46.7%)
+# Score: 32.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKL---LEILVCPVTKGPL-----------------     30
+                     |.||.:....|...|::   :.:..|.|.:.|:                 
+PSD_RHOPS         82 MIPPPALGLGDKPLPRVSIFMSVFNCHVNRSPVAGRVERIIYSPGKFINA    131
+
+Y075_NITWN        31 ELDGARRELISRSAKLAYP--------------------IRDG-------     53
+                     |||.|..:....|..::.|                    :|:|       
+PSD_RHOPS        132 ELDKASEDNERNSMVISTPAGQIGVVQIAGLVARRIVSFVREGQTLAPGE    181
+
+Y075_NITWN        54 ----------IPIMLPEEARKI     65
+                               :.:.|||.|:.:
+PSD_RHOPS        182 RFGLIRFGSRLDVYLPEGAKPL    203
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: PP156_ARATH
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:       7/26 (26.9%)
+# Similarity:    14/26 (53.8%)
+# Gaps:           0/26 ( 0.0%)
+# Score: 27.0
+# 
+#
+#=======================================
+
+Y075_NITWN        21 LVCPVTKGPLELDGARRELISRSAKL     46
+                     :|..||.|.|.:...|.|.:.::.::
+PP156_ARATH      483 IVDEVTYGTLIMGFFREEKVEKALEM    508
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ADRB2_MESAU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18
+# Identity:       7/18 (38.9%)
+# Similarity:    10/18 (55.6%)
+# Gaps:           0/18 ( 0.0%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y075_NITWN        28 GPLELDGARRELISRSAK     45
+                     |.:|.||.....:.||:|
+ADRB2_MESAU      246 GQVEQDGRSGHGLRRSSK    263
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ID5B_ADEPA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       2/9 (22.2%)
+# Similarity:     8/9 (88.9%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y075_NITWN        50 IRDGIPIML     58
+                     :::|.|:::
+ID5B_ADEPA        20 VKEGDPLVV     28
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: GPA7_CAEEL
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 56
+# Identity:      10/56 (17.9%)
+# Similarity:    21/56 (37.5%)
+# Gaps:          14/56 (25.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTA-----------DPKLLEILVCPVTKGPLELDGARRELISRS     43
+                     |:::.|.|.           ||.:.|   |.......::|.:.:..:...
+GPA7_CAEEL       112 HANKEELTEELAAAMQRLWHDPGVRE---CYRRSNEYQIDDSAKYFLDNL    158
+
+Y075_NITWN        44 AKLAYP     49
+                     .:|:.|
+GPA7_CAEEL       159 PRLSSP    164
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: IDI_ECO24
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      14/41 (34.1%)
+# Similarity:    21/41 (51.2%)
+# Gaps:           8/41 (19.5%)
+# Score: 44.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPE---DTADPK-LLEILVCPV----TKGPLELD     33
+                     :|||.|..|:   ...||. ::|..||||    |...|:::
+IDI_ECO24         92 ITPPESIYPDFRYRATDPNGIVENEVCPVFAARTTSALQIN    132
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: YHJA_ECOLI
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      19/84 (22.6%)
+# Similarity:    31/84 (36.9%)
+# Gaps:          24/84 (28.6%)
+# Score: 37.5
+# 
+#
+#=======================================
+
+Y075_NITWN         6 SDRPEDTADPKLLEILVCPVTKGPLEL----------DGARRELISRSAK     45
+                     :|:|...:|...:|.::...|..|...          |..|.|:::..||
+YHJA_ECOLI       104 ADKPVSQSDLNKIEWVMQYETMPPTRYTALHWAGKVSDEERAEILAWIAK    153
+
+Y075_NITWN        46 LA---YPIRD-----------GIPIMLPEEARKI     65
+                     ..   |...|           .||..||.:|:|:
+YHJA_ECOLI       154 QRAEYYASNDTAPEHRNEPVQPIPQKLPTDAQKV    187
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RIMP_BURPS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 9
+# Identity:       4/9 (44.4%)
+# Similarity:     6/9 (66.7%)
+# Gaps:           0/9 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRP      9
+                     ::.|..|||
+RIMP_BURPS        67 VSSPGLDRP     75
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RS28_OSTOS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 37
+# Identity:      12/37 (32.4%)
+# Similarity:    20/37 (54.1%)
+# Gaps:           5/37 (13.5%)
+# Score: 35.5
+# 
+#
+#=======================================
+
+Y075_NITWN        32 LDGARRELISRSAKLAYPIRDGIPIMLPE---EARKI     65
+                     :|......|:|:.|  .|:|:|..:.|.|   |||::
+RS28_OSTOS        31 MDDNGNRTINRNVK--GPVREGDILTLLEAEREARRL     65
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: HBAC_LITCT
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 6
+# Identity:       4/6 (66.7%)
+# Similarity:     4/6 (66.7%)
+# Gaps:           0/6 ( 0.0%)
+# Score: 24.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPE     10
+                     |.|.||
+HBAC_LITCT        73 HLDHPE     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RPOA_PRRSS
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      20/87 (23.0%)
+# Similarity:    29/87 (33.3%)
+# Gaps:          36/87 (41.4%)
+# Score: 46.0
+# 
+#
+#=======================================
+
+Y075_NITWN         4 PHSDRPED--TADPKLLEIL-------------VCPVTKGPLELDGARRE     38
+                     |..:||||  .:|..|.:.:             .||..|..::|:|...|
+RPOA_PRRSS       451 PQYNRPEDDWASDYDLAQAIQCLQLPATVVRNRACPNAKYLIKLNGVHWE    500
+
+Y075_NITWN        39 LISRSAKL--------------------AYPIRDGIP     55
+                     :..||...                    .|| .||:|
+RPOA_PRRSS       501 VEVRSGMAPRSLSRECVVGVCSEGCVAPPYP-ADGLP    536
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: UBIE_PSEAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 20
+# Identity:       5/20 (25.0%)
+# Similarity:    11/20 (55.0%)
+# Gaps:           0/20 ( 0.0%)
+# Score: 23.0
+# 
+#
+#=======================================
+
+Y075_NITWN        30 LELDGARRELISRSAKLAYP     49
+                     |::.|...:|..:.::|..|
+UBIE_PSEAE        73 LDIAGGTGDLTRQFSRLVGP     92
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: FLII_AQUAE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       9/29 (31.0%)
+# Similarity:    14/29 (48.3%)
+# Gaps:           8/29 (27.6%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y075_NITWN        19 EILVCP------VTKGPLELDGARRELIS     41
+                     ::||.|      :.||...|  .:.||:|
+FLII_AQUAE        71 KVLVMPYEPVFGLRKGDKVL--LKNELVS     97
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: MSS11_VANPO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 39
+# Identity:      11/39 (28.2%)
+# Similarity:    17/39 (43.6%)
+# Gaps:           5/39 (12.8%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y075_NITWN        10 EDTADPKLLEILVCPVTKGPLELDG-----ARRELISRS     43
+                     ::|..|:|....|.||....:...|     ||.:..:||
+MSS11_VANPO      540 QNTGKPQLSHQFVVPVNNQVVTTPGGSSTSARTKSNARS    578
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: SPB4_ASPFU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 50
+# Identity:      15/50 (30.0%)
+# Similarity:    18/50 (36.0%)
+# Gaps:          11/50 (22.0%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y075_NITWN         5 HSDRPEDTADPKLLEILVCPVTKGPL-------ELDGARRELISRSAKLA     47
+                     |..|.||..  ..||:...||.  |.       :.|.|.....:|.|.||
+SPB4_ASPFU       404 HPGREEDYV--SFLEVRKTPVV--PFSPSISFSDADAAAATATARKAVLA    449
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ASSY_MYCTO
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 35
+# Identity:      12/35 (34.3%)
+# Similarity:    17/35 (48.6%)
+# Gaps:           6/35 (17.1%)
+# Score: 31.0
+# 
+#
+#=======================================
+
+Y075_NITWN        31 ELDGARRELISRSAKLAYPIRDGI---PIMLPEEA     62
+                     ||...:|:...|.|:|.|   ||:   |:....||
+ASSY_MYCTO       295 ELGRFKRQTDQRWAELVY---DGLWYSPLKAALEA    326
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: ECCB1_MYCS2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 51
+# Identity:      12/51 (23.5%)
+# Similarity:    21/51 (41.2%)
+# Gaps:          18/51 (35.3%)
+# Score: 33.5
+# 
+#
+#=======================================
+
+Y075_NITWN        17 LLEILVCPVTKG--------PLELDGARRELISRSAKLAYPIRDGIPIML     58
+                     ::.:|:|   .|        ||...|:.:.|:.|:....|       :||
+ECCB1_MYCS2       50 VVSVLIC---LGAALMAYFKPLGKQGSDQLLVDRTTNQLY-------VML     89
+
+Y075_NITWN        59 P     59
+                     |
+ECCB1_MYCS2       90 P     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: KCY4_ORYSJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 29
+# Identity:       8/29 (27.6%)
+# Similarity:    13/29 (44.8%)
+# Gaps:           0/29 ( 0.0%)
+# Score: 21.0
+# 
+#
+#=======================================
+
+Y075_NITWN        16 KLLEILVCPVTKGPLELDGARRELISRSA     44
+                     |||:..:.........:||..|...:|:|
+KCY4_ORYSJ        93 KLLQEAMIKSGNDKFLIDGFPRNEENRAA    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: HCP_TRIV2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 42
+# Identity:      12/42 (28.6%)
+# Similarity:    14/42 (33.3%)
+# Gaps:          17/42 (40.5%)
+# Score: 29.0
+# 
+#
+#=======================================
+
+Y075_NITWN         4 PHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRSAK     45
+                     |.||..:.....|.||.                 |.||:|||
+HCP_TRIV2        115 PASDTQKQIQQGKDLEF-----------------EFISQSAK    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: UBX7_YEAST
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 71
+# Identity:      15/71 (21.1%)
+# Similarity:    25/71 (35.2%)
+# Gaps:          23/71 (32.4%)
+# Score: 32.0
+# 
+#
+#=======================================
+
+Y075_NITWN         3 PPHSDRPEDTADPKLLEILVCPVTKGPLELDGAR----------RELISR     42
+                     |..:.:.|:|:.|...|:      :....|.||.          ||.:..
+UBX7_YEAST       328 PEVTSQREETSKPNRHEV------RSSTPLSGAASSSCFQYNNVREPVQS    371
+
+Y075_NITWN        43 SAKLAYPIRDGIPIMLPEEAR     63
+                     ||..:       |::.|...|
+UBX7_YEAST       372 SAHAS-------PMLTPSGTR    385
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: RPOA_ACICJ
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 41
+# Identity:      13/41 (31.7%)
+# Similarity:    19/41 (46.3%)
+# Gaps:           2/41 ( 4.9%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+Y075_NITWN         3 PPHSDRPEDTADPKLLEILVCPVTKG-PLELDGA-RRELIS     41
+                     |...|......|.::..|:..|:.:| .|.|..| ||.|:|
+RPOA_ACICJ        19 PEKLDIEPGADDTRVATIIAEPLERGFGLTLGNALRRVLLS     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: YXAD_BACSU
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 30
+# Identity:       7/30 (23.3%)
+# Similarity:    14/30 (46.7%)
+# Gaps:           0/30 ( 0.0%)
+# Score: 22.0
+# 
+#
+#=======================================
+
+Y075_NITWN         8 RPEDTADPKLLEILVCPVTKGPLELDGARR     37
+                     |..|.:|.::....:..:.|..|:.|..:|
+YXAD_BACSU        82 RFSDPSDGRVSLFTITKLGKQLLKADQQKR    111
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Y075_NITWN
+# 2: FADB_SHESR
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 64
+# Identity:      13/64 (20.3%)
+# Similarity:    25/64 (39.1%)
+# Gaps:          15/64 (23.4%)
+# Score: 34.5
+# 
+#
+#=======================================
+
+Y075_NITWN         1 MTPPHSDRPEDTADPKLLEILVCPVTKGPLELDGARRELISRSAKLAYPI     50
+                     :|.....||||......::.:|.|..     |:.|..::          :
+FADB_SHESR       167 ITTGKDQRPEDALKVGAVDAVVAPEA-----LEAAAIQM----------L    201
+
+Y075_NITWN        51 RDGIPIMLPEEARK     64
+                     :|.:...|..:||:
+FADB_SHESR       202 KDAVAEKLDWQARR    215
+
+
+#---------------------------------------
+#---------------------------------------
