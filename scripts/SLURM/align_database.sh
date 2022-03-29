@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5075c285d2c393b248e5d7ec019d743239ce28a98d4e4da0d51880c76862b967
-size 288
+#!/bin/bash
+#
+#SBATCH --job-name=sp_n1000_0_600_a
+#SBATCH --partition=gpu
+#SBATCH --gpus=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1GB
+#SBATCH --mail-type=ALL
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+
+/usr/bin/time ../align_database.py data/sp_n1000_0_600_a -p ssw swipe adept

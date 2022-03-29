@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47d7a8f39d53ed806a3f3dc02e3f6a025de3074fd1a0363a7e5925f12f48c831
-size 503
+Traceback (most recent call last):
+  File "/scratch/cube/tuechler/protein_alignment/scripts/SLURM/../align_database.py", line 80, in <module>
+    main()
+  File "/scratch/cube/tuechler/protein_alignment/scripts/SLURM/../align_database.py", line 62, in main
+    os.mkdir(f"program_out/{name}")
+FileNotFoundError: [Errno 2] No such file or directory: 'program_out/sp_n10'
+0.08user 0.02system 0:00.18elapsed 55%CPU (0avgtext+0avgdata 9140maxresident)k
+159inputs+0outputs (0major+2593minor)pagefaults 0swaps

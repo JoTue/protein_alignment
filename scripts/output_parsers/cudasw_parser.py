@@ -1,3 +1,55 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:295ae4da343acf7ff58b94984a746f751e7055a812e51a623568aa9f2bb74415
-size 1794
+#!/usr/bin/env python3
+"""Parse cudasw output file."""
+
+import os
+import argparse
+import json
+
+def cudasw_parser(input_file):
+    d = {}
+    # for input_file in os.scandir(f"{input_dir}"):
+    #     if os.path.splitext(input_file)[1] == ".cudasw":
+    #         with open(input_file) as f:
+    #             query, db, score = None, None, None
+    #             for line in f:
+    #                 if line.startswith("query:"):
+    #                     query = line[6:].strip().split("|")[-1]
+    #                 elif line.startswith("score:"):
+    #                     words = line.split()
+    #                     db = words[3].split("|")[-1]
+    #                     score = float(words[1])
+    #                     d[query] = d.get(query, []) + [(db, score)]
+    with open(input_file) as f:
+        query, db, score = None, None, None
+        for line in f:
+            if line.startswith("query:"):
+                query = line[6:].strip().split("|")[-1]
+            elif line.startswith("score:"):
+                words = line.split()
+                db = words[3].split("|")[-1]
+                score = float(words[1])
+                d[query] = d.get(query, []) + [(db, score)]
+    
+    # write dictionary to json file
+    name = input_dir.split('/')[-2]
+    with open(f"program_out/{name}/cudasw/{name}.cudasw.json", "w") as f:
+        print(json.dumps(d), file=f)
+
+
+def main():
+    """ 
+    Parse cudasw output file.
+    """
+    parser = argparse.ArgumentParser(description = 'Parse cudasw output file.')
+
+    # parser.add_argument("input",
+    #     help="Path of the cudasw output directory.")
+    parser.add_argument("input",
+        help="Path of the ssw output file.")
+
+    args = parser.parse_args()
+
+    cudasw_parser(args.input)
+ 
+if __name__ == '__main__':
+    main()

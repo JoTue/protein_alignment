@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b6ca7f7128ef34a8813df90173983d2a6c3a88b61cd8d3a5278a87881df845a
-size 158
+input_file='program_out/sp_n10_b/data/sp_n10_b'
+matrix='BLOSUM50'
+gapopen=13
+gapextension=2
+program_list=['blast', 'cudasw', 'ssw', 'swipe', 'water', 'adept']
