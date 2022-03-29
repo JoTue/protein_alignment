@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:990d9dd02816f465c543dfa184650394582634871dcd722177ffbf09cfa0de7c
-size 723
+- new programs: 
+- mmseqs2
+- dedal
+
+- configure all programs: matrix, gap penalties,... @done
+
+- test adept multigpu/asynchr
+
+- adept: error if too few alignments? (e.g. pf vs pf)
+
+- cudasw: segmentation faults at 100n (sequences need to be <500nt ??)
+
+- various programs: test different core/thread numbers
+
+- test via slurm
+
+- check equivalence of results (create script to join results, main_output_parser)
+
+- allow different query/db files
+
+- error in adept output_parser
+
+- writing adept results takes (sometimes?) very long (try: .to_hdf)
+
+- adept often yields wrong scores...
+
+- cudasw, need to press key if long output...
+
+- blast, max 500 hits per query in output
+
+- adept asynch: only first 50000 scores computed
