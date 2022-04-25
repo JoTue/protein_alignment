@@ -1,0 +1,1692 @@
+
+
+Building a new DB, current time: 04/05/2022 13:19:35
+New DB name:   /scratch/cube/tuechler/program_out/sp_n4000_10_500/data/sp_n4000_10_500
+New DB title:  ../program_out/sp_n4000_10_500/data/sp_n4000_10_500
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4000 sequences in 0.145483 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n4000_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+393.23user 0.63system 6:35.01elapsed 99%CPU (0avgtext+0avgdata 75452maxresident)k
+77114inputs+112488outputs (318major+291480minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n4000_10_500/data/sp_n4000_10_500 /tmp/15476178744615203278/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 57ms
+Time for merging to query: 0h 0m 0s 116ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 316ms
+createdb ../program_out/sp_n4000_10_500/data/sp_n4000_10_500 /tmp/15476178744615203278/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 31ms
+Time for merging to target: 0h 0m 0s 103ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 217ms
+Tmp /tmp/15476178744615203278/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/15476178744615203278/query /tmp/15476178744615203278/target /tmp/15476178744615203278/search_tmp/6339750920575988699/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 1 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 4000 type: Aminoacid
+Estimated memory consumption: 984M
+Target database size: 4000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 4.00K 0s 494ms
+Index table: Masked residues: 8970
+Index table: fill
+[=================================================================] 4.00K 0s 447ms
+Index statistics
+Entries:          949456
+DB size:          493 MB
+Avg k-mer size:   0.014835
+Top 10 k-mers
+    GPGGTL	18
+    VGPVST	16
+    NANTLD	11
+    YVPGSF	11
+    AVLDDG	11
+    AFGVWG	11
+    TVTLAI	11
+    GLGPGK	11
+    VNTGGL	11
+    GRNGTL	11
+Time for index table init: 0h 0m 1s 553ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 4000
+Target db start 1 to 4000
+[=================================================================] 4.00K 1m 12s 457ms
+
+1461.561772 k-mers per position
+6429 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+94 sequences passed prefiltering per query sequence
+85 median result list length
+3 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 1m 16s 612ms
+align /tmp/15476178744615203278/query /tmp/15476178744615203278/target /tmp/15476178744615203278/search_tmp/6339750920575988699/pref_0 /tmp/15476178744615203278/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 15 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 1 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 4000 type: Aminoacid
+Target database size: 4000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 4.00K 8s 668ms
+Time for merging to result: 0h 0m 0s 0ms
+
+376650 alignments calculated.
+29736 sequence pairs passed the thresholds (0.078949 of overall calculated).
+7.434000 hits per query sequence.
+Time for processing: 0h 0m 8s 920ms
+Remove temporary files
+rmdb /tmp/15476178744615203278/search_tmp/6339750920575988699/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/15476178744615203278/search_tmp/6339750920575988699/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/search_tmp/6339750920575988699/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/search_tmp/6339750920575988699/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis /tmp/15476178744615203278/query /tmp/15476178744615203278/target /tmp/15476178744615203278/result ../program_out/sp_n4000_10_500/mmseqs/sp_n4000_10_500.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 1 --compressed 0 -v 3 
+
+[=================================================================] 4.00K 0s 91ms
+Time for merging to sp_n4000_10_500.mmseqs: 0h 0m 0s 7ms
+Time for processing: 0h 0m 0s 429ms
+Removing temporary files
+rmdb /tmp/15476178744615203278/result 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/target 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/target_h 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/query 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/15476178744615203278/query_h 
+
+Time for processing: 0h 0m 0s 1ms
+106.74user 0.86system 1:27.19elapsed 123%CPU (0avgtext+0avgdata 917540maxresident)k
+143945inputs+24965outputs (635major+55289minor)pagefaults 0swaps
+Running cudasw...
+311.71user 223.35system 9:04.68elapsed 98%CPU (0avgtext+0avgdata 118380maxresident)k
+23775inputs+751693outputs (66major+34573minor)pagefaults 0swaps
+Running ssw...
+CPU time: 1613.78446603 seconds
+1532.51user 11.43system 26:54.53elapsed 95%CPU (0avgtext+0avgdata 8892maxresident)k
+8291927inputs+4275215outputs (31major+47438minor)pagefaults 0swaps
+Running swipe...
+2068.86user 566.67system 1:27:46elapsed 50%CPU (0avgtext+0avgdata 8908maxresident)k
+11778inputs+12013218outputs (29major+52891437minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 334.1574 seconds ---
+          alignment_scores  ...  query_header
+0                      898  ...   UMAD1_HUMAN
+1                       41  ...   UMAD1_HUMAN
+2                       29  ...   UMAD1_HUMAN
+3                       48  ...   UMAD1_HUMAN
+4                       38  ...   UMAD1_HUMAN
+...                    ...  ...           ...
+15999995                54  ...    SFSA_SALDC
+15999996                36  ...    SFSA_SALDC
+15999997                47  ...    SFSA_SALDC
+15999998                39  ...    SFSA_SALDC
+15999999              1529  ...    SFSA_SALDC
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 43.5211 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+308.49user 129.07system 8:21.57elapsed 87%CPU (0avgtext+0avgdata 34920892maxresident)k
+92507inputs+1211608outputs (320major+23460702minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+1000000
+1050000
+1100000
+1150000
+1200000
+1250000
+1300000
+1350000
+1400000
+1450000
+1500000
+1550000
+1600000
+1650000
+1700000
+1750000
+1800000
+1850000
+1900000
+1950000
+2000000
+2050000
+2100000
+2150000
+2200000
+2250000
+2300000
+2350000
+2400000
+2450000
+2500000
+2550000
+2600000
+2650000
+2700000
+2750000
+2800000
+2850000
+2900000
+2950000
+3000000
+3050000
+3100000
+3150000
+3200000
+3250000
+3300000
+3350000
+3400000
+3450000
+3500000
+3550000
+3600000
+3650000
+3700000
+3750000
+3800000
+3850000
+3900000
+3950000
+4000000
+4050000
+4100000
+4150000
+4200000
+4250000
+4300000
+4350000
+4400000
+4450000
+4500000
+4550000
+4600000
+4650000
+4700000
+4750000
+4800000
+4850000
+4900000
+4950000
+5000000
+5050000
+5100000
+5150000
+5200000
+5250000
+5300000
+5350000
+5400000
+5450000
+5500000
+5550000
+5600000
+5650000
+5700000
+5750000
+5800000
+5850000
+5900000
+5950000
+6000000
+6050000
+6100000
+6150000
+6200000
+6250000
+6300000
+6350000
+6400000
+6450000
+6500000
+6550000
+6600000
+6650000
+6700000
+6750000
+6800000
+6850000
+6900000
+6950000
+7000000
+7050000
+7100000
+7150000
+7200000
+7250000
+7300000
+7350000
+7400000
+7450000
+7500000
+7550000
+7600000
+7650000
+7700000
+7750000
+7800000
+7850000
+7900000
+7950000
+8000000
+8050000
+8100000
+8150000
+8200000
+8250000
+8300000
+8350000
+8400000
+8450000
+8500000
+8550000
+8600000
+8650000
+8700000
+8750000
+8800000
+8850000
+8900000
+8950000
+9000000
+9050000
+9100000
+9150000
+9200000
+9250000
+9300000
+9350000
+9400000
+9450000
+9500000
+9550000
+9600000
+9650000
+9700000
+9750000
+9800000
+9850000
+9900000
+9950000
+10000000
+10050000
+10100000
+10150000
+10200000
+10250000
+10300000
+10350000
+10400000
+10450000
+10500000
+10550000
+10600000
+10650000
+10700000
+10750000
+10800000
+10850000
+10900000
+10950000
+11000000
+11050000
+11100000
+11150000
+11200000
+11250000
+11300000
+11350000
+11400000
+11450000
+11500000
+11550000
+11600000
+11650000
+11700000
+11750000
+11800000
+11850000
+11900000
+11950000
+12000000
+12050000
+12100000
+12150000
+12200000
+12250000
+12300000
+12350000
+12400000
+12450000
+12500000
+12550000
+12600000
+12650000
+12700000
+12750000
+12800000
+12850000
+12900000
+12950000
+13000000
+13050000
+13100000
+13150000
+13200000
+13250000
+13300000
+13350000
+13400000
+13450000
+13500000
+13550000
+13600000
+13650000
+13700000
+13750000
+13800000
+13850000
+13900000
+13950000
+14000000
+14050000
+14100000
+14150000
+14200000
+14250000
+14300000
+14350000
+14400000
+14450000
+14500000
+14550000
+14600000
+14650000
+14700000
+14750000
+14800000
+14850000
+14900000
+14950000
+15000000
+15050000
+15100000
+15150000
+15200000
+15250000
+15300000
+15350000
+15400000
+15450000
+15500000
+15550000
+15600000
+15650000
+15700000
+15750000
+15800000
+15850000
+15900000
+15950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 324.5837 seconds ---
+          alignment_scores  ...  query_header
+0                      898  ...   UMAD1_HUMAN
+1                       41  ...   UMAD1_HUMAN
+2                       29  ...   UMAD1_HUMAN
+3                       48  ...   UMAD1_HUMAN
+4                       38  ...   UMAD1_HUMAN
+...                    ...  ...           ...
+15999995                54  ...    SFSA_SALDC
+15999996                36  ...    SFSA_SALDC
+15999997                47  ...    SFSA_SALDC
+15999998                39  ...    SFSA_SALDC
+15999999              1529  ...    SFSA_SALDC
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 44.2615 seconds ---
+ total CPU work (counts) done while GPU was busy: 80563601
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+371.74user 123.31system 8:20.04elapsed 99%CPU (0avgtext+0avgdata 17074392maxresident)k
+77993inputs+1211609outputs (256major+17667597minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+1.33user 0.09system 0:01.96elapsed 72%CPU (0avgtext+0avgdata 31264maxresident)k
+117740inputs+4263outputs (13major+10958minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.17user 0.03system 0:00.64elapsed 33%CPU (0avgtext+0avgdata 18144maxresident)k
+6875inputs+1435outputs (12major+5570minor)pagefaults 0swaps
+Running cudasw_parser...
+99.68user 2.45system 1:42.84elapsed 99%CPU (0avgtext+0avgdata 3364716maxresident)k
+757101inputs+688191outputs (14major+1721919minor)pagefaults 0swaps
+Running ssw_parser...
+132.88user 3.68system 2:18.02elapsed 98%CPU (0avgtext+0avgdata 3364704maxresident)k
+4280611inputs+688191outputs (14major+1771043minor)pagefaults 0swaps
+Running swipe_parser...
+176.31user 6.41system 3:05.84elapsed 98%CPU (0avgtext+0avgdata 3364804maxresident)k
+12018576inputs+688191outputs (12major+1812367minor)pagefaults 0swaps
+Running adept_parser...
+100.58user 2.85system 1:44.28elapsed 99%CPU (0avgtext+0avgdata 3364808maxresident)k
+1217042inputs+688191outputs (13major+1727108minor)pagefaults 0swaps
+Running adept_as_parser...
+102.03user 2.83system 1:46.20elapsed 98%CPU (0avgtext+0avgdata 3364840maxresident)k
+1216957inputs+688191outputs (12major+1715609minor)pagefaults 0swaps
+Runtimes of programs (in seconds):
+blast:    394.639
+mmseqs:   86.844
+ssw:      1614.035
+swipe:    5266.399
+cudasw:   544.376
+adept:    501.162
+adept_as: 499.614
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n4000_10_500/runtimes.png
+Finished parsing output.
+5711.37user 1081.83system 2:39:33elapsed 70%CPU (0avgtext+0avgdata 34920892maxresident)k
+28897891inputs+23056350outputs (2429major+103284701minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 04/05/2022 15:59:09
+New DB name:   /scratch/cube/tuechler/program_out/sp_n4000_10_1000/data/sp_n4000_10_1000
+New DB title:  ../program_out/sp_n4000_10_1000/data/sp_n4000_10_1000
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4000 sequences in 0.16565 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n4000_10_1000
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+460.96user 0.78system 7:44.13elapsed 99%CPU (0avgtext+0avgdata 71808maxresident)k
+73637inputs+112718outputs (302major+412481minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n4000_10_1000/data/sp_n4000_10_1000 /tmp/14069072539589658286/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 171ms
+Time for merging to query: 0h 0m 0s 107ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 506ms
+createdb ../program_out/sp_n4000_10_1000/data/sp_n4000_10_1000 /tmp/14069072539589658286/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 100ms
+Time for merging to target: 0h 0m 0s 87ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 414ms
+Tmp /tmp/14069072539589658286/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/14069072539589658286/query /tmp/14069072539589658286/target /tmp/14069072539589658286/search_tmp/11540870517371123049/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 1 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 4000 type: Aminoacid
+Estimated memory consumption: 986M
+Target database size: 4000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 4.00K 0s 650ms
+Index table: Masked residues: 16283
+Index table: fill
+[=================================================================] 4.00K 0s 447ms
+Index statistics
+Entries:          1224063
+DB size:          495 MB
+Avg k-mer size:   0.019126
+Top 10 k-mers
+    PWQSGA	16
+    LGPNPA	16
+    YVPGSF	16
+    AFGVWG	16
+    TVTLAI	16
+    QMFGVI	16
+    GGSDTL	16
+    WGMFAT	16
+    MSWAIT	16
+    PGVFEV	16
+Time for index table init: 0h 0m 1s 628ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 4000
+Target db start 1 to 4000
+[=================================================================] 4.00K 1m 18s 584ms
+
+1474.633481 k-mers per position
+10400 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+139 sequences passed prefiltering per query sequence
+129 median result list length
+4 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 1m 23s 607ms
+align /tmp/14069072539589658286/query /tmp/14069072539589658286/target /tmp/14069072539589658286/search_tmp/11540870517371123049/pref_0 /tmp/14069072539589658286/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 15 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 1 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 4000 type: Aminoacid
+Target database size: 4000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 4.00K 16s 20ms
+Time for merging to result: 0h 0m 0s 0ms
+
+559282 alignments calculated.
+29783 sequence pairs passed the thresholds (0.053252 of overall calculated).
+7.445750 hits per query sequence.
+Time for processing: 0h 0m 16s 367ms
+Remove temporary files
+rmdb /tmp/14069072539589658286/search_tmp/11540870517371123049/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /tmp/14069072539589658286/search_tmp/11540870517371123049/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/14069072539589658286/search_tmp/11540870517371123049/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/14069072539589658286/search_tmp/11540870517371123049/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis /tmp/14069072539589658286/query /tmp/14069072539589658286/target /tmp/14069072539589658286/result ../program_out/sp_n4000_10_1000/mmseqs/sp_n4000_10_1000.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 1 --compressed 0 -v 3 
+
+[=================================================================] 4.00K 0s 97ms
+Time for merging to sp_n4000_10_1000.mmseqs: 0h 0m 0s 10ms
+Time for processing: 0h 0m 0s 478ms
+Removing temporary files
+rmdb /tmp/14069072539589658286/result 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/14069072539589658286/target 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/14069072539589658286/target_h 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/14069072539589658286/query 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/14069072539589658286/query_h 
+
+Time for processing: 0h 0m 0s 1ms
+135.27user 0.71system 1:42.81elapsed 132%CPU (0avgtext+0avgdata 921956maxresident)k
+140473inputs+31543outputs (619major+48695minor)pagefaults 0swaps
+Running cudasw...
+760.18user 527.77system 21:33.58elapsed 99%CPU (0avgtext+0avgdata 120036maxresident)k
+16389inputs+751883outputs (34major+208289minor)pagefaults 0swaps
+Running ssw...
+CPU time: 1880.83738494 seconds
+1763.61user 11.07system 31:21.85elapsed 94%CPU (0avgtext+0avgdata 8892maxresident)k
+10513614inputs+4257188outputs (34major+182735minor)pagefaults 0swaps
+Running swipe...
+2640.38user 493.86system 1:32:55elapsed 56%CPU (0avgtext+0avgdata 8908maxresident)k
+16005inputs+12408693outputs (44major+54125781minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 428.2829 seconds ---
+          alignment_scores  ...  query_header
+0                     1565  ...     RS2_SALPB
+1                       40  ...     RS2_SALPB
+2                       49  ...     RS2_SALPB
+3                       38  ...     RS2_SALPB
+4                       45  ...     RS2_SALPB
+...                    ...  ...           ...
+15999995                38  ...    RL19_YERPY
+15999996                35  ...    RL19_YERPY
+15999997                38  ...    RL19_YERPY
+15999998                33  ...    RL19_YERPY
+15999999               733  ...    RL19_YERPY
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 43.8619 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+358.59user 172.96system 10:14.36elapsed 86%CPU (0avgtext+0avgdata 41283192maxresident)k
+79330inputs+1221133outputs (254major+31074550minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+1000000
+1050000
+1100000
+1150000
+1200000
+1250000
+1300000
+1350000
+1400000
+1450000
+1500000
+1550000
+1600000
+1650000
+1700000
+1750000
+1800000
+1850000
+1900000
+1950000
+2000000
+2050000
+2100000
+2150000
+2200000
+2250000
+2300000
+2350000
+2400000
+2450000
+2500000
+2550000
+2600000
+2650000
+2700000
+2750000
+2800000
+2850000
+2900000
+2950000
+3000000
+3050000
+3100000
+3150000
+3200000
+3250000
+3300000
+3350000
+3400000
+3450000
+3500000
+3550000
+3600000
+3650000
+3700000
+3750000
+3800000
+3850000
+3900000
+3950000
+4000000
+4050000
+4100000
+4150000
+4200000
+4250000
+4300000
+4350000
+4400000
+4450000
+4500000
+4550000
+4600000
+4650000
+4700000
+4750000
+4800000
+4850000
+4900000
+4950000
+5000000
+5050000
+5100000
+5150000
+5200000
+5250000
+5300000
+5350000
+5400000
+5450000
+5500000
+5550000
+5600000
+5650000
+5700000
+5750000
+5800000
+5850000
+5900000
+5950000
+6000000
+6050000
+6100000
+6150000
+6200000
+6250000
+6300000
+6350000
+6400000
+6450000
+6500000
+6550000
+6600000
+6650000
+6700000
+6750000
+6800000
+6850000
+6900000
+6950000
+7000000
+7050000
+7100000
+7150000
+7200000
+7250000
+7300000
+7350000
+7400000
+7450000
+7500000
+7550000
+7600000
+7650000
+7700000
+7750000
+7800000
+7850000
+7900000
+7950000
+8000000
+8050000
+8100000
+8150000
+8200000
+8250000
+8300000
+8350000
+8400000
+8450000
+8500000
+8550000
+8600000
+8650000
+8700000
+8750000
+8800000
+8850000
+8900000
+8950000
+9000000
+9050000
+9100000
+9150000
+9200000
+9250000
+9300000
+9350000
+9400000
+9450000
+9500000
+9550000
+9600000
+9650000
+9700000
+9750000
+9800000
+9850000
+9900000
+9950000
+10000000
+10050000
+10100000
+10150000
+10200000
+10250000
+10300000
+10350000
+10400000
+10450000
+10500000
+10550000
+10600000
+10650000
+10700000
+10750000
+10800000
+10850000
+10900000
+10950000
+11000000
+11050000
+11100000
+11150000
+11200000
+11250000
+11300000
+11350000
+11400000
+11450000
+11500000
+11550000
+11600000
+11650000
+11700000
+11750000
+11800000
+11850000
+11900000
+11950000
+12000000
+12050000
+12100000
+12150000
+12200000
+12250000
+12300000
+12350000
+12400000
+12450000
+12500000
+12550000
+12600000
+12650000
+12700000
+12750000
+12800000
+12850000
+12900000
+12950000
+13000000
+13050000
+13100000
+13150000
+13200000
+13250000
+13300000
+13350000
+13400000
+13450000
+13500000
+13550000
+13600000
+13650000
+13700000
+13750000
+13800000
+13850000
+13900000
+13950000
+14000000
+14050000
+14100000
+14150000
+14200000
+14250000
+14300000
+14350000
+14400000
+14450000
+14500000
+14550000
+14600000
+14650000
+14700000
+14750000
+14800000
+14850000
+14900000
+14950000
+15000000
+15050000
+15100000
+15150000
+15200000
+15250000
+15300000
+15350000
+15400000
+15450000
+15500000
+15550000
+15600000
+15650000
+15700000
+15750000
+15800000
+15850000
+15900000
+15950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 487.0739 seconds ---
+          alignment_scores  ...  query_header
+0                     1565  ...     RS2_SALPB
+1                       40  ...     RS2_SALPB
+2                       49  ...     RS2_SALPB
+3                       38  ...     RS2_SALPB
+4                       45  ...     RS2_SALPB
+...                    ...  ...           ...
+15999995                38  ...    RL19_YERPY
+15999996                35  ...    RL19_YERPY
+15999997                38  ...    RL19_YERPY
+15999998                33  ...    RL19_YERPY
+15999999               733  ...    RL19_YERPY
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 44.1922 seconds ---
+ total CPU work (counts) done while GPU was busy: 204114784
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+509.92user 152.35system 11:08.45elapsed 99%CPU (0avgtext+0avgdata 19273568maxresident)k
+78095inputs+1221124outputs (250major+17008788minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+1.53user 0.09system 0:02.24elapsed 72%CPU (0avgtext+0avgdata 29576maxresident)k
+118018inputs+3992outputs (13major+10344minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.16user 0.05system 0:00.64elapsed 34%CPU (0avgtext+0avgdata 18160maxresident)k
+6878inputs+1437outputs (14major+5638minor)pagefaults 0swaps
+Running cudasw_parser...
+105.47user 2.62system 1:49.01elapsed 99%CPU (0avgtext+0avgdata 3364916maxresident)k
+757139inputs+688383outputs (12major+2167449minor)pagefaults 0swaps
+Running ssw_parser...
+137.05user 5.35system 2:24.26elapsed 98%CPU (0avgtext+0avgdata 3364984maxresident)k
+4262552inputs+688383outputs (12major+3262592minor)pagefaults 0swaps
+Running swipe_parser...
+181.27user 7.24system 3:15.51elapsed 96%CPU (0avgtext+0avgdata 3364868maxresident)k
+12413883inputs+688383outputs (12major+2731984minor)pagefaults 0swaps
+Running adept_parser...
+106.91user 2.94system 1:50.72elapsed 99%CPU (0avgtext+0avgdata 3364984maxresident)k
+1226703inputs+688383outputs (11major+1818472minor)pagefaults 0swaps
+Running adept_as_parser...
+100.56user 2.19system 1:43.84elapsed 98%CPU (0avgtext+0avgdata 3364864maxresident)k
+1226281inputs+688383outputs (13major+1718081minor)pagefaults 0swaps
+Runtimes of programs (in seconds):
+blast:    463.669
+mmseqs:   102.326
+ssw:      1881.371
+swipe:    5574.834
+cudasw:   1293.071
+adept:    613.622
+adept_as: 667.940
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n4000_10_1000/runtimes.png
+Finished parsing output.
+7266.78user 1387.74system 3:08:12elapsed 76%CPU (0avgtext+0avgdata 41283192maxresident)k
+31484140inputs+23462754outputs (2262major+114847560minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 04/05/2022 19:07:22
+New DB name:   /scratch/cube/tuechler/program_out/sp_n4000_501_1000/data/sp_n4000_501_1000
+New DB title:  ../program_out/sp_n4000_501_1000/data/sp_n4000_501_1000
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4000 sequences in 0.217018 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n4000_501_1000
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+1605.68user 2.21system 26:50.21elapsed 99%CPU (0avgtext+0avgdata 106520maxresident)k
+79045inputs+371315outputs (303major+899186minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n4000_501_1000/data/sp_n4000_501_1000 /tmp/5899925353479592494/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 72ms
+Time for merging to query: 0h 0m 0s 84ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 335ms
+createdb ../program_out/sp_n4000_501_1000/data/sp_n4000_501_1000 /tmp/5899925353479592494/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 101ms
+Time for merging to target: 0h 0m 0s 79ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 414ms
+Tmp /tmp/5899925353479592494/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/5899925353479592494/query /tmp/5899925353479592494/target /tmp/5899925353479592494/search_tmp/12819658339032765323/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 1 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 4000 type: Aminoacid
+Estimated memory consumption: 995M
+Target database size: 4000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 4.00K 1s 292ms
+Index table: Masked residues: 49923
+Index table: fill
+[=================================================================] 4.00K 1s 152ms
+Index statistics
+Entries:          2538962
+DB size:          502 MB
+Avg k-mer size:   0.039671
+Top 10 k-mers
+    PGVFEV	62
+    IDPHFT	48
+    ERALGV	48
+    AVAGDR	44
+    NETAAY	44
+    VKTGGR	42
+    APGPEV	42
+    AGGTTV	42
+    TLPGVV	39
+    QFRYPY	39
+Time for index table init: 0h 0m 2s 924ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 4000
+Target db start 1 to 4000
+[=================================================================] 4.00K 4m 10s 234ms
+
+1582.472738 k-mers per position
+44411 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+295 sequences passed prefiltering per query sequence
+300 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 4m 16s 189ms
+align /tmp/5899925353479592494/query /tmp/5899925353479592494/target /tmp/5899925353479592494/search_tmp/12819658339032765323/pref_0 /tmp/5899925353479592494/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 15 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 1 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 4000 type: Aminoacid
+Target database size: 4000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 4.00K 1m 36s 68ms
+Time for merging to result: 0h 0m 0s 0ms
+
+1180276 alignments calculated.
+102386 sequence pairs passed the thresholds (0.086748 of overall calculated).
+25.596500 hits per query sequence.
+Time for processing: 0h 1m 36s 485ms
+Remove temporary files
+rmdb /tmp/5899925353479592494/search_tmp/12819658339032765323/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 22ms
+rmdb /tmp/5899925353479592494/search_tmp/12819658339032765323/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/5899925353479592494/search_tmp/12819658339032765323/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/5899925353479592494/search_tmp/12819658339032765323/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis /tmp/5899925353479592494/query /tmp/5899925353479592494/target /tmp/5899925353479592494/result ../program_out/sp_n4000_501_1000/mmseqs/sp_n4000_501_1000.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 1 --compressed 0 -v 3 
+
+[=================================================================] 4.00K 0s 255ms
+Time for merging to sp_n4000_501_1000.mmseqs: 0h 0m 0s 9ms
+Time for processing: 0h 0m 0s 660ms
+Removing temporary files
+rmdb /tmp/5899925353479592494/result 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /tmp/5899925353479592494/target 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /tmp/5899925353479592494/target_h 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/5899925353479592494/query 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/5899925353479592494/query_h 
+
+Time for processing: 0h 0m 0s 1ms
+380.30user 0.93system 5:55.65elapsed 107%CPU (0avgtext+0avgdata 938220maxresident)k
+150401inputs+67289outputs (635major+122278minor)pagefaults 0swaps
+Running cudasw...
+1633.97user 1122.11system 45:44.57elapsed 100%CPU (0avgtext+0avgdata 121704maxresident)k
+26085inputs+754039outputs (50major+314401minor)pagefaults 0swaps
+Running ssw...
+CPU time: 3429.831949 seconds
+3242.34user 16.50system 57:11.19elapsed 94%CPU (0avgtext+0avgdata 8952maxresident)k
+21171886inputs+4490450outputs (32major+137629minor)pagefaults 0swaps
+Running swipe...
+7725.73user 568.23system 3:28:46elapsed 66%CPU (0avgtext+0avgdata 8904maxresident)k
+19453inputs+14968946outputs (47major+62505822minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1086.9838 seconds ---
+          alignment_scores  ...  query_header
+0                     3522  ...    CAIC_ECOSE
+1                       46  ...    CAIC_ECOSE
+2                       40  ...    CAIC_ECOSE
+3                       53  ...    CAIC_ECOSE
+4                       47  ...    CAIC_ECOSE
+...                    ...  ...           ...
+15999995                55  ...    MUTL_SALHS
+15999996                45  ...    MUTL_SALHS
+15999997                46  ...    MUTL_SALHS
+15999998                50  ...    MUTL_SALHS
+15999999              4081  ...    MUTL_SALHS
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 42.6122 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+632.82user 282.29system 21:37.17elapsed 70%CPU (0avgtext+0avgdata 72692660maxresident)k
+101026inputs+1266523outputs (317major+46804831minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+1000000
+1050000
+1100000
+1150000
+1200000
+1250000
+1300000
+1350000
+1400000
+1450000
+1500000
+1550000
+1600000
+1650000
+1700000
+1750000
+1800000
+1850000
+1900000
+1950000
+2000000
+2050000
+2100000
+2150000
+2200000
+2250000
+2300000
+2350000
+2400000
+2450000
+2500000
+2550000
+2600000
+2650000
+2700000
+2750000
+2800000
+2850000
+2900000
+2950000
+3000000
+3050000
+3100000
+3150000
+3200000
+3250000
+3300000
+3350000
+3400000
+3450000
+3500000
+3550000
+3600000
+3650000
+3700000
+3750000
+3800000
+3850000
+3900000
+3950000
+4000000
+4050000
+4100000
+4150000
+4200000
+4250000
+4300000
+4350000
+4400000
+4450000
+4500000
+4550000
+4600000
+4650000
+4700000
+4750000
+4800000
+4850000
+4900000
+4950000
+5000000
+5050000
+5100000
+5150000
+5200000
+5250000
+5300000
+5350000
+5400000
+5450000
+5500000
+5550000
+5600000
+5650000
+5700000
+5750000
+5800000
+5850000
+5900000
+5950000
+6000000
+6050000
+6100000
+6150000
+6200000
+6250000
+6300000
+6350000
+6400000
+6450000
+6500000
+6550000
+6600000
+6650000
+6700000
+6750000
+6800000
+6850000
+6900000
+6950000
+7000000
+7050000
+7100000
+7150000
+7200000
+7250000
+7300000
+7350000
+7400000
+7450000
+7500000
+7550000
+7600000
+7650000
+7700000
+7750000
+7800000
+7850000
+7900000
+7950000
+8000000
+8050000
+8100000
+8150000
+8200000
+8250000
+8300000
+8350000
+8400000
+8450000
+8500000
+8550000
+8600000
+8650000
+8700000
+8750000
+8800000
+8850000
+8900000
+8950000
+9000000
+9050000
+9100000
+9150000
+9200000
+9250000
+9300000
+9350000
+9400000
+9450000
+9500000
+9550000
+9600000
+9650000
+9700000
+9750000
+9800000
+9850000
+9900000
+9950000
+10000000
+10050000
+10100000
+10150000
+10200000
+10250000
+10300000
+10350000
+10400000
+10450000
+10500000
+10550000
+10600000
+10650000
+10700000
+10750000
+10800000
+10850000
+10900000
+10950000
+11000000
+11050000
+11100000
+11150000
+11200000
+11250000
+11300000
+11350000
+11400000
+11450000
+11500000
+11550000
+11600000
+11650000
+11700000
+11750000
+11800000
+11850000
+11900000
+11950000
+12000000
+12050000
+12100000
+12150000
+12200000
+12250000
+12300000
+12350000
+12400000
+12450000
+12500000
+12550000
+12600000
+12650000
+12700000
+12750000
+12800000
+12850000
+12900000
+12950000
+13000000
+13050000
+13100000
+13150000
+13200000
+13250000
+13300000
+13350000
+13400000
+13450000
+13500000
+13550000
+13600000
+13650000
+13700000
+13750000
+13800000
+13850000
+13900000
+13950000
+14000000
+14050000
+14100000
+14150000
+14200000
+14250000
+14300000
+14350000
+14400000
+14450000
+14500000
+14550000
+14600000
+14650000
+14700000
+14750000
+14800000
+14850000
+14900000
+14950000
+15000000
+15050000
+15100000
+15150000
+15200000
+15250000
+15300000
+15350000
+15400000
+15450000
+15500000
+15550000
+15600000
+15650000
+15700000
+15750000
+15800000
+15850000
+15900000
+15950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1046.4233 seconds ---
+          alignment_scores  ...  query_header
+0                     3522  ...    CAIC_ECOSE
+1                       46  ...    CAIC_ECOSE
+2                       40  ...    CAIC_ECOSE
+3                       53  ...    CAIC_ECOSE
+4                       47  ...    CAIC_ECOSE
+...                    ...  ...           ...
+15999995                55  ...    MUTL_SALHS
+15999996                45  ...    MUTL_SALHS
+15999997                46  ...    MUTL_SALHS
+15999998                50  ...    MUTL_SALHS
+15999999              4081  ...    MUTL_SALHS
+
+[16000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 40.3377 seconds ---
+ total CPU work (counts) done while GPU was busy: 474105169
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+897.51user 309.33system 20:58.27elapsed 95%CPU (0avgtext+0avgdata 31251964maxresident)k
+108767inputs+1266527outputs (359major+23888322minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+2.57user 0.20system 0:06.71elapsed 41%CPU (0avgtext+0avgdata 44552maxresident)k
+380935inputs+7238outputs (29major+22755minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.39user 0.05system 0:02.25elapsed 20%CPU (0avgtext+0avgdata 32652maxresident)k
+14758inputs+4689outputs (29major+11609minor)pagefaults 0swaps
+Running cudasw_parser...
+103.41user 3.26system 1:48.69elapsed 98%CPU (0avgtext+0avgdata 3368032maxresident)k
+763663inputs+690535outputs (29major+2096425minor)pagefaults 0swaps
+Running ssw_parser...
+135.95user 4.71system 2:23.58elapsed 97%CPU (0avgtext+0avgdata 3368308maxresident)k
+4500070inputs+690535outputs (29major+1779723minor)pagefaults 0swaps
+Running swipe_parser...
+225.96user 7.82system 4:03.87elapsed 95%CPU (0avgtext+0avgdata 3365952maxresident)k
+14981864inputs+690535outputs (44major+2094381minor)pagefaults 0swaps
+Running adept_parser...
+120.86user 4.08system 2:07.12elapsed 98%CPU (0avgtext+0avgdata 3367380maxresident)k
+1276142inputs+690535outputs (29major+3438245minor)pagefaults 0swaps
+Running adept_as_parser...
+117.91user 2.49system 2:02.38elapsed 98%CPU (0avgtext+0avgdata 3368332maxresident)k
+1276140inputs+690535outputs (29major+1696259minor)pagefaults 0swaps
+Runtimes of programs (in seconds):
+blast:    1609.798
+mmseqs:   355.227
+ssw:      3430.339
+swipe:    12525.625
+cudasw:   2744.040
+adept:    1296.822
+adept_as: 1257.031
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n4000_501_1000/runtimes.png
+Finished parsing output.
+16830.87user 2332.04system 6:41:13elapsed 79%CPU (0avgtext+0avgdata 72692660maxresident)k
+45427698inputs+26671519outputs (2638major+145880813minor)pagefaults 0swaps

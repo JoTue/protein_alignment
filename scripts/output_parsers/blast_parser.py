@@ -10,16 +10,16 @@ def blast_parser(input_file):
         query, db, score = None, None, None
         for line in f:
             if line.startswith("Query="):
-                query = line.split()[-1].strip().split("|")[-1]
+                query = line.split()[-1].strip()
             elif line.startswith(">"):
-                db = line[1:].strip().split("|")[-1]
+                db = line[1:].strip()
             elif line.startswith(" Score ="):
                 score = float(line.split()[4][1:-2])
                 d[query] = d.get(query, []) + [(db, score)]
     
     # write dictionary to json file
     name = input_file.split('/')[-1].split(".")[0]
-    with open(f"program_out/{name}/blast/{name}.blast.json", "w") as f:
+    with open(f"../program_out/{name}/blast/{name}.blast.json", "w") as f:
         print(json.dumps(d), file=f)
 
             

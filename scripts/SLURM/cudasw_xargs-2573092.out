@@ -1,0 +1,297 @@
+
+
+Building a new DB, current time: 04/14/2022 12:42:21
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/sp_n400_0_600
+New DB title:  ../program_out/sp_n400_0_600/data/sp_n400_0_600
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 400 sequences in 0.0156689 seconds.
+
+
+
+
+Building a new DB, current time: 04/14/2022 12:42:22
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_1
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 133 sequences in 0.00960112 seconds.
+
+
+
+
+Building a new DB, current time: 04/14/2022 12:42:23
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_2
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 133 sequences in 0.00973701 seconds.
+
+
+
+
+Building a new DB, current time: 04/14/2022 12:42:24
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_3
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 134 sequences in 0.00954604 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n400_0_600
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running cudasw...
+44.69user 37.40system 1:34.69elapsed 86%CPU (0avgtext+0avgdata 426436maxresident)k
+14984inputs+1231outputs (50major+551342minor)pagefaults 0swaps
+Running cudasw_xargs...
+xargs: bash: exited with status 255; aborting
+chunk_n=3
+0.09user 1.05system 0:15.37elapsed 7%CPU (0avgtext+0avgdata 8992maxresident)k
+12413inputs+1outputs (44major+9258minor)pagefaults 0swaps
+Running ssw...
+CPU time: 19.3601820469 seconds
+18.48user 0.16system 0:20.03elapsed 93%CPU (0avgtext+0avgdata 8980maxresident)k
+104987inputs+42601outputs (32major+12531minor)pagefaults 0swaps
+Running ssw_xargs...
+CPU time: 7.99983096123 seconds
+CPU time: 8.52687907219 seconds
+CPU time: 8.58470201492 seconds
+chunk_n=3
+24.09user 0.42system 0:10.05elapsed 243%CPU (0avgtext+0avgdata 8992maxresident)k
+108407inputs+42600outputs (36major+30009minor)pagefaults 0swaps
+Running swipe...
+10.08user 1.96system 0:08.19elapsed 147%CPU (0avgtext+0avgdata 8988maxresident)k
+13906inputs+20425outputs (49major+92482minor)pagefaults 0swaps
+Running swipe_xargs...
+chunk_n=3
+7.86user 1.34system 0:04.81elapsed 191%CPU (0avgtext+0avgdata 8980maxresident)k
+20146inputs+20424outputs (64major+98787minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 2.6002 seconds ---
+        alignment_scores  ...  query_header
+0                   1242  ...    NFUA_VESOH
+1                     45  ...    NFUA_VESOH
+2                     38  ...    NFUA_VESOH
+3                     45  ...    NFUA_VESOH
+4                     39  ...    NFUA_VESOH
+...                  ...  ...           ...
+159995                27  ...     247L_IIV6
+159996                35  ...     247L_IIV6
+159997                34  ...     247L_IIV6
+159998                33  ...     247L_IIV6
+159999               771  ...     247L_IIV6
+
+[160000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.7715 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+3.07user 11.10system 0:34.15elapsed 41%CPU (0avgtext+0avgdata 974100maxresident)k
+92560inputs+12117outputs (320major+291257minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 5.4436 seconds ---
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                 1242                         0  ...        NFUA_VESOH    NFUA_VESOH
+1                   45                        26  ...        RS17_BORT9    NFUA_VESOH
+2                   38                        56  ...        NUCS_CORDI    NFUA_VESOH
+3                   45                        76  ...       AN32B_HUMAN    NFUA_VESOH
+4                   39                       139  ...         APT_GEOSW    NFUA_VESOH
+...                ...                       ...  ...               ...           ...
+9995                27                       193  ...        LPXA_ECOSE     247L_IIV6
+9996                35                        28  ...        CAPS1_PFV2     247L_IIV6
+9997                34                        59  ...         ISCA1_RAT     247L_IIV6
+9998                33                         8  ...       RL37A_METKA     247L_IIV6
+9999               771                         0  ...         247L_IIV6     247L_IIV6
+
+[160000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.7153 seconds ---
+ total CPU work (counts) done while GPU was busy: 1054186
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+3.22user 10.18system 0:24.10elapsed 55%CPU (0avgtext+0avgdata 337228maxresident)k
+91713inputs+12118outputs (317major+134007minor)pagefaults 0swaps
+Running adept_as_xargs...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Reading ref and query files
+STATUS: Reading ref and query files
+STATUS: Launching driver
+STATUS: Launching driver
+STATUS: Launching driver
+0
+50000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.7758 seconds ---
+0
+50000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.8789 seconds ---
+0
+50000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.9026 seconds ---
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                 1242                         0  ...        NFUA_VESOH    NFUA_VESOH
+1                   45                        26  ...        RS17_BORT9    NFUA_VESOH
+2                   38                        56  ...        NUCS_CORDI    NFUA_VESOH
+3                   45                        76  ...       AN32B_HUMAN    NFUA_VESOH
+4                   39                       139  ...         APT_GEOSW    NFUA_VESOH
+...                ...                       ...  ...               ...           ...
+3195                33                        56  ...        LPXA_ECOSE    RS11_ACIBS
+3196                32                         5  ...        CAPS1_PFV2    RS11_ACIBS
+3197                28                        48  ...         ISCA1_RAT    RS11_ACIBS
+3198                37                        47  ...       RL37A_METKA    RS11_ACIBS
+3199                30                        72  ...         247L_IIV6    RS11_ACIBS
+
+[53200 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.4074 seconds ---
+ total CPU work (counts) done while GPU was busy: 334292
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   41                        51  ...        NFUA_VESOH     IF6_SULIN
+1                   33                         2  ...        RS17_BORT9     IF6_SULIN
+2                   39                       151  ...        NUCS_CORDI     IF6_SULIN
+3                   43                        64  ...       AN32B_HUMAN     IF6_SULIN
+4                   36                       129  ...         APT_GEOSW     IF6_SULIN
+...                ...                       ...  ...               ...           ...
+3595                27                       193  ...        LPXA_ECOSE     247L_IIV6
+3596                35                        28  ...        CAPS1_PFV2     247L_IIV6
+3597                34                        59  ...         ISCA1_RAT     247L_IIV6
+3598                33                         8  ...       RL37A_METKA     247L_IIV6
+3599               771                         0  ...         247L_IIV6     247L_IIV6
+
+[53600 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.1454 seconds ---
+ total CPU work (counts) done while GPU was busy: 369640
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   41                       149  ...        NFUA_VESOH    DNAJ_BURM7
+1                   37                         0  ...        RS17_BORT9    DNAJ_BURM7
+2                   48                       184  ...        NUCS_CORDI    DNAJ_BURM7
+3                   56                       199  ...       AN32B_HUMAN    DNAJ_BURM7
+4                   33                       103  ...         APT_GEOSW    DNAJ_BURM7
+...                ...                       ...  ...               ...           ...
+3195                37                        24  ...        LPXA_ECOSE    MOAC_METKA
+3196                33                        32  ...        CAPS1_PFV2    MOAC_METKA
+3197                68                        71  ...         ISCA1_RAT    MOAC_METKA
+3198                49                        23  ...       RL37A_METKA    MOAC_METKA
+3199                33                        79  ...         247L_IIV6    MOAC_METKA
+
+[53200 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.2305 seconds ---
+ total CPU work (counts) done while GPU was busy: 333208
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+chunk_n=3
+4.39user 13.19system 0:22.48elapsed 78%CPU (0avgtext+0avgdata 400512maxresident)k
+134963inputs+12124outputs (495major+268312minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_parser...
+0.15user 0.02system 0:01.12elapsed 16%CPU (0avgtext+0avgdata 15252maxresident)k
+10855inputs+885outputs (29major+4320minor)pagefaults 0swaps
+Running cudasw_xargs_parser...
+0.06user 0.03system 0:00.27elapsed 36%CPU (0avgtext+0avgdata 8808maxresident)k
+9621inputs+0outputs (29major+2476minor)pagefaults 0swaps
+Running ssw_parser...
+0.88user 0.07system 0:01.15elapsed 82%CPU (0avgtext+0avgdata 43352maxresident)k
+52221inputs+6884outputs (29major+15204minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+0.86user 0.07system 0:01.09elapsed 85%CPU (0avgtext+0avgdata 43392maxresident)k
+52222inputs+6884outputs (29major+15410minor)pagefaults 0swaps
+Running swipe_parser...
+0.29user 0.02system 0:00.53elapsed 58%CPU (0avgtext+0avgdata 15252maxresident)k
+30047inputs+885outputs (29major+4318minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+0.24user 0.02system 0:00.38elapsed 69%CPU (0avgtext+0avgdata 15792maxresident)k
+30048inputs+885outputs (29major+4506minor)pagefaults 0swaps
+Running adept_parser...
+0.51user 0.05system 0:00.70elapsed 80%CPU (0avgtext+0avgdata 43340maxresident)k
+21736inputs+6884outputs (29major+15201minor)pagefaults 0swaps
+Running adept_as_parser...
+0.66user 0.06system 0:00.87elapsed 83%CPU (0avgtext+0avgdata 43340maxresident)k
+21735inputs+6884outputs (29major+14691minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+0.66user 0.06system 0:00.94elapsed 76%CPU (0avgtext+0avgdata 43400maxresident)k
+21737inputs+6884outputs (29major+14903minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2573092/matplotlib-bliajdak because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+Runtimes of programs (in seconds):
+cudasw:   94.495
+cudasw_xargs:14.283
+ssw:      19.752
+ssw_xargs:9.326
+swipe:    7.859
+swipe_xargs:4.380
+adept:    33.965
+adept_as: 22.989
+adept_as_xargs:21.769
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n400_0_600/runtimes.png
+Finished parsing output.
+127.04user 89.08system 4:43.66elapsed 76%CPU (0avgtext+0avgdata 974100maxresident)k
+1755952inputs+202535outputs (3130major+1702239minor)pagefaults 0swaps

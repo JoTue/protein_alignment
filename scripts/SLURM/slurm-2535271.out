@@ -1,0 +1,255 @@
+
+
+Building a new DB, current time: 04/04/2022 12:33:48
+New DB name:   /scratch/cube/tuechler/program_out/sp_n10/data/sp_n10
+New DB title:  ../program_out/sp_n10/data/sp_n10
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 10 sequences in 0.0104849 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n10
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+Running cudasw...
+Running ssw...
+CPU time: 0.0619699954987 seconds
+Running swipe...
+Running water...
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.3108 seconds ---
+    alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                619                         0  ...       Y3545_CROS8   Y3545_CROS8
+1                 45                       388  ...        KDPB_SALNS   Y3545_CROS8
+2                 30                         2  ...        YEJL_SALNS   Y3545_CROS8
+3                 36                       122  ...        UPPP_AROAE   Y3545_CROS8
+4                 36                       199  ...        CBPD_LOPSP   Y3545_CROS8
+..               ...                       ...  ...               ...           ...
+95                39                        61  ...        NDHO_PROM1    FADB_ACIBS
+96                51                         7  ...        DAPD_SHIBS    FADB_ACIBS
+97                46                        90  ...        ASF1_CRYNJ    FADB_ACIBS
+98                37                        26  ...       UBQ10_ARATH    FADB_ACIBS
+99              4655                         0  ...        FADB_ACIBS    FADB_ACIBS
+
+[100 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.029 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+1
+2
+3
+4
+5
+6
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.2975 seconds ---
+    alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                619                         0  ...       Y3545_CROS8   Y3545_CROS8
+1                 45                       388  ...        KDPB_SALNS   Y3545_CROS8
+2                 30                         2  ...        YEJL_SALNS   Y3545_CROS8
+3                 36                       122  ...        UPPP_AROAE   Y3545_CROS8
+4                 36                       199  ...        CBPD_LOPSP   Y3545_CROS8
+..               ...                       ...  ...               ...           ...
+95                39                        61  ...        NDHO_PROM1    FADB_ACIBS
+96                51                         7  ...        DAPD_SHIBS    FADB_ACIBS
+97                46                        90  ...        ASF1_CRYNJ    FADB_ACIBS
+98                37                        26  ...       UBQ10_ARATH    FADB_ACIBS
+99              4655                         0  ...        FADB_ACIBS    FADB_ACIBS
+
+[100 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.0101 seconds ---
+ total CPU work (counts) done while GPU was busy: 4038
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+Running mmseqs...
+createdb ../program_out/sp_n10/data/sp_n10 /tmp/9224715921817751959/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 1ms
+Time for merging to query: 0h 0m 0s 1ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 44ms
+createdb ../program_out/sp_n10/data/sp_n10 /tmp/9224715921817751959/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 1ms
+Time for merging to target: 0h 0m 0s 0ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 44ms
+Tmp /tmp/9224715921817751959/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/9224715921817751959/query /tmp/9224715921817751959/target /tmp/9224715921817751959/search_tmp/8465642257419755950/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 1 --compressed 0 -v 3 -s 5.7 
+
+Query database size: 10 type: Aminoacid
+Estimated memory consumption: 977M
+Target database size: 10 type: Aminoacid
+Index table k-mer threshold: 112 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 10 0s 76ms
+Index table: Masked residues: 0
+Index table: fill
+[=================================================================] 10 0s 59ms
+Index statistics
+Entries:          2786
+DB size:          488 MB
+Avg k-mer size:   0.000044
+Top 10 k-mers
+    IEFAAA	1
+    MGGAAA	1
+    LKGAAA	1
+    ATGAAA	1
+    FAIAAA	1
+    YRRAAA	1
+    NRTAAA	1
+    DGVAAA	1
+    RAIDAA	1
+    AEEFAA	1
+Time for index table init: 0h 0m 0s 860ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 112
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 10
+Target db start 1 to 10
+[=================================================================] 10 0s 183ms
+
+298.252907 k-mers per position
+317 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+1 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 3s 903ms
+align /tmp/9224715921817751959/query /tmp/9224715921817751959/target /tmp/9224715921817751959/search_tmp/8465642257419755950/pref_0 /tmp/9224715921817751959/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 1 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 10 type: Aminoacid
+Target database size: 10 type: Aminoacid
+Calculation of alignments
+[=================================================================] 10 0s 67ms
+Time for merging to result: 0h 0m 0s 0ms
+
+12 alignments calculated.
+10 sequence pairs passed the thresholds (0.833333 of overall calculated).
+1.000000 hits per query sequence.
+Time for processing: 0h 0m 0s 412ms
+Remove temporary files
+rmdb /tmp/9224715921817751959/search_tmp/8465642257419755950/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /tmp/9224715921817751959/search_tmp/8465642257419755950/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/9224715921817751959/search_tmp/8465642257419755950/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/9224715921817751959/search_tmp/8465642257419755950/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+convertalis /tmp/9224715921817751959/query /tmp/9224715921817751959/target /tmp/9224715921817751959/result ../program_out/sp_n10/mmseqs/sp_n10.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 1 --compressed 0 -v 3 
+
+[=================================================================] 10 0s 83ms
+Time for merging to sp_n10.mmseqs: 0h 0m 0s 9ms
+Time for processing: 0h 0m 0s 434ms
+Removing temporary files
+rmdb /tmp/9224715921817751959/result 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/9224715921817751959/target 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /tmp/9224715921817751959/target_h 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /tmp/9224715921817751959/query 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /tmp/9224715921817751959/query_h 
+
+Time for processing: 0h 0m 0s 4ms
+Start parsing of output files
+Running blast_parser...
+Running cudasw_parser...
+Running ssw_parser...
+Running swipe_parser...
+Running water_parser...
+Running adept_parser...
+Running adept_as_parser...
+Running mmseqs_parser...
+Comparing results:
+Checking equivalence of results:
+exact_programs=['cudasw', 'ssw', 'swipe', 'water', 'adept', 'adept_as']
+In the results of the exact programs, there are deviations in 0/100 sequence pairs.
+Checking bidirectionality (identical scores if query/db are swapped):
+blast:	 False
+cudasw:	 True
+ssw:	 True
+swipe:	 True
+water:	 True
+adept:	 True
+adept_as:	 True
+mmseqs:	 False
+Checking sensitivity of heuristics:
+min_score=50
+max_evalue=10
+                 SW  mmseqs  blast
+total_ali       100      10     47
+high_score_ali   24      10     16
+high_score_hit   24      10     21
+Runtimes of programs (in seconds):
+blast:	 1.241
+cudasw:	 3.524
+ssw:	 0.907
+swipe:	 0.325
+water:	 10.710
+adept:	 4.837
+adept_as:	 4.697
+mmseqs:	 5.854
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n10/runtimes.png
+12.82user 12.81system 1:01.86elapsed 41%CPU (0avgtext+0avgdata 903988maxresident)k
+1231196inputs+1240outputs (3219major+364830minor)pagefaults 0swaps

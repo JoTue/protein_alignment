@@ -1,0 +1,21 @@
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n4000_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+BLAST Database error: No alias or index file found for protein database [../program_out/sp_n4000_10_500/data/sp_n4000_10_500] in search path [/scratch/cube/tuechler/protein_alignment::/localmirror/monthly/blast/ncbi:]
+0.10user 0.14system 0:01.52elapsed 15%CPU (0avgtext+0avgdata 14784maxresident)k
+69276inputs+0outputs (302major+25724minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n4000_10_500/data/sp_n4000_10_500 /tmp/15476178744615203278/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+Cannot allocate buffer for DBWriter
+Error: query createdb died
+0.08user 0.05system 0:00.70elapsed 18%CPU (0avgtext+0avgdata 8896maxresident)k
+20421inputs+8outputs (82major+5277minor)pagefaults 0swaps
+Running cudasw...
+0.06user 1.28system 0:14.38elapsed 9%CPU (0avgtext+0avgdata 8900maxresident)k
+14102inputs+0outputs (48major+5458minor)pagefaults 0swaps
+Running ssw...
+slurmstepd: error: *** JOB 2538072 ON nodee01 CANCELLED AT 2022-04-05T13:18:50 ***

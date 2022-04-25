@@ -1,0 +1,18 @@
+--num-threads:
+adept/adept_as: automatic
+blast: -num_threads
+mmseqs: --threads INT             Number of CPU-cores used (all by default) [8]
+swipe: -a, --num_threads=NUM      number of threads to use [1-256] (1)
+ssw: automatic?
+water: only single
+cudasw: -num_threads
+
+--num-gpus:
+adept/adept_as: automatic
+cudasw: -num_gpus
+
+
+adept/adept_as work up to at least sp_n6000_0_600, but fail for sp_n8000_0_600 (with 2 GPUs), -> too much memory usage! (use: ulimit -v 100000000)
+adept (and maybe other programs) fails for 5nt long protein -> --min-len 10 (? -> maybe it was because of non-standard aa)
+
+adept (multi_gpu) uses as many gpus as reserved in SLURM header, -g parameter has no effect

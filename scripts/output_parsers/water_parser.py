@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
-"""Parse water output file."""
+"""Parse water output files."""
 
 import os
 import argparse
 import json
-
-# !! EMBOSS Water modifies the sequence names, which are therefore different to the output files of other programs
 
 def water_parser(input_dir):
     d = {}
@@ -17,22 +15,22 @@ def water_parser(input_dir):
                     words = line.split()
                     if not words:
                         break
-                    query = words[0].split("|")[-1]
-                    db = words[1].split("|")[-1]
+                    query = words[0]
+                    db = words[1]
                     score = float(words[-1][1:-1])
                     d[query] = d.get(query, []) + [(db, score)]
     
     # write dictionary to json file
     name = input_dir.split('/')[-2]
-    with open(f"program_out/{name}/water/{name}.water.json", "w") as f:
+    with open(f"../program_out/{name}/water/{name}.water.json", "w") as f:
         print(json.dumps(d), file=f)
             
 
 def main():
     """ 
-    Parse water output file.
+    Parse water output files.
     """
-    parser = argparse.ArgumentParser(description = 'Parse water output file.')
+    parser = argparse.ArgumentParser(description = 'Parse water output files.')
 
     parser.add_argument("input",
         help="Path of the water output directory.")

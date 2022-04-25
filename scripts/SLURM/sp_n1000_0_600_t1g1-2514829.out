@@ -1,0 +1,183 @@
+
+
+Building a new DB, current time: 03/31/2022 16:02:44
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a
+New DB title:  ../program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.0434711 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_0_600_a
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+Running cudasw...
+Running ssw...
+Running swipe...
+Running water...
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 27.1081 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 198.8021 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.4015 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 3.7842 seconds ---
+ total CPU work (counts) done while GPU was busy: 332035
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+Running mmseqs...
+createdb ../program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a /tmp/14375069555799009435/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 99ms
+Time for merging to query: 0h 0m 0s 129ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 547ms
+createdb ../program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a /tmp/14375069555799009435/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 143ms
+Time for merging to target: 0h 0m 0s 129ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 392ms
+Tmp /tmp/14375069555799009435/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/14375069555799009435/query /tmp/14375069555799009435/target /tmp/14375069555799009435/search_tmp/12927643199300910336/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 1 --compressed 0 -v 3 -s 5.7 
+
+Query database size: 1000 type: Aminoacid
+Estimated memory consumption: 979M
+Target database size: 1000 type: Aminoacid
+Index table k-mer threshold: 112 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1.00K 0s 159ms
+Index table: Masked residues: 3316
+Index table: fill
+[=================================================================] 1.00K 0s 108ms
+Index statistics
+Entries:          259666
+DB size:          489 MB
+Avg k-mer size:   0.004057
+Top 10 k-mers
+    SGSGEA	5
+    SGTDIA	5
+    PSATHE	5
+    AKNLIE	5
+    DLVNRL	5
+    LVDLTN	5
+    TGHALR	5
+    RAVSST	5
+    QLRELG	4
+    ELDILG	4
+Time for index table init: 0h 0m 0s 853ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 112
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1000
+Target db start 1 to 1000
+[=================================================================] 1.00K 5s 758ms
+
+285.513922 k-mers per position
+600 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+4 sequences passed prefiltering per query sequence
+4 median result list length
+2 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 9s 516ms
+align /tmp/14375069555799009435/query /tmp/14375069555799009435/target /tmp/14375069555799009435/search_tmp/12927643199300910336/pref_0 /tmp/14375069555799009435/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 1 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 1000 type: Aminoacid
+Target database size: 1000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.00K 0s 591ms
+Time for merging to result: 0h 0m 0s 0ms
+
+4344 alignments calculated.
+1931 sequence pairs passed the thresholds (0.444521 of overall calculated).
+1.931000 hits per query sequence.
+Time for processing: 0h 0m 0s 898ms
+Remove temporary files
+rmdb /tmp/14375069555799009435/search_tmp/12927643199300910336/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/search_tmp/12927643199300910336/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/search_tmp/12927643199300910336/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/search_tmp/12927643199300910336/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+convertalis /tmp/14375069555799009435/query /tmp/14375069555799009435/target /tmp/14375069555799009435/result ../program_out/sp_n1000_0_600_a/mmseqs/sp_n1000_0_600_a.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 1 --compressed 0 -v 3 
+
+[=================================================================] 1.00K 0s 38ms
+Time for merging to sp_n1000_0_600_a.mmseqs: 0h 0m 0s 12ms
+Time for processing: 0h 0m 0s 368ms
+Removing temporary files
+rmdb /tmp/14375069555799009435/result 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/target 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/target_h 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/query 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/14375069555799009435/query_h 
+
+Time for processing: 0h 0m 0s 0ms
+Start parsing of output files
+Running blast_parser...
+Running cudasw_parser...
+Running ssw_parser...
+Running swipe_parser...
+Running water_parser...
+Running adept_parser...
+Running adept_as_parser...
+Running mmseqs_parser...
+Comparing results:

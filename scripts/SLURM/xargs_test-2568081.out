@@ -1,0 +1,686 @@
+
+
+Building a new DB, current time: 04/12/2022 13:31:58
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a
+New DB title:  ../program_out/sp_n1000_0_600_a/data/sp_n1000_0_600_a
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.0336728 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:31:59
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_a/data/qchunks/q_1
+New DB title:  ../program_out/sp_n1000_0_600_a/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.0431581 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_0_600_a
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running cudasw...
+95.99user 77.68system 3:06.37elapsed 93%CPU (0avgtext+0avgdata 237268maxresident)k
+33471inputs+6377outputs (117major+72403minor)pagefaults 0swaps
+Running ssw...
+CPU time: 105.180700064 seconds
+99.56user 0.56system 1:45.69elapsed 94%CPU (0avgtext+0avgdata 8952maxresident)k
+586886inputs+266615outputs (32major+15678minor)pagefaults 0swaps
+Running ssw_xargs...
+CPU time: 90.4994499683 seconds
+chunk_n=1
+87.72user 0.41system 1:31.09elapsed 96%CPU (0avgtext+0avgdata 8988maxresident)k
+588160inputs+266615outputs (35major+19292minor)pagefaults 0swaps
+Running swipe...
+41.13user 3.60system 1:03.97elapsed 69%CPU (0avgtext+0avgdata 8988maxresident)k
+14669inputs+122950outputs (47major+514925minor)pagefaults 0swaps
+Running swipe_xargs...
+chunk_n=1
+32.00user 2.88system 0:55.49elapsed 62%CPU (0avgtext+0avgdata 8988maxresident)k
+15255inputs+122940outputs (47major+518545minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 10.9283 seconds ---
+        alignment_scores  ...  query_header
+0                    332  ...   RL331_STAAC
+1                     30  ...   RL331_STAAC
+2                     31  ...   RL331_STAAC
+3                     24  ...   RL331_STAAC
+4                     25  ...   RL331_STAAC
+...                  ...  ...           ...
+999995                33  ...   ATG27_GIBZE
+999996                40  ...   ATG27_GIBZE
+999997                43  ...   ATG27_GIBZE
+999998                61  ...   ATG27_GIBZE
+999999              2373  ...   ATG27_GIBZE
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 2.349 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+18.11user 22.29system 0:38.64elapsed 104%CPU (0avgtext+0avgdata 2859332maxresident)k
+93240inputs+75947outputs (320major+1398290minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 31.2656 seconds ---
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   332                         0  ...       RL331_STAAC   RL331_STAAC
+1                    30                        38  ...        RS17_TERTT   RL331_STAAC
+2                    31                        63  ...        ARAA_SALNS   RL331_STAAC
+3                    24                         9  ...        NACA_YEAST   RL331_STAAC
+4                    25                       107  ...        ACPS_MYCMM   RL331_STAAC
+...                 ...                       ...  ...               ...           ...
+49995                33                         2  ...        RL33_SYNE7   ATG27_GIBZE
+49996                40                        27  ...        IF1A_DESA1   ATG27_GIBZE
+49997                43                       109  ...       ISPDF_RHIE6   ATG27_GIBZE
+49998                61                        63  ...       CCD50_MOUSE   ATG27_GIBZE
+49999              2373                         0  ...       ATG27_GIBZE   ATG27_GIBZE
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.2409 seconds ---
+ total CPU work (counts) done while GPU was busy: 10019526
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+23.22user 18.59system 0:51.93elapsed 80%CPU (0avgtext+0avgdata 502136maxresident)k
+92392inputs+75949outputs (317major+393490minor)pagefaults 0swaps
+Running adept_as_xargs...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 30.893 seconds ---
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   332                         0  ...       RL331_STAAC   RL331_STAAC
+1                    30                        38  ...        RS17_TERTT   RL331_STAAC
+2                    31                        63  ...        ARAA_SALNS   RL331_STAAC
+3                    24                         9  ...        NACA_YEAST   RL331_STAAC
+4                    25                       107  ...        ACPS_MYCMM   RL331_STAAC
+...                 ...                       ...  ...               ...           ...
+49995                33                         2  ...        RL33_SYNE7   ATG27_GIBZE
+49996                40                        27  ...        IF1A_DESA1   ATG27_GIBZE
+49997                43                       109  ...       ISPDF_RHIE6   ATG27_GIBZE
+49998                61                        63  ...       CCD50_MOUSE   ATG27_GIBZE
+49999              2373                         0  ...       ATG27_GIBZE   ATG27_GIBZE
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.2115 seconds ---
+ total CPU work (counts) done while GPU was busy: 10187040
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+chunk_n=1
+22.05user 19.75system 0:51.36elapsed 81%CPU (0avgtext+0avgdata 491620maxresident)k
+93692inputs+75949outputs (320major+410692minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_parser...
+0.50user 0.06system 0:00.83elapsed 67%CPU (0avgtext+0avgdata 37036maxresident)k
+16001inputs+5548outputs (29major+12768minor)pagefaults 0swaps
+Running ssw_parser...
+5.07user 0.25system 0:05.57elapsed 95%CPU (0avgtext+0avgdata 219904maxresident)k
+276235inputs+43046outputs (29major+109113minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+4.76user 0.26system 0:05.80elapsed 86%CPU (0avgtext+0avgdata 220784maxresident)k
+276236inputs+43046outputs (29major+109386minor)pagefaults 0swaps
+Running swipe_parser...
+0.91user 0.06system 0:01.15elapsed 84%CPU (0avgtext+0avgdata 37052maxresident)k
+132571inputs+5548outputs (29major+12772minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+1.01user 0.08system 0:01.33elapsed 82%CPU (0avgtext+0avgdata 37080maxresident)k
+132563inputs+5548outputs (29major+12780minor)pagefaults 0swaps
+Running adept_parser...
+2.70user 0.20system 0:03.07elapsed 94%CPU (0avgtext+0avgdata 219920maxresident)k
+85566inputs+43046outputs (29major+111604minor)pagefaults 0swaps
+Running adept_as_parser...
+2.73user 0.19system 0:03.12elapsed 93%CPU (0avgtext+0avgdata 219712maxresident)k
+85565inputs+43046outputs (29major+111193minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+2.72user 0.20system 0:03.10elapsed 94%CPU (0avgtext+0avgdata 220908maxresident)k
+85567inputs+43046outputs (29major+109066minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2568081/matplotlib-3uz6x6gh because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+cudasw:   186.155
+ssw:      105.478
+ssw_xargs:90.913
+swipe:    63.765
+swipe_xargs:55.247
+adept:    38.404
+adept_as: 51.675
+adept_as_xargs:51.127
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n1000_0_600_a/runtimes.png
+Finished parsing output.
+446.39user 157.40system 11:26.71elapsed 87%CPU (0avgtext+0avgdata 2859332maxresident)k
+3406087inputs+1249597outputs (2479major+4046875minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 04/12/2022 13:43:26
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/sp_n1000_0_600_b
+New DB title:  ../program_out/sp_n1000_0_600_b/data/sp_n1000_0_600_b
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.036165 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:27
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_1
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00633979 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:28
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_2
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00693607 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:29
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_3
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00743389 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:29
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_4
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_4
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00605011 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:30
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_5
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_5
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00623512 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:31
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_6
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_6
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00728893 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:32
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_7
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_7
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00656986 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:32
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_8
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_8
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00709796 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:33
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_9
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_9
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00685716 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:34
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_10
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_10
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00711584 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:35
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_11
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_11
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 83 sequences in 0.00640106 seconds.
+
+
+
+
+Building a new DB, current time: 04/12/2022 13:43:35
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/data/qchunks/q_12
+New DB title:  ../program_out/sp_n1000_0_600_b/data/qchunks/q_12
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 87 sequences in 0.00719595 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_0_600_b
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running cudasw...
+109.68user 78.98system 3:38.78elapsed 86%CPU (0avgtext+0avgdata 541496maxresident)k
+15663inputs+6881outputs (50major+1701837minor)pagefaults 0swaps
+Running ssw...
+CPU time: 105.303138018 seconds
+98.10user 0.54system 1:45.69elapsed 93%CPU (0avgtext+0avgdata 8960maxresident)k
+586862inputs+266615outputs (32major+16669minor)pagefaults 0swaps
+Running ssw_xargs...
+CPU time: 8.56611609459 seconds
+CPU time: 9.11050105095 seconds
+CPU time: 9.3037610054 seconds
+CPU time: 9.3857960701 seconds
+CPU time: 9.59842801094 seconds
+CPU time: 9.63014006615 seconds
+CPU time: 10.402930975 seconds
+CPU time: 10.5741910934 seconds
+CPU time: 10.6378741264 seconds
+CPU time: 10.9839758873 seconds
+CPU time: 11.0455050468 seconds
+CPU time: 11.1582751274 seconds
+chunk_n=12
+114.93user 1.79system 0:12.15elapsed 960%CPU (0avgtext+0avgdata 8992maxresident)k
+603501inputs+266608outputs (95major+114716minor)pagefaults 0swaps
+Running swipe...
+66.06user 30.58system 0:52.35elapsed 184%CPU (0avgtext+0avgdata 8988maxresident)k
+14669inputs+122951outputs (48major+620243minor)pagefaults 0swaps
+Running swipe_xargs...
+chunk_n=12
+52.66user 10.93system 0:15.81elapsed 402%CPU (0avgtext+0avgdata 8992maxresident)k
+46478inputs+122940outputs (175major+558945minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 13.383 seconds ---
+        alignment_scores  ...  query_header
+0                    332  ...   RL331_STAAC
+1                     30  ...   RL331_STAAC
+2                     31  ...   RL331_STAAC
+3                     24  ...   RL331_STAAC
+4                     25  ...   RL331_STAAC
+...                  ...  ...           ...
+999995                33  ...   ATG27_GIBZE
+999996                40  ...   ATG27_GIBZE
+999997                43  ...   ATG27_GIBZE
+999998                61  ...   ATG27_GIBZE
+999999              2373  ...   ATG27_GIBZE
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 2.3717 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+19.03user 22.98system 0:42.66elapsed 98%CPU (0avgtext+0avgdata 2862052maxresident)k
+93240inputs+75947outputs (320major+1366910minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 31.2847 seconds ---
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   332                         0  ...       RL331_STAAC   RL331_STAAC
+1                    30                        38  ...        RS17_TERTT   RL331_STAAC
+2                    31                        63  ...        ARAA_SALNS   RL331_STAAC
+3                    24                         9  ...        NACA_YEAST   RL331_STAAC
+4                    25                       107  ...        ACPS_MYCMM   RL331_STAAC
+...                 ...                       ...  ...               ...           ...
+49995                33                         2  ...        RL33_SYNE7   ATG27_GIBZE
+49996                40                        27  ...        IF1A_DESA1   ATG27_GIBZE
+49997                43                       109  ...       ISPDF_RHIE6   ATG27_GIBZE
+49998                61                        63  ...       CCD50_MOUSE   ATG27_GIBZE
+49999              2373                         0  ...       ATG27_GIBZE   ATG27_GIBZE
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.2639 seconds ---
+ total CPU work (counts) done while GPU was busy: 10212520
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+24.06user 16.36system 0:54.99elapsed 73%CPU (0avgtext+0avgdata 480668maxresident)k
+92392inputs+75949outputs (317major+377546minor)pagefaults 0swaps
+Running adept_as_xargs...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Reading ref and query files
+STATUS: Reading ref and query files
+STATUS: Launching driver
+STATUS: Launching driver
+STATUS: Launching driver
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 8.2145 seconds ---
+0
+50000
+100000
+150000
+200000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 7.7999 seconds ---
+0
+50000
+100000
+150000
+200000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 7.8908 seconds ---
+0
+50000
+100000
+150000
+200000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 8.1071 seconds ---
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                    25                        14  ...       RL331_STAAC    RNH2_STRPI
+1                    33                        14  ...        RS17_TERTT    RNH2_STRPI
+2                    43                       228  ...        ARAA_SALNS    RNH2_STRPI
+3                    37                         3  ...        NACA_YEAST    RNH2_STRPI
+4                    31                        10  ...        ACPS_MYCMM    RNH2_STRPI
+...                 ...                       ...  ...               ...           ...
+49995                45                         2  ...        RL33_SYNE7   ATG4A_ARATH
+49996                42                        21  ...        IF1A_DESA1   ATG4A_ARATH
+49997                44                       264  ...       ISPDF_RHIE6   ATG4A_ARATH
+49998                44                       267  ...       CCD50_MOUSE   ATG4A_ARATH
+49999                43                        68  ...       ATG27_GIBZE   ATG4A_ARATH
+
+[250000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 1.005 seconds ---
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                    34                        25  ...       RL331_STAAC    PURA_DESAP
+1                    30                        29  ...        RS17_TERTT    PURA_DESAP
+2                    44                       212  ...        ARAA_SALNS    PURA_DESAP
+3                    42                        52  ...        NACA_YEAST    PURA_DESAP
+4                    40                        75  ...        ACPS_MYCMM    PURA_DESAP
+...                 ...                       ...  ...               ...           ...
+49995                33                         2  ...        RL33_SYNE7   ATG27_GIBZE
+49996                40                        27  ...        IF1A_DESA1   ATG27_GIBZE
+49997                43                       109  ...       ISPDF_RHIE6   ATG27_GIBZE
+49998                61                        63  ...       CCD50_MOUSE   ATG27_GIBZE
+49999              2373                         0  ...       ATG27_GIBZE   ATG27_GIBZE
+
+[250000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 1.0278 seconds ---
+ total CPU work (counts) done while GPU was busy: 2722162
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+ total CPU work (counts) done while GPU was busy: 2634612
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                   332                         0  ...       RL331_STAAC   RL331_STAAC
+1                    30                        38  ...        RS17_TERTT   RL331_STAAC
+2                    31                        63  ...        ARAA_SALNS   RL331_STAAC
+3                    24                         9  ...        NACA_YEAST   RL331_STAAC
+4                    25                       107  ...        ACPS_MYCMM   RL331_STAAC
+...                 ...                       ...  ...               ...           ...
+49995                33                        29  ...        RL33_SYNE7   MAD57_ORYSJ
+49996                35                        73  ...        IF1A_DESA1   MAD57_ORYSJ
+49997                44                       206  ...       ISPDF_RHIE6   MAD57_ORYSJ
+49998                42                        22  ...       CCD50_MOUSE   MAD57_ORYSJ
+49999                50                       223  ...       ATG27_GIBZE   MAD57_ORYSJ
+
+[250000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 1.0758 seconds ---
+ total CPU work (counts) done while GPU was busy: 1896271
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+       alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                    33                         2  ...       RL331_STAAC   DCA13_DANRE
+1                    35                         4  ...        RS17_TERTT   DCA13_DANRE
+2                    60                       371  ...        ARAA_SALNS   DCA13_DANRE
+3                    42                       143  ...        NACA_YEAST   DCA13_DANRE
+4                    41                        67  ...        ACPS_MYCMM   DCA13_DANRE
+...                 ...                       ...  ...               ...           ...
+49995                32                        22  ...        RL33_SYNE7    CITA_SALTY
+49996                36                        39  ...        IF1A_DESA1    CITA_SALTY
+49997                38                       381  ...       ISPDF_RHIE6    CITA_SALTY
+49998                42                       128  ...       CCD50_MOUSE    CITA_SALTY
+49999                39                       267  ...       ATG27_GIBZE    CITA_SALTY
+
+[250000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 1.0994 seconds ---
+ total CPU work (counts) done while GPU was busy: 2248861
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+chunk_n=4
+26.05user 25.11system 0:30.20elapsed 169%CPU (0avgtext+0avgdata 434896maxresident)k
+263935inputs+75956outputs (1121major+684649minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_parser...
+0.49user 0.05system 0:00.76elapsed 71%CPU (0avgtext+0avgdata 37036maxresident)k
+16504inputs+5548outputs (29major+12768minor)pagefaults 0swaps
+Running ssw_parser...
+5.02user 0.24system 0:05.51elapsed 95%CPU (0avgtext+0avgdata 219712maxresident)k
+276235inputs+43046outputs (29major+110697minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+4.42user 0.24system 0:05.44elapsed 85%CPU (0avgtext+0avgdata 219772maxresident)k
+276236inputs+43046outputs (29major+116902minor)pagefaults 0swaps
+Running swipe_parser...
+0.98user 0.07system 0:01.26elapsed 82%CPU (0avgtext+0avgdata 37040maxresident)k
+132573inputs+5548outputs (29major+12771minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+1.06user 0.08system 0:01.59elapsed 71%CPU (0avgtext+0avgdata 37088maxresident)k
+132568inputs+5548outputs (29major+12780minor)pagefaults 0swaps
+Running adept_parser...
+3.97user 0.23system 0:04.31elapsed 97%CPU (0avgtext+0avgdata 219740maxresident)k
+85566inputs+43046outputs (29major+144380minor)pagefaults 0swaps
+Running adept_as_parser...
+2.78user 0.16system 0:03.05elapsed 96%CPU (0avgtext+0avgdata 219920maxresident)k
+85565inputs+43046outputs (29major+110668minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+2.81user 0.16system 0:03.09elapsed 96%CPU (0avgtext+0avgdata 219960maxresident)k
+85568inputs+43046outputs (29major+109945minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2568081/matplotlib-sbano_g8 because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+cudasw:   218.532
+ssw:      105.519
+ssw_xargs:11.980
+swipe:    52.154
+swipe_xargs:15.618
+adept:    42.469
+adept_as: 54.812
+adept_as_xargs:30.015
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n1000_0_600_b/runtimes.png
+Finished parsing output.
+538.56user 200.74system 9:43.72elapsed 126%CPU (0avgtext+0avgdata 2862052maxresident)k
+4091272inputs+1250099outputs (5877major+6224122minor)pagefaults 0swaps

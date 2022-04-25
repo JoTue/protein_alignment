@@ -1,0 +1,70 @@
+
+
+Building a new DB, current time: 04/19/2022 16:13:23
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/sp_n400_0_600
+New DB title:  ../program_out/sp_n400_0_600/data/sp_n400_0_600
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 400 sequences in 0.019913 seconds.
+
+
+
+
+Building a new DB, current time: 04/19/2022 16:13:24
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_1
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 133 sequences in 0.0111229 seconds.
+
+
+
+
+Building a new DB, current time: 04/19/2022 16:13:25
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_2
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 133 sequences in 0.00917387 seconds.
+
+
+
+
+Building a new DB, current time: 04/19/2022 16:13:26
+New DB name:   /scratch/cube/tuechler/program_out/sp_n400_0_600/data/qchunks/q_3
+New DB title:  ../program_out/sp_n400_0_600/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 134 sequences in 0.00829291 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n400_0_600
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running cudasw...
+44.33user 37.30system 1:34.43elapsed 86%CPU (0avgtext+0avgdata 426820maxresident)k
+14983inputs+1231outputs (50major+522813minor)pagefaults 0swaps
+Running cudasw_xargs...
+chunk_n=3
+46.13user 37.75system 0:44.72elapsed 187%CPU (0avgtext+0avgdata 232984maxresident)k
+16793inputs+1103outputs (70major+156701minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_parser...
+0.14user 0.03system 0:01.50elapsed 11%CPU (0avgtext+0avgdata 15244maxresident)k
+10855inputs+886outputs (29major+4319minor)pagefaults 0swaps
+Running cudasw_xargs_parser...
+0.13user 0.03system 0:00.28elapsed 59%CPU (0avgtext+0avgdata 15772maxresident)k
+10725inputs+885outputs (29major+4502minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2609687/matplotlib-4nd3ab23 because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+cudasw:         94.121
+cudasw_xargs:   43.249
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n400_0_600/runtimes.png
+Finished parsing output.
+97.74user 86.91system 3:04.96elapsed 99%CPU (0avgtext+0avgdata 426820maxresident)k
+1077277inputs+5922outputs (1641major+798102minor)pagefaults 0swaps

@@ -10,18 +10,17 @@ def ssw_parser(input_file):
         query, db, score = None, None, None
         for line in f:
             if line.startswith("query_name:"):
-                query = line.split()[-1].split("|")[-1]
+                query = line.split()[-1]
             elif line.startswith("target_name:"):
-                db = line.split()[-1].split("|")[-1]
+                db = line.split()[-1]
             elif line.startswith("optimal"):
                 score = float(line.split()[1])
                 d[query] = d.get(query, []) + [(db, score)]
     
     # write dictionary to json file
     name = input_file.split('/')[-1].split(".")[0]
-    with open(f"program_out/{name}/ssw/{name}.ssw.json", "w") as f:
+    with open(f"../program_out/{name}/ssw/{name}.ssw.json", "w") as f:
         print(json.dumps(d), file=f)
-
             
 
 def main():

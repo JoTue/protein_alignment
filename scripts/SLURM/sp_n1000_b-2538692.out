@@ -1,0 +1,3887 @@
+
+
+Building a new DB, current time: 04/05/2022 22:08:10
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_10_500_b/data/sp_n1000_10_500_b
+New DB title:  ../program_out/sp_n1000_10_500_b/data/sp_n1000_10_500_b
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.044265 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_10_500_b
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+102.86user 0.43system 0:21.49elapsed 480%CPU (0avgtext+0avgdata 76716maxresident)k
+73610inputs+25336outputs (317major+91500minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n1000_10_500_b/data/sp_n1000_10_500_b /tmp/2524683320477482320/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 134ms
+Time for merging to query: 0h 0m 0s 2ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 185ms
+createdb ../program_out/sp_n1000_10_500_b/data/sp_n1000_10_500_b /tmp/2524683320477482320/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 26ms
+Time for merging to target: 0h 0m 0s 2ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 73ms
+Tmp /tmp/2524683320477482320/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/2524683320477482320/query /tmp/2524683320477482320/target /tmp/2524683320477482320/search_tmp/12768911549734799941/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 1000 type: Aminoacid
+Estimated memory consumption: 980M
+Target database size: 1000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1.00K 0s 35ms
+Index table: Masked residues: 2530
+Index table: fill
+[=================================================================] 1.00K 0s 32ms
+Index statistics
+Entries:          235201
+DB size:          489 MB
+Avg k-mer size:   0.003675
+Top 10 k-mers
+    DLVSLD	6
+    HFHTWN	6
+    VIFSDR	6
+    SSQDER	6
+    HKGFTR	6
+    LERDVY	6
+    HRLGTN	5
+    HSERKQ	5
+    LGMTKT	5
+    KLEART	5
+Time for index table init: 0h 0m 0s 519ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1000
+Target db start 1 to 1000
+[=================================================================] 1.00K 1s 942ms
+
+1436.911886 k-mers per position
+1771 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+24 sequences passed prefiltering per query sequence
+21 median result list length
+1 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 1ms
+Time for processing: 0h 0m 2s 971ms
+align /tmp/2524683320477482320/query /tmp/2524683320477482320/target /tmp/2524683320477482320/search_tmp/12768911549734799941/pref_0 /tmp/2524683320477482320/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 20 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 1000 type: Aminoacid
+Target database size: 1000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.00K 0s 101ms
+Time for merging to result: 0h 0m 0s 1ms
+
+24601 alignments calculated.
+4146 sequence pairs passed the thresholds (0.168530 of overall calculated).
+4.146000 hits per query sequence.
+Time for processing: 0h 0m 0s 382ms
+Remove temporary files
+rmdb /tmp/2524683320477482320/search_tmp/12768911549734799941/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/search_tmp/12768911549734799941/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/search_tmp/12768911549734799941/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/search_tmp/12768911549734799941/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis /tmp/2524683320477482320/query /tmp/2524683320477482320/target /tmp/2524683320477482320/result ../program_out/sp_n1000_10_500_b/mmseqs/sp_n1000_10_500_b.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 1.00K 0s 49ms
+Time for merging to sp_n1000_10_500_b.mmseqs: 0h 0m 0s 62ms
+Time for processing: 0h 0m 0s 904ms
+Removing temporary files
+rmdb /tmp/2524683320477482320/result 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/target 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/target_h 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/query 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/2524683320477482320/query_h 
+
+Time for processing: 0h 0m 0s 1ms
+37.93user 0.67system 0:05.94elapsed 649%CPU (0avgtext+0avgdata 1159328maxresident)k
+141135inputs+5998outputs (646major+31004minor)pagefaults 0swaps
+Running cudasw...
+74.02user 65.77system 2:29.35elapsed 93%CPU (0avgtext+0avgdata 437956maxresident)k
+22524inputs+47704outputs (50major+1566535minor)pagefaults 0swaps
+Running ssw...
+CPU time: 101.219427109 seconds
+92.33user 0.56system 1:42.10elapsed 90%CPU (0avgtext+0avgdata 8952maxresident)k
+536414inputs+267375outputs (32major+15651minor)pagefaults 0swaps
+Running swipe...
+167.05user 213.03system 6:02.21elapsed 104%CPU (0avgtext+0avgdata 8956maxresident)k
+13906inputs+754903outputs (44major+3328274minor)pagefaults 0swaps
+Running water...
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+942.64user 69.38system 25:37.13elapsed 65%CPU (0avgtext+0avgdata 9544maxresident)k
+13081265inputs+62016outputs (51031major+9971431minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 8.4122 seconds ---
+        alignment_scores  ...  query_header
+0                    519  ...    RS18_CORK4
+1                     25  ...    RS18_CORK4
+2                     29  ...    RS18_CORK4
+3                     33  ...    RS18_CORK4
+4                     25  ...    RS18_CORK4
+...                  ...  ...           ...
+999995                36  ...    ATPD_ECO27
+999996                33  ...    ATPD_ECO27
+999997                48  ...    ATPD_ECO27
+999998                55  ...    ATPD_ECO27
+999999              1099  ...    ATPD_ECO27
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.0315 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+17.70user 22.03system 0:54.10elapsed 73%CPU (0avgtext+0avgdata 2700380maxresident)k
+93139inputs+75711outputs (320major+1310585minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 20.1652 seconds ---
+        alignment_scores  ...  query_header
+0                    519  ...    RS18_CORK4
+1                     25  ...    RS18_CORK4
+2                     29  ...    RS18_CORK4
+3                     33  ...    RS18_CORK4
+4                     25  ...    RS18_CORK4
+...                  ...  ...           ...
+999995                36  ...    ATPD_ECO27
+999996                33  ...    ATPD_ECO27
+999997                48  ...    ATPD_ECO27
+999998                55  ...    ATPD_ECO27
+999999              1099  ...    ATPD_ECO27
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.425 seconds ---
+ total CPU work (counts) done while GPU was busy: 4722201
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+19.47user 19.12system 0:50.28elapsed 76%CPU (0avgtext+0avgdata 1209908maxresident)k
+93144inputs+75712outputs (320major+655347minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+0.40user 0.05system 0:01.02elapsed 44%CPU (0avgtext+0avgdata 16580maxresident)k
+34956inputs+1158outputs (29major+4963minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.08user 0.03system 0:00.58elapsed 19%CPU (0avgtext+0avgdata 10504maxresident)k
+9825inputs+213outputs (29major+2958minor)pagefaults 0swaps
+Running cudasw_parser...
+3.74user 0.18system 0:04.98elapsed 79%CPU (0avgtext+0avgdata 220328maxresident)k
+57328inputs+43039outputs (29major+91517minor)pagefaults 0swaps
+Running ssw_parser...
+5.17user 0.25system 0:06.11elapsed 88%CPU (0avgtext+0avgdata 219716maxresident)k
+276995inputs+43039outputs (29major+108540minor)pagefaults 0swaps
+Running swipe_parser...
+8.98user 0.37system 0:10.15elapsed 92%CPU (0avgtext+0avgdata 220064maxresident)k
+764525inputs+43039outputs (29major+107135minor)pagefaults 0swaps
+Running water_parser...
+5.47user 0.31system 0:20.97elapsed 27%CPU (0avgtext+0avgdata 219804maxresident)k
+72199inputs+43039outputs (29major+110861minor)pagefaults 0swaps
+Running adept_parser...
+4.56user 0.19system 0:05.17elapsed 91%CPU (0avgtext+0avgdata 219880maxresident)k
+85330inputs+43039outputs (29major+127101minor)pagefaults 0swaps
+Running adept_as_parser...
+3.92user 0.19system 0:04.60elapsed 89%CPU (0avgtext+0avgdata 219728maxresident)k
+85330inputs+43039outputs (29major+127753minor)pagefaults 0swaps
+Comparing results:
+Checking equivalence of results:
+exact_programs=['cudasw', 'ssw', 'swipe', 'water', 'adept', 'adept_as']
+In the results of the exact programs, there are deviations in 0/1000000 sequence pairs.
+Checking bidirectionality (identical scores if query/db are swapped):
+blast:	 False
+cudasw:	 True
+ssw:	 True
+swipe:	 True
+water:	 True
+adept:	 True
+adept_as:	 True
+mmseqs:	 False
+Checking sensitivity of heuristics:
+min_score=50
+max_evalue=20
+                     SW  blast  mmseqs
+total_ali       1000000  26121    4146
+high_score_ali   107852  25464    2085
+high_score_hit   107852  24002    4085
+Runtimes of programs (in seconds):
+blast:    21.091
+cudasw:   148.765
+ssw:      101.661
+swipe:    361.689
+water:    1536.409
+adept:    53.353
+adept_as: 49.745
+mmseqs:   5.472
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n1000_10_500_b/runtimes.png
+Finished parsing output.
+4134.41user 400.90system 1:23:36elapsed 90%CPU (0avgtext+0avgdata 2700380maxresident)k
+16309790inputs+1576599outputs (53736major+18667535minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 04/05/2022 23:31:42
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_10_1000_b/data/sp_n1000_10_1000_b
+New DB title:  ../program_out/sp_n1000_10_1000_b/data/sp_n1000_10_1000_b
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.0443311 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_10_1000_b
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+115.36user 0.59system 0:21.52elapsed 538%CPU (0avgtext+0avgdata 74756maxresident)k
+73866inputs+25225outputs (318major+120430minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n1000_10_1000_b/data/sp_n1000_10_1000_b /tmp/1623121318374108948/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 92ms
+Time for merging to query: 0h 0m 0s 2ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 142ms
+createdb ../program_out/sp_n1000_10_1000_b/data/sp_n1000_10_1000_b /tmp/1623121318374108948/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 64ms
+Time for merging to target: 0h 0m 0s 2ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 112ms
+Tmp /tmp/1623121318374108948/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/1623121318374108948/query /tmp/1623121318374108948/target /tmp/1623121318374108948/search_tmp/7323138799440404521/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 1000 type: Aminoacid
+Estimated memory consumption: 980M
+Target database size: 1000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1.00K 0s 37ms
+Index table: Masked residues: 3161
+Index table: fill
+[=================================================================] 1.00K 0s 37ms
+Index statistics
+Entries:          299847
+DB size:          489 MB
+Avg k-mer size:   0.004685
+Top 10 k-mers
+    AGGDLG	6
+    RRSGQA	5
+    AEADYA	5
+    LRRGGD	5
+    ATMGTD	5
+    DEDIDE	5
+    AVITAG	5
+    TITMRG	5
+    EATLSG	5
+    LNLGVH	5
+Time for index table init: 0h 0m 0s 548ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1000
+Target db start 1 to 1000
+[=================================================================] 1.00K 2s 459ms
+
+1522.456862 k-mers per position
+2797 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+36 sequences passed prefiltering per query sequence
+31 median result list length
+3 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 3s 613ms
+align /tmp/1623121318374108948/query /tmp/1623121318374108948/target /tmp/1623121318374108948/search_tmp/7323138799440404521/pref_0 /tmp/1623121318374108948/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 20 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 1000 type: Aminoacid
+Target database size: 1000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.00K 0s 181ms
+Time for merging to result: 0h 0m 0s 1ms
+
+36871 alignments calculated.
+4515 sequence pairs passed the thresholds (0.122454 of overall calculated).
+4.515000 hits per query sequence.
+Time for processing: 0h 0m 0s 420ms
+Remove temporary files
+rmdb /tmp/1623121318374108948/search_tmp/7323138799440404521/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/search_tmp/7323138799440404521/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/search_tmp/7323138799440404521/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/search_tmp/7323138799440404521/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis /tmp/1623121318374108948/query /tmp/1623121318374108948/target /tmp/1623121318374108948/result ../program_out/sp_n1000_10_1000_b/mmseqs/sp_n1000_10_1000_b.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 1.00K 0s 35ms
+Time for merging to sp_n1000_10_1000_b.mmseqs: 0h 0m 0s 74ms
+Time for processing: 0h 0m 0s 464ms
+Removing temporary files
+rmdb /tmp/1623121318374108948/result 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/target 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/target_h 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/query 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/1623121318374108948/query_h 
+
+Time for processing: 0h 0m 0s 1ms
+46.93user 0.72system 0:07.07elapsed 673%CPU (0avgtext+0avgdata 1161832maxresident)k
+141409inputs+6934outputs (646major+33643minor)pagefaults 0swaps
+Running cudasw...
+174.23user 133.73system 5:15.16elapsed 97%CPU (0avgtext+0avgdata 444596maxresident)k
+22780inputs+47698outputs (50major+1567592minor)pagefaults 0swaps
+Running ssw...
+CPU time: 111.727381945 seconds
+105.89user 0.62system 1:52.78elapsed 94%CPU (0avgtext+0avgdata 8956maxresident)k
+664661inputs+265732outputs (32major+15719minor)pagefaults 0swaps
+Running swipe...
+228.72user 211.53system 6:11.99elapsed 118%CPU (0avgtext+0avgdata 8956maxresident)k
+14034inputs+774361outputs (44major+3454685minor)pagefaults 0swaps
+Running water...
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+1301.62user 70.09system 31:31.78elapsed 72%CPU (0avgtext+0avgdata 15404maxresident)k
+13209545inputs+62012outputs (51031major+10559889minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 10.7698 seconds ---
+        alignment_scores  ...  query_header
+0                   6362  ...    RAPA_ECOK1
+1                     53  ...    RAPA_ECOK1
+2                     44  ...    RAPA_ECOK1
+3                     43  ...    RAPA_ECOK1
+4                     45  ...    RAPA_ECOK1
+...                  ...  ...           ...
+999995                35  ...    ASF1_CHAGB
+999996                44  ...    ASF1_CHAGB
+999997                56  ...    ASF1_CHAGB
+999998                36  ...    ASF1_CHAGB
+999999              1834  ...    ASF1_CHAGB
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.1566 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+20.07user 23.23system 0:53.69elapsed 80%CPU (0avgtext+0avgdata 3096760maxresident)k
+93395inputs+76167outputs (320major+1530700minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 30.406 seconds ---
+        alignment_scores  ...  query_header
+0                   6362  ...    RAPA_ECOK1
+1                     53  ...    RAPA_ECOK1
+2                     44  ...    RAPA_ECOK1
+3                     43  ...    RAPA_ECOK1
+4                     45  ...    RAPA_ECOK1
+...                  ...  ...           ...
+999995                35  ...    ASF1_CHAGB
+999996                44  ...    ASF1_CHAGB
+999997                56  ...    ASF1_CHAGB
+999998                36  ...    ASF1_CHAGB
+999999              1834  ...    ASF1_CHAGB
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.1876 seconds ---
+ total CPU work (counts) done while GPU was busy: 13318148
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+27.15user 21.16system 0:59.71elapsed 80%CPU (0avgtext+0avgdata 1354152maxresident)k
+93400inputs+76167outputs (320major+739100minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+0.39user 0.04system 0:01.06elapsed 41%CPU (0avgtext+0avgdata 16312maxresident)k
+34845inputs+1100outputs (29major+4851minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.08user 0.03system 0:00.55elapsed 22%CPU (0avgtext+0avgdata 10504maxresident)k
+9843inputs+229outputs (29major+2995minor)pagefaults 0swaps
+Running cudasw_parser...
+3.23user 0.17system 0:04.03elapsed 84%CPU (0avgtext+0avgdata 220692maxresident)k
+57322inputs+43033outputs (29major+98216minor)pagefaults 0swaps
+Running ssw_parser...
+4.73user 0.27system 0:05.73elapsed 87%CPU (0avgtext+0avgdata 219904maxresident)k
+275352inputs+43033outputs (29major+113479minor)pagefaults 0swaps
+Running swipe_parser...
+7.75user 0.46system 0:08.97elapsed 91%CPU (0avgtext+0avgdata 219728maxresident)k
+783982inputs+43033outputs (29major+115668minor)pagefaults 0swaps
+Running water_parser...
+5.43user 0.31system 0:19.00elapsed 30%CPU (0avgtext+0avgdata 219768maxresident)k
+72228inputs+43033outputs (29major+110845minor)pagefaults 0swaps
+Running adept_parser...
+3.35user 0.17system 0:04.00elapsed 88%CPU (0avgtext+0avgdata 219708maxresident)k
+85785inputs+43033outputs (29major+99737minor)pagefaults 0swaps
+Running adept_as_parser...
+3.20user 0.16system 0:03.78elapsed 88%CPU (0avgtext+0avgdata 219912maxresident)k
+85785inputs+43033outputs (29major+102640minor)pagefaults 0swaps
+Comparing results:
+Checking equivalence of results:
+exact_programs=['cudasw', 'ssw', 'swipe', 'water', 'adept', 'adept_as']
+In the results of the exact programs, there are deviations in 0/1000000 sequence pairs.
+Checking bidirectionality (identical scores if query/db are swapped):
+blast:	 False
+cudasw:	 True
+ssw:	 True
+swipe:	 True
+water:	 True
+adept:	 True
+adept_as:	 True
+mmseqs:	 False
+Checking sensitivity of heuristics:
+min_score=50
+max_evalue=20
+                     SW  mmseqs  blast
+total_ali       1000000    4515  24790
+high_score_ali   160700    2030  24305
+high_score_hit   160700    4482  23663
+Runtimes of programs (in seconds):
+blast:    20.987
+cudasw:   314.655
+ssw:      112.233
+swipe:    371.466
+water:    1891.145
+adept:    53.075
+adept_as: 59.196
+mmseqs:   6.414
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n1000_10_1000_b/runtimes.png
+Finished parsing output.
+4686.31user 472.34system 1:32:26elapsed 93%CPU (0avgtext+0avgdata 3096760maxresident)k
+16587089inputs+1596576outputs (53737major+19672007minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 04/06/2022 01:04:48
+New DB name:   /scratch/cube/tuechler/program_out/sp_n1000_501_1000_b/data/sp_n1000_501_1000_b
+New DB title:  ../program_out/sp_n1000_501_1000_b/data/sp_n1000_501_1000_b
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1000 sequences in 0.056565 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n1000_501_1000_b
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running blast...
+272.55user 1.12system 0:48.92elapsed 559%CPU (0avgtext+0avgdata 75520maxresident)k
+75222inputs+44949outputs (317major+244778minor)pagefaults 0swaps
+Running mmseqs...
+createdb ../program_out/sp_n1000_501_1000_b/data/sp_n1000_501_1000_b /tmp/18177288389895439152/query --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 0s 81ms
+Time for merging to query: 0h 0m 0s 3ms
+Database type: Aminoacid
+Time for merging to query.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 141ms
+createdb ../program_out/sp_n1000_501_1000_b/data/sp_n1000_501_1000_b /tmp/18177288389895439152/target --dbtype 0 --shuffle 1 --createdb-mode 0 --id-offset 0 --compressed 0 -v 3 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 84ms
+Time for merging to target: 0h 0m 0s 3ms
+Database type: Aminoacid
+Time for merging to target.lookup: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 132ms
+Tmp /tmp/18177288389895439152/search_tmp folder does not exist or is not a directory.
+prefilter /tmp/18177288389895439152/query /tmp/18177288389895439152/target /tmp/18177288389895439152/search_tmp/1713995805248425375/pref_0 --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --seed-sub-mat nucl:nucleotide.out,aa:VTML80.out -k 0 --k-score 2147483647 --alph-size 21 --max-seq-len 65535 --max-seqs 300 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca 1 --pcb 1.5 --threads 12 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 1000 type: Aminoacid
+Estimated memory consumption: 982M
+Target database size: 1000 type: Aminoacid
+Index table k-mer threshold: 96 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 1.00K 0s 44ms
+Index table: Masked residues: 11104
+Index table: fill
+[=================================================================] 1.00K 0s 37ms
+Index statistics
+Entries:          634191
+DB size:          491 MB
+Avg k-mer size:   0.009909
+Top 10 k-mers
+    LLVPLG	23
+    GLVRNE	22
+    AVTPFN	22
+    PAFDRQ	22
+    VPYNQR	21
+    YFDQAT	21
+    LDTLGI	19
+    LGFLIP	19
+    IDGTCV	19
+    NETAAY	19
+Time for index table init: 0h 0m 0s 611ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 96
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1000
+Target db start 1 to 1000
+[=================================================================] 1.00K 5s 107ms
+
+1617.218429 k-mers per position
+11782 DB matches per sequence
+0 overflows
+0 queries produce too much hits (truncated result)
+144 sequences passed prefiltering per query sequence
+143 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 7s 721ms
+align /tmp/18177288389895439152/query /tmp/18177288389895439152/target /tmp/18177288389895439152/search_tmp/1713995805248425375/pref_0 /tmp/18177288389895439152/result --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out -a 0 --alignment-mode 3 --wrapped-scoring 0 -e 20 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --realign 0 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca 1 --pcb 1.5 --score-bias 0 --gap-open 15 --gap-extend 2 --zdrop 40 --threads 12 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 1000 type: Aminoacid
+Target database size: 1000 type: Aminoacid
+Calculation of alignments
+[=================================================================] 1.00K 1s 378ms
+Time for merging to result: 0h 0m 0s 0ms
+
+144916 alignments calculated.
+11088 sequence pairs passed the thresholds (0.076513 of overall calculated).
+11.088000 hits per query sequence.
+Time for processing: 0h 0m 1s 763ms
+Remove temporary files
+rmdb /tmp/18177288389895439152/search_tmp/1713995805248425375/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/search_tmp/1713995805248425375/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/search_tmp/1713995805248425375/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/search_tmp/1713995805248425375/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+convertalis /tmp/18177288389895439152/query /tmp/18177288389895439152/target /tmp/18177288389895439152/result ../program_out/sp_n1000_501_1000_b/mmseqs/sp_n1000_501_1000_b.mmseqs --sub-mat /apps/mmseqs2/11-e1a1c/matrices/blosum50.out --format-mode 0 --format-output query,target,raw --translation-table 1 --gap-open 15 --gap-extend 2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 12 --compressed 0 -v 3 
+
+[=================================================================] 1.00K 0s 31ms
+Time for merging to sp_n1000_501_1000_b.mmseqs: 0h 0m 0s 60ms
+Time for processing: 0h 0m 0s 368ms
+Removing temporary files
+rmdb /tmp/18177288389895439152/result 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/target 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/target_h 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /tmp/18177288389895439152/query 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /tmp/18177288389895439152/query_h 
+
+Time for processing: 0h 0m 0s 0ms
+91.85user 0.66system 0:18.65elapsed 495%CPU (0avgtext+0avgdata 1166804maxresident)k
+143097inputs+13262outputs (646major+36420minor)pagefaults 0swaps
+Running cudasw...
+390.91user 290.60system 11:16.94elapsed 100%CPU (0avgtext+0avgdata 442020maxresident)k
+24133inputs+47910outputs (50major+1575278minor)pagefaults 0swaps
+Running ssw...
+CPU time: 206.270987034 seconds
+197.28user 0.97system 3:27.74elapsed 95%CPU (0avgtext+0avgdata 8948maxresident)k
+1341716inputs+280900outputs (32major+17051minor)pagefaults 0swaps
+Running swipe...
+648.64user 204.39system 6:24.22elapsed 222%CPU (0avgtext+0avgdata 8968maxresident)k
+14710inputs+937976outputs (44major+3941077minor)pagefaults 0swaps
+Running water...
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+Smith-Waterman local alignment of sequences
+4344.93user 69.68system 1:22:06elapsed 89%CPU (0avgtext+0avgdata 16120maxresident)k
+13886565inputs+63181outputs (51031major+13867471minor)pagefaults 0swaps
+Running adept...
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 21.7382 seconds ---
+        alignment_scores  ...  query_header
+0                   3880  ...    WALK_STAS1
+1                     49  ...    WALK_STAS1
+2                     61  ...    WALK_STAS1
+3                     53  ...    WALK_STAS1
+4                     60  ...    WALK_STAS1
+...                  ...  ...           ...
+999995                53  ...    GLGA_NITEC
+999996                46  ...    GLGA_NITEC
+999997                47  ...    GLGA_NITEC
+999998                49  ...    GLGA_NITEC
+999999              3340  ...    GLGA_NITEC
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.129 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+34.66user 35.63system 1:42.35elapsed 68%CPU (0avgtext+0avgdata 5192516maxresident)k
+94748inputs+79277outputs (320major+2751668minor)pagefaults 0swaps
+Running adept_as...
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+50000
+100000
+150000
+200000
+250000
+300000
+350000
+400000
+450000
+500000
+550000
+600000
+650000
+700000
+750000
+800000
+850000
+900000
+950000
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 64.1785 seconds ---
+        alignment_scores  ...  query_header
+0                   3880  ...    WALK_STAS1
+1                     49  ...    WALK_STAS1
+2                     61  ...    WALK_STAS1
+3                     53  ...    WALK_STAS1
+4                     60  ...    WALK_STAS1
+...                  ...  ...           ...
+999995                53  ...    GLGA_NITEC
+999996                46  ...    GLGA_NITEC
+999997                47  ...    GLGA_NITEC
+999998                49  ...    GLGA_NITEC
+999999              3340  ...    GLGA_NITEC
+
+[1000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 3.2347 seconds ---
+ total CPU work (counts) done while GPU was busy: 29110159
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+52.57user 30.97system 1:48.72elapsed 76%CPU (0avgtext+0avgdata 2092940maxresident)k
+94753inputs+79277outputs (320major+1411168minor)pagefaults 0swaps
+Start parsing of output files
+Running blast_parser...
+0.53user 0.03system 0:01.53elapsed 37%CPU (0avgtext+0avgdata 16844maxresident)k
+54569inputs+1256outputs (29major+4878minor)pagefaults 0swaps
+Running mmseqs_parser...
+0.10user 0.03system 0:00.62elapsed 23%CPU (0avgtext+0avgdata 12880maxresident)k
+10177inputs+524outputs (29major+3604minor)pagefaults 0swaps
+Running cudasw_parser...
+3.67user 0.16system 0:05.26elapsed 72%CPU (0avgtext+0avgdata 220868maxresident)k
+57534inputs+43244outputs (29major+92833minor)pagefaults 0swaps
+Running ssw_parser...
+5.25user 0.21system 0:06.71elapsed 81%CPU (0avgtext+0avgdata 220076maxresident)k
+290520inputs+43244outputs (29major+108100minor)pagefaults 0swaps
+Running swipe_parser...
+8.76user 0.43system 0:11.88elapsed 77%CPU (0avgtext+0avgdata 221040maxresident)k
+947598inputs+43244outputs (29major+107607minor)pagefaults 0swaps
+Running water_parser...
+5.38user 0.31system 1:07.97elapsed 8%CPU (0avgtext+0avgdata 221408maxresident)k
+72914inputs+43244outputs (29major+109712minor)pagefaults 0swaps
+Running adept_parser...
+3.47user 0.18system 0:04.37elapsed 83%CPU (0avgtext+0avgdata 221292maxresident)k
+88895inputs+43244outputs (29major+94007minor)pagefaults 0swaps
+Running adept_as_parser...
+3.29user 0.15system 0:03.93elapsed 87%CPU (0avgtext+0avgdata 220028maxresident)k
+88895inputs+43244outputs (29major+100482minor)pagefaults 0swaps
+Comparing results:
+Checking equivalence of results:
+exact_programs=['cudasw', 'ssw', 'swipe', 'water', 'adept', 'adept_as']
+cudasw    SYI_NITOC    240.0
+ssw       SYI_NITOC    235.0
+swipe     SYI_NITOC    240.0
+water     SYI_NITOC    240.0
+adept     SYI_NITOC    240.0
+adept_as  SYI_NITOC    240.0
+Name: SYL_RHORT, dtype: float64
+cudasw    NAPA_DINSH    210.0
+ssw       NAPA_DINSH    207.0
+swipe     NAPA_DINSH    210.0
+water     NAPA_DINSH    210.0
+adept     NAPA_DINSH    210.0
+adept_as  NAPA_DINSH    210.0
+Name: BISC_ECOLI, dtype: float64
+In the results of the exact programs, there are deviations in 2/1000000 sequence pairs.
+Checking bidirectionality (identical scores if query/db are swapped):
+blast:	 False
+cudasw:	 True
+ssw:	 False
+swipe:	 True
+water:	 True
+adept:	 True
+adept_as:	 True
+mmseqs:	 False
+Checking sensitivity of heuristics:
+min_score=50
+max_evalue=20
+                     SW  blast  mmseqs
+total_ali       1000000  27981   11088
+high_score_ali   595152  27981    7097
+high_score_hit   595152  27981   11087
+Runtimes of programs (in seconds):
+blast:    48.439
+cudasw:   676.360
+ssw:      207.398
+swipe:    383.399
+water:    4925.679
+adept:    97.263
+adept_as: 108.076
+mmseqs:   17.989
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n1000_501_1000_b/runtimes.png
+Finished parsing output.
+8777.49user 644.69system 2:36:30elapsed 100%CPU (0avgtext+0avgdata 5192516maxresident)k
+18152831inputs+1813441outputs (53736major+25503236minor)pagefaults 0swaps

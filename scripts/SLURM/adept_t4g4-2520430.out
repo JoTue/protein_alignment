@@ -1,0 +1,114 @@
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.5997 seconds ---
+[[ 619   29   32   39]
+ [  45   27   50   58]
+ [  30   34   29 1408]
+ [  36   29   34   39]
+ [  36   34   36   46]
+ [  32   36  596   28]
+ [  30   48   28   41]
+ [  33   29   39   29]
+ [  28 1771   41   34]
+ [  41   37   39   35]
+ [  45   34   30   41]
+ [4281   42   54   33]
+ [  43   44   27   39]
+ [  48   34   42 2876]
+ [  41   40   41   37]
+ [  50   36   28   41]
+ [  54   41 1780   55]
+ [  50   30   58   34]
+ [  41   37   33   40]
+ [  55 2609   51   54]
+ [  30   36   33   39]
+ [  43   41   50   51]
+ [ 462   49   34   46]
+ [  29   35   44   37]
+ [  30   54   49 4655]]
+### None
+
+STATUS: Writing results...
+--- Elapsed: 0.0182 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.0138 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0088 seconds ---
+ total CPU work (counts) done while GPU was busy: 2979
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.7154 seconds ---
+[[2443   38   38   41]
+ [  46   38   39   53]
+ [  35   43   42   50]
+ ...
+ [  47   42   45   47]
+ [  37   35   39   40]
+ [  60   50   48 4626]]
+### None
+
+STATUS: Writing results...
+--- Elapsed: 0.8805 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.4311 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0539 seconds ---
+ total CPU work (counts) done while GPU was busy: 91625
+
+INFO: Correctness test skipped...
+
+STATUS: Done

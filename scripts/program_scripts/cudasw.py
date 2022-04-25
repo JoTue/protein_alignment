@@ -5,12 +5,18 @@ import subprocess
 import os
 import time
 import argparse
+import sys
 
-def cudasw(input_file, matrix, gapopen, gapextension):
+def cudasw(input_file, matrix, gapopen, gapextension, num_threads, num_gpus, min_score):
     name = input_file.split('/')[-1]
     # create output directory
+    os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"program_out/{name}/cudasw")
+        os.mkdir(f"../program_out/{name}")
+    except FileExistsError:
+        pass
+    try:
+        os.mkdir(f"../program_out/{name}/cudasw")
     except FileExistsError:
         pass
 
@@ -18,15 +24,15 @@ def cudasw(input_file, matrix, gapopen, gapextension):
     t1 = time.perf_counter()
     
     # -qprf 0 fails (for larger files?)
-    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {input_file} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -topscore_num 1000000 -min_score 0 -num_gpus 1 -num_threads 1 &> program_out/{name}/cudasw/{name}.cudasw", shell=True)
-    
+    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {input_file} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw/{name}.cudasw", shell=True)
+
     # TODO: experiment which (file sizes)/sequence lengths (500?) are ok, try out -qrpf 0/1
     # or: split query file in separate input files
     # for query in os.scandir(f"{input_file}_separate"):
-    #     subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query.path} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -topscore_num 1000000 -min_score 0 -num_gpus 1 -num_threads 4 &> program_out/{name}/cudasw/{query.name}.cudasw", shell=True)
+    #     subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query.path} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -topscore_num 1000000 -min_score 0 -num_gpus 1 -num_threads 4 &> ../program_out/{name}/cudasw/{query.name}.cudasw", shell=True)
 
     t2 = time.perf_counter()
-    with open(f"program_out/{name}/cudasw/time.txt", "w") as f:
+    with open(f"../program_out/{name}/cudasw/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -43,10 +49,16 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
+    parser.add_argument("-c", "--min-score", type=int, default=50,
+        help="Minimimum score of alignments to show.")
+    parser.add_argument("-t", "--num-threads", type=int, default=1,
+        help="Number of CPU threads.")
+    parser.add_argument("-g", "--num-gpus", type=int, default=1,
+        help="Number of GPUs.")
 
     args = parser.parse_args()
 
-    cudasw(args.input, args.matrix, args.gapopen, args.gapextension)
+    cudasw(args.input, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score)
  
 if __name__ == '__main__':
     main()

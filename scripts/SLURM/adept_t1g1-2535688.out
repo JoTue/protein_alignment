@@ -1,0 +1,40 @@
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1715.6293 seconds ---
+          alignment_scores  ...          query_header
+0                     1637  ...  sp|B2SFG1|Y239_FRATM
+1                       59  ...  sp|B2SFG1|Y239_FRATM
+2                       40  ...  sp|B2SFG1|Y239_FRATM
+3                       24  ...  sp|B2SFG1|Y239_FRATM
+4                       31  ...  sp|B2SFG1|Y239_FRATM
+...                    ...  ...                   ...
+63999995                42  ...  sp|B7UJG4|BETA_ECO27
+63999996                41  ...  sp|B7UJG4|BETA_ECO27
+63999997                39  ...  sp|B7UJG4|BETA_ECO27
+63999998                52  ...  sp|B7UJG4|BETA_ECO27
+63999999              3853  ...  sp|B7UJG4|BETA_ECO27
+
+[64000000 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 180.8875 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+1269.63user 562.64system 39:16.96elapsed 77%CPU (0avgtext+0avgdata 148944652maxresident)k
+176681inputs+7372435outputs (675major+122236336minor)pagefaults 0swaps
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver

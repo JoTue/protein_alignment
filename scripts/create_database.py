@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:ace21e30aaa057ed9d5959c55806425f389a34f236caf2f0f6c60002f87e10c0
-size 1682
-=======
 #!/usr/bin/env python3
 
 import argparse
 import subprocess
 import shutil
 import os
+from Bio import SeqIO
+import re
 
 def create_database(n, min_len, max_len, input_file, output_file):
     tmp_file = "tmp_file"
+    tmp_file2 = "tmp_file2"
     # filter by length
     if min_len or max_len:
         if not min_len:
@@ -21,12 +19,19 @@ def create_database(n, min_len, max_len, input_file, output_file):
         subprocess.run(f"""bioawk -c fastx '{{ if (length($seq) >= {min_len} && length($seq) <= {max_len}) {{ print ">"$name; print $seq }}}}' {input_file} > {tmp_file}""", shell=True)
     else:
         shutil.copyfile(input_file, tmp_file)
+    # filter out sequences with non-standard aa
+    reg = re.compile('^[ACDEFGHIKLMNPQRSTVWY]+$')
+    seq_records = [rec for rec in SeqIO.parse(tmp_file, "fasta") if reg.match(str(rec.seq))]
+    SeqIO.write(seq_records, tmp_file2, "fasta")
     # retain n random sequences
     if n:
-        subprocess.run(f"""bioawk -c fastx -v k={n} '{{y=x++<k?x-1:int(rand()*x);if(y<k)a[y]=">"$name"\\n"$seq}}END{{for(z in a)print a[z]}}' {tmp_file} > {output_file}""", shell=True)
+        subprocess.run(f"""bioawk -c fastx -v k={n} '{{y=x++<k?x-1:int(rand()*x);if(y<k)a[y]=">"$name"\\n"$seq}}END{{for(z in a)print a[z]}}' {tmp_file2} > {output_file}""", shell=True)
     else:
-        shutil.copyfile(tmp_file, output_file)
+        shutil.copyfile(tmp_file2, output_file)
     os.remove(tmp_file)
+    os.remove(tmp_file2)
+    seq_n = int(subprocess.check_output(f"grep -c '^>' {output_file}", shell=True))
+    print(f"Output file contains {seq_n} sequences.")
 
 
 def main():
@@ -51,4 +56,3 @@ def main():
  
 if __name__ == '__main__':
     main()
->>>>>>> 57014a598a325b02412fc2a46105b516a199fda1

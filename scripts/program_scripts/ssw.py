@@ -5,21 +5,27 @@ import subprocess
 import os
 import time
 import argparse
+import sys
 
-def ssw(input_file, matrix, gapopen, gapextension):
+def ssw(input_file, matrix, gapopen, gapextension, min_score):
     name = input_file.split('/')[-1]
     # create output directory
+    os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"program_out/{name}/ssw")
+        os.mkdir(f"../program_out/{name}")
+    except FileExistsError:
+        pass
+    try:
+        os.mkdir(f"../program_out/{name}/ssw")
     except FileExistsError:
         pass
 
     # run ssw
     t1 = time.perf_counter()
     # FIXME: ignore matrix argument for now (error with -a option), default: BLOSUM50
-    subprocess.run(f"../ssw/Complete-Striped-Smith-Waterman-Library/src/pyssw.py -o {gapopen} -e {gapextension} -p -l ../ssw/Complete-Striped-Smith-Waterman-Library/src/libssw.so {input_file} {input_file} > program_out/{name}/ssw/{name}.ssw", shell=True)
+    subprocess.run(f"../ssw/Complete-Striped-Smith-Waterman-Library/src/pyssw.py -o {gapopen} -e {gapextension} -f {min_score} -p -l ../ssw/Complete-Striped-Smith-Waterman-Library/src/libssw.so {input_file} {input_file} > ../program_out/{name}/ssw/{name}.ssw", shell=True)
     t2 = time.perf_counter()
-    with open(f"program_out/{name}/ssw/time.txt", "w") as f:
+    with open(f"../program_out/{name}/ssw/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -36,10 +42,12 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
+    parser.add_argument("-c", "--min-score", type=int, default=50,
+        help="Minimimum score of alignments to show.")
 
     args = parser.parse_args()
 
-    ssw(args.input, args.matrix, args.gapopen, args.gapextension)
+    ssw(args.input, args.matrix, args.gapopen, args.gapextension, args.min_score)
  
 if __name__ == '__main__':
     main()

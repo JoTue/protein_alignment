@@ -1,0 +1,80 @@
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.7761 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0232 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.0129 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0205 seconds ---
+ total CPU work (counts) done while GPU was busy: 3270
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.0716 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0694 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.497 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0531 seconds ---
+ total CPU work (counts) done while GPU was busy: 96903
+
+INFO: Correctness test skipped...
+
+STATUS: Done

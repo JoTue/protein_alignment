@@ -1,48 +1,52 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:79570989cbdaafd942214f568279aa5abf32b566569676a818d5c1f864dbcc97
-size 1718
-=======
 #!/usr/bin/env python3
-"""Run EMBOSS Water on the specified query/db file"""
+"""Run water on the specified query/db file"""
 
 import subprocess
 import os
 import time
 import argparse
+import sys
 
-def water(input_file):
-    # split multi-fasta file into separate single-fasta files (stored in data/<input_file>_separate)
-    subprocess.run(f"scripts/prepare_water_queries.py {input_file}", shell=True)
-
+def water(input_file, matrix, gapopen, gapextension):
+    name = input_file.split('/')[-1]
     # create output directory
+    os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"program_out/water/{input_file.split('/')[-1]}")
+        os.mkdir(f"../program_out/{name}")
     except FileExistsError:
         pass
-
+    try:
+        os.mkdir(f"../program_out/{name}/water")
+    except FileExistsError:
+        pass
 
     # run water
     t1 = time.perf_counter()
     for query in os.scandir(f"{input_file}_separate"):
-        subprocess.run(f"water {query.path} {input_file} -gapopen 10 -gapextend 0.5 -outfile program_out/water/{input_file.split('/')[-1]}/{query.name}.water -aformat srspair", shell=True) # add to supress messages to stdout: >/dev/null 2>&1
+        subprocess.run(f"water {query.path} {input_file} -gapopen {gapopen} -gapextend {gapextension} -datafile /apps/emboss/6.6.0/emboss/data/E{matrix} -sprotein -aformat score -outfile ../program_out/{name}/water/{query.name}.water", shell=True) # add to supress messages to stdout: >/dev/null 2>&1
     t2 = time.perf_counter()
-    with open(f"program_out/water/{input_file.split('/')[-1]}/time.txt", "w") as f:
+    with open(f"../program_out/{name}/water/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
+
 
 def main():
     """ 
-    Run EMBOSS Water on the specified query/db file.
+    Run water on the specified query/db file.
     """
-    parser = argparse.ArgumentParser(description = 'Run EMBOSS Water on the specified query/db file.')
+    parser = argparse.ArgumentParser(description = 'Run water on the specified query/db file.')
 
     parser.add_argument("input",
         help="Input file path (used as query and db).")
+    parser.add_argument("-m", "--matrix", default="BLOSUM50",
+        help="Name of the substitution matrix: BLOSUM50 or BLOSUM62")
+    parser.add_argument("-o", "--gapopen", type=int, default=15,
+        help="Gap open penalty.")
+    parser.add_argument("-e", "--gapextension", type=int, default=2,
+        help="Gap extension penalty.")
 
     args = parser.parse_args()
 
-    water(args.input)
+    water(args.input, args.matrix, args.gapopen, args.gapextension)
  
 if __name__ == '__main__':
     main()
->>>>>>> 57014a598a325b02412fc2a46105b516a199fda1

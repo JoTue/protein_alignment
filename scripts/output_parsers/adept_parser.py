@@ -15,14 +15,14 @@ def adept_parser(input_file):
             words = line.split()
             if not words:
                 break
-            query = words[6].split("|")[-1]
-            db = words[5].split("|")[-1]
+            query = words[6]
+            db = words[5]
             score = float(words[0].strip("[]"))
             d[query] = d.get(query, []) + [(db, score)]
     
     # write dictionary to json file
     name = input_file.split('/')[-1].split(".")[0]
-    with open(f"program_out/{name}/adept/{name}.adept.json", "w") as f:
+    with open(f"../program_out/{name}/adept/{name}.adept.json", "w") as f:
         print(json.dumps(d), file=f)
 
             

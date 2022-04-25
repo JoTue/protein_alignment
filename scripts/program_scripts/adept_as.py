@@ -5,20 +5,26 @@ import subprocess
 import os
 import time
 import argparse
+import sys
 
 def adept(input_file, matrix, gapopen, gapextension):
     name = input_file.split('/')[-1]
     # create output directory
+    os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"program_out/{name}/adept_as")
+        os.mkdir(f"../program_out/{name}")
+    except FileExistsError:
+        pass
+    try:
+        os.mkdir(f"../program_out/{name}/adept_as")
     except FileExistsError:
         pass
 
     # run adept py_asynch_protein
     t1 = time.perf_counter()
-    subprocess.run(f"../adept/build2/examples/py_examples/py_asynch_protein -q {input_file} -r {input_file} -o  program_out/{name}/adept_as/{name}.adept_as -m {matrix} --gapopen {gapopen} -e {gapextension}", shell=True)
+    subprocess.run(f"../adept/build2/examples/py_examples/py_asynch_protein3 -q {input_file} -r {input_file} -o  ../program_out/{name}/adept_as/{name}.adept_as -m {matrix} --gapopen {gapopen} -e {gapextension}", shell=True)
     t2 = time.perf_counter()
-    with open(f"program_out/{name}/adept_as/time.txt", "w") as f:
+    with open(f"../program_out/{name}/adept_as/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():

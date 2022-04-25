@@ -6,8 +6,30 @@ import numpy as np
 from Bio import SeqIO
 import json
 import matplotlib.pyplot as plt
+from matplotlib.colors import LogNorm
+import os
 
-def compare_results(input_dir, program_list, exact_programs, query_file, db_file):
+def colormap(s, savename, seq1, seq2, title):
+    m, n = np.shape(s)
+    fig, ax = plt.subplots()
+    # mappable = ax.matshow(s, cmap=plt.cm.plasma, norm=colors.LogNorm(vmin=s.min(), vmax=s.max()))
+    mappable = ax.matshow(s, cmap=plt.cm.plasma, norm=LogNorm(vmin=np.array(s).min(), vmax=np.array(s).max()))
+    fig.colorbar(mappable)
+
+    # ax.set_xticks(range(n))
+    # ax.xaxis.set_ticks_position("top")
+    # ax.set_xticklabels(" " + seq2, size=6)
+    # ax.set_yticks(range(m))
+    # ax.set_yticklabels(" " + seq1, size=6)
+    
+    # for i in range(m):
+    #     for j in range(n):
+    #         ax.text(j, i, str(s[i, j]), va="center", ha="center", size=5)
+    # plt.title(title)
+    plt.savefig(savename, dpi=1000)
+
+
+def compare_results(input_dir, program_list, exact_programs, query_file, db_file, min_score, max_evalue):
     print("Comparing results:")
     # initialize score array
     query_names, db_names = [], []
@@ -29,6 +51,9 @@ def compare_results(input_dir, program_list, exact_programs, query_file, db_file
             for value in d[key]:
                 scores.loc[pd.IndexSlice[program, key], value[0]] = value[1]
     
+    # colormap
+    colormap(scores.loc[pd.IndexSlice[program_list[0], :], :], f"{input_dir}/colormap.png", 0, 0, 0)
+    
     # check equivalence of different programs
     print("Checking equivalence of results:")
     print(f"{exact_programs=}")
@@ -37,8 +62,11 @@ def compare_results(input_dir, program_list, exact_programs, query_file, db_file
         for db in db_names:
             score_vec = scores.loc[pd.IndexSlice[exact_programs, query], db]
             if not all(score == score_vec[0] for score in score_vec):
-                counter += 1
-                print(score_vec)
+                for score in score_vec:
+                    if score > min_score:
+                        counter += 1
+                        print(score_vec)
+                        break
     print(f"In the results of the exact programs, there are deviations in {counter}/{total_alignments} sequence pairs.")
     
     # checking bidirectionality
@@ -47,25 +75,57 @@ def compare_results(input_dir, program_list, exact_programs, query_file, db_file
     for program in program_list:
         submatrix = scores.loc[pd.IndexSlice[program, :], :]
         print(f"{program}:\t {np.allclose(submatrix, submatrix.T)}")
+
+    # checking sensitivity of heuristics
+    print(f"Checking sensitivity of heuristics:\n{min_score=}\n{max_evalue=}")
+    exact_program = exact_programs[0]
+    heuristics = list(set(program_list).intersection(set(["blast", "mmseqs"])))
+    sensitivity_df = pd.DataFrame(np.zeros((3, len(heuristics)+1), dtype=int), index=["total_ali", "high_score_ali", "high_score_hit"], columns=["SW"]+heuristics)
+    sensitivity_df["SW"]["total_ali"] = total_alignments
+
+    for query in query_names:
+        for db in db_names:
+            exact_score = scores.loc[pd.IndexSlice[exact_program, query], db]
+            if exact_score >= min_score:
+                sensitivity_df["SW"]["high_score_ali"] += 1
+                sensitivity_df["SW"]["high_score_hit"] += 1
+            for heuristic in heuristics:
+                heuristic_score = scores.loc[pd.IndexSlice[heuristic, query], db]
+                if not np.isnan(heuristic_score):
+                    sensitivity_df[heuristic]["total_ali"] += 1
+                    if heuristic_score >= min_score:
+                        # if exact_score < min_score:
+                        #     raise ValueError
+                        sensitivity_df[heuristic]["high_score_ali"] += 1
+                    if exact_score >= min_score:
+                        sensitivity_df[heuristic]["high_score_hit"] += 1
+    print(sensitivity_df)
             
 
 def compare_runtime(input_dir, program_list):
     print("Runtimes of programs (in seconds):")
     runtimes = {}
     name = input_dir.split('/')[-1]
-    for program in program_list:
-        with open(f"{input_dir}/{program}/time.txt") as f:
-            runtime = float(f.read().strip())
-            runtimes[program] = runtime
-            print(f"{program}:\t {runtime:.3f}")
+    with open(f"{input_dir}/time.txt", "w") as out_f:
+        for program in program_list:
+            with open(f"{input_dir}/{program}/time.txt") as f:
+                runtime = float(f.read().strip())
+                runtimes[program] = runtime
+                print(f"{str(program+':').ljust(16)}{runtime:.3f}")
+                out_f.write(f"{str(program+':').ljust(16)}{runtime:.3f}\n")
     # plot
     runtimes_vec = [runtimes[program] for program in program_list]
+    plt.rcParams["figure.figsize"] = (len(program_list)*0.7, 5)
     plt.bar(program_list, runtimes_vec, log=True)
-    plt.ylabel('Programs')
     plt.ylabel('Runtime [sec]')
     plt.title('Runtime comparison')
-    plt.savefig(f"{input_dir}/runtimes.png")
-    print(f"Plot of runtime comparison saved to {input_dir}/runtimes.png")
+    plt.xticks(fontsize=9, rotation='vertical')
+    # write times as labels on top of each bar
+    # y_offset = max(runtimes_vec)/100
+    for i in range(len(program_list)):
+        plt.text(i, runtimes_vec[i]+(runtimes_vec[i]/30), f'{runtimes_vec[i]:.0f}', ha='center', fontsize=7)
+    plt.savefig(f"{input_dir}/runtimes.png", bbox_inches="tight")
+    print(f"Plot of runtime comparison saved to {os.path.abspath(f'{input_dir}/runtimes.png')}")
 
 
 def main():
@@ -80,24 +140,32 @@ def main():
         help="Query file path.")
     parser.add_argument("db",
         help="Database file path.")
+    parser.add_argument("-c", "--min-score", type=int, default=50,
+        help="Minimimum score of alignments to show.")
+    parser.add_argument("-v", "--max-evalue", type=int, default=20,
+        help="Maximum e-value.")
     parser.add_argument("-p", "--programs", nargs="+", default="all",
-        help="List of programs to run. Default: blast, cudasw, ssw, swipe, water, adept")
+        help="List of programs to run. Default: all")
     parser.add_argument("-x", "--exact-programs", nargs="+", default="all",
-        help="List of programs which should yield identical results (used for checking results). Default: cudasw, ssw, swipe, water, adept")
+        help="List of programs which should yield identical results (used for checking results). Default: all SW implementations")
+    parser.add_argument("-r", "--only-runtime", action = "store_true", 
+        help="Do not compare scores of the exact programs.")
+
     args = parser.parse_args()
 
     # create program_list
     if args.programs == "all":
-        program_list = ["blast", "cudasw", "ssw", "swipe", "water", "adept", "adept_as"]
+        program_list = ["blast", "mmseqs", "water", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "cudasw", "cudasw_xargs", "adept", "adept_as", "adept_as_xargs"]
     else:
         program_list = args.programs
     # create exact_programs
     if args.exact_programs == "all":
-        exact_programs = ["cudasw", "ssw", "swipe", "water", "adept", "adept_as"]
+        exact_programs = ["cudasw", "cudasw_xargs", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "water", "adept", "adept_as", "adept_as_xargs"]
     else:
         exact_programs = args.exact_programs
 
-    compare_results(args.input, program_list, exact_programs, args.query, args.db)
+    if not args.only_runtime:
+        compare_results(args.input, program_list, exact_programs, args.query, args.db, args.min_score, args.max_evalue)
     compare_runtime(args.input, program_list)
 
 

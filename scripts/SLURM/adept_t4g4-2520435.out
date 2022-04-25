@@ -1,0 +1,112 @@
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.6005 seconds ---
+a <pyadept.adept.multiAlign object at 0x2b462d4ea4b0>
+b [<pyadept.adept.alignments object at 0x2b462d4f16f0>, <pyadept.adept.alignments object at 0x2b462d4f19f0>, <pyadept.adept.alignments object at 0x2b462d4f1ab0>, <pyadept.adept.alignments object at 0x2b462d4f1bf0>]
+c
+<pyadept.adept.alignments object at 0x2b462d4f16f0>
+[ 619   45   30   36   36   32   30   33   28   41   45 4281   43   48
+   41   50   54   50   41   55   30   43  462   29   30]
+c
+<pyadept.adept.alignments object at 0x2b462d4f19f0>
+[  29   27   34   29   34   36   48   29 1771   37   34   42   44   34
+   40   36   41   30   37 2609   36   41   49   35   54]
+c
+<pyadept.adept.alignments object at 0x2b462d4f1ab0>
+[  32   50   29   34   36  596   28   39   41   39   30   54   27   42
+   41   28 1780   58   33   51   33   50   34   44   49]
+c
+<pyadept.adept.alignments object at 0x2b462d4f1bf0>
+[  39   58 1408   39   46   28   41   29   34   35   41   33   39 2876
+   37   41   55   34   40   54   39   51   46   37 4655]
+
+STATUS: Writing results...
+--- Elapsed: 0.0121 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.0129 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0071 seconds ---
+ total CPU work (counts) done while GPU was busy: 3041
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+---------------------------------
+     PYTHON MULTIGPU PROTEIN     
+---------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 1.834 seconds ---
+a <pyadept.adept.multiAlign object at 0x2b80db750630>
+b [<pyadept.adept.alignments object at 0x2b80db7554b0>, <pyadept.adept.alignments object at 0x2b80db7554f0>, <pyadept.adept.alignments object at 0x2b80db7558f0>, <pyadept.adept.alignments object at 0x2b80db7557b0>]
+c
+<pyadept.adept.alignments object at 0x2b80db7554b0>
+[2443   46   35 ...   47   37   60]
+c
+<pyadept.adept.alignments object at 0x2b80db7554f0>
+[38 38 43 ... 42 35 50]
+c
+<pyadept.adept.alignments object at 0x2b80db7558f0>
+[38 39 42 ... 45 39 48]
+c
+<pyadept.adept.alignments object at 0x2b80db7557b0>
+[  41   53   50 ...   47   40 4626]
+
+STATUS: Writing results...
+--- Elapsed: 0.8608 seconds ---
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+1
+2
+3
+4
+5
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.4019 seconds ---
+
+STATUS: Writing results...
+--- Elapsed: 0.0542 seconds ---
+ total CPU work (counts) done while GPU was busy: 95013
+
+INFO: Correctness test skipped...
+
+STATUS: Done

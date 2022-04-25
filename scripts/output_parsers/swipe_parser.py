@@ -10,9 +10,9 @@ def swipe_parser(input_file):
         query, db, score = None, None, None
         for line in f:
             if line.startswith("Query description:"):
-                query = line.split()[-1].split("|")[-1]
+                query = line.split()[-1]
             elif line.startswith(">"):
-                db = line.split()[-1].split("|")[-1]
+                db = line.split()[-1]
             elif line.startswith(" Score ="):
                 # if statistical parameters are not available for the scoring system specified. -> different parsing necessary
                 words = line.split()
@@ -24,7 +24,7 @@ def swipe_parser(input_file):
     
     # write dictionary to json file
     name = input_file.split('/')[-1].split(".")[0]
-    with open(f"program_out/{name}/swipe/{name}.swipe.json", "w") as f:
+    with open(f"../program_out/{name}/swipe/{name}.swipe.json", "w") as f:
         print(json.dumps(d), file=f)
 
             
