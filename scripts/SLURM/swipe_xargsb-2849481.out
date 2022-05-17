@@ -1,0 +1,740 @@
+
+
+Building a new DB, current time: 05/04/2022 14:13:00
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00607896 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:13:02
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 453314 sequences in 22.8869 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:13:26
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00732303 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 1
+Wed May  4 14:13:28 CEST 2022
+CPU time: 183.051626921 seconds
+end 1
+Wed May  4 14:16:32 CEST 2022
+chunk_n=1
+173.25user 0.62system 3:04.49elapsed 94%CPU (0avgtext+0avgdata 9004maxresident)k
+1183410inputs+66341outputs (32major+16576minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+Wed May  4 14:16:37 CEST 2022
+end 1
+Wed May  4 14:21:57 CEST 2022
+chunk_n=1
+165.16user 15.02system 5:22.88elapsed 55%CPU (0avgtext+0avgdata 119828maxresident)k
+545427inputs+229058outputs (100major+1043552minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+74.55user 2.33system 1:17.54elapsed 99%CPU (0avgtext+0avgdata 63496maxresident)k
+75962inputs+10826outputs (29major+1625014minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+79.71user 4.09system 1:28.06elapsed 95%CPU (0avgtext+0avgdata 64944maxresident)k
+238681inputs+10826outputs (29major+2628890minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-s0o8mi5d because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    319.629
+ssw_xargs:      184.044
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/runtimes.png
+Finished parsing output.
+542.81user 32.27system 12:42.78elapsed 75%CPU (0avgtext+0avgdata 119828maxresident)k
+3670624inputs+1095934outputs (1427major+5426840minor)pagefaults 0swaps
+-t 1
+
+
+Building a new DB, current time: 05/04/2022 14:25:47
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.0089891 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:25:48
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 453314 sequences in 21.607 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:26:12
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00252509 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:26:13
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_2
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00258684 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:26:14
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_3
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.002352 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:26:15
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_4
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_4
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00277495 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:26:16
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_5
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_5
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00246596 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 1
+start 2
+start 4
+start 3
+start 5
+Wed May  4 14:26:18 CEST 2022
+Wed May  4 14:26:18 CEST 2022
+Wed May  4 14:26:18 CEST 2022
+Wed May  4 14:26:18 CEST 2022
+Wed May  4 14:26:18 CEST 2022
+CPU time: 157.160816908 seconds
+end 1
+Wed May  4 14:28:56 CEST 2022
+CPU time: 159.987569094 seconds
+end 5
+Wed May  4 14:29:00 CEST 2022
+CPU time: 166.817028999 seconds
+end 3
+Wed May  4 14:29:06 CEST 2022
+CPU time: 171.90960598 seconds
+CPU time: 171.997115135 seconds
+end 4
+end 2
+Wed May  4 14:29:11 CEST 2022
+Wed May  4 14:29:11 CEST 2022
+chunk_n=5
+294.28user 2.75system 2:53.94elapsed 170%CPU (0avgtext+0avgdata 9004maxresident)k
+1183726inputs+66339outputs (35major+50945minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 2
+start 3
+start 4
+start 5
+Wed May  4 14:29:20 CEST 2022
+Wed May  4 14:29:20 CEST 2022
+Wed May  4 14:29:21 CEST 2022
+Wed May  4 14:29:21 CEST 2022
+Wed May  4 14:29:21 CEST 2022
+end 1
+Wed May  4 14:29:24 CEST 2022
+end 5
+Wed May  4 14:29:47 CEST 2022
+end 3
+Wed May  4 14:30:37 CEST 2022
+end 2
+Wed May  4 14:31:27 CEST 2022
+end 4
+Wed May  4 14:31:33 CEST 2022
+chunk_n=5
+167.56user 22.11system 2:18.48elapsed 136%CPU (0avgtext+0avgdata 118592maxresident)k
+1290411inputs+229057outputs (857major+1065526minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+76.03user 4.06system 1:21.74elapsed 97%CPU (0avgtext+0avgdata 64380maxresident)k
+75962inputs+10826outputs (29major+2804917minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+78.34user 4.02system 1:24.57elapsed 97%CPU (0avgtext+0avgdata 64560maxresident)k
+238683inputs+10826outputs (29major+2628845minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-34nxvcpx because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    132.639
+ssw_xargs:      173.572
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/runtimes.png
+Finished parsing output.
+665.56user 43.47system 9:21.00elapsed 126%CPU (0avgtext+0avgdata 118592maxresident)k
+4703076inputs+1095937outputs (3087major+6679854minor)pagefaults 0swaps
+-t 8
+
+
+Building a new DB, current time: 05/04/2022 14:35:10
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00943708 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:14
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 453314 sequences in 16.417 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:32
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00286508 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:34
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_2
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.0350041 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:36
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_3
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00248289 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:37
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_4
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_4
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00250888 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:35:38
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_5
+New DB title:  ../program_out/sp_n5_10_500.sp_10_500/data/qchunks/q_5
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00272298 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 1
+start 2
+start 3
+start 4
+start 5
+Wed May  4 14:35:40 CEST 2022
+Wed May  4 14:35:40 CEST 2022
+Wed May  4 14:35:40 CEST 2022
+Wed May  4 14:35:40 CEST 2022
+Wed May  4 14:35:40 CEST 2022
+CPU time: 44.682847023 seconds
+end 1
+Wed May  4 14:36:27 CEST 2022
+CPU time: 49.0254950523 seconds
+end 5
+Wed May  4 14:36:31 CEST 2022
+CPU time: 51.4805679321 seconds
+end 3
+Wed May  4 14:36:34 CEST 2022
+CPU time: 52.9554991722 seconds
+end 4
+Wed May  4 14:36:35 CEST 2022
+CPU time: 54.2102239132 seconds
+end 2
+Wed May  4 14:36:36 CEST 2022
+chunk_n=5
+200.08user 1.83system 0:56.69elapsed 356%CPU (0avgtext+0avgdata 9004maxresident)k
+1183782inputs+66339outputs (35major+49418minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 2
+start 3
+start 5
+start 4
+Wed May  4 14:36:44 CEST 2022
+Wed May  4 14:36:44 CEST 2022
+Wed May  4 14:36:44 CEST 2022
+Wed May  4 14:36:44 CEST 2022
+Wed May  4 14:36:44 CEST 2022
+end 1
+Wed May  4 14:36:48 CEST 2022
+end 5
+Wed May  4 14:37:14 CEST 2022
+end 3
+Wed May  4 14:38:08 CEST 2022
+end 2
+Wed May  4 14:39:02 CEST 2022
+end 4
+Wed May  4 14:39:16 CEST 2022
+chunk_n=5
+166.01user 23.59system 2:34.86elapsed 122%CPU (0avgtext+0avgdata 118928maxresident)k
+1280899inputs+229057outputs (881major+1062233minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+73.91user 0.41system 1:15.66elapsed 98%CPU (0avgtext+0avgdata 63356maxresident)k
+75962inputs+10826outputs (29major+216924minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+79.44user 4.11system 1:27.29elapsed 95%CPU (0avgtext+0avgdata 63236maxresident)k
+238683inputs+10826outputs (29major+2631169minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-87u2hhgh because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    152.003
+ssw_xargs:      56.280
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_10_500/runtimes.png
+Finished parsing output.
+567.48user 40.23system 7:39.45elapsed 132%CPU (0avgtext+0avgdata 118928maxresident)k
+4577229inputs+1095933outputs (3111major+4089022minor)pagefaults 0swaps
+-t 16
+
+
+Building a new DB, current time: 05/04/2022 14:42:25
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00750399 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:42:26
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 64000 sequences in 2.08707 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:42:30
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00880599 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_n64000_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 1
+Wed May  4 14:42:32 CEST 2022
+CPU time: 29.2901849747 seconds
+end 1
+Wed May  4 14:43:02 CEST 2022
+chunk_n=1
+27.76user 0.18system 0:30.84elapsed 90%CPU (0avgtext+0avgdata 9004maxresident)k
+176134inputs+9299outputs (32major+13357minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+Wed May  4 14:43:08 CEST 2022
+end 1
+Wed May  4 14:43:45 CEST 2022
+chunk_n=1
+17.61user 2.15system 0:38.68elapsed 51%CPU (0avgtext+0avgdata 19160maxresident)k
+88594inputs+32030outputs (59major+145646minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+1.26user 0.06system 0:01.64elapsed 80%CPU (0avgtext+0avgdata 18232maxresident)k
+18920inputs+1517outputs (29major+5307minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+1.93user 0.08system 0:03.05elapsed 66%CPU (0avgtext+0avgdata 18136maxresident)k
+41653inputs+1517outputs (29major+9037minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-x6eqv4z7 because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    37.552
+ssw_xargs:      30.484
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/runtimes.png
+Finished parsing output.
+62.37user 12.10system 1:48.98elapsed 68%CPU (0avgtext+0avgdata 92904maxresident)k
+1532933inputs+154100outputs (1386major+287805minor)pagefaults 0swaps
+-t 1
+
+
+Building a new DB, current time: 05/04/2022 14:44:22
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00847912 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:23
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 64000 sequences in 3.05883 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:28
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00239515 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:29
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_2
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00350785 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:31
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_3
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00241303 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:32
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_4
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_4
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00320816 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:44:33
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_5
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_5
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00255799 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_n64000_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 2
+Wed May  4 14:44:35 CEST 2022
+start 4
+start 5
+start 3
+start 1
+Wed May  4 14:44:35 CEST 2022
+Wed May  4 14:44:35 CEST 2022
+Wed May  4 14:44:35 CEST 2022
+Wed May  4 14:44:35 CEST 2022
+CPU time: 6.66074705124 seconds
+end 1
+Wed May  4 14:44:43 CEST 2022
+CPU time: 7.06298303604 seconds
+end 5
+Wed May  4 14:44:44 CEST 2022
+CPU time: 7.30797600746 seconds
+end 3
+Wed May  4 14:44:44 CEST 2022
+CPU time: 8.14752602577 seconds
+end 2
+Wed May  4 14:44:44 CEST 2022
+CPU time: 8.00448489189 seconds
+end 4
+Wed May  4 14:44:44 CEST 2022
+chunk_n=5
+33.67user 0.60system 0:09.71elapsed 352%CPU (0avgtext+0avgdata 9008maxresident)k
+176660inputs+9297outputs (36major+34502minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 4
+start 2
+start 5
+start 3
+Wed May  4 14:44:48 CEST 2022
+Wed May  4 14:44:48 CEST 2022
+Wed May  4 14:44:48 CEST 2022
+Wed May  4 14:44:48 CEST 2022
+Wed May  4 14:44:48 CEST 2022
+end 1
+Wed May  4 14:44:48 CEST 2022
+end 5
+Wed May  4 14:44:53 CEST 2022
+end 3
+Wed May  4 14:44:58 CEST 2022
+end 2
+Wed May  4 14:45:02 CEST 2022
+end 4
+Wed May  4 14:45:03 CEST 2022
+chunk_n=5
+14.94user 3.68system 0:15.59elapsed 119%CPU (0avgtext+0avgdata 18108maxresident)k
+189042inputs+32030outputs (147major+162893minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+1.30user 0.05system 0:01.64elapsed 82%CPU (0avgtext+0avgdata 18412maxresident)k
+18920inputs+1517outputs (29major+5653minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+1.67user 0.07system 0:02.25elapsed 77%CPU (0avgtext+0avgdata 18256maxresident)k
+41655inputs+1517outputs (29major+5615minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-ssp9vqak because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    14.808
+ssw_xargs:      9.283
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/runtimes.png
+Finished parsing output.
+67.51user 14.49system 1:05.41elapsed 125%CPU (0avgtext+0avgdata 96328maxresident)k
+1738055inputs+154095outputs (2378major+337731minor)pagefaults 0swaps
+-t 8
+
+
+Building a new DB, current time: 05/04/2022 14:45:26
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/query.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00695395 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:27
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 64000 sequences in 1.93727 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:32
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_1
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00251603 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:33
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_2
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_2
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00246096 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:34
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_3
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_3
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00255704 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:35
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_4
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_4
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00260711 seconds.
+
+
+
+
+Building a new DB, current time: 05/04/2022 14:45:36
+New DB name:   /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_5
+New DB title:  ../program_out/sp_n5_10_500.sp_n64000_10_500/data/qchunks/q_5
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1 sequences in 0.00286007 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/sp_n5_10_500.sp_n64000_10_500
+Running prepare_database.py...
+Writing parameters to parameters.txt
+Start calling of alignment programs
+Running ssw_xargs...
+start 1
+start 2
+start 3
+start 5
+Wed May  4 14:45:38 CEST 2022
+Wed May  4 14:45:38 CEST 2022
+Wed May  4 14:45:38 CEST 2022
+Wed May  4 14:45:38 CEST 2022
+start 4
+Wed May  4 14:45:38 CEST 2022
+CPU time: 6.34999489784 seconds
+end 1
+Wed May  4 14:45:46 CEST 2022
+CPU time: 7.11062979698 seconds
+end 3
+CPU time: 7.19693493843 seconds
+Wed May  4 14:45:46 CEST 2022
+end 5
+Wed May  4 14:45:46 CEST 2022
+CPU time: 7.36001992226 seconds
+end 4
+Wed May  4 14:45:47 CEST 2022
+CPU time: 7.78295016289 seconds
+end 2
+Wed May  4 14:45:47 CEST 2022
+chunk_n=5
+32.31user 0.63system 0:09.56elapsed 344%CPU (0avgtext+0avgdata 9004maxresident)k
+176660inputs+9297outputs (36major+33448minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 2
+start 3
+start 4
+start 5
+Wed May  4 14:45:50 CEST 2022
+Wed May  4 14:45:50 CEST 2022
+Wed May  4 14:45:50 CEST 2022
+Wed May  4 14:45:50 CEST 2022
+Wed May  4 14:45:50 CEST 2022
+end 1
+Wed May  4 14:45:51 CEST 2022
+end 5
+Wed May  4 14:45:54 CEST 2022
+end 3
+Wed May  4 14:45:59 CEST 2022
+end 2
+Wed May  4 14:46:03 CEST 2022
+end 4
+Wed May  4 14:46:04 CEST 2022
+chunk_n=5
+14.25user 3.46system 0:14.10elapsed 125%CPU (0avgtext+0avgdata 18336maxresident)k
+191330inputs+32030outputs (168major+160341minor)pagefaults 0swaps
+Start parsing of output files
+Running ssw_xargs_parser...
+1.15user 0.04system 0:01.40elapsed 85%CPU (0avgtext+0avgdata 18412maxresident)k
+18920inputs+1517outputs (29major+5637minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+1.72user 0.06system 0:02.38elapsed 75%CPU (0avgtext+0avgdata 18172maxresident)k
+41655inputs+1517outputs (29major+5607minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2849481/matplotlib-nar6kq2g because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+swipe_xargs:    13.468
+ssw_xargs:      9.190
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/sp_n5_10_500.sp_n64000_10_500/runtimes.png
+Finished parsing output.
+62.89user 14.18system 0:57.52elapsed 134%CPU (0avgtext+0avgdata 86260maxresident)k
+1661843inputs+154092outputs (2398major+326677minor)pagefaults 0swaps
+-t 16

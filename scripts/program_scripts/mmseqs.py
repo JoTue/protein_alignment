@@ -7,8 +7,7 @@ import time
 import argparse
 import sys
 
-def mmseqs(input_file, matrix, gapopen, gapextension, max_evalue, num_threads):
-    name = input_file.split('/')[-1]
+def mmseqs(query_file, db_file, name, matrix, gapopen, gapextension, max_evalue, num_threads):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
@@ -23,7 +22,7 @@ def mmseqs(input_file, matrix, gapopen, gapextension, max_evalue, num_threads):
     # run mmseqs
     t1 = time.perf_counter()
     # TODO: try -s (sensitivity) and --num-iterations (PSI-BLAST like)
-    subprocess.run(f"mmseqs easy-search {input_file} {input_file} ../program_out/{name}/mmseqs/{name}.mmseqs /tmp --gap-open {gapopen} --gap-extend {gapextension} --sub-mat /apps/mmseqs2/11-e1a1c/matrices/{matrix.lower()}.out -e {max_evalue} --threads {num_threads} --comp-bias-corr 1 --format-output query,target,raw -s 7.5", shell=True)
+    subprocess.run(f"mmseqs easy-search {query_file} {db_file} ../program_out/{name}/mmseqs/{name}.mmseqs /tmp --gap-open {gapopen} --gap-extend {gapextension} --sub-mat /apps/mmseqs2/11-e1a1c/matrices/{matrix.lower()}.out -e {max_evalue} --threads {num_threads} --comp-bias-corr 1 --format-output query,target,raw -s 7.5", shell=True)
     t2 = time.perf_counter()
     with open(f"../program_out/{name}/mmseqs/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
@@ -34,8 +33,10 @@ def main():
     """
     parser = argparse.ArgumentParser(description = 'Run MMSeqs2 on the specified query/db file.')
 
-    parser.add_argument("input",
-        help="Input file path (used as query and db).")
+    parser.add_argument("input", nargs="+",
+        help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-n", "--name", default=None,
+        help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
         help="Name of the substitution matrix: BLOSUM50 or BLOSUM62")
     parser.add_argument("-o", "--gapopen", type=int, default=15,
@@ -49,7 +50,21 @@ def main():
 
     args = parser.parse_args()
 
-    mmseqs(args.input, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
+    # parsing input file paths
+    if len(args.input) == 1:
+        query_file = args.input[0]
+        db_file = args.input[0]
+    elif len(args.input) == 2:
+        query_file = args.input[0]
+        db_file = args.input[1]
+    else:
+        raise Exception("Specify 1 or 2 file paths.")
+
+    name = args.name
+    if name == None:
+        name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
+
+    mmseqs(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
  
 if __name__ == '__main__':
     main()

@@ -39,17 +39,9 @@ def change_fasta_header(input_file):
     os.rename(f"{os.path.dirname(input_file)}/corrected.fasta", input_file)
 
 
-def split_seqfile(input_file, num_threads, dir_name):
-    # split input file into num_threads chunks
-    chunk_n = int(subprocess.check_output(f"scripts/split_seqfile.py {input_file} -n {num_threads} -d {dir_name}", shell=True))
-    # makeblastdb
-    for chunk_i in range(1, chunk_n+1):
-        subprocess.run(f"makeblastdb -blastdb_version 4 -dbtype prot -in {os.path.dirname(input_file)}/{dir_name}/q_{chunk_i} -out {os.path.dirname(input_file)}/{dir_name}/q_{chunk_i}", shell=True)
-
-
-def split_seqfile_gpu(input_file, num_gpus, dir_name):
-    # split input file into num_gpus chunks
-    chunk_n = int(subprocess.check_output(f"scripts/split_seqfile.py {input_file} -n {num_gpus} -d {dir_name}", shell=True))
+def split_seqfile(input_file, chunk_n, chunk_s, dir_name):
+    # split input file into chunks
+    chunk_n = int(subprocess.check_output(f"scripts/split_seqfile.py {input_file} -n {chunk_n} -d {dir_name} -s {chunk_s}", shell=True))
 
 
 def main():
@@ -58,20 +50,46 @@ def main():
     """
     parser = argparse.ArgumentParser(description = 'Prepare a input FASTA-file (query/db) for the analysis of the protein alignment programs.')
 
-    parser.add_argument("input",
-        help="Input file path.")
+    parser.add_argument("input", nargs="+",
+        help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")
     parser.add_argument("-g", "--num-gpus", type=int, default=1,
         help="Number of GPUs.")
+    parser.add_argument("-p", "--programs", nargs="+", default="all",
+        help="List of programs to run. Default: all")
+    parser.add_argument("-s", "--chunksize", type=int, default=0,
+        help="Maximal number of residues for each chunk used for xargs-scripts. If 0 (default) the chunknumber is equal to the thread/GPU number.")
 
     args = parser.parse_args()
 
-    change_fasta_header(args.input)
-    split_multi_fasta(args.input) # water
-    makeblastdb(args.input) # swipe, blast
-    split_seqfile(args.input, args.num_threads, "qchunks")
-    split_seqfile_gpu(args.input, args.num_gpus, "qchunks_gpu")
+    # parsing input file paths
+    if len(args.input) == 1:
+        query_file = args.input[0]
+        db_file = args.input[0]
+    elif len(args.input) == 2:
+        query_file = args.input[0]
+        db_file = args.input[1]
+    else:
+        raise Exception("Specify 1 or 2 file paths.")
+
+    # create program_list
+    if args.programs == "all":
+        program_list = ["blast", "mmseqs", "water", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "swipe_swlib_xargs", "cudasw", "cudasw_xargs", "adept", "adept_as", "adept_as_xargs"]
+    else:
+        program_list = args.programs
+
+    change_fasta_header(query_file)
+    change_fasta_header(db_file)
+    if "water" in program_list:
+        split_multi_fasta(query_file) # water
+    # makeblastdb(query_file) # swipe, blast
+    makeblastdb(db_file) # swipe, blast
+    if args.chunksize:
+        split_seqfile(query_file, 0, args.chunksize, "qchunks")
+    else:
+        split_seqfile(query_file, args.num_threads, args.chunksize, "qchunks_cpu")
+        split_seqfile(query_file, args.num_gpus, args.chunksize, "qchunks_gpu")
  
 if __name__ == '__main__':
     main()

@@ -16,3 +16,9 @@ adept/adept_as work up to at least sp_n6000_0_600, but fail for sp_n8000_0_600 (
 adept (and maybe other programs) fails for 5nt long protein -> --min-len 10 (? -> maybe it was because of non-standard aa)
 
 adept (multi_gpu) uses as many gpus as reserved in SLURM header, -g parameter has no effect
+
+cudasw: error with query profile variant (also if total query length < threshold (3355 for enode, 2516 for login5)) 
+    CUDA error on GPU 0: invalid argument : src/CFastaSWScalar.cu, line 642
+
+DEDAL: Figure S3: per sec: 4 TPU, ~10000 pairs, 300nt
+CUDASW: per sec: 6 GPUs, ~1.2Mio pairs

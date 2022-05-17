@@ -7,8 +7,7 @@ import time
 import argparse
 import sys
 
-def blast(input_file, matrix, gapopen, gapextension, max_evalue, num_threads):
-    name = input_file.split('/')[-1]
+def blast(query_file, db_file, name, matrix, gapopen, gapextension, max_evalue, num_threads):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
@@ -23,7 +22,7 @@ def blast(input_file, matrix, gapopen, gapextension, max_evalue, num_threads):
     # run blast
     t1 = time.perf_counter()
     # TODO: threads, different comp_based_stats, note: doesn´t find a hit for each pair
-    subprocess.run(f"blastp -query {input_file} -db {input_file} -gapopen {gapopen} -gapextend {gapextension} -matrix {matrix} -num_threads {num_threads} -evalue {max_evalue} -comp_based_stats 2  -max_hsps 1 -num_descriptions 1000000 -num_alignments 1000000 > ../program_out/{name}/blast/{name}.blast", shell=True)
+    subprocess.run(f"blastp -query {query_file} -db {db_file} -gapopen {gapopen} -gapextend {gapextension} -matrix {matrix} -num_threads {num_threads} -evalue {max_evalue} -comp_based_stats 2  -max_hsps 1 -num_descriptions 1000000 -num_alignments 1000000 > ../program_out/{name}/blast/{name}.blast", shell=True)
     t2 = time.perf_counter()
     with open(f"../program_out/{name}/blast/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
@@ -34,8 +33,10 @@ def main():
     """
     parser = argparse.ArgumentParser(description = 'Run blastp+ on the specified query/db file.')
 
-    parser.add_argument("input",
-        help="Input file path (used as query and db).")
+    parser.add_argument("input", nargs="+",
+        help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-n", "--name", default=None,
+        help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
         help="Name of the substitution matrix: BLOSUM50 or BLOSUM62")
     parser.add_argument("-o", "--gapopen", type=int, default=15,
@@ -49,7 +50,21 @@ def main():
 
     args = parser.parse_args()
 
-    blast(args.input, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
+    # parsing input file paths
+    if len(args.input) == 1:
+        query_file = args.input[0]
+        db_file = args.input[0]
+    elif len(args.input) == 2:
+        query_file = args.input[0]
+        db_file = args.input[1]
+    else:
+        raise Exception("Specify 1 or 2 file paths.")
+
+    name = args.name
+    if name == None:
+        name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
+
+    blast(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
  
 if __name__ == '__main__':
     main()

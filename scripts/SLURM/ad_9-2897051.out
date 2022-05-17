@@ -1,0 +1,4135 @@
+
+
+Building a new DB, current time: 05/10/2022 15:39:55
+New DB name:   /scratch/cube/tuechler/program_out/ad_9_1/data/db.fasta
+New DB title:  ../program_out/ad_9_1/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 453314 sequences in 8.48384 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/ad_9_1
+Writing parameters to parameters.txt
+Running prepare_database.py...
+Start calling of alignment programs
+Running adept_as_xargs...
+start 1
+start 2
+Tue May 10 15:40:09 CEST 2022
+start 3
+Tue May 10 15:40:09 CEST 2022
+Tue May 10 15:40:09 CEST 2022
+ 15:40:09 up 5 days,  6:53,  0 users,  load average: 0.59, 1.02, 1.75
+ 15:40:09 up 5 days,  6:53,  0 users,  load average: 0.59, 1.02, 1.75
+ 15:40:09 up 5 days,  6:53,  0 users,  load average: 0.59, 1.02, 1.75
+Tue May 10 15:40:21 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+Tue May 10 15:40:21 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+Tue May 10 15:40:21 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   50C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   50C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   50C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   51C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   51C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   51C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   45C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   45C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   45C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   44C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   47C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   47C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   47C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Reading ref and query files
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+STATUS: Launching driver
+STATUS: Launching driver
+0
+## 6620 6620 <class 'numpy.ndarray'>
+50000
+## 7127 7127 <class 'numpy.ndarray'>
+100000
+## 7611 7611 <class 'numpy.ndarray'>
+150000
+## 7340 7340 <class 'numpy.ndarray'>
+200000
+## 5903 5903 <class 'numpy.ndarray'>
+250000
+## 5657 5657 <class 'numpy.ndarray'>
+300000
+## 3817 3817 <class 'numpy.ndarray'>
+350000
+## 6912 6912 <class 'numpy.ndarray'>
+400000
+## 4390 4390 <class 'numpy.ndarray'>
+450000
+## 3876 3876 <class 'numpy.ndarray'>
+500000
+## 3186 3186 <class 'numpy.ndarray'>
+550000
+## 4042 4042 <class 'numpy.ndarray'>
+600000
+## 3331 3331 <class 'numpy.ndarray'>
+650000
+## 3260 3260 <class 'numpy.ndarray'>
+700000
+## 2899 2899 <class 'numpy.ndarray'>
+750000
+## 3099 3099 <class 'numpy.ndarray'>
+800000
+## 4130 4130 <class 'numpy.ndarray'>
+850000
+## 2885 2885 <class 'numpy.ndarray'>
+900000
+## 6744 6744 <class 'numpy.ndarray'>
+950000
+## 5317 5317 <class 'numpy.ndarray'>
+1000000
+## 6847 6847 <class 'numpy.ndarray'>
+1050000
+## 6028 6028 <class 'numpy.ndarray'>
+1100000
+## 4846 4846 <class 'numpy.ndarray'>
+1150000
+## 5525 5525 <class 'numpy.ndarray'>
+1200000
+## 4581 4581 <class 'numpy.ndarray'>
+1250000
+## 7233 7233 <class 'numpy.ndarray'>
+1300000
+## 4405 4405 <class 'numpy.ndarray'>
+1350000
+## 5058 5058 <class 'numpy.ndarray'>
+1400000
+## 5369 5369 <class 'numpy.ndarray'>
+1450000
+## 6509 6509 <class 'numpy.ndarray'>
+1500000
+## 5052 5052 <class 'numpy.ndarray'>
+1550000
+## 5215 5215 <class 'numpy.ndarray'>
+1600000
+## 5016 5016 <class 'numpy.ndarray'>
+1650000
+## 2651 2651 <class 'numpy.ndarray'>
+1700000
+## 5940 5940 <class 'numpy.ndarray'>
+1750000
+## 4262 4262 <class 'numpy.ndarray'>
+1800000
+## 6691 6691 <class 'numpy.ndarray'>
+1850000
+## 5654 5654 <class 'numpy.ndarray'>
+1900000
+## 7716 7716 <class 'numpy.ndarray'>
+1950000
+## 6534 6534 <class 'numpy.ndarray'>
+2000000
+## 5347 5347 <class 'numpy.ndarray'>
+2050000
+## 5984 5984 <class 'numpy.ndarray'>
+2100000
+## 5275 5275 <class 'numpy.ndarray'>
+2150000
+## 8490 8490 <class 'numpy.ndarray'>
+2200000
+## 5526 5526 <class 'numpy.ndarray'>
+2250000
+## 3668 3668 <class 'numpy.ndarray'>
+2300000
+## 2940 2940 <class 'numpy.ndarray'>
+2350000
+## 2872 2872 <class 'numpy.ndarray'>
+2400000
+## 2922 2922 <class 'numpy.ndarray'>
+2450000
+## 3250 3250 <class 'numpy.ndarray'>
+2500000
+## 3045 3045 <class 'numpy.ndarray'>
+2550000
+## 1361 1361 <class 'numpy.ndarray'>
+2600000
+## 2742 2742 <class 'numpy.ndarray'>
+2650000
+## 2937 2937 <class 'numpy.ndarray'>
+2700000
+## 5695 5695 <class 'numpy.ndarray'>
+2750000
+## 10197 10197 <class 'numpy.ndarray'>
+2800000
+## 8330 8330 <class 'numpy.ndarray'>
+2850000
+## 6896 6896 <class 'numpy.ndarray'>
+2900000
+## 10139 10139 <class 'numpy.ndarray'>
+2950000
+## 6980 6980 <class 'numpy.ndarray'>
+3000000
+## 2185 2185 <class 'numpy.ndarray'>
+3050000
+## 5985 5985 <class 'numpy.ndarray'>
+3100000
+## 7835 7835 <class 'numpy.ndarray'>
+3150000
+## 10683 10683 <class 'numpy.ndarray'>
+3200000
+## 11399 11399 <class 'numpy.ndarray'>
+3250000
+## 13836 13836 <class 'numpy.ndarray'>
+3300000
+## 12057 12057 <class 'numpy.ndarray'>
+3350000
+## 11425 11425 <class 'numpy.ndarray'>
+3400000
+## 10795 10795 <class 'numpy.ndarray'>
+3450000
+## 6725 6725 <class 'numpy.ndarray'>
+3500000
+## 11412 11412 <class 'numpy.ndarray'>
+3550000
+## 10927 10927 <class 'numpy.ndarray'>
+3600000
+## 7876 7876 <class 'numpy.ndarray'>
+3650000
+## 6455 6455 <class 'numpy.ndarray'>
+3700000
+## 8144 8144 <class 'numpy.ndarray'>
+3750000
+## 7035 7035 <class 'numpy.ndarray'>
+3800000
+## 7266 7266 <class 'numpy.ndarray'>
+3850000
+## 6945 6945 <class 'numpy.ndarray'>
+3900000
+## 4160 4160 <class 'numpy.ndarray'>
+3950000
+## 5611 5611 <class 'numpy.ndarray'>
+4000000
+## 7117 7117 <class 'numpy.ndarray'>
+4050000
+## 4622 4622 <class 'numpy.ndarray'>
+4100000
+## 4773 4773 <class 'numpy.ndarray'>
+4150000
+## 6832 6832 <class 'numpy.ndarray'>
+4200000
+## 5410 5410 <class 'numpy.ndarray'>
+4250000
+## 4618 4618 <class 'numpy.ndarray'>
+4300000
+## 5211 5211 <class 'numpy.ndarray'>
+4350000
+## 6624 6624 <class 'numpy.ndarray'>
+4400000
+## 4372 4372 <class 'numpy.ndarray'>
+4450000
+## 4433 4433 <class 'numpy.ndarray'>
+4500000
+## 2665 2665 <class 'numpy.ndarray'>
+4550000
+## 2262 2262 <class 'numpy.ndarray'>
+4600000
+## 2463 2463 <class 'numpy.ndarray'>
+4650000
+## 3021 3021 <class 'numpy.ndarray'>
+4700000
+## 3106 3106 <class 'numpy.ndarray'>
+4750000
+## 2496 2496 <class 'numpy.ndarray'>
+4800000
+## 3577 3577 <class 'numpy.ndarray'>
+4850000
+## 3549 3549 <class 'numpy.ndarray'>
+4900000
+## 2622 2622 <class 'numpy.ndarray'>
+4950000
+## 2617 2617 <class 'numpy.ndarray'>
+5000000
+## 5680 5680 <class 'numpy.ndarray'>
+5050000
+## 5166 5166 <class 'numpy.ndarray'>
+5100000
+## 5390 5390 <class 'numpy.ndarray'>
+5150000
+## 6462 6462 <class 'numpy.ndarray'>
+5200000
+## 5101 5101 <class 'numpy.ndarray'>
+5250000
+## 7123 7123 <class 'numpy.ndarray'>
+5300000
+## 4560 4560 <class 'numpy.ndarray'>
+5350000
+## 5681 5681 <class 'numpy.ndarray'>
+5400000
+## 4012 4012 <class 'numpy.ndarray'>
+5450000
+## 3957 3957 <class 'numpy.ndarray'>
+5500000
+## 4168 4168 <class 'numpy.ndarray'>
+5550000
+## 4535 4535 <class 'numpy.ndarray'>
+5600000
+## 4228 4228 <class 'numpy.ndarray'>
+5650000
+## 3351 3351 <class 'numpy.ndarray'>
+5700000
+## 2439 2439 <class 'numpy.ndarray'>
+5750000
+## 3375 3375 <class 'numpy.ndarray'>
+5800000
+## 4538 4538 <class 'numpy.ndarray'>
+5850000
+## 3801 3801 <class 'numpy.ndarray'>
+5900000
+## 6072 6072 <class 'numpy.ndarray'>
+5950000
+## 6994 6994 <class 'numpy.ndarray'>
+6000000
+## 6808 6808 <class 'numpy.ndarray'>
+6050000
+## 6230 6230 <class 'numpy.ndarray'>
+6100000
+## 5260 5260 <class 'numpy.ndarray'>
+6150000
+## 5895 5895 <class 'numpy.ndarray'>
+6200000
+## 4419 4419 <class 'numpy.ndarray'>
+6250000
+## 6568 6568 <class 'numpy.ndarray'>
+6300000
+## 4382 4382 <class 'numpy.ndarray'>
+6350000
+## 5002 5002 <class 'numpy.ndarray'>
+6400000
+## 3784 3784 <class 'numpy.ndarray'>
+6450000
+## 4562 4562 <class 'numpy.ndarray'>
+6500000
+## 4263 4263 <class 'numpy.ndarray'>
+6550000
+## 3244 3244 <class 'numpy.ndarray'>
+6600000
+## 4380 4380 <class 'numpy.ndarray'>
+6650000
+## 2950 2950 <class 'numpy.ndarray'>
+6700000
+## 4507 4507 <class 'numpy.ndarray'>
+6750000
+## 2514 2514 <class 'numpy.ndarray'>
+6800000
+## 2623 2623 <class 'numpy.ndarray'>
+6850000
+## 2200 2200 <class 'numpy.ndarray'>
+6900000
+## 3725 3725 <class 'numpy.ndarray'>
+6950000
+## 2974 2974 <class 'numpy.ndarray'>
+7000000
+## 2971 2971 <class 'numpy.ndarray'>
+7050000
+## 1761 1761 <class 'numpy.ndarray'>
+7100000
+## 1510 1510 <class 'numpy.ndarray'>
+7150000
+## 3012 3012 <class 'numpy.ndarray'>
+7200000
+## 1818 1818 <class 'numpy.ndarray'>
+7250000
+## 8429 8429 <class 'numpy.ndarray'>
+7300000
+## 8613 8613 <class 'numpy.ndarray'>
+7350000
+## 10678 10678 <class 'numpy.ndarray'>
+7400000
+## 8980 8980 <class 'numpy.ndarray'>
+7450000
+## 8651 8651 <class 'numpy.ndarray'>
+7500000
+## 7726 7726 <class 'numpy.ndarray'>
+7550000
+## 5897 5897 <class 'numpy.ndarray'>
+7600000
+## 9831 9831 <class 'numpy.ndarray'>
+7650000
+## 5867 5867 <class 'numpy.ndarray'>
+7700000
+## 4098 4098 <class 'numpy.ndarray'>
+7750000
+## 3281 3281 <class 'numpy.ndarray'>
+7800000
+## 4336 4336 <class 'numpy.ndarray'>
+7850000
+## 4138 4138 <class 'numpy.ndarray'>
+7900000
+## 3279 3279 <class 'numpy.ndarray'>
+7950000
+## 3568 3568 <class 'numpy.ndarray'>
+8000000
+## 2142 2142 <class 'numpy.ndarray'>
+8050000
+## 4042 4042 <class 'numpy.ndarray'>
+8100000
+## 2773 2773 <class 'numpy.ndarray'>
+8150000
+## 987 987 <class 'numpy.ndarray'>
+8200000
+## 761 761 <class 'numpy.ndarray'>
+8250000
+## 671 671 <class 'numpy.ndarray'>
+8300000
+## 782 782 <class 'numpy.ndarray'>
+8350000
+## 722 722 <class 'numpy.ndarray'>
+8400000
+## 822 822 <class 'numpy.ndarray'>
+8450000
+## 227 227 <class 'numpy.ndarray'>
+8500000
+## 704 704 <class 'numpy.ndarray'>
+8550000
+## 511 511 <class 'numpy.ndarray'>
+8600000
+## 5848 5848 <class 'numpy.ndarray'>
+8650000
+## 6639 6639 <class 'numpy.ndarray'>
+8700000
+## 8670 8670 <class 'numpy.ndarray'>
+8750000
+## 8761 8761 <class 'numpy.ndarray'>
+8800000
+## 7423 7423 <class 'numpy.ndarray'>
+8850000
+## 8437 8437 <class 'numpy.ndarray'>
+8900000
+## 3237 3237 <class 'numpy.ndarray'>
+8950000
+## 8185 8185 <class 'numpy.ndarray'>
+9000000
+## 6173 6173 <class 'numpy.ndarray'>
+9050000
+## 5350 5350 <class 'numpy.ndarray'>
+9100000
+## 4777 4777 <class 'numpy.ndarray'>
+9150000
+## 4746 4746 <class 'numpy.ndarray'>
+9200000
+## 5239 5239 <class 'numpy.ndarray'>
+9250000
+## 4444 4444 <class 'numpy.ndarray'>
+9300000
+## 5744 5744 <class 'numpy.ndarray'>
+9350000
+## 3601 3601 <class 'numpy.ndarray'>
+9400000
+## 4621 4621 <class 'numpy.ndarray'>
+9450000
+## 4086 4086 <class 'numpy.ndarray'>
+9500000
+## 3179 3179 <class 'numpy.ndarray'>
+9550000
+## 3577 3577 <class 'numpy.ndarray'>
+9600000
+## 3691 3691 <class 'numpy.ndarray'>
+9650000
+## 3613 3613 <class 'numpy.ndarray'>
+9700000
+## 3708 3708 <class 'numpy.ndarray'>
+9750000
+## 3432 3432 <class 'numpy.ndarray'>
+9800000
+## 1546 1546 <class 'numpy.ndarray'>
+9850000
+## 3083 3083 <class 'numpy.ndarray'>
+9900000
+## 3416 3416 <class 'numpy.ndarray'>
+9950000
+## 1845 1845 <class 'numpy.ndarray'>
+10000000
+## 2163 2163 <class 'numpy.ndarray'>
+10050000
+## 1570 1570 <class 'numpy.ndarray'>
+10100000
+## 1540 1540 <class 'numpy.ndarray'>
+10150000
+## 1804 1804 <class 'numpy.ndarray'>
+10200000
+## 1320 1320 <class 'numpy.ndarray'>
+10250000
+## 562 562 <class 'numpy.ndarray'>
+10300000
+## 1676 1676 <class 'numpy.ndarray'>
+10350000
+## 1767 1767 <class 'numpy.ndarray'>
+10400000
+## 6286 6286 <class 'numpy.ndarray'>
+10450000
+## 13436 13436 <class 'numpy.ndarray'>
+10500000
+## 14706 14706 <class 'numpy.ndarray'>
+10550000
+## 13439 13439 <class 'numpy.ndarray'>
+10600000
+## 12246 12246 <class 'numpy.ndarray'>
+10650000
+## 11964 11964 <class 'numpy.ndarray'>
+10700000
+## 10401 10401 <class 'numpy.ndarray'>
+10750000
+## 13832 13832 <class 'numpy.ndarray'>
+10800000
+## 12052 12052 <class 'numpy.ndarray'>
+10850000
+## 6524 6524 <class 'numpy.ndarray'>
+10900000
+## 2993 2993 <class 'numpy.ndarray'>
+10950000
+## 3806 3806 <class 'numpy.ndarray'>
+11000000
+## 3006 3006 <class 'numpy.ndarray'>
+11050000
+## 2797 2797 <class 'numpy.ndarray'>
+11100000
+## 3054 3054 <class 'numpy.ndarray'>
+11150000
+## 2295 2295 <class 'numpy.ndarray'>
+11200000
+## 3874 3874 <class 'numpy.ndarray'>
+11250000
+## 3241 3241 <class 'numpy.ndarray'>
+11300000
+## 3690 3690 <class 'numpy.ndarray'>
+11350000
+## 5907 5907 <class 'numpy.ndarray'>
+11400000
+## 5748 5748 <class 'numpy.ndarray'>
+11450000
+## 6155 6155 <class 'numpy.ndarray'>
+11500000
+## 5234 5234 <class 'numpy.ndarray'>
+11550000
+## 5303 5303 <class 'numpy.ndarray'>
+11600000
+## 2816 2816 <class 'numpy.ndarray'>
+11650000
+## 3510 3510 <class 'numpy.ndarray'>
+11700000
+## 5109 5109 <class 'numpy.ndarray'>
+11750000
+## 3162 3162 <class 'numpy.ndarray'>
+11800000
+## 2346 2346 <class 'numpy.ndarray'>
+11850000
+## 2386 2386 <class 'numpy.ndarray'>
+11900000
+## 2359 2359 <class 'numpy.ndarray'>
+11950000
+## 2084 2084 <class 'numpy.ndarray'>
+12000000
+## 2245 2245 <class 'numpy.ndarray'>
+12050000
+## 1642 1642 <class 'numpy.ndarray'>
+12100000
+## 1679 1679 <class 'numpy.ndarray'>
+12150000
+## 2843 2843 <class 'numpy.ndarray'>
+12200000
+## 3065 3065 <class 'numpy.ndarray'>
+12250000
+## 10328 10328 <class 'numpy.ndarray'>
+12300000
+## 9943 9943 <class 'numpy.ndarray'>
+12350000
+## 11146 11146 <class 'numpy.ndarray'>
+12400000
+## 10423 10423 <class 'numpy.ndarray'>
+12450000
+## 7995 7995 <class 'numpy.ndarray'>
+12500000
+## 8603 8603 <class 'numpy.ndarray'>
+12550000
+## 8817 8817 <class 'numpy.ndarray'>
+12600000
+## 9977 9977 <class 'numpy.ndarray'>
+12650000
+## 6435 6435 <class 'numpy.ndarray'>
+12700000
+## 7302 7302 <class 'numpy.ndarray'>
+12750000
+## 8034 8034 <class 'numpy.ndarray'>
+12800000
+## 7825 7825 <class 'numpy.ndarray'>
+12850000
+## 7828 7828 <class 'numpy.ndarray'>
+12900000
+## 6673 6673 <class 'numpy.ndarray'>
+12950000
+## 4793 4793 <class 'numpy.ndarray'>
+13000000
+## 5693 5693 <class 'numpy.ndarray'>
+13050000
+## 7510 7510 <class 'numpy.ndarray'>
+13100000
+## 6197 6197 <class 'numpy.ndarray'>
+13150000
+## 8702 8702 <class 'numpy.ndarray'>
+13200000
+## 9006 9006 <class 'numpy.ndarray'>
+13250000
+## 8397 8397 <class 'numpy.ndarray'>
+13300000
+## 8150 8150 <class 'numpy.ndarray'>
+13350000
+## 8294 8294 <class 'numpy.ndarray'>
+13400000
+## 5857 5857 <class 'numpy.ndarray'>
+13450000
+## 6587 6587 <class 'numpy.ndarray'>
+13500000
+## 9408 9408 <class 'numpy.ndarray'>
+13550000
+## 5997 5997 <class 'numpy.ndarray'>
+13600000
+## 7673 7673 <class 'numpy.ndarray'>
+13650000
+## 7879 7879 <class 'numpy.ndarray'>
+13700000
+## 8166 8166 <class 'numpy.ndarray'>
+13750000
+## 7791 7791 <class 'numpy.ndarray'>
+13800000
+## 6668 6668 <class 'numpy.ndarray'>
+13850000
+## 5887 5887 <class 'numpy.ndarray'>
+13900000
+## 4648 4648 <class 'numpy.ndarray'>
+13950000
+## 8772 8772 <class 'numpy.ndarray'>
+14000000
+## 5651 5651 <class 'numpy.ndarray'>
+14050000
+## 3241 3241 <class 'numpy.ndarray'>
+14100000
+## 2889 2889 <class 'numpy.ndarray'>
+14150000
+## 3753 3753 <class 'numpy.ndarray'>
+14200000
+## 2679 2679 <class 'numpy.ndarray'>
+14250000
+## 2626 2626 <class 'numpy.ndarray'>
+14300000
+## 3212 3212 <class 'numpy.ndarray'>
+14350000
+## 4765 4765 <class 'numpy.ndarray'>
+14400000
+## 4112 4112 <class 'numpy.ndarray'>
+14450000
+## 2738 2738 <class 'numpy.ndarray'>
+14500000
+## 370 370 <class 'numpy.ndarray'>
+14550000
+## 248 248 <class 'numpy.ndarray'>
+14600000
+## 95 95 <class 'numpy.ndarray'>
+14650000
+## 128 128 <class 'numpy.ndarray'>
+14700000
+## 143 143 <class 'numpy.ndarray'>
+14750000
+## 389 389 <class 'numpy.ndarray'>
+14800000
+## 46 46 <class 'numpy.ndarray'>
+14850000
+## 191 191 <class 'numpy.ndarray'>
+14900000
+## 234 234 <class 'numpy.ndarray'>
+14950000
+## 557 557 <class 'numpy.ndarray'>
+15000000
+## 485 485 <class 'numpy.ndarray'>
+15050000
+## 231 231 <class 'numpy.ndarray'>
+15100000
+## 349 349 <class 'numpy.ndarray'>
+15150000
+## 638 638 <class 'numpy.ndarray'>
+15200000
+## 242 242 <class 'numpy.ndarray'>
+15250000
+## 59 59 <class 'numpy.ndarray'>
+15300000
+## 324 324 <class 'numpy.ndarray'>
+15350000
+## 530 530 <class 'numpy.ndarray'>
+15400000
+## 6716 6716 <class 'numpy.ndarray'>
+15450000
+## 7856 7856 <class 'numpy.ndarray'>
+15500000
+## 8449 8449 <class 'numpy.ndarray'>
+15550000
+## 7944 7944 <class 'numpy.ndarray'>
+15600000
+## 7895 7895 <class 'numpy.ndarray'>
+15650000
+## 7251 7251 <class 'numpy.ndarray'>
+15700000
+## 4154 4154 <class 'numpy.ndarray'>
+15750000
+## 8062 8062 <class 'numpy.ndarray'>
+15800000
+## 6102 6102 <class 'numpy.ndarray'>
+15850000
+## 5108 5108 <class 'numpy.ndarray'>
+15900000
+## 7507 7507 <class 'numpy.ndarray'>
+15950000
+## 5150 5150 <class 'numpy.ndarray'>
+16000000
+## 5074 5074 <class 'numpy.ndarray'>
+16050000
+## 7625 7625 <class 'numpy.ndarray'>
+16100000
+## 5628 5628 <class 'numpy.ndarray'>
+16150000
+## 1551 1551 <class 'numpy.ndarray'>
+16200000
+## 4964 4964 <class 'numpy.ndarray'>
+16250000
+## 5757 5757 <class 'numpy.ndarray'>
+16300000
+## 3288 3288 <class 'numpy.ndarray'>
+16350000
+## 1665 1665 <class 'numpy.ndarray'>
+16400000
+## 2011 2011 <class 'numpy.ndarray'>
+16450000
+## 2170 2170 <class 'numpy.ndarray'>
+16500000
+## 1601 1601 <class 'numpy.ndarray'>
+16550000
+## 1929 1929 <class 'numpy.ndarray'>
+16600000
+## 1121 1121 <class 'numpy.ndarray'>
+16650000
+## 1563 1563 <class 'numpy.ndarray'>
+16700000
+## 1942 1942 <class 'numpy.ndarray'>
+16750000
+## 8252 8252 <class 'numpy.ndarray'>
+16800000
+## 12081 12081 <class 'numpy.ndarray'>
+16850000
+## 17028 17028 <class 'numpy.ndarray'>
+16900000
+## 13350 13350 <class 'numpy.ndarray'>
+16950000
+## 12268 12268 <class 'numpy.ndarray'>
+17000000
+## 13225 13225 <class 'numpy.ndarray'>
+17050000
+## 9994 9994 <class 'numpy.ndarray'>
+17100000
+## 11864 11864 <class 'numpy.ndarray'>
+17150000
+## 11560 11560 <class 'numpy.ndarray'>
+17200000
+## 10282 10282 <class 'numpy.ndarray'>
+17250000
+## 9815 9815 <class 'numpy.ndarray'>
+17300000
+## 11484 11484 <class 'numpy.ndarray'>
+17350000
+## 10035 10035 <class 'numpy.ndarray'>
+17400000
+## 9712 9712 <class 'numpy.ndarray'>
+17450000
+## 10002 10002 <class 'numpy.ndarray'>
+17500000
+## 6618 6618 <class 'numpy.ndarray'>
+17550000
+## 9043 9043 <class 'numpy.ndarray'>
+17600000
+## 9225 9225 <class 'numpy.ndarray'>
+17650000
+## 8016 8016 <class 'numpy.ndarray'>
+17700000
+## 6532 6532 <class 'numpy.ndarray'>
+17750000
+## 11325 11325 <class 'numpy.ndarray'>
+17800000
+## 8945 8945 <class 'numpy.ndarray'>
+17850000
+## 8525 8525 <class 'numpy.ndarray'>
+17900000
+## 8988 8988 <class 'numpy.ndarray'>
+17950000
+## 6504 6504 <class 'numpy.ndarray'>
+18000000
+## 7342 7342 <class 'numpy.ndarray'>
+18050000
+## 8596 8596 <class 'numpy.ndarray'>
+18100000
+## 4524 4524 <class 'numpy.ndarray'>
+18150000
+## 1611 1611 <class 'numpy.ndarray'>
+18200000
+## 2430 2430 <class 'numpy.ndarray'>
+18250000
+## 2352 2352 <class 'numpy.ndarray'>
+18300000
+## 2156 2156 <class 'numpy.ndarray'>
+18350000
+## 1857 1857 <class 'numpy.ndarray'>
+18400000
+## 1411 1411 <class 'numpy.ndarray'>
+18450000
+## 1517 1517 <class 'numpy.ndarray'>
+18500000
+## 2334 2334 <class 'numpy.ndarray'>
+18550000
+## 1927 1927 <class 'numpy.ndarray'>
+18600000
+## 2720 2720 <class 'numpy.ndarray'>
+18650000
+## 3180 3180 <class 'numpy.ndarray'>
+18700000
+## 2800 2800 <class 'numpy.ndarray'>
+18750000
+## 3683 3683 <class 'numpy.ndarray'>
+18800000
+## 2933 2933 <class 'numpy.ndarray'>
+18850000
+## 1887 1887 <class 'numpy.ndarray'>
+18900000
+## 2356 2356 <class 'numpy.ndarray'>
+18950000
+## 2970 2970 <class 'numpy.ndarray'>
+19000000
+## 2761 2761 <class 'numpy.ndarray'>
+19050000
+## 7608 7608 <class 'numpy.ndarray'>
+19100000
+## 7626 7626 <class 'numpy.ndarray'>
+19150000
+## 6975 6975 <class 'numpy.ndarray'>
+19200000
+## 7743 7743 <class 'numpy.ndarray'>
+19250000
+## 6874 6874 <class 'numpy.ndarray'>
+19300000
+## 4989 4989 <class 'numpy.ndarray'>
+19350000
+## 5242 5242 <class 'numpy.ndarray'>
+19400000
+## 6744 6744 <class 'numpy.ndarray'>
+19450000
+## 5090 5090 <class 'numpy.ndarray'>
+19500000
+## 8675 8675 <class 'numpy.ndarray'>
+19550000
+## 9606 9606 <class 'numpy.ndarray'>
+19600000
+## 8791 8791 <class 'numpy.ndarray'>
+19650000
+## 8545 8545 <class 'numpy.ndarray'>
+19700000
+## 6757 6757 <class 'numpy.ndarray'>
+19750000
+## 6652 6652 <class 'numpy.ndarray'>
+19800000
+## 6917 6917 <class 'numpy.ndarray'>
+19850000
+## 9379 9379 <class 'numpy.ndarray'>
+19900000
+## 6976 6976 <class 'numpy.ndarray'>
+19950000
+## 1551 1551 <class 'numpy.ndarray'>
+20000000
+## 1514 1514 <class 'numpy.ndarray'>
+20050000
+## 1367 1367 <class 'numpy.ndarray'>
+20100000
+## 1457 1457 <class 'numpy.ndarray'>
+20150000
+## 1361 1361 <class 'numpy.ndarray'>
+20200000
+## 942 942 <class 'numpy.ndarray'>
+20250000
+## 1068 1068 <class 'numpy.ndarray'>
+20300000
+## 1785 1785 <class 'numpy.ndarray'>
+20350000
+## 1685 1685 <class 'numpy.ndarray'>
+20400000
+## 5524 5524 <class 'numpy.ndarray'>
+20450000
+## 4063 4063 <class 'numpy.ndarray'>
+20500000
+## 5664 5664 <class 'numpy.ndarray'>
+20550000
+## 4587 4587 <class 'numpy.ndarray'>
+20600000
+## 4844 4844 <class 'numpy.ndarray'>
+20650000
+## 5531 5531 <class 'numpy.ndarray'>
+20700000
+## 5930 5930 <class 'numpy.ndarray'>
+20750000
+## 5785 5785 <class 'numpy.ndarray'>
+20800000
+## 3753 3753 <class 'numpy.ndarray'>
+20850000
+## 7656 7656 <class 'numpy.ndarray'>
+20900000
+## 6395 6395 <class 'numpy.ndarray'>
+20950000
+## 6966 6966 <class 'numpy.ndarray'>
+21000000
+## 6972 6972 <class 'numpy.ndarray'>
+21050000
+## 6454 6454 <class 'numpy.ndarray'>
+21100000
+## 6472 6472 <class 'numpy.ndarray'>
+21150000
+## 5647 5647 <class 'numpy.ndarray'>
+21200000
+## 7354 7354 <class 'numpy.ndarray'>
+21250000
+## 5085 5085 <class 'numpy.ndarray'>
+21300000
+## 11146 11146 <class 'numpy.ndarray'>
+21350000
+## 11317 11317 <class 'numpy.ndarray'>
+21400000
+## 12325 12325 <class 'numpy.ndarray'>
+21450000
+## 11434 11434 <class 'numpy.ndarray'>
+21500000
+## 10183 10183 <class 'numpy.ndarray'>
+21550000
+## 10739 10739 <class 'numpy.ndarray'>
+21600000
+## 6530 6530 <class 'numpy.ndarray'>
+21650000
+## 12906 12906 <class 'numpy.ndarray'>
+21700000
+## 9422 9422 <class 'numpy.ndarray'>
+21750000
+## 8920 8920 <class 'numpy.ndarray'>
+21800000
+## 8612 8612 <class 'numpy.ndarray'>
+21850000
+## 9965 9965 <class 'numpy.ndarray'>
+21900000
+## 9377 9377 <class 'numpy.ndarray'>
+21950000
+## 8878 8878 <class 'numpy.ndarray'>
+22000000
+## 8595 8595 <class 'numpy.ndarray'>
+22050000
+## 3883 3883 <class 'numpy.ndarray'>
+22100000
+## 8013 8013 <class 'numpy.ndarray'>
+22150000
+## 6363 6363 <class 'numpy.ndarray'>
+22200000
+## 12863 12863 <class 'numpy.ndarray'>
+22250000
+## 12590 12590 <class 'numpy.ndarray'>
+22300000
+## 15824 15824 <class 'numpy.ndarray'>
+22350000
+## 13547 13547 <class 'numpy.ndarray'>
+22400000
+## 13141 13141 <class 'numpy.ndarray'>
+22450000
+## 12625 12625 <class 'numpy.ndarray'>
+22500000
+## 12065 12065 <class 'numpy.ndarray'>
+22550000
+## 15984 15984 <class 'numpy.ndarray'>
+22600000
+## 11429 11429 <class 'numpy.ndarray'>
+22650000
+## 4765 4765 <class 'numpy.ndarray'>
+22700000
+## 2182 2182 <class 'numpy.ndarray'>
+22750000
+## 2027 2027 <class 'numpy.ndarray'>
+22800000
+## 2061 2061 <class 'numpy.ndarray'>
+22850000
+## 2356 2356 <class 'numpy.ndarray'>
+22900000
+## 1962 1962 <class 'numpy.ndarray'>
+22950000
+## 1617 1617 <class 'numpy.ndarray'>
+23000000
+## 2790 2790 <class 'numpy.ndarray'>
+23050000
+## 1864 1864 <class 'numpy.ndarray'>
+23100000
+## 3170 3170 <class 'numpy.ndarray'>
+23150000
+## 4092 4092 <class 'numpy.ndarray'>
+23200000
+## 4580 4580 <class 'numpy.ndarray'>
+23250000
+## 5037 5037 <class 'numpy.ndarray'>
+23300000
+## 4621 4621 <class 'numpy.ndarray'>
+23350000
+## 4342 4342 <class 'numpy.ndarray'>
+23400000
+## 2143 2143 <class 'numpy.ndarray'>
+23450000
+## 4406 4406 <class 'numpy.ndarray'>
+23500000
+## 3955 3955 <class 'numpy.ndarray'>
+23550000
+## 3744 3744 <class 'numpy.ndarray'>
+23600000
+## 3715 3715 <class 'numpy.ndarray'>
+23650000
+## 5097 5097 <class 'numpy.ndarray'>
+23700000
+## 4377 4377 <class 'numpy.ndarray'>
+23750000
+## 3926 3926 <class 'numpy.ndarray'>
+23800000
+## 3577 3577 <class 'numpy.ndarray'>
+23850000
+## 2078 2078 <class 'numpy.ndarray'>
+23900000
+## 2597 2597 <class 'numpy.ndarray'>
+23950000
+## 3538 3538 <class 'numpy.ndarray'>
+24000000
+## 4502 4502 <class 'numpy.ndarray'>
+24050000
+## 5335 5335 <class 'numpy.ndarray'>
+24100000
+## 6775 6775 <class 'numpy.ndarray'>
+24150000
+## 5519 5519 <class 'numpy.ndarray'>
+24200000
+## 4883 4883 <class 'numpy.ndarray'>
+24250000
+## 5565 5565 <class 'numpy.ndarray'>
+24300000
+## 4506 4506 <class 'numpy.ndarray'>
+24350000
+## 6378 6378 <class 'numpy.ndarray'>
+24400000
+## 5470 5470 <class 'numpy.ndarray'>
+24450000
+## 3231 3231 <class 'numpy.ndarray'>
+24500000
+## 1642 1642 <class 'numpy.ndarray'>
+24550000
+## 1782 1782 <class 'numpy.ndarray'>
+24600000
+## 1543 1543 <class 'numpy.ndarray'>
+24650000
+## 1354 1354 <class 'numpy.ndarray'>
+24700000
+## 1148 1148 <class 'numpy.ndarray'>
+24750000
+## 1016 1016 <class 'numpy.ndarray'>
+24800000
+## 1229 1229 <class 'numpy.ndarray'>
+24850000
+## 1743 1743 <class 'numpy.ndarray'>
+24900000
+## 2980 2980 <class 'numpy.ndarray'>
+24950000
+## 5207 5207 <class 'numpy.ndarray'>
+25000000
+## 6645 6645 <class 'numpy.ndarray'>
+25050000
+## 6465 6465 <class 'numpy.ndarray'>
+25100000
+## 6402 6402 <class 'numpy.ndarray'>
+25150000
+## 5832 5832 <class 'numpy.ndarray'>
+25200000
+## 3489 3489 <class 'numpy.ndarray'>
+25250000
+## 3858 3858 <class 'numpy.ndarray'>
+25300000
+## 5848 5848 <class 'numpy.ndarray'>
+25350000
+## 5772 5772 <class 'numpy.ndarray'>
+25400000
+## 10443 10443 <class 'numpy.ndarray'>
+25450000
+## 12005 12005 <class 'numpy.ndarray'>
+25500000
+## 12490 12490 <class 'numpy.ndarray'>
+25550000
+## 12161 12161 <class 'numpy.ndarray'>
+25600000
+## 10902 10902 <class 'numpy.ndarray'>
+25650000
+## 7988 7988 <class 'numpy.ndarray'>
+25700000
+## 8642 8642 <class 'numpy.ndarray'>
+25750000
+## 11513 11513 <class 'numpy.ndarray'>
+25800000
+## 6196 6196 <class 'numpy.ndarray'>
+25850000
+## 5508 5508 <class 'numpy.ndarray'>
+25900000
+## 6081 6081 <class 'numpy.ndarray'>
+25950000
+## 3813 3813 <class 'numpy.ndarray'>
+26000000
+## 5467 5467 <class 'numpy.ndarray'>
+26050000
+## 6583 6583 <class 'numpy.ndarray'>
+26100000
+## 1986 1986 <class 'numpy.ndarray'>
+26150000
+## 3104 3104 <class 'numpy.ndarray'>
+26200000
+## 4990 4990 <class 'numpy.ndarray'>
+26250000
+## 4811 4811 <class 'numpy.ndarray'>
+26300000
+## 3656 3656 <class 'numpy.ndarray'>
+26350000
+## 3540 3540 <class 'numpy.ndarray'>
+26400000
+## 4151 4151 <class 'numpy.ndarray'>
+26450000
+## 3811 3811 <class 'numpy.ndarray'>
+26500000
+## 3307 3307 <class 'numpy.ndarray'>
+26550000
+## 2501 2501 <class 'numpy.ndarray'>
+26600000
+## 2374 2374 <class 'numpy.ndarray'>
+26650000
+## 3901 3901 <class 'numpy.ndarray'>
+26700000
+## 2678 2678 <class 'numpy.ndarray'>
+26750000
+## 6560 6560 <class 'numpy.ndarray'>
+26800000
+## 6365 6365 <class 'numpy.ndarray'>
+26850000
+## 6562 6562 <class 'numpy.ndarray'>
+26900000
+## 7300 7300 <class 'numpy.ndarray'>
+26950000
+## 5406 5406 <class 'numpy.ndarray'>
+27000000
+## 4425 4425 <class 'numpy.ndarray'>
+27050000
+## 3441 3441 <class 'numpy.ndarray'>
+27100000
+## 5795 5795 <class 'numpy.ndarray'>
+27150000
+## 3783 3783 <class 'numpy.ndarray'>
+27200000
+## 6016 6016 <class 'numpy.ndarray'>
+27250000
+## 5431 5431 <class 'numpy.ndarray'>
+27300000
+## 7718 7718 <class 'numpy.ndarray'>
+27350000
+## 6068 6068 <class 'numpy.ndarray'>
+27400000
+## 6578 6578 <class 'numpy.ndarray'>
+27450000
+## 5300 5300 <class 'numpy.ndarray'>
+27500000
+## 2693 2693 <class 'numpy.ndarray'>
+27550000
+## 6094 6094 <class 'numpy.ndarray'>
+27600000
+## 3524 3524 <class 'numpy.ndarray'>
+27650000
+## 5077 5077 <class 'numpy.ndarray'>
+27700000
+## 5525 5525 <class 'numpy.ndarray'>
+27750000
+## 5642 5642 <class 'numpy.ndarray'>
+27800000
+## 5286 5286 <class 'numpy.ndarray'>
+27850000
+## 5140 5140 <class 'numpy.ndarray'>
+27900000
+## 3704 3704 <class 'numpy.ndarray'>
+27950000
+## 2783 2783 <class 'numpy.ndarray'>
+28000000
+## 5812 5812 <class 'numpy.ndarray'>
+28050000
+## 4080 4080 <class 'numpy.ndarray'>
+28100000
+## 2675 2675 <class 'numpy.ndarray'>
+28150000
+## 1928 1928 <class 'numpy.ndarray'>
+28200000
+## 1925 1925 <class 'numpy.ndarray'>
+28250000
+## 2230 2230 <class 'numpy.ndarray'>
+28300000
+## 1892 1892 <class 'numpy.ndarray'>
+28350000
+## 3105 3105 <class 'numpy.ndarray'>
+28400000
+## 2798 2798 <class 'numpy.ndarray'>
+28450000
+## 2401 2401 <class 'numpy.ndarray'>
+28500000
+## 1586 1586 <class 'numpy.ndarray'>
+28550000
+## 8248 8248 <class 'numpy.ndarray'>
+28600000
+## 8746 8746 <class 'numpy.ndarray'>
+28650000
+## 8698 8698 <class 'numpy.ndarray'>
+28700000
+## 8639 8639 <class 'numpy.ndarray'>
+28750000
+## 8211 8211 <class 'numpy.ndarray'>
+28800000
+## 8838 8838 <class 'numpy.ndarray'>
+28850000
+## 6311 6311 <class 'numpy.ndarray'>
+28900000
+## 10867 10867 <class 'numpy.ndarray'>
+28950000
+## 7567 7567 <class 'numpy.ndarray'>
+29000000
+## 10223 10223 <class 'numpy.ndarray'>
+29050000
+## 9694 9694 <class 'numpy.ndarray'>
+29100000
+## 10604 10604 <class 'numpy.ndarray'>
+29150000
+## 11717 11717 <class 'numpy.ndarray'>
+29200000
+## 10923 10923 <class 'numpy.ndarray'>
+29250000
+## 10403 10403 <class 'numpy.ndarray'>
+29300000
+## 5308 5308 <class 'numpy.ndarray'>
+29350000
+## 10066 10066 <class 'numpy.ndarray'>
+29400000
+## 8751 8751 <class 'numpy.ndarray'>
+29450000
+## 5596 5596 <class 'numpy.ndarray'>
+29500000
+## 4820 4820 <class 'numpy.ndarray'>
+29550000
+## 5117 5117 <class 'numpy.ndarray'>
+29600000
+## 5359 5359 <class 'numpy.ndarray'>
+29650000
+## 4705 4705 <class 'numpy.ndarray'>
+29700000
+## 5192 5192 <class 'numpy.ndarray'>
+29750000
+## 2954 2954 <class 'numpy.ndarray'>
+29800000
+## 6119 6119 <class 'numpy.ndarray'>
+29850000
+## 5173 5173 <class 'numpy.ndarray'>
+29900000
+## 4828 4828 <class 'numpy.ndarray'>
+29950000
+## 3774 3774 <class 'numpy.ndarray'>
+30000000
+## 5868 5868 <class 'numpy.ndarray'>
+30050000
+## 4662 4662 <class 'numpy.ndarray'>
+30100000
+## 4260 4260 <class 'numpy.ndarray'>
+30150000
+## 4269 4269 <class 'numpy.ndarray'>
+30200000
+## 2461 2461 <class 'numpy.ndarray'>
+30250000
+## 3850 3850 <class 'numpy.ndarray'>
+30300000
+## 3793 3793 <class 'numpy.ndarray'>
+30350000
+## 3022 3022 <class 'numpy.ndarray'>
+Traceback (most recent call last):
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 414, in <module>
+    main()
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in main
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in <listcomp>
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+IndexError: list index out of range
+end 2
+Tue May 10 15:48:05 CEST 2022
+ 15:48:05 up 5 days,  7:01,  0 users,  load average: 2.57, 2.26, 2.09
+Tue May 10 15:48:05 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   77C    P0    66W /  70W |    252MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   74C    P0    32W /  70W |      2MiB / 15360MiB |      3%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   73C    P0    71W /  70W |    151MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   38C    P8    14W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   36C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   39C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     43295      C   ...thon3/3.9.0/bin/python3.9      149MiB |
+|    0   N/A  N/A     43296      C   ...thon3/3.9.0/bin/python3.9       99MiB |
+|    2   N/A  N/A     43296      C   ...thon3/3.9.0/bin/python3.9      149MiB |
++-----------------------------------------------------------------------------+
+0
+## 4995 4995 <class 'numpy.ndarray'>
+50000
+## 5011 5011 <class 'numpy.ndarray'>
+100000
+## 5003 5003 <class 'numpy.ndarray'>
+150000
+## 4967 4967 <class 'numpy.ndarray'>
+200000
+## 4350 4350 <class 'numpy.ndarray'>
+250000
+## 3846 3846 <class 'numpy.ndarray'>
+300000
+## 3640 3640 <class 'numpy.ndarray'>
+350000
+## 5473 5473 <class 'numpy.ndarray'>
+400000
+## 3956 3956 <class 'numpy.ndarray'>
+450000
+## 2936 2936 <class 'numpy.ndarray'>
+500000
+## 2358 2358 <class 'numpy.ndarray'>
+550000
+## 2930 2930 <class 'numpy.ndarray'>
+600000
+## 2361 2361 <class 'numpy.ndarray'>
+650000
+## 2313 2313 <class 'numpy.ndarray'>
+700000
+## 2116 2116 <class 'numpy.ndarray'>
+750000
+## 1466 1466 <class 'numpy.ndarray'>
+800000
+## 3006 3006 <class 'numpy.ndarray'>
+850000
+## 1981 1981 <class 'numpy.ndarray'>
+900000
+## 7901 7901 <class 'numpy.ndarray'>
+950000
+## 6219 6219 <class 'numpy.ndarray'>
+1000000
+## 8272 8272 <class 'numpy.ndarray'>
+1050000
+## 7116 7116 <class 'numpy.ndarray'>
+1100000
+## 6339 6339 <class 'numpy.ndarray'>
+1150000
+## 7421 7421 <class 'numpy.ndarray'>
+1200000
+## 4834 4834 <class 'numpy.ndarray'>
+1250000
+## 8284 8284 <class 'numpy.ndarray'>
+1300000
+## 4853 4853 <class 'numpy.ndarray'>
+1350000
+## 9190 9190 <class 'numpy.ndarray'>
+1400000
+## 10734 10734 <class 'numpy.ndarray'>
+1450000
+## 10666 10666 <class 'numpy.ndarray'>
+1500000
+## 11577 11577 <class 'numpy.ndarray'>
+1550000
+## 11361 11361 <class 'numpy.ndarray'>
+1600000
+## 8530 8530 <class 'numpy.ndarray'>
+1650000
+## 4936 4936 <class 'numpy.ndarray'>
+1700000
+## 12348 12348 <class 'numpy.ndarray'>
+1750000
+## 8962 8962 <class 'numpy.ndarray'>
+1800000
+## 3713 3713 <class 'numpy.ndarray'>
+1850000
+## 1669 1669 <class 'numpy.ndarray'>
+1900000
+## 1533 1533 <class 'numpy.ndarray'>
+1950000
+## 1818 1818 <class 'numpy.ndarray'>
+2000000
+## 1571 1571 <class 'numpy.ndarray'>
+2050000
+## 1132 1132 <class 'numpy.ndarray'>
+2100000
+## 463 463 <class 'numpy.ndarray'>
+2150000
+## 1439 1439 <class 'numpy.ndarray'>
+2200000
+## 1656 1656 <class 'numpy.ndarray'>
+2250000
+## 4283 4283 <class 'numpy.ndarray'>
+2300000
+## 5334 5334 <class 'numpy.ndarray'>
+2350000
+## 6613 6613 <class 'numpy.ndarray'>
+2400000
+## 6313 6313 <class 'numpy.ndarray'>
+2450000
+## 5618 5618 <class 'numpy.ndarray'>
+2500000
+## 5005 5005 <class 'numpy.ndarray'>
+2550000
+## 2152 2152 <class 'numpy.ndarray'>
+2600000
+## 4877 4877 <class 'numpy.ndarray'>
+2650000
+## 5601 5601 <class 'numpy.ndarray'>
+2700000
+## 3766 3766 <class 'numpy.ndarray'>
+2750000
+## 3428 3428 <class 'numpy.ndarray'>
+2800000
+## 4169 4169 <class 'numpy.ndarray'>
+2850000
+## 4558 4558 <class 'numpy.ndarray'>
+2900000
+## 4110 4110 <class 'numpy.ndarray'>
+2950000
+## 3921 3921 <class 'numpy.ndarray'>
+3000000
+## 2413 2413 <class 'numpy.ndarray'>
+3050000
+## 3296 3296 <class 'numpy.ndarray'>
+3100000
+## 3772 3772 <class 'numpy.ndarray'>
+3150000
+## 3090 3090 <class 'numpy.ndarray'>
+3200000
+## 3836 3836 <class 'numpy.ndarray'>
+3250000
+## 4807 4807 <class 'numpy.ndarray'>
+3300000
+## 3527 3527 <class 'numpy.ndarray'>
+3350000
+## 3854 3854 <class 'numpy.ndarray'>
+3400000
+## 4306 4306 <class 'numpy.ndarray'>
+3450000
+## 2597 2597 <class 'numpy.ndarray'>
+3500000
+## 3952 3952 <class 'numpy.ndarray'>
+3550000
+## 3913 3913 <class 'numpy.ndarray'>
+3600000
+## 5107 5107 <class 'numpy.ndarray'>
+3650000
+## 7241 7241 <class 'numpy.ndarray'>
+3700000
+## 8666 8666 <class 'numpy.ndarray'>
+3750000
+## 7616 7616 <class 'numpy.ndarray'>
+3800000
+## 6581 6581 <class 'numpy.ndarray'>
+3850000
+## 7318 7318 <class 'numpy.ndarray'>
+3900000
+## 4617 4617 <class 'numpy.ndarray'>
+3950000
+## 5346 5346 <class 'numpy.ndarray'>
+4000000
+## 6785 6785 <class 'numpy.ndarray'>
+4050000
+## 7799 7799 <class 'numpy.ndarray'>
+4100000
+## 9705 9705 <class 'numpy.ndarray'>
+4150000
+## 11675 11675 <class 'numpy.ndarray'>
+4200000
+## 10984 10984 <class 'numpy.ndarray'>
+4250000
+## 10281 10281 <class 'numpy.ndarray'>
+4300000
+## 10045 10045 <class 'numpy.ndarray'>
+4350000
+## 6786 6786 <class 'numpy.ndarray'>
+4400000
+## 8525 8525 <class 'numpy.ndarray'>
+4450000
+## 9331 9331 <class 'numpy.ndarray'>
+4500000
+## 4394 4394 <class 'numpy.ndarray'>
+4550000
+## 696 696 <class 'numpy.ndarray'>
+4600000
+## 755 755 <class 'numpy.ndarray'>
+4650000
+## 957 957 <class 'numpy.ndarray'>
+4700000
+## 911 911 <class 'numpy.ndarray'>
+4750000
+## 846 846 <class 'numpy.ndarray'>
+4800000
+## 783 783 <class 'numpy.ndarray'>
+4850000
+## 1431 1431 <class 'numpy.ndarray'>
+4900000
+## 1304 1304 <class 'numpy.ndarray'>
+4950000
+## 2423 2423 <class 'numpy.ndarray'>
+5000000
+## 6635 6635 <class 'numpy.ndarray'>
+5050000
+## 7170 7170 <class 'numpy.ndarray'>
+5100000
+## 5962 5962 <class 'numpy.ndarray'>
+5150000
+## 7032 7032 <class 'numpy.ndarray'>
+5200000
+## 6152 6152 <class 'numpy.ndarray'>
+5250000
+## 4655 4655 <class 'numpy.ndarray'>
+5300000
+## 4548 4548 <class 'numpy.ndarray'>
+5350000
+## 6601 6601 <class 'numpy.ndarray'>
+5400000
+## 3920 3920 <class 'numpy.ndarray'>
+5450000
+## 1718 1718 <class 'numpy.ndarray'>
+5500000
+## 1281 1281 <class 'numpy.ndarray'>
+5550000
+## 1589 1589 <class 'numpy.ndarray'>
+5600000
+## 1430 1430 <class 'numpy.ndarray'>
+5650000
+## 1005 1005 <class 'numpy.ndarray'>
+5700000
+## 876 876 <class 'numpy.ndarray'>
+5750000
+## 1235 1235 <class 'numpy.ndarray'>
+5800000
+## 1679 1679 <class 'numpy.ndarray'>
+5850000
+## 1485 1485 <class 'numpy.ndarray'>
+5900000
+## 4432 4432 <class 'numpy.ndarray'>
+5950000
+## 3358 3358 <class 'numpy.ndarray'>
+6000000
+## 4105 4105 <class 'numpy.ndarray'>
+6050000
+## 3961 3961 <class 'numpy.ndarray'>
+6100000
+## 3293 3293 <class 'numpy.ndarray'>
+6150000
+## 2855 2855 <class 'numpy.ndarray'>
+6200000
+## 5140 5140 <class 'numpy.ndarray'>
+6250000
+## 5346 5346 <class 'numpy.ndarray'>
+6300000
+## 4175 4175 <class 'numpy.ndarray'>
+6350000
+## 7210 7210 <class 'numpy.ndarray'>
+6400000
+## 6067 6067 <class 'numpy.ndarray'>
+6450000
+## 6381 6381 <class 'numpy.ndarray'>
+6500000
+## 7085 7085 <class 'numpy.ndarray'>
+6550000
+## 5450 5450 <class 'numpy.ndarray'>
+6600000
+## 4789 4789 <class 'numpy.ndarray'>
+6650000
+## 4356 4356 <class 'numpy.ndarray'>
+6700000
+## 6119 6119 <class 'numpy.ndarray'>
+6750000
+## 3952 3952 <class 'numpy.ndarray'>
+6800000
+## 4772 4772 <class 'numpy.ndarray'>
+6850000
+## 5353 5353 <class 'numpy.ndarray'>
+6900000
+## 5130 5130 <class 'numpy.ndarray'>
+6950000
+## 4687 4687 <class 'numpy.ndarray'>
+7000000
+## 3814 3814 <class 'numpy.ndarray'>
+7050000
+## 4005 4005 <class 'numpy.ndarray'>
+7100000
+## 4858 4858 <class 'numpy.ndarray'>
+7150000
+## 5000 5000 <class 'numpy.ndarray'>
+7200000
+## 3422 3422 <class 'numpy.ndarray'>
+7250000
+## 2576 2576 <class 'numpy.ndarray'>
+7300000
+## 2394 2394 <class 'numpy.ndarray'>
+7350000
+## 3410 3410 <class 'numpy.ndarray'>
+7400000
+## 3049 3049 <class 'numpy.ndarray'>
+7450000
+## 2497 2497 <class 'numpy.ndarray'>
+7500000
+## 1678 1678 <class 'numpy.ndarray'>
+7550000
+## 1630 1630 <class 'numpy.ndarray'>
+7600000
+## 3140 3140 <class 'numpy.ndarray'>
+7650000
+## 2225 2225 <class 'numpy.ndarray'>
+7700000
+## 7159 7159 <class 'numpy.ndarray'>
+7750000
+## 7230 7230 <class 'numpy.ndarray'>
+7800000
+## 7751 7751 <class 'numpy.ndarray'>
+7850000
+## 7905 7905 <class 'numpy.ndarray'>
+7900000
+## 6712 6712 <class 'numpy.ndarray'>
+7950000
+## 6109 6109 <class 'numpy.ndarray'>
+8000000
+## 4299 4299 <class 'numpy.ndarray'>
+8050000
+## 9736 9736 <class 'numpy.ndarray'>
+8100000
+## 6559 6559 <class 'numpy.ndarray'>
+8150000
+## 2501 2501 <class 'numpy.ndarray'>
+8200000
+## 2199 2199 <class 'numpy.ndarray'>
+8250000
+## 1778 1778 <class 'numpy.ndarray'>
+8300000
+## 1673 1673 <class 'numpy.ndarray'>
+8350000
+## 2161 2161 <class 'numpy.ndarray'>
+8400000
+## 1438 1438 <class 'numpy.ndarray'>
+8450000
+## 962 962 <class 'numpy.ndarray'>
+8500000
+## 1865 1865 <class 'numpy.ndarray'>
+8550000
+## 1276 1276 <class 'numpy.ndarray'>
+8600000
+## 5167 5167 <class 'numpy.ndarray'>
+8650000
+## 5341 5341 <class 'numpy.ndarray'>
+8700000
+## 6544 6544 <class 'numpy.ndarray'>
+8750000
+## 5723 5723 <class 'numpy.ndarray'>
+8800000
+## 5715 5715 <class 'numpy.ndarray'>
+8850000
+## 5216 5216 <class 'numpy.ndarray'>
+8900000
+## 2806 2806 <class 'numpy.ndarray'>
+8950000
+## 5824 5824 <class 'numpy.ndarray'>
+9000000
+## 5260 5260 <class 'numpy.ndarray'>
+9050000
+## 1671 1671 <class 'numpy.ndarray'>
+9100000
+## 577 577 <class 'numpy.ndarray'>
+9150000
+## 851 851 <class 'numpy.ndarray'>
+9200000
+## 712 712 <class 'numpy.ndarray'>
+9250000
+## 535 535 <class 'numpy.ndarray'>
+9300000
+## 706 706 <class 'numpy.ndarray'>
+9350000
+## 2330 2330 <class 'numpy.ndarray'>
+9400000
+## 1076 1076 <class 'numpy.ndarray'>
+9450000
+## 614 614 <class 'numpy.ndarray'>
+9500000
+## 7297 7297 <class 'numpy.ndarray'>
+9550000
+## 9012 9012 <class 'numpy.ndarray'>
+9600000
+## 10717 10717 <class 'numpy.ndarray'>
+9650000
+## 10264 10264 <class 'numpy.ndarray'>
+9700000
+## 9636 9636 <class 'numpy.ndarray'>
+9750000
+## 9752 9752 <class 'numpy.ndarray'>
+9800000
+## 4260 4260 <class 'numpy.ndarray'>
+9850000
+## 7659 7659 <class 'numpy.ndarray'>
+9900000
+## 8876 8876 <class 'numpy.ndarray'>
+9950000
+## 2899 2899 <class 'numpy.ndarray'>
+10000000
+## 1121 1121 <class 'numpy.ndarray'>
+10050000
+## 1212 1212 <class 'numpy.ndarray'>
+10100000
+## 1178 1178 <class 'numpy.ndarray'>
+10150000
+## 967 967 <class 'numpy.ndarray'>
+10200000
+## 1166 1166 <class 'numpy.ndarray'>
+10250000
+## 1333 1333 <class 'numpy.ndarray'>
+10300000
+## 2029 2029 <class 'numpy.ndarray'>
+10350000
+## 1143 1143 <class 'numpy.ndarray'>
+10400000
+## 1583 1583 <class 'numpy.ndarray'>
+10450000
+## 2039 2039 <class 'numpy.ndarray'>
+10500000
+## 2246 2246 <class 'numpy.ndarray'>
+10550000
+## 1955 1955 <class 'numpy.ndarray'>
+10600000
+## 1916 1916 <class 'numpy.ndarray'>
+10650000
+## 1975 1975 <class 'numpy.ndarray'>
+10700000
+## 2401 2401 <class 'numpy.ndarray'>
+10750000
+## 2858 2858 <class 'numpy.ndarray'>
+10800000
+## 2155 2155 <class 'numpy.ndarray'>
+10850000
+## 6336 6336 <class 'numpy.ndarray'>
+10900000
+## 10963 10963 <class 'numpy.ndarray'>
+10950000
+## 13189 13189 <class 'numpy.ndarray'>
+11000000
+## 12032 12032 <class 'numpy.ndarray'>
+11050000
+## 12093 12093 <class 'numpy.ndarray'>
+11100000
+## 11958 11958 <class 'numpy.ndarray'>
+11150000
+## 8093 8093 <class 'numpy.ndarray'>
+11200000
+## 9087 9087 <class 'numpy.ndarray'>
+11250000
+## 11632 11632 <class 'numpy.ndarray'>
+11300000
+## 6948 6948 <class 'numpy.ndarray'>
+11350000
+## 5640 5640 <class 'numpy.ndarray'>
+11400000
+## 6005 6005 <class 'numpy.ndarray'>
+11450000
+## 6030 6030 <class 'numpy.ndarray'>
+11500000
+## 5844 5844 <class 'numpy.ndarray'>
+11550000
+## 4674 4674 <class 'numpy.ndarray'>
+11600000
+## 4738 4738 <class 'numpy.ndarray'>
+11650000
+## 4637 4637 <class 'numpy.ndarray'>
+11700000
+## 6193 6193 <class 'numpy.ndarray'>
+11750000
+## 4978 4978 <class 'numpy.ndarray'>
+11800000
+## 5576 5576 <class 'numpy.ndarray'>
+11850000
+## 5628 5628 <class 'numpy.ndarray'>
+11900000
+## 5317 5317 <class 'numpy.ndarray'>
+11950000
+## 5311 5311 <class 'numpy.ndarray'>
+12000000
+## 4472 4472 <class 'numpy.ndarray'>
+12050000
+## 3094 3094 <class 'numpy.ndarray'>
+12100000
+## 3631 3631 <class 'numpy.ndarray'>
+12150000
+## 6303 6303 <class 'numpy.ndarray'>
+12200000
+## 5026 5026 <class 'numpy.ndarray'>
+12250000
+## 7704 7704 <class 'numpy.ndarray'>
+12300000
+## 8007 8007 <class 'numpy.ndarray'>
+12350000
+## 9165 9165 <class 'numpy.ndarray'>
+12400000
+## 9319 9319 <class 'numpy.ndarray'>
+12450000
+## 7717 7717 <class 'numpy.ndarray'>
+12500000
+## 5563 5563 <class 'numpy.ndarray'>
+12550000
+## 5223 5223 <class 'numpy.ndarray'>
+12600000
+## 8382 8382 <class 'numpy.ndarray'>
+12650000
+## 4202 4202 <class 'numpy.ndarray'>
+12700000
+## 2307 2307 <class 'numpy.ndarray'>
+12750000
+## 2091 2091 <class 'numpy.ndarray'>
+12800000
+## 2563 2563 <class 'numpy.ndarray'>
+12850000
+## 2282 2282 <class 'numpy.ndarray'>
+12900000
+## 1939 1939 <class 'numpy.ndarray'>
+12950000
+## 1611 1611 <class 'numpy.ndarray'>
+13000000
+## 2717 2717 <class 'numpy.ndarray'>
+13050000
+## 2494 2494 <class 'numpy.ndarray'>
+13100000
+## 1621 1621 <class 'numpy.ndarray'>
+13150000
+## 1383 1383 <class 'numpy.ndarray'>
+13200000
+## 2124 2124 <class 'numpy.ndarray'>
+13250000
+## 1369 1369 <class 'numpy.ndarray'>
+13300000
+## 2182 2182 <class 'numpy.ndarray'>
+13350000
+## 1667 1667 <class 'numpy.ndarray'>
+13400000
+## 607 607 <class 'numpy.ndarray'>
+13450000
+## 855 855 <class 'numpy.ndarray'>
+13500000
+## 1607 1607 <class 'numpy.ndarray'>
+13550000
+## 1433 1433 <class 'numpy.ndarray'>
+13600000
+## 591 591 <class 'numpy.ndarray'>
+13650000
+## 679 679 <class 'numpy.ndarray'>
+13700000
+## 372 372 <class 'numpy.ndarray'>
+13750000
+## 532 532 <class 'numpy.ndarray'>
+13800000
+## 924 924 <class 'numpy.ndarray'>
+13850000
+## 360 360 <class 'numpy.ndarray'>
+13900000
+## 255 255 <class 'numpy.ndarray'>
+13950000
+## 681 681 <class 'numpy.ndarray'>
+14000000
+## 666 666 <class 'numpy.ndarray'>
+14050000
+## 8554 8554 <class 'numpy.ndarray'>
+14100000
+## 8405 8405 <class 'numpy.ndarray'>
+14150000
+## 9278 9278 <class 'numpy.ndarray'>
+14200000
+## 9178 9178 <class 'numpy.ndarray'>
+14250000
+## 8743 8743 <class 'numpy.ndarray'>
+14300000
+## 9355 9355 <class 'numpy.ndarray'>
+14350000
+## 5596 5596 <class 'numpy.ndarray'>
+14400000
+## 8630 8630 <class 'numpy.ndarray'>
+14450000
+## 5995 5995 <class 'numpy.ndarray'>
+14500000
+## 13661 13661 <class 'numpy.ndarray'>
+14550000
+## 15157 15157 <class 'numpy.ndarray'>
+14600000
+## 14396 14396 <class 'numpy.ndarray'>
+14650000
+## 14475 14475 <class 'numpy.ndarray'>
+14700000
+## 12912 12912 <class 'numpy.ndarray'>
+14750000
+## 12470 12470 <class 'numpy.ndarray'>
+14800000
+## 8221 8221 <class 'numpy.ndarray'>
+14850000
+## 13892 13892 <class 'numpy.ndarray'>
+14900000
+## 9941 9941 <class 'numpy.ndarray'>
+14950000
+## 11515 11515 <class 'numpy.ndarray'>
+15000000
+## 11700 11700 <class 'numpy.ndarray'>
+15050000
+## 11748 11748 <class 'numpy.ndarray'>
+15100000
+## 12240 12240 <class 'numpy.ndarray'>
+15150000
+## 12646 12646 <class 'numpy.ndarray'>
+15200000
+## 9307 9307 <class 'numpy.ndarray'>
+15250000
+## 4048 4048 <class 'numpy.ndarray'>
+15300000
+## 11040 11040 <class 'numpy.ndarray'>
+15350000
+## 9729 9729 <class 'numpy.ndarray'>
+15400000
+## 4476 4476 <class 'numpy.ndarray'>
+15450000
+## 2704 2704 <class 'numpy.ndarray'>
+15500000
+## 2991 2991 <class 'numpy.ndarray'>
+15550000
+## 2562 2562 <class 'numpy.ndarray'>
+15600000
+## 2321 2321 <class 'numpy.ndarray'>
+15650000
+## 3401 3401 <class 'numpy.ndarray'>
+15700000
+## 1679 1679 <class 'numpy.ndarray'>
+15750000
+## 3057 3057 <class 'numpy.ndarray'>
+15800000
+## 2654 2654 <class 'numpy.ndarray'>
+15850000
+## 7443 7443 <class 'numpy.ndarray'>
+15900000
+## 9382 9382 <class 'numpy.ndarray'>
+15950000
+## 8730 8730 <class 'numpy.ndarray'>
+16000000
+## 10246 10246 <class 'numpy.ndarray'>
+16050000
+## 9825 9825 <class 'numpy.ndarray'>
+16100000
+## 9404 9404 <class 'numpy.ndarray'>
+16150000
+## 5688 5688 <class 'numpy.ndarray'>
+16200000
+## 9718 9718 <class 'numpy.ndarray'>
+16250000
+## 7797 7797 <class 'numpy.ndarray'>
+16300000
+## 2081 2081 <class 'numpy.ndarray'>
+16350000
+## 12 12 <class 'numpy.ndarray'>
+16400000
+## 2 2 <class 'numpy.ndarray'>
+16450000
+## 4 4 <class 'numpy.ndarray'>
+16500000
+## 10 10 <class 'numpy.ndarray'>
+16550000
+## 25 25 <class 'numpy.ndarray'>
+16600000
+## 0 0 <class 'numpy.ndarray'>
+16650000
+## 5 5 <class 'numpy.ndarray'>
+16700000
+## 8 8 <class 'numpy.ndarray'>
+16750000
+## 93 93 <class 'numpy.ndarray'>
+16800000
+## 138 138 <class 'numpy.ndarray'>
+16850000
+## 100 100 <class 'numpy.ndarray'>
+16900000
+## 102 102 <class 'numpy.ndarray'>
+16950000
+## 180 180 <class 'numpy.ndarray'>
+17000000
+## 67 67 <class 'numpy.ndarray'>
+17050000
+## 24 24 <class 'numpy.ndarray'>
+17100000
+## 118 118 <class 'numpy.ndarray'>
+17150000
+## 142 142 <class 'numpy.ndarray'>
+17200000
+## 3571 3571 <class 'numpy.ndarray'>
+17250000
+## 5856 5856 <class 'numpy.ndarray'>
+17300000
+## 8041 8041 <class 'numpy.ndarray'>
+17350000
+## 6946 6946 <class 'numpy.ndarray'>
+17400000
+## 6097 6097 <class 'numpy.ndarray'>
+17450000
+## 6142 6142 <class 'numpy.ndarray'>
+17500000
+## 6692 6692 <class 'numpy.ndarray'>
+17550000
+## 6148 6148 <class 'numpy.ndarray'>
+17600000
+## 6272 6272 <class 'numpy.ndarray'>
+17650000
+## 5128 5128 <class 'numpy.ndarray'>
+17700000
+## 5169 5169 <class 'numpy.ndarray'>
+17750000
+## 5414 5414 <class 'numpy.ndarray'>
+17800000
+## 5456 5456 <class 'numpy.ndarray'>
+17850000
+## 5970 5970 <class 'numpy.ndarray'>
+17900000
+## 6529 6529 <class 'numpy.ndarray'>
+17950000
+## 2941 2941 <class 'numpy.ndarray'>
+18000000
+## 3828 3828 <class 'numpy.ndarray'>
+18050000
+## 5570 5570 <class 'numpy.ndarray'>
+18100000
+## 3523 3523 <class 'numpy.ndarray'>
+18150000
+## 1800 1800 <class 'numpy.ndarray'>
+18200000
+## 2328 2328 <class 'numpy.ndarray'>
+18250000
+## 1888 1888 <class 'numpy.ndarray'>
+18300000
+## 2155 2155 <class 'numpy.ndarray'>
+18350000
+## 1878 1878 <class 'numpy.ndarray'>
+18400000
+## 1299 1299 <class 'numpy.ndarray'>
+18450000
+## 1504 1504 <class 'numpy.ndarray'>
+18500000
+## 2629 2629 <class 'numpy.ndarray'>
+18550000
+## 1690 1690 <class 'numpy.ndarray'>
+18600000
+## 1092 1092 <class 'numpy.ndarray'>
+18650000
+## 947 947 <class 'numpy.ndarray'>
+18700000
+## 1134 1134 <class 'numpy.ndarray'>
+18750000
+## 1273 1273 <class 'numpy.ndarray'>
+18800000
+## 1123 1123 <class 'numpy.ndarray'>
+18850000
+## 1038 1038 <class 'numpy.ndarray'>
+18900000
+## 2299 2299 <class 'numpy.ndarray'>
+18950000
+## 1482 1482 <class 'numpy.ndarray'>
+19000000
+## 2206 2206 <class 'numpy.ndarray'>
+19050000
+## 6397 6397 <class 'numpy.ndarray'>
+19100000
+## 7428 7428 <class 'numpy.ndarray'>
+19150000
+## 6084 6084 <class 'numpy.ndarray'>
+19200000
+## 5905 5905 <class 'numpy.ndarray'>
+19250000
+## 5991 5991 <class 'numpy.ndarray'>
+19300000
+## 5239 5239 <class 'numpy.ndarray'>
+19350000
+## 5511 5511 <class 'numpy.ndarray'>
+19400000
+## 6804 6804 <class 'numpy.ndarray'>
+19450000
+## 6846 6846 <class 'numpy.ndarray'>
+19500000
+## 12522 12522 <class 'numpy.ndarray'>
+19550000
+## 12686 12686 <class 'numpy.ndarray'>
+19600000
+## 13926 13926 <class 'numpy.ndarray'>
+19650000
+## 13717 13717 <class 'numpy.ndarray'>
+19700000
+## 10479 10479 <class 'numpy.ndarray'>
+19750000
+## 8990 8990 <class 'numpy.ndarray'>
+19800000
+## 9483 9483 <class 'numpy.ndarray'>
+19850000
+## 13141 13141 <class 'numpy.ndarray'>
+19900000
+## 8815 8815 <class 'numpy.ndarray'>
+19950000
+## 8474 8474 <class 'numpy.ndarray'>
+20000000
+## 8103 8103 <class 'numpy.ndarray'>
+20050000
+## 9000 9000 <class 'numpy.ndarray'>
+20100000
+## 10178 10178 <class 'numpy.ndarray'>
+20150000
+## 8115 8115 <class 'numpy.ndarray'>
+20200000
+## 6581 6581 <class 'numpy.ndarray'>
+20250000
+## 6291 6291 <class 'numpy.ndarray'>
+20300000
+## 8959 8959 <class 'numpy.ndarray'>
+20350000
+## 5220 5220 <class 'numpy.ndarray'>
+20400000
+## 5324 5324 <class 'numpy.ndarray'>
+20450000
+## 4612 4612 <class 'numpy.ndarray'>
+20500000
+## 6845 6845 <class 'numpy.ndarray'>
+20550000
+## 6091 6091 <class 'numpy.ndarray'>
+20600000
+## 5508 5508 <class 'numpy.ndarray'>
+20650000
+## 4514 4514 <class 'numpy.ndarray'>
+20700000
+## 3363 3363 <class 'numpy.ndarray'>
+20750000
+## 6231 6231 <class 'numpy.ndarray'>
+20800000
+## 3639 3639 <class 'numpy.ndarray'>
+20850000
+## 4271 4271 <class 'numpy.ndarray'>
+20900000
+## 4276 4276 <class 'numpy.ndarray'>
+20950000
+## 4272 4272 <class 'numpy.ndarray'>
+21000000
+## 4063 4063 <class 'numpy.ndarray'>
+21050000
+## 4311 4311 <class 'numpy.ndarray'>
+21100000
+## 3068 3068 <class 'numpy.ndarray'>
+21150000
+## 2781 2781 <class 'numpy.ndarray'>
+21200000
+## 5098 5098 <class 'numpy.ndarray'>
+21250000
+## 3011 3011 <class 'numpy.ndarray'>
+21300000
+## 11820 11820 <class 'numpy.ndarray'>
+21350000
+## 12934 12934 <class 'numpy.ndarray'>
+21400000
+## 14119 14119 <class 'numpy.ndarray'>
+21450000
+## 13247 13247 <class 'numpy.ndarray'>
+21500000
+## 12579 12579 <class 'numpy.ndarray'>
+21550000
+## 11464 11464 <class 'numpy.ndarray'>
+21600000
+## 8274 8274 <class 'numpy.ndarray'>
+21650000
+## 14715 14715 <class 'numpy.ndarray'>
+21700000
+## 9709 9709 <class 'numpy.ndarray'>
+21750000
+## 7322 7322 <class 'numpy.ndarray'>
+21800000
+## 5548 5548 <class 'numpy.ndarray'>
+21850000
+## 6444 6444 <class 'numpy.ndarray'>
+21900000
+## 6594 6594 <class 'numpy.ndarray'>
+21950000
+## 6062 6062 <class 'numpy.ndarray'>
+22000000
+## 5418 5418 <class 'numpy.ndarray'>
+22050000
+## 3468 3468 <class 'numpy.ndarray'>
+22100000
+## 6074 6074 <class 'numpy.ndarray'>
+22150000
+## 4836 4836 <class 'numpy.ndarray'>
+22200000
+## 8681 8681 <class 'numpy.ndarray'>
+22250000
+## 10208 10208 <class 'numpy.ndarray'>
+22300000
+## 13042 13042 <class 'numpy.ndarray'>
+22350000
+## 10991 10991 <class 'numpy.ndarray'>
+22400000
+## 10862 10862 <class 'numpy.ndarray'>
+22450000
+## 10711 10711 <class 'numpy.ndarray'>
+22500000
+## 5858 5858 <class 'numpy.ndarray'>
+22550000
+## 10854 10854 <class 'numpy.ndarray'>
+22600000
+## 9359 9359 <class 'numpy.ndarray'>
+22650000
+## 10627 10627 <class 'numpy.ndarray'>
+22700000
+## 10584 10584 <class 'numpy.ndarray'>
+22750000
+## 12584 12584 <class 'numpy.ndarray'>
+22800000
+## 10828 10828 <class 'numpy.ndarray'>
+22850000
+## 10771 10771 <class 'numpy.ndarray'>
+22900000
+## 11485 11485 <class 'numpy.ndarray'>
+22950000
+## 6705 6705 <class 'numpy.ndarray'>
+23000000
+## 10818 10818 <class 'numpy.ndarray'>
+23050000
+## 8404 8404 <class 'numpy.ndarray'>
+23100000
+## 5011 5011 <class 'numpy.ndarray'>
+23150000
+## 3539 3539 <class 'numpy.ndarray'>
+23200000
+## 4359 4359 <class 'numpy.ndarray'>
+23250000
+## 3733 3733 <class 'numpy.ndarray'>
+23300000
+## 3744 3744 <class 'numpy.ndarray'>
+23350000
+## 3857 3857 <class 'numpy.ndarray'>
+23400000
+## 1687 1687 <class 'numpy.ndarray'>
+23450000
+## 4701 4701 <class 'numpy.ndarray'>
+23500000
+## 3777 3777 <class 'numpy.ndarray'>
+23550000
+## 5144 5144 <class 'numpy.ndarray'>
+23600000
+## 5987 5987 <class 'numpy.ndarray'>
+23650000
+## 8247 8247 <class 'numpy.ndarray'>
+23700000
+## 7232 7232 <class 'numpy.ndarray'>
+23750000
+## 6498 6498 <class 'numpy.ndarray'>
+23800000
+## 7667 7667 <class 'numpy.ndarray'>
+23850000
+## 4943 4943 <class 'numpy.ndarray'>
+23900000
+## 6208 6208 <class 'numpy.ndarray'>
+23950000
+## 7034 7034 <class 'numpy.ndarray'>
+24000000
+## 6064 6064 <class 'numpy.ndarray'>
+24050000
+## 7774 7774 <class 'numpy.ndarray'>
+24100000
+## 7612 7612 <class 'numpy.ndarray'>
+24150000
+## 6723 6723 <class 'numpy.ndarray'>
+24200000
+## 7406 7406 <class 'numpy.ndarray'>
+24250000
+## 6539 6539 <class 'numpy.ndarray'>
+24300000
+## 2932 2932 <class 'numpy.ndarray'>
+24350000
+## 5656 5656 <class 'numpy.ndarray'>
+24400000
+## 6262 6262 <class 'numpy.ndarray'>
+24450000
+## 4116 4116 <class 'numpy.ndarray'>
+24500000
+## 3355 3355 <class 'numpy.ndarray'>
+24550000
+## 4768 4768 <class 'numpy.ndarray'>
+24600000
+## 4129 4129 <class 'numpy.ndarray'>
+24650000
+## 4172 4172 <class 'numpy.ndarray'>
+24700000
+## 3764 3764 <class 'numpy.ndarray'>
+24750000
+## 2372 2372 <class 'numpy.ndarray'>
+24800000
+## 3626 3626 <class 'numpy.ndarray'>
+24850000
+## 4538 4538 <class 'numpy.ndarray'>
+24900000
+## 4138 4138 <class 'numpy.ndarray'>
+24950000
+## 3862 3862 <class 'numpy.ndarray'>
+25000000
+## 4404 4404 <class 'numpy.ndarray'>
+25050000
+## 4300 4300 <class 'numpy.ndarray'>
+25100000
+## 4948 4948 <class 'numpy.ndarray'>
+25150000
+## 3624 3624 <class 'numpy.ndarray'>
+25200000
+## 2444 2444 <class 'numpy.ndarray'>
+25250000
+## 3231 3231 <class 'numpy.ndarray'>
+25300000
+## 4804 4804 <class 'numpy.ndarray'>
+25350000
+## 4191 4191 <class 'numpy.ndarray'>
+25400000
+## 6860 6860 <class 'numpy.ndarray'>
+25450000
+## 7928 7928 <class 'numpy.ndarray'>
+25500000
+## 6494 6494 <class 'numpy.ndarray'>
+25550000
+## 7018 7018 <class 'numpy.ndarray'>
+25600000
+## 6028 6028 <class 'numpy.ndarray'>
+25650000
+## 3954 3954 <class 'numpy.ndarray'>
+25700000
+## 5208 5208 <class 'numpy.ndarray'>
+25750000
+## 7204 7204 <class 'numpy.ndarray'>
+25800000
+## 6675 6675 <class 'numpy.ndarray'>
+25850000
+## 9470 9470 <class 'numpy.ndarray'>
+25900000
+## 8957 8957 <class 'numpy.ndarray'>
+25950000
+## 8586 8586 <class 'numpy.ndarray'>
+26000000
+## 10252 10252 <class 'numpy.ndarray'>
+26050000
+## 7476 7476 <class 'numpy.ndarray'>
+26100000
+## 6394 6394 <class 'numpy.ndarray'>
+26150000
+## 5957 5957 <class 'numpy.ndarray'>
+26200000
+## 9124 9124 <class 'numpy.ndarray'>
+26250000
+## 6017 6017 <class 'numpy.ndarray'>
+26300000
+## 7451 7451 <class 'numpy.ndarray'>
+26350000
+## 6523 6523 <class 'numpy.ndarray'>
+26400000
+## 7642 7642 <class 'numpy.ndarray'>
+26450000
+## 7167 7167 <class 'numpy.ndarray'>
+26500000
+## 5312 5312 <class 'numpy.ndarray'>
+26550000
+## 5681 5681 <class 'numpy.ndarray'>
+26600000
+## 5682 5682 <class 'numpy.ndarray'>
+26650000
+## 7142 7142 <class 'numpy.ndarray'>
+26700000
+## 5435 5435 <class 'numpy.ndarray'>
+26750000
+## 15684 15684 <class 'numpy.ndarray'>
+26800000
+## 14240 14240 <class 'numpy.ndarray'>
+26850000
+## 16625 16625 <class 'numpy.ndarray'>
+26900000
+## 15368 15368 <class 'numpy.ndarray'>
+26950000
+## 12435 12435 <class 'numpy.ndarray'>
+27000000
+## 12043 12043 <class 'numpy.ndarray'>
+27050000
+## 12879 12879 <class 'numpy.ndarray'>
+27100000
+## 15680 15680 <class 'numpy.ndarray'>
+27150000
+## 11342 11342 <class 'numpy.ndarray'>
+27200000
+## 5259 5259 <class 'numpy.ndarray'>
+27250000
+## 4784 4784 <class 'numpy.ndarray'>
+27300000
+## 5294 5294 <class 'numpy.ndarray'>
+27350000
+## 5103 5103 <class 'numpy.ndarray'>
+27400000
+## 5153 5153 <class 'numpy.ndarray'>
+27450000
+## 4892 4892 <class 'numpy.ndarray'>
+27500000
+## 4284 4284 <class 'numpy.ndarray'>
+27550000
+## 6415 6415 <class 'numpy.ndarray'>
+27600000
+## 3688 3688 <class 'numpy.ndarray'>
+27650000
+## 9327 9327 <class 'numpy.ndarray'>
+27700000
+## 9158 9158 <class 'numpy.ndarray'>
+27750000
+## 9775 9775 <class 'numpy.ndarray'>
+27800000
+## 9264 9264 <class 'numpy.ndarray'>
+27850000
+## 8551 8551 <class 'numpy.ndarray'>
+27900000
+## 7356 7356 <class 'numpy.ndarray'>
+27950000
+## 5883 5883 <class 'numpy.ndarray'>
+28000000
+## 9538 9538 <class 'numpy.ndarray'>
+28050000
+## 6303 6303 <class 'numpy.ndarray'>
+28100000
+## 6800 6800 <class 'numpy.ndarray'>
+28150000
+## 7033 7033 <class 'numpy.ndarray'>
+28200000
+## 5183 5183 <class 'numpy.ndarray'>
+28250000
+## 6173 6173 <class 'numpy.ndarray'>
+28300000
+## 6765 6765 <class 'numpy.ndarray'>
+28350000
+## 4369 4369 <class 'numpy.ndarray'>
+28400000
+## 1869 1869 <class 'numpy.ndarray'>
+28450000
+## 5623 5623 <class 'numpy.ndarray'>
+28500000
+## 5650 5650 <class 'numpy.ndarray'>
+28550000
+## 8429 8429 <class 'numpy.ndarray'>
+28600000
+## 7887 7887 <class 'numpy.ndarray'>
+28650000
+## 9129 9129 <class 'numpy.ndarray'>
+28700000
+## 8418 8418 <class 'numpy.ndarray'>
+28750000
+## 8620 8620 <class 'numpy.ndarray'>
+28800000
+## 6639 6639 <class 'numpy.ndarray'>
+28850000
+## 3737 3737 <class 'numpy.ndarray'>
+28900000
+## 8697 8697 <class 'numpy.ndarray'>
+28950000
+## 7055 7055 <class 'numpy.ndarray'>
+29000000
+## 7106 7106 <class 'numpy.ndarray'>
+29050000
+## 6319 6319 <class 'numpy.ndarray'>
+29100000
+## 7543 7543 <class 'numpy.ndarray'>
+29150000
+## 7404 7404 <class 'numpy.ndarray'>
+29200000
+## 6443 6443 <class 'numpy.ndarray'>
+29250000
+## 6286 6286 <class 'numpy.ndarray'>
+29300000
+## 4239 4239 <class 'numpy.ndarray'>
+29350000
+## 7375 7375 <class 'numpy.ndarray'>
+29400000
+## 5579 5579 <class 'numpy.ndarray'>
+29450000
+## 3507 3507 <class 'numpy.ndarray'>
+29500000
+## 2472 2472 <class 'numpy.ndarray'>
+29550000
+## 2680 2680 <class 'numpy.ndarray'>
+29600000
+## 2710 2710 <class 'numpy.ndarray'>
+29650000
+## 2540 2540 <class 'numpy.ndarray'>
+29700000
+## 2077 2077 <class 'numpy.ndarray'>
+29750000
+## 1158 1158 <class 'numpy.ndarray'>
+29800000
+## 2562 2562 <class 'numpy.ndarray'>
+29850000
+## 2235 2235 <class 'numpy.ndarray'>
+29900000
+## 1721 1721 <class 'numpy.ndarray'>
+Traceback (most recent call last):
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 414, in <module>
+    main()
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in main
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in <listcomp>
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+IndexError: list index out of range
+end 3
+Tue May 10 15:48:15 CEST 2022
+ 15:48:15 up 5 days,  7:01,  0 users,  load average: 2.40, 2.23, 2.08
+Tue May 10 15:48:15 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    72W /  70W |    151MiB / 15360MiB |     68%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   69C    P8    20W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    32W /  70W |      2MiB / 15360MiB |      3%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   38C    P8    14W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   36C    P8    14W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   39C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     43295      C   ...thon3/3.9.0/bin/python3.9      149MiB |
++-----------------------------------------------------------------------------+
+0
+## 2374 2374 <class 'numpy.ndarray'>
+50000
+## 2691 2691 <class 'numpy.ndarray'>
+100000
+## 3468 3468 <class 'numpy.ndarray'>
+150000
+## 2307 2307 <class 'numpy.ndarray'>
+200000
+## 2466 2466 <class 'numpy.ndarray'>
+250000
+## 2482 2482 <class 'numpy.ndarray'>
+300000
+## 1292 1292 <class 'numpy.ndarray'>
+350000
+## 2607 2607 <class 'numpy.ndarray'>
+400000
+## 1919 1919 <class 'numpy.ndarray'>
+450000
+## 6323 6323 <class 'numpy.ndarray'>
+500000
+## 5632 5632 <class 'numpy.ndarray'>
+550000
+## 6533 6533 <class 'numpy.ndarray'>
+600000
+## 5746 5746 <class 'numpy.ndarray'>
+650000
+## 6267 6267 <class 'numpy.ndarray'>
+700000
+## 5070 5070 <class 'numpy.ndarray'>
+750000
+## 2643 2643 <class 'numpy.ndarray'>
+800000
+## 5864 5864 <class 'numpy.ndarray'>
+850000
+## 3663 3663 <class 'numpy.ndarray'>
+900000
+## 4877 4877 <class 'numpy.ndarray'>
+950000
+## 4898 4898 <class 'numpy.ndarray'>
+1000000
+## 5293 5293 <class 'numpy.ndarray'>
+1050000
+## 4668 4668 <class 'numpy.ndarray'>
+1100000
+## 4925 4925 <class 'numpy.ndarray'>
+1150000
+## 3818 3818 <class 'numpy.ndarray'>
+1200000
+## 2462 2462 <class 'numpy.ndarray'>
+1250000
+## 4869 4869 <class 'numpy.ndarray'>
+1300000
+## 4428 4428 <class 'numpy.ndarray'>
+1350000
+## 3729 3729 <class 'numpy.ndarray'>
+1400000
+## 4116 4116 <class 'numpy.ndarray'>
+1450000
+## 4380 4380 <class 'numpy.ndarray'>
+1500000
+## 4132 4132 <class 'numpy.ndarray'>
+1550000
+## 4195 4195 <class 'numpy.ndarray'>
+1600000
+## 4017 4017 <class 'numpy.ndarray'>
+1650000
+## 2972 2972 <class 'numpy.ndarray'>
+1700000
+## 4104 4104 <class 'numpy.ndarray'>
+1750000
+## 3205 3205 <class 'numpy.ndarray'>
+1800000
+## 6746 6746 <class 'numpy.ndarray'>
+1850000
+## 7033 7033 <class 'numpy.ndarray'>
+1900000
+## 7704 7704 <class 'numpy.ndarray'>
+1950000
+## 8377 8377 <class 'numpy.ndarray'>
+2000000
+## 8379 8379 <class 'numpy.ndarray'>
+2050000
+## 6982 6982 <class 'numpy.ndarray'>
+2100000
+## 3889 3889 <class 'numpy.ndarray'>
+2150000
+## 6851 6851 <class 'numpy.ndarray'>
+2200000
+## 6383 6383 <class 'numpy.ndarray'>
+2250000
+## 5775 5775 <class 'numpy.ndarray'>
+2300000
+## 6182 6182 <class 'numpy.ndarray'>
+2350000
+## 5840 5840 <class 'numpy.ndarray'>
+2400000
+## 5558 5558 <class 'numpy.ndarray'>
+2450000
+## 5890 5890 <class 'numpy.ndarray'>
+2500000
+## 5116 5116 <class 'numpy.ndarray'>
+2550000
+## 1830 1830 <class 'numpy.ndarray'>
+2600000
+## 5653 5653 <class 'numpy.ndarray'>
+2650000
+## 4643 4643 <class 'numpy.ndarray'>
+2700000
+## 11920 11920 <class 'numpy.ndarray'>
+2750000
+## 13334 13334 <class 'numpy.ndarray'>
+2800000
+## 16101 16101 <class 'numpy.ndarray'>
+2850000
+## 14990 14990 <class 'numpy.ndarray'>
+2900000
+## 13639 13639 <class 'numpy.ndarray'>
+2950000
+## 14400 14400 <class 'numpy.ndarray'>
+3000000
+## 11744 11744 <class 'numpy.ndarray'>
+3050000
+## 15967 15967 <class 'numpy.ndarray'>
+3100000
+## 12691 12691 <class 'numpy.ndarray'>
+3150000
+## 12665 12665 <class 'numpy.ndarray'>
+3200000
+## 11843 11843 <class 'numpy.ndarray'>
+3250000
+## 15188 15188 <class 'numpy.ndarray'>
+3300000
+## 13807 13807 <class 'numpy.ndarray'>
+3350000
+## 12985 12985 <class 'numpy.ndarray'>
+3400000
+## 14175 14175 <class 'numpy.ndarray'>
+3450000
+## 9714 9714 <class 'numpy.ndarray'>
+3500000
+## 11063 11063 <class 'numpy.ndarray'>
+3550000
+## 11915 11915 <class 'numpy.ndarray'>
+3600000
+## 4521 4521 <class 'numpy.ndarray'>
+3650000
+## 475 475 <class 'numpy.ndarray'>
+3700000
+## 485 485 <class 'numpy.ndarray'>
+3750000
+## 483 483 <class 'numpy.ndarray'>
+3800000
+## 523 523 <class 'numpy.ndarray'>
+3850000
+## 427 427 <class 'numpy.ndarray'>
+3900000
+## 1372 1372 <class 'numpy.ndarray'>
+3950000
+## 857 857 <class 'numpy.ndarray'>
+4000000
+## 429 429 <class 'numpy.ndarray'>
+4050000
+## 4688 4688 <class 'numpy.ndarray'>
+4100000
+## 9230 9230 <class 'numpy.ndarray'>
+4150000
+## 12047 12047 <class 'numpy.ndarray'>
+4200000
+## 10784 10784 <class 'numpy.ndarray'>
+4250000
+## 10715 10715 <class 'numpy.ndarray'>
+4300000
+## 9774 9774 <class 'numpy.ndarray'>
+4350000
+## 6228 6228 <class 'numpy.ndarray'>
+4400000
+## 8026 8026 <class 'numpy.ndarray'>
+4450000
+## 11296 11296 <class 'numpy.ndarray'>
+4500000
+## 8057 8057 <class 'numpy.ndarray'>
+4550000
+## 9126 9126 <class 'numpy.ndarray'>
+4600000
+## 10902 10902 <class 'numpy.ndarray'>
+4650000
+## 10894 10894 <class 'numpy.ndarray'>
+4700000
+## 9527 9527 <class 'numpy.ndarray'>
+4750000
+## 9748 9748 <class 'numpy.ndarray'>
+4800000
+## 7358 7358 <class 'numpy.ndarray'>
+4850000
+## 6690 6690 <class 'numpy.ndarray'>
+4900000
+## 10708 10708 <class 'numpy.ndarray'>
+4950000
+## 7066 7066 <class 'numpy.ndarray'>
+5000000
+## 10380 10380 <class 'numpy.ndarray'>
+5050000
+## 9307 9307 <class 'numpy.ndarray'>
+5100000
+## 11058 11058 <class 'numpy.ndarray'>
+5150000
+## 11405 11405 <class 'numpy.ndarray'>
+5200000
+## 9217 9217 <class 'numpy.ndarray'>
+5250000
+## 6809 6809 <class 'numpy.ndarray'>
+5300000
+## 6592 6592 <class 'numpy.ndarray'>
+5350000
+## 9565 9565 <class 'numpy.ndarray'>
+5400000
+## 5880 5880 <class 'numpy.ndarray'>
+5450000
+## 4122 4122 <class 'numpy.ndarray'>
+5500000
+## 3918 3918 <class 'numpy.ndarray'>
+5550000
+## 3792 3792 <class 'numpy.ndarray'>
+5600000
+## 3966 3966 <class 'numpy.ndarray'>
+5650000
+## 3034 3034 <class 'numpy.ndarray'>
+5700000
+## 2272 2272 <class 'numpy.ndarray'>
+5750000
+## 3161 3161 <class 'numpy.ndarray'>
+5800000
+## 4055 4055 <class 'numpy.ndarray'>
+5850000
+## 3633 3633 <class 'numpy.ndarray'>
+5900000
+## 9009 9009 <class 'numpy.ndarray'>
+5950000
+## 7883 7883 <class 'numpy.ndarray'>
+6000000
+## 10234 10234 <class 'numpy.ndarray'>
+6050000
+## 10105 10105 <class 'numpy.ndarray'>
+6100000
+## 7629 7629 <class 'numpy.ndarray'>
+6150000
+## 6421 6421 <class 'numpy.ndarray'>
+6200000
+## 6430 6430 <class 'numpy.ndarray'>
+6250000
+## 7970 7970 <class 'numpy.ndarray'>
+6300000
+## 5783 5783 <class 'numpy.ndarray'>
+6350000
+## 13844 13844 <class 'numpy.ndarray'>
+6400000
+## 13181 13181 <class 'numpy.ndarray'>
+6450000
+## 14424 14424 <class 'numpy.ndarray'>
+6500000
+## 12667 12667 <class 'numpy.ndarray'>
+6550000
+## 11046 11046 <class 'numpy.ndarray'>
+6600000
+## 9845 9845 <class 'numpy.ndarray'>
+6650000
+## 10510 10510 <class 'numpy.ndarray'>
+6700000
+## 14990 14990 <class 'numpy.ndarray'>
+6750000
+## 10960 10960 <class 'numpy.ndarray'>
+6800000
+## 1656 1656 <class 'numpy.ndarray'>
+6850000
+## 1168 1168 <class 'numpy.ndarray'>
+6900000
+## 979 979 <class 'numpy.ndarray'>
+6950000
+## 1338 1338 <class 'numpy.ndarray'>
+7000000
+## 1282 1282 <class 'numpy.ndarray'>
+7050000
+## 357 357 <class 'numpy.ndarray'>
+7100000
+## 476 476 <class 'numpy.ndarray'>
+7150000
+## 1912 1912 <class 'numpy.ndarray'>
+7200000
+## 876 876 <class 'numpy.ndarray'>
+7250000
+## 7640 7640 <class 'numpy.ndarray'>
+7300000
+## 6676 6676 <class 'numpy.ndarray'>
+7350000
+## 8259 8259 <class 'numpy.ndarray'>
+7400000
+## 8035 8035 <class 'numpy.ndarray'>
+7450000
+## 7507 7507 <class 'numpy.ndarray'>
+7500000
+## 7408 7408 <class 'numpy.ndarray'>
+7550000
+## 5930 5930 <class 'numpy.ndarray'>
+7600000
+## 8495 8495 <class 'numpy.ndarray'>
+7650000
+## 5105 5105 <class 'numpy.ndarray'>
+7700000
+## 1186 1186 <class 'numpy.ndarray'>
+7750000
+## 1143 1143 <class 'numpy.ndarray'>
+7800000
+## 1133 1133 <class 'numpy.ndarray'>
+7850000
+## 1261 1261 <class 'numpy.ndarray'>
+7900000
+## 1034 1034 <class 'numpy.ndarray'>
+7950000
+## 865 865 <class 'numpy.ndarray'>
+8000000
+## 2083 2083 <class 'numpy.ndarray'>
+8050000
+## 1409 1409 <class 'numpy.ndarray'>
+8100000
+## 1014 1014 <class 'numpy.ndarray'>
+8150000
+## 5208 5208 <class 'numpy.ndarray'>
+8200000
+## 5729 5729 <class 'numpy.ndarray'>
+8250000
+## 5855 5855 <class 'numpy.ndarray'>
+8300000
+## 5453 5453 <class 'numpy.ndarray'>
+8350000
+## 5666 5666 <class 'numpy.ndarray'>
+8400000
+## 5344 5344 <class 'numpy.ndarray'>
+8450000
+## 5206 5206 <class 'numpy.ndarray'>
+8500000
+## 5734 5734 <class 'numpy.ndarray'>
+8550000
+## 3903 3903 <class 'numpy.ndarray'>
+8600000
+## 8967 8967 <class 'numpy.ndarray'>
+8650000
+## 9232 9232 <class 'numpy.ndarray'>
+8700000
+## 11093 11093 <class 'numpy.ndarray'>
+8750000
+## 10734 10734 <class 'numpy.ndarray'>
+8800000
+## 10058 10058 <class 'numpy.ndarray'>
+8850000
+## 10261 10261 <class 'numpy.ndarray'>
+8900000
+## 5746 5746 <class 'numpy.ndarray'>
+8950000
+## 9921 9921 <class 'numpy.ndarray'>
+9000000
+## 7829 7829 <class 'numpy.ndarray'>
+9050000
+## 4904 4904 <class 'numpy.ndarray'>
+9100000
+## 5636 5636 <class 'numpy.ndarray'>
+9150000
+## 5282 5282 <class 'numpy.ndarray'>
+9200000
+## 5242 5242 <class 'numpy.ndarray'>
+9250000
+## 4723 4723 <class 'numpy.ndarray'>
+9300000
+## 5233 5233 <class 'numpy.ndarray'>
+9350000
+## 1797 1797 <class 'numpy.ndarray'>
+9400000
+## 5069 5069 <class 'numpy.ndarray'>
+9450000
+## 4159 4159 <class 'numpy.ndarray'>
+9500000
+## 5022 5022 <class 'numpy.ndarray'>
+9550000
+## 4062 4062 <class 'numpy.ndarray'>
+9600000
+## 5387 5387 <class 'numpy.ndarray'>
+9650000
+## 4779 4779 <class 'numpy.ndarray'>
+9700000
+## 4650 4650 <class 'numpy.ndarray'>
+9750000
+## 4337 4337 <class 'numpy.ndarray'>
+9800000
+## 4110 4110 <class 'numpy.ndarray'>
+9850000
+## 3671 3671 <class 'numpy.ndarray'>
+9900000
+## 4007 4007 <class 'numpy.ndarray'>
+9950000
+## 5166 5166 <class 'numpy.ndarray'>
+10000000
+## 6867 6867 <class 'numpy.ndarray'>
+10050000
+## 8137 8137 <class 'numpy.ndarray'>
+10100000
+## 7917 7917 <class 'numpy.ndarray'>
+10150000
+## 7267 7267 <class 'numpy.ndarray'>
+10200000
+## 7011 7011 <class 'numpy.ndarray'>
+10250000
+## 4669 4669 <class 'numpy.ndarray'>
+10300000
+## 6582 6582 <class 'numpy.ndarray'>
+10350000
+## 7449 7449 <class 'numpy.ndarray'>
+10400000
+## 8969 8969 <class 'numpy.ndarray'>
+10450000
+## 10673 10673 <class 'numpy.ndarray'>
+10500000
+## 12734 12734 <class 'numpy.ndarray'>
+10550000
+## 11899 11899 <class 'numpy.ndarray'>
+10600000
+## 11773 11773 <class 'numpy.ndarray'>
+10650000
+## 11313 11313 <class 'numpy.ndarray'>
+10700000
+## 6924 6924 <class 'numpy.ndarray'>
+10750000
+## 10285 10285 <class 'numpy.ndarray'>
+10800000
+## 11366 11366 <class 'numpy.ndarray'>
+10850000
+## 4833 4833 <class 'numpy.ndarray'>
+10900000
+## 188 188 <class 'numpy.ndarray'>
+10950000
+## 185 185 <class 'numpy.ndarray'>
+11000000
+## 44 44 <class 'numpy.ndarray'>
+11050000
+## 246 246 <class 'numpy.ndarray'>
+11100000
+## 341 341 <class 'numpy.ndarray'>
+11150000
+## 43 43 <class 'numpy.ndarray'>
+11200000
+## 51 51 <class 'numpy.ndarray'>
+11250000
+## 122 122 <class 'numpy.ndarray'>
+11300000
+## 2316 2316 <class 'numpy.ndarray'>
+11350000
+## 6500 6500 <class 'numpy.ndarray'>
+11400000
+## 7547 7547 <class 'numpy.ndarray'>
+11450000
+## 6404 6404 <class 'numpy.ndarray'>
+11500000
+## 7247 7247 <class 'numpy.ndarray'>
+11550000
+## 6955 6955 <class 'numpy.ndarray'>
+11600000
+## 4242 4242 <class 'numpy.ndarray'>
+11650000
+## 4614 4614 <class 'numpy.ndarray'>
+11700000
+## 7164 7164 <class 'numpy.ndarray'>
+11750000
+## 3952 3952 <class 'numpy.ndarray'>
+11800000
+## 4982 4982 <class 'numpy.ndarray'>
+11850000
+## 5422 5422 <class 'numpy.ndarray'>
+11900000
+## 5069 5069 <class 'numpy.ndarray'>
+11950000
+## 4385 4385 <class 'numpy.ndarray'>
+12000000
+## 4191 4191 <class 'numpy.ndarray'>
+12050000
+## 4645 4645 <class 'numpy.ndarray'>
+12100000
+## 4375 4375 <class 'numpy.ndarray'>
+12150000
+## 4779 4779 <class 'numpy.ndarray'>
+12200000
+## 3692 3692 <class 'numpy.ndarray'>
+12250000
+## 4940 4940 <class 'numpy.ndarray'>
+12300000
+## 6282 6282 <class 'numpy.ndarray'>
+12350000
+## 5625 5625 <class 'numpy.ndarray'>
+12400000
+## 5393 5393 <class 'numpy.ndarray'>
+12450000
+## 5062 5062 <class 'numpy.ndarray'>
+12500000
+## 3854 3854 <class 'numpy.ndarray'>
+12550000
+## 3350 3350 <class 'numpy.ndarray'>
+12600000
+## 5252 5252 <class 'numpy.ndarray'>
+12650000
+## 3284 3284 <class 'numpy.ndarray'>
+12700000
+## 1538 1538 <class 'numpy.ndarray'>
+12750000
+## 1845 1845 <class 'numpy.ndarray'>
+12800000
+## 1572 1572 <class 'numpy.ndarray'>
+12850000
+## 1653 1653 <class 'numpy.ndarray'>
+12900000
+## 2287 2287 <class 'numpy.ndarray'>
+12950000
+## 1250 1250 <class 'numpy.ndarray'>
+13000000
+## 1233 1233 <class 'numpy.ndarray'>
+13050000
+## 2039 2039 <class 'numpy.ndarray'>
+13100000
+## 1892 1892 <class 'numpy.ndarray'>
+13150000
+## 7776 7776 <class 'numpy.ndarray'>
+13200000
+## 8162 8162 <class 'numpy.ndarray'>
+13250000
+## 8054 8054 <class 'numpy.ndarray'>
+13300000
+## 8465 8465 <class 'numpy.ndarray'>
+13350000
+## 6495 6495 <class 'numpy.ndarray'>
+13400000
+## 6387 6387 <class 'numpy.ndarray'>
+13450000
+## 7134 7134 <class 'numpy.ndarray'>
+13500000
+## 8025 8025 <class 'numpy.ndarray'>
+13550000
+## 5491 5491 <class 'numpy.ndarray'>
+13600000
+## 11626 11626 <class 'numpy.ndarray'>
+13650000
+## 11066 11066 <class 'numpy.ndarray'>
+13700000
+## 12887 12887 <class 'numpy.ndarray'>
+13750000
+## 12253 12253 <class 'numpy.ndarray'>
+13800000
+## 11170 11170 <class 'numpy.ndarray'>
+13850000
+## 9503 9503 <class 'numpy.ndarray'>
+13900000
+## 6566 6566 <class 'numpy.ndarray'>
+13950000
+## 11988 11988 <class 'numpy.ndarray'>
+14000000
+## 7872 7872 <class 'numpy.ndarray'>
+14050000
+## 9867 9867 <class 'numpy.ndarray'>
+14100000
+## 9782 9782 <class 'numpy.ndarray'>
+14150000
+## 9430 9430 <class 'numpy.ndarray'>
+14200000
+## 10036 10036 <class 'numpy.ndarray'>
+14250000
+## 9254 9254 <class 'numpy.ndarray'>
+14300000
+## 6768 6768 <class 'numpy.ndarray'>
+14350000
+## 3531 3531 <class 'numpy.ndarray'>
+14400000
+## 8921 8921 <class 'numpy.ndarray'>
+14450000
+## 6786 6786 <class 'numpy.ndarray'>
+14500000
+## 3937 3937 <class 'numpy.ndarray'>
+14550000
+## 3145 3145 <class 'numpy.ndarray'>
+14600000
+## 3327 3327 <class 'numpy.ndarray'>
+14650000
+## 3291 3291 <class 'numpy.ndarray'>
+14700000
+## 3388 3388 <class 'numpy.ndarray'>
+14750000
+## 4319 4319 <class 'numpy.ndarray'>
+14800000
+## 2335 2335 <class 'numpy.ndarray'>
+14850000
+## 3572 3572 <class 'numpy.ndarray'>
+14900000
+## 2258 2258 <class 'numpy.ndarray'>
+14950000
+## 3388 3388 <class 'numpy.ndarray'>
+15000000
+## 3189 3189 <class 'numpy.ndarray'>
+15050000
+## 4105 4105 <class 'numpy.ndarray'>
+15100000
+## 3461 3461 <class 'numpy.ndarray'>
+15150000
+## 2962 2962 <class 'numpy.ndarray'>
+15200000
+## 2832 2832 <class 'numpy.ndarray'>
+15250000
+## 2043 2043 <class 'numpy.ndarray'>
+15300000
+## 3144 3144 <class 'numpy.ndarray'>
+15350000
+## 2455 2455 <class 'numpy.ndarray'>
+15400000
+## 3018 3018 <class 'numpy.ndarray'>
+15450000
+## 3689 3689 <class 'numpy.ndarray'>
+15500000
+## 4663 4663 <class 'numpy.ndarray'>
+15550000
+## 4116 4116 <class 'numpy.ndarray'>
+15600000
+## 3874 3874 <class 'numpy.ndarray'>
+15650000
+## 4042 4042 <class 'numpy.ndarray'>
+15700000
+## 5804 5804 <class 'numpy.ndarray'>
+15750000
+## 4652 4652 <class 'numpy.ndarray'>
+15800000
+## 3010 3010 <class 'numpy.ndarray'>
+15850000
+## 9182 9182 <class 'numpy.ndarray'>
+15900000
+## 11107 11107 <class 'numpy.ndarray'>
+15950000
+## 13182 13182 <class 'numpy.ndarray'>
+16000000
+## 10443 10443 <class 'numpy.ndarray'>
+16050000
+## 10646 10646 <class 'numpy.ndarray'>
+16100000
+## 12350 12350 <class 'numpy.ndarray'>
+16150000
+## 8245 8245 <class 'numpy.ndarray'>
+16200000
+## 10872 10872 <class 'numpy.ndarray'>
+16250000
+## 9344 9344 <class 'numpy.ndarray'>
+16300000
+## 9180 9180 <class 'numpy.ndarray'>
+16350000
+## 9739 9739 <class 'numpy.ndarray'>
+16400000
+## 11116 11116 <class 'numpy.ndarray'>
+16450000
+## 10106 10106 <class 'numpy.ndarray'>
+16500000
+## 11164 11164 <class 'numpy.ndarray'>
+16550000
+## 10776 10776 <class 'numpy.ndarray'>
+16600000
+## 7308 7308 <class 'numpy.ndarray'>
+16650000
+## 8912 8912 <class 'numpy.ndarray'>
+16700000
+## 9114 9114 <class 'numpy.ndarray'>
+16750000
+## 6322 6322 <class 'numpy.ndarray'>
+16800000
+## 6074 6074 <class 'numpy.ndarray'>
+16850000
+## 7152 7152 <class 'numpy.ndarray'>
+16900000
+## 6750 6750 <class 'numpy.ndarray'>
+16950000
+## 5867 5867 <class 'numpy.ndarray'>
+17000000
+## 6820 6820 <class 'numpy.ndarray'>
+17050000
+## 3043 3043 <class 'numpy.ndarray'>
+17100000
+## 5063 5063 <class 'numpy.ndarray'>
+17150000
+## 6189 6189 <class 'numpy.ndarray'>
+17200000
+## 6419 6419 <class 'numpy.ndarray'>
+17250000
+## 6189 6189 <class 'numpy.ndarray'>
+17300000
+## 9185 9185 <class 'numpy.ndarray'>
+17350000
+## 6949 6949 <class 'numpy.ndarray'>
+17400000
+## 7150 7150 <class 'numpy.ndarray'>
+17450000
+## 7558 7558 <class 'numpy.ndarray'>
+17500000
+## 4731 4731 <class 'numpy.ndarray'>
+17550000
+## 7924 7924 <class 'numpy.ndarray'>
+17600000
+## 7031 7031 <class 'numpy.ndarray'>
+17650000
+## 7280 7280 <class 'numpy.ndarray'>
+17700000
+## 11199 11199 <class 'numpy.ndarray'>
+17750000
+## 9273 9273 <class 'numpy.ndarray'>
+17800000
+## 7373 7373 <class 'numpy.ndarray'>
+17850000
+## 11813 11813 <class 'numpy.ndarray'>
+17900000
+## 9832 9832 <class 'numpy.ndarray'>
+17950000
+## 4054 4054 <class 'numpy.ndarray'>
+18000000
+## 5242 5242 <class 'numpy.ndarray'>
+18050000
+## 8596 8596 <class 'numpy.ndarray'>
+18100000
+## 7532 7532 <class 'numpy.ndarray'>
+18150000
+## 5871 5871 <class 'numpy.ndarray'>
+18200000
+## 7251 7251 <class 'numpy.ndarray'>
+18250000
+## 6772 6772 <class 'numpy.ndarray'>
+18300000
+## 5911 5911 <class 'numpy.ndarray'>
+18350000
+## 5693 5693 <class 'numpy.ndarray'>
+18400000
+## 4268 4268 <class 'numpy.ndarray'>
+18450000
+## 5008 5008 <class 'numpy.ndarray'>
+18500000
+## 6751 6751 <class 'numpy.ndarray'>
+18550000
+## 6740 6740 <class 'numpy.ndarray'>
+18600000
+## 10580 10580 <class 'numpy.ndarray'>
+18650000
+## 11507 11507 <class 'numpy.ndarray'>
+18700000
+## 12049 12049 <class 'numpy.ndarray'>
+18750000
+## 11085 11085 <class 'numpy.ndarray'>
+18800000
+## 10023 10023 <class 'numpy.ndarray'>
+18850000
+## 7804 7804 <class 'numpy.ndarray'>
+18900000
+## 6880 6880 <class 'numpy.ndarray'>
+18950000
+## 10985 10985 <class 'numpy.ndarray'>
+19000000
+## 6701 6701 <class 'numpy.ndarray'>
+19050000
+## 6529 6529 <class 'numpy.ndarray'>
+19100000
+## 6984 6984 <class 'numpy.ndarray'>
+19150000
+## 5887 5887 <class 'numpy.ndarray'>
+19200000
+## 6633 6633 <class 'numpy.ndarray'>
+19250000
+## 6409 6409 <class 'numpy.ndarray'>
+19300000
+## 3472 3472 <class 'numpy.ndarray'>
+19350000
+## 5825 5825 <class 'numpy.ndarray'>
+19400000
+## 7033 7033 <class 'numpy.ndarray'>
+19450000
+## 5157 5157 <class 'numpy.ndarray'>
+19500000
+## 1617 1617 <class 'numpy.ndarray'>
+19550000
+## 2390 2390 <class 'numpy.ndarray'>
+19600000
+## 1885 1885 <class 'numpy.ndarray'>
+19650000
+## 1694 1694 <class 'numpy.ndarray'>
+19700000
+## 1617 1617 <class 'numpy.ndarray'>
+19750000
+## 1039 1039 <class 'numpy.ndarray'>
+19800000
+## 867 867 <class 'numpy.ndarray'>
+19850000
+## 1735 1735 <class 'numpy.ndarray'>
+19900000
+## 1982 1982 <class 'numpy.ndarray'>
+19950000
+## 8960 8960 <class 'numpy.ndarray'>
+20000000
+## 8061 8061 <class 'numpy.ndarray'>
+20050000
+## 8677 8677 <class 'numpy.ndarray'>
+20100000
+## 8533 8533 <class 'numpy.ndarray'>
+20150000
+## 6977 6977 <class 'numpy.ndarray'>
+20200000
+## 7051 7051 <class 'numpy.ndarray'>
+20250000
+## 6137 6137 <class 'numpy.ndarray'>
+20300000
+## 8600 8600 <class 'numpy.ndarray'>
+20350000
+## 5790 5790 <class 'numpy.ndarray'>
+20400000
+## 981 981 <class 'numpy.ndarray'>
+20450000
+## 840 840 <class 'numpy.ndarray'>
+20500000
+## 1067 1067 <class 'numpy.ndarray'>
+20550000
+## 1011 1011 <class 'numpy.ndarray'>
+20600000
+## 968 968 <class 'numpy.ndarray'>
+20650000
+## 771 771 <class 'numpy.ndarray'>
+20700000
+## 1977 1977 <class 'numpy.ndarray'>
+20750000
+## 1190 1190 <class 'numpy.ndarray'>
+20800000
+## 767 767 <class 'numpy.ndarray'>
+20850000
+## 12398 12398 <class 'numpy.ndarray'>
+20900000
+## 11371 11371 <class 'numpy.ndarray'>
+20950000
+## 13090 13090 <class 'numpy.ndarray'>
+21000000
+## 11572 11572 <class 'numpy.ndarray'>
+21050000
+## 10988 10988 <class 'numpy.ndarray'>
+21100000
+## 9852 9852 <class 'numpy.ndarray'>
+21150000
+## 8273 8273 <class 'numpy.ndarray'>
+21200000
+## 11656 11656 <class 'numpy.ndarray'>
+21250000
+## 8723 8723 <class 'numpy.ndarray'>
+21300000
+## 8184 8184 <class 'numpy.ndarray'>
+21350000
+## 9755 9755 <class 'numpy.ndarray'>
+21400000
+## 9849 9849 <class 'numpy.ndarray'>
+21450000
+## 9741 9741 <class 'numpy.ndarray'>
+21500000
+## 8394 8394 <class 'numpy.ndarray'>
+21550000
+## 7658 7658 <class 'numpy.ndarray'>
+21600000
+## 3957 3957 <class 'numpy.ndarray'>
+21650000
+## 8759 8759 <class 'numpy.ndarray'>
+21700000
+## 5265 5265 <class 'numpy.ndarray'>
+21750000
+## 6980 6980 <class 'numpy.ndarray'>
+21800000
+## 8369 8369 <class 'numpy.ndarray'>
+21850000
+## 8803 8803 <class 'numpy.ndarray'>
+21900000
+## 9000 9000 <class 'numpy.ndarray'>
+21950000
+## 7300 7300 <class 'numpy.ndarray'>
+22000000
+## 6294 6294 <class 'numpy.ndarray'>
+22050000
+## 3565 3565 <class 'numpy.ndarray'>
+22100000
+## 8749 8749 <class 'numpy.ndarray'>
+22150000
+## 6622 6622 <class 'numpy.ndarray'>
+22200000
+## 8396 8396 <class 'numpy.ndarray'>
+22250000
+## 7247 7247 <class 'numpy.ndarray'>
+22300000
+## 9122 9122 <class 'numpy.ndarray'>
+22350000
+## 10185 10185 <class 'numpy.ndarray'>
+22400000
+## 7794 7794 <class 'numpy.ndarray'>
+22450000
+## 8079 8079 <class 'numpy.ndarray'>
+22500000
+## 3882 3882 <class 'numpy.ndarray'>
+22550000
+## 7767 7767 <class 'numpy.ndarray'>
+22600000
+## 6124 6124 <class 'numpy.ndarray'>
+22650000
+## 3196 3196 <class 'numpy.ndarray'>
+22700000
+## 2461 2461 <class 'numpy.ndarray'>
+22750000
+## 2229 2229 <class 'numpy.ndarray'>
+22800000
+## 2169 2169 <class 'numpy.ndarray'>
+22850000
+## 2900 2900 <class 'numpy.ndarray'>
+22900000
+## 2059 2059 <class 'numpy.ndarray'>
+22950000
+## 488 488 <class 'numpy.ndarray'>
+23000000
+## 2123 2123 <class 'numpy.ndarray'>
+23050000
+## 2447 2447 <class 'numpy.ndarray'>
+23100000
+## 3870 3870 <class 'numpy.ndarray'>
+23150000
+## 4974 4974 <class 'numpy.ndarray'>
+23200000
+## 5293 5293 <class 'numpy.ndarray'>
+23250000
+## 4111 4111 <class 'numpy.ndarray'>
+23300000
+## 4697 4697 <class 'numpy.ndarray'>
+23350000
+## 5009 5009 <class 'numpy.ndarray'>
+23400000
+## 1667 1667 <class 'numpy.ndarray'>
+23450000
+## 4427 4427 <class 'numpy.ndarray'>
+23500000
+## 4102 4102 <class 'numpy.ndarray'>
+23550000
+## 4322 4322 <class 'numpy.ndarray'>
+23600000
+## 7153 7153 <class 'numpy.ndarray'>
+23650000
+## 4949 4949 <class 'numpy.ndarray'>
+23700000
+## 3892 3892 <class 'numpy.ndarray'>
+23750000
+## 6027 6027 <class 'numpy.ndarray'>
+23800000
+## 4191 4191 <class 'numpy.ndarray'>
+23850000
+## 1247 1247 <class 'numpy.ndarray'>
+23900000
+## 3511 3511 <class 'numpy.ndarray'>
+23950000
+## 4530 4530 <class 'numpy.ndarray'>
+24000000
+## 3890 3890 <class 'numpy.ndarray'>
+24050000
+## 2281 2281 <class 'numpy.ndarray'>
+24100000
+## 2652 2652 <class 'numpy.ndarray'>
+24150000
+## 1994 1994 <class 'numpy.ndarray'>
+24200000
+## 2630 2630 <class 'numpy.ndarray'>
+24250000
+## 2261 2261 <class 'numpy.ndarray'>
+24300000
+## 1323 1323 <class 'numpy.ndarray'>
+24350000
+## 1879 1879 <class 'numpy.ndarray'>
+24400000
+## 2013 2013 <class 'numpy.ndarray'>
+24450000
+## 5284 5284 <class 'numpy.ndarray'>
+24500000
+## 8538 8538 <class 'numpy.ndarray'>
+24550000
+## 11681 11681 <class 'numpy.ndarray'>
+24600000
+## 9573 9573 <class 'numpy.ndarray'>
+24650000
+## 9634 9634 <class 'numpy.ndarray'>
+24700000
+## 8738 8738 <class 'numpy.ndarray'>
+24750000
+## 6087 6087 <class 'numpy.ndarray'>
+24800000
+## 6596 6596 <class 'numpy.ndarray'>
+24850000
+## 8132 8132 <class 'numpy.ndarray'>
+24900000
+## 5156 5156 <class 'numpy.ndarray'>
+24950000
+## 3770 3770 <class 'numpy.ndarray'>
+25000000
+## 4877 4877 <class 'numpy.ndarray'>
+25050000
+## 4245 4245 <class 'numpy.ndarray'>
+25100000
+## 3557 3557 <class 'numpy.ndarray'>
+25150000
+## 3097 3097 <class 'numpy.ndarray'>
+25200000
+## 2234 2234 <class 'numpy.ndarray'>
+25250000
+## 2745 2745 <class 'numpy.ndarray'>
+25300000
+## 4080 4080 <class 'numpy.ndarray'>
+25350000
+## 4764 4764 <class 'numpy.ndarray'>
+25400000
+## 9515 9515 <class 'numpy.ndarray'>
+25450000
+## 9992 9992 <class 'numpy.ndarray'>
+25500000
+## 10240 10240 <class 'numpy.ndarray'>
+25550000
+## 9574 9574 <class 'numpy.ndarray'>
+25600000
+## 9102 9102 <class 'numpy.ndarray'>
+25650000
+## 6621 6621 <class 'numpy.ndarray'>
+25700000
+## 7558 7558 <class 'numpy.ndarray'>
+25750000
+## 9637 9637 <class 'numpy.ndarray'>
+25800000
+## 5314 5314 <class 'numpy.ndarray'>
+25850000
+## 4001 4001 <class 'numpy.ndarray'>
+25900000
+## 4244 4244 <class 'numpy.ndarray'>
+25950000
+## 4970 4970 <class 'numpy.ndarray'>
+26000000
+## 3863 3863 <class 'numpy.ndarray'>
+26050000
+## 3231 3231 <class 'numpy.ndarray'>
+26100000
+## 3569 3569 <class 'numpy.ndarray'>
+26150000
+## 4909 4909 <class 'numpy.ndarray'>
+26200000
+## 4762 4762 <class 'numpy.ndarray'>
+26250000
+## 4340 4340 <class 'numpy.ndarray'>
+26300000
+## 11799 11799 <class 'numpy.ndarray'>
+26350000
+## 11470 11470 <class 'numpy.ndarray'>
+26400000
+## 12735 12735 <class 'numpy.ndarray'>
+26450000
+## 12714 12714 <class 'numpy.ndarray'>
+26500000
+## 10314 10314 <class 'numpy.ndarray'>
+26550000
+## 8390 8390 <class 'numpy.ndarray'>
+26600000
+## 9774 9774 <class 'numpy.ndarray'>
+26650000
+## 12145 12145 <class 'numpy.ndarray'>
+26700000
+## 7291 7291 <class 'numpy.ndarray'>
+26750000
+## 9056 9056 <class 'numpy.ndarray'>
+26800000
+## 9779 9779 <class 'numpy.ndarray'>
+26850000
+## 11264 11264 <class 'numpy.ndarray'>
+26900000
+## 10521 10521 <class 'numpy.ndarray'>
+26950000
+## 8884 8884 <class 'numpy.ndarray'>
+27000000
+## 7382 7382 <class 'numpy.ndarray'>
+27050000
+## 6523 6523 <class 'numpy.ndarray'>
+27100000
+## 9518 9518 <class 'numpy.ndarray'>
+27150000
+## 6169 6169 <class 'numpy.ndarray'>
+27200000
+## 6342 6342 <class 'numpy.ndarray'>
+27250000
+## 6180 6180 <class 'numpy.ndarray'>
+27300000
+## 6307 6307 <class 'numpy.ndarray'>
+27350000
+## 5563 5563 <class 'numpy.ndarray'>
+27400000
+## 6092 6092 <class 'numpy.ndarray'>
+27450000
+## 4436 4436 <class 'numpy.ndarray'>
+27500000
+## 3472 3472 <class 'numpy.ndarray'>
+27550000
+## 6101 6101 <class 'numpy.ndarray'>
+27600000
+## 4584 4584 <class 'numpy.ndarray'>
+27650000
+## 2619 2619 <class 'numpy.ndarray'>
+27700000
+## 2687 2687 <class 'numpy.ndarray'>
+27750000
+## 3056 3056 <class 'numpy.ndarray'>
+27800000
+## 2205 2205 <class 'numpy.ndarray'>
+27850000
+## 2807 2807 <class 'numpy.ndarray'>
+27900000
+## 2986 2986 <class 'numpy.ndarray'>
+27950000
+## 2290 2290 <class 'numpy.ndarray'>
+28000000
+## 2709 2709 <class 'numpy.ndarray'>
+28050000
+## 2041 2041 <class 'numpy.ndarray'>
+28100000
+## 4316 4316 <class 'numpy.ndarray'>
+28150000
+## 4504 4504 <class 'numpy.ndarray'>
+28200000
+## 4471 4471 <class 'numpy.ndarray'>
+28250000
+## 4086 4086 <class 'numpy.ndarray'>
+28300000
+## 3578 3578 <class 'numpy.ndarray'>
+28350000
+## 3458 3458 <class 'numpy.ndarray'>
+28400000
+## 2166 2166 <class 'numpy.ndarray'>
+28450000
+## 4145 4145 <class 'numpy.ndarray'>
+28500000
+## 3020 3020 <class 'numpy.ndarray'>
+28550000
+## 7226 7226 <class 'numpy.ndarray'>
+28600000
+## 7727 7727 <class 'numpy.ndarray'>
+28650000
+## 8418 8418 <class 'numpy.ndarray'>
+28700000
+## 7490 7490 <class 'numpy.ndarray'>
+28750000
+## 8872 8872 <class 'numpy.ndarray'>
+28800000
+## 6720 6720 <class 'numpy.ndarray'>
+28850000
+## 4143 4143 <class 'numpy.ndarray'>
+28900000
+## 7334 7334 <class 'numpy.ndarray'>
+28950000
+## 5940 5940 <class 'numpy.ndarray'>
+29000000
+## 7467 7467 <class 'numpy.ndarray'>
+29050000
+## 6388 6388 <class 'numpy.ndarray'>
+29100000
+## 7815 7815 <class 'numpy.ndarray'>
+29150000
+## 7969 7969 <class 'numpy.ndarray'>
+29200000
+## 6484 6484 <class 'numpy.ndarray'>
+29250000
+## 5932 5932 <class 'numpy.ndarray'>
+29300000
+## 3370 3370 <class 'numpy.ndarray'>
+29350000
+## 6730 6730 <class 'numpy.ndarray'>
+29400000
+## 5631 5631 <class 'numpy.ndarray'>
+29450000
+## 3292 3292 <class 'numpy.ndarray'>
+29500000
+## 3245 3245 <class 'numpy.ndarray'>
+29550000
+## 4115 4115 <class 'numpy.ndarray'>
+29600000
+## 3721 3721 <class 'numpy.ndarray'>
+29650000
+## 3537 3537 <class 'numpy.ndarray'>
+29700000
+## 4079 4079 <class 'numpy.ndarray'>
+29750000
+## 1761 1761 <class 'numpy.ndarray'>
+29800000
+## 3673 3673 <class 'numpy.ndarray'>
+29850000
+## 3194 3194 <class 'numpy.ndarray'>
+29900000
+## 8871 8871 <class 'numpy.ndarray'>
+29950000
+## 10308 10308 <class 'numpy.ndarray'>
+30000000
+## 14266 14266 <class 'numpy.ndarray'>
+30050000
+## 11600 11600 <class 'numpy.ndarray'>
+30100000
+## 10913 10913 <class 'numpy.ndarray'>
+30150000
+## 12505 12505 <class 'numpy.ndarray'>
+30200000
+## 6702 6702 <class 'numpy.ndarray'>
+30250000
+## 9032 9032 <class 'numpy.ndarray'>
+30300000
+## 9289 9289 <class 'numpy.ndarray'>
+30350000
+## 7404 7404 <class 'numpy.ndarray'>
+Traceback (most recent call last):
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 414, in <module>
+    main()
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in main
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+  File "/scratch/cube/tuechler/protein_alignment/../adept/build2/examples/py_examples/py_asynch_protein5", line 361, in <listcomp>
+    ali_qheaders = [ali_qheaders[i] for i in indices]
+IndexError: list index out of range
+end 1
+Tue May 10 15:49:28 CEST 2022
+ 15:49:28 up 5 days,  7:02,  0 users,  load average: 1.40, 1.96, 2.00
+Tue May 10 15:49:40 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   69C    P0    31W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   55C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   52C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   40C    P0    26W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   38C    P0    26W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   41C    P0    26W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+chunk_n=3
+max_query=492
+max_ref=500
+1070.57user 381.96system 9:36.15elapsed 252%CPU (0avgtext+0avgdata 4323724maxresident)k
+1139757inputs+200outputs (732major+33422001minor)pagefaults 0swaps
+Start parsing of output files
+Running adept_as_xargs_parser...
+0.07user 0.02system 0:00.32elapsed 30%CPU (0avgtext+0avgdata 8800maxresident)k
+9621inputs+0outputs (29major+2473minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2897051/matplotlib-08t_a4go because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+adept_as_xargs: 573.830
+Plot of runtime comparison saved to /scratch/cube/tuechler/program_out/ad_9_1/runtimes.png
+All json files of the exact programs with min_score parameter are of identical size.
+Finished parsing output.
+1100.37user 393.49system 10:12.19elapsed 244%CPU (0avgtext+0avgdata 4323724maxresident)k
+2344691inputs+779477outputs (1553major+33535038minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 05/10/2022 15:50:08
+New DB name:   /scratch/cube/tuechler/program_out/ad_9_2/data/db.fasta
+New DB title:  ../program_out/ad_9_2/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 453314 sequences in 8.39535 seconds.
+
+
+Creating output directory: /scratch/cube/tuechler/protein_alignment/scripts/program_out/ad_9_2
+Writing parameters to parameters.txt
+Running prepare_database.py...
+Start calling of alignment programs
+Running adept_as_xargs...
+start 1 0
+start 2 1
+start 3 2
+Tue May 10 15:50:20 CEST 2022
+Tue May 10 15:50:20 CEST 2022
+Tue May 10 15:50:20 CEST 2022
+ 15:50:20 up 5 days,  7:03,  0 users,  load average: 1.00, 1.76, 1.93
+ 15:50:20 up 5 days,  7:03,  0 users,  load average: 1.00, 1.76, 1.93
+ 15:50:20 up 5 days,  7:03,  0 users,  load average: 1.00, 1.76, 1.93
+Tue May 10 15:50:32 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+Tue May 10 15:50:32 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+Tue May 10 15:50:32 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   63C    P0    30W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   63C    P0    30W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   63C    P0    30W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   54C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   54C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   54C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   51C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   50C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   51C    P0    28W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   42C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   42C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   42C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   41C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   41C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   41C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   43C    P0    27W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   43C    P0    26W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   43C    P0    26W /  70W |      0MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+STATUS: Launching driver
+STATUS: Launching driver
+slurmstepd: error: *** JOB 2897051 ON nodee01 CANCELLED AT 2022-05-10T15:51:33 ***

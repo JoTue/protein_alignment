@@ -8,12 +8,12 @@ import json
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 import os
+import glob
 
 def colormap(s, savename, seq1, seq2, title):
     m, n = np.shape(s)
     fig, ax = plt.subplots()
-    # mappable = ax.matshow(s, cmap=plt.cm.plasma, norm=colors.LogNorm(vmin=s.min(), vmax=s.max()))
-    mappable = ax.matshow(s, cmap=plt.cm.plasma, norm=LogNorm(vmin=np.array(s).min(), vmax=np.array(s).max()))
+    mappable = ax.matshow(s, cmap=plt.cm.plasma, norm=LogNorm(vmin=np.nanmin(s), vmax=np.nanmax(s)))
     fig.colorbar(mappable)
 
     # ax.set_xticks(range(n))
@@ -27,6 +27,7 @@ def colormap(s, savename, seq1, seq2, title):
     #         ax.text(j, i, str(s[i, j]), va="center", ha="center", size=5)
     # plt.title(title)
     plt.savefig(savename, dpi=1000)
+    plt.close()
 
 
 def compare_results(input_dir, program_list, exact_programs, query_file, db_file, min_score, max_evalue):
@@ -69,12 +70,12 @@ def compare_results(input_dir, program_list, exact_programs, query_file, db_file
                         break
     print(f"In the results of the exact programs, there are deviations in {counter}/{total_alignments} sequence pairs.")
     
-    # checking bidirectionality
-    # TODO: for now only implemented for identical query/db files (symmetric matrices)
-    print("Checking bidirectionality (identical scores if query/db are swapped):")
-    for program in program_list:
-        submatrix = scores.loc[pd.IndexSlice[program, :], :]
-        print(f"{program}:\t {np.allclose(submatrix, submatrix.T)}")
+    # checking bidirectionality for identical query/db files (symmetric matrices)
+    if query_names == db_names:
+        print("Checking bidirectionality (identical scores if query/db are swapped):")
+        for program in program_list:
+            submatrix = scores.loc[pd.IndexSlice[program, :], :]
+            print(f"{program}:\t {np.allclose(submatrix, submatrix.T, equal_nan=True)}")
 
     # checking sensitivity of heuristics
     print(f"Checking sensitivity of heuristics:\n{min_score=}\n{max_evalue=}")
@@ -125,7 +126,22 @@ def compare_runtime(input_dir, program_list):
     for i in range(len(program_list)):
         plt.text(i, runtimes_vec[i]+(runtimes_vec[i]/30), f'{runtimes_vec[i]:.0f}', ha='center', fontsize=7)
     plt.savefig(f"{input_dir}/runtimes.png", bbox_inches="tight")
+    plt.close()
     print(f"Plot of runtime comparison saved to {os.path.abspath(f'{input_dir}/runtimes.png')}")
+
+def check_json_file_sizes(input_dir, program_list):
+    sizes = []
+    used_programs = []
+    for program in ["cudasw", "cudasw_xargs", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "adept", "adept_as", "adept_as_xargs"]: # not water
+        if program in program_list:
+            used_programs.append(program)
+            fn = glob.glob(f"{input_dir}/{program}/*.json")[0]
+            sizes.append(os.path.getsize(fn))
+    if all(s==sizes[0] for s in sizes):
+        print("All json files of the exact programs with min_score parameter are of identical size.")
+    else:
+        print("NOT all json files of the exact programs with min_score parameter are of identical size. File sizes:")
+        print([x for x in zip(used_programs, sizes)])
 
 
 def main():
@@ -148,14 +164,14 @@ def main():
         help="List of programs to run. Default: all")
     parser.add_argument("-x", "--exact-programs", nargs="+", default="all",
         help="List of programs which should yield identical results (used for checking results). Default: all SW implementations")
-    parser.add_argument("-r", "--only-runtime", action = "store_true", 
-        help="Do not compare scores of the exact programs.")
+    parser.add_argument("-l", "--level", type=int, default=2,
+        help="Level of parsing/comparing output: 2: full, 1: without comparing scores, 0: without parsing output files (only runtime comparison)")
 
     args = parser.parse_args()
 
     # create program_list
     if args.programs == "all":
-        program_list = ["blast", "mmseqs", "water", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "cudasw", "cudasw_xargs", "adept", "adept_as", "adept_as_xargs"]
+        program_list = ["blast", "mmseqs", "water", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "swipe_swlib_xargs", "cudasw", "cudasw_xargs", "adept", "adept_as", "adept_as_xargs"]
     else:
         program_list = args.programs
     # create exact_programs
@@ -164,9 +180,11 @@ def main():
     else:
         exact_programs = args.exact_programs
 
-    if not args.only_runtime:
-        compare_results(args.input, program_list, exact_programs, args.query, args.db, args.min_score, args.max_evalue)
     compare_runtime(args.input, program_list)
+    if args.level >= 1:
+        check_json_file_sizes(args.input, program_list)
+    if args.level >= 2:
+        compare_results(args.input, program_list, exact_programs, args.query, args.db, args.min_score, args.max_evalue)
 
 
 if __name__ == '__main__':

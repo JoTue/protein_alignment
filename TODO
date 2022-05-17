@@ -1,47 +1,38 @@
-- new programs: 
-- mmseqs2 @done
-- dedal
-
 - configure all programs: matrix, gap penalties,... @done
-
 - test adept multigpu/asynchr @done
-
 - adept: error if too few alignments? (e.g. pf vs pf)
-
 - cudasw: segmentation faults at 100n (sequences need to be <500nt ??) @done
-
 - various programs: test different core/thread numbers @done
-
 - test via slurm @done
-
 - check equivalence of results (create script to join results, main_output_parser) @done
-
-- allow different query/db files
-
+- allow different query/db files @done
 - error in adept output_parser @done
-
 - writing adept results takes (sometimes?) very long (try: .to_hdf) @done
-
 - adept often yields wrong scores... @done
-
 - cudasw, need to press key if long output... @done
-
 - blast, max 500 hits per query in output @done
-
 - adept asynch: only first 50000 scores computed @done
-
 - add minscore parameter/max evalue parameter (conversion?) @done
-
 - convert fasta header to only last part after pipe character (in prepare_database.py) @done
-
 - filter out non-standard aa in create_database.py @done
-
 - cudasw min_score @done
-
 - ssw min_score has no effect... -> modified pyssw.py to print only pairs with scores >= min_score @done
-
 - cudasw_xargs currently does not use GPU_ID 0 @done
-
-- adept: try out lower MAX_LENs, maybe gets more efficient
-
-- wfsw: scores wrong (slightly too low) at some high scoring pairs
+- adept: try out lower MAX_LENs, maybe gets more efficient @done
+- wfsw: scores wrong (slightly too low) at some high scoring pairs --> float32 needed @done
+- test: swipe_xargs -a 2 @done
+- comparison 24/6 @done
+- adept min_score parameter (for printing output) @done
+- only use makeblastdb for db not query! @done
+- split seqfile by aa-count @done
+- report uptime in xargs command (for CPU load) @done
+- try other parameters: e.g. BLOSUM62/11/1
+- fix ssw -matrix @done
+- gpu xargs if chunksize is specified, how to specify GPU_ID?
+- split by chunknumber: make better split @done
+- GNU parallel instead of xargs?; swipe-xargs as bash script instead of python script @done
+- different file size for cudasw in ad_9
+- wfsw: reduce memory consumption
+- use /tmp directory of SLURM job, alternatively use /dev/shm - but needs cleanup procedure in case job is killed
+- align_database10b.sh stuck at adept_xargs!, seem to exist additional processes on GPU_ID 0...
+- debug_level: e.g. uptime, nvidia-smit info

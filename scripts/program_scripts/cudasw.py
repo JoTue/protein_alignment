@@ -7,8 +7,7 @@ import time
 import argparse
 import sys
 
-def cudasw(input_file, matrix, gapopen, gapextension, num_threads, num_gpus, min_score):
-    name = input_file.split('/')[-1]
+def cudasw(query_file, db_file, name, matrix, gapopen, gapextension, num_threads, num_gpus, min_score):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
@@ -24,7 +23,7 @@ def cudasw(input_file, matrix, gapopen, gapextension, num_threads, num_gpus, min
     t1 = time.perf_counter()
     
     # -qprf 0 fails (for larger files?)
-    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {input_file} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw/{name}.cudasw", shell=True)
+    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query_file} -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw/{name}.cudasw", shell=True)
 
     # TODO: experiment which (file sizes)/sequence lengths (500?) are ok, try out -qrpf 0/1
     # or: split query file in separate input files
@@ -41,8 +40,10 @@ def main():
     """
     parser = argparse.ArgumentParser(description = 'Run CUDASW++ 3.0 on the specified query/db file.')
 
-    parser.add_argument("input",
-        help="Input file path (used as query and db).")
+    parser.add_argument("input", nargs="+",
+        help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-n", "--name", default=None,
+        help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
         help="Name of the substitution matrix: BLOSUM50 or BLOSUM62")
     parser.add_argument("-o", "--gapopen", type=int, default=15,
@@ -58,7 +59,21 @@ def main():
 
     args = parser.parse_args()
 
-    cudasw(args.input, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score)
+    # parsing input file paths
+    if len(args.input) == 1:
+        query_file = args.input[0]
+        db_file = args.input[0]
+    elif len(args.input) == 2:
+        query_file = args.input[0]
+        db_file = args.input[1]
+    else:
+        raise Exception("Specify 1 or 2 file paths.")
+
+    name = args.name
+    if name == None:
+        name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
+
+    cudasw(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score)
  
 if __name__ == '__main__':
     main()

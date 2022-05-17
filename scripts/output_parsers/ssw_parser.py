@@ -18,7 +18,7 @@ def ssw_parser(input_file):
                 d[query] = d.get(query, []) + [(db, score)]
     
     # write dictionary to json file
-    name = input_file.split('/')[-1].split(".")[0]
+    name = input_file.split('/')[-3]
     with open(f"../program_out/{name}/ssw/{name}.ssw.json", "w") as f:
         print(json.dumps(d), file=f)
             
