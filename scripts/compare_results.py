@@ -45,12 +45,20 @@ def compare_results(input_dir, program_list, exact_programs, query_file, db_file
     
     # fill score array
     name = input_dir.split('/')[-1]
+    # # OLD json file
+    # for program in program_list:
+    #     with open(f"{input_dir}/{program}/{name}.{program}.json") as f:
+    #         d = json.load(f)
+    #     for key in d:
+    #         for value in d[key]:
+    #             scores.loc[pd.IndexSlice[program, key], value[0]] = value[1]
+    # NEW results file:
     for program in program_list:
-        with open(f"{input_dir}/{program}/{name}.{program}.json") as f:
-            d = json.load(f)
-        for key in d:
-            for value in d[key]:
-                scores.loc[pd.IndexSlice[program, key], value[0]] = value[1]
+        with open(f"{input_dir}/{program}/{name}.{program}.results") as f:
+            for line in f:
+                words = line.split()
+                if words:
+                    scores.loc[pd.IndexSlice[program, words[0]], words[1]] = float(words[2])
     
     # colormap
     colormap(scores.loc[pd.IndexSlice[program_list[0], :], :], f"{input_dir}/colormap.png", 0, 0, 0)
@@ -112,8 +120,8 @@ def compare_runtime(input_dir, program_list):
             with open(f"{input_dir}/{program}/time.txt") as f:
                 runtime = float(f.read().strip())
                 runtimes[program] = runtime
-                print(f"{str(program+':').ljust(16)}{runtime:.3f}")
-                out_f.write(f"{str(program+':').ljust(16)}{runtime:.3f}\n")
+                print(f"{str(program+':').ljust(20)}{runtime:.3f}")
+                out_f.write(f"{str(program+':').ljust(20)}{runtime:.3f}\n")
     # plot
     runtimes_vec = [runtimes[program] for program in program_list]
     plt.rcParams["figure.figsize"] = (len(program_list)*0.7, 5)
@@ -127,9 +135,37 @@ def compare_runtime(input_dir, program_list):
         plt.text(i, runtimes_vec[i]+(runtimes_vec[i]/30), f'{runtimes_vec[i]:.0f}', ha='center', fontsize=7)
     plt.savefig(f"{input_dir}/runtimes.png", bbox_inches="tight")
     plt.close()
-    print(f"Plot of runtime comparison saved to {os.path.abspath(f'{input_dir}/runtimes.png')}")
+    print(f"Plot of runtime comparison was created.")
+
+
+def compare_cpu_usage(input_dir, program_list):
+    cpu_usages = {}
+    with open(f"{input_dir}/cpu_usage.txt") as f:
+        for line in f:
+            line = line.strip()
+            if line == "":
+                continue
+            program, cpu_usage = line.split(":")
+            cpu_usage = int(cpu_usage.strip())
+            cpu_usages[program] = cpu_usage
+    # plot
+    cpu_usage_vec = [cpu_usages[program] for program in program_list]
+    plt.rcParams["figure.figsize"] = (len(program_list)*0.7, 5)
+    plt.bar(program_list, cpu_usage_vec)
+    plt.ylabel('CPU usage [%]')
+    plt.title('CPU usage comparison')
+    plt.xticks(fontsize=9, rotation='vertical')
+    # write CPU usage as labels on top of each bar
+    # y_offset = max(runtimes_vec)/100
+    for i in range(len(program_list)):
+        plt.text(i, cpu_usage_vec[i]+max(cpu_usage_vec)/100, f'{cpu_usage_vec[i]:.0f}', ha='center', fontsize=7)
+    plt.savefig(f"{input_dir}/cpu_usage.png", bbox_inches="tight")
+    plt.close()
+    print(f"Plot of CPU usage comparison was created.")
+
 
 def check_json_file_sizes(input_dir, program_list):
+    # for OLD json file, not needed anymore
     sizes = []
     used_programs = []
     for program in ["cudasw", "cudasw_xargs", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "adept", "adept_as", "adept_as_xargs"]: # not water
@@ -141,6 +177,21 @@ def check_json_file_sizes(input_dir, program_list):
         print("All json files of the exact programs with min_score parameter are of identical size.")
     else:
         print("NOT all json files of the exact programs with min_score parameter are of identical size. File sizes:")
+        print([x for x in zip(used_programs, sizes)])
+
+
+def check_results_file_sizes(input_dir, program_list):
+    sizes = []
+    used_programs = []
+    for program in ["cudasw", "cudasw_xargs", "ssw", "ssw_xargs", "swipe", "swipe_xargs", "adept", "adept_as", "adept_as_xargs"]: # not water
+        if program in program_list:
+            used_programs.append(program)
+            fn = glob.glob(f"{input_dir}/{program}/*.results")[0]
+            sizes.append(os.path.getsize(fn))
+    if all(s==sizes[0] for s in sizes):
+        print("All results files of the exact programs with min_score parameter are of identical size.")
+    else:
+        print("NOT all results files of the exact programs with min_score parameter are of identical size. File sizes:")
         print([x for x in zip(used_programs, sizes)])
 
 
@@ -166,6 +217,8 @@ def main():
         help="List of programs which should yield identical results (used for checking results). Default: all SW implementations")
     parser.add_argument("-l", "--level", type=int, default=2,
         help="Level of parsing/comparing output: 2: full, 1: without comparing scores, 0: without parsing output files (only runtime comparison)")
+    parser.add_argument("--cpu-usage", action='store_true',
+        help="If set, compares CPU usage (only possible if called within a SLURM job)")
 
     args = parser.parse_args()
 
@@ -181,8 +234,10 @@ def main():
         exact_programs = args.exact_programs
 
     compare_runtime(args.input, program_list)
+    if args.cpu_usage:
+        compare_cpu_usage(args.input, program_list)
     if args.level >= 1:
-        check_json_file_sizes(args.input, program_list)
+        check_results_file_sizes(args.input, program_list)
     if args.level >= 2:
         compare_results(args.input, program_list, exact_programs, args.query, args.db, args.min_score, args.max_evalue)
 

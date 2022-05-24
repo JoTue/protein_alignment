@@ -7,15 +7,10 @@ import time
 import argparse
 import sys
 
-def adept(query_file, db_file, name, matrix, gapopen, gapextension, min_score):
+def adept(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, min_score):
     # create output directory
-    os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
-    except FileExistsError:
-        pass
-    try:
-        os.mkdir(f"../program_out/{name}/adept_as")
+        os.mkdir(f"{TMPDIR}/{name}/adept_as")
     except FileExistsError:
         pass
 
@@ -25,9 +20,9 @@ def adept(query_file, db_file, name, matrix, gapopen, gapextension, min_score):
 
     # run adept py_asynch_protein
     t1 = time.perf_counter()
-    subprocess.run(f"../adept/build2/examples/py_examples/py_asynch_protein5 -q {query_file} -r {db_file} -o ../program_out/{name}/adept_as/{name}.adept_as -m {matrix} --gapopen {gapopen} -e {gapextension}  -c {min_score} --max_query {max_query} --max_ref {max_ref}", shell=True)
+    subprocess.run(f"../adept/build2/examples/py_examples/py_asynch_protein5 -q {query_file} -r {db_file} -o {TMPDIR}/{name}/adept_as/{name}.adept_as -m {matrix} --gapopen {gapopen} -e {gapextension}  -c {min_score} --max_query {max_query} --max_ref {max_ref}", shell=True)
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/adept_as/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/adept_as/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -38,6 +33,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -65,7 +62,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    adept(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.min_score)
+    adept(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.min_score)
  
 if __name__ == '__main__':
     main()

@@ -11,14 +11,11 @@ def create_database(n, min_len, max_len, input_file, output_file):
     tmp_file = "tmp_file"
     tmp_file2 = "tmp_file2"
     # filter by length
-    if min_len or max_len:
-        if not min_len:
-            min_len = 0
-        if not max_len:
-            max_len = 1e9
-        subprocess.run(f"""bioawk -c fastx '{{ if (length($seq) >= {min_len} && length($seq) <= {max_len}) {{ print ">"$name; print $seq }}}}' {input_file} > {tmp_file}""", shell=True)
-    else:
-        shutil.copyfile(input_file, tmp_file)
+    if not min_len:
+        min_len = 0
+    if not max_len:
+        max_len = 1e9
+    subprocess.run(f"""bioawk -c fastx '{{ if (length($seq) >= {min_len} && length($seq) <= {max_len}) {{ print ">"$name; print $seq }}}}' {input_file} > {tmp_file}""", shell=True)
     # filter out sequences with non-standard aa
     reg = re.compile('^[ACDEFGHIKLMNPQRSTVWY]+$')
     seq_records = [rec for rec in SeqIO.parse(tmp_file, "fasta") if reg.match(str(rec.seq))]

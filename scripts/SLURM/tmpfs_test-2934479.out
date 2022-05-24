@@ -1,0 +1,1080 @@
+
+
+Building a new DB, current time: 05/18/2022 15:39:27
+New DB name:   /scratch/cube/tuechler/program_out/tmpfs_test_po/data/db.fasta
+New DB title:  /scratch/cube/tuechler/program_out/tmpfs_test_po/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 200 sequences in 0.0130501 seconds.
+
+
+Creating temporary directory: /scratch/cube/tuechler/program_out/tmpfs_test_po
+Writing parameters to parameters.txt
+Running prepare_database.py...
+Start calling of alignment programs
+Running cudasw_xargs...
+start 1
+Wed May 18 15:39:29 CEST 2022
+ 15:39:29 up 13 days,  6:52,  0 users,  load average: 22.59, 21.63, 20.17
+Wed May 18 15:39:29 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    60W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   76C    P0    66W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    57W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   39C    P8    14W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   36C    P8    14W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   73C    P0    67W /  70W |   4705MiB / 15360MiB |     91%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+end 1
+Wed May 18 15:40:00 CEST 2022
+ 15:40:00 up 13 days,  6:53,  0 users,  load average: 22.77, 21.68, 20.22
+Wed May 18 15:40:00 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   75C    P0    65W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    80W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    69W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   45C    P0    34W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   47C    P0    77W /  70W |   4705MiB / 15360MiB |     90%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   72C    P0    69W /  70W |   4705MiB / 15360MiB |     89%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+18.92user 11.78system 0:32.17elapsed 95%CPU (0avgtext+0avgdata 232056maxresident)k
+10108inputs+310outputs (38major+71069minor)pagefaults 0swaps
+Running ssw_xargs...
+start 1
+start 3
+start 4
+Wed May 18 15:40:01 CEST 2022
+Wed May 18 15:40:01 CEST 2022
+Wed May 18 15:40:01 CEST 2022
+ 15:40:01 up 13 days,  6:53,  0 users,  load average: 22.77, 21.68, 20.22
+ 15:40:01 up 13 days,  6:53,  0 users,  load average: 22.77, 21.68, 20.22
+ 15:40:01 up 13 days,  6:53,  0 users,  load average: 22.77, 21.68, 20.22
+start 2
+Wed May 18 15:40:01 CEST 2022
+ 15:40:01 up 13 days,  6:53,  0 users,  load average: 22.77, 21.68, 20.22
+CPU time: 1.34318995476 seconds
+end 3
+Wed May 18 15:40:03 CEST 2022
+ 15:40:03 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+CPU time: 1.46506381035 seconds
+CPU time: 1.49395298958 seconds
+CPU time: 1.40399193764 seconds
+end 2
+end 4
+end 1
+Wed May 18 15:40:03 CEST 2022
+Wed May 18 15:40:03 CEST 2022
+Wed May 18 15:40:03 CEST 2022
+ 15:40:03 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:03 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:03 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+chunk_n=4
+4.28user 0.33system 0:02.41elapsed 190%CPU (0avgtext+0avgdata 9056maxresident)k
+32230inputs+1311outputs (30major+23092minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 3
+start 4
+Wed May 18 15:40:04 CEST 2022
+Wed May 18 15:40:04 CEST 2022
+Wed May 18 15:40:04 CEST 2022
+start 2
+Wed May 18 15:40:04 CEST 2022
+ 15:40:04 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:04 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:04 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:04 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+end 2
+Wed May 18 15:40:05 CEST 2022
+ 15:40:05 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+end 4
+Wed May 18 15:40:05 CEST 2022
+end 1
+end 3
+Wed May 18 15:40:05 CEST 2022
+Wed May 18 15:40:05 CEST 2022
+ 15:40:05 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:05 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:05 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+chunk_n=4
+1.52user 0.50system 0:02.06elapsed 97%CPU (0avgtext+0avgdata 9080maxresident)k
+17787inputs+5262outputs (77major+37505minor)pagefaults 0swaps
+Running swipe_swlib_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:40:06 CEST 2022
+Wed May 18 15:40:06 CEST 2022
+Wed May 18 15:40:06 CEST 2022
+Wed May 18 15:40:06 CEST 2022
+ 15:40:06 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:06 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:06 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+ 15:40:06 up 13 days,  6:53,  0 users,  load average: 23.91, 21.93, 20.31
+end 2
+Wed May 18 15:40:10 CEST 2022
+ 15:40:10 up 13 days,  6:53,  0 users,  load average: 23.67, 21.92, 20.32
+end 3
+Wed May 18 15:40:10 CEST 2022
+end 4
+Wed May 18 15:40:10 CEST 2022
+ 15:40:10 up 13 days,  6:53,  0 users,  load average: 23.67, 21.92, 20.32
+ 15:40:10 up 13 days,  6:53,  0 users,  load average: 23.67, 21.92, 20.32
+end 1
+Wed May 18 15:40:10 CEST 2022
+ 15:40:10 up 13 days,  6:53,  0 users,  load average: 23.67, 21.92, 20.32
+chunk_n=4
+5.09user 0.53system 0:05.28elapsed 106%CPU (0avgtext+0avgdata 208228maxresident)k
+53755inputs+42outputs (434major+40075minor)pagefaults 0swaps
+Running adept_as_xargs...
+start 1
+Wed May 18 15:40:11 CEST 2022
+ 15:40:11 up 13 days,  6:53,  0 users,  load average: 23.67, 21.92, 20.32
+Wed May 18 15:40:11 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    62W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    64W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    69W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   43C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   50C    P0    59W /  70W |   4705MiB / 15360MiB |     86%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   72C    P0    71W /  70W |   4705MiB / 15360MiB |     91%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.7053 seconds ---
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                  840                         0  ...        SPEH_BACSU    SPEH_BACSU
+1                   52                        79  ...       CRYAA_ZALCA    SPEH_BACSU
+2                   55                       206  ...       FOLD2_PSEPK    SPEH_BACSU
+3                   50                       213  ...       RB32B_DICDI    SPEH_BACSU
+4                   51                       198  ...        RPOA_DICNV    SPEH_BACSU
+...                ...                       ...  ...               ...           ...
+4801                51                       114  ...        COAE_BIFLO    AROQ_SALTO
+4802                52                        69  ...        LPXH_ALIF1    AROQ_SALTO
+4803                52                        37  ...        NIKR_CITK8    AROQ_SALTO
+4804                55                        16  ...        UREF_RHOPB    AROQ_SALTO
+4805               950                         0  ...        AROQ_SALTO    AROQ_SALTO
+
+[4806 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.0332 seconds ---
+ total CPU work (counts) done while GPU was busy: 133210
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+end 1
+Wed May 18 15:40:15 CEST 2022
+ 15:40:15 up 13 days,  6:53,  1 user,  load average: 23.06, 21.82, 20.29
+Wed May 18 15:40:15 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   75C    P0    57W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   74C    P0    48W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    70W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   44C    P0    34W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   51C    P0    75W /  70W |   4705MiB / 15360MiB |     82%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   73C    P0    72W /  70W |   4705MiB / 15360MiB |     90%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+max_query=492
+max_ref=492
+1.43user 3.35system 0:05.58elapsed 85%CPU (0avgtext+0avgdata 238168maxresident)k
+84418inputs+385outputs (293major+67774minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_xargs_parser...
+0.07user 0.03system 0:00.33elapsed 31%CPU (0avgtext+0avgdata 8916maxresident)k
+5037inputs+254outputs (10major+2541minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+0.08user 0.02system 0:00.33elapsed 33%CPU (0avgtext+0avgdata 8816maxresident)k
+6691inputs+254outputs (13major+2496minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+0.11user 0.01system 0:00.32elapsed 41%CPU (0avgtext+0avgdata 8836maxresident)k
+11359inputs+254outputs (18major+2496minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+0.05user 0.03system 0:00.32elapsed 29%CPU (0avgtext+0avgdata 8924maxresident)k
+5917inputs+254outputs (14major+2537minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2934479/matplotlib-aqojg1sf because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+ssw_xargs:      2.076
+swipe_xargs:    1.666
+swipe_swlib_xargs:4.868
+cudasw_xargs:   31.841
+adept_as_xargs: 5.176
+Plot of runtime comparison was created.
+All results files of the exact programs with min_score parameter are of identical size.
+Finished parsing output.
+37.27user 24.97system 1:01.14elapsed 101%CPU (0avgtext+0avgdata 238168maxresident)k
+1292333inputs+9256outputs (1666major+355817minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 05/18/2022 15:40:27
+New DB name:   /tmp/slurm-2934479/tmpfs_test_tmp/data/db.fasta
+New DB title:  /tmp/slurm-2934479/tmpfs_test_tmp/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 200 sequences in 0.00685906 seconds.
+
+
+Creating temporary directory: /tmp/slurm-2934479/tmpfs_test_tmp
+Writing parameters to parameters.txt
+Running prepare_database.py...
+Start calling of alignment programs
+Running cudasw_xargs...
+start 1
+Wed May 18 15:40:29 CEST 2022
+ 15:40:29 up 13 days,  6:53,  1 user,  load average: 20.79, 21.38, 20.18
+Wed May 18 15:40:29 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    70W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    65W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    71W /  70W |  11347MiB / 15360MiB |     99%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   42C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   49C    P0    27W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   68C    P0    31W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+end 1
+Wed May 18 15:41:02 CEST 2022
+ 15:41:02 up 13 days,  6:54,  1 user,  load average: 29.00, 23.25, 20.83
+Wed May 18 15:41:02 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   75C    P0    70W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   76C    P0    66W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    58W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   47C    P0    34W /  70W |      2MiB / 15360MiB |     12%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   58C    P0    77W /  70W |   4705MiB / 15360MiB |     91%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   72C    P0    59W /  70W |   4705MiB / 15360MiB |     85%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+20.11user 11.61system 0:33.39elapsed 95%CPU (0avgtext+0avgdata 232108maxresident)k
+11219inputs+324outputs (44major+87095minor)pagefaults 0swaps
+Running ssw_xargs...
+start 2
+start 1
+start 3
+Wed May 18 15:41:03 CEST 2022
+Wed May 18 15:41:03 CEST 2022
+start 4
+Wed May 18 15:41:03 CEST 2022
+Wed May 18 15:41:03 CEST 2022
+ 15:41:03 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:03 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:03 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:03 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+CPU time: 0.747215986252 seconds
+end 2
+Wed May 18 15:41:04 CEST 2022
+ 15:41:04 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+CPU time: 0.837743997574 seconds
+end 4
+Wed May 18 15:41:04 CEST 2022
+ 15:41:04 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+CPU time: 0.987185001373 seconds
+end 1
+Wed May 18 15:41:04 CEST 2022
+CPU time: 1.00234293938 seconds
+end 3
+ 15:41:04 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+Wed May 18 15:41:04 CEST 2022
+ 15:41:04 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+chunk_n=4
+3.78user 0.25system 0:01.77elapsed 228%CPU (0avgtext+0avgdata 9056maxresident)k
+8295inputs+1328outputs (35major+22916minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:41:05 CEST 2022
+Wed May 18 15:41:05 CEST 2022
+Wed May 18 15:41:05 CEST 2022
+Wed May 18 15:41:05 CEST 2022
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+end 2
+Wed May 18 15:41:05 CEST 2022
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+end 4
+Wed May 18 15:41:05 CEST 2022
+end 3
+Wed May 18 15:41:05 CEST 2022
+end 1
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+Wed May 18 15:41:05 CEST 2022
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:05 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+chunk_n=4
+1.68user 0.25system 0:00.87elapsed 220%CPU (0avgtext+0avgdata 9072maxresident)k
+15849inputs+5280outputs (61major+37382minor)pagefaults 0swaps
+Running swipe_swlib_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:41:06 CEST 2022
+Wed May 18 15:41:06 CEST 2022
+Wed May 18 15:41:06 CEST 2022
+Wed May 18 15:41:06 CEST 2022
+ 15:41:06 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:06 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:06 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+ 15:41:06 up 13 days,  6:54,  1 user,  load average: 28.52, 23.24, 20.84
+end 3
+Wed May 18 15:41:07 CEST 2022
+end 4
+end 2
+Wed May 18 15:41:07 CEST 2022
+Wed May 18 15:41:07 CEST 2022
+ 15:41:07 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+ 15:41:07 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+ 15:41:07 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+end 1
+Wed May 18 15:41:08 CEST 2022
+ 15:41:08 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+chunk_n=4
+6.41user 0.38system 0:02.46elapsed 275%CPU (0avgtext+0avgdata 208084maxresident)k
+70544inputs+72outputs (465major+40096minor)pagefaults 0swaps
+Running adept_as_xargs...
+start 1
+Wed May 18 15:41:08 CEST 2022
+ 15:41:08 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+Wed May 18 15:41:08 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    68W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    54W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   69C    P0    50W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   45C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   57C    P0    29W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   70C    P0    32W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.7789 seconds ---
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                  840                         0  ...        SPEH_BACSU    SPEH_BACSU
+1                   52                        79  ...       CRYAA_ZALCA    SPEH_BACSU
+2                   55                       206  ...       FOLD2_PSEPK    SPEH_BACSU
+3                   50                       213  ...       RB32B_DICDI    SPEH_BACSU
+4                   51                       198  ...        RPOA_DICNV    SPEH_BACSU
+...                ...                       ...  ...               ...           ...
+4801                51                       114  ...        COAE_BIFLO    AROQ_SALTO
+4802                52                        69  ...        LPXH_ALIF1    AROQ_SALTO
+4803                52                        37  ...        NIKR_CITK8    AROQ_SALTO
+4804                55                        16  ...        UREF_RHOPB    AROQ_SALTO
+4805               950                         0  ...        AROQ_SALTO    AROQ_SALTO
+
+[4806 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.0343 seconds ---
+ total CPU work (counts) done while GPU was busy: 117314
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+end 1
+Wed May 18 15:41:11 CEST 2022
+ 15:41:12 up 13 days,  6:54,  1 user,  load average: 27.35, 23.09, 20.81
+Wed May 18 15:41:12 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   76C    P0    67W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   74C    P0    50W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   69C    P0    49W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   46C    P0    34W /  70W |      2MiB / 15360MiB |      1%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   56C    P0    28W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   69C    P0    31W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+max_query=492
+max_ref=492
+1.89user 4.76system 0:04.39elapsed 151%CPU (0avgtext+0avgdata 248428maxresident)k
+84673inputs+398outputs (300major+67759minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_xargs_parser...
+0.06user 0.03system 0:00.20elapsed 47%CPU (0avgtext+0avgdata 8860maxresident)k
+5746inputs+256outputs (18major+2499minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+0.11user 0.02system 0:00.24elapsed 56%CPU (0avgtext+0avgdata 8776maxresident)k
+5971inputs+256outputs (19major+2476minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+0.13user 0.02system 0:00.26elapsed 61%CPU (0avgtext+0avgdata 8800maxresident)k
+5830inputs+256outputs (18major+2483minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+0.07user 0.04system 0:00.22elapsed 50%CPU (0avgtext+0avgdata 8876maxresident)k
+5891inputs+256outputs (17major+2504minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2934479/matplotlib-8urkhdpd because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+ssw_xargs:      1.517
+swipe_xargs:    0.647
+swipe_swlib_xargs:2.180
+cudasw_xargs:   33.099
+adept_as_xargs: 4.135
+Plot of runtime comparison was created.
+All results files of the exact programs with min_score parameter are of identical size.
+Finished parsing output.
+Begin copying...
+Output is copied from /tmp/slurm-2934479/tmpfs_test_tmp to /scratch/cube/tuechler/program_out/tmpfs_test_tmp
+39.60user 26.74system 0:52.86elapsed 125%CPU (0avgtext+0avgdata 248428maxresident)k
+1303467inputs+18500outputs (1715major+373118minor)pagefaults 0swaps
+
+
+Building a new DB, current time: 05/18/2022 15:41:20
+New DB name:   /dev/shm/tmpfs_test_dev/data/db.fasta
+New DB title:  /dev/shm/tmpfs_test_dev/data/db.fasta
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 200 sequences in 0.00633097 seconds.
+
+
+Creating temporary directory: /dev/shm/tmpfs_test_dev
+Writing parameters to parameters.txt
+Running prepare_database.py...
+Start calling of alignment programs
+Running cudasw_xargs...
+start 1
+Wed May 18 15:41:22 CEST 2022
+ 15:41:22 up 13 days,  6:54,  1 user,  load average: 26.11, 22.95, 20.79
+Wed May 18 15:41:22 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   74C    P0    51W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    69W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   70C    P0    70W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   44C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   58C    P0    74W /  70W |   4705MiB / 15360MiB |     94%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   70C    P0    73W /  70W |   4705MiB / 15360MiB |     85%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+end 1
+Wed May 18 15:41:53 CEST 2022
+ 15:41:53 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+Wed May 18 15:41:53 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   75C    P0    64W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    66W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   69C    P0    49W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   49C    P0    35W /  70W |      2MiB / 15360MiB |      9%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   62C    P0    38W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   72C    P0    41W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+19.58user 11.54system 0:32.48elapsed 95%CPU (0avgtext+0avgdata 232052maxresident)k
+9347inputs+12outputs (35major+78729minor)pagefaults 0swaps
+Running ssw_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:41:54 CEST 2022
+Wed May 18 15:41:54 CEST 2022
+Wed May 18 15:41:54 CEST 2022
+Wed May 18 15:41:54 CEST 2022
+ 15:41:54 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:54 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:54 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:54 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+CPU time: 1.0501101017 seconds
+end 1
+Wed May 18 15:41:56 CEST 2022
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+CPU time: 1.08461904526 seconds
+end 3
+Wed May 18 15:41:56 CEST 2022
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+CPU time: 1.24584984779 seconds
+end 4
+Wed May 18 15:41:56 CEST 2022
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+CPU time: 1.317289114 seconds
+end 2
+Wed May 18 15:41:56 CEST 2022
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+chunk_n=4
+4.97user 0.30system 0:02.05elapsed 257%CPU (0avgtext+0avgdata 9068maxresident)k
+9239inputs+0outputs (39major+22906minor)pagefaults 0swaps
+Running swipe_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:41:56 CEST 2022
+Wed May 18 15:41:56 CEST 2022
+Wed May 18 15:41:56 CEST 2022
+Wed May 18 15:41:56 CEST 2022
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+ 15:41:56 up 13 days,  6:55,  1 user,  load average: 27.16, 23.50, 21.04
+end 2
+Wed May 18 15:41:57 CEST 2022
+end 3
+Wed May 18 15:41:57 CEST 2022
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 4
+Wed May 18 15:41:57 CEST 2022
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 1
+Wed May 18 15:41:57 CEST 2022
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+chunk_n=4
+2.07user 0.23system 0:00.92elapsed 249%CPU (0avgtext+0avgdata 9080maxresident)k
+14041inputs+0outputs (68major+37366minor)pagefaults 0swaps
+Running swipe_swlib_xargs...
+start 1
+start 2
+start 3
+start 4
+Wed May 18 15:41:57 CEST 2022
+Wed May 18 15:41:57 CEST 2022
+Wed May 18 15:41:57 CEST 2022
+Wed May 18 15:41:57 CEST 2022
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+ 15:41:57 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 1
+Wed May 18 15:41:59 CEST 2022
+ 15:41:59 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 2
+Wed May 18 15:41:59 CEST 2022
+ 15:41:59 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 3
+Wed May 18 15:41:59 CEST 2022
+ 15:41:59 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+end 4
+Wed May 18 15:41:59 CEST 2022
+ 15:41:59 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+chunk_n=4
+6.64user 0.40system 0:02.32elapsed 303%CPU (0avgtext+0avgdata 208220maxresident)k
+57928inputs+0outputs (484major+40005minor)pagefaults 0swaps
+Running adept_as_xargs...
+start 1
+Wed May 18 15:42:00 CEST 2022
+ 15:42:00 up 13 days,  6:55,  1 user,  load average: 25.71, 23.26, 20.98
+Wed May 18 15:42:00 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   75C    P0    61W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   75C    P0    57W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   69C    P0    47W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   47C    P8    15W /  70W |      2MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   60C    P0    29W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   69C    P0    32W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+
+------------------------------
+     PYTHON ASYNC PROTEIN     
+------------------------------
+
+STATUS: Reading ref and query files
+STATUS: Launching driver
+0
+
+STATUS: PyADEPT Alignments completed
+--- Elapsed: 0.8098 seconds ---
+      alignment_scores  reference_begin_location  ...  reference_header  query_header
+0                  840                         0  ...        SPEH_BACSU    SPEH_BACSU
+1                   52                        79  ...       CRYAA_ZALCA    SPEH_BACSU
+2                   55                       206  ...       FOLD2_PSEPK    SPEH_BACSU
+3                   50                       213  ...       RB32B_DICDI    SPEH_BACSU
+4                   51                       198  ...        RPOA_DICNV    SPEH_BACSU
+...                ...                       ...  ...               ...           ...
+4801                51                       114  ...        COAE_BIFLO    AROQ_SALTO
+4802                52                        69  ...        LPXH_ALIF1    AROQ_SALTO
+4803                52                        37  ...        NIKR_CITK8    AROQ_SALTO
+4804                55                        16  ...        UREF_RHOPB    AROQ_SALTO
+4805               950                         0  ...        AROQ_SALTO    AROQ_SALTO
+
+[4806 rows x 7 columns]
+
+STATUS: Writing results...
+--- Elapsed: 0.0273 seconds ---
+ total CPU work (counts) done while GPU was busy: 122575
+
+INFO: Correctness test skipped...
+
+STATUS: Done
+end 1
+Wed May 18 15:42:03 CEST 2022
+ 15:42:03 up 13 days,  6:55,  1 user,  load average: 24.61, 23.07, 20.93
+Wed May 18 15:42:03 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.47.03    Driver Version: 510.47.03    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla T4            Off  | 00000000:41:00.0 Off |                    0 |
+| N/A   74C    P0    50W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla T4            Off  | 00000000:61:00.0 Off |                    0 |
+| N/A   74C    P0    53W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla T4            Off  | 00000000:81:00.0 Off |                    0 |
+| N/A   68C    P0    47W /  70W |  11347MiB / 15360MiB |    100%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla T4            Off  | 00000000:82:00.0 Off |                    0 |
+| N/A   48C    P0    37W /  70W |      2MiB / 15360MiB |      1%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla T4            Off  | 00000000:A1:00.0 Off |                    0 |
+| N/A   59C    P0    29W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla T4            Off  | 00000000:C1:00.0 Off |                    0 |
+| N/A   68C    P0    32W /  70W |   4705MiB / 15360MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    1   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    2   N/A  N/A     44961      C   guppy_basecaller_duplex         11345MiB |
+|    4   N/A  N/A     20584      C   ...etector/0.2.6/bin/python3     4703MiB |
+|    5   N/A  N/A     17683      C   ...etector/0.2.6/bin/python3     4703MiB |
++-----------------------------------------------------------------------------+
+chunk_n=1
+max_query=492
+max_ref=492
+1.88user 4.71system 0:04.38elapsed 150%CPU (0avgtext+0avgdata 266788maxresident)k
+85505inputs+14outputs (307major+67675minor)pagefaults 0swaps
+Start parsing of output files
+Running cudasw_xargs_parser...
+0.09user 0.04system 0:00.24elapsed 56%CPU (0avgtext+0avgdata 8860maxresident)k
+5690inputs+0outputs (15major+2502minor)pagefaults 0swaps
+Running ssw_xargs_parser...
+0.09user 0.04system 0:00.26elapsed 54%CPU (0avgtext+0avgdata 8880maxresident)k
+6155inputs+0outputs (19major+2502minor)pagefaults 0swaps
+Running swipe_xargs_parser...
+0.13user 0.03system 0:00.29elapsed 59%CPU (0avgtext+0avgdata 8800maxresident)k
+4878inputs+0outputs (13major+2488minor)pagefaults 0swaps
+Running adept_as_xargs_parser...
+0.06user 0.05system 0:00.28elapsed 42%CPU (0avgtext+0avgdata 8880maxresident)k
+4235inputs+0outputs (12major+2511minor)pagefaults 0swaps
+Matplotlib created a temporary config/cache directory at /tmp/slurm-2934479/matplotlib-k0bu5irx because the default path (/home/user/tuechler/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Runtimes of programs (in seconds):
+ssw_xargs:      1.806
+swipe_xargs:    0.684
+swipe_swlib_xargs:2.084
+cudasw_xargs:   32.216
+adept_as_xargs: 4.121
+Plot of runtime comparison was created.
+All results files of the exact programs with min_score parameter are of identical size.
+Finished parsing output.
+Begin copying...
+Output is copied from /dev/shm/tmpfs_test_dev to /scratch/cube/tuechler/program_out/tmpfs_test_dev
+40.20user 24.14system 0:52.52elapsed 122%CPU (0avgtext+0avgdata 266788maxresident)k
+1280955inputs+9180outputs (1699major+349231minor)pagefaults 0swaps

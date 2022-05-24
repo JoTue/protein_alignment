@@ -8,87 +8,87 @@ import shutil
 import sys
 
 
-def call_programs(query_file, db_file, name, matrix, gapopen, gapextension, min_score, max_evalue, num_threads, num_gpus, program_list, chunk_s):
+def call_programs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, min_score, max_evalue, num_threads, num_gpus, program_list, chunk_s):
     print("Start calling of alignment programs", flush=True)
     if "blast" in program_list:
         print("Running blast...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/blast.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -v {max_evalue} -t {num_threads}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/blast.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -v {max_evalue} -t {num_threads}", shell=True)
     if "mmseqs" in program_list:
         print("Running mmseqs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/mmseqs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -v {max_evalue} -t {num_threads}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/mmseqs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -v {max_evalue} -t {num_threads}", shell=True)
     if "cudasw" in program_list:
         print("Running cudasw...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/cudasw.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -g {num_gpus} -c {min_score}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/cudasw.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -g {num_gpus} -c {min_score}", shell=True)
     if "cudasw_xargs" in program_list:
         print("Running cudasw_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/cudasw_xargs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -g {num_gpus} -c {min_score} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/cudasw_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -g {num_gpus} -c {min_score} -s {chunk_s}", shell=True)
     if "ssw" in program_list:
         print("Running ssw...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/ssw.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/ssw.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
     if "ssw_xargs" in program_list:
         print("Running ssw_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/ssw_xargs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/ssw_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
     if "swipe" in program_list:
         print("Running swipe...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score}", shell=True)
     if "swipe_xargs" in program_list:
         print("Running swipe_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_xargs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
     if "swipe_swlib_xargs" in program_list:
         print("Running swipe_swlib_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_swlib_xargs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_swlib_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
     if "water" in program_list:
         print("Running water...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/water.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/water.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension}", shell=True)
     if "adept" in program_list:
         print("Running adept...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
     if "adept_as" in program_list:
         print("Running adept_as...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept_as.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept_as.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score}", shell=True)
     if "adept_as_xargs" in program_list:
         print("Running adept_as_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept_as_xargs.py {query_file} {db_file} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score} -g {num_gpus} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/adept_as_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -c {min_score} -g {num_gpus} -s {chunk_s}", shell=True)
 
 
-def call_output_parsers(name, program_list):
+def call_output_parsers(name, program_list, TMPDIR):
     print("Start parsing of output files", flush=True)
     if "blast" in program_list:
         print("Running blast_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/blast_parser.py ../program_out/{name}/blast/{name}.blast", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/blast_parser.py {TMPDIR}/{name}/blast/{name}.blast -d {TMPDIR}", shell=True)
     if "mmseqs" in program_list:
         print("Running mmseqs_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/mmseqs_parser.py ../program_out/{name}/mmseqs/{name}.mmseqs", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/mmseqs_parser.py {TMPDIR}/{name}/mmseqs/{name}.mmseqs -d {TMPDIR}", shell=True)
     if "cudasw" in program_list:
         print("Running cudasw_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/cudasw_parser.py ../program_out/{name}/cudasw/{name}.cudasw", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/cudasw_parser.py {TMPDIR}/{name}/cudasw/{name}.cudasw -d {TMPDIR}", shell=True)
     if "cudasw_xargs" in program_list:
         print("Running cudasw_xargs_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/cudasw_xargs_parser.py ../program_out/{name}/cudasw_xargs", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/cudasw_xargs_parser.py {TMPDIR}/{name}/cudasw_xargs -d {TMPDIR}", shell=True)
     if "ssw" in program_list:
         print("Running ssw_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/ssw_parser.py ../program_out/{name}/ssw/{name}.ssw", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/ssw_parser.py {TMPDIR}/{name}/ssw/{name}.ssw -d {TMPDIR}", shell=True)
     if "ssw_xargs" in program_list:
         print("Running ssw_xargs_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/ssw_xargs_parser.py ../program_out/{name}/ssw_xargs", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/ssw_xargs_parser.py {TMPDIR}/{name}/ssw_xargs -d {TMPDIR}", shell=True)
     if "swipe" in program_list:
         print("Running swipe_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/swipe_parser.py ../program_out/{name}/swipe/{name}.swipe", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/swipe_parser.py {TMPDIR}/{name}/swipe/{name}.swipe -d {TMPDIR}", shell=True)
     if "swipe_xargs" in program_list:
         print("Running swipe_xargs_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/swipe_xargs_parser.py ../program_out/{name}/swipe_xargs", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/swipe_xargs_parser.py {TMPDIR}/{name}/swipe_xargs -d {TMPDIR}", shell=True)
     if "water" in program_list:
         print("Running water_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/water_parser.py ../program_out/{name}/water", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/water_parser.py {TMPDIR}/{name}/water -d {TMPDIR}", shell=True)
     if "adept" in program_list:
         print("Running adept_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_parser.py ../program_out/{name}/adept/{name}.adept", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_parser.py {TMPDIR}/{name}/adept/{name}.adept -d {TMPDIR}", shell=True)
     if "adept_as" in program_list:
         print("Running adept_as_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_as_parser.py ../program_out/{name}/adept_as/{name}.adept_as", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_as_parser.py {TMPDIR}/{name}/adept_as/{name}.adept_as -d {TMPDIR}", shell=True)
     if "adept_as_xargs" in program_list:
         print("Running adept_as_xargs_parser...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_as_xargs_parser.py ../program_out/{name}/adept_as_xargs", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/output_parsers/adept_as_xargs_parser.py {TMPDIR}/{name}/adept_as_xargs -d {TMPDIR}", shell=True)
 
 
 def main():
@@ -99,6 +99,10 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
+    parser.add_argument("-r", "--res-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path to copy results into.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -126,6 +130,9 @@ def main():
 
     args = parser.parse_args()
 
+    TMPDIR = os.path.abspath(args.tmp_dir)
+    RESDIR = os.path.abspath(args.res_dir)
+
     # parsing input file paths
     if len(args.input) == 1:
         ori_query_file = args.input[0]
@@ -140,23 +147,17 @@ def main():
     name = args.name
     if name == None:
         name = f"{ori_query_file.split('/')[-1]}.{ori_db_file.split('/')[-1]}"
-    print(f"Creating output directory: {os.path.abspath(f'../program_out/{name}')}")
+    print(f"Creating temporary directory: {TMPDIR}/{name}", flush=True)
     os.chdir(os.path.dirname(sys.path[0]))
-    if os.path.exists(f"../program_out/{name}"):
-        shutil.rmtree(f"../program_out/{name}")
-    os.makedirs(f"../program_out/{name}/data")
+    if os.path.exists(f"{TMPDIR}/{name}"):
+        shutil.rmtree(f"{TMPDIR}/{name}")
+    os.makedirs(f"{TMPDIR}/{name}/data")
 
-    # copy input files into program_out/{name}/data
-    shutil.copy(ori_query_file, f"../program_out/{name}/data/query.fasta")
-    shutil.copy(ori_db_file, f"../program_out/{name}/data/db.fasta")
-    # copy input files into /tmp/{name}, this is where the input files are read from the alignment programs
-    if os.path.exists(f"/tmp/{name}"):
-        shutil.rmtree(f"/tmp/{name}")
-    os.makedirs(f"/tmp/{name}/data")
-    shutil.copy(f"../program_out/{name}/data/query.fasta", f"/tmp/{name}/data/query.fasta")
-    shutil.copy(f"../program_out/{name}/data/db.fasta", f"/tmp/{name}/data/db.fasta")
-    query_file = f"/tmp/{name}/data/query.fasta"
-    db_file = f"/tmp/{name}/data/db.fasta"
+    # copy input files into {TMPDIR}/{name}/data
+    shutil.copy(ori_query_file, f"{TMPDIR}/{name}/data/query.fasta")
+    shutil.copy(ori_db_file, f"{TMPDIR}/{name}/data/db.fasta")
+    query_file = f"{TMPDIR}/{name}/data/query.fasta"
+    db_file = f"{TMPDIR}/{name}/data/db.fasta"
 
     # create program_list
     if args.programs == "all":
@@ -174,26 +175,43 @@ def main():
 
     # write parameters summary file
     # TODO: write original query/db name instead of query/db.fasta
-    print("Writing parameters to parameters.txt")
-    with open(f"../program_out/{name}/parameters.txt", "w") as f:
-        f.write(f"{os.path.abspath(ori_query_file)=}\n{os.path.abspath(ori_db_file)=}\n{name=}\n{args.matrix=}\n{args.gapopen=}\n{args.gapextension=}\n{args.min_score=}\n{args.max_evalue=}\n{args.num_threads=}\n{args.num_gpus=}\n{args.chunksize=}\n{program_list=}\n{exact_programs=}\n{args.level=}")
+    print("Writing parameters to parameters.txt", flush=True)
+    with open(f"{TMPDIR}/{name}/parameters.txt", "w") as f:
+        f.write(f"{os.path.abspath(ori_query_file)=}\n{os.path.abspath(ori_db_file)=}\n{TMPDIR=}\n{name=}\n{args.matrix=}\n{args.gapopen=}\n{args.gapextension=}\n{args.min_score=}\n{args.max_evalue=}\n{args.num_threads=}\n{args.num_gpus=}\n{args.chunksize=}\n{program_list=}\n{exact_programs=}\n{args.level=}")
 
     # prepare database
-    print("Running prepare_database.py...")
+    print("Running prepare_database.py...", flush=True)
     subprocess.run(f"scripts/prepare_database.py {query_file} {db_file} -t {args.num_threads} -g {args.num_gpus} -p {program_string} -s {args.chunksize}", shell=True)
 
     # run alignment programs
-    call_programs(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.min_score, args.max_evalue, args.num_threads, args.num_gpus, program_list, args.chunksize)
+    call_programs(query_file, db_file, TMPDIR, name, args.matrix, args.gapopen, args.gapextension, args.min_score, args.max_evalue, args.num_threads, args.num_gpus, program_list, args.chunksize)
 
     if args.level >= 1:
         # run output parsers
-        call_output_parsers(name, program_list)
-        print("Finished parsing output.")
+        call_output_parsers(name, program_list, TMPDIR)
+        print("Finished parsing output.", flush=True)
 
-    subprocess.run(f"scripts/compare_results.py ../program_out/{name} ../program_out/{name}/data/query.fasta ../program_out/{name}/data/db.fasta -c {args.min_score} -v {args.max_evalue} -p {program_string} -x {exact_programs_string} -l {args.level}", shell=True)
+    # get SLURM output file name, if script was not called as a SLURM job the parsing of CPU usage is skipped
+    slurm_out = "/scratch/cube/tuechler/protein_alignment/scripts/SLURM/" + subprocess.check_output(f"echo $SLURM_JOB_NAME-$SLURM_JOB_ID.out", shell=True).decode(sys.stdout.encoding).strip()
+    if os.path.isfile(slurm_out):
+        compare_cpu_usage = True
+        # parsing CPU usage
+        subprocess.run(f"scripts/cpu_usage_parser.py {slurm_out} -n {name} -d {TMPDIR} -p {program_string}", shell=True)
+    else:
+        compare_cpu_usage = False
 
-    # remove /tmp/{name}
-    shutil.rmtree(f"/tmp/{name}")
+    # run compare_results.py
+    subprocess.run(f"scripts/compare_results.py {TMPDIR}/{name} {TMPDIR}/{name}/data/query.fasta {TMPDIR}/{name}/data/db.fasta -c {args.min_score} -v {args.max_evalue} -p {program_string} -x {exact_programs_string} -l {args.level} {['', '--cpu-usage'][compare_cpu_usage]}", shell=True)
+
+    if TMPDIR != RESDIR:
+        # copy results to RESDIR, for now all files are copied - TODO: only copy parsed files and plots
+        print("Begin copying...", flush=True) # TODO remove
+        if os.path.exists(f"{RESDIR}/{name}"):
+            shutil.rmtree(f"{RESDIR}/{name}")
+        shutil.copytree(f"{TMPDIR}/{name}", f"{RESDIR}/{name}")
+        # remove {TMPDIR}/{name}
+        shutil.rmtree(f"{TMPDIR}/{name}")
+        print(f"Output is copied from {TMPDIR}/{name} to {RESDIR}/{name}")
  
 if __name__ == '__main__':
     main()

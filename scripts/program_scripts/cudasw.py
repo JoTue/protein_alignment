@@ -7,15 +7,15 @@ import time
 import argparse
 import sys
 
-def cudasw(query_file, db_file, name, matrix, gapopen, gapextension, num_threads, num_gpus, min_score):
+def cudasw(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, num_threads, num_gpus, min_score):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/cudasw")
+        os.mkdir(f"{TMPDIR}/{name}/cudasw")
     except FileExistsError:
         pass
 
@@ -23,15 +23,15 @@ def cudasw(query_file, db_file, name, matrix, gapopen, gapextension, num_threads
     t1 = time.perf_counter()
     
     # -qprf 0 fails (for larger files?)
-    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query_file} -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw/{name}.cudasw", shell=True)
+    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query_file} -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw/{name}.cudasw", shell=True)
 
     # TODO: experiment which (file sizes)/sequence lengths (500?) are ok, try out -qrpf 0/1
     # or: split query file in separate input files
     # for query in os.scandir(f"{input_file}_separate"):
-    #     subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query.path} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -topscore_num 1000000 -min_score 0 -num_gpus 1 -num_threads 4 &> ../program_out/{name}/cudasw/{query.name}.cudasw", shell=True)
+    #     subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query.path} -db {input_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -topscore_num 1000000 -min_score 0 -num_gpus 1 -num_threads 4 &> {TMPDIR}/{name}/cudasw/{query.name}.cudasw", shell=True)
 
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/cudasw/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/cudasw/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -42,6 +42,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -73,7 +75,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    cudasw(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score)
+    cudasw(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score)
  
 if __name__ == '__main__':
     main()

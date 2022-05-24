@@ -7,24 +7,24 @@ import time
 import argparse
 import sys
 
-def water(query_file, db_file, name, matrix, gapopen, gapextension):
+def water(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/water")
+        os.mkdir(f"{TMPDIR}/{name}/water")
     except FileExistsError:
         pass
 
     # run water
     t1 = time.perf_counter()
     for query in os.scandir(f"{query_file}_separate"):
-        subprocess.run(f"water {query.path} {db_file} -gapopen {gapopen} -gapextend {gapextension} -datafile /apps/emboss/6.6.0/emboss/data/E{matrix} -sprotein -aformat score -outfile ../program_out/{name}/water/{query.name}.water", shell=True) # add to supress messages to stdout: >/dev/null 2>&1
+        subprocess.run(f"water {query.path} {db_file} -gapopen {gapopen} -gapextend {gapextension} -datafile /apps/emboss/6.6.0/emboss/data/E{matrix} -sprotein -aformat score -outfile {TMPDIR}/{name}/water/{query.name}.water", shell=True) # add to supress messages to stdout: >/dev/null 2>&1
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/water/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/water/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 
@@ -36,6 +36,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -61,7 +63,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    water(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension)
+    water(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension)
  
 if __name__ == '__main__':
     main()

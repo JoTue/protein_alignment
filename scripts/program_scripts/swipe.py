@@ -7,15 +7,15 @@ import time
 import argparse
 import sys
 
-def swipe(query_file, db_file, name, matrix, gapopen, gapextension, num_threads, min_score):
+def swipe(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, num_threads, min_score):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/swipe")
+        os.mkdir(f"{TMPDIR}/{name}/swipe")
     except FileExistsError:
         pass
 
@@ -23,9 +23,9 @@ def swipe(query_file, db_file, name, matrix, gapopen, gapextension, num_threads,
 
     # run swipe
     t1 = time.perf_counter()
-    subprocess.run(f"swipe -i {query_file} -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/emboss/data/E{matrix} -a {num_threads} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > ../program_out/{name}/swipe/{name}.swipe", shell=True)
+    subprocess.run(f"swipe -i {query_file} -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/emboss/data/E{matrix} -a {num_threads} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > {TMPDIR}/{name}/swipe/{name}.swipe", shell=True)
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/swipe/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/swipe/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -36,6 +36,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -65,7 +67,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    swipe(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.min_score)
+    swipe(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.min_score)
  
 if __name__ == '__main__':
     main()

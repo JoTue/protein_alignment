@@ -7,24 +7,24 @@ import time
 import argparse
 import sys
 
-def blast(query_file, db_file, name, matrix, gapopen, gapextension, max_evalue, num_threads):
+def blast(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, max_evalue, num_threads):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/blast")
+        os.mkdir(f"{TMPDIR}/{name}/blast")
     except FileExistsError:
         pass
 
     # run blast
     t1 = time.perf_counter()
     # TODO: threads, different comp_based_stats, note: doesn´t find a hit for each pair
-    subprocess.run(f"blastp -query {query_file} -db {db_file} -gapopen {gapopen} -gapextend {gapextension} -matrix {matrix} -num_threads {num_threads} -evalue {max_evalue} -comp_based_stats 2  -max_hsps 1 -num_descriptions 1000000 -num_alignments 1000000 > ../program_out/{name}/blast/{name}.blast", shell=True)
+    subprocess.run(f"blastp -query {query_file} -db {db_file} -gapopen {gapopen} -gapextend {gapextension} -matrix {matrix} -num_threads {num_threads} -evalue {max_evalue} -comp_based_stats 2  -max_hsps 1 -num_descriptions 1000000 -num_alignments 1000000 > {TMPDIR}/{name}/blast/{name}.blast", shell=True)
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/blast/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/blast/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -35,6 +35,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -64,7 +66,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    blast(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
+    blast(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.max_evalue, args.num_threads)
  
 if __name__ == '__main__':
     main()

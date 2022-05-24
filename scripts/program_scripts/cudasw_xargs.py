@@ -7,15 +7,15 @@ import time
 import argparse
 import sys
 
-def cudasw_xargs(query_file, db_file, name, matrix, gapopen, gapextension, num_threads, num_gpus, min_score, chunk_s):
+def cudasw_xargs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, num_threads, num_gpus, min_score, chunk_s):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/cudasw_xargs")
+        os.mkdir(f"{TMPDIR}/{name}/cudasw_xargs")
     except FileExistsError:
         pass
 
@@ -34,11 +34,11 @@ def cudasw_xargs(query_file, db_file, name, matrix, gapopen, gapextension, num_t
     # !!! set -num_gpus BEFORE -use_single
     if chunk_s:
         # TODO: better GPU selection strategy
-        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=([]-1)%{num_gpus}\"; echo start [] $i; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw_xargs/[].cudasw_xargs ; echo end [] $i; date; uptime; nvidia-smi'", shell=True)
+        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=([]-1)%{num_gpus}\"; echo start [] $i; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end [] $i; date; uptime; nvidia-smi'", shell=True)
     else:
-        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=[]-1\"; echo start []; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> ../program_out/{name}/cudasw_xargs/[].cudasw_xargs ; echo end []; date; uptime; nvidia-smi'", shell=True)
+        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=[]-1\"; echo start []; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end []; date; uptime; nvidia-smi'", shell=True)
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/cudasw_xargs/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/cudasw_xargs/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -49,6 +49,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -82,7 +84,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    cudasw_xargs(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score, args.chunksize)
+    cudasw_xargs(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.num_threads, args.num_gpus, args.min_score, args.chunksize)
  
 if __name__ == '__main__':
     main()

@@ -22,3 +22,14 @@ cudasw: error with query profile variant (also if total query length < threshold
 
 DEDAL: Figure S3: per sec: 4 TPU, ~10000 pairs, 300nt
 CUDASW: per sec: 6 GPUs, ~1.2Mio pairs
+
+Runtime comparisons: check CPU usage, check end time difference between chunks
+
+Things/parameters to test:
+- query/db size, find optimal dimensions for each programs
+- chunksize parameter
+- temporary directory (program_out, /tmp, /dev/shm)
+- number of CPUs/GPUs, scale up to 24/6? (swipe probably not with program_out, but hopefully with tmpfs)
+
+ADEPT: build error at newest commit, build works for commit e929d1fc892701397a27ba6c1a40651ed15a4d82
+ADEPT: program is stuck if no alignment with positive score exists

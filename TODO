@@ -33,6 +33,10 @@
 - GNU parallel instead of xargs?; swipe-xargs as bash script instead of python script @done
 - different file size for cudasw in ad_9
 - wfsw: reduce memory consumption
-- use /tmp directory of SLURM job, alternatively use /dev/shm - but needs cleanup procedure in case job is killed
-- align_database10b.sh stuck at adept_xargs!, seem to exist additional processes on GPU_ID 0...
-- debug_level: e.g. uptime, nvidia-smit info
+- use /tmp directory of SLURM job, alternatively use /dev/shm - but needs cleanup procedure in case job is killed @done
+- align_database10b.sh stuck at adept_xargs!, seem to exist additional processes on GPU_ID 0 (for each thread an additional process at GPU 0), maybe modify adept script (driver intitialization?) @done
+- debug_level: e.g. uptime, nvidia-smi info
+- change output parsing, replace json files with less runtime/memory intensive method @done
+- ADEPT is stuck if optimal alignment == 0; TODO: write issue on their GitHub page; for now: removed sequence with only A/T from swissprot file -> error (hopefully) does not occur for other sequences >=20nt @done
+- ADEPT: test higher batch_size
+- create chunks based on aa length, not sequence number

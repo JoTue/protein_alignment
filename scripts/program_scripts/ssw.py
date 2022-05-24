@@ -7,23 +7,23 @@ import time
 import argparse
 import sys
 
-def ssw(query_file, db_file, name, matrix, gapopen, gapextension, min_score):
+def ssw(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, min_score):
     # create output directory
     os.chdir(os.path.dirname(os.path.dirname(sys.path[0])))
     try:
-        os.mkdir(f"../program_out/{name}")
+        os.mkdir(f"{TMPDIR}/{name}")
     except FileExistsError:
         pass
     try:
-        os.mkdir(f"../program_out/{name}/ssw")
+        os.mkdir(f"{TMPDIR}/{name}/ssw")
     except FileExistsError:
         pass
 
     # run ssw
     t1 = time.perf_counter()
-    subprocess.run(f"../ssw/Complete-Striped-Smith-Waterman-Library/src/pyssw.py -a {matrix} -o {gapopen} -e {gapextension} -f {min_score} -p -l ../ssw/Complete-Striped-Smith-Waterman-Library/src/libssw.so {db_file} {query_file} > ../program_out/{name}/ssw/{name}.ssw", shell=True)
+    subprocess.run(f"../ssw/Complete-Striped-Smith-Waterman-Library/src/pyssw.py -a {matrix} -o {gapopen} -e {gapextension} -f {min_score} -p -l ../ssw/Complete-Striped-Smith-Waterman-Library/src/libssw.so {db_file} {query_file} > {TMPDIR}/{name}/ssw/{name}.ssw", shell=True)
     t2 = time.perf_counter()
-    with open(f"../program_out/{name}/ssw/time.txt", "w") as f:
+    with open(f"{TMPDIR}/{name}/ssw/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
 
 def main():
@@ -34,6 +34,8 @@ def main():
 
     parser.add_argument("input", nargs="+",
         help="File paths of query and database files (space-separated). If only one file path is given, it will be used as query and database.")
+    parser.add_argument("-d", "--tmp-dir", default=f"{os.path.dirname(os.path.dirname(sys.path[0]))}/program_out",
+        help="Directory path used as temporary directory to read in files and write output.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
     parser.add_argument("-m", "--matrix", default="BLOSUM50",
@@ -61,7 +63,7 @@ def main():
     if name == None:
         name = f"{query_file.split('/')[-1]}.{db_file.split('/')[-1]}"
 
-    ssw(query_file, db_file, name, args.matrix, args.gapopen, args.gapextension, args.min_score)
+    ssw(query_file, db_file, args.tmp_dir, name, args.matrix, args.gapopen, args.gapextension, args.min_score)
  
 if __name__ == '__main__':
     main()
