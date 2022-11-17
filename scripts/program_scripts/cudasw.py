@@ -23,7 +23,7 @@ def cudasw(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, num
     t1 = time.perf_counter()
     
     # -qprf 0 fails (for larger files?)
-    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query_file} -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw/{name}.cudasw", shell=True)
+    subprocess.run(f"../cudasw++v3.1.2/cudasw -qprf 1 -query {query_file} -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_gpus {num_gpus} -num_threads {num_threads} -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw/{name}.cudasw", shell=True)
 
     # TODO: experiment which (file sizes)/sequence lengths (500?) are ok, try out -qrpf 0/1
     # or: split query file in separate input files
@@ -52,7 +52,7 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")

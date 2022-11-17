@@ -32,7 +32,7 @@ def swipe_xargs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension
     # run swipe
     t1 = time.perf_counter()
     # simap command: seq $QCHUNKS | xargs -I{} --max-procs=$NTHREADS bash -c "../bin/swipe_swlib -M BLOSUM50 -G 13 -E 2 -c 55 -B 75 -i $QTMPDIR/q.{} -d $DTMPDIR/d -m 88 -s2 -b $nseq -v $nseq -o $QTMPDIR/t.{} && mv $QTMPDIR/t.{} $QTMPDIR/r.{}"
-    subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'echo start []; date; uptime; swipe -i {os.path.dirname(query_file)}/{chunk_name}/q_[] -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/emboss/data/E{matrix} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > {TMPDIR}/{name}/swipe_xargs/[].swipe_xargs ; echo end []; date; uptime'", shell=True)
+    subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'echo start []; date; uptime; swipe -i {os.path.dirname(query_file)}/{chunk_name}/q_[] -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/share/EMBOSS/data/E{matrix} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > {TMPDIR}/{name}/swipe_xargs/[].swipe_xargs ; echo end []; date; uptime'", shell=True)
     # bash version:
     # subprocess.run(f"scripts/program_scripts/swipe_xargs.sh {chunk_n} {threads_n} {query_file} {chunk_name} {db_file} {gapopen-gapextension} {gapextension} {matrix} {seq_n} {min_score} {name}", shell=True)    
     t2 = time.perf_counter()
@@ -57,7 +57,7 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")

@@ -13,7 +13,7 @@ cudasw: -num_gpus
 
 
 adept/adept_as work up to at least sp_n6000_0_600, but fail for sp_n8000_0_600 (with 2 GPUs), -> too much memory usage! (use: ulimit -v 100000000)
-adept (and maybe other programs) fails for 5nt long protein -> --min-len 10 (? -> maybe it was because of non-standard aa)
+adept (and maybe other programs) fails for 5nt long protein -> --min-len 10 (? -> maybe it was because of non-standard aa, or optimal score of 0)
 
 adept (multi_gpu) uses as many gpus as reserved in SLURM header, -g parameter has no effect
 
@@ -22,6 +22,7 @@ cudasw: error with query profile variant (also if total query length < threshold
 
 DEDAL: Figure S3: per sec: 4 TPU, ~10000 pairs, 300nt
 CUDASW: per sec: 6 GPUs, ~1.2Mio pairs
+wfsw: per sec: 1 GPU, 55 pairs
 
 Runtime comparisons: check CPU usage, check end time difference between chunks
 
@@ -33,3 +34,32 @@ Things/parameters to test:
 
 ADEPT: build error at newest commit, build works for commit e929d1fc892701397a27ba6c1a40651ed15a4d82
 ADEPT: program is stuck if no alignment with positive score exists
+
+10.08.22
+swipe shared libraries:
+if original lib is in LD_LIBRARY_PATH: works correctly (result: original thresholds used, any custom thresholds are simply ignored) for swipe compiled with AND without DCOMPOTHRESHOLDS
+if customlib/3 (with threshold parameters) is in LD_LIBRARY_PATH: works correctly if compiled with DCOMPOTHRESHOLDS (result: with custom thresholds), wrong if compiled without COMPOTHRESHOLDS (error: adj. performed for all pairs)
+--> can always use compiled version with DCOMPOTHRESHOLDS, and put desired lib in LD_LIBRARY_PATH
+
+Difference in original SIMAP vs new SIMAP due to BLAST lib:
+BLAST+ 2.4.0: June 02, 2016: Score U (selenocysteine) as C (not X) in protein-protein and translated searches.
+
+27.09.22:
+SIMAP versions:
+simap1: "bad" compilation (with ssw.c in Makefile)
+simap2: "good" compilation (with ssw.o in Makefile, but does not create new ssw.o file?)
+simap3: use optimized composition calculation in R1
+simap -> simap4: + making new ssw.o file
+
+15.10.22
+Performance comparison plots:
+Programs: SSW, SWIPE, CUDASW, ADEPT
+Parameters: BLOSUM 62/11/1 (BLAST default), 1 CPU/GPU, sequence length: 20-1000 aa, query/db sizes: 2**24 sequence pairs, 5 iterations
+- vary scoring matrix and gap penalties, BLOSUM 45/50/62/80, respective standard gap penalties, each 2**23 pairs (enough?)
+    SWIPE: all
+    SSW: all (add manually, for now only blosum50/62)
+    CUDASW: blosum45, blosum50, blosum62 and blosum80
+    ADEPT: all (add manually, for now only blosum50/62)
+- vary sequence lengths, e.g. 4 clusters: < 150, 150-450, 450-750, 750-1500; all-vs-all
+- vary query/db sizes, 2**4 x 2**16 - 2**16 x 2**4
+- vary threads (CPU/GPU): (1/1 ?), 4/1, 8/2, 12/3, 16/4, 20/5, 24/6

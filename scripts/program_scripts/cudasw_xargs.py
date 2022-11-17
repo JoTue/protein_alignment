@@ -34,9 +34,9 @@ def cudasw_xargs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextensio
     # !!! set -num_gpus BEFORE -use_single
     if chunk_s:
         # TODO: better GPU selection strategy
-        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=([]-1)%{num_gpus}\"; echo start [] $i; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end [] $i; date; uptime; nvidia-smi'", shell=True)
+        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=([]-1)%{num_gpus}\"; echo start [] $i; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end [] $i; date; uptime; nvidia-smi'", shell=True)
     else:
-        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=[]-1\"; echo start []; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads 1 -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end []; date; uptime; nvidia-smi'", shell=True)
+        subprocess.run(f"seq {chunk_n} | xargs -I[] --max-procs={threads_n} bash -c 'let \"i=[]-1\"; echo start []; date; uptime; nvidia-smi; ../cudasw++v3.1.2/cudasw -qprf 1 -query {os.path.dirname(query_file)}/{chunk_name}/q_[] -db {db_file} -mat {matrix.lower()} -gapo {gapopen-gapextension} -gape {gapextension} -num_threads {num_threads} -num_gpus {num_gpus} -use_single $i -topscore_num 1000000 -min_score {min_score} &> {TMPDIR}/{name}/cudasw_xargs/[].cudasw_xargs ; echo end []; date; uptime; nvidia-smi'", shell=True)
     t2 = time.perf_counter()
     with open(f"{TMPDIR}/{name}/cudasw_xargs/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
@@ -59,7 +59,7 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")

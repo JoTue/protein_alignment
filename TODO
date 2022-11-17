@@ -28,7 +28,7 @@
 - report uptime in xargs command (for CPU load) @done
 - try other parameters: e.g. BLOSUM62/11/1
 - fix ssw -matrix @done
-- gpu xargs if chunksize is specified, how to specify GPU_ID?
+- gpu xargs if chunksize is specified, how to specify GPU_ID?, --> https://stackoverflow.com/questions/43967405/how-to-get-the-id-of-gpu-allocated-to-a-slurm-job-on-a-multiple-gpus-node
 - split by chunknumber: make better split @done
 - GNU parallel instead of xargs?; swipe-xargs as bash script instead of python script @done
 - different file size for cudasw in ad_9
@@ -39,4 +39,10 @@
 - change output parsing, replace json files with less runtime/memory intensive method @done
 - ADEPT is stuck if optimal alignment == 0; TODO: write issue on their GitHub page; for now: removed sequence with only A/T from swissprot file -> error (hopefully) does not occur for other sequences >=20nt @done
 - ADEPT: test higher batch_size
-- create chunks based on aa length, not sequence number
+- create chunks based on aa length, not sequence number @done
+- wfsw: score only mode @done
+- error in adept multi-gpu
+- test cudasw query profile
+- runtime plot, numbers above bars too far if difference between min/max is small
+SIMAP:
+    - masking correctly implemented in align_adjusted4 ?

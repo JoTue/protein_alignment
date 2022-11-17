@@ -1,3 +1,8 @@
-# Protein alignment
+# Protein alignment implementation comparison
 
-Performance testing of protein alignment programs.
+Performance testing framework for protein alignment programs.
+
+Usage help: 
+```sh 
+scripts/align_database.py --help 
+```

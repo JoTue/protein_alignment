@@ -54,7 +54,7 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")

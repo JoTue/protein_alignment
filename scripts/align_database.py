@@ -8,7 +8,7 @@ import shutil
 import sys
 
 
-def call_programs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, min_score, max_evalue, num_threads, num_gpus, program_list, chunk_s):
+def call_programs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, min_score, min_score2, max_evalue, num_threads, num_gpus, program_list, chunk_s):
     print("Start calling of alignment programs", flush=True)
     if "blast" in program_list:
         print("Running blast...", flush=True)
@@ -36,7 +36,7 @@ def call_programs(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextensi
         subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
     if "swipe_swlib_xargs" in program_list:
         print("Running swipe_swlib_xargs...", flush=True)
-        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_swlib_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -s {chunk_s}", shell=True)
+        subprocess.run(f"/usr/bin/time scripts/program_scripts/swipe_swlib_xargs.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension} -t {num_threads} -c {min_score} -B {min_score2} -s {chunk_s}", shell=True)
     if "water" in program_list:
         print("Running water...", flush=True)
         subprocess.run(f"/usr/bin/time scripts/program_scripts/water.py {query_file} {db_file} -d {TMPDIR} -n {name} -m {matrix} -o {gapopen} -e {gapextension}", shell=True)
@@ -105,14 +105,16 @@ def main():
         help="Directory path to copy results into.")
     parser.add_argument("-n", "--name", default=None,
         help="Name of output directory. ")  
-    parser.add_argument("-m", "--matrix", default="BLOSUM50",
+    parser.add_argument("-m", "--matrix", default="BLOSUM62",
         help="Name of the substitution matrix: BLOSUM50 or BLOSUM62")
-    parser.add_argument("-o", "--gapopen", type=int, default=15,
+    parser.add_argument("-o", "--gapopen", type=int, default=11,
         help="Gap open penalty. Penalty for a gap of n positions: gap opening penalty + (n - 1) * gap extension penalty")
-    parser.add_argument("-e", "--gapextension", type=int, default=2,
+    parser.add_argument("-e", "--gapextension", type=int, default=1,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
+    parser.add_argument("-B", "--min-score2", type=int, default=75,
+        help="Minimimum score cutoff of stage 2 of swipe_swlib.")
     parser.add_argument("-v", "--max-evalue", type=int, default=20,
         help="Maximum e-value.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
@@ -177,14 +179,14 @@ def main():
     # TODO: write original query/db name instead of query/db.fasta
     print("Writing parameters to parameters.txt", flush=True)
     with open(f"{TMPDIR}/{name}/parameters.txt", "w") as f:
-        f.write(f"{os.path.abspath(ori_query_file)=}\n{os.path.abspath(ori_db_file)=}\n{TMPDIR=}\n{name=}\n{args.matrix=}\n{args.gapopen=}\n{args.gapextension=}\n{args.min_score=}\n{args.max_evalue=}\n{args.num_threads=}\n{args.num_gpus=}\n{args.chunksize=}\n{program_list=}\n{exact_programs=}\n{args.level=}")
+        f.write(f"{os.path.abspath(ori_query_file)=}\n{os.path.abspath(ori_db_file)=}\n{TMPDIR=}\n{name=}\n{args.matrix=}\n{args.gapopen=}\n{args.gapextension=}\n{args.min_score=}\n{args.min_score2=}\n{args.max_evalue=}\n{args.num_threads=}\n{args.num_gpus=}\n{args.chunksize=}\n{program_list=}\n{exact_programs=}\n{args.level=}")
 
     # prepare database
     print("Running prepare_database.py...", flush=True)
     subprocess.run(f"scripts/prepare_database.py {query_file} {db_file} -t {args.num_threads} -g {args.num_gpus} -p {program_string} -s {args.chunksize}", shell=True)
 
     # run alignment programs
-    call_programs(query_file, db_file, TMPDIR, name, args.matrix, args.gapopen, args.gapextension, args.min_score, args.max_evalue, args.num_threads, args.num_gpus, program_list, args.chunksize)
+    call_programs(query_file, db_file, TMPDIR, name, args.matrix, args.gapopen, args.gapextension, args.min_score, args.min_score2, args.max_evalue, args.num_threads, args.num_gpus, program_list, args.chunksize)
 
     if args.level >= 1:
         # run output parsers

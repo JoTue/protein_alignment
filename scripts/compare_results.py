@@ -207,7 +207,7 @@ def main():
         help="Query file path.")
     parser.add_argument("db",
         help="Database file path.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-v", "--max-evalue", type=int, default=20,
         help="Maximum e-value.")

@@ -23,7 +23,7 @@ def swipe(query_file, db_file, TMPDIR, name, matrix, gapopen, gapextension, num_
 
     # run swipe
     t1 = time.perf_counter()
-    subprocess.run(f"swipe -i {query_file} -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/emboss/data/E{matrix} -a {num_threads} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > {TMPDIR}/{name}/swipe/{name}.swipe", shell=True)
+    subprocess.run(f"swipe -i {query_file} -d {db_file} -G {gapopen-gapextension} -E {gapextension} -M /apps/emboss/6.6.0/share/EMBOSS/data/E{matrix} -a {num_threads} -e 1000000 -b {seq_n} -v {seq_n} -c {min_score} > {TMPDIR}/{name}/swipe/{name}.swipe", shell=True)
     t2 = time.perf_counter()
     with open(f"{TMPDIR}/{name}/swipe/time.txt", "w") as f:
         f.write(f"{t2 - t1}")
@@ -46,7 +46,7 @@ def main():
         help="Gap open penalty.")
     parser.add_argument("-e", "--gapextension", type=int, default=2,
         help="Gap extension penalty.")
-    parser.add_argument("-c", "--min-score", type=int, default=50,
+    parser.add_argument("-c", "--min-score", type=int, default=55,
         help="Minimimum score of alignments to show.")
     parser.add_argument("-t", "--num-threads", type=int, default=1,
         help="Number of CPU threads.")
